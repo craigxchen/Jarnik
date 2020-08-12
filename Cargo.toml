@@ -1,5 +1,5 @@
 [package]
-name = "Jarnik"
+name = "jarnik"
 version = "0.1.0"
 authors = ["Craig Chen <craig.chen@duke.edu>"]
 edition = "2018"
