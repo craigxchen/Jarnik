@@ -1,19 +1,34 @@
+extern crate csv;
+
 use std::collections::HashMap;
 use std::vec::Vec;
 use std::f64::consts::PI;
+use std::error;
+use csv::Writer;
 
-const BETA: f64 = 1.0/3.0;
+const BETA: f64 = 0.5;
 const MIN_R: u64 = 10;
-const MAX_R: u64 = 10;
+const MAX_R: u64 = 1000000;
 const VALID_RESIDUALS: [u64; 5] = [1,4,5,6,9];
 
-fn main() {
+fn main() -> Result<(), Box<dyn error::Error>>{
    let res = get_max_lattice_points(MIN_R, MAX_R);
 
-    println!("The maximum number of lattice points for beta = {} is {}", &BETA, &res)
+    let max_count = res.values().max().unwrap();
+
+    println!("From radius = {} to {}", MIN_R, MAX_R);
+    println!("The maximum number of lattice points for beta = {} is {:?}", BETA, max_count);
+
+    let mut wtr = Writer::from_path("jarnik.csv")?;
+    wtr.write_record(&["Radius", "Max Lattice Points"])?;
+    for (k,v) in res.iter() {
+        wtr.serialize(&[k, v])?;
+    }
+    wtr.flush()?;
+    Ok(())
 }
 
-fn get_max_lattice_points<'a>(min_r: u64, max_r: u64) -> u64 {
+fn get_max_lattice_points<'a>(min_r: u64, max_r: u64) -> HashMap<u64, u64> {
     let mut rad_counts: HashMap<u64,u64> = HashMap::new();
 
     for radius in min_r..max_r+1 {
@@ -71,9 +86,5 @@ fn get_max_lattice_points<'a>(min_r: u64, max_r: u64) -> u64 {
         }
         rad_counts.insert(radius as u64, count);
     }
-    let max_count = rad_counts.values().max().cloned();
-    match max_count {
-        Some(x) => x,
-        None => unimplemented!(),
-    }
+    rad_counts
 }
