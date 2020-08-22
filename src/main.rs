@@ -8,7 +8,7 @@ use csv::Writer;
 
 const BETA: f64 = 0.5;
 const MIN_R: u64 = 10;
-const MAX_R: u64 = 1000000;
+const MAX_R: u64 = 10000;
 const VALID_RESIDUALS: [u64; 5] = [1,4,5,6,9];
 
 fn main() -> Result<(), Box<dyn error::Error>>{
@@ -19,30 +19,33 @@ fn main() -> Result<(), Box<dyn error::Error>>{
     println!("From radius = {} to {}", MIN_R, MAX_R);
     println!("The maximum number of lattice points for beta = {} is {:?}", BETA, max_count);
 
-    let mut wtr = Writer::from_path("jarnik.csv")?;
-    wtr.write_record(&["Radius", "Max Lattice Points"])?;
-    for (k,v) in res.iter() {
-        wtr.serialize(&[k, v])?;
-    }
-    wtr.flush()?;
+    // let mut wtr = Writer::from_path("jarnik1to10.csv")?;
+    // wtr.write_record(&["Radius", "Max Lattice Points"])?;
+    // for (k,v) in res.iter() {
+    //     wtr.serialize(&[k, v])?;
+    // }
+    // wtr.flush()?;
     Ok(())
 }
 
 fn get_max_lattice_points<'a>(min_r: u64, max_r: u64) -> HashMap<u64, u64> {
     let mut rad_counts: HashMap<u64,u64> = HashMap::new();
 
-    for radius in min_r..max_r+1 {
+    for radius in min_r..=max_r {
         let radius = radius as f64;
+        // let radius = (radius as f64).sqrt();
 
         let mut lattice_points: Vec<(f64, f64)> = Vec::new();
         let mut angles: Vec<f64> = Vec::new();
 
-        lattice_points.push((0.0, radius));
+        // lattice_points.push((0.0, radius));
 
-        for i in (((radius / (2 as f64).sqrt()).ceil() as u64)..(radius as u64)).rev() {
+        for i in (((radius / (2 as f64).sqrt()).ceil() as u64)..=(radius.floor() as u64)).rev() {
             let i = i as f64;
             let cand = radius.powf(2.0) - i.powf(2.0);
-            if VALID_RESIDUALS.contains(&((cand as u64) % 10)) {
+            if cand == 0.0 {
+                lattice_points.push((0.0, i));
+            } else if VALID_RESIDUALS.contains(&((cand as u64) % 10)) {
                 let temp = cand.sqrt();
                 if temp.fract() == 0.0 {
                     lattice_points.push((temp, i));
@@ -50,14 +53,19 @@ fn get_max_lattice_points<'a>(min_r: u64, max_r: u64) -> HashMap<u64, u64> {
             }
         }
         let lp_len = lattice_points.len();
-        // println!("{:?}",lattice_points);
-        for i in 0..(lp_len-1) {
-            let (x1, y1) = lattice_points[i];
-            let (x2, y2) = lattice_points[i+1];
-            let a1 = y1.atan2(x1);
-            let a2 = y2.atan2(x2);
-            angles.push(a1 - a2)
+        if lp_len > 0 {
+            for i in 0..(lp_len-1) {
+                let (x1, y1) = lattice_points[i];
+                let (x2, y2) = lattice_points[i + 1];
+                let a1 = y1.atan2(x1);
+                let a2 = y2.atan2(x2);
+                angles.push(a1 - a2)
+            }
+        } else {
+            rad_counts.insert(radius as u64, 0);
+            continue
         }
+
         angles.push( 2.0 * lattice_points[lp_len-1].1.atan2(lattice_points[lp_len-1].0) - PI/2.0 );
         let mut rev_angles:Vec<f64> = Vec::new();
         rev_angles.extend(angles.clone().iter().rev());
@@ -66,7 +74,7 @@ fn get_max_lattice_points<'a>(min_r: u64, max_r: u64) -> HashMap<u64, u64> {
 
         let mut count: u64 = 0;
 
-        let arc_length: f64 = (2 as f64).sqrt() * radius.powf(BETA);
+        let arc_length: f64 = radius.powf(BETA);
         let max_ang: f64 = arc_length / radius;
 
         for i in 0..angles.len() {
