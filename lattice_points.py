@@ -1,32 +1,40 @@
 import math
-import gmpy2
 
-epsilon = 0
+beta = 1/2
 
-MIN_R = 1000
-MAX_R = 10000
+MIN_R = 5695325
+MAX_R = 5695325
 
 max_counts = {}
 for radius in range(MIN_R, MAX_R + 1):
+    radius = math.sqrt(radius)
     
-    arc_length = math.sqrt(2) * radius**(0.5-epsilon)
+    arc_length = radius**(beta) 
     max_ang = arc_length / radius
     
     # find lattice points
-    lp = [(0,radius)]
+    lp = []
     
-    for i in reversed(range(int(radius//math.sqrt(2))+1,radius)):
+    for i in reversed(range(math.ceil(radius//math.sqrt(2)), math.floor(radius))):
         cand = radius**2 - i**2
+        if cand == 0:
+            lp.append(0,radius)
         # for small radius, can compare against list of perfect squares instead?
-        if gmpy2.is_square(cand):
+        elif math.sqrt(cand).is_integer():
             lp.append((math.sqrt(cand),i))
     
-    angles = []
+    # angle from first point to its reflection across y-axis
+    angles = [2 * math.atan2(*lp[0])]
+    
+    # angles between lattice points
     for j in range(len(lp)-1):
         angles.append( math.atan2(*lp[j][::-1])-math.atan2(*lp[j+1][::-1]) )
         
+    # angle between point closest to y=x and its reflection
     angles.append( 2*math.atan2(*lp[-1][::-1]) - math.pi/2 )
+    # extend to first quadrant
     angles.extend(angles[-2::-1])
+    # extend to entire right semi-circle
     angles.extend(angles)
 
     
@@ -38,7 +46,7 @@ for radius in range(MIN_R, MAX_R + 1):
     
         for ang in angles[i:]:
             running_sum += ang
-            if running_sum > max_ang:
+            if running_sum >= max_ang:
                 break
             running_count += 1
              
