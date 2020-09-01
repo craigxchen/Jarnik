@@ -8,4 +8,4 @@ __pycache__/
 target/
 *.csv
 *.sh
-data/
+*.zip
