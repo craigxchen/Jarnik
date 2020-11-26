@@ -1,57 +1,52 @@
+### EDIT TO COMPUTE ORDER RATHER THAN COUNT
+
 import math
+import gmpy2
+from gmpy2 import mpz
 
-beta = 1/2
+beta = 1/3
+n = 4
 
-MIN_R = 5695325
-MAX_R = 5695325
+# R^2 with 4 lattice points: 548169245, 567454025 
 
-max_counts = {}
-for radius in range(MIN_R, MAX_R + 1):
-    radius = math.sqrt(radius)
+MIN_R = 5
+MAX_R = 5
+
+min_coeffs = {}
+for rad_squared in range(MIN_R, MAX_R + 1):
     
-    arc_length = radius**(beta) 
-    max_ang = arc_length / radius
-    
+    radius = math.sqrt(rad_squared)
+
     # find lattice points
     lp = []
     
-    for i in reversed(range(math.ceil(radius//math.sqrt(2)), math.floor(radius))):
-        cand = radius**2 - i**2
+    for i in reversed(range(math.ceil(radius/math.sqrt(2)), math.floor(radius)+1)):
+        cand = mpz(rad_squared - i**2)
         if cand == 0:
-            lp.append(0,radius)
+            lp.append((0,radius))
         # for small radius, can compare against list of perfect squares instead?
-        elif math.sqrt(cand).is_integer():
-            lp.append((math.sqrt(cand),i))
+        elif gmpy2.is_square(cand):
+            lp.append((int(math.sqrt(cand)),i))
     
-    # angle from first point to its reflection across y-axis
-    angles = [2 * math.atan2(*lp[0])]
+    if not lp:
+        continue
     
-    # angles between lattice points
-    for j in range(len(lp)-1):
-        angles.append( math.atan2(*lp[j][::-1])-math.atan2(*lp[j+1][::-1]) )
+    for pt in reversed(lp):
+        lp.append(pt[::-1])
         
-    # angle between point closest to y=x and its reflection
-    angles.append( 2*math.atan2(*lp[-1][::-1]) - math.pi/2 )
-    # extend to first quadrant
-    angles.extend(angles[-2::-1])
-    # extend to entire right semi-circle
-    angles.extend(angles)
+    if radius.is_integer():
+        lp.extend([(x,-y) for (x,y) in lp[-2::-1]])
+    else:
+        lp.extend([(x,-y) for (x,y) in lp[::-1]])
+    
+    min_coeff = (math.atan2(*lp[0][::-1])-math.atan2(*lp[n-1][::-1])) * rad_squared**(0.5*(1-beta))
+    for i in range(1,len(lp)-n-1):
+        coeff = (math.atan2(*lp[i][::-1])-math.atan2(*lp[i+n-1][::-1])) * rad_squared**(0.5*(1-beta))
+        if min_coeff > coeff:
+            min_coeff = coeff
+        else:
+            continue
+    
+    min_coeffs[rad_squared] = min_coeff
 
-    
-    count = []
-    for i in range(len(angles)):
-        # check how many lattice points would fit in arc of length radius*max_ang
-        running_sum = 0
-        running_count = 1
-    
-        for ang in angles[i:]:
-            running_sum += ang
-            if running_sum >= max_ang:
-                break
-            running_count += 1
-             
-        count.append(running_count)
-    
-    max_counts[radius] = max(count)
-
-print(f"maximum lattice points found: {max(max_counts.values())}")
+print(f"minimum ratio for n={n} found: {min(min_coeffs.values())}")
