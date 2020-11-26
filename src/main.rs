@@ -4,12 +4,11 @@ use std::collections::HashMap;
 use std::vec::Vec;
 use std::f64::consts::PI;
 use std::error;
-use std::cmp::min;
 // use csv::Writer;
 
 const BETA: f64 = 1.0/3.0;
 const N : usize = 4;
-const MIN_R: u64 = 1;
+const MIN_R: u64 = 65;
 const MAX_R: u64 = 65;
 const VALID_RESIDUALS: [u64; 5] = [1,4,5,6,9];
 
@@ -24,7 +23,7 @@ fn main() -> Result<(), Box<dyn error::Error>>{
 
     println!("From radius = {} to {}", MIN_R, MAX_R);
     // println!("The maximum number of lattice points for beta = {:.4} is {:?}", BETA, max_count);
-    println!("The minimum ratio of arc_length containing {} lattice points to R^beta is {:.4} for beta = {:.4}", N, min_coeffs, BETA);
+    println!("The minimum ratio of arc_length containing {} lattice points to R^beta is {:} for beta = {:.4}", N, min_coeffs, BETA);
     // println!("The corresponding squared radii are {:?}", max_rads);
 
     /* Uncomment if you want to output data to a CSV */
@@ -159,4 +158,24 @@ fn get_latticepoint_counts<'a>(min_r: u64, max_r: u64) -> HashMap<u64, u64> {
         rad_counts.insert(radius_squared, count);
     }
     rad_counts
+}
+
+#[cfg(test)]
+mod tests {
+    use crate::get_arclength_coeffs;
+
+    #[test]
+    fn arc_ratio() {
+        // comparing values for degenerate 4-tuples with the paper
+        // "Close Lattice Points on Circles" by Cilleruelo and Granville
+        let temp = get_arclength_coeffs(5, 5);
+        let ratio = temp.get(&5_u64).unwrap();
+        let abs_dif = ratio - 3.786395353643682;
+        assert!(abs_dif < 1e-10);
+
+        let temp = get_arclength_coeffs(65, 65);
+        let ratio = temp.get(&65_u64).unwrap();
+        let abs_dif = ratio - 4.174688308044826;
+        assert!(abs_dif < 1e-10);
+    }
 }
