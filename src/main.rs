@@ -9,7 +9,7 @@ use std::cmp::min;
 
 const BETA: f64 = 1.0/3.0;
 const N : usize = 4;
-const MIN_R: u64 = 65;
+const MIN_R: u64 = 1;
 const MAX_R: u64 = 65;
 const VALID_RESIDUALS: [u64; 5] = [1,4,5,6,9];
 
@@ -94,14 +94,14 @@ fn get_arclength_coeffs(min_r: u64, max_r: u64) -> HashMap<u64, f64> {
             continue
         };
 
-        let mut min_coeff: f64 = 0.0;
+        let mut min_coeff: f64 = f64::INFINITY;
         for arc_v in lattice_points.windows(N) {
             let (x1, y1) = arc_v[0];
             let (x2, y2) = arc_v[N-1];
             let a1 = y1.atan2(x1);
             let a2 = y2.atan2(x2);
             let coeff = (a1 - a2) * (rad_squared as f64).powf(0.5*(1.0-BETA));
-            if min_coeff == 0.0 || min_coeff > coeff {
+            if min_coeff > coeff {
                 min_coeff = coeff;
             } else {
                 continue
