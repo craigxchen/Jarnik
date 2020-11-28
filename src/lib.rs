@@ -1,22 +1,22 @@
 use std::collections::HashMap;
 use std::vec::Vec;
-use std::f64::consts::PI;
-use std::error;
 
-pub const BETA: f64 = 1.0/3.0;
-pub const N : usize = 4;
+pub const BETA: f64 = 1.0 / 3.0;
+pub const N: usize = 4;
 pub const MIN_R: u64 = 5;
 pub const MAX_R: u64 = 5;
-const VALID_RESIDUALS: [u64; 5] = [1,4,5,6,9];
+const VALID_RESIDUALS: [u64; 5] = [1, 4, 5, 6, 9];
 
-pub fn find_keys_for_value<'a, K: std::cmp::PartialEq>(map: &'a HashMap<u64,K>, value: &K) -> Vec<&'a u64> {
+pub fn find_keys_for_value<'a, K: std::cmp::PartialEq>(
+    map: &'a HashMap<u64, K>,
+    value: &K,
+) -> Vec<&'a u64> {
     map.iter()
         .filter_map(|(key, val)| if val == value { Some(key) } else { None })
         .collect()
 }
 
-#[inline]
-fn get_lattice_points(radius_squared: u64) -> Option<Vec<(f64,f64)>> {
+fn get_lattice_points(radius_squared: u64) -> Option<Vec<(f64, f64)>> {
     let radius = (radius_squared as f64).sqrt();
     let mut lattice_points: Vec<(f64, f64)> = Vec::new();
 
@@ -25,7 +25,12 @@ fn get_lattice_points(radius_squared: u64) -> Option<Vec<(f64,f64)>> {
         let cand = (radius.powi(2) - i.powi(2)).round();
         if cand == 0.0 {
             lattice_points.push((0.0, i));
-        } else if VALID_RESIDUALS.contains(&((cand as u64) % 10)) {
+        } else if (cand as u64) % 10 == 1
+            || (cand as u64) % 10 == 4
+            || (cand as u64) % 10 == 5
+            || (cand as u64) % 10 == 6
+            || (cand as u64) % 10 == 9
+        {
             let temp = cand.sqrt().round();
             if temp.powi(2) == cand {
                 lattice_points.push((temp, i));
@@ -35,7 +40,7 @@ fn get_lattice_points(radius_squared: u64) -> Option<Vec<(f64,f64)>> {
     let lp_len = lattice_points.len();
     if lp_len > 0 {
         for pt in lattice_points.clone().iter().rev() {
-            lattice_points.push((pt.1,pt.0));
+            lattice_points.push((pt.1, pt.0));
         }
         let mut fourth_quad_lp = Vec::new();
 
@@ -56,7 +61,7 @@ fn get_lattice_points(radius_squared: u64) -> Option<Vec<(f64,f64)>> {
 }
 
 pub fn get_arclength_coeffs(min_r: u64, max_r: u64) -> HashMap<u64, f64> {
-    let mut coeffs: HashMap<u64,f64> = HashMap::new();
+    let mut coeffs: HashMap<u64, f64> = HashMap::new();
 
     for rad_squared in min_r..=max_r {
         let lattice_points = if let Some(res) = get_lattice_points(rad_squared) {
@@ -64,7 +69,7 @@ pub fn get_arclength_coeffs(min_r: u64, max_r: u64) -> HashMap<u64, f64> {
         } else {
             // no lattice points, skip to next r^2 value
             coeffs.insert(rad_squared, f64::INFINITY);
-            continue
+            continue;
         };
         // dbg!(lattice_points.clone());
 
@@ -72,14 +77,14 @@ pub fn get_arclength_coeffs(min_r: u64, max_r: u64) -> HashMap<u64, f64> {
         for arc_v in lattice_points.windows(N) {
             // dbg!(arc_v);
             let (x1, y1) = arc_v[0];
-            let (x2, y2) = arc_v[N-1];
+            let (x2, y2) = arc_v[N - 1];
             let a1 = y1.atan2(x1);
             let a2 = y2.atan2(x2);
-            let coeff = (a1 - a2) * (rad_squared as f64).powf(0.5*(1.0-BETA));
+            let coeff = (a1 - a2) * (rad_squared as f64).powf(0.5 * (1.0 - BETA));
             if min_coeff > coeff {
                 min_coeff = coeff;
             } else {
-                continue
+                continue;
             }
         }
         coeffs.insert(rad_squared, min_coeff);
@@ -88,7 +93,7 @@ pub fn get_arclength_coeffs(min_r: u64, max_r: u64) -> HashMap<u64, f64> {
 }
 
 pub fn get_latticepoint_counts<'a>(min_r: u64, max_r: u64) -> HashMap<u64, u64> {
-    let mut rad_counts: HashMap<u64,u64> = HashMap::new();
+    let mut rad_counts: HashMap<u64, u64> = HashMap::new();
 
     for radius_squared in min_r..=max_r {
         let radius = (radius_squared as f64).sqrt();
@@ -98,12 +103,12 @@ pub fn get_latticepoint_counts<'a>(min_r: u64, max_r: u64) -> HashMap<u64, u64> 
         } else {
             // no lattice points, skip to next r^2 value
             rad_counts.insert(radius_squared, 0);
-            continue
+            continue;
         };
 
         // compute angles between lattice points
         let mut angles = Vec::new();
-        for i in 0..(lattice_points.len()-1) {
+        for i in 0..(lattice_points.len() - 1) {
             let (x1, y1) = lattice_points[i];
             let (x2, y2) = lattice_points[i + 1];
             let a1 = y1.atan2(x1);
@@ -123,7 +128,7 @@ pub fn get_latticepoint_counts<'a>(min_r: u64, max_r: u64) -> HashMap<u64, u64> 
             for ang in &angles[i..] {
                 running_ang_sum += *ang;
                 if running_ang_sum >= max_ang {
-                    break
+                    break;
                 }
                 running_count += 1;
             }

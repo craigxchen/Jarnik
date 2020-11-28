@@ -1,6 +1,8 @@
 use jarnik::{
-    get_arclength_coeffs, find_keys_for_value, BETA, MIN_R, MAX_R, N,
-
+    get_arclength_coeffs,
+    find_keys_for_value,
+    // get_latticepoint_counts,
+    BETA, MIN_R, MAX_R, N,
 };
 use std::error;
 // use csv::Writer;
@@ -28,7 +30,12 @@ fn main() -> Result<(), Box<dyn error::Error>>{
     // let mut wtr = Writer::from_path("jarnik_arc_coeffs_5lp_1to1e8.csv")?;
     // wtr.write_record(&["Radius", "Ratio"])?;
     // for (k,v) in lp_coeffs.iter() {
-    //     wtr.serialize(&(k, v))?;
+    //     // if not enough lattice points no need to save data
+    //     // the "inf" comes from the default value we assign
+    //     // to the arc-length ratio
+    //     if !v.is_infinite() {
+    //         wtr.serialize(&(k, v))?;
+    //     }
     // }
     // wtr.flush()?;
     Ok(())
