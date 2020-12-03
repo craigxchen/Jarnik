@@ -1,5 +1,3 @@
-### EDIT TO COMPUTE ORDER RATHER THAN COUNT
-
 import math
 import gmpy2
 from gmpy2 import mpz
@@ -20,6 +18,7 @@ for rad_squared in range(MIN_R, MAX_R + 1):
     # find lattice points
     lp = []
     
+    # calculate lattice points in upper-right octant
     for i in reversed(range(math.ceil(radius/math.sqrt(2)), math.floor(radius)+1)):
         cand = mpz(rad_squared - i**2)
         if cand == 0:
@@ -28,17 +27,22 @@ for rad_squared in range(MIN_R, MAX_R + 1):
         elif gmpy2.is_square(cand):
             lp.append((int(math.sqrt(cand)),i))
     
+    # if there are no lattice points
     if not lp:
         continue
     
+    # reflect lattice points across y=x to get first quadrant
     for pt in reversed(lp):
         lp.append(pt[::-1])
         
+    # reflect across y=0 to get right semicircle
+    # if radius is integer, skip the point on the axis
     if radius.is_integer():
         lp.extend([(x,-y) for (x,y) in lp[-2::-1]])
     else:
         lp.extend([(x,-y) for (x,y) in lp[::-1]])
     
+    # prime the for loop with the first arc-length/radius^beta ratio
     min_coeff = (math.atan2(*lp[0][::-1])-math.atan2(*lp[n-1][::-1])) * rad_squared**(0.5*(1-beta))
     for i in range(1,len(lp)-n-1):
         coeff = (math.atan2(*lp[i][::-1])-math.atan2(*lp[i+n-1][::-1])) * rad_squared**(0.5*(1-beta))
