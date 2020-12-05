@@ -5,7 +5,6 @@ pub const BETA: f64 = 1.0 / 3.0;
 pub const N: usize = 4;
 pub const MIN_R: u64 = 5;
 pub const MAX_R: u64 = 5;
-const VALID_RESIDUALS: [u64; 5] = [1, 4, 5, 6, 9];
 
 pub fn find_keys_for_value<'a, K: std::cmp::PartialEq>(
     map: &'a HashMap<u64, K>,
@@ -17,6 +16,9 @@ pub fn find_keys_for_value<'a, K: std::cmp::PartialEq>(
 }
 
 fn get_lattice_points(radius_squared: u64) -> Option<Vec<(f64, f64)>> {
+    if radius_squared % 4 == 3 {
+        return None;
+    }
     let radius = (radius_squared as f64).sqrt();
     let mut lattice_points: Vec<(f64, f64)> = Vec::new();
 
@@ -68,7 +70,6 @@ pub fn get_arclength_coeffs(min_r: u64, max_r: u64) -> HashMap<u64, f64> {
             res
         } else {
             // no lattice points, skip to next r^2 value
-            coeffs.insert(rad_squared, f64::INFINITY);
             continue;
         };
         // dbg!(lattice_points.clone());
