@@ -1,0 +1,7 @@
+Jarnik
+
+Copyright 2026 Craig X. Chen and contributors.
+
+This project includes Lean 4 formalizations of a sublogarithmic bound for
+lattice points on short circular arcs, together with supporting Gaussian integer,
+determinant, modular collision, Chebyshev interval, and prime descent machinery.
