@@ -8,7 +8,7 @@ open Filter Asymptotics
 
 /-- The window parameter used in the final sublogarithmic bound. -/
 noncomputable def sublogS (R : ℝ) : ℕ :=
-  Nat.ceil (1024 * (Real.log R / Real.log (Real.log R)))
+  Nat.ceil (145 * (Real.log R / Real.log (Real.log R)))
 
 /-- The lower endpoint of the prime stack: a square-root of `log R`. -/
 noncomputable def sublogM₀ (R : ℝ) : ℕ :=
@@ -19,18 +19,18 @@ noncomputable def sublogK (R : ℝ) : ℕ :=
   Nat.floor (Real.log (Real.log R) / (8 * Real.log 8))
 
 theorem sublogS_lower (R : ℝ) :
-    1024 * (Real.log R / Real.log (Real.log R)) ≤ (sublogS R : ℝ) := by
+    145 * (Real.log R / Real.log (Real.log R)) ≤ (sublogS R : ℝ) := by
   unfold sublogS
   exact Nat.le_ceil _
 
 theorem sublogS_upper_of_nonneg
     {R : ℝ}
-    (hX_nonneg : 0 ≤ 1024 * (Real.log R / Real.log (Real.log R)))
-    (hX_one : 1 ≤ 1024 * (Real.log R / Real.log (Real.log R))) :
-    (sublogS R : ℝ) ≤ 2048 * (Real.log R / Real.log (Real.log R)) := by
+    (hX_nonneg : 0 ≤ 145 * (Real.log R / Real.log (Real.log R)))
+    (hratio_one : 1 ≤ Real.log R / Real.log (Real.log R)) :
+    (sublogS R : ℝ) ≤ 146 * (Real.log R / Real.log (Real.log R)) := by
   have hceil_lt :
       (sublogS R : ℝ) <
-        1024 * (Real.log R / Real.log (Real.log R)) + 1 := by
+        145 * (Real.log R / Real.log (Real.log R)) + 1 := by
     unfold sublogS
     exact Nat.ceil_lt_add_one hX_nonneg
   linarith
@@ -121,8 +121,8 @@ theorem eventually_log_sq_le_const_mul_self {c : ℝ} (hc : 0 < c) :
 
 theorem eventually_sublogS_bounds :
     ∀ᶠ R : ℝ in atTop,
-      1024 * (Real.log R / Real.log (Real.log R)) ≤ (sublogS R : ℝ) ∧
-        (sublogS R : ℝ) ≤ 2048 * (Real.log R / Real.log (Real.log R)) := by
+      145 * (Real.log R / Real.log (Real.log R)) ≤ (sublogS R : ℝ) ∧
+        (sublogS R : ℝ) ≤ 146 * (Real.log R / Real.log (Real.log R)) := by
   have hloglog_pos :
       ∀ᶠ R : ℝ in atTop, 0 < Real.log (Real.log R) :=
     (Real.tendsto_log_atTop.comp Real.tendsto_log_atTop).eventually_gt_atTop 0
@@ -139,10 +139,10 @@ theorem eventually_sublogS_bounds :
   have hratio_large : 2048 ≤ Real.log R / Real.log (Real.log R) := by
     rw [le_div_iff₀ hLL]
     nlinarith
-  have hX : 1 ≤ 1024 * (Real.log R / Real.log (Real.log R)) := by
+  have hratio_one : 1 ≤ Real.log R / Real.log (Real.log R) := by
     nlinarith
-  have hX_nonneg : 0 ≤ 1024 * (Real.log R / Real.log (Real.log R)) := by positivity
-  exact ⟨sublogS_lower R, sublogS_upper_of_nonneg hX_nonneg hX⟩
+  have hX_nonneg : 0 ≤ 145 * (Real.log R / Real.log (Real.log R)) := by positivity
+  exact ⟨sublogS_lower R, sublogS_upper_of_nonneg hX_nonneg hratio_one⟩
 
 theorem eventually_two_le_sublogM₀ :
     ∀ᶠ R : ℝ in atTop, 2 ≤ sublogM₀ R := by
@@ -196,10 +196,10 @@ theorem eventually_smallPrime_sublog_parameters :
   have hpow_bound := eventually_sublogK_pow_le_log_rpow
   have hLL_bound :
       ∀ᶠ R : ℝ in atTop,
-        Real.log (Real.log R) ≤ 256 * (Real.log R) ^ (3 / 8 : ℝ) :=
+        Real.log (Real.log R) ≤ (145 / 4) * (Real.log R) ^ (3 / 8 : ℝ) :=
     eventually_log_log_le_log_rpow_mul
       (by norm_num : (0 : ℝ) < 3 / 8)
-      (by norm_num : (0 : ℝ) < 256)
+      (by norm_num : (0 : ℝ) < 145 / 4)
   have hlog_gt_one : ∀ᶠ R : ℝ in atTop, 1 < Real.log R :=
     Real.tendsto_log_atTop.eventually_gt_atTop 1
   have hloglog_pos :
@@ -228,22 +228,22 @@ theorem eventually_smallPrime_sublog_parameters :
     rw [← Real.sqrt_eq_rpow]
   have hscale :
       4 * (Real.sqrt W * W ^ (1 / 8 : ℝ)) ≤
-        1024 * (W / Real.log W) := by
-    rw [show 1024 * (W / Real.log W) = (1024 * W) / Real.log W by ring]
+        145 * (W / Real.log W) := by
+    rw [show 145 * (W / Real.log W) = (145 * W) / Real.log W by ring]
     rw [le_div_iff₀ (by simpa [W] using hLL_pos)]
     calc
       (4 * (Real.sqrt W * W ^ (1 / 8 : ℝ))) * Real.log W
           ≤ (4 * (Real.sqrt W * W ^ (1 / 8 : ℝ))) *
-              (256 * W ^ (3 / 8 : ℝ)) := by
+              ((145 / 4) * W ^ (3 / 8 : ℝ)) := by
             exact mul_le_mul_of_nonneg_left (by simpa [W] using hLL) (by positivity)
-      _ = 1024 * W := by
+      _ = 145 * W := by
             calc
               4 * (Real.sqrt W * W ^ (1 / 8 : ℝ)) *
-                    (256 * W ^ (3 / 8 : ℝ)) =
-                  1024 * (Real.sqrt W * (W ^ (1 / 8 : ℝ) * W ^ (3 / 8 : ℝ))) := by
+                    ((145 / 4) * W ^ (3 / 8 : ℝ)) =
+                  145 * (Real.sqrt W * (W ^ (1 / 8 : ℝ) * W ^ (3 / 8 : ℝ))) := by
                     ring
-              _ = 1024 * (Real.sqrt W * Real.sqrt W) := by rw [hpowprod]
-              _ = 1024 * W := by
+              _ = 145 * (Real.sqrt W * Real.sqrt W) := by rw [hpowprod]
+              _ = 145 * W := by
                     rw [← pow_two, Real.sq_sqrt hW_nonneg]
   have hfourU :
       ((4 * U : ℕ) : ℝ) ≤ (sublogS R : ℝ) := by
@@ -251,8 +251,8 @@ theorem eventually_smallPrime_sublog_parameters :
       calc
         (4 : ℝ) * (U : ℝ) ≤ 4 * (Real.sqrt W * W ^ (1 / 8 : ℝ)) := by
           exact mul_le_mul_of_nonneg_left hU_le (by norm_num)
-        _ ≤ 1024 * (W / Real.log W) := hscale
-        _ = 1024 * (Real.log R / Real.log (Real.log R)) := by rfl
+        _ ≤ 145 * (W / Real.log W) := hscale
+        _ = 145 * (Real.log R / Real.log (Real.log R)) := by rfl
         _ ≤ (sublogS R : ℝ) := hs.1
     simpa [Nat.cast_mul] using hfourU_real
   exact_mod_cast hfourU
@@ -277,9 +277,9 @@ theorem eventually_scale_hypotheses (C : ℝ) (hC : 0 < C) :
     exact htendsto.eventually_ge_atTop 1
   have hlog_sq_small :
       ∀ᶠ R : ℝ in atTop,
-        Real.log R ^ 2 ≤ (C ^ 2 / (2048 : ℝ) ^ 2) * R :=
+        Real.log R ^ 2 ≤ (C ^ 2 / (146 : ℝ) ^ 2) * R :=
     eventually_log_sq_le_const_mul_self
-      (div_pos (sq_pos_of_pos hC) (sq_pos_of_pos (by norm_num : (0 : ℝ) < 2048)))
+      (div_pos (sq_pos_of_pos hC) (sq_pos_of_pos (by norm_num : (0 : ℝ) < 146)))
   filter_upwards [hs_bounds, hsmall, hm₀_two, hloglog_ge_one, hlog_gt_one, hR_large,
     hlog_sq_small] with R hs hsmall hm₀_two hLL_ge_one hW_gt_one hfull hlog_sq
   let U := IntervalStack.geomLower (sublogM₀ R) (sublogK R)
@@ -293,11 +293,11 @@ theorem eventually_scale_hypotheses (C : ℝ) (hC : 0 < C) :
   have hX_le_W : W / Real.log W ≤ W := by
     rw [div_le_iff₀ hLL_pos]
     nlinarith
-  have hs_le_W : (s : ℝ) ≤ 2048 * W := by
+  have hs_le_W : (s : ℝ) ≤ 146 * W := by
     calc
-      (s : ℝ) ≤ 2048 * (Real.log R / Real.log (Real.log R)) := hs.2
-      _ = 2048 * (W / Real.log W) := by rfl
-      _ ≤ 2048 * W := by nlinarith
+      (s : ℝ) ≤ 146 * (Real.log R / Real.log (Real.log R)) := hs.2
+      _ = 146 * (W / Real.log W) := by rfl
+      _ ≤ 146 * W := by nlinarith
   have hU_le_s_nat : U ≤ s := by
     have : 4 * U ≤ s := by simpa [U, s] using hsmall
     omega
@@ -307,30 +307,30 @@ theorem eventually_scale_hypotheses (C : ℝ) (hC : 0 < C) :
     unfold IntervalStack.geomLower
     exact Nat.mul_pos (by omega) (Nat.pow_pos (by norm_num))
   have hU_pos : 0 < (U : ℝ) := by exact_mod_cast hU_pos_nat
-  have hbig : (2048 * W) ^ 2 ≤ C ^ 2 * R := by
-    have h2048sq_pos : (0 : ℝ) < (2048 : ℝ) ^ 2 := sq_pos_of_pos (by norm_num)
+  have hbig : (146 * W) ^ 2 ≤ C ^ 2 * R := by
+    have h146sq_pos : (0 : ℝ) < (146 : ℝ) ^ 2 := sq_pos_of_pos (by norm_num)
     have hmul :
-        (2048 : ℝ) ^ 2 * W ^ 2 ≤ (2048 : ℝ) ^ 2 * ((C ^ 2 / (2048 : ℝ) ^ 2) * R) :=
-      mul_le_mul_of_nonneg_left (by simpa [W] using hlog_sq) h2048sq_pos.le
+        (146 : ℝ) ^ 2 * W ^ 2 ≤ (146 : ℝ) ^ 2 * ((C ^ 2 / (146 : ℝ) ^ 2) * R) :=
+      mul_le_mul_of_nonneg_left (by simpa [W] using hlog_sq) h146sq_pos.le
     have hcancel :
-        (2048 : ℝ) ^ 2 * ((C ^ 2 / (2048 : ℝ) ^ 2) * R) = C ^ 2 * R := by
-      field_simp [(ne_of_gt h2048sq_pos)]
+        (146 : ℝ) ^ 2 * ((C ^ 2 / (146 : ℝ) ^ 2) * R) = C ^ 2 * R := by
+      field_simp [(ne_of_gt h146sq_pos)]
     calc
-      (2048 * W) ^ 2 = (2048 : ℝ) ^ 2 * W ^ 2 := by ring
-      _ ≤ (2048 : ℝ) ^ 2 * ((C ^ 2 / (2048 : ℝ) ^ 2) * R) := hmul
+      (146 * W) ^ 2 = (146 : ℝ) ^ 2 * W ^ 2 := by ring
+      _ ≤ (146 : ℝ) ^ 2 * ((C ^ 2 / (146 : ℝ) ^ 2) * R) := hmul
       _ = C ^ 2 * R := hcancel
   have hU_le_CR : (U : ℝ) ≤ C ^ 2 * R := by
-    have hU_le_2048W : (U : ℝ) ≤ 2048 * W := hU_le_s.trans hs_le_W
-    have h2048W_ge_one : 1 ≤ 2048 * W := by nlinarith
+    have hU_le_146W : (U : ℝ) ≤ 146 * W := hU_le_s.trans hs_le_W
+    have h146W_ge_one : 1 ≤ 146 * W := by nlinarith
     calc
-      (U : ℝ) ≤ 2048 * W := hU_le_2048W
-      _ ≤ (2048 * W) ^ 2 := by nlinarith [sq_nonneg (2048 * W)]
+      (U : ℝ) ≤ 146 * W := hU_le_146W
+      _ ≤ (146 * W) ^ 2 := by nlinarith [sq_nonneg (146 * W)]
       _ ≤ C ^ 2 * R := hbig
   have hU_sq_le_CR : (U : ℝ) ^ 2 ≤ C ^ 2 * R := by
-    have hU_le_2048W : (U : ℝ) ≤ 2048 * W := hU_le_s.trans hs_le_W
+    have hU_le_146W : (U : ℝ) ≤ 146 * W := hU_le_s.trans hs_le_W
     calc
-      (U : ℝ) ^ 2 ≤ (2048 * W) ^ 2 := by
-        nlinarith [hU_pos.le, hU_le_2048W]
+      (U : ℝ) ^ 2 ≤ (146 * W) ^ 2 := by
+        nlinarith [hU_pos.le, hU_le_146W]
       _ ≤ C ^ 2 * R := hbig
   exact ⟨hfull, (one_le_div hU_pos).mpr hU_le_CR,
     (one_le_div (sq_pos_of_pos hU_pos)).mpr hU_sq_le_CR⟩
@@ -384,7 +384,7 @@ theorem split_lower_endpoint_algebra
     (hS : 1 ≤ S)
     (hW : 0 < W)
     (hLL : 0 < LL)
-    (hSLL : 1024 * W ≤ S * LL)
+    (hSLL : 145 * W ≤ S * LL)
     (hlogm : LL / 4 ≤ logm)
     (hc : 2 * c ≤ LL / 16) :
     (S * (2 * S + 1)) * (2 * c + W - logm) <
@@ -404,7 +404,7 @@ theorem split_lower_endpoint_algebra
   have hloggain : S ^ 2 * (LL / 4) ≤ S ^ 2 * logm := by
     exact mul_le_mul_of_nonneg_left hlogm (sq_nonneg S)
   have hSW_small : S * W < (1 / 16) * S ^ 2 * LL := by
-    have hmul : 1024 * S * W ≤ S ^ 2 * LL := by
+    have hmul : 145 * S * W ≤ S ^ 2 * LL := by
       nlinarith
     nlinarith [hSpos, hW, hLL]
   nlinarith
@@ -414,7 +414,7 @@ theorem inert_lower_endpoint_algebra
     (hS : 1 ≤ S)
     (hW : 0 < W)
     (hLL : 0 < LL)
-    (hSLL : 1024 * W ≤ S * LL)
+    (hSLL : 145 * W ≤ S * LL)
     (hlogm : LL / 4 ≤ logm)
     (hc : 2 * c ≤ LL / 16) :
     (S * (2 * S + 1)) * (2 * c + W - 2 * logm) <
@@ -436,10 +436,10 @@ theorem crude_threshold_algebra
     (hS : 1 ≤ S)
     (hW : 0 < W)
     (hLL : 0 < LL)
-    (hSLL : 1024 * W ≤ S * LL)
+    (hSLL : 145 * W ≤ S * LL)
     (hKgain : LL / 96 ≤ K * (Real.log 2 / 2))
-    (hc : 2 * c ≤ LL / 1024)
-    (hUterm : 2 * ((U + 1) * logU) ≤ 4 * S * W) :
+    (hc : 2 * c ≤ LL / 524288)
+    (hUterm : 2 * ((U + 1) * logU) ≤ (65 / 128) * S * W) :
     (S * (2 * S + 1)) * (2 * c + W) <
       (S ^ 2 * (K * (Real.log 2 / 2)) - 2 * ((U + 1) * logU)) +
         S ^ 2 * (2 * W) := by
@@ -447,24 +447,25 @@ theorem crude_threshold_algebra
   have hstack : S ^ 2 * (LL / 96) ≤ S ^ 2 * (K * (Real.log 2 / 2)) :=
     mul_le_mul_of_nonneg_left hKgain (sq_nonneg S)
   have hconst :
-      (S * (2 * S + 1)) * (2 * c) ≤ (3 / 1024) * S ^ 2 * LL := by
+      (S * (2 * S + 1)) * (2 * c) ≤ (3 / 524288) * S ^ 2 * LL := by
     have hcoeff_nonneg : 0 ≤ S * (2 * S + 1) := by nlinarith
     have hcoeff_le : S * (2 * S + 1) ≤ 3 * S ^ 2 := by nlinarith
     calc
       (S * (2 * S + 1)) * (2 * c) ≤
-          (S * (2 * S + 1)) * (LL / 1024) :=
+          (S * (2 * S + 1)) * (LL / 524288) :=
         mul_le_mul_of_nonneg_left hc hcoeff_nonneg
-      _ ≤ (3 * S ^ 2) * (LL / 1024) := by
+      _ ≤ (3 * S ^ 2) * (LL / 524288) := by
         exact mul_le_mul_of_nonneg_right hcoeff_le (by nlinarith)
-      _ = (3 / 1024) * S ^ 2 * LL := by ring
-  have hSW_small : S * W ≤ (1 / 1024) * S ^ 2 * LL := by
-    have hmul : 1024 * S * W ≤ S ^ 2 * LL := by nlinarith
+      _ = (3 / 524288) * S ^ 2 * LL := by ring
+  have hSW_small : S * W ≤ (1 / 145) * S ^ 2 * LL := by
+    have hmul : 145 * S * W ≤ S ^ 2 * LL := by nlinarith
     nlinarith
   have herr_small :
       S * W + 2 * ((U + 1) * logU) + (S * (2 * S + 1)) * (2 * c) ≤
-        (8 / 1024) * S ^ 2 * LL := by
+        (193 / (128 * 145) + 3 / 524288) * S ^ 2 * LL := by
     nlinarith
-  have hgap : (8 / 1024 : ℝ) * S ^ 2 * LL < S ^ 2 * (LL / 96) := by
+  have hgap : (193 / (128 * 145) + 3 / 524288 : ℝ) * S ^ 2 * LL <
+      S ^ 2 * (LL / 96) := by
     have hSsq_pos : 0 < S ^ 2 := sq_pos_of_pos hSpos
     nlinarith
   nlinarith
@@ -520,14 +521,14 @@ theorem eventually_lower_endpoint_log_conditions (C : ℝ) (hC : 0 < C) :
     rw [le_div_iff₀ hLL_pos]
     exact hLL_mul
   have hS_one : 1 ≤ S := by
-    have hs_lower : 1024 * (W / LL) ≤ S := by
+    have hs_lower : 145 * (W / LL) ≤ S := by
       simpa [s, S, W, LL] using hs.1
     nlinarith
-  have hSLL : 1024 * W ≤ S * LL := by
-    have hs_lower : 1024 * (W / LL) ≤ S := by
+  have hSLL : 145 * W ≤ S * LL := by
+    have hs_lower : 145 * (W / LL) ≤ S := by
       simpa [s, S, W, LL] using hs.1
     have hmul := mul_le_mul_of_nonneg_right hs_lower hLL_pos.le
-    have hcancel : 1024 * (W / LL) * LL = 1024 * W := by
+    have hcancel : 145 * (W / LL) * LL = 145 * W := by
       field_simp [hLL_pos.ne']
     nlinarith
   have hlogm : LL / 4 ≤ logm := by
@@ -598,12 +599,12 @@ theorem eventually_crude_threshold_condition (C : ℝ) (hC : 0 < C) :
     Real.tendsto_log_atTop.eventually_gt_atTop 1
   have hR_gt_one : ∀ᶠ R : ℝ in atTop, 1 < R := eventually_gt_atTop 1
   have hconst :
-      ∀ᶠ R : ℝ in atTop, 2048 * Real.log C ≤ Real.log (Real.log R) :=
+      ∀ᶠ R : ℝ in atTop, 1048576 * Real.log C ≤ Real.log (Real.log R) :=
     (Real.tendsto_log_atTop.comp Real.tendsto_log_atTop).eventually_ge_atTop
-      (2048 * Real.log C)
+      (1048576 * Real.log C)
   have hlog_sq_small :
-      ∀ᶠ R : ℝ in atTop, Real.log R ^ 2 ≤ (1 / 2048 : ℝ) * R :=
-    eventually_log_sq_le_const_mul_self (by norm_num : (0 : ℝ) < 1 / 2048)
+      ∀ᶠ R : ℝ in atTop, Real.log R ^ 2 ≤ (1 / 146 : ℝ) * R :=
+    eventually_log_sq_le_const_mul_self (by norm_num : (0 : ℝ) < 1 / 146)
   filter_upwards [hs_bounds, hsmall, hk_lower, hm₀_two, hLL_small, hLL_ge_one,
     hlog_gt_one, hR_gt_one, hconst, hlog_sq_small] with
     R hs hsmall hk hm₀_two hLL_small hLL_ge_one hW_gt_one hR_gt_one hconst hlog_sq
@@ -634,17 +635,17 @@ theorem eventually_crude_threshold_condition (C : ℝ) (hC : 0 < C) :
     rw [le_div_iff₀ hLL_pos]
     exact hLL_mul
   have hS_one : 1 ≤ S := by
-    have hs_lower : 1024 * (W / LL) ≤ S := by
+    have hs_lower : 145 * (W / LL) ≤ S := by
       simpa [s, S, W, LL] using hs.1
     nlinarith
-  have hSLL : 1024 * W ≤ S * LL := by
-    have hs_lower : 1024 * (W / LL) ≤ S := by
+  have hSLL : 145 * W ≤ S * LL := by
+    have hs_lower : 145 * (W / LL) ≤ S := by
       simpa [s, S, W, LL] using hs.1
     have hmul := mul_le_mul_of_nonneg_right hs_lower hLL_pos.le
-    have hcancel : 1024 * (W / LL) * LL = 1024 * W := by
+    have hcancel : 145 * (W / LL) * LL = 145 * W := by
       field_simp [hLL_pos.ne']
     nlinarith
-  have hc : 2 * Real.log C ≤ LL / 1024 := by
+  have hc : 2 * Real.log C ≤ LL / 524288 := by
     dsimp [LL, W] at hconst ⊢
     nlinarith
   have hlog8 : Real.log (8 : ℝ) = 3 * Real.log (2 : ℝ) := by
@@ -663,18 +664,19 @@ theorem eventually_crude_threshold_condition (C : ℝ) (hC : 0 < C) :
         ring
       _ ≤ K * (Real.log 2 / 2) :=
         mul_le_mul_of_nonneg_right hk_lower' (by positivity)
+  have hfourU_le_s_nat : 4 * U ≤ s := by
+    simpa [U, m₀, k, s] using hsmall
   have hU_le_s_nat : U ≤ s := by
-    have : 4 * U ≤ s := by simpa [U, m₀, k, s] using hsmall
     omega
   have hU_le_s : (U : ℝ) ≤ S := by
     have hcast : (U : ℝ) ≤ (s : ℝ) := by exact_mod_cast hU_le_s_nat
     simpa [S] using hcast
-  have hs_le_W : S ≤ 2048 * W := by
+  have hs_le_W : S ≤ 146 * W := by
     calc
-      S ≤ 2048 * (Real.log R / Real.log (Real.log R)) := by
+      S ≤ 146 * (Real.log R / Real.log (Real.log R)) := by
         simpa [s, S] using hs.2
-      _ = 2048 * (W / LL) := by rfl
-      _ ≤ 2048 * W := by
+      _ = 146 * (W / LL) := by rfl
+      _ ≤ 146 * W := by
         have hX_le_W : W / LL ≤ W := by
           have hLL_ge_one' : 1 ≤ LL := by simpa [LL, W] using hLL_ge_one
           rw [div_le_iff₀ hLL_pos]
@@ -688,8 +690,8 @@ theorem eventually_crude_threshold_condition (C : ℝ) (hC : 0 < C) :
     exact Nat.mul_pos (by omega) (Nat.pow_pos (by norm_num))
   have hU_pos : 0 < (U : ℝ) := by exact_mod_cast hU_pos_nat
   have hU_one : 1 ≤ (U : ℝ) := by exact_mod_cast Nat.succ_le_of_lt hU_pos_nat
-  have h2048W_le_R : 2048 * W ≤ R := by
-    have hW_sq : W ^ 2 ≤ (1 / 2048 : ℝ) * R := by
+  have h146W_le_R : 146 * W ≤ R := by
+    have hW_sq : W ^ 2 ≤ (1 / 146 : ℝ) * R := by
       simpa [W] using hlog_sq
     have hW_le_sq : W ≤ W ^ 2 := by
       have hW_one : 1 ≤ W := le_of_lt hW_gt_one
@@ -698,27 +700,33 @@ theorem eventually_crude_threshold_condition (C : ℝ) (hC : 0 < C) :
         _ ≤ W * W := mul_le_mul_of_nonneg_left hW_one hW_pos.le
         _ = W ^ 2 := by ring
     calc
-      2048 * W ≤ 2048 * W ^ 2 := by nlinarith
-      _ ≤ 2048 * ((1 / 2048 : ℝ) * R) :=
+      146 * W ≤ 146 * W ^ 2 := by nlinarith
+      _ ≤ 146 * ((1 / 146 : ℝ) * R) :=
         mul_le_mul_of_nonneg_left hW_sq (by norm_num)
       _ = R := by ring
-  have hU_le_R : (U : ℝ) ≤ R := (hU_le_s.trans hs_le_W).trans h2048W_le_R
+  have hU_le_R : (U : ℝ) ≤ R := (hU_le_s.trans hs_le_W).trans h146W_le_R
   have hlogU_nonneg : 0 ≤ logU := by
     dsimp [logU]
     exact Real.log_nonneg hU_one
   have hlogU_le_W : logU ≤ W := by
     dsimp [logU, W]
     exact Real.log_le_log hU_pos hU_le_R
-  have hUplus_le : (U : ℝ) + 1 ≤ 2 * S := by
-    have hS_nonneg : 0 ≤ S := le_trans (by norm_num) hS_one
-    have hOne_le_S : 1 ≤ S := hS_one
+  have hfourU_le_S : (4 : ℝ) * (U : ℝ) ≤ S := by
+    have hcast : ((4 * U : ℕ) : ℝ) ≤ (s : ℝ) := by exact_mod_cast hfourU_le_s_nat
+    simpa [Nat.cast_mul, S] using hcast
+  have hS_large : 256 ≤ S := by
+    have hs_lower : 145 * (W / LL) ≤ S := by
+      simpa [s, S, W, LL] using hs.1
     nlinarith
-  have hUterm : 2 * (((U : ℝ) + 1) * logU) ≤ 4 * S * W := by
+  have hUplus_le : (U : ℝ) + 1 ≤ (65 / 256) * S := by
+    nlinarith
+  have hUterm : 2 * (((U : ℝ) + 1) * logU) ≤ (65 / 128) * S * W := by
     calc
-      2 * (((U : ℝ) + 1) * logU) ≤ 2 * ((2 * S) * W) := by
-        have hmul := mul_le_mul hUplus_le hlogU_le_W hlogU_nonneg (by nlinarith)
+      2 * (((U : ℝ) + 1) * logU) ≤ 2 * (((65 / 256) * S) * W) := by
+        have hmul := mul_le_mul hUplus_le hlogU_le_W hlogU_nonneg
+          (by nlinarith [hS_one] : 0 ≤ (65 / 256) * S)
         nlinarith
-      _ = 4 * S * W := by ring
+      _ = (65 / 128) * S * W := by ring
   have hthreshold :=
     crude_threshold_algebra
       (S := S) (W := W) (LL := LL) (K := K) (U := (U : ℝ)) (logU := logU)
@@ -781,7 +789,7 @@ theorem eventually_jarnik_arc_sublog (C : ℝ) (hC : 0 < C) :
         (∀ i j, i < M → j < M → SubcriticalBound.gaussianSqDist (z i) (z j) ≤
           (t j - t i) ^ 2) →
         (∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) →
-        (M : ℝ) ≤ 16384 * (Real.log R / Real.log (Real.log R)) := by
+        (M : ℝ) ≤ 1168 * (Real.log R / Real.log (Real.log R)) := by
   have hR_gt_one : ∀ᶠ R : ℝ in atTop, 1 < R := eventually_gt_atTop 1
   have hscale := eventually_scale_hypotheses C hC
   have hthreshold := eventually_crude_threshold_condition C hC
@@ -801,7 +809,7 @@ theorem eventually_jarnik_arc_sublog (C : ℝ) (hC : 0 < C) :
   have hfinite :=
     MainSublogBound.card_le_eight_mul_log_div_loglog_of_radius_sq_twoScale_endpoint_bounds
       (M := M) (s := s) (N := N) (m₀ := m₀) (k := k)
-      (C := C) (R := R) (B := (2048 : ℝ)) (a := a) (L := L) (z := z) (t := t)
+      (C := C) (R := R) (B := (146 : ℝ)) (a := a) (L := L) (z := z) (t := t)
       hR2
       (by simpa [m₀, k] using hscale.1)
       (by simpa [m₀, k] using hscale.2.1)
@@ -817,7 +825,7 @@ theorem eventually_jarnik_arc_sublog (C : ℝ) (hC : 0 < C) :
       (by simpa [s] using hs.2)
       (by simpa [m₀, k] using herr)
       hcircle hz hmono hparam hmem
-  simpa [show (8 : ℝ) * 2048 = 16384 by norm_num, mul_assoc] using hfinite
+  simpa [show (8 : ℝ) * 146 = 1168 by norm_num, mul_assoc] using hfinite
 
 end AsymptoticParameters
 end GaussianChain

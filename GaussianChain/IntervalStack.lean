@@ -6,6 +6,21 @@ open Finset
 
 namespace MertensLower
 
+/-- Membership in an ordinary prime interval gives the corresponding strict interval bounds. -/
+theorem bounds_of_mem_primeIntervalFinset {m n p : ℕ}
+    (hp : p ∈ Nat.primesLE n \ Nat.primesLE m) :
+    m < p ∧ p ≤ n := by
+  classical
+  rw [Finset.mem_sdiff] at hp
+  rcases hp with ⟨hpn, hpm⟩
+  have hp_prime : Nat.Prime p := Nat.prime_of_mem_primesLE hpn
+  have hpn_le : p ≤ n := Nat.le_of_mem_primesLE hpn
+  have hm_lt : m < p := by
+    by_contra hnot
+    have hp_le_m : p ≤ m := Nat.le_of_not_gt hnot
+    exact hpm ((Nat.mem_primesLE).mpr ⟨hp_le_m, hp_prime⟩)
+  exact ⟨hm_lt, hpn_le⟩
+
 /-- Membership in a missing-prime interval gives the corresponding strict interval bounds. -/
 theorem bounds_of_mem_missingPrimeIntervalFinset {N m n p : ℕ}
     (hp : p ∈ missingPrimeIntervalFinset N m n) :
@@ -93,6 +108,36 @@ theorem pairwiseDisjoint_missingPrimeIntervalFinset_geom
     have : p < p := lt_of_le_of_lt (hbounds_j.2.trans hle) hbounds_i.1
     exact (lt_irrefl p this).elim
 
+/-- The ordinary prime intervals in a geometric one-eighth stack are pairwise disjoint. -/
+theorem pairwiseDisjoint_primeIntervalFinset_geom
+    (m₀ k : ℕ) :
+    (Set.univ : Set (Fin k)).PairwiseDisjoint fun i =>
+      Nat.primesLE (geomUpper m₀ i) \ Nat.primesLE (geomLower m₀ i) := by
+  classical
+  rw [Finset.pairwiseDisjoint_iff]
+  intro i _hi j _hj hnonempty
+  rcases hnonempty with ⟨p, hp⟩
+  rw [Finset.mem_inter] at hp
+  rcases hp with ⟨hpi, hpj⟩
+  rcases lt_trichotomy (i : ℕ) (j : ℕ) with hij | hij | hij
+  · have hbounds_i :=
+      MertensLower.bounds_of_mem_primeIntervalFinset hpi
+    have hbounds_j :=
+      MertensLower.bounds_of_mem_primeIntervalFinset hpj
+    have hle : geomUpper m₀ i ≤ geomLower m₀ j :=
+      geomUpper_le_geomLower_of_succ_le (m₀ := m₀) (i := i) (j := j) (by omega)
+    have : p < p := lt_of_le_of_lt (hbounds_i.2.trans hle) hbounds_j.1
+    exact (lt_irrefl p this).elim
+  · exact Fin.ext hij
+  · have hbounds_i :=
+      MertensLower.bounds_of_mem_primeIntervalFinset hpi
+    have hbounds_j :=
+      MertensLower.bounds_of_mem_primeIntervalFinset hpj
+    have hle : geomUpper m₀ j ≤ geomLower m₀ i :=
+      geomUpper_le_geomLower_of_succ_le (m₀ := m₀) (i := j) (j := i) (by omega)
+    have : p < p := lt_of_le_of_lt (hbounds_j.2.trans hle) hbounds_i.1
+    exact (lt_irrefl p this).elim
+
 /-- Every interval in the geometric stack is contained in the total stack interval. -/
 theorem missingPrimeIntervalFinset_geom_subset_stack
     {N m₀ k : ℕ} (i : Fin k) :
@@ -116,6 +161,100 @@ theorem missingPrimeIntervalFinset_geom_subset_stack
       (Nat.le_of_mem_primesLE hbase).trans (geomLower_base_le m₀ i)
     exact hp_not_lower ((Nat.mem_primesLE).mpr ⟨hp_le_lower, hp_prime⟩)
   exact ⟨⟨hp_stack, hp_not_base⟩, hpN⟩
+
+/-- Every ordinary prime interval in the geometric stack is contained in the total stack
+interval. -/
+theorem primeIntervalFinset_geom_subset_stack
+    {m₀ k : ℕ} (i : Fin k) :
+    Nat.primesLE (geomUpper m₀ i) \ Nat.primesLE (geomLower m₀ i) ⊆
+      Nat.primesLE (geomLower m₀ k) \ Nat.primesLE m₀ := by
+  classical
+  intro p hp
+  rw [Finset.mem_sdiff] at hp ⊢
+  rcases hp with ⟨hp_upper, hp_not_lower⟩
+  have hp_prime : Nat.Prime p := Nat.prime_of_mem_primesLE hp_upper
+  have hp_le_upper : p ≤ geomUpper m₀ i := Nat.le_of_mem_primesLE hp_upper
+  have hp_le_stack : p ≤ geomLower m₀ k :=
+    hp_le_upper.trans (geomUpper_le_stackUpper (m₀ := m₀) i)
+  have hp_stack : p ∈ Nat.primesLE (geomLower m₀ k) :=
+    (Nat.mem_primesLE).mpr ⟨hp_le_stack, hp_prime⟩
+  have hp_not_base : p ∉ Nat.primesLE m₀ := by
+    intro hbase
+    have hp_le_lower : p ≤ geomLower m₀ i :=
+      (Nat.le_of_mem_primesLE hbase).trans (geomLower_base_le m₀ i)
+    exact hp_not_lower ((Nat.mem_primesLE).mpr ⟨hp_le_lower, hp_prime⟩)
+  exact ⟨hp_stack, hp_not_base⟩
+
+/-- A disjoint geometric stack of ordinary prime intervals contributes at most the ordinary
+prime interval over the enclosing stack. -/
+theorem sum_weightedPrimeInterval_geom_le_stack
+    (m₀ k : ℕ) :
+    (∑ i : Fin k, MertensLower.weightedPrimeInterval (geomLower m₀ i) (geomUpper m₀ i)) ≤
+      MertensLower.weightedPrimeInterval m₀ (geomLower m₀ k) := by
+  classical
+  let S : Fin k → Finset ℕ :=
+    fun i => Nat.primesLE (geomUpper m₀ i) \ Nat.primesLE (geomLower m₀ i)
+  let T : Finset ℕ := Nat.primesLE (geomLower m₀ k) \ Nat.primesLE m₀
+  let w : ℕ → ℝ := fun p => Real.log (p : ℝ) / (p : ℝ)
+  have hunion_sub : (Finset.univ.biUnion S) ⊆ T := by
+    rw [Finset.biUnion_subset]
+    intro i _hi
+    exact primeIntervalFinset_geom_subset_stack (m₀ := m₀) (k := k) i
+  have hsum_union :
+      ∑ p ∈ Finset.univ.biUnion S, w p =
+        ∑ i, ∑ p ∈ S i, w p := by
+    have hdisjS : (((Finset.univ : Finset (Fin k)) : Set (Fin k))).PairwiseDisjoint S := by
+      simpa [S] using pairwiseDisjoint_primeIntervalFinset_geom m₀ k
+    simpa [S, w] using (Finset.sum_biUnion (s := (Finset.univ : Finset (Fin k)))
+      (t := S) (f := w) hdisjS)
+  have hle_union :
+      ∑ p ∈ Finset.univ.biUnion S, w p ≤ ∑ p ∈ T, w p := by
+    refine Finset.sum_le_sum_of_subset_of_nonneg hunion_sub ?_
+    intro p hp _hnot
+    exact MertensLower.log_div_nonneg_of_mem_primesLE (Finset.mem_sdiff.mp hp).1
+  calc
+    (∑ i : Fin k, MertensLower.weightedPrimeInterval (geomLower m₀ i) (geomUpper m₀ i))
+        = ∑ i, ∑ p ∈ S i, w p := by
+            simp [MertensLower.weightedPrimeInterval, S, w]
+    _ = ∑ p ∈ Finset.univ.biUnion S, w p := hsum_union.symm
+    _ ≤ ∑ p ∈ T, w p := hle_union
+    _ = MertensLower.weightedPrimeInterval m₀ (geomLower m₀ k) := by
+            simp [MertensLower.weightedPrimeInterval, T, w]
+
+/-- Ordinary-prime Mertens lower bound in the finite geometric-stack form used by the main
+proof. Each one-eighth interval contributes at least `log 2 / 2`, once the Chebyshev endpoint
+error is small enough. -/
+theorem weightedPrimeInterval_geom_stack_lower
+    {m₀ k : ℕ} (hm₀ : 0 < m₀)
+    (herr : ∀ i : Fin k,
+      Real.log (((geomUpper m₀ i : ℕ) : ℝ) + 1) +
+          2 * Real.sqrt ((geomUpper m₀ i : ℕ) : ℝ) *
+            Real.log ((geomUpper m₀ i : ℕ) : ℝ) ≤
+        (Real.log 2 / 4) * ((geomUpper m₀ i : ℕ) : ℝ)) :
+    (k : ℝ) * (Real.log 2 / 2) ≤
+      MertensLower.weightedPrimeInterval m₀ (geomLower m₀ k) := by
+  have hinterval : ∀ i : Fin k,
+      Real.log 2 / 2 ≤
+        MertensLower.weightedPrimeInterval (geomLower m₀ i) (geomUpper m₀ i) := by
+    intro i
+    exact MertensLower.weightedPrimeInterval_lower_log_two_half_of_eight_mul_le
+      (geomLower_le_geomUpper m₀ i)
+      (by
+        unfold geomUpper
+        exact Nat.mul_pos hm₀ (Nat.pow_pos (by norm_num)))
+      (herr i)
+      (eight_mul_geomLower_le_geomUpper m₀ i)
+  have hsum_lower :
+      (∑ _i : Fin k, Real.log 2 / 2) ≤
+        ∑ i : Fin k, MertensLower.weightedPrimeInterval (geomLower m₀ i) (geomUpper m₀ i) :=
+    Finset.sum_le_sum fun i _hi => hinterval i
+  calc
+    (k : ℝ) * (Real.log 2 / 2)
+        = ∑ _i : Fin k, Real.log 2 / 2 := by simp [Fintype.card_fin]
+    _ ≤ ∑ i : Fin k, MertensLower.weightedPrimeInterval (geomLower m₀ i) (geomUpper m₀ i) :=
+        hsum_lower
+    _ ≤ MertensLower.weightedPrimeInterval m₀ (geomLower m₀ k) :=
+        sum_weightedPrimeInterval_geom_le_stack m₀ k
 
 /-- If the Chebyshev endpoint error estimate holds for every integer above the base of the
 stack, then it holds at every geometric upper endpoint in the stack. -/
