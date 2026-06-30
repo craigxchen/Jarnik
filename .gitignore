@@ -16,3 +16,4 @@ target/
 *.fdb_latexmk
 *.synctex.gz
 *.toc
+paper/*.pdf
