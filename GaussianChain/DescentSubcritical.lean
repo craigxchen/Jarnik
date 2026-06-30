@@ -19,25 +19,33 @@ theorem card_le_of_param_subcritical_windows_after_inert_descent
     (hN' : 0 < N')
     (hfactor : (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ))
     (hsmall : (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
     (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / A := by
-  have hzNorm : ∀ n, (z n).norm = (N : ℤ) := by
-    intro n
-    exact RamanaDeterminant.norm_eq_int_of_mul_star_eq (hcircle n)
-  obtain ⟨w, hw⟩ :=
+  let zFin : Fin M → GaussianInt := fun i => z i
+  have hzNorm : ∀ i : Fin M, (zFin i).norm = (N : ℤ) := by
+    intro i
+    exact RamanaDeterminant.norm_eq_int_of_mul_star_eq (hcircle i i.isLt)
+  obtain ⟨wFin, hwFin⟩ :=
     PrimeDescent.exists_inert_quotient_family_norm_eq_of_common_norm_factor
-      (ι := ℕ) hp3 hfactor z hzNorm
-  have hwfac : ∀ n, z n = (p : GaussianInt) * w n := fun n => (hw n).1
-  have hwnorm : ∀ n, (w n).norm = (N' : ℤ) := fun n => (hw n).2
-  have hcircle_w : ∀ n, w n * star (w n) = (((N' : ℤ) : GaussianInt)) := by
-    intro n
-    rw [← Zsqrtd.norm_eq_mul_conj, hwnorm n]
-  have hw_inj : Function.Injective w :=
-    PrimeDescent.injective_quotient_of_mul_left_injective hwfac hz
+      (ι := Fin M) hp3 hfactor zFin hzNorm
+  let w : ℕ → GaussianInt := fun i => if hi : i < M then wFin ⟨i, hi⟩ else 0
+  have hwfac : ∀ i, i < M → z i = (p : GaussianInt) * w i := by
+    intro i hi
+    simpa [w, zFin, hi] using (hwFin ⟨i, hi⟩).1
+  have hwnorm : ∀ i, i < M → (w i).norm = (N' : ℤ) := by
+    intro i hi
+    simpa [w, hi] using (hwFin ⟨i, hi⟩).2
+  have hcircle_w : OnCircleUpTo M N' w := by
+    intro i hi
+    rw [← Zsqrtd.norm_eq_mul_conj, hwnorm i hi]
+  have hw_inj : InjectiveUpTo M w := by
+    intro i j hi hj hij
+    apply hz hi hj
+    rw [hwfac i hi, hwfac j hj, hij]
   have hp_sq_one : (1 : ℝ) ≤ (p : ℝ) ^ 2 := by
     have hp_one : (1 : ℝ) ≤ (p : ℝ) := by
       exact_mod_cast (Fact.out : Nat.Prime p).one_le
@@ -45,7 +53,7 @@ theorem card_le_of_param_subcritical_windows_after_inert_descent
   have hparam_w :
       ∀ i j, i < M → j < M → gaussianSqDist (w i) (w j) ≤ (t j - t i) ^ 2 := by
     intro i j hi hj
-    rw [gaussianSqDist_quotient_family_eq_div_of_natCast_mul_left hwfac i j]
+    rw [gaussianSqDist_quotient_eq_div_of_natCast_mul_left (hwfac i hi) (hwfac j hj)]
     exact (div_le_self (sq_nonneg _) hp_sq_one).trans'
       (div_le_div_of_nonneg_right (hparam i j hi hj) (sq_nonneg _))
   exact card_le_of_param_subcritical_windows (M := M) (s := s) (N := N')
@@ -64,25 +72,33 @@ theorem card_le_of_param_subcritical_windows_after_inert_descent_scaled
     (hN' : 0 < N')
     (hfactor : (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ))
     (hsmall : (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
     (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * (L / (p : ℝ)) / A := by
-  have hzNorm : ∀ n, (z n).norm = (N : ℤ) := by
-    intro n
-    exact RamanaDeterminant.norm_eq_int_of_mul_star_eq (hcircle n)
-  obtain ⟨w, hw⟩ :=
+  let zFin : Fin M → GaussianInt := fun i => z i
+  have hzNorm : ∀ i : Fin M, (zFin i).norm = (N : ℤ) := by
+    intro i
+    exact RamanaDeterminant.norm_eq_int_of_mul_star_eq (hcircle i i.isLt)
+  obtain ⟨wFin, hwFin⟩ :=
     PrimeDescent.exists_inert_quotient_family_norm_eq_of_common_norm_factor
-      (ι := ℕ) hp3 hfactor z hzNorm
-  have hwfac : ∀ n, z n = (p : GaussianInt) * w n := fun n => (hw n).1
-  have hwnorm : ∀ n, (w n).norm = (N' : ℤ) := fun n => (hw n).2
-  have hcircle_w : ∀ n, w n * star (w n) = (((N' : ℤ) : GaussianInt)) := by
-    intro n
-    rw [← Zsqrtd.norm_eq_mul_conj, hwnorm n]
-  have hw_inj : Function.Injective w :=
-    PrimeDescent.injective_quotient_of_mul_left_injective hwfac hz
+      (ι := Fin M) hp3 hfactor zFin hzNorm
+  let w : ℕ → GaussianInt := fun i => if hi : i < M then wFin ⟨i, hi⟩ else 0
+  have hwfac : ∀ i, i < M → z i = (p : GaussianInt) * w i := by
+    intro i hi
+    simpa [w, zFin, hi] using (hwFin ⟨i, hi⟩).1
+  have hwnorm : ∀ i, i < M → (w i).norm = (N' : ℤ) := by
+    intro i hi
+    simpa [w, hi] using (hwFin ⟨i, hi⟩).2
+  have hcircle_w : OnCircleUpTo M N' w := by
+    intro i hi
+    rw [← Zsqrtd.norm_eq_mul_conj, hwnorm i hi]
+  have hw_inj : InjectiveUpTo M w := by
+    intro i j hi hj hij
+    apply hz hi hj
+    rw [hwfac i hi, hwfac j hj, hij]
   let tdesc : ℕ → ℝ := fun i => t i / (p : ℝ)
   have hp_pos : 0 < (p : ℝ) := by exact_mod_cast (Fact.out : Nat.Prime p).pos
   have hp_sq_nonneg : 0 ≤ (p : ℝ) ^ 2 := sq_nonneg _
@@ -95,7 +111,7 @@ theorem card_le_of_param_subcritical_windows_after_inert_descent_scaled
     have hquot :
         gaussianSqDist (w i) (w j) =
           gaussianSqDist (z i) (z j) / (p : ℝ) ^ 2 :=
-      gaussianSqDist_quotient_family_eq_div_of_natCast_mul_left hwfac i j
+      gaussianSqDist_quotient_eq_div_of_natCast_mul_left (hwfac i hi) (hwfac j hj)
     have hsq :
         (tdesc j - tdesc i) ^ 2 = (t j - t i) ^ 2 / (p : ℝ) ^ 2 := by
       dsimp [tdesc]
@@ -141,8 +157,8 @@ theorem card_le_two_mul_param_subcritical_bound_after_split_descent_subsequence
     (M : ℝ) ≤
       2 * (((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / A) := by
   let tsub : ℕ → ℝ := fun i => t (idx i)
-  have hcircle_w : ∀ n, w n * star (w n) = (((N' : ℤ) : GaussianInt)) := by
-    intro n
+  have hcircle_w : OnCircleUpTo Md N' w := by
+    intro n _hn
     rw [← Zsqrtd.norm_eq_mul_conj, hwnorm n]
   have hmono_sub : ∀ i j, i ≤ j → j < Md → tsub i ≤ tsub j := by
     intro i j hij hj
@@ -200,8 +216,8 @@ theorem card_le_two_mul_param_subcritical_bound_after_split_descent_subsequence_
   have hp_pos : 0 < (p : ℝ) := by exact_mod_cast (Fact.out : Nat.Prime p).pos
   have hsqrt_pos : 0 < Real.sqrt (p : ℝ) := Real.sqrt_pos_of_pos hp_pos
   have hsqrt_ne : Real.sqrt (p : ℝ) ≠ 0 := ne_of_gt hsqrt_pos
-  have hcircle_w : ∀ n, w n * star (w n) = (((N' : ℤ) : GaussianInt)) := by
-    intro n
+  have hcircle_w : OnCircleUpTo Md N' w := by
+    intro n _hn
     rw [← Zsqrtd.norm_eq_mul_conj, hwnorm n]
   have hmono_sub : ∀ i j, i ≤ j → j < Md → tsub i ≤ tsub j := by
     intro i j hij hj
@@ -254,8 +270,8 @@ theorem card_le_two_mul_param_subcritical_bound_after_split_descent_scaled
     (hN' : 0 < N')
     (hfactor : (N : ℤ) = (p : ℤ) * (N' : ℤ))
     (hsmall : (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -265,7 +281,7 @@ theorem card_le_two_mul_param_subcritical_bound_after_split_descent_scaled
   let zFin : Fin M → GaussianInt := fun i => z i
   have hzNorm : ∀ i : Fin M, (zFin i).norm = (N : ℤ) := by
     intro i
-    exact RamanaDeterminant.norm_eq_int_of_mul_star_eq (hcircle i)
+    exact RamanaDeterminant.norm_eq_int_of_mul_star_eq (hcircle i i.isLt)
   obtain ⟨Md, ρ, idx, w, hρ, hmany, hfac, hwnorm, hidx_mono, hwinj_all⟩ :=
     PrimeDescent.exists_split_descended_ordered_subsequence_norm_eq
       hp1 hfactor zFin hzNorm hM
@@ -273,7 +289,7 @@ theorem card_le_two_mul_param_subcritical_bound_after_split_descent_scaled
   have hzFin_inj : Function.Injective zFin := by
     intro i j hij
     apply Fin.ext
-    exact hz hij
+    exact hz i.isLt j.isLt hij
   have hfac' : ∀ i, i < Md → z (idx i) = ρ * w i := by
     intro i hi
     simpa [zFin] using hfac i hi

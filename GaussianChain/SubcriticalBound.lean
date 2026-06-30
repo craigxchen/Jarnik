@@ -6,6 +6,14 @@ namespace SubcriticalBound
 
 open RamanaDeterminant
 
+/-- The first `M` entries of a sequence lie on the Gaussian-integer circle of norm `N`. -/
+def OnCircleUpTo (M N : ℕ) (z : ℕ → GaussianInt) : Prop :=
+  ∀ i, i < M → z i * star (z i) = ((N : ℤ) : GaussianInt)
+
+/-- The first `M` entries of a sequence are pairwise distinct. -/
+def InjectiveUpTo {α : Type*} (M : ℕ) (f : ℕ → α) : Prop :=
+  ∀ ⦃i j⦄, i < M → j < M → f i = f j → i = j
+
 /-- The squared Euclidean chord length between two Gaussian integers, viewed in `ℂ`. -/
 noncomputable def gaussianSqDist (z w : GaussianInt) : ℝ :=
   Complex.normSq ((w : ℂ) - (z : ℂ))
@@ -126,6 +134,21 @@ theorem nat_window_injective_of_injective {α : Type*} {n : ℕ} {f : ℕ → α
   have hnat : j + (i : ℕ) = j + (k : ℕ) := hf hik
   omega
 
+/-- A finite-window version of `nat_window_injective_of_injective`. -/
+theorem nat_window_injective_of_injectiveUpTo {α : Type*} {M s : ℕ} {f : ℕ → α}
+    (hf : InjectiveUpTo M f) {j : ℕ} (hj : j < M - 2 * s) :
+    Function.Injective fun i : Fin (2 * s + 1) => f (j + (i : ℕ)) := by
+  intro i k hik
+  apply Fin.ext
+  have hiM : j + (i : ℕ) < M := by
+    have hi : (i : ℕ) < 2 * s + 1 := i.isLt
+    omega
+  have hkM : j + (k : ℕ) < M := by
+    have hk : (k : ℕ) < 2 * s + 1 := k.isLt
+    omega
+  have hnat : j + (i : ℕ) = j + (k : ℕ) := hf hiM hkM hik
+  omega
+
 /-- Abstract subcritical window lower bound.
 
 If every window whose parameter span is at most `A` has all squared chords at most `K`, then the
@@ -135,7 +158,7 @@ theorem window_span_gt_of_subcritical
     {M s N : ℕ} {K A : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
     (hN : 0 < N)
     (hsmall : (Nat.floor K) ^ (s * (2 * s + 1)) < N ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt))
+    (hcircle : OnCircleUpTo M N z)
     (hinj : ∀ j, j < M - 2 * s →
       Function.Injective fun i : Fin (2 * s + 1) => z (j + (i : ℕ)))
     (hdiam_of_span : ∀ j, j < M - 2 * s → t (j + 2 * s) - t j ≤ A →
@@ -148,7 +171,8 @@ theorem window_span_gt_of_subcritical
   let block : Fin (2 * s + 1) → GaussianInt := fun i => z (j + (i : ℕ))
   have hcircle_block : ∀ i, block i * star (block i) = ((N : ℤ) : GaussianInt) := by
     intro i
-    exact hcircle (j + (i : ℕ))
+    have hi : (i : ℕ) < 2 * s + 1 := i.isLt
+    exact hcircle (j + (i : ℕ)) (by omega)
   have hinj_block : Function.Injective block := hinj j hj
   obtain ⟨i, k, _hik, hlarge⟩ :=
     exists_pair_sqDist_gt_of_natFloor_pow_lt hcircle_block hN hinj_block hsmall
@@ -164,7 +188,7 @@ theorem card_le_of_subcritical_windows
     (hA : 0 < A)
     (hN : 0 < N)
     (hsmall : (Nat.floor K) ^ (s * (2 * s + 1)) < N ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt))
+    (hcircle : OnCircleUpTo M N z)
     (hinj : ∀ j, j < M - 2 * s →
       Function.Injective fun i : Fin (2 * s + 1) => z (j + (i : ℕ)))
     (hdiam_of_span : ∀ j, j < M - 2 * s → t (j + 2 * s) - t j ≤ A →
@@ -177,22 +201,22 @@ theorem card_le_of_subcritical_windows
   intro j hj
   exact le_of_lt (window_span_gt_of_subcritical hN hsmall hcircle hinj hdiam_of_span j hj)
 
-/-- Variant of `card_le_of_subcritical_windows` using a globally injective sequence of points. -/
-theorem card_le_of_subcritical_windows_of_injective
+/-- Variant of `card_le_of_subcritical_windows` using distinctness on the first `M` points. -/
+theorem card_le_of_subcritical_windows_of_injectiveUpTo
     {M s N : ℕ} {a L K A : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
     (hk : 2 * s ≤ M)
     (hA : 0 < A)
     (hN : 0 < N)
     (hsmall : (Nat.floor K) ^ (s * (2 * s + 1)) < N ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hdiam_of_span : ∀ j, j < M - 2 * s → t (j + 2 * s) - t j ≤ A →
       ∀ i k : Fin (2 * s + 1),
         gaussianSqDist (z (j + (i : ℕ))) (z (j + (k : ℕ))) ≤ K)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
     (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / A :=
   card_le_of_subcritical_windows hk hA hN hsmall hcircle
-    (fun j _hj => nat_window_injective_of_injective hz j) hdiam_of_span hmem
+    (fun _j hj => nat_window_injective_of_injectiveUpTo hz hj) hdiam_of_span hmem
 
 /-- Instantiate the abstract diameter hypothesis from an ordered parameter: if squared chord
 length is bounded by squared parameter separation, then a window of parameter span at most `A`
@@ -252,13 +276,13 @@ theorem card_le_of_param_subcritical_windows
     (hA : 0 < A)
     (hN : 0 < N)
     (hsmall : (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ p q, p ≤ q → q < M → t p ≤ t q)
     (hparam : ∀ p q, p < M → q < M → gaussianSqDist (z p) (z q) ≤ (t q - t p) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
     (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / A := by
-  refine card_le_of_subcritical_windows_of_injective (M := M) (s := s) (N := N)
+  refine card_le_of_subcritical_windows_of_injectiveUpTo (M := M) (s := s) (N := N)
     (a := a) (L := L) (K := A ^ 2) (A := A)
     hk hA hN hsmall hcircle hz ?_ hmem
   intro j hj hspan i k

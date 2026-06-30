@@ -333,6 +333,27 @@ theorem primeRadiusScale_split_term_le
     ((2 * s : ℕ) : ℝ) :=
   radiusScale_descent_term_le (s := s) (m₀ := p) hC hR hp hLbound
 
+theorem primeRadiusScale_split_term_le_div_const
+    {s p : ℕ} {C R L K : ℝ}
+    (hC : 0 < C) (hR : 0 < R) (hp : 0 < p)
+    (hK : 0 < K)
+    (hLbound : L ≤ C * Real.sqrt R) :
+    ((2 * s : ℕ) : ℝ) * (L / Real.sqrt (p : ℝ)) /
+        (K * radiusScale C R p) ≤
+      (1 / K) * ((2 * s : ℕ) : ℝ) := by
+  have hbase :=
+    primeRadiusScale_split_term_le (s := s) (p := p) hC hR hp hLbound
+  have hscale_pos : 0 < radiusScale C R p := radiusScale_pos hC hR hp
+  calc
+    ((2 * s : ℕ) : ℝ) * (L / Real.sqrt (p : ℝ)) /
+        (K * radiusScale C R p) =
+        (1 / K) *
+          (((2 * s : ℕ) : ℝ) * (L / Real.sqrt (p : ℝ)) /
+            radiusScale C R p) := by
+          field_simp [hK.ne', hscale_pos.ne']
+    _ ≤ (1 / K) * ((2 * s : ℕ) : ℝ) :=
+      mul_le_mul_of_nonneg_left hbase (by positivity)
+
 theorem radiusScale_sq {C R : ℝ} {p : ℕ}
     (hR : 0 ≤ R) (hp : 0 < p) :
     (radiusScale C R p) ^ 2 = C ^ 2 * R / (p : ℝ) := by
@@ -472,8 +493,8 @@ theorem card_le_radiusScale_const_mul_s_of_interval_stack_log
           ((s * (2 * s + 1) : ℕ) : ℝ) *
               Real.log (Nat.floor ((radiusScale C R m₀) ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -542,8 +563,8 @@ theorem card_le_radiusScale_const_mul_log_div_loglog_of_interval_stack_log
           ((s * (2 * s + 1) : ℕ) : ℝ) *
               Real.log (Nat.floor ((radiusScale C R m₀) ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -605,8 +626,8 @@ theorem card_le_radiusScale_const_mul_s_of_stack_threshold
           ((s * (2 * s + 1) : ℕ) : ℝ) *
               Real.log (Nat.floor ((radiusScale C R m₀) ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -660,8 +681,8 @@ theorem card_le_radiusScale_const_mul_log_div_loglog_of_stack_threshold
           ((s * (2 * s + 1) : ℕ) : ℝ) *
               Real.log (Nat.floor ((radiusScale C R m₀) ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -723,8 +744,8 @@ theorem card_le_radiusScale_const_mul_s_of_crude_stack_threshold
           ((s * (2 * s + 1) : ℕ) : ℝ) *
               Real.log (Nat.floor ((radiusScale C R m₀) ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -783,8 +804,8 @@ theorem card_le_radiusScale_const_mul_log_div_loglog_of_crude_stack_threshold
           ((s * (2 * s + 1) : ℕ) : ℝ) *
               Real.log (Nat.floor ((radiusScale C R m₀) ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -846,8 +867,8 @@ theorem card_le_radiusScale_const_mul_log_div_loglog_of_crude_threshold_and_endp
           2 * Real.sqrt ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ) *
             Real.log ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ) ≤
         (Real.log 2 / 4) * ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -908,8 +929,8 @@ theorem card_le_radiusScale_const_mul_log_div_loglog_of_radius_sq_checks
           2 * Real.sqrt ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ) *
             Real.log ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ) ≤
         (Real.log 2 / 4) * ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -971,8 +992,8 @@ theorem card_le_eight_mul_s_of_full_and_prime_radius_scales
           ((s * (2 * s + 1) : ℕ) : ℝ) *
               Real.log (Nat.floor ((radiusScale C R p) ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -1054,8 +1075,8 @@ theorem card_le_eight_mul_log_div_loglog_of_full_and_prime_radius_scales
           ((s * (2 * s + 1) : ℕ) : ℝ) *
               Real.log (Nat.floor ((radiusScale C R p) ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -1117,8 +1138,8 @@ theorem card_le_eight_mul_log_div_loglog_of_radius_sq_prime_scales
           ((s * (2 * s + 1) : ℕ) : ℝ) *
               Real.log (Nat.floor ((radiusScale C R p) ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (2 * Real.log R - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -1183,8 +1204,8 @@ theorem card_le_eight_mul_log_div_loglog_of_radius_sq_real_scale_bounds
           ((s * (2 * s + 1) : ℕ) : ℝ) *
               Real.log (C ^ 2 * R / (p : ℝ)) <
             ((s * s : ℕ) : ℝ) * (2 * Real.log R - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -1270,8 +1291,8 @@ theorem card_le_eight_mul_log_div_loglog_of_radius_sq_endpoint_bounds
           2 * Real.sqrt ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ) *
             Real.log ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ) ≤
         (Real.log 2 / 4) * ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -1339,8 +1360,8 @@ theorem card_le_eight_mul_log_div_loglog_of_radius_sq_twoScale_endpoint_bounds
           2 * Real.sqrt ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ) *
             Real.log ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ) ≤
         (Real.log 2 / 4) * ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -1480,6 +1501,222 @@ theorem card_le_eight_mul_log_div_loglog_of_radius_sq_twoScale_endpoint_bounds
     _ ≤ 8 * (B * (Real.log R / Real.log (Real.log R))) := by
       nlinarith [hs]
     _ = 8 * B * (Real.log R / Real.log (Real.log R)) := by ring
+
+/-- Sharper two-scale endpoint version with a constant-enlarged split scale.
+
+The split descent branch uses `48 * C * sqrt R / sqrt p` as its subcritical scale.
+This keeps the determinant endpoint inequality asymptotically valid while making the split
+sliding-window length contribution only `1/48` of the base window size.  The finite branch
+factor is therefore `4 + 4/48 = 49/12` instead of `8`. -/
+theorem card_le_49_div_12_mul_log_div_loglog_of_radius_sq_twoScale_endpoint_bounds
+    {M s N m₀ k : ℕ}
+    {C R B a L : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
+    (hR2 : R ^ 2 = (N : ℝ))
+    (honeFull : 1 ≤ C ^ 2 * R)
+    (honeSplitUpper :
+      1 ≤ C ^ 2 * R / (IntervalStack.geomLower m₀ k : ℝ))
+    (honeInertUpper :
+      1 ≤ C ^ 2 * R / (IntervalStack.geomLower m₀ k : ℝ) ^ 2)
+    (hthreshold :
+      ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (C ^ 2 * R) <
+        ((s : ℝ) ^ 2 * ((k : ℝ) * (Real.log 2 / 2)) -
+            2 * (((IntervalStack.geomLower m₀ k + 1 : ℕ) : ℝ) *
+              Real.log (IntervalStack.geomLower m₀ k : ℝ))) +
+          ((s * s : ℕ) : ℝ) * (2 * Real.log R))
+    (hsplitScaledLower :
+      ((s * (2 * s + 1) : ℕ) : ℝ) *
+          Real.log ((48 * C) ^ 2 * R / (m₀ : ℝ)) <
+        ((s * s : ℕ) : ℝ) * (2 * Real.log R - Real.log (m₀ : ℝ)))
+    (hinertLower :
+      ((s * (2 * s + 1) : ℕ) : ℝ) *
+          Real.log (C ^ 2 * R / (m₀ : ℝ) ^ 2) <
+        ((s * s : ℕ) : ℝ) * (2 * Real.log R - 2 * Real.log (m₀ : ℝ)))
+    (hk : 0 < k)
+    (h2m₀ : 2 ≤ m₀)
+    (hM : 0 < M)
+    (hC : 0 < C)
+    (hR : 0 < R)
+    (hLbound : L ≤ C * Real.sqrt R)
+    (hsmallPrime : 4 * IntervalStack.geomLower m₀ k ≤ s)
+    (hN : 0 < N)
+    (hs :
+      (s : ℝ) ≤ B * (Real.log R / Real.log (Real.log R)))
+    (herr : ∀ i : Fin k,
+      Real.log (((IntervalStack.geomUpper m₀ i : ℕ) : ℝ) + 1) +
+          2 * Real.sqrt ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ) *
+            Real.log ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ) ≤
+        (Real.log 2 / 4) * ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ))
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
+    (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
+    (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
+    (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
+    (M : ℝ) ≤ (49 / 12 : ℝ) * B * (Real.log R / Real.log (Real.log R)) := by
+  let U := IntervalStack.geomLower m₀ k
+  have hm₀ : 0 < m₀ := by omega
+  have hU_one : 1 ≤ U := by
+    dsimp [U]
+    unfold IntervalStack.geomLower
+    have hm₀_one : 1 ≤ m₀ := by omega
+    have hpow : 1 ≤ 8 ^ k := Nat.one_le_pow k 8 (by norm_num)
+    simpa using Nat.mul_le_mul hm₀_one hpow
+  have hU_pos : 0 < U := Nat.pos_of_ne_zero (by omega)
+  have hCR_pos : 0 < C ^ 2 * R := mul_pos (sq_pos_of_pos hC) hR
+  have hCR_nonneg : 0 ≤ C ^ 2 * R := hCR_pos.le
+  have hlogN := log_nat_eq_two_log_radius_of_sq (N := N) hR hR2
+  have hfloorFull : 0 < Nat.floor ((fullRadiusScale C R) ^ 2) :=
+    fullRadiusScale_floor_pos_of_one_le hR.le honeFull
+  have hlogFull :
+      Real.log (Nat.floor ((fullRadiusScale C R) ^ 2) : ℝ) ≤
+        Real.log (C ^ 2 * R) :=
+    fullRadiusScale_log_floor_le_log_of_sq_le hR.le hfloorFull le_rfl
+  have hcoeff_nonneg : 0 ≤ ((s * (2 * s + 1) : ℕ) : ℝ) := by positivity
+  have hthresholdFloor :
+      ((s * (2 * s + 1) : ℕ) : ℝ) *
+          Real.log (Nat.floor ((fullRadiusScale C R) ^ 2) : ℝ) <
+        ((s : ℝ) ^ 2 * ((k : ℝ) * (Real.log 2 / 2)) -
+            2 * (((U + 1 : ℕ) : ℝ) * Real.log (U : ℝ))) +
+          ((s * s : ℕ) : ℝ) * Real.log (N : ℝ) := by
+    have hthresholdFloorR :
+        ((s * (2 * s + 1) : ℕ) : ℝ) *
+            Real.log (Nat.floor ((fullRadiusScale C R) ^ 2) : ℝ) <
+          ((s : ℝ) ^ 2 * ((k : ℝ) * (Real.log 2 / 2)) -
+              2 * (((U + 1 : ℕ) : ℝ) * Real.log (U : ℝ))) +
+            ((s * s : ℕ) : ℝ) * (2 * Real.log R) :=
+      (mul_le_mul_of_nonneg_left hlogFull hcoeff_nonneg).trans_lt
+        (by simpa [U] using hthreshold)
+    simpa [hlogN] using hthresholdFloorR
+  have hdichotomy :=
+    MainDichotomy.missing_or_few_stack_dichotomy_of_crude_threshold
+      (s := s) (N := N) (m₀ := m₀) (k := k) (A := fullRadiusScale C R)
+      (by simpa [U] using hU_one) (by simpa [U] using hthresholdFloor)
+  have hfinite :=
+    MainDichotomy.card_le_four_add_split_eps_mul_s_of_interval_stack_twoScale_log
+      (M := M) (s := s) (N := N) (m₀ := m₀) (k := k)
+      (a := a) (L := L) (A₀ := fullRadiusScale C R) (eps := (1 / 48 : ℝ))
+      (Asplit := fun p => 48 * radiusScale C R p)
+      (Ainert := fun p => inertRadiusScale C R p) (z := z) (t := t)
+      hdichotomy hk hm₀ h2m₀ hM (fullRadiusScale_pos hC hR) hfloorFull
+      hsmallPrime hN (by norm_num)
+      (by simpa using fullRadiusScale_term_le (s := s) hC hR hLbound)
+      (fun p hp _hmp _hpU _hpN => by
+        simpa using inertRadiusScale_inert_term_le (s := s) (p := p) hC hR hp.pos hLbound)
+      (fun p hp _hmp _hpU _hpN => by
+        simpa using primeRadiusScale_split_term_le_div_const
+          (s := s) (p := p) (K := (48 : ℝ)) hC hR hp.pos (by norm_num) hLbound)
+      herr
+      (fun p hp _hmp _hpU _hpN => by
+        exact mul_pos (by norm_num) (radiusScale_pos hC hR hp.pos))
+      (fun p hp _hmp hpU _hpN => by
+        have hp_pos_real : 0 < (p : ℝ) := by exact_mod_cast hp.pos
+        have hdiv :
+            C ^ 2 * R / (U : ℝ) ≤ C ^ 2 * R / (p : ℝ) :=
+          div_le_div_of_nonneg_left hCR_nonneg hp_pos_real (by exact_mod_cast hpU)
+        have honeSplitU : 1 ≤ C ^ 2 * R / (U : ℝ) := by
+          simpa [U] using honeSplitUpper
+        have hscale_sq :
+            (48 * radiusScale C R p) ^ 2 = (48 * C) ^ 2 * R / (p : ℝ) := by
+          rw [mul_pow, radiusScale_sq hR.le hp.pos]
+          ring
+        have hscale_ge_one : 1 ≤ (48 * C) ^ 2 * R / (p : ℝ) := by
+          have honeP : 1 ≤ C ^ 2 * R / (p : ℝ) := honeSplitU.trans hdiv
+          have heq :
+              (48 * C) ^ 2 * R / (p : ℝ) =
+                (48 : ℝ) ^ 2 * (C ^ 2 * R / (p : ℝ)) := by
+            ring
+          rw [heq]
+          nlinarith
+        apply Nat.floor_pos.mpr
+        rw [hscale_sq]
+        exact hscale_ge_one)
+      (fun p hp _hmp _hpU _hpN => inertRadiusScale_pos hC hR hp.pos)
+      (fun p hp _hmp hpU _hpN => by
+        have hp_pos_real : 0 < (p : ℝ) := by exact_mod_cast hp.pos
+        have hpUreal : (p : ℝ) ≤ (U : ℝ) := by exact_mod_cast hpU
+        have hpU_sq : (p : ℝ) ^ 2 ≤ (U : ℝ) ^ 2 :=
+          pow_le_pow_left₀ hp_pos_real.le hpUreal 2
+        have hdiv :
+            C ^ 2 * R / (U : ℝ) ^ 2 ≤ C ^ 2 * R / (p : ℝ) ^ 2 :=
+          div_le_div_of_nonneg_left hCR_nonneg (sq_pos_of_pos hp_pos_real) hpU_sq
+        have honeInertU : 1 ≤ C ^ 2 * R / (U : ℝ) ^ 2 := by
+          simpa [U] using honeInertUpper
+        exact inertRadiusScale_floor_pos_of_one_le hR.le hp.pos
+          (honeInertU.trans hdiv))
+      (fun p N' hp hmp hpU _hpN _hN' _hfactor => by
+        have hfloorP : 0 < Nat.floor ((48 * radiusScale C R p) ^ 2) := by
+          have hp_pos_real : 0 < (p : ℝ) := by exact_mod_cast hp.pos
+          have hdiv :
+              C ^ 2 * R / (U : ℝ) ≤ C ^ 2 * R / (p : ℝ) :=
+            div_le_div_of_nonneg_left hCR_nonneg hp_pos_real (by exact_mod_cast hpU)
+          have honeSplitU : 1 ≤ C ^ 2 * R / (U : ℝ) := by
+            simpa [U] using honeSplitUpper
+          have hscale_sq :
+              (48 * radiusScale C R p) ^ 2 = (48 * C) ^ 2 * R / (p : ℝ) := by
+            rw [mul_pow, radiusScale_sq hR.le hp.pos]
+            ring
+          have hscale_ge_one : 1 ≤ (48 * C) ^ 2 * R / (p : ℝ) := by
+            have honeP : 1 ≤ C ^ 2 * R / (p : ℝ) := honeSplitU.trans hdiv
+            have heq :
+                (48 * C) ^ 2 * R / (p : ℝ) =
+                  (48 : ℝ) ^ 2 * (C ^ 2 * R / (p : ℝ)) := by
+              ring
+            rw [heq]
+            nlinarith
+          apply Nat.floor_pos.mpr
+          rw [hscale_sq]
+          exact hscale_ge_one
+        have hscale_sq :
+            (48 * radiusScale C R p) ^ 2 = (48 * C) ^ 2 * R / (p : ℝ) := by
+          rw [mul_pow, radiusScale_sq hR.le hp.pos]
+          ring
+        have hlogP :
+            Real.log (Nat.floor ((48 * radiusScale C R p) ^ 2) : ℝ) ≤
+              Real.log ((48 * C) ^ 2 * R / (p : ℝ)) :=
+          log_natFloor_le_log_of_le (sq_nonneg _) hfloorP (by rw [hscale_sq])
+        have hC48 : 0 < 48 * C := mul_pos (by norm_num) hC
+        have hsplit :=
+          split_real_scale_log_condition_of_lower_endpoint
+            (s := s) (m₀ := m₀) (p := p) (C := 48 * C)
+            hC48 hR hm₀ hp hmp hsplitScaledLower
+        have hsplitN :
+            ((s * (2 * s + 1) : ℕ) : ℝ) *
+                Real.log ((48 * C) ^ 2 * R / (p : ℝ)) <
+              ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - Real.log (p : ℝ)) := by
+          simpa [hlogN] using hsplit
+        exact (mul_le_mul_of_nonneg_left hlogP hcoeff_nonneg).trans_lt hsplitN)
+      (fun p N' hp hmp hpU _hpN _hN' _hfactor => by
+        have hfloorP : 0 < Nat.floor ((inertRadiusScale C R p) ^ 2) := by
+          have hp_pos_real : 0 < (p : ℝ) := by exact_mod_cast hp.pos
+          have hpUreal : (p : ℝ) ≤ (U : ℝ) := by exact_mod_cast hpU
+          have hpU_sq : (p : ℝ) ^ 2 ≤ (U : ℝ) ^ 2 :=
+            pow_le_pow_left₀ hp_pos_real.le hpUreal 2
+          have hdiv :
+              C ^ 2 * R / (U : ℝ) ^ 2 ≤ C ^ 2 * R / (p : ℝ) ^ 2 :=
+            div_le_div_of_nonneg_left hCR_nonneg (sq_pos_of_pos hp_pos_real) hpU_sq
+          have honeInertU : 1 ≤ C ^ 2 * R / (U : ℝ) ^ 2 := by
+            simpa [U] using honeInertUpper
+          exact inertRadiusScale_floor_pos_of_one_le hR.le hp.pos
+            (honeInertU.trans hdiv)
+        have hlogP :
+            Real.log (Nat.floor ((inertRadiusScale C R p) ^ 2) : ℝ) ≤
+              Real.log (C ^ 2 * R / (p : ℝ) ^ 2) :=
+          inertRadiusScale_log_floor_le_log_of_sq_le hR.le hp.pos hfloorP le_rfl
+        have hinert :=
+          inert_sq_real_scale_log_condition_of_lower_endpoint
+            (s := s) (m₀ := m₀) (p := p) hC hR hm₀ hp hmp hinertLower
+        have hinertN :
+            ((s * (2 * s + 1) : ℕ) : ℝ) *
+                Real.log (C ^ 2 * R / (p : ℝ) ^ 2) <
+              ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)) := by
+          simpa [hlogN] using hinert
+        exact (mul_le_mul_of_nonneg_left hlogP hcoeff_nonneg).trans_lt hinertN)
+      hcircle hz hmono hparam hmem
+  calc
+    (M : ℝ) ≤ (4 + 4 * (1 / 48 : ℝ)) * (s : ℝ) := hfinite
+    _ = (49 / 12 : ℝ) * (s : ℝ) := by norm_num
+    _ ≤ (49 / 12 : ℝ) * (B * (Real.log R / Real.log (Real.log R))) := by
+      exact mul_le_mul_of_nonneg_left hs (by norm_num)
+    _ = (49 / 12 : ℝ) * B * (Real.log R / Real.log (Real.log R)) := by ring
 
 end MainSublogBound
 end GaussianChain

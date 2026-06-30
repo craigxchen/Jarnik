@@ -89,8 +89,8 @@ theorem card_le_of_missing_prime_interval_weighted_log_bound
         ((s : ℝ) ^ 2 * MertensLower.weightedMissingPrimeInterval N m U -
             2 * missingPrimeLogSum N m U) +
           ((s * s : ℕ) : ℝ) * Real.log (N : ℝ))
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ p q, p ≤ q → q < M → t p ≤ t q)
     (hparam : ∀ p q, p < M → q < M → gaussianSqDist (z p) (z q) ≤ (t q - t p) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :

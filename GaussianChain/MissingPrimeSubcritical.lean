@@ -101,18 +101,19 @@ prime in a fixed finite set. -/
 theorem window_exponent_le_pairCollisionCount_of_real_le_lower_bound
     {M s N : ℕ} {z : ℕ → GaussianInt} {P : Finset ℕ} {E : ℕ → ℕ}
     (hprime : ∀ p ∈ P, Nat.Prime p)
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt))
+    (hcircle : OnCircleUpTo M N z)
     (hE : ∀ p ∈ P,
       (E p : ℝ) ≤ (((2 * s + 1 : ℕ) : ℝ) ^ 2) / (4 * (p : ℝ)) -
         (((2 * s + 1 : ℕ) : ℝ) / 2)) :
     ∀ j, j < M - 2 * s → ∀ p ∈ P,
       E p ≤ pairCollisionCount p (fun i : Fin (2 * s + 1) => z (j + (i : ℕ))) := by
-  intro j _hj p hp
+  intro j hj p hp
   letI : Fact p.Prime := ⟨hprime p hp⟩
   let block : Fin (2 * s + 1) → GaussianInt := fun i => z (j + (i : ℕ))
   have hz : ∀ i, (block i).norm = (N : ℤ) := by
     intro i
-    exact RamanaDeterminant.norm_eq_int_of_mul_star_eq (hcircle (j + (i : ℕ)))
+    exact RamanaDeterminant.norm_eq_int_of_mul_star_eq
+      (hcircle (j + (i : ℕ)) (by have hi := i.isLt; omega))
   exact exponent_le_pairCollisionCount_of_real_le_lower_bound (p := p) (N := (N : ℤ))
     (z := block) hz (hE p hp)
 
@@ -149,7 +150,7 @@ theorem window_floor_half_s_sq_div_le_pairCollisionCount
     {M s N : ℕ} {z : ℕ → GaussianInt} {P : Finset ℕ}
     (hprime : ∀ p ∈ P, Nat.Prime p)
     (hsmallPrime : ∀ p ∈ P, 4 * p ≤ s)
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt)) :
+    (hcircle : OnCircleUpTo M N z) :
     ∀ j, j < M - 2 * s → ∀ p ∈ P,
       Nat.floor (((s : ℝ) ^ 2) / (2 * (p : ℝ))) ≤
         pairCollisionCount p (fun i : Fin (2 * s + 1) => z (j + (i : ℕ))) := by
@@ -171,7 +172,7 @@ theorem window_span_gt_of_missing_prime_subcritical
         (∏ p ∈ P,
           p ^ (2 * pairCollisionCount p
             (fun i : Fin (2 * s + 1) => z (j + (i : ℕ))))) * N ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt))
+    (hcircle : OnCircleUpTo M N z)
     (hinj : ∀ j, j < M - 2 * s →
       Function.Injective fun i : Fin (2 * s + 1) => z (j + (i : ℕ)))
     (hdiam_of_span : ∀ j, j < M - 2 * s → t (j + 2 * s) - t j ≤ A →
@@ -184,7 +185,7 @@ theorem window_span_gt_of_missing_prime_subcritical
   let block : Fin (2 * s + 1) → GaussianInt := fun i => z (j + (i : ℕ))
   have hcircle_block : ∀ i, block i * star (block i) = ((N : ℤ) : GaussianInt) := by
     intro i
-    exact hcircle (j + (i : ℕ))
+    exact hcircle (j + (i : ℕ)) (by have hi := i.isLt; omega)
   have hinj_block : Function.Injective block := hinj j hj
   obtain ⟨i, k, _hik, hlarge⟩ :=
     exists_pair_sqDist_gt_of_natFloor_pow_lt_missing_prime_product
@@ -206,7 +207,7 @@ theorem card_le_of_missing_prime_subcritical_windows
         (∏ p ∈ P,
           p ^ (2 * pairCollisionCount p
             (fun i : Fin (2 * s + 1) => z (j + (i : ℕ))))) * N ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt))
+    (hcircle : OnCircleUpTo M N z)
     (hinj : ∀ j, j < M - 2 * s →
       Function.Injective fun i : Fin (2 * s + 1) => z (j + (i : ℕ)))
     (hdiam_of_span : ∀ j, j < M - 2 * s → t (j + 2 * s) - t j ≤ A →
@@ -220,9 +221,8 @@ theorem card_le_of_missing_prime_subcritical_windows
   exact le_of_lt (window_span_gt_of_missing_prime_subcritical hprime hN hpN hsmall
     hcircle hinj hdiam_of_span j hj)
 
-/-- Variant of `card_le_of_missing_prime_subcritical_windows` using a globally injective
-sequence of points. -/
-theorem card_le_of_missing_prime_subcritical_windows_of_injective
+/-- Variant of `card_le_of_missing_prime_subcritical_windows` using finite-family distinctness. -/
+theorem card_le_of_missing_prime_subcritical_windows_of_injectiveUpTo
     {M s N : ℕ} {a L K A : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ} {P : Finset ℕ}
     (hk : 2 * s ≤ M)
     (hA : 0 < A)
@@ -234,15 +234,15 @@ theorem card_le_of_missing_prime_subcritical_windows_of_injective
         (∏ p ∈ P,
           p ^ (2 * pairCollisionCount p
             (fun i : Fin (2 * s + 1) => z (j + (i : ℕ))))) * N ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hdiam_of_span : ∀ j, j < M - 2 * s → t (j + 2 * s) - t j ≤ A →
       ∀ i k : Fin (2 * s + 1),
         gaussianSqDist (z (j + (i : ℕ))) (z (j + (k : ℕ))) ≤ K)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
     (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / A :=
   card_le_of_missing_prime_subcritical_windows hk hA hprime hN hpN hsmall hcircle
-    (fun j _hj => nat_window_injective_of_injective hz j) hdiam_of_span hmem
+    (fun _j hj => nat_window_injective_of_injectiveUpTo hz hj) hdiam_of_span hmem
 
 /-- Cardinality bound with concrete ordered-parameter geometry and missing-prime determinant
 input. This is the form used for arclength-ordered arc points. -/
@@ -258,13 +258,13 @@ theorem card_le_of_param_missing_prime_subcritical_windows
         (∏ p ∈ P,
           p ^ (2 * pairCollisionCount p
             (fun i : Fin (2 * s + 1) => z (j + (i : ℕ))))) * N ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ p q, p ≤ q → q < M → t p ≤ t q)
     (hparam : ∀ p q, p < M → q < M → gaussianSqDist (z p) (z q) ≤ (t q - t p) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
     (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / A := by
-  refine card_le_of_missing_prime_subcritical_windows_of_injective (M := M) (s := s)
+  refine card_le_of_missing_prime_subcritical_windows_of_injectiveUpTo (M := M) (s := s)
     (N := N) (a := a) (L := L) (K := A ^ 2) (A := A) (P := P)
     hk hA hprime hN hpN hsmall hcircle hz ?_ hmem
   intro j hj hspan i k
@@ -284,8 +284,8 @@ theorem card_le_of_param_missing_prime_subcritical_windows_of_exponent_bound
       E p ≤ pairCollisionCount p (fun i : Fin (2 * s + 1) => z (j + (i : ℕ))))
     (hsmallE : (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) <
       (∏ p ∈ P, p ^ (2 * E p)) * N ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ p q, p ≤ q → q < M → t p ≤ t q)
     (hparam : ∀ p q, p < M → q < M → gaussianSqDist (z p) (z q) ≤ (t q - t p) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -310,8 +310,8 @@ theorem card_le_of_param_missing_prime_subcritical_windows_of_real_exponent_boun
         (((2 * s + 1 : ℕ) : ℝ) / 2))
     (hsmallE : (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) <
       (∏ p ∈ P, p ^ (2 * E p)) * N ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ p q, p ≤ q → q < M → t p ≤ t q)
     (hparam : ∀ p q, p < M → q < M → gaussianSqDist (z p) (z q) ≤ (t q - t p) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -333,8 +333,8 @@ theorem card_le_of_param_missing_prime_subcritical_windows_of_small_prime_floor_
     (hsmallE : (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) <
       (∏ p ∈ P, p ^ (2 * Nat.floor (((s : ℝ) ^ 2) / (2 * (p : ℝ))))) *
         N ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ p q, p ≤ q → q < M → t p ≤ t q)
     (hparam : ∀ p q, p < M → q < M → gaussianSqDist (z p) (z q) ≤ (t q - t p) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -360,8 +360,8 @@ theorem card_le_of_param_missing_prime_subcritical_windows_of_small_prime_floor_
           ((2 * Nat.floor (((s : ℝ) ^ 2) / (2 * (p : ℝ))) : ℕ) : ℝ) *
             Real.log (p : ℝ)) +
           ((s * s : ℕ) : ℝ) * Real.log (N : ℝ))
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ p q, p ≤ q → q < M → t p ≤ t q)
     (hparam : ∀ p q, p < M → q < M → gaussianSqDist (z p) (z q) ≤ (t q - t p) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -387,8 +387,8 @@ theorem card_le_of_param_missing_prime_subcritical_windows_of_weighted_log_bound
         ((s : ℝ) ^ 2 * (∑ p ∈ P, Real.log (p : ℝ) / (p : ℝ)) -
             2 * (∑ p ∈ P, Real.log (p : ℝ))) +
           ((s * s : ℕ) : ℝ) * Real.log (N : ℝ))
-    (hcircle : ∀ n, z n * star (z n) = ((N : ℤ) : GaussianInt))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ p q, p ≤ q → q < M → t p ≤ t q)
     (hparam : ∀ p q, p < M → q < M → gaussianSqDist (z p) (z q) ≤ (t q - t p) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
