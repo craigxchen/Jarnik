@@ -25,8 +25,8 @@ theorem card_le_of_prime_divisor_descent_branch
       (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
     (hsmallInert : ∀ N' : ℕ, 0 < N' → (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ) →
       (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -46,7 +46,7 @@ theorem card_le_of_prime_divisor_descent_branch
         (M := M) (s := s) (N := N) (N' := N') (p := p)
         hp1 hM hlarge hA hN' hfactor hsmall hcircle hz hmono hparam hmem⟩
   · have hz0 : (z 0).norm = (N : ℤ) :=
-      RamanaDeterminant.norm_eq_int_of_mul_star_eq (hcircle 0)
+      RamanaDeterminant.norm_eq_int_of_mul_star_eq (hcircle 0 hM)
     obtain ⟨N', hN', hfactor⟩ :=
       PrimeDescent.exists_pos_nat_factor_of_inert_prime_dvd_norm
         (p := p) hp3 hN (z := z 0) hz0 hpN
@@ -76,8 +76,8 @@ theorem card_le_of_prime_divisor_descent_branch_log
     (hlogInert : ∀ N' : ℕ, 0 < N' → (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ) →
       ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor (A ^ 2) : ℝ) <
         ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -129,8 +129,8 @@ theorem exists_prime_dvd_with_descent_bound_of_geometric_stack_total_missing_lt
       p ≤ IntervalStack.geomLower m₀ k → p ∣ N → 0 < N' →
         (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ) →
           (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -187,8 +187,8 @@ theorem exists_prime_dvd_with_descent_bound_of_geometric_stack_total_missing_lt_
         (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ) →
           ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor (A ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -235,8 +235,8 @@ theorem card_le_of_prime_divisor_descent_branch_log_twoScale
     (hlogInert : ∀ N' : ℕ, 0 < N' → (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ) →
       ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor (Ainert ^ 2) : ℝ) <
         ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -259,7 +259,7 @@ theorem card_le_of_prime_divisor_descent_branch_log_twoScale
         (M := M) (s := s) (N := N) (N' := N') (p := p)
         hp1 hM hlarge hAsplit hN' hfactor hsmall hcircle hz hmono hparam hmem⟩
   · have hz0 : (z 0).norm = (N : ℤ) :=
-      RamanaDeterminant.norm_eq_int_of_mul_star_eq (hcircle 0)
+      RamanaDeterminant.norm_eq_int_of_mul_star_eq (hcircle 0 hM)
     obtain ⟨N', hN', hfactor⟩ :=
       PrimeDescent.exists_pos_nat_factor_of_inert_prime_dvd_norm
         (p := p) hp3 hN (z := z 0) hz0 hpN
@@ -309,8 +309,8 @@ theorem exists_prime_dvd_with_descent_bound_of_geometric_stack_total_missing_lt_
         (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ) →
           ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor ((Ainert p) ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -375,8 +375,8 @@ theorem exists_prime_dvd_with_descent_bound_of_geometric_stack_total_missing_lt_
         (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ) →
           ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor ((A p) ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :

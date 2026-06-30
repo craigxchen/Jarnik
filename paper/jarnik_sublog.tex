@@ -1,0 +1,1091 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1.05in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\N}{\mathbb N}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\T}{\mathbb T}
+\newcommand{\GI}{\mathbb Z[i]}
+\newcommand{\Norm}{\operatorname{N}}
+\newcommand{\ord}{\operatorname{ord}}
+\newcommand{\dist}{\operatorname{dist}}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+\newcommand{\conj}[1]{\overline{#1}}
+\newcommand{\E}{\mathcal E}
+\newcommand{\M}{\mathcal M}
+\newcommand{\LL}{\mathcal L}
+
+\title{A Formalized Logarithmic-Over-Logarithmic Bound for Lattice Points on Critical Circular Arcs}
+\author{Formalization in Lean 4}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Let
+\[
+  \E_N=\{(x,y)\in\Z^2:x^2+y^2=N\}.
+\]
+When \(N=R^2\), this is the set of lattice points on the circle of radius
+\(R\).  We prove that for every fixed \(C>0\) and every \(D>50\), all
+sufficiently large radii \(R\) with \(R^2\in\N\), and every arc of length at
+most \(C\sqrt R\) on \(x^2+y^2=R^2\), the number of lattice points on the arc
+is at most
+\[
+  D\,\frac{\log R}{\log\log R}.
+\]
+The proof is arithmetic rather than purely convex-geometric. It combines a
+Ramana-type determinant identity over \(\Z[i]\), congruence collisions at
+rational primes missing from the norm, a Chebyshev interval lower bound, and
+split/inert descent in the Gaussian integers.  The Lean development proves a
+parametrized chord-distance theorem from which the usual arc statement follows.
+\end{abstract}
+
+\noindent\textbf{Keywords.}
+lattice points on circles; short arcs; Gaussian integers; determinant method;
+restriction estimates; Lean 4.
+
+\tableofcontents
+
+\section{Introduction}
+
+The distribution of lattice points on circles is an old problem with a
+distinctive feature: globally the number of representations
+\[
+  x^2+y^2=N
+\]
+can fluctuate arithmetically, but locally on a short arc one expects much more
+rigidity.  The guiding question is the following.  If \(R^2=N\), how many
+points of \(\E_N\) can lie on an arc of length comparable to \(\sqrt R\)?
+
+For a beginning number theorist, the tension is useful to keep in mind.  The
+set \(\E_N\) is not a random set of points on a circle; it is controlled by the
+factorization of \(N\) in the Gaussian integers.  At the same time, once we zoom
+into a very short arc, the problem looks geometric: many nearby lattice points
+would force many small chord distances.  The proof below exploits exactly this
+meeting point between local geometry and arithmetic factorization.
+
+The scale \(\sqrt R\) is critical for the circle.  It is much shorter than the
+radius, so the arc is locally flat at first sight, but it is long enough that
+the usual convexity bounds are far from sharp.  It is also the scale which
+appears in questions about concentration of Fourier modes of toral
+eigenfunctions: the frequency set of an eigenfunction with eigenvalue
+\(4\pi^2N\) is precisely \(\E_N\), and clusters of frequencies in short arcs
+influence restriction and oscillatory-kernel estimates.
+
+It is conjectured that arcs of length comparable to \(R^{1/2}\) contain only
+boundedly many lattice points, uniformly in the radius \(R\),
+\cite{CillerueloGranville2007,CillerueloGranville2009}.  In this paper we
+prove the weaker sublogarithmic estimate
+\[
+  O_C\!\left(\frac{\log R}{\log\log R}\right).
+\]
+This improves the logarithmic bound obtained by choosing the number of points
+in the Cilleruelo--Cordoba fixed-\(k\) estimates as a function of \(R\).
+
+The proof should be thought of as a determinant method with extra arithmetic
+divisibility.  A Vandermonde-type determinant over \(\Z[i]\) cannot vanish when
+we feed it distinct points on the circle, but if many consecutive points lie in
+a short parameter interval then the same determinant is forced to be small.
+This gives the first obstruction to clustering.  The logarithmic saving comes
+from strengthening the determinant with congruences modulo rational primes.
+Primes \(p\nmid N\) give collision divisibility, while primes dividing \(N\)
+allow descent to a smaller Gaussian-integer circle.  Organizing these two
+alternatives over a geometric stack of prime intervals produces the
+\(\log\log R\) gain.
+
+\subsection{Main result}
+
+We identify a point \((x,y)\in\Z^2\) with \(z=x+iy\in\GI\), and write
+\(\Norm(z)=z\conj z=x^2+y^2\).
+
+\begin{theorem}[Geometric arc form]\label{thm:geometric}
+For every \(C>0\) and \(D>50\) there exists \(R_0(C,D)\) such that the
+following holds.  Let \(R\ge R_0(C,D)\), let \(N\in\N\) satisfy \(R^2=N\), and
+let \(I\) be an arc of the circle \(x^2+y^2=N\) of Euclidean length at most
+\(C\sqrt R\).  Then
+\[
+  \#(I\cap\Z^2)
+  \le
+  D\,\frac{\log R}{\log\log R}.
+\]
+\end{theorem}
+
+This is a radius statement.  It does not require \(R\) itself to be an integer;
+the arithmetic input is only that the squared radius \(R^2\) is the integer
+norm \(N\).  Equivalently, one may set \(R=\sqrt N\) for an integer norm \(N\),
+in which case the length scale is \(C N^{1/4}\) and the logarithmic factor is
+\(\log\sqrt N/\log\log\sqrt N\).
+
+The theorem formalized in Lean is slightly more general and avoids a
+topological formalization of arcs.  It works with ordered real parameters whose
+differences dominate chord lengths.
+
+\begin{theorem}[Formalized asymptotic parametrized theorem]\label{thm:param}
+Let \(C>0\) and \(D>50\).  There exists \(R_0(C,D)\) such that for every
+\(R\ge R_0(C,D)\), the following holds.  Let
+\(M,N\in\N\), \(a,L\in\R\), and let \(z:\N\to\GI\), \(t:\N\to\R\).  Assume
+\[
+  R^2=N,\qquad 0<M,\qquad 0<N,\qquad L\le C\sqrt R,
+\]
+\[
+  z_i\conj{z_i}=N\quad\text{for all }i<M,
+\]
+that \(z_i\ne z_j\) for distinct \(i,j<M\), that \(t_i\le t_j\) whenever
+\(i\le j<M\), that
+\[
+  |z_i-z_j|^2\le (t_j-t_i)^2\qquad (i,j<M),
+\]
+and that
+\[
+  a\le t_i\le a+L\qquad (i<M).
+\]
+Then
+\[
+  M\le D\,\frac{\log R}{\log\log R}.
+\]
+\end{theorem}
+
+In Lean this is
+\begin{center}
+\texttt{GaussianChain.AsymptoticParameters.}\\
+\texttt{eventually\_jarnik\_arc\_sublog\_}\\
+\texttt{of\_constant\_gt\_fifty}.
+\end{center}
+The hypotheses named \texttt{OnCircleUpTo M N z} and
+\texttt{InjectiveUpTo M z} in Lean describe the \(M\) points being counted at a
+fixed radius.  The theorem itself is asymptotic in \(R\): after the threshold
+\(R_0(C,D)\), it applies uniformly to every such \(M\)-point list at that
+radius.  This formulation avoids the false requirement that an infinite
+sequence of distinct points lie on one fixed circle.
+The implication Theorem~\ref{thm:param}\(\Rightarrow\)Theorem~\ref{thm:geometric}
+is immediate by taking \(t_i\) to be arclength along the arc: chord distance is
+bounded by arclength distance.
+
+\subsection{Proof idea}
+
+We now give a more explicit roadmap.  The reader should view \(s\) as the
+window size parameter; eventually \(s\) will be chosen on the order of
+\(\log R/\log\log R\).
+
+First, a determinant identity over \(\GI\) gives a subcritical obstruction.  In
+any block of \(2s+1\) distinct points on \(x^2+y^2=N\), a Ramana-type
+determinant factors into a power of the common norm and a Vandermonde product.
+Since the points are distinct, the determinant is nonzero, and hence its norm is
+at least \(1\).  If every squared chord length in the block is at most \(B\),
+this gives
+\[
+  N^{s^2}\le B^{s(2s+1)}.
+\]
+Thus, if \(B^{s(2s+1)}<N^{s^2}\), every consecutive \(2s+1\)-point block must
+have a large parameter span.  Sliding windows convert that local obstruction
+into a cardinality bound.
+
+Second, the determinant can be strengthened using primes \(p\nmid N\).  Modulo
+such a prime, the equation \(x^2+y^2=N\) has only \(O(p)\) possible residue
+classes.  A block of \(2s+1\) points therefore has many pairs which collide
+modulo \(p\).  Each collision contributes a factor of \(p\) to the determinant.
+If many primes in a controlled interval are missing from \(N\), the accumulated
+prime-power divisibility makes the determinant too divisible to be compatible
+with all chords being small.  This is the missing-prime branch.
+
+Third, if the missing-prime branch fails, then many primes in the same interval
+must divide \(N\).  In particular, one finds a prime divisor \(p\) of \(N\) in a
+controlled range.  The arithmetic of \(\Z[i]\) then gives descent.  If
+\(p\equiv 3\pmod 4\), the rational prime is inert and divides every point on the
+circle when it divides the norm.  If \(p\equiv 1\pmod 4\), the prime splits as
+\(p=\pi\overline\pi\), and at least half of the points are divisible by one of
+\(\pi,\overline\pi\).  Dividing by the relevant factor maps the chosen points to
+a smaller circle and shrinks chord lengths.  The determinant obstruction can
+then be applied on the descended circle.
+
+The final proof balances these two alternatives over a geometric stack of prime
+intervals.  Either sufficiently many primes are missing, giving extra
+determinant divisibility, or a useful prime divisor of \(N\) appears, giving
+descent.  Choosing the window parameter \(s\) at scale
+\(\log R/\log\log R\) makes the two mechanisms meet, and this is where the
+sublogarithmic bound comes from.
+
+\section{Related Work and the Logarithmic Baseline}
+\label{sec:related}
+
+\subsection{Classical convex-curve bounds}
+
+Jarnik's theorem on lattice points on convex curves gives the correct order of
+magnitude \(O(L^{2/3})\) for lattice points on a strictly convex arc of length
+\(L\) \cite{Jarnik1926}.  Applied directly to a circular arc of length
+\(L=C\sqrt R\), this gives only \(O_C(R^{1/3})\).  Bombieri and Pila's
+determinant method gives far-reaching bounds for integral points on arcs and
+ovals \cite{BombieriPila1989}; our proof is also determinant-driven, but it
+uses the special arithmetic of a fixed circle and the Gaussian integers.
+
+\subsection{Cilleruelo--Cordoba and Cilleruelo--Granville}
+
+For circles centered at the origin, much sharper local results are known.
+Cilleruelo and Cordoba proved fixed-\(k\) bounds below the square-root scale
+\cite{CillerueloCordoba1992}.  A convenient form is:
+for every \(k\ge 1\), every arc of length
+\[
+  \sqrt2\,R^{1/2-\frac{1}{4\floor{k/2}+2}}
+\]
+contains at most \(k\) lattice points.  Cilleruelo and Granville later studied
+the fine structure of close lattice points on circles and gave families of four
+points at short scales \cite{CillerueloGranville2009}; related conjectures on
+boundedness of short arcs appear in \cite{CillerueloGranville2007}.
+
+\subsection{Deriving the implied logarithmic bound}
+\label{subsec:cc-log}
+
+The Cilleruelo--Cordoba estimates imply a logarithmic bound at the critical
+\(\sqrt R\)-scale.  We include the derivation because it is the clean baseline
+improved by Theorem~\ref{thm:geometric}.
+
+Assume \(R>e^2\), and set
+\[
+  k_R=\ceil{\frac{\log R}{2}}.
+\]
+Then
+\[
+  4\floor{k_R/2}+2\ge \log R.
+\]
+Indeed, if \(k_R=2q\), then \(2q\ge \frac12\log R\), so
+\(4q+2\ge \log R+2\).  If \(k_R=2q+1\), then
+\(2q+1\ge \frac12\log R\), so \(4q+2\ge \log R\).  Therefore
+\[
+  \frac{1}{4\floor{k_R/2}+2}\le \frac1{\log R}.
+\]
+The length allowed by the Cilleruelo--Cordoba theorem is at least
+\[
+  \sqrt2\,R^{1/2-\frac{1}{4\floor{k_R/2}+2}}
+  \ge
+  \sqrt2\,R^{1/2-\frac1{\log R}}
+  =
+  \frac{\sqrt2}{e}\sqrt R.
+\]
+Thus arcs of length at most \((\sqrt2/e)\sqrt R\) contain at most
+\[
+  k_R\le \frac12\log R+1
+\]
+lattice points.
+
+For a general fixed \(C>0\), divide an arc of length at most \(C\sqrt R\) into
+\[
+  J_C=\ceil{\frac{Ce}{\sqrt2}}
+\]
+subarcs, each of length at most \((\sqrt2/e)\sqrt R\).  Summing the preceding
+bound over the subarcs gives
+\[
+  \#(I\cap\Z^2)
+  \le
+  J_C\left(\frac12\log R+1\right)
+  =
+  O_C(\log R).
+\]
+Theorem~\ref{thm:geometric} replaces this \(O_C(\log R)\) baseline by
+\[
+  O_C\!\left(\frac{\log R}{\log\log R}\right).
+\]
+
+\subsection{Restriction estimates}
+
+The same local-clustering question enters restriction estimates for toral
+eigenfunctions.  If
+\[
+  \varphi(x)=\sum_{\mu\in\E_N}a_\mu e^{2\pi i\langle \mu,x\rangle}
+\]
+is an eigenfunction on \(\T^2\), then restriction of \(\varphi\) to a curved
+hypersurface is controlled by oscillatory sums over pairs of frequencies.
+Near-parallel frequencies, which are precisely frequencies lying in short arcs
+of \(\E_N\), form the difficult local contribution.  Bourgain and Rudnick
+proved uniform restriction bounds for curves with nonzero curvature
+\cite{BourgainRudnick2009}.  The present theorem gives a formalized
+sublogarithmic local multiplicity estimate at the critical scale, and therefore
+supplies a quantitative input for any restriction argument whose loss is
+controlled by such arc-clustering numbers.
+
+\section{Main Results Used in the Proof}
+
+This section states the principal ingredients.  Full proofs are given in the
+appendix.
+
+\subsection{The Ramana determinant}
+
+Let \(s\ge 1\), and let \(z_0,\dots,z_{2s}\in\GI\).  Define the
+\((2s+1)\times(2s+1)\) matrix
+\[
+  \mathcal R_s(z)_{r,j} =
+  \begin{cases}
+    \conj{z_j}^{\,s-r}, & 0\le r<s,\\
+    1, & r=s,\\
+    z_j^{\,r-s}, & s<r\le 2s.
+  \end{cases}
+\]
+Let
+\[
+  J_s(z_0,\ldots,z_{2s})=\det \mathcal R_s(z).
+\]
+
+\begin{proposition}[Ramana determinant identity]\label{prop:ramana}
+If \(z_j\conj z_j=N\) for every \(j\), then
+\[
+  \left(\prod_{j=0}^{2s}z_j^s\right)J_s(z_0,\ldots,z_{2s})
+  =
+  N^{s(s+1)/2}\prod_{0\le i<j\le 2s}(z_j-z_i).
+\]
+If the \(z_j\) are distinct, then \(J_s\ne 0\).
+\end{proposition}
+
+\begin{corollary}[Subcritical block obstruction]\label{cor:subcritical}
+Let \(z_0,\dots,z_{2s}\in\GI\) be distinct and satisfy \(z_j\conj z_j=N>0\).
+If \(\Norm(z_i-z_j)\le B\) for every \(i<j\), then
+\[
+  N^{s^2}\le B^{s(2s+1)}.
+\]
+Consequently, if \(B^{s(2s+1)}<N^{s^2}\), some pair in the block has squared
+distance \(>B\).
+\end{corollary}
+
+\subsection{Sliding windows}
+
+\begin{lemma}[Window-to-cardinality bound]\label{lem:window}
+Let
+\[
+  t_0\le t_1\le\cdots\le t_{M-1}
+\]
+lie in an interval of length \(L\).  Suppose \(A>0\), \(s\ge 1\), and every
+consecutive window of \(2s+1\) indices has span greater than \(A\):
+\[
+  t_{j+2s}-t_j>A\qquad (0\le j<M-2s).
+\]
+Then
+\[
+  M\le 2s+\frac{2sL}{A}.
+\]
+\end{lemma}
+
+Together with Corollary~\ref{cor:subcritical}, this proves a bound whenever the
+determinant inequality is already subcritical at the original scale.
+
+\subsection{Missing primes}
+
+For \(m<U\), define the weighted missing-prime mass
+\[
+  \M_N(m,U)
+  =
+  \sum_{\substack{m<p\le U\\p\text{ prime}\\p\nmid N}}\frac{\log p}{p}.
+\]
+The Lean proof uses a finite weighted-log condition:
+\[
+  s(2s+1)\log \floor{A^2}
+  <
+  s^2\M_N(m,U)-2\sum_{\substack{m<p\le U\\p\nmid N}}\log p
+  +s^2\log N.
+  \tag{MP}\label{eq:missing-prime-condition}
+\]
+The exact Lean statement uses natural-number floors and coercions; this display
+is its mathematical content.
+
+\begin{proposition}[Missing-prime branch]\label{prop:missing}
+Assume \eqref{eq:missing-prime-condition}.  Then the parametrized family
+satisfies
+\[
+  M\le 2s+\frac{2sL}{A}.
+\]
+\end{proposition}
+
+\subsection{Prime extraction and descent}
+
+Let \(m_0\ge 2\), \(k>0\), and set
+\[
+  U=m_0\,8^k.
+\]
+The prime-stack condition is:
+\[
+  \M_N(m_0,U)<k\,\frac{\log 2}{2}.
+  \tag{FP}\label{eq:few-primes}
+\]
+Using Chebyshev's lower bound on prime mass in the intervals
+\[
+  m_0 8^i < p \le m_0 8^{i+1},
+\]
+condition \eqref{eq:few-primes} forces at least one prime divisor
+\[
+  m_0<p\le U,\qquad p\mid N.
+\]
+
+\begin{proposition}[Descent branch]\label{prop:descent}
+Let \(p\mid N\) be a prime with \(m_0<p\le U\).
+\begin{enumerate}[label=(\alph*)]
+\item If \(p\equiv 3\pmod 4\), every \(z\in\E_N\) is divisible by \(p\) in
+\(\GI\), and division by \(p\) maps the family into \(\E_{N/p^2}\).  Chord
+lengths are divided by \(p\).
+\item If \(p\equiv 1\pmod 4\), write \(p=\pi\conj\pi\) in \(\GI\).  At least
+half the points are divisible by one of \(\pi,\conj\pi\).  Dividing that
+subfamily by the corresponding Gaussian prime maps it into \(\E_{N/p}\).  Chord
+lengths are divided by \(\sqrt p\).
+\end{enumerate}
+If the corresponding descended subcritical inequalities hold, the original
+family satisfies a cardinality bound of size \(O(s)\).
+\end{proposition}
+
+\subsection{Finite two-scale theorem}
+
+The formal finite theorem packages the preceding alternatives with split and
+inert scales.  In the split branch we deliberately use a constant-enlarged
+subcritical scale:
+\[
+  A_{\mathrm{split}}(p)=48\,\frac{C\sqrt R}{\sqrt p},
+  \qquad
+  A_{\mathrm{inert}}(p)=\frac{C\sqrt R}{p}.
+\]
+The factor \(48\) is not intrinsic.  It is a fixed convenience constant: it
+shrinks the split sliding-window length term by \(1/48\), while the endpoint
+subcritical inequality only has to absorb the fixed extra term \(2\log48\).
+
+\begin{theorem}[Finite two-scale theorem]\label{thm:finite}
+Let \(R^2=N\), let \(C>0\), and let the parametrized family satisfy the
+hypotheses of Theorem~\ref{thm:param}.  Suppose \(s,m_0,k,B\) satisfy:
+\[
+  s\le B\,\frac{\log R}{\log\log R},
+\]
+\[
+  4m_0 8^k\le s,
+\]
+the Chebyshev error bounds on the stack intervals, the missing-prime threshold
+inequality, the split endpoint subcritical inequality with \(48C\) in place of
+\(C\), and the inert endpoint subcritical inequality with \(C\).  Then
+\[
+  M\le \frac{49}{12}B\,\frac{\log R}{\log\log R}.
+\]
+\end{theorem}
+
+This is the theorem named
+\[
+\texttt{card\_le\_49\_div\_12\_mul\_log\_div\_loglog\_}\\
+\texttt{of\_radius\_sq\_twoScale\_endpoint\_bounds}
+\]
+in \texttt{GaussianChain/MainSublogBound.lean}.
+
+\subsection{Asymptotic parameters}
+
+The final choice is
+\[
+  W=\log R,\qquad \Lambda=\log W,
+\]
+\[
+  s=\ceil{\frac{97}{8}\,\frac{W}{\Lambda}},\qquad
+  m_0=\floor{\sqrt W},\qquad
+  k=\floor{\frac{\Lambda}{(2001/1000)\log 8}}.
+\]
+For every \(B>97/8\), the ceiling loss is eventually absorbed:
+\[
+  s\le B\,\frac{W}{\Lambda}.
+\]
+Taking \(B=600/49\) in Theorem~\ref{thm:finite} gives the concrete corollary
+\[
+  M\le \frac{49}{12}\cdot \frac{600}{49}\,\frac{W}{\Lambda}
+  =
+  50\,\frac{\log R}{\log\log R}.
+\]
+Taking \(B=12D/49\) gives the stated theorem for every \(D>50\).
+
+The constants are chosen to make the threshold inequality just transparent.
+Let
+\[
+  \alpha=\frac{2001}{1000},\qquad
+  \beta=\frac{201}{100}.
+\]
+The upper estimate for the stack gives
+\[
+  8^k\le W^{1/\alpha}=W^{1000/2001},
+\]
+and hence
+\[
+  U=m_0 8^k\le W^{1/2}W^{1000/2001}=W^{4001/4002}.
+\]
+Since \(\Lambda=o(W^{1/4002})\), this implies \(4U\le s\) for large \(R\).
+
+For the lower estimate on \(k\), the floor loss is handled with a second
+constant \(\beta>\alpha\).  If
+\[
+  x=\frac{\Lambda}{\alpha\log8},
+\]
+then \(k=\floor{x}\), and for large \(x\),
+\[
+  \floor{x}\ge x-1\ge \frac{\alpha}{\beta}x
+  =
+  \frac{\Lambda}{\beta\log8}.
+\]
+Therefore
+\[
+  k\,\frac{\log2}{2}
+  \ge
+  \frac{\Lambda}{\beta\log8}\,\frac{\log2}{2}
+  =
+  \frac{1}{6\beta}\Lambda
+  =
+  \frac{50}{603}\Lambda.
+\]
+This is where the earlier \(12\alpha\) denominator came from: using only
+\(\floor{x}\ge x/2\) is the special case \(\beta=2\alpha\), which gives the
+weaker gain \(\Lambda/(12\alpha)\).  The sharper eventual floor estimate
+recovers nearly the full stack height and changes the balance to
+\(\Lambda/(6\beta)\).
+
+The main error from replacing \(s\) by its lower bound is
+\[
+  sW\le \frac{8}{97}s^2\Lambda.
+\]
+The remaining endpoint and fixed-\(C\) terms are made negligible:
+\[
+  2(U+1)\log U\le \frac{1}{8192}s^2\Lambda,
+  \qquad
+  (s(2s+1))(2\log C)\le \frac{3}{524288}s^2\Lambda.
+\]
+For the enlarged split scale, the same endpoint estimate is applied with
+\(48C\) in place of \(C\).  This only changes the fixed constant term from
+\(2\log C\) to \(2\log(48C)\), which is still absorbed by \(\Lambda\) for
+fixed \(C\).
+The exact numerical comparison used in Lean is
+\[
+  \frac{8}{97}+\frac1{8192}+\frac{3}{524288}
+  <
+  \frac{50}{603}.
+\]
+Thus the stack gain absorbs the threshold errors.
+
+\section{Formalization}
+
+The Lean development is organized as follows.
+
+\begin{itemize}[leftmargin=2em]
+\item \texttt{RamanaDeterminant.lean}: the determinant identity and
+nonvanishing.
+\item \texttt{SubcriticalBound.lean}: the subcritical block obstruction and
+sliding-window cardinality bound.
+\item \texttt{ModPrimeCollision.lean} and
+\texttt{DeterminantDivisibility.lean}: collisions modulo missing primes and
+determinant divisibility.
+\item \texttt{MissingPrimeIntervalBranch.lean}: the weighted missing-prime
+branch.
+\item \texttt{MertensLower.lean}, \texttt{MertensInterval.lean}, and
+\texttt{IntervalStack.lean}: elementary prime-mass lower bounds and geometric
+prime stacks.
+\item Gaussian descent:
+\begin{itemize}[nosep,leftmargin=1.5em]
+\item \texttt{PrimeDescent.lean}
+\item \texttt{DescentGeometry.lean}
+\item \texttt{DescentSubcritical.lean}
+\item \texttt{PrimeDescentDichotomy.lean}
+\end{itemize}
+\item \texttt{MainDichotomy.lean}: the finite missing-prime/descent dichotomy.
+\item \texttt{MainSublogBound.lean}: the finite log/loglog theorem.
+\item \texttt{AsymptoticParameters.lean}: the asymptotic parameter choice and
+the final theorem.
+\end{itemize}
+
+The project builds with \texttt{lake build}.  A search of the Lean source finds
+no uses of \texttt{sorry}, \texttt{admit}, or project-level \texttt{axiom}
+declarations.  The theorem is therefore a genuine Lean-checked proof, not a
+statement admitted for later work.
+
+\section{Conclusion and Restriction Consequences}
+
+The theorem gives a formalized improvement from the Cilleruelo--Cordoba
+logarithmic baseline
+\[
+  O_C(\log R)
+\]
+to
+\[
+  O_C\!\left(\frac{\log R}{\log\log R}\right)
+\]
+for arcs of length \(C\sqrt R\).  It does not settle the stronger endpoint
+boundedness conjecture.  The point is different: the argument gives a verified
+sublogarithmic local-multiplicity estimate at the exact scale which is relevant
+to arithmetic concentration phenomena.
+
+For restriction problems on \(\T^2\), the frequency set of an eigenfunction is
+\(\E_N\).  Restriction to a curved hypersurface leads to kernels of the form
+\[
+  K(s,t)=\sum_{\mu,\nu\in\E_N}
+  a_\mu\overline{a_\nu}\,
+  e^{2\pi i\langle \mu-\nu,\gamma(s)-\gamma(t)\rangle}.
+\]
+Pairs \((\mu,\nu)\) with nearly parallel directions are the part least affected
+by curvature and stationary phase.  The number of such frequencies is controlled
+by short-arc multiplicity.  Therefore any restriction argument whose local loss
+is bounded by the maximal number of lattice points in arcs of length
+\(C\sqrt R\) may replace a logarithmic loss by
+\[
+  \frac{\log R}{\log\log R}.
+\]
+In this sense Theorem~\ref{thm:geometric} supplies a formal arithmetic input for
+restriction estimates: it quantifies, in a machine-checked way, that critical
+frequency clusters are sublogarithmic.  It should not be read as a standalone
+new restriction theorem; translating the local cluster estimate into a sharp
+operator norm requires the analytic restriction framework in which the cluster
+number appears.
+
+\appendix
+
+\section{Proofs of the Geometric and Related-Work Statements}
+
+\begin{proof}[Proof of Theorem~\ref{thm:geometric} from
+Theorem~\ref{thm:param}]
+Let \(R^2=N\).  Let \(I\) be an arc of length at most \(C\sqrt R\), and
+enumerate the lattice points on \(I\) in increasing arclength order:
+\[
+  z_0,\dots,z_{M-1}.
+\]
+Then \(z_i\conj{z_i}=N\) for every \(i<M\), and the enumerated points are
+pairwise distinct.
+Let \(t_i\) be the arclength coordinate of \(z_i\) measured from the initial
+endpoint of the arc.  Then \(0\le t_i\le L\le C\sqrt R\), and
+\[
+  t_i\le t_j\qquad (i\le j).
+\]
+Since Euclidean chord length is at most arclength along a circle,
+\[
+  |z_i-z_j|\le |t_j-t_i|.
+\]
+Squaring gives the chord hypothesis in Theorem~\ref{thm:param}.  The points are
+distinct by enumeration, so the finite distinctness hypothesis holds.  Applying
+Theorem~\ref{thm:param} gives the claimed bound.
+\end{proof}
+
+\begin{proof}[Proof of the Cilleruelo--Cordoba logarithmic consequence]
+This is the derivation in Section~\ref{subsec:cc-log}.  Choose
+\[
+  k_R=\ceil{\frac{\log R}{2}}.
+\]
+Then \(4\floor{k_R/2}+2\ge\log R\), hence
+\[
+  R^{1/2-\frac{1}{4\floor{k_R/2}+2}}
+  \ge R^{1/2-\frac{1}{\log R}}
+  =e^{-1}\sqrt R.
+\]
+Therefore the \(k_R\)-point Cilleruelo--Cordoba theorem applies to every arc of
+length at most \((\sqrt2/e)\sqrt R\), giving at most \(k_R\le \frac12\log R+1\)
+points.  A general \(C\sqrt R\)-arc is covered by
+\[
+  \ceil{Ce/\sqrt2}
+\]
+such arcs, so the total number of points is
+\[
+  O_C(\log R).
+\]
+\end{proof}
+
+\section{Proof of the Determinant and Subcritical Bounds}
+
+\begin{proof}[Proof of Proposition~\ref{prop:ramana}]
+The \(j\)-th column of \(\mathcal R_s\) is
+\[
+  (\conj z_j^s,\conj z_j^{s-1},\ldots,\conj z_j,1,z_j,\ldots,z_j^s)^T.
+\]
+Multiply this column by \(z_j^s\).  Because \(z_j\conj z_j=N\), the entries
+become
+\[
+  (N^s,N^{s-1}z_j,\ldots,Nz_j^{s-1},z_j^s,z_j^{s+1},\ldots,z_j^{2s})^T.
+\]
+Factor \(N^{s-r}\) from the row corresponding to \(\conj z^{s-r}\), for
+\(r=0,\dots,s-1\).  The total factored power is
+\[
+  N^{1+2+\cdots+s}=N^{s(s+1)/2}.
+\]
+The remaining matrix is the ordinary Vandermonde matrix with columns
+\[
+  (1,z_j,z_j^2,\ldots,z_j^{2s})^T.
+\]
+Its determinant is
+\[
+  \prod_{0\le i<j\le 2s}(z_j-z_i).
+\]
+This proves the identity.  If the \(z_j\) are distinct, the Vandermonde product
+is nonzero in the domain \(\GI\), and the product \(\prod_j z_j^s\) is nonzero
+because \(N>0\).  Hence \(J_s\ne0\).
+\end{proof}
+
+\begin{proof}[Proof of Corollary~\ref{cor:subcritical}]
+Take norms in Proposition~\ref{prop:ramana}.  Since \(J_s\) is a nonzero
+Gaussian integer,
+\[
+  \Norm(J_s)\ge 1.
+\]
+The norm of \(\prod_j z_j^s\) is
+\[
+  \prod_j \Norm(z_j)^s=N^{s(2s+1)}.
+\]
+The norm of the right side is
+\[
+  \Norm\!\left(N^{s(s+1)/2}\right)
+  \prod_{i<j}\Norm(z_j-z_i)
+  =
+  N^{s(s+1)}\prod_{i<j}\Norm(z_j-z_i),
+\]
+because the rational integer \(N^{s(s+1)/2}\) has Gaussian norm
+\(N^{s(s+1)}\).  Thus
+\[
+  N^{s(2s+1)}
+  \le
+  N^{s(s+1)}\prod_{i<j}\Norm(z_j-z_i),
+\]
+and hence
+\[
+  N^{s^2}\le \prod_{i<j}\Norm(z_j-z_i).
+\]
+There are
+\[
+  \binom{2s+1}{2}=s(2s+1)
+\]
+pairs.  If every norm is at most \(B\), then
+\[
+  N^{s^2}\le B^{s(2s+1)}.
+\]
+The final assertion is the contrapositive.
+\end{proof}
+
+\begin{proof}[Proof of Lemma~\ref{lem:window}]
+Let \(K=2s\).  The hypothesis gives
+\[
+  t_{j+K}-t_j>A\qquad (0\le j<M-K).
+\]
+Sum these inequalities over \(j=0,\dots,M-K-1\):
+\[
+  (M-K)A
+  <
+  \sum_{j=0}^{M-K-1}(t_{j+K}-t_j).
+\]
+Each \(t_i\) occurs with coefficient at most \(K\) in the telescoping
+difference between the final and initial portions of the sequence, and all
+\(t_i\) lie in an interval of length \(L\).  Hence
+\[
+  \sum_{j=0}^{M-K-1}(t_{j+K}-t_j)\le KL.
+\]
+Therefore
+\[
+  M-K < \frac{KL}{A},
+\]
+and so
+\[
+  M\le K+\frac{KL}{A}
+  =
+  2s+\frac{2sL}{A}.
+\]
+\end{proof}
+
+\section{Proof of the Missing-Prime and Descent Mechanisms}
+
+\begin{proof}[Proof of Proposition~\ref{prop:missing}]
+For a prime \(p\nmid N\), the congruence
+\[
+  x^2+y^2\equiv N\pmod p
+\]
+has at most \(2p\) solutions as \(x\) varies: for each \(x\), the value of
+\(y^2\) is determined, and a quadratic congruence has at most two roots.
+Therefore a block of points on the circle has many pairs congruent modulo
+\(p\).  Whenever \(z_i\equiv z_j\pmod p\), the Gaussian integer
+\(z_j-z_i\) is divisible by \(p\).  Proposition~\ref{prop:ramana} expresses
+\(J_s\) in terms of the product of all \(z_j-z_i\), so these collisions force a
+power of \(p\) to divide \(J_s\).
+
+Summing the \(p\)-adic contributions over \(m<p\le U\), \(p\nmid N\), gives a
+lower bound for the norm of the determinant in terms of
+\(\M_N(m,U)\).  The term
+\[
+  2\sum_{\substack{m<p\le U\\p\nmid N}}\log p
+\]
+is the finite error coming from the collision count and from replacing exact
+valuations by weighted lower bounds.  If \eqref{eq:missing-prime-condition}
+holds, the determinant cannot remain small when all chord lengths in a window
+are \(\le A\).  Thus every \(2s+1\)-point window has span \(>A\), and
+Lemma~\ref{lem:window} gives
+\[
+  M\le 2s+\frac{2sL}{A}.
+\]
+\end{proof}
+
+\begin{proof}[Proof of Proposition~\ref{prop:descent}]
+If \(p\equiv3\pmod4\), then \(-1\) is not a square modulo \(p\).  From
+\[
+  x^2+y^2\equiv0\pmod p
+\]
+we obtain \(x\equiv y\equiv0\pmod p\).  Hence \(p\mid z\) in \(\GI\) for every
+point \(z\), and \(z/p\in\GI\) satisfies
+\[
+  \Norm(z/p)=N/p^2.
+\]
+Moreover
+\[
+  |z_i/p-z_j/p|=|z_i-z_j|/p.
+\]
+Thus the parameter length in the descended problem is divided by \(p\).
+
+If \(p\equiv1\pmod4\), then \(p=\pi\conj\pi\) in \(\GI\).  Since
+\[
+  p\mid z\conj z,
+\]
+at least one of \(\pi,\conj\pi\) divides \(z\).  Partition the original family
+according to which Gaussian prime divides \(z\); one class has at least half the
+points.  Divide that class by the corresponding Gaussian prime.  The norm drops
+from \(N\) to \(N/p\), and chord lengths are divided by
+\[
+  |\pi|=\sqrt p.
+\]
+
+In either case, once the descended determinant inequality is subcritical,
+Corollary~\ref{cor:subcritical} and Lemma~\ref{lem:window} apply on the
+descended circle.  In the split case the passage to the larger of two classes
+costs a genuine factor of \(2\).  The optimized finite theorem keeps this
+factor but reduces the split sliding-window length term by using a constant
+enlargement of the descended subcritical scale.
+\end{proof}
+
+\section{Proof of the Finite Two-Scale Theorem}
+
+\begin{proof}[Proof of Theorem~\ref{thm:finite}]
+Let
+\[
+  U=m_0\,8^k.
+\]
+There are two cases.
+
+If the missing-prime mass on \((m_0,U]\) is at least
+\[
+  k\,\frac{\log2}{2},
+\]
+then the threshold hypothesis implies the weighted missing-prime condition
+\eqref{eq:missing-prime-condition}.  Proposition~\ref{prop:missing} gives
+\[
+  M\le 2s+\frac{2sL}{C\sqrt R}.
+\]
+Since \(L\le C\sqrt R\), this is at most \(4s\), and hence at most
+\[
+  \frac{49}{12}B\,\frac{\log R}{\log\log R}
+\]
+under the hypothesis \(s\le B\log R/\log\log R\).
+
+If the missing-prime mass is smaller than \(k\log2/2\), the Chebyshev interval
+lower bound over the geometric stack implies that some prime \(p\mid N\) lies
+in \(m_0<p\le U\).  Apply Proposition~\ref{prop:descent}.  The finite theorem
+assumes the split endpoint inequality
+\[
+  s(2s+1)\log\left(\frac{(48C)^2R}{m_0}\right)
+  <
+  s^2(2\log R-\log m_0),
+\]
+and the inert endpoint inequality
+\[
+  s(2s+1)\log\left(\frac{C^2R}{m_0^2}\right)
+  <
+  s^2(2\log R-2\log m_0).
+\]
+Since \(p>m_0\), these endpoint inequalities imply the corresponding descended
+subcritical inequalities for every possible \(p\) in the stack.  The descended
+window bound gives at most \(4s\) points in the inert case.  In the split case
+we use the scale
+\[
+  48\,\frac{C\sqrt R}{\sqrt p}.
+\]
+The descended length is at most \(C\sqrt R/\sqrt p\), so the sliding-window
+length term is only \(1/48\) of the base term:
+\[
+  \frac{2s(C\sqrt R/\sqrt p)}{48C\sqrt R/\sqrt p}
+  =
+  \frac{2s}{48}.
+\]
+The descended half-subfamily therefore has size at most
+\[
+  2s+\frac{2s}{48}=\frac{49}{24}s.
+\]
+Multiplying by \(2\) for the split divisibility class gives
+\[
+  M\le \frac{49}{12}s.
+\]
+Thus in all cases
+\[
+  M\le \frac{49}{12}s\le \frac{49}{12}B\,\frac{\log R}{\log\log R}.
+\]
+\end{proof}
+
+\section{Proof of the Asymptotic Parameter Estimates}
+
+\begin{proof}[Proof of Theorem~\ref{thm:param}]
+Let
+\[
+  W=\log R,\qquad \Lambda=\log W.
+\]
+For sufficiently large \(R\), both \(W\) and \(\Lambda\) are positive.  Choose
+\[
+  s=\ceil{\frac{97}{8}\,\frac{W}{\Lambda}},\qquad
+  m_0=\floor{\sqrt W},\qquad
+  k=\floor{\frac{\Lambda}{(2001/1000)\log8}}.
+\]
+Then eventually \(k>0\), \(m_0\ge2\), and
+\[
+  s\le 26\,\frac{W}{\Lambda}.
+\]
+This coarse upper bound is used only in scale estimates.  For the final
+constant, the sharper fact is that \(s\le B W/\Lambda\) eventually for every
+\(B>97/8\).
+The prime stack endpoint satisfies
+\[
+  U=m_0 8^k
+  \le
+  W^{1/2}W^{1000/2001}
+  =
+  W^{4001/4002}
+\]
+eventually.  Since \(\Lambda=o(W^{1/4002})\),
+\[
+  4U\le s
+\]
+for all sufficiently large \(R\).
+
+The split and inert lower-endpoint inequalities follow from
+\[
+  \log m_0\ge \frac{\Lambda}{4}
+\]
+eventually, together with
+\[
+  \frac{97}{8}W\le s\Lambda.
+\]
+The terms involving \(\log C\), and in the split branch the term
+\(\log(48C)\), are fixed once \(C\) is fixed, so they are absorbed for
+sufficiently large \(R\).  In the formal proof this is done with
+\[
+  2\log(48C)\le \frac{\Lambda}{64}
+\]
+leaving the numerical margin
+\[
+  \frac{8}{97}+\frac{3}{64}<\frac14.
+\]
+
+The missing-prime threshold is the tightest estimate.  The proof uses
+\[
+  2\log C\le \frac{\Lambda}{524288}
+\]
+eventually and the stack bound
+\[
+  U+1\le \frac{65}{256}s.
+\]
+Unlike the earlier crude estimate, we do not bound \(\log U\) by \(W=\log R\).
+From \(U\le 26W\) and \(W\) large, we have \(U\le W^2\), hence
+\[
+  \log U\le 2\Lambda.
+\]
+Together with \(s\ge8320\), this gives the negligible endpoint estimate
+\[
+  2(U+1)\log U
+  \le
+  \frac1{8192}s^2\Lambda.
+\]
+Combining this with \((97/8)W\le s\Lambda\) yields
+\[
+  \left(\frac8{97}+\frac1{8192}+\frac{3}{524288}\right)s^2\Lambda
+  <
+  \frac{50}{603}s^2\Lambda.
+\]
+On the other hand,
+\[
+  k\,\frac{\log2}{2}\ge \frac{50}{603}\Lambda
+\]
+eventually.  Here we use the sharper floor estimate
+\[
+  \floor{\frac{\Lambda}{(2001/1000)\log8}}
+  \ge
+  \frac{\Lambda}{(201/100)\log8}
+\]
+for large \(R\).  Multiplication by \(\log2/2\), and the identity
+\(\log8=3\log2\), gives \(50\Lambda/603\).  Thus the stack gain absorbs the
+error term in the finite threshold inequality.
+
+All hypotheses of Theorem~\ref{thm:finite} are therefore satisfied.  The
+estimate \(s\le (600/49)W/\Lambda\) gives the concrete bound
+\[
+  M\le \frac{49}{12}\cdot\frac{600}{49}\,\frac{W}{\Lambda}
+  =
+  50\,\frac{\log R}{\log\log R}.
+\]
+For the sharp asymptotic constant in this fixed-parameter proof, let \(D>50\)
+and put \(B=12D/49\).  Since \(B>97/8\), the ceiling loss is eventually
+absorbed:
+\[
+  s=\ceil{(97/8)\,W/\Lambda}\le \frac{12D}{49}\,\frac{W}{\Lambda}.
+\]
+The finite theorem therefore gives
+\[
+  M\le \frac{49}{12}\cdot\frac{12D}{49}\,\frac{W}{\Lambda}
+  =
+  D\,\frac{\log R}{\log\log R}.
+\]
+\end{proof}
+
+\begin{thebibliography}{99}
+
+\bibitem{BombieriPila1989}
+E. Bombieri and J. Pila,
+\newblock The number of integral points on arcs and ovals,
+\newblock \emph{Duke Mathematical Journal} \textbf{59} (1989), no. 2, 337--357.
+
+\bibitem{BourgainRudnick2009}
+J. Bourgain and Z. Rudnick,
+\newblock Restriction of toral eigenfunctions to hypersurfaces and nodal sets,
+\newblock \emph{Comptes Rendus Mathematique} \textbf{347} (2009), 1249--1253.
+
+\bibitem{CillerueloCordoba1992}
+J. Cilleruelo and A. Cordoba,
+\newblock Trigonometric polynomials and lattice points,
+\newblock \emph{Proceedings of the American Mathematical Society}
+\textbf{115} (1992), no. 4, 899--905.
+
+\bibitem{CillerueloGranville2007}
+J. Cilleruelo and A. Granville,
+\newblock Lattice points on circles, squares in arithmetic progressions and
+sumsets of squares,
+\newblock in \emph{Additive Combinatorics}, CRM Proceedings \& Lecture Notes
+\textbf{43}, American Mathematical Society, Providence, RI, 2007, 241--262.
+
+\bibitem{CillerueloGranville2009}
+J. Cilleruelo and A. Granville,
+\newblock Close lattice points on circles,
+\newblock \emph{Canadian Journal of Mathematics} \textbf{61} (2009), no. 6,
+1214--1238.
+
+\bibitem{Jarnik1926}
+V. Jarnik,
+\newblock \"Uber die Gitterpunkte auf konvexen Kurven,
+\newblock \emph{Mathematische Zeitschrift} \textbf{24} (1926), no. 1,
+500--518.
+
+\bibitem{Mathlib2020}
+The mathlib Community,
+\newblock The Lean mathematical library,
+\newblock in \emph{Proceedings of the 9th ACM SIGPLAN International Conference
+on Certified Programs and Proofs}, CPP 2020, 367--381.
+
+\bibitem{deMouraUllrich2021}
+L. de Moura and S. Ullrich,
+\newblock The Lean 4 theorem prover and programming language,
+\newblock in \emph{Automated Deduction -- CADE 28}, Lecture Notes in Computer
+Science \textbf{12699}, Springer, 2021, 625--635.
+
+\end{thebibliography}
+
+\end{document}

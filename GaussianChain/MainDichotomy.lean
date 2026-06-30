@@ -173,8 +173,8 @@ theorem interval_stack_missing_or_descent_dichotomy
       p ≤ IntervalStack.geomLower m₀ k → p ∣ N → 0 < N' →
         (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ) →
           (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -234,8 +234,8 @@ theorem interval_stack_missing_or_uniform_descent_bound
       p ≤ IntervalStack.geomLower m₀ k → p ∣ N → 0 < N' →
         (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ) →
           (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -289,8 +289,8 @@ theorem interval_stack_missing_or_uniform_descent_bound_log
         (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ) →
           ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor (A ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -352,8 +352,8 @@ theorem card_le_eight_mul_s_of_interval_stack_log
         (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ) →
           ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor (A ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -426,8 +426,8 @@ theorem card_le_two_mul_succ_q_mul_two_s_of_interval_stack_log
         (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ) →
           ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor (A ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -515,8 +515,8 @@ theorem card_le_two_mul_succ_q_mul_two_s_of_interval_stack_primeScale_log
         (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ) →
           ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor ((A p) ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -608,8 +608,8 @@ theorem card_le_two_mul_succ_q_mul_two_s_of_interval_stack_twoScale_log
         (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ) →
           ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor ((Ainert p) ^ 2) : ℝ) <
             ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
-    (hcircle : ∀ n, z n * star (z n) = (((N : ℤ) : GaussianInt)))
-    (hz : Function.Injective z)
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
@@ -650,6 +650,117 @@ theorem card_le_two_mul_succ_q_mul_two_s_of_interval_stack_twoScale_log
       _ ≤ 2 * (((q + 1 : ℕ) : ℝ) * ((2 * s : ℕ) : ℝ)) := by
         norm_num
         nlinarith [hS_nonneg]
+
+/-- Finite cardinality consequence with a small split-branch length term.
+
+The many-missing and inert branches each give at most `4s` when their sliding-window
+length term is bounded by the base window size `2s`.  In the split branch there is an
+unavoidable factor `2` from passing to one Gaussian-prime divisibility class; if the split
+length term is only `eps` times the base window size, that branch gives
+`(4 + 4 * eps) s`. -/
+theorem card_le_four_add_split_eps_mul_s_of_interval_stack_twoScale_log
+    {M s N m₀ k : ℕ}
+    {a L A₀ eps : ℝ} {Asplit Ainert : ℕ → ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
+    (hdichotomy :
+      manyMissingWeightedLogCondition s N m₀ (IntervalStack.geomLower m₀ k) A₀ ∨
+        fewMissingStackCondition N m₀ k)
+    (hk : 0 < k)
+    (hm₀ : 0 < m₀)
+    (h2m₀ : 2 ≤ m₀)
+    (hM : 0 < M)
+    (hA₀ : 0 < A₀)
+    (hB₀ : 0 < Nat.floor (A₀ ^ 2))
+    (hsmallPrime : 4 * IntervalStack.geomLower m₀ k ≤ s)
+    (hN : 0 < N)
+    (heps : 0 ≤ eps)
+    (htermMany :
+      ((2 * s : ℕ) : ℝ) * L / A₀ ≤ ((2 * s : ℕ) : ℝ))
+    (htermInert : ∀ p, Nat.Prime p → m₀ < p →
+      p ≤ IntervalStack.geomLower m₀ k → p ∣ N →
+        ((2 * s : ℕ) : ℝ) * (L / (p : ℝ)) / Ainert p ≤
+          ((2 * s : ℕ) : ℝ))
+    (htermSplit : ∀ p, Nat.Prime p → m₀ < p →
+      p ≤ IntervalStack.geomLower m₀ k → p ∣ N →
+        ((2 * s : ℕ) : ℝ) * (L / Real.sqrt (p : ℝ)) / Asplit p ≤
+          eps * ((2 * s : ℕ) : ℝ))
+    (herr : ∀ i : Fin k,
+      Real.log (((IntervalStack.geomUpper m₀ i : ℕ) : ℝ) + 1) +
+          2 * Real.sqrt ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ) *
+            Real.log ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ) ≤
+        (Real.log 2 / 4) * ((IntervalStack.geomUpper m₀ i : ℕ) : ℝ))
+    (hAsplit : ∀ p, Nat.Prime p → m₀ < p → p ≤ IntervalStack.geomLower m₀ k → p ∣ N →
+      0 < Asplit p)
+    (hBs : ∀ p, Nat.Prime p → m₀ < p → p ≤ IntervalStack.geomLower m₀ k → p ∣ N →
+      0 < Nat.floor ((Asplit p) ^ 2))
+    (hAinert : ∀ p, Nat.Prime p → m₀ < p → p ≤ IntervalStack.geomLower m₀ k → p ∣ N →
+      0 < Ainert p)
+    (hBi : ∀ p, Nat.Prime p → m₀ < p → p ≤ IntervalStack.geomLower m₀ k → p ∣ N →
+      0 < Nat.floor ((Ainert p) ^ 2))
+    (hlogSplit : ∀ p N' : ℕ, Nat.Prime p → m₀ < p →
+      p ≤ IntervalStack.geomLower m₀ k → p ∣ N → 0 < N' →
+        (N : ℤ) = (p : ℤ) * (N' : ℤ) →
+          ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor ((Asplit p) ^ 2) : ℝ) <
+            ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - Real.log (p : ℝ)))
+    (hlogInert : ∀ p N' : ℕ, Nat.Prime p → m₀ < p →
+      p ≤ IntervalStack.geomLower m₀ k → p ∣ N → 0 < N' →
+        (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ) →
+          ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor ((Ainert p) ^ 2) : ℝ) <
+            ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ)))
+    (hcircle : OnCircleUpTo M N z)
+    (hz : InjectiveUpTo M z)
+    (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
+    (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
+    (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
+    (M : ℝ) ≤ (4 + 4 * eps) * (s : ℝ) := by
+  by_cases hlarge : 4 * s ≤ M
+  · rcases hdichotomy with hmany | hfew
+    · have hk_many : 2 * s ≤ M := by omega
+      have hmany_bound :
+          (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / A₀ :=
+        MissingPrimeIntervalBranch.card_le_of_missing_prime_interval_weighted_log_bound
+          (M := M) (s := s) (N := N) (m := m₀) (U := IntervalStack.geomLower m₀ k)
+          (a := a) (L := L) (A := A₀) (z := z) (t := t)
+          hk_many hA₀ hB₀ hsmallPrime hN hmany hcircle hz hmono hparam hmem
+      have hs_nonneg : 0 ≤ (s : ℝ) := by positivity
+      calc
+        (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / A₀ := hmany_bound
+        _ ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) := by
+          nlinarith [htermMany]
+        _ = 4 * (s : ℝ) := by norm_num; ring
+        _ ≤ (4 + 4 * eps) * (s : ℝ) := by nlinarith
+    · have hdesc :=
+        exists_prime_dvd_with_descent_bound_of_geometric_stack_total_missing_lt_log_twoScale
+          (M := M) (s := s) (N := N) (m₀ := m₀) (k := k)
+          (a := a) (L := L) (Asplit := Asplit) (Ainert := Ainert) (z := z) (t := t)
+          hk hm₀ h2m₀ hM hlarge hN herr hfew hAsplit hBs hAinert hBi
+          hlogSplit hlogInert hcircle hz hmono hparam hmem
+      obtain ⟨p, hp, hmp, hpU, hpN, hbranch⟩ := hdesc
+      rcases hbranch with hbranch | hbranch
+      · rcases hbranch with ⟨_hp3, hinert⟩
+        have hs_nonneg : 0 ≤ (s : ℝ) := by positivity
+        calc
+          (M : ℝ) ≤
+              ((2 * s : ℕ) : ℝ) +
+                ((2 * s : ℕ) : ℝ) * (L / (p : ℝ)) / Ainert p := hinert
+          _ ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) := by
+            nlinarith [htermInert p hp hmp hpU hpN]
+          _ = 4 * (s : ℝ) := by norm_num; ring
+          _ ≤ (4 + 4 * eps) * (s : ℝ) := by nlinarith
+      · rcases hbranch with ⟨_hp1, hsplit⟩
+        calc
+          (M : ℝ) ≤
+              2 * (((2 * s : ℕ) : ℝ) +
+                ((2 * s : ℕ) : ℝ) * (L / Real.sqrt (p : ℝ)) / Asplit p) := hsplit
+          _ ≤ 2 * (((2 * s : ℕ) : ℝ) + eps * ((2 * s : ℕ) : ℝ)) := by
+            nlinarith [htermSplit p hp hmp hpU hpN]
+          _ = (4 + 4 * eps) * (s : ℝ) := by norm_num; ring
+  · have hM_le : M ≤ 4 * s := by omega
+    have hM_real : (M : ℝ) ≤ (4 * s : ℕ) := by exact_mod_cast hM_le
+    have hs_nonneg : 0 ≤ (s : ℝ) := by positivity
+    calc
+      (M : ℝ) ≤ (4 * s : ℕ) := hM_real
+      _ = 4 * (s : ℝ) := by norm_num
+      _ ≤ (4 + 4 * eps) * (s : ℝ) := by nlinarith
 
 end MainDichotomy
 end GaussianChain
