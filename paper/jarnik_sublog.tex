@@ -29,8 +29,8 @@
 \newcommand{\M}{\mathcal M}
 \newcommand{\LL}{\mathcal L}
 
-\title{A Formalized Logarithmic-Over-Logarithmic Bound for Lattice Points on Critical Circular Arcs}
-\author{Formalization in Lean 4}
+\title{A Sublogarithmic Bound for Lattice Points\\ on Critical Circular Arcs}
+\author{Craig Chen}
 \date{}
 
 \begin{document}
@@ -98,6 +98,28 @@ prove the weaker sublogarithmic estimate
 This improves the logarithmic bound obtained by choosing the number of points
 in the Cilleruelo--Cordoba fixed-\(k\) estimates as a function of \(R\).
 
+This question was the starting point of an earlier expository project of the
+author on lattice points on circles \cite{Chen2021}, which surveyed
+Jarn\'ik's theorem, the elementary triangle-area argument bounding the number
+of points on an arc of length \(R^{1/3}\), and the Cilleruelo--Cordoba
+determinant method underlying the present paper.  What follows formalizes and
+substantially strengthens that survey's estimates at the critical scale
+\(\sqrt R\), in a proof checked end to end by a proof assistant rather than
+by hand.
+
+\subsection{Notation}
+
+We write \(f\ll g\), or \(f=O(g)\), to mean that there is an absolute
+constant \(c\) with \(|f|\le c\,g\) for all values of the relevant
+parameters; a subscript, as in \(f\ll_C g\) or \(f=O_C(g)\), means the
+implied constant is allowed to depend on \(C\) but on nothing else.  All
+implied constants below are effective -- nothing is proved by a
+non-constructive compactness argument -- though we have made no attempt to
+optimize them.  We identify a point \((x,y)\in\Z^2\) with the Gaussian
+integer \(z=x+iy\in\GI\), write \(\conj z\) for complex conjugation, and
+write \(\Norm(z)=z\conj z=x^2+y^2\) for the norm, which is completely
+multiplicative on \(\GI\).
+
 The proof should be thought of as a determinant method with extra arithmetic
 divisibility.  A Vandermonde-type determinant over \(\Z[i]\) cannot vanish when
 we feed it distinct points on the circle, but if many consecutive points lie in
@@ -111,9 +133,6 @@ alternatives over a geometric stack of prime intervals produces the
 
 \subsection{Main result}
 
-We identify a point \((x,y)\in\Z^2\) with \(z=x+iy\in\GI\), and write
-\(\Norm(z)=z\conj z=x^2+y^2\).
-
 \begin{theorem}[Geometric arc form]\label{thm:geometric}
 For every \(C>0\) and \(D>50\) there exists \(R_0(C,D)\) such that the
 following holds.  Let \(R\ge R_0(C,D)\), let \(N\in\N\) satisfy \(R^2=N\), and
@@ -126,11 +145,21 @@ let \(I\) be an arc of the circle \(x^2+y^2=N\) of Euclidean length at most
 \]
 \end{theorem}
 
-This is a radius statement.  It does not require \(R\) itself to be an integer;
-the arithmetic input is only that the squared radius \(R^2\) is the integer
-norm \(N\).  Equivalently, one may set \(R=\sqrt N\) for an integer norm \(N\),
-in which case the length scale is \(C N^{1/4}\) and the logarithmic factor is
-\(\log\sqrt N/\log\log\sqrt N\).
+\begin{remark}
+This is a radius statement.  It does not require \(R\) itself to be an
+integer; the arithmetic input is only that the squared radius \(R^2\) is the
+integer norm \(N\).  Equivalently, one may set \(R=\sqrt N\) for an integer
+norm \(N\), in which case the length scale is \(C N^{1/4}\) and the
+logarithmic factor is \(\log\sqrt N/\log\log\sqrt N\).
+\end{remark}
+
+\begin{remark}
+The threshold \(D>50\) in Theorem~\ref{thm:geometric} is an explicit,
+formally verified constant, not a claim of sharpness; we discuss exactly
+where it comes from in Section~\ref{subsec:cc-log}, and where it might be
+improved in Remark~\ref{rem:constant-not-sharp}.  What matters for the
+argument is only that some absolute \(D\) works, uniformly in \(C\).
+\end{remark}
 
 The theorem formalized in Lean is slightly more general and avoids a
 topological formalization of arcs.  It works with ordered real parameters whose
@@ -453,9 +482,18 @@ subcritical scale:
   \qquad
   A_{\mathrm{inert}}(p)=\frac{C\sqrt R}{p}.
 \]
+\begin{remark}\label{rem:constant-not-sharp}
 The factor \(48\) is not intrinsic.  It is a fixed convenience constant: it
 shrinks the split sliding-window length term by \(1/48\), while the endpoint
 subcritical inequality only has to absorb the fixed extra term \(2\log48\).
+Together with the base-\(8\) prime stack and the specific rational
+coefficients chosen in the calibration of Section~\ref{subsec:asymp} below,
+it is exactly this kind of arbitrary-but-convenient choice that produces the
+constant \(D>50\) in Theorem~\ref{thm:geometric} rather than something
+sharper; we have prioritized a clean, mechanically checked proof over
+optimizing constants, and we would be surprised if \(50\) were close to
+best possible.
+\end{remark}
 
 \begin{theorem}[Finite two-scale theorem]\label{thm:finite}
 Let \(R^2=N\), let \(C>0\), and let the parametrized family satisfy the
@@ -481,7 +519,7 @@ This is the theorem named
 \]
 in \texttt{GaussianChain/MainSublogBound.lean}.
 
-\subsection{Asymptotic parameters}
+\subsection{Asymptotic parameters}\label{subsec:asymp}
 
 The final choice is
 \[
@@ -641,6 +679,18 @@ frequency clusters are sublogarithmic.  It should not be read as a standalone
 new restriction theorem; translating the local cluster estimate into a sharp
 operator norm requires the analytic restriction framework in which the cluster
 number appears.
+
+\begin{remark}
+This restriction connection is not an afterthought: it is the reason the
+problem was interesting to the author in the first place.  In
+\cite{Chen2021}, the same set \(\E_N\) of lattice points on a circle appears
+as the frequency support of a toral eigenfunction, and counting points on
+short arcs is exactly what controls how badly that eigenfunction's energy can
+concentrate along a one-dimensional curve -- the question underlying local
+well-posedness for the nonlinear Schr\"odinger equation on the torus.  The
+present paper answers, with a machine-checked proof, a sharper version of the
+counting question that survey could only state.
+\end{remark}
 
 \appendix
 
@@ -1048,6 +1098,11 @@ E. Bombieri and J. Pila,
 J. Bourgain and Z. Rudnick,
 \newblock Restriction of toral eigenfunctions to hypersurfaces and nodal sets,
 \newblock \emph{Comptes Rendus Mathematique} \textbf{347} (2009), 1249--1253.
+
+\bibitem{Chen2021}
+C. Chen,
+\newblock Lattice points on and near circles,
+\newblock expository notes, 2021.
 
 \bibitem{CillerueloCordoba1992}
 J. Cilleruelo and A. Cordoba,
