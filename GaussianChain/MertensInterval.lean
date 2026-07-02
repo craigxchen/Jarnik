@@ -109,7 +109,7 @@ theorem eventually_geomLower_le_upperEndpoint {η : ℝ} (hη0 : 0 < η) (hη1 :
   have hA : 0 < stackCoeff η := stackCoeff_pos hη1
   have hstackExp_nonneg : 0 ≤ stackExp := by
     dsimp [stackExp]
-    positivity
+    exact div_nonneg (sub_nonneg.mpr hη1.le) (by norm_num)
   have hgap_pos : 0 < gap := by
     dsimp [gap, alpha, stackExp]
     linarith
@@ -167,7 +167,8 @@ theorem eventually_geomLower_le_upperEndpoint {η : ℝ} (hη0 : 0 < η) (hη1 :
       ((lowerEndpoint η s : ℝ) * (((8 ^ stackHeight η s : ℕ) : ℝ)))
           ≤ (2 * (s : ℝ) ^ η) * (s : ℝ) ^ stackExp := by
             exact mul_le_mul hceil_le hpow_stack
-              (by positivity) (by positivity)
+              (by exact_mod_cast (Nat.zero_le (8 ^ stackHeight η s)))
+              (mul_nonneg (by norm_num) (Real.rpow_nonneg hs_nonneg_real η))
       _ = 2 * ((s : ℝ) ^ η * (s : ℝ) ^ stackExp) := by ring
       _ = 2 * (s : ℝ) ^ alpha := by
           rw [← Real.rpow_add hs_pos_real]

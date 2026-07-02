@@ -621,6 +621,7 @@ theorem eventually_lower_endpoint_log_conditions (C : ℝ) (hC : 0 < C) :
   · simpa [s, m₀, S, W, LL, logm, hcoeff, hs_sq, hlog_split_scale] using hsplit
   · simpa [s, m₀, S, W, LL, logm, hcoeff, hs_sq, hlog_inert_scale] using hinert
 
+set_option maxHeartbeats 250000 in
 theorem eventually_crude_threshold_condition (C : ℝ) (hC : 0 < C) :
     ∀ᶠ R : ℝ in atTop,
       let s := sublogS R
@@ -912,9 +913,10 @@ theorem eventually_jarnik_arc_sublog (C : ℝ) (hC : 0 < C) :
     _ = 50 * (Real.log R / Real.log (Real.log R)) := by norm_num
 
 /-- Sharpened asymptotic form: the rounded constant `50` can be replaced by any
-constant strictly larger than `50`. -/
-theorem eventually_jarnik_arc_sublog_of_constant_gt_fifty
-    (C D : ℝ) (hC : 0 < C) (hD : 50 < D) :
+constant strictly larger than the formal threshold
+`(49 / 12) * (97 / 8) = 4753 / 96`. -/
+theorem eventually_jarnik_arc_sublog_of_constant_gt_4753_div_96
+    (C D : ℝ) (hC : 0 < C) (hD : (4753 / 96 : ℝ) < D) :
     ∀ᶠ R : ℝ in atTop,
       ∀ {M N : ℕ} {a L : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ},
         R ^ 2 = (N : ℝ) →
@@ -970,6 +972,24 @@ theorem eventually_jarnik_arc_sublog_of_constant_gt_fifty
         (Real.log R / Real.log (Real.log R)) := hfinite
     _ = D * (Real.log R / Real.log (Real.log R)) := by ring
 
+/-- Rounded corollary of `eventually_jarnik_arc_sublog_of_constant_gt_4753_div_96`. -/
+theorem eventually_jarnik_arc_sublog_of_constant_gt_fifty
+    (C D : ℝ) (hC : 0 < C) (hD : 50 < D) :
+    ∀ᶠ R : ℝ in atTop,
+      ∀ {M N : ℕ} {a L : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ},
+        R ^ 2 = (N : ℝ) →
+        0 < M →
+        0 < N →
+        L ≤ C * Real.sqrt R →
+        OnCircleUpTo M N z →
+        InjectiveUpTo M z →
+        (∀ i j, i ≤ j → j < M → t i ≤ t j) →
+        (∀ i j, i < M → j < M → SubcriticalBound.gaussianSqDist (z i) (z j) ≤
+          (t j - t i) ^ 2) →
+        (∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) →
+        (M : ℝ) ≤ D * (Real.log R / Real.log (Real.log R)) := by
+  exact eventually_jarnik_arc_sublog_of_constant_gt_4753_div_96 C D hC (by nlinarith)
+
 /-- The square-root radius associated to an integer norm tends to infinity with the norm. -/
 theorem tendsto_sqrt_natCast_atTop :
     Tendsto (fun N : ℕ => Real.sqrt (N : ℝ)) atTop atTop :=
@@ -1004,7 +1024,33 @@ theorem eventually_jarnik_arc_sublog_nat_norm (C : ℝ) (hC : 0 < C) :
     exact Real.sq_sqrt (by positivity)
   exact hbound hR2 hM hNpos hLbound hcircle hz hmono hparam hmem
 
-/-- Natural-norm form with an arbitrary constant above the formal threshold `50`. -/
+/-- Natural-norm form with an arbitrary constant above the formal threshold `4753 / 96`. -/
+theorem eventually_jarnik_arc_sublog_nat_norm_of_constant_gt_4753_div_96
+    (C D : ℝ) (hC : 0 < C) (hD : (4753 / 96 : ℝ) < D) :
+    ∀ᶠ N : ℕ in atTop,
+      ∀ {M : ℕ} {a L : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ},
+        0 < M →
+        0 < N →
+        L ≤ C * Real.sqrt (Real.sqrt (N : ℝ)) →
+        OnCircleUpTo M N z →
+        InjectiveUpTo M z →
+        (∀ i j, i ≤ j → j < M → t i ≤ t j) →
+        (∀ i j, i < M → j < M → SubcriticalBound.gaussianSqDist (z i) (z j) ≤
+          (t j - t i) ^ 2) →
+        (∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) →
+        (M : ℝ) ≤
+          D * (Real.log (Real.sqrt (N : ℝ)) /
+            Real.log (Real.log (Real.sqrt (N : ℝ)))) := by
+  have hR := eventually_jarnik_arc_sublog_of_constant_gt_4753_div_96 C D hC hD
+  have hN_event := tendsto_sqrt_natCast_atTop.eventually hR
+  filter_upwards [hN_event] with N hbound
+  intro M a L z t hM hNpos hLbound hcircle hz hmono hparam hmem
+  have hR2 : (Real.sqrt (N : ℝ)) ^ 2 = (N : ℝ) := by
+    exact Real.sq_sqrt (by positivity)
+  exact hbound hR2 hM hNpos hLbound hcircle hz hmono hparam hmem
+
+/-- Rounded natural-norm corollary of
+`eventually_jarnik_arc_sublog_nat_norm_of_constant_gt_4753_div_96`. -/
 theorem eventually_jarnik_arc_sublog_nat_norm_of_constant_gt_fifty
     (C D : ℝ) (hC : 0 < C) (hD : 50 < D) :
     ∀ᶠ N : ℕ in atTop,
@@ -1021,13 +1067,7 @@ theorem eventually_jarnik_arc_sublog_nat_norm_of_constant_gt_fifty
         (M : ℝ) ≤
           D * (Real.log (Real.sqrt (N : ℝ)) /
             Real.log (Real.log (Real.sqrt (N : ℝ)))) := by
-  have hR := eventually_jarnik_arc_sublog_of_constant_gt_fifty C D hC hD
-  have hN_event := tendsto_sqrt_natCast_atTop.eventually hR
-  filter_upwards [hN_event] with N hbound
-  intro M a L z t hM hNpos hLbound hcircle hz hmono hparam hmem
-  have hR2 : (Real.sqrt (N : ℝ)) ^ 2 = (N : ℝ) := by
-    exact Real.sq_sqrt (by positivity)
-  exact hbound hR2 hM hNpos hLbound hcircle hz hmono hparam hmem
+  exact eventually_jarnik_arc_sublog_nat_norm_of_constant_gt_4753_div_96 C D hC (by nlinarith)
 
 end AsymptoticParameters
 end GaussianChain
