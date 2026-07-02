@@ -29,83 +29,59 @@
 \newcommand{\M}{\mathcal M}
 \newcommand{\LL}{\mathcal L}
 
-\title{A Formalized Logarithmic-Over-Logarithmic Bound for Lattice Points on Critical Circular Arcs}
-\author{Formalization in Lean 4}
+\title{A Sub-Logarithmic Bound for Lattice Points on Small Circular Arcs}
+\author{Craig Chen}
 \date{}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-Let
+    We prove that for a circle of radius R centered at the origin, the number of lattice points on an arc of length $C\sqrt{R}$ 
+    is at most
 \[
-  \E_N=\{(x,y)\in\Z^2:x^2+y^2=N\}.
+  D\,\frac{\log R}{\log\log R},
 \]
-When \(N=R^2\), this is the set of lattice points on the circle of radius
-\(R\).  We prove that for every fixed \(C>0\) and every
-\(D>4753/96\), all
-sufficiently large radii \(R\) with \(R^2\in\N\), and every arc of length at
-most \(C\sqrt R\) on \(x^2+y^2=R^2\), the number of lattice points on the arc
-is at most
-\[
-  D\,\frac{\log R}{\log\log R}.
-\]
-The proof is arithmetic rather than purely convex-geometric. It combines a
-Ramana-type determinant identity over \(\Z[i]\), congruence collisions at
+for $C,D > 0$.
+We combines a Ramana-type determinant identity over \(\Z[i]\), congruence collisions at
 rational primes missing from the norm, a Chebyshev interval lower bound, and
-split/inert descent in the Gaussian integers.  The Lean development proves a
-parametrized chord-distance theorem from which the usual arc statement follows.
+split/inert descent in the Gaussian integers. The result is formalized in Lean. 
 \end{abstract}
 
-\noindent\textbf{Keywords.}
-lattice points on circles; short arcs; Gaussian integers; determinant method;
-restriction estimates; Lean 4.
+%\noindent\textbf{Keywords.}
+%lattice points on circles; short arcs; Gaussian integers; determinant method;
+%restriction estimates; Lean 4.
 
 \tableofcontents
 
 \section{Introduction}
 
-The distribution of lattice points on circles is an old problem with a
-distinctive feature: globally the number of representations
-\[
-  x^2+y^2=N
-\]
-can fluctuate arithmetically, but locally on a short arc one expects much more
-rigidity.  The guiding question is the following.  If \(R^2=N\), how many
-points of \(\E_N\) can lie on an arc of length comparable to \(\sqrt R\)?
+Let $\E_N \coloneq \{ (x,y) \in \mathbb{Z} \, | \, x^2 + y^2 = N \}$ be the set of lattice points on a centered circle of radius $\sqrt{N}$. We will always assume $N=R^2$ for some $R \in \mathbb{N}$. 
+The set \(\E_N\) is controlled by the factorization of \(N\) in the Gaussian integers.  At the same time, once we zoom into a very short arc, the problem looks geometric: many nearby lattice points
+would force many small chord lengths between pairs of lattice pionts. 
 
-For a beginning number theorist, the tension is useful to keep in mind.  The
-set \(\E_N\) is not a random set of points on a circle; it is controlled by the
-factorization of \(N\) in the Gaussian integers.  At the same time, once we zoom
-into a very short arc, the problem looks geometric: many nearby lattice points
-would force many small chord distances.  The proof below exploits exactly this
-meeting point between local geometry and arithmetic factorization.
-
-The scale \(\sqrt R\) is critical for the circle.  It is much shorter than the
-radius, so the arc is locally flat at first sight, but it is long enough that
-the usual convexity bounds are far from sharp.  It is also the scale which
-appears in questions about concentration of Fourier modes of toral
+Previous results are able to prove finite bounds for arcs of length $R^{\alpha}$ when $\alpha \in [0,1/2)$
+but only yield a $\log R$ bound at the critical exponent $\alpha=1/2$.
+The scale \(\sqrt R\) is indeed critical for the circle. An arc of this size is just long enough that it has nontrivial sagitta. The usual convexity bounds are far from sharp. And we care about results at this scale
+because it is also the scale which appears in questions about concentration of Fourier modes of toral
 eigenfunctions: the frequency set of an eigenfunction with eigenvalue
 \(4\pi^2N\) is precisely \(\E_N\), and clusters of frequencies in short arcs
 influence restriction and oscillatory-kernel estimates.
 
-It is conjectured that arcs of length comparable to \(R^{1/2}\) contain only
-boundedly many lattice points, uniformly in the radius \(R\),
+It is conjectured that arcs of length comparable to \(R^{1/2}\) also contain only
+finitely many lattice points, uniformly in the radius \(R\),
 \cite{CillerueloGranville2007,CillerueloGranville2009}.  In this paper we
 prove the weaker sublogarithmic estimate
 \[
   O_C\!\left(\frac{\log R}{\log\log R}\right).
 \]
-This improves the logarithmic bound obtained by choosing the number of points
-in the Cilleruelo--Cordoba fixed-\(k\) estimates as a function of \(R\).
-
 The proof should be thought of as a determinant method with extra arithmetic
-divisibility.  A Vandermonde-type determinant over \(\Z[i]\) cannot vanish when
+divisibility. A Vandermonde-type determinant over \(\Z[i]\) cannot vanish when
 we feed it distinct points on the circle, but if many consecutive points lie in
 a short parameter interval then the same determinant is forced to be small.
-This gives the first obstruction to clustering.  The logarithmic saving comes
+This gives the first obstruction to clustering. The logarithmic saving comes
 from strengthening the determinant with congruences modulo rational primes.
-Primes \(p\nmid N\) give collision divisibility, while primes dividing \(N\)
+Primes \(p \nmid N\) give collision divisibility, while primes dividing \(N\)
 allow descent to a smaller Gaussian-integer circle.  Organizing these two
 alternatives over a geometric stack of prime intervals produces the
 \(\log\log R\) gain.
@@ -127,11 +103,11 @@ length at most \(C\sqrt R\).  Then
 \]
 \end{theorem}
 
-This is a radius statement.  It does not require \(R\) itself to be an integer;
-the arithmetic input is only that the squared radius \(R^2\) is the integer
-norm \(N\).  Equivalently, one may set \(R=\sqrt N\) for an integer norm \(N\),
-in which case the length scale is \(C N^{1/4}\) and the logarithmic factor is
-\(\log\sqrt N/\log\log\sqrt N\).
+%This is a radius statement.  It does not require \(R\) itself to be an integer;
+%the arithmetic input is only that the squared radius \(R^2\) is the integer
+%norm \(N\).  Equivalently, one may set \(R=\sqrt N\) for an integer norm \(N\),
+%in which case the length scale is \(C N^{1/4}\) and the logarithmic factor is
+%\(\log\sqrt N/\log\log\sqrt N\).
 
 The theorem formalized in Lean is slightly more general and avoids a
 topological formalization of arcs.  It works with ordered real parameters whose
@@ -162,27 +138,25 @@ Then
 \]
 \end{theorem}
 
-In Lean this is
-\begin{center}
-\texttt{GaussianChain.AsymptoticParameters.}\\
-\texttt{eventually\_jarnik\_arc\_sublog\_}\\
-\texttt{of\_constant\_gt\_4753\_div\_96}.
-\end{center}
-The previous \(D>50\) form remains as a rounded Lean corollary.
-The hypotheses named \texttt{OnCircleUpTo M N z} and
-\texttt{InjectiveUpTo M z} in Lean describe the \(M\) points being counted at a
-fixed radius.  The theorem itself is asymptotic in \(R\): after the threshold
-\(R_0(C,D)\), it applies uniformly to every such \(M\)-point list at that
-radius.  This formulation avoids the false requirement that an infinite
-sequence of distinct points lie on one fixed circle.
+%In Lean this is
+%\begin{center}
+%\texttt{GaussianChain.AsymptoticParameters.}\\
+%\texttt{eventually\_jarnik\_arc\_sublog\_}\\
+%\texttt{of\_constant\_gt\_4753\_div\_96}.
+%\end{center}
+%The hypotheses named \texttt{OnCircleUpTo M N z} and
+%\texttt{InjectiveUpTo M z} in Lean describe the \(M\) points being counted at a
+%fixed radius.  The theorem itself is asymptotic in \(R\): after the threshold
+%\(R_0(C,D)\), it applies uniformly to every such \(M\)-point list at that
+%radius.  This formulation avoids the false requirement that an infinite
+%sequence of distinct points lie on one fixed circle.
 The implication Theorem~\ref{thm:param}\(\Rightarrow\)Theorem~\ref{thm:geometric}
 is immediate by taking \(t_i\) to be arclength along the arc: chord distance is
 bounded by arclength distance.
 
 \subsection{Proof idea}
 
-We now give a more explicit roadmap.  The reader should view \(s\) as the
-window size parameter; eventually \(s\) will be chosen on the order of
+We now give a more explicit roadmap of the proof. Precise definitions are provided in Section \ref{sec:mainresult}. We set some parameter $s$ which we will choose later; $s$ is to be thought of as a window size parameter. Eventually \(s\) will be chosen on the order of
 \(\log R/\log\log R\).
 
 First, a determinant identity over \(\GI\) gives a subcritical obstruction.  In
@@ -196,15 +170,15 @@ this gives
 \]
 Thus, if \(B^{s(2s+1)}<N^{s^2}\), every consecutive \(2s+1\)-point block must
 have a large parameter span.  Sliding windows convert that local obstruction
-into a cardinality bound.
+into a cardinality bound. These, however, are rather crude determinant bounds, and an improvement on the lower bound is key to our sublogarithmic result.
 
-Second, the determinant can be strengthened using primes \(p\nmid N\).  Modulo
+Second, we notice there are divisibility constarints on the determinant. Take some prime \(p\nmid N\).  Modulo
 such a prime, the equation \(x^2+y^2=N\) has only \(O(p)\) possible residue
 classes.  A block of \(2s+1\) points therefore has many pairs which collide
 modulo \(p\).  Each collision contributes a factor of \(p\) to the determinant.
 If many primes in a controlled interval are missing from \(N\), the accumulated
 prime-power divisibility makes the determinant too divisible to be compatible
-with all chords being small.  This is the missing-prime branch.
+with all chords being small. This is what we call the "missing-prime" section of the proof.
 
 Third, if the missing-prime branch fails, then many primes in the same interval
 must divide \(N\).  In particular, one finds a prime divisor \(p\) of \(N\) in a
@@ -214,7 +188,7 @@ circle when it divides the norm.  If \(p\equiv 1\pmod 4\), the prime splits as
 \(p=\pi\overline\pi\), and at least half of the points are divisible by one of
 \(\pi,\overline\pi\).  Dividing by the relevant factor maps the chosen points to
 a smaller circle and shrinks chord lengths.  The determinant obstruction can
-then be applied on the descended circle.
+then be applied on the smaller circle.
 
 The final proof balances these two alternatives over a geometric stack of prime
 intervals.  Either sufficiently many primes are missing, giving extra
@@ -237,6 +211,7 @@ ovals \cite{BombieriPila1989}; our proof is also determinant-driven, but it
 uses the special arithmetic of a fixed circle and the Gaussian integers.
 
 \subsection{Cilleruelo--Cordoba and Cilleruelo--Granville}
+\label{subsec:cc-log}
 
 For circles centered at the origin, much sharper local results are known.
 Cilleruelo and Cordoba proved fixed-\(k\) bounds below the square-root scale
@@ -250,27 +225,20 @@ the fine structure of close lattice points on circles and gave families of four
 points at short scales \cite{CillerueloGranville2009}; related conjectures on
 boundedness of short arcs appear in \cite{CillerueloGranville2007}.
 
-\subsection{Deriving the implied logarithmic bound}
-\label{subsec:cc-log}
-
 The Cilleruelo--Cordoba estimates imply a logarithmic bound at the critical
-\(\sqrt R\)-scale.  We include the derivation because it is the clean baseline
-improved by Theorem~\ref{thm:geometric}.
-
-Assume \(R>e^2\), and set
+\(\sqrt R\)-scale. Assume \(R>e^2\), and set
 \[
   k_R=\ceil{\frac{\log R}{2}}.
 \]
 Then
 \[
-  4\floor{k_R/2}+2\ge \log R.
-\]
-Indeed, if \(k_R=2q\), then \(2q\ge \frac12\log R\), so
-\(4q+2\ge \log R+2\).  If \(k_R=2q+1\), then
-\(2q+1\ge \frac12\log R\), so \(4q+2\ge \log R\).  Therefore
-\[
+  4\floor{k_R/2}+2\ge \log R
+  \implies
   \frac{1}{4\floor{k_R/2}+2}\le \frac1{\log R}.
 \]
+%Indeed, if \(k_R=2q\), then \(2q\ge \frac12\log R\), so
+%\(4q+2\ge \log R+2\).  If \(k_R=2q+1\), then
+%\(2q+1\ge \frac12\log R\), so \(4q+2\ge \log R\). 
 The length allowed by the Cilleruelo--Cordoba theorem is at least
 \[
   \sqrt2\,R^{1/2-\frac{1}{4\floor{k_R/2}+2}}
@@ -303,24 +271,24 @@ Theorem~\ref{thm:geometric} replaces this \(O_C(\log R)\) baseline by
   O_C\!\left(\frac{\log R}{\log\log R}\right).
 \]
 
-\subsection{Restriction estimates}
+%\subsection{Restriction estimates}
 
-The same local-clustering question enters restriction estimates for toral
-eigenfunctions.  If
-\[
-  \varphi(x)=\sum_{\mu\in\E_N}a_\mu e^{2\pi i\langle \mu,x\rangle}
-\]
-is an eigenfunction on \(\T^2\), then restriction of \(\varphi\) to a curved
-hypersurface is controlled by oscillatory sums over pairs of frequencies.
-Near-parallel frequencies, which are precisely frequencies lying in short arcs
-of \(\E_N\), form the difficult local contribution.  Bourgain and Rudnick
-proved uniform restriction bounds for curves with nonzero curvature
-\cite{BourgainRudnick2009}.  The present theorem gives a formalized
-sublogarithmic local multiplicity estimate at the critical scale, and therefore
-supplies a quantitative input for any restriction argument whose loss is
-controlled by such arc-clustering numbers.
+%The same local-clustering question enters restriction estimates for toral
+%eigenfunctions.  If
+%\[
+%  \varphi(x)=\sum_{\mu\in\E_N}a_\mu e^{2\pi i\langle \mu,x\rangle}
+%\]
+%is an eigenfunction on \(\T^2\), then restriction of \(\varphi\) to a curved
+%hypersurface is controlled by oscillatory sums over pairs of frequencies.
+%Near-parallel frequencies, which are precisely frequencies lying in short arcs
+%of \(\E_N\), form the difficult local contribution.  Bourgain and Rudnick
+%proved uniform restriction bounds for curves with nonzero curvature
+%\cite{BourgainRudnick2009}.  The present theorem gives a formalized
+%sublogarithmic local multiplicity estimate at the critical scale, and therefore
+%supplies a quantitative input for any restriction argument whose loss is
+%controlled by such arc-clustering numbers.
 
-\section{Main Results Used in the Proof}
+\section{Main Results}\label{sec:mainresult}
 
 This section states the principal ingredients.  Full proofs are given in the
 appendix.
@@ -604,36 +572,32 @@ prime stacks.
 the final theorem.
 \end{itemize}
 
-The project builds with \texttt{lake build}.  A search of the Lean source finds
-no uses of \texttt{sorry}, \texttt{admit}, or project-level \texttt{axiom}
-declarations.  The theorem is therefore a genuine Lean-checked proof, not a
-statement admitted for later work.
-
-\section{Numerical Search Code}
-
-The repository also contains Rust code for experimental searches for unusually
-dense endpoint-scale arcs.  This code is not used as an assumption in the Lean
-proof; it is a way to find and inspect candidate families, especially possible
-five- and six-point clusters.
-
-The optimized command is
-\[
-\texttt{cargo run --release -- arc-families --n-max N --min-size 5}.
-\]
-It differs from the full diagnostic command \(\texttt{search}\) in three ways.
-First, it builds a smallest-prime-factor sieve up to \(N\), so each integer in
-the scan can be factored by repeated table lookup rather than by trial division.
-Second, it skips any norm whose factorization cannot produce enough lattice
-representations to meet the requested family size.  Third, during the scan it
-computes only the maximum endpoint-scale cluster size; it materializes and
-serializes a compact JSONL record only after the threshold is met.
-
-The emitted record contains the norm \(N\), the radius \(R=\sqrt N\), the
-angular endpoint window, the actual angular width, the lattice points in the
-cluster, and the split-prime data for the norm.  Thus a typical five- or
-six-point search can be run as a lightweight discovery pass, and selected norms
-can then be passed to \(\texttt{analyze-n}\) for the full cut, relation-height,
-transition-pattern, and half-angle diagnostics.
+The project builds with \texttt{lake build} without any uses of \texttt{sorry}, \texttt{admit}, or project-level \texttt{axiom} declarations. 
+%\section{Numerical Search Code}
+%
+%The repository also contains Rust code for experimental searches for unusually
+%dense endpoint-scale arcs.  This code is not used as an assumption in the Lean
+%proof; it is a way to find and inspect candidate families, especially possible
+%five- and six-point clusters.
+%
+%The optimized command is
+%\[
+%\texttt{cargo run --release -- arc-families --n-max N --min-size 5}.
+%\]
+%It differs from the full diagnostic command \(\texttt{search}\) in three ways.
+%First, it builds a smallest-prime-factor sieve up to \(N\), so each integer in
+%the scan can be factored by repeated table lookup rather than by trial division.
+%Second, it skips any norm whose factorization cannot produce enough lattice
+%representations to meet the requested family size.  Third, during the scan it
+%computes only the maximum endpoint-scale cluster size; it materializes and
+%serializes a compact JSONL record only after the threshold is met.
+%
+%The emitted record contains the norm \(N\), the radius \(R=\sqrt N\), the
+%angular endpoint window, the actual angular width, the lattice points in the
+%cluster, and the split-prime data for the norm.  Thus a typical five- or
+%six-point search can be run as a lightweight discovery pass, and selected norms
+%can then be passed to \(\texttt{analyze-n}\) for the full cut, relation-height,
+%transition-pattern, and half-angle diagnostics.
 
 \section{Conclusion and Restriction Consequences}
 
@@ -646,82 +610,33 @@ to
 \[
   O_C\!\left(\frac{\log R}{\log\log R}\right)
 \]
-for arcs of length \(C\sqrt R\).  It does not settle the stronger endpoint
-boundedness conjecture.  The point is different: the argument gives a verified
-sublogarithmic local-multiplicity estimate at the exact scale which is relevant
-to arithmetic concentration phenomena.
+for arcs of length \(C\sqrt R\).
 
-For restriction problems on \(\T^2\), the frequency set of an eigenfunction is
-\(\E_N\).  Restriction to a curved hypersurface leads to kernels of the form
-\[
-  K(s,t)=\sum_{\mu,\nu\in\E_N}
-  a_\mu\overline{a_\nu}\,
-  e^{2\pi i\langle \mu-\nu,\gamma(s)-\gamma(t)\rangle}.
-\]
-Pairs \((\mu,\nu)\) with nearly parallel directions are the part least affected
-by curvature and stationary phase.  The number of such frequencies is controlled
-by short-arc multiplicity.  Therefore any restriction argument whose local loss
-is bounded by the maximal number of lattice points in arcs of length
-\(C\sqrt R\) may replace a logarithmic loss by
-\[
-  \frac{\log R}{\log\log R}.
-\]
-In this sense Theorem~\ref{thm:geometric} supplies a formal arithmetic input for
-restriction estimates: it quantifies, in a machine-checked way, that critical
-frequency clusters are sublogarithmic.  It should not be read as a standalone
-new restriction theorem; translating the local cluster estimate into a sharp
-operator norm requires the analytic restriction framework in which the cluster
-number appears.
+TODO 
+
+%For restriction problems on \(\T^2\), the frequency set of an eigenfunction is
+%\(\E_N\).  Restriction to a curved hypersurface leads to kernels of the form
+%\[
+%  K(s,t)=\sum_{\mu,\nu\in\E_N}
+%  a_\mu\overline{a_\nu}\,
+%  e^{2\pi i\langle \mu-\nu,\gamma(s)-\gamma(t)\rangle}.
+%\]
+%Pairs \((\mu,\nu)\) with nearly parallel directions are the part least affected
+%by curvature and stationary phase.  The number of such frequencies is controlled
+%by short-arc multiplicity.  Therefore any restriction argument whose local loss
+%is bounded by the maximal number of lattice points in arcs of length
+%\(C\sqrt R\) may replace a logarithmic loss by
+%\[
+%  \frac{\log R}{\log\log R}.
+%\]
+%In this sense Theorem~\ref{thm:geometric} supplies a formal arithmetic input for
+%restriction estimates: it quantifies, in a machine-checked way, that critical
+%frequency clusters are sublogarithmic.  It should not be read as a standalone
+%new restriction theorem; translating the local cluster estimate into a sharp
+%operator norm requires the analytic restriction framework in which the cluster
+%number appears.
 
 \appendix
-
-\section{Proofs of the Geometric and Related-Work Statements}
-
-\begin{proof}[Proof of Theorem~\ref{thm:geometric} from
-Theorem~\ref{thm:param}]
-Let \(R^2=N\).  Let \(I\) be an arc of length at most \(C\sqrt R\), and
-enumerate the lattice points on \(I\) in increasing arclength order:
-\[
-  z_0,\dots,z_{M-1}.
-\]
-Then \(z_i\conj{z_i}=N\) for every \(i<M\), and the enumerated points are
-pairwise distinct.
-Let \(t_i\) be the arclength coordinate of \(z_i\) measured from the initial
-endpoint of the arc.  Then \(0\le t_i\le L\le C\sqrt R\), and
-\[
-  t_i\le t_j\qquad (i\le j).
-\]
-Since Euclidean chord length is at most arclength along a circle,
-\[
-  |z_i-z_j|\le |t_j-t_i|.
-\]
-Squaring gives the chord hypothesis in Theorem~\ref{thm:param}.  The points are
-distinct by enumeration, so the finite distinctness hypothesis holds.  Applying
-Theorem~\ref{thm:param} gives the claimed bound.
-\end{proof}
-
-\begin{proof}[Proof of the Cilleruelo--Cordoba logarithmic consequence]
-This is the derivation in Section~\ref{subsec:cc-log}.  Choose
-\[
-  k_R=\ceil{\frac{\log R}{2}}.
-\]
-Then \(4\floor{k_R/2}+2\ge\log R\), hence
-\[
-  R^{1/2-\frac{1}{4\floor{k_R/2}+2}}
-  \ge R^{1/2-\frac{1}{\log R}}
-  =e^{-1}\sqrt R.
-\]
-Therefore the \(k_R\)-point Cilleruelo--Cordoba theorem applies to every arc of
-length at most \((\sqrt2/e)\sqrt R\), giving at most \(k_R\le \frac12\log R+1\)
-points.  A general \(C\sqrt R\)-arc is covered by
-\[
-  \ceil{Ce/\sqrt2}
-\]
-such arcs, so the total number of points is
-\[
-  O_C(\log R).
-\]
-\end{proof}
 
 \section{Proof of the Determinant and Subcritical Bounds}
 
