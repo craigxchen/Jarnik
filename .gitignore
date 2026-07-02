@@ -1,6 +1,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.DS_Store
 *.pdb
 *.iml
 *.pkl
@@ -9,3 +10,10 @@ target/
 *.csv
 *.sh
 *.zip
+/.lake
+/outputs/
+/paper/*.aux
+/paper/*.log
+/paper/*.out
+/paper/*.pdf
+/paper/*.toc
