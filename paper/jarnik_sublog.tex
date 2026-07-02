@@ -42,7 +42,8 @@ Let
   \E_N=\{(x,y)\in\Z^2:x^2+y^2=N\}.
 \]
 When \(N=R^2\), this is the set of lattice points on the circle of radius
-\(R\).  We prove that for every fixed \(C>0\) and every \(D>50\), all
+\(R\).  We prove that for every fixed \(C>0\) and every
+\(D>4753/96\), all
 sufficiently large radii \(R\) with \(R^2\in\N\), and every arc of length at
 most \(C\sqrt R\) on \(x^2+y^2=R^2\), the number of lattice points on the arc
 is at most
@@ -115,10 +116,10 @@ We identify a point \((x,y)\in\Z^2\) with \(z=x+iy\in\GI\), and write
 \(\Norm(z)=z\conj z=x^2+y^2\).
 
 \begin{theorem}[Geometric arc form]\label{thm:geometric}
-For every \(C>0\) and \(D>50\) there exists \(R_0(C,D)\) such that the
-following holds.  Let \(R\ge R_0(C,D)\), let \(N\in\N\) satisfy \(R^2=N\), and
-let \(I\) be an arc of the circle \(x^2+y^2=N\) of Euclidean length at most
-\(C\sqrt R\).  Then
+For every \(C>0\) and \(D>4753/96\) there exists \(R_0(C,D)\) such that
+the following holds.  Let \(R\ge R_0(C,D)\), let \(N\in\N\) satisfy
+\(R^2=N\), and let \(I\) be an arc of the circle \(x^2+y^2=N\) of Euclidean
+length at most \(C\sqrt R\).  Then
 \[
   \#(I\cap\Z^2)
   \le
@@ -137,8 +138,8 @@ topological formalization of arcs.  It works with ordered real parameters whose
 differences dominate chord lengths.
 
 \begin{theorem}[Formalized asymptotic parametrized theorem]\label{thm:param}
-Let \(C>0\) and \(D>50\).  There exists \(R_0(C,D)\) such that for every
-\(R\ge R_0(C,D)\), the following holds.  Let
+Let \(C>0\) and \(D>4753/96\).  There exists \(R_0(C,D)\) such that for
+every \(R\ge R_0(C,D)\), the following holds.  Let
 \(M,N\in\N\), \(a,L\in\R\), and let \(z:\N\to\GI\), \(t:\N\to\R\).  Assume
 \[
   R^2=N,\qquad 0<M,\qquad 0<N,\qquad L\le C\sqrt R,
@@ -165,8 +166,9 @@ In Lean this is
 \begin{center}
 \texttt{GaussianChain.AsymptoticParameters.}\\
 \texttt{eventually\_jarnik\_arc\_sublog\_}\\
-\texttt{of\_constant\_gt\_fifty}.
+\texttt{of\_constant\_gt\_4753\_div\_96}.
 \end{center}
+The previous \(D>50\) form remains as a rounded Lean corollary.
 The hypotheses named \texttt{OnCircleUpTo M N z} and
 \texttt{InjectiveUpTo M z} in Lean describe the \(M\) points being counted at a
 fixed radius.  The theorem itself is asymptotic in \(R\): after the threshold
@@ -502,7 +504,10 @@ Taking \(B=600/49\) in Theorem~\ref{thm:finite} gives the concrete corollary
   =
   50\,\frac{\log R}{\log\log R}.
 \]
-Taking \(B=12D/49\) gives the stated theorem for every \(D>50\).
+Taking \(B=12D/49\) gives the stated theorem for every \(D>4753/96\), since
+\[
+  \frac{49}{12}\cdot\frac{97}{8}=\frac{4753}{96}.
+\]
 
 The constants are chosen to make the threshold inequality just transparent.
 Let
@@ -603,6 +608,32 @@ The project builds with \texttt{lake build}.  A search of the Lean source finds
 no uses of \texttt{sorry}, \texttt{admit}, or project-level \texttt{axiom}
 declarations.  The theorem is therefore a genuine Lean-checked proof, not a
 statement admitted for later work.
+
+\section{Numerical Search Code}
+
+The repository also contains Rust code for experimental searches for unusually
+dense endpoint-scale arcs.  This code is not used as an assumption in the Lean
+proof; it is a way to find and inspect candidate families, especially possible
+five- and six-point clusters.
+
+The optimized command is
+\[
+\texttt{cargo run --release -- arc-families --n-max N --min-size 5}.
+\]
+It differs from the full diagnostic command \(\texttt{search}\) in three ways.
+First, it builds a smallest-prime-factor sieve up to \(N\), so each integer in
+the scan can be factored by repeated table lookup rather than by trial division.
+Second, it skips any norm whose factorization cannot produce enough lattice
+representations to meet the requested family size.  Third, during the scan it
+computes only the maximum endpoint-scale cluster size; it materializes and
+serializes a compact JSONL record only after the threshold is met.
+
+The emitted record contains the norm \(N\), the radius \(R=\sqrt N\), the
+angular endpoint window, the actual angular width, the lattice points in the
+cluster, and the split-prime data for the norm.  Thus a typical five- or
+six-point search can be run as a lightweight discovery pass, and selected norms
+can then be passed to \(\texttt{analyze-n}\) for the full cut, relation-height,
+transition-pattern, and half-angle diagnostics.
 
 \section{Conclusion and Restriction Consequences}
 
@@ -1023,9 +1054,9 @@ estimate \(s\le (600/49)W/\Lambda\) gives the concrete bound
   =
   50\,\frac{\log R}{\log\log R}.
 \]
-For the sharp asymptotic constant in this fixed-parameter proof, let \(D>50\)
-and put \(B=12D/49\).  Since \(B>97/8\), the ceiling loss is eventually
-absorbed:
+For the sharp asymptotic constant in this fixed-parameter proof, let
+\(D>4753/96\) and put \(B=12D/49\).  Since \(B>97/8\), the ceiling loss is
+eventually absorbed:
 \[
   s=\ceil{(97/8)\,W/\Lambda}\le \frac{12D}{49}\,\frac{W}{\Lambda}.
 \]

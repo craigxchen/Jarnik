@@ -1,11 +1,13 @@
 use jarnik::numerics::clusters::{
-    cluster_points, find_max_clusters, geometry_for_cluster, ArcCluster, ClusterGeometry,
+    cluster_points, find_clusters_at_least, find_max_clusters, geometry_for_cluster,
+    max_cluster_size, ArcCluster, ClusterGeometry,
 };
 use jarnik::numerics::cuts::{analyze_cuts, enumerate_cuts, CutDiagnostics};
 use jarnik::numerics::exact::{isqrt_u128, parse_i128, parse_u64_list};
 use jarnik::numerics::factor::{
     analyze_factorization, analyze_factorization_cached, factor_u64, pow_u128, primes_up_to,
-    represent_prime_as_sum_of_squares, FactorizationData, PrimeFactor, SplitPrime,
+    represent_prime_as_sum_of_squares, FactorizationData, FactorizationSieve, PrimeFactor,
+    SplitPrime,
 };
 use jarnik::numerics::half_angle::{analyze_half_angles, HalfAngleDiagnostics};
 use jarnik::numerics::legacy_arc::{
@@ -40,6 +42,7 @@ fn main() -> Result<(), Box<dyn error::Error>> {
     match args[0].as_str() {
         "arc" => run_arc(&args[1..])?,
         "search" => run_search(&args[1..])?,
+        "arc-families" => run_arc_families(&args[1..])?,
         "analyze-n" => run_analyze_n(&args[1..])?,
         "cg-family" => run_cg_family(&args[1..])?,
         "random-squarefree" => run_random_squarefree(&args[1..])?,
@@ -131,6 +134,26 @@ struct RandomSquarefreeRecord {
     point_count: usize,
     max_cluster_size: usize,
     maximum_clusters: Vec<ClusterAnalysisRecord>,
+}
+
+#[derive(Clone, Debug, Serialize)]
+struct ArcFamilyRecord {
+    record_type: String,
+    #[serde(flatten)]
+    geometry: ClusterGeometry,
+    point_count: usize,
+    max_cluster_size: usize,
+    factors: Vec<PrimeFactor>,
+    split_primes: Vec<SplitPrime>,
+}
+
+#[derive(Clone, Debug, Serialize)]
+struct ArcFamilySearchSummary {
+    record_type: String,
+    processed_n: u64,
+    emitted_families: u64,
+    num_circles_with_points: u64,
+    max_cluster_seen: usize,
 }
 
 fn run_search(args: &[String]) -> Result<(), Box<dyn error::Error>> {
@@ -227,6 +250,110 @@ fn run_analyze_n(args: &[String]) -> Result<(), Box<dyn error::Error>> {
     let mut writer = output_writer(out)?;
     serde_json::to_writer_pretty(&mut writer, &output)?;
     writeln!(writer)?;
+    writer.flush()?;
+    Ok(())
+}
+
+fn run_arc_families(args: &[String]) -> Result<(), Box<dyn error::Error>> {
+    let n_max = required_flag_u64(args, "--n-max")?;
+    let n_start = optional_flag_u64(args, "--n-start", 1)?;
+    let arc_scale = optional_flag_f64(args, "--arc-scale", 1.0)?;
+    let min_size = optional_flag_usize(args, "--min-size", 5)?;
+    let summary_every = optional_flag_u64(args, "--summary-every", 1_000_000)?;
+    let max_records = optional_flag_u64(args, "--max-records", 0)?;
+    let out = optional_flag(args, "--out")?;
+    let mut writer = output_writer(out)?;
+
+    if n_start == 0 {
+        return Err("--n-start must be positive".into());
+    }
+    if n_start > n_max {
+        return Err("--n-start must be at most --n-max".into());
+    }
+    if min_size == 0 {
+        return Err("--min-size must be positive".into());
+    }
+
+    let mut sieve = FactorizationSieve::new(n_max)?;
+    let mut emitted_families = 0_u64;
+    let mut num_circles_with_points = 0_u64;
+    let mut max_cluster_seen = 0_usize;
+
+    for n in n_start..=n_max {
+        let factorization = sieve.analyze_factorization(n);
+        if !factorization.is_sum_of_two_squares || lattice_point_capacity(&factorization) < min_size
+        {
+            maybe_emit_arc_family_summary(
+                n,
+                summary_every,
+                emitted_families,
+                num_circles_with_points,
+                max_cluster_seen,
+            )?;
+            continue;
+        }
+
+        let points = generate_lattice_points_from_factorization(&factorization);
+        if points.len() < min_size {
+            maybe_emit_arc_family_summary(
+                n,
+                summary_every,
+                emitted_families,
+                num_circles_with_points,
+                max_cluster_seen,
+            )?;
+            continue;
+        }
+        num_circles_with_points += 1;
+
+        let best_size = max_cluster_size(&points, n, arc_scale);
+        max_cluster_seen = max_cluster_seen.max(best_size);
+        if best_size >= min_size {
+            let clusters = find_clusters_at_least(&points, n, arc_scale, best_size);
+            for cluster in clusters
+                .iter()
+                .filter(|cluster| cluster.size() == best_size)
+            {
+                let record = ArcFamilyRecord {
+                    record_type: "arc-family".to_string(),
+                    geometry: geometry_for_cluster(n, arc_scale, cluster, &points),
+                    point_count: points.len(),
+                    max_cluster_size: best_size,
+                    factors: factorization.factors.clone(),
+                    split_primes: factorization.split_primes.clone(),
+                };
+                write_json_line(&mut writer, &record)?;
+                emitted_families += 1;
+                if max_records != 0 && emitted_families >= max_records {
+                    emit_arc_family_summary(
+                        n,
+                        emitted_families,
+                        num_circles_with_points,
+                        max_cluster_seen,
+                    )?;
+                    writer.flush()?;
+                    return Ok(());
+                }
+            }
+        }
+
+        maybe_emit_arc_family_summary(
+            n,
+            summary_every,
+            emitted_families,
+            num_circles_with_points,
+            max_cluster_seen,
+        )?;
+    }
+
+    if summary_every == 0 || n_max % summary_every != 0 {
+        emit_arc_family_summary(
+            n_max,
+            emitted_families,
+            num_circles_with_points,
+            max_cluster_seen,
+        )?;
+    }
     writer.flush()?;
     Ok(())
 }
@@ -509,6 +636,53 @@ fn emit_summary(
         num_circles_with_points,
         max_cluster_seen,
         top_examples: top_examples.to_vec(),
+    };
+    eprintln!("{}", serde_json::to_string(&summary)?);
+    Ok(())
+}
+
+fn lattice_point_capacity(factorization: &FactorizationData) -> usize {
+    if factorization.n == 0 || !factorization.is_sum_of_two_squares {
+        return 0;
+    }
+    let choices = factorization
+        .split_primes
+        .iter()
+        .fold(1_u128, |acc, split| acc * (split.exponent as u128 + 1));
+    let count = choices.saturating_mul(4);
+    usize::try_from(count).unwrap_or(usize::MAX)
+}
+
+fn maybe_emit_arc_family_summary(
+    processed_n: u64,
+    summary_every: u64,
+    emitted_families: u64,
+    num_circles_with_points: u64,
+    max_cluster_seen: usize,
+) -> Result<(), Box<dyn error::Error>> {
+    if summary_every != 0 && processed_n % summary_every == 0 {
+        emit_arc_family_summary(
+            processed_n,
+            emitted_families,
+            num_circles_with_points,
+            max_cluster_seen,
+        )?;
+    }
+    Ok(())
+}
+
+fn emit_arc_family_summary(
+    processed_n: u64,
+    emitted_families: u64,
+    num_circles_with_points: u64,
+    max_cluster_seen: usize,
+) -> Result<(), Box<dyn error::Error>> {
+    let summary = ArcFamilySearchSummary {
+        record_type: "arc-family-summary".to_string(),
+        processed_n,
+        emitted_families,
+        num_circles_with_points,
+        max_cluster_seen,
     };
     eprintln!("{}", serde_json::to_string(&summary)?);
     Ok(())
@@ -1011,6 +1185,7 @@ fn print_help() {
 
 Commands:
   search --n-max N [--arc-scale C] [--min-cluster M] [--out path.jsonl]
+  arc-families --n-max N [--n-start A] [--arc-scale C] [--min-size M] [--max-records K] [--out path.jsonl]
   analyze-n --n N [--arc-scale C] [--out path.json]
   cg-family [--n-start A] [--n-end B] [--arc-scale C] [--out path.jsonl]
   random-squarefree --num-primes K --trials T [--arc-scale C] [--seed S] [--prime-limit P] [--out path.jsonl]
@@ -1023,6 +1198,7 @@ Commands:
 
 Examples:
   cargo run --release -- search --n-max 100000000 --arc-scale 1.0 --min-cluster 4 --out results.jsonl
+  cargo run --release -- arc-families --n-max 100000000 --min-size 5 --out families.jsonl
   cargo run --release -- analyze-n --n 567454025 --arc-scale 1.0 --out example.json
   cargo run --release -- cg-family --n-start 7 --n-end 15 --arc-scale 1.0 --out cg.jsonl
   cargo run --release -- random-squarefree --num-primes 10 --trials 1000 --arc-scale 1.0 --out random.jsonl

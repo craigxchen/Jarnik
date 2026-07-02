@@ -1,6 +1,7 @@
 use crate::numerics::exact::isqrt_u128;
 use serde::Serialize;
 use std::collections::HashMap;
+use std::convert::TryFrom;
 
 #[derive(Clone, Debug, PartialEq, Eq, Serialize)]
 pub struct PrimeFactor {
@@ -24,6 +25,73 @@ pub struct FactorizationData {
     pub two_exponent: u32,
     pub inert_scale: u128,
     pub is_sum_of_two_squares: bool,
+}
+
+#[derive(Clone, Debug)]
+pub struct FactorizationSieve {
+    spf: Vec<u32>,
+    representation_cache: HashMap<u64, Option<(u64, u64)>>,
+}
+
+impl FactorizationSieve {
+    pub fn new(limit: u64) -> Result<Self, String> {
+        if limit > u32::MAX as u64 {
+            return Err(format!(
+                "factorization sieve limit {} exceeds u32::MAX; use the trial-division search path",
+                limit
+            ));
+        }
+        let limit =
+            usize::try_from(limit).map_err(|_| "factorization sieve limit exceeds usize")?;
+        let mut spf = vec![0_u32; limit + 1];
+        for candidate in 2..=limit {
+            if spf[candidate] != 0 {
+                continue;
+            }
+            spf[candidate] = candidate as u32;
+            if candidate <= limit / candidate {
+                let mut multiple = candidate * candidate;
+                while multiple <= limit {
+                    if spf[multiple] == 0 {
+                        spf[multiple] = candidate as u32;
+                    }
+                    multiple += candidate;
+                }
+            }
+        }
+        Ok(Self {
+            spf,
+            representation_cache: HashMap::new(),
+        })
+    }
+
+    pub fn limit(&self) -> u64 {
+        self.spf.len().saturating_sub(1) as u64
+    }
+
+    pub fn factor_u64(&self, mut n: u64) -> Vec<PrimeFactor> {
+        assert!(
+            n <= self.limit(),
+            "factorization sieve cannot factor values above its limit"
+        );
+        let mut factors = Vec::new();
+        while n > 1 {
+            let prime = self.spf[n as usize] as u64;
+            debug_assert!(prime >= 2);
+            let mut exponent = 0_u32;
+            while n % prime == 0 {
+                n /= prime;
+                exponent += 1;
+            }
+            factors.push(PrimeFactor { prime, exponent });
+        }
+        factors
+    }
+
+    pub fn analyze_factorization(&mut self, n: u64) -> FactorizationData {
+        let factors = self.factor_u64(n);
+        analyze_factorization_from_factors(n, factors, &mut self.representation_cache)
+    }
 }
 
 pub fn primes_up_to(limit: u64) -> Vec<u64> {
@@ -93,6 +161,14 @@ pub fn analyze_factorization_cached(
     representation_cache: &mut HashMap<u64, Option<(u64, u64)>>,
 ) -> FactorizationData {
     let factors = factor_u64_with_primes(n, primes);
+    analyze_factorization_from_factors(n, factors, representation_cache)
+}
+
+fn analyze_factorization_from_factors(
+    n: u64,
+    factors: Vec<PrimeFactor>,
+    representation_cache: &mut HashMap<u64, Option<(u64, u64)>>,
+) -> FactorizationData {
     let mut split_primes = Vec::new();
     let mut two_exponent = 0_u32;
     let mut inert_scale = 1_u128;
@@ -239,6 +315,7 @@ pub fn pow_u128(mut base: u128, mut exponent: u32) -> u128 {
 mod tests {
     use super::{
         analyze_factorization, factor_u64, primes_up_to, represent_prime_as_sum_of_squares,
+        FactorizationSieve,
     };
 
     #[test]
@@ -275,5 +352,18 @@ mod tests {
         assert!(analyze_factorization(65, &primes).is_sum_of_two_squares);
         assert!(analyze_factorization(45, &primes).is_sum_of_two_squares);
         assert!(!analyze_factorization(21, &primes).is_sum_of_two_squares);
+    }
+
+    #[test]
+    fn factorization_sieve_matches_trial_division() {
+        let primes = primes_up_to(100);
+        let mut sieve = FactorizationSieve::new(200).unwrap();
+        for n in 1..=200 {
+            assert_eq!(sieve.factor_u64(n), factor_u64(n));
+            assert_eq!(
+                sieve.analyze_factorization(n),
+                analyze_factorization(n, &primes)
+            );
+        }
     }
 }

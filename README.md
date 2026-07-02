@@ -36,6 +36,16 @@ and emits JSONL records for circles whose largest endpoint-scale arc cluster has
 at least `M` points.
 
 ```text
+arc-families --n-max N [--n-start A] [--arc-scale C] [--min-size M] [--max-records K] [--out path.jsonl]
+```
+
+Fast discovery scan for endpoint-scale arc families, intended for 5- and
+6-point searches. It builds a smallest-prime-factor sieve up to `N`, skips
+circles that cannot have enough lattice representations, computes only the
+maximum cluster size during the scan, and emits compact JSONL family records
+instead of the full diagnostic tables used by `search`.
+
+```text
 analyze-n --n N [--arc-scale C] [--out path.json]
 ```
 
@@ -156,6 +166,8 @@ scanner.
 - Exact fifth-point extension quadratic checker.
 - Modular quadratic-residue CRT sieve for extension discriminants.
 - Direct lattice-circle sanity verification for reported examples.
+- Optimized endpoint-scale arc-family scan for 5- and 6-point numerical
+  searches.
 - Weighted sign-product collision search scaffolding.
 - Lean 4 + Mathlib project with the Gaussian-chain algebra and the log/loglog
   proof split across the `GaussianChain/` modules.

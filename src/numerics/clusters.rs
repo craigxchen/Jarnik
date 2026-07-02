@@ -45,13 +45,7 @@ pub fn find_max_clusters(points: &[LatticePointRecord], n: u64, arc_scale: f64) 
 
     let window = angular_window(n, arc_scale);
     let len = points.len();
-    let mut doubled_angles = Vec::with_capacity(2 * len);
-    doubled_angles.extend(points.iter().map(|point| point.angle));
-    doubled_angles.extend(
-        points
-            .iter()
-            .map(|point| point.angle + std::f64::consts::TAU),
-    );
+    let doubled_angles = doubled_angles(points);
 
     let mut clusters = Vec::new();
     let mut best = 0_usize;
@@ -69,14 +63,7 @@ pub fn find_max_clusters(points: &[LatticePointRecord], n: u64, arc_scale: f64) 
         if size < best {
             continue;
         }
-        let indices = (start..=end).map(|idx| idx % len).collect::<Vec<_>>();
-        let angles = doubled_angles[start..=end].to_vec();
-        let cluster = ArcCluster {
-            start_index: start,
-            indices,
-            angles,
-            angular_width: doubled_angles[end] - doubled_angles[start],
-        };
+        let cluster = cluster_from_span(start, end, len, &doubled_angles);
         if size > best {
             best = size;
             clusters.clear();
@@ -84,6 +71,87 @@ pub fn find_max_clusters(points: &[LatticePointRecord], n: u64, arc_scale: f64) 
         clusters.push(cluster);
     }
     clusters
+}
+
+pub fn max_cluster_size(points: &[LatticePointRecord], n: u64, arc_scale: f64) -> usize {
+    if points.is_empty() {
+        return 0;
+    }
+
+    let window = angular_window(n, arc_scale);
+    let len = points.len();
+    let doubled_angles = doubled_angles(points);
+    let mut best = 0_usize;
+    let mut end = 0_usize;
+    for start in 0..len {
+        if end < start {
+            end = start;
+        }
+        while end + 1 < start + len
+            && doubled_angles[end + 1] - doubled_angles[start] <= window + 1e-14
+        {
+            end += 1;
+        }
+        best = best.max(end - start + 1);
+    }
+    best
+}
+
+pub fn find_clusters_at_least(
+    points: &[LatticePointRecord],
+    n: u64,
+    arc_scale: f64,
+    min_size: usize,
+) -> Vec<ArcCluster> {
+    if points.is_empty() || min_size == 0 {
+        return Vec::new();
+    }
+
+    let window = angular_window(n, arc_scale);
+    let len = points.len();
+    let doubled_angles = doubled_angles(points);
+    let mut clusters = Vec::new();
+    let mut end = 0_usize;
+    for start in 0..len {
+        if end < start {
+            end = start;
+        }
+        while end + 1 < start + len
+            && doubled_angles[end + 1] - doubled_angles[start] <= window + 1e-14
+        {
+            end += 1;
+        }
+        if end - start + 1 >= min_size {
+            clusters.push(cluster_from_span(start, end, len, &doubled_angles));
+        }
+    }
+    clusters
+}
+
+fn doubled_angles(points: &[LatticePointRecord]) -> Vec<f64> {
+    let len = points.len();
+    let mut doubled = Vec::with_capacity(2 * len);
+    doubled.extend(points.iter().map(|point| point.angle));
+    doubled.extend(
+        points
+            .iter()
+            .map(|point| point.angle + std::f64::consts::TAU),
+    );
+    doubled
+}
+
+fn cluster_from_span(
+    start: usize,
+    end: usize,
+    point_count: usize,
+    doubled_angles: &[f64],
+) -> ArcCluster {
+    ArcCluster {
+        start_index: start,
+        indices: (start..=end).map(|idx| idx % point_count).collect(),
+        angles: doubled_angles[start..=end].to_vec(),
+        angular_width: doubled_angles[end] - doubled_angles[start],
+    }
 }
 
 pub fn geometry_for_cluster(
@@ -125,7 +193,7 @@ mod tests {
     use crate::numerics::factor::{analyze_factorization, primes_up_to};
     use crate::numerics::points::generate_lattice_points_from_factorization;
 
-    use super::find_max_clusters;
+    use super::{find_clusters_at_least, find_max_clusters, max_cluster_size};
 
     #[test]
     fn finds_known_cilleruelo_granville_cluster() {
@@ -140,6 +208,7 @@ mod tests {
             .max()
             .unwrap_or(0);
         assert_eq!(best, 4);
+        assert_eq!(max_cluster_size(&points, n, 1.0), 4);
 
         let known = [
             (23200_i128, 5405_i128),
@@ -170,6 +239,8 @@ mod tests {
             .max()
             .unwrap_or(0);
         assert_eq!(best, 3);
+        assert_eq!(max_cluster_size(&points, n, 1.0), 3);
+        assert!(find_clusters_at_least(&points, n, 1.0, 4).is_empty());
 
         let known = [
             (352_i128, 135_i128),
