@@ -93,13 +93,13 @@ end ArclengthCircularArc
 /--
 Radius-based circular-arc form of the sublogarithmic bound.
 
-For every fixed `C > 0` and every `D > 10`, all sufficiently large radii `R`
+For every fixed `C > 0` and every `D > 8`, all sufficiently large radii `R`
 have the following property: any arclength-ordered finite family of lattice points
 on the circle of radius `R`, contained in an arc of length at most `C * sqrt R`,
 has cardinality at most `D * log R / log log R`.
 -/
-theorem eventually_jarnik_arclength_circular_arc_sublog_of_constant_gt_ten
-    (C D : ℝ) (hC : 0 < C) (hD : 10 < D) :
+theorem eventually_jarnik_arclength_circular_arc_sublog_of_constant_gt_eight
+    (C D : ℝ) (hC : 0 < C) (hD : (8 : ℝ) < D) :
     ∀ᶠ R : ℝ in atTop,
       ∀ {M N : ℕ} {a L : ℝ},
         R ^ 2 = (N : ℝ) →
@@ -109,7 +109,7 @@ theorem eventually_jarnik_arclength_circular_arc_sublog_of_constant_gt_ten
         (A : ArclengthCircularArc M N a L) →
         (M : ℝ) ≤ D * (Real.log R / Real.log (Real.log R)) := by
   have hmain :=
-    MertensMain.eventually_jarnik_arc_sublog_mertens_of_constant_gt_ten C D hC hD
+    MertensMain.mertens_asymptotic_parametrized_theorem C D hC hD
   filter_upwards [hmain] with R hR
   intro M N a L hR2 hM hN hL A
   exact hR (z := A.pointSeq) (t := A.coordSeq) hR2 hM hN hL
