@@ -1,5 +1,5 @@
 import GaussianChain.MissingPrimeSubcritical
-import GaussianChain.IntervalStack
+import GaussianChain.MertensLower
 
 namespace GaussianChain
 
@@ -77,15 +77,15 @@ theorem missingPrimeLogSum_le_succ_mul_log
 
 This packages `card_le_of_param_missing_prime_subcritical_windows_of_weighted_log_bound` with
 `P` specialized to the actual set of interval primes not dividing `N`. -/
-theorem card_le_of_missing_prime_interval_weighted_log_bound
-    {M s N m U : ℕ} {a L A : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
+theorem missing_prime_branch
+    {M s N m U : ℕ} {a L B : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
     (hk : 2 * s ≤ M)
-    (hA : 0 < A)
-    (hB : 0 < Nat.floor (A ^ 2))
+    (hB : 0 < B)
+    (hfloor : 0 < Nat.floor (B ^ 2))
     (hsmallPrime : 4 * U ≤ s)
     (hN : 0 < N)
     (hweightedLog :
-      ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor (A ^ 2) : ℝ) <
+      ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor (B ^ 2) : ℝ) <
         ((s : ℝ) ^ 2 * MertensLower.weightedMissingPrimeInterval N m U -
             2 * missingPrimeLogSum N m U) +
           ((s * s : ℕ) : ℝ) * Real.log (N : ℝ))
@@ -94,13 +94,13 @@ theorem card_le_of_missing_prime_interval_weighted_log_bound
     (hmono : ∀ p q, p ≤ q → q < M → t p ≤ t q)
     (hparam : ∀ p q, p < M → q < M → gaussianSqDist (z p) (z q) ≤ (t q - t p) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
-    (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / A := by
+    (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / B := by
   classical
   let P := MertensLower.missingPrimeIntervalFinset N m U
   refine card_le_of_param_missing_prime_subcritical_windows_of_weighted_log_bound
-    (M := M) (s := s) (N := N) (a := a) (L := L) (A := A)
+    (M := M) (s := s) (N := N) (a := a) (L := L) (B := B)
     (z := z) (t := t) (P := P)
-    hk hA hB ?hprime ?hsmallPrime hN ?hpN ?hweightedLog hcircle hz hmono hparam hmem
+    hk hB hfloor ?hprime ?hsmallPrime hN ?hpN ?hweightedLog hcircle hz hmono hparam hmem
   · intro p hp
     exact MertensLower.prime_of_mem_missingPrimeIntervalFinset (N := N) (m := m) (U := U) hp
   · intro p hp

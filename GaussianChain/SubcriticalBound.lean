@@ -151,23 +151,23 @@ theorem nat_window_injective_of_injectiveUpTo {α : Type*} {M s : ℕ} {f : ℕ 
 
 /-- Abstract subcritical window lower bound.
 
-If every window whose parameter span is at most `A` has all squared chords at most `K`, then the
+If every window whose parameter span is at most `B` has all squared chords at most `K`, then the
 Ramana subcritical threshold forces every injective `2s+1`-point window to have span larger
-than `A`. -/
+than `B`. -/
 theorem window_span_gt_of_subcritical
-    {M s N : ℕ} {K A : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
+    {M s N : ℕ} {K B : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
     (hN : 0 < N)
     (hsmall : (Nat.floor K) ^ (s * (2 * s + 1)) < N ^ (s * s))
     (hcircle : OnCircleUpTo M N z)
     (hinj : ∀ j, j < M - 2 * s →
       Function.Injective fun i : Fin (2 * s + 1) => z (j + (i : ℕ)))
-    (hdiam_of_span : ∀ j, j < M - 2 * s → t (j + 2 * s) - t j ≤ A →
+    (hdiam_of_span : ∀ j, j < M - 2 * s → t (j + 2 * s) - t j ≤ B →
       ∀ i k : Fin (2 * s + 1),
         gaussianSqDist (z (j + (i : ℕ))) (z (j + (k : ℕ))) ≤ K) :
-    ∀ j, j < M - 2 * s → A < t (j + 2 * s) - t j := by
+    ∀ j, j < M - 2 * s → B < t (j + 2 * s) - t j := by
   intro j hj
   by_contra hnot
-  have hspan_le : t (j + 2 * s) - t j ≤ A := le_of_not_gt hnot
+  have hspan_le : t (j + 2 * s) - t j ≤ B := le_of_not_gt hnot
   let block : Fin (2 * s + 1) → GaussianInt := fun i => z (j + (i : ℕ))
   have hcircle_block : ∀ i, block i * star (block i) = ((N : ℤ) : GaussianInt) := by
     intro i
@@ -183,53 +183,53 @@ theorem window_span_gt_of_subcritical
 /-- Sliding-window cardinality bound obtained from the subcritical Ramana obstruction, with the
 arc/chord geometry kept as the abstract hypothesis `hdiam_of_span`. -/
 theorem card_le_of_subcritical_windows
-    {M s N : ℕ} {a L K A : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
+    {M s N : ℕ} {a L K B : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
     (hk : 2 * s ≤ M)
-    (hA : 0 < A)
+    (hB : 0 < B)
     (hN : 0 < N)
     (hsmall : (Nat.floor K) ^ (s * (2 * s + 1)) < N ^ (s * s))
     (hcircle : OnCircleUpTo M N z)
     (hinj : ∀ j, j < M - 2 * s →
       Function.Injective fun i : Fin (2 * s + 1) => z (j + (i : ℕ)))
-    (hdiam_of_span : ∀ j, j < M - 2 * s → t (j + 2 * s) - t j ≤ A →
+    (hdiam_of_span : ∀ j, j < M - 2 * s → t (j + 2 * s) - t j ≤ B →
       ∀ i k : Fin (2 * s + 1),
         gaussianSqDist (z (j + (i : ℕ))) (z (j + (k : ℕ))) ≤ K)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
-    (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / A := by
+    (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / B := by
   refine ArcCombinatorics.card_le_of_window_span (M := M) (k := 2 * s) (a := a)
-    (L := L) (B := A) t hk hA hmem ?_
+    (L := L) (B := B) t hk hB hmem ?_
   intro j hj
   exact le_of_lt (window_span_gt_of_subcritical hN hsmall hcircle hinj hdiam_of_span j hj)
 
 /-- Variant of `card_le_of_subcritical_windows` using distinctness on the first `M` points. -/
 theorem card_le_of_subcritical_windows_of_injectiveUpTo
-    {M s N : ℕ} {a L K A : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
+    {M s N : ℕ} {a L K B : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
     (hk : 2 * s ≤ M)
-    (hA : 0 < A)
+    (hB : 0 < B)
     (hN : 0 < N)
     (hsmall : (Nat.floor K) ^ (s * (2 * s + 1)) < N ^ (s * s))
     (hcircle : OnCircleUpTo M N z)
     (hz : InjectiveUpTo M z)
-    (hdiam_of_span : ∀ j, j < M - 2 * s → t (j + 2 * s) - t j ≤ A →
+    (hdiam_of_span : ∀ j, j < M - 2 * s → t (j + 2 * s) - t j ≤ B →
       ∀ i k : Fin (2 * s + 1),
         gaussianSqDist (z (j + (i : ℕ))) (z (j + (k : ℕ))) ≤ K)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
-    (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / A :=
-  card_le_of_subcritical_windows hk hA hN hsmall hcircle
+    (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / B :=
+  card_le_of_subcritical_windows hk hB hN hsmall hcircle
     (fun _j hj => nat_window_injective_of_injectiveUpTo hz hj) hdiam_of_span hmem
 
 /-- Instantiate the abstract diameter hypothesis from an ordered parameter: if squared chord
-length is bounded by squared parameter separation, then a window of parameter span at most `A`
-has squared diameter at most `A^2`. -/
+length is bounded by squared parameter separation, then a window of parameter span at most `B`
+has squared diameter at most `B^2`. -/
 theorem sqDist_le_sq_span_of_param_sq_bound
-    {M s : ℕ} {A : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
-    (hA : 0 ≤ A)
+    {M s : ℕ} {B : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
+    (hB : 0 ≤ B)
     (hmono : ∀ p q, p ≤ q → q < M → t p ≤ t q)
     (hparam : ∀ p q, p < M → q < M → gaussianSqDist (z p) (z q) ≤ (t q - t p) ^ 2)
     {j : ℕ} (hj : j < M - 2 * s)
-    (hspan : t (j + 2 * s) - t j ≤ A) :
+    (hspan : t (j + 2 * s) - t j ≤ B) :
     ∀ i k : Fin (2 * s + 1),
-      gaussianSqDist (z (j + (i : ℕ))) (z (j + (k : ℕ))) ≤ A ^ 2 := by
+      gaussianSqDist (z (j + (i : ℕ))) (z (j + (k : ℕ))) ≤ B ^ 2 := by
   intro i k
   let p := j + (i : ℕ)
   let q := j + (k : ℕ)
@@ -248,7 +248,7 @@ theorem sqDist_le_sq_span_of_param_sq_bound
   have hstart_le_q : t j ≤ t q := hmono j q (by dsimp [q]; omega) hq_lt
   have hp_le_finish : t p ≤ t (j + 2 * s) := hmono p (j + 2 * s) hp_le_end hwin_lt
   have hq_le_finish : t q ≤ t (j + 2 * s) := hmono q (j + 2 * s) hq_le_end hwin_lt
-  have habs : |t q - t p| ≤ A := by
+  have habs : |t q - t p| ≤ B := by
     rcases le_total p q with hpq | hqp
     · have hpq_t : t p ≤ t q := hmono p q hpq hq_lt
       have hnonneg : 0 ≤ t q - t p := sub_nonneg.mpr hpq_t
@@ -264,29 +264,29 @@ theorem sqDist_le_sq_span_of_param_sq_bound
       exact hdiff_le_span.trans hspan
   calc
     gaussianSqDist (z p) (z q) ≤ (t q - t p) ^ 2 := hparam p q hp_lt hq_lt
-    _ ≤ A ^ 2 := by
-      exact (sq_le_sq).mpr (by simpa [abs_of_nonneg hA] using habs)
+    _ ≤ B ^ 2 := by
+      exact (sq_le_sq).mpr (by simpa [abs_of_nonneg hB] using habs)
 
 /-- Cardinality bound with a concrete ordered-parameter geometry hypothesis. This is the form
 used when `t` is an arclength parameter: the chord distance is no larger than parameter
 separation. -/
 theorem card_le_of_param_subcritical_windows
-    {M s N : ℕ} {a L A : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
+    {M s N : ℕ} {a L B : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
     (hk : 2 * s ≤ M)
-    (hA : 0 < A)
+    (hB : 0 < B)
     (hN : 0 < N)
-    (hsmall : (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N ^ (s * s))
+    (hsmall : (Nat.floor (B ^ 2)) ^ (s * (2 * s + 1)) < N ^ (s * s))
     (hcircle : OnCircleUpTo M N z)
     (hz : InjectiveUpTo M z)
     (hmono : ∀ p q, p ≤ q → q < M → t p ≤ t q)
     (hparam : ∀ p q, p < M → q < M → gaussianSqDist (z p) (z q) ≤ (t q - t p) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
-    (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / A := by
+    (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / B := by
   refine card_le_of_subcritical_windows_of_injectiveUpTo (M := M) (s := s) (N := N)
-    (a := a) (L := L) (K := A ^ 2) (A := A)
-    hk hA hN hsmall hcircle hz ?_ hmem
+    (a := a) (L := L) (K := B ^ 2) (B := B)
+    hk hB hN hsmall hcircle hz ?_ hmem
   intro j hj hspan i k
-  exact sqDist_le_sq_span_of_param_sq_bound hA.le hmono hparam hj hspan i k
+  exact sqDist_le_sq_span_of_param_sq_bound hB.le hmono hparam hj hspan i k
 
 end SubcriticalBound
 end GaussianChain

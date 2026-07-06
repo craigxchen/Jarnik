@@ -5,18 +5,18 @@ namespace SubcriticalLog
 
 /-- Logarithmic sufficient condition for the ordinary subcritical Ramana threshold. -/
 theorem natFloor_sq_pow_lt_of_log_lt
-    {s N' : ℕ} {A : ℝ}
-    (hB : 0 < Nat.floor (A ^ 2))
+    {s N' : ℕ} {B : ℝ}
+    (hfloor : 0 < Nat.floor (B ^ 2))
     (hN' : 0 < N')
     (hlog :
-      ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor (A ^ 2) : ℝ) <
+      ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor (B ^ 2) : ℝ) <
         ((s * s : ℕ) : ℝ) * Real.log (N' : ℝ)) :
-    (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s) := by
+    (Nat.floor (B ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s) := by
   simpa using
     LogProductBounds.nat_pow_lt_prod_pow_mul_pow_of_log_lt
-      (B := Nat.floor (A ^ 2)) (x := s * (2 * s + 1))
+      (B := Nat.floor (B ^ 2)) (x := s * (2 * s + 1))
       (N := N') (y := s * s) (P := (∅ : Finset ℕ)) (E := fun _ => 0)
-      hB hN' (by intro p hp; simp at hp) (by simpa using hlog)
+      hfloor hN' (by intro p hp; simp at hp) (by simpa using hlog)
 
 /-- Natural-number factorization extracted from the integer split quotient equation. -/
 theorem nat_eq_mul_of_int_eq_mul
@@ -54,15 +54,15 @@ theorem log_eq_log_sq_mul_inert_factor
 /-- Split-quotient subcritical threshold from a logarithmic inequality written against
 `log N - log p`. -/
 theorem split_natFloor_sq_pow_lt_of_log_sub
-    {s N p N' : ℕ} {A : ℝ}
-    (hB : 0 < Nat.floor (A ^ 2))
+    {s N p N' : ℕ} {B : ℝ}
+    (hfloor : 0 < Nat.floor (B ^ 2))
     (hp : 0 < p) (hN' : 0 < N')
     (hfactor : (N : ℤ) = (p : ℤ) * (N' : ℤ))
     (hlog :
-      ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor (A ^ 2) : ℝ) <
+      ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor (B ^ 2) : ℝ) <
         ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - Real.log (p : ℝ))) :
-    (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s) := by
-  refine natFloor_sq_pow_lt_of_log_lt hB hN' ?_
+    (Nat.floor (B ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s) := by
+  refine natFloor_sq_pow_lt_of_log_lt hfloor hN' ?_
   have hlogfac := log_eq_log_mul_split_factor hp hN' hfactor
   have hrewrite : Real.log (N : ℝ) - Real.log (p : ℝ) = Real.log (N' : ℝ) := by
     rw [hlogfac]
@@ -72,15 +72,15 @@ theorem split_natFloor_sq_pow_lt_of_log_sub
 /-- Inert-quotient subcritical threshold from a logarithmic inequality written against
 `log N - 2 log p`. -/
 theorem inert_natFloor_sq_pow_lt_of_log_sub
-    {s N p N' : ℕ} {A : ℝ}
-    (hB : 0 < Nat.floor (A ^ 2))
+    {s N p N' : ℕ} {B : ℝ}
+    (hfloor : 0 < Nat.floor (B ^ 2))
     (hp : 0 < p) (hN' : 0 < N')
     (hfactor : (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ))
     (hlog :
-      ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor (A ^ 2) : ℝ) <
+      ((s * (2 * s + 1) : ℕ) : ℝ) * Real.log (Nat.floor (B ^ 2) : ℝ) <
         ((s * s : ℕ) : ℝ) * (Real.log (N : ℝ) - 2 * Real.log (p : ℝ))) :
-    (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s) := by
-  refine natFloor_sq_pow_lt_of_log_lt hB hN' ?_
+    (Nat.floor (B ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s) := by
+  refine natFloor_sq_pow_lt_of_log_lt hfloor hN' ?_
   have hlogfac := log_eq_log_sq_mul_inert_factor hp hN' hfactor
   have hrewrite : Real.log (N : ℝ) - 2 * Real.log (p : ℝ) = Real.log (N' : ℝ) := by
     rw [hlogfac]

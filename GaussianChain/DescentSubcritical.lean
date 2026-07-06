@@ -13,18 +13,18 @@ Dividing by an inert rational prime decreases squared chord lengths by `p^2`; he
 arclength-parameter chord bound valid before descent remains valid after descent. -/
 theorem card_le_of_param_subcritical_windows_after_inert_descent
     {M s N N' p : ℕ} [Fact p.Prime] (hp3 : p % 4 = 3)
-    {a L A : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
+    {a L B : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
     (hk : 2 * s ≤ M)
-    (hA : 0 < A)
+    (hB : 0 < B)
     (hN' : 0 < N')
     (hfactor : (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ))
-    (hsmall : (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
+    (hsmall : (Nat.floor (B ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
     (hcircle : OnCircleUpTo M N z)
     (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
-    (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / A := by
+    (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / B := by
   let zFin : Fin M → GaussianInt := fun i => z i
   have hzNorm : ∀ i : Fin M, (zFin i).norm = (N : ℤ) := by
     intro i
@@ -57,8 +57,8 @@ theorem card_le_of_param_subcritical_windows_after_inert_descent
     exact (div_le_self (sq_nonneg _) hp_sq_one).trans'
       (div_le_div_of_nonneg_right (hparam i j hi hj) (sq_nonneg _))
   exact card_le_of_param_subcritical_windows (M := M) (s := s) (N := N')
-    (a := a) (L := L) (A := A) (z := w) (t := t)
-    hk hA hN' hsmall hcircle_w hw_inj hmono hparam_w hmem
+    (a := a) (L := L) (B := B) (z := w) (t := t)
+    hk hB hN' hsmall hcircle_w hw_inj hmono hparam_w hmem
 
 /-- Inert-prime descent with the arclength parameter scaled by `1 / p`.
 
@@ -66,18 +66,18 @@ This is the sharper form used in the final descent branch: after dividing every 
 rational Gaussian integer `p`, the descended arc length is `L / p`. -/
 theorem card_le_of_param_subcritical_windows_after_inert_descent_scaled
     {M s N N' p : ℕ} [Fact p.Prime] (hp3 : p % 4 = 3)
-    {a L A : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
+    {a L B : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
     (hk : 2 * s ≤ M)
-    (hA : 0 < A)
+    (hB : 0 < B)
     (hN' : 0 < N')
     (hfactor : (N : ℤ) = (p : ℤ) ^ 2 * (N' : ℤ))
-    (hsmall : (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
+    (hsmall : (Nat.floor (B ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
     (hcircle : OnCircleUpTo M N z)
     (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
-    (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * (L / (p : ℝ)) / A := by
+    (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * (L / (p : ℝ)) / B := by
   let zFin : Fin M → GaussianInt := fun i => z i
   have hzNorm : ∀ i : Fin M, (zFin i).norm = (N : ℤ) := by
     intro i
@@ -127,8 +127,8 @@ theorem card_le_of_param_subcritical_windows_after_inert_descent_scaled
     · have h := div_le_div_of_nonneg_right hhi hp_pos.le
       simpa [tdesc, add_div] using h
   exact card_le_of_param_subcritical_windows (M := M) (s := s) (N := N')
-    (a := a / (p : ℝ)) (L := L / (p : ℝ)) (A := A) (z := w) (t := tdesc)
-    hk hA hN' hsmall hcircle_w hw_inj hmono_desc hparam_desc hmem_desc
+    (a := a / (p : ℝ)) (L := L / (p : ℝ)) (B := B) (z := w) (t := tdesc)
+    hk hB hN' hsmall hcircle_w hw_inj hmono_desc hparam_desc hmem_desc
 
 /-- Split-prime descent followed by the ordinary subcritical window bound, for an already
 ordered descended subfamily.
@@ -140,12 +140,12 @@ cardinality is at most twice the corresponding subcritical bound. -/
 theorem card_le_two_mul_param_subcritical_bound_after_split_descent_subsequence
     {M Md s N' p : ℕ} [Fact p.Prime] {ρ : GaussianInt}
     (hρ : ρ * star ρ = (p : GaussianInt))
-    {a L A : ℝ} {z w : ℕ → GaussianInt} {t : ℕ → ℝ} {idx : ℕ → Fin M}
+    {a L B : ℝ} {z w : ℕ → GaussianInt} {t : ℕ → ℝ} {idx : ℕ → Fin M}
     (hmany : M ≤ 2 * Md)
     (hk : 2 * s ≤ Md)
-    (hA : 0 < A)
+    (hB : 0 < B)
     (hN' : 0 < N')
-    (hsmall : (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
+    (hsmall : (Nat.floor (B ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
     (hfac : ∀ i, i < Md → z (idx i) = ρ * w i)
     (hwnorm : ∀ i, (w i).norm = (N' : ℤ))
     (hwinj : ∀ j, j < Md - 2 * s →
@@ -155,7 +155,7 @@ theorem card_le_two_mul_param_subcritical_bound_after_split_descent_subsequence
     (hparam : ∀ i j, i < M → j < M → gaussianSqDist (z i) (z j) ≤ (t j - t i) ^ 2)
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
     (M : ℝ) ≤
-      2 * (((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / A) := by
+      2 * (((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / B) := by
   let tsub : ℕ → ℝ := fun i => t (idx i)
   have hcircle_w : OnCircleUpTo Md N' w := by
     intro n _hn
@@ -180,12 +180,12 @@ theorem card_le_two_mul_param_subcritical_bound_after_split_descent_subsequence
     intro i _hi
     exact hmem (idx i) (idx i).isLt
   have hMd_bound :
-      (Md : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / A := by
+      (Md : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / B := by
     refine card_le_of_subcritical_windows (M := Md) (s := s) (N := N')
-      (a := a) (L := L) (K := A ^ 2) (A := A) (z := w) (t := tsub)
-      hk hA hN' hsmall hcircle_w hwinj ?_ hmem_sub
+      (a := a) (L := L) (K := B ^ 2) (B := B) (z := w) (t := tsub)
+      hk hB hN' hsmall hcircle_w hwinj ?_ hmem_sub
     intro j hj hspan i k
-    exact sqDist_le_sq_span_of_param_sq_bound hA.le hmono_sub hparam_sub hj hspan i k
+    exact sqDist_le_sq_span_of_param_sq_bound hB.le hmono_sub hparam_sub hj hspan i k
   have hMle : (M : ℝ) ≤ 2 * (Md : ℝ) := by
     exact_mod_cast hmany
   exact hMle.trans (mul_le_mul_of_nonneg_left hMd_bound (by norm_num))
@@ -195,12 +195,12 @@ ordered descended subfamily. -/
 theorem card_le_two_mul_param_subcritical_bound_after_split_descent_subsequence_scaled
     {M Md s N' p : ℕ} [Fact p.Prime] {ρ : GaussianInt}
     (hρ : ρ * star ρ = (p : GaussianInt))
-    {a L A : ℝ} {z w : ℕ → GaussianInt} {t : ℕ → ℝ} {idx : ℕ → Fin M}
+    {a L B : ℝ} {z w : ℕ → GaussianInt} {t : ℕ → ℝ} {idx : ℕ → Fin M}
     (hmany : M ≤ 2 * Md)
     (hk : 2 * s ≤ Md)
-    (hA : 0 < A)
+    (hB : 0 < B)
     (hN' : 0 < N')
-    (hsmall : (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
+    (hsmall : (Nat.floor (B ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
     (hfac : ∀ i, i < Md → z (idx i) = ρ * w i)
     (hwnorm : ∀ i, (w i).norm = (N' : ℤ))
     (hwinj : ∀ j, j < Md - 2 * s →
@@ -211,7 +211,7 @@ theorem card_le_two_mul_param_subcritical_bound_after_split_descent_subsequence_
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
     (M : ℝ) ≤
       2 * (((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) *
-        (L / Real.sqrt (p : ℝ)) / A) := by
+        (L / Real.sqrt (p : ℝ)) / B) := by
   let tsub : ℕ → ℝ := fun i => t (idx i) / Real.sqrt (p : ℝ)
   have hp_pos : 0 < (p : ℝ) := by exact_mod_cast (Fact.out : Nat.Prime p).pos
   have hsqrt_pos : 0 < Real.sqrt (p : ℝ) := Real.sqrt_pos_of_pos hp_pos
@@ -249,13 +249,13 @@ theorem card_le_two_mul_param_subcritical_bound_after_split_descent_subsequence_
       simpa [tsub, add_div] using h
   have hMd_bound :
       (Md : ℝ) ≤ ((2 * s : ℕ) : ℝ) +
-        ((2 * s : ℕ) : ℝ) * (L / Real.sqrt (p : ℝ)) / A := by
+        ((2 * s : ℕ) : ℝ) * (L / Real.sqrt (p : ℝ)) / B := by
     refine card_le_of_subcritical_windows (M := Md) (s := s) (N := N')
       (a := a / Real.sqrt (p : ℝ)) (L := L / Real.sqrt (p : ℝ))
-      (K := A ^ 2) (A := A) (z := w) (t := tsub)
-      hk hA hN' hsmall hcircle_w hwinj ?_ hmem_sub
+      (K := B ^ 2) (B := B) (z := w) (t := tsub)
+      hk hB hN' hsmall hcircle_w hwinj ?_ hmem_sub
     intro j hj hspan i k
-    exact sqDist_le_sq_span_of_param_sq_bound hA.le hmono_sub hparam_sub hj hspan i k
+    exact sqDist_le_sq_span_of_param_sq_bound hB.le hmono_sub hparam_sub hj hspan i k
   have hMle : (M : ℝ) ≤ 2 * (Md : ℝ) := by
     exact_mod_cast hmany
   exact hMle.trans (mul_le_mul_of_nonneg_left hMd_bound (by norm_num))
@@ -263,13 +263,13 @@ theorem card_le_two_mul_param_subcritical_bound_after_split_descent_subsequence_
 /-- Split-prime descent with automatic choice of the ordered half-subfamily. -/
 theorem card_le_two_mul_param_subcritical_bound_after_split_descent_scaled
     {M s N N' p : ℕ} [Fact p.Prime] (hp1 : p % 4 = 1)
-    {a L A : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
+    {a L B : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
     (hM : 0 < M)
     (hmany_for_window : 4 * s ≤ M)
-    (hA : 0 < A)
+    (hB : 0 < B)
     (hN' : 0 < N')
     (hfactor : (N : ℤ) = (p : ℤ) * (N' : ℤ))
-    (hsmall : (Nat.floor (A ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
+    (hsmall : (Nat.floor (B ^ 2)) ^ (s * (2 * s + 1)) < N' ^ (s * s))
     (hcircle : OnCircleUpTo M N z)
     (hz : InjectiveUpTo M z)
     (hmono : ∀ i j, i ≤ j → j < M → t i ≤ t j)
@@ -277,7 +277,7 @@ theorem card_le_two_mul_param_subcritical_bound_after_split_descent_scaled
     (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
     (M : ℝ) ≤
       2 * (((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) *
-        (L / Real.sqrt (p : ℝ)) / A) := by
+        (L / Real.sqrt (p : ℝ)) / B) := by
   let zFin : Fin M → GaussianInt := fun i => z i
   have hzNorm : ∀ i : Fin M, (zFin i).norm = (N : ℤ) := by
     intro i
@@ -295,7 +295,7 @@ theorem card_le_two_mul_param_subcritical_bound_after_split_descent_scaled
     simpa [zFin] using hfac i hi
   exact card_le_two_mul_param_subcritical_bound_after_split_descent_subsequence_scaled
     (M := M) (Md := Md) (s := s) (N' := N') (p := p) (ρ := ρ)
-    hρ hmany hk hA hN' hsmall hfac' hwnorm (hwinj_all hzFin_inj s) hidx_mono
+    hρ hmany hk hB hN' hsmall hfac' hwnorm (hwinj_all hzFin_inj s) hidx_mono
     hmono hparam hmem
 
 end DescentSubcritical

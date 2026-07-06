@@ -3,8 +3,6 @@ import GaussianChain.ArcCombinatorics
 import GaussianChain.RamanaDeterminant
 import GaussianChain.SubcriticalBound
 import GaussianChain.MertensLower
-import GaussianChain.IntervalStack
-import GaussianChain.MertensInterval
 import GaussianChain.ModPrimeCollision
 import GaussianChain.DeterminantDivisibility
 import GaussianChain.MissingPrimeSubcritical
@@ -18,6 +16,12 @@ import GaussianChain.PrimeDescentDichotomy
 import GaussianChain.MainDichotomy
 import GaussianChain.MainSublogBound
 import GaussianChain.AsymptoticParameters
+import GaussianChain.MertensFirst
+import GaussianChain.MertensIntervalMass
+import GaussianChain.SaturatedWindows
+import GaussianChain.MertensSchedule
+import GaussianChain.MertensDichotomy
+import GaussianChain.MertensMain
 import GaussianChain.ArcToParameter
 import GaussianChain.Geometry
 import GaussianChain.Certificate

@@ -5,3 +5,8 @@ Copyright 2026 Craig X. Chen and contributors.
 This project includes Lean 4 formalizations of a sublogarithmic bound for
 lattice points on short circular arcs, together with supporting Gaussian integer,
 determinant, modular collision, Chebyshev interval, and prime descent machinery.
+
+This project includes code adapted from the PrimeNumberTheoremAnd project
+(https://github.com/AlexKontorovich/PrimeNumberTheoremAnd), licensed under the
+Apache License 2.0.  See GaussianChain/MertensFirst.lean, adapted from
+PrimeNumberTheoremAnd/IEANTN/Mertens.lean.
