@@ -1,11 +1,9 @@
 import GaussianChain.MissingPrimeIntervalBranch
-import GaussianChain.PrimeDescentDichotomy
 
 namespace GaussianChain
 namespace MainDichotomy
 
 open SubcriticalBound
-open PrimeDescentDichotomy
 
 /-- The weighted-log condition that makes the missing-prime determinant branch fire on an
 interval `m < p ≤ U`. -/

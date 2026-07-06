@@ -180,44 +180,6 @@ theorem window_span_gt_of_subcritical
     hdiam_of_span j hj hspan_le i k
   exact not_lt_of_ge hsmall_pair hlarge
 
-/-- Sliding-window cardinality bound obtained from the subcritical Ramana obstruction, with the
-arc/chord geometry kept as the abstract hypothesis `hdiam_of_span`. -/
-theorem card_le_of_subcritical_windows
-    {M s N : ℕ} {a L K B : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
-    (hk : 2 * s ≤ M)
-    (hB : 0 < B)
-    (hN : 0 < N)
-    (hsmall : (Nat.floor K) ^ (s * (2 * s + 1)) < N ^ (s * s))
-    (hcircle : OnCircleUpTo M N z)
-    (hinj : ∀ j, j < M - 2 * s →
-      Function.Injective fun i : Fin (2 * s + 1) => z (j + (i : ℕ)))
-    (hdiam_of_span : ∀ j, j < M - 2 * s → t (j + 2 * s) - t j ≤ B →
-      ∀ i k : Fin (2 * s + 1),
-        gaussianSqDist (z (j + (i : ℕ))) (z (j + (k : ℕ))) ≤ K)
-    (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
-    (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / B := by
-  refine ArcCombinatorics.card_le_of_window_span (M := M) (k := 2 * s) (a := a)
-    (L := L) (B := B) t hk hB hmem ?_
-  intro j hj
-  exact le_of_lt (window_span_gt_of_subcritical hN hsmall hcircle hinj hdiam_of_span j hj)
-
-/-- Variant of `card_le_of_subcritical_windows` using distinctness on the first `M` points. -/
-theorem card_le_of_subcritical_windows_of_injectiveUpTo
-    {M s N : ℕ} {a L K B : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
-    (hk : 2 * s ≤ M)
-    (hB : 0 < B)
-    (hN : 0 < N)
-    (hsmall : (Nat.floor K) ^ (s * (2 * s + 1)) < N ^ (s * s))
-    (hcircle : OnCircleUpTo M N z)
-    (hz : InjectiveUpTo M z)
-    (hdiam_of_span : ∀ j, j < M - 2 * s → t (j + 2 * s) - t j ≤ B →
-      ∀ i k : Fin (2 * s + 1),
-        gaussianSqDist (z (j + (i : ℕ))) (z (j + (k : ℕ))) ≤ K)
-    (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
-    (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / B :=
-  card_le_of_subcritical_windows hk hB hN hsmall hcircle
-    (fun _j hj => nat_window_injective_of_injectiveUpTo hz hj) hdiam_of_span hmem
-
 /-- Instantiate the abstract diameter hypothesis from an ordered parameter: if squared chord
 length is bounded by squared parameter separation, then a window of parameter span at most `B`
 has squared diameter at most `B^2`. -/
@@ -266,27 +228,6 @@ theorem sqDist_le_sq_span_of_param_sq_bound
     gaussianSqDist (z p) (z q) ≤ (t q - t p) ^ 2 := hparam p q hp_lt hq_lt
     _ ≤ B ^ 2 := by
       exact (sq_le_sq).mpr (by simpa [abs_of_nonneg hB] using habs)
-
-/-- Cardinality bound with a concrete ordered-parameter geometry hypothesis. This is the form
-used when `t` is an arclength parameter: the chord distance is no larger than parameter
-separation. -/
-theorem card_le_of_param_subcritical_windows
-    {M s N : ℕ} {a L B : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
-    (hk : 2 * s ≤ M)
-    (hB : 0 < B)
-    (hN : 0 < N)
-    (hsmall : (Nat.floor (B ^ 2)) ^ (s * (2 * s + 1)) < N ^ (s * s))
-    (hcircle : OnCircleUpTo M N z)
-    (hz : InjectiveUpTo M z)
-    (hmono : ∀ p q, p ≤ q → q < M → t p ≤ t q)
-    (hparam : ∀ p q, p < M → q < M → gaussianSqDist (z p) (z q) ≤ (t q - t p) ^ 2)
-    (hmem : ∀ i, i < M → a ≤ t i ∧ t i ≤ a + L) :
-    (M : ℝ) ≤ ((2 * s : ℕ) : ℝ) + ((2 * s : ℕ) : ℝ) * L / B := by
-  refine card_le_of_subcritical_windows_of_injectiveUpTo (M := M) (s := s) (N := N)
-    (a := a) (L := L) (K := B ^ 2) (B := B)
-    hk hB hN hsmall hcircle hz ?_ hmem
-  intro j hj hspan i k
-  exact sqDist_le_sq_span_of_param_sq_bound hB.le hmono hparam hj hspan i k
 
 end SubcriticalBound
 end GaussianChain

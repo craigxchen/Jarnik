@@ -11,8 +11,6 @@ import GaussianChain.SubcriticalLog
 import GaussianChain.MissingPrimeIntervalBranch
 import GaussianChain.PrimeDescent
 import GaussianChain.DescentGeometry
-import GaussianChain.DescentSubcritical
-import GaussianChain.PrimeDescentDichotomy
 import GaussianChain.MainDichotomy
 import GaussianChain.MainSublogBound
 import GaussianChain.AsymptoticParameters

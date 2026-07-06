@@ -1,5 +1,6 @@
 import GaussianChain.MertensIntervalMass
 import GaussianChain.SaturatedWindows
+import GaussianChain.SubcriticalLog
 import GaussianChain.MainSublogBound
 
 /-!

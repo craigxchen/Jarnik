@@ -1,12 +1,11 @@
 import GaussianChain.MissingPrimeSubcritical
-import GaussianChain.DescentSubcritical
+import GaussianChain.DescentGeometry
 
 /-!
-Saturated versions of the sliding-window cardinality bounds.
+Saturated sliding-window cardinality bounds.
 
 When the window span threshold `B` is at least the interval length `L`, no complete window of
-`2 * s + 1` points fits inside the interval at all, so the point count is at most `2 * s`, with
-no `2 * s * L / B` length term.
+`2 * s + 1` points fits inside the interval at all, so the point count is at most `2 * s`.
 -/
 
 namespace GaussianChain
@@ -33,9 +32,10 @@ end ArcCombinatorics
 namespace SubcriticalBound
 
 set_option linter.unusedVariables false in
-/-- Saturated form of `card_le_of_param_subcritical_windows`: when the span threshold `B` is at
-least the arc length `L`, no complete `2 * s + 1`-point window fits inside the arc, so at most
-`2 * s` points occur. The hypothesis `hk` is kept for call-site uniformity. -/
+/-- Saturated subcritical window bound for an ordered arclength parameter: when the span
+threshold `B` is at least the arc length `L`, no complete `2 * s + 1`-point window fits inside
+the arc, so at most `2 * s` points occur. The hypothesis `hk` is kept for call-site
+uniformity. -/
 theorem card_le_of_param_subcritical_windows_saturated
     {M s N : ℕ} {a L B : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ}
     (hk : 2 * s ≤ M)
@@ -63,10 +63,9 @@ open SubcriticalBound
 open LogProductBounds
 
 set_option linter.unusedVariables false in
-/-- Saturated form of
-`card_le_of_param_missing_prime_subcritical_windows_of_weighted_log_bound`: when the span
-threshold `B` is at least the arc length `L`, at most `2 * s` points occur. The hypothesis `hk`
-is kept for call-site uniformity. -/
+/-- Saturated missing-prime subcritical window bound under the weighted-log determinant
+hypothesis: when the span threshold `B` is at least the arc length `L`, at most `2 * s` points
+occur. The hypothesis `hk` is kept for call-site uniformity. -/
 theorem card_le_of_param_missing_prime_subcritical_windows_of_weighted_log_bound_saturated
     {M s N : ℕ} {a L B : ℝ} {z : ℕ → GaussianInt} {t : ℕ → ℝ} {P : Finset ℕ}
     (hk : 2 * s ≤ M)
@@ -135,7 +134,7 @@ open SubcriticalBound
 open DescentGeometry
 open scoped ComplexConjugate
 
-/-- Saturated form of `card_le_of_param_subcritical_windows_after_inert_descent_scaled`: when
+/-- Saturated inert-prime descent bound with the arclength parameter scaled by `1 / p`: when
 the span threshold `B` is at least the descended arc length `L / p`, at most `2 * s` points
 occur. -/
 theorem card_le_of_param_subcritical_windows_after_inert_descent_scaled_saturated
@@ -206,11 +205,10 @@ theorem card_le_of_param_subcritical_windows_after_inert_descent_scaled_saturate
     hk hB hLB hN' hsmall hcircle_w hw_inj hmono_desc hparam_desc hmem_desc
 
 set_option linter.unusedVariables false in
-/-- Saturated form of
-`card_le_two_mul_param_subcritical_bound_after_split_descent_subsequence_scaled`: when the span
-threshold `B` is at least the descended arc length `L / √p`, the descended half-subfamily has at
-most `2 * s` points, so the original family has at most `4 * s`. The hypothesis `hk` is kept for
-call-site uniformity. -/
+/-- Saturated split-prime descent bound for an already ordered descended half-subfamily, with
+the arclength parameter scaled by `1 / √p`: when the span threshold `B` is at least the
+descended arc length `L / √p`, the descended half-subfamily has at most `2 * s` points, so the
+original family has at most `4 * s`. The hypothesis `hk` is kept for call-site uniformity. -/
 theorem card_le_two_mul_param_subcritical_bound_after_split_descent_subsequence_scaled_saturated
     {M Md s N' p : ℕ} [Fact p.Prime] {ρ : GaussianInt}
     (hρ : ρ * star ρ = (p : GaussianInt))
