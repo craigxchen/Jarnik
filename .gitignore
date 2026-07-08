@@ -17,3 +17,6 @@ target/
 /paper/*.out
 /paper/*.pdf
 /paper/*.toc
+/paper/*.fdb_latexmk
+/paper/*.fls
+/paper/*.synctex.gz
