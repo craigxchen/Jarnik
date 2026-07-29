@@ -34,3 +34,4 @@ import GaussianChain.ConductorWeights
 import GaussianChain.NearMaximalReduction
 import GaussianChain.ChordRatio
 import GaussianChain.FiniteExceptionalFamily
+import GaussianChain.ArrangementClosure
