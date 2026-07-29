@@ -12,7 +12,7 @@ exceptional theorem gives coefficient `η < 1 / 2`, then every pair must be
 exceptional once `logC < (1 / 2 - η) W`.
 -/
 theorem offDiagonal_exceptional_of_gap
-    {α : Type*} [DecidableEq α]
+    {α : Type*}
     (A : Finset α)
     (exceptional : α → α → Prop)
     (gcdPlus height : α → α → ℝ)
