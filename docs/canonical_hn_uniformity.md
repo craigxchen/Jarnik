@@ -3,18 +3,19 @@
 ## Purpose
 
 The generalized-GCD route reduces the square-root arc theorem to a uniform
-exceptional-degree statement.  The finite Ru--Vojta level is already fixed in
-`GaussianChain/FiniteBeta.lean`.  The remaining issue is that, at each place,
+exceptional-degree statement. The finite Ru--Vojta level is already fixed in
+`GaussianChain/FiniteBeta.lean`. The remaining issue is that, at each place,
 the finite-level proof chooses one adapted basis from a fixed finite family.
 A naive application of a quantitative Subspace Theorem to every placewise
 choice separately can introduce dependence on the number of places.
 
-This note isolates a mechanism that removes that dependence at the level of
-the canonical Harder--Narasimhan exceptional subspace.
+This note isolates a mechanism that removes that dependence for the canonical
+Harder--Narasimhan exceptional subspace.
 
-The argument below is self-contained linear algebra.  The only imported
-Diophantine input still needed is the absolute parametric Subspace Theorem in
-its standard uniform form for a fixed finite family of linear forms.
+The argument below is self-contained linear algebra. It does not prove the
+parametric Subspace Theorem; instead, it proves that once that theorem assigns
+a canonical maximal-slope subspace to a weighted filtration system, the
+subspace belongs to one fixed finite list independent of the number of places.
 
 ---
 
@@ -55,7 +56,7 @@ deg_{a,gamma}(U)
 All coefficients in the second sum are nonnegative.
 
 For a finite set of places, choose at each place one flag type and one weight
-vector.  Summing the local degrees produces a global degree of the form
+vector. Summing the local degrees produces a global degree of the form
 
 ```text
 deg(U) = c dim U + sum_{F in mathcal F} a_F dim(U cap F),       (1.2)
@@ -115,15 +116,14 @@ If `U` and `W` attain the maximal slope, then (2.2), the modular identity
 dim(U cap W) + dim(U + W) = dim U + dim W,
 ```
 
-and the definition of `mu` force equality throughout.  Consequently both
-`U cap W` and `U + W` attain maximal slope (ignoring the zero intersection
-when it occurs).
+and the definition of `mu` force equality throughout. Consequently `U+W`
+attains maximal slope, and `U cap W` does as well when it is nonzero.
 
 This closure statement is formalized abstractly in
 `GaussianChain/SlopeClosure.lean`.
 
-In particular, the sum of all maximal-slope subspaces is itself maximal slope.
-It is the unique largest maximal-slope subspace; call it `T(deg)`.
+The sum of all maximal-slope subspaces is therefore maximal slope. It is the
+unique largest maximal-slope subspace; call it `T(deg)`.
 
 ---
 
@@ -153,11 +153,11 @@ The sum is well-defined: finite dimensionality means it is already generated
 by finitely many members of the class.
 
 For every choice of the nonnegative coefficients in (1.2), the value of
-`deg(U)` depends only on `sigma(U)`.  Hence, if one subspace of signature
+`deg(U)` depends only on `sigma(U)`. Hence, if one subspace of signature
 `sigma` has maximal slope, every subspace of that signature has maximal slope.
 By closure under sums, `C_sigma` then has maximal slope.
 
-Let `Sigma_max(deg)` be the set of signatures attaining maximal slope.  The
+Let `Sigma_max(deg)` be the set of signatures attaining maximal slope. The
 unique largest maximal-slope subspace is
 
 ```text
@@ -177,7 +177,7 @@ It is independent of
 - which adapted flag is selected at each place;
 - the numerical local weights.
 
-The finite-signature counting mechanism is formalized in
+The finite-signature counting mechanism is formalized abstractly in
 `GaussianChain/FiniteFlatReduction.lean`.
 
 ---
@@ -190,7 +190,7 @@ Fix the explicit level
 N = 100,  d = 347,
 ```
 
-from `FiniteBeta.lean`.  The section space
+from `FiniteBeta.lean`. The section space
 
 ```text
 mathcal V = H^0(Bl_P P^2, 347 H - 100 E)
@@ -200,8 +200,8 @@ is fixed and finite dimensional.
 
 The finite Autissier--Ru--Vojta argument uses only finitely many adapted bases
 of `mathcal V`; after ordering each basis by its local weight, these bases give
-only finitely many flags.  Therefore the preceding theorem applies to every
-placewise choice made in the proof.
+only finitely many flags. Therefore Sections 1--3 apply to every placewise
+choice made in the proof.
 
 For every resulting parametric Subspace-Theorem system, its canonical
 Harder--Narasimhan exceptional subspace belongs to one fixed finite list
@@ -216,28 +216,37 @@ Pulling the `T_j` back through the fixed finite-level projective map and then
 pushing down to `P^2` gives a finite list of plane curves of uniformly bounded
 total degree.
 
+This conclusion applies to the canonical maximal-slope subspace. It does not,
+by itself, show that every auxiliary subspace appearing in a quantitative
+covering theorem belongs to the same list.
+
 ---
 
 ## 5. Remaining imported theorem
 
-To finish the uniform exceptional-degree theorem, one still needs the following
+To finish the uniform exceptional-degree theorem, one needs the following
 uniform asymptotic statement for the parametric Subspace Theorem.
 
 > For a fixed finite collection of algebraic linear forms and a fixed positive
-> approximation margin, there is a height threshold independent of the finite
-> place set and of the normalized local weights, such that every solution above
-> the threshold lies in the canonical maximal-slope subspace.
+> approximation margin, there is a parameter threshold independent of the
+> finite place set and of the normalized local weights, such that every
+> sufficiently large solution lies in the canonical maximal-slope subspace.
 
-This is the precise published-machinery input to verify.  It is substantially
-narrower than a general quantitative bound on every exceptional subspace:
+The absolute parametric theorem is naturally normalized by
 
-- the canonical subspace is now known to come from the fixed finite list (4.1);
-- no multiplication by the number of placewise basis assignments is needed;
-- the finite Ru--Vojta approximation level is explicit.
+```text
+sum_v max_i c_{iv} <= 1,
+```
 
-If the absolute parametric theorem is invoked in this uniform form, the total
-exceptional degree is independent of `S`, and the formalized endgame in
-`UniformExceptionalReduction.lean` proves the uniform square-root arc bound.
+and its large-parameter threshold is stated in terms of the ambient dimension,
+the approximation margin, the height of the fixed form family, and the number
+of distinct forms. The remaining line-by-line task is to verify that the
+finite Ru--Vojta max-over-adapted-bases inequality yields one normalized
+parametric system to which this canonical-subspace conclusion applies, without
+choosing a different placewise system separately for every point.
+
+Once that matching is established, Sections 1--4 make the exceptional list and
+its total pullback degree uniform in `S`.
 
 ---
 
@@ -247,18 +256,18 @@ Proved directly here:
 
 1. filtered degrees have the form (1.2);
 2. they are supermodular;
-3. maximal-slope subspaces are closed under sums and intersections;
+3. maximal-slope subspaces are closed under sums and nonzero intersections;
 4. the canonical largest maximal-slope subspace ranges over a fixed finite
    list independent of the place set.
 
 Still to be supplied:
 
-1. a line-by-line match between the finite Ru--Vojta adapted bases and the
-   weighted-filtration model above;
-2. the exact uniform-height-threshold statement from the absolute parametric
-   Subspace Theorem, or a self-contained proof of that special case;
-3. the pullback-degree bookkeeping for every member of the finite list.
+1. the exact matching between the finite Ru--Vojta local maximum and one
+   normalized twisted-height system;
+2. the uniform canonical-subspace conclusion for that system;
+3. pullback-degree bookkeeping for the fixed finite list.
 
-The dependence on the number of places is therefore no longer a component-count
-problem.  It has been reduced to the uniform threshold in one fixed-dimensional
-parametric theorem.
+The dependence on the number of places has therefore been removed for the
+canonical Harder--Narasimhan object. The unresolved issue is no longer a raw
+component count; it is the precise passage from the local maximum to the
+canonical parametric system.
