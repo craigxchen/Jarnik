@@ -30,3 +30,4 @@ import GaussianChain.FiniteBeta
 import GaussianChain.UniformExceptionalReduction
 import GaussianChain.FiniteFlatReduction
 import GaussianChain.SlopeClosure
+import GaussianChain.ConductorWeights
