@@ -2,22 +2,22 @@
 
 ## Purpose
 
-The unrestricted uniform-in-`S` exceptional-degree statement is too broad.  The
+The unrestricted uniform-in-`S` exceptional-degree statement is too broad. The
 lattice-point problem supplies substantially more structure: every ratio comes
-from one common Gaussian norm shell.  This note records the corrected target
-and the part of the Ru--Vojta optimization that can be made independent of the
-number of places without assuming any new Diophantine theorem.
+from one common Gaussian norm shell. This note records the corrected target,
+the finite conductor-weight reductions that are rigorous, and the remaining
+Diophantine gap.
 
 ## 1. Common conductor model
 
-Fix a Gaussian integer `G`.  A norm-one divisor ratio has the form
+Fix a Gaussian integer `G`. A norm-one divisor ratio has the form
 
 ```text
 u_A = A / conjugate(A),       A | G.
 ```
 
 For a family arising from one circle, all ratios can be put in this form after
-removing common unit and conjugation factors.  The common conductor height is
+removing common unit and conjugation factors. The common conductor height is
 
 ```text
 H_G = log |G|.
@@ -59,9 +59,8 @@ log GCD^+(u_A - 1, u_B - 1) < eta * log |G| + O(1),
 
 provided `log |G| > H0`.
 
-The polynomial may depend on `G`; its degree may not.
-
-This is enough for the same all-pairs grid argument already formalized in
+The polynomial may depend on `G`; its degree may not. This is enough for the
+same all-pairs grid argument already formalized in
 `UniformExceptionalReduction.lean`.
 
 ## 3. Why the unrestricted counterexample does not refute CRE
@@ -74,112 +73,160 @@ y_b = (b+i)/(b-i),
 ```
 
 the proximity is about one half of the sum of the two individual denominator
-heights.  A finite collection of unrelated pairs can be made into one `S`-unit
+heights. A finite collection of unrelated pairs can be made into one `S`-unit
 system by enlarging `S`, but the height of a common conductor containing every
-denominator is approximately the sum of all those heights.  Each individual
+denominator is approximately the sum of all those heights. Each individual
 pair is then far below the `H_G/2` conductor-relative scale.
 
-Thus the failure of uniformity for arbitrary `S`-units does not address CRE.
+Thus the failure of uniformity for arbitrary `S`-units does not refute CRE.
 
 ## 4. Aggregating local conductor weights
 
 At fixed finite Ru--Vojta level there is a finite set `T` of filtration types.
-Every prime place `v` of the common conductor has:
+Every prime place `v` of the common conductor has a nonnegative normalized
+conductor weight `w_v`, with total mass one. Grouping places of the same type,
 
 ```text
-- a type tau(v) in T;
-- a nonnegative normalized conductor weight w_v;
-- sum_v w_v = 1.
+omega_t = sum_{v : tau(v)=t} w_v,
 ```
 
-For any candidate subspace `W`, its local filtration score has the form
-
-```text
-score(W) = sum_v w_v * c(tau(v), W),
-```
-
-where `c(t,W)` depends only on the fixed section family.
-
-Define aggregate weights
-
-```text
-omega_t = sum_{v : tau(v)=t} w_v.
-```
-
-Then exactly
-
-```text
-score(W) = sum_{t in T} omega_t * c(t,W),
-```
-
-with
+gives
 
 ```text
 omega_t >= 0,       sum_t omega_t = 1.
 ```
 
-This is formalized in `GaussianChain/ConductorWeights.lean`.
+For every candidate subspace `W`, its *slope score* factors through these
+aggregate weights:
 
-Consequently, the Harder--Narasimhan optimization does not depend on `|S|`.
-It depends only on a point of the fixed simplex of aggregate type weights.
+```text
+score(W) = sum_t omega_t * c(t,W).
+```
 
-## 5. Finite candidate flats
+This statement is exact and is formalized in
+`GaussianChain/ConductorWeights.lean`. It shows that the Harder--Narasimhan
+slope optimization itself depends on a point of one fixed finite-dimensional
+simplex, not on `|S|`.
 
-The adapted section family is fixed and finite.  Candidate exceptional flats
-are intersections of kernels of subsets of those sections, so only finitely
-many flats can occur.  The abstract finite-signature count is formalized in
-`FiniteFlatReduction.lean`.
+## 5. Finite candidate signatures and near-maximal flats
 
-For each aggregate weight vector, the maximal-slope flats are closed under meet
-and join when rank is modular and filtration degree is supermodular.  Hence
-there is a canonical largest maximal-slope flat.  This closure mechanism is
-formalized in `SlopeClosure.lean`.
+The fixed adapted-section family gives a finite arrangement. The abstract
+facts currently formalized are:
 
-Therefore the possible canonical destabilizing flats belong to one finite
-family independent of the number of prime places and independent of the
-conductor.
+- finite subsets of a fixed family have only finitely many signatures
+  (`FiniteFlatReduction.lean`);
+- maximal-slope objects are closed under meet and join under the usual modular
+  rank and supermodular degree hypotheses (`SlopeClosure.lean`);
+- the set of flats whose score is within a fixed tolerance of maximal has only
+  finitely many possible signatures (`NearMaximalReduction.lean`).
 
-## 6. What remains
+These facts remove the elementary chamber-wall problem: one can join all
+`epsilon`-near-maximal flats and obtain a uniform slope gap outside that join.
 
-The remaining input is narrower than a uniform quantitative Subspace Theorem:
+## 6. Critical audit: slope aggregation is not the full theorem
 
-> For the fixed finite section family and every aggregate conductor-weight
-> vector, points satisfying the strict Ru--Vojta inequality at sufficiently
-> large conductor height lie in the associated canonical maximal-slope flat,
-> with a height threshold uniform over the compact weight simplex.
+The preceding finite reductions do **not** prove `CRE(eta)`.
 
-There are two distinct tasks.
+The parametric Subspace Theorem contains two logically different pieces:
 
-1. **Pointwise parametric statement.**  Prove the large-height containment for
-   one fixed aggregate weight vector.
-2. **Uniformity over weights.**  Show the height threshold can be chosen
-   uniformly over the simplex.  Since all slope functions are linear and only
-   finitely many candidate flats occur, this should reduce to finitely many
-   rational polyhedral chambers plus a positive margin from the critical
-   slope.
+1. a canonical maximal-slope (Harder--Narasimhan) subspace;
+2. exceptional high-parameter intervals outside that subspace.
 
-The first task is the genuinely Diophantine part.  The second is finite
-polyhedral analysis and should be formalizable once the first statement is
-available with explicit dependence on the slope gap.
+Aggregation by conductor type controls the first piece. It does not control the
+locations or the arithmetic spans of the interval-exception solutions. Those
+subspaces can depend on the actual rational points and need not be flats of the
+fixed section arrangement.
 
-## 7. Current formalization status
+Equivalently, the equality
 
-Compiler-checked:
+```text
+sum_v w_v * c(tau(v),W) = sum_t omega_t * c(t,W)
+```
 
-- explicit finite beta level;
-- numerical `1/2 - eta` endgame;
+aggregates the *slope score of a fixed subspace*. It does not aggregate the
+pointwise twisted height
+
+```text
+sum_v c_{i,v} log |L_{i,v}(P)|_v,
+```
+
+because the values of the fixed forms at different prime places cannot be
+recovered from the total weight carried by each filtration type.
+
+Therefore compactness of the weight simplex, by itself, does not produce a
+uniform height threshold and does not produce a bounded-degree exceptional
+curve.
+
+This is the precise gap in the proposed rescue proof.
+
+## 7. What would actually complete the route
+
+A valid completion needs an additional statement using the common conductor
+beyond its aggregate slope weights. Two possible forms are:
+
+### (a) Conductor-relative interval elimination
+
+Show that the high-parameter interval exceptions in the fixed parametric
+Subspace-Theorem system cannot occur when every finite valuation lies in one
+common conductor box and the proximity is at least `(1/2-o(1)) H_G`.
+
+### (b) A multipoint determinant theorem
+
+For a fixed finite Ru--Vojta section space, show that any sufficiently large
+collection of conductor-critical points has linearly dependent evaluation
+vectors. This would put the whole collection on one fixed-degree hyperplane
+section without enumerating the place-by-place adapted-basis assignments.
+
+The obstruction in (b) is a mixed-basis assignment problem: a different point
+may prefer a different adapted basis at the same prime. Any successful
+multipoint determinant argument must recover the finite beta gain despite that
+incompatibility.
+
+Neither statement is presently proved in this branch.
+
+## 8. Additional exact global constraint
+
+For norm-one elements `x,y`, put
+
+```text
+r = (x-1)/(y-1).
+```
+
+Then exactly
+
+```text
+r / conjugate(r) = x / y.
+```
+
+This is formalized in `GaussianChain/ChordRatio.lean`. It implies that a
+chord-ratio relation cannot have small arithmetic height when `x/y` has large
+height. It is a useful constraint on any low-height exceptional curve, but it
+does not by itself eliminate the critical Roth exponent.
+
+The global affine-relation identity for an entire same-circle configuration is
+formalized in `GaussianChain/AffineRelationGap.lean`.
+
+## 9. Current formalization status
+
+Compiler-checked before the latest two modules:
+
+- explicit finite beta levels;
+- numerical `1/2-eta` endgame;
 - grid/fiber cardinality bound;
 - finite signature count;
 - maximal-slope meet/join closure;
-- aggregation of arbitrary local weights into finitely many conductor types.
+- aggregation of arbitrary local weights into finitely many conductor types;
+- near-maximal finite-signature reduction.
 
-Not yet formalized:
+The latest branch also contains the chord-ratio and affine-relation modules;
+CI should be consulted for their current compiler status.
 
-- Gaussian conductor normalization for an actual circle;
-- local Weil functions and `GCD^+`;
-- the pointwise parametric Subspace-Theorem containment;
-- uniform dependence of its height threshold on the aggregate weight vector.
+Not formalized, and not yet proved:
 
-The route remains viable, but the remaining theorem must be stated and proved
-in conductor-relative form rather than as an unrestricted uniform-in-`S`
-exceptional-degree theorem.
+- the conductor-relative interval-elimination theorem;
+- a mixed-basis multipoint determinant theorem;
+- `CRE(eta)` itself.
+
+The conductor-relative route remains viable, but the missing input is genuinely
+Diophantine. It is not a consequence of finite polyhedral chamber analysis
+alone.
