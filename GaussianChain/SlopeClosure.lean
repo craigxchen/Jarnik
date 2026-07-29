@@ -28,10 +28,27 @@ theorem maximalSlope_inf_sup
     deg (x ⊓ y) = μ * rk (x ⊓ y) ∧
       deg (x ⊔ y) = μ * rk (x ⊔ y) := by
   have hsuper := hdeg x y
-  have hinter := hupper (x ⊓ y)
-  have hjoin := hupper (x ⊔ y)
+  have hinterUpper := hupper (x ⊓ y)
+  have hjoinUpper := hupper (x ⊔ y)
   have hmod := hrank x y
-  constructor <;> nlinarith
+  have htotal :
+      μ * rk (x ⊓ y) + μ * rk (x ⊔ y) =
+        μ * rk x + μ * rk y := by
+    calc
+      μ * rk (x ⊓ y) + μ * rk (x ⊔ y)
+          = μ * (rk (x ⊓ y) + rk (x ⊔ y)) := by ring
+      _ = μ * (rk x + rk y) := by rw [hmod]
+      _ = μ * rk x + μ * rk y := by ring
+  have hsumLower :
+      μ * rk (x ⊓ y) + μ * rk (x ⊔ y) ≤
+        deg (x ⊓ y) + deg (x ⊔ y) := by
+    rw [htotal, ← hx, ← hy]
+    exact hsuper
+  have hinterLower : μ * rk (x ⊓ y) ≤ deg (x ⊓ y) := by
+    linarith
+  have hjoinLower : μ * rk (x ⊔ y) ≤ deg (x ⊔ y) := by
+    linarith
+  exact ⟨le_antisymm hinterUpper hinterLower, le_antisymm hjoinUpper hjoinLower⟩
 
 /-- The join part of `maximalSlope_inf_sup`. -/
 theorem maximalSlope_sup
