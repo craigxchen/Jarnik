@@ -29,3 +29,4 @@ import GaussianChain.Examples
 import GaussianChain.FiniteBeta
 import GaussianChain.UniformExceptionalReduction
 import GaussianChain.FiniteFlatReduction
+import GaussianChain.SlopeClosure
