@@ -52,23 +52,60 @@ theorem betaLimit_numerator_factor (c : ℚ) :
   ring
 
 /--
-An explicit finite level used in the uniform-GCD route:
+A compact explicit finite level:
+`c = 52 / 15`, `N = 15`, `d = 52`, and `k = d - N = 37`.
+The section-space dimension is only `1311`.
+-/
+theorem sectionCount_15_37 : sectionCount 15 37 = 1311 := by
+  norm_num [sectionCount]
+
+/-- Exact finite numerator at the compact level. -/
+theorem betaNumerator_15_37 : betaNumerator 15 37 = 19684 := by
+  rw [betaNumerator_closed]
+  norm_num
+
+/-- Exact finite beta value at the compact level. -/
+theorem finiteBeta_15_37 : finiteBeta 15 37 = 1036 / 1035 := by
+  rw [finiteBeta_formula]
+  norm_num [sectionCount]
+
+/-- The compact finite approximation already lies strictly above `1`. -/
+theorem one_lt_finiteBeta_15_37 : 1 < finiteBeta 15 37 := by
+  rw [finiteBeta_15_37]
+  norm_num
+
+/--
+The zero-error coefficient `c - 3β` at the compact level is exactly `32/69`.
+-/
+theorem coefficient_15_37 :
+    (52 / 15 : ℚ) - 3 * finiteBeta 15 37 = 32 / 69 := by
+  rw [finiteBeta_15_37]
+  norm_num
+
+/-- The compact finite-level coefficient has a strict margin below `1/2`. -/
+theorem coefficient_15_37_lt_half :
+    (52 / 15 : ℚ) - 3 * finiteBeta 15 37 < 1 / 2 := by
+  rw [coefficient_15_37]
+  norm_num
+
+/--
+The earlier, larger explicit level used in the first version of the route:
 `c = 347 / 100`, `N = 100`, `d = 347`, and `k = d - N = 247`.
 -/
 theorem sectionCount_100_247 : sectionCount 100 247 = 55676 := by
   norm_num [sectionCount]
 
-/-- Exact numerator at the explicit finite level. -/
+/-- Exact numerator at the earlier finite level. -/
 theorem betaNumerator_100_247 : betaNumerator 100 247 = 5604924 := by
   rw [betaNumerator_closed]
   norm_num
 
-/-- Exact finite beta value at the explicit finite level. -/
+/-- Exact finite beta value at the earlier finite level. -/
 theorem finiteBeta_100_247 : finiteBeta 100 247 = 45201 / 44900 := by
   rw [finiteBeta_formula]
   norm_num [sectionCount]
 
-/-- In particular, this finite approximation already lies strictly above `1`. -/
+/-- In particular, the earlier finite approximation also lies strictly above `1`. -/
 theorem one_lt_finiteBeta_100_247 : 1 < finiteBeta 100 247 := by
   rw [finiteBeta_100_247]
   norm_num
