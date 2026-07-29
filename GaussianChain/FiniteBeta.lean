@@ -19,7 +19,7 @@ def betaNumerator (N : ℚ) (k : ℕ) : ℚ :=
   Finset.sum (Finset.range k) (fun j ↦ sectionCount N j)
 
 /--
-Exact finite sum of the section dimensions.  Here `k = d - N`, where `d`
+Exact finite sum of the section dimensions. Here `k = d - N`, where `d`
 is the plane degree and `N` is the required multiplicity at the blown-up
 point.
 -/
@@ -52,9 +52,39 @@ theorem betaLimit_numerator_factor (c : ℚ) :
   ring
 
 /--
+The smallest simple level used in the conductor-relative audit:
+`N = 1`, `d = 6`, and `k = d - N = 5`.
+The section-space dimension is only `27`.
+-/
+theorem sectionCount_1_5 : sectionCount 1 5 = 27 := by
+  norm_num [sectionCount]
+
+/-- Exact finite numerator at the level `(N,k) = (1,5)`. -/
+theorem betaNumerator_1_5 : betaNumerator 1 5 = 50 := by
+  rw [betaNumerator_closed]
+  norm_num
+
+/-- Exact finite beta value at the level `(N,k) = (1,5)`. -/
+theorem finiteBeta_1_5 : finiteBeta 1 5 = 50 / 27 := by
+  rw [finiteBeta_formula]
+  norm_num [sectionCount]
+
+/-- The zero-error coefficient `c - 3β` is exactly `4/9` at this level. -/
+theorem coefficient_1_5 :
+    (6 : ℚ) - 3 * finiteBeta 1 5 = 4 / 9 := by
+  rw [finiteBeta_1_5]
+  norm_num
+
+/-- The level `(N,k) = (1,5)` has a strict margin below the endpoint `1/2`. -/
+theorem coefficient_1_5_lt_half :
+    (6 : ℚ) - 3 * finiteBeta 1 5 < 1 / 2 := by
+  rw [coefficient_1_5]
+  norm_num
+
+/--
 A compact explicit finite level:
 `c = 52 / 15`, `N = 15`, `d = 52`, and `k = d - N = 37`.
-The section-space dimension is only `1311`.
+The section-space dimension is `1311`.
 -/
 theorem sectionCount_15_37 : sectionCount 15 37 = 1311 := by
   norm_num [sectionCount]
@@ -69,27 +99,25 @@ theorem finiteBeta_15_37 : finiteBeta 15 37 = 1036 / 1035 := by
   rw [finiteBeta_formula]
   norm_num [sectionCount]
 
-/-- The compact finite approximation already lies strictly above `1`. -/
+/-- The compact finite approximation lies strictly above `1`. -/
 theorem one_lt_finiteBeta_15_37 : 1 < finiteBeta 15 37 := by
   rw [finiteBeta_15_37]
   norm_num
 
-/--
-The zero-error coefficient `c - 3β` at the compact level is exactly `32/69`.
--/
+/-- The zero-error coefficient `c - 3β` at the compact level is `32/69`. -/
 theorem coefficient_15_37 :
     (52 / 15 : ℚ) - 3 * finiteBeta 15 37 = 32 / 69 := by
   rw [finiteBeta_15_37]
   norm_num
 
-/-- The compact finite-level coefficient has a strict margin below `1/2`. -/
+/-- The compact finite-level coefficient also has a strict margin below `1/2`. -/
 theorem coefficient_15_37_lt_half :
     (52 / 15 : ℚ) - 3 * finiteBeta 15 37 < 1 / 2 := by
   rw [coefficient_15_37]
   norm_num
 
 /--
-The earlier, larger explicit level used in the first version of the route:
+The earlier, larger explicit level:
 `c = 347 / 100`, `N = 100`, `d = 347`, and `k = d - N = 247`.
 -/
 theorem sectionCount_100_247 : sectionCount 100 247 = 55676 := by
@@ -105,7 +133,7 @@ theorem finiteBeta_100_247 : finiteBeta 100 247 = 45201 / 44900 := by
   rw [finiteBeta_formula]
   norm_num [sectionCount]
 
-/-- In particular, the earlier finite approximation also lies strictly above `1`. -/
+/-- The earlier finite approximation also lies strictly above `1`. -/
 theorem one_lt_finiteBeta_100_247 : 1 < finiteBeta 100 247 := by
   rw [finiteBeta_100_247]
   norm_num
