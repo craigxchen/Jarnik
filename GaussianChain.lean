@@ -32,3 +32,4 @@ import GaussianChain.FiniteFlatReduction
 import GaussianChain.SlopeClosure
 import GaussianChain.ConductorWeights
 import GaussianChain.NearMaximalReduction
+import GaussianChain.ChordRatio
