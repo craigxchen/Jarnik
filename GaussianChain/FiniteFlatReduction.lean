@@ -31,19 +31,20 @@ theorem exceptional_range_card_le_two_pow
       simp [P]
 
 /--
-A finite-family version with an arbitrary explicit signature family `Σ`.
+A finite-family version with an arbitrary explicit signature family.
 This is useful when geometric compatibility excludes most subsets of forms.
 -/
 theorem exceptional_range_card_le_signature_family
     {ι α β : Type*}
     [DecidableEq ι] [DecidableEq β]
     (A : Finset α)
-    (Σ : Finset (Finset ι))
+    (sigFamily : Finset (Finset ι))
     (signature : α → Finset ι)
     (canonical : Finset ι → β)
-    (hsignature : ∀ x ∈ A, signature x ∈ Σ) :
-    (A.image (fun x => canonical (signature x))).card ≤ Σ.card := by
-  have hsub : A.image (fun x => canonical (signature x)) ⊆ Σ.image canonical := by
+    (hsignature : ∀ x ∈ A, signature x ∈ sigFamily) :
+    (A.image (fun x => canonical (signature x))).card ≤ sigFamily.card := by
+  have hsub :
+      A.image (fun x => canonical (signature x)) ⊆ sigFamily.image canonical := by
     intro y hy
     obtain ⟨x, hxA, rfl⟩ := Finset.mem_image.mp hy
     exact Finset.mem_image.mpr ⟨signature x, hsignature x hxA, rfl⟩
