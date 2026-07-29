@@ -28,3 +28,4 @@ import GaussianChain.Discriminant
 import GaussianChain.Examples
 import GaussianChain.FiniteBeta
 import GaussianChain.UniformExceptionalReduction
+import GaussianChain.FiniteFlatReduction
