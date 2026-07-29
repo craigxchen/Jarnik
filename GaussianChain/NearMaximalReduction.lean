@@ -4,7 +4,7 @@ namespace GaussianChain
 namespace NearMaximalReduction
 
 /-- The candidates whose score lies within `ε` of a prescribed maximal value `μ`. -/
-def nearMaximal
+noncomputable def nearMaximal
     {α : Type*} [DecidableEq α]
     (F : Finset α) (score : α → ℝ) (μ ε : ℝ) : Finset α :=
   F.filter (fun x ↦ μ - ε ≤ score x)
@@ -16,8 +16,9 @@ theorem score_lt_of_mem_not_mem_nearMaximal
     (hxF : x ∈ F)
     (hx : x ∉ nearMaximal F score μ ε) :
     score x < μ - ε := by
-  unfold nearMaximal at hx
-  simpa [hxF] using hx
+  have h := hx
+  simp [nearMaximal, hxF] at h
+  linarith
 
 /-- A genuine maximizer belongs to every nonnegative near-maximal set. -/
 theorem maximizer_mem_nearMaximal
