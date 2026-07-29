@@ -31,7 +31,11 @@ theorem aggregateWeight_nonneg
     0 ≤ aggregateWeight τ w t := by
   classical
   unfold aggregateWeight
-  positivity
+  apply Finset.sum_nonneg
+  intro i hi
+  split_ifs
+  · exact hw i
+  · exact le_rfl
 
 /--
 Every linear slope score factors through the aggregate conductor weights.
@@ -45,10 +49,18 @@ theorem weightedScore_eq_aggregateScore
       ∑ t, aggregateWeight τ w t * score t a := by
   classical
   unfold aggregateWeight
-  rw [Finset.sum_comm]
-  apply Finset.sum_congr rfl
-  intro i hi
-  simp [ite_mul]
+  calc
+    ∑ i, w i * score (τ i) a =
+        ∑ i, ∑ t, (if τ i = t then w i else 0) * score t a := by
+          apply Finset.sum_congr rfl
+          intro i hi
+          simp
+    _ = ∑ t, ∑ i, (if τ i = t then w i else 0) * score t a := by
+          rw [Finset.sum_comm]
+    _ = ∑ t, (∑ i, if τ i = t then w i else 0) * score t a := by
+          apply Finset.sum_congr rfl
+          intro t ht
+          rw [Finset.sum_mul]
 
 /-- Two local systems with the same aggregate weights give identical scores. -/
 theorem weightedScore_eq_of_aggregateWeight_eq
@@ -61,10 +73,16 @@ theorem weightedScore_eq_of_aggregateWeight_eq
     (a : α) :
     ∑ i, w i * score (τ i) a =
       ∑ i, w' i * score (τ' i) a := by
-  rw [weightedScore_eq_aggregateScore, weightedScore_eq_aggregateScore]
-  apply Finset.sum_congr rfl
-  intro t ht
-  rw [hagg t]
+  calc
+    ∑ i, w i * score (τ i) a =
+        ∑ t, aggregateWeight τ w t * score t a :=
+      weightedScore_eq_aggregateScore τ w score a
+    _ = ∑ t, aggregateWeight τ' w' t * score t a := by
+      apply Finset.sum_congr rfl
+      intro t ht
+      rw [hagg t]
+    _ = ∑ i, w' i * score (τ' i) a :=
+      (weightedScore_eq_aggregateScore τ' w' score a).symm
 
 end ConductorWeights
 end GaussianChain
