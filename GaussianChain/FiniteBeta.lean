@@ -16,7 +16,7 @@ def sectionCount (N : ℚ) (j : ℕ) : ℚ :=
 
 /-- The finite numerator appearing in the Ru--Vojta beta approximation. -/
 def betaNumerator (N : ℚ) (k : ℕ) : ℚ :=
-  ∑ j in Finset.range k, sectionCount N j
+  Finset.sum (Finset.range k) (fun j ↦ sectionCount N j)
 
 /--
 Exact finite sum of the section dimensions.  Here `k = d - N`, where `d`
