@@ -1,42 +1,51 @@
 # Jarnik
 
-Exact integer tools and Lean formalization for endpoint-scale lattice-point arcs
-on circles.
+Exact integer tools and Lean formalization for lattice points on short arcs of circles.
 
-The current `master` development proves the sublogarithmic bound and contains
-certificate-search machinery.  The branch
-`agent/uniform-gcd-formalization` adds a separate research track for the
-uniform-bound problem.
+## Proven core
 
-## Uniform generalized-GCD research track
+The main development proves the current sublogarithmic arc bound and contains certificate-search machinery. The umbrella module `GaussianChain.lean` imports only this proved core.
 
-The branch contains:
+## Uniform endpoint problem
 
-- `GaussianChain/FiniteBeta.lean`: an explicit finite Ru--Vojta beta-level
-  calculation on the blowup of `P^2` at `[1:1:1]`;
-- `GaussianChain/UniformExceptionalReduction.lean`: the conditional
-  `1/2 - eta` endgame and grid/fiber cardinality bound;
-- `GaussianChain/SlopeClosure.lean`: maximal-slope closure under meet and join
-  for modular rank and supermodular degree;
-- `GaussianChain/FiniteFlatReduction.lean`: finite-signature range bounds for
-  canonical exceptional objects;
-- `docs/uniform_gcd_route.md`: the full circle-side reduction and current gap
-  audit;
-- `docs/canonical_hn_uniformity.md`: a self-contained derivation showing why
-  the canonical Harder--Narasimhan subspace ranges over a fixed finite list,
-  independent of the number of places.
+The target is a uniform bound for lattice points on arcs of length
 
-The branch does not add an axiom for the remaining Diophantine input.  The
-remaining task is to match the finite Ru--Vojta max-over-adapted-bases system
-to a uniform large-parameter form of the absolute parametric Subspace Theorem.
+```text
+C * R^(1/2).
+```
 
-## Source Layout
+This remains open in this repository.
+
+The earlier Ru--Vojta/generalized-GCD and determinant equality-case programs are no longer active. They are retained as an audit trail, but they are not imported by the umbrella build and should not be read as the current proof plan.
+
+The active research reset is:
+
+- `docs/research_reset_inverse_concentration.md`
+
+Its starting point is the global exponent-angle model. After factoring the common norm, every point is represented by an exponent vector `a` in a Gaussian conductor box, and its angle is a linear form
+
+```text
+Phi(a) = sum_j (2 a_j - e_j) theta_j  mod 2 pi.
+```
+
+A hypothetical counterexample gives arbitrarily large sets of exponent vectors whose images lie in an interval of width `O(N^(-1/4))`.
+
+The new program is to combine:
+
+1. a weighted inverse-concentration theorem for these exponent boxes; and
+2. arithmetic rigidity of the Gaussian prime angles
+   `exp(2 i theta_j) = pi_j / conjugate(pi_j)`.
+
+The intended contradiction is that high concentration forces either a heavy prime block, which can be descended, or a bounded-rank approximate relation that becomes an impossible exact multiplicative relation by Gaussian unique factorization.
+
+## Historical research files
+
+Files concerning finite beta calculations, uniform exceptional sets, adapted sextic bases, Segre embeddings, determinant surplus, and balanced prime-layer cuts are historical diagnostics only. They record failed or conditional routes and are intentionally excluded from `GaussianChain.lean`.
+
+## Source layout
 
 - `GaussianChain/` contains the Lean formalization.
-- `src/numerics/` contains the Rust numerical code: exact arithmetic,
-  Gaussian-integer factorization, lattice-point generation, cluster diagnostics,
-  certificate search, and extension checking.
-- `src/numerics/legacy_arc.rs` contains the original floating-point arc scanner.
+- `src/numerics/` contains the Rust numerical code: exact arithmetic, Gaussian-integer factorization, lattice-point generation, cluster diagnostics, certificate search, and extension checking.
 - `outputs/` is reserved for generated numerical JSON/JSONL artifacts.
 
 ## Commands
@@ -59,10 +68,8 @@ arc [min_radius_squared] [max_radius_squared]
 
 ## Lean
 
-Lean is installed through `elan` and the project builds with:
+Lean is installed through `elan` and the proved core builds with:
 
 ```bash
 lake build
 ```
-
-The GitHub Actions workflow on the uniform-GCD branch runs the full Lean build.
