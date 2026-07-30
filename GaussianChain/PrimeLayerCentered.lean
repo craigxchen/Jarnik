@@ -26,7 +26,8 @@ theorem abs_centeredCut_le_one_add_defect
     rw [abs_of_nonpos hc]
     by_cases hks : k = s
     · subst k
-      simp [centeredCut]
+      unfold centeredCut
+      ring_nf
     · have hd1 : 1 ≤ s - k := by omega
       have hmul : 0 ≤ (s - k) * (s - k - 1) :=
         mul_nonneg (by linarith) (by linarith)
@@ -38,7 +39,8 @@ theorem abs_centeredCut_le_one_add_defect
     rw [abs_of_nonneg hc]
     by_cases hks : k = s + 1
     · subst k
-      simp [centeredCut]
+      unfold centeredCut
+      ring_nf
     · have hd1 : 1 ≤ k - (s + 1) := by omega
       have hmul : 0 ≤ (k - s - 1) * (k - s - 2) :=
         mul_nonneg (by linarith) (by linarith)
@@ -61,6 +63,18 @@ theorem defect_eq_zero_iff_balanced
       linarith
   · rintro (rfl | rfl) <;> ring
 
+/-- Triangle inequality for a finite integer sum, in the exact form used below. -/
+private theorem abs_finset_sum_le_sum_abs
+    {ι : Type*} (t : Finset ι) (f : ι → ℤ) :
+    |∑ i in t, f i| ≤ ∑ i in t, |f i| := by
+  classical
+  induction t using Finset.induction_on with
+  | empty => simp
+  | @insert a t ha ih =>
+      rw [Finset.sum_insert ha, Finset.sum_insert ha]
+      exact (abs_add (f a) (∑ i in t, f i)).trans
+        (add_le_add_left ih |f a|)
+
 /--
 Summed version of `abs_centeredCut_le_one_add_defect`.
 
@@ -80,7 +94,9 @@ theorem abs_sum_centeredCut_le_card_add_sum_defect
         ∑ i, (s * (s + 1) - k i * (2 * s + 1 - k i)) := by
   calc
     |∑ i, centeredCut s (k i)|
-        ≤ ∑ i, |centeredCut s (k i)| := abs_sum_le_sum_abs _
+        ≤ ∑ i, |centeredCut s (k i)| := by
+          simpa using
+            (abs_finset_sum_le_sum_abs (Finset.univ) (fun i => centeredCut s (k i)))
     _ ≤ ∑ i, (1 + (s * (s + 1) - k i * (2 * s + 1 - k i))) := by
       exact Finset.sum_le_sum fun i _ =>
         abs_centeredCut_le_one_add_defect s (k i) hs (hk0 i) (hktop i)
