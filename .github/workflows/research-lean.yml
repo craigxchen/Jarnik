@@ -1,0 +1,23 @@
+name: Research Lean modules
+
+on:
+  push:
+    branches:
+      - agent/**
+  pull_request:
+
+jobs:
+  research-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: leanprover/lean-action@v1
+        with:
+          build: false
+      - name: Check research modules
+        run: |
+          lake env lean GaussianChain/WeightStability.lean
+          lake env lean GaussianChain/MaxComplementIdentity.lean
+          lake env lean GaussianChain/SexticTropicalWeight.lean
+          lake env lean GaussianChain/UniversalBasisBarrier.lean
+          lake env lean GaussianChain/ChordRatio.lean
