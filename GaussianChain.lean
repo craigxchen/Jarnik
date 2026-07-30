@@ -26,17 +26,3 @@ import GaussianChain.Certificate
 import GaussianChain.Extension
 import GaussianChain.Discriminant
 import GaussianChain.Examples
-import GaussianChain.FiniteBeta
-import GaussianChain.UniformExceptionalReduction
-import GaussianChain.FiniteFlatReduction
-import GaussianChain.SlopeClosure
-import GaussianChain.ConductorWeights
-import GaussianChain.NearMaximalReduction
-import GaussianChain.ChordRatio
-import GaussianChain.FiniteExceptionalFamily
-import GaussianChain.ArrangementClosure
-import GaussianChain.UniversalBasisBarrier
-import GaussianChain.PrimeLayerSurplus
-import GaussianChain.PrimeLayerCentered
-import GaussianChain.PrimePowerMajority
-import GaussianChain.SegreCoefficient
