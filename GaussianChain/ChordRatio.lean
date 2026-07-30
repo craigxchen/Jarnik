@@ -16,7 +16,13 @@ theorem chordRatio_div_transformed
     (hx1 : x ≠ 1) (hy1 : y ≠ 1)
     (hrbar : rbar = (x⁻¹ - 1) / (y⁻¹ - 1)) :
     ((x - 1) / (y - 1)) / rbar = x / y := by
-  rw [hrbar]
+  have hxform : x⁻¹ - 1 = -(x - 1) / x := by
+    field_simp [hx0]
+    ring
+  have hyform : y⁻¹ - 1 = -(y - 1) / y := by
+    field_simp [hy0]
+    ring
+  rw [hrbar, hxform, hyform]
   field_simp [hx0, hy0, hx1, hy1]
   ring
 
