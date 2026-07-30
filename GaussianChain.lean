@@ -36,3 +36,4 @@ import GaussianChain.ChordRatio
 import GaussianChain.FiniteExceptionalFamily
 import GaussianChain.ArrangementClosure
 import GaussianChain.UniversalBasisBarrier
+import GaussianChain.PrimeLayerSurplus
