@@ -38,3 +38,4 @@ import GaussianChain.ArrangementClosure
 import GaussianChain.UniversalBasisBarrier
 import GaussianChain.PrimeLayerSurplus
 import GaussianChain.PrimePowerMajority
+import GaussianChain.SegreCoefficient
