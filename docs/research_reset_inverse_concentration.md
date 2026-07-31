@@ -8,9 +8,7 @@ The Ru--Vojta/generalized-GCD track and the determinant equality-case track are 
 
 The old files are retained only as an audit trail. They are no longer imported by `GaussianChain.lean` and should not be treated as the current roadmap.
 
-## What happened to the counterexample framing
-
-The intended contradiction setup was sound, but it was absorbed into a local determinant-surplus analysis.
+## Global counterexample framing
 
 Assume there is a sequence of endpoint clusters with cardinality tending to infinity. After removing common Gaussian factors, write the split part of the common norm as
 
@@ -38,90 +36,93 @@ An endpoint cluster is therefore a set `A` of exponent vectors for which all val
 O(N^(-1/4)).
 ```
 
-The previous work replaced this global concentration statement by equality conditions in a Ramana determinant. That was too lossy: abstract balanced cut systems can imitate the determinant equality case without respecting the arithmetic of Gaussian prime angles.
+The counterexample must be studied globally. Local determinant surplus and pairwise cut metrics discard too much of the Gaussian-angle structure.
 
-The counterexample framing should instead remain global from the start.
+## Binary threshold-layer expansion
 
-## New active program: inverse concentration plus arithmetic rigidity
-
-The proposed route has two stages.
-
-### Stage 1: inverse concentration
-
-Prove that if a large finite set of box points
+Each exponent coordinate may be expanded into binary threshold layers
 
 ```text
-A subset product_j [0,e_j]
+sigma_(j,t)(a) = +1 if t <= a_j, and -1 otherwise,
+1 <= t <= e_j.
 ```
 
-is mapped by `Phi` into one interval of width `N^(-1/4)`, then the active angle multiset has low-complexity additive structure.
+This embeds the cluster into a binary orientation cube, with monotone chains inside each prime block. Every layer carries conductor weight `log p_j` and angle `arg(pi_j)`.
 
-The desired conclusion is not merely that many threshold cuts are balanced. It should say that, after discarding a bounded number of coordinates or a bounded fraction of conductor height, the angles `theta_j` lie near a generalized arithmetic progression of bounded rank, or equivalently that the difference set `A-A` is controlled by a bounded-rank approximate kernel of `Phi`.
+This representation is now the active state space for affine-cube and additive-energy arguments.
 
-This is an inverse Littlewood--Offord/Freiman-type statement adapted to:
+## Proved structured-regime theorem
 
-- a non-random subset of an integer box;
-- a circular target interval of exponentially small width;
-- weighted coordinates with multiplicities `e_j`;
-- a conclusion measured by conductor height `sum e_j log p_j`, not by the raw number of coordinates.
+The active detailed note is:
 
-### Stage 2: Gaussian arithmetic rigidity
+- `docs/affine_cube_walsh_rigidity.md`
 
-Exploit that
+It proves, modulo the standard imported form of Roth's theorem, that a sufficiently large endpoint cluster cannot contain a five-dimensional Boolean affine subcube on which every Gaussian layer restricts to an affine character.
 
-```text
-exp(2 i theta_j) = pi_j / conjugate(pi_j)
-```
+The mechanism is exact Walsh isolation. On a `32`-point character cube, multiplying the points with the signs of one Walsh character isolates one Gaussian character block. Angular concentration forces that block into an `O(N^(-1/4))` neighborhood of one of the fixed `32` algebraic rays. Roth's theorem then forces every active character block to carry more than one fifth of the total conductor height. At most four blocks can be active, but four binary characters distinguish at most `16` points, contradicting the `32` distinct cube vertices.
 
-is a norm-one element of `Q(i)` attached to a Gaussian prime.
+Consequences:
 
-A bounded-rank additive model for many `theta_j` should force one of the following:
+1. no character-compatible Boolean affine cube of dimension at least five occurs for sufficiently large conductor;
+2. after importing Balog--Szemeredi--Gowers, Freiman theory in `F_2^n`, and the fixed-density affine-subspace theorem, every hypothetical bad family must have
 
-1. a large block of conductor height is carried by a bounded set of Gaussian primes, allowing direct descent;
-2. many Gaussian primes lie in a bounded collection of exceptionally narrow angular progressions or sectors;
-3. there is an exact multiplicative relation among distinct `pi_j / conjugate(pi_j)`.
+   ```text
+   additiveEnergy(A) / |A|^3 -> 0;
+   ```
 
-The third alternative is impossible by unique factorization unless the relation is trivial. The first is already compatible with existing heavy-block descent. The second becomes an analytic number-theory problem about adversarial Gaussian primes in narrow sectors, rather than a moving exceptional-set problem.
+3. the high-energy/small-doubling regime is therefore eliminated.
+
+## Exact remaining regime
+
+An unbounded counterexample must now be simultaneously:
+
+- diffuse in conductor support;
+- nearly balanced at almost every prime layer;
+- free of five-dimensional affine subcubes;
+- additive-Sidon-like, with almost every pair difference distinct;
+- mapped by the Gaussian-prime angle form into an interval of width `O(N^(-1/4))`.
+
+This sparse regime is not forced to contain affine cubes. Arbitrarily large abstract cube-free subsets of binary cubes exist, so no purely combinatorial cube-extraction statement can finish the proof.
+
+The next theorem must be a sparse arithmetic inverse theorem:
+
+> Bound an additive-Sidon-like family of Gaussian divisor exponent vectors whose pairwise ratios all lie within `O(N^(-1/4))` of `1`.
+
+Possible inputs are:
+
+- simultaneous Roth/Subspace-Theorem estimates for the many distinct exponent differences;
+- a higher common-divisor theorem for their Gaussian numerators;
+- sector packing for a sparse family of divisors of one Gaussian conductor, stronger than pairwise slope separation.
 
 ## Minimal-counterexample normalization
 
-A future proof should begin with a counterexample minimizing, in order:
+A proof by contradiction should choose a bad family minimizing, in order:
 
 1. cluster cardinality above a fixed threshold;
 2. total conductor height;
 3. number of active split-prime coordinates;
 4. total exponent mass.
 
-This normalization gives immediate reduction rules:
+This gives the following exact reduction rules:
 
 - no coordinate is constant across the cluster;
-- no nonempty prime block divides every point in the same orientation;
-- no proper coordinate projection preserves the full cluster;
-- any exact multiplicative relation among active norm-one prime ratios reduces support and contradicts minimality.
+- no nonempty oriented factor divides every point;
+- no proper coordinate projection preserves an unbounded subcluster at endpoint scale;
+- any exact multiplicative relation that reduces the active support contradicts minimality;
+- any high-energy subset is excluded by Walsh rigidity.
 
-These are the replacement for determinant equality conditions.
+These are the current replacements for determinant equality conditions.
 
-## First concrete theorem to attack
+## Live methods
 
-The first target is the following weighted inverse-concentration statement.
+The active tools are now:
 
-> **Gaussian box inverse theorem.** For every sufficiently large fixed `M`, there exist constants `r(M)` and `eta(M)>0` such that whenever `M` exponent vectors from a Gaussian conductor box have angular diameter at most `N^(-1/4)`, either:
->
-> - some set of at most `r(M)` prime coordinates carries at least `eta(M)` of the conductor height; or
-> - the corresponding Gaussian prime angles admit a bounded-complexity approximate additive relation strong enough, after algebraic separation, to become an exact multiplicative relation.
-
-The theorem is deliberately stated as a dichotomy with a heavy-coordinate outcome. Pure inverse Littlewood--Offord statements based only on the number of coordinates are not adequate in the diffuse weighted setting.
-
-## Methods worth testing
-
-The live tools are:
-
-- weighted inverse Littlewood--Offord theory;
-- Balog--Szemeredi--Gowers and Freiman compression on selected exponent differences;
-- concentration inequalities for product measures on conductor boxes;
-- lower bounds for linear forms in logarithms after rank reduction;
-- Gaussian-prime counting in narrow sectors for the remaining structured case;
-- numerical searches for minimal high-concentration exponent boxes, used to identify the correct inverse statement.
+- affine-cube/Walsh analysis in the high-energy regime;
+- additive-energy decomposition into structured and Sidon-like cases;
+- rational approximation to fixed algebraic rays after Walsh isolation;
+- sparse simultaneous logarithmic-form estimates;
+- Gaussian-divisor sector packing;
+- numerical searches for minimal sparse high-concentration exponent codes.
 
 The following are not active proof routes:
 
@@ -131,9 +132,9 @@ The following are not active proof routes:
 - balanced-cut surplus refinements;
 - Segre re-embeddings intended only to alter the height coefficient.
 
-## Repository policy after the reset
+## Repository policy
 
 - `GaussianChain.lean` imports only the proved core development.
-- Experimental uniform-bound modules and notes remain as historical audits but are not part of the umbrella build.
-- New work should enter only after it proves a statement used by the inverse-concentration program.
+- Experimental uniform-bound modules and notes remain historical audits and are not part of the umbrella build.
+- New active work must prove a statement used by the global inverse-concentration program.
 - No new file should merely rename the missing theorem or transfer it to another exceptional-set or determinant lemma.
