@@ -1,17 +1,18 @@
-# Extension auxiliary-circle renormalization
+# Extension auxiliary circle: exact identity and similarity audit
 
 ## Status
 
-This note develops a global algebraic renormalization hidden in the existing
-four-point certificate machinery.
+The extension discriminant really does define an auxiliary integral circle, and
+the relevant algebraic identities are formalized in
+`GaussianChain/ExtensionAuxCircle.lean`.
 
-The key identity is now formalized in
-`GaussianChain/ExtensionAuxCircle.lean` and passes the full Lean build.
+However, the earlier interpretation as a primitive-norm descent was incorrect.
+After the affine map is written in the original displacement coordinates, it is
+exactly a dot-cross similarity.  It scales the entire original circle and arc by
+the same linear factor and therefore creates no endpoint gain.
 
-It does **not** yet prove the uniform endpoint bound.  It gives a genuine
-circle-to-circle transformation and identifies the exact arithmetic parameter
-that determines whether the transformation is a descent or a critical
-self-similarity.
+The similarity identity is formalized in
+`GaussianChain/AuxiliarySimilarity.lean`.
 
 ---
 
@@ -37,43 +38,40 @@ If `Delta(W)=Y^2`, completing the square gives
 (2 A Y)^2 + (2 A^2 W - L)^2 = L^2 + 4 A^2 C0.       (1.1)
 ```
 
-Thus every possible fifth-point extension maps to an integral point on one
-fixed auxiliary circle.  This is not an approximation.
+Thus every possible extension maps to an integral point on one fixed auxiliary
+circle.  This identity is exact.
 
 ---
 
-## 2. Integral slope reduction
+## 2. Reduced coordinates for an integral slope
 
-The geometric certificate contains integers `n3` and `J`.  Suppose first that
-
-```text
-n3 = J r
-```
-
-for an integer `r`.
-
-The certificate identities imply two exact equations:
+Suppose the third rooted point has rooted coordinates
 
 ```text
-N V^2 - 2 h y z q = -2 y z V r,                     (2.1)
-
-z (r^2+1) = 2 h N.                                  (2.2)
+(k,s) = (z,z r).
 ```
 
-For an actual extension with parameters `(t,W)`, define
+The certificate identities imply
 
 ```text
-X = W - h z r,
-Y = h(2t-z) - r W.
+z(r^2+1)=2hN.
 ```
 
-Substituting (2.1) into the extension quadratic and using (2.2) gives
+For an extension with rooted coordinate `t` and adjacent determinant index `W`,
+define
 
 ```text
-X^2 + Y^2 = 2 h^3 N z.                              (2.3)
+X = W-hzr,
+Y = h(2t-z)-rW.
 ```
 
-This is formalized as
+Then
+
+```text
+X^2+Y^2=2h^3Nz.                                     (2.1)
+```
+
+This is the theorem
 
 ```text
 GeomCertificate.extension_reducedCircle
@@ -81,215 +79,148 @@ GeomCertificate.extension_reducedCircle
 
 in `GaussianChain/ExtensionAuxCircle.lean`.
 
-So every later point after the initial certificate becomes an integral point on
-a second circle under one affine-linear transformation.
+---
+
+## 3. Displacement-coordinate interpretation
+
+Let the primitive root vector be `(A,B)`, and let the third chord displacement
+be
+
+```text
+d=(m,n).
+```
+
+For a later point, write its displacement from the third point as
+
+```text
+Delta=(dm,dn).
+```
+
+The rooted-coordinate difference is
+
+```text
+t-z = -(A dm+B dn),
+```
+
+and the determinant index is
+
+```text
+W = m dn-n dm.
+```
+
+The third-point relations imply
+
+```text
+m = -2hA+r n,
+n = -2hB-r m.
+```
+
+Therefore
+
+```text
+2h(t-z)-rW = m dm+n dn.                              (3.1)
+```
+
+After subtracting the image of the third point, the auxiliary map is exactly
+
+```text
+Delta |-> (cross(d,Delta), dot(d,Delta)).             (3.2)
+```
+
+The Brahmagupta identity gives
+
+```text
+cross(d,Delta)^2+dot(d,Delta)^2
+  = |d|^2 |Delta|^2.                                 (3.3)
+```
+
+Thus the auxiliary transformation is a Euclidean similarity with scale
+
+```text
+|d| = sqrt(2hz).
+```
+
+Theorems `dot_cross_norm_identity`, `dot_cross_sqDist_identity`, and
+`extensionDifference_is_similarity` formalize this calculation in
+`GaussianChain/AuxiliarySimilarity.lean`.
 
 ---
 
-## 3. General rational slope
+## 4. Why there is no descent
 
-The integrality assumption is not essential conceptually.  Put
-
-```text
-g = gcd(n3,J),
-r0 = n3/g,
-q0 = J/g.
-```
-
-Then `gcd(r0,q0)=1`.  Multiplying the reduced coordinates by `J` gives integral
-coordinates
+Equation (2.1) factors numerically as
 
 ```text
-XJ = J W - h z n3,
-YJ = h J(2t-z) - n3 W,
+2h^3Nz=(hz)^2(r^2+1).
 ```
 
-satisfying
+The image of the third point itself is divisible by `hz`, but later image
+points need not share that factor.  Divisibility of the norm by `(hz)^2` does
+not imply coordinatewise divisibility at split Gaussian primes.
+
+For example, on the circle of norm `5`, one can choose rooted data for which the
+third point maps to `(-5,5)` while a later point maps to `(-1,7)`.  Both lie on
 
 ```text
-XJ^2 + YJ^2 = 2 h^3 N z J^2.                        (3.1)
+X^2+Y^2=50,
 ```
 
-The base point `(t,W)=(z,0)` is
+but the latter has no common factor `5`.
 
-```text
-h z g (-r0,q0).
-```
+Hence one cannot divide the whole transformed family by the scale of the base
+point.
 
-After removing this common scale, the primitive norm of the auxiliary root is
-
-```text
-N_new = r0^2+q0^2.
-```
-
-The certificate equations give the exact relation
-
-```text
-z N_new = 2 h N q0^2.                               (3.2)
-```
-
-Since `gcd(N_new,q0^2)=1`, equation (3.2) implies
-
-```text
-q0^2 divides z.
-```
-
-Writing
-
-```text
-z = lambda q0^2
-```
-
-therefore yields
-
-```text
-N_new = 2 h N / lambda.                             (3.3)
-```
-
-The integer `lambda` is the renormalization factor.
+More conceptually, (3.2)--(3.3) show that no such division should be expected:
+the transformed configuration is simply a scaled and rotated copy of the
+original configuration.  Angular separations are unchanged.  If the original
+arc has endpoint angular width, so does the image after normalization by its
+new radius.
 
 ---
 
-## 4. Primitive chord interpretation
+## 5. The parameter lambda remains useful only pointwise
 
-The same parameter appears without the four-point certificate.
-
-Let a rooted circle point have coordinates `(k,s)` in the standard rooted
-parameter plane:
+For one rooted point, writing
 
 ```text
-k^2+s^2 = 2 h N k.
+g=gcd(k,s),
+k=gq,
+s=gr,
+gcd(q,r)=1
 ```
 
-Put
+gives `q | g`; writing `g=lambda q` yields
 
 ```text
-g = gcd(k,s),
-k = g q,
-s = g r,
-gcd(q,r)=1.
+k=lambda q^2,
+s=lambda qr,
+q^2+r^2=2hN/lambda.                                 (5.1)
 ```
 
-The circle equation implies `q` divides `g`.  Write
+For a fixed `lambda`, the small coordinate `q` lies in an axis-aligned endpoint
+range and only `O_C(1)` integer values of the complementary coordinate `r` are
+possible.  Thus a fixed `lambda` fiber is bounded.
 
-```text
-g = lambda q.
-```
-
-Then
-
-```text
-k = lambda q^2,
-s = lambda q r,
-q^2+r^2 = 2 h N/lambda.                             (4.1)
-```
-
-Thus `lambda` is also the primitive chord-norm parameter.  The auxiliary
-circle is the primitive circle of the chord direction.
+But the auxiliary-circle map does not globally reduce all different lambda
+fibers to a smaller common circle.  It merely repackages them by a similarity.
+Any unbounded family would still have to use many distinct lambda values.
 
 ---
 
-## 5. Descent versus critical self-similarity
+## 6. Verdict
 
-Equation (3.3) gives a genuine primitive-norm descent whenever
+The auxiliary-circle identities are correct and useful for exact reconstruction
+and finite search.  They do not provide a descent mechanism for the uniform
+arc theorem.
 
-```text
-lambda > 2 h,
-```
-
-because then
+The precise outcome is:
 
 ```text
-N_new < N.
+fixed lambda fiber  -> bounded,
+auxiliary circle     -> exact similarity,
+full family          -> no reduction in endpoint scale.
 ```
 
-The non-descent regime is
-
-```text
-lambda <= 2 h.                                      (5.1)
-```
-
-At first this appears finite, but `h` is not uniformly bounded.
-
-For a primitive root (`h=1`), only two non-descent values remain:
-
-```text
-lambda=1 or lambda=2.
-```
-
-They are explicitly critical:
-
-```text
-lambda=1:  q^2+r^2 = 2N,
-
-lambda=2:  q^2+r^2 = N.
-```
-
-The endpoint restriction gives `q=O_C(N^(1/4))`.  Hence each fixed lambda
-places `(q,r)` in an axis-aligned square-root arc on the new circle.  Its
-vertical coordinate varies through an interval of bounded length, so each
-fixed lambda contributes only `O_C(1)` points.
-
-This is a real partial theorem:
-
-> For one fixed rooted point and one fixed renormalization factor `lambda`, the
-> endpoint arc contains only `O_C(1)` extensions.
-
----
-
-## 6. Why this does not yet finish the proof
-
-Different cluster points may have different values of `lambda`.  Equation
-(4.1) only shows
-
-```text
-lambda divides 2 h N,
-```
-
-and the number of possible divisors is not uniformly bounded.
-
-Consequently, the transformation replaces one endpoint cluster by a union of
-bounded fibers indexed by the arithmetic parameter `lambda`.  To finish the
-proof one would need a global bound on the number of renormalization factors
-represented inside one short arc.
-
-That remaining problem is not artificial.  It is equivalent to controlling
-primitive chord directions of many different norms in one tangent sector, the
-same global compatibility that defeated the earlier local approaches.
-
-The renormalization therefore gives:
-
-```text
-one lambda  -> uniformly bounded,
-large cluster -> many distinct lambda values.
-```
-
-The next target is a theorem coupling distinct lambda values.  Promising
-quantities are:
-
-1. gcd and divisibility relations between the corresponding primitive chord
-   Gaussian integers `q+i r`;
-2. the fact that all `lambda(q^2+r^2)` equal the same integer `2hN`;
-3. cyclic order of the original points, which imposes an order on the rational
-   slopes `r/q`;
-4. the affine extension map, which couples every later point to the same
-   initial certificate rather than treating lambda fibers independently.
-
----
-
-## 7. Verdict
-
-The auxiliary-circle construction is not merely another discriminant bound.
-It reveals an exact critical renormalization of the endpoint problem.
-
-It succeeds in two respects:
-
-- it converts all extensions of one certificate into points on one explicit
-  integral circle;
-- it gives a primitive-norm descent except for explicitly parameterized
-  critical fibers.
-
-It fails to prove uniformity because the number of critical fibers `lambda` is
-not yet controlled.  Any continuation of this route should focus on
-interactions between distinct renormalization factors, not on counting points
-within one factor.
+This route is therefore exhausted as a standalone proof strategy.  The valid
+Lean lemmas are retained because they expose the geometry cleanly and prevent
+the same false descent interpretation from recurring.
