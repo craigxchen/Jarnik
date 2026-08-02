@@ -65,4 +65,92 @@ theorem GeomCertificate.extension_auxCircle
   apply C.extensionDiscriminant_auxCircle
   exact E.discriminant_square.symm
 
+/-- If the third geometric numerator is an integral multiple `J*r`, then the
+slope term in the extension quadratic factors by the same integer `r`. -/
+theorem GeomCertificate.discSlope_eq_of_n3_eq_J_mul
+    (C : GeomCertificate) (r : ℤ) (hr : C.n3num = C.J * r) :
+    C.N * C.V ^ 2 - 2 * C.h * C.y * C.z * C.q =
+      -2 * C.y * C.z * C.V * r := by
+  have hslope := C.discSlope_mulJ
+  rw [hr] at hslope
+  apply mul_left_cancel₀ C.hJ_ne_zero
+  calc
+    C.J * (C.N * C.V ^ 2 - 2 * C.h * C.y * C.z * C.q)
+        = -2 * C.y * C.z * C.V * (C.J * r) := hslope
+    _ = C.J * (-2 * C.y * C.z * C.V * r) := by ring
+
+/-- The same integral slope `r` lies on the reduced rooted circle
+`z (r²+1) = 2 h N`. -/
+theorem GeomCertificate.slope_norm_eq_of_n3_eq_J_mul
+    (C : GeomCertificate) (r : ℤ) (hr : C.n3num = C.J * r) :
+    C.z * (r ^ 2 + 1) = 2 * C.h * C.N := by
+  have hsquare := C.hsquare3
+  rw [hr] at hsquare
+  have hJrank : C.J * (r ^ 2 + 1) = 4 * C.h * C.x * C.y * C.c := by
+    apply mul_left_cancel₀ C.hJ_ne_zero
+    calc
+      C.J * (C.J * (r ^ 2 + 1))
+          = (C.J * r) ^ 2 + C.J ^ 2 := by ring
+      _ = 4 * C.x * C.y * C.c * C.U * C.V * C.w := hsquare
+      _ = C.J * (4 * C.h * C.x * C.y * C.c) := by
+        rw [← C.hJ]
+        ring
+  apply mul_left_cancel₀ C.hJ_ne_zero
+  calc
+    C.J * (C.z * (r ^ 2 + 1))
+        = C.z * (C.J * (r ^ 2 + 1)) := by ring
+    _ = C.z * (4 * C.h * C.x * C.y * C.c) := by rw [hJrank]
+    _ = 2 * C.h * (C.N * C.J) := by rw [C.hN]; ring
+    _ = C.J * (2 * C.h * C.N) := by ring
+
+/-- Reduced integral coordinate associated with an extension parameter, once the
+geometric slope `n3/J` is integral. -/
+def reducedExtensionX (C : Certificate) (r W : ℤ) : ℤ :=
+  W - C.h * C.z * r
+
+/-- Reduced integral coordinate associated with an extension root. -/
+def reducedExtensionY (C : Certificate) (r W t : ℤ) : ℤ :=
+  C.h * (2 * t - C.z) - r * W
+
+/-- Critical renormalization identity.
+
+When `n3 = J*r`, every actual extension maps to an integral point on the much
+smaller circle
+
+`X² + Y² = 2 h³ N z`.
+
+The nonvanishing hypothesis is exactly what is needed to remove the common
+factor `y*V` from the extension quadratic. -/
+theorem GeomCertificate.extension_reducedCircle
+    (C : GeomCertificate) (r : ℤ) (hr : C.n3num = C.J * r)
+    (hyV : C.y * C.V ≠ 0) (E : Extension C.toCertificate) :
+    reducedExtensionX C.toCertificate r E.W ^ 2 +
+        reducedExtensionY C.toCertificate r E.W E.t ^ 2 =
+      2 * C.h ^ 3 * C.N * C.z := by
+  have hD := C.discSlope_eq_of_n3_eq_J_mul r hr
+  have hrnorm := C.slope_norm_eq_of_n3_eq_J_mul r hr
+  have hquad := E.quadratic
+  have hid :
+      extPoly C.toCertificate E.W E.t =
+        (C.y * C.V) *
+          (2 * C.h * C.z * E.t ^ 2 -
+            2 * C.z * (r * E.W + C.h * C.z) * E.t +
+            C.N * E.W ^ 2) := by
+    unfold extPoly extA extB extC
+    rw [hD]
+    ring
+  have hmul :
+      (C.y * C.V) *
+          (2 * C.h * C.z * E.t ^ 2 -
+            2 * C.z * (r * E.W + C.h * C.z) * E.t +
+            C.N * E.W ^ 2) = 0 := by
+    rw [← hid, hquad]
+  have hreduced :
+      2 * C.h * C.z * E.t ^ 2 -
+          2 * C.z * (r * E.W + C.h * C.z) * E.t +
+          C.N * E.W ^ 2 = 0 :=
+    (mul_eq_zero.mp hmul).resolve_left hyV
+  unfold reducedExtensionX reducedExtensionY
+  nlinarith [hreduced, hrnorm]
+
 end GaussianChain
