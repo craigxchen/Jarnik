@@ -26,3 +26,4 @@ import GaussianChain.Certificate
 import GaussianChain.Extension
 import GaussianChain.Discriminant
 import GaussianChain.Examples
+import GaussianChain.PtolemyPlucker
