@@ -27,3 +27,4 @@ import GaussianChain.Extension
 import GaussianChain.Discriminant
 import GaussianChain.Examples
 import GaussianChain.PtolemyPlucker
+import GaussianChain.HalfAngleSharedPrime
