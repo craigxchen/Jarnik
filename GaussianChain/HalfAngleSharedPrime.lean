@@ -31,9 +31,11 @@ theorem prime_dvd_plucker_of_chord_integrality
       p * (d * p * a * b) = d * (p * a) * (p * b) := by ring
       _ = 4 * (p * N') * Δ ^ 2 := hchord
       _ = p * (4 * N' * Δ ^ 2) := by ring
-  have hp_rhs : p ∣ 4 * (N' * Δ ^ 2) := by
+  have hp_rhs₀ : p ∣ 4 * N' * Δ ^ 2 := by
     rw [← hcancel]
     exact ⟨d * a * b, by ring⟩
+  have hp_rhs : p ∣ 4 * (N' * Δ ^ 2) := by
+    simpa [mul_assoc] using hp_rhs₀
   rcases hp.dvd_mul.mp hp_rhs with hp_four | hp_tail
   · exact (hp4 hp_four).elim
   · rcases hp.dvd_mul.mp hp_tail with hp_N' | hp_sq
