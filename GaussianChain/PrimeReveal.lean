@@ -48,8 +48,8 @@ theorem child_disjoint {n : ℕ} (A : Finset (SignVector n)) (i : Fin n) :
     Disjoint (trueChild A i) (falseChild A i) := by
   rw [Finset.disjoint_left]
   intro ε htrue hfalse
-  have ht : ε i = true := (mem_trueChild A i ε).mp htrue |>.2
-  have hf : ε i = false := (mem_falseChild A i ε).mp hfalse |>.2
+  have ht : ε i = true := ((mem_trueChild A i ε).mp htrue).2
+  have hf : ε i = false := ((mem_falseChild A i ε).mp hfalse).2
   simp [ht] at hf
 
 theorem child_union {n : ℕ} (A : Finset (SignVector n)) (i : Fin n) :
@@ -85,11 +85,13 @@ previously revealed coordinate and choose opposite signs at `k`. -/
 def BranchPair {n : ℕ} (k : Fin n) (x y : SignVector n) : Prop :=
   AgreeBefore k.1 x y ∧ x k ≠ y k
 
-/-- The currently open arithmetic statement. A proof with a constant `K`
-independent of the conductor would imply the desired uniform arc bound.
-It is deliberately recorded as a proposition, not assumed as an axiom. -/
-def AdaptiveGaussianAntiConcentration : Prop :=
+/-- Abstract interface for the missing arithmetic theorem. The predicate
+`Admissible n θ δ` is where one records that the angles come from distinct
+Gaussian prime quotients and that `δ` is the critical conductor scale.
+No claim is made for arbitrary real angle lists. -/
+def UniformFiberBoundFor
+    (Admissible : ∀ n : ℕ, (Fin n → ℝ) → ℝ → Prop) : Prop :=
   ∃ K : ℕ, ∀ (n : ℕ) (θ : Fin n → ℝ) (c δ : ℝ),
-    (successfulFiber θ c δ).card ≤ K
+    Admissible n θ δ → (successfulFiber θ c δ).card ≤ K
 
 end GaussianChain.PrimeReveal
