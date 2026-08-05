@@ -28,3 +28,4 @@ import GaussianChain.Discriminant
 import GaussianChain.Examples
 import GaussianChain.PrimeReveal
 import GaussianChain.PrimeRevealCube
+import GaussianChain.PrimeRevealFaces
