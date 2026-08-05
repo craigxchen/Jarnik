@@ -30,3 +30,4 @@ import GaussianChain.PrimeReveal
 import GaussianChain.PrimeRevealCube
 import GaussianChain.PrimeRevealFaces
 import GaussianChain.PrimeRevealAdditiveCurvature
+import GaussianChain.PrimeRevealProjection
