@@ -250,10 +250,12 @@ and each child retaining a fixed positive fraction of the parent cluster.
 
 ## 6. Why the adaptive tree is the remaining obstruction
 
-If the same prime were used at every node of a given level, the depth-`d`
-renormalization tree would give a fixed-coordinate Boolean cube.  The existing
-Walsh-character argument rules out depth five for sufficiently large
-conductor.
+If the same prime is used at every node of a given level, the depth-`d`
+renormalization tree shatters those `d` revealed coordinates.  This is not yet
+a character-compatible Boolean cube: unrevealed prime layers may restrict to
+arbitrary Boolean functions on the terminal leaves.  The Walsh-character
+argument applies only after those tail patterns are also shown to be affine
+characters.
 
 The present construction is adaptive: the frequent-switch prime may depend on
 the branch.  Abstract binary codes can support arbitrarily deep adaptive trees
@@ -262,14 +264,93 @@ different branches may therefore drift, and the Walsh cancellation no longer
 isolates five fixed Gaussian blocks.
 
 This is the precise obstruction to closing the renormalization argument.  A
-successful continuation must prove one of the following arithmetic statements:
+successful continuation must prove one of the following stronger arithmetic
+statements:
 
-1. a bounded-depth adaptive tree contains a strong subtree whose prime labels
-   synchronize by level; or
-2. branchwise drift creates five pairwise-coprime effective Gaussian blocks in
-   one endpoint sector, contradicting the four-block sector lemma.
+1. a bounded-depth adaptive tree contains a strong subtree whose labels
+   synchronize by level **and** whose active tail patterns are affine
+   characters;
+2. branchwise drift creates pairwise-coprime effective Gaussian blocks in one
+   endpoint sector, with every conductor prime used with total multiplicity at
+   most one; or
+3. a persistent common core supplies a canonical oriented compensator that can
+   be removed consistently to give genuine descent.
 
-The second alternative is especially natural because labels in different
-branches are supported on disjointly renormalized factor histories.  What is
-missing is a canonical choice of branch compensator whose prime support stays
-inside its own subtree.
+The multiplicity condition in (2) is essential.  Products and cross-ratios of
+transition quotients can create exponent `2` on an overlap; pairwise-disjoint
+resulting supports alone do not imply that their norm product divides the
+conductor, so the four-block sector lemma would not apply.
+
+There is an exact depth-dependent input for alternative (3).  If a path has
+removed rational-prime product `P`, every remaining nontrivial transition
+support has conductor weight at least
+
+```text
+(1/2)log N-2log C
+```
+
+inside a remaining universe of weight `log N-log P`.  Hence two such supports
+overlap in weight at least
+
+```text
+log P-4log C.
+```
+
+After separating equal and opposite Gaussian orientations, one of
+
+```text
+gcd(B_1,B_2),  gcd(B_1,conjugate(B_2))
+```
+
+has norm at least `sqrt(P)/C^2`.  The abstract model in
+`adaptive_residual_diagonal_countermodel.md` shows that even coherent choices
+with no repetition between levels do not suffice: one oriented core can still
+serve quadratically many transition pairs inside a single level, saturating
+the endpoint allowance.  The missing step must use the Gaussian
+phase/residual cocycle to limit this within-level reuse, not only choose the
+compensators coherently.
+
+The relevant cocycle is now explicit.  As shown in
+`transition_content_cocycle.md`, for every path interval the product of the
+primitive consecutive transition blocks equals the primitive endpoint block
+times a positive rational integer.  The valuation of that integer at `p` is
+exactly half the number of `p`-switches left after the endpoint switch is
+removed.  Thus prime re-entry is the coordinate content of the actual Gaussian
+product, not merely an exponent statistic.
+
+There is also an exact terminal bound for one coherent core.  Suppose a
+squarefree Gaussian integer `K`, of norm `P`, divides each of `m` transition
+blocks, with its orientation allowed to be simultaneously conjugated.  After
+conjugating the corresponding class, write
+
+```text
+E_i = K D_i.
+```
+
+If the original blocks have arguments in `[0,s]` and norms at most `Q`, the
+tails `D_i` occupy a sector of width `2s`, have norms at most `Q/P`, and their
+reduced residuals are exactly
+
+```text
+Im(conjugate(D_i)D_j).
+```
+
+If the `m` tail rays are distinct, consecutive rays are separated by at least
+`P/Q`, giving
+
+```text
+m <= 1+2sQ/P.                                      (6.1)
+```
+
+If `r` of the tails have pairwise-disjoint rational-prime supports, determinant
+spacing and the one-use norm budget give
+
+```text
+P <= Q(2s)^r.                                      (6.2)
+```
+
+At root endpoint scale `Q=N`, `s<=C N^(-1/4)`, four disjoint tails already
+force `P<=(2C)^4`.  This strengthens the disjoint-petal outcome, but also shows
+the limitation: factoring `K` makes it disappear completely from the residual
+matrix.  A large core cannot be charged proportionally to all pairs that use
+it; heavily overlapping tails remain the unresolved case.

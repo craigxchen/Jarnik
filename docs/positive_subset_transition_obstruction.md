@@ -252,7 +252,7 @@ and
 residual numerator R(J).
 ```
 
-A sufficient global theorem would be a lower bound such as
+A useful global theorem is a lower bound such as
 
 ```text
 sum_(J in F) log R(J) >= c |F| log |F| - O(|F|)
@@ -260,23 +260,66 @@ sum_(J in F) log R(J) >= c |F| log |F| - O(|F|)
 
 for a canonically chosen family `F` of transition subsets, unless the transition
 system has bounded rank or a common Gaussian divisor permitting genuine
-descent.
+descent.  The inert-prime projective-collision theorem in
+`inert_prime_residual_growth.md` now proves this order of aggregate growth for
+the forced-reduced pairwise Plucker residuals.
 
-Combined with (6.1), such a bound would turn the fixed total angular budget into
-an absolute bound on the number of transitions.
+By itself, however, aggregate growth does not yet turn (6.1) into an absolute
+bound.  The conductor-width surplus can grow at the same time.  The missing
+inequality must compare the two quantities and charge repeated conductor
+re-entry rather than simply lower-bound the residuals.
 
-The immediate finite test is to understand the residual numerators for four
-and five transitions.  They are linked by the positive half-angle continuant
-relations and by the multiplicative identities
+The finite four/five-transition test has also now been carried out.  The
+residuals are linked by the positive half-angle continuant relations and by the
+multiplicative identities
 
 ```text
 u_(J union K) = u_J u_K
 ```
 
-for disjoint subsets.  The known four-point endpoint example realizes the
-critical case through the coprime continuant coefficients `1597`, `233`, and
-`610`; a fifth transition would require a new compatible layer of residual
-numerators.
+for disjoint subsets, but a fifth compatible layer is possible.
+
+There is an exact four-transition/five-point example on the circle of norm
+
+```text
+N=27625
+```
+
+with points
+
+```text
+(120,115), (115,120), (101,132), (88,141), (83,144).
+```
+
+Its successive half-angle cotangents are
+
+```text
+47, 18, 21, 57,
+```
+
+all subset-product primitive ordinates are at most `11`, and the five points
+lie in an arc shorter than `4 N^(1/4)`.
+
+More decisively, the five cotangents
+
+```text
+157, 993, 307, 302, 278
+```
+
+give six exact points of norm
+
+```text
+N=6076533125
+```
+
+inside an arc shorter than `10 N^(1/4)`.  All `31` nonempty subset products
+have primitive ordinate at most `191`.  Their transition norms repeatedly
+reuse the primes `5` and `29`; they do not form five disjoint conductor petals.
+
+Thus no theorem saying that a fifth transition is algebraically incompatible,
+or that it forces one individually large residual, can be correct.  What must
+eventually fail is residual efficiency relative to the conductor cost as the
+number of transitions tends to infinity.
 
 ---
 
@@ -284,12 +327,17 @@ numerators.
 
 The positive-subset strengthening is real, but exponent-width information still
 has an exact arbitrary-length fixed point.  The next successful potential must
-measure the residual Gaussian numerators, not only the prime supports.
+couple the residual Gaussian numerators to the prime re-entry surplus, not only
+measure either one separately.
 
 The active problem is now concrete:
 
 ```text
-prove that the cocycle-linked residual numerators R(J)
-cannot remain simultaneously bounded along an unbounded positive transition
-process.
+prove that the cocycle-linked residual growth cannot be paid for by repeated
+reuse of one conductor core along an unbounded positive transition process.
 ```
+
+The exact algebraic form of that coupling is developed in
+`transition_content_cocycle.md`: on every interval, the weighted prime re-entry
+count is precisely the rational coordinate content of the product of its
+primitive transition blocks.

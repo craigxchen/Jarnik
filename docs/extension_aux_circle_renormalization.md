@@ -207,7 +207,98 @@ Any unbounded family would still have to use many distinct lambda values.
 
 ---
 
-## 6. Verdict
+## 6. Exact rational parametrization and the integral remainder
+
+The discriminant calculation can be sharpened to an exact birational
+identification.  Put
+
+```text
+r = n3num/J
+```
+
+when the third rooted slope is integral.  The geometric certificate identities
+give
+
+```text
+N V^2-2 h y z q = -2 y z V r,
+z(r^2+1)=2hN.
+```
+
+After dividing the extension polynomial by `yV`, its equation is
+
+```text
+2hzt^2-2z(rW+hz)t+NW^2=0.                            (6.1)
+```
+
+For `W != 0`, set
+
+```text
+m = 2h(t-z)/W-r.
+```
+
+Then (6.1) is parametrized by
+
+```text
+t = 2hN/(m^2+1),
+W = 2hz(r-m)/(m^2+1).                                (6.2)
+```
+
+Conversely every rational `m` gives a rational point of (6.1).  Thus the
+extension conic has no rational rigidity beyond the original rooted circle.
+For positive geometric data, the rational sign and strict-admissibility
+conditions reduce to `0<m<r` together with the endpoint bound on `t`.
+
+Write `m=a/b` in lowest terms and put `e=a^2+b^2`.  Formula (6.2) gives
+
+```text
+t = 2hN b^2/e.
+```
+
+Since `gcd(e,b)=1`,
+
+```text
+t is integral  iff  e divides 2hN.                  (6.3)
+```
+
+The remaining reconstruction conditions are explicit linear divisibilities
+for `W,w',c',J'`.  In particular, a fixed certificate has at most
+
+```text
+sum_(e|2hN) r_2(e) <= 4 tau(2hN)^2
+```
+
+raw rational-slope candidates.  This is a useful exact finite search, but its
+size is not uniform in the conductor.
+
+For the known certificate
+
+```text
+(h,N,z,r)=(5,22698161,1597,377),
+```
+
+an exact enumeration of the primitive sum-of-two-squares divisors of `2hN`
+finds no candidate with
+
+```text
+1597<t,   4t^2<=22698161.
+```
+
+So the known four-point cluster has no fifth admissible extension.  This is a
+property of that finite divisor list, not a general four-to-five obstruction.
+
+Equivalently, if one instead regards the extension polynomial as a quadratic
+in `W`, its discriminant is
+
+```text
+4y^2z^2V^2 t(2hN-t).
+```
+
+The rooted circle equation makes this a square automatically.  Only the
+integrality congruences remain.
+
+---
+
+## 7. Verdict
 
 The auxiliary-circle identities are correct and useful for exact reconstruction
 and finite search.  They do not provide a descent mechanism for the uniform

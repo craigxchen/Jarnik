@@ -18,11 +18,29 @@ This remains open in this repository.
 
 The earlier Ru--Vojta/generalized-GCD and determinant equality-case programs are no longer active. They are retained as an audit trail, but they are not imported by the umbrella build and should not be read as the current proof plan.
 
-The active research reset is:
+The inverse-concentration reset begins at:
 
 - `docs/research_reset_inverse_concentration.md`
 
-Its starting point is the global exponent-angle model. After factoring the common norm, every point is represented by an exponent vector `a` in a Gaussian conductor box, and its angle is a linear form
+The current ordered/residual frontier is:
+
+- `docs/short_gap_prime_reveal_renormalization.md`
+- `docs/positive_subset_transition_obstruction.md`
+- `docs/inert_prime_residual_growth.md`
+- `docs/adaptive_residual_diagonal_countermodel.md`
+- `docs/transition_content_cocycle.md`
+
+The last of these proves aggregate `m^2 log m` growth of the forced-reduced
+Plucker residuals in the odd squarefree split model and sharpens the resulting
+sublogarithmic coefficient.  The remaining uniformity problem is to couple
+that growth to repeated conductor-core reuse along the adaptive
+renormalization tree.  The countermodel shows that support, collision, and
+levelwise non-reuse estimates alone cannot supply this coupling; the missing
+input must use the actual Gaussian phase/residual cocycle.  The transition
+content note identifies that cocycle exactly: prime re-entry is the rational
+content removed from a product of primitive transition blocks.
+
+The broader program starts from the global exponent-angle model. After factoring the common norm, every point is represented by an exponent vector `a` in a Gaussian conductor box, and its angle is a linear form
 
 ```text
 Phi(a) = sum_j (2 a_j - e_j) theta_j  mod 2 pi.

@@ -255,6 +255,25 @@ first-order tropical relation is therefore not enough.  Any successful use of
 all quadruples must retain the actual residual integers in (6.2), not just
 their sizes.
 
+There is not even a positive residual cost for one arbitrary quartet.  The
+ordered primitive Gaussian vectors
+
+```text
+27+13i, 29+14i, 31+15i, 2+i
+```
+
+have raw positive Plucker coordinates
+
+```text
+1, 2, 1, 1, 1, 1.
+```
+
+The unique coordinate `2` has a forced Gaussian gcd of norm `2`; after this is
+removed, all six residual determinants equal `1`, and Plucker reduces exactly
+to `2=1+1`.  Thus no argument assigning a fixed positive `log`-residual gain
+to every quartet can be valid.  Any gain must come from compatibility across
+many overlapping coprime equations and from their conductor heights.
+
 ---
 
 ## 7. Revised global target
