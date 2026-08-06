@@ -32,3 +32,4 @@ import GaussianChain.PrimeRevealFaces
 import GaussianChain.PrimeRevealAdditiveCurvature
 import GaussianChain.PrimeRevealProjection
 import GaussianChain.PrimeRevealBlockFibers
+import GaussianChain.PrimeRevealCollisions
