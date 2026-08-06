@@ -31,6 +31,7 @@ The current ordered/residual frontier is:
 - `docs/transition_content_cocycle.md`
 - `docs/interval_content_aggregation_audit.md`
 - `docs/high_return_pattern_descent.md`
+- `docs/five_product_capacity_audit.md`
 
 The inert-prime note proves aggregate `m^2 log m` growth of the forced-reduced
 Plucker residuals in the odd squarefree split model and sharpens the resulting
@@ -49,6 +50,12 @@ phase-cancellation problem.  The countermodels show that support, collision,
 run-count, and bounded-depth non-reuse estimates alone cannot supply the
 missing contradiction; the next input must quantify critical lcm-height
 efficiency of the actual signed Gaussian products.
+
+The five-product audit tests the first proposed fixed-dimensional resultant at
+the exact finite valuation level.  It proves that pair determinants, Plucker
+cancellation, rank four, and pattern-forced monomial content cannot provide the
+required fourth-order decay with a one-use conductor budget.  It replaces that
+failed universal lemma by an exact weighted occurrence-pattern capacity test.
 
 The broader program starts from the global exponent-angle model. After factoring the common norm, every point is represented by an exponent vector `a` in a Gaussian conductor box, and its angle is a linear form
 
