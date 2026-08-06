@@ -39,39 +39,12 @@ theorem card_eq_sum_blockFiber {n : ℕ} (A : Finset (SignVector n))
   rw [← Finset.sum_fiberwise_eq_card_filter]
   simp [coordinateProjection, blockFiber]
 
-/-- Every realized block pattern has at least one completion. -/
+/-- Every realized block pattern has at least one completion, so the number
+of realized patterns is at most the number of successful full assignments. -/
 theorem projection_card_le_card {n : ℕ} (A : Finset (SignVector n))
     (T : Finset (Fin n)) :
     (coordinateProjection A T).card ≤ A.card := by
   classical
   exact Finset.card_image_le
-
-/-- There is a realized block pattern whose fiber has at least the average size. -/
-theorem exists_large_blockFiber {n : ℕ} (A : Finset (SignVector n))
-    (T : Finset (Fin n)) (hA : A.Nonempty) :
-    ∃ y ∈ coordinateProjection A T,
-      A.card ≤ (coordinateProjection A T).card * (blockFiber A T y).card := by
-  classical
-  have hproj : (coordinateProjection A T).Nonempty := by
-    rcases hA with ⟨x, hxA⟩
-    exact ⟨restrictSigns T x, (mem_coordinateProjection A T _).mpr ⟨x, hxA, rfl⟩⟩
-  by_contra h
-  push_neg at h
-  have hlt : ∀ y ∈ coordinateProjection A T,
-      (coordinateProjection A T).card * (blockFiber A T y).card < A.card := h
-  have hsum := card_eq_sum_blockFiber A T
-  have hcardpos : 0 < (coordinateProjection A T).card := Finset.card_pos.mpr hproj
-  have havg : ∀ y ∈ coordinateProjection A T,
-      (blockFiber A T y).card < A.card := by
-    intro y hy
-    have := hlt y hy
-    omega
-  have hsumlt : ∑ y ∈ coordinateProjection A T, (blockFiber A T y).card <
-      (coordinateProjection A T).card * A.card := by
-    exact Finset.sum_lt_sum_of_nonempty hproj fun y hy ↦ havg y hy
-  rw [← hsum] at hsumlt
-  have hge : A.card ≤ (coordinateProjection A T).card * A.card := by
-    nlinarith
-  omega
 
 end GaussianChain.PrimeReveal
