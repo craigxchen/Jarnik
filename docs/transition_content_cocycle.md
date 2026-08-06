@@ -230,8 +230,20 @@ The exact remaining problem can now be phrased as follows.
 > `C_(a:b)` simultaneously realize the re-entry formula (3.3) for one common
 > squarefree Gaussian conductor.
 
-The abstract diagonal countermodel does not satisfy (2.1)--(3.5) with its
-assigned conductor characters, so this is genuinely stronger than support,
-entropy, or projective-collision information. The finite example shows that a
-valid theorem must be aggregate or asymptotic: four and five transitions can
-remain maximally content-efficient.
+The abstract diagonal countermodel does not itself assign Gaussian coordinates
+satisfying (2.1)--(3.5), so the cocycle is genuinely stronger than support,
+entropy, or projective-collision information.  It is not, however, sufficient
+by itself.  The all-interval calculation in
+`interval_content_aggregation_audit.md` shows that scalar content cancels
+prime by prime against the weighted transition norms and recovers exactly the
+old pairwise cut identity.  Moreover, an oriented CRT construction realizes
+every fixed finite character code by honest common-oriented Gaussian divisors
+with bounded residuals; what prevents that construction from being critical
+is excessive Gaussian lcm height.
+
+The finite examples and the aggregation audit therefore sharpen the target:
+a valid theorem must be asymptotic and must couple the simultaneous signed
+phases to **critical height efficiency**, not merely to content size.  The
+companion `high_return_pattern_descent.md` proves that a hypothetical
+counterexample is forced into a dense regime of linearly many small recurrent
+pattern blocks.

@@ -29,16 +29,26 @@ The current ordered/residual frontier is:
 - `docs/inert_prime_residual_growth.md`
 - `docs/adaptive_residual_diagonal_countermodel.md`
 - `docs/transition_content_cocycle.md`
+- `docs/interval_content_aggregation_audit.md`
+- `docs/high_return_pattern_descent.md`
 
-The last of these proves aggregate `m^2 log m` growth of the forced-reduced
+The inert-prime note proves aggregate `m^2 log m` growth of the forced-reduced
 Plucker residuals in the odd squarefree split model and sharpens the resulting
-sublogarithmic coefficient.  The remaining uniformity problem is to couple
-that growth to repeated conductor-core reuse along the adaptive
-renormalization tree.  The countermodel shows that support, collision, and
-levelwise non-reuse estimates alone cannot supply this coupling; the missing
-input must use the actual Gaussian phase/residual cocycle.  The transition
-content note identifies that cocycle exactly: prime re-entry is the rational
-content removed from a product of primitive transition blocks.
+sublogarithmic coefficient.  The transition-content note identifies the exact
+phase/conductor cocycle: prime re-entry is the rational content removed from a
+product of primitive transition blocks.  The all-interval audit then proves
+that scalar content cancels exactly back to the old pairwise cut bound, so
+content size alone cannot close the endpoint.
+
+The high-return descent note is the latest positive reduction.  It shows that
+a hypothetical `n`-point counterexample must contain linearly many disjoint
+complete orientation-pattern blocks, each of norm at most
+`N^(2/n+o(1))`, and linearly many short transitions each involving linearly
+many such blocks.  Thus the remaining uniformity problem is a dense Gaussian
+phase-cancellation problem.  The countermodels show that support, collision,
+run-count, and bounded-depth non-reuse estimates alone cannot supply the
+missing contradiction; the next input must quantify critical lcm-height
+efficiency of the actual signed Gaussian products.
 
 The broader program starts from the global exponent-angle model. After factoring the common norm, every point is represented by an exponent vector `a` in a Gaussian conductor box, and its angle is a linear form
 

@@ -354,3 +354,31 @@ force `P<=(2C)^4`.  This strengthens the disjoint-petal outcome, but also shows
 the limitation: factoring `K` makes it disappear completely from the residual
 matrix.  A large core cannot be charged proportionally to all pairs that use
 it; heavily overlapping tails remain the unresolved case.
+
+---
+
+## 7. Global pattern descent sharpens the hard branch
+
+The complete-word argument in `high_return_pattern_descent.md` strengthens
+the adaptive-tree conclusion.  Let the cluster have `n` points and conductor
+height `H`.  The Farey/run inequality forces at least `H/3-o(H)` of the
+conductor into prime words with at least `(n-1)/8` returns.  On the other hand,
+max-cut after division of either orientation class shows that every complete
+pattern block has weight at most
+
+```text
+(2+o(1))H/n.
+```
+
+Hence there are at least `n/6-o(n)` distinct high-return pattern blocks.
+Furthermore, at least `(n-1)/56-O(1)` consecutive transitions are both at
+most eight times the mean gap and flip at least `n/48-o(n)` of those disjoint
+blocks.
+
+Thus the unresolved case is no longer merely an adaptive label-drift tree or
+a vague heavily-overlapping tail.  It is a dense signed cancellation matrix:
+linearly many short positive Gaussian products, each using linearly many
+one-use atoms of norm `N^(2/n+o(1))`.  Individual atoms are much farther apart
+in angle than the endpoint width, so any phase repair must be collective.  A
+bounded-depth common-core or bounded-body sector extraction cannot handle this
+branch.

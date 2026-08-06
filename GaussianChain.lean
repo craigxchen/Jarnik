@@ -29,3 +29,4 @@ import GaussianChain.Examples
 import GaussianChain.PtolemyPlucker
 import GaussianChain.HalfAngleSharedPrime
 import GaussianChain.GaussianTripleBlocks
+import GaussianChain.HighReturnPatterns
