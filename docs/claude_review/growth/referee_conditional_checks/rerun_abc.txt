@@ -1,0 +1,67 @@
+(E) 60 random circles N<=3e+10, C=4: 1582 pairs with |z-w|<=C sqrt(R)
+    min log rad(n)/log R = 0.410  at N=13796605, n=841, rad=29, s=-1
+    max abc quality over the triples s^2+t^2=c0: 0.998
+(E') powerful circles N = 5^a 13^b (rad N = 65): pairs at distance <= C sqrt(R)
+    N=5^0 13^4: 4 close pairs, max log rad(n)/log R = 0.500
+    N=5^0 13^5: 8 close pairs, max log rad(n)/log R = 0.400
+    N=5^0 13^6: 12 close pairs, max log rad(n)/log R = 0.333
+    N=5^0 13^7: 16 close pairs, max log rad(n)/log R = 0.286
+    N=5^0 13^8: 22 close pairs, max log rad(n)/log R = 0.250
+    N=5^1 13^3: 39 close pairs, max log rad(n)/log R = 0.897
+    N=5^1 13^4: 31 close pairs, max log rad(n)/log R = 0.703
+    N=5^1 13^5: 16 close pairs, max log rad(n)/log R = 0.355
+    N=5^1 13^6: 24 close pairs, max log rad(n)/log R = 0.302
+    N=5^1 13^7: 32 close pairs, max log rad(n)/log R = 0.262
+    N=5^1 13^8: 40 close pairs, max log rad(n)/log R = 0.232
+    N=5^2 13^3: 77 close pairs, max log rad(n)/log R = 0.765
+    N=5^2 13^4: 59 close pairs, max log rad(n)/log R = 0.619
+    N=5^2 13^5: 24 close pairs, max log rad(n)/log R = 0.320
+    N=5^2 13^6: 36 close pairs, max log rad(n)/log R = 0.276
+    N=5^2 13^7: 48 close pairs, max log rad(n)/log R = 0.242
+    N=5^2 13^8: 59 close pairs, max log rad(n)/log R = 0.216
+    N=5^3 13^2: 91 close pairs, max log rad(n)/log R = 0.838
+    N=5^3 13^3: 93 close pairs, max log rad(n)/log R = 0.667
+    N=5^3 13^4: 40 close pairs, max log rad(n)/log R = 0.553
+    N=5^3 13^5: 64 close pairs, max log rad(n)/log R = 0.473
+    N=5^3 13^6: 48 close pairs, max log rad(n)/log R = 0.254
+    N=5^3 13^7: 64 close pairs, max log rad(n)/log R = 0.225
+    N=5^4 13^2: 86 close pairs, max log rad(n)/log R = 0.722
+    N=5^4 13^3: 79 close pairs, max log rad(n)/log R = 0.591
+    N=5^4 13^4: 68 close pairs, max log rad(n)/log R = 0.500
+    N=5^4 13^5: 64 close pairs, max log rad(n)/log R = 0.433
+    N=5^4 13^6: 60 close pairs, max log rad(n)/log R = 0.235
+    N=5^4 13^7: 80 close pairs, max log rad(n)/log R = 0.210
+    N=5^5 13^1: 63 close pairs, max log rad(n)/log R = 0.787
+    N=5^5 13^2: 107 close pairs, max log rad(n)/log R = 0.634
+    N=5^5 13^3: 63 close pairs, max log rad(n)/log R = 0.530
+    N=5^5 13^4: 96 close pairs, max log rad(n)/log R = 0.456
+    N=5^5 13^5: 48 close pairs, max log rad(n)/log R = 0.246
+    N=5^5 13^6: 72 close pairs, max log rad(n)/log R = 0.219
+    N=5^6 13^0: 42 close pairs, max log rad(n)/log R = 0.333
+    N=5^6 13^1: 63 close pairs, max log rad(n)/log R = 0.683
+    N=5^6 13^2: 62 close pairs, max log rad(n)/log R = 0.565
+    N=5^6 13^3: 64 close pairs, max log rad(n)/log R = 0.481
+    N=5^6 13^4: 60 close pairs, max log rad(n)/log R = 0.419
+    N=5^6 13^5: 56 close pairs, max log rad(n)/log R = 0.228
+    N=5^7 13^0: 15 close pairs, max log rad(n)/log R = 0.286
+    N=5^7 13^1: 68 close pairs, max log rad(n)/log R = 0.604
+    N=5^7 13^2: 48 close pairs, max log rad(n)/log R = 0.509
+    N=5^7 13^3: 19 close pairs, max log rad(n)/log R = 0.440
+    N=5^7 13^4: 32 close pairs, max log rad(n)/log R = 0.238
+    N=5^7 13^5: 64 close pairs, max log rad(n)/log R = 0.213
+    N=5^8 13^0: 16 close pairs, max log rad(n)/log R = 0.250
+    N=5^8 13^1: 57 close pairs, max log rad(n)/log R = 0.541
+    N=5^8 13^2: 55 close pairs, max log rad(n)/log R = 0.464
+    N=5^8 13^4: 36 close pairs, max log rad(n)/log R = 0.222
+    N=5^9 13^0: 20 close pairs, max log rad(n)/log R = 0.222
+    N=5^9 13^1: 36 close pairs, max log rad(n)/log R = 0.490
+    N=5^10 13^1: 32 close pairs, max log rad(n)/log R = 0.447
+    N=5^11 13^2: 4 close pairs, max log rad(n)/log R = 0.366
+    N=5^11 13^3: 8 close pairs, max log rad(n)/log R = 0.329
+    N=5^12 13^2: 8 close pairs, max log rad(n)/log R = 0.342
+    (no line printed for a given (a,b) means no close pair)
+(F) Ptolemy relation a+b=c on 4-point subsets of the six-point CG family
+    a=20: N=6.556e+10, 15 quadruples: max abc quality 0.451, min log rad(abc)/log max = 2.217
+    a=50: N=5.769e+13, 15 quadruples: max abc quality 0.404, min log rad(abc)/log max = 2.475
+    a=100: N=1.218e+16, 15 quadruples: max abc quality 0.403, min log rad(abc)/log max = 2.482
+    a=300: N=7.011e+19, 15 quadruples: max abc quality 0.446, min log rad(abc)/log max = 2.244

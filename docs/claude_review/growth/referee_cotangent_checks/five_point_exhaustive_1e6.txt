@@ -1,0 +1,3 @@
+{'circles': 215594, 'windows': 3138560, 'diam_ok': 3138560, 'B2_ok': 2315520, 'six_ok': 2315520, 'halfplane': 2315520, 'rnd': 51331, 'rnd_six': 51331}
+min diam/N^(1/5) over half-plane 5-windows: 4.2024 at N=25 [(-4, -3), (-3, -4), (0, -5), (3, -4), (4, -3)]
+tightest (B2) ratio dmax^10/(128 sigma prod s N^2) = 946.8623 at N=271441 [(-440, -279), (-279, -440), (0, -521), (279, -440), (440, -279)] sigma=1 prod s=31187389269960

@@ -1,0 +1,21 @@
+# output of paley_collision_check.py  <q> <seed=1> <b>   (C=1, D=0, primes from the densest window of log-width 1/r in [X,2X))
+## b=5
+Paley order M=12, b=5, r=55 primes in [100049,101273], W=633.6 (W/(M log M)=21.25)
+  pairs=66  max small-prime collision cost (q<=M)=18.66  max(coll-slack)=4.15  violations=6
+  aggregate: sum coll=288.2  sum slack=1762.5  (M^2/2) log M=178.9
+Paley order M=20, b=5, r=95 primes in [178117,179989], W=1149.1 (W/(M log M)=19.18)
+  pairs=190  max small-prime collision cost (q<=M)=24.48  max(coll-slack)=16.00  violations=21
+  aggregate: sum coll=1089.3  sum slack=5503.5  (M^2/2) log M=599.1
+Paley order M=44, b=5, r=215 primes in [3748133,3754301], W=3254.6 (W/(M log M)=19.55)
+  pairs=946  max small-prime collision cost (q<=M)=37.37  max(coll-slack)=29.79  violations=95
+  aggregate: sum coll=6566.3  sum slack=35134.3  (M^2/2) log M=3663.1
+## b=9
+Paley order M=12, b=9, r=99 primes in [206897,208993], W=1212.2 (W/(M log M)=40.65)
+  pairs=66  max small-prime collision cost (q<=M)=17.24  max(coll-slack)=-20.43  violations=0
+  aggregate: sum coll=325.4  sum slack=3489.7  (M^2/2) log M=178.9
+Paley order M=20, b=9, r=171 primes in [702257,706357], W=2302.5 (W/(M log M)=38.43)
+  pairs=190  max small-prime collision cost (q<=M)=19.98  max(coll-slack)=-17.60  violations=0
+  aggregate: sum coll=1079.3  sum slack=11243.3  (M^2/2) log M=599.1
+Paley order M=44, b=9, r=387 primes in [4296217,4307309], W=5911.2 (W/(M log M)=35.50)
+  pairs=946  max small-prime collision cost (q<=M)=34.43  max(coll-slack)=-3.75  violations=0
+  aggregate: sum coll=7011.2  sum slack=64351.6  (M^2/2) log M=3663.1

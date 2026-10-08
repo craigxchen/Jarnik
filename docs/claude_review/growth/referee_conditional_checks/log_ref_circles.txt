@@ -1,0 +1,4 @@
+R3: 259 circles, 24488 short-arc subtuples (C in 1,2,4,8; sizes 2..7): fail(a)=0 fail(c)=0; 7-subtuples=16 fail(Phi bound)=0 min slack=1.777
+R4: 2864384 pairs: identity failures = 0
+Machin: 239^2+1 == 2*13^4: True ; both on 13^8: True ; |z-w|/sqrt(R) = 1.414213562373095
+   gcd norm = 28561  n = R^2/|g|^2 = 28561 = 13^ 4

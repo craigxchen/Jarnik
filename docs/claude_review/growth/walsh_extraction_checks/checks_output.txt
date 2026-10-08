@@ -1,0 +1,46 @@
+== check_defect_identity.py
+Part 1: exact identity on 2999 random weighted profiles ( 1500 balanced +-1 cases)
+Part 1b: four-row specialisation Delta=(W-T1234)/4 on 500 profiles
+Part 2: literal Gaussian heights and identity on 180 characters (Paley12/Walsh8/Paley20 flipped, content 2+i, random units)
+ALL PASS
+== check_hadamard_residue_pigeonhole.py
+1. label-count bound held on 280 random weightings (full and row-deleted cores)
+   walsh16  b=1  W=    76.4  log C_act=    19.3  W/(8M)=   0.60
+   walsh16  b=1  W=    76.4  log C_act=    19.3  W/(8M)=   0.60
+   walsh16  b=1  W=    76.4  log C_act=    19.2  W/(8M)=   0.60
+   walsh32  b=3  W=   587.4  log C_act=   147.2  W/(8M)=   2.29
+   walsh32  b=2  W=   370.8  log C_act=    93.0  W/(8M)=   1.45
+   walsh32  b=2  W=   370.8  log C_act=    93.1  W/(8M)=   1.45
+   walsh64  b=1  W=   377.6  log C_act=    94.8  W/(8M)=   0.74
+   walsh64  b=2  W=   830.0  log C_act=   207.9  W/(8M)=   1.62
+   walsh64  b=1  W=   377.6  log C_act=    94.8  W/(8M)=   0.74
+   paley12  b=2  W=   116.3  log C_act=    29.1  W/(8M)=   1.21
+   paley12  b=2  W=   116.3  log C_act=    29.2  W/(8M)=   1.21
+   paley12  b=1  W=    54.5  log C_act=    13.7  W/(8M)=   0.57
+   paley20  b=3  W=   337.2  log C_act=    84.6  W/(8M)=   2.11
+   paley20  b=1  W=    98.9  log C_act=    25.0  W/(8M)=   0.62
+   paley20  b=1  W=    98.9  log C_act=    25.0  W/(8M)=   0.62
+   paley44  b=3  W=   852.6  log C_act=   213.5  W/(8M)=   2.42
+   paley44  b=3  W=   852.6  log C_act=   213.5  W/(8M)=   2.42
+   paley44  b=3  W=   852.6  log C_act=   213.5  W/(8M)=   2.42
+   paley68  b=2  W=   890.4  log C_act=   223.0  W/(8M)=   1.64
+   paley68  b=1  W=   404.9  log C_act=   101.6  W/(8M)=   0.74
+   paley68  b=3  W=  1413.4  log C_act=   353.7  W/(8M)=   2.60
+3. literal pure cores: optimal-unit arc constants consistent with Theorem B on 21 configurations
+4a. Theorem B counting M/3 > (1+sqrt(4M-3))/2+8 for M=64..1024 (monotone beyond)
+4b. Theorem B'' pigeonhole binom(n,L) > (2L+1)^f M holds (exact integers): [(4096, 12, 68, 1051), (8192, 22, 136, 2102), (16384, 42, 273, 4199), (65536, 147, 1092, 16804)] ...
+5. C=  1.0 : Theorem B hypotheses automatic for powers of two M >= 64 ; Theorem B'' (W-condition) for M >= 64 (tested to 2^17)
+5. C=  2.0 : Theorem B hypotheses automatic for powers of two M >= 128 ; Theorem B'' (W-condition) for M >= 512 (tested to 2^17)
+5. C=  4.0 : Theorem B hypotheses automatic for powers of two M >= 256 ; Theorem B'' (W-condition) for M >= 32768 (tested to 2^17)
+5. C=  8.0 : Theorem B hypotheses automatic for powers of two M >= 1024 ; Theorem B'' (W-condition) for M >= None (tested to 2^17)
+5. C= 16.0 : Theorem B hypotheses automatic for powers of two M >= 4096 ; Theorem B'' (W-condition) for M >= None (tested to 2^17)
+ALL PASS
+== check_theorem_C_ingredients.py
+1. density lemma: affine flats found in 44 random dense sets (all at the stated threshold)
+2. row-deleted pigeonhole certificates verified exactly: 90
+3a. fully flipped: every row has a flipped/unflipped sibling pair differing by 2e_x (so 2*lambda_x integral): 48 rows
+3b. partially flipped Walsh-64 with an unflipped 16-row affine cube: 60 fractional (1/16) characters with integral images
+ALL PASS
+== check_pell_eight_structure.py
+n=1: 8 distinct equal-norm primitive points, log10 N=24, log10(max chord/sqrt R)=4.34 ; block signs = affine 3-cube ; F-class affine: False
+n=61: 8 distinct equal-norm primitive points, log10 N=622, log10(max chord/sqrt R)=7.65 ; block signs = affine 3-cube ; F-class affine: False

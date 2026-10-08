@@ -1,0 +1,21 @@
+R2: intersection numbers on Bl_Y X_M; K.G = -2d + (M-2) E.G
+ CG family d=4, sum sigma=0: 6 points
+   e.g. first 6-subtuple: E.G=2 (finite 0, at a=inf 2), K.G=0
+   CG d=4: 1 6-subtuples of 6 points, degree d=4: K.Gamma~ ranges [0,0],  eps threshold K.G/d: [0.000,0.000]
+ CG family d=5, sum sigma=1: 10 points
+   e.g. first 7-subtuple: E.G=2 (finite 0, at a=inf 2), K.G=0
+   CG d=5: 120 7-subtuples of 10 points, degree d=5: K.Gamma~ ranges [0,0],  eps threshold K.G/d: [0.000,0.000]
+ CG family d=5, sum sigma=1: 10 points
+   e.g. first 8-subtuple: E.G=2 (finite 0, at a=inf 2), K.G=2
+   CG d=5: 45 8-subtuples of 10 points, degree d=5: K.Gamma~ ranges [2,2],  eps threshold K.G/d: [0.400,0.400]
+ CG family d=6, sum sigma=0: 20 points
+   e.g. first 7-subtuple: E.G=2 (finite 0, at a=inf 2), K.G=-2
+   CG d=6: 77520 7-subtuples of 20 points, degree d=6: K.Gamma~ ranges [-2,-2],  eps threshold K.G/d: [-0.333,-0.333]
+ CG family d=6, sum sigma=0: 20 points
+   e.g. first 8-subtuple: E.G=2 (finite 0, at a=inf 2), K.G=0
+   CG d=6: 125970 8-subtuples of 20 points, degree d=6: K.Gamma~ ranges [0,0],  eps threshold K.G/d: [0.000,0.000]
+ CG family d=6, sum sigma=0: 20 points
+   e.g. first 9-subtuple: E.G=2 (finite 0, at a=inf 2), K.G=2
+Terminated
+
+[exited with code 143]

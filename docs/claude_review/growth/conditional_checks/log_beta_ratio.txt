@@ -1,0 +1,6 @@
+M=3 N=24: h0=10425 beta_N=0.7725 generic=0.7646 ratio=1.0103
+M=4 N=12: h0=9633 beta_N=0.9275 generic=0.9165 ratio=1.0120
+M=5 N=6: h0=2471 beta_N=0.9868 generic=0.9756 ratio=1.0115
+M=6 N=5: h0=2668 beta_N=1.0252 generic=1.0159 ratio=1.0091
+M=7 N=4: h0=1765 beta_N=1.0368 generic=1.0224 ratio=1.0141
+M=8 N=3: h0=704 beta_N=1.0208 generic=1.0208 ratio=1.0000

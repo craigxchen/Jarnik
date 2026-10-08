@@ -1,0 +1,22 @@
+== A. determinant factorization on the circle ==
+A: 24 determinants: 2^{mD} prod z^D det f = det G and V | det G exactly; max |Phi - Phi(z1,..,z1)|/|Phi(z1,..,z1)| = 0.0114
+== B. anchor-relative heights, Thue-type gap = pair inequality ==
+B: 100 anchor pairs: P_i conj-primitive, N(P_i)=e^{d_0i}, G_ij^2 e^{d_ij} = Q_i Q_j, Im(conj(P_i)P_j) = G_ij t_ij with t_ij != 0
+== C. perfect-power certificates (Smith normal form of the difference lattice) ==
+C: 0 certificates verified exactly (Pi_y = n * unit * pi_k^{2D}); 484 prime coordinates not in Q-span of differences
+C: distribution of D (multiplier) by cluster size m: []
+== C2. certificate identity on arbitrary point sets with more points than varying primes ==
+C2: 511 certificates: primitive part of Pi_y is unit * pi_k^{+-2D} exactly; D distribution [(1, 393), (2, 55), (3, 36), (4, 10), (5, 8), (6, 1), (8, 2), (11, 6)]
+== D. quadratic class statistics ==
+D: 6180 (point, q) pairs: chi_2(z/z_*) = chi_2(i)^u prod_k (p_k/q)^{a_k} exactly
+== D2. Legendre-twisted collision bound on actual point sets ==
+D2: 1560 (set, q): collisions_q >= (M^2 + S_q^2)/(2 nu_q) - M/2 with S_q = sum_i (2/q)^{u_i} prod_k (p_k/q)^{a_ik}; 460 cases with S_q^2 > M
+== E. Ptolemy relation in the two-valued model ==
+E: 39 quadruples: X+Y=Z collinear with 0, n_A | x, n_B | y, n_C | z, so n_A a + n_B b = n_C c
+== F. optimal pair weights ==
+F: 2000 random weight matrices: |rho| <= C(M,2) mu(rho) (max ratio 0.8621) and maxcut(rho)-|rho|/2 <= M mu(rho)/4
+== F2. Theorem D1 symmetrization inequalities (exact rationals, brute force) ==
+F2: 299 random integer weightings: maxcut(rho) >= |rho| maxcut_u/binom(M,2) and min_partition coll_rho <= |rho| E(M,nu)/binom(M,2) (nu=2,3)
+== G. Lemma D4(2) torsion divisibility and Lemma B height isolation ==
+G: 768 (p,l): l^2 | Norm(pi^t - conj(pi)^t) <= 4 p^t at the order t of rho mod l; 225 anchors: at most one point with d_0i > 3W/4 + log C
+ALL CHECKS PASSED

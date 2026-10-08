@@ -1,0 +1,26 @@
+1. golden templates (blocks J_r = f_{r+1} + i f_r):
+   closed forms: C8=sqrt2(4+sqrt5)/5^(1/4)=5.897708962894  C7=sqrt2 phi^2 5^(1/4)=5.536467812830
+                 C6=sqrt2 phi^3/5^(1/4)=4.006225744887  C5=sqrt2 5^(1/4) phi=3.421725285949
+   n=100: k=8 C=5.897708962894 (err -1.0e-59), k=7 C=5.536467812830 (err 2.0e-59), k=6 C=4.006225744887 (err -2.0e-59), k=5 C=3.421725285949 (err 1.0e-59), log10 R=85
+   n=160: k=8 C=5.897708962894 (err -2.0e-59), k=7 C=5.536467812830 (err 1.0e-59), k=6 C=4.006225744887 (err -2.0e-59), k=5 C=3.421725285949 (err 1.0e-59), log10 R=135
+   n=220: k=8 C=5.897708962894 (err 0.0e+00), k=7 C=5.536467812830 (err 1.0e-59), k=6 C=4.006225744887 (err -2.0e-59), k=5 C=3.421725285949 (err 1.0e-59), log10 R=185
+   n=4 member: R^2=537606725, 8 points, C=5.897763 (the exhaustive scan's k=8 record)
+2. CG six-point polynomial family prod_j (u-j-i s_j), sum s=0, after Gaussian gcd:
+   u=1000000: k=6 gcd norm=4 C=5.6568542495 (4 sqrt2 = 5.6568542495)
+   u=1000000000001: k=6 gcd norm=4 C=5.6568542495 (4 sqrt2 = 5.6568542495)
+3. translated Pell eight-point family (primitive_eight_point_translated_pell_family.md):
+   n=61: k=8 C=44652598.001564
+   n=121: k=8 C=44652598.001564
+4. axis six-point family: n=a^2+y0^2=(a-1)^2+y1^2=(a-2)^2+y2^2, y0=12 fixed:
+   a=685549: k=6 C=4.000105996471
+   a=23290241: k=6 C=4.000003120047
+   a=791184349: k=6 C=4.000000091845
+   a=26876979329: k=6 C=4.000000002704
+5. residues (n,a) mod 8 with n-(a-j)^2 a square mod 8 for j=0..3: []
+6. record clusters (exact):
+   R^2=32988780417125 k=8 axis D=(0,1,3,4): primitive gcd norm 1, k=8, C=5.673924770
+   R^2=348984761607530165 k=8 axis D=(0,1,3,4), second non-golden point: primitive gcd norm 1, k=8, C=5.754209881
+   R^2=235370525 k=7 sporadic: primitive gcd norm 1, k=7, C=5.269927439
+   R^2=469977431545 k=6 axis D=(0,1,2): primitive gcd norm 1, k=6, C=4.000105996
+   R^2=683617125425 k=5 sporadic: primitive gcd norm 1, k=5, C=1.996248844
+ALL CHECKS PASSED

@@ -1,0 +1,13 @@
+primitive 5-windows with diam/N^(1/5) < 6.0 and N<= 1000000 : 12
+  K5=4.2024 N=25 L0=12 span=106.3 deg A<L
+  K5=4.6985 N=25 L0=6 span=126.9 deg A<L
+  K5=4.9475 N=65 L0=42 span=90.0 deg A>=L
+  K5=5.0712 N=325 L0=6 span=53.1 deg A>=L
+  K5=5.1765 N=1105 L0=36 span=36.9 deg A>=L
+  K5=5.3622 N=85 L0=42 span=90.0 deg A>=L
+  K5=5.4962 N=425 L0=66 span=53.1 deg A>=L
+  K5=5.5057 N=1105 L0=30 span=39.3 deg A>=L
+  K5=5.6260 N=325 L0=12 span=59.5 deg A>=L
+  K5=5.7551 N=5525 L0=42 span=25.1 deg A>=L
+  K5=5.8115 N=1625 L0=6 span=36.9 deg A>=L
+  K5=5.9944 N=995605 L0=36 span=5.5 deg A>=L

@@ -1,0 +1,12 @@
+C=64
+k= 8  log10N~ 12.1  tight4= 123886  rectangles=  914 (0.0074)  parallelograms= 1184 (0.0096)  2-frames(odd<=4)= 79274 (0.6399)
+k= 9  log10N~ 14.4  tight4=  33057  rectangles=  311 (0.0094)  parallelograms=  313 (0.0095)  2-frames(odd<=4)= 16719 (0.5058)
+k=10  log10N~ 16.3  tight4=  20798  rectangles=  136 (0.0065)  parallelograms=  156 (0.0075)  2-frames(odd<=4)=  8194 (0.3940)
+k=11  log10N~ 18.0  tight4=  12522  rectangles=   58 (0.0046)  parallelograms=   66 (0.0053)  2-frames(odd<=4)=  3432 (0.2741)
+k=12  log10N~ 19.8  tight4=   6585  rectangles=   37 (0.0056)  parallelograms=   37 (0.0056)  2-frames(odd<=4)=  1253 (0.1903)
+k=13  log10N~ 22.0  tight4=   1461  rectangles=   15 (0.0103)  parallelograms=   15 (0.0103)  2-frames(odd<=4)=   171 (0.1170)
+k=14  log10N~ 24.3  tight4=    720  rectangles=    8 (0.0111)  parallelograms=    8 (0.0111)  2-frames(odd<=4)=    48 (0.0667)
+k=15  log10N~ 26.3  tight4=    500  rectangles=    6 (0.0120)  parallelograms=    6 (0.0120)  2-frames(odd<=4)=    38 (0.0760)
+k=16  log10N~ 28.7  tight4=    152  rectangles=    0 (0.0000)  parallelograms=    0 (0.0000)  2-frames(odd<=4)=     2 (0.0132)
+k=17  log10N~ 31.1  tight4=     24  rectangles=    0 (0.0000)  parallelograms=    0 (0.0000)  2-frames(odd<=4)=     0 (0.0000)
+k=18  log10N~ 33.7  tight4=      2  rectangles=    0 (0.0000)  parallelograms=    0 (0.0000)  2-frames(odd<=4)=     0 (0.0000)

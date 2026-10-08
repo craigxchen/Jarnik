@@ -1,0 +1,1 @@
+CG d=6 on X_9: 3000 random 9-subtuples: (E.G, finite, at inf, K.G) values = [(2, 0, 2, 2)]

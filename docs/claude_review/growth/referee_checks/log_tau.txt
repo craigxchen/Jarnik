@@ -1,0 +1,139 @@
+M=2 N=8: max vanishing order along Y = 8, ratio tau_N = 1.0000
+   per s (s,|A_s|,dstar): [(0, 9, 8), (2, 9, 8), (4, 9, 8), (6, 9, 8), (8, 9, 8)]
+   b=0/8: h0(NH-bNE)=81, beta(L_b,E)~0.5000, G(b)=b+beta=0.5000
+   b=1/8: h0(NH-bNE)=72, beta(L_b,E)~0.4375, G(b)=b+beta=0.5625
+   b=2/8: h0(NH-bNE)=63, beta(L_b,E)~0.3750, G(b)=b+beta=0.6250
+   b=3/8: h0(NH-bNE)=54, beta(L_b,E)~0.3125, G(b)=b+beta=0.6875
+   b=4/8: h0(NH-bNE)=45, beta(L_b,E)~0.2500, G(b)=b+beta=0.7500
+   b=5/8: h0(NH-bNE)=36, beta(L_b,E)~0.1875, G(b)=b+beta=0.8125
+   b=6/8: h0(NH-bNE)=27, beta(L_b,E)~0.1250, G(b)=b+beta=0.8750
+   b=7/8: h0(NH-bNE)=18, beta(L_b,E)~0.0625, G(b)=b+beta=0.9375
+   b=8/8: h0(NH-bNE)=9, beta(L_b,E)~0.0000, G(b)=b+beta=1.0000
+M=2 N=16: max vanishing order along Y = 16, ratio tau_N = 1.0000
+   per s (s,|A_s|,dstar): [(0, 17, 16), (2, 17, 16), (4, 17, 16), (6, 17, 16), (8, 17, 16), (10, 17, 16), (12, 17, 16), (14, 17, 16), (16, 17, 16)]
+   b=0/16: h0(NH-bNE)=289, beta(L_b,E)~0.5000, G(b)=b+beta=0.5000
+   b=1/16: h0(NH-bNE)=272, beta(L_b,E)~0.4688, G(b)=b+beta=0.5312
+   b=2/16: h0(NH-bNE)=255, beta(L_b,E)~0.4375, G(b)=b+beta=0.5625
+   b=3/16: h0(NH-bNE)=238, beta(L_b,E)~0.4062, G(b)=b+beta=0.5938
+   b=4/16: h0(NH-bNE)=221, beta(L_b,E)~0.3750, G(b)=b+beta=0.6250
+   b=5/16: h0(NH-bNE)=204, beta(L_b,E)~0.3438, G(b)=b+beta=0.6562
+   b=6/16: h0(NH-bNE)=187, beta(L_b,E)~0.3125, G(b)=b+beta=0.6875
+   b=7/16: h0(NH-bNE)=170, beta(L_b,E)~0.2812, G(b)=b+beta=0.7188
+   b=8/16: h0(NH-bNE)=153, beta(L_b,E)~0.2500, G(b)=b+beta=0.7500
+   b=9/16: h0(NH-bNE)=136, beta(L_b,E)~0.2188, G(b)=b+beta=0.7812
+   b=10/16: h0(NH-bNE)=119, beta(L_b,E)~0.1875, G(b)=b+beta=0.8125
+   b=11/16: h0(NH-bNE)=102, beta(L_b,E)~0.1562, G(b)=b+beta=0.8438
+   b=12/16: h0(NH-bNE)=85, beta(L_b,E)~0.1250, G(b)=b+beta=0.8750
+   b=13/16: h0(NH-bNE)=68, beta(L_b,E)~0.0938, G(b)=b+beta=0.9062
+   b=14/16: h0(NH-bNE)=51, beta(L_b,E)~0.0625, G(b)=b+beta=0.9375
+   b=15/16: h0(NH-bNE)=34, beta(L_b,E)~0.0312, G(b)=b+beta=0.9688
+   b=16/16: h0(NH-bNE)=17, beta(L_b,E)~0.0000, G(b)=b+beta=1.0000
+M=3 N=6: max vanishing order along Y = 9, ratio tau_N = 1.5000
+   per s (s,|A_s|,dstar): [(0, 37, 9), (2, 36, 8), (4, 33, 7), (6, 28, 6)]
+   b=0/6: h0(NH-bNE)=231, beta(L_b,E)~0.7504, G(b)=b+beta=0.7504
+   b=1/6: h0(NH-bNE)=224, beta(L_b,E)~0.6071, G(b)=b+beta=0.7738
+   b=2/6: h0(NH-bNE)=210, beta(L_b,E)~0.4810, G(b)=b+beta=0.8143
+   b=3/6: h0(NH-bNE)=189, beta(L_b,E)~0.3677, G(b)=b+beta=0.8677
+   b=4/6: h0(NH-bNE)=161, beta(L_b,E)~0.2650, G(b)=b+beta=0.9317
+   b=5/6: h0(NH-bNE)=126, beta(L_b,E)~0.1720, G(b)=b+beta=1.0053
+   b=6/6: h0(NH-bNE)=84, beta(L_b,E)~0.0913, G(b)=b+beta=1.0913
+   b=7/6: h0(NH-bNE)=35, beta(L_b,E)~0.0524, G(b)=b+beta=1.2190
+   b=8/6: h0(NH-bNE)=10, beta(L_b,E)~0.0167, G(b)=b+beta=1.3500
+   b=9/6: h0(NH-bNE)=1, beta(L_b,E)~0.0000, G(b)=b+beta=1.5000
+M=3 N=12: max vanishing order along Y = 18, ratio tau_N = 1.5000
+   per s (s,|A_s|,dstar): [(0, 127, 18), (2, 126, 17), (4, 123, 16), (6, 118, 15), (8, 111, 14), (10, 102, 13), (12, 91, 12)]
+   b=0/12: h0(NH-bNE)=1469, beta(L_b,E)~0.7645, G(b)=b+beta=0.7645
+   b=1/12: h0(NH-bNE)=1456, beta(L_b,E)~0.6880, G(b)=b+beta=0.7713
+   b=2/12: h0(NH-bNE)=1430, beta(L_b,E)~0.6172, G(b)=b+beta=0.7839
+   b=3/12: h0(NH-bNE)=1391, beta(L_b,E)~0.5512, G(b)=b+beta=0.8012
+   b=4/12: h0(NH-bNE)=1339, beta(L_b,E)~0.4892, G(b)=b+beta=0.8226
+   b=5/12: h0(NH-bNE)=1274, beta(L_b,E)~0.4309, G(b)=b+beta=0.8475
+   b=6/12: h0(NH-bNE)=1196, beta(L_b,E)~0.3756, G(b)=b+beta=0.8756
+   b=7/12: h0(NH-bNE)=1105, beta(L_b,E)~0.3232, G(b)=b+beta=0.9066
+   b=8/12: h0(NH-bNE)=1001, beta(L_b,E)~0.2735, G(b)=b+beta=0.9401
+   b=9/12: h0(NH-bNE)=884, beta(L_b,E)~0.2263, G(b)=b+beta=0.9763
+   b=10/12: h0(NH-bNE)=754, beta(L_b,E)~0.1820, G(b)=b+beta=1.0154
+   b=11/12: h0(NH-bNE)=611, beta(L_b,E)~0.1413, G(b)=b+beta=1.0580
+   b=12/12: h0(NH-bNE)=455, beta(L_b,E)~0.1064, G(b)=b+beta=1.1064
+   b=13/12: h0(NH-bNE)=286, beta(L_b,E)~0.0860, G(b)=b+beta=1.1693
+   b=14/12: h0(NH-bNE)=165, beta(L_b,E)~0.0657, G(b)=b+beta=1.2323
+   b=15/12: h0(NH-bNE)=84, beta(L_b,E)~0.0456, G(b)=b+beta=1.2956
+   b=16/12: h0(NH-bNE)=35, beta(L_b,E)~0.0262, G(b)=b+beta=1.3595
+   b=17/12: h0(NH-bNE)=10, beta(L_b,E)~0.0083, G(b)=b+beta=1.4250
+   b=18/12: h0(NH-bNE)=1, beta(L_b,E)~0.0000, G(b)=b+beta=1.5000
+M=3 N=18: max vanishing order along Y = 27, ratio tau_N = 1.5000
+   per s (s,|A_s|,dstar): [(0, 271, 27), (2, 270, 26), (4, 267, 25), (6, 262, 24), (8, 255, 23), (10, 246, 22), (12, 235, 21), (14, 222, 20), (16, 207, 19), (18, 190, 18)]
+   b=0/18: h0(NH-bNE)=4579, beta(L_b,E)~0.7698, G(b)=b+beta=0.7698
+   b=1/18: h0(NH-bNE)=4560, beta(L_b,E)~0.7174, G(b)=b+beta=0.7730
+   b=2/18: h0(NH-bNE)=4522, beta(L_b,E)~0.6679, G(b)=b+beta=0.7790
+   b=3/18: h0(NH-bNE)=4465, beta(L_b,E)~0.6209, G(b)=b+beta=0.7875
+   b=4/18: h0(NH-bNE)=4389, beta(L_b,E)~0.5761, G(b)=b+beta=0.7983
+   b=5/18: h0(NH-bNE)=4294, beta(L_b,E)~0.5333, G(b)=b+beta=0.8110
+   b=6/18: h0(NH-bNE)=4180, beta(L_b,E)~0.4923, G(b)=b+beta=0.8256
+   b=7/18: h0(NH-bNE)=4047, beta(L_b,E)~0.4529, G(b)=b+beta=0.8418
+   b=8/18: h0(NH-bNE)=3895, beta(L_b,E)~0.4150, G(b)=b+beta=0.8594
+   b=9/18: h0(NH-bNE)=3724, beta(L_b,E)~0.3785, G(b)=b+beta=0.8785
+   b=10/18: h0(NH-bNE)=3534, beta(L_b,E)~0.3433, G(b)=b+beta=0.8988
+   b=11/18: h0(NH-bNE)=3325, beta(L_b,E)~0.3093, G(b)=b+beta=0.9204
+   b=12/18: h0(NH-bNE)=3097, beta(L_b,E)~0.2765, G(b)=b+beta=0.9432
+   b=13/18: h0(NH-bNE)=2850, beta(L_b,E)~0.2449, G(b)=b+beta=0.9672
+   b=14/18: h0(NH-bNE)=2584, beta(L_b,E)~0.2146, G(b)=b+beta=0.9924
+   b=15/18: h0(NH-bNE)=2299, beta(L_b,E)~0.1856, G(b)=b+beta=1.0190
+   b=16/18: h0(NH-bNE)=1995, beta(L_b,E)~0.1584, G(b)=b+beta=1.0473
+   b=17/18: h0(NH-bNE)=1672, beta(L_b,E)~0.1334, G(b)=b+beta=1.0779
+   b=18/18: h0(NH-bNE)=1330, beta(L_b,E)~0.1122, G(b)=b+beta=1.1122
+   b=19/18: h0(NH-bNE)=969, beta(L_b,E)~0.0984, G(b)=b+beta=1.1539
+   b=20/18: h0(NH-bNE)=680, beta(L_b,E)~0.0846, G(b)=b+beta=1.1958
+   b=21/18: h0(NH-bNE)=455, beta(L_b,E)~0.0709, G(b)=b+beta=1.2376
+   b=22/18: h0(NH-bNE)=286, beta(L_b,E)~0.0573, G(b)=b+beta=1.2795
+   b=23/18: h0(NH-bNE)=165, beta(L_b,E)~0.0438, G(b)=b+beta=1.3215
+   b=24/18: h0(NH-bNE)=84, beta(L_b,E)~0.0304, G(b)=b+beta=1.3638
+   b=25/18: h0(NH-bNE)=35, beta(L_b,E)~0.0175, G(b)=b+beta=1.4063
+   b=26/18: h0(NH-bNE)=10, beta(L_b,E)~0.0056, G(b)=b+beta=1.4500
+   b=27/18: h0(NH-bNE)=1, beta(L_b,E)~0.0000, G(b)=b+beta=1.5000
+M=4 N=4: max vanishing order along Y = 6, ratio tau_N = 1.5000
+   per s (s,|A_s|,dstar): [(0, 55, 6), (2, 50, 6), (4, 35, 4)]
+   b=0/4: h0(NH-bNE)=225, beta(L_b,E)~0.8700, G(b)=b+beta=0.8700
+   b=1/4: h0(NH-bNE)=220, beta(L_b,E)~0.6398, G(b)=b+beta=0.8898
+   b=2/4: h0(NH-bNE)=205, beta(L_b,E)~0.4366, G(b)=b+beta=0.9366
+   b=3/4: h0(NH-bNE)=175, beta(L_b,E)~0.2614, G(b)=b+beta=1.0114
+   b=4/4: h0(NH-bNE)=125, beta(L_b,E)~0.1160, G(b)=b+beta=1.1160
+   b=5/4: h0(NH-bNE)=50, beta(L_b,E)~0.0400, G(b)=b+beta=1.2900
+   b=6/4: h0(NH-bNE)=8, beta(L_b,E)~0.0000, G(b)=b+beta=1.5000
+M=4 N=8: max vanishing order along Y = 12, ratio tau_N = 1.5000
+   per s (s,|A_s|,dstar): [(0, 309, 12), (2, 300, 12), (4, 273, 12), (6, 228, 10), (8, 165, 8)]
+   b=0/8: h0(NH-bNE)=2241, beta(L_b,E)~0.9108, G(b)=b+beta=0.9108
+   b=1/8: h0(NH-bNE)=2232, beta(L_b,E)~0.7894, G(b)=b+beta=0.9144
+   b=2/8: h0(NH-bNE)=2205, beta(L_b,E)~0.6741, G(b)=b+beta=0.9241
+   b=3/8: h0(NH-bNE)=2151, beta(L_b,E)~0.5660, G(b)=b+beta=0.9410
+   b=4/8: h0(NH-bNE)=2061, beta(L_b,E)~0.4657, G(b)=b+beta=0.9657
+   b=5/8: h0(NH-bNE)=1926, beta(L_b,E)~0.3734, G(b)=b+beta=0.9984
+   b=6/8: h0(NH-bNE)=1737, beta(L_b,E)~0.2890, G(b)=b+beta=1.0390
+   b=7/8: h0(NH-bNE)=1485, beta(L_b,E)~0.2130, G(b)=b+beta=1.0880
+   b=8/8: h0(NH-bNE)=1161, beta(L_b,E)~0.1475, G(b)=b+beta=1.1475
+   b=9/8: h0(NH-bNE)=756, beta(L_b,E)~0.1015, G(b)=b+beta=1.2265
+   b=10/8: h0(NH-bNE)=420, beta(L_b,E)~0.0577, G(b)=b+beta=1.3077
+   b=11/8: h0(NH-bNE)=165, beta(L_b,E)~0.0220, G(b)=b+beta=1.3970
+   b=12/8: h0(NH-bNE)=29, beta(L_b,E)~0.0000, G(b)=b+beta=1.5000
+M=5 N=4: max vanishing order along Y = 6, ratio tau_N = 1.5000
+   per s (s,|A_s|,dstar): [(0, 131, 6), (2, 115, 6), (4, 70, 4)]
+   b=0/4: h0(NH-bNE)=501, beta(L_b,E)~0.9496, G(b)=b+beta=0.9496
+   b=1/4: h0(NH-bNE)=496, beta(L_b,E)~0.7092, G(b)=b+beta=0.9592
+   b=2/4: h0(NH-bNE)=476, beta(L_b,E)~0.4890, G(b)=b+beta=0.9890
+   b=3/4: h0(NH-bNE)=426, beta(L_b,E)~0.2964, G(b)=b+beta=1.0464
+   b=4/4: h0(NH-bNE)=326, beta(L_b,E)~0.1373, G(b)=b+beta=1.1373
+   b=5/4: h0(NH-bNE)=151, beta(L_b,E)~0.0464, G(b)=b+beta=1.2964
+   b=6/4: h0(NH-bNE)=28, beta(L_b,E)~0.0000, G(b)=b+beta=1.5000
+M=5 N=6: max vanishing order along Y = 10, ratio tau_N = 1.6667
+   per s (s,|A_s|,dstar): [(0, 471, 10), (2, 440, 9), (4, 350, 8), (6, 210, 6)]
+   b=0/6: h0(NH-bNE)=2471, beta(L_b,E)~0.9868, G(b)=b+beta=0.9868
+   b=1/6: h0(NH-bNE)=2464, beta(L_b,E)~0.8230, G(b)=b+beta=0.9897
+   b=2/6: h0(NH-bNE)=2436, beta(L_b,E)~0.6658, G(b)=b+beta=0.9991
+   b=3/6: h0(NH-bNE)=2366, beta(L_b,E)~0.5188, G(b)=b+beta=1.0188
+   b=4/6: h0(NH-bNE)=2226, beta(L_b,E)~0.3848, G(b)=b+beta=1.0514
+   b=5/6: h0(NH-bNE)=1981, beta(L_b,E)~0.2657, G(b)=b+beta=1.0990
+   b=6/6: h0(NH-bNE)=1589, beta(L_b,E)~0.1646, G(b)=b+beta=1.1646
+   b=7/6: h0(NH-bNE)=1001, beta(L_b,E)~0.0946, G(b)=b+beta=1.2612
+   b=8/6: h0(NH-bNE)=476, beta(L_b,E)~0.0322, G(b)=b+beta=1.3655
+   b=9/6: h0(NH-bNE)=91, beta(L_b,E)~0.0018, G(b)=b+beta=1.5018
+   b=10/6: h0(NH-bNE)=1, beta(L_b,E)~0.0000, G(b)=b+beta=1.6667

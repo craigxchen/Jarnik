@@ -1,0 +1,6 @@
+Pell eight-point quartic: 8 points, homogeneous degree 4 in (X:Y)
+   e.g. first 7-subtuple: E.G=2 (finite 2, at a=inf 0), K.G=2
+   Pell: 8 7-subtuples of 8 points, degree d=4: K.Gamma~ ranges [2,2],  eps threshold K.G/d: [0.500,0.500]
+   e.g. first 8-subtuple: E.G=2 (finite 2, at a=inf 0), K.G=4
+   Pell: 1 8-subtuples of 8 points, degree d=4: K.Gamma~ ranges [4,4],  eps threshold K.G/d: [1.000,1.000]
+   monic gcd of all 8-point differences (X, Y=1), coeffs low->high: [('-5', '0'), ('0', '0'), ('1', '0')]

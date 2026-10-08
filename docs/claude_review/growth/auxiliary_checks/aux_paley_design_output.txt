@@ -1,0 +1,5 @@
+q=11 M=12 primes=55 W=548.2 W/(M log M)=18.38  min(excess-demand)=17.493  min(gamma_line-demand)=16.677 OK
+q=19 M=20 primes=95 W=1139.0 W/(M log M)=19.01  min(excess-demand)=18.400  min(gamma_line-demand)=17.538 OK
+q=23 M=24 primes=115 W=1462.4 W/(M log M)=19.17  min(excess-demand)=20.225  min(gamma_line-demand)=18.990 OK
+q=31 M=32 primes=155 W=2149.1 W/(M log M)=19.38  min(excess-demand)=21.619  min(gamma_line-demand)=18.846 OK
+q=43 M=44 primes=215 W=3254.6 W/(M log M)=19.55  min(excess-demand)=24.133  min(gamma_line-demand)=21.388 OK

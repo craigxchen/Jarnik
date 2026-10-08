@@ -1,0 +1,4 @@
+M=3 N=16: generic sumT=39932  actual=40340  ratio=1.0102  beta_gen=0.7607
+M=4 N=10: generic sumT=45108  actual=45670  ratio=1.0125  beta_gen=0.9093
+M=5 N=6: generic sumT=14464  actual=14631  ratio=1.0115  beta_gen=0.9756
+M=6 N=5: generic sumT=13552  actual=13676  ratio=1.0091  beta_gen=1.0159

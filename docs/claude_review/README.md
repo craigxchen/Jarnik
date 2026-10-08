@@ -51,4 +51,8 @@ it is recorded here and not pursued further.**
 
 ## 3. Status of the uniform theorem
 
-Open. Growth-rate work from this review is recorded separately as it is refereed.
+Open. The growth-rate and uniform-bound work of this review is indexed in `growth/README.md`:
+two conditional theorems (Vojta's conjecture for one fixed variety implies the uniform bound),
+restricted uniform and growth theorems for Hadamard and Walsh profiles, the cotangent trade-off,
+new lower-bound constructions and exhaustive data, and the missing lemmas that would complete
+each route.

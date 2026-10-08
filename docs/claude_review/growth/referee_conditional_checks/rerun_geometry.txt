@@ -1,0 +1,28 @@
+(A) Jacobian rank of the cone {u_1v_1=...=u_Mv_M} (full rank = M-1)
+   M=3: vanishing pairs -> ranks {0: [2], 1: [2], 2: [1], 3: [0]}
+   M=4: vanishing pairs -> ranks {0: [3], 1: [3], 2: [2], 3: [1]}
+   M=5: vanishing pairs -> ranks {0: [4], 1: [4], 2: [3], 3: [2]}
+   M=6: vanishing pairs -> ranks {0: [5], 1: [5], 2: [4], 3: [3]}
+   M=7: vanishing pairs -> ranks {0: [6], 1: [6], 2: [5], 3: [4]}
+   M=3: rank on Y = [2]  (Y in smooth locus iff all = 2)
+   M=4: rank on Y = [3]  (Y in smooth locus iff all = 3)
+   M=5: rank on Y = [4]  (Y in smooth locus iff all = 4)
+   M=6: rank on Y = [5]  (Y in smooth locus iff all = 5)
+   M=7: rank on Y = [6]  (Y in smooth locus iff all = 6)
+(B) Pell eight-point family: 7-subtuples, Vojta excess Phi = 5 lambda_Y - 2h
+   n=61: log R=   716.20  log C=17.614  min slack of Lemma-4.1 ineq=0.347  Phi/h in [0.3770,0.3770]
+   n=121: log R=  1409.15  log C=17.614  min slack of Lemma-4.1 ineq=0.347  Phi/h in [0.4375,0.4375]
+   n=181: log R=  2102.09  log C=17.614  min slack of Lemma-4.1 ineq=0.347  Phi/h in [0.4581,0.4581]
+   n=241: log R=  2795.04  log C=17.614  min slack of Lemma-4.1 ineq=0.347  Phi/h in [0.4685,0.4685]
+   n=301: log R=  3487.98  log C=17.614  min slack of Lemma-4.1 ineq=0.347  Phi/h in [0.4747,0.4747]
+   n=361: log R=  4180.93  log C=17.614  min slack of Lemma-4.1 ineq=0.347  Phi/h in [0.4789,0.4789]
+(C) Pell family as a rational quartic Gamma(X:Y) and Gamma(+-sqrt5:1) in Y
+   coordinate polynomials homogeneous of degree [4]; reproduce n=61 points: True
+   Gamma(+sqrt5:1): all eight words equal (point of Y): True
+   Gamma(-sqrt5:1): all eight words equal (point of Y): True
+(D) Cilleruelo-Granville six-point family v_sigma(a)=prod_{j=1..4}(a+j+i sigma_j), sum sigma=0
+   a=      1000: points=6, lambda_Y/h=0.4357, log(chord/sqrt R)=1.7329
+   a=    100000: points=6, lambda_Y/h=0.4618, log(chord/sqrt R)=1.7329
+   a=  10000000: points=6, lambda_Y/h=0.4728, log(chord/sqrt R)=1.7329
+   a=1000000000: points=6, lambda_Y/h=0.4789, log(chord/sqrt R)=1.7329
+   coefficient of a^k identical for all six sigma, k=4,3,2,1,0: [True, True, False, False, False]  -> contact order 2 with Y at a=oo

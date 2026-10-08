@@ -1,0 +1,2 @@
+even windows tested 100256 literal statement fails on 34164 corrected statement holds on 100256
+smallest literal counterexample: M=4 N=25 points=[(-4, -3), (-3, -4), (0, -5), (3, -4)] prod=(375, -500) N_bal=5 Delta=5 Norm(prod/N_bal^(M/2))=625 Delta^2=25 rational factor m=5
