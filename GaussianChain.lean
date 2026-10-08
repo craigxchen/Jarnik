@@ -35,3 +35,8 @@ import GaussianChain.NearMaximalReduction
 import GaussianChain.ChordRatio
 import GaussianChain.FiniteExceptionalFamily
 import GaussianChain.ArrangementClosure
+import GaussianChain.ConductorDefect
+import GaussianChain.DependentEndpoint
+import GaussianChain.RationalPhaseObstruction
+import GaussianChain.ReciprocalCollision
+import GaussianChain.ObtuseBessel

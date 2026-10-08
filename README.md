@@ -26,9 +26,26 @@ The branch contains:
   the canonical Harder--Narasimhan subspace ranges over a fixed finite list,
   independent of the number of places.
 
-The branch does not add an axiom for the remaining Diophantine input.  The
-remaining task is to match the finite Ru--Vojta max-over-adapted-bases system
-to a uniform large-parameter form of the absolute parametric Subspace Theorem.
+The uniform endpoint theorem remains unproved. The quantitative audit shows
+that the cited Subspace Theorems do not supply the required uniform exceptional
+bound; no axiom for that missing input has been added. The continuation proves
+a dependent-pair reduction, a balanced-pattern phase obstruction, restricted
+primitive-residue growth, a uniform slice for slowly growing primitive
+radial directions, and uniform counts within fixed quadratic-unit product
+templates. Those templates do not cover arbitrary lattice configurations.
+Selected ingredients of the first two reductions and the reciprocal
+collision step are checked in Lean. The circle-side reductions and family
+classifications remain prose proofs, with their verification scope recorded
+in the status note.
+The remaining general eight-point arithmetic inequality is stated explicitly.
+See [the current proof status and remaining gap](docs/endpoint_continuation_status.md)
+and [the quantitative audit](docs/codex_quantitative_audit_result.md).
+
+The strongest current prose estimate has leading constant `1+epsilon`
+in `log R/log log R`, by
+[inert-prime divisibility of primitive chord quotients](docs/inert_prime_cofactor_bound.md).
+The Lean-verified asymptotic theorem retains constant `8+epsilon`.
+This improves the constant only; the radius-independent bound remains unproved.
 
 ## Source Layout
 
