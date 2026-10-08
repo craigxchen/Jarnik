@@ -1,0 +1,177 @@
+# Resolvent entropy-transport audit
+
+## Status
+
+This note checks whether the scalar resolvent/Bregman mechanism from the
+reasoning walkthroughs produces a genuine new bound for the prime-reveal
+completion profiles. It does not by itself: the scalar mechanism reproduces
+the Shannon chain rule. The calculation identifies the missing second profile
+or external constraint that a successful adaptation must supply.
+
+## 1. Exact scalar resolvent inequality
+
+For s >= 0 define the scale-resolved embedding
+
+    Gamma(s)(u) = s/(s+u),   u > 0.
+
+The identity
+
+    integral_0^infty Gamma(s)(u)^2 du = s
+
+preserves mass exactly. If F is a nonnegative scalar random variable with mean
+m, then the scalar specialization of the resolvent-Bregman inequality is
+
+    E integral_0^infty |Gamma(F)(u)-Gamma(m)(u)|^2 du
+      <= -m log m + E[F log F].
+
+This is singular-safe: there is no loss depending on the smallest positive
+value of F.
+
+## 2. Completion profile recursion
+
+At a reveal-tree node v, let n_{+,t} and n_{-,t} denote the numbers of
+successful completions through the two children whose final angular location
+lies in cell t, after translating both children into the parent coordinate
+system. Put
+
+    n_t = n_{+,t}+n_{-,t},
+    n = sum_t n_t,
+    n_+ = sum_t n_{+,t},
+    n_- = sum_t n_{-,t}.
+
+Under the uniform law on successful completions, let B be the next revealed
+sign and T the final location cell. Then
+
+    H(B) = H(B | T) + I(B;T).
+
+The overlap term is exactly
+
+    H(B | T)
+      = (1/n) sum_t [ n_t log n_t
+                      - n_{+,t} log n_{+,t}
+                      - n_{-,t} log n_{-,t} ].
+
+Applying the scalar resolvent inequality independently in each cell controls
+this same overlap entropy. Thus the resolvent dissipation is not a new source
+of coercivity; it is a singular-safe representation of the pointwise Shannon
+entropy production.
+
+## 3. The missing entropy is transport information
+
+The remaining term
+
+    I(B;T)
+
+measures how well the final angular location identifies which branch was
+chosen. If the two translated child profiles overlap strongly, H(B|T) is large
+and the resolvent potential charges the branch. If the profiles are nearly
+disjoint, the branch entropy survives as transport information I(B;T).
+
+At a fixed angular resolution,
+
+    I(B;T) = H(T) - H(T | B),
+
+so transport entropy is exactly the decrease in spatial entropy when the
+branch is revealed. It telescopes only if the same location variable and the
+same partition are retained across the reveal process. Renormalizing or
+changing scales can otherwise move this information between resolutions.
+
+## 4. Why the endpoint cell alone is tautological
+
+At the coarse partition consisting only of the endpoint arc and its
+complement, every successful leaf has the same final cell. Hence T is
+constant, I(B;T)=0, and H(B|T)=H(B). The resolvent potential then recovers the
+full entropy identity
+
+    log M = sum_v Pr(reach v) H(B_v),
+
+but supplies no independent upper bound. This is the scalar analogue of using
+only the success effect without the fixed opposite-player effect in the
+quantum argument.
+
+At an arbitrarily fine partition, distinct successful angles can make T nearly
+identify the leaf. Then the overlap entropy is small and almost all entropy is
+transport information. Neither extreme yields a bound.
+
+## 5. Multiscale decomposition
+
+Let P_0 <= P_1 <= ... <= P_L be nested angular partitions from the endpoint
+scale to a fine scale. Then
+
+    I(B;P_L T)
+      = sum_{ell=0}^{L-1}
+          [ I(B;P_{ell+1}T) - I(B;P_ell T) ],
+
+because I(B;P_0 T)=0 for the endpoint cell. Thus every branch entropy can be
+written as
+
+    H(B)
+      = H(B | P_L T)
+        + sum_ell Delta_ell(B),
+
+where Delta_ell(B) is the information revealed precisely between two adjacent
+spatial scales.
+
+This is the correct role for a remote-shell or multiscale correction: it must
+charge transport entropy at the scale where the two child profiles first
+separate. A single resolvent scale cannot do this.
+
+## 6. Testing possible second profiles
+
+The operator argument in the walkthrough couples the martingale effect to a
+second effect that remains fixed during the reveal. The natural circle
+symmetries do not automatically supply an analogue:
+
+1. Unit rotations merely translate the same completion profile by multiples
+   of pi/2. After recentering they are identical, so the coupling is
+   tautological.
+2. Conjugation reflects the profile. Pairing a cluster with its conjugate
+   creates a symmetric target but no independent constraint; the reflected
+   reveal is determined by the original one.
+3. An independent successful replica does provide a second profile, but its
+   pairwise difference event is exactly the already-known endpoint relation.
+   Without an additional non-flat observable, the coupling again reproduces
+   pairwise criticality.
+
+Thus a successful adaptation needs a second profile not generated by a simple
+symmetry copy of the same cluster.
+
+## 7. Revised target
+
+A viable potential should combine two parts:
+
+    overlap dissipation + multiscale transport dissipation.
+
+The overlap part is controlled by the scalar resolvent-Bregman inequality. The
+transport part must be charged to a scale-sensitive arithmetic quantity. A
+candidate is a nested family of angular partitions whose scale weights depend
+on conductor packets, so that separating the two child profiles at scale
+rho forces a Gaussian near-relation whose denominator height is tied to the
+packet revealed at that step.
+
+The missing theorem can be stated as follows.
+
+> Multiscale arithmetic transport inequality.
+> For the conductor-weighted prime reveal of a successful endpoint cluster,
+> the probability-weighted sum over reveal nodes and angular scales of the
+> transport increments Delta_ell(B) is O_C(1).
+
+Together with the overlap resolvent inequality, this would give
+
+    log M = O_C(1).
+
+## 8. Concrete obstruction to the naive resolvent route
+
+The naive proposal
+
+    branching entropy <= drop in one scalar resolvent potential
+
+is false as a useful strengthening. At coarse resolution it is merely the
+Shannon chain rule; at fine resolution it misses the transport information.
+The walkthrough's resolvent mechanism succeeds because it is paired with a
+fixed external effect. No analogous independent effect has yet been found in
+the circle problem.
+
+The active question is therefore not to optimize the scalar resolvent
+inequality. It is to construct an arithmetic multiscale observable that
+charges branch-location transport without reducing to pairwise separation.

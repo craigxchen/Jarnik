@@ -70,6 +70,8 @@ The exact hypotheses and thresholds are in the linked extraction note.
   than the repository's default branch. The snapshot is integrated with
   the research already on the remote; those additional notes are a parallel
   line of investigation, not a proof of the uniform theorem.
+- For provenance, commit `c2b8337` saves the local research before integration;
+  the merge incorporates the prior remote history through `a2664da`.
 - Three preexisting, untracked GitHub Actions templates from June 2026 are
   excluded: `create-release.yml`, `lean_action_ci.yml`, and `update.yml`.
   They add release, documentation-publication, or dependency-update actions
@@ -100,10 +102,14 @@ These are exploratory directions, not additional proved results:
   inequality: archimedean contributions and moving-family constants remain
   uncontrolled. This does not give a lower bound for the residual height.
 
-Before integration, `lake build` completed successfully (with linter
-warnings), both latest checkers for items 532 and 533 passed, and all 459
-new Python files and nine JSON files passed syntax parsing. These checks
-do not certify every prose argument or the unfinished directions above.
+On 2026-10-07, `lake build` completed successfully both before and after
+remote integration (with linter warnings; the merged build had 8,514 jobs).
+The merged `GaussianChain/ChordRatio.lean` also passed a separate
+`lake env lean GaussianChain/ChordRatio.lean` check after its sign
+normalization was repaired; both theorem APIs are preserved.
+Both latest checkers for items 532 and 533 passed, and all 459 new Python
+files and nine JSON files passed syntax parsing. These checks do not
+certify every prose argument or the unfinished directions above.
 
 ## The exact goal and what is actually known
 
@@ -624,10 +630,11 @@ prefix slices separately at each coordinate. These are exact finite checks,
 not substitutes for the general proofs.
 
 The new results are prose proofs independently reviewed by multiple
-agents; **they are not Lean formalizations**. No Lean files were changed
-in the latest continuation. `lake build` is the repository's full build,
-but it was not rerun for this handoff; historical build statements in
-the status note should not be represented as a fresh verification.
+agents; **they are not Lean formalizations**. Items 532 and 533 did not
+add Lean proofs. The full merged `lake build` passed on 2026-10-07,
+as recorded above; that success checks only the Lean
+modules imported by that build, not these prose results. Historical checker
+counts in the status note are not all fresh reruns for this snapshot.
 
 Suggested order:
 

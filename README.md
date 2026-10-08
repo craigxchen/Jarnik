@@ -1,59 +1,112 @@
 # Jarnik
 
-Exact integer tools and Lean formalization for endpoint-scale lattice-point arcs
-on circles.
+Exact integer tools and Lean formalization for lattice points on short arcs of circles.
 
-The current `master` development proves the sublogarithmic bound and contains
-certificate-search machinery.  The branch
-`agent/uniform-gcd-formalization` adds a separate research track for the
-uniform-bound problem.
+## Proven core
 
-## Uniform generalized-GCD research track
+The main development proves the current sublogarithmic arc bound and contains
+certificate-search machinery. The umbrella module `GaussianChain.lean` imports
+the proved core and selected formalized research lemmas; none of those lemmas
+asserts the uniform endpoint theorem.
 
-The branch contains:
+## Uniform endpoint problem
 
-- `GaussianChain/FiniteBeta.lean`: an explicit finite Ru--Vojta beta-level
-  calculation on the blowup of `P^2` at `[1:1:1]`;
-- `GaussianChain/UniformExceptionalReduction.lean`: the conditional
-  `1/2 - eta` endgame and grid/fiber cardinality bound;
-- `GaussianChain/SlopeClosure.lean`: maximal-slope closure under meet and join
-  for modular rank and supermodular degree;
-- `GaussianChain/FiniteFlatReduction.lean`: finite-signature range bounds for
-  canonical exceptional objects;
-- `docs/uniform_gcd_route.md`: the full circle-side reduction and current gap
-  audit;
-- `docs/canonical_hn_uniformity.md`: a self-contained derivation showing why
-  the canonical Harder--Narasimhan subspace ranges over a fixed finite list,
-  independent of the number of places.
+The target is a uniform bound for lattice points on arcs of length
 
-The uniform endpoint theorem remains unproved. The quantitative audit shows
-that the cited Subspace Theorems do not supply the required uniform exceptional
-bound; no axiom for that missing input has been added. The continuation proves
-a dependent-pair reduction, a balanced-pattern phase obstruction, restricted
-primitive-residue growth, a uniform slice for slowly growing primitive
-radial directions, and uniform counts within fixed quadratic-unit product
-templates. Those templates do not cover arbitrary lattice configurations.
-Selected ingredients of the first two reductions and the reciprocal
-collision step are checked in Lean. The circle-side reductions and family
-classifications remain prose proofs, with their verification scope recorded
-in the status note.
-The remaining general eight-point arithmetic inequality is stated explicitly.
-See [the current proof status and remaining gap](docs/endpoint_continuation_status.md)
-and [the quantitative audit](docs/codex_quantitative_audit_result.md).
+```text
+C * R^(1/2).
+```
 
-The strongest current prose estimate has leading constant `1+epsilon`
+This remains open in this repository.
+
+Start with the [Claude review handoff](docs/claude_handoff_uniform_endpoint.md)
+for the exact goal, proved claims, unproved inputs, and checker commands.
+The [continuation status](docs/endpoint_continuation_status.md) records the
+research through item 533. These notes and checkers are committed on
+`agent/uniform-gcd-formalization`.
+
+The strongest current general prose estimate has leading constant `1+epsilon`
 in `log R/log log R`, by
 [inert-prime divisibility of primitive chord quotients](docs/inert_prime_cofactor_bound.md).
 The Lean-verified asymptotic theorem retains constant `8+epsilon`.
 This improves the constant only; the radius-independent bound remains unproved.
 
-## Source Layout
+The continuation also records restricted uniform counts for quadratic-unit
+product templates, an
+[exact nested-profile extraction with an aggregate residual-height budget](docs/exact_nested_profile_residual_extraction.md),
+and a [uniform bound of 35 nonanchor rows in the full Boolean polynomial model](docs/boolean_section_kummer_uniform_bound.md).
+The last result allows repeated roots under its stated coprimality hypotheses.
+No transfer of that polynomial obstruction to arbitrary Gaussian integer
+configurations has been proved. The circle-side reductions, family
+classifications, and Kummer argument remain prose proofs; finite checkers
+verify specified identities, not the full mathematical arguments.
+
+The earlier Ru--Vojta/generalized-GCD and determinant equality-case programs are no longer active. They are retained as an audit trail, but they are not imported by the umbrella build and should not be read as the current proof plan.
+
+The inverse-concentration reset begins at:
+
+- `docs/research_reset_inverse_concentration.md`
+
+The parallel ordered/residual research includes:
+
+- `docs/short_gap_prime_reveal_renormalization.md`
+- `docs/positive_subset_transition_obstruction.md`
+- `docs/inert_prime_residual_growth.md`
+- `docs/adaptive_residual_diagonal_countermodel.md`
+- `docs/transition_content_cocycle.md`
+- `docs/interval_content_aggregation_audit.md`
+- `docs/high_return_pattern_descent.md`
+- `docs/five_product_capacity_audit.md`
+
+The inert-prime note proves aggregate `m^2 log m` growth of the forced-reduced
+Plucker residuals in the odd squarefree split model and sharpens the resulting
+sublogarithmic coefficient.  The transition-content note identifies the exact
+phase/conductor cocycle: prime re-entry is the rational content removed from a
+product of primitive transition blocks.  The all-interval audit then proves
+that scalar content cancels exactly back to the old pairwise cut bound, so
+content size alone cannot close the endpoint.
+
+The high-return descent note gives another positive reduction in the odd
+squarefree split model. It shows that a hypothetical `n`-point counterexample
+in that model must contain linearly many disjoint
+complete orientation-pattern blocks, each of norm at most
+`N^(2/n+o(1))`, and linearly many short transitions each involving linearly
+many such blocks.  Thus the remaining uniformity problem is a dense Gaussian
+phase-cancellation problem.  The countermodels show that support, collision,
+run-count, and bounded-depth non-reuse estimates alone cannot supply the
+missing contradiction; the next input must quantify critical lcm-height
+efficiency of the actual signed Gaussian products.
+
+The five-product audit tests the first proposed fixed-dimensional resultant at
+the exact finite valuation level.  It proves that pair determinants, Plucker
+cancellation, rank four, and pattern-forced monomial content cannot provide the
+required fourth-order decay with a one-use conductor budget.  It replaces that
+failed universal lemma by an exact weighted occurrence-pattern capacity test.
+
+The broader program starts from the global exponent-angle model. After factoring the common norm, every point is represented by an exponent vector `a` in a Gaussian conductor box, and its angle is a linear form
+
+```text
+Phi(a) = sum_j (2 a_j - e_j) theta_j  mod 2 pi.
+```
+
+A hypothetical counterexample gives arbitrarily large sets of exponent vectors whose images lie in an interval of width `O(N^(-1/4))`.
+
+The new program is to combine:
+
+1. a weighted inverse-concentration theorem for these exponent boxes; and
+2. arithmetic rigidity of the Gaussian prime angles
+   `exp(2 i theta_j) = pi_j / conjugate(pi_j)`.
+
+The intended contradiction is that high concentration forces either a heavy prime block, which can be descended, or a bounded-rank approximate relation that becomes an impossible exact multiplicative relation by Gaussian unique factorization.
+
+## Historical research files
+
+Files concerning finite beta calculations, uniform exceptional sets, adapted sextic bases, Segre embeddings, determinant surplus, and balanced prime-layer cuts are historical diagnostics only. They record failed or conditional routes and are intentionally excluded from `GaussianChain.lean`.
+
+## Source layout
 
 - `GaussianChain/` contains the Lean formalization.
-- `src/numerics/` contains the Rust numerical code: exact arithmetic,
-  Gaussian-integer factorization, lattice-point generation, cluster diagnostics,
-  certificate search, and extension checking.
-- `src/numerics/legacy_arc.rs` contains the original floating-point arc scanner.
+- `src/numerics/` contains the Rust numerical code: exact arithmetic, Gaussian-integer factorization, lattice-point generation, cluster diagnostics, certificate search, and extension checking.
 - `outputs/` is reserved for generated numerical JSON/JSONL artifacts.
 
 ## Commands
@@ -76,10 +129,8 @@ arc [min_radius_squared] [max_radius_squared]
 
 ## Lean
 
-Lean is installed through `elan` and the project builds with:
+Lean is installed through `elan` and the proved core builds with:
 
 ```bash
 lake build
 ```
-
-The GitHub Actions workflow on the uniform-GCD branch runs the full Lean build.
