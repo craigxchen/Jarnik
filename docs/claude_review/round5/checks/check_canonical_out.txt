@@ -1,0 +1,7 @@
+q= 11 b=5: min margins (>=0 required): pairs 0, ternary 0 (30725 tested), amplitude 40
+q= 19 b=5: min margins (>=0 required): pairs 0, ternary 0 (34535 tested), amplitude 72
+q= 23 b=8: min margins (>=0 required): pairs 0, ternary 0 (51878 tested), amplitude 88
+q= 43 b=5: min margins (>=0 required): pairs 0, ternary 0 (427253 tested), amplitude 168
+q= 47 b=8: min margins (>=0 required): pairs 0, ternary 0 (603740 tested), amplitude 188
+q= 59 b=5: min margins (>=0 required): pairs 0, ternary 0 (1482905 tested), amplitude 232
+ALL CHECKS PASSED

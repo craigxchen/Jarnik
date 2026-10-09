@@ -1,0 +1,18 @@
+Lemma 4.1 (+2-adic): M=8 Q0=16 L=89 ||c||_1<=6: 21392 (char,unit) instances; D_odd*(1+i) | diff and 2^a2 | diff and 2 D^2 <= |diff|^2 <= 4 L^n all hold; max D_odd=15015, max a2=4
+Lemma 4.1 (+2-adic): M=12 Q0=24 L=137 ||c||_1<=6: 266376 (char,unit) instances; D_odd*(1+i) | diff and 2^a2 | diff and 2 D^2 <= |diff|^2 <= 4 L^n all hold; max D_odd=408595, max a2=4
+Lemma 4.1 (+2-adic): M=20 Q0=40 L=257 ||c||_1<=4: 146680 (char,unit) instances; D_odd*(1+i) | diff and 2^a2 | diff and 2 D^2 <= |diff|^2 <= 4 L^n all hold; max D_odd=58311, max a2=5
+parity test, construct's M=12 instance: p_j = 10000121..10003529 (r=100), ell_x = [29, 37, 41, 53, 61, 73, 89, 97, 101, 109, 113, 137]
+  odd q <= 24: [3, 5, 7, 11, 13, 17, 19, 23]  (class of i nontrivial at q = 3,5 mod 8)
+  row  1: parity vector -----+-+  consistent with some unit choice: False
+  row  2: parity vector ++---+-+  consistent with some unit choice: False
+  row  3: parity vector -+-+++++  consistent with some unit choice: False
+  row  4: parity vector +-++---+  consistent with some unit choice: False
+  row  5: parity vector -+--+-++  consistent with some unit choice: False
+  row  6: parity vector ++-+--++  consistent with some unit choice: False
+  row  7: parity vector -++-+-+-  consistent with some unit choice: False
+  row  8: parity vector +---+-+-  consistent with some unit choice: False
+  row  9: parity vector ------++  consistent with some unit choice: False
+  row 10: parity vector +---+-+-  consistent with some unit choice: False
+  row 11: parity vector --++--+-  consistent with some unit choice: False
+  rows consistent with prime-level residues (any units): 0 of 11
+R4 DONE

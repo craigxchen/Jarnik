@@ -1,0 +1,16 @@
+b= 35 M=    44  log(total bound)=    171.55  [pairs -126.5, columns -508.2, half -232.7, others 171.6]  W/(M log M) = 195.1
+b= 35 M=   200  log(total bound)=    811.65  [pairs -144.7, columns -2218.7, half -934.4, others 811.7]  W/(M log M) = 166.2
+b= 35 M=  1000  log(total bound)=   4032.74  [pairs -163.1, columns -12359.3, half -5208.9, others 4032.7]  W/(M log M) = 147.0
+b= 35 M=  5000  log(total bound)=  19953.82  [pairs -180.8, columns -70151.8, half -30098.6, others 19953.8]  W/(M log M) = 134.3
+b= 40 M=    44  log(total bound)=     97.92  [pairs -156.2, columns -546.3, half -265.7, others 97.9]  W/(M log M) = 227.2
+b= 40 M=   200  log(total bound)=    419.70  [pairs -179.1, columns -2292.7, half -987.5, others 419.7]  W/(M log M) = 193.0
+b= 40 M=  1000  log(total bound)=   1780.48  [pairs -202.1, columns -12598.2, half -5346.9, others 1780.5]  W/(M log M) = 170.3
+b= 40 M=  5000  log(total bound)=   7271.96  [pairs -224.3, columns -71196.5, half -30641.7, others 7272.0]  W/(M log M) = 155.3
+b= 48 M=    44  log(total bound)=    -24.68  [pairs -204.8, columns -606.4, half -318.6, others -24.7]  W/(M log M) = 279.4
+b= 48 M=   200  log(total bound)=   -229.31  [pairs -235.1, columns -2402.9, half -1069.3, others -229.3]  W/(M log M) = 236.5
+b= 48 M=  1000  log(total bound)=   -265.61  [pairs -265.6, columns -12934.6, half -5545.5, others -1932.7]  W/(M log M) = 208.2
+b= 48 M=  5000  log(total bound)=   -295.13  [pairs -295.1, columns -72634.1, half -31394.6, others -13567.2]  W/(M log M) = 189.5
+b= 65 M=    44  log(total bound)=   -299.70  [pairs -311.5, columns -732.2, half -432.6, others -299.7]  W/(M log M) = 393.6
+b= 65 M=   200  log(total bound)=   -357.52  [pairs -357.5, columns -2615.4, half -1234.4, others -1674.7]  W/(M log M) = 331.4
+b= 65 M=  1000  log(total bound)=   -403.98  [pairs -404.0, columns -13526.9, half -5908.6, others -10154.9]  W/(M log M) = 290.4
+b= 65 M=  5000  log(total bound)=   -448.96  [pairs -449.0, columns -75061.0, half -32682.6, others -59508.3]  W/(M log M) = 263.5

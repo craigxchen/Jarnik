@@ -1,0 +1,39 @@
+=== instance.py 11 8 1 2 7 6
+Paley q=11 M=12 b=8 r=100 C=1
+primes: 10000121..10003529, log-window eta = 3.407e-04 (need <= 1/(4r) = 2.500e-03), tau = 16.1181
+W = 1611.827,  W/(M log M) = 54.054,  completion: 1.33(Pi-1) = 0.0868 < 1
+rank M and twins: OK
+residue data: 9 odd prime powers <= Q0=24, ell_x in [29, 137], all rho_x in the conic fibre Norm = N: OK
+characters with ||c||_1 <= 6, entries in [-2,2]: 66594 checked
+  max collision modulus D_1(c) = 177905 at n=6 (bound 2 L^(n/2) holds for all; D_1 | Im Lambda for all)
+  ILLUSTRATION (one random delta): min log-margin, axiom (R): 21.13 ; sufficient form with L^(n/2): 16.27
+union bound (Theorem 2, all characters, strengthened form):  P(failure) <= 6.654e-02
+ILLUSTRATION: 100000 random monomials (generic realisation): min dist/required = 3.22
+=== instance.py 19 8 1 2 8 4
+Paley q=19 M=20 b=8 r=172 C=1
+primes: 100000037..100005877, log-window eta = 5.840e-05 (need <= 1/(4r) = 1.453e-03), tau = 18.4207
+W = 3168.362,  W/(M log M) = 52.881,  completion: 1.33(Pi-1) = 0.0465 < 1
+rank M and twins: OK
+residue data: 14 odd prime powers <= Q0=40, ell_x in [41, 257], all rho_x in the conic fibre Norm = N: OK
+characters with ||c||_1 <= 4, entries in [-2,2]: 36670 checked
+  max collision modulus D_1(c) = 25415 at n=4 (bound 2 L^(n/2) holds for all; D_1 | Im Lambda for all)
+  ILLUSTRATION (one random delta): min log-margin, axiom (R): 20.98 ; sufficient form with L^(n/2): 17.95
+union bound (Theorem 2, all characters, strengthened form):  P(failure) <= 3.433e-02
+ILLUSTRATION: 100000 random monomials (generic realisation): min dist/required = 35.70
+=== instance.py 23 8 1/2 2 8 4
+Paley q=23 M=24 b=8 r=208 C=1/2
+primes: 100000037..100006981, log-window eta = 6.944e-05 (need <= 1/(4r) = 1.202e-03), tau = 18.4207
+W = 3831.509,  W/(M log M) = 50.234,  completion: 1.33(Pi-1) = 0.0565 < 1
+rank M and twins: OK
+residue data: 17 odd prime powers <= Q0=48, ell_x in [53, 313], all rho_x in the conic fibre Norm = N: OK
+characters with ||c||_1 <= 4, entries in [-2,2]: 77004 checked
+  max collision modulus D_1(c) = 34017 at n=4 (bound 2 L^(n/2) holds for all; D_1 | Im Lambda for all)
+  ILLUSTRATION (one random delta): min log-margin, axiom (R): 17.75 ; sufficient form with L^(n/2): 15.25
+union bound (Theorem 2, all characters, strengthened form):  P(failure) <= 1.209e-01
+ILLUSTRATION: 100000 random monomials (generic realisation): min dist/required = 7.77
+=== instance.py 43 8 1 2 9 4
+Paley q=43 M=44 b=8 r=388 C=1
+primes: 1000000009..1000016273, log-window eta = 1.626e-05 (need <= 1/(4r) = 6.443e-04), tau = 20.7233
+W = 8040.630,  W/(M log M) = 48.291,  completion: 1.33(Pi-1) = 0.0330 < 1
+rank M and twins: OK
+residue data: 27 odd prime powers <= Q0=88, ell_x in [89, 613], all rho_x in the conic fibre Norm = N: OK

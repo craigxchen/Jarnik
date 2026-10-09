@@ -1,0 +1,32 @@
+R1: Theorem 1 (construct.md), independent implementation
+Paley-I q=7 (M=8)                                       b=3 exhaustive +-1:  n=2:#28 min slack 2  n=4:#210 min slack 4  n=6:#280 min slack 10  n=8:#35 min slack 4
+Paley-I q=7 (M=8)                                       b=5 exhaustive +-1:  n=2:#28 min slack 2  n=4:#210 min slack 4  n=6:#280 min slack 18  n=8:#35 min slack 4
+Paley-I q=7 (M=8)                                       b=8 exhaustive +-1:  n=2:#28 min slack 2  n=4:#210 min slack 4  n=6:#280 min slack 30  n=8:#35 min slack 4
+Paley-I q=7 (M=8)                                           pair minimum G (b=8) = 6  (= b-2 claimed)
+Paley-I q=11 (M=12)                                     b=3 exhaustive +-1:  n=2:#66 min slack 2  n=4:#1485 min slack 14  n=6:#9240 min slack 4  n=8:#17325 min slack 22  n=10:#8316 min slack 18  n=12:#462 min slack 4
+Paley-I q=11 (M=12)                                     b=5 exhaustive +-1:  n=2:#66 min slack 2  n=4:#1485 min slack 22  n=6:#9240 min slack 4  n=8:#17325 min slack 38  n=10:#8316 min slack 34  n=12:#462 min slack 4
+Paley-I q=11 (M=12)                                     b=8 exhaustive +-1:  n=2:#66 min slack 2  n=4:#1485 min slack 34  n=6:#9240 min slack 4  n=8:#17325 min slack 62  n=10:#8316 min slack 58  n=12:#462 min slack 4
+Paley-I q=11 (M=12)                                         pair minimum G (b=8) = 6  (= b-2 claimed)
+Paley-I q=19 (M=20)                                     b=3 exhaustive +-1:  n=2:#190 min slack 2  n=4:#14535 min slack 18  n=6:#387600 min slack 30
+Paley-I q=19 (M=20)                                     b=5 exhaustive +-1:  n=2:#190 min slack 2  n=4:#14535 min slack 26  n=6:#387600 min slack 46
+Paley-I q=19 (M=20)                                     b=8 exhaustive +-1:  n=2:#190 min slack 2  n=4:#14535 min slack 38  n=6:#387600 min slack 70
+Paley-I q=19 (M=20)                                         pair minimum G (b=8) = 6  (= b-2 claimed)
+Paley-I q=23 (M=24)                                     b=3 exhaustive +-1:  n=2:#276 min slack 2  n=4:#31878 min slack 30  n=6:#1345960 min slack 42
+Paley-I q=23 (M=24)                                     b=5 exhaustive +-1:  n=2:#276 min slack 2  n=4:#31878 min slack 46  n=6:#1345960 min slack 66
+Paley-I q=23 (M=24)                                     b=8 exhaustive +-1:  n=2:#276 min slack 2  n=4:#31878 min slack 70  n=6:#1345960 min slack 102
+Paley-I q=23 (M=24)                                         pair minimum G (b=8) = 6  (= b-2 claimed)
+doubled skew-Hadamard (M=16, non-Paley, non-Sylvester)  b=3 exhaustive +-1:  n=2:#120 min slack 2  n=4:#5460 min slack 4  n=6:#80080 min slack 26  n=8:#450450 min slack 4
+doubled skew-Hadamard (M=16, non-Paley, non-Sylvester)  b=5 exhaustive +-1:  n=2:#120 min slack 2  n=4:#5460 min slack 4  n=6:#80080 min slack 42  n=8:#450450 min slack 4
+doubled skew-Hadamard (M=16, non-Paley, non-Sylvester)  b=8 exhaustive +-1:  n=2:#120 min slack 2  n=4:#5460 min slack 4  n=6:#80080 min slack 66  n=8:#450450 min slack 4
+doubled skew-Hadamard (M=16, non-Paley, non-Sylvester)      pair minimum G (b=8) = 6  (= b-2 claimed)
+Paley-I q=7 (M=8)                                       b=5 amplitude>=2, entries in [-2,2], ||c||_1<=8: 15652 chars, min slack 38.0
+Paley-I q=11 (M=12)                                     b=5 amplitude>=2, entries in [-2,2], ||c||_1<=8: 455862 chars, min slack 62.0
+Paley-I q=19 (M=20)                                     b=5 amplitude>=2, entries in [-2,2], ||c||_1<=6: 743660 chars, min slack 110.0
+doubled skew-Hadamard (M=16, non-Paley, non-Sylvester)  b=5 amplitude>=2, entries in [-2,2], ||c||_1<=6: 222000 chars, min slack 86.0
+Paley-I q=43 (M=44) b=3: hill-climb (120 starts) min slack 2 at n=2, ||c||_inf=1
+Paley-I q=43 (M=44) b=8: hill-climb (120 starts) min slack 2 at n=2, ||c||_inf=1
+Paley-I q=67 (M=68) b=3: hill-climb (120 starts) min slack 2 at n=2, ||c||_inf=1
+Paley-I q=67 (M=68) b=8: hill-climb (120 starts) min slack 2 at n=2, ||c||_inf=1
+ALL R1 CHECKS PASSED  (123s)
+
+[exited with code 0]

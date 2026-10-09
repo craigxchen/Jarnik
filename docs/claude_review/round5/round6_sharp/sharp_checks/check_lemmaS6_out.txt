@@ -1,0 +1,4 @@
+q0 =  43 M = 44: min F support 4 = 60 (17M/16 = 46.8); min F random non-exc = 68; min F amplitude>=2 = 212 (2M = 88); b=33 profile: min 2B-r pairs = 29 (b-4 = 29), others = 69 (proved bound (b/16-2)M+b = 35.8)
+q0 =  47 M = 48: min F support 4 = 64 (17M/16 = 51.0); min F random non-exc = 76; min F amplitude>=2 = 244 (2M = 96); b=33 profile: min 2B-r pairs = 29 (b-4 = 29), others = 73 (proved bound (b/16-2)M+b = 36.0)
+q0 =  59 M = 60: min F support 4 = 84 (17M/16 = 63.8); min F random non-exc = 96; min F amplitude>=2 = 356 (2M = 120); b=33 profile: min 2B-r pairs = 29 (b-4 = 29), others = 85 (proved bound (b/16-2)M+b = 36.8)
+ALL LEMMA S CHECKS PASSED

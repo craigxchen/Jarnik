@@ -1,0 +1,10 @@
+Paley q=43 M=44 b=8 r=388 C=1
+primes: 1000000009..1000016273, log-window eta = 1.626e-05 (need <= 1/(4r) = 6.443e-04), tau = 20.7233
+W = 8040.630,  W/(M log M) = 48.291,  completion: 1.33(Pi-1) = 0.0330 < 1
+rank M and twins: OK
+residue data: 27 odd prime powers <= Q0=88, ell_x in [89, 613], all rho_x in the conic fibre Norm = N: OK
+characters with ||c||_1 <= 2, entries in [-2,2]: 1892 checked
+  max collision modulus D_1(c) = 247 at n=2 (bound 2 L^(n/2) holds for all; D_1 | Im Lambda for all)
+  ILLUSTRATION (one random delta): min log-margin, axiom (R): 23.64 ; sufficient form with L^(n/2): 18.72
+union bound (Theorem 2, all characters, strengthened form):  P(failure) <= 3.962e-02
+ILLUSTRATION: 100000 random monomials (generic realisation): min dist/required = 24.43

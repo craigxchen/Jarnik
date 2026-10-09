@@ -1,0 +1,33 @@
+== Part 1: transposed prime-field uncertainty ==
+q=7 exhaustive: min (#nonzero + s' - (q+1)/2) = 1
+q=11 exhaustive: min (#nonzero + s' - (q+1)/2) = 1
+q=19 random: min (#nonzero + s' - (q+1)/2) = 1
+q=23 random: min (#nonzero + s' - (q+1)/2) = 1
+q=31 random: min (#nonzero + s' - (q+1)/2) = 1
+q=43 random: min (#nonzero + s' - (q+1)/2) = 1
+q=47 random: min (#nonzero + s' - (q+1)/2) = 1
+q=59 random: min (#nonzero + s' - (q+1)/2) = 1
+q=67 random: min (#nonzero + s' - (q+1)/2) = 1
+q=71 random: min (#nonzero + s' - (q+1)/2) = 1
+q=79 random: min (#nonzero + s' - (q+1)/2) = 2
+q=83 random: min (#nonzero + s' - (q+1)/2) = 1
+Part 1 vectors tested: 43735
+== Part 2: identities and inequalities used in the proof ==
+Part 2 vectors tested: 31990
+== Part 3: search for near-flat non-exceptional characters ==
+   (Lemma S claims min (F-M)/M >= 1/16 = 0.0625 among non-exceptional c, for q >= 43)
+q=  7 M=  8: exhaustive-small min F-M =    4; overall min F-M =    4  ((F-M)/M = 0.5000), at ||c||_1 = 4, support 4
+q= 11 M= 12: exhaustive-small min F-M =    4; overall min F-M =    4  ((F-M)/M = 0.3333), at ||c||_1 = 4, support 4
+q= 19 M= 20: exhaustive-small min F-M =    4; overall min F-M =    4  ((F-M)/M = 0.2000), at ||c||_1 = 4, support 4
+q= 23 M= 24: exhaustive-small min F-M =    8; overall min F-M =    8  ((F-M)/M = 0.3333), at ||c||_1 = 4, support 4
+q= 31 M= 32: exhaustive-small min F-M =   12; overall min F-M =   12  ((F-M)/M = 0.3750), at ||c||_1 = 4, support 4
+q= 43 M= 44: exhaustive-small min F-M =   16; overall min F-M =   16  ((F-M)/M = 0.3636), at ||c||_1 = 4, support 4
+q= 47 M= 48: exhaustive-small min F-M =   16; overall min F-M =   16  ((F-M)/M = 0.3333), at ||c||_1 = 4, support 4
+q= 59 M= 60: exhaustive-small min F-M =   24; overall min F-M =   24  ((F-M)/M = 0.4000), at ||c||_1 = 4, support 4
+q= 67 M= 68: exhaustive-small min F-M =   24; overall min F-M =   24  ((F-M)/M = 0.3529), at ||c||_1 = 4, support 4
+q= 71 M= 72: exhaustive-small min F-M =   28; overall min F-M =   28  ((F-M)/M = 0.3889), at ||c||_1 = 4, support 4
+q= 79 M= 80: exhaustive-small min F-M =   32; overall min F-M =   32  ((F-M)/M = 0.4000), at ||c||_1 = 4, support 4
+q= 83 M= 84: exhaustive-small min F-M =   32; overall min F-M =   32  ((F-M)/M = 0.3810), at ||c||_1 = 4, support 4
+q=103 M=104: exhaustive-small min F-M =   40; overall min F-M =   40  ((F-M)/M = 0.3846), at ||c||_1 = 4, support 4
+q=107 M=108: exhaustive-small min F-M =   44; overall min F-M =   44  ((F-M)/M = 0.4074), at ||c||_1 = 4, support 4
+ALL CHECKS PASSED

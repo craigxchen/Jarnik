@@ -1,0 +1,5 @@
+q= 43 M= 44 b=8  skew pairing: min[G - bound] = 2 (pair, n=2)   random assignment: 0 (pair, n=2)   [14s]
+q=103 M=104 b=8  skew pairing: min[G - bound] = 2 (pair, n=2)   random assignment: 0 (pair, n=2)   [63s]
+q=199 M=200 b=8  skew pairing: min[G - bound] = 2 (pair, n=2)   random assignment: 0 (pair, n=2)   [296s]
+q= 43 M= 44 b=5  skew pairing: min[G - bound] = 2 (pair, n=2)   random assignment: 0 (pair, n=2)   [316s]
+q=199 M=200 b=5  skew pairing: min[G - bound] = 2 (pair, n=2)   random assignment: 0 (pair, n=2)   [545s]

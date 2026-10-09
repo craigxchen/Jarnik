@@ -1,0 +1,7 @@
+Paley M=24 b=5 r=139 assign=[np.int64(19), np.int64(5), np.int64(22), np.int64(11), np.int64(12), np.int64(3), np.int64(23), np.int64(7), np.int64(20), np.int64(4), np.int64(21), np.int64(9), np.int64(1), np.int64(17), np.int64(13), np.int64(20), np.int64(14), np.int64(8), np.int64(6), np.int64(18), np.int64(15), np.int64(10), np.int64(2), np.int64(16)]
+n=  2  minG=1  ratio=0.500  F=24  status=(0, 139.99999999999883)  supp=2  maxabs=1  (1.2s)
+n=  4  minG=45  ratio=11.250  F=32  status=(1, 140.00000000000003)  supp=4  maxabs=1  (120.0s)
+n=  6  minG=65  ratio=10.833  F=36  status=(1, 138.0)  supp=6  maxabs=1  (120.0s)
+n=  8  minG=89  ratio=11.125  F=40  status=(1, 137.0)  supp=8  maxabs=1  (120.0s)
+n= 10  minG=89  ratio=8.900  F=40  status=(1, 136.0)  supp=10  maxabs=1  (120.0s)
+n= 12  minG=21  ratio=1.750  F=24  status=(0, 160.00000000000057)  supp=12  maxabs=1  (56.3s)

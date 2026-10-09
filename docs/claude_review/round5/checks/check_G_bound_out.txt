@@ -1,0 +1,58 @@
+(L) min |2x2 principal minor| over F_q x F_q:
+   q=  7: 2
+   q= 11: 2
+   q= 19: 2
+   q= 23: 2
+   q= 31: 2
+   q= 43: 2
+   q= 47: 2
+   q= 59: 2
+   q= 67: 2
+   q= 71: 2
+   q= 79: 2
+   q= 83: 2
+   q=103: 2
+   q=107: 2
+   q=127: 2
+   q=131: 2
+   q=139: 2
+   q=151: 2
+   q=163: 2
+   q=167: 2
+   q=179: 2
+   q=191: 2
+   q=199: 2
+(E) exact decomposition on random integer c:
+   q=11 b=5: 2000 random c OK
+   q=19 b=5: 2000 random c OK
+   q=23 b=7: 2000 random c OK
+   q=43 b=5: 2000 random c OK
+   q=67 b=12: 2000 random c OK
+(T1) exhaustive +-1 characters: n, #c, G at worst, slack over bound, F at worst
+   q=11 b=5 n= 2  #c=      132  G=   3  slack=  2  F=12
+   q=11 b=5 n= 4  #c=     2970  G=  27  slack= 22  F=16
+   q=11 b=5 n= 6  #c=    18480  G=  13  slack=  4  F=12
+   q=11 b=5 n= 8  #c=    34650  G=  51  slack= 38  F=20
+   q=11 b=5 n=10  #c=    16632  G=  51  slack= 34  F=20
+   q=11 b=5 n=12  #c=      924  G=  25  slack=  4  F=12
+   q=11 b=8 n= 2  #c=      132  G=   6  slack=  2  F=12
+   q=11 b=8 n= 4  #c=     2970  G=  42  slack= 34  F=16
+   q=11 b=8 n= 6  #c=    18480  G=  16  slack=  4  F=12
+   q=11 b=8 n= 8  #c=    34650  G=  78  slack= 62  F=20
+   q=11 b=8 n=10  #c=    16632  G=  78  slack= 58  F=20
+   q=11 b=8 n=12  #c=      924  G=  28  slack=  4  F=12
+   q=19 b=5 n= 2  #c=      380  G=   3  slack=  2  F=20
+   q=19 b=5 n= 4  #c=    29070  G=  31  slack= 26  F=24
+   q=19 b=5 n= 6  #c=   775200  G=  55  slack= 46  F=28
+   q=19 b=5 n= 8  #c=  8817900  G=  75  slack= 62  F=32
+   q=23 b=5 n= 2  #c=      552  G=   3  slack=  2  F=24
+   q=23 b=5 n= 4  #c=    63756  G=  51  slack= 46  F=32
+   q=23 b=5 n= 6  #c=  2691920  G=  75  slack= 66  F=36
+   q=31 b=5 n= 2  #c=      992  G=   3  slack=  2  F=32
+   q=31 b=5 n= 4  #c=   215760  G=  75  slack= 70  F=44
+   q=31 b=5 n= 6  #c= 18123840  G=  99  slack= 90  F=48
+   q=43 b=5 n= 2  #c=     1892  G=   3  slack=  2  F=44
+   q=43 b=5 n= 4  #c=   814506  G=  99  slack= 94  F=60
+(T2) exhaustive c with entries in [-3,3], ||c||_inf >= 2, small norm:
+   q=11 b=5 ||c||_1<=8: 636834 vectors, min slack 62.0 (G=73, n=6)
+   q=19 b=5 ||c||_1<=6: 796480 vectors, min slack 110.0 (G=121, n=6)

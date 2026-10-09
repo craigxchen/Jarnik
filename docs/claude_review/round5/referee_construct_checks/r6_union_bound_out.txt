@@ -1,0 +1,13 @@
+(a) arcsin(5^-1/2)/5^-1/2 = 1.0367475713  (<= 1.0368: True)
+(b) 4*1.0368*e^(1/16) = 4.41467142  (<= 4.415: True)
+(c) sum_{k>=2} (2k+2) x^k at x=1/40: 0.0038790269 = 6.206443 x^2 (<= 6.3 x^2: True); ratio is increasing in x
+(d) 4.415*(4+6.3/40)/40 = 0.458884 < 0.46: True
+instance M=8 r=64 L=89 P_*=911360 window start P=911360, primes 911413..913421, eta=2.26e-03 <= 1/(4r)=3.91e-03
+  completion: 1.3201 (Pi - 1) = 0.189302 < 1
+  x = 4M^2 L/P = 0.025 (<= 1/40); union bound P(fail) <= 0.446662 (analytic bound 0.46)
+  W = 878.32, W/(M log M) = 52.80;  3 M log M = 49.9 <= W + 14 M (two_thirds): True
+  M=    12: L=137, log P_*/log M = 6.022, r log P_*/(M log M) = 50.19 (limit 27)
+  M=   104: L=1657, log P_*/log M = 4.689, r log P_*/(M log M) = 41.84 (limit 27)
+  M=  1004: L=20477, log P_*/log M = 4.171, r log P_*/(M log M) = 37.50 (limit 27)
+  M= 10004: L=253417, log P_*/log M = 3.902, r log P_*/(M log M) = 35.11 (limit 27)
+R6 DONE

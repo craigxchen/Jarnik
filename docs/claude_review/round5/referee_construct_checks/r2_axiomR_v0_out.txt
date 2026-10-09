@@ -1,0 +1,12 @@
+N=65 points [(1, 8), (8, 1), (4, 7), (7, 4)] exponent rows [[1, 0], [0, 1], [1, 1], [0, 0]]  arc constant C = 3.7539 (>= 2 sqrt 2 = 2.8284)
+  Q0=8: (R) holds on all 320 (character,unit) instances with v(c) != 0;  violations with v(c)=0: 4
+     e.g. c=(-2, -2, 2, 2) u=(1, 0): Z+ - u Z- has norm 0, D_u(c)=21, (R) needs 0 >= 14.85
+     e.g. c=(-1, -1, 1, 1) u=(1, 0): Z+ - u Z- has norm 0, D_u(c)=21, (R) needs 0 >= 14.85
+     e.g. c=(1, 1, -1, -1) u=(1, 0): Z+ - u Z- has norm 0, D_u(c)=21, (R) needs 0 >= 14.85
+  Q0=60: (R) holds on all 320 (character,unit) instances with v(c) != 0;  violations with v(c)=0: 4
+     e.g. c=(-2, -2, 2, 2) u=(1, 0): Z+ - u Z- has norm 0, D_u(c)=931799246613195355857, (R) needs 0 >= 658881565984706527232.00
+     e.g. c=(-1, -1, 1, 1) u=(1, 0): Z+ - u Z- has norm 0, D_u(c)=931799246613195355857, (R) needs 0 >= 658881565984706527232.00
+     e.g. c=(1, 1, -1, -1) u=(1, 0): Z+ - u Z- has norm 0, D_u(c)=931799246613195355857, (R) needs 0 >= 658881565984706527232.00
+N=32045: 64 primitive points; testing the first 8 by angle, arc constant 9.88
+  all 70 four-subsets, entries in [-2,2]: (R) holds on 23472 instances with v != 0; v=0 violations: 12
+R2 DONE
