@@ -1,0 +1,16 @@
+Sylvester      M=  8 b=   6:   1915 characters checked; (F),(B1u),(B2u) OK; min pair G=0 (b-8=-2)
+Sylvester      M=  8 b=  48:   1916 characters checked; (F),(B1u),(B2u) OK; min pair G=42 (b-8=40); (fin) min slack 11.0
+Sylvester      M= 16 b=   6:  15984 characters checked; (F),(B1u),(B2u) OK; min pair G=-2 (b-8=-2)
+Sylvester      M= 16 b=  96:  15985 characters checked; (F),(B1u),(B2u) OK; min pair G=88 (b-8=88); (fin) min slack 25.0
+Sylvester      M= 32 b=   6: 249465 characters checked; (F),(B1u),(B2u) OK; min pair G=-2 (b-8=-2)
+Sylvester      M= 32 b= 192: 249465 characters checked; (F),(B1u),(B2u) OK; min pair G=184 (b-8=184); (fin) min slack 56.0
+Paley-I        M= 12 b=   6:   5675 characters checked; (F),(B1u),(B2u) OK; min pair G=2 (b-8=-2)
+Paley-I        M= 12 b=  72:   5675 characters checked; (F),(B1u),(B2u) OK; min pair G=68 (b-8=64); (fin) min slack 20.0
+Paley-I        M= 20 b=   6:  38031 characters checked; (F),(B1u),(B2u) OK; min pair G=-2 (b-8=-2)
+Paley-I        M= 20 b= 120:  38031 characters checked; (F),(B1u),(B2u) OK; min pair G=112 (b-8=112); (fin) min slack 34.0
+Paley-I        M= 24 b=   6:  78533 characters checked; (F),(B1u),(B2u) OK; min pair G=-2 (b-8=-2)
+Paley-I        M= 24 b= 144:  78533 characters checked; (F),(B1u),(B2u) OK; min pair G=136 (b-8=136); (fin) min slack 42.0
+
+real	2m54.653s
+user	2m52.766s
+sys	0m0.375s

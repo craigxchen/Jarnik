@@ -1,0 +1,42 @@
+(a) Lemma A.6 requirement vs primes = 1 mod 4 in [P,2P] at the text's P = 400 M^5 log M
+   M=  4  P=5.678e+05  required > 6.775e+04  available (exact sieve) 2.080e+04  -> INSUFFICIENT
+   M=  8  P=2.726e+07  required > 3.320e+06  available (exact sieve) 7.783e+05  -> INSUFFICIENT
+   M=  16  P=1.163e+09  required > 1.297e+08  available (PNT est.) 2.786e+07  ratio 0.21
+   M=  32  P=4.652e+10  required > 4.570e+09  available (PNT est.) 9.469e+08  ratio 0.21
+   M=  64  P=1.786e+12  required > 1.534e+11  available (PNT est.) 3.166e+10  ratio 0.21
+   M= 128  P=6.669e+13  required > 5.025e+12  available (PNT est.) 1.047e+12  ratio 0.21
+   M=1024  P=3.122e+18  required > 1.681e+17  available (PNT est.) 3.665e+16  ratio 0.22
+(b) smallest grid P meeting the requirement (PNT estimate), in units of M^5 log M
+   M=     8  P/(M^5 log M) = 1992
+   M=    16  P/(M^5 log M) = 2113
+   M=    32  P/(M^5 log M) = 2174
+   M=    64  P/(M^5 log M) = 2117
+   M=   128  P/(M^5 log M) = 2121
+   M=  1024  P/(M^5 log M) = 1960
+   M=100000  P/(M^5 log M) = 1839
+   exact sieve M=8, P=1700 M^5 log M=1.158e+08: available 3055696 vs required 3320103 -> INSUFFICIENT
+(c) union bound of step 3 at P = 1700 M^5 log M
+   C=0.5 M=  4 tau=log P=14.7  bound=1.120e-10  <1
+   C=0.5 M=  8 tau=log P=18.6  bound=1.342e-23  <1
+   C=0.5 M= 12 tau=log P=20.8  bound=7.576e-38  <1
+   C=0.5 M= 16 tau=log P=22.3  bound=3.859e-53  <1
+   C=0.5 M= 32 tau=log P=26.0  bound=2.153e-121  <1
+   C=0.001 M=  4 tau=log P=14.7  bound=4.834e-08  <1
+   C=0.001 M=  8 tau=log P=18.6  bound=5.789e-21  <1
+   C=0.001 M= 12 tau=log P=20.8  bound=3.269e-35  <1
+   C=0.001 M= 16 tau=log P=22.3  bound=1.665e-50  <1
+   C=0.001 M= 32 tau=log P=26.0  bound=9.289e-119  <1
+(d) lcm(1..2M) <= e^(2.08 M): OK  max log(Q_M)/M = 2.0615
+(e) max arcsin(y)/y on (0,5^-1/2] = 1.03675 ; (8/pi)*1.0367/2 = 1.3200
+(f) referee extension: step-3 union bound with per-character strengthening Q_M * M^(2n), n=||c||_1,
+    i.e. sum_n 3^M 2^(n-1) 1.04 Q_M M^(2n) P^-(n+0.86M)/2 (2.55 n + 8/C), at P = 2000 M^5 log M
+   C=0.5 M=  4  2M^2/sqrt(P)=0.019  bound=1.894e-08  <1
+   C=0.5 M=  8  2M^2/sqrt(P)=0.011  bound=2.715e-20  <1
+   C=0.5 M= 16  2M^2/sqrt(P)=0.007  bound=7.099e-49  <1
+   C=0.5 M= 32  2M^2/sqrt(P)=0.004  bound=2.064e-116  <1
+   C=0.5 M= 64  2M^2/sqrt(P)=0.003  bound=1.268e-272  <1
+   C=0.001 M=  4  2M^2/sqrt(P)=0.019  bound=8.170e-06  <1
+   C=0.001 M=  8  2M^2/sqrt(P)=0.011  bound=1.171e-17  <1
+   C=0.001 M= 16  2M^2/sqrt(P)=0.007  bound=3.062e-46  <1
+   C=0.001 M= 32  2M^2/sqrt(P)=0.004  bound=8.904e-114  <1
+   C=0.001 M= 64  2M^2/sqrt(P)=0.003  bound=5.470e-270  <1

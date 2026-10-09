@@ -1,0 +1,3 @@
+star identity checked on 1520 (row, profile) instances: PASS
+Paley-I: H(x,x) = -1 for all finite x and row infinity all ones (q <= 83 matrices built): PASS
+gcd identity log Norm gcd = D + (W+G)/2 verified on 66 literal Paley-12 pairs: PASS

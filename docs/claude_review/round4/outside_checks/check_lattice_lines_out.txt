@@ -1,0 +1,11 @@
+Prop C.2: 5340972 (cluster, v) checks on 3484 clusters: OK
+largest clusters: (M, best incidence bound over |v|<=40, N)
+  M=10  bound=98.01  N=1176852625
+  M=10  bound=98.01  N=1176852625
+  M=10  bound=98.01  N=1176852625
+  M=10  bound=98.01  N=1176852625
+  M=7  bound=36.07  N=9425
+  M=7  bound=36.07  N=9425
+  M=7  bound=36.07  N=9425
+  M=7  bound=36.07  N=9425
+mean (best bound / M) over clusters: 38.32

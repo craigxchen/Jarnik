@@ -1,0 +1,1 @@
+triangle identity (C.1a),(C.1b): 16594 exact triples on 401 circles, 1172 clusters: OK

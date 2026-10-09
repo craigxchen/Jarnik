@@ -1,0 +1,9 @@
+M= 12 X1=X2=   500  #G=   160 #P=   160  min d*N(G)N(P)=   0.6835  [x log(X)^2 =  26.398]   min d*sqrt(N(G)N(P))=3.58e-02  (exact Lambda=0 pairs removed: 0)
+M= 12 X1=X2=  2000  #G=   638 #P=   638  min d*N(G)N(P)=   0.6835  [x log(X)^2 =  39.490]   min d*sqrt(N(G)N(P))=1.93e-03  (exact Lambda=0 pairs removed: 0)
+M= 12 X1=X2=  8000  #G=  2544 #P=  2544  min d*N(G)N(P)=   0.3056  [x log(X)^2 =  24.684]   min d*sqrt(N(G)N(P))=4.91e-04  (exact Lambda=0 pairs removed: 0)
+M= 12 X1=X2= 20000  #G=  6372 #P=  6372  min d*N(G)N(P)=   0.0113  [x log(X)^2 =   1.109]   min d*sqrt(N(G)N(P))=1.54e-05  (exact Lambda=0 pairs removed: 2)
+M= 20 X1=X2=   500  #G=   160 #P=   160  min d*N(G)N(P)=   0.1000  [x log(X)^2 =   3.862]   min d*sqrt(N(G)N(P))=5.40e-04  (exact Lambda=0 pairs removed: 0)
+M= 20 X1=X2=  2000  #G=   638 #P=   638  min d*N(G)N(P)=   0.0198  [x log(X)^2 =   1.143]   min d*sqrt(N(G)N(P))=3.08e-05  (exact Lambda=0 pairs removed: 0)
+M= 20 X1=X2=  8000  #G=  2544 #P=  2544  min d*N(G)N(P)=   0.0198  [x log(X)^2 =   1.598]   min d*sqrt(N(G)N(P))=3.08e-05  (exact Lambda=0 pairs removed: 0)
+M= 20 X1=X2= 20000  #G=  6372 #P=  6372  min d*N(G)N(P)=   0.0198  [x log(X)^2 =   1.941]   min d*sqrt(N(G)N(P))=3.08e-05  (exact Lambda=0 pairs removed: 0)
+DONE

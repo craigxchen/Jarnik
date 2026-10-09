@@ -1,0 +1,5 @@
+R8 Cor 4.5 chain: 11970 (eta,C,beta) cases at the threshold log n: failures 0; smallest relative margin 0.0006 at eta=0.001, C=1000000.0, beta=0.4990
+R9 Matveev c(k): min over k=1..60 = 7.4814e+05 at k=1 (claim >= 7e5)
+   exponent constant 7e5*4*(1+log2)*(pi/2)*0.8 = 5.9575e+06; beats (1/2) a_max iff a_max <= 1.191e+07
+   min over k of 1.6^(k-1)/k = 0.8
+R10 psi_1 = ((2, 0, 0), -1) in 2L? False;  2L subset of span(psi) (on a box)? True

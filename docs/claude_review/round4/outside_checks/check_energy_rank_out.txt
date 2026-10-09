@@ -1,0 +1,3 @@
+B.2 binary identity: exact for all 1 <= M < 40, 0 <= S <= M: OK
+B.2 multilevel: E|D+D'| >= E|D| on 3000 random columns; min ratio = 127/90 = 1.4111
+A.4: sum_{j<=k} log p_j >= k log(4k/e) for all k <= 100000 (p_j >= 4j+1 also checked): OK

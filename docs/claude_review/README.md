@@ -61,3 +61,5 @@ The auxiliary-polynomial round is in `threshold/README.md`: no form on any equal
 `X_M` vanishes along the diagonal to order `2 deg F` (`tau*(M) = 2 - 1/ceil(M/2)`), so neither a
 single-place Liouville argument nor Ru-Vojta with `S = {infinity}` can prove the theorem, and
 forced Gaussian divisibility only reaches criticality.
+
+Round 4 (flipped Hadamard cores, (L_7), hardness, fake-circle barrier) is in `round4/README.md`.

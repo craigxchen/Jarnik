@@ -1,0 +1,8 @@
+N=1176852625, r2(N)=384, 10-point arc constant C=8.239327
+pairs with ratio <=   1.01: 15 of 45
+pairs with ratio <=    1.5: 25 of 45
+pairs with ratio <=      2: 25 of 45
+pairs with ratio <=      5: 39 of 45
+pairs with ratio <=     10: 41 of 45
+pairs with ratio <=    100: 42 of 45
+pairs with n >= R (n/R >= 1): 23 ; ratio cap C sqrt(n/2R) max = 1079.1

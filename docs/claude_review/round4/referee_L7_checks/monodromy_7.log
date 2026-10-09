@@ -1,0 +1,17 @@
+start residual 8.395201386199791e-16 sv [5.96389905e+00 1.89574532e-03]
+loop 0 NEW solution #2 nondegenerate: False
+loop 0 solutions so far 2 tracking failures 0
+loop 1 NEW solution #3 nondegenerate: False
+loop 1 solutions so far 3 tracking failures 0
+loop 2 NEW solution #4 nondegenerate: True
+loop 2 NEW solution #5 nondegenerate: False
+loop 2 NEW solution #6 nondegenerate: False
+loop 2 solutions so far 6 tracking failures 0
+loop 3 NEW solution #7 nondegenerate: True
+loop 3 NEW solution #8 nondegenerate: False
+loop 3 NEW solution #9 nondegenerate: False
+loop 3 NEW solution #10 nondegenerate: True
+loop 3 NEW solution #11 nondegenerate: False
+loop 3 NEW solution #12 nondegenerate: False
+loop 3 solutions so far 12 tracking failures 0
+final count of solutions through the point: 12

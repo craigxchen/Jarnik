@@ -1,0 +1,24 @@
+(1) N=1176852625 r2=384; minimal 10-point span 4.448476e-02 rad, arc constant C = 8.2393; first point (23712, -24791); contains a diagonal direction: True
+    45 chords, 25 distinct squared lengths; repeated: {4420: [(0, 1), (8, 9)], 49946: [(0, 2), (7, 9)], 104000: [(0, 3), (6, 9)], 576810: [(0, 4), (5, 9)], 587600: [(0, 5), (4, 9)], 1448434: [(0, 6), (3, 9)], 1696500: [(0, 7), (2, 9)], 2130050: [(0, 8), (1, 9)], 24650: [(1, 2), (7, 8)], 65540: [(1, 3), (6, 8)], 480250: [(1, 4), (5, 8)], 490100: [(1, 5), (4, 8)], 1292850: [(1, 6), (3, 8)], 1527760: [(1, 7), (2, 8)], 9802: [(2, 3), (6, 7)], 287300: [(2, 4), (5, 7)], 294930: [(2, 5), (4, 7)], 960500: [(2, 6), (3, 7)], 190970: [(3, 4), (5, 6)], 197200: [(3, 5), (4, 6)]}
+    equal chords (0,1),(8,9): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (0,2),(7,9): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (0,3),(6,9): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (0,4),(5,9): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (0,5),(4,9): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (0,6),(3,9): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (0,7),(2,9): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (0,8),(1,9): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (1,2),(7,8): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (1,3),(6,8): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (1,4),(5,8): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (1,5),(4,8): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (1,6),(3,8): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (1,7),(2,8): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (2,3),(6,7): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (2,4),(5,7): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (2,5),(4,7): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (2,6),(3,7): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (3,4),(5,6): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+    equal chords (3,5),(4,6): z_a z_d == z_b z_c ? True ; z_a z_c == z_b z_d ? False
+(2) Prop C.1 on 120 triples of the 10-point cluster: OK
+(3) Prop B.2 identity for M<=60: OK

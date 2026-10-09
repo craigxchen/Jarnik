@@ -1,0 +1,22 @@
+N=1176852625, r2(N)=384, 10-point arc constant C=8.239327
+eight smallest angles (= eight closest pairs):
+  angle      pair-norm n   Norm(g)     ratio   alpha=logNorm(g)/logNorm(N)  |g|/(C N^(1/4))
+  2.06122e-04     47074105         25    1.000   0.0771   0.003
+  1.93798e-03      1065025       1105    1.414   0.1678   0.022
+  1.93798e-03      1065025       1105    1.414   0.1678   0.022
+  2.88600e-03       240125       4901    1.000   0.2034   0.046
+  2.88600e-03       240125       4901    1.000   0.2034   0.046
+  4.57665e-03        95485      12325    1.000   0.2255   0.073
+  4.57665e-03        95485      12325    1.000   0.2255   0.073
+  6.51463e-03        47125      24973    1.000   0.2424   0.104
+pairs sorted by pair norm, first 8 (what check_forms.py printed):
+  n=      1105 angle=4.25468e-02 ratio=1.000
+  n=      1105 angle=4.25468e-02 ratio=1.000
+  n=      1625 angle=3.50841e-02 ratio=1.000
+  n=      1625 angle=3.50841e-02 ratio=1.000
+  n=      4901 angle=2.02013e-02 ratio=1.000
+  n=      4901 angle=2.02013e-02 ratio=1.000
+  n=      4901 angle=2.85695e-02 ratio=1.414
+  n=      4901 angle=2.85695e-02 ratio=1.414
+pairs whose gcd modulus g has alpha > 1/4 (so two cluster points share the class 0 mod g with Norm(g) > Norm(N)^(1/4)): 22 of 45
+  largest such alpha = 0.3322 (Norm g = 1065025), versus 1/4 + log C/log N = 0.3510

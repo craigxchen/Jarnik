@@ -1,0 +1,13 @@
+A q=7: 53718 vectors with s<=(q+1)/2 (all of {-3..3}^7); min(#nz+s)=5; (q+1)/2=4
+B q=11: 2461404 vectors (supp<=6, entries +-1,+-2); min(#nz+s)=7; (q+1)/2=6
+C q=19: 4000 random vectors (supp up to (q+1)/2, entries incl. multiples of q, q^2, up to 1e6); min(#nz+s)=11; (q+1)/2=10
+C q=23: 4000 random vectors (supp up to (q+1)/2, entries incl. multiples of q, q^2, up to 1e6); min(#nz+s)=13; (q+1)/2=12
+C q=31: 4000 random vectors (supp up to (q+1)/2, entries incl. multiples of q, q^2, up to 1e6); min(#nz+s)=17; (q+1)/2=16
+C q=43: 4000 random vectors (supp up to (q+1)/2, entries incl. multiples of q, q^2, up to 1e6); min(#nz+s)=23; (q+1)/2=22
+C q=47: 4000 random vectors (supp up to (q+1)/2, entries incl. multiples of q, q^2, up to 1e6); min(#nz+s)=25; (q+1)/2=24
+C q=59: 4000 random vectors (supp up to (q+1)/2, entries incl. multiples of q, q^2, up to 1e6); min(#nz+s)=31; (q+1)/2=30
+C q=67: 4000 random vectors (supp up to (q+1)/2, entries incl. multiples of q, q^2, up to 1e6); min(#nz+s)=35; (q+1)/2=34
+C q=71: 4000 random vectors (supp up to (q+1)/2, entries incl. multiples of q, q^2, up to 1e6); min(#nz+s)=37; (q+1)/2=36
+C q=79: 4000 random vectors (supp up to (q+1)/2, entries incl. multiples of q, q^2, up to 1e6); min(#nz+s)=41; (q+1)/2=40
+C q=83: 4000 random vectors (supp up to (q+1)/2, entries incl. multiples of q, q^2, up to 1e6); min(#nz+s)=43; (q+1)/2=42
+PASS

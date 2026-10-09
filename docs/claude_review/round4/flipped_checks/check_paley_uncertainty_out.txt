@@ -1,0 +1,6 @@
+q=  7:    53718 vectors (supp<=4, |entries|<=3); min (#nonzero rows + s) = 5  [lemma bound (q+1)/2 = 4]
+q= 11:   465366 vectors (supp<=4, |entries|<=3); min (#nonzero rows + s) = 7  [lemma bound (q+1)/2 = 6]
+q= 19:   215574 vectors (supp<=3, |entries|<=3); min (#nonzero rows + s) = 11  [lemma bound (q+1)/2 = 10]
+q= 23:   117484 vectors (supp<=3, |entries|<=2); min (#nonzero rows + s) = 13  [lemma bound (q+1)/2 = 12]
+q= 43:    14620 vectors (supp<=2, |entries|<=2); min (#nonzero rows + s) = 23  [lemma bound (q+1)/2 = 22]
+TOTAL 866762 PASS

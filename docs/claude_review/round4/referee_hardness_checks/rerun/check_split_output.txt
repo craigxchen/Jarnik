@@ -1,0 +1,19 @@
+(H) Coppersmith lattice: exact LLL, Howgrave-Graham condition, vanishing at divisors
+  n~10^38.6, P~10^13.0 (=n^0.336), omega=7, X=24: HG condition True; divisors of n in [P,P+X]: 3; integer roots of h in [0,X]: [0, 17, 19]
+  n~10^37.9, P~10^12.6 (=n^0.333), omega=7, X=24: HG condition True; divisors of n in [P,P+X]: 3; integer roots of h in [0,X]: [0, 16, 17]
+  n~10^37.4, P~10^12.6 (=n^0.338), omega=7, X=24: HG condition True; divisors of n in [P,P+X]: 3; integer roots of h in [0,X]: [0, 4, 15]
+  n~10^36.9, P~10^12.5 (=n^0.340), omega=7, X=24: HG condition True; divisors of n in [P,P+X]: 3; integer roots of h in [0,X]: [0, 3, 18]
+  n~10^36.8, P~10^12.9 (=n^0.351), omega=7, X=24: HG condition True; divisors of n in [P,P+X]: 3; integer roots of h in [0,X]: [0, 6, 15]
+  n~10^36.3, P~10^12.1 (=n^0.333), omega=7, X=24: HG condition True; divisors of n in [P,P+X]: 3; integer roots of h in [0,X]: [0, 3, 17]
+  n~10^36.6, P~10^12.2 (=n^0.333), omega=7, X=24: HG condition True; divisors of n in [P,P+X]: 3; integer roots of h in [0,X]: [0, 7, 8]
+  n~10^35.5, P~10^12.2 (=n^0.343), omega=7, X=24: HG condition True; divisors of n in [P,P+X]: 3; integer roots of h in [0,X]: [0, 11, 15]
+  n~10^37.9, P~10^12.6 (=n^0.333), omega=7, X=24: HG condition True; divisors of n in [P,P+X]: 3; integer roots of h in [0,X]: [0, 8, 17]
+  n~10^38.4, P~10^12.8 (=n^0.333), omega=7, X=24: HG condition True; divisors of n in [P,P+X]: 3; integer roots of h in [0,X]: [0, 1, 16]
+  10 cases; 30 divisor offsets certified as exact roots of one polynomial each
+(I) vertex: #{d | n : sqrt n <= d <= sqrt n + C n^(1/4)} <= 1 + C^2
+  C=1: max over n <= 2*10^5 is 1 <= 2
+  C=2: max over n <= 2*10^5 is 4 <= 5
+  C=3: max over n <= 2*10^5 is 4 <= 10
+(J) max_D S(n,D,1), D in [n^(1/3), n^(1/2)], all n <= 400000
+              1<lambda<2: max count 3 (first at n=2520, D=40, lambda=1.25499)
+               lambda>=2: max count 3 (first at n=77220, D=130, lambda=2.13758)

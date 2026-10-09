@@ -1,0 +1,4 @@
+a in [1,50]: min over a of log10(chord/sqrt2) = 0.00 (at a = 1); i.e. ratio >= 10^0.0
+a in [51,100]: min over a of log10(chord/sqrt2) = 16.90 (at a = 51); i.e. ratio >= 10^16.9
+a in [101,200]: min over a of log10(chord/sqrt2) = 34.91 (at a = 101); i.e. ratio >= 10^34.9
+a in [201,400]: min over a of log10(chord/sqrt2) = 69.82 (at a = 201); i.e. ratio >= 10^69.8

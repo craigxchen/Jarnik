@@ -1,0 +1,4 @@
+Sylvester M= 8 b= 48 r= 336 P=1000000 tau=13.82 window=0.0649(<=1/M=0.1250):   9681 chars OK; min weighted slack 11.663, min equal-weight slack 10.0; local search min slack 11.663 (n=2)
+Paley     M=12 b= 72 r= 792 P=1000000 tau=13.82 window=0.0518(<=1/M=0.0833):   7675 chars OK; min weighted slack 20.595, min equal-weight slack 18.0; local search min slack 20.595 (n=2)
+Sylvester M=16 b= 96 r=1440 P=10000000 tau=16.12 window=0.0411(<=1/M=0.0625):  16985 chars OK; min weighted slack 26.038, min equal-weight slack 23.0; local search min slack 29.235 (n=2)
+Paley     M=20 b=120 r=2280 P=10000000 tau=16.12 window=0.0498(<=1/M=0.0500):  38031 chars OK; min weighted slack 38.048, min equal-weight slack 34.0; local search min slack 38.232 (n=2)

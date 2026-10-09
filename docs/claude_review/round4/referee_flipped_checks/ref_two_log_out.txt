@@ -1,0 +1,6 @@
+Walsh-8 identities 450 angle-bookkeeping 450 nonvanishing 450
+Paley-12 identities 570 angle-bookkeeping 570 nonvanishing 570
+Walsh-16 identities 276 angle-bookkeeping 276 nonvanishing 276
+Paley-20 identities 216 angle-bookkeeping 216 nonvanishing 216
+minpoly checks 3000
+TOTAL [1512, 1512, 1512] PASS

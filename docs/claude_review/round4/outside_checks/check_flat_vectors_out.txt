@@ -1,0 +1,11 @@
+Paley-I    M=12: 73326 small characters scanned; flat non-pair vectors of support <= 6: 220; other flat column-combinations: 0
+Paley-I    M=20: 825930 small characters scanned; flat non-pair vectors of support <= 6: 0; other flat column-combinations: 0
+Paley-I    M=24: 441876 small characters scanned; flat non-pair vectors of support <= 6: 0; other flat column-combinations: 0
+Sylvester  M= 8: 6636 small characters scanned; flat non-pair vectors of support <= 6: 178; other flat column-combinations: 0
+Sylvester  M=16: 414840 small characters scanned; flat non-pair vectors of support <= 6: 892; other flat column-combinations: 0
+
+real	2m2.554s
+user	2m0.377s
+sys	0m0.098s
+
+[exited with code 0]

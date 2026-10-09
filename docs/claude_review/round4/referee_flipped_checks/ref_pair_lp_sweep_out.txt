@@ -1,0 +1,16 @@
+Walsh-8 canonical: rho=2/5 (0.4000), K=2.800
+Walsh-8 B=2 surjective x40: rho in [0.3333, 0.5000], max K=3.500
+Walsh-8 B=3 random x40: rho in [0.3333, 0.6667], max K=3.500
+Walsh-8 B=4 random x40: rho in [0.3333, 0.5000], max K=3.500
+Paley-12 canonical: rho=1/2 (0.5000), K=5.500
+Paley-12 B=2 surjective x40: rho in [0.2895, 0.5000], max K=5.500
+Paley-12 B=3 random x30: rho in [0.3000, 0.3833], max K=4.125
+Paley-12 B=5 random x30: rho in [0.3125, 0.5000], max K=5.500
+Walsh-16 canonical: rho=4/11 (0.3636), K=5.455
+Walsh-16 B=2 surjective x8: rho in [0.2857, 0.3333], max K=5.000
+Walsh-16 B=3 random x6: rho in [0.2857, 0.3472], max K=5.097
+Paley-20 canonical: rho=1/2 (0.5000), K=9.500
+Paley-20 B=2 surjective x6: rho in [0.2632, 0.2833], max K=5.383
+Paley-20 B=4 random x4: rho in [0.2632, 0.2744], max K=5.213
+Paley-24 canonical: rho=1/2 (0.5000), K=11.500
+(run stopped by its 1800 s limit during Paley-24 random assignments)

@@ -1,0 +1,3 @@
+Sylvester M= 8 b= 48: 385 aligned flats (all subspaces, cosets, nonzero functionals, 5 random flip assignments): all flat (F=M) and Lemma A.7(iii) equal-weight form holds; min slack 10.0
+Sylvester M=16 b= 96: 3825 aligned flats (all subspaces, cosets, nonzero functionals, 5 random flip assignments): all flat (F=M) and Lemma A.7(iii) equal-weight form holds; min slack 24.0
+Sylvester M=32 b=192: 47585 aligned flats (all subspaces, cosets, nonzero functionals, 5 random flip assignments): all flat (F=M) and Lemma A.7(iii) equal-weight form holds; min slack 54.0

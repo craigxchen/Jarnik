@@ -1,0 +1,7 @@
+Walsh-8: identities verified
+Paley-12: identities verified
+Walsh-16: identities verified
+Paley-20: identities verified
+negative control: wrong exponents fail as they should
+TOTAL exact checks passed: 2600
+PASS

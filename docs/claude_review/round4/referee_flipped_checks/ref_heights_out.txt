@@ -1,0 +1,8 @@
+(1) Theorem L averaging inequality checked on 210 random weighted profiles: PASS
+(2) heavy-flip weight profiles: label 1 = five smallest split primes
+   M=  44  W_F/V=0.625  (3.1) holds for all labels: True   min_a h(u_a)h(v_a)/V = 2.186   vs (1/8)log(4M/e) = 0.521
+   M= 100  W_F/V=0.620  (3.1) holds for all labels: True   min_a h(u_a)h(v_a)/V = 2.167   vs (1/8)log(4M/e) = 0.624
+   M= 200  W_F/V=0.618  (3.1) holds for all labels: True   min_a h(u_a)h(v_a)/V = 2.159   vs (1/8)log(4M/e) = 0.711
+   M= 400  W_F/V=0.617  (3.1) holds for all labels: True   min_a h(u_a)h(v_a)/V = 2.156   vs (1/8)log(4M/e) = 0.797
+   M= 800  W_F/V=0.616  (3.1) holds for all labels: True   min_a h(u_a)h(v_a)/V = 2.154   vs (1/8)log(4M/e) = 0.884
+(3) corrected Prop B bound h1h2 >= (delta/2) V log(4M/e) verified on 8938 random admissible data: PASS

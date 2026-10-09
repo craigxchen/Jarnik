@@ -1,0 +1,6 @@
+R2 Lemma 2.1: all X <= 3000, c^2 in {1/4,1/2,1,9/4,4}: no violation (max excess 0)
+R3 Prop 2.3(2) (with the sharper constant 2(c^2/sqrt2+1)): n <= 2e5, c in {.5,1,2}: violations 0
+R4 Cor 2.2: q<=30, K<=40, 3000 values of a from the threshold: no violation; worst ratio 0.577
+R5 Lemma 4.2(b) consequence: 134850 cases (36990 with psi > pi/4, outside the proof): violations 0
+R6 alpha = 1/4: z=u^2, w=i*u*ubar share the class 0 mod u, Norm(u)=Norm(N)^(1/4), |z-w|=sqrt2 N^(1/4): verified A=2,3,10,101,1000
+R7 u=A+i: Norm(u)=A^2+1 is even (so (1+i) | gcd(u,ubar)) for odd A, e.g. [1, 3, 5, 7, 9]; the family needs A even

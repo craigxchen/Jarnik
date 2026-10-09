@@ -1,0 +1,21 @@
+(E) N=1176852625={5: 3, 13: 2, 17: 1, 29: 1, 113: 1}: 10-point cluster with C=8.239327
+  45 pairs; pair norms with all exponents 1: 14
+  pair norm n | factorisation | angle | sqrt2/sqrt n | ratio | log10 Matveev bound
+          1105 {5: 1, 13: 1, 17: 1}               4.255e-02 4.254e-02    1.00 -3121021397027797.5
+          1105 {5: 1, 13: 1, 17: 1}               4.255e-02 4.254e-02    1.00 -3121021397027797.5
+          1625 {5: 3, 13: 1}                      3.508e-02 3.508e-02    1.00 -17212243981154.9
+          1625 {5: 3, 13: 1}                      3.508e-02 3.508e-02    1.00 -17212243981154.9
+          4901 {13: 2, 29: 1}                     2.020e-02 2.020e-02    1.00 -26174766068433.4
+          4901 {13: 2, 29: 1}                     2.020e-02 2.020e-02    1.00 -26174766068433.4
+          4901 {13: 2, 29: 1}                     2.857e-02 2.020e-02    1.41 -26174766068433.4
+          4901 {13: 2, 29: 1}                     2.857e-02 2.020e-02    1.41 -26174766068433.4
+      47074105 {5: 1, 13: 2, 17: 1, 29: 1, 113: 1} 4.061e-02 2.061e-04  197.01 -203497556307305463808.0
+    1176852625 {5: 3, 13: 2, 17: 1, 29: 1, 113: 1} 2.568e-02 4.122e-05  623.02 -203497556307305463808.0
+    1176852625 {5: 3, 13: 2, 17: 1, 29: 1, 113: 1} 3.146e-02 4.122e-05  763.03 -203497556307305463808.0
+  min over pairs of angle/(sqrt2/sqrt n) = 1.000; max = 763.0
+  Matveev's bound is weaker than the elementary bound for all 45 pairs: True
+(E') pairs (u, i*ubar), u = A+(A-1)i, 2<=A<2000: max |angle/(sqrt2 n^(-1/2)) - 1| = 1.75e-02
+(F) product clusters with 3 coprime blocks: C >= sqrt2 * N^(1/12)
+  3000 random block triples: min C/(sqrt2 N^(1/12)) = 11.825 (lemma requires >= 1)
+(G) arcs near Gaussian directions w: count <= 2|w|(kappa+C)^2+2
+  6072 (circle, w, kappa, C) cases; violations of the bound: 0

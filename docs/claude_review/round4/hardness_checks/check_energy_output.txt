@@ -1,0 +1,24 @@
+(A) difference multiplicity on I=[X,X+floor(c sqrt X)]
+  X=3523228 L=1877 c=1.0: max_d r(d) = 1 <= 2
+  X=593317 L=1540 c=2.0: max_d r(d) = 1 <= 5
+  X=361862 L=901 c=1.5: max_d r(d) = 1 <= 3
+  X=2798475 L=1672 c=1.0: max_d r(d) = 1 <= 2
+  X=1944068 L=4182 c=3.0: max_d r(d) = 2 <= 10
+  X=407714 L=638 c=1.0: max_d r(d) = 1 <= 2
+  60 random intervals: all within bound; worst ratio 1.000
+(B) two-interval energy E(A,B) <= |A||B| + (1+floor c^2) min(|A|,|B|)^2
+  |A|=131 |B|=418 c=1.0: E=54760 <= 89080
+  |A|=198 |B|=198 c=1.0: E=39228 <= 117612
+  |A|=963 |B|=988 c=2.0: E=952514 <= 5588289
+  |A|=740 |B|=499 c=2.0: E=369822 <= 1614265
+  40 random pairs of sets: all within bound
+(C) one-interval sum multiplicity <= 2(c^2/sqrt2+2)
+  X=509101 L=713: max r(n) = 2 <= 5.41
+  X=1873852 L=2736: max r(n) = 2 <= 9.66
+  X=1384118 L=2352: max r(n) = 2 <= 9.66
+  X=756062 L=2607: max r(n) = 4 <= 16.73
+  30 random intervals: all within bound
+  contrast, I and J far apart (generic direction): max r(n) over random boxes
+  30 random generic boxes of side sqrt(R): max r(n) found = 3
+(D) squares in APs with a >= (qK/2)^(4/3): count <= sqrt(6K)
+  random APs: all within bound; worst count/sqrt(6K) = 0.289
