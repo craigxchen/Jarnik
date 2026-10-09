@@ -1,0 +1,18 @@
+q0 = 59, M = 60, b = 33, r = 1947, X = 3 M^2 = 10800, odd primes <= X: 1314, levels: 1355
+unit-1 pair collisions exactly as Lemma 3.3(1) predicts at every level: True
+max pair demand log m_(xy,1) = 21.00 = 5.128 log M  (mu_M log M = 116.5); mean = 1.393 log M
+max unit != 1 pair modulus log m^off = 69.78; (W/4 - 1 with tau ~ 2 log M: 3985)
+ALL DESIGN-PAIR CHECKS PASSED
+
+real	0m1.970s
+user	0m2.631s
+sys	0m0.032s
+q0 = 107, M = 108, b = 33, r = 3531, X = 3 M^1 = 324, odd primes <= X: 65, levels: 75
+unit-1 pair collisions exactly as Lemma 3.3(1) predicts at every level: True
+max pair demand log m_(xy,1) = 23.85 = 5.094 log M  (mu_M log M = 125.7); mean = 1.430 log M
+max unit != 1 pair modulus log m^off = 36.44; (W/4 - 1 with tau ~ 2 log M: 8265)
+ALL DESIGN-PAIR CHECKS PASSED
+
+real	0m1.504s
+user	0m2.815s
+sys	0m0.048s

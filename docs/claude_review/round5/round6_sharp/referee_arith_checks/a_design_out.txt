@@ -1,0 +1,3 @@
+X = 324: D1..D3 {'D1': True, 'D2': True, 'D3': True};  max pair demand = 24.84 = 5.305 log M;  unit!=1 large-q pair collisions: observed 0, bound 0.0
+X = 34992: D1..D3 {'D1': True, 'D2': True, 'D3': True};  max pair demand = 24.84 = 5.305 log M;  unit!=1 large-q pair collisions: observed 9407, bound 37379.4
+ALL DESIGN (CLASS-LEVEL) CHECKS PASSED

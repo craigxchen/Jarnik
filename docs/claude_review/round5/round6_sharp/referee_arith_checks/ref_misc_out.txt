@@ -1,0 +1,4 @@
+(a) quartic part of ell for actual Gaussian primes, 8 | m:
+   invariant under units/rational rescaling and both quartic classes occur: True
+(b) Siegel's lemma in Prop 7.1:
+   M = 5: all trials found c within the Siegel bound: True

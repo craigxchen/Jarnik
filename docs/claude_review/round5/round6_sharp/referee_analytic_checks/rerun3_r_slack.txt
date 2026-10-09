@@ -1,0 +1,13 @@
+q= 43 b=33: twins/rank/nonconst True; identity(3.1) True; min 2B-r: pairs 29 (b-4=29), columns 113 (b+2M-8=113), half-sums 69 (b+M-16=61), other ternary (random) 561 (proved 35.8), hill-climb non-pair 557; amplitude min ratio to bound 2.10; kappa_b M = 2.75; slack ineq min gap 0.497
+q= 43 b=40: twins/rank/nonconst True; identity(3.1) True; min 2B-r: pairs 36 (b-4=36), columns 120 (b+2M-8=120), half-sums 76 (b+M-16=68), other ternary (random) 676 (proved 62.0), hill-climb non-pair 676; amplitude min ratio to bound 2.03; kappa_b M = 22.00; slack ineq min gap 0.495
+q= 47 b=33: twins/rank/nonconst True; identity(3.1) True; min 2B-r: pairs 29 (b-4=29), columns 121 (b+2M-8=121), half-sums 73 (b+M-16=65), other ternary (random) 561 (proved 36.0), hill-climb non-pair 561; amplitude min ratio to bound 2.10; kappa_b M = 3.00; slack ineq min gap 0.497
+q= 47 b=40: twins/rank/nonconst True; identity(3.1) True; min 2B-r: pairs 36 (b-4=36), columns 128 (b+2M-8=128), half-sums 80 (b+M-16=72), other ternary (random) 684 (proved 64.0), hill-climb non-pair 680; amplitude min ratio to bound 2.05; kappa_b M = 24.00; slack ineq min gap 0.498
+q= 59 b=33: twins/rank/nonconst True; identity(3.1) True; min 2B-r: pairs 29 (b-4=29), columns 145 (b+2M-8=145), half-sums 85 (b+M-16=77), other ternary (random) 825 (proved 36.8), hill-climb non-pair 821; amplitude min ratio to bound 2.13; kappa_b M = 3.75; slack ineq min gap 0.498
+q= 59 b=40: twins/rank/nonconst True; identity(3.1) True; min 2B-r: pairs 36 (b-4=36), columns 152 (b+2M-8=152), half-sums 92 (b+M-16=84), other ternary (random) 1000 (proved 70.0), hill-climb non-pair 996; amplitude min ratio to bound 2.09; kappa_b M = 30.00; slack ineq min gap 0.501
+q= 67 b=33: twins/rank/nonconst True; identity(3.1) True; min 2B-r: pairs 29 (b-4=29), columns 161 (b+2M-8=161), half-sums 93 (b+M-16=85), other ternary (random) 953 (proved 37.2), hill-climb non-pair 829; amplitude min ratio to bound 2.16; kappa_b M = 4.25; slack ineq min gap 0.495
+q= 67 b=40: twins/rank/nonconst True; identity(3.1) True; min 2B-r: pairs 36 (b-4=36), columns 168 (b+2M-8=168), half-sums 100 (b+M-16=92), other ternary (random) 1004 (proved 74.0), hill-climb non-pair 1004; amplitude min ratio to bound 2.10; kappa_b M = 34.00; slack ineq min gap 0.499
+ALL REFEREE SLACK CHECKS PASSED
+
+real	0m45.259s
+user	0m48.249s
+sys	0m0.024s

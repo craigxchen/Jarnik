@@ -1,0 +1,3 @@
+M in [20,200) step 1: max demand/log M = 6.999 at M = 111 (A=1);  7.157 at M = 23 (A=2)
+M in [200,2000) step 1: max demand/log M = 6.830 at M = 815 (A=1);  6.830 at M = 815 (A=2)
+M in [2000,20000) step 97: max demand/log M = 6.762 at M = 4134 (A=1);  6.762 at M = 4134 (A=2)

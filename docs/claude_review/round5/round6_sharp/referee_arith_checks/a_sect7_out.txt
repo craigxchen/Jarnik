@@ -1,0 +1,17 @@
+S1 Siegel (Prop. 7.1):
+   M=6 B=1: H=2, solution found in 20/20 random labellings
+   M=6 B=10: H=7, solution found in 20/20 random labellings
+   M=6 B=100: H=19, solution found in 20/20 random labellings
+   M=7 B=10: H=5, solution found in 20/20 random labellings
+   M=7 B=60: H=11, solution found in 20/20 random labellings
+S2 (1/M) log #{||c||_1 <= 4M} -> 3.0846 (at alpha = 0.877)
+   exact M=20: (1/M) log # = 2.9693
+   exact M=50: (1/M) log # = 3.0294
+   exact M=100: (1/M) log # = 3.0535
+S3 y=5: sum_(e^y<=q<=e^(2y)) 1/q = 0.6849  (log 2 = 0.6931; log2/y = 0.1386)
+S3 y=7: sum_(e^y<=q<=e^(2y)) 1/q = 0.6882  (log 2 = 0.6931; log2/y = 0.0990)
+S3 y=8: sum_(e^y<=q<=e^(2y)) 1/q = 0.6904  (log 2 = 0.6931; log2/y = 0.0866)
+S4 coherent design zeta_x = n_x + i, n_x^2+1 prime, n_x in [100044, 100324], X = 2000
+   pairs: log m (unit 1) max 4.71 [divides n_y - n_x, |.| <= 280];  unit -1: mean 6.77 max 23.03;  units +-i: mean 9.44;  a-priori bound 4 log Y = 92.1;  log X = 7.60
+   direct residue check of the unit-1 pair criterion q^a | n_y - n_x at all q^a <= X: True
+   support-4 characters (unit 1): log m mean 6.07, max 28.10, fraction with log m > log X/2: 0.59

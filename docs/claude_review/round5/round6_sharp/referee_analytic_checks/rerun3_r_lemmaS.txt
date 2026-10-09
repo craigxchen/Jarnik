@@ -1,0 +1,12 @@
+A: Hadamard property for q = 7,11,19,23,43,47: True
+B: Lemma 2.2 min slack (#nonzero - ((q+1)/2 - s')): {7: (1, 2604), 11: (1, 569052), 43: (1, 20000), 47: (1, 20000)}  (>= 0 required)
+C: Lemma 2.1 items 1-6 on 12000 vectors (q = 43,47,59): failures = 0
+D1: min over q in [43,1e5] of min_h f(h)/(M/16) = 1.9753 at q = 47  (>= 1 required)
+D2: (2.1) F - M >= f(h) on 12000 random small-support ternary vectors: violations = 0
+E1: q = 43 exhaustive ternary support 4: min F = 60, support 6: min F = 68  (17M/16 = 46.75)
+E2: q = 43 perturbed columns/half-sums min F = 80; ternary hill-climb min F = 60 (non-exceptional; 17M/16 = 46.75)
+ALL REFEREE LEMMA S CHECKS PASSED
+
+real	2m53.805s
+user	1m33.216s
+sys	1m19.243s

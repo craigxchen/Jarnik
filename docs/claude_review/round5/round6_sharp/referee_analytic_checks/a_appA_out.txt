@@ -1,0 +1,15 @@
+(1) max_(v != 0) level-set bound = 225.0;  sum_(v != 0) |v| = 12
+(2) ||1_(x+H)||_A = 1 for 200 random cosets in F_2^4: True
+(3) m = 3: Pr[4 random distinct points coplanar] = 336/1680 = 0.200000;  1/(M-3) = 0.200000
+(3) m = 4: Pr[4 random distinct points coplanar] = 3360/43680 = 0.076923;  1/(M-3) = 0.076923
+(3) m = 5: Pr[4 random distinct points coplanar] = 29760/863040 = 0.034483;  1/(M-3) = 0.034483
+(3) m = 6: Pr[4 random distinct points coplanar] = 249984/15249024 = 0.016393;  1/(M-3) = 0.016393
+(4) Assembly union bound at s = 4 L log M (natural logs; negative = closes):
+   m =    40, L =    10: naive =           9508;  multiset =          -9944
+   m =    40, L =  1000: naive =      1.085e+06;  multiset =     -4.979e+05
+   m =   100, L =    10: naive =      4.738e+04;  multiset =     -8.584e+04
+   m =   100, L =  1000: naive =      5.055e+06;  multiset =     -7.361e+06
+   m =   400, L =    10: naive =      6.549e+05;  multiset =     -1.596e+06
+   m =   400, L =  1000: naive =      6.683e+07;  multiset =     -1.546e+08
+   m =  2000, L =    10: naive =      1.565e+07;  multiset =     -4.166e+07
+   m =  2000, L =  1000: naive =      1.571e+09;  multiset =     -4.142e+09

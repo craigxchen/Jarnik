@@ -1,0 +1,28 @@
+== check_parity
+IDENTICAL
+ALL PARITY CHECKS PASSED
+== check_lemmaS6
+IDENTICAL
+ALL LEMMA S CHECKS PASSED
+== check_p3all
+IDENTICAL
+P3-ALL EVIDENCE DONE
+== check_realise
+IDENTICAL
+ALL REALISATION CHECKS PASSED
+== check_design
+DIFFERS
+1,2c1,2
+< Part 1: odd primes q < 2^25: 2063688;  max multiplicity 4;  max Lambda'(p)/log p = 7.366
+<    max multiplicity by block k: [3, 3, 4, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+---
+> Part 1: odd primes q < 2^23: 564162;  max multiplicity 4;  max Lambda'(p)/log p = 7.366
+>    max multiplicity by block k: [3, 3, 4, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+ALL DESIGN CHECKS PASSED
+check_parity 13 s
+check_lemmaS6 11 s
+check_p3all 72 s
+check_realise 85 s
+check_design 38 s
+
+[exited with code 0]

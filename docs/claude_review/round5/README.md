@@ -1,8 +1,11 @@
 # Round 5/6: fake circles at `log R = O(M log M)` (snapshot, refereeing in progress)
 
 **Status of this snapshot (2026-10-09).** `construct.md` has been refereed (`referee_construct.md`:
-survives, with the corrections below). `lower.md` and `round6_sharp/sharp.md` are drafts whose
-adversarial referees have not finished; their statements below are the authors' claims. I
+survives, with the corrections below). `round6_sharp/sharp.md` has been refereed by two referees
+with different lenses and a merge pass (`round6_sharp/referee_sharp*.md`): it survives, with the
+corrections below. The referee of `lower.md` has not finished, so its statements below are the
+author's claims. The round-6 referees independently re-derived every part of `lower.md` that
+`sharp.md` uses (Lemma S, Prop. 3.3, Lemmas 5.2-5.3, Props. 1.2-1.3). I
 independently re-derived Lemma S of `lower.md` (the Paley `l^1`-stability lemma) and found no error.
 Nothing here proves the uniform theorem or a general growth improvement.
 
@@ -38,7 +41,7 @@ If `W_min/(M log M) -> infinity`, actual circles would satisfy `M = o(log R/logl
   `c` other than a pair, a signed column or a half-sum has `||H^T c||_1 >= (17/16) M`. Fakes at
   `(48 + o(1)) M log M`, and `(16 + 32A + o(1)) M log M` with residue data up to `M^A`. Its §8 isolates
   the prime-level parity obstruction (Prop. 8.1).
-* **`round6_sharp/sharp.md` (referee pending).** Residue data that factor through prime residues
+* **`round6_sharp/sharp.md` (refereed: survives).** Residue data that factor through prime residues
   with the genuine norm constraint. The forced information is exactly one parity bit per prime and
   modulus, `ell_j = [(p_j/q) = -1] mod 2` (Prop. 2.1). A design with classes inside parity classes
   (max pair demand `O(log M)`) gives:
@@ -49,6 +52,20 @@ If `W_min/(M log M) -> infinity`, actual circles would satisfy `M = o(log R/logl
     `W_min = O(M log M)` here? A negative answer would be a growth improvement for actual circles.
   * Moduli up to `N^A`: not proved.
   * Appendix A, Sylvester multi-block plus Green-Sanders: a sketch only.
+
+  Referee corrections:
+  * **(major)** The "height condition" used in Prop. 6.5 is stated in an aggregated form,
+    `prod_q q^(max_s a) <= sqrt2 e^(w/2)`. That form is false for actual primes (8976 of 8977
+    primes below `2*10^5` violate it). The necessary condition is per unit:
+    `m_(v,s) <= nu_s^(-1) e^(w(v)/2)`. With that repair, Prop. 6.5 holds: the uniform random design
+    fails w.h.p. below `(2A - eps) log^2 M/loglog M`, so Theorem 6.4 is sharp *for that method*.
+  * Lemma 5.1b and `lower.md` Lemma 5.2 need every deleted prime to exceed `X'`.
+  * The pair-demand line should read `log m_xy <= 10 log d + 18.72 omega(d) <= (10 + 26/loglog M) log M`.
+  * Prop. 7.1 needs `v(c) != 0`, and Prop. 7.4 needs the pair hypothesis over all units.
+  * §7.2 shows only that one a-priori bound is useless at moduli `>= N^(1/4)`. Whether coherent
+    designs work there is undecided.
+  * The rest are minor numerical slips; none changes Theorem 5.1, Corollary 5.2, Theorem 6.4 or the
+    constant bracket `[1/33, 2/3]` (for `A <= 2`).
 
 `lead_notes/` contains the lead's notes and checks that prompted round 6. `checks/` and
 `referee_construct_checks/` hold the scripts; each runs from its directory.

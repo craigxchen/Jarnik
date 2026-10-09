@@ -1,0 +1,18 @@
+(a) structured part and pair demand:
+   M=    44: log m_struct =     323.5 = 7.35 M (claim <= 11 M; pi(4M)log(32M^2) = 9.78 M); max pair demand = 5.93 log M (mu_M = 29.54)
+   M=   128: log m_struct =     995.0 = 7.77 M (claim <= 11 M; pi(4M)log(32M^2) = 9.88 M); max pair demand = 6.79 log M (mu_M = 26.46)
+   M=   512: log m_struct =    4020.6 = 7.85 M (claim <= 11 M; pi(4M)log(32M^2) = 9.59 M); max pair demand = 6.18 log M (mu_M = 24.20)
+   M=  2048: log m_struct =   16230.3 = 7.92 M (claim <= 11 M; pi(4M)log(32M^2) = 9.38 M); max pair demand = 6.37 log M (mu_M = 22.80)
+   M=  8192: log m_struct =   65234.4 = 7.96 M (claim <= 11 M; pi(4M)log(32M^2) = 9.21 M); max pair demand = 6.42 log M (mu_M = 21.83)
+   M= 32768: log m_struct =  261754.4 = 7.99 M (claim <= 11 M; pi(4M)log(32M^2) = 9.07 M); max pair demand = 6.36 log M (mu_M = 21.10)
+   M=120000: log m_struct =  959147.1 = 7.99 M
+   note: the d-wise Robin form (10+26/loglog d) log d at d = 3,4,5,8,16: 315, 124, 104, 95, 98  (not monotone; the true demand there is O(1))
+(b) max_(20<=k<=2000) R(k) = 8.1047; ceil = 9; asymptote 1.51012/0.186235 = 8.1087
+(c) q=3, theta=1/2: worst-case E[q^(theta (a-a*)^+)] = 1.5774 vs claimed bound 2.1547  (OK)
+(c) q=5, theta=1/2: worst-case E[q^(theta (a-a*)^+)] = 1.4472 vs claimed bound 1.8944  (OK)
+(c) q=7, theta=1/2: worst-case E[q^(theta (a-a*)^+)] = 1.3780 vs claimed bound 1.7559  (OK)
+(d) A=1, b=33, C=1: union-bound families < 1/4 from log M >= amplitude2: 4, pairs: 4, ternary: 412
+(d) A=2, b=33, C=1: union-bound families < 1/4 from log M >= pairs: 4, amplitude2: 7, ternary: 447
+(e) Lemma 3.3(3) level-1 MC: max over trials of empirical Pr / (4 c_min/m) = 1.688 (small counts, noisy; superseded by r_lemma33_mc.py, which gives 0.55)
+(f) Lemma 5.1a MC: max empirical Pr / bound = 0.305 (<= 1 expected)
+REFEREE THM 5.1 CHECKS DONE

@@ -1,0 +1,5 @@
+check_parity 13 s
+check_lemmaS6 11 s
+check_p3all 72 s
+check_realise 85 s
+check_design 38 s

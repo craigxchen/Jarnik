@@ -1,0 +1,17 @@
+(i)  max (E_max - 1)/(58 kk q^(theta-1)) over q > 24kk: 0.414  (<= 1 required)
+     max (E_max - 1)/((log_3(24X)+3.4) e^(2 beta)) over q <= 24kk: 0.020  (<= 1 required; trivial bound X^theta = e^beta also works)
+(ii) max over grid of sum_q log E_max(q) / claimed kk-bracket: 0.047  (<= 1 required)
+(iii) #{||v||_1 = kk} <= (2r)^kk for r <= 4, kk <= 5: True
+(iv) parameters (b = 33, r = 33 M):
+   A = 1: beta > 0 first at log M = 4612
+      log M =     1e+04: beta =   0.607, theta = 6.07e-05, tau_*/(log^2 M/loglog M) =  34.039  (limit 2)
+      log M =     1e+05: beta =   2.482, theta = 2.48e-05, tau_*/(log^2 M/loglog M) =  10.099  (limit 2)
+      log M =     1e+06: beta =   4.434, theta = 4.43e-06, tau_*/(log^2 M/loglog M) =   6.685  (limit 2)
+      log M =     1e+09: beta =  10.553, theta = 1.06e-08, tau_*/(log^2 M/loglog M) =   4.117  (limit 2)
+      log M =     1e+15: beta =  23.366, theta = 2.34e-14, tau_*/(log^2 M/loglog M) =   3.042  (limit 2)
+   A = 2: beta > 0 first at log M = 5049
+      log M =     1e+04: beta =   0.541, theta = 2.71e-05, tau_*/(log^2 M/loglog M) =  76.374  (limit 4)
+      log M =     1e+05: beta =   2.428, theta = 1.21e-05, tau_*/(log^2 M/loglog M) =  20.647  (limit 4)
+      log M =     1e+06: beta =   4.388, theta = 2.19e-06, tau_*/(log^2 M/loglog M) =  13.509  (limit 4)
+      log M =     1e+09: beta =  10.522, theta = 5.26e-09, tau_*/(log^2 M/loglog M) =   8.258  (limit 4)
+      log M =     1e+15: beta =  23.346, theta = 1.17e-14, tau_*/(log^2 M/loglog M) =   6.089  (limit 4)

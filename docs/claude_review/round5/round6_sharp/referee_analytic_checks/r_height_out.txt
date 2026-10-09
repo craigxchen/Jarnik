@@ -1,0 +1,12 @@
+Part 1 (Xmod = 1e7): 39175 actual Gaussian primes p < 1e6: per-unit height violations = 0; aggregated 'm_v <= sqrt2 e^(w/2)' violations = 39174 (100.0%); m_v <= e^(2w)/4 violations = 0
+Part 1 (Xmod = 3 sqrt(p)): 39175 actual Gaussian primes p < 1e6: per-unit height violations = 0; aggregated 'm_v <= sqrt2 e^(w/2)' violations = 39174 (100.0%); m_v <= e^(2w)/4 violations = 0
+   example p = 13, pi = 2+3i: D_s = [3, -1, 2, 5], m_(v,s) = [3, 1, 1, 5], m_v = 15 > sqrt(2*13) = 5.10; per-unit bounds nu_s^-1 sqrt13 = [3.61, 5.1, 3.61, 5.1]
+Part 1b: 20000 actual 2-prime monomials: per-unit violations = 0; aggregated violations = 19936 (99.7%)
+Part 2: M =     1000: max_j log m_(e_j) [aggregated] = 3.223, max_j max_s log m_(e_j,s) [per unit] = 1.839  (units of log^2 M/loglog M; Prop 6.5 asymptote 1 = tau/2 threshold at A = 1)
+Part 2: M =    10000: max_j log m_(e_j) [aggregated] = 2.899, max_j max_s log m_(e_j,s) [per unit] = 1.588  (units of log^2 M/loglog M; Prop 6.5 asymptote 1 = tau/2 threshold at A = 1)
+Part 2: M =   100000: max_j log m_(e_j) [aggregated] = 2.804, max_j max_s log m_(e_j,s) [per unit] = 1.724  (units of log^2 M/loglog M; Prop 6.5 asymptote 1 = tau/2 threshold at A = 1)
+Part 2: M =  1000000: max_j log m_(e_j) [aggregated] = 2.889, max_j max_s log m_(e_j,s) [per unit] = 1.754  (units of log^2 M/loglog M; Prop 6.5 asymptote 1 = tau/2 threshold at A = 1)
+
+real	1m17.576s
+user	0m59.419s
+sys	0m18.167s

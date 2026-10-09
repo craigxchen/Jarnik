@@ -1,0 +1,3 @@
+parameters: q0 = 43  M = 44  b = 33  r = 1419  X = 2 M^A = 3872
+stats: {'moduli': 535, 'levels': 564, 'nonconst_sigma': 535, 'blind_unrealisable': 535, 'pairs_line1': 1939}
+ALL REALISATION CHECKS PASSED

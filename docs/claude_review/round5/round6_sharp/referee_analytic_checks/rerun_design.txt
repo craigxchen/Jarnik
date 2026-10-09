@@ -1,0 +1,13 @@
+Part 1: odd primes q < 2^23: 564162;  max multiplicity 4;  max Lambda'(p)/log p = 7.366
+   max multiplicity by block k: [3, 3, 4, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+Part 2: max_(20<=k<=2000) R(k) = 8.1047;  bound for k > 2000: 8.1306;  so multiplicity <= 9 for k >= 20
+Part 3: M =     64: max pair demand    23.85 at d =     55;  = 5.734 log M
+Part 3: M =    256: max pair demand    32.96 at d =    110;  = 5.944 log M
+Part 3: M =   1024: max pair demand    45.78 at d =    814;  = 6.605 log M
+Part 3: M =   4096: max pair demand    56.31 at d =   4070;  = 6.769 log M
+Part 3: M =  16384: max pair demand    63.42 at d =  15510;  = 6.535 log M
+ALL DESIGN CHECKS PASSED
+
+real	0m11.910s
+user	0m11.681s
+sys	0m0.075s

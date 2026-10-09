@@ -1,0 +1,22 @@
+P1: M=6 r=20 e=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  moduli=30  character-level tests=29600  -> {'C1': True, 'C2': True, 'C3': True, 'C4': True}
+P2: M=5 r=16 e=[1, 1, 2, 2, 1, 1, 2, 2, 1, 1, 2, 1, 2, 1, 1, 1]  moduli=30  character-level tests=28120  -> {'C1': True, 'C2': True, 'C3': True, 'C4': True}
+C5 (exhaustive realisable set):
+  C5 q=3 m=4 r=7: |realisable|=8  |parity-respecting|=8  equal=True
+  C5 q=5 m=4 r=7: |realisable|=8  |parity-respecting|=8  equal=True
+  C5 q=7 m=8 r=7: |realisable|=64  |parity-respecting|=64  equal=True
+  C5 q=13 m=12 r=7: |realisable|=216  |parity-respecting|=216  equal=True
+  C5 q=17 m=16 r=7: |realisable|=512  |parity-respecting|=512  equal=True
+C6 (quartic part):
+  C6 q=  7 m=  8: invariant(mod 4)=True  ell mod 4 for (p/q)=1: [0, 2]  for -1: [1, 3]  quartic reciprocity [pi/q]_4=[-q/pi]_4: True
+  C6 q= 17 m= 16: invariant(mod 4)=True  ell mod 4 for (p/q)=1: [0, 2]  for -1: [1, 3]  quartic reciprocity [pi/q]_4=[-q/pi]_4: n/a
+  C6 q= 23 m= 24: invariant(mod 4)=True  ell mod 4 for (p/q)=1: [0, 2]  for -1: [1, 3]  quartic reciprocity [pi/q]_4=[-q/pi]_4: True
+  C6 q= 31 m= 32: invariant(mod 4)=True  ell mod 4 for (p/q)=1: [0, 2]  for -1: [1, 3]  quartic reciprocity [pi/q]_4=[-q/pi]_4: True
+  C6 q= 41 m= 40: invariant(mod 4)=True  ell mod 4 for (p/q)=1: [0, 2]  for -1: [1, 3]  quartic reciprocity [pi/q]_4=[-q/pi]_4: n/a
+  C6 q= 47 m= 48: invariant(mod 4)=True  ell mod 4 for (p/q)=1: [0, 2]  for -1: [1, 3]  quartic reciprocity [pi/q]_4=[-q/pi]_4: True
+  C6 q= 71 m= 72: invariant(mod 4)=True  ell mod 4 for (p/q)=1: [0, 2]  for -1: [1, 3]  quartic reciprocity [pi/q]_4=[-q/pi]_4: True
+  C6 q= 73 m= 72: invariant(mod 4)=True  ell mod 4 for (p/q)=1: [0, 2]  for -1: [1, 3]  quartic reciprocity [pi/q]_4=[-q/pi]_4: n/a
+  C6 q= 79 m= 80: invariant(mod 4)=True  ell mod 4 for (p/q)=1: [0, 2]  for -1: [1, 3]  quartic reciprocity [pi/q]_4=[-q/pi]_4: True
+  C6 q= 89 m= 88: invariant(mod 4)=True  ell mod 4 for (p/q)=1: [0, 2]  for -1: [1, 3]  quartic reciprocity [pi/q]_4=[-q/pi]_4: n/a
+  C6 q= 97 m= 96: invariant(mod 4)=True  ell mod 4 for (p/q)=1: [0, 2]  for -1: [1, 3]  quartic reciprocity [pi/q]_4=[-q/pi]_4: n/a
+  C6 q=103 m=104: invariant(mod 4)=True  ell mod 4 for (p/q)=1: [0, 2]  for -1: [1, 3]  quartic reciprocity [pi/q]_4=[-q/pi]_4: True
+ALL COR 2.2 CHECKS PASSED

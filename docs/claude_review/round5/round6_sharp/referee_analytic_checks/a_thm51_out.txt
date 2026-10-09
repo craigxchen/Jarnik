@@ -1,0 +1,27 @@
+(1) m_struct:
+   M =       44: log m_struct =  7.352 M;  pi(4M) log(32M^2) =  9.780 M  (claim <= 11 M)
+   M =     1000: log m_struct =  7.888 M;  pi(4M) log(32M^2) =  9.487 M  (claim <= 11 M)
+   M =    10000: log m_struct =  7.977 M;  pi(4M) log(32M^2) =  9.197 M  (claim <= 11 M)
+   M =   100000: log m_struct =  7.995 M;  pi(4M) log(32M^2) =  8.970 M  (claim <= 11 M)
+   M =  1000000: log m_struct =  7.997 M;  pi(4M) log(32M^2) =  8.805 M  (claim <= 11 M)
+(2) worst (E-1)/(2 q^(theta-1)) small-q lifts: 0.498;  worst (E-1)/(64 c q^(theta-1)) large q: 0.250  (<= 1 required)
+(3) max Sigma_theta / (X^theta/theta) = 0.239  (<= 1 required)
+(4) ln(family total) with proved constants, b = 33, C = 1:
+   A = 1, log M =      50: ternary exponent/M =      5.68  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) =   -408.96;  pairs ln =       80.4
+   A = 1, log M =     100: ternary exponent/M =      4.89  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) =   -763.81;  pairs ln =      177.6
+   A = 1, log M =     200: ternary exponent/M =      3.31  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) =  -1468.66;  pairs ln =      334.4
+   A = 1, log M =     400: ternary exponent/M =      0.18  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) =  -2873.52;  pairs ln =      578.7
+   A = 1, log M =     450: ternary exponent/M =     -0.61  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) =  -3224.34;  pairs ln =      631.4
+   A = 1, log M =    1000: ternary exponent/M =     -9.21  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) =  -7079.93;  pairs ln =     1093.5
+   A = 1, log M =   10000: ternary exponent/M =   -149.87  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) = -70096.05;  pairs ln =     3025.4
+   A = 1, log M =   35000: ternary exponent/M =   -540.52  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) = -245104.82;  pairs ln =     -749.6
+   A = 1, log M =  100000: ternary exponent/M =  -1556.16  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) = -700112.17;  pairs ln =   -24404.0
+   A = 2, log M =      50: ternary exponent/M =      4.15  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) =   -272.37;  pairs ln =       80.4
+   A = 2, log M =     100: ternary exponent/M =      3.62  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) =   -508.94;  pairs ln =      177.6
+   A = 2, log M =     200: ternary exponent/M =      2.57  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) =   -978.84;  pairs ln =      334.4
+   A = 2, log M =     400: ternary exponent/M =      0.48  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) =  -1915.41;  pairs ln =      578.7
+   A = 2, log M =     450: ternary exponent/M =     -0.04  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) =  -2149.29;  pairs ln =      631.4
+   A = 2, log M =    1000: ternary exponent/M =     -5.78  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) =  -4719.69;  pairs ln =     1093.5
+   A = 2, log M =   10000: ternary exponent/M =    -99.55  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) = -46730.43;  pairs ln =     3025.4
+   A = 2, log M =   35000: ternary exponent/M =   -359.98  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) = -163402.94;  pairs ln =     -749.6
+   A = 2, log M =  100000: ternary exponent/M =  -1037.07  (log3 - theta(tau kappa_b/4 - 11) + 66 Sigma/M);  amplitude-2 exponent/(2M) = -466741.18;  pairs ln =   -24404.0

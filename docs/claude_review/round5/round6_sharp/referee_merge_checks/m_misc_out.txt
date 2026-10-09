@@ -1,0 +1,35 @@
+G: G=10: normalised=True, twins distinct=True, v=[2, 1, -2, -1, 0], ||v||_1=6, v in L? False; v in L + G Z^r by construction; Lemma 6.2 would need G <= 2||v||_1 = 12: ok
+G: G=100: normalised=True, twins distinct=True, v=[2, 1, -2, -1, 0], ||v||_1=6, v in L? False; v in L + G Z^r by construction; Lemma 6.2 would need G <= 2||v||_1 = 12: VIOLATED
+C: M=100: (1/M) log #{||c||_1 <= 4M} = 3.0535;  crude 2^n binom(M+n-1,n) exponent 5.2274
+C: M=1000: (1/M) log #{||c||_1 <= 4M} = 3.0803;  crude 2^n binom(M+n-1,n) exponent 5.2687
+C: M=10000: (1/M) log #{||c||_1 <= 4M} = 3.0840;  crude 2^n binom(M+n-1,n) exponent 5.2739
+C: limit exponent max_x [x log2 + H(x) + 4H(x/4)] = 3.0846 at x = 0.8769
+C: y=6: sum_(e^y<q<=e^2y) 1/q = 0.6853 (log 2 = 0.6931); 'log2/y' = 0.1155
+C: y=8: sum_(e^y<q<=e^2y) 1/q = 0.6904 (log 2 = 0.6931); 'log2/y' = 0.0866
+MU: Lambda'(d) <= 9 log d + 18.72 omega(d) for 2<=d<=60000: ok
+MU:      M   max_(d<M)(L'(d)+log d)/logM   per-d chain max/logM   max-omega chain/logM   mu_M
+MU:     16      6.252      113.505     23.504    35.496
+MU:     44      6.169       83.163     24.841    29.537
+MU:    100      6.655       68.337     22.195    27.025
+MU:   1000      6.728       45.558     20.840    23.453
+MU:  10000      6.640       34.168     20.162    21.710
+MU:  60000      6.635       28.604     20.209    20.842
+MU: min over M in [16,60000] of 1.3841 logM/loglogM - max_(d<M) omega(d) = 0.116 (at M=30032)
+D: A=1: max over 20<=M<=2000 of max_d demand/log M = 6.999 at M=111 (d=110)
+D:   A=1 M=23: 6.392 log M (d=22)
+D:   A=1 M=44: 5.930 log M (d=22)
+D:   A=1 M=64: 5.734 log M (d=55)
+D:   A=1 M=111: 6.999 log M (d=110)
+D:   A=1 M=256: 5.944 log M (d=110)
+D:   A=1 M=1024: 6.605 log M (d=814)
+D:   A=1: M=4096,16384: ['6.769', '6.535']
+D: A=2: max over 20<=M<=2000 of max_d demand/log M = 7.157 at M=23 (d=22)
+D:   A=2 M=23: 7.157 log M (d=22)
+D:   A=2 M=44: 5.930 log M (d=22)
+D:   A=2 M=64: 5.734 log M (d=55)
+D:   A=2 M=111: 6.999 log M (d=110)
+D:   A=2 M=256: 5.944 log M (d=110)
+D:   A=2 M=1024: 6.605 log M (d=814)
+D:   A=2: M=4096,16384: ['6.769', '6.535']
+K: X=1000000, M=20, zeta_x = n_x + i with n_x^2+1 prime in (1000000, 1401857]: max log m(pair, unit 1) = 4.47; max log m(pair, unit != 1) = 14.15; Lemma 4.1 pair bound 4 log Y = 56.61
+K: X=100000000, M=20, zeta_x = n_x + i with n_x^2+1 prime in (100000000, 105472901]: max log m(pair, unit 1) = 4.84; max log m(pair, unit != 1) = 18.47; Lemma 4.1 pair bound 4 log Y = 73.90

@@ -1,0 +1,8 @@
+Part 1 (exact DP tails):
+  M =     1000: threshold tau / (log^2 M/loglog M):  per-unit 3.482,  aggregated 6.415
+  M =    10000: threshold tau / (log^2 M/loglog M):  per-unit 3.358,  aggregated 6.158
+  M =   100000: threshold tau / (log^2 M/loglog M):  per-unit 3.254,  aggregated 5.913
+  M =  1000000: threshold tau / (log^2 M/loglog M):  per-unit 3.170,  aggregated 5.701
+Part 2 (Monte Carlo max over r = 33 M columns, X = 3M, level 1):
+  M =   1000: max_j log m_(e_j) [aggregated] = 3.507;  max_(j,s) [log m_(e_j,s) - log nu_s^-1] = 2.162  (units log^2 M/loglog M)
+  M =  10000: max_j log m_(e_j) [aggregated] = 3.095;  max_(j,s) [log m_(e_j,s) - log nu_s^-1] = 1.661  (units log^2 M/loglog M)

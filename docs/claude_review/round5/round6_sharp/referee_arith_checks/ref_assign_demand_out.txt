@@ -1,0 +1,30 @@
+Part 1: odd primes q < 2^26: 3957808; max multiplicity 4 (targets with mult = max: [11, 37, 47, 67, 79, 97, 107, 131]...)
+   multiplicity of 2, 3: 3 2 ; preimages of 2: [3, 5, 11]
+   per block (k, n, t, n/t, max mult):
+      20 73586 20390 3.6089 4
+      21 140336 38635 3.6324 4
+      22 268216 73586 3.6449 4
+      23 513708 140336 3.6606 4
+      24 985818 268216 3.6755 4
+      25 1894120 513708 3.6872 4
+Part 2: max_(20<=k<=5000) R(k) = 8.10710 at k = 5000;  R(2000) = 8.10473;  limit 1.51012/0.186235 = 8.10868
+   R(k) >= exact n/t for 20 <= k <= 25 : True
+Part 3: Lambda'(d) <= 9 log d + 18.72 omega(d) for all 2 <= d <= 1000000: True;  max Lambda'(d)/log d = 7.366 at d = 2
+   Robin-form f(d) = (10 + 26/loglog d) log d:  f(3) = 314.7, f(5) = 104.0, f(16) = 98.4,  f(1000) = mu_1000 log 1000 = 162.0  (so 'f(d) <= f(M) for d < M' fails)
+   direct: max_(d<M)(Lambda'(d) + log d) <= (10 + 26/loglog M) log M for all 4 <= M <= 1000000: True
+Part 4: max pair demand (unit 1), worst case over parity colourings
+         M    max D    at d  D/logM  (A=1: q^a<=3M) D/logM    mu_M
+        64    23.85      55   5.734                  5.734   28.24
+       256    32.96     110   5.944                  5.944   25.18
+      1024    45.78     814   6.605                  6.605   23.43
+      4096    56.31    4070   6.769                  6.769   22.27
+     16384    63.42   15510   6.535                  6.535   21.44
+     65536    70.63   38258   6.369                  6.369   20.81
+    131072    76.38  121286   6.482                  6.482   20.54
+Part 5: structured modulus
+   M =     44: log m_struct =      323.5;  pi(4M) log(32M^2) =      430.3;  11M = 484
+   M =    100: log m_struct =      759.3;  pi(4M) log(32M^2) =      976.1;  11M = 1100
+   M =   1000: log m_struct =     7887.9;  pi(4M) log(32M^2) =     9487.4;  11M = 11000
+   M =  10000: log m_struct =    79765.1;  pi(4M) log(32M^2) =    91966.7;  11M = 110000
+   M = 100000: log m_struct =   799481.2;  pi(4M) log(32M^2) =   896978.6;  11M = 1100000
+ALL ASSIGNMENT/DEMAND CHECKS PASSED

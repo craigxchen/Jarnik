@@ -1,0 +1,35 @@
+(1) A=1:
+   L=      10: beta=  -3.355 theta=-0.3023 tau_*/(L^2/logL)=nan (2A=2)
+   L=      20: beta=  -3.303 theta=-0.1565 tau_*/(L^2/logL)=nan (2A=2)
+   L=      50: beta=  -2.997 theta=-0.0587 tau_*/(L^2/logL)=nan (2A=2)
+   L=     100: beta=  -2.651 theta=-0.0262 tau_*/(L^2/logL)=nan (2A=2)
+   L=     200: beta=  -2.242 theta=-0.0111 tau_*/(L^2/logL)=nan (2A=2)
+   L=     500: beta=  -1.637 theta=-0.0033 tau_*/(L^2/logL)=nan (2A=2)
+   L=    1000: beta=  -1.147 theta=-0.0011 tau_*/(L^2/logL)=nan (2A=2)
+   L=    2000: beta=  -0.637 theta=-0.0003 tau_*/(L^2/logL)=nan (2A=2)
+   L=    5000: beta=   0.063 theta=0.0000 tau_*/(L^2/logL)=309.381 (2A=2)
+   L=   10000: beta=   0.607 theta=0.0001 tau_*/(L^2/logL)=34.039 (2A=2)
+   L=  100000: beta=   2.482 theta=0.0000 tau_*/(L^2/logL)=10.099 (2A=2)
+   L= 1000000: beta=   4.434 theta=0.0000 tau_*/(L^2/logL)=6.685 (2A=2)
+(1) A=2:
+   L=      10: beta=  -3.528 theta=-0.1672 tau_*/(L^2/logL)=nan (2A=4)
+   L=      20: beta=  -3.455 theta=-0.0841 tau_*/(L^2/logL)=nan (2A=4)
+   L=      50: beta=  -3.127 theta=-0.0309 tau_*/(L^2/logL)=nan (2A=4)
+   L=     100: beta=  -2.766 theta=-0.0138 tau_*/(L^2/logL)=nan (2A=4)
+   L=     200: beta=  -2.346 theta=-0.0058 tau_*/(L^2/logL)=nan (2A=4)
+   L=     500: beta=  -1.729 theta=-0.0017 tau_*/(L^2/logL)=nan (2A=4)
+   L=    1000: beta=  -1.231 theta=-0.0006 tau_*/(L^2/logL)=nan (2A=4)
+   L=    2000: beta=  -0.714 theta=-0.0002 tau_*/(L^2/logL)=nan (2A=4)
+   L=    5000: beta=  -0.008 theta=-0.0000 tau_*/(L^2/logL)=nan (2A=4)
+   L=   10000: beta=   0.541 theta=0.0000 tau_*/(L^2/logL)=76.374 (2A=4)
+   L=  100000: beta=   2.428 theta=0.0000 tau_*/(L^2/logL)=20.647 (2A=4)
+   L= 1000000: beta=   4.388 theta=0.0000 tau_*/(L^2/logL)=13.509 (2A=4)
+    A=1: beta > 0 first at log M ~ 4612
+    A=2: beta > 0 first at log M ~ 5049
+(2) max over grid of [q<=24kk part]/[kk(20 beta + 10 loglog X + 10)] = 0.859 (<= 1 required)
+    (the trivial bound E[q^(theta a_q)] <= q^(theta A_q) <= X^theta = e^beta gives the q <= 24kk part <= pi(24kk) beta, tighter)
+(3) exponent per kk at L=1e4: log(4er) - theta tau_*/2 + bracket = -4.000000 (= -4)
+
+real	0m0.816s
+user	0m0.416s
+sys	0m0.340s

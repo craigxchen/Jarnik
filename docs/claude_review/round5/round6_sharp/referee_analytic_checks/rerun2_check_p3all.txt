@@ -1,0 +1,15 @@
+Part A: M = 44, r = 1419, accessible prime powers: 26
+  single columns: mean log m/log M = 3.27, max = 7.99 (twin columns max 7.53), fraction with log m/log M > 3: 0.5462
+  2-column monomials e_i +- e_j (1006071): mean 5.10, max 15.04, 99.99% quantile 12.05
+  point classes unchanged by the fibre: True
+Part B (abstract independent model, r = 33 M columns):
+  M =    100: max_j log m_(e_j)/log M = 9.93;  mean = 3.17;  log M/loglog M = 3.02
+  M =   1000: max_j log m_(e_j)/log M = 10.57;  mean = 3.42;  log M/loglog M = 3.57
+  M =  10000: max_j log m_(e_j)/log M = 12.47;  mean = 3.55;  log M/loglog M = 4.15
+  M =  30000: max_j log m_(e_j)/log M = 12.74;  mean = 3.60;  log M/loglog M = 4.42
+Part C: genuine-coherent pair demand: max 3.83 log M, mean 0.82 log M;  structured design (parity ignored, worst case): max 5.61 log M
+P3-ALL EVIDENCE DONE
+
+real	0m46.433s
+user	0m45.856s
+sys	0m0.399s

@@ -1,0 +1,5 @@
+q0=43 M=44 b=33 r=1419: min F/M support-4 = 1.364 (need >= 1.0625); min (2B-r) support-4 = 557 (need >= 2.75); random: min F/M = 1.545, min 2B-r = 825
+     {'L1_hadamard': True, 'L2_twins': True, 'L2_rank': True, 'L2_nonconst': True, 'L3_pairs_flat': True, 'L4_pairs': True, 'L3_cols_flat': True, 'L4_cols': True, 'L3_halfsums_flat': True, 'L4_halfsums': True, 'L3_support4': np.True_, 'L4_support4': True, 'L3_random': True, 'L4_random': True, 'L3_amp': True, 'L4_amp': True, 'L5_slack': True}
+q0=47 M=48 b=33 r=1551: min F/M support-4 = 1.333 (need >= 1.0625); min (2B-r) support-4 = 561 (need >= 3.00); random: min F/M = 1.500, min 2B-r = 825
+     {'L1_hadamard': True, 'L2_twins': True, 'L2_rank': True, 'L2_nonconst': True, 'L3_pairs_flat': True, 'L4_pairs': True, 'L3_cols_flat': True, 'L4_cols': True, 'L3_halfsums_flat': True, 'L4_halfsums': True, 'L3_support4': np.True_, 'L4_support4': True, 'L3_random': True, 'L4_random': True, 'L3_amp': True, 'L4_amp': True, 'L5_slack': True}
+ALL LOWER.MD INPUT CHECKS PASSED

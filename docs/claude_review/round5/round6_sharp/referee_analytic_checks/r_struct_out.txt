@@ -1,0 +1,4 @@
+M=   200: additive quadruples, level-1 structured log m: mean 1.40 M, max 1.74 M  (theta(4M) = 3.79 M; bound 11 M)
+M=  1000: additive quadruples, level-1 structured log m: mean 1.45 M, max 1.64 M  (theta(4M) = 3.91 M; bound 11 M)
+M=  5000: additive quadruples, level-1 structured log m: mean 1.48 M, max 1.55 M  (theta(4M) = 3.96 M; bound 11 M)
+M= 20000: additive quadruples, level-1 structured log m: mean 1.50 M, max 1.55 M  (theta(4M) = 3.98 M; bound 11 M)

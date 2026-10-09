@@ -1,0 +1,9 @@
+H1 single primes p<200000 (X=inf): 8977 primes; per-unit violations 0; aggregated violations 8976
+   example pi = 2+3i: D_s = [3, -1, 2, 5], aggregated m = 15 vs sqrt2*sqrt13 = 5.099
+H1 two-prime monomials: 4000; per-unit violations 0; aggregated violations 4000
+H1 single primes p<200000 (X=3000): 8977 primes; per-unit violations 0; aggregated violations 8976
+   example pi = 2+3i: D_s = [3, -1, 2, 5], aggregated m = 15 vs sqrt2*sqrt13 = 5.099
+H1 two-prime monomials: 4000; per-unit violations 0; aggregated violations 3829
+H2 M=1000: tau_unit/(log^2M/loglogM) = ['3.47', '3.81', '3.59']; tau_aggr = ['6.96', '6.38', '6.75']
+H2 M=3000: tau_unit/(log^2M/loglogM) = ['3.53', '3.43', '3.52']; tau_aggr = ['6.39', '6.74', '6.73']
+H2 M=10000: tau_unit/(log^2M/loglogM) = ['3.34', '3.55', '3.66']; tau_aggr = ['6.14', '6.37', '6.49']

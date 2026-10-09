@@ -1,0 +1,16 @@
+N=48612265 M=6 r=6 e=[1, 1, 1, 1, 1, 1] C=9.542 k=[0, -5, 2, 1, -2, -1] chars=1280 monomials=1144 same-level pairs=37 max(rhs-lhs log)=0.000
+N=48612265 M=6 r=6 e=[1, 1, 1, 1, 1, 1] C=9.812 k=[1, 1, 4, -1, -1, -2] chars=1280 monomials=1144 same-level pairs=40 max(rhs-lhs log)=0.000
+N=48612265 M=6 r=6 e=[1, 1, 1, 1, 1, 1] C=12.821 k=[-1, 0, 0, -1, -1, 2] chars=1280 monomials=1144 same-level pairs=40 max(rhs-lhs log)=0.000
+N=144362725 M=6 r=5 e=[2, 1, 2, 1, 1] C=11.254 k=[-2, -1, 4, 4, -2, 4] chars=1278 monomials=580 same-level pairs=26 max(rhs-lhs log)=0.000
+N=144362725 M=6 r=5 e=[2, 1, 2, 1, 1] C=12.881 k=[1, 3, 0, 1, 0, -2] chars=1278 monomials=580 same-level pairs=27 max(rhs-lhs log)=0.000
+N=144362725 M=6 r=5 e=[2, 1, 2, 1, 1] C=16.34 k=[-1, -1, -1, -4, -3, -1] chars=1278 monomials=580 same-level pairs=26 max(rhs-lhs log)=0.000
+N=5708144845 M=7 r=6 e=[1, 2, 1, 1, 1, 1] C=29.488 k=[-3, -2, 0, 1, 2, 0, 1] chars=3060 monomials=1144 same-level pairs=34 max(rhs-lhs log)=0.000
+N=5708144845 M=7 r=6 e=[1, 2, 1, 1, 1, 1] C=32.112 k=[-1, 0, 1, -1, -2, -2, -3] chars=3064 monomials=1144 same-level pairs=35 max(rhs-lhs log)=0.000
+N=5708144845 M=7 r=6 e=[1, 2, 1, 1, 1, 1] C=31.345 k=[2, 2, -1, 0, 0, 1, -1] chars=3064 monomials=1144 same-level pairs=34 max(rhs-lhs log)=0.000
+N=106401725 M=5 r=5 e=[2, 1, 1, 1, 1] C=16.888 k=[-1, -2, -1, -2, -1] chars=468 monomials=580 same-level pairs=10 max(rhs-lhs log)=0.000
+N=106401725 M=5 r=5 e=[2, 1, 1, 1, 1] C=11.935 k=[1, -2, -2, 1, -2] chars=470 monomials=580 same-level pairs=12 max(rhs-lhs log)=0.000
+N=532008625 M=5 r=5 e=[3, 1, 1, 1, 1] C=17.847 k=[0, -3, 3, 0, -3] chars=470 monomials=580 same-level pairs=10 max(rhs-lhs log)=0.000
+N=31432690549 M=6 r=7 e=[1, 1, 1, 1, 1, 1, 1] C=23.342 k=[-1, 0, 4, -1, -2, 2] chars=1280 monomials=2044 same-level pairs=41 max(rhs-lhs log)=0.000
+N=31432690549 M=6 r=7 e=[1, 1, 1, 1, 1, 1, 1] C=20.944 k=[1, 0, 1, 1, 0, 0] chars=1278 monomials=2044 same-level pairs=39 max(rhs-lhs log)=0.000
+N=31432690549 M=6 r=7 e=[1, 1, 1, 1, 1, 1, 1] C=25.056 k=[-1, -2, -1, -1, -1, 3] chars=1280 monomials=2044 same-level pairs=41 max(rhs-lhs log)=0.000
+ALL ACTUAL-CLUSTER (PROP 1.2) CHECKS PASSED

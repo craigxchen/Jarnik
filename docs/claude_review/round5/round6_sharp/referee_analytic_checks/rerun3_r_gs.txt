@@ -1,0 +1,9 @@
+(1) level-set bounds: v=-3: 10, v=-2: 72, v=-1: 225, v=0: 400, v=1: 225, v=2: 72, v=3: 10;  max over v != 0 = 225
+(2) 10900 random integer f with ||f||_A <= 3 (m=4..6): max ||1_(f=v)||_A / bound(v) = 0.1000 (<= 1 required); values lie in [-3,3]
+(3) prod (1-2^-i)^-1 = 3.46275
+(4) M=32: MC Pr[4 random distinct points coplanar] = 0.03442 vs 1/(M-3) = 0.03448
+(4) M=128: MC Pr[4 random distinct points coplanar] = 0.00796 vs 1/(M-3) = 0.00800
+
+real	0m1.747s
+user	0m1.652s
+sys	0m0.016s

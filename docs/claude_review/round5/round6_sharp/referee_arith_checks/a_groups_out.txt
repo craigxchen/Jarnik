@@ -1,0 +1,5 @@
+odd prime powers Q <= 1000: 184  (prime powers with a >= 2: 17)
+items checked: ['1_cyclic', '1_order', '2_fibre_is_coset', '2_in_T', '2_onto_fibres', '3_nu_is_square_class', '3_nu_well_defined', '3_onto', '4_count_is_2', '4_exists_iff', '5_i', '5_minus1', '6_dlog_reduces', '6_gen_to_gen', '6_into', '6_nu_compat', '6_onto']
+failures: none
+odd prime powers <= 400: 89
+ALL PROP 2.1 CHECKS PASSED

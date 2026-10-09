@@ -1,0 +1,3 @@
+q0=7 (M=8, r=28): generators in K' for all n: True; 6426 vectors v not in L: max d/(2||v||_1) = 0.247; Lemma 6.2 adversarial max G/(2||v||_1) = 0.466
+q0=11 (M=12, r=44): generators in K' for all n: True; 6435 vectors v not in L: max d/(2||v||_1) = 0.149; Lemma 6.2 adversarial max G/(2||v||_1) = 0.437
+ALL REFEREE FIBRE CHECKS PASSED
