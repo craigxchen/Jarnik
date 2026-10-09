@@ -1,0 +1,8 @@
+M=7 profile=[6, 5, 4, 4, 5, 6] n=1: peeling bound 13  per n 13.000
+M=7 profile=[6, 5, 4, 4, 5, 6] n=2: peeling bound 27  per n 13.500
+M=7 profile=[6, 5, 4, 4, 5, 6] n=3: peeling bound 42  per n 14.000
+M=7 profile=[6, 5, 4, 4, 5, 6] n=4: peeling bound 55  per n 13.750
+M=7 profile=[6, 5, 4, 4, 5, 6] n=5: peeling bound 69  per n 13.800
+M=7 profile=[6, 5, 4, 4, 5, 6] n=6: peeling bound 84  per n 14.000
+M=7 profile=[6, 5, 4, 4, 5, 6] n=7: peeling bound 97  per n 13.857
+M=7 profile=[6, 5, 4, 4, 5, 6] n=8: peeling bound 111  per n 13.875

@@ -1,0 +1,5 @@
+(A) peeling bound B_M <= phi_M on 5128 cases: PASS; inductive identity: PASS
+(B) antisymmetrised-orbit certificates (ord >= C(r,2), exact): PASS
+(C) cone tiling, phi_M(u_j) = C(M,2), max ratio = 2 - 1/ceil(M/2) (M<=60): PASS
+(D) X_2 example F = -|z1-z2|^2 with non-vanishing shell components: PASS
+(E) M=3,4: semigroup lower bound = floor(phi_M) for p,n<=40: PASS

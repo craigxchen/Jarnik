@@ -1,0 +1,13 @@
+Vandermonde alternant M=3, v=(-1, 0, 1)       ord=  3  MW=3       ord/MW=1.0000  2E_bal w=4        2adv=4       ord/(2adv)=0.7500
+Vandermonde alternant M=4, v=(-1, 0, 1, 2)    ord=  6  MW=6       ord/MW=1.0000  2E_bal w=8        2adv=8       ord/(2adv)=0.7500
+Vandermonde alternant M=5, v=(-2, -1, 0, 1, 2) ord= 10  MW=10      ord/MW=1.0000  2E_bal w=12       2adv=12      ord/(2adv)=0.8333
+Vandermonde alternant M=6, v=(-2, -1, 0, 1, 2, 3) ord= 15  MW=15      ord/MW=1.0000  2E_bal w=18       2adv=18      ord/(2adv)=0.8333
+Vandermonde alternant M=7, v=(-3, -2, -1, 0, 1, 2, 3) ord= 21  MW=21      ord/MW=1.0000  2E_bal w=24       2adv=24      ord/(2adv)=0.8750
+generalized alternant on S^5(6,3)             ord= 14  MW=65/4    ord/MW=0.8615  2E_bal w=18       2adv=18      ord/(2adv)=0.7778
+full slice Q^4(2,2) (reg=6)                   ord=  6  MW=7       ord/MW=0.8571  2E_bal w=8        2adv=8       ord/(2adv)=0.7500
+full slice Q^5(3,3) (reg=10)                  ord= 10  MW=45/4    ord/MW=0.8889  2E_bal w=12       2adv=12      ord/(2adv)=0.8333
+full slice Q^6(2,2) (reg=6)                   ord=  6  MW=31/4    ord/MW=0.7742  2E_bal w=8        2adv=8       ord/(2adv)=0.7500
+spike profile M=7, n=2: reg <= 27 (peeling)  MW=287/8 (0.7526)  2adv=38 (0.7105)
+spike profile M=7, n=4: reg <= 55 (peeling)  MW=287/4 (0.7666)  2adv=76 (0.7237)
+spike profile M=7, n=8: reg <= 111 (peeling)  MW=287/2 (0.7735)  2adv=152 (0.7303)
+Proposition C4 per-prime inequality: violations in 20000 random instances: 0

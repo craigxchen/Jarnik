@@ -1,0 +1,5 @@
+M=5 (p,n)=(6,3) d=3: 4 distinct-coordinate orbits, 3 symmetric conditions, nullspace dim 1
+   gamma = [1, 1, -2, 3]; support 480 points; all moments of degree < 14 vanish: True
+M=5 (p,n)=(3,6) d=3: 4 distinct-coordinate orbits, 3 symmetric conditions, nullspace dim 1
+   gamma = [1, -2, 1, 3]; support 480 points; all moments of degree < 14 vanish: True
+RESULT: PASS

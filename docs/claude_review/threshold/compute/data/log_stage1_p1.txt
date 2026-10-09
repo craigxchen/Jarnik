@@ -1,0 +1,1055 @@
+M=3 t=1 s=1 shell p=2147483647: |A|=3 reg=1 ratio=1.0000 phi=1 argmax=[[2, 1]] time=0.0
+M=3 t=2 s=0 shell p=2147483647: |A|=6 reg=3 ratio=1.5000 phi=3 argmax=[[1, 1, 1]] time=0.0
+M=3 t=2 s=2 shell p=2147483647: |A|=6 reg=2 ratio=1.0000 phi=2 argmax=[[3], [2, 1]] time=0.0
+M=3 t=3 s=1 shell p=2147483647: |A|=9 reg=3 ratio=1.0000 phi=4 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=3 s=3 shell p=2147483647: |A|=10 reg=3 ratio=1.0000 phi=3 argmax=[[3], [2, 1], [1, 1, 1]] time=0.0
+M=3 t=4 s=0 shell p=2147483647: |A|=12 reg=4 ratio=1.0000 phi=6 argmax=[[2, 1]] time=0.0
+M=3 t=4 s=2 shell p=2147483647: |A|=12 reg=5 ratio=1.2500 phi=5 argmax=[[1, 1, 1]] time=0.0
+M=3 t=4 s=4 shell p=2147483647: |A|=15 reg=4 ratio=1.0000 phi=4 argmax=[[3], [2, 1]] time=0.0
+M=3 t=5 s=1 shell p=2147483647: |A|=15 reg=5 ratio=1.0000 phi=7 argmax=[[1, 1, 1]] time=0.0
+M=3 t=5 s=3 shell p=2147483647: |A|=15 reg=5 ratio=1.0000 phi=6 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=5 s=5 shell p=2147483647: |A|=21 reg=5 ratio=1.0000 phi=5 argmax=[[3], [2, 1], [1, 1, 1]] time=0.0
+M=3 t=6 s=0 shell p=2147483647: |A|=18 reg=6 ratio=1.0000 phi=9 argmax=[[1, 1, 1]] time=0.0
+M=3 t=6 s=2 shell p=2147483647: |A|=18 reg=5 ratio=0.8333 phi=8 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=6 s=4 shell p=2147483647: |A|=18 reg=7 ratio=1.1667 phi=7 argmax=[[1, 1, 1]] time=0.0
+M=3 t=6 s=6 shell p=2147483647: |A|=28 reg=6 ratio=1.0000 phi=6 argmax=[[3], [2, 1], [1, 1, 1]] time=0.0
+M=3 t=7 s=1 shell p=2147483647: |A|=21 reg=6 ratio=0.8571 phi=10 argmax=[[1, 1, 1]] time=0.0
+M=3 t=7 s=3 shell p=2147483647: |A|=21 reg=7 ratio=1.0000 phi=9 argmax=[[1, 1, 1]] time=0.0
+M=3 t=7 s=5 shell p=2147483647: |A|=21 reg=7 ratio=1.0000 phi=8 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=7 s=7 shell p=2147483647: |A|=36 reg=7 ratio=1.0000 phi=7 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=8 s=0 shell p=2147483647: |A|=24 reg=6 ratio=0.7500 phi=12 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=8 s=2 shell p=2147483647: |A|=24 reg=7 ratio=0.8750 phi=11 argmax=[[1, 1, 1]] time=0.0
+M=3 t=8 s=4 shell p=2147483647: |A|=24 reg=7 ratio=0.8750 phi=10 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=8 s=6 shell p=2147483647: |A|=24 reg=9 ratio=1.1250 phi=9 argmax=[[1, 1, 1]] time=0.0
+M=3 t=8 s=8 shell p=2147483647: |A|=45 reg=8 ratio=1.0000 phi=8 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=9 s=1 shell p=2147483647: |A|=27 reg=7 ratio=0.7778 phi=13 argmax=[[1, 1, 1]] time=0.0
+M=3 t=9 s=3 shell p=2147483647: |A|=27 reg=7 ratio=0.7778 phi=12 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=9 s=5 shell p=2147483647: |A|=27 reg=9 ratio=1.0000 phi=11 argmax=[[1, 1, 1]] time=0.0
+M=3 t=9 s=7 shell p=2147483647: |A|=27 reg=9 ratio=1.0000 phi=10 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=9 s=9 shell p=2147483647: |A|=55 reg=9 ratio=1.0000 phi=9 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=10 s=0 shell p=2147483647: |A|=30 reg=8 ratio=0.8000 phi=15 argmax=[[1, 1, 1]] time=0.0
+M=3 t=10 s=2 shell p=2147483647: |A|=30 reg=7 ratio=0.7000 phi=14 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=10 s=4 shell p=2147483647: |A|=30 reg=9 ratio=0.9000 phi=13 argmax=[[1, 1, 1]] time=0.01
+M=3 t=10 s=6 shell p=2147483647: |A|=30 reg=9 ratio=0.9000 phi=12 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=10 s=8 shell p=2147483647: |A|=30 reg=11 ratio=1.1000 phi=11 argmax=[[1, 1, 1]] time=0.01
+M=3 t=10 s=10 shell p=2147483647: |A|=66 reg=10 ratio=1.0000 phi=10 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=11 s=1 shell p=2147483647: |A|=33 reg=8 ratio=0.7273 phi=16 argmax=[[1, 1, 1]] time=0.01
+M=3 t=11 s=3 shell p=2147483647: |A|=33 reg=9 ratio=0.8182 phi=15 argmax=[[1, 1, 1]] time=0.0
+M=3 t=11 s=5 shell p=2147483647: |A|=33 reg=9 ratio=0.8182 phi=14 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=11 s=7 shell p=2147483647: |A|=33 reg=11 ratio=1.0000 phi=13 argmax=[[1, 1, 1]] time=0.0
+M=3 t=11 s=9 shell p=2147483647: |A|=33 reg=11 ratio=1.0000 phi=12 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=11 s=11 shell p=2147483647: |A|=78 reg=11 ratio=1.0000 phi=11 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=12 s=0 shell p=2147483647: |A|=36 reg=8 ratio=0.6667 phi=18 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=12 s=2 shell p=2147483647: |A|=36 reg=9 ratio=0.7500 phi=17 argmax=[[1, 1, 1]] time=0.0
+M=3 t=12 s=4 shell p=2147483647: |A|=36 reg=9 ratio=0.7500 phi=16 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=12 s=6 shell p=2147483647: |A|=36 reg=11 ratio=0.9167 phi=15 argmax=[[1, 1, 1]] time=0.0
+M=3 t=12 s=8 shell p=2147483647: |A|=36 reg=11 ratio=0.9167 phi=14 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=12 s=10 shell p=2147483647: |A|=36 reg=13 ratio=1.0833 phi=13 argmax=[[1, 1, 1]] time=0.0
+M=3 t=12 s=12 shell p=2147483647: |A|=91 reg=12 ratio=1.0000 phi=12 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=13 s=1 shell p=2147483647: |A|=39 reg=9 ratio=0.6923 phi=19 argmax=[[1, 1, 1]] time=0.0
+M=3 t=13 s=3 shell p=2147483647: |A|=39 reg=9 ratio=0.6923 phi=18 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=13 s=5 shell p=2147483647: |A|=39 reg=11 ratio=0.8462 phi=17 argmax=[[1, 1, 1]] time=0.0
+M=3 t=13 s=7 shell p=2147483647: |A|=39 reg=11 ratio=0.8462 phi=16 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=13 s=9 shell p=2147483647: |A|=39 reg=13 ratio=1.0000 phi=15 argmax=[[1, 1, 1]] time=0.01
+M=3 t=13 s=11 shell p=2147483647: |A|=39 reg=13 ratio=1.0000 phi=14 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=13 s=13 shell p=2147483647: |A|=105 reg=13 ratio=1.0000 phi=13 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=14 s=0 shell p=2147483647: |A|=42 reg=10 ratio=0.7143 phi=21 argmax=[[1, 1, 1]] time=0.0
+M=3 t=14 s=2 shell p=2147483647: |A|=42 reg=9 ratio=0.6429 phi=20 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=14 s=4 shell p=2147483647: |A|=42 reg=11 ratio=0.7857 phi=19 argmax=[[1, 1, 1]] time=0.0
+M=3 t=14 s=6 shell p=2147483647: |A|=42 reg=11 ratio=0.7857 phi=18 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=14 s=8 shell p=2147483647: |A|=42 reg=13 ratio=0.9286 phi=17 argmax=[[1, 1, 1]] time=0.0
+M=3 t=14 s=10 shell p=2147483647: |A|=42 reg=13 ratio=0.9286 phi=16 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=14 s=12 shell p=2147483647: |A|=42 reg=15 ratio=1.0714 phi=15 argmax=[[1, 1, 1]] time=0.01
+M=3 t=14 s=14 shell p=2147483647: |A|=120 reg=14 ratio=1.0000 phi=14 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=15 s=1 shell p=2147483647: |A|=45 reg=10 ratio=0.6667 phi=22 argmax=[[1, 1, 1]] time=0.0
+M=3 t=15 s=3 shell p=2147483647: |A|=45 reg=11 ratio=0.7333 phi=21 argmax=[[1, 1, 1]] time=0.01
+M=3 t=15 s=5 shell p=2147483647: |A|=45 reg=11 ratio=0.7333 phi=20 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=15 s=7 shell p=2147483647: |A|=45 reg=13 ratio=0.8667 phi=19 argmax=[[1, 1, 1]] time=0.01
+M=3 t=15 s=9 shell p=2147483647: |A|=45 reg=13 ratio=0.8667 phi=18 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=15 s=11 shell p=2147483647: |A|=45 reg=15 ratio=1.0000 phi=17 argmax=[[1, 1, 1]] time=0.01
+M=3 t=15 s=13 shell p=2147483647: |A|=45 reg=15 ratio=1.0000 phi=16 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=15 s=15 shell p=2147483647: |A|=136 reg=15 ratio=1.0000 phi=15 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=16 s=0 shell p=2147483647: |A|=48 reg=10 ratio=0.6250 phi=24 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=16 s=2 shell p=2147483647: |A|=48 reg=11 ratio=0.6875 phi=23 argmax=[[1, 1, 1]] time=0.0
+M=3 t=16 s=4 shell p=2147483647: |A|=48 reg=11 ratio=0.6875 phi=22 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=16 s=6 shell p=2147483647: |A|=48 reg=13 ratio=0.8125 phi=21 argmax=[[1, 1, 1]] time=0.01
+M=3 t=16 s=8 shell p=2147483647: |A|=48 reg=13 ratio=0.8125 phi=20 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=16 s=10 shell p=2147483647: |A|=48 reg=15 ratio=0.9375 phi=19 argmax=[[1, 1, 1]] time=0.01
+M=3 t=16 s=12 shell p=2147483647: |A|=48 reg=15 ratio=0.9375 phi=18 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=16 s=14 shell p=2147483647: |A|=48 reg=17 ratio=1.0625 phi=17 argmax=[[1, 1, 1]] time=0.01
+M=3 t=16 s=16 shell p=2147483647: |A|=153 reg=16 ratio=1.0000 phi=16 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=17 s=1 shell p=2147483647: |A|=51 reg=11 ratio=0.6471 phi=25 argmax=[[1, 1, 1]] time=0.01
+M=3 t=17 s=3 shell p=2147483647: |A|=51 reg=11 ratio=0.6471 phi=24 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=17 s=5 shell p=2147483647: |A|=51 reg=13 ratio=0.7647 phi=23 argmax=[[1, 1, 1]] time=0.01
+M=3 t=17 s=7 shell p=2147483647: |A|=51 reg=13 ratio=0.7647 phi=22 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=17 s=9 shell p=2147483647: |A|=51 reg=15 ratio=0.8824 phi=21 argmax=[[1, 1, 1]] time=0.01
+M=3 t=17 s=11 shell p=2147483647: |A|=51 reg=15 ratio=0.8824 phi=20 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=17 s=13 shell p=2147483647: |A|=51 reg=17 ratio=1.0000 phi=19 argmax=[[1, 1, 1]] time=0.01
+M=3 t=17 s=15 shell p=2147483647: |A|=51 reg=17 ratio=1.0000 phi=18 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=17 s=17 shell p=2147483647: |A|=171 reg=17 ratio=1.0000 phi=17 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=18 s=0 shell p=2147483647: |A|=54 reg=12 ratio=0.6667 phi=27 argmax=[[1, 1, 1]] time=0.01
+M=3 t=18 s=2 shell p=2147483647: |A|=54 reg=11 ratio=0.6111 phi=26 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=18 s=4 shell p=2147483647: |A|=54 reg=13 ratio=0.7222 phi=25 argmax=[[1, 1, 1]] time=0.01
+M=3 t=18 s=6 shell p=2147483647: |A|=54 reg=13 ratio=0.7222 phi=24 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=18 s=8 shell p=2147483647: |A|=54 reg=15 ratio=0.8333 phi=23 argmax=[[1, 1, 1]] time=0.01
+M=3 t=18 s=10 shell p=2147483647: |A|=54 reg=15 ratio=0.8333 phi=22 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=18 s=12 shell p=2147483647: |A|=54 reg=17 ratio=0.9444 phi=21 argmax=[[1, 1, 1]] time=0.01
+M=3 t=18 s=14 shell p=2147483647: |A|=54 reg=17 ratio=0.9444 phi=20 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=18 s=16 shell p=2147483647: |A|=54 reg=19 ratio=1.0556 phi=19 argmax=[[1, 1, 1]] time=0.01
+M=3 t=18 s=18 shell p=2147483647: |A|=190 reg=18 ratio=1.0000 phi=18 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=19 s=1 shell p=2147483647: |A|=57 reg=12 ratio=0.6316 phi=28 argmax=[[1, 1, 1]] time=0.01
+M=3 t=19 s=3 shell p=2147483647: |A|=57 reg=13 ratio=0.6842 phi=27 argmax=[[1, 1, 1]] time=0.01
+M=3 t=19 s=5 shell p=2147483647: |A|=57 reg=13 ratio=0.6842 phi=26 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=19 s=7 shell p=2147483647: |A|=57 reg=15 ratio=0.7895 phi=25 argmax=[[1, 1, 1]] time=0.01
+M=3 t=19 s=9 shell p=2147483647: |A|=57 reg=15 ratio=0.7895 phi=24 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=19 s=11 shell p=2147483647: |A|=57 reg=17 ratio=0.8947 phi=23 argmax=[[1, 1, 1]] time=0.01
+M=3 t=19 s=13 shell p=2147483647: |A|=57 reg=17 ratio=0.8947 phi=22 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=19 s=15 shell p=2147483647: |A|=57 reg=19 ratio=1.0000 phi=21 argmax=[[1, 1, 1]] time=0.01
+M=3 t=19 s=17 shell p=2147483647: |A|=57 reg=19 ratio=1.0000 phi=20 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=19 s=19 shell p=2147483647: |A|=210 reg=19 ratio=1.0000 phi=19 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=20 s=0 shell p=2147483647: |A|=60 reg=12 ratio=0.6000 phi=30 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=20 s=2 shell p=2147483647: |A|=60 reg=13 ratio=0.6500 phi=29 argmax=[[1, 1, 1]] time=0.01
+M=3 t=20 s=4 shell p=2147483647: |A|=60 reg=13 ratio=0.6500 phi=28 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=20 s=6 shell p=2147483647: |A|=60 reg=15 ratio=0.7500 phi=27 argmax=[[1, 1, 1]] time=0.01
+M=3 t=20 s=8 shell p=2147483647: |A|=60 reg=15 ratio=0.7500 phi=26 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=20 s=10 shell p=2147483647: |A|=60 reg=17 ratio=0.8500 phi=25 argmax=[[1, 1, 1]] time=0.01
+M=3 t=20 s=12 shell p=2147483647: |A|=60 reg=17 ratio=0.8500 phi=24 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=20 s=14 shell p=2147483647: |A|=60 reg=19 ratio=0.9500 phi=23 argmax=[[1, 1, 1]] time=0.01
+M=3 t=20 s=16 shell p=2147483647: |A|=60 reg=19 ratio=0.9500 phi=22 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=20 s=18 shell p=2147483647: |A|=60 reg=21 ratio=1.0500 phi=21 argmax=[[1, 1, 1]] time=0.01
+M=3 t=20 s=20 shell p=2147483647: |A|=231 reg=20 ratio=1.0000 phi=20 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=21 s=1 shell p=2147483647: |A|=63 reg=13 ratio=0.6190 phi=31 argmax=[[1, 1, 1]] time=0.01
+M=3 t=21 s=3 shell p=2147483647: |A|=63 reg=13 ratio=0.6190 phi=30 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=21 s=5 shell p=2147483647: |A|=63 reg=15 ratio=0.7143 phi=29 argmax=[[1, 1, 1]] time=0.01
+M=3 t=21 s=7 shell p=2147483647: |A|=63 reg=15 ratio=0.7143 phi=28 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=21 s=9 shell p=2147483647: |A|=63 reg=17 ratio=0.8095 phi=27 argmax=[[1, 1, 1]] time=0.01
+M=3 t=21 s=11 shell p=2147483647: |A|=63 reg=17 ratio=0.8095 phi=26 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=21 s=13 shell p=2147483647: |A|=63 reg=19 ratio=0.9048 phi=25 argmax=[[1, 1, 1]] time=0.01
+M=3 t=21 s=15 shell p=2147483647: |A|=63 reg=19 ratio=0.9048 phi=24 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=21 s=17 shell p=2147483647: |A|=63 reg=21 ratio=1.0000 phi=23 argmax=[[1, 1, 1]] time=0.01
+M=3 t=21 s=19 shell p=2147483647: |A|=63 reg=21 ratio=1.0000 phi=22 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=21 s=21 shell p=2147483647: |A|=253 reg=21 ratio=1.0000 phi=21 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=22 s=0 shell p=2147483647: |A|=66 reg=14 ratio=0.6364 phi=33 argmax=[[1, 1, 1]] time=0.01
+M=3 t=22 s=2 shell p=2147483647: |A|=66 reg=13 ratio=0.5909 phi=32 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=22 s=4 shell p=2147483647: |A|=66 reg=15 ratio=0.6818 phi=31 argmax=[[1, 1, 1]] time=0.01
+M=3 t=22 s=6 shell p=2147483647: |A|=66 reg=15 ratio=0.6818 phi=30 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=22 s=8 shell p=2147483647: |A|=66 reg=17 ratio=0.7727 phi=29 argmax=[[1, 1, 1]] time=0.01
+M=3 t=22 s=10 shell p=2147483647: |A|=66 reg=17 ratio=0.7727 phi=28 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=22 s=12 shell p=2147483647: |A|=66 reg=19 ratio=0.8636 phi=27 argmax=[[1, 1, 1]] time=0.01
+M=3 t=22 s=14 shell p=2147483647: |A|=66 reg=19 ratio=0.8636 phi=26 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=22 s=16 shell p=2147483647: |A|=66 reg=21 ratio=0.9545 phi=25 argmax=[[1, 1, 1]] time=0.01
+M=3 t=22 s=18 shell p=2147483647: |A|=66 reg=21 ratio=0.9545 phi=24 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=22 s=20 shell p=2147483647: |A|=66 reg=23 ratio=1.0455 phi=23 argmax=[[1, 1, 1]] time=0.01
+M=3 t=22 s=22 shell p=2147483647: |A|=276 reg=22 ratio=1.0000 phi=22 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=23 s=1 shell p=2147483647: |A|=69 reg=14 ratio=0.6087 phi=34 argmax=[[1, 1, 1]] time=0.01
+M=3 t=23 s=3 shell p=2147483647: |A|=69 reg=15 ratio=0.6522 phi=33 argmax=[[1, 1, 1]] time=0.01
+M=3 t=23 s=5 shell p=2147483647: |A|=69 reg=15 ratio=0.6522 phi=32 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=23 s=7 shell p=2147483647: |A|=69 reg=17 ratio=0.7391 phi=31 argmax=[[1, 1, 1]] time=0.01
+M=3 t=23 s=9 shell p=2147483647: |A|=69 reg=17 ratio=0.7391 phi=30 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=23 s=11 shell p=2147483647: |A|=69 reg=19 ratio=0.8261 phi=29 argmax=[[1, 1, 1]] time=0.01
+M=3 t=23 s=13 shell p=2147483647: |A|=69 reg=19 ratio=0.8261 phi=28 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=23 s=15 shell p=2147483647: |A|=69 reg=21 ratio=0.9130 phi=27 argmax=[[1, 1, 1]] time=0.01
+M=3 t=23 s=17 shell p=2147483647: |A|=69 reg=21 ratio=0.9130 phi=26 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=23 s=19 shell p=2147483647: |A|=69 reg=23 ratio=1.0000 phi=25 argmax=[[1, 1, 1]] time=0.01
+M=3 t=23 s=21 shell p=2147483647: |A|=69 reg=23 ratio=1.0000 phi=24 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=23 s=23 shell p=2147483647: |A|=300 reg=23 ratio=1.0000 phi=23 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=24 s=0 shell p=2147483647: |A|=72 reg=14 ratio=0.5833 phi=36 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=24 s=2 shell p=2147483647: |A|=72 reg=15 ratio=0.6250 phi=35 argmax=[[1, 1, 1]] time=0.01
+M=3 t=24 s=4 shell p=2147483647: |A|=72 reg=15 ratio=0.6250 phi=34 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=24 s=6 shell p=2147483647: |A|=72 reg=17 ratio=0.7083 phi=33 argmax=[[1, 1, 1]] time=0.01
+M=3 t=24 s=8 shell p=2147483647: |A|=72 reg=17 ratio=0.7083 phi=32 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=24 s=10 shell p=2147483647: |A|=72 reg=19 ratio=0.7917 phi=31 argmax=[[1, 1, 1]] time=0.01
+M=3 t=24 s=12 shell p=2147483647: |A|=72 reg=19 ratio=0.7917 phi=30 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=24 s=14 shell p=2147483647: |A|=72 reg=21 ratio=0.8750 phi=29 argmax=[[1, 1, 1]] time=0.01
+M=3 t=24 s=16 shell p=2147483647: |A|=72 reg=21 ratio=0.8750 phi=28 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=24 s=18 shell p=2147483647: |A|=72 reg=23 ratio=0.9583 phi=27 argmax=[[1, 1, 1]] time=0.01
+M=3 t=24 s=20 shell p=2147483647: |A|=72 reg=23 ratio=0.9583 phi=26 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=24 s=22 shell p=2147483647: |A|=72 reg=25 ratio=1.0417 phi=25 argmax=[[1, 1, 1]] time=0.01
+M=3 t=24 s=24 shell p=2147483647: |A|=325 reg=24 ratio=1.0000 phi=24 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=25 s=1 shell p=2147483647: |A|=75 reg=15 ratio=0.6000 phi=37 argmax=[[1, 1, 1]] time=0.01
+M=3 t=25 s=3 shell p=2147483647: |A|=75 reg=15 ratio=0.6000 phi=36 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=25 s=5 shell p=2147483647: |A|=75 reg=17 ratio=0.6800 phi=35 argmax=[[1, 1, 1]] time=0.01
+M=3 t=25 s=7 shell p=2147483647: |A|=75 reg=17 ratio=0.6800 phi=34 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=25 s=9 shell p=2147483647: |A|=75 reg=19 ratio=0.7600 phi=33 argmax=[[1, 1, 1]] time=0.01
+M=3 t=25 s=11 shell p=2147483647: |A|=75 reg=19 ratio=0.7600 phi=32 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=25 s=13 shell p=2147483647: |A|=75 reg=21 ratio=0.8400 phi=31 argmax=[[1, 1, 1]] time=0.01
+M=3 t=25 s=15 shell p=2147483647: |A|=75 reg=21 ratio=0.8400 phi=30 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=25 s=17 shell p=2147483647: |A|=75 reg=23 ratio=0.9200 phi=29 argmax=[[1, 1, 1]] time=0.01
+M=3 t=25 s=19 shell p=2147483647: |A|=75 reg=23 ratio=0.9200 phi=28 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=25 s=21 shell p=2147483647: |A|=75 reg=25 ratio=1.0000 phi=27 argmax=[[1, 1, 1]] time=0.01
+M=3 t=25 s=23 shell p=2147483647: |A|=75 reg=25 ratio=1.0000 phi=26 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=25 s=25 shell p=2147483647: |A|=351 reg=25 ratio=1.0000 phi=25 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=26 s=0 shell p=2147483647: |A|=78 reg=16 ratio=0.6154 phi=39 argmax=[[1, 1, 1]] time=0.01
+M=3 t=26 s=2 shell p=2147483647: |A|=78 reg=15 ratio=0.5769 phi=38 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=26 s=4 shell p=2147483647: |A|=78 reg=17 ratio=0.6538 phi=37 argmax=[[1, 1, 1]] time=0.01
+M=3 t=26 s=6 shell p=2147483647: |A|=78 reg=17 ratio=0.6538 phi=36 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=26 s=8 shell p=2147483647: |A|=78 reg=19 ratio=0.7308 phi=35 argmax=[[1, 1, 1]] time=0.01
+M=3 t=26 s=10 shell p=2147483647: |A|=78 reg=19 ratio=0.7308 phi=34 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=26 s=12 shell p=2147483647: |A|=78 reg=21 ratio=0.8077 phi=33 argmax=[[1, 1, 1]] time=0.01
+M=3 t=26 s=14 shell p=2147483647: |A|=78 reg=21 ratio=0.8077 phi=32 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=26 s=16 shell p=2147483647: |A|=78 reg=23 ratio=0.8846 phi=31 argmax=[[1, 1, 1]] time=0.01
+M=3 t=26 s=18 shell p=2147483647: |A|=78 reg=23 ratio=0.8846 phi=30 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=26 s=20 shell p=2147483647: |A|=78 reg=25 ratio=0.9615 phi=29 argmax=[[1, 1, 1]] time=0.01
+M=3 t=26 s=22 shell p=2147483647: |A|=78 reg=25 ratio=0.9615 phi=28 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=26 s=24 shell p=2147483647: |A|=78 reg=27 ratio=1.0385 phi=27 argmax=[[1, 1, 1]] time=0.01
+M=3 t=26 s=26 shell p=2147483647: |A|=378 reg=26 ratio=1.0000 phi=26 argmax=[[3], [2, 1], [1, 1, 1]] time=0.05
+M=3 t=27 s=1 shell p=2147483647: |A|=81 reg=16 ratio=0.5926 phi=40 argmax=[[1, 1, 1]] time=0.01
+M=3 t=27 s=3 shell p=2147483647: |A|=81 reg=17 ratio=0.6296 phi=39 argmax=[[1, 1, 1]] time=0.01
+M=3 t=27 s=5 shell p=2147483647: |A|=81 reg=17 ratio=0.6296 phi=38 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=27 s=7 shell p=2147483647: |A|=81 reg=19 ratio=0.7037 phi=37 argmax=[[1, 1, 1]] time=0.01
+M=3 t=27 s=9 shell p=2147483647: |A|=81 reg=19 ratio=0.7037 phi=36 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=27 s=11 shell p=2147483647: |A|=81 reg=21 ratio=0.7778 phi=35 argmax=[[1, 1, 1]] time=0.01
+M=3 t=27 s=13 shell p=2147483647: |A|=81 reg=21 ratio=0.7778 phi=34 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=27 s=15 shell p=2147483647: |A|=81 reg=23 ratio=0.8519 phi=33 argmax=[[1, 1, 1]] time=0.01
+M=3 t=27 s=17 shell p=2147483647: |A|=81 reg=23 ratio=0.8519 phi=32 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=27 s=19 shell p=2147483647: |A|=81 reg=25 ratio=0.9259 phi=31 argmax=[[1, 1, 1]] time=0.01
+M=3 t=27 s=21 shell p=2147483647: |A|=81 reg=25 ratio=0.9259 phi=30 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=27 s=23 shell p=2147483647: |A|=81 reg=27 ratio=1.0000 phi=29 argmax=[[1, 1, 1]] time=0.01
+M=3 t=27 s=25 shell p=2147483647: |A|=81 reg=27 ratio=1.0000 phi=28 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=27 s=27 shell p=2147483647: |A|=406 reg=27 ratio=1.0000 phi=27 argmax=[[3], [2, 1], [1, 1, 1]] time=0.05
+M=3 t=28 s=0 shell p=2147483647: |A|=84 reg=16 ratio=0.5714 phi=42 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=28 s=2 shell p=2147483647: |A|=84 reg=17 ratio=0.6071 phi=41 argmax=[[1, 1, 1]] time=0.01
+M=3 t=28 s=4 shell p=2147483647: |A|=84 reg=17 ratio=0.6071 phi=40 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=28 s=6 shell p=2147483647: |A|=84 reg=19 ratio=0.6786 phi=39 argmax=[[1, 1, 1]] time=0.01
+M=3 t=28 s=8 shell p=2147483647: |A|=84 reg=19 ratio=0.6786 phi=38 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=28 s=10 shell p=2147483647: |A|=84 reg=21 ratio=0.7500 phi=37 argmax=[[1, 1, 1]] time=0.01
+M=3 t=28 s=12 shell p=2147483647: |A|=84 reg=21 ratio=0.7500 phi=36 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=28 s=14 shell p=2147483647: |A|=84 reg=23 ratio=0.8214 phi=35 argmax=[[1, 1, 1]] time=0.01
+M=3 t=28 s=16 shell p=2147483647: |A|=84 reg=23 ratio=0.8214 phi=34 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=28 s=18 shell p=2147483647: |A|=84 reg=25 ratio=0.8929 phi=33 argmax=[[1, 1, 1]] time=0.01
+M=3 t=28 s=20 shell p=2147483647: |A|=84 reg=25 ratio=0.8929 phi=32 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=28 s=22 shell p=2147483647: |A|=84 reg=27 ratio=0.9643 phi=31 argmax=[[1, 1, 1]] time=0.01
+M=3 t=28 s=24 shell p=2147483647: |A|=84 reg=27 ratio=0.9643 phi=30 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=28 s=26 shell p=2147483647: |A|=84 reg=29 ratio=1.0357 phi=29 argmax=[[1, 1, 1]] time=0.01
+M=3 t=28 s=28 shell p=2147483647: |A|=435 reg=28 ratio=1.0000 phi=28 argmax=[[3], [2, 1], [1, 1, 1]] time=0.05
+M=3 t=29 s=1 shell p=2147483647: |A|=87 reg=17 ratio=0.5862 phi=43 argmax=[[1, 1, 1]] time=0.01
+M=3 t=29 s=3 shell p=2147483647: |A|=87 reg=17 ratio=0.5862 phi=42 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=29 s=5 shell p=2147483647: |A|=87 reg=19 ratio=0.6552 phi=41 argmax=[[1, 1, 1]] time=0.01
+M=3 t=29 s=7 shell p=2147483647: |A|=87 reg=19 ratio=0.6552 phi=40 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=29 s=9 shell p=2147483647: |A|=87 reg=21 ratio=0.7241 phi=39 argmax=[[1, 1, 1]] time=0.01
+M=3 t=29 s=11 shell p=2147483647: |A|=87 reg=21 ratio=0.7241 phi=38 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=29 s=13 shell p=2147483647: |A|=87 reg=23 ratio=0.7931 phi=37 argmax=[[1, 1, 1]] time=0.01
+M=3 t=29 s=15 shell p=2147483647: |A|=87 reg=23 ratio=0.7931 phi=36 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=29 s=17 shell p=2147483647: |A|=87 reg=25 ratio=0.8621 phi=35 argmax=[[1, 1, 1]] time=0.01
+M=3 t=29 s=19 shell p=2147483647: |A|=87 reg=25 ratio=0.8621 phi=34 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=29 s=21 shell p=2147483647: |A|=87 reg=27 ratio=0.9310 phi=33 argmax=[[1, 1, 1]] time=0.02
+M=3 t=29 s=23 shell p=2147483647: |A|=87 reg=27 ratio=0.9310 phi=32 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=29 s=25 shell p=2147483647: |A|=87 reg=29 ratio=1.0000 phi=31 argmax=[[1, 1, 1]] time=0.01
+M=3 t=29 s=27 shell p=2147483647: |A|=87 reg=29 ratio=1.0000 phi=30 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=29 s=29 shell p=2147483647: |A|=465 reg=29 ratio=1.0000 phi=29 argmax=[[3], [2, 1], [1, 1, 1]] time=0.06
+M=3 t=30 s=0 shell p=2147483647: |A|=90 reg=18 ratio=0.6000 phi=45 argmax=[[1, 1, 1]] time=0.01
+M=3 t=30 s=2 shell p=2147483647: |A|=90 reg=17 ratio=0.5667 phi=44 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=30 s=4 shell p=2147483647: |A|=90 reg=19 ratio=0.6333 phi=43 argmax=[[1, 1, 1]] time=0.01
+M=3 t=30 s=6 shell p=2147483647: |A|=90 reg=19 ratio=0.6333 phi=42 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=30 s=8 shell p=2147483647: |A|=90 reg=21 ratio=0.7000 phi=41 argmax=[[1, 1, 1]] time=0.01
+M=3 t=30 s=10 shell p=2147483647: |A|=90 reg=21 ratio=0.7000 phi=40 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=30 s=12 shell p=2147483647: |A|=90 reg=23 ratio=0.7667 phi=39 argmax=[[1, 1, 1]] time=0.01
+M=3 t=30 s=14 shell p=2147483647: |A|=90 reg=23 ratio=0.7667 phi=38 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=30 s=16 shell p=2147483647: |A|=90 reg=25 ratio=0.8333 phi=37 argmax=[[1, 1, 1]] time=0.01
+M=3 t=30 s=18 shell p=2147483647: |A|=90 reg=25 ratio=0.8333 phi=36 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=30 s=20 shell p=2147483647: |A|=90 reg=27 ratio=0.9000 phi=35 argmax=[[1, 1, 1]] time=0.01
+M=3 t=30 s=22 shell p=2147483647: |A|=90 reg=27 ratio=0.9000 phi=34 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=30 s=24 shell p=2147483647: |A|=90 reg=29 ratio=0.9667 phi=33 argmax=[[1, 1, 1]] time=0.01
+M=3 t=30 s=26 shell p=2147483647: |A|=90 reg=29 ratio=0.9667 phi=32 argmax=[[2, 1], [1, 1, 1]] time=0.02
+M=3 t=30 s=28 shell p=2147483647: |A|=90 reg=31 ratio=1.0333 phi=31 argmax=[[1, 1, 1]] time=0.01
+M=3 t=30 s=30 shell p=2147483647: |A|=496 reg=30 ratio=1.0000 phi=30 argmax=[[3], [2, 1], [1, 1, 1]] time=0.17
+M=4 t=1 s=1 shell p=2147483647: |A|=4 reg=1 ratio=1.0000 phi=1 argmax=[[3, 1]] time=0.0
+M=4 t=2 s=0 shell p=2147483647: |A|=12 reg=3 ratio=1.5000 phi=3 argmax=[[2, 1, 1]] time=0.0
+M=4 t=2 s=2 shell p=2147483647: |A|=10 reg=2 ratio=1.0000 phi=2 argmax=[[4], [3, 1], [2, 2]] time=0.0
+M=4 t=3 s=1 shell p=2147483647: |A|=24 reg=4 ratio=1.3333 phi=4 argmax=[[2, 2], [2, 1, 1]] time=0.0
+M=4 t=3 s=3 shell p=2147483647: |A|=20 reg=3 ratio=1.0000 phi=3 argmax=[[4], [3, 1], [2, 1, 1]] time=0.0
+M=4 t=4 s=0 shell p=2147483647: |A|=42 reg=5 ratio=1.2500 phi=6 argmax=[[3, 1], [2, 2], [2, 1, 1]] time=0.0
+M=4 t=4 s=2 shell p=2147483647: |A|=40 reg=6 ratio=1.5000 phi=6 argmax=[[1, 1, 1, 1]] time=0.0
+M=4 t=4 s=4 shell p=2147483647: |A|=35 reg=4 ratio=1.0000 phi=4 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.0
+M=4 t=5 s=1 shell p=2147483647: |A|=64 reg=6 ratio=1.2000 phi=7 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=5 s=3 shell p=2147483647: |A|=60 reg=6 ratio=1.2000 phi=7 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.0
+M=4 t=5 s=5 shell p=2147483647: |A|=56 reg=5 ratio=1.0000 phi=5 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.0
+M=4 t=6 s=0 shell p=2147483647: |A|=92 reg=9 ratio=1.5000 phi=9 argmax=[[1, 1, 1, 1]] time=0.01
+M=4 t=6 s=2 shell p=2147483647: |A|=90 reg=7 ratio=1.1667 phi=9 argmax=[[2, 2], [2, 1, 1]] time=0.01
+M=4 t=6 s=4 shell p=2147483647: |A|=84 reg=8 ratio=1.3333 phi=8 argmax=[[1, 1, 1, 1]] time=0.01
+M=4 t=6 s=6 shell p=2147483647: |A|=84 reg=6 ratio=1.0000 phi=6 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=7 s=1 shell p=2147483647: |A|=124 reg=9 ratio=1.2857 phi=10 argmax=[[1, 1, 1, 1]] time=0.01
+M=4 t=7 s=3 shell p=2147483647: |A|=120 reg=8 ratio=1.1429 phi=10 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=7 s=5 shell p=2147483647: |A|=112 reg=9 ratio=1.2857 phi=9 argmax=[[1, 1, 1, 1]] time=0.01
+M=4 t=7 s=7 shell p=2147483647: |A|=120 reg=7 ratio=1.0000 phi=7 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.01
+M=4 t=8 s=0 shell p=2147483647: |A|=162 reg=9 ratio=1.1250 phi=12 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=8 s=2 shell p=2147483647: |A|=160 reg=10 ratio=1.2500 phi=12 argmax=[[1, 1, 1, 1]] time=0.01
+M=4 t=8 s=4 shell p=2147483647: |A|=154 reg=9 ratio=1.1250 phi=12 argmax=[[2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=8 s=6 shell p=2147483647: |A|=144 reg=10 ratio=1.2500 phi=10 argmax=[[1, 1, 1, 1]] time=0.01
+M=4 t=8 s=8 shell p=2147483647: |A|=165 reg=8 ratio=1.0000 phi=8 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=9 s=1 shell p=2147483647: |A|=204 reg=10 ratio=1.1111 phi=13 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=9 s=3 shell p=2147483647: |A|=200 reg=11 ratio=1.2222 phi=13 argmax=[[1, 1, 1, 1]] time=0.01
+M=4 t=9 s=5 shell p=2147483647: |A|=192 reg=10 ratio=1.1111 phi=13 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=9 s=7 shell p=2147483647: |A|=180 reg=11 ratio=1.2222 phi=11 argmax=[[1, 1, 1, 1]] time=0.01
+M=4 t=9 s=9 shell p=2147483647: |A|=220 reg=9 ratio=1.0000 phi=9 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=10 s=0 shell p=2147483647: |A|=252 reg=13 ratio=1.3000 phi=15 argmax=[[1, 1, 1, 1]] time=0.01
+M=4 t=10 s=2 shell p=2147483647: |A|=250 reg=11 ratio=1.1000 phi=15 argmax=[[2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=10 s=4 shell p=2147483647: |A|=244 reg=12 ratio=1.2000 phi=15 argmax=[[1, 1, 1, 1]] time=0.01
+M=4 t=10 s=6 shell p=2147483647: |A|=234 reg=11 ratio=1.1000 phi=14 argmax=[[2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=10 s=8 shell p=2147483647: |A|=220 reg=12 ratio=1.2000 phi=12 argmax=[[1, 1, 1, 1]] time=0.01
+M=4 t=10 s=10 shell p=2147483647: |A|=286 reg=10 ratio=1.0000 phi=10 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=11 s=1 shell p=2147483647: |A|=304 reg=13 ratio=1.1818 phi=16 argmax=[[1, 1, 1, 1]] time=0.02
+M=4 t=11 s=3 shell p=2147483647: |A|=300 reg=12 ratio=1.0909 phi=16 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=11 s=5 shell p=2147483647: |A|=292 reg=12 ratio=1.0909 phi=16 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=11 s=7 shell p=2147483647: |A|=280 reg=12 ratio=1.0909 phi=15 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=11 s=9 shell p=2147483647: |A|=264 reg=13 ratio=1.1818 phi=13 argmax=[[1, 1, 1, 1]] time=0.01
+M=4 t=11 s=11 shell p=2147483647: |A|=364 reg=11 ratio=1.0000 phi=11 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=12 s=0 shell p=2147483647: |A|=362 reg=13 ratio=1.0833 phi=18 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=12 s=2 shell p=2147483647: |A|=360 reg=14 ratio=1.1667 phi=18 argmax=[[1, 1, 1, 1]] time=0.02
+M=4 t=12 s=4 shell p=2147483647: |A|=354 reg=13 ratio=1.0833 phi=18 argmax=[[2, 1, 1]] time=0.02
+M=4 t=12 s=6 shell p=2147483647: |A|=344 reg=14 ratio=1.1667 phi=18 argmax=[[1, 1, 1, 1]] time=0.02
+M=4 t=12 s=8 shell p=2147483647: |A|=330 reg=13 ratio=1.0833 phi=16 argmax=[[2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=12 s=10 shell p=2147483647: |A|=312 reg=14 ratio=1.1667 phi=14 argmax=[[1, 1, 1, 1]] time=0.02
+M=4 t=12 s=12 shell p=2147483647: |A|=455 reg=12 ratio=1.0000 phi=12 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.03
+M=4 t=13 s=1 shell p=2147483647: |A|=424 reg=14 ratio=1.0769 phi=19 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=13 s=3 shell p=2147483647: |A|=420 reg=14 ratio=1.0769 phi=19 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=13 s=5 shell p=2147483647: |A|=412 reg=14 ratio=1.0769 phi=19 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.03
+M=4 t=13 s=7 shell p=2147483647: |A|=400 reg=14 ratio=1.0769 phi=19 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=13 s=9 shell p=2147483647: |A|=384 reg=14 ratio=1.0769 phi=17 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=13 s=11 shell p=2147483647: |A|=364 reg=15 ratio=1.1538 phi=15 argmax=[[1, 1, 1, 1]] time=0.02
+M=4 t=13 s=13 shell p=2147483647: |A|=560 reg=13 ratio=1.0000 phi=13 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.04
+M=4 t=14 s=0 shell p=2147483647: |A|=492 reg=17 ratio=1.2143 phi=21 argmax=[[1, 1, 1, 1]] time=0.03
+M=4 t=14 s=2 shell p=2147483647: |A|=490 reg=15 ratio=1.0714 phi=21 argmax=[[2, 1, 1]] time=0.03
+M=4 t=14 s=4 shell p=2147483647: |A|=484 reg=16 ratio=1.1429 phi=21 argmax=[[1, 1, 1, 1]] time=0.03
+M=4 t=14 s=6 shell p=2147483647: |A|=474 reg=15 ratio=1.0714 phi=21 argmax=[[2, 1, 1]] time=0.03
+M=4 t=14 s=8 shell p=2147483647: |A|=460 reg=16 ratio=1.1429 phi=20 argmax=[[1, 1, 1, 1]] time=0.02
+M=4 t=14 s=10 shell p=2147483647: |A|=442 reg=15 ratio=1.0714 phi=18 argmax=[[2, 1, 1], [1, 1, 1, 1]] time=0.03
+M=4 t=14 s=12 shell p=2147483647: |A|=420 reg=16 ratio=1.1429 phi=16 argmax=[[1, 1, 1, 1]] time=0.03
+M=4 t=14 s=14 shell p=2147483647: |A|=680 reg=14 ratio=1.0000 phi=14 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.04
+M=4 t=15 s=1 shell p=2147483647: |A|=564 reg=17 ratio=1.1333 phi=22 argmax=[[1, 1, 1, 1]] time=0.03
+M=4 t=15 s=3 shell p=2147483647: |A|=560 reg=16 ratio=1.0667 phi=22 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.03
+M=4 t=15 s=5 shell p=2147483647: |A|=552 reg=16 ratio=1.0667 phi=22 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.03
+M=4 t=15 s=7 shell p=2147483647: |A|=540 reg=16 ratio=1.0667 phi=22 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.03
+M=4 t=15 s=9 shell p=2147483647: |A|=524 reg=16 ratio=1.0667 phi=21 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.03
+M=4 t=15 s=11 shell p=2147483647: |A|=504 reg=16 ratio=1.0667 phi=19 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.03
+M=4 t=15 s=13 shell p=2147483647: |A|=480 reg=17 ratio=1.1333 phi=17 argmax=[[1, 1, 1, 1]] time=0.03
+M=4 t=15 s=15 shell p=2147483647: |A|=816 reg=15 ratio=1.0000 phi=15 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.05
+M=4 t=16 s=0 shell p=2147483647: |A|=642 reg=17 ratio=1.0625 phi=24 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.06
+M=4 t=16 s=2 shell p=2147483647: |A|=640 reg=18 ratio=1.1250 phi=24 argmax=[[1, 1, 1, 1]] time=0.04
+M=4 t=16 s=4 shell p=2147483647: |A|=634 reg=17 ratio=1.0625 phi=24 argmax=[[2, 1, 1]] time=0.04
+M=4 t=16 s=6 shell p=2147483647: |A|=624 reg=18 ratio=1.1250 phi=24 argmax=[[1, 1, 1, 1]] time=0.03
+M=4 t=16 s=8 shell p=2147483647: |A|=610 reg=17 ratio=1.0625 phi=24 argmax=[[2, 1, 1]] time=0.04
+M=4 t=16 s=10 shell p=2147483647: |A|=592 reg=18 ratio=1.1250 phi=22 argmax=[[1, 1, 1, 1]] time=0.03
+M=4 t=16 s=12 shell p=2147483647: |A|=570 reg=17 ratio=1.0625 phi=20 argmax=[[2, 1, 1], [1, 1, 1, 1]] time=0.04
+M=4 t=16 s=14 shell p=2147483647: |A|=544 reg=18 ratio=1.1250 phi=18 argmax=[[1, 1, 1, 1]] time=0.03
+M=4 t=16 s=16 shell p=2147483647: |A|=969 reg=16 ratio=1.0000 phi=16 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.07
+M=4 t=17 s=1 shell p=2147483647: |A|=724 reg=18 ratio=1.0588 phi=25 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.04
+M=4 t=17 s=3 shell p=2147483647: |A|=720 reg=18 ratio=1.0588 phi=25 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.04
+M=4 t=17 s=5 shell p=2147483647: |A|=712 reg=18 ratio=1.0588 phi=25 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.04
+M=4 t=17 s=7 shell p=2147483647: |A|=700 reg=18 ratio=1.0588 phi=25 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.05
+M=4 t=17 s=9 shell p=2147483647: |A|=684 reg=18 ratio=1.0588 phi=25 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.04
+M=4 t=17 s=11 shell p=2147483647: |A|=664 reg=18 ratio=1.0588 phi=23 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.04
+M=4 t=17 s=13 shell p=2147483647: |A|=640 reg=18 ratio=1.0588 phi=21 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.05
+M=4 t=17 s=15 shell p=2147483647: |A|=612 reg=19 ratio=1.1176 phi=19 argmax=[[1, 1, 1, 1]] time=0.05
+M=4 t=17 s=17 shell p=2147483647: |A|=1140 reg=17 ratio=1.0000 phi=17 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.28
+M=4 t=18 s=0 shell p=2147483647: |A|=812 reg=21 ratio=1.1667 phi=27 argmax=[[1, 1, 1, 1]] time=0.06
+M=4 t=18 s=2 shell p=2147483647: |A|=810 reg=19 ratio=1.0556 phi=27 argmax=[[2, 1, 1]] time=0.05
+M=4 t=18 s=4 shell p=2147483647: |A|=804 reg=20 ratio=1.1111 phi=27 argmax=[[1, 1, 1, 1]] time=0.05
+M=4 t=18 s=6 shell p=2147483647: |A|=794 reg=19 ratio=1.0556 phi=27 argmax=[[2, 1, 1]] time=0.05
+M=4 t=18 s=8 shell p=2147483647: |A|=780 reg=20 ratio=1.1111 phi=27 argmax=[[1, 1, 1, 1]] time=0.05
+M=4 t=18 s=10 shell p=2147483647: |A|=762 reg=19 ratio=1.0556 phi=26 argmax=[[2, 1, 1]] time=0.05
+M=4 t=18 s=12 shell p=2147483647: |A|=740 reg=20 ratio=1.1111 phi=24 argmax=[[1, 1, 1, 1]] time=0.04
+M=4 t=18 s=14 shell p=2147483647: |A|=714 reg=19 ratio=1.0556 phi=22 argmax=[[2, 1, 1], [1, 1, 1, 1]] time=0.04
+M=4 t=18 s=16 shell p=2147483647: |A|=684 reg=20 ratio=1.1111 phi=20 argmax=[[1, 1, 1, 1]] time=0.04
+M=4 t=18 s=18 shell p=2147483647: |A|=1330 reg=18 ratio=1.0000 phi=18 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.24
+M=4 t=19 s=1 shell p=2147483647: |A|=904 reg=21 ratio=1.1053 phi=28 argmax=[[1, 1, 1, 1]] time=0.05
+M=4 t=19 s=3 shell p=2147483647: |A|=900 reg=20 ratio=1.0526 phi=28 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.06
+M=4 t=19 s=5 shell p=2147483647: |A|=892 reg=20 ratio=1.0526 phi=28 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.06
+M=4 t=19 s=7 shell p=2147483647: |A|=880 reg=20 ratio=1.0526 phi=28 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.11
+M=4 t=19 s=9 shell p=2147483647: |A|=864 reg=20 ratio=1.0526 phi=28 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.08
+M=4 t=19 s=11 shell p=2147483647: |A|=844 reg=20 ratio=1.0526 phi=27 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.07
+M=4 t=19 s=13 shell p=2147483647: |A|=820 reg=20 ratio=1.0526 phi=25 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.05
+M=4 t=19 s=15 shell p=2147483647: |A|=792 reg=20 ratio=1.0526 phi=23 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.05
+M=4 t=19 s=17 shell p=2147483647: |A|=760 reg=21 ratio=1.1053 phi=21 argmax=[[1, 1, 1, 1]] time=0.05
+M=4 t=19 s=19 shell p=2147483647: |A|=1540 reg=19 ratio=1.0000 phi=19 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.37
+M=4 t=20 s=0 shell p=2147483647: |A|=1002 reg=21 ratio=1.0500 phi=30 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.1
+M=4 t=20 s=2 shell p=2147483647: |A|=1000 reg=22 ratio=1.1000 phi=30 argmax=[[1, 1, 1, 1]] time=0.06
+M=4 t=20 s=4 shell p=2147483647: |A|=994 reg=21 ratio=1.0500 phi=30 argmax=[[2, 1, 1]] time=0.06
+M=4 t=20 s=6 shell p=2147483647: |A|=984 reg=22 ratio=1.1000 phi=30 argmax=[[1, 1, 1, 1]] time=0.06
+M=4 t=20 s=8 shell p=2147483647: |A|=970 reg=21 ratio=1.0500 phi=30 argmax=[[2, 1, 1]] time=0.06
+M=4 t=20 s=10 shell p=2147483647: |A|=952 reg=22 ratio=1.1000 phi=30 argmax=[[1, 1, 1, 1]] time=0.06
+M=4 t=20 s=12 shell p=2147483647: |A|=930 reg=21 ratio=1.0500 phi=28 argmax=[[2, 1, 1]] time=0.06
+M=4 t=20 s=14 shell p=2147483647: |A|=904 reg=22 ratio=1.1000 phi=26 argmax=[[1, 1, 1, 1]] time=0.05
+M=4 t=20 s=16 shell p=2147483647: |A|=874 reg=21 ratio=1.0500 phi=24 argmax=[[2, 1, 1], [1, 1, 1, 1]] time=0.07
+M=4 t=20 s=18 shell p=2147483647: |A|=840 reg=22 ratio=1.1000 phi=22 argmax=[[1, 1, 1, 1]] time=0.11
+M=4 t=20 s=20 shell p=2147483647: |A|=1771 reg=20 ratio=1.0000 phi=20 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.17
+M=4 t=21 s=1 shell p=2147483647: |A|=1104 reg=22 ratio=1.0476 phi=31 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.07
+M=4 t=21 s=3 shell p=2147483647: |A|=1100 reg=22 ratio=1.0476 phi=31 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.07
+M=4 t=21 s=5 shell p=2147483647: |A|=1092 reg=22 ratio=1.0476 phi=31 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.07
+M=4 t=21 s=7 shell p=2147483647: |A|=1080 reg=22 ratio=1.0476 phi=31 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.07
+M=4 t=21 s=9 shell p=2147483647: |A|=1064 reg=22 ratio=1.0476 phi=31 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.08
+M=4 t=21 s=11 shell p=2147483647: |A|=1044 reg=22 ratio=1.0476 phi=31 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.07
+M=4 t=21 s=13 shell p=2147483647: |A|=1020 reg=22 ratio=1.0476 phi=29 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.07
+M=4 t=21 s=15 shell p=2147483647: |A|=992 reg=22 ratio=1.0476 phi=27 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.06
+M=4 t=21 s=17 shell p=2147483647: |A|=960 reg=22 ratio=1.0476 phi=25 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.06
+M=4 t=21 s=19 shell p=2147483647: |A|=924 reg=23 ratio=1.0952 phi=23 argmax=[[1, 1, 1, 1]] time=0.15
+M=4 t=21 s=21 shell p=2147483647: |A|=2024 reg=21 ratio=1.0000 phi=21 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.24
+M=4 t=22 s=0 shell p=2147483647: |A|=1212 reg=25 ratio=1.1364 phi=33 argmax=[[1, 1, 1, 1]] time=0.09
+M=4 t=22 s=2 shell p=2147483647: |A|=1210 reg=23 ratio=1.0455 phi=33 argmax=[[2, 1, 1]] time=0.15
+M=4 t=22 s=4 shell p=2147483647: |A|=1204 reg=24 ratio=1.0909 phi=33 argmax=[[1, 1, 1, 1]] time=0.19
+M=4 t=22 s=6 shell p=2147483647: |A|=1194 reg=23 ratio=1.0455 phi=33 argmax=[[2, 1, 1]] time=0.32
+M=4 t=22 s=8 shell p=2147483647: |A|=1180 reg=24 ratio=1.0909 phi=33 argmax=[[1, 1, 1, 1]] time=0.27
+M=4 t=22 s=10 shell p=2147483647: |A|=1162 reg=23 ratio=1.0455 phi=33 argmax=[[2, 1, 1]] time=0.11
+M=4 t=22 s=12 shell p=2147483647: |A|=1140 reg=24 ratio=1.0909 phi=32 argmax=[[1, 1, 1, 1]] time=0.08
+M=4 t=22 s=14 shell p=2147483647: |A|=1114 reg=23 ratio=1.0455 phi=30 argmax=[[2, 1, 1]] time=0.08
+M=4 t=22 s=16 shell p=2147483647: |A|=1084 reg=24 ratio=1.0909 phi=28 argmax=[[1, 1, 1, 1]] time=0.07
+M=4 t=22 s=18 shell p=2147483647: |A|=1050 reg=23 ratio=1.0455 phi=26 argmax=[[2, 1, 1], [1, 1, 1, 1]] time=0.08
+M=4 t=22 s=20 shell p=2147483647: |A|=1012 reg=24 ratio=1.0909 phi=24 argmax=[[1, 1, 1, 1]] time=0.07
+M=4 t=22 s=22 shell p=2147483647: |A|=2300 reg=22 ratio=1.0000 phi=22 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.82
+M=4 t=23 s=1 shell p=2147483647: |A|=1324 reg=25 ratio=1.0870 phi=34 argmax=[[1, 1, 1, 1]] time=0.33
+M=4 t=23 s=3 shell p=2147483647: |A|=1320 reg=24 ratio=1.0435 phi=34 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.33
+M=4 t=23 s=5 shell p=2147483647: |A|=1312 reg=24 ratio=1.0435 phi=34 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.32
+M=4 t=23 s=7 shell p=2147483647: |A|=1300 reg=24 ratio=1.0435 phi=34 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.32
+M=4 t=23 s=9 shell p=2147483647: |A|=1284 reg=24 ratio=1.0435 phi=34 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.32
+M=4 t=23 s=11 shell p=2147483647: |A|=1264 reg=24 ratio=1.0435 phi=34 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.34
+M=4 t=23 s=13 shell p=2147483647: |A|=1240 reg=24 ratio=1.0435 phi=33 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.36
+M=4 t=23 s=15 shell p=2147483647: |A|=1212 reg=24 ratio=1.0435 phi=31 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.33
+M=4 t=23 s=17 shell p=2147483647: |A|=1180 reg=24 ratio=1.0435 phi=29 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.15
+M=4 t=23 s=19 shell p=2147483647: |A|=1144 reg=24 ratio=1.0435 phi=27 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.08
+M=4 t=23 s=21 shell p=2147483647: |A|=1104 reg=25 ratio=1.0870 phi=25 argmax=[[1, 1, 1, 1]] time=0.08
+M=4 t=23 s=23 shell p=2147483647: |A|=2600 reg=23 ratio=1.0000 phi=23 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=1.14
+M=4 t=24 s=0 shell p=2147483647: |A|=1442 reg=25 ratio=1.0417 phi=36 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.38
+M=4 t=24 s=2 shell p=2147483647: |A|=1440 reg=26 ratio=1.0833 phi=36 argmax=[[1, 1, 1, 1]] time=0.38
+M=4 t=24 s=4 shell p=2147483647: |A|=1434 reg=25 ratio=1.0417 phi=36 argmax=[[2, 1, 1]] time=0.3
+M=4 t=24 s=6 shell p=2147483647: |A|=1424 reg=26 ratio=1.0833 phi=36 argmax=[[1, 1, 1, 1]] time=0.44
+M=4 t=24 s=8 shell p=2147483647: |A|=1410 reg=25 ratio=1.0417 phi=36 argmax=[[2, 1, 1]] time=0.41
+M=4 t=24 s=10 shell p=2147483647: |A|=1392 reg=26 ratio=1.0833 phi=36 argmax=[[1, 1, 1, 1]] time=0.37
+M=4 t=24 s=12 shell p=2147483647: |A|=1370 reg=25 ratio=1.0417 phi=36 argmax=[[2, 1, 1]] time=0.24
+M=4 t=24 s=14 shell p=2147483647: |A|=1344 reg=26 ratio=1.0833 phi=34 argmax=[[1, 1, 1, 1]] time=0.35
+M=4 t=24 s=16 shell p=2147483647: |A|=1314 reg=25 ratio=1.0417 phi=32 argmax=[[2, 1, 1]] time=0.23
+M=4 t=24 s=18 shell p=2147483647: |A|=1280 reg=26 ratio=1.0833 phi=30 argmax=[[1, 1, 1, 1]] time=0.14
+M=4 t=24 s=20 shell p=2147483647: |A|=1242 reg=25 ratio=1.0417 phi=28 argmax=[[2, 1, 1], [1, 1, 1, 1]] time=0.14
+M=4 t=24 s=22 shell p=2147483647: |A|=1200 reg=26 ratio=1.0833 phi=26 argmax=[[1, 1, 1, 1]] time=0.09
+M=4 t=24 s=24 shell p=2147483647: |A|=2925 reg=24 ratio=1.0000 phi=24 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=1.71
+M=4 t=25 s=1 shell p=2147483647: |A|=1564 reg=26 ratio=1.0400 phi=37 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.44
+M=4 t=25 s=3 shell p=2147483647: |A|=1560 reg=26 ratio=1.0400 phi=37 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.42
+M=4 t=25 s=5 shell p=2147483647: |A|=1552 reg=26 ratio=1.0400 phi=37 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.41
+M=4 t=25 s=7 shell p=2147483647: |A|=1540 reg=26 ratio=1.0400 phi=37 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.41
+M=4 t=25 s=9 shell p=2147483647: |A|=1524 reg=26 ratio=1.0400 phi=37 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.42
+M=4 t=25 s=11 shell p=2147483647: |A|=1504 reg=26 ratio=1.0400 phi=37 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.4
+M=4 t=25 s=13 shell p=2147483647: |A|=1480 reg=26 ratio=1.0400 phi=37 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.43
+M=4 t=25 s=15 shell p=2147483647: |A|=1452 reg=26 ratio=1.0400 phi=35 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.35
+M=4 t=25 s=17 shell p=2147483647: |A|=1420 reg=26 ratio=1.0400 phi=33 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.32
+M=4 t=25 s=19 shell p=2147483647: |A|=1384 reg=26 ratio=1.0400 phi=31 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.26
+M=4 t=25 s=21 shell p=2147483647: |A|=1344 reg=26 ratio=1.0400 phi=29 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.34
+M=4 t=25 s=23 shell p=2147483647: |A|=1300 reg=27 ratio=1.0800 phi=27 argmax=[[1, 1, 1, 1]] time=0.32
+M=4 t=25 s=25 shell p=2147483647: |A|=3276 reg=25 ratio=1.0000 phi=25 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=1.47
+M=4 t=26 s=0 shell p=2147483647: |A|=1692 reg=29 ratio=1.1154 phi=39 argmax=[[1, 1, 1, 1]] time=0.23
+M=4 t=26 s=2 shell p=2147483647: |A|=1690 reg=27 ratio=1.0385 phi=39 argmax=[[2, 1, 1]] time=0.44
+M=4 t=26 s=4 shell p=2147483647: |A|=1684 reg=28 ratio=1.0769 phi=39 argmax=[[1, 1, 1, 1]] time=0.18
+M=4 t=26 s=6 shell p=2147483647: |A|=1674 reg=27 ratio=1.0385 phi=39 argmax=[[2, 1, 1]] time=0.16
+M=4 t=26 s=8 shell p=2147483647: |A|=1660 reg=28 ratio=1.0769 phi=39 argmax=[[1, 1, 1, 1]] time=0.46
+M=4 t=26 s=10 shell p=2147483647: |A|=1642 reg=27 ratio=1.0385 phi=39 argmax=[[2, 1, 1]] time=0.42
+M=4 t=26 s=12 shell p=2147483647: |A|=1620 reg=28 ratio=1.0769 phi=39 argmax=[[1, 1, 1, 1]] time=0.47
+M=4 t=26 s=14 shell p=2147483647: |A|=1594 reg=27 ratio=1.0385 phi=38 argmax=[[2, 1, 1]] time=0.47
+M=4 t=26 s=16 shell p=2147483647: |A|=1564 reg=28 ratio=1.0769 phi=36 argmax=[[1, 1, 1, 1]] time=0.4
+M=4 t=26 s=18 shell p=2147483647: |A|=1530 reg=27 ratio=1.0385 phi=34 argmax=[[2, 1, 1]] time=0.41
+M=4 t=26 s=20 shell p=2147483647: |A|=1492 reg=28 ratio=1.0769 phi=32 argmax=[[1, 1, 1, 1]] time=0.38
+M=4 t=26 s=22 shell p=2147483647: |A|=1450 reg=27 ratio=1.0385 phi=30 argmax=[[2, 1, 1], [1, 1, 1, 1]] time=0.4
+M=4 t=26 s=24 shell p=2147483647: |A|=1404 reg=28 ratio=1.0769 phi=28 argmax=[[1, 1, 1, 1]] time=0.38
+M=4 t=26 s=26 shell p=2147483647: |A|=3654 reg=26 ratio=1.0000 phi=26 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=1.1
+M=5 t=1 s=1 shell p=2147483647: |A|=5 reg=1 ratio=1.0000 phi=1 argmax=[[4, 1]] time=0.0
+M=5 t=2 s=0 shell p=2147483647: |A|=20 reg=3 ratio=1.5000 phi=3 argmax=[[3, 1, 1]] time=0.0
+M=5 t=2 s=2 shell p=2147483647: |A|=15 reg=2 ratio=1.0000 phi=2 argmax=[[5], [4, 1], [3, 2]] time=0.0
+M=5 t=3 s=1 shell p=2147483647: |A|=50 reg=4 ratio=1.3333 phi=4 argmax=[[3, 2], [3, 1, 1], [2, 2, 1]] time=0.01
+M=5 t=3 s=3 shell p=2147483647: |A|=35 reg=3 ratio=1.0000 phi=3 argmax=[[5], [4, 1], [3, 2], [3, 1, 1]] time=0.0
+M=5 t=4 s=0 shell p=2147483647: |A|=110 reg=6 ratio=1.5000 phi=6 argmax=[[3, 2], [2, 2, 1]] time=0.01
+M=5 t=4 s=2 shell p=2147483647: |A|=100 reg=6 ratio=1.5000 phi=6 argmax=[[2, 1, 1, 1]] time=0.01
+M=5 t=4 s=4 shell p=2147483647: |A|=70 reg=4 ratio=1.0000 phi=4 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1]] time=0.01
+M=5 t=5 s=1 shell p=2147483647: |A|=200 reg=7 ratio=1.4000 phi=8 argmax=[[3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.01
+M=5 t=5 s=3 shell p=2147483647: |A|=175 reg=7 ratio=1.4000 phi=7 argmax=[[2, 2, 1], [2, 1, 1, 1]] time=0.01
+M=5 t=5 s=5 shell p=2147483647: |A|=126 reg=5 ratio=1.0000 phi=5 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1]] time=0.01
+M=5 t=6 s=0 shell p=2147483647: |A|=340 reg=10 ratio=1.6667 phi=10 argmax=[[1, 1, 1, 1, 1]] time=0.01
+M=5 t=6 s=2 shell p=2147483647: |A|=325 reg=8 ratio=1.3333 phi=9 argmax=[[3, 2], [2, 2, 1], [2, 1, 1, 1]] time=0.02
+M=5 t=6 s=4 shell p=2147483647: |A|=280 reg=8 ratio=1.3333 phi=8 argmax=[[2, 2, 1], [2, 1, 1, 1]] time=0.01
+M=5 t=6 s=6 shell p=2147483647: |A|=210 reg=6 ratio=1.0000 phi=6 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.01
+M=5 t=7 s=1 shell p=2147483647: |A|=525 reg=10 ratio=1.4286 phi=11 argmax=[[2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.02
+M=5 t=7 s=3 shell p=2147483647: |A|=490 reg=9 ratio=1.2857 phi=10 argmax=[[3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.02
+M=5 t=7 s=5 shell p=2147483647: |A|=420 reg=10 ratio=1.4286 phi=10 argmax=[[1, 1, 1, 1, 1]] time=0.02
+M=5 t=7 s=7 shell p=2147483647: |A|=330 reg=7 ratio=1.0000 phi=7 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.01
+M=5 t=8 s=0 shell p=2147483647: |A|=780 reg=11 ratio=1.3750 phi=13 argmax=[[2, 2, 1], [2, 1, 1, 1]] time=0.03
+M=5 t=8 s=2 shell p=2147483647: |A|=760 reg=12 ratio=1.5000 phi=12 argmax=[[1, 1, 1, 1, 1]] time=0.02
+M=5 t=8 s=4 shell p=2147483647: |A|=700 reg=10 ratio=1.2500 phi=12 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.02
+M=5 t=8 s=6 shell p=2147483647: |A|=600 reg=10 ratio=1.2500 phi=11 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.02
+M=5 t=8 s=8 shell p=2147483647: |A|=495 reg=8 ratio=1.0000 phi=8 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.02
+M=5 t=9 s=1 shell p=2147483647: |A|=1095 reg=12 ratio=1.3333 phi=14 argmax=[[2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.03
+M=5 t=9 s=3 shell p=2147483647: |A|=1050 reg=14 ratio=1.5556 phi=14 argmax=[[1, 1, 1, 1, 1]] time=0.03
+M=5 t=9 s=5 shell p=2147483647: |A|=960 reg=11 ratio=1.2222 phi=13 argmax=[[3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.03
+M=5 t=9 s=7 shell p=2147483647: |A|=825 reg=12 ratio=1.3333 phi=12 argmax=[[1, 1, 1, 1, 1]] time=0.03
+M=5 t=9 s=9 shell p=2147483647: |A|=715 reg=9 ratio=1.0000 phi=9 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.03
+M=5 t=10 s=0 shell p=2147483647: |A|=1500 reg=14 ratio=1.4000 phi=16 argmax=[[2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.09
+M=5 t=10 s=2 shell p=2147483647: |A|=1475 reg=14 ratio=1.4000 phi=16 argmax=[[1, 1, 1, 1, 1]] time=0.07
+M=5 t=10 s=4 shell p=2147483647: |A|=1400 reg=14 ratio=1.4000 phi=15 argmax=[[1, 1, 1, 1, 1]] time=0.05
+M=5 t=10 s=6 shell p=2147483647: |A|=1275 reg=12 ratio=1.2000 phi=14 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.05
+M=5 t=10 s=8 shell p=2147483647: |A|=1100 reg=13 ratio=1.3000 phi=13 argmax=[[1, 1, 1, 1, 1]] time=0.04
+M=5 t=10 s=10 shell p=2147483647: |A|=1001 reg=10 ratio=1.0000 phi=10 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.04
+M=5 t=11 s=1 shell p=2147483647: |A|=1980 reg=15 ratio=1.3636 phi=18 argmax=[[1, 1, 1, 1, 1]] time=0.09
+M=5 t=11 s=3 shell p=2147483647: |A|=1925 reg=14 ratio=1.2727 phi=17 argmax=[[2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.09
+M=5 t=11 s=5 shell p=2147483647: |A|=1815 reg=15 ratio=1.3636 phi=16 argmax=[[1, 1, 1, 1, 1]] time=0.06
+M=5 t=11 s=7 shell p=2147483647: |A|=1650 reg=13 ratio=1.1818 phi=16 argmax=[[3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.05
+M=5 t=11 s=9 shell p=2147483647: |A|=1430 reg=14 ratio=1.2727 phi=14 argmax=[[1, 1, 1, 1, 1]] time=0.04
+M=5 t=11 s=11 shell p=2147483647: |A|=1365 reg=11 ratio=1.0000 phi=11 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.04
+M=5 t=12 s=0 shell p=2147483647: |A|=2570 reg=17 ratio=1.4167 phi=20 argmax=[[1, 1, 1, 1, 1]] time=0.09
+M=5 t=12 s=2 shell p=2147483647: |A|=2540 reg=16 ratio=1.3333 phi=19 argmax=[[1, 1, 1, 1, 1]] time=0.09
+M=5 t=12 s=4 shell p=2147483647: |A|=2450 reg=15 ratio=1.2500 phi=18 argmax=[[2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.11
+M=5 t=12 s=6 shell p=2147483647: |A|=2300 reg=16 ratio=1.3333 phi=18 argmax=[[1, 1, 1, 1, 1]] time=0.13
+M=5 t=12 s=8 shell p=2147483647: |A|=2090 reg=14 ratio=1.1667 phi=17 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.12
+M=5 t=12 s=10 shell p=2147483647: |A|=1820 reg=15 ratio=1.2500 phi=15 argmax=[[1, 1, 1, 1, 1]] time=0.08
+M=5 t=12 s=12 shell p=2147483647: |A|=1820 reg=12 ratio=1.0000 phi=12 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.06
+M=5 t=13 s=1 shell p=2147483647: |A|=3250 reg=17 ratio=1.3077 phi=21 argmax=[[1, 1, 1, 1, 1]] time=0.15
+M=5 t=13 s=3 shell p=2147483647: |A|=3185 reg=17 ratio=1.3077 phi=20 argmax=[[1, 1, 1, 1, 1]] time=0.23
+M=5 t=13 s=5 shell p=2147483647: |A|=3055 reg=16 ratio=1.2308 phi=20 argmax=[[2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.22
+M=5 t=13 s=7 shell p=2147483647: |A|=2860 reg=17 ratio=1.3077 phi=19 argmax=[[1, 1, 1, 1, 1]] time=0.23
+M=5 t=13 s=9 shell p=2147483647: |A|=2600 reg=15 ratio=1.1538 phi=18 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.23
+M=5 t=13 s=11 shell p=2147483647: |A|=2275 reg=16 ratio=1.2308 phi=16 argmax=[[1, 1, 1, 1, 1]] time=0.12
+M=5 t=13 s=13 shell p=2147483647: |A|=2380 reg=13 ratio=1.0000 phi=13 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.14
+M=5 t=14 s=0 shell p=2147483647: |A|=4060 reg=19 ratio=1.3571 phi=23 argmax=[[1, 1, 1, 1, 1]] time=0.37
+M=5 t=14 s=2 shell p=2147483647: |A|=4025 reg=18 ratio=1.2857 phi=22 argmax=[[1, 1, 1, 1, 1]] time=0.38
+M=5 t=14 s=4 shell p=2147483647: |A|=3920 reg=18 ratio=1.2857 phi=22 argmax=[[1, 1, 1, 1, 1]] time=0.56
+M=5 t=14 s=6 shell p=2147483647: |A|=3745 reg=17 ratio=1.2143 phi=21 argmax=[[1, 1, 1, 1, 1]] time=0.39
+M=5 t=14 s=8 shell p=2147483647: |A|=3500 reg=18 ratio=1.2857 phi=20 argmax=[[1, 1, 1, 1, 1]] time=0.26
+M=5 t=14 s=10 shell p=2147483647: |A|=3185 reg=16 ratio=1.1429 phi=20 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.21
+M=5 t=14 s=12 shell p=2147483647: |A|=2800 reg=17 ratio=1.2143 phi=17 argmax=[[1, 1, 1, 1, 1]] time=0.09
+M=5 t=14 s=14 shell p=2147483647: |A|=3060 reg=14 ratio=1.0000 phi=14 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.42
+M=5 t=15 s=1 shell p=2147483647: |A|=4975 reg=19 ratio=1.2667 phi=24 argmax=[[1, 1, 1, 1, 1]] time=1.01
+M=5 t=15 s=3 shell p=2147483647: |A|=4900 reg=19 ratio=1.2667 phi=24 argmax=[[1, 1, 1, 1, 1]] time=1.06
+M=5 t=15 s=5 shell p=2147483647: |A|=4750 reg=19 ratio=1.2667 phi=23 argmax=[[1, 1, 1, 1, 1]] time=0.9
+M=5 t=15 s=7 shell p=2147483647: |A|=4525 reg=18 ratio=1.2000 phi=22 argmax=[[1, 1, 1, 1, 1]] time=0.86
+M=5 t=15 s=9 shell p=2147483647: |A|=4225 reg=19 ratio=1.2667 phi=22 argmax=[[1, 1, 1, 1, 1]] time=0.77
+M=5 t=15 s=11 shell p=2147483647: |A|=3850 reg=17 ratio=1.1333 phi=21 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.68
+M=5 t=15 s=13 shell p=2147483647: |A|=3400 reg=18 ratio=1.2000 phi=18 argmax=[[1, 1, 1, 1, 1]] time=0.41
+M=5 t=15 s=15 shell p=2147483647: |A|=3876 reg=15 ratio=1.0000 phi=15 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.52
+M=5 t=16 s=0 shell p=2147483647: |A|=6040 reg=20 ratio=1.2500 phi=26 argmax=[[1, 1, 1, 1, 1]] time=1.52
+M=5 t=16 s=2 shell p=2147483647: |A|=6000 reg=20 ratio=1.2500 phi=26 argmax=[[1, 1, 1, 1, 1]] time=1.39
+M=5 t=16 s=4 shell p=2147483647: |A|=5880 reg=20 ratio=1.2500 phi=25 argmax=[[1, 1, 1, 1, 1]] time=1.54
+M=5 t=16 s=6 shell p=2147483647: |A|=5680 reg=20 ratio=1.2500 phi=24 argmax=[[1, 1, 1, 1, 1]] time=1.12
+M=5 t=16 s=8 shell p=2147483647: |A|=5400 reg=19 ratio=1.1875 phi=24 argmax=[[1, 1, 1, 1, 1]] time=0.79
+M=5 t=16 s=10 shell p=2147483647: |A|=5040 reg=20 ratio=1.2500 phi=23 argmax=[[1, 1, 1, 1, 1]] time=0.33
+M=5 t=16 s=12 shell p=2147483647: |A|=4600 reg=18 ratio=1.1250 phi=22 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.51
+M=5 t=16 s=14 shell p=2147483647: |A|=4080 reg=19 ratio=1.1875 phi=19 argmax=[[1, 1, 1, 1, 1]] time=0.22
+M=5 t=16 s=16 shell p=2147483647: |A|=4845 reg=16 ratio=1.0000 phi=16 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.51
+M=5 t=17 s=1 shell p=2147483647: |A|=7225 reg=21 ratio=1.2353 phi=28 argmax=[[1, 1, 1, 1, 1]] time=1.3
+M=5 t=17 s=3 shell p=2147483647: |A|=7140 reg=21 ratio=1.2353 phi=27 argmax=[[1, 1, 1, 1, 1]] time=0.54
+M=5 t=17 s=5 shell p=2147483647: |A|=6970 reg=21 ratio=1.2353 phi=26 argmax=[[1, 1, 1, 1, 1]] time=0.73
+M=5 t=17 s=7 shell p=2147483647: |A|=6715 reg=21 ratio=1.2353 phi=26 argmax=[[1, 1, 1, 1, 1]] time=0.8
+M=5 t=17 s=9 shell p=2147483647: |A|=6375 reg=20 ratio=1.1765 phi=25 argmax=[[1, 1, 1, 1, 1]] time=0.79
+M=5 t=17 s=11 shell p=2147483647: |A|=5950 reg=21 ratio=1.2353 phi=24 argmax=[[1, 1, 1, 1, 1]] time=0.97
+M=5 t=17 s=13 shell p=2147483647: |A|=5440 reg=19 ratio=1.1176 phi=23 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.52
+M=5 t=17 s=15 shell p=2147483647: |A|=4845 reg=20 ratio=1.1765 phi=20 argmax=[[1, 1, 1, 1, 1]] time=0.45
+M=5 t=17 s=17 shell p=2147483647: |A|=5985 reg=17 ratio=1.0000 phi=17 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.78
+M=5 t=18 s=0 shell p=2147483647: |A|=8580 reg=23 ratio=1.2778 phi=30 argmax=[[1, 1, 1, 1, 1]] time=2.14
+M=5 t=18 s=2 shell p=2147483647: |A|=8535 reg=22 ratio=1.2222 phi=29 argmax=[[1, 1, 1, 1, 1]] time=1.57
+M=5 t=18 s=4 shell p=2147483647: |A|=8400 reg=22 ratio=1.2222 phi=28 argmax=[[1, 1, 1, 1, 1]] time=1.68
+M=5 t=18 s=6 shell p=2147483647: |A|=8175 reg=22 ratio=1.2222 phi=28 argmax=[[1, 1, 1, 1, 1]] time=2.2
+M=5 t=18 s=8 shell p=2147483647: |A|=7860 reg=22 ratio=1.2222 phi=27 argmax=[[1, 1, 1, 1, 1]] time=2.48
+M=5 t=18 s=10 shell p=2147483647: |A|=7455 reg=21 ratio=1.1667 phi=26 argmax=[[1, 1, 1, 1, 1]] time=1.84
+M=5 t=18 s=12 shell p=2147483647: |A|=6960 reg=22 ratio=1.2222 phi=26 argmax=[[1, 1, 1, 1, 1]] time=0.84
+M=5 t=18 s=14 shell p=2147483647: |A|=6375 reg=20 ratio=1.1111 phi=24 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=1.02
+M=5 t=18 s=16 shell p=2147483647: |A|=5700 reg=21 ratio=1.1667 phi=21 argmax=[[1, 1, 1, 1, 1]] time=0.57
+M=5 t=18 s=18 shell p=2147483647: |A|=7315 reg=18 ratio=1.0000 phi=18 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.85
+M=5 t=19 s=1 shell p=2147483647: |A|=10070 reg=23 ratio=1.2105 phi=31 argmax=[[1, 1, 1, 1, 1]] time=1.82
+M=5 t=19 s=3 shell p=2147483647: |A|=9975 reg=23 ratio=1.2105 phi=30 argmax=[[1, 1, 1, 1, 1]] time=2.03
+M=5 t=19 s=5 shell p=2147483647: |A|=9785 reg=23 ratio=1.2105 phi=30 argmax=[[1, 1, 1, 1, 1]] time=1.84
+M=5 t=19 s=7 shell p=2147483647: |A|=9500 reg=23 ratio=1.2105 phi=29 argmax=[[1, 1, 1, 1, 1]] time=1.92
+M=5 t=19 s=9 shell p=2147483647: |A|=9120 reg=23 ratio=1.2105 phi=28 argmax=[[1, 1, 1, 1, 1]] time=1.77
+M=5 t=19 s=11 shell p=2147483647: |A|=8645 reg=22 ratio=1.1579 phi=28 argmax=[[1, 1, 1, 1, 1]] time=1.32
+M=5 t=19 s=13 shell p=2147483647: |A|=8075 reg=23 ratio=1.2105 phi=27 argmax=[[1, 1, 1, 1, 1]] time=1.15
+M=5 t=19 s=15 shell p=2147483647: |A|=7410 reg=21 ratio=1.1053 phi=25 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=2.07
+M=5 t=19 s=17 shell p=2147483647: |A|=6650 reg=22 ratio=1.1579 phi=22 argmax=[[1, 1, 1, 1, 1]] time=1.25
+M=5 t=19 s=19 shell p=2147483647: |A|=8855 reg=19 ratio=1.0000 phi=19 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=1.78
+M=5 t=20 s=0 shell p=2147483647: |A|=11750 reg=24 ratio=1.2000 phi=33 argmax=[[1, 1, 1, 1, 1]] time=2.37
+M=5 t=20 s=2 shell p=2147483647: |A|=11700 reg=24 ratio=1.2000 phi=32 argmax=[[1, 1, 1, 1, 1]] time=2.14
+M=5 t=20 s=4 shell p=2147483647: |A|=11550 reg=23 ratio=1.1500 phi=32 argmax=[[1, 1, 1, 1, 1]] time=3.61
+M=5 t=20 s=6 shell p=2147483647: |A|=11300 reg=24 ratio=1.2000 phi=31 argmax=[[1, 1, 1, 1, 1]] time=2.99
+M=5 t=20 s=8 shell p=2147483647: |A|=10950 reg=23 ratio=1.1500 phi=30 argmax=[[1, 1, 1, 1, 1]] time=2.22
+M=5 t=20 s=10 shell p=2147483647: |A|=10500 reg=24 ratio=1.2000 phi=30 argmax=[[1, 1, 1, 1, 1]] time=3.2
+M=5 t=20 s=12 shell p=2147483647: |A|=9950 reg=23 ratio=1.1500 phi=29 argmax=[[1, 1, 1, 1, 1]] time=3.69
+M=5 t=20 s=14 shell p=2147483647: |A|=9300 reg=24 ratio=1.2000 phi=28 argmax=[[1, 1, 1, 1, 1]] time=3.17
+M=5 t=20 s=16 shell p=2147483647: |A|=8550 reg=22 ratio=1.1000 phi=26 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=1.27
+M=5 t=20 s=18 shell p=2147483647: |A|=7700 reg=23 ratio=1.1500 phi=23 argmax=[[1, 1, 1, 1, 1]] time=0.83
+M=5 t=20 s=20 shell p=2147483647: |A|=10626 reg=20 ratio=1.0000 phi=20 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=2.01
+M=5 t=21 s=1 shell p=2147483647: |A|=13580 reg=25 ratio=1.1905 phi=34 argmax=[[1, 1, 1, 1, 1]] time=5.12
+M=5 t=21 s=3 shell p=2147483647: |A|=13475 reg=25 ratio=1.1905 phi=34 argmax=[[1, 1, 1, 1, 1]] time=4.7
+M=5 t=21 s=5 shell p=2147483647: |A|=13265 reg=25 ratio=1.1905 phi=33 argmax=[[1, 1, 1, 1, 1]] time=3.34
+M=5 t=21 s=7 shell p=2147483647: |A|=12950 reg=25 ratio=1.1905 phi=32 argmax=[[1, 1, 1, 1, 1]] time=5.03
+M=5 t=21 s=9 shell p=2147483647: |A|=12530 reg=25 ratio=1.1905 phi=32 argmax=[[1, 1, 1, 1, 1]] time=3.62
+M=5 t=21 s=11 shell p=2147483647: |A|=12005 reg=25 ratio=1.1905 phi=31 argmax=[[1, 1, 1, 1, 1]] time=4.35
+M=5 t=21 s=13 shell p=2147483647: |A|=11375 reg=24 ratio=1.1429 phi=30 argmax=[[1, 1, 1, 1, 1]] time=2.99
+M=5 t=21 s=15 shell p=2147483647: |A|=10640 reg=25 ratio=1.1905 phi=30 argmax=[[1, 1, 1, 1, 1]] time=4.02
+M=5 t=21 s=17 shell p=2147483647: |A|=9800 reg=23 ratio=1.0952 phi=27 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=3.55
+M=5 t=21 s=19 shell p=2147483647: |A|=8855 reg=24 ratio=1.1429 phi=24 argmax=[[1, 1, 1, 1, 1]] time=1.67
+M=5 t=21 s=21 shell p=2147483647: |A|=12650 reg=21 ratio=1.0000 phi=21 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=2.91
+M=5 t=22 s=0 shell p=2147483647: |A|=15620 reg=27 ratio=1.2273 phi=36 argmax=[[1, 1, 1, 1, 1]] time=5.91
+M=5 t=22 s=2 shell p=2147483647: |A|=15565 reg=26 ratio=1.1818 phi=36 argmax=[[1, 1, 1, 1, 1]] time=5.18
+M=5 t=22 s=4 shell p=2147483647: |A|=15400 reg=26 ratio=1.1818 phi=35 argmax=[[1, 1, 1, 1, 1]] time=4.24
+M=5 t=22 s=6 shell p=2147483647: |A|=15125 reg=25 ratio=1.1364 phi=34 argmax=[[1, 1, 1, 1, 1]] time=5.1
+M=5 t=22 s=8 shell p=2147483647: |A|=14740 reg=26 ratio=1.1818 phi=34 argmax=[[1, 1, 1, 1, 1]] time=3.53
+M=5 t=22 s=10 shell p=2147483647: |A|=14245 reg=25 ratio=1.1364 phi=33 argmax=[[1, 1, 1, 1, 1]] time=4.83
+M=5 t=22 s=12 shell p=2147483647: |A|=13640 reg=26 ratio=1.1818 phi=32 argmax=[[1, 1, 1, 1, 1]] time=2.89
+M=5 t=22 s=14 shell p=2147483647: |A|=12925 reg=25 ratio=1.1364 phi=32 argmax=[[1, 1, 1, 1, 1]] time=3.12
+M=5 t=22 s=16 shell p=2147483647: |A|=12100 reg=26 ratio=1.1818 phi=31 argmax=[[1, 1, 1, 1, 1]] time=2.32
+M=5 t=22 s=18 shell p=2147483647: |A|=11165 reg=24 ratio=1.0909 phi=28 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=2.4
+M=5 t=22 s=20 shell p=2147483647: |A|=10120 reg=25 ratio=1.1364 phi=25 argmax=[[1, 1, 1, 1, 1]] time=1.93
+M=5 t=22 s=22 shell p=2147483647: |A|=14950 reg=22 ratio=1.0000 phi=22 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=9.76
+M=5 t=23 s=1 shell p=2147483647: |A|=17825 reg=27 ratio=1.1739 phi=38 argmax=[[1, 1, 1, 1, 1]] time=6.21
+M=5 t=23 s=3 shell p=2147483647: |A|=17710 reg=27 ratio=1.1739 phi=37 argmax=[[1, 1, 1, 1, 1]] time=7.07
+M=5 t=23 s=5 shell p=2147483647: |A|=17480 reg=27 ratio=1.1739 phi=36 argmax=[[1, 1, 1, 1, 1]] time=10.01
+M=5 t=23 s=7 shell p=2147483647: |A|=17135 reg=27 ratio=1.1739 phi=36 argmax=[[1, 1, 1, 1, 1]] time=8.51
+M=5 t=23 s=9 shell p=2147483647: |A|=16675 reg=27 ratio=1.1739 phi=35 argmax=[[1, 1, 1, 1, 1]] time=8.44
+M=5 t=23 s=11 shell p=2147483647: |A|=16100 reg=27 ratio=1.1739 phi=34 argmax=[[1, 1, 1, 1, 1]] time=4.47
+M=5 t=23 s=13 shell p=2147483647: |A|=15410 reg=27 ratio=1.1739 phi=34 argmax=[[1, 1, 1, 1, 1]] time=4.23
+M=5 t=23 s=15 shell p=2147483647: |A|=14605 reg=26 ratio=1.1304 phi=33 argmax=[[1, 1, 1, 1, 1]] time=5.51
+M=5 t=23 s=17 shell p=2147483647: |A|=13685 reg=27 ratio=1.1739 phi=32 argmax=[[1, 1, 1, 1, 1]] time=3.82
+M=5 t=23 s=19 shell p=2147483647: |A|=12650 reg=25 ratio=1.0870 phi=29 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=2.93
+M=5 t=23 s=21 shell p=2147483647: |A|=11500 reg=26 ratio=1.1304 phi=26 argmax=[[1, 1, 1, 1, 1]] time=1.22
+M=5 t=23 s=23 shell p=2147483647: |A|=17550 reg=23 ratio=1.0000 phi=23 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=2.58
+M=5 t=24 s=0 shell p=2147483647: |A|=20260 reg=28 ratio=1.1667 phi=40 argmax=[[1, 1, 1, 1, 1]] time=4.22
+M=5 t=24 s=2 shell p=2147483647: |A|=20200 reg=28 ratio=1.1667 phi=39 argmax=[[1, 1, 1, 1, 1]] time=3.89
+M=5 t=24 s=4 shell p=2147483647: |A|=20020 reg=27 ratio=1.1250 phi=38 argmax=[[1, 1, 1, 1, 1]] time=4.99
+M=5 t=24 s=6 shell p=2147483647: |A|=19720 reg=28 ratio=1.1667 phi=38 argmax=[[1, 1, 1, 1, 1]] time=4.12
+M=5 t=24 s=8 shell p=2147483647: |A|=19300 reg=27 ratio=1.1250 phi=37 argmax=[[1, 1, 1, 1, 1]] time=4.01
+M=5 t=24 s=10 shell p=2147483647: |A|=18760 reg=28 ratio=1.1667 phi=36 argmax=[[1, 1, 1, 1, 1]] time=4.35
+M=5 t=24 s=12 shell p=2147483647: |A|=18100 reg=27 ratio=1.1250 phi=36 argmax=[[1, 1, 1, 1, 1]] time=5.3
+M=5 t=24 s=14 shell p=2147483647: |A|=17320 reg=28 ratio=1.1667 phi=35 argmax=[[1, 1, 1, 1, 1]] time=6.82
+M=5 t=24 s=16 shell p=2147483647: |A|=16420 reg=27 ratio=1.1250 phi=34 argmax=[[1, 1, 1, 1, 1]] time=5.7
+M=5 t=24 s=18 shell p=2147483647: |A|=15400 reg=28 ratio=1.1667 phi=33 argmax=[[1, 1, 1, 1, 1]] time=4.21
+M=5 t=24 s=20 shell p=2147483647: |A|=14260 reg=26 ratio=1.0833 phi=30 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=4.81
+M=5 t=24 s=22 shell p=2147483647: |A|=13000 reg=27 ratio=1.1250 phi=27 argmax=[[1, 1, 1, 1, 1]] time=4.87
+M=5 t=24 s=24 shell p=2147483647: |A|=20475 reg=24 ratio=1.0000 phi=24 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=3.71
+M=6 t=1 s=1 shell p=2147483647: |A|=6 reg=1 ratio=1.0000 phi=1 argmax=[[5, 1]] time=0.01
+M=6 t=2 s=0 shell p=2147483647: |A|=30 reg=3 ratio=1.5000 phi=3 argmax=[[4, 1, 1]] time=0.01
+M=6 t=2 s=2 shell p=2147483647: |A|=21 reg=2 ratio=1.0000 phi=2 argmax=[[6], [5, 1], [4, 2]] time=0.01
+M=6 t=3 s=1 shell p=2147483647: |A|=90 reg=4 ratio=1.3333 phi=5 argmax=[[4, 2], [4, 1, 1], [3, 2, 1]] time=0.02
+M=6 t=3 s=3 shell p=2147483647: |A|=56 reg=3 ratio=1.0000 phi=3 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3]] time=0.01
+M=6 t=4 s=0 shell p=2147483647: |A|=240 reg=6 ratio=1.5000 phi=6 argmax=[[4, 2], [3, 3], [3, 2, 1], [2, 2, 2]] time=0.03
+M=6 t=4 s=2 shell p=2147483647: |A|=210 reg=6 ratio=1.5000 phi=6 argmax=[[3, 1, 1, 1]] time=0.03
+M=6 t=4 s=4 shell p=2147483647: |A|=126 reg=4 ratio=1.0000 phi=4 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 2, 1]] time=0.02
+M=6 t=5 s=1 shell p=2147483647: |A|=510 reg=7 ratio=1.4000 phi=8 argmax=[[4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 1, 1]] time=0.04
+M=6 t=5 s=3 shell p=2147483647: |A|=420 reg=7 ratio=1.4000 phi=7 argmax=[[3, 2, 1], [3, 1, 1, 1], [2, 2, 1, 1]] time=0.03
+M=6 t=5 s=5 shell p=2147483647: |A|=252 reg=5 ratio=1.0000 phi=5 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1]] time=0.02
+M=6 t=6 s=0 shell p=2147483647: |A|=1010 reg=10 ratio=1.6667 phi=10 argmax=[[2, 1, 1, 1, 1]] time=0.04
+M=6 t=6 s=2 shell p=2147483647: |A|=945 reg=9 ratio=1.5000 phi=10 argmax=[[2, 2, 2], [2, 2, 1, 1]] time=0.03
+M=6 t=6 s=4 shell p=2147483647: |A|=756 reg=8 ratio=1.3333 phi=8 argmax=[[3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1]] time=0.03
+M=6 t=6 s=6 shell p=2147483647: |A|=462 reg=6 ratio=1.0000 phi=6 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2]] time=0.02
+M=6 t=7 s=1 shell p=2147483647: |A|=1770 reg=11 ratio=1.5714 phi=11 argmax=[[2, 1, 1, 1, 1]] time=0.05
+M=6 t=7 s=3 shell p=2147483647: |A|=1596 reg=10 ratio=1.4286 phi=11 argmax=[[2, 2, 2], [2, 2, 1, 1]] time=0.04
+M=6 t=7 s=5 shell p=2147483647: |A|=1260 reg=10 ratio=1.4286 phi=10 argmax=[[2, 1, 1, 1, 1]] time=0.04
+M=6 t=7 s=7 shell p=2147483647: |A|=792 reg=7 ratio=1.0000 phi=7 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 1, 1]] time=0.03
+M=6 t=8 s=0 shell p=2147483647: |A|=2970 reg=12 ratio=1.5000 phi=13 argmax=[[2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.07
+M=6 t=8 s=2 shell p=2147483647: |A|=2856 reg=12 ratio=1.5000 phi=13 argmax=[[3, 1, 1, 1], [2, 1, 1, 1, 1]] time=0.06
+M=6 t=8 s=4 shell p=2147483647: |A|=2520 reg=11 ratio=1.3750 phi=12 argmax=[[2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.06
+M=6 t=8 s=6 shell p=2147483647: |A|=1980 reg=11 ratio=1.3750 phi=11 argmax=[[2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.05
+M=6 t=8 s=8 shell p=2147483647: |A|=1287 reg=8 ratio=1.0000 phi=8 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1]] time=0.04
+M=6 t=9 s=1 shell p=2147483647: |A|=4626 reg=13 ratio=1.4444 phi=15 argmax=[[2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.09
+M=6 t=9 s=3 shell p=2147483647: |A|=4340 reg=15 ratio=1.6667 phi=15 argmax=[[1, 1, 1, 1, 1, 1]] time=0.09
+M=6 t=9 s=5 shell p=2147483647: |A|=3780 reg=12 ratio=1.3333 phi=13 argmax=[[3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.13
+M=6 t=9 s=7 shell p=2147483647: |A|=2970 reg=12 ratio=1.3333 phi=12 argmax=[[2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.06
+M=6 t=9 s=9 shell p=2147483647: |A|=2002 reg=9 ratio=1.0000 phi=9 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1]] time=0.05
+M=6 t=10 s=0 shell p=2147483647: |A|=7002 reg=15 ratio=1.5000 phi=16 argmax=[[3, 1, 1, 1], [2, 1, 1, 1, 1]] time=0.15
+M=6 t=10 s=2 shell p=2147483647: |A|=6825 reg=15 ratio=1.5000 phi=16 argmax=[[2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=0.14
+M=6 t=10 s=4 shell p=2147483647: |A|=6300 reg=15 ratio=1.5000 phi=16 argmax=[[2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=0.13
+M=6 t=10 s=6 shell p=2147483647: |A|=5445 reg=13 ratio=1.3000 phi=15 argmax=[[3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.11
+M=6 t=10 s=8 shell p=2147483647: |A|=4290 reg=13 ratio=1.3000 phi=13 argmax=[[2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.08
+M=6 t=10 s=10 shell p=2147483647: |A|=3003 reg=10 ratio=1.0000 phi=10 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.1
+M=6 t=11 s=1 shell p=2147483647: |A|=10086 reg=17 ratio=1.5455 phi=18 argmax=[[1, 1, 1, 1, 1, 1]] time=0.23
+M=6 t=11 s=3 shell p=2147483647: |A|=9660 reg=16 ratio=1.4545 phi=18 argmax=[[2, 1, 1, 1, 1]] time=0.26
+M=6 t=11 s=5 shell p=2147483647: |A|=8820 reg=17 ratio=1.5455 phi=17 argmax=[[1, 1, 1, 1, 1, 1]] time=0.36
+M=6 t=11 s=7 shell p=2147483647: |A|=7590 reg=14 ratio=1.2727 phi=16 argmax=[[3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.15
+M=6 t=11 s=9 shell p=2147483647: |A|=6006 reg=15 ratio=1.3636 phi=15 argmax=[[1, 1, 1, 1, 1, 1]] time=0.11
+M=6 t=11 s=11 shell p=2147483647: |A|=4368 reg=11 ratio=1.0000 phi=11 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.09
+M=6 t=12 s=0 shell p=2147483647: |A|=14240 reg=20 ratio=1.6667 phi=20 argmax=[[1, 1, 1, 1, 1, 1]] time=0.48
+M=6 t=12 s=2 shell p=2147483647: |A|=13986 reg=17 ratio=1.4167 phi=20 argmax=[[2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=0.34
+M=6 t=12 s=4 shell p=2147483647: |A|=13230 reg=17 ratio=1.4167 phi=20 argmax=[[2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=0.35
+M=6 t=12 s=6 shell p=2147483647: |A|=11990 reg=18 ratio=1.5000 phi=18 argmax=[[1, 1, 1, 1, 1, 1]] time=0.33
+M=6 t=12 s=8 shell p=2147483647: |A|=10296 reg=15 ratio=1.2500 phi=17 argmax=[[3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=0.35
+M=6 t=12 s=10 shell p=2147483647: |A|=8190 reg=15 ratio=1.2500 phi=16 argmax=[[2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=0.17
+M=6 t=12 s=12 shell p=2147483647: |A|=6188 reg=12 ratio=1.0000 phi=12 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.13
+M=6 t=13 s=1 shell p=2147483647: |A|=19410 reg=20 ratio=1.5385 phi=21 argmax=[[1, 1, 1, 1, 1, 1]] time=0.93
+M=6 t=13 s=3 shell p=2147483647: |A|=18816 reg=19 ratio=1.4615 phi=21 argmax=[[1, 1, 1, 1, 1, 1]] time=0.7
+M=6 t=13 s=5 shell p=2147483647: |A|=17640 reg=18 ratio=1.3846 phi=21 argmax=[[2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=0.52
+M=6 t=13 s=7 shell p=2147483647: |A|=15906 reg=20 ratio=1.5385 phi=20 argmax=[[1, 1, 1, 1, 1, 1]] time=0.52
+M=6 t=13 s=9 shell p=2147483647: |A|=13650 reg=16 ratio=1.2308 phi=18 argmax=[[3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.49
+M=6 t=13 s=11 shell p=2147483647: |A|=10920 reg=17 ratio=1.3077 phi=17 argmax=[[1, 1, 1, 1, 1, 1]] time=0.34
+M=6 t=13 s=13 shell p=2147483647: |A|=8568 reg=13 ratio=1.0000 phi=13 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.17
+M=6 t=14 s=0 shell p=2147483647: |A|=26070 reg=20 ratio=1.4286 phi=23 argmax=[[2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=1.35
+M=6 t=14 s=2 shell p=2147483647: |A|=25725 reg=21 ratio=1.5000 phi=23 argmax=[[1, 1, 1, 1, 1, 1]] time=1.54
+M=6 t=14 s=4 shell p=2147483647: |A|=24696 reg=20 ratio=1.4286 phi=23 argmax=[[1, 1, 1, 1, 1, 1]] time=1.25
+M=6 t=14 s=6 shell p=2147483647: |A|=23001 reg=20 ratio=1.4286 phi=22 argmax=[[1, 1, 1, 1, 1, 1]] time=0.92
+M=6 t=14 s=8 shell p=2147483647: |A|=20670 reg=20 ratio=1.4286 phi=21 argmax=[[1, 1, 1, 1, 1, 1]] time=1.16
+M=6 t=14 s=10 shell p=2147483647: |A|=17745 reg=17 ratio=1.2143 phi=20 argmax=[[3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=0.64
+M=6 t=14 s=12 shell p=2147483647: |A|=14280 reg=18 ratio=1.2857 phi=18 argmax=[[1, 1, 1, 1, 1, 1]] time=0.32
+M=6 t=14 s=14 shell p=2147483647: |A|=11628 reg=14 ratio=1.0000 phi=14 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.49
+M=6 t=15 s=1 shell p=2147483647: |A|=34110 reg=21 ratio=1.4000 phi=25 argmax=[[2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=2.13
+M=6 t=15 s=3 shell p=2147483647: |A|=33320 reg=22 ratio=1.4667 phi=25 argmax=[[1, 1, 1, 1, 1, 1]] time=2.13
+M=6 t=15 s=5 shell p=2147483647: |A|=31752 reg=21 ratio=1.4000 phi=25 argmax=[[1, 1, 1, 1, 1, 1]] time=2.03
+M=6 t=15 s=7 shell p=2147483647: |A|=29430 reg=20 ratio=1.3333 phi=23 argmax=[[2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=1.29
+M=6 t=15 s=9 shell p=2147483647: |A|=26390 reg=21 ratio=1.4000 phi=22 argmax=[[1, 1, 1, 1, 1, 1]] time=1.23
+M=6 t=15 s=11 shell p=2147483647: |A|=22680 reg=18 ratio=1.2000 phi=21 argmax=[[3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=1.18
+M=6 t=15 s=13 shell p=2147483647: |A|=18360 reg=19 ratio=1.2667 phi=19 argmax=[[1, 1, 1, 1, 1, 1]] time=0.94
+M=6 t=15 s=15 shell p=2147483647: |A|=15504 reg=15 ratio=1.0000 phi=15 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=0.51
+M=6 t=16 s=0 shell p=2147483647: |A|=44130 reg=24 ratio=1.5000 phi=26 argmax=[[1, 1, 1, 1, 1, 1]] time=5.08
+M=6 t=16 s=2 shell p=2147483647: |A|=43680 reg=23 ratio=1.4375 phi=26 argmax=[[1, 1, 1, 1, 1, 1]] time=3.37
+M=6 t=16 s=4 shell p=2147483647: |A|=42336 reg=23 ratio=1.4375 phi=26 argmax=[[1, 1, 1, 1, 1, 1]] time=4.43
+M=6 t=16 s=6 shell p=2147483647: |A|=40116 reg=22 ratio=1.3750 phi=26 argmax=[[1, 1, 1, 1, 1, 1]] time=3.18
+M=6 t=16 s=8 shell p=2147483647: |A|=37050 reg=21 ratio=1.3125 phi=25 argmax=[[2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=2.98
+M=6 t=16 s=10 shell p=2147483647: |A|=33180 reg=22 ratio=1.3750 phi=23 argmax=[[1, 1, 1, 1, 1, 1]] time=2.13
+M=6 t=16 s=12 shell p=2147483647: |A|=28560 reg=19 ratio=1.1875 phi=22 argmax=[[3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=1.68
+M=6 t=16 s=14 shell p=2147483647: |A|=23256 reg=20 ratio=1.2500 phi=20 argmax=[[1, 1, 1, 1, 1, 1]] time=0.72
+M=6 t=16 s=16 shell p=2147483647: |A|=20349 reg=16 ratio=1.0000 phi=16 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.76
+M=6 t=17 s=1 shell p=2147483647: |A|=55950 reg=24 ratio=1.4118 phi=28 argmax=[[1, 1, 1, 1, 1, 1]] time=5.95
+M=6 t=17 s=3 shell p=2147483647: |A|=54936 reg=24 ratio=1.4118 phi=28 argmax=[[1, 1, 1, 1, 1, 1]] time=5.7
+M=6 t=17 s=5 shell p=2147483647: |A|=52920 reg=24 ratio=1.4118 phi=28 argmax=[[1, 1, 1, 1, 1, 1]] time=4.37
+M=6 t=17 s=7 shell p=2147483647: |A|=49926 reg=23 ratio=1.3529 phi=27 argmax=[[1, 1, 1, 1, 1, 1]] time=3.28
+M=6 t=17 s=9 shell p=2147483647: |A|=45990 reg=22 ratio=1.2941 phi=26 argmax=[[2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=3.01
+M=6 t=17 s=11 shell p=2147483647: |A|=41160 reg=23 ratio=1.3529 phi=25 argmax=[[1, 1, 1, 1, 1, 1]] time=2.13
+M=6 t=17 s=13 shell p=2147483647: |A|=35496 reg=20 ratio=1.1765 phi=23 argmax=[[3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=1.57
+M=6 t=17 s=15 shell p=2147483647: |A|=29070 reg=21 ratio=1.2353 phi=21 argmax=[[1, 1, 1, 1, 1, 1]] time=0.95
+M=6 t=17 s=17 shell p=2147483647: |A|=26334 reg=17 ratio=1.0000 phi=17 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=0.88
+M=6 t=18 s=0 shell p=2147483647: |A|=70310 reg=26 ratio=1.4444 phi=30 argmax=[[1, 1, 1, 1, 1, 1]] time=7.56
+M=6 t=18 s=2 shell p=2147483647: |A|=69741 reg=25 ratio=1.3889 phi=30 argmax=[[1, 1, 1, 1, 1, 1]] time=5.93
+M=6 t=18 s=4 shell p=2147483647: |A|=68040 reg=25 ratio=1.3889 phi=30 argmax=[[1, 1, 1, 1, 1, 1]] time=5.29
+M=6 t=18 s=6 shell p=2147483647: |A|=65225 reg=25 ratio=1.3889 phi=30 argmax=[[1, 1, 1, 1, 1, 1]] time=5.39
+M=6 t=18 s=8 shell p=2147483647: |A|=61326 reg=24 ratio=1.3333 phi=28 argmax=[[1, 1, 1, 1, 1, 1]] time=4.39
+M=6 t=18 s=10 shell p=2147483647: |A|=56385 reg=23 ratio=1.2778 phi=27 argmax=[[1, 1, 1, 1, 1, 1]] time=3.75
+M=6 t=18 s=12 shell p=2147483647: |A|=50456 reg=24 ratio=1.3333 phi=26 argmax=[[1, 1, 1, 1, 1, 1]] time=3.03
+M=6 t=18 s=14 shell p=2147483647: |A|=43605 reg=21 ratio=1.1667 phi=25 argmax=[[3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=2.2
+M=6 t=18 s=16 shell p=2147483647: |A|=35910 reg=22 ratio=1.2222 phi=22 argmax=[[1, 1, 1, 1, 1, 1]] time=1.39
+M=6 t=18 s=18 shell p=2147483647: |A|=33649 reg=18 ratio=1.0000 phi=18 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=1.38
+M=6 t=19 s=1 shell p=2147483647: |A|=86946 reg=27 ratio=1.4211 phi=31 argmax=[[1, 1, 1, 1, 1, 1]] time=11.55
+M=6 t=19 s=3 shell p=2147483647: |A|=85680 reg=26 ratio=1.3684 phi=31 argmax=[[1, 1, 1, 1, 1, 1]] time=10.21
+M=6 t=19 s=5 shell p=2147483647: |A|=83160 reg=26 ratio=1.3684 phi=31 argmax=[[1, 1, 1, 1, 1, 1]] time=12.83
+M=6 t=19 s=7 shell p=2147483647: |A|=79410 reg=26 ratio=1.3684 phi=31 argmax=[[1, 1, 1, 1, 1, 1]] time=8.13
+M=6 t=19 s=9 shell p=2147483647: |A|=74466 reg=25 ratio=1.3158 phi=30 argmax=[[1, 1, 1, 1, 1, 1]] time=7.29
+M=6 t=19 s=11 shell p=2147483647: |A|=68376 reg=24 ratio=1.2632 phi=28 argmax=[[1, 1, 1, 1, 1, 1]] time=5.8
+M=6 t=19 s=13 shell p=2147483647: |A|=61200 reg=25 ratio=1.3158 phi=27 argmax=[[1, 1, 1, 1, 1, 1]] time=6.8
+M=6 t=19 s=15 shell p=2147483647: |A|=53010 reg=22 ratio=1.1579 phi=26 argmax=[[3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=5.13
+M=6 t=19 s=17 shell p=2147483647: |A|=43890 reg=23 ratio=1.2105 phi=23 argmax=[[1, 1, 1, 1, 1, 1]] time=3.41
+M=6 t=19 s=19 shell p=2147483647: |A|=42504 reg=19 ratio=1.0000 phi=19 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=3.11
+M=6 t=20 s=0 shell p=2147483647: |A|=106752 reg=28 ratio=1.4000 phi=33 argmax=[[1, 1, 1, 1, 1, 1]] time=37.6
+M=6 t=20 s=2 shell p=2147483647: |A|=106050 reg=27 ratio=1.3500 phi=33 argmax=[[1, 1, 1, 1, 1, 1]] time=32.22
+M=6 t=20 s=4 shell p=2147483647: |A|=103950 reg=27 ratio=1.3500 phi=33 argmax=[[1, 1, 1, 1, 1, 1]] time=14.64
+M=6 t=20 s=6 shell p=2147483647: |A|=100470 reg=27 ratio=1.3500 phi=33 argmax=[[1, 1, 1, 1, 1, 1]] time=14.95
+M=6 t=20 s=8 shell p=2147483647: |A|=95640 reg=27 ratio=1.3500 phi=32 argmax=[[1, 1, 1, 1, 1, 1]] time=12.85
+M=6 t=20 s=10 shell p=2147483647: |A|=89502 reg=26 ratio=1.3000 phi=31 argmax=[[1, 1, 1, 1, 1, 1]] time=10.28
+M=6 t=20 s=12 shell p=2147483647: |A|=82110 reg=25 ratio=1.2500 phi=30 argmax=[[1, 1, 1, 1, 1, 1]] time=8.72
+M=6 t=20 s=14 shell p=2147483647: |A|=73530 reg=26 ratio=1.3000 phi=28 argmax=[[1, 1, 1, 1, 1, 1]] time=6.52
+M=6 t=20 s=16 shell p=2147483647: |A|=63840 reg=23 ratio=1.1500 phi=27 argmax=[[2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=4.65
+M=6 t=20 s=18 shell p=2147483647: |A|=53130 reg=24 ratio=1.2000 phi=24 argmax=[[1, 1, 1, 1, 1, 1]] time=2.83
+M=6 t=20 s=20 shell p=2147483647: |A|=53130 reg=20 ratio=1.0000 phi=20 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=3.01
+M=7 t=1 s=1 shell p=2147483647: |A|=7 reg=1 ratio=1.0000 phi=1 argmax=[[6, 1]] time=0.01
+parity variant failed, falling back: (7,) name 'pairs' is not defined
+parity variant failed, falling back: (6, 1) name 'pairs' is not defined
+parity variant failed, falling back: (5, 2) name 'pairs' is not defined
+parity variant failed, falling back: (5, 1, 1) name 'pairs' is not defined
+M=7 t=2 s=0 shell p=2147483647: |A|=42 reg=3 ratio=1.5000 phi=3 argmax=[[5, 1, 1]] time=0.04
+M=7 t=2 s=2 shell p=2147483647: |A|=28 reg=2 ratio=1.0000 phi=2 argmax=[[7], [6, 1], [5, 2]] time=0.01
+M=7 t=3 s=1 shell p=2147483647: |A|=147 reg=4 ratio=1.3333 phi=5 argmax=[[5, 2], [5, 1, 1], [4, 2, 1]] time=0.03
+M=7 t=3 s=3 shell p=2147483647: |A|=84 reg=3 ratio=1.0000 phi=3 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3]] time=0.02
+parity variant failed, falling back: (7,) name 'pairs' is not defined
+parity variant failed, falling back: (6, 1) name 'pairs' is not defined
+parity variant failed, falling back: (5, 2) name 'pairs' is not defined
+parity variant failed, falling back: (5, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (4, 3) name 'pairs' is not defined
+parity variant failed, falling back: (4, 2, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 3, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 2, 2) name 'pairs' is not defined
+M=7 t=4 s=0 shell p=2147483647: |A|=462 reg=6 ratio=1.5000 phi=7 argmax=[[5, 2], [4, 3], [4, 2, 1], [3, 2, 2]] time=0.11
+M=7 t=4 s=2 shell p=2147483647: |A|=392 reg=6 ratio=1.5000 phi=6 argmax=[[4, 1, 1, 1]] time=0.04
+M=7 t=4 s=4 shell p=2147483647: |A|=210 reg=4 ratio=1.0000 phi=4 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1]] time=0.03
+M=7 t=5 s=1 shell p=2147483647: |A|=1127 reg=7 ratio=1.4000 phi=8 argmax=[[5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1]] time=0.06
+M=7 t=5 s=3 shell p=2147483647: |A|=882 reg=7 ratio=1.4000 phi=7 argmax=[[4, 2, 1], [4, 1, 1, 1], [3, 2, 1, 1]] time=0.06
+M=7 t=5 s=5 shell p=2147483647: |A|=462 reg=5 ratio=1.0000 phi=5 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [3, 3, 1]] time=0.04
+parity variant failed, falling back: (7,) name 'pairs' is not defined
+parity variant failed, falling back: (6, 1) name 'pairs' is not defined
+parity variant failed, falling back: (5, 2) name 'pairs' is not defined
+parity variant failed, falling back: (5, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (4, 3) name 'pairs' is not defined
+parity variant failed, falling back: (4, 2, 1) name 'pairs' is not defined
+parity variant failed, falling back: (4, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 3, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 2, 2) name 'pairs' is not defined
+parity variant failed, falling back: (3, 2, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 1, 1, 1, 1) name 'pairs' is not defined
+M=7 t=6 s=0 shell p=2147483647: |A|=2562 reg=10 ratio=1.6667 phi=10 argmax=[[3, 1, 1, 1, 1]] time=0.18
+M=7 t=6 s=2 shell p=2147483647: |A|=2352 reg=9 ratio=1.5000 phi=10 argmax=[[3, 2, 2], [3, 2, 1, 1], [2, 2, 2, 1]] time=0.09
+M=7 t=6 s=4 shell p=2147483647: |A|=1764 reg=8 ratio=1.3333 phi=9 argmax=[[4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1]] time=0.08
+M=7 t=6 s=6 shell p=2147483647: |A|=924 reg=6 ratio=1.0000 phi=6 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2]] time=0.05
+M=7 t=7 s=1 shell p=2147483647: |A|=5047 reg=11 ratio=1.5714 phi=12 argmax=[[3, 1, 1, 1, 1], [2, 2, 1, 1, 1]] time=0.13
+M=7 t=7 s=3 shell p=2147483647: |A|=4410 reg=10 ratio=1.4286 phi=11 argmax=[[3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [2, 2, 2, 1]] time=0.12
+M=7 t=7 s=5 shell p=2147483647: |A|=3234 reg=10 ratio=1.4286 phi=10 argmax=[[3, 1, 1, 1, 1]] time=0.11
+M=7 t=7 s=7 shell p=2147483647: |A|=1716 reg=7 ratio=1.0000 phi=7 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1]] time=0.07
+parity variant failed, falling back: (7,) name 'pairs' is not defined
+parity variant failed, falling back: (6, 1) name 'pairs' is not defined
+parity variant failed, falling back: (5, 2) name 'pairs' is not defined
+parity variant failed, falling back: (5, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (4, 3) name 'pairs' is not defined
+parity variant failed, falling back: (4, 2, 1) name 'pairs' is not defined
+parity variant failed, falling back: (4, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 3, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 2, 2) name 'pairs' is not defined
+parity variant failed, falling back: (3, 2, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 1, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (2, 2, 2, 1) name 'pairs' is not defined
+parity variant failed, falling back: (2, 2, 1, 1, 1) name 'pairs' is not defined
+M=7 t=8 s=0 shell p=2147483647: |A|=9492 reg=13 ratio=1.6250 phi=14 argmax=[[2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.32
+M=7 t=8 s=2 shell p=2147483647: |A|=9016 reg=12 ratio=1.5000 phi=13 argmax=[[4, 1, 1, 1], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 1, 1, 1]] time=0.17
+M=7 t=8 s=4 shell p=2147483647: |A|=7644 reg=12 ratio=1.5000 phi=13 argmax=[[2, 2, 2, 1]] time=0.16
+M=7 t=8 s=6 shell p=2147483647: |A|=5544 reg=11 ratio=1.3750 phi=11 argmax=[[3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 1, 1, 1]] time=0.19
+M=7 t=8 s=8 shell p=2147483647: |A|=3003 reg=8 ratio=1.0000 phi=8 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1]] time=0.09
+M=7 t=9 s=1 shell p=2147483647: |A|=16317 reg=14 ratio=1.5556 phi=15 argmax=[[2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.24
+M=7 t=9 s=3 shell p=2147483647: |A|=14994 reg=15 ratio=1.6667 phi=15 argmax=[[2, 1, 1, 1, 1, 1]] time=0.23
+M=7 t=9 s=5 shell p=2147483647: |A|=12474 reg=13 ratio=1.4444 phi=14 argmax=[[2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.28
+M=7 t=9 s=7 shell p=2147483647: |A|=9009 reg=12 ratio=1.3333 phi=12 argmax=[[3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.16
+M=7 t=9 s=9 shell p=2147483647: |A|=5005 reg=9 ratio=1.0000 phi=9 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [2, 2, 2, 1]] time=0.11
+parity variant failed, falling back: (7,) name 'pairs' is not defined
+parity variant failed, falling back: (6, 1) name 'pairs' is not defined
+parity variant failed, falling back: (5, 2) name 'pairs' is not defined
+parity variant failed, falling back: (5, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (4, 3) name 'pairs' is not defined
+parity variant failed, falling back: (4, 2, 1) name 'pairs' is not defined
+parity variant failed, falling back: (4, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 3, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 2, 2) name 'pairs' is not defined
+parity variant failed, falling back: (3, 2, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 1, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (2, 2, 2, 1) name 'pairs' is not defined
+parity variant failed, falling back: (2, 2, 1, 1, 1) name 'pairs' is not defined
+M=7 t=10 s=0 shell p=2147483647: |A|=27174 reg=15 ratio=1.5000 phi=17 argmax=[[4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=1.07
+M=7 t=10 s=2 shell p=2147483647: |A|=26264 reg=16 ratio=1.6000 phi=17 argmax=[[2, 1, 1, 1, 1, 1]] time=0.41
+M=7 t=10 s=4 shell p=2147483647: |A|=23604 reg=16 ratio=1.6000 phi=16 argmax=[[2, 1, 1, 1, 1, 1]] time=0.91
+M=7 t=10 s=6 shell p=2147483647: |A|=19404 reg=14 ratio=1.4000 phi=15 argmax=[[2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.39
+M=7 t=10 s=8 shell p=2147483647: |A|=14014 reg=13 ratio=1.3000 phi=13 argmax=[[3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.5
+M=7 t=10 s=10 shell p=2147483647: |A|=8008 reg=10 ratio=1.0000 phi=10 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1]] time=0.16
+M=7 t=11 s=1 shell p=2147483647: |A|=42581 reg=17 ratio=1.5455 phi=19 argmax=[[2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=1.4
+M=7 t=11 s=3 shell p=2147483647: |A|=40194 reg=17 ratio=1.5455 phi=18 argmax=[[2, 1, 1, 1, 1, 1]] time=1.33
+M=7 t=11 s=5 shell p=2147483647: |A|=35574 reg=17 ratio=1.5455 phi=18 argmax=[[2, 1, 1, 1, 1, 1]] time=1.61
+M=7 t=11 s=7 shell p=2147483647: |A|=29029 reg=15 ratio=1.3636 phi=16 argmax=[[2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.73
+M=7 t=11 s=9 shell p=2147483647: |A|=21021 reg=15 ratio=1.3636 phi=15 argmax=[[2, 1, 1, 1, 1, 1]] time=0.42
+M=7 t=11 s=11 shell p=2147483647: |A|=12376 reg=11 ratio=1.0000 phi=11 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.39
+parity variant failed, falling back: (7,) name 'pairs' is not defined
+parity variant failed, falling back: (6, 1) name 'pairs' is not defined
+parity variant failed, falling back: (5, 2) name 'pairs' is not defined
+parity variant failed, falling back: (5, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (4, 3) name 'pairs' is not defined
+parity variant failed, falling back: (4, 2, 1) name 'pairs' is not defined
+parity variant failed, falling back: (4, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 3, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 2, 2) name 'pairs' is not defined
+parity variant failed, falling back: (3, 2, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 1, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (2, 2, 2, 1) name 'pairs' is not defined
+parity variant failed, falling back: (2, 2, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (2, 1, 1, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (1, 1, 1, 1, 1, 1, 1) name 'pairs' is not defined
+M=7 t=12 s=0 shell p=2147483647: |A|=65226 reg=21 ratio=1.7500 phi=21 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=3.35
+M=7 t=12 s=2 shell p=2147483647: |A|=63672 reg=18 ratio=1.5000 phi=20 argmax=[[3, 1, 1, 1, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=2.53
+M=7 t=12 s=4 shell p=2147483647: |A|=59094 reg=18 ratio=1.5000 phi=20 argmax=[[2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=2.8
+M=7 t=12 s=6 shell p=2147483647: |A|=51744 reg=18 ratio=1.5000 phi=19 argmax=[[2, 1, 1, 1, 1, 1]] time=2.18
+M=7 t=12 s=8 shell p=2147483647: |A|=42042 reg=16 ratio=1.3333 phi=18 argmax=[[3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=1.15
+M=7 t=12 s=10 shell p=2147483647: |A|=30576 reg=16 ratio=1.3333 phi=16 argmax=[[2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=0.88
+M=7 t=12 s=12 shell p=2147483647: |A|=18564 reg=12 ratio=1.0000 phi=12 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.52
+M=7 t=13 s=1 shell p=2147483647: |A|=95641 reg=21 ratio=1.6154 phi=22 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=5.11
+M=7 t=13 s=3 shell p=2147483647: |A|=91728 reg=20 ratio=1.5385 phi=22 argmax=[[2, 1, 1, 1, 1, 1]] time=7.09
+M=7 t=13 s=5 shell p=2147483647: |A|=84084 reg=19 ratio=1.4615 phi=21 argmax=[[2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=4.13
+M=7 t=13 s=7 shell p=2147483647: |A|=73073 reg=21 ratio=1.6154 phi=21 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=3.33
+M=7 t=13 s=9 shell p=2147483647: |A|=59241 reg=17 ratio=1.3077 phi=19 argmax=[[3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=1.93
+M=7 t=13 s=11 shell p=2147483647: |A|=43316 reg=17 ratio=1.3077 phi=17 argmax=[[2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=1.31
+M=7 t=13 s=13 shell p=2147483647: |A|=27132 reg=13 ratio=1.0000 phi=13 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.9
+parity variant failed, falling back: (7,) name 'pairs' is not defined
+parity variant failed, falling back: (6, 1) name 'pairs' is not defined
+parity variant failed, falling back: (5, 2) name 'pairs' is not defined
+parity variant failed, falling back: (5, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (4, 3) name 'pairs' is not defined
+parity variant failed, falling back: (4, 2, 1) name 'pairs' is not defined
+parity variant failed, falling back: (4, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 3, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 2, 2) name 'pairs' is not defined
+parity variant failed, falling back: (3, 2, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 1, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (2, 2, 2, 1) name 'pairs' is not defined
+parity variant failed, falling back: (2, 2, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (2, 1, 1, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (1, 1, 1, 1, 1, 1, 1) name 'pairs' is not defined
+M=7 t=14 s=0 shell p=2147483647: |A|=137886 reg=22 ratio=1.5714 phi=24 argmax=[[2, 1, 1, 1, 1, 1]] time=7.52
+M=7 t=14 s=2 shell p=2147483647: |A|=135436 reg=23 ratio=1.6429 phi=24 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=4.06
+M=7 t=14 s=4 shell p=2147483647: |A|=128184 reg=21 ratio=1.5000 phi=23 argmax=[[2, 1, 1, 1, 1, 1]] time=3.46
+M=7 t=14 s=6 shell p=2147483647: |A|=116424 reg=21 ratio=1.5000 phi=23 argmax=[[2, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1]] time=3.1
+M=7 t=14 s=8 shell p=2147483647: |A|=100646 reg=21 ratio=1.5000 phi=22 argmax=[[2, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1]] time=2.41
+M=7 t=14 s=10 shell p=2147483647: |A|=81536 reg=18 ratio=1.2857 phi=20 argmax=[[3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=1.58
+M=7 t=14 s=12 shell p=2147483647: |A|=59976 reg=18 ratio=1.2857 phi=18 argmax=[[2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=0.98
+M=7 t=14 s=14 shell p=2147483647: |A|=38760 reg=14 ratio=1.0000 phi=14 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.57
+M=7 t=15 s=1 shell p=2147483647: |A|=192381 reg=23 ratio=1.5333 phi=26 argmax=[[2, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1]] time=8.7
+M=7 t=15 s=3 shell p=2147483647: |A|=186396 reg=24 ratio=1.6000 phi=25 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=7.66
+M=7 t=15 s=5 shell p=2147483647: |A|=174636 reg=23 ratio=1.5333 phi=25 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=6.54
+M=7 t=15 s=7 shell p=2147483647: |A|=157521 reg=21 ratio=1.4000 phi=24 argmax=[[2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1]] time=5.56
+M=7 t=15 s=9 shell p=2147483647: |A|=135681 reg=23 ratio=1.5333 phi=23 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=4.09
+M=7 t=15 s=11 shell p=2147483647: |A|=109956 reg=19 ratio=1.2667 phi=21 argmax=[[3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=3.91
+M=7 t=15 s=13 shell p=2147483647: |A|=81396 reg=19 ratio=1.2667 phi=19 argmax=[[2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=1.94
+M=7 t=15 s=15 shell p=2147483647: |A|=54264 reg=15 ratio=1.0000 phi=15 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=0.97
+parity variant failed, falling back: (7,) name 'pairs' is not defined
+parity variant failed, falling back: (6, 1) name 'pairs' is not defined
+parity variant failed, falling back: (5, 2) name 'pairs' is not defined
+parity variant failed, falling back: (5, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (4, 3) name 'pairs' is not defined
+parity variant failed, falling back: (4, 2, 1) name 'pairs' is not defined
+parity variant failed, falling back: (4, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 3, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 2, 2) name 'pairs' is not defined
+parity variant failed, falling back: (3, 2, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (3, 1, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (2, 2, 2, 1) name 'pairs' is not defined
+parity variant failed, falling back: (2, 2, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (2, 1, 1, 1, 1, 1) name 'pairs' is not defined
+parity variant failed, falling back: (1, 1, 1, 1, 1, 1, 1) name 'pairs' is not defined
+M=7 t=16 s=0 shell p=2147483647: |A|=264936 reg=25 ratio=1.5625 phi=28 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=21.1
+M=7 t=16 s=2 shell p=2147483647: |A|=261296 reg=24 ratio=1.5000 phi=27 argmax=[[2, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1]] time=20.94
+M=7 t=16 s=4 shell p=2147483647: |A|=250488 reg=27 ratio=1.6875 phi=27 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=19.66
+M=7 t=16 s=6 shell p=2147483647: |A|=232848 reg=23 ratio=1.4375 phi=26 argmax=[[2, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1]] time=17.59
+M=7 t=16 s=8 shell p=2147483647: |A|=208936 reg=23 ratio=1.4375 phi=26 argmax=[[2, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1]] time=12.4
+M=7 t=16 s=10 shell p=2147483647: |A|=179536 reg=24 ratio=1.5000 phi=24 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=9.11
+M=7 t=16 s=12 shell p=2147483647: |A|=145656 reg=20 ratio=1.2500 phi=22 argmax=[[3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=5.55
+M=7 t=16 s=14 shell p=2147483647: |A|=108528 reg=21 ratio=1.3125 phi=21 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=3.48
+M=7 t=16 s=16 shell p=2147483647: |A|=74613 reg=16 ratio=1.0000 phi=16 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=2.47
+M=7 t=17 s=1 shell p=2147483647: |A|=355691 reg=26 ratio=1.5294 phi=29 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=71.72
+M=7 t=17 s=3 shell p=2147483647: |A|=347004 reg=27 ratio=1.5882 phi=29 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=50.12
+M=7 t=17 s=5 shell p=2147483647: |A|=329868 reg=27 ratio=1.5882 phi=28 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=62.92
+M=7 t=17 s=7 shell p=2147483647: |A|=304759 reg=25 ratio=1.4706 phi=28 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=54.97
+M=7 t=17 s=9 shell p=2147483647: |A|=272391 reg=24 ratio=1.4118 phi=27 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=40.72
+M=7 t=17 s=11 shell p=2147483647: |A|=233716 reg=25 ratio=1.4706 phi=25 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=34.43
+M=7 t=17 s=13 shell p=2147483647: |A|=189924 reg=21 ratio=1.2353 phi=24 argmax=[[3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1]] time=22.88
+M=7 t=17 s=15 shell p=2147483647: |A|=142443 reg=21 ratio=1.2353 phi=22 argmax=[[2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1]] time=10.71
+M=7 t=17 s=17 shell p=2147483647: |A|=100947 reg=17 ratio=1.0000 phi=17 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=2.4
+M=8 t=1 s=1 shell p=2147483647: |A|=8 reg=1 ratio=1.0000 phi=1 argmax=[[7, 1]] time=0.03
+M=8 t=2 s=0 shell p=2147483647: |A|=56 reg=3 ratio=1.5000 phi=3 argmax=[[6, 1, 1]] time=0.08
+M=8 t=2 s=2 shell p=2147483647: |A|=36 reg=2 ratio=1.0000 phi=2 argmax=[[8], [7, 1], [6, 2]] time=0.03
+M=8 t=3 s=1 shell p=2147483647: |A|=224 reg=4 ratio=1.3333 phi=5 argmax=[[6, 2], [6, 1, 1], [5, 2, 1]] time=0.07
+M=8 t=3 s=3 shell p=2147483647: |A|=120 reg=3 ratio=1.0000 phi=3 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3]] time=0.06
+M=8 t=4 s=0 shell p=2147483647: |A|=812 reg=6 ratio=1.5000 phi=7 argmax=[[6, 2], [5, 3], [5, 2, 1], [4, 2, 2]] time=0.1
+M=8 t=4 s=2 shell p=2147483647: |A|=672 reg=6 ratio=1.5000 phi=6 argmax=[[5, 1, 1, 1]] time=0.1
+M=8 t=4 s=4 shell p=2147483647: |A|=330 reg=4 ratio=1.0000 phi=4 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [4, 4]] time=0.08
+M=8 t=5 s=1 shell p=2147483647: |A|=2240 reg=7 ratio=1.4000 phi=8 argmax=[[6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 3, 2]] time=0.15
+M=8 t=5 s=3 shell p=2147483647: |A|=1680 reg=7 ratio=1.4000 phi=7 argmax=[[5, 2, 1], [5, 1, 1, 1], [4, 2, 1, 1]] time=0.18
+M=8 t=5 s=5 shell p=2147483647: |A|=792 reg=5 ratio=1.0000 phi=5 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [4, 3, 1]] time=0.1
+M=8 t=6 s=0 shell p=2147483647: |A|=5768 reg=10 ratio=1.6667 phi=10 argmax=[[4, 1, 1, 1, 1]] time=0.23
+M=8 t=6 s=2 shell p=2147483647: |A|=5208 reg=9 ratio=1.5000 phi=10 argmax=[[4, 2, 2], [4, 2, 1, 1], [3, 2, 2, 1]] time=0.27
+M=8 t=6 s=4 shell p=2147483647: |A|=3696 reg=8 ratio=1.3333 phi=9 argmax=[[5, 2, 1], [5, 1, 1, 1], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 3, 1, 1]] time=0.22
+M=8 t=6 s=6 shell p=2147483647: |A|=1716 reg=6 ratio=1.0000 phi=6 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2]] time=0.12
+M=8 t=7 s=1 shell p=2147483647: |A|=12656 reg=11 ratio=1.5714 phi=12 argmax=[[4, 1, 1, 1, 1], [3, 2, 1, 1, 1]] time=0.37
+M=8 t=7 s=3 shell p=2147483647: |A|=10752 reg=10 ratio=1.4286 phi=11 argmax=[[4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1]] time=0.29
+M=8 t=7 s=5 shell p=2147483647: |A|=7392 reg=10 ratio=1.4286 phi=10 argmax=[[4, 1, 1, 1, 1]] time=0.28
+M=8 t=7 s=7 shell p=2147483647: |A|=3432 reg=7 ratio=1.0000 phi=7 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 3, 2]] time=0.16
+M=8 t=8 s=0 shell p=2147483647: |A|=26474 reg=13 ratio=1.6250 phi=14 argmax=[[3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 1, 1]] time=0.6
+M=8 t=8 s=2 shell p=2147483647: |A|=24864 reg=12 ratio=1.5000 phi=14 argmax=[[5, 1, 1, 1], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1]] time=0.49
+M=8 t=8 s=4 shell p=2147483647: |A|=20328 reg=12 ratio=1.5000 phi=13 argmax=[[3, 2, 2, 1], [2, 2, 2, 2]] time=0.43
+M=8 t=8 s=6 shell p=2147483647: |A|=13728 reg=11 ratio=1.3750 phi=11 argmax=[[4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 2, 1, 1, 1]] time=0.35
+M=8 t=8 s=8 shell p=2147483647: |A|=6435 reg=8 ratio=1.0000 phi=8 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 3, 2], [3, 3, 1, 1]] time=0.22
+M=8 t=9 s=1 shell p=2147483647: |A|=49952 reg=14 ratio=1.5556 phi=15 argmax=[[3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1]] time=0.79
+M=8 t=9 s=3 shell p=2147483647: |A|=45024 reg=15 ratio=1.6667 phi=15 argmax=[[3, 1, 1, 1, 1, 1]] time=0.77
+M=8 t=9 s=5 shell p=2147483647: |A|=35904 reg=13 ratio=1.4444 phi=14 argmax=[[3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 1, 1]] time=0.61
+M=8 t=9 s=7 shell p=2147483647: |A|=24024 reg=12 ratio=1.3333 phi=12 argmax=[[4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1]] time=0.5
+M=8 t=9 s=9 shell p=2147483647: |A|=11440 reg=9 ratio=1.0000 phi=9 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1]] time=0.32
+M=8 t=10 s=0 shell p=2147483647: |A|=91112 reg=16 ratio=1.6000 phi=17 argmax=[[4, 1, 1, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1]] time=1.05
+M=8 t=10 s=2 shell p=2147483647: |A|=87360 reg=16 ratio=1.6000 phi=17 argmax=[[3, 1, 1, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=1.31
+M=8 t=10 s=4 shell p=2147483647: |A|=76560 reg=16 ratio=1.6000 phi=16 argmax=[[3, 1, 1, 1, 1, 1], [2, 2, 1, 1, 1, 1]] time=1.09
+M=8 t=10 s=6 shell p=2147483647: |A|=60060 reg=14 ratio=1.4000 phi=15 argmax=[[3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1]] time=1.03
+M=8 t=10 s=8 shell p=2147483647: |A|=40040 reg=13 ratio=1.3000 phi=14 argmax=[[4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 1, 1]] time=0.69
+M=8 t=10 s=10 shell p=2147483647: |A|=19448 reg=10 ratio=1.0000 phi=10 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1]] time=0.43
+M=8 t=11 s=1 shell p=2147483647: |A|=154784 reg=17 ratio=1.5455 phi=19 argmax=[[4, 1, 1, 1, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=2.63
+M=8 t=11 s=3 shell p=2147483647: |A|=144096 reg=18 ratio=1.6364 phi=19 argmax=[[2, 2, 1, 1, 1, 1]] time=2.25
+M=8 t=11 s=5 shell p=2147483647: |A|=123816 reg=17 ratio=1.5455 phi=18 argmax=[[3, 1, 1, 1, 1, 1], [2, 2, 1, 1, 1, 1]] time=1.78
+M=8 t=11 s=7 shell p=2147483647: |A|=96096 reg=16 ratio=1.4545 phi=17 argmax=[[2, 2, 2, 2], [2, 2, 2, 1, 1]] time=1.36
+M=8 t=11 s=9 shell p=2147483647: |A|=64064 reg=15 ratio=1.3636 phi=15 argmax=[[3, 1, 1, 1, 1, 1]] time=0.99
+M=8 t=11 s=11 shell p=2147483647: |A|=31824 reg=11 ratio=1.0000 phi=11 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1]] time=0.55
+M=8 t=12 s=0 shell p=2147483647: |A|=256508 reg=21 ratio=1.7500 phi=21 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=3.33
+M=8 t=12 s=2 shell p=2147483647: |A|=248928 reg=19 ratio=1.5833 phi=21 argmax=[[2, 2, 1, 1, 1, 1]] time=4.35
+M=8 t=12 s=4 shell p=2147483647: |A|=226842 reg=19 ratio=1.5833 phi=20 argmax=[[2, 2, 1, 1, 1, 1]] time=4.1
+M=8 t=12 s=6 shell p=2147483647: |A|=192192 reg=18 ratio=1.5000 phi=19 argmax=[[3, 1, 1, 1, 1, 1], [2, 2, 1, 1, 1, 1]] time=2.98
+M=8 t=12 s=8 shell p=2147483647: |A|=148148 reg=17 ratio=1.4167 phi=18 argmax=[[2, 2, 2, 2], [2, 2, 2, 1, 1]] time=2.22
+M=8 t=12 s=10 shell p=2147483647: |A|=99008 reg=16 ratio=1.3333 phi=16 argmax=[[3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 1, 1, 1, 1]] time=1.32
+M=8 t=12 s=12 shell p=2147483647: |A|=50388 reg=12 ratio=1.0000 phi=12 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 2]] time=0.8
+M=8 t=13 s=1 shell p=2147483647: |A|=403712 reg=22 ratio=1.6923 phi=22 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=10.17
+M=8 t=13 s=3 shell p=2147483647: |A|=383208 reg=20 ratio=1.5385 phi=22 argmax=[[3, 1, 1, 1, 1, 1], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=8.07
+M=8 t=13 s=5 shell p=2147483647: |A|=343728 reg=20 ratio=1.5385 phi=21 argmax=[[2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=7.13
+M=8 t=13 s=7 shell p=2147483647: |A|=288288 reg=21 ratio=1.6154 phi=21 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=5.1
+M=8 t=13 s=9 shell p=2147483647: |A|=221312 reg=18 ratio=1.3846 phi=19 argmax=[[2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=3.46
+M=8 t=13 s=11 shell p=2147483647: |A|=148512 reg=17 ratio=1.3077 phi=17 argmax=[[3, 2, 2, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=2.16
+M=8 t=13 s=13 shell p=2147483647: |A|=77520 reg=13 ratio=1.0000 phi=13 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 1, 1]] time=1.03
+M=8 t=14 s=0 shell p=2147483647: |A|=623576 reg=23 ratio=1.6429 phi=24 argmax=[[2, 2, 1, 1, 1, 1], [2, 1, 1, 1, 1, 1, 1]] time=13.18
+M=8 t=14 s=2 shell p=2147483647: |A|=609756 reg=23 ratio=1.6429 phi=24 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=19.9
+M=8 t=14 s=4 shell p=2147483647: |A|=569184 reg=21 ratio=1.5000 phi=24 argmax=[[3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=17.8
+M=8 t=14 s=6 shell p=2147483647: |A|=504504 reg=22 ratio=1.5714 phi=23 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=14.53
+M=8 t=14 s=8 shell p=2147483647: |A|=420056 reg=22 ratio=1.5714 phi=22 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=10.0
+M=8 t=14 s=10 shell p=2147483647: |A|=321776 reg=19 ratio=1.3571 phi=21 argmax=[[2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=6.07
+M=8 t=14 s=12 shell p=2147483647: |A|=217056 reg=18 ratio=1.2857 phi=18 argmax=[[3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=3.25
+M=8 t=14 s=14 shell p=2147483647: |A|=116280 reg=14 ratio=1.0000 phi=14 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1]] time=1.86
+M=8 t=15 s=1 shell p=2147483647: |A|=926360 reg=24 ratio=1.6000 phi=26 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=44.57
+M=8 t=15 s=3 shell p=2147483647: |A|=890400 reg=24 ratio=1.6000 phi=26 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=41.44
+M=8 t=15 s=5 shell p=2147483647: |A|=820512 reg=23 ratio=1.5333 phi=25 argmax=[[3, 1, 1, 1, 1, 1], [2, 2, 1, 1, 1, 1], [2, 1, 1, 1, 1, 1, 1]] time=34.6
+M=8 t=15 s=7 shell p=2147483647: |A|=720720 reg=23 ratio=1.5333 phi=24 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=26.92
+M=8 t=15 s=9 shell p=2147483647: |A|=596960 reg=23 ratio=1.5333 phi=23 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=19.8
+M=8 t=15 s=11 shell p=2147483647: |A|=456960 reg=20 ratio=1.3333 phi=22 argmax=[[2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=11.05
+M=8 t=15 s=13 shell p=2147483647: |A|=310080 reg=19 ratio=1.2667 phi=19 argmax=[[3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=5.19
+M=8 t=15 s=15 shell p=2147483647: |A|=170544 reg=15 ratio=1.0000 phi=15 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1]] time=2.63
+M=9 t=1 s=1 shell p=2147483647: |A|=9 reg=1 ratio=1.0000 phi=1 argmax=[[8, 1]] time=0.04
+M=9 t=2 s=0 shell p=2147483647: |A|=72 reg=3 ratio=1.5000 phi=3 argmax=[[7, 1, 1]] time=0.15
+M=9 t=2 s=2 shell p=2147483647: |A|=45 reg=2 ratio=1.0000 phi=2 argmax=[[9], [8, 1], [7, 2]] time=0.08
+M=9 t=3 s=1 shell p=2147483647: |A|=324 reg=4 ratio=1.3333 phi=5 argmax=[[7, 2], [7, 1, 1], [6, 2, 1]] time=0.24
+M=9 t=3 s=3 shell p=2147483647: |A|=165 reg=3 ratio=1.0000 phi=3 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3]] time=0.17
+M=9 t=4 s=0 shell p=2147483647: |A|=1332 reg=6 ratio=1.5000 phi=7 argmax=[[7, 2], [6, 3], [6, 2, 1], [5, 2, 2]] time=0.33
+M=9 t=4 s=2 shell p=2147483647: |A|=1080 reg=6 ratio=1.5000 phi=6 argmax=[[6, 1, 1, 1]] time=0.34
+M=9 t=4 s=4 shell p=2147483647: |A|=495 reg=4 ratio=1.0000 phi=4 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [5, 4]] time=0.25
+M=9 t=5 s=1 shell p=2147483647: |A|=4104 reg=7 ratio=1.4000 phi=8 argmax=[[7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 3, 2]] time=0.54
+M=9 t=5 s=3 shell p=2147483647: |A|=2970 reg=7 ratio=1.4000 phi=8 argmax=[[6, 2, 1], [6, 1, 1, 1], [5, 2, 1, 1]] time=0.42
+M=9 t=5 s=5 shell p=2147483647: |A|=1287 reg=5 ratio=1.0000 phi=5 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [5, 4], [5, 3, 1]] time=0.27
+M=9 t=6 s=0 shell p=2147483647: |A|=11832 reg=10 ratio=1.6667 phi=10 argmax=[[5, 1, 1, 1, 1]] time=0.68
+M=9 t=6 s=2 shell p=2147483647: |A|=10530 reg=9 ratio=1.5000 phi=10 argmax=[[5, 2, 2], [5, 2, 1, 1], [4, 2, 2, 1]] time=0.78
+M=9 t=6 s=4 shell p=2147483647: |A|=7128 reg=8 ratio=1.3333 phi=9 argmax=[[6, 2, 1], [6, 1, 1, 1], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 3, 1, 1]] time=0.56
+M=9 t=6 s=6 shell p=2147483647: |A|=3003 reg=6 ratio=1.0000 phi=6 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [4, 4, 1]] time=0.39
+M=9 t=7 s=1 shell p=2147483647: |A|=28674 reg=11 ratio=1.5714 phi=12 argmax=[[5, 1, 1, 1, 1], [4, 2, 1, 1, 1]] time=1.34
+M=9 t=7 s=3 shell p=2147483647: |A|=23760 reg=10 ratio=1.4286 phi=12 argmax=[[5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [3, 3, 2, 1]] time=1.17
+M=9 t=7 s=5 shell p=2147483647: |A|=15444 reg=10 ratio=1.4286 phi=10 argmax=[[5, 1, 1, 1, 1]] time=0.86
+M=9 t=7 s=7 shell p=2147483647: |A|=6435 reg=7 ratio=1.0000 phi=7 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 4, 1], [4, 3, 2]] time=0.55
+M=9 t=8 s=0 shell p=2147483647: |A|=66222 reg=13 ratio=1.6250 phi=14 argmax=[[4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 2, 2, 1, 1]] time=2.1
+M=9 t=8 s=2 shell p=2147483647: |A|=61560 reg=12 ratio=1.5000 phi=14 argmax=[[6, 1, 1, 1], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1], [3, 3, 1, 1, 1]] time=1.9
+M=9 t=8 s=4 shell p=2147483647: |A|=48708 reg=12 ratio=1.5000 phi=13 argmax=[[4, 2, 2, 1], [3, 2, 2, 2]] time=1.64
+M=9 t=8 s=6 shell p=2147483647: |A|=30888 reg=11 ratio=1.3750 phi=12 argmax=[[5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 2, 1, 1, 1]] time=1.5
+M=9 t=8 s=8 shell p=2147483647: |A|=12870 reg=8 ratio=1.0000 phi=8 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1]] time=0.66
+M=9 t=9 s=1 shell p=2147483647: |A|=136404 reg=14 ratio=1.5556 phi=16 argmax=[[4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1]] time=2.95
+M=9 t=9 s=3 shell p=2147483647: |A|=120780 reg=15 ratio=1.6667 phi=15 argmax=[[4, 1, 1, 1, 1, 1]] time=3.02
+M=9 t=9 s=5 shell p=2147483647: |A|=92664 reg=13 ratio=1.4444 phi=14 argmax=[[4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1]] time=2.38
+M=9 t=9 s=7 shell p=2147483647: |A|=57915 reg=12 ratio=1.3333 phi=13 argmax=[[5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 1, 1, 1]] time=1.81
+M=9 t=9 s=9 shell p=2147483647: |A|=24310 reg=9 ratio=1.0000 phi=9 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [3, 3, 3]] time=1.01
+M=9 t=10 s=0 shell p=2147483647: |A|=271224 reg=16 ratio=1.6000 phi=18 argmax=[[5, 1, 1, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1]] time=3.83
+M=9 t=10 s=2 shell p=2147483647: |A|=258120 reg=16 ratio=1.6000 phi=17 argmax=[[4, 1, 1, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1], [3, 2, 1, 1, 1, 1], [2, 2, 2, 2, 1]] time=4.63
+M=9 t=10 s=4 shell p=2147483647: |A|=220968 reg=16 ratio=1.6000 phi=17 argmax=[[4, 1, 1, 1, 1, 1], [3, 2, 1, 1, 1, 1]] time=4.52
+M=9 t=10 s=6 shell p=2147483647: |A|=166023 reg=14 ratio=1.4000 phi=16 argmax=[[4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1]] time=3.36
+M=9 t=10 s=8 shell p=2147483647: |A|=102960 reg=13 ratio=1.3000 phi=14 argmax=[[5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 1, 1]] time=2.65
+M=9 t=10 s=10 shell p=2147483647: |A|=43758 reg=10 ratio=1.0000 phi=10 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [3, 3, 2, 1]] time=1.38
+M=9 t=11 s=1 shell p=2147483647: |A|=497772 reg=17 ratio=1.5455 phi=19 argmax=[[5, 1, 1, 1, 1], [4, 2, 1, 1, 1], [4, 1, 1, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1], [3, 2, 1, 1, 1, 1], [2, 2, 2, 2, 1]] time=8.6
+M=9 t=11 s=3 shell p=2147483647: |A|=457380 reg=18 ratio=1.6364 phi=19 argmax=[[3, 2, 1, 1, 1, 1], [2, 2, 2, 1, 1, 1]] time=7.96
+M=9 t=11 s=5 shell p=2147483647: |A|=382239 reg=17 ratio=1.5455 phi=18 argmax=[[4, 1, 1, 1, 1, 1], [3, 2, 1, 1, 1, 1]] time=6.78
+M=9 t=11 s=7 shell p=2147483647: |A|=283140 reg=16 ratio=1.4545 phi=17 argmax=[[3, 2, 2, 2], [3, 2, 2, 1, 1], [2, 2, 2, 2, 1]] time=5.0
+M=9 t=11 s=9 shell p=2147483647: |A|=175032 reg=15 ratio=1.3636 phi=15 argmax=[[4, 1, 1, 1, 1, 1]] time=3.46
+M=9 t=11 s=11 shell p=2147483647: |A|=75582 reg=11 ratio=1.0000 phi=11 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1]] time=1.87
+M=9 t=12 s=0 shell p=2147483647: |A|=889716 reg=21 ratio=1.7500 phi=21 argmax=[[3, 1, 1, 1, 1, 1, 1]] time=11.05
+M=9 t=12 s=2 shell p=2147483647: |A|=858600 reg=19 ratio=1.5833 phi=21 argmax=[[3, 2, 1, 1, 1, 1], [2, 2, 2, 1, 1, 1]] time=15.24
+M=9 t=12 s=4 shell p=2147483647: |A|=768933 reg=19 ratio=1.5833 phi=20 argmax=[[3, 2, 1, 1, 1, 1], [2, 2, 2, 2, 1], [2, 2, 2, 1, 1, 1]] time=13.15
+M=9 t=12 s=6 shell p=2147483647: |A|=631488 reg=18 ratio=1.5000 phi=20 argmax=[[4, 2, 1, 1, 1], [4, 1, 1, 1, 1, 1], [3, 3, 1, 1, 1], [3, 2, 2, 1, 1], [3, 2, 1, 1, 1, 1], [2, 2, 2, 1, 1, 1]] time=11.01
+M=9 t=12 s=8 shell p=2147483647: |A|=463320 reg=17 ratio=1.4167 phi=18 argmax=[[3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1], [2, 2, 2, 2, 1]] time=7.98
+M=9 t=12 s=10 shell p=2147483647: |A|=286416 reg=16 ratio=1.3333 phi=16 argmax=[[4, 2, 1, 1, 1], [4, 1, 1, 1, 1, 1], [3, 2, 1, 1, 1, 1]] time=5.36
+M=9 t=12 s=12 shell p=2147483647: |A|=125970 reg=12 ratio=1.0000 phi=12 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2]] time=2.96
+M=9 t=13 s=1 shell p=2147483647: |A|=1499472 reg=22 ratio=1.6923 phi=23 argmax=[[3, 1, 1, 1, 1, 1, 1], [2, 2, 1, 1, 1, 1, 1]] time=32.06
+M=9 t=13 s=3 shell p=2147483647: |A|=1409265 reg=21 ratio=1.6154 phi=22 argmax=[[4, 1, 1, 1, 1, 1], [3, 2, 1, 1, 1, 1]] time=29.03
+M=9 t=13 s=5 shell p=2147483647: |A|=1238094 reg=21 ratio=1.6154 phi=22 argmax=[[2, 2, 2, 2, 1], [2, 2, 2, 1, 1, 1]] time=22.77
+M=9 t=13 s=7 shell p=2147483647: |A|=1003860 reg=21 ratio=1.6154 phi=21 argmax=[[3, 1, 1, 1, 1, 1, 1]] time=17.77
+M=9 t=13 s=9 shell p=2147483647: |A|=731952 reg=18 ratio=1.3846 phi=20 argmax=[[3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1], [3, 2, 1, 1, 1, 1], [2, 2, 2, 2, 1], [2, 2, 2, 1, 1, 1]] time=12.29
+M=9 t=13 s=11 shell p=2147483647: |A|=453492 reg=17 ratio=1.3077 phi=17 argmax=[[4, 2, 2, 1], [4, 2, 1, 1, 1], [4, 1, 1, 1, 1, 1], [3, 3, 1, 1, 1], [3, 2, 2, 1, 1], [3, 2, 1, 1, 1, 1]] time=7.97
+M=9 t=13 s=13 shell p=2147483647: |A|=203490 reg=13 ratio=1.0000 phi=13 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1]] time=4.01
+M=9 t=14 s=0 shell p=2147483647: |A|=2476296 reg=24 ratio=1.7143 phi=25 argmax=[[2, 2, 1, 1, 1, 1, 1]] time=43.23
+M=9 t=14 s=2 shell p=2147483647: |A|=2410965 reg=23 ratio=1.6429 phi=24 argmax=[[3, 1, 1, 1, 1, 1, 1], [2, 2, 1, 1, 1, 1, 1]] time=62.13
+M=9 t=14 s=4 shell p=2147483647: |A|=2220768 reg=22 ratio=1.5714 phi=24 argmax=[[3, 2, 1, 1, 1, 1], [2, 2, 2, 2, 1], [2, 2, 2, 1, 1, 1]] time=54.12
+M=9 t=14 s=6 shell p=2147483647: |A|=1922778 reg=22 ratio=1.5714 phi=24 argmax=[[3, 1, 1, 1, 1, 1, 1], [2, 2, 2, 2, 1], [2, 2, 2, 1, 1, 1], [2, 2, 1, 1, 1, 1, 1]] time=44.44
+M=9 t=14 s=8 shell p=2147483647: |A|=1544400 reg=22 ratio=1.5714 phi=22 argmax=[[3, 1, 1, 1, 1, 1, 1], [2, 2, 1, 1, 1, 1, 1]] time=31.57
+M=9 t=14 s=10 shell p=2147483647: |A|=1121796 reg=20 ratio=1.4286 phi=21 argmax=[[2, 2, 2, 2, 1]] time=19.57
+M=9 t=14 s=12 shell p=2147483647: |A|=697680 reg=18 ratio=1.2857 phi=18 argmax=[[4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [4, 1, 1, 1, 1, 1], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1], [3, 2, 1, 1, 1, 1], [2, 2, 2, 1, 1, 1]] time=11.85
+M=9 t=14 s=14 shell p=2147483647: |A|=319770 reg=14 ratio=1.0000 phi=14 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1]] time=5.3

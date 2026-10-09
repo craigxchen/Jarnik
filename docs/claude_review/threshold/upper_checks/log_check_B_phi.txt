@@ -1,0 +1,9 @@
+M=2: t<= 40: violations B>phi: 0  max B/t = 1 at (1, 0)  conj 2-1/ceil(M/2) = 1
+M=3: t<= 40: violations B>phi: 0  max B/t = 3/2 at (1, 1)  conj 2-1/ceil(M/2) = 3/2
+M=4: t<= 40: violations B>phi: 0  max B/t = 3/2 at (1, 1)  conj 2-1/ceil(M/2) = 3/2
+M=5: t<= 40: violations B>phi: 0  max B/t = 5/3 at (3, 3)  conj 2-1/ceil(M/2) = 5/3
+M=6: t<= 40: violations B>phi: 0  max B/t = 5/3 at (3, 3)  conj 2-1/ceil(M/2) = 5/3
+M=7: t<= 28: violations B>phi: 0  max B/t = 7/4 at (6, 6)  conj 2-1/ceil(M/2) = 7/4
+M=8: t<= 28: violations B>phi: 0  max B/t = 7/4 at (6, 6)  conj 2-1/ceil(M/2) = 7/4
+M=9: t<= 28: violations B>phi: 0  max B/t = 9/5 at (10, 10)  conj 2-1/ceil(M/2) = 9/5
+M=10: t<= 28: violations B>phi: 0  max B/t = 9/5 at (10, 10)  conj 2-1/ceil(M/2) = 9/5

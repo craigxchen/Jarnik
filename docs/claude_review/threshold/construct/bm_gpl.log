@@ -1,0 +1,6 @@
+M=7 trials=3000: BM violations=37, good-pair violations=0
+first BM violation: ([[7, -12, -11, 13, 4, -10, 9], [-2, 5, -12, 3, -7, -12, 25]], [Fraction(0, 1), Fraction(132, 7), Fraction(176, 7), Fraction(876, 35)])
+M=7: violations of sum-GPL: 0/4000; max E[W s^2]/(M E W) = 67/77 = 0.8701 at S=[[0, -2, -1, 0, -2, 0, 5], [-2, -1, 0, 1, -1, 0, 3]]
+M=4 trials=3000: BM violations=312, good-pair violations=0
+first BM violation: ([[-1, -4, 2, 3], [-4, -1, -4, 9]], [Fraction(0, 1), Fraction(9, 1), Fraction(8, 1)])
+M=9: violations of sum-GPL: 0/4000; max E[W s^2]/(M E W) = 311/342 = 0.9094 at S=[[0, 0, 2, 0, -2, 0, -2, -1, 3], [0, 1, -1, 2, -1, 1, -1, 0, -1]]

@@ -1,0 +1,6 @@
+M=4 sets=142: min (E_bal w - pi_bal reg) = 0 [lattice, reg=1, Ebal=2/3] ; min (2E_iid w - reg) = 0 [box, reg=2]
+  worst-bal set: [(-1, 1, -1, 1), (0, 0, 0, 0)]
+M=5 sets=126: min (E_bal w - pi_bal reg) = 0 [lattice, reg=1, Ebal=3/5] ; min (2E_iid w - reg) = 0 [lattice, reg=1]
+  worst-bal set: [(-1, 1, 0, 0, 0), (0, 0, 0, 0, 0)]
+M=6 sets=111: min (E_bal w - pi_bal reg) = 0 [orb, reg=10, Ebal=6] ; min (2E_iid w - reg) = 0 [lattice, reg=1]
+  worst-bal set: 360

@@ -1,0 +1,658 @@
+M=5 t=25 s=1 shell p=2147483647: |A|=22875 reg=29 ratio=1.1600 phi=41 argmax=[[1, 1, 1, 1, 1]] time=6.05
+M=5 t=25 s=3 shell p=2147483647: |A|=22750 reg=29 ratio=1.1600 phi=40 argmax=[[1, 1, 1, 1, 1]] time=6.26
+M=5 t=25 s=5 shell p=2147483647: |A|=22500 reg=29 ratio=1.1600 phi=40 argmax=[[1, 1, 1, 1, 1]] time=5.37
+M=5 t=25 s=7 shell p=2147483647: |A|=22125 reg=29 ratio=1.1600 phi=39 argmax=[[1, 1, 1, 1, 1]] time=5.75
+M=5 t=25 s=9 shell p=2147483647: |A|=21625 reg=29 ratio=1.1600 phi=38 argmax=[[1, 1, 1, 1, 1]] time=4.78
+M=5 t=25 s=11 shell p=2147483647: |A|=21000 reg=29 ratio=1.1600 phi=38 argmax=[[1, 1, 1, 1, 1]] time=5.39
+M=5 t=25 s=13 shell p=2147483647: |A|=20250 reg=29 ratio=1.1600 phi=37 argmax=[[1, 1, 1, 1, 1]] time=8.48
+M=5 t=25 s=15 shell p=2147483647: |A|=19375 reg=29 ratio=1.1600 phi=36 argmax=[[1, 1, 1, 1, 1]] time=7.64
+M=5 t=26 s=0 shell p=2147483647: |A|=25740 reg=31 ratio=1.1923 phi=43 argmax=[[1, 1, 1, 1, 1]] time=13.38
+M=5 t=26 s=2 shell p=2147483647: |A|=25675 reg=30 ratio=1.1538 phi=42 argmax=[[1, 1, 1, 1, 1]] time=16.51
+M=5 t=26 s=4 shell p=2147483647: |A|=25480 reg=30 ratio=1.1538 phi=42 argmax=[[1, 1, 1, 1, 1]] time=13.33
+M=5 t=26 s=6 shell p=2147483647: |A|=25155 reg=29 ratio=1.1154 phi=41 argmax=[[1, 1, 1, 1, 1]] time=13.81
+M=5 t=26 s=8 shell p=2147483647: |A|=24700 reg=30 ratio=1.1538 phi=40 argmax=[[1, 1, 1, 1, 1]] time=17.97
+M=5 t=26 s=10 shell p=2147483647: |A|=24115 reg=29 ratio=1.1154 phi=40 argmax=[[1, 1, 1, 1, 1]] time=13.61
+M=5 t=26 s=12 shell p=2147483647: |A|=23400 reg=30 ratio=1.1538 phi=39 argmax=[[1, 1, 1, 1, 1]] time=14.04
+M=5 t=26 s=14 shell p=2147483647: |A|=22555 reg=29 ratio=1.1154 phi=38 argmax=[[1, 1, 1, 1, 1]] time=9.95
+M=5 t=27 s=1 shell p=2147483647: |A|=28800 reg=31 ratio=1.1481 phi=44 argmax=[[1, 1, 1, 1, 1]] time=17.62
+M=5 t=27 s=3 shell p=2147483647: |A|=28665 reg=31 ratio=1.1481 phi=44 argmax=[[1, 1, 1, 1, 1]] time=22.55
+M=5 t=27 s=5 shell p=2147483647: |A|=28395 reg=31 ratio=1.1481 phi=43 argmax=[[1, 1, 1, 1, 1]] time=21.18
+M=5 t=27 s=7 shell p=2147483647: |A|=27990 reg=31 ratio=1.1481 phi=42 argmax=[[1, 1, 1, 1, 1]] time=17.73
+M=5 t=27 s=9 shell p=2147483647: |A|=27450 reg=31 ratio=1.1481 phi=42 argmax=[[1, 1, 1, 1, 1]] time=21.87
+M=5 t=27 s=11 shell p=2147483647: |A|=26775 reg=31 ratio=1.1481 phi=41 argmax=[[1, 1, 1, 1, 1]] time=13.91
+M=5 t=27 s=13 shell p=2147483647: |A|=25965 reg=31 ratio=1.1481 phi=40 argmax=[[1, 1, 1, 1, 1]] time=14.8
+M=5 t=27 s=15 shell p=2147483647: |A|=25020 reg=31 ratio=1.1481 phi=40 argmax=[[1, 1, 1, 1, 1]] time=14.35
+M=5 t=28 s=0 shell p=2147483647: |A|=32130 reg=32 ratio=1.1429 phi=46 argmax=[[1, 1, 1, 1, 1]] time=18.48
+M=5 t=28 s=2 shell p=2147483647: |A|=32060 reg=32 ratio=1.1429 phi=46 argmax=[[1, 1, 1, 1, 1]] time=24.49
+M=5 t=28 s=4 shell p=2147483647: |A|=31850 reg=31 ratio=1.1071 phi=45 argmax=[[1, 1, 1, 1, 1]] time=26.25
+M=5 t=28 s=6 shell p=2147483647: |A|=31500 reg=32 ratio=1.1429 phi=44 argmax=[[1, 1, 1, 1, 1]] time=21.75
+M=5 t=28 s=8 shell p=2147483647: |A|=31010 reg=31 ratio=1.1071 phi=44 argmax=[[1, 1, 1, 1, 1]] time=27.51
+M=5 t=28 s=10 shell p=2147483647: |A|=30380 reg=32 ratio=1.1429 phi=43 argmax=[[1, 1, 1, 1, 1]] time=24.48
+M=5 t=28 s=12 shell p=2147483647: |A|=29610 reg=31 ratio=1.1071 phi=42 argmax=[[1, 1, 1, 1, 1]] time=19.62
+M=5 t=28 s=14 shell p=2147483647: |A|=28700 reg=32 ratio=1.1429 phi=42 argmax=[[1, 1, 1, 1, 1]] time=19.96
+M=8 t=16 s=0 shell p=2147483647: |A|=1356194 reg=26 ratio=1.6250 phi=28 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=105.74
+M=8 t=16 s=2 shell p=2147483647: |A|=1332864 reg=25 ratio=1.5625 phi=28 argmax=[[2, 2, 1, 1, 1, 1], [2, 1, 1, 1, 1, 1, 1]] time=131.89
+M=8 t=16 s=4 shell p=2147483647: |A|=1264032 reg=28 ratio=1.7500 phi=28 argmax=[[1, 1, 1, 1, 1, 1, 1, 1]] time=87.33
+M=8 t=16 s=6 shell p=2147483647: |A|=1153152 reg=24 ratio=1.5000 phi=27 argmax=[[3, 1, 1, 1, 1, 1], [2, 2, 1, 1, 1, 1], [2, 1, 1, 1, 1, 1, 1]] time=64.85
+M=8 t=16 s=8 shell p=2147483647: |A|=1005914 reg=24 ratio=1.5000 phi=26 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=49.68
+M=8 t=16 s=10 shell p=2147483647: |A|=830144 reg=24 ratio=1.5000 phi=25 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=34.77
+M=8 t=16 s=12 shell p=2147483647: |A|=635664 reg=21 ratio=1.3125 phi=23 argmax=[[3, 1, 1, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=21.38
+M=8 t=16 s=14 shell p=2147483647: |A|=434112 reg=21 ratio=1.3125 phi=21 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=8.77
+M=8 t=16 s=16 shell p=2147483647: |A|=245157 reg=16 ratio=1.0000 phi=16 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=3.91
+M=3 t=1 s=1 slice p=2147483647: |A|=3 reg=1 ratio=1.0000 phi=1 argmax=[[2, 1]] time=0.0
+M=3 t=2 s=0 slice p=2147483647: |A|=7 reg=3 ratio=1.5000 phi=3 argmax=[[1, 1, 1]] time=0.0
+M=3 t=2 s=2 slice p=2147483647: |A|=6 reg=2 ratio=1.0000 phi=2 argmax=[[3], [2, 1]] time=0.0
+M=3 t=3 s=1 slice p=2147483647: |A|=12 reg=4 ratio=1.3333 phi=4 argmax=[[2, 1]] time=0.0
+M=3 t=3 s=3 slice p=2147483647: |A|=10 reg=3 ratio=1.0000 phi=3 argmax=[[3], [2, 1], [1, 1, 1]] time=0.0
+M=3 t=4 s=0 slice p=2147483647: |A|=19 reg=6 ratio=1.5000 phi=6 argmax=[[3]] time=0.0
+M=3 t=4 s=2 slice p=2147483647: |A|=18 reg=5 ratio=1.2500 phi=5 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=4 s=4 slice p=2147483647: |A|=15 reg=4 ratio=1.0000 phi=4 argmax=[[3], [2, 1]] time=0.0
+M=3 t=5 s=1 slice p=2147483647: |A|=27 reg=7 ratio=1.4000 phi=7 argmax=[[2, 1]] time=0.0
+M=3 t=5 s=3 slice p=2147483647: |A|=25 reg=6 ratio=1.2000 phi=6 argmax=[[3], [2, 1], [1, 1, 1]] time=0.0
+M=3 t=5 s=5 slice p=2147483647: |A|=21 reg=5 ratio=1.0000 phi=5 argmax=[[3], [2, 1], [1, 1, 1]] time=0.0
+M=3 t=6 s=0 slice p=2147483647: |A|=37 reg=9 ratio=1.5000 phi=9 argmax=[[1, 1, 1]] time=0.01
+M=3 t=6 s=2 slice p=2147483647: |A|=36 reg=8 ratio=1.3333 phi=8 argmax=[[3], [2, 1]] time=0.0
+M=3 t=6 s=4 slice p=2147483647: |A|=33 reg=7 ratio=1.1667 phi=7 argmax=[[2, 1], [1, 1, 1]] time=0.0
+M=3 t=6 s=6 slice p=2147483647: |A|=28 reg=6 ratio=1.0000 phi=6 argmax=[[3], [2, 1], [1, 1, 1]] time=0.0
+M=3 t=7 s=1 slice p=2147483647: |A|=48 reg=10 ratio=1.4286 phi=10 argmax=[[2, 1]] time=0.0
+M=3 t=7 s=3 slice p=2147483647: |A|=46 reg=9 ratio=1.2857 phi=9 argmax=[[3], [2, 1], [1, 1, 1]] time=0.0
+M=3 t=7 s=5 slice p=2147483647: |A|=42 reg=8 ratio=1.1429 phi=8 argmax=[[3], [2, 1], [1, 1, 1]] time=0.0
+M=3 t=7 s=7 slice p=2147483647: |A|=36 reg=7 ratio=1.0000 phi=7 argmax=[[3], [2, 1], [1, 1, 1]] time=0.0
+M=3 t=8 s=0 slice p=2147483647: |A|=61 reg=12 ratio=1.5000 phi=12 argmax=[[3]] time=0.01
+M=3 t=8 s=2 slice p=2147483647: |A|=60 reg=11 ratio=1.3750 phi=11 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=8 s=4 slice p=2147483647: |A|=57 reg=10 ratio=1.2500 phi=10 argmax=[[3], [2, 1]] time=0.01
+M=3 t=8 s=6 slice p=2147483647: |A|=52 reg=9 ratio=1.1250 phi=9 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=8 s=8 slice p=2147483647: |A|=45 reg=8 ratio=1.0000 phi=8 argmax=[[3], [2, 1], [1, 1, 1]] time=0.0
+M=3 t=9 s=1 slice p=2147483647: |A|=75 reg=13 ratio=1.4444 phi=13 argmax=[[2, 1]] time=0.01
+M=3 t=9 s=3 slice p=2147483647: |A|=73 reg=12 ratio=1.3333 phi=12 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=9 s=5 slice p=2147483647: |A|=69 reg=11 ratio=1.2222 phi=11 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=9 s=7 slice p=2147483647: |A|=63 reg=10 ratio=1.1111 phi=10 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=9 s=9 slice p=2147483647: |A|=55 reg=9 ratio=1.0000 phi=9 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=10 s=0 slice p=2147483647: |A|=91 reg=15 ratio=1.5000 phi=15 argmax=[[1, 1, 1]] time=0.01
+M=3 t=10 s=2 slice p=2147483647: |A|=90 reg=14 ratio=1.4000 phi=14 argmax=[[3], [2, 1]] time=0.01
+M=3 t=10 s=4 slice p=2147483647: |A|=87 reg=13 ratio=1.3000 phi=13 argmax=[[2, 1], [1, 1, 1]] time=0.01
+M=3 t=10 s=6 slice p=2147483647: |A|=82 reg=12 ratio=1.2000 phi=12 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=10 s=8 slice p=2147483647: |A|=75 reg=11 ratio=1.1000 phi=11 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=10 s=10 slice p=2147483647: |A|=66 reg=10 ratio=1.0000 phi=10 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=11 s=1 slice p=2147483647: |A|=108 reg=16 ratio=1.4545 phi=16 argmax=[[2, 1]] time=0.02
+M=3 t=11 s=3 slice p=2147483647: |A|=106 reg=15 ratio=1.3636 phi=15 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=11 s=5 slice p=2147483647: |A|=102 reg=14 ratio=1.2727 phi=14 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=11 s=7 slice p=2147483647: |A|=96 reg=13 ratio=1.1818 phi=13 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=11 s=9 slice p=2147483647: |A|=88 reg=12 ratio=1.0909 phi=12 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=11 s=11 slice p=2147483647: |A|=78 reg=11 ratio=1.0000 phi=11 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=12 s=0 slice p=2147483647: |A|=127 reg=18 ratio=1.5000 phi=18 argmax=[[3]] time=0.02
+M=3 t=12 s=2 slice p=2147483647: |A|=126 reg=17 ratio=1.4167 phi=17 argmax=[[2, 1], [1, 1, 1]] time=0.02
+M=3 t=12 s=4 slice p=2147483647: |A|=123 reg=16 ratio=1.3333 phi=16 argmax=[[3], [2, 1]] time=0.02
+M=3 t=12 s=6 slice p=2147483647: |A|=118 reg=15 ratio=1.2500 phi=15 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=12 s=8 slice p=2147483647: |A|=111 reg=14 ratio=1.1667 phi=14 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=12 s=10 slice p=2147483647: |A|=102 reg=13 ratio=1.0833 phi=13 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=12 s=12 slice p=2147483647: |A|=91 reg=12 ratio=1.0000 phi=12 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=13 s=1 slice p=2147483647: |A|=147 reg=19 ratio=1.4615 phi=19 argmax=[[2, 1]] time=0.01
+M=3 t=13 s=3 slice p=2147483647: |A|=145 reg=18 ratio=1.3846 phi=18 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=13 s=5 slice p=2147483647: |A|=141 reg=17 ratio=1.3077 phi=17 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=13 s=7 slice p=2147483647: |A|=135 reg=16 ratio=1.2308 phi=16 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=13 s=9 slice p=2147483647: |A|=127 reg=15 ratio=1.1538 phi=15 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=13 s=11 slice p=2147483647: |A|=117 reg=14 ratio=1.0769 phi=14 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=13 s=13 slice p=2147483647: |A|=105 reg=13 ratio=1.0000 phi=13 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=14 s=0 slice p=2147483647: |A|=169 reg=21 ratio=1.5000 phi=21 argmax=[[1, 1, 1]] time=0.03
+M=3 t=14 s=2 slice p=2147483647: |A|=168 reg=20 ratio=1.4286 phi=20 argmax=[[3], [2, 1]] time=0.02
+M=3 t=14 s=4 slice p=2147483647: |A|=165 reg=19 ratio=1.3571 phi=19 argmax=[[2, 1], [1, 1, 1]] time=0.02
+M=3 t=14 s=6 slice p=2147483647: |A|=160 reg=18 ratio=1.2857 phi=18 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=14 s=8 slice p=2147483647: |A|=153 reg=17 ratio=1.2143 phi=17 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=14 s=10 slice p=2147483647: |A|=144 reg=16 ratio=1.1429 phi=16 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=14 s=12 slice p=2147483647: |A|=133 reg=15 ratio=1.0714 phi=15 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=14 s=14 slice p=2147483647: |A|=120 reg=14 ratio=1.0000 phi=14 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=15 s=1 slice p=2147483647: |A|=192 reg=22 ratio=1.4667 phi=22 argmax=[[2, 1]] time=0.02
+M=3 t=15 s=3 slice p=2147483647: |A|=190 reg=21 ratio=1.4000 phi=21 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=15 s=5 slice p=2147483647: |A|=186 reg=20 ratio=1.3333 phi=20 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=15 s=7 slice p=2147483647: |A|=180 reg=19 ratio=1.2667 phi=19 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=15 s=9 slice p=2147483647: |A|=172 reg=18 ratio=1.2000 phi=18 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=15 s=11 slice p=2147483647: |A|=162 reg=17 ratio=1.1333 phi=17 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=15 s=13 slice p=2147483647: |A|=150 reg=16 ratio=1.0667 phi=16 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=15 s=15 slice p=2147483647: |A|=136 reg=15 ratio=1.0000 phi=15 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=16 s=0 slice p=2147483647: |A|=217 reg=24 ratio=1.5000 phi=24 argmax=[[3]] time=0.02
+M=3 t=16 s=2 slice p=2147483647: |A|=216 reg=23 ratio=1.4375 phi=23 argmax=[[2, 1], [1, 1, 1]] time=0.02
+M=3 t=16 s=4 slice p=2147483647: |A|=213 reg=22 ratio=1.3750 phi=22 argmax=[[3], [2, 1]] time=0.02
+M=3 t=16 s=6 slice p=2147483647: |A|=208 reg=21 ratio=1.3125 phi=21 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=16 s=8 slice p=2147483647: |A|=201 reg=20 ratio=1.2500 phi=20 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=16 s=10 slice p=2147483647: |A|=192 reg=19 ratio=1.1875 phi=19 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=16 s=12 slice p=2147483647: |A|=181 reg=18 ratio=1.1250 phi=18 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=16 s=14 slice p=2147483647: |A|=168 reg=17 ratio=1.0625 phi=17 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=16 s=16 slice p=2147483647: |A|=153 reg=16 ratio=1.0000 phi=16 argmax=[[3], [2, 1], [1, 1, 1]] time=0.01
+M=3 t=17 s=1 slice p=2147483647: |A|=243 reg=25 ratio=1.4706 phi=25 argmax=[[2, 1]] time=0.03
+M=3 t=17 s=3 slice p=2147483647: |A|=241 reg=24 ratio=1.4118 phi=24 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=17 s=5 slice p=2147483647: |A|=237 reg=23 ratio=1.3529 phi=23 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=17 s=7 slice p=2147483647: |A|=231 reg=22 ratio=1.2941 phi=22 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=17 s=9 slice p=2147483647: |A|=223 reg=21 ratio=1.2353 phi=21 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=17 s=11 slice p=2147483647: |A|=213 reg=20 ratio=1.1765 phi=20 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=17 s=13 slice p=2147483647: |A|=201 reg=19 ratio=1.1176 phi=19 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=17 s=15 slice p=2147483647: |A|=187 reg=18 ratio=1.0588 phi=18 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=17 s=17 slice p=2147483647: |A|=171 reg=17 ratio=1.0000 phi=17 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=18 s=0 slice p=2147483647: |A|=271 reg=27 ratio=1.5000 phi=27 argmax=[[1, 1, 1]] time=0.03
+M=3 t=18 s=2 slice p=2147483647: |A|=270 reg=26 ratio=1.4444 phi=26 argmax=[[3], [2, 1]] time=0.03
+M=3 t=18 s=4 slice p=2147483647: |A|=267 reg=25 ratio=1.3889 phi=25 argmax=[[2, 1], [1, 1, 1]] time=0.03
+M=3 t=18 s=6 slice p=2147483647: |A|=262 reg=24 ratio=1.3333 phi=24 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=18 s=8 slice p=2147483647: |A|=255 reg=23 ratio=1.2778 phi=23 argmax=[[3], [2, 1], [1, 1, 1]] time=0.05
+M=3 t=18 s=10 slice p=2147483647: |A|=246 reg=22 ratio=1.2222 phi=22 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=18 s=12 slice p=2147483647: |A|=235 reg=21 ratio=1.1667 phi=21 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=18 s=14 slice p=2147483647: |A|=222 reg=20 ratio=1.1111 phi=20 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=18 s=16 slice p=2147483647: |A|=207 reg=19 ratio=1.0556 phi=19 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=18 s=18 slice p=2147483647: |A|=190 reg=18 ratio=1.0000 phi=18 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=19 s=1 slice p=2147483647: |A|=300 reg=28 ratio=1.4737 phi=28 argmax=[[2, 1]] time=0.04
+M=3 t=19 s=3 slice p=2147483647: |A|=298 reg=27 ratio=1.4211 phi=27 argmax=[[3], [2, 1], [1, 1, 1]] time=0.05
+M=3 t=19 s=5 slice p=2147483647: |A|=294 reg=26 ratio=1.3684 phi=26 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=19 s=7 slice p=2147483647: |A|=288 reg=25 ratio=1.3158 phi=25 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=19 s=9 slice p=2147483647: |A|=280 reg=24 ratio=1.2632 phi=24 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=19 s=11 slice p=2147483647: |A|=270 reg=23 ratio=1.2105 phi=23 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=19 s=13 slice p=2147483647: |A|=258 reg=22 ratio=1.1579 phi=22 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=19 s=15 slice p=2147483647: |A|=244 reg=21 ratio=1.1053 phi=21 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=19 s=17 slice p=2147483647: |A|=228 reg=20 ratio=1.0526 phi=20 argmax=[[3], [2, 1], [1, 1, 1]] time=0.02
+M=3 t=19 s=19 slice p=2147483647: |A|=210 reg=19 ratio=1.0000 phi=19 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=20 s=0 slice p=2147483647: |A|=331 reg=30 ratio=1.5000 phi=30 argmax=[[3]] time=0.05
+M=3 t=20 s=2 slice p=2147483647: |A|=330 reg=29 ratio=1.4500 phi=29 argmax=[[2, 1], [1, 1, 1]] time=0.04
+M=3 t=20 s=4 slice p=2147483647: |A|=327 reg=28 ratio=1.4000 phi=28 argmax=[[3], [2, 1]] time=0.04
+M=3 t=20 s=6 slice p=2147483647: |A|=322 reg=27 ratio=1.3500 phi=27 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=20 s=8 slice p=2147483647: |A|=315 reg=26 ratio=1.3000 phi=26 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=20 s=10 slice p=2147483647: |A|=306 reg=25 ratio=1.2500 phi=25 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=20 s=12 slice p=2147483647: |A|=295 reg=24 ratio=1.2000 phi=24 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=20 s=14 slice p=2147483647: |A|=282 reg=23 ratio=1.1500 phi=23 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=20 s=16 slice p=2147483647: |A|=267 reg=22 ratio=1.1000 phi=22 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=20 s=18 slice p=2147483647: |A|=250 reg=21 ratio=1.0500 phi=21 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=20 s=20 slice p=2147483647: |A|=231 reg=20 ratio=1.0000 phi=20 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=21 s=1 slice p=2147483647: |A|=363 reg=31 ratio=1.4762 phi=31 argmax=[[2, 1]] time=0.05
+M=3 t=21 s=3 slice p=2147483647: |A|=361 reg=30 ratio=1.4286 phi=30 argmax=[[3], [2, 1], [1, 1, 1]] time=0.05
+M=3 t=21 s=5 slice p=2147483647: |A|=357 reg=29 ratio=1.3810 phi=29 argmax=[[3], [2, 1], [1, 1, 1]] time=0.06
+M=3 t=21 s=7 slice p=2147483647: |A|=351 reg=28 ratio=1.3333 phi=28 argmax=[[3], [2, 1], [1, 1, 1]] time=0.06
+M=3 t=21 s=9 slice p=2147483647: |A|=343 reg=27 ratio=1.2857 phi=27 argmax=[[3], [2, 1], [1, 1, 1]] time=0.06
+M=3 t=21 s=11 slice p=2147483647: |A|=333 reg=26 ratio=1.2381 phi=26 argmax=[[3], [2, 1], [1, 1, 1]] time=0.05
+M=3 t=21 s=13 slice p=2147483647: |A|=321 reg=25 ratio=1.1905 phi=25 argmax=[[3], [2, 1], [1, 1, 1]] time=0.06
+M=3 t=21 s=15 slice p=2147483647: |A|=307 reg=24 ratio=1.1429 phi=24 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=21 s=17 slice p=2147483647: |A|=291 reg=23 ratio=1.0952 phi=23 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=21 s=19 slice p=2147483647: |A|=273 reg=22 ratio=1.0476 phi=22 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=21 s=21 slice p=2147483647: |A|=253 reg=21 ratio=1.0000 phi=21 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=22 s=0 slice p=2147483647: |A|=397 reg=33 ratio=1.5000 phi=33 argmax=[[1, 1, 1]] time=0.05
+M=3 t=22 s=2 slice p=2147483647: |A|=396 reg=32 ratio=1.4545 phi=32 argmax=[[3], [2, 1]] time=0.06
+M=3 t=22 s=4 slice p=2147483647: |A|=393 reg=31 ratio=1.4091 phi=31 argmax=[[2, 1], [1, 1, 1]] time=0.07
+M=3 t=22 s=6 slice p=2147483647: |A|=388 reg=30 ratio=1.3636 phi=30 argmax=[[3], [2, 1], [1, 1, 1]] time=0.05
+M=3 t=22 s=8 slice p=2147483647: |A|=381 reg=29 ratio=1.3182 phi=29 argmax=[[3], [2, 1], [1, 1, 1]] time=0.06
+M=3 t=22 s=10 slice p=2147483647: |A|=372 reg=28 ratio=1.2727 phi=28 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=22 s=12 slice p=2147483647: |A|=361 reg=27 ratio=1.2273 phi=27 argmax=[[3], [2, 1], [1, 1, 1]] time=0.05
+M=3 t=22 s=14 slice p=2147483647: |A|=348 reg=26 ratio=1.1818 phi=26 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=22 s=16 slice p=2147483647: |A|=333 reg=25 ratio=1.1364 phi=25 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=22 s=18 slice p=2147483647: |A|=316 reg=24 ratio=1.0909 phi=24 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=22 s=20 slice p=2147483647: |A|=297 reg=23 ratio=1.0455 phi=23 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=22 s=22 slice p=2147483647: |A|=276 reg=22 ratio=1.0000 phi=22 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=23 s=1 slice p=2147483647: |A|=432 reg=34 ratio=1.4783 phi=34 argmax=[[2, 1]] time=0.06
+M=3 t=23 s=3 slice p=2147483647: |A|=430 reg=33 ratio=1.4348 phi=33 argmax=[[3], [2, 1], [1, 1, 1]] time=0.06
+M=3 t=23 s=5 slice p=2147483647: |A|=426 reg=32 ratio=1.3913 phi=32 argmax=[[3], [2, 1], [1, 1, 1]] time=0.06
+M=3 t=23 s=7 slice p=2147483647: |A|=420 reg=31 ratio=1.3478 phi=31 argmax=[[3], [2, 1], [1, 1, 1]] time=0.06
+M=3 t=23 s=9 slice p=2147483647: |A|=412 reg=30 ratio=1.3043 phi=30 argmax=[[3], [2, 1], [1, 1, 1]] time=0.06
+M=3 t=23 s=11 slice p=2147483647: |A|=402 reg=29 ratio=1.2609 phi=29 argmax=[[3], [2, 1], [1, 1, 1]] time=0.05
+M=3 t=23 s=13 slice p=2147483647: |A|=390 reg=28 ratio=1.2174 phi=28 argmax=[[3], [2, 1], [1, 1, 1]] time=0.07
+M=3 t=23 s=15 slice p=2147483647: |A|=376 reg=27 ratio=1.1739 phi=27 argmax=[[3], [2, 1], [1, 1, 1]] time=0.05
+M=3 t=23 s=17 slice p=2147483647: |A|=360 reg=26 ratio=1.1304 phi=26 argmax=[[3], [2, 1], [1, 1, 1]] time=0.05
+M=3 t=23 s=19 slice p=2147483647: |A|=342 reg=25 ratio=1.0870 phi=25 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=23 s=21 slice p=2147483647: |A|=322 reg=24 ratio=1.0435 phi=24 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=23 s=23 slice p=2147483647: |A|=300 reg=23 ratio=1.0000 phi=23 argmax=[[3], [2, 1], [1, 1, 1]] time=0.03
+M=3 t=24 s=0 slice p=2147483647: |A|=469 reg=36 ratio=1.5000 phi=36 argmax=[[3]] time=0.06
+M=3 t=24 s=2 slice p=2147483647: |A|=468 reg=35 ratio=1.4583 phi=35 argmax=[[2, 1], [1, 1, 1]] time=0.09
+M=3 t=24 s=4 slice p=2147483647: |A|=465 reg=34 ratio=1.4167 phi=34 argmax=[[3], [2, 1]] time=0.07
+M=3 t=24 s=6 slice p=2147483647: |A|=460 reg=33 ratio=1.3750 phi=33 argmax=[[3], [2, 1], [1, 1, 1]] time=0.07
+M=3 t=24 s=8 slice p=2147483647: |A|=453 reg=32 ratio=1.3333 phi=32 argmax=[[3], [2, 1], [1, 1, 1]] time=0.07
+M=3 t=24 s=10 slice p=2147483647: |A|=444 reg=31 ratio=1.2917 phi=31 argmax=[[3], [2, 1], [1, 1, 1]] time=0.06
+M=3 t=24 s=12 slice p=2147483647: |A|=433 reg=30 ratio=1.2500 phi=30 argmax=[[3], [2, 1], [1, 1, 1]] time=0.05
+M=3 t=24 s=14 slice p=2147483647: |A|=420 reg=29 ratio=1.2083 phi=29 argmax=[[3], [2, 1], [1, 1, 1]] time=0.05
+M=3 t=24 s=16 slice p=2147483647: |A|=405 reg=28 ratio=1.1667 phi=28 argmax=[[3], [2, 1], [1, 1, 1]] time=0.06
+M=3 t=24 s=18 slice p=2147483647: |A|=388 reg=27 ratio=1.1250 phi=27 argmax=[[3], [2, 1], [1, 1, 1]] time=0.08
+M=3 t=24 s=20 slice p=2147483647: |A|=369 reg=26 ratio=1.0833 phi=26 argmax=[[3], [2, 1], [1, 1, 1]] time=0.07
+M=3 t=24 s=22 slice p=2147483647: |A|=348 reg=25 ratio=1.0417 phi=25 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=3 t=24 s=24 slice p=2147483647: |A|=325 reg=24 ratio=1.0000 phi=24 argmax=[[3], [2, 1], [1, 1, 1]] time=0.04
+M=4 t=1 s=1 slice p=2147483647: |A|=4 reg=1 ratio=1.0000 phi=1 argmax=[[3, 1]] time=0.0
+M=4 t=2 s=0 slice p=2147483647: |A|=13 reg=3 ratio=1.5000 phi=3 argmax=[[2, 1, 1]] time=0.0
+M=4 t=2 s=2 slice p=2147483647: |A|=10 reg=2 ratio=1.0000 phi=2 argmax=[[4], [3, 1], [2, 2]] time=0.0
+M=4 t=3 s=1 slice p=2147483647: |A|=28 reg=4 ratio=1.3333 phi=4 argmax=[[3, 1], [2, 2], [2, 1, 1]] time=0.0
+M=4 t=3 s=3 slice p=2147483647: |A|=20 reg=3 ratio=1.0000 phi=3 argmax=[[4], [3, 1], [2, 1, 1]] time=0.0
+M=4 t=4 s=0 slice p=2147483647: |A|=55 reg=6 ratio=1.5000 phi=6 argmax=[[4], [3, 1], [2, 2]] time=0.01
+M=4 t=4 s=2 slice p=2147483647: |A|=50 reg=6 ratio=1.5000 phi=6 argmax=[[1, 1, 1, 1]] time=0.0
+M=4 t=4 s=4 slice p=2147483647: |A|=35 reg=4 ratio=1.0000 phi=4 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.0
+M=4 t=5 s=1 slice p=2147483647: |A|=92 reg=7 ratio=1.4000 phi=7 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.01
+M=4 t=5 s=3 slice p=2147483647: |A|=80 reg=7 ratio=1.4000 phi=7 argmax=[[2, 1, 1]] time=0.01
+M=4 t=5 s=5 slice p=2147483647: |A|=56 reg=5 ratio=1.0000 phi=5 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.0
+M=4 t=6 s=0 slice p=2147483647: |A|=147 reg=9 ratio=1.5000 phi=9 argmax=[[3, 1], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=6 s=2 slice p=2147483647: |A|=140 reg=9 ratio=1.5000 phi=9 argmax=[[3, 1]] time=0.01
+M=4 t=6 s=4 slice p=2147483647: |A|=119 reg=8 ratio=1.3333 phi=8 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=6 s=6 slice p=2147483647: |A|=84 reg=6 ratio=1.0000 phi=6 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=7 s=1 slice p=2147483647: |A|=216 reg=10 ratio=1.4286 phi=10 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=7 s=3 slice p=2147483647: |A|=200 reg=10 ratio=1.4286 phi=10 argmax=[[3, 1], [2, 2], [2, 1, 1]] time=0.01
+M=4 t=7 s=5 slice p=2147483647: |A|=168 reg=9 ratio=1.2857 phi=9 argmax=[[3, 1], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=7 s=7 slice p=2147483647: |A|=120 reg=7 ratio=1.0000 phi=7 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.01
+M=4 t=8 s=0 slice p=2147483647: |A|=309 reg=12 ratio=1.5000 phi=12 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.02
+M=4 t=8 s=2 slice p=2147483647: |A|=300 reg=12 ratio=1.5000 phi=12 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=8 s=4 slice p=2147483647: |A|=273 reg=12 ratio=1.5000 phi=12 argmax=[[4]] time=0.02
+M=4 t=8 s=6 slice p=2147483647: |A|=228 reg=10 ratio=1.2500 phi=10 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=8 s=8 slice p=2147483647: |A|=165 reg=8 ratio=1.0000 phi=8 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=9 s=1 slice p=2147483647: |A|=420 reg=13 ratio=1.4444 phi=13 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.03
+M=4 t=9 s=3 slice p=2147483647: |A|=400 reg=13 ratio=1.4444 phi=13 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=9 s=5 slice p=2147483647: |A|=360 reg=13 ratio=1.4444 phi=13 argmax=[[3, 1]] time=0.02
+M=4 t=9 s=7 slice p=2147483647: |A|=300 reg=11 ratio=1.2222 phi=11 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=9 s=9 slice p=2147483647: |A|=220 reg=9 ratio=1.0000 phi=9 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.01
+M=4 t=10 s=0 slice p=2147483647: |A|=561 reg=15 ratio=1.5000 phi=15 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.04
+M=4 t=10 s=2 slice p=2147483647: |A|=550 reg=15 ratio=1.5000 phi=15 argmax=[[4], [3, 1], [2, 1, 1]] time=0.03
+M=4 t=10 s=4 slice p=2147483647: |A|=517 reg=15 ratio=1.5000 phi=15 argmax=[[2, 1, 1]] time=0.03
+M=4 t=10 s=6 slice p=2147483647: |A|=462 reg=14 ratio=1.4000 phi=14 argmax=[[4], [3, 1], [2, 2]] time=0.03
+M=4 t=10 s=8 slice p=2147483647: |A|=385 reg=12 ratio=1.2000 phi=12 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=10 s=10 slice p=2147483647: |A|=286 reg=10 ratio=1.0000 phi=10 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=11 s=1 slice p=2147483647: |A|=724 reg=16 ratio=1.4545 phi=16 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.05
+M=4 t=11 s=3 slice p=2147483647: |A|=700 reg=16 ratio=1.4545 phi=16 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.04
+M=4 t=11 s=5 slice p=2147483647: |A|=652 reg=16 ratio=1.4545 phi=16 argmax=[[3, 1], [2, 2], [2, 1, 1]] time=0.04
+M=4 t=11 s=7 slice p=2147483647: |A|=580 reg=15 ratio=1.3636 phi=15 argmax=[[4], [3, 1], [2, 1, 1]] time=0.04
+M=4 t=11 s=9 slice p=2147483647: |A|=484 reg=13 ratio=1.1818 phi=13 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.03
+M=4 t=11 s=11 slice p=2147483647: |A|=364 reg=11 ratio=1.0000 phi=11 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.02
+M=4 t=12 s=0 slice p=2147483647: |A|=923 reg=18 ratio=1.5000 phi=18 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.06
+M=4 t=12 s=2 slice p=2147483647: |A|=910 reg=18 ratio=1.5000 phi=18 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.07
+M=4 t=12 s=4 slice p=2147483647: |A|=871 reg=18 ratio=1.5000 phi=18 argmax=[[4], [3, 1], [2, 2]] time=0.06
+M=4 t=12 s=6 slice p=2147483647: |A|=806 reg=18 ratio=1.5000 phi=18 argmax=[[1, 1, 1, 1]] time=0.05
+M=4 t=12 s=8 slice p=2147483647: |A|=715 reg=16 ratio=1.3333 phi=16 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.04
+M=4 t=12 s=10 slice p=2147483647: |A|=598 reg=14 ratio=1.1667 phi=14 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.04
+M=4 t=12 s=12 slice p=2147483647: |A|=455 reg=12 ratio=1.0000 phi=12 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.03
+M=4 t=13 s=1 slice p=2147483647: |A|=1148 reg=19 ratio=1.4615 phi=19 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.09
+M=4 t=13 s=3 slice p=2147483647: |A|=1120 reg=19 ratio=1.4615 phi=19 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.09
+M=4 t=13 s=5 slice p=2147483647: |A|=1064 reg=19 ratio=1.4615 phi=19 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.12
+M=4 t=13 s=7 slice p=2147483647: |A|=980 reg=19 ratio=1.4615 phi=19 argmax=[[2, 1, 1]] time=0.07
+M=4 t=13 s=9 slice p=2147483647: |A|=868 reg=17 ratio=1.3077 phi=17 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.06
+M=4 t=13 s=11 slice p=2147483647: |A|=728 reg=15 ratio=1.1538 phi=15 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.04
+M=4 t=13 s=13 slice p=2147483647: |A|=560 reg=13 ratio=1.0000 phi=13 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.04
+M=4 t=14 s=0 slice p=2147483647: |A|=1415 reg=21 ratio=1.5000 phi=21 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.1
+M=4 t=14 s=2 slice p=2147483647: |A|=1400 reg=21 ratio=1.5000 phi=21 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.14
+M=4 t=14 s=4 slice p=2147483647: |A|=1355 reg=21 ratio=1.5000 phi=21 argmax=[[3, 1], [2, 1, 1], [1, 1, 1, 1]] time=0.15
+M=4 t=14 s=6 slice p=2147483647: |A|=1280 reg=21 ratio=1.5000 phi=21 argmax=[[3, 1]] time=0.1
+M=4 t=14 s=8 slice p=2147483647: |A|=1175 reg=20 ratio=1.4286 phi=20 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.11
+M=4 t=14 s=10 slice p=2147483647: |A|=1040 reg=18 ratio=1.2857 phi=18 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.18
+M=4 t=14 s=12 slice p=2147483647: |A|=875 reg=16 ratio=1.1429 phi=16 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.06
+M=4 t=14 s=14 slice p=2147483647: |A|=680 reg=14 ratio=1.0000 phi=14 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.04
+M=4 t=15 s=1 slice p=2147483647: |A|=1712 reg=22 ratio=1.4667 phi=22 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.23
+M=4 t=15 s=3 slice p=2147483647: |A|=1680 reg=22 ratio=1.4667 phi=22 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.17
+M=4 t=15 s=5 slice p=2147483647: |A|=1616 reg=22 ratio=1.4667 phi=22 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.2
+M=4 t=15 s=7 slice p=2147483647: |A|=1520 reg=22 ratio=1.4667 phi=22 argmax=[[3, 1], [2, 2], [2, 1, 1]] time=0.13
+M=4 t=15 s=9 slice p=2147483647: |A|=1392 reg=21 ratio=1.4000 phi=21 argmax=[[3, 1], [2, 1, 1], [1, 1, 1, 1]] time=0.1
+M=4 t=15 s=11 slice p=2147483647: |A|=1232 reg=19 ratio=1.2667 phi=19 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.08
+M=4 t=15 s=13 slice p=2147483647: |A|=1040 reg=17 ratio=1.1333 phi=17 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.07
+M=4 t=15 s=15 slice p=2147483647: |A|=816 reg=15 ratio=1.0000 phi=15 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.05
+M=4 t=16 s=0 slice p=2147483647: |A|=2057 reg=24 ratio=1.5000 phi=24 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.17
+M=4 t=16 s=2 slice p=2147483647: |A|=2040 reg=24 ratio=1.5000 phi=24 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.44
+M=4 t=16 s=4 slice p=2147483647: |A|=1989 reg=24 ratio=1.5000 phi=24 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.25
+M=4 t=16 s=6 slice p=2147483647: |A|=1904 reg=24 ratio=1.5000 phi=24 argmax=[[2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.22
+M=4 t=16 s=8 slice p=2147483647: |A|=1785 reg=24 ratio=1.5000 phi=24 argmax=[[4]] time=0.16
+M=4 t=16 s=10 slice p=2147483647: |A|=1632 reg=22 ratio=1.3750 phi=22 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.15
+M=4 t=16 s=12 slice p=2147483647: |A|=1445 reg=20 ratio=1.2500 phi=20 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.11
+M=4 t=16 s=14 slice p=2147483647: |A|=1224 reg=18 ratio=1.1250 phi=18 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.09
+M=4 t=16 s=16 slice p=2147483647: |A|=969 reg=16 ratio=1.0000 phi=16 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.06
+M=4 t=17 s=1 slice p=2147483647: |A|=2436 reg=25 ratio=1.4706 phi=25 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.35
+M=4 t=17 s=3 slice p=2147483647: |A|=2400 reg=25 ratio=1.4706 phi=25 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.35
+M=4 t=17 s=5 slice p=2147483647: |A|=2328 reg=25 ratio=1.4706 phi=25 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.39
+M=4 t=17 s=7 slice p=2147483647: |A|=2220 reg=25 ratio=1.4706 phi=25 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.23
+M=4 t=17 s=9 slice p=2147483647: |A|=2076 reg=25 ratio=1.4706 phi=25 argmax=[[3, 1]] time=0.39
+M=4 t=17 s=11 slice p=2147483647: |A|=1896 reg=23 ratio=1.3529 phi=23 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.34
+M=4 t=17 s=13 slice p=2147483647: |A|=1680 reg=21 ratio=1.2353 phi=21 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.14
+M=4 t=17 s=15 slice p=2147483647: |A|=1428 reg=19 ratio=1.1176 phi=19 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.1
+M=4 t=17 s=17 slice p=2147483647: |A|=1140 reg=17 ratio=1.0000 phi=17 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.07
+M=4 t=18 s=0 slice p=2147483647: |A|=2869 reg=27 ratio=1.5000 phi=27 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.27
+M=4 t=18 s=2 slice p=2147483647: |A|=2850 reg=27 ratio=1.5000 phi=27 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.55
+M=4 t=18 s=4 slice p=2147483647: |A|=2793 reg=27 ratio=1.5000 phi=27 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.61
+M=4 t=18 s=6 slice p=2147483647: |A|=2698 reg=27 ratio=1.5000 phi=27 argmax=[[4], [3, 1], [2, 1, 1]] time=0.42
+M=4 t=18 s=8 slice p=2147483647: |A|=2565 reg=27 ratio=1.5000 phi=27 argmax=[[2, 1, 1]] time=0.4
+M=4 t=18 s=10 slice p=2147483647: |A|=2394 reg=26 ratio=1.4444 phi=26 argmax=[[4], [3, 1], [2, 2]] time=0.63
+M=4 t=18 s=12 slice p=2147483647: |A|=2185 reg=24 ratio=1.3333 phi=24 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.25
+M=4 t=18 s=14 slice p=2147483647: |A|=1938 reg=22 ratio=1.2222 phi=22 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.4
+M=4 t=18 s=16 slice p=2147483647: |A|=1653 reg=20 ratio=1.1111 phi=20 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.13
+M=4 t=18 s=18 slice p=2147483647: |A|=1330 reg=18 ratio=1.0000 phi=18 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.09
+M=4 t=19 s=1 slice p=2147483647: |A|=3340 reg=28 ratio=1.4737 phi=28 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.57
+M=4 t=19 s=3 slice p=2147483647: |A|=3300 reg=28 ratio=1.4737 phi=28 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.53
+M=4 t=19 s=5 slice p=2147483647: |A|=3220 reg=28 ratio=1.4737 phi=28 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.6
+M=4 t=19 s=7 slice p=2147483647: |A|=3100 reg=28 ratio=1.4737 phi=28 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.81
+M=4 t=19 s=9 slice p=2147483647: |A|=2940 reg=28 ratio=1.4737 phi=28 argmax=[[3, 1], [2, 2], [2, 1, 1]] time=0.47
+M=4 t=19 s=11 slice p=2147483647: |A|=2740 reg=27 ratio=1.4211 phi=27 argmax=[[4], [3, 1], [2, 1, 1]] time=0.78
+M=4 t=19 s=13 slice p=2147483647: |A|=2500 reg=25 ratio=1.3158 phi=25 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.29
+M=4 t=19 s=15 slice p=2147483647: |A|=2220 reg=23 ratio=1.2105 phi=23 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.28
+M=4 t=19 s=17 slice p=2147483647: |A|=1900 reg=21 ratio=1.1053 phi=21 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.16
+M=4 t=19 s=19 slice p=2147483647: |A|=1540 reg=19 ratio=1.0000 phi=19 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.11
+M=4 t=20 s=0 slice p=2147483647: |A|=3871 reg=30 ratio=1.5000 phi=30 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.57
+M=4 t=20 s=2 slice p=2147483647: |A|=3850 reg=30 ratio=1.5000 phi=30 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=1.04
+M=4 t=20 s=4 slice p=2147483647: |A|=3787 reg=30 ratio=1.5000 phi=30 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.87
+M=4 t=20 s=6 slice p=2147483647: |A|=3682 reg=30 ratio=1.5000 phi=30 argmax=[[3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.57
+M=4 t=20 s=8 slice p=2147483647: |A|=3535 reg=30 ratio=1.5000 phi=30 argmax=[[4], [3, 1], [2, 2]] time=0.59
+M=4 t=20 s=10 slice p=2147483647: |A|=3346 reg=30 ratio=1.5000 phi=30 argmax=[[1, 1, 1, 1]] time=0.63
+M=4 t=20 s=12 slice p=2147483647: |A|=3115 reg=28 ratio=1.4000 phi=28 argmax=[[4], [3, 1], [2, 2], [2, 1, 1]] time=0.5
+M=4 t=20 s=14 slice p=2147483647: |A|=2842 reg=26 ratio=1.3000 phi=26 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.36
+M=4 t=20 s=16 slice p=2147483647: |A|=2527 reg=24 ratio=1.2000 phi=24 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.27
+M=4 t=20 s=18 slice p=2147483647: |A|=2170 reg=22 ratio=1.1000 phi=22 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.2
+M=4 t=20 s=20 slice p=2147483647: |A|=1771 reg=20 ratio=1.0000 phi=20 argmax=[[4], [3, 1], [2, 2], [2, 1, 1], [1, 1, 1, 1]] time=0.17
+M=5 t=1 s=1 slice p=2147483647: |A|=5 reg=1 ratio=1.0000 phi=1 argmax=[[4, 1]] time=0.0
+M=5 t=2 s=0 slice p=2147483647: |A|=21 reg=3 ratio=1.5000 phi=3 argmax=[[3, 1, 1]] time=0.0
+M=5 t=2 s=2 slice p=2147483647: |A|=15 reg=2 ratio=1.0000 phi=2 argmax=[[5], [4, 1], [3, 2]] time=0.0
+M=5 t=3 s=1 slice p=2147483647: |A|=55 reg=4 ratio=1.3333 phi=4 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1]] time=0.01
+M=5 t=3 s=3 slice p=2147483647: |A|=35 reg=3 ratio=1.0000 phi=3 argmax=[[5], [4, 1], [3, 2], [3, 1, 1]] time=0.0
+M=5 t=4 s=0 slice p=2147483647: |A|=131 reg=6 ratio=1.5000 phi=6 argmax=[[5], [4, 1], [3, 2], [2, 2, 1]] time=0.01
+M=5 t=4 s=2 slice p=2147483647: |A|=115 reg=6 ratio=1.5000 phi=6 argmax=[[2, 1, 1, 1]] time=0.01
+M=5 t=4 s=4 slice p=2147483647: |A|=70 reg=4 ratio=1.0000 phi=4 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1]] time=0.01
+M=5 t=5 s=1 slice p=2147483647: |A|=255 reg=7 ratio=1.4000 phi=8 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.01
+M=5 t=5 s=3 slice p=2147483647: |A|=210 reg=7 ratio=1.4000 phi=7 argmax=[[3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.01
+M=5 t=5 s=5 slice p=2147483647: |A|=126 reg=5 ratio=1.0000 phi=5 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1]] time=0.01
+M=5 t=6 s=0 slice p=2147483647: |A|=471 reg=10 ratio=1.6667 phi=10 argmax=[[1, 1, 1, 1, 1]] time=0.03
+M=5 t=6 s=2 slice p=2147483647: |A|=440 reg=9 ratio=1.5000 phi=9 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1]] time=0.02
+M=5 t=6 s=4 slice p=2147483647: |A|=350 reg=8 ratio=1.3333 phi=8 argmax=[[3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.02
+M=5 t=6 s=6 slice p=2147483647: |A|=210 reg=6 ratio=1.0000 phi=6 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.02
+M=5 t=7 s=1 slice p=2147483647: |A|=780 reg=11 ratio=1.5714 phi=11 argmax=[[2, 1, 1, 1]] time=0.04
+M=5 t=7 s=3 slice p=2147483647: |A|=700 reg=10 ratio=1.4286 phi=10 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.03
+M=5 t=7 s=5 slice p=2147483647: |A|=546 reg=10 ratio=1.4286 phi=10 argmax=[[1, 1, 1, 1, 1]] time=0.02
+M=5 t=7 s=7 slice p=2147483647: |A|=330 reg=7 ratio=1.0000 phi=7 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.02
+M=5 t=8 s=0 slice p=2147483647: |A|=1251 reg=13 ratio=1.6250 phi=13 argmax=[[3, 1, 1]] time=0.07
+M=5 t=8 s=2 slice p=2147483647: |A|=1200 reg=12 ratio=1.5000 phi=12 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.06
+M=5 t=8 s=4 slice p=2147483647: |A|=1050 reg=12 ratio=1.5000 phi=12 argmax=[[5], [4, 1], [3, 2]] time=0.04
+M=5 t=8 s=6 slice p=2147483647: |A|=810 reg=11 ratio=1.3750 phi=11 argmax=[[2, 1, 1, 1]] time=0.03
+M=5 t=8 s=8 slice p=2147483647: |A|=495 reg=8 ratio=1.0000 phi=8 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.02
+M=5 t=9 s=1 slice p=2147483647: |A|=1875 reg=14 ratio=1.5556 phi=14 argmax=[[3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.07
+M=5 t=9 s=3 slice p=2147483647: |A|=1750 reg=14 ratio=1.5556 phi=14 argmax=[[2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.06
+M=5 t=9 s=5 slice p=2147483647: |A|=1506 reg=13 ratio=1.4444 phi=13 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1]] time=0.05
+M=5 t=9 s=7 slice p=2147483647: |A|=1155 reg=12 ratio=1.3333 phi=12 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.04
+M=5 t=9 s=9 slice p=2147483647: |A|=715 reg=9 ratio=1.0000 phi=9 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.03
+M=5 t=10 s=0 slice p=2147483647: |A|=2751 reg=16 ratio=1.6000 phi=16 argmax=[[3, 2], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.1
+M=5 t=10 s=2 slice p=2147483647: |A|=2675 reg=16 ratio=1.6000 phi=16 argmax=[[4, 1]] time=0.1
+M=5 t=10 s=4 slice p=2147483647: |A|=2450 reg=15 ratio=1.5000 phi=15 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.09
+M=5 t=10 s=6 slice p=2147483647: |A|=2085 reg=14 ratio=1.4000 phi=14 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.07
+M=5 t=10 s=8 slice p=2147483647: |A|=1595 reg=13 ratio=1.3000 phi=13 argmax=[[3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.05
+M=5 t=10 s=10 slice p=2147483647: |A|=1001 reg=10 ratio=1.0000 phi=10 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.04
+M=5 t=11 s=1 slice p=2147483647: |A|=3855 reg=17 ratio=1.5455 phi=18 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.17
+M=5 t=11 s=3 slice p=2147483647: |A|=3675 reg=17 ratio=1.5455 phi=17 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.17
+M=5 t=11 s=5 slice p=2147483647: |A|=3321 reg=16 ratio=1.4545 phi=16 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.13
+M=5 t=11 s=7 slice p=2147483647: |A|=2805 reg=16 ratio=1.4545 phi=16 argmax=[[4, 1]] time=0.11
+M=5 t=11 s=9 slice p=2147483647: |A|=2145 reg=14 ratio=1.2727 phi=14 argmax=[[3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.08
+M=5 t=11 s=11 slice p=2147483647: |A|=1365 reg=11 ratio=1.0000 phi=11 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.05
+M=5 t=12 s=0 slice p=2147483647: |A|=5321 reg=20 ratio=1.6667 phi=20 argmax=[[5]] time=0.28
+M=5 t=12 s=2 slice p=2147483647: |A|=5215 reg=19 ratio=1.5833 phi=19 argmax=[[3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.35
+M=5 t=12 s=4 slice p=2147483647: |A|=4900 reg=18 ratio=1.5000 phi=18 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.35
+M=5 t=12 s=6 slice p=2147483647: |A|=4385 reg=18 ratio=1.5000 phi=18 argmax=[[3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.43
+M=5 t=12 s=8 slice p=2147483647: |A|=3685 reg=17 ratio=1.4167 phi=17 argmax=[[4, 1], [3, 2], [3, 1, 1]] time=0.17
+M=5 t=12 s=10 slice p=2147483647: |A|=2821 reg=15 ratio=1.2500 phi=15 argmax=[[3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.12
+M=5 t=12 s=12 slice p=2147483647: |A|=1820 reg=12 ratio=1.0000 phi=12 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.06
+M=5 t=13 s=1 slice p=2147483647: |A|=7105 reg=21 ratio=1.6154 phi=21 argmax=[[4, 1]] time=0.62
+M=5 t=13 s=3 slice p=2147483647: |A|=6860 reg=20 ratio=1.5385 phi=20 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.66
+M=5 t=13 s=5 slice p=2147483647: |A|=6376 reg=20 ratio=1.5385 phi=20 argmax=[[5], [4, 1], [3, 2], [3, 1, 1]] time=0.66
+M=5 t=13 s=7 slice p=2147483647: |A|=5665 reg=19 ratio=1.4615 phi=19 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.33
+M=5 t=13 s=9 slice p=2147483647: |A|=4745 reg=18 ratio=1.3846 phi=18 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1]] time=0.37
+M=5 t=13 s=11 slice p=2147483647: |A|=3640 reg=16 ratio=1.2308 phi=16 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.15
+M=5 t=13 s=13 slice p=2147483647: |A|=2380 reg=13 ratio=1.0000 phi=13 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.08
+M=5 t=14 s=0 slice p=2147483647: |A|=9381 reg=23 ratio=1.6429 phi=23 argmax=[[3, 1, 1]] time=0.58
+M=5 t=14 s=2 slice p=2147483647: |A|=9240 reg=22 ratio=1.5714 phi=22 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=1.49
+M=5 t=14 s=4 slice p=2147483647: |A|=8820 reg=22 ratio=1.5714 phi=22 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.92
+M=5 t=14 s=6 slice p=2147483647: |A|=8130 reg=21 ratio=1.5000 phi=21 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=0.77
+M=5 t=14 s=8 slice p=2147483647: |A|=7185 reg=20 ratio=1.4286 phi=20 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.43
+M=5 t=14 s=10 slice p=2147483647: |A|=6006 reg=20 ratio=1.4286 phi=20 argmax=[[5]] time=0.55
+M=5 t=14 s=12 slice p=2147483647: |A|=4620 reg=17 ratio=1.2143 phi=17 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.29
+M=5 t=14 s=14 slice p=2147483647: |A|=3060 reg=14 ratio=1.0000 phi=14 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.28
+M=5 t=15 s=1 slice p=2147483647: |A|=12080 reg=24 ratio=1.6000 phi=24 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1]] time=1.74
+M=5 t=15 s=3 slice p=2147483647: |A|=11760 reg=24 ratio=1.6000 phi=24 argmax=[[5], [4, 1]] time=1.57
+M=5 t=15 s=5 slice p=2147483647: |A|=11126 reg=23 ratio=1.5333 phi=23 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=2.04
+M=5 t=15 s=7 slice p=2147483647: |A|=10190 reg=22 ratio=1.4667 phi=22 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=1.19
+M=5 t=15 s=9 slice p=2147483647: |A|=8970 reg=22 ratio=1.4667 phi=22 argmax=[[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=1.12
+M=5 t=15 s=11 slice p=2147483647: |A|=7490 reg=21 ratio=1.4000 phi=21 argmax=[[4, 1]] time=0.64
+M=5 t=15 s=13 slice p=2147483647: |A|=5780 reg=18 ratio=1.2000 phi=18 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.7
+M=5 t=15 s=15 slice p=2147483647: |A|=3876 reg=15 ratio=1.0000 phi=15 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.16
+M=5 t=16 s=0 slice p=2147483647: |A|=15421 reg=26 ratio=1.6250 phi=26 argmax=[[5], [4, 1], [3, 2], [2, 2, 1]] time=1.77
+M=5 t=16 s=2 slice p=2147483647: |A|=15240 reg=26 ratio=1.6250 phi=26 argmax=[[2, 1, 1, 1]] time=3.56
+M=5 t=16 s=4 slice p=2147483647: |A|=14700 reg=25 ratio=1.5625 phi=25 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=2.4
+M=5 t=16 s=6 slice p=2147483647: |A|=13810 reg=24 ratio=1.5000 phi=24 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=1.86
+M=5 t=16 s=8 slice p=2147483647: |A|=12585 reg=24 ratio=1.5000 phi=24 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1]] time=2.13
+M=5 t=16 s=10 slice p=2147483647: |A|=11046 reg=23 ratio=1.4375 phi=23 argmax=[[3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=1.92
+M=5 t=16 s=12 slice p=2147483647: |A|=9220 reg=22 ratio=1.3750 phi=22 argmax=[[5], [4, 1], [3, 2]] time=1.03
+M=5 t=16 s=14 slice p=2147483647: |A|=7140 reg=19 ratio=1.1875 phi=19 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.62
+M=5 t=16 s=16 slice p=2147483647: |A|=4845 reg=16 ratio=1.0000 phi=16 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.45
+M=5 t=17 s=1 slice p=2147483647: |A|=19305 reg=27 ratio=1.5882 phi=28 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=5.35
+M=5 t=17 s=3 slice p=2147483647: |A|=18900 reg=27 ratio=1.5882 phi=27 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=4.09
+M=5 t=17 s=5 slice p=2147483647: |A|=18096 reg=26 ratio=1.5294 phi=26 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=3.93
+M=5 t=17 s=7 slice p=2147483647: |A|=16905 reg=26 ratio=1.5294 phi=26 argmax=[[3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=3.67
+M=5 t=17 s=9 slice p=2147483647: |A|=15345 reg=25 ratio=1.4706 phi=25 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1]] time=3.02
+M=5 t=17 s=11 slice p=2147483647: |A|=13440 reg=24 ratio=1.4118 phi=24 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=1.73
+M=5 t=17 s=13 slice p=2147483647: |A|=11220 reg=23 ratio=1.3529 phi=23 argmax=[[5], [4, 1], [3, 2], [3, 1, 1]] time=1.39
+M=5 t=17 s=15 slice p=2147483647: |A|=8721 reg=20 ratio=1.1765 phi=20 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.87
+M=5 t=17 s=17 slice p=2147483647: |A|=5985 reg=17 ratio=1.0000 phi=17 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.32
+M=5 t=18 s=0 slice p=2147483647: |A|=24001 reg=30 ratio=1.6667 phi=30 argmax=[[1, 1, 1, 1, 1]] time=4.47
+M=5 t=18 s=2 slice p=2147483647: |A|=23775 reg=29 ratio=1.6111 phi=29 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1]] time=7.91
+M=5 t=18 s=4 slice p=2147483647: |A|=23100 reg=28 ratio=1.5556 phi=28 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=6.85
+M=5 t=18 s=6 slice p=2147483647: |A|=21985 reg=28 ratio=1.5556 phi=28 argmax=[[5], [4, 1], [3, 2], [3, 1, 1]] time=5.8
+M=5 t=18 s=8 slice p=2147483647: |A|=20445 reg=27 ratio=1.5000 phi=27 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=5.19
+M=5 t=18 s=10 slice p=2147483647: |A|=18501 reg=26 ratio=1.4444 phi=26 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=4.62
+M=5 t=18 s=12 slice p=2147483647: |A|=16180 reg=26 ratio=1.4444 phi=26 argmax=[[2, 1, 1, 1]] time=3.19
+M=5 t=18 s=14 slice p=2147483647: |A|=13515 reg=24 ratio=1.3333 phi=24 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1]] time=1.37
+M=5 t=18 s=16 slice p=2147483647: |A|=10545 reg=21 ratio=1.1667 phi=21 argmax=[[4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.97
+M=5 t=18 s=18 slice p=2147483647: |A|=7315 reg=18 ratio=1.0000 phi=18 argmax=[[5], [4, 1], [3, 2], [3, 1, 1], [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]] time=0.68
+M=6 t=1 s=1 slice p=2147483647: |A|=6 reg=1 ratio=1.0000 phi=1 argmax=[[5, 1]] time=0.0
+M=6 t=2 s=0 slice p=2147483647: |A|=31 reg=3 ratio=1.5000 phi=3 argmax=[[4, 1, 1]] time=0.01
+M=6 t=2 s=2 slice p=2147483647: |A|=21 reg=2 ratio=1.0000 phi=2 argmax=[[6], [5, 1], [4, 2]] time=0.01
+M=6 t=3 s=1 slice p=2147483647: |A|=96 reg=4 ratio=1.3333 phi=5 argmax=[[5, 1], [4, 2], [4, 1, 1], [3, 2, 1]] time=0.01
+M=6 t=3 s=3 slice p=2147483647: |A|=56 reg=3 ratio=1.0000 phi=3 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3]] time=0.01
+M=6 t=4 s=0 slice p=2147483647: |A|=271 reg=6 ratio=1.5000 phi=6 argmax=[[6], [5, 1], [4, 2], [3, 3], [3, 2, 1], [2, 2, 2]] time=0.02
+M=6 t=4 s=2 slice p=2147483647: |A|=231 reg=6 ratio=1.5000 phi=6 argmax=[[3, 1, 1, 1]] time=0.02
+M=6 t=4 s=4 slice p=2147483647: |A|=126 reg=4 ratio=1.0000 phi=4 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 2, 1]] time=0.01
+M=6 t=5 s=1 slice p=2147483647: |A|=606 reg=7 ratio=1.4000 phi=8 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 1, 1]] time=0.03
+M=6 t=5 s=3 slice p=2147483647: |A|=476 reg=7 ratio=1.4000 phi=7 argmax=[[4, 1, 1], [3, 2, 1], [3, 1, 1, 1], [2, 2, 1, 1]] time=0.03
+M=6 t=5 s=5 slice p=2147483647: |A|=252 reg=5 ratio=1.0000 phi=5 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1]] time=0.02
+M=6 t=6 s=0 slice p=2147483647: |A|=1281 reg=10 ratio=1.6667 phi=10 argmax=[[2, 1, 1, 1, 1]] time=0.05
+M=6 t=6 s=2 slice p=2147483647: |A|=1176 reg=9 ratio=1.5000 phi=10 argmax=[[5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [2, 2, 2], [2, 2, 1, 1]] time=0.04
+M=6 t=6 s=4 slice p=2147483647: |A|=882 reg=8 ratio=1.3333 phi=8 argmax=[[4, 2], [4, 1, 1], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1]] time=0.03
+M=6 t=6 s=6 slice p=2147483647: |A|=462 reg=6 ratio=1.0000 phi=6 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2]] time=0.02
+M=6 t=7 s=1 slice p=2147483647: |A|=2376 reg=11 ratio=1.5714 phi=11 argmax=[[3, 1, 1, 1], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.06
+M=6 t=7 s=3 slice p=2147483647: |A|=2072 reg=10 ratio=1.4286 phi=11 argmax=[[5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1]] time=0.05
+M=6 t=7 s=5 slice p=2147483647: |A|=1512 reg=10 ratio=1.4286 phi=10 argmax=[[2, 1, 1, 1, 1]] time=0.05
+M=6 t=7 s=7 slice p=2147483647: |A|=792 reg=7 ratio=1.0000 phi=7 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 1, 1]] time=0.03
+M=6 t=8 s=0 slice p=2147483647: |A|=4251 reg=13 ratio=1.6250 phi=13 argmax=[[4, 1, 1], [3, 2, 1], [3, 1, 1, 1], [2, 2, 1, 1]] time=0.11
+M=6 t=8 s=2 slice p=2147483647: |A|=4032 reg=12 ratio=1.5000 phi=13 argmax=[[5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.09
+M=6 t=8 s=4 slice p=2147483647: |A|=3402 reg=12 ratio=1.5000 phi=12 argmax=[[6], [5, 1], [4, 2], [3, 3], [3, 2, 1], [2, 2, 2]] time=0.08
+M=6 t=8 s=6 slice p=2147483647: |A|=2442 reg=11 ratio=1.3750 phi=11 argmax=[[3, 1, 1, 1], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.06
+M=6 t=8 s=8 slice p=2147483647: |A|=1287 reg=8 ratio=1.0000 phi=8 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1]] time=0.04
+M=6 t=9 s=1 slice p=2147483647: |A|=7002 reg=14 ratio=1.5556 phi=15 argmax=[[4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.17
+M=6 t=9 s=3 slice p=2147483647: |A|=6412 reg=15 ratio=1.6667 phi=15 argmax=[[1, 1, 1, 1, 1, 1]] time=0.16
+M=6 t=9 s=5 slice p=2147483647: |A|=5292 reg=13 ratio=1.4444 phi=13 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1]] time=0.16
+M=6 t=9 s=7 slice p=2147483647: |A|=3762 reg=12 ratio=1.3333 phi=12 argmax=[[3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.09
+M=6 t=9 s=9 slice p=2147483647: |A|=2002 reg=9 ratio=1.0000 phi=9 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1]] time=0.06
+M=6 t=10 s=0 slice p=2147483647: |A|=11253 reg=16 ratio=1.6000 phi=16 argmax=[[4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.27
+M=6 t=10 s=2 slice p=2147483647: |A|=10857 reg=16 ratio=1.6000 phi=16 argmax=[[5, 1], [4, 2], [4, 1, 1], [3, 2, 1], [2, 1, 1, 1, 1]] time=0.41
+M=6 t=10 s=4 slice p=2147483647: |A|=9702 reg=16 ratio=1.6000 phi=16 argmax=[[2, 1, 1, 1, 1]] time=0.28
+M=6 t=10 s=6 slice p=2147483647: |A|=7887 reg=14 ratio=1.4000 phi=15 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.2
+M=6 t=10 s=8 slice p=2147483647: |A|=5577 reg=13 ratio=1.3000 phi=13 argmax=[[4, 1, 1], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.22
+M=6 t=10 s=10 slice p=2147483647: |A|=3003 reg=10 ratio=1.0000 phi=10 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.07
+M=6 t=11 s=1 slice p=2147483647: |A|=17088 reg=17 ratio=1.5455 phi=18 argmax=[[5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=1.02
+M=6 t=11 s=3 slice p=2147483647: |A|=16072 reg=18 ratio=1.6364 phi=18 argmax=[[3, 1, 1, 1]] time=0.99
+M=6 t=11 s=5 slice p=2147483647: |A|=14112 reg=17 ratio=1.5455 phi=17 argmax=[[2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=0.68
+M=6 t=11 s=7 slice p=2147483647: |A|=11352 reg=16 ratio=1.4545 phi=16 argmax=[[5, 1], [4, 2], [4, 1, 1], [3, 2, 1]] time=0.45
+M=6 t=11 s=9 slice p=2147483647: |A|=8008 reg=15 ratio=1.3636 phi=15 argmax=[[1, 1, 1, 1, 1, 1]] time=0.17
+M=6 t=11 s=11 slice p=2147483647: |A|=4368 reg=11 ratio=1.0000 phi=11 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.09
+M=6 t=12 s=0 slice p=2147483647: |A|=25493 reg=20 ratio=1.6667 phi=20 argmax=[[6], [5, 1], [4, 2], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=0.9
+M=6 t=12 s=2 slice p=2147483647: |A|=24843 reg=19 ratio=1.5833 phi=20 argmax=[[5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=1.39
+M=6 t=12 s=4 slice p=2147483647: |A|=22932 reg=19 ratio=1.5833 phi=20 argmax=[[3, 2, 1], [3, 1, 1, 1], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=1.3
+M=6 t=12 s=6 slice p=2147483647: |A|=19877 reg=18 ratio=1.5000 phi=18 argmax=[[4, 2], [4, 1, 1], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=1.04
+M=6 t=12 s=8 slice p=2147483647: |A|=15873 reg=17 ratio=1.4167 phi=17 argmax=[[5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1]] time=0.46
+M=6 t=12 s=10 slice p=2147483647: |A|=11193 reg=16 ratio=1.3333 phi=16 argmax=[[2, 1, 1, 1, 1]] time=0.34
+M=6 t=12 s=12 slice p=2147483647: |A|=6188 reg=12 ratio=1.0000 phi=12 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.13
+M=6 t=13 s=1 slice p=2147483647: |A|=36498 reg=21 ratio=1.6154 phi=21 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=3.35
+M=6 t=13 s=3 slice p=2147483647: |A|=34888 reg=21 ratio=1.6154 phi=21 argmax=[[3, 3], [3, 2, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=3.04
+M=6 t=13 s=5 slice p=2147483647: |A|=31752 reg=21 ratio=1.6154 phi=21 argmax=[[4, 1, 1]] time=2.81
+M=6 t=13 s=7 slice p=2147483647: |A|=27258 reg=20 ratio=1.5385 phi=20 argmax=[[2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=1.63
+M=6 t=13 s=9 slice p=2147483647: |A|=21658 reg=18 ratio=1.3846 phi=18 argmax=[[5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1]] time=1.14
+M=6 t=13 s=11 slice p=2147483647: |A|=15288 reg=17 ratio=1.3077 phi=17 argmax=[[2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=0.61
+M=6 t=13 s=13 slice p=2147483647: |A|=8568 reg=13 ratio=1.0000 phi=13 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.21
+M=6 t=14 s=0 slice p=2147483647: |A|=51563 reg=23 ratio=1.6429 phi=23 argmax=[[5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=3.03
+M=6 t=14 s=2 slice p=2147483647: |A|=50568 reg=22 ratio=1.5714 phi=23 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=6.27
+M=6 t=14 s=4 slice p=2147483647: |A|=47628 reg=22 ratio=1.5714 phi=23 argmax=[[4, 2], [4, 1, 1], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=5.65
+M=6 t=14 s=6 slice p=2147483647: |A|=42878 reg=22 ratio=1.5714 phi=22 argmax=[[4, 2], [4, 1, 1], [3, 2, 1], [3, 1, 1, 1]] time=4.09
+M=6 t=14 s=8 slice p=2147483647: |A|=36543 reg=21 ratio=1.5000 phi=21 argmax=[[3, 1, 1, 1], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=3.4
+M=6 t=14 s=10 slice p=2147483647: |A|=28938 reg=20 ratio=1.4286 phi=20 argmax=[[6], [5, 1], [4, 2]] time=2.16
+M=6 t=14 s=12 slice p=2147483647: |A|=20468 reg=18 ratio=1.2857 phi=18 argmax=[[3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=0.8
+M=6 t=14 s=14 slice p=2147483647: |A|=11628 reg=14 ratio=1.0000 phi=14 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=0.44
+M=6 t=15 s=1 slice p=2147483647: |A|=70608 reg=24 ratio=1.6000 phi=25 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=14.24
+M=6 t=15 s=3 slice p=2147483647: |A|=68208 reg=25 ratio=1.6667 phi=25 argmax=[[5, 1]] time=10.74
+M=6 t=15 s=5 slice p=2147483647: |A|=63504 reg=24 ratio=1.6000 phi=25 argmax=[[4, 2], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=10.18
+M=6 t=15 s=7 slice p=2147483647: |A|=56688 reg=23 ratio=1.5333 phi=23 argmax=[[4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 1, 1], [2, 1, 1, 1, 1]] time=6.83
+M=6 t=15 s=9 slice p=2147483647: |A|=48048 reg=22 ratio=1.4667 phi=22 argmax=[[4, 2], [4, 1, 1], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=4.72
+M=6 t=15 s=11 slice p=2147483647: |A|=37968 reg=21 ratio=1.4000 phi=21 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1]] time=2.9
+M=6 t=15 s=13 slice p=2147483647: |A|=26928 reg=19 ratio=1.2667 phi=19 argmax=[[3, 2, 1], [3, 1, 1, 1], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=1.38
+M=6 t=15 s=15 slice p=2147483647: |A|=15504 reg=15 ratio=1.0000 phi=15 argmax=[[6], [5, 1], [4, 2], [4, 1, 1], [3, 3], [3, 2, 1], [3, 1, 1, 1], [2, 2, 2], [2, 2, 1, 1], [2, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1]] time=0.45
+M=7 t=1 s=1 slice p=2147483647: |A|=7 reg=1 ratio=1.0000 phi=1 argmax=[[6, 1]] time=0.01
+M=7 t=2 s=0 slice p=2147483647: |A|=43 reg=3 ratio=1.5000 phi=3 argmax=[[5, 1, 1]] time=0.02
+M=7 t=2 s=2 slice p=2147483647: |A|=28 reg=2 ratio=1.0000 phi=2 argmax=[[7], [6, 1], [5, 2]] time=0.01
+M=7 t=3 s=1 slice p=2147483647: |A|=154 reg=4 ratio=1.3333 phi=5 argmax=[[6, 1], [5, 2], [5, 1, 1], [4, 2, 1]] time=0.03
+M=7 t=3 s=3 slice p=2147483647: |A|=84 reg=3 ratio=1.0000 phi=3 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3]] time=0.02
+M=7 t=4 s=0 slice p=2147483647: |A|=505 reg=6 ratio=1.5000 phi=7 argmax=[[7], [6, 1], [5, 2], [4, 3], [4, 2, 1], [3, 2, 2]] time=0.05
+M=7 t=4 s=2 slice p=2147483647: |A|=420 reg=6 ratio=1.5000 phi=6 argmax=[[4, 1, 1, 1]] time=0.04
+M=7 t=4 s=4 slice p=2147483647: |A|=210 reg=4 ratio=1.0000 phi=4 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1]] time=0.03
+M=7 t=5 s=1 slice p=2147483647: |A|=1281 reg=7 ratio=1.4000 phi=8 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1]] time=0.07
+M=7 t=5 s=3 slice p=2147483647: |A|=966 reg=7 ratio=1.4000 phi=7 argmax=[[5, 1, 1], [4, 2, 1], [4, 1, 1, 1], [3, 2, 1, 1]] time=0.06
+M=7 t=5 s=5 slice p=2147483647: |A|=462 reg=5 ratio=1.0000 phi=5 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [3, 3, 1]] time=0.03
+M=7 t=6 s=0 slice p=2147483647: |A|=3067 reg=10 ratio=1.6667 phi=10 argmax=[[3, 1, 1, 1, 1]] time=0.1
+M=7 t=6 s=2 slice p=2147483647: |A|=2772 reg=9 ratio=1.5000 phi=10 argmax=[[6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [2, 2, 2, 1]] time=0.09
+M=7 t=6 s=4 slice p=2147483647: |A|=1974 reg=8 ratio=1.3333 phi=9 argmax=[[5, 2], [5, 1, 1], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1]] time=0.07
+M=7 t=6 s=6 slice p=2147483647: |A|=924 reg=6 ratio=1.0000 phi=6 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2]] time=0.05
+M=7 t=7 s=1 slice p=2147483647: |A|=6328 reg=11 ratio=1.5714 phi=12 argmax=[[4, 1, 1, 1], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 1, 1, 1]] time=0.14
+M=7 t=7 s=3 slice p=2147483647: |A|=5376 reg=10 ratio=1.4286 phi=11 argmax=[[6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [2, 2, 2, 1]] time=0.15
+M=7 t=7 s=5 slice p=2147483647: |A|=3696 reg=10 ratio=1.4286 phi=10 argmax=[[3, 1, 1, 1, 1]] time=0.11
+M=7 t=7 s=7 slice p=2147483647: |A|=1716 reg=7 ratio=1.0000 phi=7 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1]] time=0.12
+M=7 t=8 s=0 slice p=2147483647: |A|=12559 reg=13 ratio=1.6250 phi=14 argmax=[[5, 1, 1], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.24
+M=7 t=8 s=2 slice p=2147483647: |A|=11788 reg=12 ratio=1.5000 phi=13 argmax=[[6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.21
+M=7 t=8 s=4 slice p=2147483647: |A|=9618 reg=12 ratio=1.5000 phi=13 argmax=[[7], [6, 1], [5, 2], [4, 3], [4, 2, 1], [3, 3, 1], [3, 2, 2], [2, 2, 2, 1]] time=0.18
+M=7 t=8 s=6 slice p=2147483647: |A|=6468 reg=11 ratio=1.3750 phi=11 argmax=[[4, 1, 1, 1], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 1, 1, 1]] time=0.19
+M=7 t=8 s=8 slice p=2147483647: |A|=3003 reg=8 ratio=1.0000 phi=8 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1]] time=0.09
+M=7 t=9 s=1 slice p=2147483647: |A|=22645 reg=14 ratio=1.5556 phi=15 argmax=[[5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.42
+M=7 t=9 s=3 slice p=2147483647: |A|=20370 reg=15 ratio=1.6667 phi=15 argmax=[[2, 1, 1, 1, 1, 1]] time=0.56
+M=7 t=9 s=5 slice p=2147483647: |A|=16170 reg=13 ratio=1.4444 phi=14 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.28
+M=7 t=9 s=7 slice p=2147483647: |A|=10725 reg=12 ratio=1.3333 phi=12 argmax=[[4, 2, 1], [4, 1, 1, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.21
+M=7 t=9 s=9 slice p=2147483647: |A|=5005 reg=9 ratio=1.0000 phi=9 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [2, 2, 2, 1]] time=0.13
+M=7 t=10 s=0 slice p=2147483647: |A|=39733 reg=16 ratio=1.6000 phi=17 argmax=[[5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.76
+M=7 t=10 s=2 slice p=2147483647: |A|=38052 reg=16 ratio=1.6000 phi=17 argmax=[[6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=0.88
+M=7 t=10 s=4 slice p=2147483647: |A|=33222 reg=16 ratio=1.6000 phi=16 argmax=[[3, 1, 1, 1, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=0.74
+M=7 t=10 s=6 slice p=2147483647: |A|=25872 reg=14 ratio=1.4000 phi=15 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.46
+M=7 t=10 s=8 slice p=2147483647: |A|=17017 reg=13 ratio=1.3000 phi=13 argmax=[[5, 1, 1], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.27
+M=7 t=10 s=10 slice p=2147483647: |A|=8008 reg=10 ratio=1.0000 phi=10 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1]] time=0.16
+M=7 t=11 s=1 slice p=2147483647: |A|=65226 reg=17 ratio=1.5455 phi=19 argmax=[[6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=1.81
+M=7 t=11 s=3 slice p=2147483647: |A|=60564 reg=18 ratio=1.6364 phi=18 argmax=[[4, 1, 1, 1], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 1, 1, 1]] time=1.52
+M=7 t=11 s=5 slice p=2147483647: |A|=51744 reg=17 ratio=1.5455 phi=18 argmax=[[3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=1.26
+M=7 t=11 s=7 slice p=2147483647: |A|=39754 reg=16 ratio=1.4545 phi=16 argmax=[[6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [2, 2, 2, 1]] time=0.77
+M=7 t=11 s=9 slice p=2147483647: |A|=26026 reg=15 ratio=1.3636 phi=15 argmax=[[2, 1, 1, 1, 1, 1]] time=0.45
+M=7 t=11 s=11 slice p=2147483647: |A|=12376 reg=11 ratio=1.0000 phi=11 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.21
+M=7 t=12 s=0 slice p=2147483647: |A|=104959 reg=21 ratio=1.7500 phi=21 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=3.03
+M=7 t=12 s=2 slice p=2147483647: |A|=101724 reg=19 ratio=1.5833 phi=20 argmax=[[6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=3.93
+M=7 t=12 s=4 slice p=2147483647: |A|=92316 reg=19 ratio=1.5833 phi=20 argmax=[[4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=3.41
+M=7 t=12 s=6 slice p=2147483647: |A|=77616 reg=18 ratio=1.5000 phi=19 argmax=[[5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=3.03
+M=7 t=12 s=8 slice p=2147483647: |A|=59059 reg=17 ratio=1.4167 phi=18 argmax=[[6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=1.69
+M=7 t=12 s=10 slice p=2147483647: |A|=38584 reg=16 ratio=1.3333 phi=16 argmax=[[3, 1, 1, 1, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=0.76
+M=7 t=12 s=12 slice p=2147483647: |A|=18564 reg=12 ratio=1.0000 phi=12 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.47
+M=7 t=13 s=1 slice p=2147483647: |A|=160867 reg=22 ratio=1.6923 phi=22 argmax=[[2, 1, 1, 1, 1, 1]] time=10.81
+M=7 t=13 s=3 slice p=2147483647: |A|=152292 reg=21 ratio=1.6154 phi=22 argmax=[[4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=8.78
+M=7 t=13 s=5 slice p=2147483647: |A|=135828 reg=21 ratio=1.6154 phi=21 argmax=[[5, 1, 1], [4, 2, 1], [4, 1, 1, 1], [3, 2, 1, 1]] time=7.0
+M=7 t=13 s=7 slice p=2147483647: |A|=112827 reg=21 ratio=1.6154 phi=21 argmax=[[1, 1, 1, 1, 1, 1, 1]] time=4.74
+M=7 t=13 s=9 slice p=2147483647: |A|=85267 reg=18 ratio=1.3846 phi=19 argmax=[[6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=3.03
+M=7 t=13 s=11 slice p=2147483647: |A|=55692 reg=17 ratio=1.3077 phi=17 argmax=[[3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1], [2, 1, 1, 1, 1, 1]] time=1.01
+M=7 t=13 s=13 slice p=2147483647: |A|=27132 reg=13 ratio=1.0000 phi=13 argmax=[[7], [6, 1], [5, 2], [5, 1, 1], [4, 3], [4, 2, 1], [4, 1, 1, 1], [3, 3, 1], [3, 2, 2], [3, 2, 1, 1], [3, 1, 1, 1, 1], [2, 2, 2, 1], [2, 2, 1, 1, 1]] time=0.43
+M=8 t=1 s=1 slice p=2147483647: |A|=8 reg=1 ratio=1.0000 phi=1 argmax=[[7, 1]] time=0.02
+M=8 t=2 s=0 slice p=2147483647: |A|=57 reg=3 ratio=1.5000 phi=3 argmax=[[6, 1, 1]] time=0.05
+M=8 t=2 s=2 slice p=2147483647: |A|=36 reg=2 ratio=1.0000 phi=2 argmax=[[8], [7, 1], [6, 2]] time=0.03
+M=8 t=3 s=1 slice p=2147483647: |A|=232 reg=4 ratio=1.3333 phi=5 argmax=[[7, 1], [6, 2], [6, 1, 1], [5, 2, 1]] time=0.08
+M=8 t=3 s=3 slice p=2147483647: |A|=120 reg=3 ratio=1.0000 phi=3 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3]] time=0.07
+M=8 t=4 s=0 slice p=2147483647: |A|=869 reg=6 ratio=1.5000 phi=7 argmax=[[8], [7, 1], [6, 2], [5, 3], [5, 2, 1], [4, 2, 2]] time=0.17
+M=8 t=4 s=2 slice p=2147483647: |A|=708 reg=6 ratio=1.5000 phi=6 argmax=[[5, 1, 1, 1]] time=0.12
+M=8 t=4 s=4 slice p=2147483647: |A|=330 reg=4 ratio=1.0000 phi=4 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [4, 4]] time=0.08
+M=8 t=5 s=1 slice p=2147483647: |A|=2472 reg=7 ratio=1.4000 phi=8 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 3, 2]] time=0.16
+M=8 t=5 s=3 slice p=2147483647: |A|=1800 reg=7 ratio=1.4000 phi=7 argmax=[[6, 1, 1], [5, 2, 1], [5, 1, 1, 1], [4, 2, 1, 1]] time=0.14
+M=8 t=5 s=5 slice p=2147483647: |A|=792 reg=5 ratio=1.0000 phi=5 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [4, 3, 1]] time=0.1
+M=8 t=6 s=0 slice p=2147483647: |A|=6637 reg=10 ratio=1.6667 phi=10 argmax=[[4, 1, 1, 1, 1]] time=0.26
+M=8 t=6 s=2 slice p=2147483647: |A|=5916 reg=9 ratio=1.5000 phi=10 argmax=[[7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 2, 2, 1]] time=0.28
+M=8 t=6 s=4 slice p=2147483647: |A|=4026 reg=8 ratio=1.3333 phi=9 argmax=[[6, 2], [6, 1, 1], [5, 2, 1], [5, 1, 1, 1], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 3, 1, 1]] time=0.2
+M=8 t=6 s=6 slice p=2147483647: |A|=1716 reg=6 ratio=1.0000 phi=6 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2]] time=0.13
+M=8 t=7 s=1 slice p=2147483647: |A|=15128 reg=11 ratio=1.5714 phi=12 argmax=[[5, 1, 1, 1], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 2, 1, 1, 1]] time=0.41
+M=8 t=7 s=3 slice p=2147483647: |A|=12552 reg=10 ratio=1.4286 phi=11 argmax=[[7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1]] time=0.34
+M=8 t=7 s=5 slice p=2147483647: |A|=8184 reg=10 ratio=1.4286 phi=10 argmax=[[4, 1, 1, 1, 1]] time=0.32
+M=8 t=7 s=7 slice p=2147483647: |A|=3432 reg=7 ratio=1.0000 phi=7 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 3, 2]] time=0.16
+M=8 t=8 s=0 slice p=2147483647: |A|=33111 reg=13 ratio=1.6250 phi=14 argmax=[[6, 1, 1], [5, 2, 1], [5, 1, 1, 1], [4, 3, 1], [4, 2, 1, 1], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 1, 1]] time=0.58
+M=8 t=8 s=2 slice p=2147483647: |A|=30780 reg=12 ratio=1.5000 phi=14 argmax=[[7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1]] time=0.59
+M=8 t=8 s=4 slice p=2147483647: |A|=24354 reg=12 ratio=1.5000 phi=13 argmax=[[8], [7, 1], [6, 2], [5, 3], [5, 2, 1], [4, 4], [4, 3, 1], [4, 2, 2], [3, 3, 2], [3, 2, 2, 1], [2, 2, 2, 2]] time=0.49
+M=8 t=8 s=6 slice p=2147483647: |A|=15444 reg=11 ratio=1.3750 phi=11 argmax=[[5, 1, 1, 1], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 2, 1, 1, 1]] time=0.42
+M=8 t=8 s=8 slice p=2147483647: |A|=6435 reg=8 ratio=1.0000 phi=8 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 3, 2], [3, 3, 1, 1]] time=0.21
+M=8 t=9 s=1 slice p=2147483647: |A|=65080 reg=14 ratio=1.5556 phi=15 argmax=[[6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1]] time=1.1
+M=8 t=9 s=3 slice p=2147483647: |A|=57576 reg=15 ratio=1.6667 phi=15 argmax=[[3, 1, 1, 1, 1, 1]] time=0.96
+M=8 t=9 s=5 slice p=2147483647: |A|=44088 reg=13 ratio=1.4444 phi=14 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 1, 1]] time=1.12
+M=8 t=9 s=7 slice p=2147483647: |A|=27456 reg=12 ratio=1.3333 phi=12 argmax=[[5, 2, 1], [5, 1, 1, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1]] time=0.5
+M=8 t=9 s=9 slice p=2147483647: |A|=11440 reg=9 ratio=1.0000 phi=9 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1]] time=0.33
+M=8 t=10 s=0 slice p=2147483647: |A|=124223 reg=16 ratio=1.6000 phi=17 argmax=[[6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 2]] time=1.57
+M=8 t=10 s=2 slice p=2147483647: |A|=118140 reg=16 ratio=1.6000 phi=17 argmax=[[7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=2.02
+M=8 t=10 s=4 slice p=2147483647: |A|=100914 reg=16 ratio=1.6000 phi=16 argmax=[[4, 1, 1, 1, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 1, 1, 1, 1]] time=1.52
+M=8 t=10 s=6 slice p=2147483647: |A|=75504 reg=14 ratio=1.4000 phi=15 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1]] time=1.15
+M=8 t=10 s=8 slice p=2147483647: |A|=46475 reg=13 ratio=1.3000 phi=14 argmax=[[6, 1, 1], [5, 2, 1], [5, 1, 1, 1], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 1, 1]] time=0.78
+M=8 t=10 s=10 slice p=2147483647: |A|=19448 reg=10 ratio=1.0000 phi=10 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1]] time=0.38
+M=8 t=11 s=1 slice p=2147483647: |A|=219864 reg=17 ratio=1.5455 phi=19 argmax=[[7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=4.01
+M=8 t=11 s=3 slice p=2147483647: |A|=201672 reg=18 ratio=1.6364 phi=19 argmax=[[5, 1, 1, 1], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 1, 1], [3, 2, 1, 1, 1], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=3.77
+M=8 t=11 s=5 slice p=2147483647: |A|=167904 reg=17 ratio=1.5455 phi=18 argmax=[[4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=2.75
+M=8 t=11 s=7 slice p=2147483647: |A|=123552 reg=16 ratio=1.4545 phi=17 argmax=[[7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1]] time=2.07
+M=8 t=11 s=9 slice p=2147483647: |A|=75504 reg=15 ratio=1.3636 phi=15 argmax=[[3, 1, 1, 1, 1, 1]] time=1.23
+M=8 t=11 s=11 slice p=2147483647: |A|=31824 reg=11 ratio=1.0000 phi=11 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1]] time=0.56
+M=8 t=12 s=0 slice p=2147483647: |A|=380731 reg=21 ratio=1.7500 phi=21 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=7.34
+M=8 t=12 s=2 slice p=2147483647: |A|=367068 reg=19 ratio=1.5833 phi=21 argmax=[[7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=10.05
+M=8 t=12 s=4 slice p=2147483647: |A|=327756 reg=19 ratio=1.5833 phi=20 argmax=[[5, 2, 1], [5, 1, 1, 1], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=8.92
+M=8 t=12 s=6 slice p=2147483647: |A|=267696 reg=18 ratio=1.5000 phi=19 argmax=[[6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=5.77
+M=8 t=12 s=8 slice p=2147483647: |A|=194623 reg=17 ratio=1.4167 phi=18 argmax=[[7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1]] time=3.87
+M=8 t=12 s=10 slice p=2147483647: |A|=118456 reg=16 ratio=1.3333 phi=16 argmax=[[4, 1, 1, 1, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 1, 1, 1, 1]] time=2.01
+M=8 t=12 s=12 slice p=2147483647: |A|=50388 reg=12 ratio=1.0000 phi=12 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 2]] time=0.97
+M=8 t=13 s=1 slice p=2147483647: |A|=623576 reg=22 ratio=1.6923 phi=22 argmax=[[3, 1, 1, 1, 1, 1], [2, 2, 1, 1, 1, 1], [2, 1, 1, 1, 1, 1, 1]] time=28.94
+M=8 t=13 s=3 slice p=2147483647: |A|=584880 reg=21 ratio=1.6154 phi=22 argmax=[[5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=23.91
+M=8 t=13 s=5 slice p=2147483647: |A|=511632 reg=21 ratio=1.6154 phi=21 argmax=[[6, 1, 1], [5, 2, 1], [5, 1, 1, 1], [4, 3, 1], [4, 2, 1, 1], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 1, 1]] time=19.38
+M=8 t=13 s=7 slice p=2147483647: |A|=411840 reg=21 ratio=1.6154 phi=21 argmax=[[2, 1, 1, 1, 1, 1, 1]] time=11.17
+M=8 t=13 s=9 slice p=2147483647: |A|=296816 reg=18 ratio=1.3846 phi=19 argmax=[[7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 2], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=7.82
+M=8 t=13 s=11 slice p=2147483647: |A|=180336 reg=17 ratio=1.3077 phi=17 argmax=[[4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [3, 1, 1, 1, 1, 1], [2, 2, 2, 1, 1], [2, 2, 1, 1, 1, 1]] time=3.09
+M=8 t=13 s=13 slice p=2147483647: |A|=77520 reg=13 ratio=1.0000 phi=13 argmax=[[8], [7, 1], [6, 2], [6, 1, 1], [5, 3], [5, 2, 1], [5, 1, 1, 1], [4, 4], [4, 3, 1], [4, 2, 2], [4, 2, 1, 1], [4, 1, 1, 1, 1], [3, 3, 2], [3, 3, 1, 1], [3, 2, 2, 1], [3, 2, 1, 1, 1], [2, 2, 2, 1, 1]] time=1.04
+M=9 t=1 s=1 slice p=2147483647: |A|=9 reg=1 ratio=1.0000 phi=1 argmax=[[8, 1]] time=0.04
+M=9 t=2 s=0 slice p=2147483647: |A|=73 reg=3 ratio=1.5000 phi=3 argmax=[[7, 1, 1]] time=0.21
+M=9 t=2 s=2 slice p=2147483647: |A|=45 reg=2 ratio=1.0000 phi=2 argmax=[[9], [8, 1], [7, 2]] time=0.13
+M=9 t=3 s=1 slice p=2147483647: |A|=333 reg=4 ratio=1.3333 phi=5 argmax=[[8, 1], [7, 2], [7, 1, 1], [6, 2, 1]] time=0.25
+M=9 t=3 s=3 slice p=2147483647: |A|=165 reg=3 ratio=1.0000 phi=3 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3]] time=0.19
+M=9 t=4 s=0 slice p=2147483647: |A|=1405 reg=6 ratio=1.5000 phi=7 argmax=[[9], [8, 1], [7, 2], [6, 3], [6, 2, 1], [5, 2, 2]] time=0.33
+M=9 t=4 s=2 slice p=2147483647: |A|=1125 reg=6 ratio=1.5000 phi=6 argmax=[[6, 1, 1, 1]] time=0.36
+M=9 t=4 s=4 slice p=2147483647: |A|=495 reg=4 ratio=1.0000 phi=4 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [5, 4]] time=0.23
+M=9 t=5 s=1 slice p=2147483647: |A|=4437 reg=7 ratio=1.4000 phi=8 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 3, 2]] time=0.46
+M=9 t=5 s=3 slice p=2147483647: |A|=3135 reg=7 ratio=1.4000 phi=8 argmax=[[7, 1, 1], [6, 2, 1], [6, 1, 1, 1], [5, 2, 1, 1]] time=0.54
+M=9 t=5 s=5 slice p=2147483647: |A|=1287 reg=5 ratio=1.0000 phi=5 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [5, 4], [5, 3, 1]] time=0.27
+M=9 t=6 s=0 slice p=2147483647: |A|=13237 reg=10 ratio=1.6667 phi=10 argmax=[[5, 1, 1, 1, 1]] time=0.63
+M=9 t=6 s=2 slice p=2147483647: |A|=11655 reg=9 ratio=1.5000 phi=10 argmax=[[8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 2, 2, 1]] time=0.76
+M=9 t=6 s=4 slice p=2147483647: |A|=7623 reg=8 ratio=1.3333 phi=9 argmax=[[7, 2], [7, 1, 1], [6, 2, 1], [6, 1, 1, 1], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 3, 1, 1]] time=0.57
+M=9 t=6 s=6 slice p=2147483647: |A|=3003 reg=6 ratio=1.0000 phi=6 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [4, 4, 1]] time=0.38
+M=9 t=7 s=1 slice p=2147483647: |A|=33111 reg=11 ratio=1.5714 phi=12 argmax=[[6, 1, 1, 1], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 2, 1, 1, 1]] time=1.34
+M=9 t=7 s=3 slice p=2147483647: |A|=26895 reg=10 ratio=1.4286 phi=12 argmax=[[8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [3, 3, 2, 1]] time=1.19
+M=9 t=7 s=5 slice p=2147483647: |A|=16731 reg=10 ratio=1.4286 phi=10 argmax=[[5, 1, 1, 1, 1]] time=0.95
+M=9 t=7 s=7 slice p=2147483647: |A|=6435 reg=7 ratio=1.0000 phi=7 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 4, 1], [4, 3, 2]] time=0.49
+M=9 t=8 s=0 slice p=2147483647: |A|=79459 reg=13 ratio=1.6250 phi=14 argmax=[[7, 1, 1], [6, 2, 1], [6, 1, 1, 1], [5, 3, 1], [5, 2, 1, 1], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 2, 2, 1, 1]] time=2.07
+M=9 t=8 s=2 slice p=2147483647: |A|=73215 reg=12 ratio=1.5000 phi=14 argmax=[[8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1], [3, 3, 1, 1, 1]] time=1.91
+M=9 t=8 s=4 slice p=2147483647: |A|=56331 reg=12 ratio=1.5000 phi=13 argmax=[[9], [8, 1], [7, 2], [6, 3], [6, 2, 1], [5, 4], [5, 3, 1], [5, 2, 2], [4, 3, 2], [4, 2, 2, 1], [3, 2, 2, 2]] time=1.76
+M=9 t=8 s=6 slice p=2147483647: |A|=33891 reg=11 ratio=1.3750 phi=12 argmax=[[6, 1, 1, 1], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 2, 1, 1, 1]] time=1.37
+M=9 t=8 s=8 slice p=2147483647: |A|=12870 reg=8 ratio=1.0000 phi=8 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1]] time=0.65
+M=9 t=9 s=1 slice p=2147483647: |A|=169515 reg=14 ratio=1.5556 phi=16 argmax=[[7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1]] time=3.49
+M=9 t=9 s=3 slice p=2147483647: |A|=147675 reg=15 ratio=1.6667 phi=15 argmax=[[4, 1, 1, 1, 1, 1]] time=3.25
+M=9 t=9 s=5 slice p=2147483647: |A|=109395 reg=13 ratio=1.4444 phi=14 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1]] time=2.57
+M=9 t=9 s=7 slice p=2147483647: |A|=64350 reg=12 ratio=1.3333 phi=13 argmax=[[6, 2, 1], [6, 1, 1, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 1, 1, 1]] time=1.83
+M=9 t=9 s=9 slice p=2147483647: |A|=24310 reg=9 ratio=1.0000 phi=9 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [3, 3, 3]] time=1.13
+M=9 t=10 s=0 slice p=2147483647: |A|=350683 reg=16 ratio=1.6000 phi=18 argmax=[[7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1]] time=4.57
+M=9 t=10 s=2 slice p=2147483647: |A|=331335 reg=16 ratio=1.6000 phi=17 argmax=[[8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [4, 1, 1, 1, 1, 1], [3, 3, 2, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1], [3, 2, 1, 1, 1, 1], [2, 2, 2, 2, 1]] time=6.67
+M=9 t=10 s=4 slice p=2147483647: |A|=277299 reg=16 ratio=1.6000 phi=17 argmax=[[5, 1, 1, 1, 1], [4, 2, 1, 1, 1], [4, 1, 1, 1, 1, 1], [3, 2, 1, 1, 1, 1]] time=5.36
+M=9 t=10 s=6 slice p=2147483647: |A|=199914 reg=14 ratio=1.4000 phi=16 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1]] time=4.06
+M=9 t=10 s=8 slice p=2147483647: |A|=115830 reg=13 ratio=1.3000 phi=14 argmax=[[7, 1, 1], [6, 2, 1], [6, 1, 1, 1], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 1, 1]] time=2.74
+M=9 t=10 s=10 slice p=2147483647: |A|=43758 reg=10 ratio=1.0000 phi=10 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [3, 3, 2, 1]] time=1.33
+M=9 t=11 s=1 slice p=2147483647: |A|=667287 reg=17 ratio=1.5455 phi=19 argmax=[[8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [4, 1, 1, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1], [3, 2, 1, 1, 1, 1], [2, 2, 2, 2, 1]] time=11.93
+M=9 t=11 s=3 slice p=2147483647: |A|=605055 reg=18 ratio=1.6364 phi=19 argmax=[[6, 1, 1, 1], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 3, 1, 1], [4, 2, 1, 1, 1], [3, 3, 1, 1, 1], [3, 2, 2, 1, 1], [3, 2, 1, 1, 1, 1], [2, 2, 2, 1, 1, 1]] time=10.86
+M=9 t=11 s=5 slice p=2147483647: |A|=491634 reg=17 ratio=1.5455 phi=18 argmax=[[5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [4, 1, 1, 1, 1, 1], [3, 3, 1, 1, 1], [3, 2, 2, 1, 1], [3, 2, 1, 1, 1, 1]] time=8.55
+M=9 t=11 s=7 slice p=2147483647: |A|=347490 reg=16 ratio=1.4545 phi=17 argmax=[[8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [3, 3, 2, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1], [2, 2, 2, 2, 1]] time=6.08
+M=9 t=11 s=9 slice p=2147483647: |A|=199342 reg=15 ratio=1.3636 phi=15 argmax=[[4, 1, 1, 1, 1, 1]] time=3.9
+M=9 t=11 s=11 slice p=2147483647: |A|=75582 reg=11 ratio=1.0000 phi=11 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1]] time=1.86
+M=9 t=12 s=0 slice p=2147483647: |A|=1240399 reg=21 ratio=1.7500 phi=21 argmax=[[3, 1, 1, 1, 1, 1, 1]] time=17.07
+M=9 t=12 s=2 slice p=2147483647: |A|=1189935 reg=19 ratio=1.5833 phi=21 argmax=[[8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [4, 1, 1, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1], [3, 2, 1, 1, 1, 1], [2, 2, 2, 2, 1], [2, 2, 2, 1, 1, 1]] time=25.28
+M=9 t=12 s=4 slice p=2147483647: |A|=1046232 reg=19 ratio=1.5833 phi=20 argmax=[[6, 2, 1], [6, 1, 1, 1], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [4, 1, 1, 1, 1, 1], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1], [3, 2, 1, 1, 1, 1], [2, 2, 2, 2, 1], [2, 2, 2, 1, 1, 1]] time=21.24
+M=9 t=12 s=6 slice p=2147483647: |A|=831402 reg=18 ratio=1.5000 phi=20 argmax=[[7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [4, 1, 1, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1], [3, 2, 1, 1, 1, 1], [2, 2, 2, 1, 1, 1]] time=15.66
+M=9 t=12 s=8 slice p=2147483647: |A|=579150 reg=17 ratio=1.4167 phi=18 argmax=[[8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2], [3, 2, 2, 1, 1], [2, 2, 2, 2, 1]] time=9.86
+M=9 t=12 s=10 slice p=2147483647: |A|=330174 reg=16 ratio=1.3333 phi=16 argmax=[[5, 1, 1, 1, 1], [4, 2, 1, 1, 1], [4, 1, 1, 1, 1, 1], [3, 2, 1, 1, 1, 1]] time=5.61
+M=9 t=12 s=12 slice p=2147483647: |A|=125970 reg=12 ratio=1.0000 phi=12 argmax=[[9], [8, 1], [7, 2], [7, 1, 1], [6, 3], [6, 2, 1], [6, 1, 1, 1], [5, 4], [5, 3, 1], [5, 2, 2], [5, 2, 1, 1], [5, 1, 1, 1, 1], [4, 4, 1], [4, 3, 2], [4, 3, 1, 1], [4, 2, 2, 1], [4, 2, 1, 1, 1], [3, 3, 3], [3, 3, 2, 1], [3, 3, 1, 1, 1], [3, 2, 2, 2]] time=3.04
+M=8 t=16 s=4 slice p=2147483647: |A|=2160972 reg=28 ratio=1.7500 phi=28 argmax=[[1, 1, 1, 1, 1, 1, 1, 1]] time=513.23

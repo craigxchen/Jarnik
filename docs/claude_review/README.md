@@ -56,3 +56,8 @@ two conditional theorems (Vojta's conjecture for one fixed variety implies the u
 restricted uniform and growth theorems for Hadamard and Walsh profiles, the cotangent trade-off,
 new lower-bound constructions and exhaustive data, and the missing lemmas that would complete
 each route.
+
+The auxiliary-polynomial round is in `threshold/README.md`: no form on any equal-norm variety
+`X_M` vanishes along the diagonal to order `2 deg F` (`tau*(M) = 2 - 1/ceil(M/2)`), so neither a
+single-place Liouville argument nor Ru-Vojta with `S = {infinity}` can prove the theorem, and
+forced Gaussian divisibility only reaches criticality.

@@ -1,0 +1,13 @@
+(1)+(2): 400 random sets, n<=4: reg <= proof_bound <= MW in all; failures=0; equality reg=MW in 106
+box (3,) reg 3 MW 3 sum a 3
+box (2, 1) reg 3 MW 3 sum a 3
+box (1, 1, 1) reg 3 MW 3 sum a 3
+box (2, 2, 1) reg 5 MW 5 sum a 5
+box (3, 1, 2) reg 6 MW 6 sum a 6
+root product M=3 |E|=3: reg 3 MW 3
+root product M=4 |E|=2: reg 2 MW 2
+root product M=4 |E|=4: reg 4 MW 4
+root product M=4 |E|=6: reg 6 MW 6
+root product M=5 |E|=5: reg 5 MW 5
+(1)+(2): 3000 random sets, n<=4: reg <= proof_bound <= MW in all; failures=0; equality reg=MW in 895
+(1)+(2): 3000 random sets, n<=4: reg <= proof_bound <= MW in all; failures=0; equality reg=MW in 843

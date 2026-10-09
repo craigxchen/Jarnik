@@ -1,0 +1,45 @@
+ratio=0.7500 reg=3 adv=2 s=0 U=(1, 1) |S|=7 widths={1: 2}
+ratio=0.7500 reg=6 adv=4 s=0 U=(2, 2) |S|=19 widths={1: 4}
+ratio=0.7500 reg=9 adv=6 s=0 U=(3, 3) |S|=37 widths={1: 6}
+ratio=0.7500 reg=12 adv=8 s=0 U=(4, 4) |S|=61 widths={1: 8}
+ratio=0.7500 reg=15 adv=10 s=0 U=(5, 5) |S|=91 widths={1: 10}
+ratio=0.7222 reg=13 adv=9 s=1 U=(5, 5) |S|=75 widths={1: 9}
+ratio=0.7143 reg=10 adv=7 s=1 U=(4, 4) |S|=48 widths={1: 7}
+ratio=0.7143 reg=10 adv=7 s=2 U=(4, 5) |S|=48 widths={1: 7}
+ratio=0.7000 reg=7 adv=5 s=1 U=(3, 3) |S|=27 widths={1: 5}
+ratio=0.7000 reg=7 adv=5 s=2 U=(3, 4) |S|=27 widths={1: 5}
+ratio=0.6875 reg=11 adv=8 s=1 U=(4, 5) |S|=60 widths={1: 8}
+ratio=0.6875 reg=11 adv=8 s=2 U=(5, 5) |S|=60 widths={1: 8}
+ratio=0.6667 reg=12 adv=9 s=0 U=(4, 5) |S|=73 widths={1: 9}
+ratio=0.6667 reg=12 adv=9 s=0 U=(5, 4) |S|=73 widths={1: 9}
+ratio=0.6667 reg=4 adv=3 s=1 U=(2, 2) |S|=12 widths={1: 3}
+number of distinct sets: 44
+ratio=0.7500 reg=3 adv=2 s=0 U=(1, 1, 1) |S|=13 widths={1: 2, 2: 2}
+ratio=0.7500 reg=6 adv=4 s=0 U=(2, 2, 2) |S|=55 widths={1: 4, 2: 4}
+ratio=0.7500 reg=9 adv=6 s=0 U=(3, 3, 3) |S|=147 widths={1: 6, 2: 6}
+ratio=0.7500 reg=12 adv=8 s=0 U=(3, 4, 3) |S|=201 widths={1: 6, 2: 8}
+ratio=0.7500 reg=12 adv=8 s=0 U=(3, 4, 4) |S|=249 widths={1: 7, 2: 8}
+ratio=0.7500 reg=12 adv=8 s=0 U=(4, 4, 3) |S|=249 widths={1: 7, 2: 8}
+ratio=0.7500 reg=12 adv=8 s=0 U=(4, 4, 4) |S|=309 widths={1: 8, 2: 8}
+ratio=0.7500 reg=6 adv=4 s=2 U=(2, 3, 3) |S|=38 widths={1: 3, 2: 4}
+ratio=0.7500 reg=6 adv=4 s=2 U=(2, 3, 4) |S|=50 widths={1: 4, 2: 4}
+ratio=0.7500 reg=6 adv=4 s=2 U=(3, 3, 3) |S|=50 widths={1: 4, 2: 4}
+ratio=0.7500 reg=9 adv=6 s=2 U=(3, 4, 4) |S|=116 widths={1: 5, 2: 6}
+ratio=0.7500 reg=9 adv=6 s=2 U=(4, 4, 4) |S|=140 widths={1: 6, 2: 6}
+ratio=0.7143 reg=10 adv=7 s=1 U=(3, 4, 4) |S|=176 widths={1: 6, 2: 7}
+ratio=0.7143 reg=10 adv=7 s=1 U=(4, 4, 4) |S|=216 widths={1: 7, 2: 7}
+ratio=0.7000 reg=7 adv=5 s=1 U=(2, 3, 3) |S|=68 widths={1: 4, 2: 5}
+number of distinct sets: 70
+ratio=0.8333 reg=10 adv=6 s=0 U=(2, 3, 3, 2) |S|=291 widths={1: 4, 2: 6} mu={2: '1'}
+ratio=0.8333 reg=10 adv=6 s=0 U=(2, 3, 3, 3) |S|=371 widths={1: 5, 2: 6} mu={2: '1'}
+ratio=0.8333 reg=10 adv=6 s=0 U=(3, 3, 3, 2) |S|=371 widths={1: 5, 2: 6} mu={2: '1'}
+ratio=0.8333 reg=10 adv=6 s=0 U=(3, 3, 3, 3) |S|=471 widths={1: 6, 2: 6} mu={1: '1/2', 2: '1/2'}
+ratio=0.7500 reg=3 adv=2 s=0 U=(1, 1, 1, 1) |S|=21 widths={1: 2, 2: 2} mu={1: '1/2', 2: '1/2'}
+ratio=0.7500 reg=6 adv=4 s=0 U=(2, 2, 2, 2) |S|=131 widths={1: 4, 2: 4} mu={1: '1/2', 2: '1/2'}
+ratio=0.7500 reg=6 adv=4 s=2 U=(2, 3, 3, 3) |S|=95 widths={1: 3, 2: 4} mu={2: '1'}
+ratio=0.7500 reg=6 adv=4 s=2 U=(3, 3, 3, 3) |S|=115 widths={1: 4, 2: 4} mu={1: '1/2', 2: '1/2'}
+ratio=0.7000 reg=7 adv=5 s=1 U=(2, 3, 3, 3) |S|=205 widths={1: 4, 2: 5} mu={2: '1'}
+ratio=0.7000 reg=7 adv=5 s=1 U=(3, 3, 3, 3) |S|=255 widths={1: 5, 2: 5} mu={1: '1/2', 2: '1/2'}
+ratio=0.6667 reg=4 adv=3 s=1 U=(1, 2, 2, 2) |S|=35 widths={1: 2, 2: 3} mu={2: '1'}
+ratio=0.6667 reg=4 adv=3 s=1 U=(2, 2, 2, 2) |S|=55 widths={1: 3, 2: 3} mu={1: '1/2', 2: '1/2'}
+distinct sets: 37  max ratio: 5/6
