@@ -1,0 +1,5 @@
+[    3.8s] it 1: obj 7.000000 dual 7.0 st 0 |T|=7 G=[2, 2, 2] int 196 cuts 93 int_viol 0 cover |F|=3 of 7 bad added 303
+[   64.5s] it 2: obj 8.000000 dual 7.999999999950182 st 0 |T|=8 G=[2, 2] int 196 cuts 104 int_viol 0 cover |F|=3 of 3 bad added 11
+[   91.9s] it 3: obj 8.000000 dual 7.9999999999999964 st 0 |T|=8 G=[2, 2] int 196 cuts 105 int_viol 0 cover |F|=3 of 3 bad added 1
+[  118.5s] it 4: obj 8.000000 dual 8.0 |T|=8 G=[] FEASIBLE
+RESULT {"status": "optimal", "M": 7, "rho0": "0", "rho1": "0", "strict": false, "Omega_exact": "8", "value_float": 8.0, "dual_bound": 8.0, "iter": 4, "support": [[1, 2, 3, 4], [3, 5], [1, 4, 5], [2, 3, 4, 5], [1, 2, 6], [2, 4, 6], [1, 3, 4, 6], [4, 5, 6]], "weights": ["1", "1", "1", "1", "1", "1", "1", "1"], "kappa": [0, 0, 0, 0, 0, 0], "eta": [], "group": [], "n_bad_classes": 0, "min_slack_all_classes": "0", "n_int": 196, "n_cuts": 105, "time": 118.50282144546509}

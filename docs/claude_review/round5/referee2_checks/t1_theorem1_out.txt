@@ -1,0 +1,7 @@
+A. Paley-8: 64 skew pairings among 40320 candidates (identity pairing included: True)
+   all pairings x all a* x b in {3,8}: 1106 +-1 chars + 15652 amplitude-2 chars each; min slack over bound = 2.0 (at c=[np.int8(1), np.int8(-1), np.int8(0), np.int8(0), np.int8(0), np.int8(0), np.int8(0), np.int8(0)], b=3)
+   pair minimum G - (b-2) over all cases = 0  (Remark 3.3 / previous referee: exactly b-2)
+B. Paley-12: 40 random skew pairings (40 non-identity); exhaustive 73788 +-1 chars and 45012 amplitude-2 chars each, b in {3,8}: min slack 2.0 (c=[np.int8(0), np.int8(0), np.int8(1), np.int8(0), np.int8(0), np.int8(0), np.int8(0), np.int8(0), np.int8(0), np.int8(0), np.int8(-1), np.int8(0)], b=3)
+C. Sylvester-16 (no skew pairing), b=8, all +-1 chars with n<=8: min slack per assignment = [-8.0, -8.0, -4.0, -4.0, -4.0, -4.0]  (negative = Theorem 1 (ii) bound violated; e.g. n=4, G=0)
+D. Lemma 2.2 (general-assignment form G = b(F-M+1) + sum_x(|T_a(x)|-1) + sum Delta) on 3000 random integer c: OK
+ALL T1 CHECKS PASSED  (46s)

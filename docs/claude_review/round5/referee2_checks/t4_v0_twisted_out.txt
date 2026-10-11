@@ -1,0 +1,18 @@
+A. (1+8i)(8+i) = (0, 65), (4+7i)(7+4i) = (0, 65)
+   exponent rows (pi_5, pi_13) = [[1, 0], [0, 1], [1, 1], [0, 0]], c = [1, 1, -1, -1], v(c) = [0, 0], D_1(c) at Q0=8 = 21; (R) would need 0 >= 14.85; arc constant C = 3.7539
+B. twisted axiom (sum c != 0): identity and (1+i)D'|EA - u conj A != 0 verified on 3568 (character, unit) instances on 3 circles (skipped 8 draws with v = 0)
+C. Paley-8 profile (b=8): ||S^T c||_1 >= max(2n, b(M-n)) on 57210 twisted c (entries in [-2,2], n<=8) and c=lambda*1; min slack 0
+C. Paley-12 profile (b=8): ||S^T c||_1 >= max(2n, b(M-n)) on 182294 twisted c (entries in [-2,2], n<=6) and c=lambda*1; min slack 10
+D. completion bound with twisted residue constraints (must be < 1):
+   Theorem 2 at P=P_*: M=    8 tau=13.723  log D_max=10.7  twisted part=5.258e-10  total=0.1896
+   Theorem 2 at P=P_*: M=   12 tau=14.965  log D_max=19.6  twisted part=1.264e-10  total=0.1574
+   Theorem 2 at P=P_*: M=   20 tau=16.616  log D_max=32.7  twisted part=2.499e-18  total=0.1169
+   Theorem 2 at P=P_*: M=   44 tau=19.062  log D_max=80.8  twisted part=2.295e-44  total=0.0765
+   Theorem 2 at P=P_*: M=  104 tau=21.777  log D_max=201.3  twisted part=1.563e-115  total=0.0466
+   Theorem 2 at P=P_*: M= 1020 tau=28.878  log D_max=2033.2  twisted part=0.000e+00  total=0.0130
+   instance M=12 primes near 10^7: twisted part=3.961e-13  total=0.0862
+   instance M=20 primes near 10^8: twisted part=1.339e-24  total=0.0462
+   instance M=24 primes near 10^8: twisted part=1.089e-27  total=0.0561
+   instance M=44 primes near 10^9: twisted part=2.363e-57  total=0.0328
+   instance M=12 primes near 10^9: twisted part=3.961e-23  total=0.0084
+T4 DONE

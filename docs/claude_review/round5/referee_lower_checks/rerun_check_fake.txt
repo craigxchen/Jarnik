@@ -1,0 +1,7 @@
+q= 43 M= 44 b=  8: min G  pairs 4 (>= b-4=4), columns 88 (>= 88), half-sums 36 (>= 36), others 128 over 5714 vectors (min G/(bM) = 0.364)
+q= 47 M= 48 b=  8: min G  pairs 4 (>= b-4=4), columns 96 (>= 96), half-sums 40 (>= 40), others 128 over 5744 vectors (min G/(bM) = 0.333)
+q= 59 M= 60 b=  6: min G  pairs 2 (>= b-4=2), columns 118 (>= 118), half-sums 50 (>= 50), others 142 over 5751 vectors (min G/(bM) = 0.394)
+q= 67 M= 68 b= 12: min G  pairs 8 (>= b-4=8), columns 140 (>= 140), half-sums 64 (>= 64), others 292 over 5762 vectors (min G/(bM) = 0.358)
+q= 83 M= 84 b=  8: min G  pairs 4 (>= b-4=4), columns 168 (>= 168), half-sums 76 (>= 76), others 256 over 5780 vectors (min G/(bM) = 0.381)
+residue design: 5520 pair/level collision tests, 366 character tests (X=60, M=24)
+ALL CHECKS PASSED

@@ -1,0 +1,5 @@
+|T|=5: 480 supports up to S_6
+|T|=6: 1623 supports up to S_6
+stats {'supports': 2103, 'cases': 1513, 'rank': 596, 'infeasible': 1511, 'bound': 2, 'strict_infeasible': 0} time 1059.9s
+uncertified cases: 0
+CERTIFIED M=6 mode=closed: no feasible point with Omega < 7

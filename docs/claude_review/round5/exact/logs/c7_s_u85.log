@@ -1,0 +1,4 @@
+[    8.8s] it 1: obj 7.000000 dual 6.999999999999992 st 0 |T|=7 G=[2, 2, 2] int 196 cuts 85 int_viol 0 cover |F|=3 of 7 bad added 295
+[ 1211.0s] it 2: obj 8.001400 dual 8.001399994083341 st 0 |T|=8 G=[2, 2] int 196 cuts 85 int_viol 48  added 0
+{'status': 'stalled', 'iter': 2, 'value': 8.001399994083341}
+RESULT {"status": "stalled", "iter": 2, "value": 8.001399994083341}

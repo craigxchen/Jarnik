@@ -1,0 +1,6 @@
+t=2: skew pairing (bijection onto nonzero labels) exists: True  (example {1: 1, 2: 3, 3: 2})
+t=3: skew pairing (bijection onto nonzero labels) exists: True  (example {1: 1, 2: 3, 3: 6, 4: 7, 5: 4, 6: 5, 7: 2})
+t=3: minor condition <=> (x+y).(p(x)+p(y)) = 1 verified on the pairing
+t=4: injective p: F_2^4\0 -> F_2^4 (0 allowed) with the condition: 0 solutions (search nodes 17041)
+t=3 (for comparison): injective maps into F_2^3 with 0 allowed: 64 solutions
+R3 DONE

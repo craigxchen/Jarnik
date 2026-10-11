@@ -1,0 +1,13 @@
+[65s] |T|=6: 20879 orbit representatives
+   ... 20000 done, stats {'rank': 10711, 'ok': 9289, 'case_infeasible': 9430}
+[514s] |T|=7: 140709 orbit representatives
+   ... 20000 done, stats {'rank': 18686, 'ok': 22193, 'case_infeasible': 22366}
+   ... 40000 done, stats {'rank': 24988, 'ok': 35891, 'case_infeasible': 36064}
+   ... 60000 done, stats {'rank': 30451, 'ok': 50428, 'case_infeasible': 50601}
+   ... 80000 done, stats {'rank': 34044, 'ok': 66835, 'case_infeasible': 67024}
+   ... 100000 done, stats {'rank': 38425, 'ok': 82454, 'case_infeasible': 82745}
+   ... 120000 done, stats {'rank': 41133, 'ok': 99746, 'case_infeasible': 100037}
+   ... 140000 done, stats {'rank': 44249, 'ok': 116630, 'case_infeasible': 117190}
+stats {'rank': 44309, 'ok': 117279, 'case_infeasible': 117862, 'case_bound': 2} time 772s
+uncertified: 0
+CERTIFIED M=7 mode=closed: no admissible point with Omega < 8

@@ -1,0 +1,3 @@
+stats {'supports': 0, 'cases': 0, 'rank': 0, 'infeasible': 0, 'bound': 0, 'strict_infeasible': 0} time 0.0s
+uncertified cases: 0
+CERTIFIED M=5 mode=closed: no feasible point with Omega < 4

@@ -1,0 +1,2 @@
+trial 0 |T| 22 group [3, 6] int_viol 2 bad rational classes 17 avoiding hom None min slack -8 90.7s
+trial 1 |T| 22 group [3, 6] int_viol 2 bad rational classes 17 avoiding hom None min slack -8 96.9s

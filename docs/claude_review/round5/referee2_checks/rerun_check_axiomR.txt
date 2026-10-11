@@ -1,0 +1,2 @@
+(R) validity: 6336 (character, unit) instances on 4 circles, all satisfy |Z+ - u Z-|^2 Norm(A_v) >= 2 D_u^2 N^(n/2); tightest ratio with D>1: 1.000 (N=32045, D=69)
+Prop 1.1 example: points 2+i, 1+2i on x^2+y^2=5; Q_2 = lcm(1..4) = 12; property 3 needs arcsin(12/sqrt 5) = arcsin(5.37) -- impossible (> 1). So the uniform strengthening is not a valid input.

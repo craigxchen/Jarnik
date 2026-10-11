@@ -1,0 +1,3 @@
+(A) validity of (R): 5523 (point set, c) instances with v(c) != 0 (unit 1), 22092 with all units, 19004 level-residue factors used; v(c)=0 instances: 199, of which (R) fails: 12 ok
+(B) design M=44, X=88, Y=613: 1499 characters; m_c <= m^gen | Im(Omega^4)/4 <= Y^(2n)/4; max log m^gen / log(Y^(2n)/4) = 0.917; 2-adic collisions seen: 1499 ok
+ALL OK

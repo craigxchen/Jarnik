@@ -1,0 +1,4 @@
+N=32045: 64 primitive points; parity law verified for all pairs and all odd q<=60 coprime to N
+N=1676285: 128 primitive points; parity law verified for all pairs and all odd q<=60 coprime to N
+N=20720297: 128 primitive points; parity law verified for all pairs and all odd q<=60 coprime to N
+R5: 211136 (pair, q) instances, all consistent with class(z_x/z_0) = class(eps_x/eps_0) prod chi_q(p_j)^(a_xj-a_0j)

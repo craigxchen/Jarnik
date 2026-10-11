@@ -1,0 +1,4 @@
+(A) parity law on actual primitive points: 2619 instances, ok
+(B) q = [7, 17, 23]: rows x != 0 of the M=12 design consistent with the parity law at all these q: 2 of 11
+    required Legendre patterns of ell_x relative to ell_0 at q = [7, 17, 23]: [(-1, -1, -1), (-1, 1, -1), (-1, 1, 1), (1, -1, -1), (1, -1, 1), (1, 1, 1)]
+ALL OK

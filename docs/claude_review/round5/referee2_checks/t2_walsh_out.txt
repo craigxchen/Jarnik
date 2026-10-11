@@ -1,0 +1,9 @@
+(1) minor condition <=> (x+y).(a+b) = 1 verified for t = 3, 4 (all x, y, a, b)
+(2) t=2: bijections F_2^t\0 -> F_2^t\0 with the condition (core skew pairings, x_inf = 0): 2  (nodes 10)
+    t=2: injections F_2^t\0 -> F_2^t (0 allowed): 8  (nodes 21)
+(2) t=3: bijections F_2^t\0 -> F_2^t\0 with the condition (core skew pairings, x_inf = 0): 8  (nodes 152)
+    t=3: injections F_2^t\0 -> F_2^t (0 allowed): 64  (nodes 361)
+(2) t=4: injections F_2^4\0 -> F_2^4 (0 allowed) with the condition: 0 solutions (nodes 5777)
+(3) restriction lemma: (x+y).(pi x + pi y) depends only on restrictions to U (200 random t=5 trials): OK
+translation reduction verified for t = 3, 4
+T2 DONE (0.3s)

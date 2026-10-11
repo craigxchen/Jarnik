@@ -1,0 +1,8 @@
+(A) K = DH = I + J with J skew, |J_ij| = 1 off diagonal: q = 7,11,19,43,47: ok
+(B) Lemma 2.2: 22604 vectors; min slack per q: {7: 1, 11: 1, 19: 1, 43: 1, 47: 1, 59: 1} ok
+(C) Lemma 2.1 (1)-(6): 12000 vectors ok
+(D) Lemma S search: q -> (min F over non-exceptional, (F-M)/M, where, #supp4, #greedy runs)
+    q=43 M=44: (60, 0.3636, 'supp4', 407253, 300)
+    q=47 M=48: (64, 0.3333, 'supp4', 583740, 300)
+    q=59 M=60: (84, 0.4, 'supp4', 1462905, 300)
+ALL OK

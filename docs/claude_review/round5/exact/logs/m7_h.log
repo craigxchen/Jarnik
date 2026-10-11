@@ -1,0 +1,2 @@
+[    0.3s] it 1: obj 7.000000 dual 7.0 st 0 |T|=7 G=[2, 2, 2] L=1 int 196 cls 0 viol 42 min_slack -2 ok False
+[   19.8s] it 2: obj 11.000000 dual 11.0 st 0 |T|=11 G=[3] L=2 int 196 cls 35 viol 22 min_slack -4 ok False

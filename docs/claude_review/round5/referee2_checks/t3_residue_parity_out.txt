@@ -1,0 +1,12 @@
+A. Lemma 4.1 on the M=12 design: 92136 (character, unit) instances; X != 0, (1+i)|X, D_u|X, 2D^2 <= |X|^2 <= 4L^n all hold; max D = 482885
+B. N=1185665 (5^1*13^1*17^1*29^1*37^1): 128 primitive points, parity law verified on 1778 (pair, q^a) instances
+B. N=160225 (5^2*13^1*17^1*29^1): 64 primitive points, parity law verified on 1008 (pair, q^a) instances
+B. N=8163961 (13^1*17^2*41^1*53^1): 64 primitive points, parity law verified on 1134 (pair, q^a) instances
+B. N=48612265 (5^1*13^1*17^1*29^1*37^1*41^1): 256 primitive points, parity law verified on 3060 (pair, q^a) instances
+B. total 6980 instances, no exception
+C. q^a=3: induced set = parity-consistent set (32 of 256 norm-N vectors)
+C. q^a=7: induced set = parity-consistent set (512 of 4096 norm-N vectors)
+C. q^a=9: induced set = parity-consistent set (2592 of 20736 norm-N vectors)
+D. M=12 instance: rows violating the parity law for EVERY unit choice: 11 of 11
+D. best number of rows that can be made parity-consistent by ANY permutation of the 12 ells and units: 4 of 12
+T3 DONE (457s)

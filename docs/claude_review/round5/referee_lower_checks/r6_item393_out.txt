@@ -1,0 +1,12 @@
+q=43 M=44 b=5: slack over (i) >= 33.33333333333332, over (ii) >= 0.0; min_h max((i),(ii)) = 15.0 (= 0.34 M); Lemma-S row (b/16-2)M+b = -69.2; observed min (2B-r)/M over non-pair ternary = 0.750
+q=43 M=44 b=8: slack over (i) >= 53.333333333333314, over (ii) >= 0.0; min_h max((i),(ii)) = 22.2 (= 0.51 M); Lemma-S row (b/16-2)M+b = -58.0; observed min (2B-r)/M over non-pair ternary = 0.818
+q=47 M=48 b=5: slack over (i) >= 30.66666666666668, over (ii) >= 0.0; min_h max((i),(ii)) = 17.4 (= 0.36 M); Lemma-S row (b/16-2)M+b = -76.0; observed min (2B-r)/M over non-pair ternary = 0.771
+q=47 M=48 b=8: slack over (i) >= 50.666666666666686, over (ii) >= 0.0; min_h max((i),(ii)) = 22.7 (= 0.47 M); Lemma-S row (b/16-2)M+b = -64.0; observed min (2B-r)/M over non-pair ternary = 0.833
+q=59 M=60 b=5: slack over (i) >= 46.66666666666664, over (ii) >= 0.0; min_h max((i),(ii)) = 27.2 (= 0.45 M); Lemma-S row (b/16-2)M+b = -96.2; observed min (2B-r)/M over non-pair ternary = 0.817
+q=59 M=60 b=8: slack over (i) >= 74.66666666666663, over (ii) >= 0.0; min_h max((i),(ii)) = 36.0 (= 0.60 M); Lemma-S row (b/16-2)M+b = -82.0; observed min (2B-r)/M over non-pair ternary = 0.867
+q=83 M=84 b=5: slack over (i) >= 54.66666666666664, over (ii) >= 0.0; min_h max((i),(ii)) = 42.6 (= 0.51 M); Lemma-S row (b/16-2)M+b = -136.8; observed min (2B-r)/M over non-pair ternary = 0.869
+q=83 M=84 b=8: slack over (i) >= 78.66666666666663, over (ii) >= 0.0; min_h max((i),(ii)) = 55.1 (= 0.66 M); Lemma-S row (b/16-2)M+b = -118.0; observed min (2B-r)/M over non-pair ternary = 0.905
+b=5, M=1000: min_h max((i),(ii)) / M = 0.6970
+b=5, M=10000: min_h max((i),(ii)) / M = 0.7127
+b=5, M=100000: min_h max((i),(ii)) / M = 0.7141
+ALL OK

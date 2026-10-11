@@ -1,0 +1,56 @@
+{
+ "status": "optimal",
+ "M": 5,
+ "rho0": "0",
+ "rho1": "0",
+ "strict": false,
+ "value_float": 4.0,
+ "Omega_exact": "4",
+ "dual_bound": 4.0,
+ "iter": 2,
+ "support": [
+  [
+   1,
+   4
+  ],
+  [
+   2,
+   4
+  ],
+  [
+   3,
+   4
+  ],
+  [
+   1,
+   2,
+   3,
+   4
+  ]
+ ],
+ "weights": [
+  "1",
+  "1",
+  "1",
+  "1"
+ ],
+ "kappa": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "group": [
+  2
+ ],
+ "min_slack": "0",
+ "argmin": [
+  "-1",
+  "-1",
+  "-1",
+  "1"
+ ],
+ "n_int": 25,
+ "n_classes": 1,
+ "time": 0.10861921310424805
+}

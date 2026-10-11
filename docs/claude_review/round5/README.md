@@ -1,12 +1,12 @@
-# Round 5/6: fake circles at `log R = O(M log M)` (snapshot, refereeing in progress)
+# Round 5/6: fake circles at `log R = O(M log M)`
 
 **Status of this snapshot (2026-10-09).** `construct.md` has been refereed (`referee_construct.md`:
 survives, with the corrections below). `round6_sharp/sharp.md` has been refereed by two referees
 with different lenses and a merge pass (`round6_sharp/referee_sharp*.md`): it survives, with the
-corrections below. The referee of `lower.md` has not finished, so its statements below are the
-author's claims. The round-6 referees independently re-derived every part of `lower.md` that
-`sharp.md` uses (Lemma S, Prop. 3.3, Lemmas 5.2-5.3, Props. 1.2-1.3). I
-independently re-derived Lemma S of `lower.md` (the Paley `l^1`-stability lemma) and found no error.
+corrections below. `lower.md` has been refereed (`referee_lower.md`): it survives, with the
+corrections below. The round-6 referees also independently re-derived every part of `lower.md` that
+`sharp.md` uses. `exact.md` (the exact finite optimisation) is a draft whose referee is running in
+round 7; its claims are marked as such.
 Nothing here proves the uniform theorem or a general growth improvement.
 
 ## The question
@@ -37,10 +37,25 @@ If `W_min/(M log M) -> infinity`, actual circles would satisfy `M = o(log R/logl
   * The `(S|)` data must be in the class for the `3 M log M` lower bound.
   * `q = 2` should be included.
   * Item 394 lacks the diagonal gaps.
-* **`lower.md` (referee pending).** Lemma S: for prime `q = 3 mod 4`, `q >= 43`, every zero-sum integer
-  `c` other than a pair, a signed column or a half-sum has `||H^T c||_1 >= (17/16) M`. Fakes at
-  `(48 + o(1)) M log M`, and `(16 + 32A + o(1)) M log M` with residue data up to `M^A`. Its §8 isolates
-  the prime-level parity obstruction (Prop. 8.1).
+* **`lower.md` (refereed: survives).** Lemma S: for prime `q = 3 mod 4`, `q >= 43`, every zero-sum
+  integer `c` other than a pair, a signed column or a half-sum has `||H^T c||_1 >= (17/16) M`. Fakes
+  at `(48 + o(1)) M log M`, and `(16 + 32A + o(1)) M log M` with residue data up to `M^A`. Its §8
+  isolates the prime-level parity obstruction (Prop. 8.1).
+  Referee corrections:
+  * **(major, scope)** The same point-level qualifier as for `construct.md` applies.
+  * Lemma S is correct but not needed. Item 393 of the notes gives `2B - r >= 0.6M - 22` for every
+    non-pair ternary character (`b >= 5`). That yields `(32 + o(1)) M log M` for every capacity-two
+    assignment (`b = 16`) and Theorem 5.1(b) for every `b >= 17`.
+  * The class should quantify over all four units and may add 2-adic and twisted collisions. The
+    witnesses satisfy these at `X = 2M`, but the twisted extension at `X = M^A`, `A > 1`, is open.
+  * Lemma 5.2 needs all primes of `N` to exceed `X`.
+  * All statements are asymptotic, with thresholds around `log M ~ 85` at `C = 1`.
+* **`exact.md` (draft, referee running).** An exact finite reformulation (a linear programme in the
+  column log-weights for fixed combinatorial data, and a normalised mixed-integer problem in the limit
+  of large primes), exact data for `M = 4..10`, and a *skew double Hadamard core*. It claims fake
+  circles at `(12 + o(1)) M log M` (moduli `<= 2M`), `(8 + 4A)` for moduli `<= M^A`, and `8` without
+  residues. If refereed, the bracket for the best constant of the point-level class becomes
+  `[1/6, 2/3]`.
 * **`round6_sharp/sharp.md` (refereed: survives).** Residue data that factor through prime residues
   with the genuine norm constraint. The forced information is exactly one parity bit per prime and
   modulus, `ell_j = [(p_j/q) = -1] mod 2` (Prop. 2.1). A design with classes inside parity classes

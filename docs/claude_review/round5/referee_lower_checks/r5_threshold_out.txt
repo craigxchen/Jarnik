@@ -1,0 +1,3 @@
+C=1: written bound < 1 first at log M = 85 (M ~ 10^37): pairs 0.543, ternary 0.434; W/(M log M) there ~ 50.5
+C=0.1: first log M = 209
+C=0.01: first log M = 630
