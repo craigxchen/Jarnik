@@ -1,0 +1,5 @@
+beta_0 <= 2.1019419   (beta_0 + xi)/2 + a_3 + log 4 = 3.9625877 < 3.9626: True
+(4.3) holds for 2 <= M <= 3000: True;  min (lhs - rhs)/M^2 = 2.7645 at M = 3000
+(T2) 8F*(s)/s > 3 s log s - 13.9092 s for 2 <= s <= 60: True
+Prop 3.4 bound exceeds M/4 from M = 40
+ALL CHECKS PASSED: True

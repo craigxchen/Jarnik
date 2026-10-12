@@ -1,0 +1,8 @@
+N <= 20000, arc constant <= 6.0: 271110 subsets; CC-derived bound violated: 0
+   s = 2: CC-derived bound smaller in 0 cases, Prop 2.2 smaller in 172790
+   s = 3: CC-derived bound smaller in 72864 cases, Prop 2.2 smaller in 2428
+   s = 4: CC-derived bound smaller in 0 cases, Prop 2.2 smaller in 19892
+   s = 5: CC-derived bound smaller in 0 cases, Prop 2.2 smaller in 2884
+   s = 6: CC-derived bound smaller in 0 cases, Prop 2.2 smaller in 248
+   s = 7: CC-derived bound smaller in 0 cases, Prop 2.2 smaller in 4
+ALL CHECKS PASSED: True

@@ -1,0 +1,8 @@
+rand2 q=7 seed=1: c=[1, 1, -1, -1, -1, 1, 1, -1]: s(c) = 2 of 14 types (M/2 = 4)
+rand2 q=11 seed=1: c=[1, 0, -1, 0, -1, 1, 0, 0, 0, -1, 0, 1]: s(c) = 4 of 22 types (M/2 = 6)
+rand2 q=11 seed=2: c=[0, 1, 0, -1, 0, 1, -1, 0, 0, -1, 0, 1]: s(c) = 4 of 22 types (M/2 = 6)
+rand2 q=11 seed=2: c=[1, 0, 1, -1, -1, 0, 0, 0, 0, 1, -1, 0]: s(c) = 4 of 22 types (M/2 = 6)
+Paley q=19: |supp H^T c| - ((q+1)/2 - |supp c|) >= 2 on 3000 random c with |supp c| <= M/4 (Lemma 7.1 input holds)
+Paley q=23: |supp H^T c| - ((q+1)/2 - |supp c|) >= 2 on 3000 random c with |supp c| <= M/4 (Lemma 7.1 input holds)
+Paley q=43: |supp H^T c| - ((q+1)/2 - |supp c|) >= 2 on 3000 random c with |supp c| <= M/4 (Lemma 7.1 input holds)
+Paley q=47: |supp H^T c| - ((q+1)/2 - |supp c|) >= 2 on 3000 random c with |supp c| <= M/4 (Lemma 7.1 input holds)

@@ -1,0 +1,14 @@
+b = [1, 2, 3, 4, 5, 6, 7, 8, 9], s = 4: k = 5 forms, D = 9, max|sigma| = 9360, predicted gamma -> (2s+1)/(2D) = 1/2 = 0.5000
+   T =           1009: log t =    41.04, coprime u's: True, max|Lambda| = 2.3397e-153, gamma_N = 0.492892
+   T =        1000003: log t =    47.93, coprime u's: True, max|Lambda| = 2.5361e-180, gamma_N = 0.493946
+   T =  1000000000039: log t =    61.75, coprime u's: True, max|Lambda| = 2.5362e-234, gamma_N = 0.495333
+   T = 1000000000000000000000007: log t =    89.38, coprime u's: True, max|Lambda| = 2.5362e-342, gamma_N = 0.496799
+   T = 1000000000000000000000000000000000000000000000075: log t =   144.64, coprime u's: True, max|Lambda| = 2.5362e-558, gamma_N = 0.498034
+b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], s = 6: k = 5 forms, D = 11, max|sigma| = 523600, predicted gamma -> (2s+1)/(2D) = 13/22 = 0.5909
+   T =           1009: log t =    49.32, coprime u's: True, max|Lambda| = 7.8586e-267, gamma_N = 0.583509
+   T =        1000003: log t =    56.22, coprime u's: True, max|Lambda| = 8.829e-306, gamma_N = 0.584443
+   T =  1000000000039: log t =    70.04, coprime u's: True, max|Lambda| = 8.8293e-384, gamma_N = 0.585749
+   T = 1000000000000000000000007: log t =    97.67, coprime u's: True, max|Lambda| = 8.8293e-540, gamma_N = 0.587233
+   T = 1000000000000000000000000000000000000000000000075: log t =   152.93, coprime u's: True, max|Lambda| = 8.8293e-852, gamma_N = 0.588575
+Five forms (k = 5) with gamma_N -> 1/2 and 13/22, both > 1/4: SLW(5, g, kappa) with g < 1/4 is violated for large t (any c, kappa), as are all SLW(5, g) with g < 13/22.
+ALL CHECKS PASSED: True

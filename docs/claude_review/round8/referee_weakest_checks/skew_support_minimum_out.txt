@@ -1,0 +1,21 @@
+1. Column characters lambda = K e_a:
+   q=  7: #nonzero cuts of K e_a over all a: [5]; (q+3)/2 = 5, (q+7)/2 = 7, bound (q+1)/2 = 4
+   q= 11: #nonzero cuts of K e_a over all a: [7]; (q+3)/2 = 7, (q+7)/2 = 9, bound (q+1)/2 = 6
+   q= 19: #nonzero cuts of K e_a over all a: [11]; (q+3)/2 = 11, (q+7)/2 = 13, bound (q+1)/2 = 10
+   q= 23: #nonzero cuts of K e_a over all a: [13]; (q+3)/2 = 13, (q+7)/2 = 15, bound (q+1)/2 = 12
+   q= 31: #nonzero cuts of K e_a over all a: [17]; (q+3)/2 = 17, (q+7)/2 = 19, bound (q+1)/2 = 16
+   q= 43: #nonzero cuts of K e_a over all a: [23]; (q+3)/2 = 23, (q+7)/2 = 25, bound (q+1)/2 = 22
+   q= 47: #nonzero cuts of K e_a over all a: [25]; (q+3)/2 = 25, (q+7)/2 = 27, bound (q+1)/2 = 24
+   q= 59: #nonzero cuts of K e_a over all a: [31]; (q+3)/2 = 31, (q+7)/2 = 33, bound (q+1)/2 = 30
+   q= 67: #nonzero cuts of K e_a over all a: [35]; (q+3)/2 = 35, (q+7)/2 = 37, bound (q+1)/2 = 34
+2. Exact minimum over all nonzero zero-sum lambda:
+   q=7: s=4: no set of 10 cuts can vanish (all 1001 sets have full rank mod 2^61-1)
+   q=7: s=5: a set of 9 vanishing cuts exists
+   q=7: exact minimum number of nonzero cuts = 5 = (q+3)/2 = 5
+   q=11: s=6: no set of 16 cuts can vanish (all 74613 sets have full rank mod 2^61-1)
+   q=11: s=7: a set of 15 vanishing cuts exists
+   q=11: exact minimum number of nonzero cuts = 7 = (q+3)/2 = 7
+3. Character lattice (Lemma 3.1):
+   q=7: lattice Z^M_0 + Z lambda*: 3000 random zero-sum (1/M)-vectors, 1535 with integral cut values; integrality <=> membership in every case
+   q=11: lattice Z^M_0 + Z lambda*: 3000 random zero-sum (1/M)-vectors, 1557 with integral cut values; integrality <=> membership in every case
+   q=19: lattice Z^M_0 + Z lambda*: 3000 random zero-sum (1/M)-vectors, 1478 with integral cut values; integrality <=> membership in every case

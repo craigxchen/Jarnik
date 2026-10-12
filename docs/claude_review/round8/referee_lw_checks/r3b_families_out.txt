@@ -1,0 +1,4 @@
+q=7 M=8: distinct degenerate spans (from (M-2)-subsets): 154; (generic s, kernel dim) -> number of spans: [((8, 2), 154)]
+   smallest generic support s_gen = 8 (rank of span over Q = 6, mod p = 6); census of lw.md counts only zero-set-determined characters, complete for s < 8
+q=11 M=12: distinct degenerate spans (from (M-2)-subsets): 11341; (generic s, kernel dim) -> number of spans: [((11, 2), 330), ((12, 2), 11011)]
+   smallest generic support s_gen = 11 (rank of span over Q = 10, mod p = 10); census of lw.md counts only zero-set-determined characters, complete for s < 11

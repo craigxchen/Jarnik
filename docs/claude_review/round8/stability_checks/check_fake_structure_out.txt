@@ -1,0 +1,10 @@
+fake instance: Paley q=11, M=12, b=8, r=100, primes 10000121..10003529
+  W = 1611.83,  A = W/(M log M) = 54.05
+  max log p = 16.118  vs smoothness bound 2W/M - 3log(M/2) + K0 = 277.17
+  gcd lemma on 4083 subsets: failures 0; max gamma_B - b(s) = -47.66 (s = 2, 47 constant cuts)
+  omega = r = 100 (M/4 = 3.0),  distinct cut partitions = 23 (> M/2 = 6)
+  cut slack Q = 193.42  vs  MW/4 = 4835.5
+  margins m_xy: min 48.35, mean 70.33, max 80.59;  W/(2(M-1)) = 73.26;  log M = 2.48
+  min Hamming distance between rows = 53  (> M/4 = 3.0)
+  min support of pair characters = 53;  of Hadamard-column characters = 20
+ALL CHECKS PASSED: True

@@ -1,0 +1,16 @@
+D=8, b subsets of {1..18} (43758 sets), conditions on odd r in [1, 3]
+  histogram of max fibre size: {1: 41482, 2: 2275, 3: 1}
+  largest fibre: size 0 at b=None (affine rank None)
+  largest affine rank of a fibre (size>=4): 0 at b=None, fibre size 0
+D=9, b subsets of {1..18} (48620 sets), conditions on odd r in [1, 3]
+  histogram of max fibre size: {1: 40316, 2: 8282, 3: 22}
+  largest fibre: size 0 at b=None (affine rank None)
+  largest affine rank of a fibre (size>=4): 0 at b=None, fibre size 0
+D=10, b subsets of {1..18} (43758 sets), conditions on odd r in [1, 3]
+  histogram of max fibre size: {1: 23956, 2: 19536, 3: 265, 4: 1}
+  largest fibre: size 4 at b=(1, 2, 5, 7, 8, 9, 10, 14, 16, 18) (affine rank 2)
+  largest affine rank of a fibre (size>=4): 2 at b=(1, 2, 5, 7, 8, 9, 10, 14, 16, 18), fibre size 4
+      [np.int64(-1), np.int64(-1), np.int64(-1), np.int64(1), np.int64(1), np.int64(-1), np.int64(-1), np.int64(1), np.int64(1), np.int64(-1)]
+      [np.int64(-1), np.int64(1), np.int64(-1), np.int64(1), np.int64(1), np.int64(-1), np.int64(1), np.int64(-1), np.int64(-1), np.int64(1)]
+      [np.int64(1), np.int64(-1), np.int64(1), np.int64(-1), np.int64(-1), np.int64(1), np.int64(-1), np.int64(1), np.int64(1), np.int64(-1)]
+      [np.int64(1), np.int64(1), np.int64(1), np.int64(-1), np.int64(-1), np.int64(1), np.int64(1), np.int64(-1), np.int64(-1), np.int64(1)]

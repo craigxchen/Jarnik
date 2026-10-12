@@ -1,0 +1,15 @@
+scan N <= 30000  CMAX = 6.0  MSUB = 6  MMAX = 12
+  windows      100272
+  subsets      148370
+  ident_fail   0
+  gcd_fail     0
+  A_fail       0
+  A2_fail      0
+  O_fail       0
+  pp_fail      0
+  part_fail    0
+  Atests       12148
+  worst gcd-lemma slack gamma_B - b(s) (must be <= 0): (1.2446030555722283e-60, 21125, 2, 4.728708045015879)
+  worst smoothness ratio log q / bound (must be <= 1): (0.9835726390616037, 6005, 4, 5.907110442012907, 1201, 7.20934025660291)
+  tightest omega/(M/4) with C <= 1, per M:
+ALL CHECKS PASSED: True

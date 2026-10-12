@@ -63,3 +63,22 @@ single-place Liouville argument nor Ru-Vojta with `S = {infinity}` can prove the
 forced Gaussian divisibility only reaches criticality.
 
 Round 4 (flipped Hadamard cores, (L_7), hardness, fake-circle barrier) is in `round4/README.md`.
+
+Round 5/6 (fake circles at `log R = O(M log M)` with residue data) is in `round5/README.md`. Round 7
+(residue data factoring through the primes, every monomial strengthened: the last local class not
+known to be capped) is in `round7/` (in progress). Round 8 (growth rate: Lang-Waldschmidt,
+simultaneous hypotheses, stability of extremal clusters) is in `round8/README.md`.
+
+**Growth-rate status (2026-10-12).** No growth improvement over `log R/loglog R` is proved, either
+unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
+refereed barrier theorems:
+* every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues
+  used through characters;
+* character, GAP-Fourier and energy arguments;
+* single-place auxiliary polynomials;
+* Baker/Matveev bounds;
+* single-form Lang-Waldschmidt.
+
+The only conditional route known to work is Vojta's conjecture for one fixed variety, which gives the
+uniform bound. Still open: the class P3-all (genuine prime-level residues imposed on every monomial),
+and the full Lang-Waldschmidt conjecture with `eps -> 0` used simultaneously.

@@ -1,0 +1,12 @@
+scan N <= 1000000  CMAX = 4.0  windows with M >= 4: 9436
+tightest smoothness ratio log P_+(N)/bound per M (must be < 1):
+   M = 4 (0.9624, 654385, 3.9379)
+   M = 5 (0.7116, 13, 3.7977)
+   M = 6 (0.7116, 13, 3.7977)
+   M = 7 (0.7116, 13, 3.7977)
+tightest omega(N')/lower bound per M (must be > 1):
+   M = 4 (2.8151, 125, 2.9907, 1)
+   M = 5 (3.8229, 21025, 3.9862, 2)
+   M = 6 (4.8286, 13, 3.7977, 1)
+   M = 7 (4.7333, 13, 3.7977, 1)
+ALL CHECKS PASSED: True

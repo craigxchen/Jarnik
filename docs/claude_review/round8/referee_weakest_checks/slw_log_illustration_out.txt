@@ -1,0 +1,8 @@
+s=3 D=6 k=3 max|sigma|=9    log t= 16.45 n= 13 theta*log(n+2)= 1.59 covered(k>=thr)=True gamma=0.5559 (limit 0.5833) gamma_eff(c=1/2,kappa=1)=0.3343
+s=3 D=6 k=3 max|sigma|=9    log t= 21.05 n= 15 theta*log(n+2)= 1.66 covered(k>=thr)=True gamma=0.5603 (limit 0.5833) gamma_eff(c=1/2,kappa=1)=0.3757
+s=4 D=8 k=4 max|sigma|=28   log t= 21.66 n= 20 theta*log(n+2)= 1.81 covered(k>=thr)=True gamma=0.5416 (limit 0.5625) gamma_eff(c=1/2,kappa=1)=0.3161
+s=4 D=8 k=4 max|sigma|=28   log t= 26.25 n= 25 theta*log(n+2)= 1.93 covered(k>=thr)=True gamma=0.5449 (limit 0.5625) gamma_eff(c=1/2,kappa=1)=0.3135
+s=5 D=10 k=5 max|sigma|=54   log t= 28.53 n= 29 theta*log(n+2)= 2.01 covered(k>=thr)=True gamma=0.5351 (limit 0.5500) gamma_eff(c=1/2,kappa=1)=0.3121
+s=5 D=10 k=5 max|sigma|=54   log t= 33.13 n= 34 theta*log(n+2)= 2.10 covered(k>=thr)=True gamma=0.5378 (limit 0.5500) gamma_eff(c=1/2,kappa=1)=0.3097
+s=6 D=12 k=6 max|sigma|=131  log t= 34.07 n= 30 theta*log(n+2)= 2.03 covered(k>=thr)=True gamma=0.5269 (limit 0.5417) gamma_eff(c=1/2,kappa=1)=0.3241
+s=6 D=12 k=6 max|sigma|=131  log t= 38.66 n= 40 theta*log(n+2)= 2.19 covered(k>=thr)=True gamma=0.5266 (limit 0.5417) gamma_eff(c=1/2,kappa=1)=0.2969

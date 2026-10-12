@@ -1,0 +1,8 @@
+R2 q=7 M=8: 1001 sets of 10 types (= #types - M/2); sets with rank < M mod p: 0 -> no c with s(c) <= M/2, so min s >= M/2+1 (rigorous)
+R2 q=11 M=12: 74613 sets of 16 types (= #types - M/2); sets with rank < M mod p: 0 -> no c with s(c) <= M/2, so min s >= M/2+1 (rigorous)
+R3 q=7 M=8: 3003 subsets of size M-2, degenerate (all minors 0): 154, rounding failures: 0, distinct primitive characters: 707 (0s)
+   histogram s -> count (s <= M/2+5): [(5, 14), (6, 28), (7, 140), (8, 525)]
+   min s = 5; lightest characters = the 2q type vectors themselves: True
+R3 q=11 M=12: 646646 subsets of size M-2, degenerate (all minors 0): 14641, rounding failures: 0, distinct primitive characters: 301400 (31s)
+   histogram s -> count (s <= M/2+5): [(7, 22), (9, 220), (10, 1771), (11, 19052)]
+   min s = 7; lightest characters = the 2q type vectors themselves: True

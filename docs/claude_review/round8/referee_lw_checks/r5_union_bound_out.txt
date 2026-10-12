@@ -1,0 +1,24 @@
+(a) C0=1.0: 4.3 sum (n+pi/C0)(C0/20)^n = 0.05878  (< 1/16 = 0.0625: True)
+(a) C0=0.5: 4.3 sum (n+pi/C0)(C0/20)^n = 0.02290  (< 1/16 = 0.0625: True)
+(a) C0=0.1: 4.3 sum (n+pi/C0)(C0/20)^n = 0.00361  (< 1/16 = 0.0625: True)
+(a) C0=0.01: 4.3 sum (n+pi/C0)(C0/20)^n = 0.00034  (< 1/16 = 0.0625: True)
+(c) eps=1.0, C0=1.0: character part < 1/8 at P'=P_1 already for M = 8; W/(M log M) at that M ~ 19.4 (asymptotic max(8,4/eps) = 8)
+(c) eps=0.5, C0=1.0: character part < 1/8 at P'=P_1 already for M = 8; W/(M log M) at that M ~ 21.0 (asymptotic max(8,4/eps) = 8)
+(c) eps=0.25, C0=1.0: character part < 1/8 at P'=P_1 already for M = 8; W/(M log M) at that M ~ 42.0 (asymptotic max(8,4/eps) = 16.0)
+(c) eps=0.1, C0=1.0: character part < 1/8 at P'=P_1 already for M = 8; W/(M log M) at that M ~ 105.0 (asymptotic max(8,4/eps) = 40.0)
+(c) eps=0.05, C0=1.0: character part < 1/8 at P'=P_1 already for M = 8; W/(M log M) at that M ~ 210.0 (asymptotic max(8,4/eps) = 80.0)
+(3) eps=0.25, M=1000: smallest log P' for the character part (best theta=0.99) = 5.662 log M  -> W/(M log M) ~ 11.32 (proof's choice: 4/eps = 16; 2/eps = 8)
+(3) eps=0.25, M=100000: smallest log P' for the character part (best theta=0.99) = 5.013 log M  -> W/(M log M) ~ 10.03 (proof's choice: 4/eps = 16; 2/eps = 8)
+(3) eps=0.25, M=10000000: smallest log P' for the character part (best theta=0.99) = 4.735 log M  -> W/(M log M) ~ 9.47 (proof's choice: 4/eps = 16; 2/eps = 8)
+(3) eps=0.1, M=1000: smallest log P' for the character part (best theta=0.99) = 14.154 log M  -> W/(M log M) ~ 28.31 (proof's choice: 4/eps = 40; 2/eps = 20)
+(3) eps=0.1, M=100000: smallest log P' for the character part (best theta=0.99) = 12.534 log M  -> W/(M log M) ~ 25.07 (proof's choice: 4/eps = 40; 2/eps = 20)
+(3) eps=0.1, M=10000000: smallest log P' for the character part (best theta=0.99) = 11.839 log M  -> W/(M log M) ~ 23.68 (proof's choice: 4/eps = 40; 2/eps = 20)
+(3) eps=0.05, M=1000: smallest log P' for the character part (best theta=0.99) = 28.308 log M  -> W/(M log M) ~ 56.62 (proof's choice: 4/eps = 80; 2/eps = 40)
+(3) eps=0.05, M=100000: smallest log P' for the character part (best theta=0.99) = 25.067 log M  -> W/(M log M) ~ 50.13 (proof's choice: 4/eps = 80; 2/eps = 40)
+(3) eps=0.05, M=10000000: smallest log P' for the character part (best theta=0.99) = 23.677 log M  -> W/(M log M) ~ 47.35 (proof's choice: 4/eps = 80; 2/eps = 40)
+(Cor 3.3) M=10000: error term with log(1/C(eps)) = 0 is 1.435 * W/log M; the proof claims <= 0.5 * W/log M: FALSE; the conclusion needs <= (1+eps) W/log M
+(Cor 3.3) M=1000000: error term with log(1/C(eps)) = 0 is 1.264 * W/log M; the proof claims <= 0.5 * W/log M: FALSE; the conclusion needs <= (1+eps) W/log M
+(Cor 3.3) M=1000000000: error term with log(1/C(eps)) = 0 is 1.166 * W/log M; the proof claims <= 0.5 * W/log M: FALSE; the conclusion needs <= (1+eps) W/log M
+(Bell) M=100: log Bell(M/2+1) = 111.7; (M/2) log M = 230.3; (M/2)(log M - loglog M) = 153.9
+(Bell) M=400: log Bell(M/2+1) = 639.0; (M/2) log M = 1198.3; (M/2)(log M - loglog M) = 840.2
+(Bell) M=1000: log Bell(M/2+1) = 1946.2; (M/2) log M = 3453.9; (M/2)(log M - loglog M) = 2487.6

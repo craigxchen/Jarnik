@@ -1,0 +1,14 @@
+N <= 5000000, C <= 8.0: 435196 windows with M >= 4 tested exactly; failures 0
+   M = 4: tightest log q / max_s b_C(s) = (0.994, 3301381, 7.9764, 54121)
+   M = 5: tightest log q / max_s b_C(s) = (0.8406, 241, 7.8801, 241)
+   M = 6: tightest log q / max_s b_C(s) = (0.8406, 241, 7.8801, 241)
+   M = 7: tightest log q / max_s b_C(s) = (0.8406, 241, 7.8801, 241)
+   M = 8: tightest log q / max_s b_C(s) = (0.628, 305, 7.7834, 61)
+   M = 9: tightest log q / max_s b_C(s) = (0.6173, 205, 7.5678, 41)
+   M = 10: tightest log q / max_s b_C(s) = (0.6173, 205, 7.5678, 41)
+   M = 11: tightest log q / max_s b_C(s) = (0.62, 205, 7.5678, 41)
+   M = 12: tightest log q / max_s b_C(s) = (0.62, 205, 7.5678, 41)
+   M = 13: tightest log q / max_s b_C(s) = (0.6203, 205, 7.5678, 41)
+   M = 14: tightest log q / max_s b_C(s) = (0.6203, 205, 7.5678, 41)
+   M = 15: tightest log q / max_s b_C(s) = (0.6203, 205, 7.5678, 41)
+ALL CHECKS PASSED: True

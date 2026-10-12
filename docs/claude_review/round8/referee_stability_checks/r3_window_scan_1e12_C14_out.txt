@@ -1,0 +1,6 @@
+circles: 4 base norms <= 1000000000000 with r2 >= 1536, plus 1 with content
+windows per M: {4: 5068, 5: 2792, 6: 792, 7: 184, 8: 24}
+stats: {'windows': 8860, '6.1_tests': 26456, '8.1_tests': 43024, '8.3_parallel': 666}
+tightest T3.1 ratio log q / max_s b_C(s): (0.3333966103346815, 785817263725, 5, 4.695854847312317, 61)
+failures: {}
+ALL CHECKS PASSED: True

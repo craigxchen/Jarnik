@@ -1,0 +1,13 @@
+Lemma 2.1: 26244 numbers (8 places, exponents in [-1,1], 4 units): (1)-(3) PASS
+v=(1, 0): w(supp v)=1.6094; min sum log H: K=1 1.7918, K=2 2.9957 (8 places, |b|<=3); Lemma 2.2 PASS
+v=(0, 1): w(supp v)=2.5649; min sum log H: K=1 2.5649, K=2 3.9512 (8 places, |b|<=3); Lemma 2.2 PASS
+v=(1, 1): w(supp v)=4.1744; min sum log H: K=1 4.1897, K=2 4.3567 (8 places, |b|<=3); Lemma 2.2 PASS
+v=(1, -1): w(supp v)=4.1744; min sum log H: K=1 4.1744, K=2 4.3567 (8 places, |b|<=3); Lemma 2.2 PASS
+v=(2, 1): w(supp v)=4.1744; min sum log H: K=1 inf, K=2 4.3567 (8 places, |b|<=3); Lemma 2.2 PASS
+v=(2, -1): w(supp v)=4.1744; min sum log H: K=1 inf, K=2 4.3567 (8 places, |b|<=3); Lemma 2.2 PASS
+v=(2, 0): w(supp v)=1.6094; min sum log H: K=1 1.7918, K=2 2.9957 (8 places, |b|<=3); Lemma 2.2 PASS
+v=(3, -2): w(supp v)=4.1744; min sum log H: K=1 inf, K=2 4.3567 (8 places, |b|<=3); Lemma 2.2 PASS
+v=(1, 0): K=3 (6 places, |b|<=2): min sum log H = 3.1781 vs w(supp v) = 1.6094: PASS
+v=(1, 1): K=3 (6 places, |b|<=2): min sum log H = 5.5607 vs w(supp v) = 4.1744: PASS
+v=(1, -1): K=3 (6 places, |b|<=2): min sum log H = 5.5607 vs w(supp v) = 4.1744: PASS
+v=(2, -1): K=3 (6 places, |b|<=2): min sum log H = 5.5607 vs w(supp v) = 4.1744: PASS
