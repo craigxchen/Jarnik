@@ -1,0 +1,8 @@
+X = 1e+08, circles with >= 24 points, clusters with normalised C <= 6.0
+decade  circles   rank>=3   rank>=4   rank>=5   rank>=6
+10^2          5         0         0         0         0
+10^3         91        35         0         0         0
+10^4       1127       252        10         0         0
+10^5      12956      1092        72         0         0
+10^6     142080      4526       288         6         0
+10^7    1512833     22863       980        14         0

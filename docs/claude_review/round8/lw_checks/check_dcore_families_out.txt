@@ -1,0 +1,18 @@
+q=7 M=8 types=14: s(columns of K) = [5] (M/2+1 = 5); label pairs: min 7 max 7; row pairs: min 8 max 8; min-fraction s/#types = 0.3571 vs 1/4
+   Liouville margin spot check: min over random c of Phi - (2(M-1)+||c||_1) = 0 (>= 0)
+q=11 M=12 types=22: s(columns of K) = [7] (M/2+1 = 7); label pairs: min 9 max 9; row pairs: min 12 max 12; min-fraction s/#types = 0.3182 vs 1/4
+   Liouville margin spot check: min over random c of Phi - (2(M-1)+||c||_1) = 0 (>= 0)
+q=19 M=20 types=38: s(columns of K) = [11] (M/2+1 = 11); label pairs: min 13 max 13; row pairs: min 20 max 20; min-fraction s/#types = 0.2895 vs 1/4
+   Liouville margin spot check: min over random c of Phi - (2(M-1)+||c||_1) = 0 (>= 0)
+q=23 M=24 types=46: s(columns of K) = [13] (M/2+1 = 13); label pairs: min 15 max 15; row pairs: min 24 max 24; min-fraction s/#types = 0.2826 vs 1/4
+   Liouville margin spot check: min over random c of Phi - (2(M-1)+||c||_1) = 0 (>= 0)
+q=43 M=44 types=86: s(columns of K) = [23] (M/2+1 = 23); label pairs: min 25 max 25; row pairs: min 44 max 44; min-fraction s/#types = 0.2674 vs 1/4
+   Liouville margin spot check: min over random c of Phi - (2(M-1)+||c||_1) = 0 (>= 0)
+q=47 M=48 types=94: s(columns of K) = [25] (M/2+1 = 25); label pairs: min 27 max 27; row pairs: min 48 max 48; min-fraction s/#types = 0.2660 vs 1/4
+   Liouville margin spot check: min over random c of Phi - (2(M-1)+||c||_1) = 0 (>= 0)
+Part D q=7: cut S'_a = cut S_a with rows 0 and a flipped, for every a: True
+Part D q=11: cut S'_a = cut S_a with rows 0 and a flipped, for every a: True
+Part D q=19: cut S'_a = cut S_a with rows 0 and a flipped, for every a: True
+Part D q=23: cut S'_a = cut S_a with rows 0 and a flipped, for every a: True
+Part D q=43: cut S'_a = cut S_a with rows 0 and a flipped, for every a: True
+Part D q=47: cut S'_a = cut S_a with rows 0 and a flipped, for every a: True

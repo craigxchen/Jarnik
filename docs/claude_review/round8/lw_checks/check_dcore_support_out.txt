@@ -1,0 +1,18 @@
+Part A q=7: identities u_a = (c_a-c_0)+Sigma_a, |v_a| = |(c_a-c_0)-Sigma_a| hold on 200 random c
+Part A q=11: identities u_a = (c_a-c_0)+Sigma_a, |v_a| = |(c_a-c_0)-Sigma_a| hold on 200 random c
+Part A q=19: identities u_a = (c_a-c_0)+Sigma_a, |v_a| = |(c_a-c_0)-Sigma_a| hold on 200 random c
+Part A q=23: identities u_a = (c_a-c_0)+Sigma_a, |v_a| = |(c_a-c_0)-Sigma_a| hold on 200 random c
+Part B q=7 M=8 entries=(-1, 0, 1) supp<=8: 553 characters (up to sign); min s(c) = 5 (bound M/2 = 4); a minimiser: rows (0, 1, 2, 3, 4, 5, 6, 7) values (1, -1, -1, -1, 1, -1, 1, 1)
+Part B q=11 M=12 entries=(-1, 0, 1) supp<=12: 36894 characters (up to sign); min s(c) = 7 (bound M/2 = 6); a minimiser: rows (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11) values (1, -1, -1, -1, 1, -1, -1, 1, -1, 1, 1, 1)
+Part B q=7 M=8 entries=(-2, -1, 0, 1, 2) supp<=6: 10304 characters (up to sign); min s(c) = 7 (bound M/2 = 4); a minimiser: rows (0, 1, 2, 4) values (1, -1, -1, 1)
+Part B q=11 M=12 entries=(-2, -1, 0, 1, 2) supp<=6: 247962 characters (up to sign); min s(c) = 9 (bound M/2 = 6); a minimiser: rows (1, 2, 3, 4, 5, 7) values (1, -1, -1, -1, 1, 1)
+Part B q=19 M=20 entries=(-1, 0, 1) supp<=6: 402325 characters (up to sign); min s(c) = 18 (bound M/2 = 10); a minimiser: rows (1, 2, 3, 4, 7, 11) values (1, -1, -1, 1, 1, -1)
+Part B q=19 M=20 entries=(-2, -1, 0, 1, 2) supp<=4: 91010 characters (up to sign); min s(c) = 19 (bound M/2 = 10); a minimiser: rows (1, 2, 3, 7) values (1, -1, -1, 1)
+Part C q=7 M=8: 3003 hyperplanes enumerated; max load (float) = 9; min s(c) = 5 (bound M/2 = 4)
+   exact maximiser: load 9, s(c) = 5, c = [1, 1, 1, -1, 1, -1, -1, -1]
+   exact maximiser: load 9, s(c) = 5, c = [1, 1, -1, 1, -1, -1, -1, 1]
+   exact maximiser: load 9, s(c) = 5, c = [1, 1, -1, -1, -1, 1, 1, -1]
+Part C q=11 M=12: 646646 hyperplanes enumerated; max load (float) = 15; min s(c) = 7 (bound M/2 = 6)
+   exact maximiser: load 15, s(c) = 7, c = [1, 1, 1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+   exact maximiser: load 15, s(c) = 7, c = [1, 1, 1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+   exact maximiser: load 15, s(c) = 7, c = [1, 1, -1, 1, 1, 1, -1, -1, -1, 1, -1, -1]

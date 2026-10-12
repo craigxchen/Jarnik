@@ -1,0 +1,2 @@
+M=12 tau=2.0logM #0: D_max/tau= 2.79 Perron 2lam/tau= 22.72 LP= 23.85 r*=118 [time limit, lower bound 29.0] r_unif=66 [opt] r*/LP= 4.95 r_unif/r*= 0.56 distinct cuts used=75 [464s]
+done (evidence only)

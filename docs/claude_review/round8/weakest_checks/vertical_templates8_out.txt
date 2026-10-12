@@ -1,0 +1,1 @@
+exit=0 (no output means: no 8-set b in {1..18} has a (sum, cube sum) fibre of size >= 4)

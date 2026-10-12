@@ -1,0 +1,22 @@
+(G) golden family, k = 4 (expect rank 4, gamma_4 -> 1/4 from above as logN/lograd -> 1)
+  n= 4: M=8 logN=20.10 omega=5 logN/lograd=1.0870 rank=4 C=5.8974 rank-4 subsets=32 max gamma_4=0.22224
+  n= 7: M=8 logN=31.65 omega=7 logN/lograd=1.0536 rank=4 C=5.8977 rank-4 subsets=32 max gamma_4=0.23213
+  n=10: M=8 logN=43.20 omega=8 logN/lograd=1.0805 rank=4 C=5.8977 rank-4 subsets=32 max gamma_4=0.23842
+  n=13: M=8 logN=54.75 omega=9 logN/lograd=1.0000 rank=4 C=5.8977 rank-4 subsets=32 max gamma_4=0.22611
+  n=16: M=8 logN=66.30 omega=10 logN/lograd=1.0249 rank=4 C=5.8977 rank-4 subsets=32 max gamma_4=0.24028
+  n=19: M=8 logN=77.85 omega=9 logN/lograd=1.0211 rank=4 C=5.8977 rank-4 subsets=32 max gamma_4=0.23985
+  n=22: M=8 logN=89.40 omega=10 logN/lograd=1.0183 rank=4 C=5.8977 rank-4 subsets=32 max gamma_4=0.24064
+  n=25: M=8 logN=100.95 omega=12 logN/lograd=1.0162 rank=4 C=5.8977 rank-4 subsets=32 max gamma_4=0.24083
+  n=28: M=8 logN=112.50 omega=13 logN/lograd=1.0000 rank=4 C=5.8977 rank-4 subsets=32 max gamma_4=0.23603
+  n=31: M=8 logN=124.04 omega=14 logN/lograd=1.0131 rank=4 C=5.8977 rank-4 subsets=32 max gamma_4=0.24003
+  n=34: M=8 logN=135.59 omega=12 logN/lograd=1.0243 rank=4 C=5.8977 rank-4 subsets=32 max gamma_4=0.24400
+(CG) generic Cilleruelo-Granville members, k = 3 (expect rank 3, gamma_3 ~ 1/4)
+  a=1000: M=6 logN=53.90 omega=7 logN/lograd=1.0308 rank=3 C=5.6569 rank-3 subsets=12 max gamma_3=0.24358
+  a=10007: M=6 logN=72.30 omega=8 logN/lograd=1.0000 rank=3 C=5.6569 rank-3 subsets=12 max gamma_3=0.23564
+  a=100003: M=6 logN=90.72 omega=10 logN/lograd=1.0181 rank=3 C=5.6569 rank-3 subsets=12 max gamma_3=0.24237
+  a=1000001: M=6 logN=109.14 omega=12 logN/lograd=1.0150 rank=3 C=5.6569 rank-3 subsets=12 max gamma_3=0.24278
+(CGP) Pell members a+1+i = (2+i)(x+iy)^2, k = 3 (expect gamma_3 -> 2/7 = 0.2857)
+  a=681: M=6 logN=50.83 omega=8 logN/lograd=1.2134 rank=3 C=5.6569 rank-3 subsets=12 max gamma_3=0.28154
+  a=219601: M=6 logN=97.01 omega=12 logN/lograd=1.1562 rank=3 C=5.6569 rank-3 subsets=12 max gamma_3=0.27347
+  a=70711161: M=6 logN=143.21 omega=12 logN/lograd=1.1518 rank=3 C=5.6569 rank-3 subsets=12 max gamma_3=0.28083
+  a=22768774561: M=6 logN=189.40 omega=11 logN/lograd=1.1496 rank=3 C=5.6569 rank-3 subsets=12 max gamma_3=0.27760

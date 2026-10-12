@@ -1,0 +1,4 @@
+q= 43: union support of K(e_a-e_b), K(e_a-e_c): min=36, mean=36.7, max=37; min/(2q)=0.4186, mean/(2q)=0.4271 (heuristic 3/8)
+q= 67: union support of K(e_a-e_b), K(e_a-e_c): min=54, mean=54.7, max=55; min/(2q)=0.4030, mean/(2q)=0.4085 (heuristic 3/8)
+q=103: union support of K(e_a-e_b), K(e_a-e_c): min=81, mean=81.7, max=82; min/(2q)=0.3932, mean/(2q)=0.3968 (heuristic 3/8)
+q=151: union support of K(e_a-e_b), K(e_a-e_c): min=117, mean=117.7, max=118; min/(2q)=0.3874, mean/(2q)=0.3899 (heuristic 3/8)

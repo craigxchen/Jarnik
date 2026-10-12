@@ -1,0 +1,10 @@
+Part 2: support pruning (upper bounds on f(r))
+ M=10 trial 0: 2lam=80.9 W_cut=85.1 (support 45) uniform=231.9 [unif/W_cut=2.72] min support reached 17 (f/W_cut=4.50); f(r)/W_cut: r=9:- r=10:- r=12:- r=20:2.02 r=30:1.06 r=40:1.01 [1s]
+ M=10 trial 1: 2lam=88.9 W_cut=92.2 (support 45) uniform=336.2 [unif/W_cut=3.65] min support reached 16 (f/W_cut=19.12); f(r)/W_cut: r=9:- r=10:- r=12:- r=20:1.60 r=30:1.06 r=40:1.00 [0s]
+ M=10 trial 2: 2lam=78.6 W_cut=82.5 (support 45) uniform=300.3 [unif/W_cut=3.64] min support reached 18 (f/W_cut=2.46); f(r)/W_cut: r=9:- r=10:- r=12:- r=20:1.88 r=30:1.11 r=40:1.01 [0s]
+ M=12 trial 0: 2lam=109.4 W_cut=111.2 (support 66) uniform=333.4 [unif/W_cut=3.00] min support reached 22 (f/W_cut=9.65); f(r)/W_cut: r=11:- r=12:- r=14:- r=24:3.59 r=36:1.16 r=48:1.01 [2s]
+ M=12 trial 1: 2lam=116.9 W_cut=117.6 (support 66) uniform=388.6 [unif/W_cut=3.30] min support reached 25 (f/W_cut=14.59); f(r)/W_cut: r=11:- r=12:- r=14:- r=24:- r=36:1.18 r=48:1.02 [1s]
+ M=12 trial 2: 2lam=122.8 W_cut=125.1 (support 66) uniform=382.5 [unif/W_cut=3.06] min support reached 22 (f/W_cut=12.59); f(r)/W_cut: r=11:- r=12:- r=14:- r=24:6.06 r=36:1.23 r=48:1.02 [1s]
+ M=16 trial 0: 2lam=150.3 W_cut=153.3 (support 120) uniform=620.4 [unif/W_cut=4.05] min support reached 39 (f/W_cut=19.28); f(r)/W_cut: r=15:- r=16:- r=18:- r=32:- r=48:2.12 r=64:1.24 [27s]
+ M=16 trial 1: 2lam=141.9 W_cut=142.2 (support 120) uniform=583.8 [unif/W_cut=4.11] min support reached 38 (f/W_cut=24.62); f(r)/W_cut: r=15:- r=16:- r=18:- r=32:- r=48:2.52 r=64:1.31 [29s]
+done (evidence only)

@@ -1,0 +1,5 @@
+q=11 M=12 profile=dcore seed=0 types=22: enumerated 646646 hyperplanes in 18s
+  min s(c) = 7 ; s(c)/#types = 0.3182 ; (M/2)/#types = 0.2727
+  s = 7: 22 primitive characters (up to sign); e.g. [[1, 1, -1, 1, 1, 1, -1, -1, -1, 1, -1, -1], [1, -1, 1, 1, 1, -1, -1, -1, 1, -1, -1, 1]]
+  s = 9: 220 primitive characters (up to sign); e.g. [[0, 1, -1, 0, 0, 1, 0, 0, -1, 1, 0, -1], [0, 0, 1, 0, -1, -1, 0, 1, 0, -1, 1, 0]]
+  s = 10: 1771 primitive characters (up to sign); e.g. [[3, 1, -1, 3, 3, 1, -3, -3, -1, 1, -3, -1], [3, 3, 1, 3, -1, -1, -3, 1, -3, -1, 1, -3]]

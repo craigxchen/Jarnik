@@ -1,0 +1,5 @@
+q=7 M=8 profile=rand2 seed=1 types=14: enumerated 3003 hyperplanes in 0s
+  min s(c) = 2 ; s(c)/#types = 0.1429 ; (M/2)/#types = 0.2857
+  s = 2: 1 primitive characters (up to sign); e.g. [[1, 1, -1, -1, -1, 1, 1, -1]]
+  s = 4: 6 primitive characters (up to sign); e.g. [[1, 1, 0, 0, 0, -1, -1, 0], [0, 0, 1, -1, 1, 0, 0, -1]]
+  s = 5: 12 primitive characters (up to sign); e.g. [[1, 1, 1, -1, 1, -1, -1, -1], [1, 1, -1, 1, -1, -1, -1, 1]]

@@ -1,0 +1,13 @@
+g=  2 t= 2 L=  3  M=   4 r=    5 lam_max(k)=    5.000 (M-t+(t-1)L=5)  uniform cost (M-1)L=     9  exact Gram: True
+g=  4 t= 2 L=  5  M=   8 r=   11 lam_max(k)=   11.000 (M-t+(t-1)L=11)  uniform cost (M-1)L=    35  exact Gram: True
+g=  8 t= 2 L=  9  M=  16 r=   23 lam_max(k)=   23.000 (M-t+(t-1)L=23)  uniform cost (M-1)L=   135  exact Gram: True
+g= 16 t= 2 L= 17  M=  32 r=   47 lam_max(k)=   47.000 (M-t+(t-1)L=47)  uniform cost (M-1)L=   527  exact Gram: True
+g= 16 t= 2 L= 49  M=  32 r=   79 lam_max(k)=   79.000 (M-t+(t-1)L=79)  uniform cost (M-1)L=  1519  exact Gram: True
+g= 32 t= 2 L= 33  M=  64 r=   95 lam_max(k)=   95.000 (M-t+(t-1)L=95)  uniform cost (M-1)L=  2079  exact Gram: True
+g=  4 t= 4 L=  5  M=  16 r=   27 lam_max(k)=   27.000 (M-t+(t-1)L=27)  uniform cost (M-1)L=    75  exact Gram: True
+g=  8 t= 4 L=  9  M=  32 r=   55 lam_max(k)=   55.000 (M-t+(t-1)L=55)  uniform cost (M-1)L=   279  exact Gram: True
+g=  8 t= 8 L= 25  M=  64 r=  231 lam_max(k)=  231.000 (M-t+(t-1)L=231)  uniform cost (M-1)L=  1575  exact Gram: True
+g= 16 t= 4 L= 17  M=  64 r=  111 lam_max(k)=  111.000 (M-t+(t-1)L=111)  uniform cost (M-1)L=  1071  exact Gram: True
+g=  4 t=16 L= 13  M=  64 r=  243 lam_max(k)=  243.000 (M-t+(t-1)L=243)  uniform cost (M-1)L=   819  exact Gram: True
+g= 32 t= 4 L= 97  M= 128 r=  415 lam_max(k)=  415.000 (M-t+(t-1)L=415)  uniform cost (M-1)L= 12319  exact Gram: True
+ALL CLIQUE-BLOCK CHECKS PASSED

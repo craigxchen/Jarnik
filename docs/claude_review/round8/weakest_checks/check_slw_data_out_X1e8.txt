@@ -1,0 +1,21 @@
+X = 1e+08: circles with >= 48 points: 351061
+  k=3: rank-3 windows=16740216  median gamma=0.0981  99.9%=0.2855  max gamma=0.4669 at N=60692125  (Dirichlet 1/k=0.3333; uniform needs SLW with g<1/4)
+  k=4: rank-4 windows= 6068288  median gamma=0.0852  99.9%=0.2256  max gamma=0.3307 at N=10414625  (Dirichlet 1/k=0.2500; uniform needs SLW with g<1/4)
+  k=5: rank-5 windows=  293576  median gamma=0.1047  99.9%=0.1896  max gamma=0.2343 at N=90527125  (Dirichlet 1/k=0.2000; uniform needs SLW with g<1/4)
+  largest cluster with C<=6.0: size  2: circles=101915, max rank=1, rank distribution={1: 101915}
+  largest cluster with C<=6.0: size  3: circles=165520, max rank=2, rank distribution={1: 504, 2: 165016}
+  largest cluster with C<=6.0: size  4: circles= 79635, max rank=3, rank distribution={1: 1, 2: 58797, 3: 20837}
+  largest cluster with C<=6.0: size  5: circles=  3245, max rank=4, rank distribution={2: 76, 3: 2268, 4: 901}
+  largest cluster with C<=6.0: size  6: circles=   745, max rank=5, rank distribution={2: 9, 3: 640, 4: 79, 5: 17}
+  largest cluster with C<=6.0: size  8: circles=     1, max rank=3, rank distribution={3: 1}
+  clusters (C<=6.0) of rank >= 5: 17; largest normalised W' = log N' among them: 18.32
+    N=90527125 size=6 rank=5 C=4.339 W'=18.32
+    N=29641625 size=6 rank=5 C=5.530 W'=17.20
+    N=15413645 size=6 rank=5 C=5.961 W'=16.55
+    N=77068225 size=6 rank=5 C=5.961 W'=16.55
+    N=13818025 size=6 rank=5 C=5.800 W'=16.44
+    N=69090125 size=6 rank=5 C=5.800 W'=16.44
+    N=13645645 size=6 rank=5 C=5.782 W'=16.43
+    N=68228225 size=6 rank=5 C=5.782 W'=16.43
+    N=9194705 size=6 rank=5 C=5.238 W'=16.03
+    N=45973525 size=6 rank=5 C=5.238 W'=16.03

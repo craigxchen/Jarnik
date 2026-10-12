@@ -1,0 +1,49 @@
+uniform J-I                  M= 6 2lam=   10.000 W_cut=   10.000 pi*lam=   15.708 W/2lam=1.0000 dual=   10.000 unif=   10.000 unif/W= 1.000 #cuts>0= 10 OK
+J-I + heavy pair (10)        M= 6 2lam=   22.000 W_cut=   24.000 pi*lam=   34.558 W/2lam=1.0909 dual=   24.000 unif=  100.000 unif/W= 4.167 #cuts>0= 10 OK
+J-I + matching (L=M)         M= 6 2lam=   20.000 W_cut=   20.000 pi*lam=   31.416 W/2lam=1.0000 dual=   20.000 unif=   60.000 unif/W= 3.000 #cuts>0= 10 OK
+random coll. X=18 #0         M= 6 2lam=   42.807 W_cut=   50.206 pi*lam=   67.242 W/2lam=1.1728 dual=   50.206 unif=  166.350 unif/W= 3.313 #cuts>0= 14 OK
+random coll. X=18 #1         M= 6 2lam=   38.896 W_cut=   46.948 pi*lam=   61.098 W/2lam=1.2070 dual=   46.948 unif=  131.446 unif/W= 2.800 #cuts>0= 13 OK
+random coll. X=18 #2         M= 6 2lam=   29.484 W_cut=   33.186 pi*lam=   46.314 W/2lam=1.1256 dual=   33.186 unif=   71.107 unif/W= 2.143 #cuts>0= 15 OK
+random coll. X=36 #0         M= 6 2lam=   62.101 W_cut=   76.026 pi*lam=   97.548 W/2lam=1.2242 dual=   76.026 unif=  148.207 unif/W= 1.949 #cuts>0= 13 OK
+random coll. X=36 #1         M= 6 2lam=   55.976 W_cut=   66.036 pi*lam=   87.927 W/2lam=1.1797 dual=   66.036 unif=  182.689 unif/W= 2.766 #cuts>0= 14 OK
+random coll. X=36 #2         M= 6 2lam=   29.638 W_cut=   35.552 pi*lam=   46.555 W/2lam=1.1995 dual=   35.552 unif=   91.902 unif/W= 2.585 #cuts>0= 11 OK
+Poisson-tail iid #0          M= 6 2lam=   50.153 W_cut=   56.586 pi*lam=   78.780 W/2lam=1.1283 dual=   56.586 unif=   81.670 unif/W= 1.443 #cuts>0= 14 OK
+Poisson-tail iid #1          M= 6 2lam=   61.977 W_cut=   74.503 pi*lam=   97.353 W/2lam=1.2021 dual=   74.503 unif=  189.176 unif/W= 2.539 #cuts>0= 15 OK
+Poisson-tail iid #2          M= 6 2lam=   40.532 W_cut=   45.835 pi*lam=   63.668 W/2lam=1.1308 dual=   45.835 unif=   81.670 unif/W= 1.782 #cuts>0= 13 OK
+uniform J-I                  M= 8 2lam=   14.000 W_cut=   14.000 pi*lam=   21.991 W/2lam=1.0000 dual=   14.000 unif=   14.000 unif/W= 1.000 #cuts>0=  7 OK
+J-I + heavy pair (10)        M= 8 2lam=   23.544 W_cut=   24.000 pi*lam=   36.983 W/2lam=1.0194 dual=   24.000 unif=  140.000 unif/W= 5.833 #cuts>0= 20 OK
+J-I + matching (L=M)         M= 8 2lam=   28.000 W_cut=   28.000 pi*lam=   43.982 W/2lam=1.0000 dual=   28.000 unif=  112.000 unif/W= 4.000 #cuts>0=  9 OK
+random coll. X=24 #0         M= 8 2lam=   50.456 W_cut=   53.113 pi*lam=   79.256 W/2lam=1.0527 dual=   53.113 unif=  167.691 unif/W= 3.157 #cuts>0= 28 OK
+random coll. X=24 #1         M= 8 2lam=   80.077 W_cut=   86.788 pi*lam=  125.785 W/2lam=1.0838 dual=   86.788 unif=  263.354 unif/W= 3.034 #cuts>0= 28 OK
+random coll. X=24 #2         M= 8 2lam=   59.752 W_cut=   62.906 pi*lam=   93.858 W/2lam=1.0528 dual=   62.906 unif=  157.065 unif/W= 2.497 #cuts>0= 28 OK
+random coll. X=64 #0         M= 8 2lam=   82.556 W_cut=   86.138 pi*lam=  129.679 W/2lam=1.0434 dual=   86.138 unif=  280.948 unif/W= 3.262 #cuts>0= 28 OK
+random coll. X=64 #1         M= 8 2lam=   75.502 W_cut=   78.662 pi*lam=  118.597 W/2lam=1.0419 dual=   78.662 unif=  261.546 unif/W= 3.325 #cuts>0= 28 OK
+random coll. X=64 #2         M= 8 2lam=   99.919 W_cut=  106.587 pi*lam=  156.952 W/2lam=1.0667 dual=  106.587 unif=  326.923 unif/W= 3.067 #cuts>0= 28 OK
+Poisson-tail iid #0          M= 8 2lam=   84.198 W_cut=   88.860 pi*lam=  132.258 W/2lam=1.0554 dual=   88.860 unif=  246.897 unif/W= 2.779 #cuts>0= 26 OK
+Poisson-tail iid #1          M= 8 2lam=   81.485 W_cut=   88.860 pi*lam=  127.996 W/2lam=1.0905 dual=   88.860 unif=  188.673 unif/W= 2.123 #cuts>0= 28 OK
+Poisson-tail iid #2          M= 8 2lam=   85.275 W_cut=   90.523 pi*lam=  133.950 W/2lam=1.0615 dual=   90.523 unif=  246.897 unif/W= 2.727 #cuts>0= 27 OK
+uniform J-I                  M=10 2lam=   18.000 W_cut=   18.000 pi*lam=   28.274 W/2lam=1.0000 dual=   18.000 unif=   18.000 unif/W= 1.000 #cuts>0= 32 OK
+J-I + heavy pair (10)        M=10 2lam=   25.544 W_cut=   25.600 pi*lam=   40.124 W/2lam=1.0022 dual=   25.600 unif=  180.000 unif/W= 7.031 #cuts>0= 38 OK
+J-I + matching (L=M)         M=10 2lam=   36.000 W_cut=   36.000 pi*lam=   56.549 W/2lam=1.0000 dual=   36.000 unif=  180.000 unif/W= 5.000 #cuts>0= 35 OK
+random coll. X=30 #0         M=10 2lam=   87.407 W_cut=   88.964 pi*lam=  137.299 W/2lam=1.0178 dual=   88.964 unif=  314.218 unif/W= 3.532 #cuts>0= 45 OK
+random coll. X=30 #1         M=10 2lam=   73.587 W_cut=   76.145 pi*lam=  115.590 W/2lam=1.0348 dual=   76.145 unif=  207.995 unif/W= 2.732 #cuts>0= 45 OK
+random coll. X=30 #2         M=10 2lam=   81.227 W_cut=   84.935 pi*lam=  127.592 W/2lam=1.0456 dual=   84.935 unif=  311.807 unif/W= 3.671 #cuts>0= 45 OK
+random coll. X=100 #0        M=10 2lam=  131.931 W_cut=  136.423 pi*lam=  207.237 W/2lam=1.0340 dual=  136.423 unif=  433.608 unif/W= 3.178 #cuts>0= 45 OK
+random coll. X=100 #1        M=10 2lam=  105.301 W_cut=  106.687 pi*lam=  165.407 W/2lam=1.0132 dual=  106.687 unif=  297.069 unif/W= 2.784 #cuts>0= 45 OK
+random coll. X=100 #2        M=10 2lam=  137.372 W_cut=  141.869 pi*lam=  215.784 W/2lam=1.0327 dual=  141.869 unif=  501.370 unif/W= 3.534 #cuts>0= 45 OK
+Poisson-tail iid #0          M=10 2lam=  106.181 W_cut=  110.103 pi*lam=  166.789 W/2lam=1.0369 dual=  110.103 unif=  266.679 unif/W= 2.422 #cuts>0= 44 OK
+Poisson-tail iid #1          M=10 2lam=  106.256 W_cut=  110.103 pi*lam=  166.907 W/2lam=1.0362 dual=  110.103 unif=  349.572 unif/W= 3.175 #cuts>0= 45 OK
+Poisson-tail iid #2          M=10 2lam=  136.195 W_cut=  140.037 pi*lam=  213.934 W/2lam=1.0282 dual=  140.037 unif=  432.465 unif/W= 3.088 #cuts>0= 45 OK
+uniform J-I                  M=11 2lam=   20.000 W_cut=   22.000 pi*lam=   31.416 W/2lam=1.1000 dual=   22.000 unif=   20.000 unif/W= 0.909 #cuts>0= 55 OK
+J-I + heavy pair (10)        M=11 2lam=   26.718 W_cut=   28.000 pi*lam=   41.968 W/2lam=1.0480 dual=   28.000 unif=  200.000 unif/W= 7.143 #cuts>0= 53 OK
+J-I + matching (L=M)         M=11 2lam=   39.025 W_cut=   42.000 pi*lam=   61.300 W/2lam=1.0762 dual=   42.000 unif=  220.000 unif/W= 5.238 #cuts>0= 55 OK
+random coll. X=33 #0         M=11 2lam=  119.450 W_cut=  120.728 pi*lam=  187.631 W/2lam=1.0107 dual=  120.728 unif=  487.450 unif/W= 4.038 #cuts>0= 55 OK
+random coll. X=33 #1         M=11 2lam=   99.747 W_cut=  103.774 pi*lam=  156.682 W/2lam=1.0404 dual=  103.774 unif=  354.004 unif/W= 3.411 #cuts>0= 55 OK
+random coll. X=33 #2         M=11 2lam=   93.574 W_cut=   98.910 pi*lam=  146.985 W/2lam=1.0570 dual=   98.910 unif=  356.773 unif/W= 3.607 #cuts>0= 55 OK
+random coll. X=121 #0        M=11 2lam=  155.066 W_cut=  161.143 pi*lam=  243.578 W/2lam=1.0392 dual=  161.143 unif=  500.147 unif/W= 3.104 #cuts>0= 55 OK
+random coll. X=121 #1        M=11 2lam=  136.140 W_cut=  139.211 pi*lam=  213.849 W/2lam=1.0226 dual=  139.211 unif=  583.374 unif/W= 4.191 #cuts>0= 55 OK
+random coll. X=121 #2        M=11 2lam=  182.579 W_cut=  188.691 pi*lam=  286.794 W/2lam=1.0335 dual=  188.691 unif=  699.833 unif/W= 3.709 #cuts>0= 55 OK
+Poisson-tail iid #0          M=11 2lam=  125.110 W_cut=  126.487 pi*lam=  196.523 W/2lam=1.0110 dual=  126.487 unif=  595.495 unif/W= 4.708 #cuts>0= 55 OK
+Poisson-tail iid #1          M=11 2lam=  123.234 W_cut=  131.344 pi*lam=  193.575 W/2lam=1.0658 dual=  131.344 unif=  307.747 unif/W= 2.343 #cuts>0= 55 OK
+Poisson-tail iid #2          M=11 2lam=  115.047 W_cut=  119.834 pi*lam=  180.715 W/2lam=1.0416 dual=  119.834 unif=  403.663 unif/W= 3.369 #cuts>0= 55 OK
+ALL LP/GW SANDWICH AND DUALITY CHECKS PASSED

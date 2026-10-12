@@ -1,0 +1,5 @@
+N = 5*13*17*29*37: parity/Euler checks 94380, collisions seen 5807: OK
+N = 5*13*17*29*37*41: parity/Euler checks 292050, collisions seen 14861: OK
+N = 13*17*29*37*41*53*61: parity/Euler checks 404480, collisions seen 27470: OK
+E-inequalities (4): OK
+ALL PARITY CHECKS PASSED

@@ -1,0 +1,7 @@
+q=  7 M=  8 cuts= 14: vectors tested=   40692, min #nonzero cuts=  6, bound (q+1)/2=  4, min/(2q)=0.4286  PASS  witness=vector
+q= 11 M= 12 cuts= 22: vectors tested=  118824, min #nonzero cuts=  9, bound (q+1)/2=  6, min/(2q)=0.4091  PASS  witness=('K(e_a-e_b)', 1, 2)
+q= 19 M= 20 cuts= 38: vectors tested=  202704, min #nonzero cuts= 13, bound (q+1)/2= 10, min/(2q)=0.3421  PASS  witness=('K(e_a-e_b)', 1, 2)
+q= 23 M= 24 cuts= 46: vectors tested=   34260, min #nonzero cuts= 15, bound (q+1)/2= 12, min/(2q)=0.3261  PASS  witness=('K(e_a-e_b)', 1, 2)
+q= 31 M= 32 cuts= 62: vectors tested=   43604, min #nonzero cuts= 19, bound (q+1)/2= 16, min/(2q)=0.3065  PASS  witness=('K(e_a-e_b)', 1, 2)
+q= 43 M= 44 cuts= 86: vectors tested=   12396, min #nonzero cuts= 25, bound (q+1)/2= 22, min/(2q)=0.2907  PASS  witness=('K(e_a-e_b)', 1, 2)
+ALL PASS

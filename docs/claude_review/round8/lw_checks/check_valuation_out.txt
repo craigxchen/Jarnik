@@ -1,0 +1,7 @@
+Part A: 2806 random alpha in Q(i): 2h(alpha) = max(P+,P-) (quadratic), log H = max(P+,P-)/2 (rational), M <= H <= 2M (quadratic): all PASS
+Part B target v=(1, 0): min sum log H over representations (K<=2, |c|<=4) = 1.7918; w(supp v) = 1.6094; Lemma 2.3 lower bound w(supp) = 1.6094; best rep [((-1, 1, 0, 0), -1)]
+Part B target v=(1, 1): min sum log H over representations (K<=2, |c|<=4) = 4.1897; w(supp v) = 4.1744; Lemma 2.3 lower bound w(supp) = 4.1744; best rep [((-1, 1, -1, 1), -1)]
+Part B target v=(1, -1): min sum log H over representations (K<=2, |c|<=4) = 4.3567; w(supp v) = 4.1744; Lemma 2.3 lower bound w(supp) = 4.1744; best rep [((-1, 1, 0, 0), -1), ((0, 0, -1, 1), 1)]
+Part B target v=(2, -1): min sum log H over representations (K<=2, |c|<=4) = 4.3567; w(supp v) = 4.1744; Lemma 2.3 lower bound w(supp) = 4.1744; best rep [((-1, 1, 0, 0), -2), ((0, 0, -1, 1), 1)]
+Part B target v=(2, 1): min sum log H over representations (K<=2, |c|<=4) = 4.3567; w(supp v) = 4.1744; Lemma 2.3 lower bound w(supp) = 4.1744; best rep [((-1, 1, 0, 0), -2), ((0, 0, -1, 1), -1)]
+Part B target v=(3, -2): min sum log H over representations (K<=2, |c|<=4) = 4.3567; w(supp v) = 4.1744; Lemma 2.3 lower bound w(supp) = 4.1744; best rep [((-1, 1, 0, 0), -3), ((0, 0, -1, 1), 2)]

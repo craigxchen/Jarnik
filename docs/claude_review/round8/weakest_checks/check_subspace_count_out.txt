@@ -1,0 +1,10 @@
+s=  25 P=   257 delta=0.45: bins L=   20; pair solutions=     10 (all 10 verified=True); s^2/(2L)=     15.6; triples(disjoint pairs)=        42 (sample verified=True)
+s=  50 P=   577 delta=0.45: bins L=   28; pair solutions=     33 (all 33 verified=True); s^2/(2L)=     44.6; triples(disjoint pairs)=       504 (sample verified=True)
+s= 100 P=  1237 delta=0.45: bins L=   39; pair solutions=    109 (all 109 verified=True); s^2/(2L)=    128.2; triples(disjoint pairs)=      5682 (sample verified=True)
+s= 200 P=  2797 delta=0.45: bins L=   56; pair solutions=    333 (all 333 verified=True); s^2/(2L)=    357.1; triples(disjoint pairs)=     54228 (sample verified=True)
+s= 400 P=  6277 delta=0.45: bins L=   81; pair solutions=    903 (all 903 verified=True); s^2/(2L)=    987.7; triples(disjoint pairs)=    403614 (sample verified=True)
+s= 800 P= 13669 delta=0.45: bins L=  115; pair solutions=   2635 (all 2635 verified=True); s^2/(2L)=   2782.6; triples(disjoint pairs)=   3453930 (sample verified=True)
+s= 100 P=  1237 delta=0.9: bins L=  954; pair solutions=      0 (all 0 verified=True); s^2/(2L)=      5.2; triples(disjoint pairs)=         0 (sample verified=True)
+s= 400 P=  6277 delta=0.9: bins L= 4113; pair solutions=      0 (all 0 verified=True); s^2/(2L)=     19.5; triples(disjoint pairs)=         0 (sample verified=True)
+s= 800 P= 13669 delta=0.9: bins L= 8285; pair solutions=      0 (all 0 verified=True); s^2/(2L)=     38.6; triples(disjoint pairs)=         0 (sample verified=True)
+ALL VERIFIED

@@ -1,0 +1,5 @@
+q=  7: identities of Lemma 3.4 steps 2-3 verified on 2000 random zero-sum vectors: PASS
+q= 11: identities of Lemma 3.4 steps 2-3 verified on 2000 random zero-sum vectors: PASS
+q= 19: identities of Lemma 3.4 steps 2-3 verified on 2000 random zero-sum vectors: PASS
+q= 23: identities of Lemma 3.4 steps 2-3 verified on 2000 random zero-sum vectors: PASS
+q= 43: identities of Lemma 3.4 steps 2-3 verified on 2000 random zero-sum vectors: PASS

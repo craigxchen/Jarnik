@@ -1,0 +1,12 @@
+Part 1: exact MILP, M = 8
+ trial 0: 2lam=54.89 W_cut=59.60 (support 27) uniform=149.59
+   r= 7: f=  102.03  f/W_cut= 1.712  f/uniform= 0.682  [time limit; dual bound 59.6011949294433, 240s]
+   r= 8: f=   90.56  f/W_cut= 1.519  f/uniform= 0.605  [time limit; dual bound 59.60119492944227, 240s]
+   r=10: f=   76.14  f/W_cut= 1.277  f/uniform= 0.509  [time limit; dual bound 59.601194929452475, 240s]
+   r=14: f=   63.66  f/W_cut= 1.068  f/uniform= 0.426  [time limit; dual bound 59.60119492944566, 240s]
+ trial 1: 2lam=60.58 W_cut=63.12 (support 28) uniform=197.88
+   r= 7: f=  114.93  f/W_cut= 1.821  f/uniform= 0.581  [time limit; dual bound 63.115897610337115, 240s]
+   r= 8: f=  109.59  f/W_cut= 1.736  f/uniform= 0.554  [time limit; dual bound 63.11589761032225, 240s]
+   r=10: f=   88.94  f/W_cut= 1.409  f/uniform= 0.449  [time limit; dual bound 63.11589761032657, 240s]
+   r=14: f=   78.94  f/W_cut= 1.251  f/uniform= 0.399  [time limit; dual bound 63.11589761034171, 240s]
+done (evidence only)

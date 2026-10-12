@@ -1,0 +1,1 @@
+exit=0 (no output means: no 6-set b in {1..20} has a subset-sum fibre of size >= 6)
