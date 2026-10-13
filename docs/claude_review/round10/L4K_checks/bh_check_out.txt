@@ -1,0 +1,24 @@
+K=1 h=0 r=2 beta=[1, 2] B=2 A_K=19 max|<v,a>|=19 nonzero_all=True
+K=1 h=0 r=3 beta=[1, 2, 3] B=3 A_K=27 max|<v,a>|=27 nonzero_all=True
+K=1 h=0 r=4 beta=[1, 2, 3, 4] B=4 A_K=35 max|<v,a>|=35 nonzero_all=True
+K=1 h=0 r=5 beta=[1, 2, 3, 4, 5] B=5 A_K=43 max|<v,a>|=43 nonzero_all=True
+K=1 h=0 r=6 beta=[1, 2, 3, 4, 5, 6] B=6 A_K=51 max|<v,a>|=51 nonzero_all=True
+K=2 h=1 r=2 beta=[1, 2] B=2 A_K=82 max|<v,a>|=82 nonzero_all=True
+K=2 h=1 r=3 beta=[1, 2, 3] B=3 A_K=118 max|<v,a>|=118 nonzero_all=True
+K=2 h=1 r=4 beta=[1, 2, 3, 4] B=4 A_K=154 max|<v,a>|=154 nonzero_all=True
+K=2 h=1 r=5 beta=[1, 2, 3, 4, 5] B=5 A_K=190 max|<v,a>|=190 nonzero_all=True
+K=2 h=1 r=6 beta=[1, 2, 3, 4, 5, 6] B=6 A_K=226 max|<v,a>|=226 nonzero_all=True
+K=3 h=1 r=2 beta=[1, 2] B=2 A_K=213 max|<v,a>|=213 nonzero_all=True
+K=3 h=1 r=3 beta=[1, 2, 3] B=3 A_K=309 max|<v,a>|=309 nonzero_all=True
+K=3 h=1 r=4 beta=[1, 2, 3, 4] B=4 A_K=405 max|<v,a>|=405 nonzero_all=True
+K=3 h=1 r=5 beta=[1, 2, 3, 4, 5] B=5 A_K=501 max|<v,a>|=501 nonzero_all=True
+K=3 h=1 r=6 beta=[1, 2, 3, 4, 5, 6] B=6 A_K=597 max|<v,a>|=597 nonzero_all=True
+K=4 h=2 r=2 beta=[1, 2] B=2 A_K=436 max|<v,a>|=436 nonzero_all=True
+K=4 h=2 r=3 beta=[1, 2, 4] B=4 A_K=836 max|<v,a>|=836 nonzero_all=True
+K=4 h=2 r=4 beta=[1, 2, 4, 8] B=8 A_K=1636 max|<v,a>|=1636 nonzero_all=True
+K=4 h=2 r=5 beta=[1, 2, 4, 8, 13] B=13 A_K=2636 max|<v,a>|=2636 nonzero_all=True
+K=5 h=2 r=2 beta=[1, 2] B=2 A_K=775 max|<v,a>|=775 nonzero_all=True
+K=5 h=2 r=3 beta=[1, 2, 4] B=4 A_K=1495 max|<v,a>|=1495 nonzero_all=True
+K=5 h=2 r=4 beta=[1, 2, 4, 8] B=8 A_K=2935 max|<v,a>|=2935 nonzero_all=True
+K=5 h=2 r=5 beta=[1, 2, 4, 8, 13] B=13 A_K=4735 max|<v,a>|=4735 nonzero_all=True
+ALL OK

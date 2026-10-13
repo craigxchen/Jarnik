@@ -1,0 +1,5 @@
+all Gaussian integers (mod units) of norm <= 3000: 2356 points; S-divisible (S = {101, 197}): 70
+K=  10: Lambda genuine 2491, grafted@101 2507, grafted@101,197 2629; X + K X^(1/2) = 3548; Lemma-3.2-type bound on the change (2K+1)*4*#S-div = 5880
+K=  30: Lambda genuine 3662, grafted@101 3664, grafted@101,197 3939; X + K X^(1/2) = 4643; Lemma-3.2-type bound on the change (2K+1)*4*#S-div = 17080
+K= 100: Lambda genuine 10990, grafted@101 10989, grafted@101,197 11029; X + K X^(1/2) = 8477; Lemma-3.2-type bound on the change (2K+1)*4*#S-div = 56280
+K= 300: Lambda genuine 32494, grafted@101 32494, grafted@101,197 32556; X + K X^(1/2) = 19432; Lemma-3.2-type bound on the change (2K+1)*4*#S-div = 168280

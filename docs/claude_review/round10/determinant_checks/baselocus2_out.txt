@@ -1,0 +1,14 @@
+
+n=4 T=3 r=8 m=5: |A|=203 rank Poly_<m|A=35 dim V=168
+  grid min residual 4.27e-30; distinct zeros after refinement: 1
+   zero [0. 0. 0.] (units of 2pi); smallest integer relation: (-1, 0, 0)
+  zeros with no integer relation |v|_inf<=6: 0
+  tangent cone: min tau = 7.859e-03 at u = [-0.705  -0.7092 -0.    ]; 5th smallest 7.859e-03
+
+n=4 T=4 r=8 m=6: |A|=369 rank Poly_<m|A=56 dim V=313
+  grid min residual 9.08e-31; distinct zeros after refinement: 1
+   zero [0. 0. 0.] (units of 2pi); smallest integer relation: (-1, 0, 0)
+  zeros with no integer relation |v|_inf<=6: 0
+  tangent cone: min tau = 2.773e-03 at u = [-0.     -0.7071 -0.7071]; 5th smallest 2.773e-03
+
+n=5 T=2 r=10 m=5: |A|=381 rank Poly_<m|A=70 dim V=311

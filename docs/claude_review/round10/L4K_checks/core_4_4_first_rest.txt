@@ -1,0 +1,12 @@
+  budgets reduced by the genuine demand of the other forced moduli [53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 199]
+K=4 r=4 first P=[5, 13, 17, 29] core=[3, 7, 11, 19, 23, 31, 37, 41, 43, 47]: good level-1 systems on core 1966080 (1 signature tuples); genuine class at every core q: 1966080; [48s]
+   q=3: good systems with non-genuine-class label at q: 0
+   q=7: good systems with non-genuine-class label at q: 0
+   q=11: good systems with non-genuine-class label at q: 0
+   q=19: good systems with non-genuine-class label at q: 0
+   q=23: good systems with non-genuine-class label at q: 0
+   q=31: good systems with non-genuine-class label at q: 0
+   q=37: good systems with non-genuine-class label at q: 0
+   q=41: good systems with non-genuine-class label at q: 0
+   q=43: good systems with non-genuine-class label at q: 0
+   q=47: good systems with non-genuine-class label at q: 0

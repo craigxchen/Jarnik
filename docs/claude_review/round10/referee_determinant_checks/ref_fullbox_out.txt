@@ -1,0 +1,6 @@
+n=4 T=1 m=3: support size s -> (max residual if predicted zero / min residual if predicted nonzero): s=0:Z 2.7e-16, s=1:Z 8.5e-16, s=2:NZ 9.3e-02, s=3:NZ 3.1e-01
+n=4 T=1 m=5: support size s -> (max residual if predicted zero / min residual if predicted nonzero): s=0:Z 7.9e-16, s=1:Z 1.3e-15, s=2:Z 1.2e-15, s=3:NZ 1.2e-02
+n=5 T=1 m=3: support size s -> (max residual if predicted zero / min residual if predicted nonzero): s=0:Z 2.4e-16, s=1:Z 1.1e-15, s=2:NZ 5.9e-02, s=3:NZ 1.6e-01, s=4:NZ 3.8e-01
+n=5 T=1 m=5: support size s -> (max residual if predicted zero / min residual if predicted nonzero): s=0:Z 1.8e-15, s=1:Z 1.8e-15, s=2:Z 1.6e-15, s=3:NZ 2.7e-02, s=4:NZ 7.4e-02
+n=4 T=2 m=5: support size s -> (max residual if predicted zero / min residual if predicted nonzero): s=0:Z 8.9e-16, s=1:Z 2.0e-15, s=2:NZ 8.4e-03, s=3:NZ 6.4e-01
+n=4 T=2 m=7: support size s -> (max residual if predicted zero / min residual if predicted nonzero): s=0:Z 1.5e-15, s=1:Z 7.3e-14, s=2:NZ 1.5e-04, s=3:NZ 1.4e-02

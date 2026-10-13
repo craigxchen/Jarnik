@@ -70,7 +70,11 @@ known to be capped) is in `round7/README.md`; that class is still open, with
 `3 M log M - O(M) <= W_min <= O(M log^2 M/loglog M)`. Round 8 (growth rate: Lang-Waldschmidt,
 simultaneous hypotheses, stability of extremal clusters) is in `round8/README.md`. Round 9 (the
 combinatorial missing lemmas L4, L5 and L1/L2 of round 7) is in `round9/README.md`: all partial, no
-growth improvement and no new cap.
+growth improvement and no new cap. Round 10 (`round10/README.md`) refutes the inverse step L4(K) as
+formulated, and finds the most promising new route: in the growth regime the determinant method with
+forced divisibility becomes supercritical, so every large actual cluster satisfies an exact
+algebraic system that almost every fake violates. Under an unproved zero estimate (ZE) this would
+give `M = O(loglog R)` on squarefree norms.
 
 **Growth-rate status (2026-10-12).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by

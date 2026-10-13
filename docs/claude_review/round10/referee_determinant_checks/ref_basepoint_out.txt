@@ -1,0 +1,4 @@
+n=4 T=1 m=3: (a) one point x<n moved: residual 3.8e-16;  (b) base point n moved alone: residual 3.6e-01
+n=5 T=1 m=3: (a) one point x<n moved: residual 6.1e-16;  (b) base point n moved alone: residual 5.3e-01
+n=5 T=2 m=5: (a) one point x<n moved: residual 2.2e-15;  (b) base point n moved alone: residual 7.4e-01
+n=6 T=1 m=4: (a) one point x<n moved: residual 1.1e-15;  (b) base point n moved alone: residual 4.2e-01

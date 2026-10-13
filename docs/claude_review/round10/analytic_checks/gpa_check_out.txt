@@ -1,0 +1,13 @@
+Gaussian primes (classes mod units) up to norm 2000000: 148945
+h=    5 random phi (failures are expected near low-height lattice directions): 2000/2000 have a witness of norm <= 2000000; median 9, max 29, max/h 5.8
+h=   13 random phi (failures are expected near low-height lattice directions): 1999/2000 have a witness of norm <= 2000000; median 5, max 199657, max/h 15358.2
+h=  101 random phi (failures are expected near low-height lattice directions): 2000/2000 have a witness of norm <= 2000000; median 41, max 730889, max/h 7236.5
+   near arg(3+4i): eps=0.01 -> 557, eps=0.003 -> 1129, eps=0.001 -> 10733, eps=0.0003 -> 118061
+   near arg(4+7i): eps=0.01 -> 337, eps=0.003 -> 337, eps=0.001 -> 13249, eps=0.0003 -> 13249
+h= 1009 random phi (failures are expected near low-height lattice directions): 1983/2000 have a witness of norm <= 2000000; median 1493, max 1786753, max/h 1770.8
+   near arg(3+4i): eps=0.01 -> 3697, eps=0.003 -> 5417, eps=0.001 -> 30137, eps=0.0003 -> 352361
+   near arg(4+7i): eps=0.01 -> 50909, eps=0.003 -> 8677, eps=0.001 -> 13249, eps=0.0003 -> 95233
+Part B: lattice directions
+h=   5: 44 primitive directions with h < Norm <= 20h; failures 0; worst witness norm/Norm beta 0.7 at (1, 5, 17)
+h=  13: 114 primitive directions with h < Norm <= 20h; failures 0; worst witness norm/Norm beta 1.2 at (1, 9, 101)
+h= 101: 914 primitive directions with h < Norm <= 20h; failures 0; worst witness norm/Norm beta 16.7 at (1, 12, 2417)

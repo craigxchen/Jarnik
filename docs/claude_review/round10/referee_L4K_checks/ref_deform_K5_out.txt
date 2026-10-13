@@ -1,0 +1,4 @@
+K=5 q0=107 n=27 parity vectors=8503056 level-1 survivors=18 outside genuine class=0
+K=5 q0=113 n=28 parity vectors=9834496 level-1 survivors=24 outside genuine class=0
+K=5 q0=127 n=32 parity vectors=16777216 level-1 survivors=32 outside genuine class=0
+K=5 q0=151 n=38 parity vectors=33362176 level-1 survivors=36 outside genuine class=0

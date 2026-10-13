@@ -1,0 +1,4 @@
+split primes p <= 100000 checked: 4783 (both lines each)
+failures (no prime within 1e5 steps): [] 0
+max Norm(varpi)/p over all p, lines: (12782.895410419647, (91577, -1, 27587, 20238))
+max number of steps along the line: (113, (91577, -1, 27587, 20238))

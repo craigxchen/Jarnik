@@ -1,0 +1,4 @@
+q=7 M=8 W=284.2 sample 0: 3318 chars (||c||_1<=6), 349 with w(v(c)) <= W; R1(i) violations 0; min |sum c w| = 1.1683e+27; min |sum c w| / (sqrt2 e^((W-w)/2)) = 136.431
+q=7 M=8 W=284.2 sample 1: 3318 chars (||c||_1<=6), 349 with w(v(c)) <= W; R1(i) violations 0; min |sum c w| = 2.8401e+27; min |sum c w| / (sqrt2 e^((W-w)/2)) = 18.2496
+q=11 M=12 W=482.3 sample 0: 2277 chars (||c||_1<=4), 1551 with w(v(c)) <= W; R1(i) violations 0; min |sum c w| = 4.7064e+48; min |sum c w| / (sqrt2 e^((W-w)/2)) = 40.7114
+q=11 M=12 W=482.3 sample 1: 2277 chars (||c||_1<=4), 1551 with w(v(c)) <= W; R1(i) violations 0; min |sum c w| = 1.8528e+48; min |sum c w| / (sqrt2 e^((W-w)/2)) = 208.304

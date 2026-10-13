@@ -1,0 +1,20 @@
+=== construct.md Paley-I flipped q=11 b=8: M=12 r=100 primes 10000121..10003529, W=1611.83, W/(M log M)=54.05, realisation residual 0.0e+00
+  EVIDENCE fake gaps (min dist/required, >1 means satisfied): singles 26.7, pairs 31, characters(4554) 1.23e+09, random monomials 26.7
+  LCG at fake angles: violated at 100/100 primes; ratio min 0.0004 (alpha=(-400, 2247)), max 0.9389 (alpha=(60, -41), Norm=5281 <= p=10001093)
+  LCG at genuine angles arg(pi_j): best candidate has |Im(alpha conj pi)| = 1 >= 1 (exact) for all j
+  fibre integrality N^2 S_1(N)/4 = prod_j 2 p_j^2 cos(4 phi_j): distance to Z = 0.095 (|value| ~ 10^1401); per-prime distances min 0.005
+=== skew double core q=3 (lw.md 6.1, P=(40M)^4): M=4 r=6 primes 655360001..655360213, W=121.80, W/(M log M)=21.97, realisation residual 1.2e-167
+  EVIDENCE fake gaps (min dist/required, >1 means satisfied): singles 1.86e+03, pairs 2.52e+07, characters(54) 772, random monomials 772
+  LCG at fake angles: violated at 6/6 primes; ratio min 0.0476 (alpha=(13417, -6383)), max 0.7073 (alpha=(11039, -2899), Norm=130263722 <= p=655360213)
+  LCG at genuine angles arg(pi_j): best candidate has |Im(alpha conj pi)| = 1 >= 1 (exact) for all j
+  fibre integrality N^2 S_1(N)/4 = prod_j 2 p_j^2 cos(4 phi_j): distance to Z = 0.236 (|value| ~ 10^106); per-prime distances min 0.011
+=== skew double core q=7 (lw.md 6.1, P=(40M)^4): M=8 r=14 primes 10485760001..10485760541, W=323.03, W/(M log M)=19.42, realisation residual 0.0e+00
+  EVIDENCE fake gaps (min dist/required, >1 means satisfied): singles 5.53e+03, pairs 2.07e+07, characters(868) 1.06e+03, random monomials 5.53e+03
+  LCG at fake angles: violated at 14/14 primes; ratio min 0.0155 (alpha=(-3786, 8095)), max 0.8511 (alpha=(17102, 2699), Norm=299763005 <= p=10485760193)
+  LCG at genuine angles arg(pi_j): best candidate has |Im(alpha conj pi)| = 1 >= 1 (exact) for all j
+  fibre integrality N^2 S_1(N)/4 = prod_j 2 p_j^2 cos(4 phi_j): distance to Z = 0.196 (|value| ~ 10^278); per-prime distances min 0.020
+=== skew double core q=11 (lw.md 6.1, P=(40M)^4): M=12 r=22 primes 53084160013..53084160853, W=543.29, W/(M log M)=18.22, realisation residual 0.0e+00
+  EVIDENCE fake gaps (min dist/required, >1 means satisfied): singles 2.98e+03, pairs 8.4e+07, characters(4554) 830, random monomials 2.98e+03
+  LCG at fake angles: violated at 22/22 primes; ratio min 0.0958 (alpha=(145555, 7786)), max 0.9002 (alpha=(3196, 9689), Norm=104091137 <= p=53084160421)
+  LCG at genuine angles arg(pi_j): best candidate has |Im(alpha conj pi)| = 1 >= 1 (exact) for all j
+  fibre integrality N^2 S_1(N)/4 = prod_j 2 p_j^2 cos(4 phi_j): distance to Z = 0.417 (|value| ~ 10^469); per-prime distances min 0.027

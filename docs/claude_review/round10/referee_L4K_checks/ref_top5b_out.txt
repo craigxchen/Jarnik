@@ -1,0 +1,6 @@
+K=5: genuine (all levels) at forced q<=103 and forced q in (199,349]; collision-free above 349; search top [107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199]
+q=107 n=27: non-genuine-class level-1 vector [105, 70, 31, 2], 13 level-1 collisions, level-2 clean lift found: True
+q=109: no non-genuine-class fitting vector found in 2e7 samples
+K=5: genuine (all levels) at forced q<=103 and forced q in (199,349]; collision-free above 349; search top [107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199]
+q=107 n=27: non-genuine-class level-1 vector [57, 2, 95, 34], 13 level-1 collisions, level-2 clean lift found: True
+q=109: no non-genuine-class fitting vector found in 2e7 samples

@@ -1,0 +1,4 @@
+(A) h=29: 266 primitive directions with h < Norm <= 20h; no witness: 0 []; max witness Norm/Norm(beta) = 3.5
+(A) h=53: 478 primitive directions with h < Norm <= 20h; no witness: 0 []; max witness Norm/Norm(beta) = 16.7
+(A) h=197: 1784 primitive directions with h < Norm <= 20h; no witness: 0 []; max witness Norm/Norm(beta) = 77.1
+(B) split p <= 200000: 8977 primes; lines without witness: 0 []; max steps 113; arc illustration failures 0

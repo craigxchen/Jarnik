@@ -1,0 +1,2 @@
+Lemma 5.2: pairs tested 1384674, violations 0
+Lemma 5.3: 19600 (direction, n) pairs, exceptions 0

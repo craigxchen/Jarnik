@@ -1,0 +1,4 @@
+clusters checked (M>=4): 468 all assertions passed
+max M: 9  clusters with I even: 468  clusters with odd part of I > 1: 48
+K_N short vectors that are relations: min over clusters of #(short basis vectors) = 1  (should equal M-3 when the last two minima exceed N/L)
+clusters where #short LLL vectors of K_N != M-3: 0

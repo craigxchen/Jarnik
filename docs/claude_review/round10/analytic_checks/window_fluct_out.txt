@@ -1,0 +1,12 @@
+P=1e+07 q=11 (M=12): window [10000000, 10114284], Gaussian primes n=7078, graft moves 2s=44
+  64 equal sectors: mean count 110.6, max |dev| 22.6, median |dev| 4.0, sqrt(mean) 10.5
+  Hecke sums |S(k)|, 1<=k<=2000: median 49.6, min 0.06, max 386.7; sqrt(n)=84.1; fraction of k with |S(k)| < 2s: 0.449
+P=1e+08 q=11 (M=12): window [100000000, 101142844], Gaussian primes n=61958, graft moves 2s=44
+  64 equal sectors: mean count 968.1, max |dev| 44.1, median |dev| 16.0, sqrt(mean) 31.1
+  Hecke sums |S(k)|, 1<=k<=2000: median 134.1, min 0.06, max 790.4; sqrt(n)=248.9; fraction of k with |S(k)| < 2s: 0.172
+P=1e+08 q=23 (M=24): window [100000000, 100544957], Gaussian primes n=29470, graft moves 2s=92
+  64 equal sectors: mean count 460.5, max |dev| 37.5, median |dev| 6.5, sqrt(mean) 21.5
+  Hecke sums |S(k)|, 1<=k<=2000: median 95.5, min 0.03, max 538.7; sqrt(n)=171.7; fraction of k with |S(k)| < 2s: 0.483
+P=1e+09 q=47 (M=48): window [1000000000, 1002663114], Gaussian primes n=128144, graft moves 2s=188
+  64 equal sectors: mean count 2002.2, max |dev| 48.8, median |dev| 21.5, sqrt(mean) 44.7
+  Hecke sums |S(k)|, 1<=k<=2000: median 192.9, min 0.18, max 994.5; sqrt(n)=358.0; fraction of k with |S(k)| < 2s: 0.488

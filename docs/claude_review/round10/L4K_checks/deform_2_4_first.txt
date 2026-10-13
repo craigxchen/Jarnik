@@ -1,0 +1,8 @@
+K=2 r=4 first P=[5, 13, 17, 29] forced F=[3, 7, 11, 19, 23, 31, 41]
+  q=3 n=1: parity vectors at q 16; level-1 feasible 1; of which genuine class 1; non-genuine-class feasible 0; all-level lift found for 0/0 sampled non-genuine [0s]
+  q=7 n=2: parity vectors at q 256; level-1 feasible 2; of which genuine class 2; non-genuine-class feasible 0; all-level lift found for 0/0 sampled non-genuine [0s]
+  q=11 n=3: parity vectors at q 1296; level-1 feasible 12; of which genuine class 4; non-genuine-class feasible 8; all-level lift found for 8/8 sampled non-genuine [0s]
+  q=19 n=5: parity vectors at q 10000; level-1 feasible 160; of which genuine class 32; non-genuine-class feasible 128; all-level lift found for 40/40 sampled non-genuine [2s]
+  q=23 n=6: parity vectors at q 20736; level-1 feasible 256; of which genuine class 64; non-genuine-class feasible 192; all-level lift found for 12/12 sampled non-genuine [1s]
+  q=31 n=8: parity vectors at q 65536; level-1 feasible 3072; of which genuine class 512; non-genuine-class feasible 2560; all-level lift found for 40/40 sampled non-genuine [0s]
+  q=41 n=10: parity vectors at q 160000; level-1 feasible 8192; of which genuine class 1024; non-genuine-class feasible 7168; all-level lift found for 40/40 sampled non-genuine [0s]

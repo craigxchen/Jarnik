@@ -1,0 +1,1 @@
+valuation-formula checks: 19200  face-residue checks: 480  level-sum checks: 13  all passed

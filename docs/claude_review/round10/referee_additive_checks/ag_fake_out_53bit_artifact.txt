@@ -1,0 +1,27 @@
+### Part A: explicit skew double core fakes (Thm 5.1 of round5/exact.md)
+== skew double core q=7 M=8 r=14 C=1 mode=A0 L_res=1: primes 655360001..655360669, W=284.21 (W/(M log M)=17.08), log L_arc=71.05
+   log heights: author disc pigeonhole 2(M-1)H_disc: 32.28;  referee rectangle 2(M-1)H_rect: 17.65;  heuristic typical: 13.55
+   sample 1 (accepted 1/1): least l1 found log h = 7.78 (||c||_1 = 2386, |sum c w| = 9.305e-04); #cands 647; exact relation among candidates: False; R1(i) violations: 0; min over cands of w(v(c)) - W = 136826.69
+   sample 2 (accepted 2/2): least l1 found log h = 7.84 (||c||_1 = 2532, |sum c w| = 1.550e-02); #cands 630; exact relation among candidates: False; R1(i) violations: 0; min over cands of w(v(c)) - W = 138247.74
+   sample 3 (accepted 3/3): least l1 found log h = 8.18 (||c||_1 = 3586, |sum c w| = 3.774e-02); #cands 641; exact relation among candidates: False; R1(i) violations: 0; min over cands of w(v(c)) - W = 170891.26
+== skew double core q=7 M=8 r=14 C=1 mode=2 L_res=89: primes 5191106560009..5191106560841, W=409.89 (W/(M log M)=24.64), log L_arc=102.47
+   log heights: author disc pigeonhole 2(M-1)H_disc: 44.85;  referee rectangle 2(M-1)H_rect: 23.94;  heuristic typical: 19.84
+   sample 1 (accepted 1/1): least l1 found log h = 8.03 (||c||_1 = 3086, |sum c w| = 1.066e-01); #cands 671; exact relation among candidates: False; R1(i) violations: 0; min over cands of w(v(c)) - W = 248277.17
+   sample 2 (accepted 2/2): least l1 found log h = 7.78 (||c||_1 = 2402, |sum c w| = 6.126e-02); #cands 635; exact relation among candidates: False; R1(i) violations: 0; min over cands of w(v(c)) - W = 157398.36
+   sample 3 (accepted 3/3): least l1 found log h = 8.05 (||c||_1 = 3140, |sum c w| = 3.503e-02); #cands 630; exact relation among candidates: False; R1(i) violations: 0; min over cands of w(v(c)) - W = 238322.66
+== skew double core q=11 M=12 r=22 C=1 mode=A0 L_res=1: primes 3317760029..3317760737, W=482.30 (W/(M log M)=16.17), log L_arc=120.57
+   log heights: author disc pigeonhole 2(M-1)H_disc: 30.66;  referee rectangle 2(M-1)H_rect: 17.03;  heuristic typical: 13.63
+   sample 1 (accepted 1/1): least l1 found log h = 5.48 (||c||_1 = 240, |sum c w| = 2.936e-03); #cands 2047; exact relation among candidates: False; R1(i) violations: 0; min over cands of w(v(c)) - W = 16792.68
+   sample 2 (accepted 2/2): least l1 found log h = 5.50 (||c||_1 = 244, |sum c w| = 2.370e-03); #cands 2110; exact relation among candidates: False; R1(i) violations: 0; min over cands of w(v(c)) - W = 16398.07
+   sample 3 (accepted 3/3): least l1 found log h = 5.42 (||c||_1 = 226, |sum c w| = 2.859e-03); #cands 2074; exact relation among candidates: False; R1(i) violations: 0; min over cands of w(v(c)) - W = 17932.65
+
+### Part B: generic random arcs, least AG-violating l1 height vs log L
+M  logL  | author-disc  referee-rect  heuristic | found (min, median, max over samples)
+6    20  |    17.44     10.08      4.96 | 5.53 5.98 6.14
+6    40  |    30.77     16.75     11.63 | 10.63 11.47 11.56
+6    80  |    57.44     30.08     24.96 | 13.47 13.88 14.24
+6   160  |   110.77     56.75     51.63 | 20.27 20.54 20.78
+8    20  |    11.86      7.43      3.34 | 3.69 4.22 4.28
+8    40  |    19.86     11.44      7.34 | 7.00 7.62 7.62
+8    80  |    35.86     19.44     15.34 | 7.56 8.12 8.12
+8   160  |    67.86     35.44     31.34 | 10.37 10.81 10.85

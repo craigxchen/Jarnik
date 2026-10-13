@@ -1,0 +1,3 @@
+n=4 T=3 m=5 |A|=203 dimV=168 max sup-norm of echelon integer basis=2835 H=270372249 V_H=V(A,m)? True
+n=4 T=4 m=6 |A|=369 dimV=313 max sup-norm of echelon integer basis=87584 H=142775156736 V_H=V(A,m)? True
+n=5 T=2 m=5 |A|=365 dimV=295 max sup-norm of echelon integer basis=1536 H=34105600 V_H=V(A,m)? True

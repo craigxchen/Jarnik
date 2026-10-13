@@ -1,0 +1,6 @@
+N' 1176852625 M 9 h* 1.4142135623730951 v* (1, -1)
+exceptional 1 8 mu - W/2 = -3.218876 Norm g 25
+exceptional 2 7 mu - W/2 = 0.0 Norm g 1
+exceptional 3 6 mu - W/2 = 0.0 Norm g 1
+exceptional 4 5 mu - W/2 = -3.218876 Norm g 25
+random N count 151

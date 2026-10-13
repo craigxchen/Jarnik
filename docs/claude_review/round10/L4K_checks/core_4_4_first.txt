@@ -1,0 +1,11 @@
+K=4 r=4 first P=[5, 13, 17, 29] core=[3, 7, 11, 19, 23, 31, 37, 41, 43, 47]: good level-1 systems on core 1006632960 (512 signature tuples); genuine class at every core q: 125829120; [170s]
+   q=3: good systems with non-genuine-class label at q: 0
+   q=7: good systems with non-genuine-class label at q: 0
+   q=11: good systems with non-genuine-class label at q: 880803840
+   q=19: good systems with non-genuine-class label at q: 880803840
+   q=23: good systems with non-genuine-class label at q: 754974720
+   q=31: good systems with non-genuine-class label at q: 880803840
+   q=37: good systems with non-genuine-class label at q: 880803840
+   q=41: good systems with non-genuine-class label at q: 754974720
+   q=43: good systems with non-genuine-class label at q: 880803840
+   q=47: good systems with non-genuine-class label at q: 880803840

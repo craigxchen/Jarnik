@@ -1,0 +1,6 @@
+skew double core q=7: M=8 r=14 rank of exponent differences = 7 (full = 7)
+  slab-box: T=1 |A|=1765 slab w=6.0 m=5 dim V(A,m)=1491 (>= U/2: True); max sup-norm of first 60 basis vectors=51 <= H=3115225
+  random fake positions delta~U[0,1e-6]^M: (4.2) certified violated (|leading term| > Taylor remainder) for 200/200; min ratio leading/remainder = 1.1509
+round-5 Paley-I b=8 q=7: M=8 r=64 rank of exponent differences = 7 (full = 7)
+  slab-box: T=1 |A|=1781 slab w=6.0 m=5 dim V(A,m)=1507 (>= U/2: True); max sup-norm of first 60 basis vectors=49 <= H=3171961
+  random fake positions delta~U[0,1e-6]^M: (4.2) certified violated (|leading term| > Taylor remainder) for 200/200; min ratio leading/remainder = 1.4589

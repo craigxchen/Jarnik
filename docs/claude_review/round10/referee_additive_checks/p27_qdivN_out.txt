@@ -1,0 +1,1 @@
+pairs (cluster, q | N) tested 13024 with q | I: 180 failures of [q | I iff exactly 2 residues]: 0

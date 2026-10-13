@@ -1,0 +1,6 @@
+   system 1: non-genuine-class at 17/18 upper moduli; non-genuine Q_7: [127, 151, 167, 191, 199]
+   system 2: non-genuine-class at 15/18 upper moduli; non-genuine Q_7: [151, 167, 191, 199]
+   system 3: non-genuine-class at 18/18 upper moduli; non-genuine Q_7: [127, 151, 167, 191, 199]
+   system 4: non-genuine-class at 18/18 upper moduli; non-genuine Q_7: [127, 151, 167, 191, 199]
+   system 5: non-genuine-class at 18/18 upper moduli; non-genuine Q_7: [127, 151, 167, 191, 199]
+K=4 r=4 first P=[5, 13, 17, 29]: genuine on forced q<=103 ([3, 7, 11, 19, 23, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103]); searched forced q in [107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 199]: good completions found 5 (failed searches 3); non-genuine class at every upper q: 3; coherent (norm<=2000) on all upper q: 0; on upper Q_7 [127, 151, 167, 191, 199]: 0 [8s]

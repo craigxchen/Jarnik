@@ -1,0 +1,10 @@
+Gaussian primes (all associates) of norm <= 100000: 38404
+p=101: composite primitive beta with p < Norm <= 4p: 92
+p=1009: composite primitive beta with p < Norm <= 4p: 1072
+p=10009: composite primitive beta with p < Norm <= 4p: 11382
+Part 1: 12546 directions; LCG_p not violated: 0 (expect 0); WCG_1/2 failures vs primes of norm <= 1e5: 0 (expect 0); PCG_p violated by a prime of norm <= 1e5: 9360 of 12546
+Part 2 (ILLUSTRATION, float): |G| = 232 elements of norm <= 1500; graft at p0 = 1493; lattice graft beta = 65+12i (Norm 4369)
+  K=  1500: Lambda/(2K+1): genuine 1.230, near-coincidence graft 2.002, lattice-direction graft 1.230
+  K=  6000: Lambda/(2K+1): genuine 1.049, near-coincidence graft 1.974, lattice-direction graft 1.049
+  K= 24000: Lambda/(2K+1): genuine 1.015, near-coincidence graft 1.625, lattice-direction graft 1.015
+  K= 96000: Lambda/(2K+1): genuine 1.002, near-coincidence graft 1.018, lattice-direction graft 1.002
