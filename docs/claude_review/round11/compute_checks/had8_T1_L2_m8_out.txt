@@ -1,0 +1,7 @@
+had8 T=1 L=2 m=8 |A|=1037 profile=((0, 1, 2, 3), (0, 1, 4, 5), (0, 1, 6, 7), (0, 2, 4, 6), (0, 2, 5, 7), (0, 3, 4, 7), (0, 3, 5, 6))
+ranges of k(S_p): [4, 4, 4, 4, 4, 4, 4]
+exact rank Poly_{<m}|A = 995  Poly_{<m+1}|A = 1037  |A| = 1037  (6.3s)
+dim V(A,m) = 42 ; dim V(A,m+1) = 0 ; rho >= m: True ; rho = m: True
+nullspace computed (1.6s), raw sup 68
+LLL (0.0s): basis of a full-rank sublattice of V(A,m) cap Z^A, sup-norm 6, H = 1.08e+06, V_H = V(A,m): True
+all 42 basis vectors verified exactly in V(A,m)

@@ -1,0 +1,28 @@
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round11/theory_checks/sl_test.py:7: SyntaxWarning: invalid escape sequence '\k'
+  char0 separator: g in Q[k], deg < m, g = 0 on S minus k*, g(k*) = 1  <=>  rank Ev_S = rank Ev_{S\k*} + 1.
+d=2 T=4 m=4 narrow=2 s=1 p=3 prof=[[-1, -1, 1], [-1, 1, 1], [1, 1, -1]] |A|=9 E=10 tested=0 char0_sep=0 padic_sep_only=0 CERTIFICATE(no sep)=0
+d=2 T=4 m=4 narrow=2 s=1 p=3 prof=[[1, -1, -1], [1, -1, -1], [-1, -1, 1]] |A|=9 E=10 tested=0 char0_sep=0 padic_sep_only=0 CERTIFICATE(no sep)=0
+d=2 T=5 m=5 narrow=2 s=1 p=3 prof=[[-1, 1, -1], [-1, 1, 1], [-1, 1, -1]] |A|=9 E=15 tested=0 char0_sep=0 padic_sep_only=0 CERTIFICATE(no sep)=0
+d=2 T=5 m=5 narrow=2 s=1 p=3 prof=[[1, 1, 1], [1, -1, 1], [-1, 1, 1]] |A|=9 E=15 tested=0 char0_sep=0 padic_sep_only=0 CERTIFICATE(no sep)=0
+d=3 T=3 m=4 narrow=2 s=1 p=3 prof=[[-1, 1, 1, 1], [-1, 1, -1, 1], [1, -1, -1, -1]] |A|=63 E=20 tested=0 char0_sep=0 padic_sep_only=0 CERTIFICATE(no sep)=0
+d=3 T=3 m=4 narrow=2 s=1 p=3 prof=[[1, -1, -1, 1], [1, -1, -1, -1], [1, -1, 1, 1]] |A|=63 E=20 tested=17 char0_sep=0 padic_sep_only=0 CERTIFICATE(no sep)=17
+    ((1, -1, 3), -2, 6, 46, False, False)
+    ((-1, -1, 2), -1, 5, 37, False, False)
+    ((1, 0, 3), -3, 7, 55, False, False)
+    ((1, 1, 3), -4, 8, 61, False, False)
+    ((1, 0, 0), 0, 4, 28, False, False)
+    ((1, 0, 2), -2, 6, 46, False, False)
+d=3 T=3 m=5 narrow=3 s=1 p=5 prof=[[-1, 1, -1, -1], [1, -1, 1, -1], [-1, 1, -1, 1], [-1, 1, 1, 1]] |A|=63 E=35 tested=6 char0_sep=0 padic_sep_only=0 CERTIFICATE(no sep)=6
+    ((1, -2, 0), -2, 5, 46, False, False)
+    ((-1, -3, 0), -3, 6, 55, False, False)
+    ((1, -2, -1), -2, 5, 46, False, False)
+    ((-1, -2, 0), -2, 5, 46, False, False)
+    ((0, -3, 1), -3, 6, 55, False, False)
+    ((0, -2, 1), -2, 5, 46, False, False)
+d=3 T=3 m=5 narrow=3 s=1 p=5 prof=[[-1, 1, -1, 1], [-1, -1, -1, 1], [1, 1, -1, 1], [1, -1, -1, 1]] |A|=27 E=35 tested=4 char0_sep=0 padic_sep_only=0 CERTIFICATE(no sep)=4
+    ((1, -2, 1), -2, 5, 24, False, False)
+    ((1, -1, 1), -2, 5, 24, False, False)
+    ((2, -1, 0), -2, 5, 24, False, False)
+    ((2, -2, 1), -3, 6, 27, False, False)
+d=3 T=4 m=5 narrow=3 s=1 p=3 prof=[[1, -1, -1, 1], [-1, -1, -1, 1], [1, 1, 1, 1], [1, -1, -1, 1]] |A|=75 E=35 tested=0 char0_sep=0 padic_sep_only=0 CERTIFICATE(no sep)=0
+d=3 T=4 m=5 narrow=3 s=1 p=3 prof=[[1, -1, -1, -1], [-1, 1, -1, -1], [1, 1, -1, -1], [-1, 1, -1, 1]] |A|=27 E=35 tested=0 char0_sep=0 padic_sep_only=0 CERTIFICATE(no sep)=0

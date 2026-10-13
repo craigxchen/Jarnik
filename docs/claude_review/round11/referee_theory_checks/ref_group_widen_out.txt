@@ -1,0 +1,6 @@
+m=4 single unflipped column 0: |S|=57 levels of l_p: [-1, 0, 1] dimV=0 UM_p points by level {}
+m=4 group: label-1 class (8 copies + flipped): |S|=81 levels of l_p: [-2, -1, 0, 1, 2] dimV=12 UM_p points by level {-2: 12} certificate verified: True
+m=4 group, lam=2: |S|=93 levels of l_p: [-4, -3, -2, -1, 0, 1, 2, 3, 4] dimV=18 UM_p points by level {-4: 2, -3: 4, -2: 12} certificate verified: True
+m=5 single unflipped column 0: |S|=57 levels of l_p: [-1, 0, 1] dimV=0 UM_p points by level {}
+m=5 group: label-1 class (8 copies + flipped): |S|=81 levels of l_p: [-2, -1, 0, 1, 2] dimV=0 UM_p points by level {}
+m=5 group, lam=2: |S|=93 levels of l_p: [-4, -3, -2, -1, 0, 1, 2, 3, 4] dimV=0 UM_p points by level {}

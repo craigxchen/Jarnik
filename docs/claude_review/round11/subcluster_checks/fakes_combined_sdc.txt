@@ -1,0 +1,11 @@
+skew double core q=7: M=8 r=14; sub-clusters n=4, T=3, all bases
+  systems: 280; m values [6]; |A| 225..225; dim V 169..169
+  (1) fake-type U[0,1e-4]^M: positions certified off EVERY single Z_PJ: 50/50; min #systems certifying per position 280/280
+  (1) random N(0,1e-3): positions certified off EVERY single Z_PJ: 50/50; min #systems certifying per position 280/280
+  (2) combined TC: smallest residuals ['1.6e-03', '1.6e-03', '1.7e-03', '1.7e-03', '1.9e-03', '1.9e-03', '2.0e-03', '2.0e-03']
+     resid 1.58e-03  u/max = [ 0.1443  0.1345  0.1443  0.1443 -1.      0.1443  0.1443  0.1442]  relation None
+     resid 1.59e-03  u/max = [-0.1408  1.     -0.1549 -0.1408 -0.1408 -0.1408 -0.1408 -0.1411]  relation None
+     resid 1.66e-03  u/max = [ 0.1428  0.1428 -1.      0.143   0.1428  0.1428  0.1428  0.1428]  relation None
+     resid 1.66e-03  u/max = [-0.1428 -0.1428  1.     -0.1433 -0.1428 -0.1428 -0.1428 -0.1428]  relation None
+     resid 1.86e-03  u/max = [ 0.145   0.145   0.145   0.145  -1.      0.1374  0.145   0.1375]  relation None
+     resid 1.94e-03  u/max = [ 1.     -0.1428 -0.1428 -0.1429 -0.1428 -0.1428 -0.1429 -0.1428]  relation None

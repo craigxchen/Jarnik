@@ -1,0 +1,17 @@
+model had8_T1_L2_m8_basis.json m = 8 dimV = 42
+shape of each basis polynomial: (order of binomial part, sorted (deg, #terms, mult) of non-binomial factors): count
+    (2, ((3, 12, 1, 3, 'form'), (3, 12, 1, 3, 'form'))) 11
+    (4, ((4, 24, 1, 4, 'form'),)) 13
+    (1, ((4, 12, 1, 3, 'NOT-form'), (4, 24, 1, 4, 'form'))) 4
+    (2, ((7, 124, 1, 6, 'NOT-form'),)) 4
+    (0, ((9, 461, 1, 8, 'NOT-form'),)) 2
+    (0, ((9, 497, 1, 8, 'NOT-form'),)) 1
+    (2, ((7, 104, 1, 6, 'NOT-form'),)) 1
+    (1, ((8, 248, 1, 7, 'NOT-form'),)) 3
+    (2, ((7, 128, 1, 6, 'NOT-form'),)) 1
+    (0, ((9, 493, 1, 8, 'NOT-form'),)) 1
+    (0, ((9, 535, 1, 8, 'NOT-form'),)) 1
+all non-binomial factors are forms in x = w - 1: False ; order of binomial part + orders of the other factors = m (checked)
+distinct binomial factors: 27 ['w0 - 1', 'w0 - w1', 'w0 - w1*w6', 'w0 - w2', 'w0 - w2*w5', 'w0 - w4', 'w0 - w6', 'w0*w3 - w4', 'w0*w5 - w2', 'w0*w6 - w1', 'w1 - 1', 'w1 - w2'] ...
+basis vectors whose non-binomial part is a form in x: 24 of 42
+all binomial factors: ['w0 - 1', 'w0 - w1', 'w0 - w1*w6', 'w0 - w2', 'w0 - w2*w5', 'w0 - w4', 'w0 - w6', 'w0*w3 - w4', 'w0*w5 - w2', 'w0*w6 - w1', 'w1 - 1', 'w1 - w2', 'w1 - w4', 'w1*w3 - w5', 'w2 - 1', 'w2 - w4', 'w2 - w5', 'w2 - w6', 'w2*w3 - w6', 'w3 - 1', 'w3 - w4', 'w3 - w5', 'w3 - w6', 'w4 - 1', 'w4 - w6', 'w5 - 1', 'w6 - 1']

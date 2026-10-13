@@ -1,0 +1,5 @@
+Phi/8! coefficients: nonzero 196 values [-2, -1, 0, 1, 3]
+min of -Phi on S^6 from 300 starts: smallest -1.99e-04, largest local min 2.06e-15, #(<1e-9): 300
+zeros by (Hessian rank of -Phi, dim of smallest rational subspace containing the zero): {(3, 3): 8, (7, 2): 87, (7, 3): 68, (7, 4): 25, (7, 1): 42, (3, 5): 5, (3, 4): 47, (7, 5): 3, (2, 2): 2, (7, 0): 9, (3, 2): 3, (3, 1): 1}
+EXACT: Phi/8! at integer point u+ = [1020, -1592, -6221, -2363, 5574, 2741, -3682] equals 19849334540098159992214034316 (> 0)
+EXACT: Phi/8! at u- = [-1, -1, -1, -1, 0, 0, 0] equals -1

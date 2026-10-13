@@ -1,0 +1,4 @@
+had8 symmetric box T=1 L=2: |A|=869 rho=8 LP zeta<=7 ranges=[4, 4, 4, 4, 4, 4, 4]
+m=8 dimV=28 sup=6 H=7.55e+05
+had8 symmetric box T=1 L=3: |A|=1093 rho=8 LP zeta<=8 ranges=[6, 6, 6, 6, 6, 6, 6]
+not faithful

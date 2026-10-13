@@ -1,0 +1,1 @@
+had8_T1_L3_m11_basis.json: 80/100 random positions delta ~ U[0,0.001]^8 certified OFF Z_P (leading Taylor term > remainder bound)

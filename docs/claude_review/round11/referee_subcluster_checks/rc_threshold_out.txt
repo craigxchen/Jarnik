@@ -1,0 +1,9 @@
+r = n:
+  first n with m > 2w (slab-box LP-supercritical, V(A,m) != 0): (440, 142672, 142563.9)
+  first n with Lemma 1.1 admissibility of the generators at W = 3n ln n - 14n: (468, 161404, 78520.7, 4538117, 4409346)
+  first n with m >= 4w ([D]'s factor-2 margin): (2137, 3362393, 3362151.3)
+  300 ln(4r) + 1 at r = n = 2137: 2717.0357849317115
+  n in [440,2400) with m <= 2w: [] count 0
+  n in [468,2400) failing admissibility at W_min: [] count 0
+r = n ln n: first n with m > 2w: 563
+r = n^2: first n with m > 2w: 881

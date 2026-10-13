@@ -1,0 +1,16 @@
+round5 Paley fake q=7: n=8 r=64 exponent rank=7 (n-1=7); min #columns separating a pair=35, fraction=0.5469 vs 1/2-1/(2n)=0.4375  admissible-sep: True
+   min over base points of #columns without a twin: 1 (base point row 0); SL(n) needs >= 8
+round5 Paley fake q=11: n=12 r=100 exponent rank=11 (n-1=11); min #columns separating a pair=53, fraction=0.5300 vs 1/2-1/(2n)=0.4583  admissible-sep: True
+   min over base points of #columns without a twin: 1 (base point row 0); SL(n) needs >= 8
+round5 Paley fake q=19: n=20 r=172 exponent rank=19 (n-1=19); min #columns separating a pair=89, fraction=0.5174 vs 1/2-1/(2n)=0.4750  admissible-sep: True
+   min over base points of #columns without a twin: 1 (base point row 0); SL(n) needs >= 8
+round5 Paley fake q=23: n=24 r=208 exponent rank=23 (n-1=23); min #columns separating a pair=107, fraction=0.5144 vs 1/2-1/(2n)=0.4792  admissible-sep: True
+   min over base points of #columns without a twin: 1 (base point row 0); SL(n) needs >= 8
+skew double core q=7: n=8 r=14 exponent rank=7 (n-1=7); min #columns separating a pair=8, fraction=0.5714 vs 1/2-1/(2n)=0.4375  admissible-sep: True
+   min over base points of #columns without a twin: 2 (base point row 1); SL(n) needs >= 8
+skew double core q=11: n=12 r=22 exponent rank=11 (n-1=11); min #columns separating a pair=12, fraction=0.5455 vs 1/2-1/(2n)=0.4583  admissible-sep: True
+   min over base points of #columns without a twin: 2 (base point row 1); SL(n) needs >= 8
+skew double core q=19: n=20 r=38 exponent rank=19 (n-1=19); min #columns separating a pair=20, fraction=0.5263 vs 1/2-1/(2n)=0.4750  admissible-sep: True
+   min over base points of #columns without a twin: 2 (base point row 1); SL(n) needs >= 8
+skew double core q=23: n=24 r=46 exponent rank=23 (n-1=23); min #columns separating a pair=24, fraction=0.5217 vs 1/2-1/(2n)=0.4792  admissible-sep: True
+   min over base points of #columns without a twin: 2 (base point row 1); SL(n) needs >= 8

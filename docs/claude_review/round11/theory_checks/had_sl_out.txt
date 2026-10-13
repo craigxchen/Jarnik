@@ -1,0 +1,16 @@
+n=8 d=7 T=1 w=2 m=4: |A_p|=145 E=120 levels -4..4
+  rank Ev_A = 91, dim V(A_p,m) >= 54
+   k*= (-1, 0, 0, 0, 0, 1, 0) l*= -1 |S|= 86 dimV(S)>= 10 char0 UM: False p-integral UM: None
+   k*= (0, 0, 0, 1, -1, 1, -1) l*= -2 |S|= 102 dimV(S)>= 11 char0 UM: True p-integral UM: True
+   k*= (0, 1, 0, 0, 0, 0, 0) l*= 0 |S|= 61 dimV(S)>= 7 char0 UM: False p-integral UM: None
+   k*= (0, 0, -1, 0, 0, 0, 1) l*= 0 |S|= 61 dimV(S)>= 7 char0 UM: False p-integral UM: None
+   k*= (-1, 0, 0, 0, 0, 1, -1) l*= -2 |S|= 102 dimV(S)>= 11 char0 UM: True p-integral UM: True
+   k*= (0, 1, -1, 0, -1, 1, 0) l*= -2 |S|= 102 dimV(S)>= 11 char0 UM: True p-integral UM: True
+   k*= (0, 0, -1, 0, 1, 0, 0) l*= 0 |S|= 61 dimV(S)>= 7 char0 UM: False p-integral UM: None
+   k*= (0, 1, -1, 0, 0, 0, 0) l*= -1 |S|= 86 dimV(S)>= 10 char0 UM: False p-integral UM: None
+   k*= (-1, 0, 0, 0, -1, 1, 0) l*= -2 |S|= 102 dimV(S)>= 11 char0 UM: True p-integral UM: True
+   k*= (-1, 1, -1, 0, 0, 0, 0) l*= -2 |S|= 102 dimV(S)>= 11 char0 UM: True p-integral UM: True
+(0, 0, 0, 1, -1, 1, -1) product certificate: [(0, 0, 0, -1, 0, 0, 1), (0, 0, 0, -1, 1, 0, 0), (0, 0, 0, 0, 0, -1, 1), (0, 0, 0, 0, 1, -1, 0)]
+(-1, 0, 0, 0, 0, 1, -1) product certificate: [(0, 0, 0, 0, 0, -1, 1), (0, 0, 0, 0, 0, 0, 1), (1, 0, 0, 0, 0, -1, 0), (1, 0, 0, 0, 0, 0, 0)]
+(-1, 0, 0, 0, 0, 1, 0) product certificate: None
+(0, 1, 0, 0, 0, 0, 0) product certificate: None

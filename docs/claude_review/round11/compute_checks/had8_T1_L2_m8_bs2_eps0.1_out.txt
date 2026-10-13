@@ -1,0 +1,13 @@
+model had8_T1_L2_m8_basis.json eps=0.1 starts=40 (|alpha|>=m monomials: 897)
+residual minima: smallest ['7.4e-17', '8.6e-17', '1.1e-16'] ; largest 4.94e-04
+classes (zero, support size, dim of smallest rational subspace containing it, numerical corank of Jacobian):
+    ('nonzero',) 10
+    ('zero', 6, 1, 4) 1
+    ('zero', 6, 3, 3) 1
+    ('zero', 6, 3, 4) 4
+    ('zero', 7, 0, 0) 1
+    ('zero', 7, 2, 0) 1
+    ('zero', 7, 2, 3) 1
+    ('zero', 7, 4, 0) 3
+    ('zero', 7, 4, 4) 18
+zeros with NO integer relation (|v|_inf<=30): 0

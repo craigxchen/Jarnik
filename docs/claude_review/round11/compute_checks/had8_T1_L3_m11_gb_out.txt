@@ -1,0 +1,2 @@
+Groebner basis: 30 elements, degrees [3, 4, 5, 6, 7] (2.7s)
+Hilbert function of S/I, degrees 0..15: [1, 7, 28, 81, 185, 350, 581, 883, 1261, 1720, 2265, 2901, 3633, 4466, 5405, 6455]

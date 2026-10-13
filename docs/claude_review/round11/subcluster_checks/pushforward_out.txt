@@ -1,0 +1,36 @@
+
+[cube rho=3] M=8 rho=3 e=1 n=5 T=2 w=2 m=5: admissible (J,base) systems: 280; y-box 3^3
+  single systems: dim V(A,m) range 12..50, |A| range 67..105, |S| range 27..27
+  dim pi_*V per system: min 3 max 4; number with pi_*V = 0: 0
+  combined dim sum_J pi_*V = 4;  |S_tot| = 27;  dim V(y-box, m) = 4
+  product differences Delta^alpha, |alpha|=m, anchored at corner: tested 3; in some single pi_*V: 3; in combined: 3
+
+[cube rho=3] M=8 rho=3 e=1 n=5 T=2 w=2 m=6: admissible (J,base) systems: 280; y-box 3^3
+  single systems: dim V(A,m) range 0..27, |A| range 67..105, |S| range 27..27
+  dim pi_*V per system: min 0 max 1; number with pi_*V = 0: 32
+  combined dim sum_J pi_*V = 1;  |S_tot| = 27;  dim V(y-box, m) = 1
+  product differences Delta^alpha, |alpha|=m, anchored at corner: tested 1; in some single pi_*V: 1; in combined: 1
+
+[cube rho=3] M=8 rho=3 e=1 n=6 T=2 w=2 m=5: admissible (J,base) systems: 168; y-box 3^3
+  single systems: dim V(A,m) range 199..285, |A| range 307..393, |S| range 27..27
+  dim pi_*V per system: min 4 max 4; number with pi_*V = 0: 0
+  combined dim sum_J pi_*V = 4;  |S_tot| = 27;  dim V(y-box, m) = 4
+  product differences Delta^alpha, |alpha|=m, anchored at corner: tested 3; in some single pi_*V: 3; in combined: 3
+
+[cube rho=3] M=8 rho=3 e=1 n=6 T=2 w=2 m=6: admissible (J,base) systems: 168; y-box 3^3
+  single systems: dim V(A,m) range 123..209, |A| range 307..393, |S| range 27..27
+  dim pi_*V per system: min 1 max 1; number with pi_*V = 0: 0
+  combined dim sum_J pi_*V = 1;  |S_tot| = 27;  dim V(y-box, m) = 1
+  product differences Delta^alpha, |alpha|=m, anchored at corner: tested 1; in some single pi_*V: 1; in combined: 1
+
+[cube rho=3] M=8 rho=3 e=1 n=5 T=3 w=2 m=5: admissible (J,base) systems: 280; y-box 3^3
+  single systems: dim V(A,m) range 40..104, |A| range 95..159, |S| range 27..27
+  dim pi_*V per system: min 4 max 4; number with pi_*V = 0: 0
+  combined dim sum_J pi_*V = 4;  |S_tot| = 27;  dim V(y-box, m) = 4
+  product differences Delta^alpha, |alpha|=m, anchored at corner: tested 3; in some single pi_*V: 3; in combined: 3
+
+[cube rho=3] M=8 rho=3 e=1 n=5 T=3 w=2 m=6: admissible (J,base) systems: 280; y-box 3^3
+  single systems: dim V(A,m) range 14..78, |A| range 95..159, |S| range 27..27
+  dim pi_*V per system: min 1 max 1; number with pi_*V = 0: 0
+  combined dim sum_J pi_*V = 1;  |S_tot| = 27;  dim V(y-box, m) = 1
+  product differences Delta^alpha, |alpha|=m, anchored at corner: tested 1; in some single pi_*V: 1; in combined: 1

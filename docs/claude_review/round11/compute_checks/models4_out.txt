@@ -1,0 +1,8 @@
+n=4 prof=((0, 1), (0, 2), (0, 3)) T=2 L=1 |A|=13 hmax=4 rho=3 faithful m: []  (pi>=m witnesses: [])
+n=4 prof=((0, 1), (0, 2), (0, 3)) T=3 L=1 |A|=13 hmax=4 rho=3 faithful m: []  (pi>=m witnesses: [])
+n=4 prof=((0, 1), (0, 2), (0, 3)) T=4 L=1 |A|=13 hmax=4 rho=3 faithful m: []  (pi>=m witnesses: [])
+n=4 prof=((0, 1), (0, 2), (0, 3)) T=2 L=2 |A|=57 hmax=8 rho=6 faithful m: []  (pi>=m witnesses: [])
+n=4 prof=((0, 1), (0, 2), (0, 3)) T=3 L=2 |A|=63 hmax=8 rho=6 faithful m: []  (pi>=m witnesses: [])
+n=4 prof=((0, 1), (0, 2), (0, 3)) T=4 L=2 |A|=63 hmax=8 rho=6 faithful m: []  (pi>=m witnesses: [])
+n=4 prof=((0, 1), (0, 2), (0, 3)) T=3 L=3 |A|=153 hmax=12 rho=9 faithful m: []  (pi>=m witnesses: [])
+n=4 prof=((0, 1), (0, 2), (0, 3)) T=4 L=3 |A|=171 hmax=12 rho=9 faithful m: []  (pi>=m witnesses: [])

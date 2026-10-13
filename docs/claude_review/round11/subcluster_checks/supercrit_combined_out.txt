@@ -1,0 +1,24 @@
+seed=1 M=6 r=4 cols=[(0, 0, 1, 0, 1, 1), (1, 1, 0, 0, 1, 0), (1, 1, 0, 1, 1, 0), (0, 1, 0, 0, 0, 0)]
+admissible (J,base) systems: 52 of 60
+  single J=[0, 1, 2, 3] base=0 dimV=29: zeros 18, without relation 8
+  single J=[0, 1, 2, 3] base=1 dimV=12: zeros 13, without relation 4
+  single J=[0, 1, 2, 3] base=2 dimV=12: zeros 8, without relation 8
+  single J=[0, 1, 2, 3] base=3 dimV=29: zeros 11, without relation 8
+  single J=[0, 1, 2, 4] base=0 dimV=29: zeros 16, without relation 8
+  single J=[0, 1, 2, 4] base=1 dimV=12: zeros 9, without relation 7
+  single J=[0, 1, 2, 4] base=2 dimV=12: zeros 7, without relation 7
+  single J=[0, 1, 2, 4] base=4 dimV=29: zeros 10, without relation 7
+  single J=[0, 1, 2, 5] base=0 dimV=53: zeros 12, without relation 9
+  single J=[0, 1, 2, 5] base=1 dimV=30: zeros 13, without relation 13
+  single J=[0, 1, 2, 5] base=2 dimV=79: zeros 4, without relation 4
+  single J=[0, 1, 2, 5] base=5 dimV=79: zeros 10, without relation 10
+single systems: total TC zeros 131, without integer relation (|coef|<=30) 93
+[combined] min residual 9.9e-24, median 1.7e-09; distinct zeros 10; with an integer relation: 10
+    u/max=[-0.071 -0.071  0.071  1.    -1.     0.071] relation=[0, 0, 1, 0, 0, -1]
+    u/max=[-0.602  1.     0.068 -0.602  0.068  0.068] relation=[1, 0, 0, -1, 0, 0]
+    u/max=[-0.4817  1.     -0.0122 -0.4817 -0.0122 -0.0122] relation=[1, 0, 3, -1, 1, -4]
+    u/max=[-0.3472  1.      0.0208 -0.3472 -0.3472  0.0208] relation=[-1, 0, -1, -1, 2, 1]
+    u/max=[-0.463   1.     -0.0246 -0.0246 -0.463  -0.0246] relation=[-2, 0, 5, 1, 2, -6]
+    u/max=[-0.4608  1.     -0.0261 -0.0261 -0.4608 -0.0261] relation=[0, 0, 2, -1, 0, -1]
+    u/max=[-0.3254 -0.3254 -0.0119 -0.3254  1.     -0.0119] relation=[0, 1, -1, -1, 0, 1]
+    u/max=[-0.6292 -0.6292  0.4437 -0.6292  1.      0.4437] relation=[1, 0, -10, -1, 0, 10]

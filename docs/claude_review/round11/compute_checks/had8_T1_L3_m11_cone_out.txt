@@ -1,0 +1,6 @@
+model had8_T1_L3_m11_basis.json m = 11 dimV = 7
+shape of each basis polynomial: (order of binomial part, sorted (deg, #terms, mult) of non-binomial factors): count
+    (8, ((3, 12, 1, 3, 'form'),)) 3
+    (7, ((4, 24, 1, 4, 'form'),)) 4
+all non-binomial factors are forms in x = w - 1: True ; order of binomial part + orders of the other factors = m (checked)
+distinct binomial factors: 9 ['w0 - 1', 'w0 - w1', 'w1 - 1', 'w2 - 1', 'w3 - 1', 'w3 - w4', 'w4 - 1', 'w5 - 1', 'w6 - 1'] ...

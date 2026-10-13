@@ -1,0 +1,31 @@
+n=4 r=4 T=2 w=4: |A|=95 (box 125) avg h=8.00 max h=8 -> supercritical m: (10, 94)
+n=4 r=4 T=2 w=6: |A|=115 (box 125) avg h=9.00 max h=12 -> supercritical m: (11, 114)
+n=4 r=4 T=2 w=8: |A|=125 (box 125) avg h=10.00 max h=16 -> supercritical m: (11, 121)
+n=4 r=4 T=2 w=10: |A|=125 (box 125) avg h=10.00 max h=16 -> supercritical m: (11, 121)
+n=4 r=4 T=3 w=4: |A|=161 (box 343) avg h=8.00 max h=8 -> supercritical m: (11, 148)
+n=4 r=4 T=3 w=6: |A|=259 (box 343) avg h=12.00 max h=12 -> supercritical m: (13, 245)
+n=4 r=4 T=3 w=8: |A|=301 (box 343) avg h=13.00 max h=16 -> supercritical m: None
+n=4 r=4 T=3 w=10: |A|=329 (box 343) avg h=14.00 max h=20 -> supercritical m: None
+n=4 r=4 T=4 w=4: |A|=225 (box 729) avg h=8.00 max h=8 -> supercritical m: (12, 190)
+n=4 r=4 T=4 w=6: |A|=387 (box 729) avg h=12.00 max h=12 -> supercritical m: (14, 336)
+n=4 r=4 T=4 w=8: |A|=549 (box 729) avg h=16.00 max h=16 -> supercritical m: None
+n=4 r=4 T=4 w=10: |A|=621 (box 729) avg h=17.00 max h=20 -> supercritical m: None
+n=4 r=8 T=2 w=4: |A|=75 (box 125) avg h=8.00 max h=8 -> supercritical m: None
+n=4 r=8 T=2 w=6: |A|=107 (box 125) avg h=11.00 max h=12 -> supercritical m: None
+n=4 r=8 T=2 w=8: |A|=125 (box 125) avg h=14.00 max h=16 -> supercritical m: None
+n=4 r=8 T=2 w=10: |A|=125 (box 125) avg h=14.00 max h=16 -> supercritical m: None
+n=4 r=8 T=3 w=4: |A|=89 (box 343) avg h=8.00 max h=8 -> supercritical m: (9, 87)
+n=4 r=8 T=3 w=6: |A|=203 (box 343) avg h=12.00 max h=12 -> supercritical m: None
+n=4 r=8 T=3 w=8: |A|=269 (box 343) avg h=15.00 max h=16 -> supercritical m: None
+n=4 r=8 T=3 w=10: |A|=317 (box 343) avg h=18.00 max h=20 -> supercritical m: None
+n=4 r=8 T=4 w=4: |A|=95 (box 729) avg h=8.00 max h=8 -> supercritical m: (10, 94)
+n=4 r=8 T=4 w=6: |A|=233 (box 729) avg h=12.00 max h=12 -> supercritical m: None
+n=4 r=8 T=4 w=8: |A|=429 (box 729) avg h=16.00 max h=16 -> supercritical m: None
+n=4 r=8 T=4 w=10: |A|=541 (box 729) avg h=19.00 max h=20 -> supercritical m: None
+n=5 r=5 T=2 w=4: |A|=231 (box 625) avg h=8.00 max h=8 -> supercritical m: None
+n=5 r=5 T=2 w=6: |A|=405 (box 625) avg h=12.00 max h=12 -> supercritical m: None
+n=5 r=5 T=2 w=8: |A|=531 (box 625) avg h=16.00 max h=16 -> supercritical m: None
+n=5 r=5 T=2 w=10: |A|=599 (box 625) avg h=19.20 max h=20 -> supercritical m: None
+n=5 r=5 T=3 w=4: |A|=369 (box 2401) avg h=8.00 max h=8 -> supercritical m: (9, 337)
+n=5 r=5 T=3 w=6: |A|=863 (box 2401) avg h=12.00 max h=12 -> supercritical m: None
+n=5 r=5 T=3 w=8: |A|=1355 (box 2401) avg h=16.00 max h=16 -> supercritical m: None

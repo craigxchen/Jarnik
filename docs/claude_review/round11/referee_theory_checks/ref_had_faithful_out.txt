@@ -1,0 +1,12 @@
+m=3 theory A_p: |<k,b_p>|<=m p=3: |S|=57 levels -1..1 sizes {-1: 16, 0: 25, 1: 16} dimV=21 UM points by level {}
+m=3 theory A_p: |<k,b_p>|<=m p=5: |S|=57 levels -1..1 sizes {-1: 16, 0: 25, 1: 16} dimV=21 UM points by level {}
+m=3 had_sl box: |<k,b_p>|<=2m p=3: |S|=137 levels -3..3 sizes {-3: 16, -2: 24, -1: 16, 0: 25, 1: 16, 2: 24, 3: 16} dimV=101 UM points by level {-3: 16, -2: 24, -1: 16, 0: 1}; certificate for first UM point verified: True
+m=3 had_sl box: |<k,b_p>|<=2m p=5: |S|=137 levels -3..3 sizes {-3: 16, -2: 24, -1: 16, 0: 25, 1: 16, 2: 24, 3: 16} dimV=101 UM points by level {-3: 16, -2: 24, -1: 16, 0: 1}; certificate for first UM point verified: True
+m=4 theory A_p: |<k,b_p>|<=m p=3: |S|=105 levels -2..2 sizes {-2: 24, -1: 16, 0: 25, 1: 16, 2: 24} dimV=25 UM points by level {-2: 24}; certificate for first UM point verified: True
+m=4 theory A_p: |<k,b_p>|<=m p=5: |S|=105 levels -2..2 sizes {-2: 24, -1: 16, 0: 25, 1: 16, 2: 24} dimV=25 UM points by level {-2: 24}; certificate for first UM point verified: True
+m=4 had_sl box: |<k,b_p>|<=2m p=3: |S|=145 levels -4..4 sizes {-4: 4, -3: 16, -2: 24, -1: 16, 0: 25, 1: 16, 2: 24, 3: 16, 4: 4} dimV=54 UM points by level {-4: 4, -3: 16, -2: 24, 0: 1}; certificate for first UM point verified: True
+m=4 had_sl box: |<k,b_p>|<=2m p=5: |S|=145 levels -4..4 sizes {-4: 4, -3: 16, -2: 24, -1: 16, 0: 25, 1: 16, 2: 24, 3: 16, 4: 4} dimV=54 UM points by level {-4: 4, -3: 16, -2: 24, 0: 1}; certificate for first UM point verified: True
+m=5 theory A_p: |<k,b_p>|<=m p=3: |S|=105 levels -2..2 sizes {-2: 24, -1: 16, 0: 25, 1: 16, 2: 24} dimV=1 UM points by level {}
+m=5 theory A_p: |<k,b_p>|<=m p=5: |S|=105 levels -2..2 sizes {-2: 24, -1: 16, 0: 25, 1: 16, 2: 24} dimV=1 UM points by level {}
+m=5 had_sl box: |<k,b_p>|<=2m p=3: |S|=145 levels -4..4 sizes {-4: 4, -3: 16, -2: 24, -1: 16, 0: 25, 1: 16, 2: 24, 3: 16, 4: 4} dimV=10 UM points by level {-4: 1}; certificate for first UM point verified: True
+m=5 had_sl box: |<k,b_p>|<=2m p=5: |S|=145 levels -4..4 sizes {-4: 4, -3: 16, -2: 24, -1: 16, 0: 25, 1: 16, 2: 24, 3: 16, 4: 4} dimV=10 UM points by level {-4: 1}; certificate for first UM point verified: True

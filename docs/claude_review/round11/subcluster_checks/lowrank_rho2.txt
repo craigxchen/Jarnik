@@ -1,0 +1,5 @@
+rho=2 M=3: 96 point sets; best min-norm s = 1.3333 at points ((0, 0), (0, 1), (1, 3)); weights(dir,omega,e) [((-3, 1), np.float64(0.3333), 1), ((-1, 1), np.float64(0.6667), 2)]
+rho=2 M=4: 452 point sets; best min-norm s = 1.0000 at points ((0, 0), (1, 0), (1, 2), (2, 2)); weights(dir,omega,e) [((-2, 1), np.float64(0.5), 2), ((0, -1), np.float64(0.5), 2)]
+rho=2 M=5: 1365 point sets; best min-norm s = 1.0000 at points ((0, 0), (1, 0), (1, 1), (1, 2), (2, 2)); weights(dir,omega,e) [((-2, 1), np.float64(0.5), 2), ((0, -1), np.float64(0.5), 2)]
+rho=2 M=6: 3003 point sets; best min-norm s = 0.8000 at points ((0, 0), (0, 1), (1, 1), (1, 2), (1, 3), (2, 3)); weights(dir,omega,e) [((-2, 1), np.float64(0.4), 2), ((0, -1), np.float64(0.6), 3)]
+rho=2 M=7: 5005 point sets; best min-norm s = 0.6667 at points ((0, 0), (1, 0), (1, 1), (1, 2), (2, 1), (2, 2), (3, 3)); weights(dir,omega,e) [((-2, 1), np.float64(0.5), 3), ((0, -1), np.float64(0.5), 3)]

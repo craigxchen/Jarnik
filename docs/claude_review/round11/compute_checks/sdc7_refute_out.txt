@@ -1,0 +1,5 @@
+c even: True  support: 687  sup: 42
+exact signs of Phi on the 5^7-1 integer points of [-2,2]^7: positive 0, negative 65604, zero 12520
+support sizes of the integer zeros: {7: 567, 6: 489, 5: 224, 4: 472, 3: 224, 2: 23, 1: 1}
+some zeros with support >= 4: [(-2, -2, -2, -2, -2, -2, -2), (-2, -2, -2, -2, -2, -2, -1), (-2, -2, -2, -2, -2, -2, 0), (-2, -2, -2, -2, -2, -2, 1), (-2, -2, -2, -2, -2, -2, 2), (-2, -2, -2, -2, -2, -1, -2), (-2, -2, -2, -2, -2, -1, -1), (-2, -2, -2, -2, -2, -1, 0), (-2, -2, -2, -2, -2, -1, 1), (-2, -2, -2, -2, -2, -1, 2)]
+Phi factorisation over Q: content -40320 ; factors (total degree, #terms, multiplicity): [(8, 196, 1)]

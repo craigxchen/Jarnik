@@ -1,0 +1,4 @@
+sdc7 T=1 L=2 |A|=757 #patterns=14 ranges=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+rho(A) = 8 (exact), LP bound zeta <= 7 (8.6s); faithful m: [8]
+m=8: dim V(A,m) = 1, LLL basis sup-norm 42, H = 5.73e+05, V_H = V: True; all verified exactly
+max h_A(beta_p) = 8 vs m = 8: (ii) False, (ii') True

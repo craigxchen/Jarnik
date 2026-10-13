@@ -1,0 +1,18 @@
+{'M': 8, 'm': 3, 's': 1, 'r': 3, 'X': 96, 'E': 37, 'rank': 37, 'char0': True, 'pint': True, 'pint_maxv': 0}
+{'M': 8, 'm': 3, 's': 1, 'r': 3, 'X': 76, 'E': 37, 'rank': 37, 'char0': True, 'pint': True, 'pint_maxv': 0}
+{'M': 8, 'm': 4, 's': 1, 'r': 3, 'X': 39, 'E': 93, 'rank': 39, 'char0': False}
+{'M': 8, 'm': 4, 's': 1, 'r': 3, 'X': 73, 'E': 93, 'rank': 67, 'char0': True, 'pint': True, 'pint_maxv': 0}
+{'M': 9, 'm': 4, 's': 1, 'r': 4, 'X': 44, 'E': 130, 'rank': 44, 'char0': False}
+{'M': 9, 'm': 4, 's': 1, 'r': 4, 'X': 68, 'E': 130, 'rank': 68, 'char0': False}
+{'M': 10, 'm': 4, 's': 1, 'r': 4, 'X': 38, 'E': 176, 'rank': 38, 'char0': False}
+{'M': 10, 'm': 4, 's': 1, 'r': 4, 'X': 112, 'E': 176, 'rank': 107, 'char0': True, 'pint': True, 'pint_maxv': 0}
+{'M': 10, 'm': 5, 's': 1, 'r': 4, 'X': 112, 'E': 386, 'rank': 112, 'char0': False}
+{'M': 10, 'm': 5, 's': 1, 'r': 4, 'X': 175, 'E': 386, 'rank': 175, 'char0': False}
+{'M': 10, 'm': 4, 's': 1, 'r': 6, 'X': 45, 'E': 176, 'rank': 45, 'char0': False}
+{'M': 10, 'm': 4, 's': 1, 'r': 6, 'X': 223, 'E': 176, 'rank': 153, 'char0': True, 'pint': True, 'pint_maxv': 0}
+{'M': 11, 'm': 4, 's': 1, 'r': 5, 'X': 254, 'E': 232, 'rank': 174, 'char0': True, 'pint': True, 'pint_maxv': 0}
+{'M': 11, 'm': 4, 's': 1, 'r': 5, 'X': 110, 'E': 232, 'rank': 109, 'char0': False}
+{'M': 12, 'm': 4, 's': 1, 'r': 5, 'X': 242, 'E': 299, 'rank': 223, 'char0': True, 'pint': True, 'pint_maxv': 0}
+{'M': 12, 'm': 4, 's': 1, 'r': 5, 'X': 536, 'E': 299, 'rank': 286, 'char0': True, 'pint': True, 'pint_maxv': 0}
+{'M': 12, 'm': 5, 's': 1, 'r': 5, 'X': 180, 'E': 794, 'rank': 180, 'char0': False}
+{'M': 12, 'm': 5, 's': 1, 'r': 5, 'X': 32, 'E': 794, 'rank': 32, 'char0': False}

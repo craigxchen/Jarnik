@@ -1,0 +1,12 @@
+{'M': 9, 'm': 5, 'r': 3, 'X': 150, 'E': 256, 'rank': 147, 'dimV': 3, 'char0': False, 'pint': None, 'maxblocks2': 4, 'maxblocks5': 4}
+{'M': 11, 'm': 4, 'r': 3, 'X': 660, 'E': 232, 'rank': 229, 'dimV': 431, 'char0': True, 'pint': True, 'maxblocks2': 4, 'maxblocks5': 4}
+{'M': 9, 'm': 4, 'r': 3, 'X': 157, 'E': 130, 'rank': 114, 'dimV': 43, 'char0': True, 'pint': True, 'maxblocks2': 4, 'maxblocks5': 4}
+{'M': 12, 'm': 4, 'r': 3, 'X': 1331, 'E': 299, 'rank': 296, 'dimV': 1035, 'char0': True, 'pint': True, 'maxblocks2': 4, 'maxblocks5': 4}
+{'M': 12, 'm': 4, 'r': 4, 'X': 420, 'E': 299, 'rank': 248, 'dimV': 172, 'char0': True, 'pint': True, 'maxblocks2': 4, 'maxblocks5': 4}
+{'M': 9, 'm': 4, 'r': 3, 'X': 122, 'E': 130, 'rank': 95, 'dimV': 27, 'char0': True, 'pint': True, 'maxblocks2': 4, 'maxblocks5': 4}
+{'M': 12, 'm': 4, 'r': 4, 'X': 407, 'E': 299, 'rank': 232, 'dimV': 175, 'char0': True, 'pint': True, 'maxblocks2': 4, 'maxblocks5': 4}
+{'M': 12, 'm': 4, 'r': 6, 'X': 204, 'E': 299, 'rank': 176, 'dimV': 28, 'char0': True, 'pint': True, 'maxblocks2': 4, 'maxblocks5': 4}
+{'M': 10, 'm': 4, 'r': 5, 'X': 117, 'E': 176, 'rank': 106, 'dimV': 11, 'char0': True, 'pint': True, 'maxblocks2': 4, 'maxblocks5': 4}
+{'M': 10, 'm': 4, 'r': 6, 'X': 129, 'E': 176, 'rank': 119, 'dimV': 10, 'char0': True, 'pint': True, 'maxblocks2': 3, 'maxblocks5': 4}
+{'M': 12, 'm': 4, 'r': 6, 'X': 162, 'E': 299, 'rank': 144, 'dimV': 18, 'char0': True, 'pint': True, 'maxblocks2': 4, 'maxblocks5': 4}
+{'M': 9, 'm': 4, 'r': 3, 'X': 196, 'E': 130, 'rank': 124, 'dimV': 72, 'char0': True, 'pint': True, 'maxblocks2': 4, 'maxblocks5': 4}

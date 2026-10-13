@@ -1,0 +1,10 @@
+k=3 M=8 s=1: |X|=18  X-orbits=4
+  m=3: J-orbits=3 dim ker (invariant V)=1  SL(char0) at empty set: True
+  m=4: J-orbits=4 dim ker (invariant V)=0  SL(char0) at empty set: False
+  m=5: J-orbits=6 dim ker (invariant V)=0  SL(char0) at empty set: False
+  m=6: J-orbits=7 dim ker (invariant V)=0  SL(char0) at empty set: False
+k=4 M=16 s=2: |X|=1170  X-orbits=8
+  m=4: J-orbits=4 dim ker (invariant V)=4  SL(char0) at empty set: True
+  m=5: J-orbits=6 dim ker (invariant V)=2  SL(char0) at empty set: True
+  m=6: J-orbits=8 dim ker (invariant V)=0  SL(char0) at empty set: False
+  m=7: J-orbits=11 dim ker (invariant V)=0  SL(char0) at empty set: False

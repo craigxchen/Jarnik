@@ -1,0 +1,29 @@
+rho=2: M=5 r=2 e=[2, 2]; min pair norm 1.000; min norm over Lambda=Z^rho (box 3): 1.000
+
+[cross-polytope rho=2] rho=2 M=5 r=2 e=[2, 2] omega=[0.5, 0.5] | n=3 T=2 w=2 m=5: admissible systems 30; |S_slab|=13
+  per system: |A| 9..19, dim V(A,m) 0..4, dim pi_*V 0..0 (zero for 30), LP 4.00..4.00
+  dim combined = 0;  dim universal U = V(S_slab,m) = 0
+
+[cross-polytope rho=2] rho=2 M=5 r=2 e=[2, 2] omega=[0.5, 0.5] | n=3 T=3 w=2 m=5: admissible systems 30; |S_slab|=13
+  per system: |A| 9..29, dim V(A,m) 0..14, dim pi_*V 0..0 (zero for 30), LP 4.00..4.00
+  dim combined = 0;  dim universal U = V(S_slab,m) = 0
+
+[cross-polytope rho=2] rho=2 M=5 r=2 e=[2, 2] omega=[0.5, 0.5] | n=4 T=2 w=2 m=5: admissible systems 20; |S_slab|=13
+  per system: |A| 35..55, dim V(A,m) 5..22, dim pi_*V 0..0 (zero for 20), LP 4.00..4.00
+  dim combined = 0;  dim universal U = V(S_slab,m) = 0
+
+[cross-polytope rho=2] rho=2 M=5 r=2 e=[2, 2] omega=[0.5, 0.5] | n=4 T=2 w=2 m=6: admissible systems 20; |S_slab|=13
+  per system: |A| 35..55, dim V(A,m) 1..11, dim pi_*V 0..0 (zero for 20), LP 4.00..4.00
+  dim combined = 0;  dim universal U = V(S_slab,m) = 0
+
+[cross-polytope rho=2] rho=2 M=5 r=2 e=[2, 2] omega=[0.5, 0.5] | n=4 T=3 w=3 m=7: admissible systems 20; |S_slab|=25
+  per system: |A| 53..147, dim V(A,m) 8..66, dim pi_*V 0..0 (zero for 20), LP 4.00..6.00
+  dim combined = 0;  dim universal U = V(S_slab,m) = 0
+
+[cross-polytope rho=2] rho=2 M=5 r=2 e=[2, 2] omega=[0.5, 0.5] | n=5 T=2 w=2 m=5: admissible systems 5; |S_slab|=13
+  per system: |A| 133..229, dim V(A,m) 68..161, dim pi_*V 0..0 (zero for 5), LP 4.00..4.00
+  dim combined = 0;  dim universal U = V(S_slab,m) = 0
+
+[cross-polytope rho=2] rho=2 M=5 r=2 e=[2, 2] omega=[0.5, 0.5] | n=5 T=2 w=3 m=7: admissible systems 5; |S_slab|=25
+  per system: |A| 207..365, dim V(A,m) 46..178, dim pi_*V 0..0 (zero for 5), LP 6.00..6.00
+  dim combined = 0;  dim universal U = V(S_slab,m) = 0

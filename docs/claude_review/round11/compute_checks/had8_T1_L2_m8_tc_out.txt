@@ -1,0 +1,10 @@
+forms: 42 independent octics (degree 8) in 7 variables; max |coef| after LLL = 120960
+min number of distinct variables in a monomial with nonzero coefficient: 4
+number of distinct variable-supports: 57  sizes: [4, 5, 6, 7]
+coordinate 1-planes in TC: 7 of 7
+coordinate 2-planes in TC: 21 of 21
+coordinate 3-planes in TC: 35 of 35
+coordinate 4-planes in TC: 7 of 35
+coordinate 5-planes in TC: 0 of 21
+coordinate 6-planes in TC: 0 of 7
+coordinate 7-planes in TC: 0 of 1

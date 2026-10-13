@@ -1,0 +1,7 @@
+cols [(0, 0, 0, 1, 0), (1, 1, 0, 0, 0), (0, 1, 0, 1, 1), (1, 1, 1, 1, 0)]
+n=5 r=4 T=4 w=2: |A|=81 box=6561 LP=4.00 maxh=4 m=5 dimV=31 binom=70 (0s)
+n=5 r=4 T=4 w=4: |A|=527 box=6561 LP=8.00 maxh=8 m=9 dimV=172 binom=495 (2s)
+n=5 r=4 T=4 w=6: |A|=1467 box=6561 LP=12.00 maxh=12 m=13 dimV=254 binom=1820 (29s)
+n=5 r=4 T=5 w=2: |A|=81 box=14641 LP=4.00 maxh=4 m=5 dimV=31 binom=70 (0s)
+n=5 r=4 T=5 w=4: |A|=587 box=14641 LP=8.00 maxh=8 m=9 dimV=232 binom=495 (1s)
+n=5 r=4 T=5 w=6: |A|=1801 box=14641 LP=12.00 maxh=12 m=13 dimV=500 binom=1820 (47s)

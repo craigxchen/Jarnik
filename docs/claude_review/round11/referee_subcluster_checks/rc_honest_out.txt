@@ -1,0 +1,16 @@
+M=6 r=6 n=4 T=3 w=4: systems tested 60 (of 60), V(A,floor(LP)+1)!=0 in 0
+M=6 r=6 n=4 T=4 w=6: systems tested 40 (of 60), V(A,floor(LP)+1)!=0 in 0
+M=6 r=6 n=5 T=3 w=4: systems tested 30 (of 30), V(A,floor(LP)+1)!=0 in 0
+M=8 r=8 n=4 T=3 w=4: systems tested 60 (of 280), V(A,floor(LP)+1)!=0 in 0
+M=8 r=8 n=4 T=4 w=6: systems tested 40 (of 280), V(A,floor(LP)+1)!=0 in 0
+M=8 r=8 n=5 T=3 w=4: systems tested 30 (of 280), V(A,floor(LP)+1)!=0 in 0
+M=10 r=10 n=4 T=3 w=4: systems tested 60 (of 840), V(A,floor(LP)+1)!=0 in 0
+M=10 r=10 n=4 T=4 w=6: systems tested 40 (of 840), V(A,floor(LP)+1)!=0 in 0
+M=10 r=10 n=5 T=3 w=4: systems tested 30 (of 1260), V(A,floor(LP)+1)!=0 in 0
+M=12 r=12 n=4 T=3 w=4: systems tested 60 (of 1980), V(A,floor(LP)+1)!=0 in 0
+M=12 r=12 n=4 T=4 w=6: systems tested 40 (of 1980), V(A,floor(LP)+1)!=0 in 0
+M=12 r=12 n=5 T=3 w=4: systems tested 30 (of 3960), V(A,floor(LP)+1)!=0 in 0
+M=8 r=8 n=6 T=2 w=4: systems tested 8 (of 168), V(A,floor(LP)+1)!=0 in 0
+M=8 r=8 n=6 T=3 w=4: systems tested 4 (of 168), V(A,floor(LP)+1)!=0 in 0
+M=12 r=12 n=6 T=2 w=4: systems tested 8 (of 5544), V(A,floor(LP)+1)!=0 in 0
+M=12 r=12 n=6 T=3 w=4: systems tested 4 (of 5544), V(A,floor(LP)+1)!=0 in 0

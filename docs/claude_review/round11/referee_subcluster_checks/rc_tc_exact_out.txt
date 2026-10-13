@@ -1,0 +1,2 @@
+skew double core q=7: systems 280, m values [6], |A| 225..225; TC = {0} certified (no degree-<=m polynomial vanishes on A) in 280/280
+round-5 Paley-I b=8 q=7: systems 280, m values [6], |A| 225..239; TC = {0} certified (no degree-<=m polynomial vanishes on A) in 280/280

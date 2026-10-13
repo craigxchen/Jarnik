@@ -1,0 +1,26 @@
+wide: T=4 m=3 p=3 |S|=31 levels -3..3 dimV=25 UM=18 non-bottom=14
+wide: T=3 m=5 p=3 |S|=47 levels -5..5 dimV=32 UM=27 non-bottom=25
+wide: T=3 m=3 p=2 |S|=37 levels -3..3 dimV=31 UM=22 non-bottom=18
+wide: T=3 m=5 p=2 |S|=37 levels -5..5 dimV=22 UM=20 non-bottom=17
+wide: T=4 m=4 p=2 |S|=23 levels -4..4 dimV=13 UM=13 non-bottom=10
+wide: T=4 m=3 p=3 |S|=51 levels -3..3 dimV=45 UM=30 non-bottom=24
+wide: T=4 m=4 p=2 |S|=33 levels -4..4 dimV=23 UM=19 non-bottom=16
+wide: T=3 m=5 p=2 |S|=37 levels -5..5 dimV=22 UM=20 non-bottom=17
+wide: T=3 m=5 p=2 |S|=37 levels -5..5 dimV=22 UM=20 non-bottom=17
+wide: T=3 m=5 p=2 |S|=37 levels -5..5 dimV=22 UM=20 non-bottom=17
+wide: T=3 m=4 p=3 |S|=31 levels -4..4 dimV=21 UM=17 non-bottom=14
+wide: T=4 m=5 p=3 |S|=49 levels -5..5 dimV=34 UM=27 non-bottom=23
+wide: T=3 m=5 p=3 |S|=47 levels -5..5 dimV=32 UM=27 non-bottom=25
+wide: T=3 m=5 p=3 |S|=35 levels -5..5 dimV=20 UM=19 non-bottom=17
+wide: T=4 m=5 p=3 |S|=45 levels -5..5 dimV=30 UM=25 non-bottom=22
+wide: T=4 m=3 p=2 |S|=51 levels -3..3 dimV=45 UM=30 non-bottom=24
+wide: T=3 m=3 p=3 |S|=25 levels -3..3 dimV=19 UM=14 non-bottom=10
+wide: T=4 m=5 p=3 |S|=49 levels -5..5 dimV=34 UM=27 non-bottom=23
+wide: T=4 m=4 p=2 |S|=39 levels -4..4 dimV=29 UM=22 non-bottom=18
+wide: T=3 m=4 p=2 |S|=29 levels -2..2 dimV=19 UM=5 non-bottom=0
+wide: T=3 m=4 p=2 |S|=43 levels -4..4 dimV=33 UM=25 non-bottom=22
+wide: T=4 m=4 p=3 |S|=41 levels -4..4 dimV=31 UM=23 non-bottom=18
+wide: T=4 m=4 p=2 |S|=41 levels -4..4 dimV=31 UM=23 non-bottom=18
+wide: T=4 m=5 p=2 |S|=49 levels -5..5 dimV=34 UM=27 non-bottom=23
+wide: T=4 m=3 p=3 |S|=51 levels -3..3 dimV=45 UM=30 non-bottom=24
+non-bottom UM points in wide models: 456; explicit certificates verified: 118/118

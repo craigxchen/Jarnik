@@ -1,0 +1,9 @@
+seed=1 M=6 r=4 cols=[(0, 0, 1, 0, 1, 1), (1, 1, 0, 0, 1, 0), (1, 1, 0, 1, 1, 0), (0, 1, 0, 0, 0, 0)]
+admissible (J,base) systems: 52 of 60
+single systems: total TC zeros 0, without integer relation (|coef|<=30) 0
+[combined] min residual 2.4e-22, median 2.4e-22; distinct zeros 1; with an integer relation: 1
+    u/max=[-0.3409 -0.3409  0.0114  1.     -0.3409  0.0114] relation=[1, 0, -9, 0, -1, 9]
+eps=0.05: single systems (8 sampled): min tau over R_eps = ['inf', 'inf', 'inf', 'inf', 'inf', 'inf', 'inf', '5.1e-09']
+eps=0.05: combined (52 systems): min tau over R_eps = inf
+eps=0.02: single systems (8 sampled): min tau over R_eps = ['5.7e-14', '3.4e-14', '6.7e-14', '2.0e-13', '6.5e-14', '2.5e-14', '6.1e-13', '4.2e-14']
+eps=0.02: combined (52 systems): min tau over R_eps = inf

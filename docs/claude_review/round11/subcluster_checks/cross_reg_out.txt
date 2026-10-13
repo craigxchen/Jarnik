@@ -1,0 +1,20 @@
+rho=2: 300 random sets in [0,3]^2: reg > Omega' in 0 cases; equality in 5; max reg/Omega' = 1.000
+rho=3: 200 random sets in [0,2]^3: reg > Omega' in 0 cases; equality in 0; max reg/Omega' = 0.889
+  rho=2 box R=1: |S|=4 reg=2 Omega'=2.000 MW=2.000
+  rho=2 simplex R=1: |S|=3 reg=1 Omega'=1.500 MW=1.500
+  rho=2 l1-ball R=1: |S|=5 reg=2 Omega'=2.000 MW=3.000
+  rho=2 box R=2: |S|=9 reg=4 Omega'=4.000 MW=4.000
+  rho=2 simplex R=2: |S|=6 reg=2 Omega'=3.000 MW=3.000
+  rho=2 l1-ball R=2: |S|=13 reg=4 Omega'=4.000 MW=6.000
+  rho=2 box R=3: |S|=16 reg=6 Omega'=6.000 MW=6.000
+  rho=2 simplex R=3: |S|=10 reg=3 Omega'=4.500 MW=4.500
+  rho=2 l1-ball R=3: |S|=25 reg=6 Omega'=6.000 MW=9.000
+  rho=3 box R=1: |S|=8 reg=3 Omega'=3.000 MW=3.000
+  rho=3 simplex R=1: |S|=4 reg=1 Omega'=1.750 MW=1.750
+  rho=3 l1-ball R=1: |S|=7 reg=2 Omega'=2.000 MW=3.500
+  rho=3 box R=2: |S|=27 reg=6 Omega'=6.000 MW=6.000
+  rho=3 simplex R=2: |S|=10 reg=2 Omega'=3.500 MW=3.500
+  rho=3 l1-ball R=2: |S|=25 reg=4 Omega'=4.000 MW=7.000
+  rho=3 box R=3: |S|=64 reg=9 Omega'=9.000 MW=9.000
+  rho=3 simplex R=3: |S|=20 reg=3 Omega'=5.250 MW=5.250
+  rho=3 l1-ball R=3: |S|=63 reg=6 Omega'=6.000 MW=10.500

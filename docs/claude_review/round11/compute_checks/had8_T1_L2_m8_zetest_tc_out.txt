@@ -1,0 +1,6 @@
+model had8_T1_L2_m8_basis.json |A|=1037 dimV=42 m=8 d=7 mode=tc starts=200
+minimum values: smallest 5 ['1.03e-23', '1.54e-23', '1.63e-23', '2.14e-23', '5.55e-23'] largest 1.13e-09
+zeros (value < 1e-20): 40 of 200
+relation-lattice rank histogram of zeros (rank r => zero lies in a rational subspace of dim d-r): {np.int64(7): 6, np.int64(6): 5, np.int64(3): 10, np.int64(5): 9, np.int64(4): 10}
+nondegenerate zeros: 0
+smallest non-zero local minimum: 1.334e-20

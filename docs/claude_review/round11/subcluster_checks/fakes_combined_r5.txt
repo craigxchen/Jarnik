@@ -1,0 +1,11 @@
+round-5 Paley-I b=8 q=7: M=8 r=64; sub-clusters n=4, T=3, all bases
+  systems: 280; m values [6]; |A| 225..239; dim V 169..183
+  (1) fake-type U[0,1e-4]^M: positions certified off EVERY single Z_PJ: 50/50; min #systems certifying per position 280/280
+  (1) random N(0,1e-3): positions certified off EVERY single Z_PJ: 50/50; min #systems certifying per position 280/280
+  (2) combined TC: smallest residuals ['1.7e-03', '1.9e-03', '1.9e-03', '1.9e-03', '2.0e-03', '2.0e-03', '2.0e-03', '2.0e-03']
+     resid 1.75e-03  u/max = [-0.1439 -0.1427 -0.1427  1.     -0.1427 -0.1427 -0.1427 -0.1427]  relation None
+     resid 1.85e-03  u/max = [-0.1428 -0.1428  1.     -0.143  -0.143  -0.1428 -0.1428 -0.1428]  relation None
+     resid 1.85e-03  u/max = [ 0.1441  0.1398  0.1441  0.1441 -1.      0.1441  0.1441  0.1398]  relation None
+     resid 1.86e-03  u/max = [ 0.1441  0.1441  0.1441  0.1441 -1.      0.1397  0.1441  0.1397]  relation None
+     resid 2.02e-03  u/max = [-0.3285 -0.3289  0.9538 -0.3289 -0.3289 -0.3289  1.     -0.3095]  relation None
+     resid 2.02e-03  u/max = [ 0.3333  0.3333 -1.     -0.9999  0.3333  0.3333  0.3336  0.3333]  relation None
