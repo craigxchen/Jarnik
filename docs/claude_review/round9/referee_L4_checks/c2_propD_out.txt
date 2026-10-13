@@ -1,0 +1,5 @@
+X=400 r=12 seed=1 cases={1: 42, 2: 3, 3: 17, 4: 15} parity OK; per norm k: (#monomials, #fail m_v|Im(Z^16), #fail on cases1-3 only) = {1: (12, 0, 0), 2: (144, 0, 0), 3: (1156, 202, 0)}
+X=1000 r=12 seed=2 cases={1: 87, 2: 3, 3: 42, 4: 35} parity OK; per norm k: (#monomials, #fail m_v|Im(Z^16), #fail on cases1-3 only) = {1: (12, 0, 0), 2: (144, 0, 0), 3: (1156, 288, 0)}
+X=2000 r=12 seed=3 cases={1: 156, 2: 3, 3: 74, 4: 69} parity OK; per norm k: (#monomials, #fail m_v|Im(Z^16), #fail on cases1-3 only) = {1: (12, 0, 0), 2: (144, 0, 0), 3: (1156, 371, 0)}
+X=3000 r=12 seed=4 cases={1: 219, 2: 3, 3: 105, 4: 102} parity OK; per norm k: (#monomials, #fail m_v|Im(Z^16), #fail on cases1-3 only) = {1: (12, 0, 0), 2: (144, 0, 0), 3: (1156, 446, 0)}
+Prop D norm<=2 and cases1-3 norm-3: ALL OK

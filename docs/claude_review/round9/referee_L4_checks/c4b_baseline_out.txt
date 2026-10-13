@@ -1,0 +1,1 @@
+X=200000, 4511 primes q=7 mod 8, 40 columns p in [1e3,1e6]: expected agreement of a uniformly random parity-respecting column with the genuine column (Def. 3.1, unit u): min 0.5399 median 0.5481 max 0.5545

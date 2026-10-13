@@ -1,0 +1,3 @@
+Lemma 4.2 duality (F_2 system, exact): 3000 instances, 819 with nontrivial relations, unsolvable: 0
+  evidence: witness prime q found below 2e6 in 3000 instances; largest least witness 51871
+Lemma 2.1 evidence: 3000 random sub-genuine n = p Norm(zeta), least q=7 mod 8 with (n/q)=-1 is at most 239

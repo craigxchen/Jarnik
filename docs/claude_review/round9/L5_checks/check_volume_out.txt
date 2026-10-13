@@ -1,0 +1,6 @@
+q0=43 b=33 M=44 r=1419: (1/2)log det Gram = 128.62 ; ((M-1)/2)log(bM/4)+(1/2)log M = 128.62 ; (1/2)log binom(r,M-1) = 94.95 ; margin = 33.67
+q0=47 b=33 M=48 r=1551: (1/2)log det Gram = 142.50 ; ((M-1)/2)log(bM/4)+(1/2)log M = 142.50 ; (1/2)log binom(r,M-1) = 103.89 ; margin = 38.60
+q0=59 b=33 M=60 r=1947: (1/2)log det Gram = 185.08 ; ((M-1)/2)log(bM/4)+(1/2)log M = 185.08 ; (1/2)log binom(r,M-1) = 130.72 ; margin = 54.36
+q0=43 b=4 M=44 r=172: (1/2)log det Gram = 83.24 ; ((M-1)/2)log(bM/4)+(1/2)log M = 83.25 ; (1/2)log binom(r,M-1) = 47.03 ; margin = 36.21
+q0=47 b=8 M=48 r=376: (1/2)log det Gram = 109.19 ; ((M-1)/2)log(bM/4)+(1/2)log M = 109.20 ; (1/2)log binom(r,M-1) = 69.44 ; margin = 39.75
+part2: 200 random instances, min slack (log) = 3.926 (must be >= 0)

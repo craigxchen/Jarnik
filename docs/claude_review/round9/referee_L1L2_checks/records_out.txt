@@ -1,0 +1,20 @@
+9pt record: N=1176852625 M=9 C=7.880380 |G|^2=1 N'=1176852625 W=20.886 A=W/(MlogM)=1.056
+   mubar=0.803 max mu=10.443 (W/2=10.443) min mu=-3.435 K=13.010 complementary=2
+   K over non-complementary pairs only (max/mean both without them): 30.662; author's K2 (max non-comp / mean of all) = 9.000
+   Thm1.1 formula failures=0 bisector failures=0 congruence checks=4320 code checks=432 max#odd q<=M^2 | B: 1
+   sqrt2 C'^2+2 = 89.82; min Norm g = 1, Lemma1.3 needs >= 0.0064
+10pt record: N=1176852625 M=10 C=8.239327 |G|^2=1 N'=1176852625 W=20.886 A=W/(MlogM)=0.907
+   mubar=0.760 max mu=10.443 (W/2=10.443) min mu=-3.435 K=13.737 complementary=2
+   K over non-complementary pairs only (max/mean both without them): 23.315; author's K2 (max non-comp / mean of all) = 9.503
+   Thm1.1 formula failures=0 bisector failures=0 congruence checks=5400 code checks=540 max#odd q<=M^2 | B: 2
+   sqrt2 C'^2+2 = 98.01; min Norm g = 1, Lemma1.3 needs >= 0.0069
+7pt record: N=235370525 M=7 C=5.269927 |G|^2=1 N'=235370525 W=19.277 A=W/(MlogM)=1.415
+   mubar=1.224 max mu=8.029 (W/2=9.638) min mu=-2.631 K=6.562 complementary=0
+   K over non-complementary pairs only (max/mean both without them): 6.562; author's K2 (max non-comp / mean of all) = 6.562
+   Thm1.1 formula failures=0 bisector failures=0 congruence checks=2520 code checks=252 max#odd q<=M^2 | B: 1
+   sqrt2 C'^2+2 = 41.28; min Norm g = 5, Lemma1.3 needs >= 0.0162
+8pt golden n=4: N=537606725 M=8 C=5.897763 |G|^2=1 N'=537606725 W=20.103 A=W/(MlogM)=1.208
+   mubar=1.321 max mu=10.051 (W/2=10.051) min mu=-2.729 K=7.609 complementary=3
+   K over non-complementary pairs only (max/mean both without them): 25.000; author's K2 (max non-comp / mean of all) = 5.172
+   Thm1.1 formula failures=0 bisector failures=0 congruence checks=3444 code checks=392 max#odd q<=M^2 | B: 1
+   sqrt2 C'^2+2 = 51.19; min Norm g = 1, Lemma1.3 needs >= 0.0149

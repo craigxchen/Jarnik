@@ -1,0 +1,12 @@
+9pt: W=20.886 c_C=3.436 lambda_max(D)=14.198 max_x D_x=17.669 | ThmA ceiling W/2+(M-1)c_C^+=37.928 | Prop2.2 first line W/2+sqrt(WQ)+(M-1)c_C=57.370  (Q=18.097)
+   area identity on 84 triples: OK.  relation lattice rank 6, covol=2.234e+04 (bound M^1.5 C^2 N^.5 = 5.752e+07); shortest LLL |c|_2=2.828, Minkowski bound=48.126
+   Lemma 5.3: 45 (relation, column, threshold) checks, violations 0
+10pt: W=20.886 c_C=3.525 lambda_max(D)=14.744 max_x D_x=17.669 | ThmA ceiling W/2+(M-1)c_C^+=42.165 | Prop2.2 first line W/2+sqrt(WQ)+(M-1)c_C=61.558  (Q=18.005)
+   area identity on 120 triples: OK.  relation lattice rank 7, covol=2.801e+04 (bound M^1.5 C^2 N^.5 = 7.365e+07); shortest LLL |c|_2=2.828, Minkowski bound=35.191
+   Lemma 5.3: 56 (relation, column, threshold) checks, violations 0
+7pt: W=19.277 c_C=2.631 lambda_max(D)=10.792 max_x D_x=12.764 | ThmA ceiling W/2+(M-1)c_C^+=25.424 | Prop2.2 first line W/2+sqrt(WQ)+(M-1)c_C=37.871  (Q=8.038)
+   area identity on 35 triples: OK.  relation lattice rank 4, covol=3124 (bound M^1.5 C^2 N^.5 = 7.891e+06); shortest LLL |c|_2=6.928, Minkowski bound=106.002
+   Lemma 5.3: 26 (relation, column, threshold) checks, violations 0
+8pt golden: W=20.103 c_C=2.856 lambda_max(D)=12.597 max_x D_x=14.411 | ThmA ceiling W/2+(M-1)c_C^+=30.043 | Prop2.2 first line W/2+sqrt(WQ)+(M-1)c_C=38.087  (Q=3.219)
+   area identity on 56 triples: OK.  relation lattice rank 5, covol=5903 (bound M^1.5 C^2 N^.5 = 1.825e+07); shortest LLL |c|_2=2.828, Minkowski bound=63.348
+   Lemma 5.3: 28 (relation, column, threshold) checks, violations 0

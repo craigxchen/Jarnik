@@ -1,0 +1,14 @@
+(1) Lemma 2.1: 4000 sub-genuine n = p*Norm(zeta), p in (1e5,1e7): max over n of least q = 191
+(2) P= 1 pieces: least common bad q over 40 columns: median 23, max 79; log2(max) = 6.3
+(2) P= 2 pieces: least common bad q over 40 columns: median 47, max 239; log2(max) = 7.9
+(2) P= 3 pieces: least common bad q over 40 columns: median 71, max 631; log2(max) = 9.3
+(2) P= 4 pieces: least common bad q over 40 columns: median 191, max 1783; log2(max) = 10.8
+(2) P= 5 pieces: least common bad q over 40 columns: median 271, max 3191; log2(max) = 11.6
+(2) P= 6 pieces: least common bad q over 40 columns: median 1223, max 8231; log2(max) = 13.0
+(2) P= 7 pieces: least common bad q over 40 columns: median 3719, max 24631; log2(max) = 14.6
+(2) P= 8 pieces: least common bad q over 40 columns: median 3559, max 49103; log2(max) = 15.6
+(2) P= 9 pieces: least common bad q over 40 columns: median 9791, max 75679; log2(max) = 16.2
+(2) P=10 pieces: least common bad q over 40 columns: median 10567, max 186679; log2(max) = 17.5
+(2) P=11 pieces: least common bad q over 40 columns: median 59447, max 590431; log2(max) = 19.2
+(2) P=12 pieces: least common bad q over 40 columns: median 37199, max 666511; log2(max) = 19.3
+(3) X=1e6: over 30 columns and 651 norms each, max relative bias S_n/theta_7 = 0.0241 (agreement fraction <= 0.5121)

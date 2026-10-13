@@ -1,0 +1,7 @@
+Lemma 5.1 exhaustive N=16..1200: ALL OK
+4 0 no orbit injection (counting fails)
+4 1 map exists (counting)
+8 0 no orbit injection (counting fails)
+8 1 map exists (counting)
+12 0 map exists (counting)
+12 1 map exists (counting)

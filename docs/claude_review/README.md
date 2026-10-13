@@ -68,13 +68,17 @@ Round 5/6 (fake circles at `log R = O(M log M)` with residue data) is in `round5
 (residue data factoring through the primes, every monomial strengthened: the last local class not
 known to be capped) is in `round7/README.md`; that class is still open, with
 `3 M log M - O(M) <= W_min <= O(M log^2 M/loglog M)`. Round 8 (growth rate: Lang-Waldschmidt,
-simultaneous hypotheses, stability of extremal clusters) is in `round8/README.md`.
+simultaneous hypotheses, stability of extremal clusters) is in `round8/README.md`. Round 9 (the
+combinatorial missing lemmas L4, L5 and L1/L2 of round 7) is in `round9/README.md`: all partial, no
+growth improvement and no new cap.
 
 **Growth-rate status (2026-10-12).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues
-  used through characters;
+  used through characters. These residue caps hold for residue moduli up to `M^A` with `A` fixed in
+  advance; round 9 notes that a growth argument may choose `A` after the cluster's size parameter,
+  and caps uniform in `A` are not proved;
 * character, GAP-Fourier and energy arguments;
 * single-place auxiliary polynomials;
 * Baker/Matveev bounds;

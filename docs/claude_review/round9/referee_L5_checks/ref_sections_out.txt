@@ -1,0 +1,5 @@
+ M   r   per-instance sigma(A) [opt/* = time-limited best] ; LP lower bound
+ 8  16   2(LP 0.96)  3(LP 1.25)  2(LP 1.60)  3(LP 0.89)  2(LP 1.00)  3(LP 1.12)
+12  24   None*(LP 0.94)  50*(LP 1.04)  6*(LP 1.11)  8*(LP 1.08)  None*(LP 1.18)
+16  32   None*(LP 0.99)  None*(LP 1.17)  None*(LP 1.02)  None*(LP 0.97)  None*(LP 0.96)
+16  64   None*(LP 0.40)  None*(LP 0.41)  None*(LP 0.41)  None*(LP 0.41)

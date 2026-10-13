@@ -1,0 +1,4 @@
+clusters analysed: 22907  max identity error: 2.220446049250313e-15  lemma1.3 failures: 0
+M  count  minC   minA   K(med) K(min) K(max)  mean_mu(med) max_mu(med) frac(argmax=closest)
+4 22802 0.819 1.84 3.00 1.20 inf 2.84 9.21 0.16 coprime-frac 0.684 K quartiles [3.   3.57 4.81]
+5 105 2.417 1.27 4.38 2.28 9.13 1.49 5.96 0.33 coprime-frac 0.314 K quartiles [3.26 5.   7.7 ]

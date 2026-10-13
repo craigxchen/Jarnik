@@ -1,0 +1,1 @@
+30 columns x 652 norms: max S_n/theta_7(10^6) = 0.0247 (agreement in parity at most 0.5123 of the Q_7 log-mass)

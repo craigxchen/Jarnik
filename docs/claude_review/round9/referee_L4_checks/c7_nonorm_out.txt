@@ -1,0 +1,3 @@
+p=13, X=200: p' = p + 3*Pi (24 digits, prime, = 1 mod 4: True); (p'/q) = (p/q) at all 12 primes q = 7 mod 8 <= X: True
+p=101, X=500: p' = p + 3*Pi (57 digits, prime, = 1 mod 4: True); (p'/q) = (p/q) at all 25 primes q = 7 mod 8 <= X: True
+p=1009, X=1000: p' = p + 148*Pi (111 digits, prime, = 1 mod 4: True); (p'/q) = (p/q) at all 43 primes q = 7 mod 8 <= X: True

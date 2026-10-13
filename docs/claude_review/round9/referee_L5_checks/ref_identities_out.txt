@@ -1,0 +1,2 @@
+Prop 2.1 instances 17600 ; Prop 2.3 instances 8440 ; Prop 2.2 round trips 440 ; Cor 2.4 pairs 30 ; failures 0
+twin coordinates of a_x are (phi_x, e_x): ok

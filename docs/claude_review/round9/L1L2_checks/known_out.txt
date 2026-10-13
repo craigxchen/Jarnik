@@ -1,0 +1,14 @@
+record N=1176852625: N'=1176852625 M=9 C=7.8804 W=20.89 A=1.06 mean_mu=0.80 max_mu=10.44 min_mu=-3.44 K=13.01 mean_logB=0.83 max_logB=6.64 argmax:(t=5.826,logB=6.64) max_omega_small=1
+record N=235370525: N'=235370525 M=7 C=5.2699 W=19.28 A=1.42 mean_mu=1.22 max_mu=8.03 min_mu=-2.63 K=6.56 mean_logB=0.63 max_logB=5.28 argmax:(t=5.030,logB=5.28) max_omega_small=1
+record N=537606725: N'=537606725 M=8 C=5.8978 W=20.10 A=1.21 mean_mu=1.32 max_mu=10.05 min_mu=-2.73 K=7.61 mean_logB=0.95 max_logB=6.11 argmax:(t=5.897,logB=6.11) max_omega_small=1
+golden n=4: N'=537606725 M=8 C=5.8978 W=20.10 A=1.21 mean_mu=1.32 max_mu=10.05 min_mu=-2.73 K=7.61 mean_logB=0.95 max_logB=6.11 argmax:(t=5.897,logB=6.11) max_omega_small=1
+golden n=7: N'=55728887765525 M=8 C=5.8977 W=31.65 A=1.90 mean_mu=2.15 max_mu=15.83 min_mu=-2.73 K=7.38 mean_logB=1.36 max_logB=8.99 argmax:(t=5.898,logB=8.99) max_omega_small=2
+golden n=10: N'=5778078917529381125 M=8 C=5.8977 W=43.20 A=2.60 mean_mu=2.97 max_mu=21.60 min_mu=-2.73 K=7.27 mean_logB=1.78 max_logB=11.88 argmax:(t=5.898,logB=11.88) max_omega_small=1
+golden n=13: N'=599082777104881059210005 M=8 C=5.8977 W=54.75 A=3.29 mean_mu=3.91 max_mu=27.37 min_mu=-2.73 K=7.00 mean_logB=2.25 max_logB=14.77 argmax:(t=5.898,logB=14.77) max_omega_small=1
+golden n=22: N'=667723916935157870843875276399062328325 M=8 C=5.8977 W=89.40 A=5.37 mean_mu=6.27 max_mu=44.70 min_mu=-2.73 K=7.13 mean_logB=3.43 max_logB=23.43 argmax:(t=5.898,logB=23.43) max_omega_small=1
+golden n=31: N'=744229756369509058268276332192342634174927524160002325 M=8 C=5.8977 W=124.04 A=7.46 mean_mu=8.75 max_mu=62.02 min_mu=-2.73 K=7.09 mean_logB=4.66 max_logB=31.96 argmax:(t=5.175,logB=31.96) max_omega_small=2
+golden n=40: N'=829501409516839946168717138966262004194724171961049777120303266080325 M=8 C=5.8977 W=158.69 A=9.54 mean_mu=11.22 max_mu=79.35 min_mu=-2.73 K=7.07 mean_logB=5.90 max_logB=40.75 argmax:(t=5.898,logB=40.75) max_omega_small=1
+Pell a=685549: N'=469977431545 M=6 C=4.0001 W=26.88 A=2.50 mean_mu=2.69 max_mu=13.44 min_mu=-1.76 K=5.00 mean_logB=1.13 max_logB=7.41 argmax:(t=4.000,logB=7.41) max_omega_small=2
+Pell a=791184349: N'=625972674102553945 M=6 C=4.0000 W=40.98 A=3.81 mean_mu=4.10 max_mu=20.49 min_mu=-1.76 K=5.00 mean_logB=1.60 max_logB=10.94 argmax:(t=4.000,logB=10.94) max_omega_small=1
+Pell a=913026114541: N'=833616685833835251640825 M=6 C=4.0000 W=55.08 A=5.12 mean_mu=5.29 max_mu=27.54 min_mu=-1.76 K=5.20 mean_logB=1.96 max_logB=14.46 argmax:(t=4.000,logB=14.46) max_omega_small=1
+Pell a=1053631345057309: N'=1110139011287274142504494321625 M=6 C=4.0000 W=69.18 A=6.44 mean_mu=6.92 max_mu=34.59 min_mu=-1.76 K=5.00 mean_logB=2.54 max_logB=17.99 argmax:(t=4.000,logB=17.99) max_omega_small=1

@@ -1,0 +1,14 @@
+X=20000 r=12 seed=11 primes=[73, 89, 181, 193, 229, 241, 293, 317, 337, 349, 353, 397] ; sigma moves 10/12 columns
+  genuine  : height violations (v,s): norm1 0/48, norm2 0/576; monomials violating: norm1 0/12, norm2 0/144; max log m_(v,s)/budget = 1.00
+  D(id)    : height violations (v,s): norm1 2/48, norm2 162/576; monomials violating: norm1 2/12, norm2 124/144; max log m_(v,s)/budget = 6.55
+  D(sigma) : height violations (v,s): norm1 14/48, norm2 224/576; monomials violating: norm1 10/12, norm2 134/144; max log m_(v,s)/budget = 8.15
+  agreement of D(id) with genuine G on Q_7 (log-mass): min 0.675 median 0.704 max 0.716
+  agreement of D(sigma) with genuine G on Q_7 (log-mass): min 0.502 median 0.556 max 0.713
+  agreement of random parity-respecting labels with G on Q_7: median 0.545
+X=50000 r=10 seed=12 primes=[29, 61, 101, 137, 149, 181, 193, 241, 257, 277] ; sigma moves 7/10 columns
+  genuine  : height violations (v,s): norm1 0/40, norm2 0/400; monomials violating: norm1 0/10, norm2 0/100; max log m_(v,s)/budget = 1.00
+  D(id)    : height violations (v,s): norm1 4/40, norm2 125/400; monomials violating: norm1 4/10, norm2 93/100; max log m_(v,s)/budget = 8.03
+  D(sigma) : height violations (v,s): norm1 11/40, norm2 170/400; monomials violating: norm1 8/10, norm2 93/100; max log m_(v,s)/budget = 10.13
+  agreement of D(id) with genuine G on Q_7 (log-mass): min 0.696 median 0.700 max 0.705
+  agreement of D(sigma) with genuine G on Q_7 (log-mass): min 0.540 median 0.564 max 0.705
+  agreement of random parity-respecting labels with G on Q_7: median 0.554

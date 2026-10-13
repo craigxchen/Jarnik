@@ -1,0 +1,9 @@
+clusters 22907 pairs 137862 Thm1.1 failures 0 bisector failures 0 Lemma1.3 violations 0 min slack of Lemma 1.3 (sqrt2 C^2|g|+2-M) 4.1561
+M=4: n=22802 minC=0.819 minA=1.84 #mubar<=0: 19  median K=3.00 pct25/75/95=[3.   3.57 4.81] median mubar=2.84 median max mu=9.21 frac complementary=0.684
+      author-def K2 (max over non-comp / mean over ALL pairs), mubar>0 only: n=22783 median=1.17
+      natural K2 (max and mean both over non-comp pairs), mubar>0: median=5.00  #inf=8372
+      K median among clusters WITH comp pair: 3.00; WITHOUT comp pair: 2.67 (n=7194)
+M=5: n=105 minC=2.417 minA=1.27 #mubar<=0: 0  median K=4.38 pct25/75/95=[3.26 5.   7.7 ] median mubar=1.49 median max mu=5.96 frac complementary=0.314
+      author-def K2 (max over non-comp / mean over ALL pairs), mubar>0 only: n=105 median=3.28
+      natural K2 (max and mean both over non-comp pairs), mubar>0: median=4.17  #inf=12
+      K median among clusters WITH comp pair: 5.00; WITHOUT comp pair: 3.54 (n=72)

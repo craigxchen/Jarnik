@@ -1,0 +1,10 @@
+(1) Paley twin profile: exact det Gram_A, lambda_min, |E|
+  q0=43 b=33 M=44 r=1419: (1/2)log det=128.6203, ((M-1)/2)log(bM/4)+(1/2)log M=128.6218, bound ((M-1)/2)log((b-24)M/4)=98.7951; lambda_min=362.97 vs (b-24)M/4=99.00; max|E|=2.00 (<=6)
+  q0=47 b=33 M=48 r=1551: (1/2)log det=142.4975, ((M-1)/2)log(bM/4)+(1/2)log M=142.4988, bound ((M-1)/2)log((b-24)M/4)=110.0301; lambda_min=395.97 vs (b-24)M/4=108.00; max|E|=2.00 (<=6)
+  q0=59 b=33 M=60 r=1947: (1/2)log det=185.0806, ((M-1)/2)log(bM/4)+(1/2)log M=185.0816, bound ((M-1)/2)log((b-24)M/4)=144.7056; lambda_min=494.97 vs (b-24)M/4=135.00; max|E|=2.00 (<=6)
+  q0=43 b=25 M=44 r=1075: (1/2)log det=122.6508, ((M-1)/2)log(bM/4)+(1/2)log M=122.6527, bound ((M-1)/2)log((b-24)M/4)=51.5547; lambda_min=274.96 vs (b-24)M/4=11.00; max|E|=2.00 (<=6)
+  q0=47 b=26 M=48 r=1222: (1/2)log det=136.8945, ((M-1)/2)log(bM/4)+(1/2)log M=136.8962, bound ((M-1)/2)log((b-24)M/4)=74.6843; lambda_min=311.96 vs (b-24)M/4=24.00; max|E|=2.00 (<=6)
+  q0=11 b=30 M=12 r= 330: (1/2)log det=25.9857, ((M-1)/2)log(bM/4)+(1/2)log M=25.9914, bound ((M-1)/2)log((b-24)M/4)=15.8970; lambda_min=89.97 vs (b-24)M/4=18.00; max|E|=2.00 (<=6)
+
+(2) inequality (4.1): sum_x log||G b_x|| >= (1/2)log det Gram - (1/2)log C(r,M-1) - (r-M+1)log B
+  tested 542 injective instances (with 60-step slack-minimising search each); minimum slack 0.3466 (must be >= 0)

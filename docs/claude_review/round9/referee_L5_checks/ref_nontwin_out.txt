@@ -1,0 +1,21 @@
+(1) Prop 5.3(2): injective kappart vs collision-free kappa = A nut + 2 kappart (mod 2n)
+  instances (A, n) checked: 8172
+  GAP: A=[[2, 2, 2, 2], [0, 1, 0, 2], [0, 0, 0, 1]], n=6, nut=(0, 1, 1, 0): kappart=[0, 4, 2] injective mod n, but kappa=[4, 9, 4] (mod 12) has a collision
+  corrected statement (collision-free kappa in A nut + 2H exists when n/gcd(d_M,n) >= M): True
+
+(2) level: q = 3, X = 81 (A_q = 4), m_Q = 108, n_Q = 54, M = 5
+  profile with invariant factors [1, 1, 1, 1, 2]: n_Q/gcd(d_M,n_Q) = 27 >= M = 5
+  random parity-respecting labels with a level-1 (mod 4) pair collision: 2000 / 2000
+
+(3) Hadamard cores
+  Sylvester 8  M= 8: invariant factors of (J+H)/2 = [1, 1, 1, 1, 2, 2, 2, 4]; constant columns [0]; valid core profile (nonconstant cols x3 copies): rank 7 (Delta_M = 0); B^-1 identity: True
+  Sylvester 16 M=16: invariant factors of (J+H)/2 = [1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 4, 4, 4, 4, 8]; constant columns [0]; valid core profile (nonconstant cols x3 copies): rank 15 (Delta_M = 0); B^-1 identity: True
+  Paley 12     M=12: invariant factors of (J+H)/2 = [1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 3, 6]; constant columns [0]; valid core profile (nonconstant cols x3 copies): rank 11 (Delta_M = 0); B^-1 identity: True
+  Paley 20     M=20: invariant factors of (J+H)/2 = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 5, 5, 5, 5, 5, 5, 10]; constant columns [0]; valid core profile (nonconstant cols x3 copies): rank 19 (Delta_M = 0); B^-1 identity: True
+  Paley 24     M=24: invariant factors of (J+H)/2 = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 12]; constant columns [0]; valid core profile (nonconstant cols x3 copies): rank 23 (Delta_M = 0); B^-1 identity: True
+
+(4) random 0/1 profiles with distinct rows and no constant column: Delta_M = 1 frequency
+  M= 8 r=16: Delta_M = 1 in 20/20
+  M=12 r=24: Delta_M = 1 in 20/20
+  M=16 r=32: Delta_M = 1 in 20/20
+  M=16 r=64: Delta_M = 1 in 20/20

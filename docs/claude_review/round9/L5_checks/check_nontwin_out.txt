@@ -1,0 +1,14 @@
+part1: 152 (A, n) instances; image size = prod n/gcd(d_i,n), onto <=> gcd(Delta_M,n)=1, d_M (Z/n)^M in image, injective element when n/gcd(d_M,n) >= M: ok=True
+Sylvester 8 core (J+H)/2, M=8: invariant factors [1, 1, 1, 1, 2, 2, 2, 4]
+Sylvester 16 core (J+H)/2, M=16: invariant factors [1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 4, 4, 4, 4, 8]
+Paley 12 core (J+H)/2, M=12: invariant factors [1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 3, 6]
+Paley 20 core (J+H)/2, M=20: invariant factors [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 5, 5, 5, 5, 5, 5, 10]
+Paley 24 core (J+H)/2, M=24: invariant factors [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 12]
+sharp.md Paley twin profile q0=11, b=3 (M=12, r=33): Delta_M = 1, twin pair present: True
+random 0/1, M=8 r=16: Delta_M=1 in 15/15; twin pair present in 15/15; unimodular minor found in 15/15, min over found minors of max row-l1 of A_S^-1: median 5, max 8
+random 0/1, M=8 r=32: Delta_M=1 in 15/15; twin pair present in 15/15; unimodular minor found in 15/15, min over found minors of max row-l1 of A_S^-1: median 5, max 7
+random 0/1, M=12 r=24: Delta_M=1 in 15/15; twin pair present in 8/15; unimodular minor found in 15/15, min over found minors of max row-l1 of A_S^-1: median 25, max 66
+random 0/1, M=12 r=48: Delta_M=1 in 15/15; twin pair present in 15/15; unimodular minor found in 15/15, min over found minors of max row-l1 of A_S^-1: median 19, max 25
+random 0/1, M=16 r=32: Delta_M=1 in 15/15; twin pair present in 3/15; unimodular minor found in 12/15, min over found minors of max row-l1 of A_S^-1: median 407, max 2912
+random 0/1, M=16 r=64: Delta_M=1 in 15/15; twin pair present in 7/15; unimodular minor found in 12/15, min over found minors of max row-l1 of A_S^-1: median 532, max 1027
+ALL OK
