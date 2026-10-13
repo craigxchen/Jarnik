@@ -1,0 +1,4 @@
+- ref_profiles.py: all 40 realised profiles (M=12,20,24; ils2 + best_ub) PASS exact pair check with own code; primes distinct, prime, 1 mod 4, > X; r = #primes (no products); W and stair(r) match claims exactly; ternary support-4 + (2,-1,-1) chars all OK. (my reported char4_min value had a factor bug -- ignore; boolean check correct)
+- ref_charmilp M=12: min s_c over |c|<=12 at pairs (D=0 pairs), 0.12-0.32: confirms.
+- ref_lp M=20 all 8 match W_cut, certified.
+- NOTE "support <= 4 exact check" only covers ternary support-4 and 2e_x-e_y-e_z, not e.g. 3e_x-e_y-e_z-e_w or (2,1,-1,-2): wording overstated (MILP covers them in float).
