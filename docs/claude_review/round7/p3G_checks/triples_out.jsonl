@@ -1,0 +1,12 @@
+{"M": 164, "K": 4.0, "seed": 0, "r": 163, "pair_deg": 7.3128834355828225, "triple_per_col": 8.134969325153374, "free_pairs_only": 41, "free_with_triples": 4, "verified_half": 159, "secs": 93.5}
+{"M": 164, "K": 4.0, "seed": 1, "r": 163, "pair_deg": 7.214723926380368, "triple_per_col": 7.840490797546012, "free_pairs_only": 37, "free_with_triples": 1, "verified_half": 162, "secs": 94.3}
+{"M": 164, "K": 4.25, "seed": 0, "r": 163, "pair_deg": 3.9877300613496933, "triple_per_col": 3.184049079754601, "free_pairs_only": 155, "free_with_triples": 155, "verified_half": 8, "secs": 92.6}
+{"M": 164, "K": 4.25, "seed": 1, "r": 163, "pair_deg": 4.196319018404908, "triple_per_col": 2.4662576687116564, "free_pairs_only": 157, "free_with_triples": 157, "verified_half": 6, "secs": 95.6}
+{"M": 164, "K": 4.5, "seed": 0, "r": 163, "pair_deg": 2.503067484662577, "triple_per_col": 1.030674846625767, "free_pairs_only": 162, "free_with_triples": 162, "verified_half": 1, "secs": 101.1}
+{"M": 164, "K": 4.5, "seed": 1, "r": 163, "pair_deg": 2.1104294478527605, "triple_per_col": 0.9938650306748467, "free_pairs_only": 160, "free_with_triples": 160, "verified_half": 3, "secs": 102.9}
+{"M": 164, "K": 4.75, "seed": 0, "r": 163, "pair_deg": 1.177914110429448, "triple_per_col": 0.3128834355828221, "free_pairs_only": 161, "free_with_triples": 161, "verified_half": 2, "secs": 97.9}
+{"M": 164, "K": 4.75, "seed": 1, "r": 163, "pair_deg": 1.2515337423312884, "triple_per_col": 0.3496932515337423, "free_pairs_only": 162, "free_with_triples": 162, "verified_half": 1, "secs": 92.0}
+{"M": 164, "K": 5.0, "seed": 0, "r": 163, "pair_deg": 0.6993865030674846, "triple_per_col": 0.20245398773006135, "free_pairs_only": 163, "free_with_triples": 163, "verified_half": 0, "secs": 93.7}
+{"M": 164, "K": 5.0, "seed": 1, "r": 163, "pair_deg": 0.6503067484662577, "triple_per_col": 0.12883435582822086, "free_pairs_only": 162, "free_with_triples": 162, "verified_half": 1, "secs": 89.7}
+{"M": 164, "K": 5.5, "seed": 0, "r": 163, "pair_deg": 0.17177914110429449, "triple_per_col": 0.018404907975460124, "free_pairs_only": 163, "free_with_triples": 163, "verified_half": 0, "secs": 93.1}
+{"M": 164, "K": 5.5, "seed": 1, "r": 163, "pair_deg": 0.18404907975460122, "triple_per_col": 0.0, "free_pairs_only": 163, "free_with_triples": 163, "verified_half": 0, "secs": 94.1}

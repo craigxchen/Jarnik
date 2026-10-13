@@ -1,0 +1,17 @@
+{"iter": 0, "r": 163, "tight": 22137, "level0_certs": 33}
+{"iter": 1, "r": 162, "tight": 21739, "level0_certs": 28}
+{"iter": 2, "r": 161, "tight": 21318, "level0_certs": 24}
+{"iter": 3, "r": 160, "tight": 20918, "level0_certs": 21}
+{"iter": 4, "r": 159, "tight": 20582, "level0_certs": 18}
+{"iter": 5, "r": 158, "tight": 20249, "level0_certs": 16}
+{"iter": 6, "r": 157, "tight": 19912, "level0_certs": 14}
+{"iter": 7, "r": 156, "tight": 19543, "level0_certs": 12}
+{"iter": 8, "r": 155, "tight": 19198, "level0_certs": 10}
+{"iter": 9, "r": 154, "tight": 18874, "level0_certs": 8}
+{"iter": 10, "r": 153, "tight": 18524, "level0_certs": 6}
+{"iter": 11, "r": 152, "tight": 18205, "level0_certs": 4}
+{"iter": 12, "r": 151, "tight": 17898, "level0_certs": 3}
+{"iter": 13, "r": 150, "tight": 17588, "level0_certs": 2}
+{"iter": 14, "r": 149, "tight": 17292, "level0_certs": 1}
+{"iter": 15, "r": 148, "tight": 16994, "level0_certs": 0}
+{"file": "adaptive_primes_M164_K3.0_s0.json", "final_r": 148, "tight_w3": 16994, "certs": 0, "certs_checked": 0, "free": 148}

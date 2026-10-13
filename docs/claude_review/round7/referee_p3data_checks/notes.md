@@ -1,0 +1,32 @@
+# Referee notes p3data.md
+
+## read through (sec 0-5)
+- Prop 3.2 proof OK (checked algebra). S_M asymptotic to verify numerically.
+- Prop 4.1 OK logically (r_P monotone in tau; T_inf threshold). Check eqlb.py impl + recompute LB_eq.
+- Remark 4.2: relies on c_C = 0 (C = sqrt2) knife-edge: for C > sqrt2 mu=0 allowed on D=0 pairs?? (but mu=0 impossible with distinct primes anyway; the point is mu >= -c_C allows negative). So remark class = C <= sqrt2 only. Also "often contain such ties" (identical cancellation) vs mere mu=0 at equal weights -- check evidence.
+- Verdict item 6 garbled list "1.7, 1.8 / 1.5, 2.3, 2.7 / 2.3".
+- "1.8-2.4x cheaper than Paley fakes": W_req is real-weight equal-weight; W_prime fitted to D not own residues (self-inconsistent, §5.1). Cross-class comparison.
+- Thm 5.1 proof checked: OK. Cor 5.2 OK at sketch level. Attribution vs sharp.md Thm 6.4 (uniform random fibre) to check.
+- Verdict "not in equal-weight granularity at the Plotkin level": only says Plotkin LB doesn't grow; not that equal weight achieves it.
+- Lemma 1.1 both parts re-derived OK. Prop 6.2 items 1-4 re-derived OK.
+- Example 6.2A: algebra OK for W_sc. BUT every column balanced in each class => sum over all (k+1)^2 cross pairs of classes c,c' of mu_xy(w) == 0 identically => Remark 4.2 tie => profile NEVER realisable by distinct primes (m>=2). For k=1 rows (c,0),(c,1) complementary. Verify numerically. Fixable with tie-break block + short-interval primes (Huxley) at constant cost? Note.
+- "What this explains": genuine layers not equal-sized; 'So the whole difficulty is merging' is interpretation; verdict 5a labels 'proved'.
+- ref_demands.py: own direct Gaussian arithmetic mod q^A (no dlogs), own Paley/construct profile: all 120 construct instances (M=8,12,20,24,32; t=0..11; X=2M,4M) match stored unit-1 AND any-unit moduli and D. PASS.
+- ref_lp.py M=8,12: 2lam, Dmax, W_cut and certified bound match table42_rows to ~1e-10. (M=20,24 running bg)
+- ref_eqlb.py: EXACT inf over tau (breakpoint search) for all 120 instances. Author's grid LB_eq <= mine, within 1.1%. Medians 1.12-1.22 confirmed (mine: 1.122..1.223).
+- LOGIC: Prop 4.1 is a LOWER bound; "equal-weight granularity costs only a bounded factor" (author summary, §6.3 item 1 "costs a flat factor") does not follow. Same for Cor 6.4 paragraph "discreteness costs an additive ~M log X ... not growth". Equal-weight SA upper bounds rise 1.4->1.8.
+- ref_ex62A.py: Example 6.2A profiles ALWAYS contain a Remark-4.2 tie (cross-class sum of mu == 0 identically; k=1 even complementary rows). LP max_w min cross mu = 0. Not realisable by distinct primes. Valid only for W_sc.
+- ref_ties.py: stored best_ub S/S_fin and ils2 S at M>=12 tie-free (t*>0). ILS M=8 X=16 t4,t5 have ties (consistent w/ notes). "Equal-weight solutions often contain ties": SA S_sa not stored -> undocumented.
+- M=8 "7 of 12 proved optimal": q_table has 6 stars; table42_rows milp* = 6. Text inconsistent (also says "six proved optima" in §3/§4.2 calib).
+- ref_m8sep.py: all 12 M=8 W_prime and W_prime+sep profiles verified exactly (pairs, Lemma 1.1(2) placement w/ rational t). W_prime/W_sc(ub) range 1.11-1.76 (text says "30-75%": X=32 t=5 is 11%).
+- ref_charmilp M=20: min s_c at pairs, 0.02-0.19. confirms.
+- ref_charmilp all 40: own MILP min s_c (|c|<=12) = 0.020-0.325, always support 2 (pair) = min D=0 pair mu (to 4e-8). CONFIRMS item 6 chars.
+- ref_sec2.py: §2.1 table reproduced from trial file; exact E D formula 2 sum log q/m_Q (m=(q-+1)q^(a-1)) matches.
+- Prop 3.2 constants 22.77, 40.17, 76.25, 94.59, 131.6; 4.515M at M=100; 0.5966. OK.
+- perron_check: 5 (not 4) of 10 M=20,24 instances have excess < 0.01. trivial.
+- Lemma 6.3 = exact form of p3lower Thm A(2) Perron dual (attribution). Thm 5.1: precursor sharp.md Prop 6.5 (independent fibres, Poisson tail) not cited.
+- "at real weights adaptivity absorbs (proved, Thm A)": proved part is W_cut <= pi lam_max; lam_max(D)=O(M log M) is data for genuine D.
+- *** ref_selfcons.py (100 conj choices per profile, all 24 M=8 profiles): at k=0 reproduce author (0 feasible on author's 16; mean violated pairs agree). With WINDING FREEDOM k in (Z/4)^M (k is free in P3-gen: sharp Def 1.1(b), angles phi free, p3lower Def 1.1), many become pair-feasible for OWN genuine residues: e.g. X=16 t5 +sep 84/100, X=32 t3 +sep 78/100, X=32 t1 +sep 68/100, X=16 t2 +sep 58/100, X=32 t3 nosep 46/100; 8 of 24 profiles >= 46/100. Item 11 / §5.1 / §6.3(2) claim "infeasible for own residues" is a k=0 artifact. MAJOR.
+- Thm 5.1 fixed k: correct as model statement, but builder choosing k after residues = selection. Star argument extends with G(t)=P(min over 4 units D^eta > t): pairwise indep of full unit patterns holds; threshold constant drops 2 -> ~1/2 (sketch).
+- ILS M=8 calibration 0-8.49% median 2.72% confirmed.
+- ref_sc8: all 12 M=8 W_sc solved optimal; author values optimal in 7 (6 proved + X32t3). ref_lp M=24 all match.

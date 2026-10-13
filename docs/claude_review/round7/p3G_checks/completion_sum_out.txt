@@ -1,0 +1,2 @@
+M=164 b=8 K=4: tight relations 39770, sum of bad-slab measures over tight weight<=2 relations = 15190.1 (pairs alone 14589.0)
+M=644 b=1 K=4: tight relations 9778, sum of bad-slab measures over tight weight<=2 relations = 4051.9 (pairs alone 3763.0)

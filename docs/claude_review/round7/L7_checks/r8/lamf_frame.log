@@ -1,0 +1,12 @@
+check psi.beta = 15  lambda_f(beta) = -9
+check lambda_{f_O}(f_b1) = 0  lambda_{f_b1}(f_b1) = 2
+lambda_{f_i}(gamma_A) by label i: {'O': -4, 'a1': -4, 'a2': -2, 'b1': -3, 'b2': -3, 'c1': -4, 'c2': -2}  psi_i.gamma_A: {'O': 4, 'a1': 4, 'a2': 6, 'b1': 5, 'b2': 5, 'c1': 4, 'c2': 6}
+min = -4  (35/12)*min = -35/3  vs -9
+i = O  lambda_{f_i}(mu) = 2  frame lambda_{f_i}(beta) = -9
+i = a1  lambda_{f_i}(mu) = 2  frame lambda_{f_i}(beta) = -9
+i = a2  lambda_{f_i}(mu) = 2  frame lambda_{f_i}(beta) = -9
+i = b1  lambda_{f_i}(mu) = 2  frame lambda_{f_i}(beta) = -9
+i = b2  lambda_{f_i}(mu) = 2  frame lambda_{f_i}(beta) = -9
+i = c1  lambda_{f_i}(mu) = 2  frame lambda_{f_i}(beta) = -9
+i = c2  lambda_{f_i}(mu) = 2  frame lambda_{f_i}(beta) = -9
+mismatches: 0

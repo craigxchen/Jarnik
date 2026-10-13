@@ -1,0 +1,4 @@
+Lemma 5.2 closed form mismatches: 0
+M=164 K=3.5: same-v opposite-orientation combos 66, arc/(pi/2) values [1, 2, 3], max deviation 1.4e-13
+M=164 K=4.5: same-v opposite-orientation combos 8, arc/(pi/2) values [1, 2, 3], max deviation 8.9e-16
+M=84 K=3: same-v opposite-orientation combos 79, arc/(pi/2) values [1, 2, 3], max deviation 4.2e-14

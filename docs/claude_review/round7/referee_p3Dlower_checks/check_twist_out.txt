@@ -1,0 +1,4 @@
+X=200, T(X)=4, levels up to A_q (3^4,5^3,7^2,...,13^2 included)
+Lemma 4.2 at all levels (dlog collision <=> q^a | D_s(W)), D_s != 0, parity of twisted labels: True  level-collisions: 20398
+Thm 4.3 cap violations: 0   max m_(v,s)/cap in log scale: 0.14
+ALL OK

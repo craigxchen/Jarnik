@@ -1,0 +1,13 @@
+groebner basis lengths 2 [9, 10]
+univariate in v: degree 10  factors: [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)]
+#solutions 10
+sol: thr cube pts ['a1b1c1']  in planes []  collisions [('a1', 'b1'), ('a1', 'c1'), ('b1', 'c1')]  rational: True
+sol: thr cube pts []  in planes []  collisions [('O', 'a1'), ('O', 'a2'), ('O', 'c1'), ('O', 'c2'), ('a1', 'a2'), ('a1', 'c1'), ('a1', 'c2'), ('a2', 'c1'), ('a2', 'c2'), ('c1', 'c2')]  rational: True
+sol: thr cube pts []  in planes ['a1']  collisions [('O', 'a1'), ('O', 'a2'), ('a1', 'a2'), ('a1', 'b1'), ('a1', 'b2'), ('a1', 'c1'), ('a1', 'c2')]  rational: True
+sol: thr cube pts ['a1b1c2']  in planes []  collisions [('a1', 'b1'), ('a1', 'c2'), ('b1', 'c2')]  rational: True
+sol: thr cube pts []  in planes []  collisions [('a1', 'c2'), ('a2', 'c1')]  rational: True
+sol: thr cube pts ['a1b2c2']  in planes []  collisions [('a1', 'b2'), ('a1', 'c2'), ('b2', 'c2')]  rational: True
+sol: thr cube pts ['a2b2c1']  in planes []  collisions [('a2', 'b2'), ('a2', 'c1'), ('b2', 'c1')]  rational: True
+sol: thr cube pts ['a2b1c1']  in planes []  collisions [('a2', 'b1'), ('a2', 'c1'), ('b1', 'c1')]  rational: True
+sol: thr cube pts ['a1b2c1']  in planes []  collisions [('a1', 'b2'), ('a1', 'c1'), ('b2', 'c1')]  rational: True
+sol: thr cube pts []  in planes ['c1']  collisions [('O', 'c1'), ('O', 'c2'), ('a1', 'c1'), ('a2', 'c1'), ('b1', 'c1'), ('b2', 'c1'), ('c1', 'c2')]  rational: True

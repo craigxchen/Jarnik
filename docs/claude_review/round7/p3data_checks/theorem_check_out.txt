@@ -1,0 +1,35 @@
+M=12 X=24: Fbar bracket check at t=2log X: [0.2023, 0.2023]
+  uniform    W=    59.6  P_hat=0.0000  bound(min_x)=0.1599  bound(5.1)=0.6711
+  uniform    W=   119.3  P_hat=0.0000  bound(min_x)=0.3356  bound(5.1)=1.0000
+  uniform    W=   238.6  P_hat=0.0305  bound(min_x)=1.0000  bound(5.1)=1.0000
+  uniform    W=   477.1  P_hat=0.9815  bound(min_x)=1.0000  bound(5.1)=1.0000
+  paley-b8   W=    59.6  P_hat=0.0000  bound(min_x)=0.1487  bound(5.1)=0.6711
+  paley-b8   W=   119.3  P_hat=0.0000  bound(min_x)=0.2216  bound(5.1)=1.0000
+  paley-b8   W=   238.6  P_hat=0.0100  bound(min_x)=0.6823  bound(5.1)=1.0000
+  paley-b8   W=   477.1  P_hat=0.8790  bound(min_x)=1.0000  bound(5.1)=1.0000
+M=24 X=48: Fbar bracket check at t=2log X: [0.2488, 0.2488]
+  uniform    W=   152.5  P_hat=0.0000  bound(min_x)=0.0784  bound(5.1)=0.2647
+  uniform    W=   305.1  P_hat=0.0000  bound(min_x)=0.1324  bound(5.1)=1.0000
+  uniform    W=   610.2  P_hat=0.0000  bound(min_x)=0.6133  bound(5.1)=1.0000
+  uniform    W=  1220.4  P_hat=0.7780  bound(min_x)=1.0000  bound(5.1)=1.0000
+  paley-b8   W=   152.5  P_hat=0.0000  bound(min_x)=0.0685  bound(5.1)=0.2647
+  paley-b8   W=   305.1  P_hat=0.0000  bound(min_x)=0.0975  bound(5.1)=1.0000
+  paley-b8   W=   610.2  P_hat=0.0000  bound(min_x)=0.2690  bound(5.1)=1.0000
+  paley-b8   W=  1220.4  P_hat=0.5050  bound(min_x)=1.0000  bound(5.1)=1.0000
+Self-consistency of realised adapted profiles with their own actual primes:
+  M=8 t=1 X=16 prime_cols     r=16 W=69.5: own genuine demands violate 9.0 pairs on average (max D 9.3); feasible in 0/400 conjugation choices
+  M=8 t=1 X=16 prime_sep_cols r=19 W=84.9: own genuine demands violate 6.9 pairs on average (max D 9.5); feasible in 0/400 conjugation choices
+  M=8 t=0 X=16 prime_cols     r=17 W=74.3: own genuine demands violate 7.6 pairs on average (max D 10.5); feasible in 0/400 conjugation choices
+  M=8 t=0 X=16 prime_sep_cols r=22 W=101.2: own genuine demands violate 6.6 pairs on average (max D 8.7); feasible in 0/400 conjugation choices
+  M=8 t=0 X=32 prime_cols     r=23 W=115.3: own genuine demands violate 9.3 pairs on average (max D 23.4); feasible in 0/400 conjugation choices
+  M=8 t=0 X=32 prime_sep_cols r=23 W=116.9: own genuine demands violate 7.8 pairs on average (max D 16.7); feasible in 0/400 conjugation choices
+  M=8 t=2 X=16 prime_cols     r=16 W=69.5: own genuine demands violate 9.3 pairs on average (max D 8.3); feasible in 0/400 conjugation choices
+  M=8 t=2 X=16 prime_sep_cols r=22 W=102.1: own genuine demands violate 5.8 pairs on average (max D 13.8); feasible in 0/400 conjugation choices
+  M=8 t=3 X=16 prime_cols     r=18 W=80.0: own genuine demands violate 8.5 pairs on average (max D 8.7); feasible in 0/400 conjugation choices
+  M=8 t=3 X=16 prime_sep_cols r=21 W=97.3: own genuine demands violate 7.3 pairs on average (max D 9.9); feasible in 0/400 conjugation choices
+  M=8 t=5 X=32 prime_cols     r=15 W=70.0: own genuine demands violate 12.5 pairs on average (max D 10.0); feasible in 0/400 conjugation choices
+  M=8 t=5 X=32 prime_sep_cols r=22 W=110.4: own genuine demands violate 9.5 pairs on average (max D 20.2); feasible in 0/400 conjugation choices
+  M=8 t=4 X=16 prime_cols     r=19 W=84.9: own genuine demands violate 9.7 pairs on average (max D 8.3); feasible in 0/400 conjugation choices
+  M=8 t=4 X=16 prime_sep_cols r=22 W=101.6: own genuine demands violate 7.7 pairs on average (max D 12.2); feasible in 0/400 conjugation choices
+  M=8 t=5 X=16 prime_cols     r=16 W=69.1: own genuine demands violate 8.5 pairs on average (max D 9.3); feasible in 0/400 conjugation choices
+  M=8 t=5 X=16 prime_sep_cols r=22 W=102.8: own genuine demands violate 5.6 pairs on average (max D 8.3); feasible in 0/400 conjugation choices

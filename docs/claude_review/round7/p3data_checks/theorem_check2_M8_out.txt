@@ -1,0 +1,39 @@
+M=8 X=16 adapted profile of trial 1 (r=16, W0=69.5):
+  adapted    W=    69.5  P_hat=0.0000  bound(min_x)=0.3691  bound(5.1)=1.0000
+  adapted    W=   138.9  P_hat=0.0000  bound(min_x)=0.4961  bound(5.1)=1.0000
+  adapted    W=   208.4  P_hat=0.0010  bound(min_x)=0.5286  bound(5.1)=1.0000
+  adapted    W=   277.8  P_hat=0.0010  bound(min_x)=0.5684  bound(5.1)=1.0000
+  uniform    W=    69.5  P_hat=0.0020  bound(min_x)=0.6675  bound(5.1)=1.0000
+  uniform    W=   138.9  P_hat=0.5055  bound(min_x)=1.0000  bound(5.1)=1.0000
+  uniform    W=   208.4  P_hat=0.9695  bound(min_x)=1.0000  bound(5.1)=1.0000
+  uniform    W=   277.8  P_hat=0.9985  bound(min_x)=1.0000  bound(5.1)=1.0000
+  paley-b8   W=    69.5  P_hat=0.0000  bound(min_x)=0.4311  bound(5.1)=1.0000
+  paley-b8   W=   138.9  P_hat=0.2470  bound(min_x)=1.0000  bound(5.1)=1.0000
+  paley-b8   W=   208.4  P_hat=0.8415  bound(min_x)=1.0000  bound(5.1)=1.0000
+  paley-b8   W=   277.8  P_hat=0.9780  bound(min_x)=1.0000  bound(5.1)=1.0000
+M=8 X=16 adapted profile of trial 0 (r=17, W0=74.3):
+  adapted    W=    74.3  P_hat=0.0000  bound(min_x)=0.3644  bound(5.1)=1.0000
+  adapted    W=   148.7  P_hat=0.0015  bound(min_x)=0.4654  bound(5.1)=1.0000
+  adapted    W=   223.0  P_hat=0.0085  bound(min_x)=0.5310  bound(5.1)=1.0000
+  adapted    W=   297.3  P_hat=0.0180  bound(min_x)=0.5555  bound(5.1)=1.0000
+  uniform    W=    74.3  P_hat=0.0045  bound(min_x)=0.8097  bound(5.1)=1.0000
+  uniform    W=   148.7  P_hat=0.6360  bound(min_x)=1.0000  bound(5.1)=1.0000
+  uniform    W=   223.0  P_hat=0.9760  bound(min_x)=1.0000  bound(5.1)=1.0000
+  uniform    W=   297.3  P_hat=1.0000  bound(min_x)=1.0000  bound(5.1)=1.0000
+  paley-b8   W=    74.3  P_hat=0.0005  bound(min_x)=0.4584  bound(5.1)=1.0000
+  paley-b8   W=   148.7  P_hat=0.3265  bound(min_x)=1.0000  bound(5.1)=1.0000
+  paley-b8   W=   223.0  P_hat=0.9005  bound(min_x)=1.0000  bound(5.1)=1.0000
+  paley-b8   W=   297.3  P_hat=0.9910  bound(min_x)=1.0000  bound(5.1)=1.0000
+M=8 X=16 adapted profile of trial 2 (r=16, W0=69.5):
+  adapted    W=    69.5  P_hat=0.0000  bound(min_x)=0.3325  bound(5.1)=1.0000
+  adapted    W=   139.0  P_hat=0.0000  bound(min_x)=0.4623  bound(5.1)=1.0000
+  adapted    W=   208.6  P_hat=0.0050  bound(min_x)=0.5474  bound(5.1)=1.0000
+  adapted    W=   278.1  P_hat=0.0060  bound(min_x)=0.5832  bound(5.1)=1.0000
+  uniform    W=    69.5  P_hat=0.0010  bound(min_x)=0.6675  bound(5.1)=1.0000
+  uniform    W=   139.0  P_hat=0.5500  bound(min_x)=1.0000  bound(5.1)=1.0000
+  uniform    W=   208.6  P_hat=0.9785  bound(min_x)=1.0000  bound(5.1)=1.0000
+  uniform    W=   278.1  P_hat=1.0000  bound(min_x)=1.0000  bound(5.1)=1.0000
+  paley-b8   W=    69.5  P_hat=0.0005  bound(min_x)=0.4311  bound(5.1)=1.0000
+  paley-b8   W=   139.0  P_hat=0.2705  bound(min_x)=1.0000  bound(5.1)=1.0000
+  paley-b8   W=   208.6  P_hat=0.8370  bound(min_x)=1.0000  bound(5.1)=1.0000
+  paley-b8   W=   278.1  P_hat=0.9845  bound(min_x)=1.0000  bound(5.1)=1.0000

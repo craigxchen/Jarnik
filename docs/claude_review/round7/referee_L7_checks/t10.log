@@ -1,0 +1,4 @@
+omit a2b1c2,a2b2c2 (=E)  comp(mu) = -10  3comp(mu)+sum delta_T = -23
+omit a1b1c1,a2b2c1  comp(mu) = -14  3comp(mu)+sum delta_T = -31
+omit a1b1c1,a2b2c2  comp(mu) = -16  3comp(mu)+sum delta_T = -32
+omit a1b2c2,a2b1c1  comp(mu) = -16  3comp(mu)+sum delta_T = -32

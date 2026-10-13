@@ -1,0 +1,4 @@
+{"iter": 0, "r": 163, "tight": 7042, "level0_certs": 4}
+{"iter": 1, "r": 162, "tight": 6943, "level0_certs": 1}
+{"iter": 2, "r": 161, "tight": 6852, "level0_certs": 0}
+{"file": "adaptiveT_primes_M164_K2.75_s0.json", "final_r": 161, "tight_w3": 6852, "certs": 0, "certs_checked": 0, "free": 161}

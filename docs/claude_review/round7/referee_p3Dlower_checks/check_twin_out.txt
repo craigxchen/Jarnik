@@ -1,0 +1,3 @@
+Thm 2.1 items 1-4, (2.2), norm bounds, unimodularity on 40 random twin profiles: True
+example: v = e_s(x) -> vt has support 2 (U_x and Lambda_x): 'same sparsity' holds only up to factor 2
+ALL OK

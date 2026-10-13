@@ -1,0 +1,2 @@
+M=20 t=1 X=40: lam2 204.5 Wcut 207.4 (lb 207.4) sc 475.0624899644694 prime 730.0476323228881 r 94 ok True char4 73.6150892557115 | Wcut_sep 305.5 | unif 926.9 (519s)
+M=20 t=0 X=40: lam2 201.0 Wcut 201.0 (lb 201.0) sc 593.3625943786421 prime None r None ok None char4 None | Wcut_sep 296.4 | unif 816.5 (594s)

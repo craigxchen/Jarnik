@@ -1,0 +1,8 @@
+{"iter": 0, "r": 163, "tight": 10215, "level0_certs": 7}
+{"iter": 1, "r": 162, "tight": 10027, "level0_certs": 5}
+{"iter": 2, "r": 161, "tight": 9878, "level0_certs": 4}
+{"iter": 3, "r": 160, "tight": 9695, "level0_certs": 3}
+{"iter": 4, "r": 159, "tight": 9555, "level0_certs": 2}
+{"iter": 5, "r": 158, "tight": 9389, "level0_certs": 1}
+{"iter": 6, "r": 157, "tight": 9225, "level0_certs": 0}
+{"file": "adaptive_primes_M164_K3.25_s0.json", "final_r": 157, "tight_w3": 9225, "certs": 0, "certs_checked": 0, "free": 157}

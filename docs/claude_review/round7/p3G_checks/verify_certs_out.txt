@@ -1,0 +1,5 @@
+M=44 b=2 K=3 seed=0 r=86 certs=86 closure:{2: 86} verified: exact=86 half=86 ALL CERTIFICATES VERIFIED
+M=44 b=2 K=3 seed=1 r=86 certs=86 closure:{2: 86} verified: exact=86 half=86 ALL CERTIFICATES VERIFIED
+M=84 b=2 K=3 seed=0 r=166 certs=167 closure:{2: 166} verified: exact=166 half=166 ALL CERTIFICATES VERIFIED
+M=44 b=8 K=4 seed=0 r=344 certs=330 closure:{2: 330, 0: 14} verified: exact=330 half=330 ALL CERTIFICATES VERIFIED
+M=164 b=2 K=4 seed=0 r=326 certs=320 closure:{2: 320, 0: 6} verified: exact=320 half=320 ALL CERTIFICATES VERIFIED

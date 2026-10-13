@@ -1,0 +1,1 @@
+{"M": 1284, "K": 4.0, "seed": 0, "target_r": 1283, "got": 1283, "candidates": 3558, "outcomes": {"ok": 1283, "seed1": 166, "walk": 2011, "seed2": 94, "dbl": 4}, "secs": 143.7}

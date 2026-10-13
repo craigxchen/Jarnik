@@ -1,0 +1,16 @@
+best_ub_M12.jsonl M=12 X=24 t=0 W=203.7 pairs_ok=True supp4_exact_ok=True (min 19.25) | min s_c (|c|<=12) = 0.196 at support 2  1s
+best_ub_M12.jsonl M=12 X=48 t=0 W=260.8 pairs_ok=True supp4_exact_ok=True (min 30.54) | min s_c (|c|<=12) = 0.139 at support 2  1s
+best_ub_M12.jsonl M=12 X=24 t=1 W=149.5 pairs_ok=True supp4_exact_ok=True (min 10.86) | min s_c (|c|<=12) = 0.184 at support 2  1s
+best_ub_M12.jsonl M=12 X=48 t=1 W=236.7 pairs_ok=True supp4_exact_ok=True (min 24.48) | min s_c (|c|<=12) = 0.193 at support 2  2s
+best_ub_M12.jsonl M=12 X=24 t=2 W=138.5 pairs_ok=True supp4_exact_ok=True (min 10.33) | min s_c (|c|<=12) = 0.204 at support 2  1s
+best_ub_M12.jsonl M=12 X=48 t=2 W=202.8 pairs_ok=True supp4_exact_ok=True (min 9.67) | min s_c (|c|<=12) = 0.211 at support 2  1s
+best_ub_M12.jsonl M=12 X=24 t=3 W=167.1 pairs_ok=True supp4_exact_ok=True (min 18.95) | min s_c (|c|<=12) = 0.325 at support 2  1s
+best_ub_M12.jsonl M=12 X=48 t=3 W=190.9 pairs_ok=True supp4_exact_ok=True (min 12.74) | min s_c (|c|<=12) = 0.168 at support 2  1s
+best_ub_M20.jsonl M=20 X=40 t=1 W=465.5 pairs_ok=True supp4_exact_ok=True (min 61.12) | min s_c (|c|<=12) = 0.071 at support 2  12s
+best_ub_M20.jsonl M=20 X=80 t=1 W=575.8 pairs_ok=True supp4_exact_ok=True (min 87.00) | min s_c (|c|<=12) = 0.146 at support 2  13s
+best_ub_M20.jsonl M=20 X=80 t=0 W=599.7 pairs_ok=True supp4_exact_ok=True (min 83.04) | min s_c (|c|<=12) = 0.114 at support 2  15s
+best_ub_M20.jsonl M=20 X=40 t=0 W=466.7 pairs_ok=True supp4_exact_ok=True (min 61.87) | min s_c (|c|<=12) = 0.146 at support 2  12s
+best_ub_M20.jsonl M=20 X=40 t=2 W=510.5 pairs_ok=True supp4_exact_ok=True (min 55.54) | min s_c (|c|<=12) = 0.172 at support 2  12s
+best_ub_M20.jsonl M=20 X=80 t=3 W=582.4 pairs_ok=True supp4_exact_ok=True (min 61.74) | min s_c (|c|<=12) = 0.192 at support 2  14s
+best_ub_M20.jsonl M=20 X=80 t=2 W=596.2 pairs_ok=True supp4_exact_ok=True (min 83.91) | min s_c (|c|<=12) = 0.180 at support 2  14s
+best_ub_M20.jsonl M=20 X=40 t=3 W=482.4 pairs_ok=True supp4_exact_ok=True (min 61.96) | min s_c (|c|<=12) = 0.115 at support 2  13s

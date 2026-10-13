@@ -1,0 +1,3 @@
+general p : lambda(mu) = -2  lambda(beta) = -26  nonzero diffs: 20 [-1]
+p = e_0 (f_O expected) : lambda(mu) = 2  lambda(beta) = -9  nonzero diffs: 15 [-1]
+p = e_3 (f_b1 expected) : lambda(mu) = 2  lambda(beta) = -9  nonzero diffs: 15 [-1]

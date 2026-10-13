@@ -1,0 +1,5 @@
+M=50: max over j,s of genuine per-unit demand of e_j = 1.662 log M  (at (225109, 297, 370, 3));  a-priori cap log(sqrt(2*2M^3))/log M = 1.677
+M=100: max over j,s of genuine per-unit demand of e_j = 1.646 log M  (at (1982273, 808, 1153, 3));  a-priori cap log(sqrt(2*2M^3))/log M = 1.651
+M=200: max over j,s of genuine per-unit demand of e_j = 1.629 log M  (at (15815957, 2666, 2951, 3));  a-priori cap log(sqrt(2*2M^3))/log M = 1.631
+M=400: max over j,s of genuine per-unit demand of e_j = 1.611 log M  (at (121654237, 7211, 8346, 3));  a-priori cap log(sqrt(2*2M^3))/log M = 1.616
+M=800: max over j,s of genuine per-unit demand of e_j = 1.602 log M  (at (1008462589, 20930, 23883, 3));  a-priori cap log(sqrt(2*2M^3))/log M = 1.604

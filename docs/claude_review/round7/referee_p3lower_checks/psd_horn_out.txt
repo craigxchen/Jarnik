@@ -1,0 +1,9 @@
+B = [[0, 1, -1, -1, 1], [1, 0, 1, -1, -1], [-1, 1, 0, 1, -1], [-1, -1, 1, 0, 1], [1, -1, -1, 1, 0]]
+u^T B u at (e1+e2)/sqrt2 = 1
+grid max of u^T B u over u>=0 (evidence): 1.0
+Cor A.1 bound 2 lmax(D) - 2(M-1)c_C = -5.329070518200751e-15
+eigenvalues of Z (exact): [11/25, 3*sqrt(5)/50 + 7/50, 7/50 - 3*sqrt(5)/50, 7/50 - 3*sqrt(5)/50, 3*sqrt(5)/50 + 7/50]  all >= 0: True
+min eigenvalue numeric: 0.005835921350012618
+<Z,B> = 6/5  => PSD consequence W >= 2<Z,B> = 12/5
+W_cut(B) = 3.333333333333333
+COUNTEREXAMPLE CONFIRMED: PSD bound (>= 12/5) exceeds Perron-type bound 2*sup u^TBu = 2

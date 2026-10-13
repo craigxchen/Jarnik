@@ -1,0 +1,54 @@
+[
+{
+"src": "best_ub_M24.jsonl",
+"M": 24,
+"X": 48,
+"t": 1,
+"W": 742.457825790849,
+"pairs_ok": true,
+"small_ok": true,
+"small_min": 98.02109892218374,
+"char_min": 0.11694909238065065,
+"argmin_support": 2,
+"time": 32.35127806663513
+},
+{
+"src": "best_ub_M24.jsonl",
+"M": 24,
+"X": 96,
+"t": 1,
+"W": 681.8532988018695,
+"pairs_ok": true,
+"small_ok": true,
+"small_min": 100.2188279862736,
+"char_min": 0.1909205886919949,
+"argmin_support": 2,
+"time": 27.169755935668945
+},
+{
+"src": "best_ub_M24.jsonl",
+"M": 24,
+"X": 48,
+"t": 0,
+"W": 696.415908381833,
+"pairs_ok": true,
+"small_ok": true,
+"small_min": 108.47681370749348,
+"char_min": 0.09229036028852988,
+"argmin_support": 2,
+"time": 30.29606056213379
+},
+{
+"src": "best_ub_M24.jsonl",
+"M": 24,
+"X": 96,
+"t": 0,
+"W": 745.1757800135182,
+"pairs_ok": true,
+"small_ok": true,
+"small_min": 118.70154202706539,
+"char_min": 0.07713984106112548,
+"argmin_support": 2,
+"time": 27.94269871711731
+}
+]

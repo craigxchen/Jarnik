@@ -1,0 +1,3 @@
+(a) mismatches: 0
+(b) pair circuits tested 4956 admissible nonzero x found: 0
+(c) failures: 0

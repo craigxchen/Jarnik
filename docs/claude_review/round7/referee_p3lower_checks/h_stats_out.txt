@@ -1,0 +1,17 @@
+1. independent model, eta = 1/2, Monte Carlo (evidence)
+  M=128: lambda_Q=0.5969; mean F_k/E_k, k=1..6: 1.001, 0.993, 0.975, 0.966, 0.802, 0.000
+  M=512: lambda_Q=0.6440; mean F_k/E_k, k=1..6: 1.000, 1.001, 1.001, 0.996, 0.953, 0.897
+  Lemma C.1 bounds hold for the exact window e_k.
+3. Theorem C threshold: smallest M with delta^k E_k >= 1 for k = floor((2-eps/4)L/l)
+  M=1e4: lambda_Q=0.6802, k=7, log(delta^k E_k) (Lemma C.1 lower) = 0.89
+  M=1e5: lambda_Q=0.6827, k=8, log(delta^k E_k) (Lemma C.1 lower) = 2.83
+  M=1e6: lambda_Q=0.6892, k=9, log(delta^k E_k) (Lemma C.1 lower) = 4.43
+  M=1e7: lambda_Q=0.6922, k=10, log(delta^k E_k) (Lemma C.1 lower) = 5.78
+  M=1e8 (Mertens lambda=log 2, approx): k=11, log(delta^k E_k) ~ 6.99, guaranteed D_max >= 2(1-eta)kL = 202.6 = 0.597 L^2
+  M=1e10 (Mertens lambda=log 2, approx): k=13, log(delta^k E_k) ~ 9.03, guaranteed D_max >= 2(1-eta)kL = 299.3 = 0.565 L^2
+  M=1e15 (Mertens lambda=log 2, approx): k=18, log(delta^k E_k) ~ 12.92, guaranteed D_max >= 2(1-eta)kL = 621.7 = 0.521 L^2
+  M=1e20 (Mertens lambda=log 2, approx): k=22, log(delta^k E_k) ~ 19.63, guaranteed D_max >= 2(1-eta)kL = 1013.1 = 0.478 L^2
+  M=1e30 (Mertens lambda=log 2, approx): k=30, log(delta^k E_k) ~ 31.01, guaranteed D_max >= 2(1-eta)kL = 2072.3 = 0.434 L^2
+  M=1e40 (Mertens lambda=log 2, approx): k=38, log(delta^k E_k) ~ 40.28, guaranteed D_max >= 2(1-eta)kL = 3499.9 = 0.413 L^2
+  M=1e60 (Mertens lambda=log 2, approx): k=52, log(delta^k E_k) ~ 64.15, guaranteed D_max >= 2(1-eta)kL = 7184.1 = 0.376 L^2
+  M=1e100 (Mertens lambda=log 2, approx): k=79, log(delta^k E_k) ~ 106.82, guaranteed D_max >= 2(1-eta)kL = 18190.4 = 0.343 L^2

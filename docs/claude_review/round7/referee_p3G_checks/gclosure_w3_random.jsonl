@@ -1,0 +1,2 @@
+{"set": "random:164:1:4.0:0", "r": 163, "tight": 1216, "w3": true, "certs": 159, "certs_checked": 159, "k3_certs": 0, "exact_pinned": 159, "half_pinned": 159, "free": 4}
+{"set": "random:164:1:4.5:0", "r": 163, "tight": 371, "w3": true, "certs": 2, "certs_checked": 2, "k3_certs": 1, "exact_pinned": 3, "half_pinned": 3, "free": 160}

@@ -66,7 +66,8 @@ Round 4 (flipped Hadamard cores, (L_7), hardness, fake-circle barrier) is in `ro
 
 Round 5/6 (fake circles at `log R = O(M log M)` with residue data) is in `round5/README.md`. Round 7
 (residue data factoring through the primes, every monomial strengthened: the last local class not
-known to be capped) is in `round7/` (in progress). Round 8 (growth rate: Lang-Waldschmidt,
+known to be capped) is in `round7/README.md`; that class is still open, with
+`3 M log M - O(M) <= W_min <= O(M log^2 M/loglog M)`. Round 8 (growth rate: Lang-Waldschmidt,
 simultaneous hypotheses, stability of extremal clusters) is in `round8/README.md`.
 
 **Growth-rate status (2026-10-12).** No growth improvement over `log R/loglog R` is proved, either

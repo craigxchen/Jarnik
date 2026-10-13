@@ -1,0 +1,13 @@
+    M parity  Dmax/logM  maxDx/MlogM  lmax/MlogM      maxDx  bound4sum  36MlogM+111M cwin_max
+   64  const      11.47        6.373       5.560     1696.3     4037.3       16686.1        7 OK
+   64 random      10.02        3.470       2.759      923.7     4037.3       16686.1        5 OK
+  128  const      13.59        6.651       5.908     4130.5     9844.2       36566.2        7 OK
+  128 random      10.87        3.488       2.944     2166.3     9844.2       36566.2        6 OK
+  256  const      11.89        6.853       6.166     9728.3    23248.1       79520.4        7 OK
+  256 random      10.98        3.702       3.099     5254.6    23248.1       79520.4        7 OK
+  512  const      12.37        6.974       6.356    22275.1    53440.8      171816.8        8 OK
+  512 random      11.74        3.598       3.187    11491.6    53440.8      171816.8        7 OK
+ 1024  const      13.21        7.082       6.517    50267.0   121084.3      369185.8        8 OK
+ 1024 random      11.88        3.626       3.261    25733.8   121084.3      369185.8        8 OK
+Note: D_max/log M is 2 log m_xy / log M; Lemma 3.3(1) gives log m <= (10+o(1)) log M, so D_max <= (20+o(1)) log M.
+ALL D_A CHECKS PASSED

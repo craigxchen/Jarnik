@@ -1,0 +1,20 @@
+t=1 X=32 0s lp done
+t=2 X=32 0s lp done
+t=4 X=32 0s lp done
+t=3 X=32 0s lp done
+t=2 X=32 121s sc done
+t=1 X=32 240s sc done
+t=3 X=32 240s sc done
+t=4 X=32 240s sc done
+t=1 X=32 360s realised: True
+t=4 X=32 360s realised: True
+t=4 X=32 361s sep lp done
+t=1 X=32 361s sep lp done
+t=3 X=32 481s realised: True
+t=3 X=32 481s sep lp done
+t=2 X=32 842s realised: True
+t=4 X=32 842s sep realised: True
+t=2 X=32 842s sep lp done
+t=1 X=32 1202s sep realised: True
+t=3 X=32 1226s sep realised: True
+t=2 X=32 1534s sep realised: True

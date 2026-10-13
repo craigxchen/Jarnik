@@ -1,0 +1,12 @@
+{"X": 16, "t": 0, "W": 55.334246608886595, "dual_bound": 55.334246608886595, "status": 0, "msg": "Optimization terminated successfully. (H", "ncuts": 15, "lam2": 42.32798148291529, "secs": 408.56608510017395}
+{"X": 16, "t": 1, "W": 52.6144015293047, "dual_bound": 52.6144015293047, "status": 0, "msg": "Optimization terminated successfully. (H", "ncuts": 15, "lam2": 40.30306438197229, "secs": 198.03090643882751}
+{"X": 16, "t": 2, "W": 52.655825098810666, "dual_bound": 52.655825098810666, "status": 0, "msg": "Optimization terminated successfully. (H", "ncuts": 14, "lam2": 40.77002004062685, "secs": 575.3055491447449}
+{"X": 16, "t": 3, "W": 61.17245772614177, "dual_bound": 61.17245772614177, "status": 0, "msg": "Optimization terminated successfully. (H", "ncuts": 19, "lam2": 52.57976183068642, "secs": 336.8569555282593}
+{"X": 16, "t": 4, "W": 48.49278537473826, "dual_bound": 48.49278537473826, "status": 0, "msg": "Optimization terminated successfully. (H", "ncuts": 14, "lam2": 36.46818715481886, "secs": 82.79797673225403}
+{"X": 16, "t": 5, "W": 41.782200724895375, "dual_bound": 41.782200724895375, "status": 0, "msg": "Optimization terminated successfully. (H", "ncuts": 12, "lam2": 27.462744213909897, "secs": 15.871181964874268}
+{"X": 32, "t": 0, "W": 86.30947959745095, "dual_bound": 86.30947959745095, "status": 0, "msg": "Optimization terminated successfully. (H", "ncuts": 18, "lam2": 73.3827067448491, "secs": 140.96461081504822}
+{"X": 32, "t": 1, "W": 79.88625936706333, "dual_bound": 79.88625936706333, "status": 0, "msg": "Optimization terminated successfully. (H", "ncuts": 17, "lam2": 66.90074123024891, "secs": 172.14178252220154}
+{"X": 32, "t": 2, "W": 76.3905280029377, "dual_bound": 76.3905280029377, "status": 0, "msg": "Optimization terminated successfully. (H", "ncuts": 17, "lam2": 62.01964795180977, "secs": 76.2832350730896}
+{"X": 32, "t": 3, "W": 97.82898863977543, "dual_bound": 97.82898863977543, "status": 0, "msg": "Optimization terminated successfully. (H", "ncuts": 20, "lam2": 88.12786084486949, "secs": 137.79000759124756}
+{"X": 32, "t": 4, "W": 70.77988334176752, "dual_bound": 70.77988334176752, "status": 0, "msg": "Optimization terminated successfully. (H", "ncuts": 16, "lam2": 57.25613111469329, "secs": 157.56220650672913}
+{"X": 32, "t": 5, "W": 62.911476376432766, "dual_bound": 62.911476376432766, "status": 0, "msg": "Optimization terminated successfully. (H", "ncuts": 14, "lam2": 47.933152750426906, "secs": 11.096700668334961}

@@ -1,0 +1,6 @@
+M=8 t=4 X=16: Wcut 40.549304795362985 W_ils 49.03 (r 14, 4 at floor, syl2) prime None (delta None) 57s
+M=8 t=1 X=16: Wcut 43.74330343619324 W_ils 53.26 (r 14, 5 at floor, syl2) prime 67.18298184206485 (delta 0.25) 59s
+M=8 t=5 X=16: Wcut 33.27008798514868 W_ils 45.33 (r 14, 10 at floor, syl2) prime None (delta None) 35s
+M=8 t=2 X=32: Wcut 67.58812192704227 W_ils 79.78 (r 14, 3 at floor, syl2) prime 85.97738820663236 (delta 0.25) 57s
+M=8 t=0 X=32: Wcut 83.15911348849694 W_ils 89.95 (r 21, 7 at floor, syl3) prime 108.30415432957764 (delta 0.25) 70s
+M=8 t=5 X=32: Wcut 62.91147637643279 W_ils 62.91 (r 14, 6 at floor, syl2) prime 70.73427275560203 (delta 0.25) 43s

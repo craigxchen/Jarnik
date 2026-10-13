@@ -1,0 +1,8 @@
+M=8 k=2 r=14 target d >= 8: Paley stack feasible; SA best V over 3 runs [0, 0, 0]
+M=8 k=3 r=21 target d >= 12: Paley stack feasible; SA best V over 3 runs [0, 0, 0]
+M=12 k=2 r=22 target d >= 12: Paley stack feasible; SA best V over 3 runs [0, 4, 4]
+M=12 k=3 r=33 target d >= 18: Paley stack feasible; SA best V over 3 runs [4, 6, 4]
+M=20 k=2 r=38 target d >= 20: Paley stack feasible; SA best V over 3 runs [40, 42, 46]
+M=20 k=3 r=57 target d >= 30: Paley stack feasible; SA best V over 3 runs [48, 48, 50]
+M=24 k=2 r=46 target d >= 24: Paley stack feasible; SA best V over 3 runs [94, 82, 78]
+M=24 k=3 r=69 target d >= 36: Paley stack feasible; SA best V over 3 runs [92, 90, 88]

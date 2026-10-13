@@ -1,0 +1,8 @@
+(1) max over M=3..400 of rowsum/bound = 1.0000
+(2) Sylvester restricted designs: every pair separated exactly n/2 times, r <= 2M-2, M = 3..130
+(3) M=6: 2 lam_max(E) = 18.940  W_cut(E) = 20.863  pi lam_max(E) = 29.751  2pi(1+log2)(M-1) = 53.192
+(3) M=8: 2 lam_max(E) = 29.894  W_cut(E) = 31.779  pi lam_max(E) = 46.957  2pi(1+log2)(M-1) = 74.469
+(3) M=10: 2 lam_max(E) = 41.163  W_cut(E) = 42.941  pi lam_max(E) = 64.659  2pi(1+log2)(M-1) = 95.745
+(3) M=12: 2 lam_max(E) = 52.625  W_cut(E) = 54.255  pi lam_max(E) = 82.663  2pi(1+log2)(M-1) = 117.022
+(4) additivity of mu and s_c under concatenation: 200 random profiles x 20 characters
+ALL PROP 6.2 CHECKS PASSED

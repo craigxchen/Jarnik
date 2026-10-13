@@ -1,0 +1,1 @@
+{"set": "random:164:1:3.75:0", "r": 163, "tight": 2376, "w3": true, "certs": 163, "certs_checked": 163, "k3_certs": 0, "exact_pinned": 163, "half_pinned": 163, "free": 0}

@@ -1,0 +1,4 @@
+M=64 r=512 X=192: RAND max/mean 8.96/3.73  COH max/mean 6.28/3.22  logM/loglogM=2.92
+M=256 r=2048 X=768: RAND max/mean 10.72/3.82  COH max/mean 6.83/3.12  logM/loglogM=3.24
+M=1024 r=8192 X=3072: RAND max/mean 11.14/3.86  COH max/mean 7.33/3.00  logM/loglogM=3.58
+M=1024 r=8192 X=3072: RAND max/mean 10.83/3.87  COH max/mean 7.24/3.00  logM/loglogM=3.58

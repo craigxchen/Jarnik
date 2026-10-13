@@ -1,0 +1,16 @@
+M=12 construct r= 100 tau~19.70 | X=2M: P(feasible)=1.00 tau_req med 3.67 (W_req med 367) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 4.82 (W_req med 482) mean#viol 0.00 |
+M=12 lower     r= 363 tau~19.83 | X=2M: P(feasible)=1.00 tau_req med 0.84 (W_req med 305) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 1.19 (W_req med 433) mean#viol 0.00 |
+M=20 construct r= 172 tau~19.87 | X=2M: P(feasible)=1.00 tau_req med 4.97 (W_req med 854) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 6.35 (W_req med 1092) mean#viol 0.00 |
+M=20 lower     r= 627 tau~19.86 | X=2M: P(feasible)=1.00 tau_req med 1.25 (W_req med 786) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 1.66 (W_req med 1042) mean#viol 0.00 |
+M=24 construct r= 208 tau~19.64 | X=2M: P(feasible)=1.00 tau_req med 5.84 (W_req med 1215) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 7.15 (W_req med 1486) mean#viol 0.00 |
+M=24 lower     r= 759 tau~19.87 | X=2M: P(feasible)=1.00 tau_req med 1.52 (W_req med 1154) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 1.96 (W_req med 1488) mean#viol 0.00 |
+M=32 construct r= 280 tau~19.68 | X=2M: P(feasible)=1.00 tau_req med 6.68 (W_req med 1871) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 8.19 (W_req med 2293) mean#viol 0.00 |
+M=32 lower     r=1023 tau~19.93 | X=2M: P(feasible)=1.00 tau_req med 1.69 (W_req med 1728) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 2.06 (W_req med 2110) mean#viol 0.00 |
+M=44 construct r= 388 tau~19.79 | X=2M: P(feasible)=1.00 tau_req med 8.11 (W_req med 3147) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 9.65 (W_req med 3746) mean#viol 0.00 |
+M=44 lower     r=1419 tau~19.70 | X=2M: P(feasible)=1.00 tau_req med 1.92 (W_req med 2724) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 2.27 (W_req med 3216) mean#viol 0.00 |
+M=60 construct r= 532 tau~19.73 | X=2M: P(feasible)=1.00 tau_req med 8.94 (W_req med 4758) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 10.70 (W_req med 5693) mean#viol 0.00 |
+M=60 lower     r=1947 tau~19.83 | X=2M: P(feasible)=1.00 tau_req med 2.20 (W_req med 4289) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 2.72 (W_req med 5292) mean#viol 0.00 |
+M=72 construct r= 640 tau~19.93 | X=2M: P(feasible)=1.00 tau_req med 9.82 (W_req med 6285) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 11.58 (W_req med 7412) mean#viol 0.00 |
+M=72 lower     r=2343 tau~19.87 | X=2M: P(feasible)=1.00 tau_req med 2.51 (W_req med 5878) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 3.11 (W_req med 7290) mean#viol 0.00 |
+M=84 construct r= 748 tau~19.71 | X=2M: P(feasible)=1.00 tau_req med 10.46 (W_req med 7823) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 12.04 (W_req med 9008) mean#viol 0.00 |
+M=84 lower     r=2739 tau~19.26 | X=2M: P(feasible)=1.00 tau_req med 2.78 (W_req med 7614) mean#viol 0.00 | X=4M: P(feasible)=1.00 tau_req med 3.04 (W_req med 8320) mean#viol 0.00 |

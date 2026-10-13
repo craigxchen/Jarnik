@@ -1,0 +1,14 @@
+(A1) every 6 planes rank 4: True
+coaxial triples: [['O', 'a1', 'a2'], ['O', 'b1', 'b2'], ['O', 'c1', 'c2']]
+5-subsets of rank 3 (points on 5 planes): [['O', 'a1', 'a2', 'b1', 'b2'], ['O', 'a1', 'a2', 'c1', 'c2'], ['O', 'b1', 'b2', 'c1', 'c2']]
+#4-subsets with a common point: 15
+#distinct triple points: 11
+  simple triple point (63, 151, 75, -70) ['a1', 'b1', 'c1']
+  simple triple point (14, 3, 2, -7) ['a1', 'b1', 'c2']
+  simple triple point (21, -103, -15, 70) ['a1', 'b2', 'c1']
+  simple triple point (28, -9, -20, -35) ['a1', 'b2', 'c2']
+  simple triple point (21, -33, -50, 35) ['a2', 'b1', 'c1']
+  simple triple point (7, -11, 9, -14) ['a2', 'b1', 'c2']
+  simple triple point (63, -9, -20, 35) ['a2', 'b2', 'c1']
+  simple triple point (49, 103, 15, 70) ['a2', 'b2', 'c2']
+dim of quadrics through E: 4

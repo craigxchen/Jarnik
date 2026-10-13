@@ -1,0 +1,3 @@
+progress 5000 145
+progress 10000 154
+{"M": 164, "K": 2.75, "seed": 0, "target_r": 163, "got": 163, "candidates": 13456, "outcomes": {"seed1": 2348, "ok": 163, "walk": 5956, "seed2": 4857, "dbl": 132}, "secs": 24.9}

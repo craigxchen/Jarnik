@@ -1,0 +1,11 @@
+g=  2 t=  2 L=  1 M=   4: r=    3, lambda_max(k)=    3.000, uniform (M-1)L=     3  OK
+g=  4 t=  2 L=  5 M=   8: r=   11, lambda_max(k)=   11.000, uniform (M-1)L=    35  OK
+g=  4 t=  4 L=  5 M=  16: r=   27, lambda_max(k)=   27.000, uniform (M-1)L=    75  OK
+g=  8 t=  2 L=  9 M=  16: r=   23, lambda_max(k)=   23.000, uniform (M-1)L=   135  OK
+g=  8 t=  4 L=  1 M=  32: r=   31, lambda_max(k)=   31.000, uniform (M-1)L=    31  OK
+g=  2 t=  8 L=  3 M=  16: r=   29, lambda_max(k)=   29.000, uniform (M-1)L=    45  OK
+g=  4 t=  8 L= 13 M=  32: r=  115, lambda_max(k)=  115.000, uniform (M-1)L=   403  OK
+g= 16 t=  4 L= 17 M=  64: r=  111, lambda_max(k)=  111.000, uniform (M-1)L=  1071  OK
+g=  8 t= 16 L=  9 M= 128: r=  247, lambda_max(k)=  247.000, uniform (M-1)L=  1143  OK
+g= 32 t=  4 L= 97 M= 128: r=  415, lambda_max(k)=  415.000, uniform (M-1)L= 12319  OK
+ALL D.1 CHECKS PASSED

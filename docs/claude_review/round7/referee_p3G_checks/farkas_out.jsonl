@@ -1,0 +1,7 @@
+{"set": "adaptive_primes_M164_K3.0_s0.json", "r": 163, "tight": 22137, "w3": true, "lp_status": 2, "lp_msg": "The problem is infeasible. (HiGHS Status"}
+{"set": "adaptive_primes_M164_K3.25_s0.json", "r": 163, "tight": 10215, "w3": true, "lp_status": 2, "lp_msg": "The problem is infeasible. (HiGHS Status"}
+{"set": "adaptive_primes_M164_K3.5_s0.json", "r": 163, "tight": 4629, "w3": true, "lp_status": 2, "lp_msg": "The problem is infeasible. (HiGHS Status"}
+{"set": "adaptive_primes_M164_K3.75_s0.json", "r": 163, "tight": 2254, "w3": true, "lp_status": 2, "lp_msg": "The problem is infeasible. (HiGHS Status"}
+{"set": "random:164:1:3.5:0", "r": 163, "tight": 1967, "w3": false, "lp_status": 2, "lp_msg": "The problem is infeasible. (HiGHS Status"}
+{"set": "random:164:1:4.5:0", "r": 163, "tight": 315, "w3": false, "lp_status": 2, "lp_msg": "The problem is infeasible. (HiGHS Status"}
+{"set": "random:164:1:5.0:0", "r": 163, "tight": 133, "w3": false, "lp_status": 2, "lp_msg": "The problem is infeasible. (HiGHS Status"}

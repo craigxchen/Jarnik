@@ -1,0 +1,5 @@
+mu instance 1 comp_A = -10  nonzero W: 35
+mu instance 2 comp_A = -10  nonzero W: 35
+mu instance 3 comp_A = -10  nonzero W: 35
+mu instance 4 comp_A = -10  nonzero W: 35
+seed 11 values [-10, -10, -10, -10] tries 8

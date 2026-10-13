@@ -1,0 +1,2 @@
+M=164 b=8 K=4: tight=39770  sum 2d/pi = 15190.1  (pairs only 14589.0)
+M=644 b=1 K=4: tight=9778  sum 2d/pi = 4051.9  (pairs only 3763.0)

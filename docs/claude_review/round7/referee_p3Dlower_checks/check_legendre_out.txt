@@ -1,0 +1,2 @@
+parity of log(z/conj z) == [(Norm z/q) = -1], and iota even iff q = +-1 mod 8: True cases 26264
+ALL OK

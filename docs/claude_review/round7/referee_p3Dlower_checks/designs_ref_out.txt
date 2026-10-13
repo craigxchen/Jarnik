@@ -1,0 +1,19 @@
+M=50 r=50 X=150 #moduli=34; budget w(v)/2 ~ 1.5 k log M (+0.35 per k)
+  RAND  correct per-unit: k=1..3:  2.82,  5.20,  6.43    raw-class (author's bookkeeping):  3.46,  5.43,  8.31
+  COH   correct per-unit: k=1..3:  0.92,  1.79,  2.61    raw-class (author's bookkeeping):  1.63,  2.93,  4.89
+  TWIST correct per-unit: k=1..3:  1.85,  5.04,  6.77    raw-class (author's bookkeeping):  2.37,  5.04,  6.77
+  GEN   correct per-unit: k=1..3:  1.66,  3.25,  4.80    raw-class (author's bookkeeping):  2.51,  4.56,  6.38
+M=100 r=100 X=300 #moduli=61; budget w(v)/2 ~ 1.5 k log M (+0.35 per k)
+  RAND  correct per-unit: k=1..3:  4.56,  5.64,  8.43    raw-class (author's bookkeeping):  4.56,  5.84,  8.43
+  COH   correct per-unit: k=1..3:  0.86,  1.69,  2.49    raw-class (author's bookkeeping):  1.55,  3.09,  4.68
+  TWIST correct per-unit: k=1..3:  2.24,  4.77,  6.87    raw-class (author's bookkeeping):  2.36,  5.39,  6.95
+  GEN   correct per-unit: k=1..3:  1.65,  3.22,  4.78    raw-class (author's bookkeeping):  2.60,  5.28,  6.31
+M=200 r=200 X=600 #moduli=108; budget w(v)/2 ~ 1.5 k log M (+0.35 per k)
+  RAND  correct per-unit: k=1..3:  3.56,  5.99,  8.49    raw-class (author's bookkeeping):  3.62,  7.20,  8.49
+  COH   correct per-unit: k=1..3:  0.83,  1.61,  2.38    raw-class (author's bookkeeping):  1.51,  3.07,  4.58
+  TWIST correct per-unit: k=1..3:  2.17,  5.28,  7.91    raw-class (author's bookkeeping):  1.77,  5.53,  7.32
+  GEN   correct per-unit: k=1..3:  1.63,  3.19,  4.75    raw-class (author's bookkeeping):  2.78,  5.11,  7.23
+M=400 r=400 X=1200 #moduli=195; budget w(v)/2 ~ 1.5 k log M (+0.35 per k)
+  RAND  correct per-unit: k=1..2:  4.84,  6.06    raw-class (author's bookkeeping):  4.84,  6.06
+  COH   correct per-unit: k=1..2:  0.79,  1.56    raw-class (author's bookkeeping):  1.48,  2.97
+(M=400 run of designs_ref.py stopped by the referee after two designs: duplicate of designs_ref2.py M=400, whose lines agree; see designs_ref2_out.txt)

@@ -1,0 +1,41 @@
+# referee notes (scratch)
+- Lemma 1.3 pair ineq: re-derived OK (c_C = 2logC - log2).
+- Lemma 1.4: items 1-4 re-derived OK.
+- Thm A(1) LP duality OK; surplus form OK. A(2) Perron OK, hypermetric OK (b.s odd). A(3) GW OK (B_xy<=Lambda, rho in[-1,0], arcsin y>=y).
+- Cor A.1 OK (u>=0 Perron vec; 1<=(sum u)^2<=M).
+- Cor A.2: tautological barrier, Phi(D) <= W_cut(B). Scope issue: D treated as independent of lambda. In P3, D is a function of (profile, r_j); same-level clause at p_j<=X depends on profile. Arguments coupling D and lambda are NOT covered. Check whether sec 0 overstates.
+- Cor A.5: logic OK if Lemma A.4 OK and Thm 6.4 members have D = D_A demands. CHECK sharp.md.
+- Lemma A.4 re-derived: D_x <= 4 sum_{d<M}(Lambda'(d)+log d); sum Lambda' <= 8M(log M + log 32) via q<8p'(q) & sum_{q<=n} log q/q <= log n + log4. 32 log 32 = 110.9. OK.
+- Cor A.5: Thm 6.4 members: p_j > X (no same-level clause), random fibre = common shift 2t (Lemma 6.3(1)) -> unit-1 pair collisions = D_A. OK. Logic OK (certificate = function of D only).
+- TODO: verify numerically lambda_max(D_A) and D_x bound by own code (small M).
+- E(n,Q) formulas OK; superadditivity OK.
+- B.1 OK. B.2 OK.
+- B.3 items 1-4 OK (parity via Cor 2.2(4); nested levels). Item 5 additive gain OK, beta=0 => zero gain (M even) OK.
+  ISSUE (minor): Sec 0 table "gains at most a factor 2 per modulus" FALSE per modulus: M<=m<2M, beta=1: E(M,m)=0 but E(M,m/2)>0; M=10,m=8: E=2 vs 8 (factor 4). True only aggregated (~2+o(1)) / additively. CHECK by script.
+- Rem B.4: "Since alpha >= 2^-|S|" non sequitur (should be alpha<=1); conclusion ok. "(2+o(1)) log M at best" is about this CRT argument only.
+- B.5 re-derived OK (v_P nonzero incl j=l; (2r-1)sum w). Overstatement: "pigeonhole consequences of heights are subsumed" only shown for 2-term monomials at single moduli; "norm<=k" remark unproved.
+- Heuristic sentences after B.2 ("Only uniform margins can give growth through pairs") rely on random-like demand heuristic; Thm A gives only <= pi*max_x D_x.
+- B.1 Remark 2 (Paley mu range) re-derived OK: mu in [(b-4)tau/2-1/2,(b+4)tau/2+1/2].
+- Thm C re-derived OK (k choice, log(delta^k E_k)>= (eps/4)L - O(L/l), B.1). It is B.1 + "D_max >= 2(1-eta)kL"; H is far stronger than needed (one k suffices). Essentially: K-uniform + one heavy pair.
+- Cor C.4 OK (uses M <= log R).
+- Lemma C.2 OK (c_xy <= 9*#large primes of d; lambda_Q -> log 1/(1-eta)).
+- Lemma C.3 OK (pairwise indep, 2nd moment, Chebyshev with (1-delta^k)>=(1-delta)). BUT model ignores parity (not a P3-char model). minor.
+- "Equivalently ... Im(z_x conj z_y u)/|g|^2" : q | reduced chord <=> q | Im(z_x zbar_y)/|g|^2 AND Re(..) == +|B|^2 mod q. Im-divisibility alone = collision with unit +-1. CHECK numerically.
+- PSD remark: "strongest consequence of PSD + mu>=B is exactly the Perron bound": dual is DNN max <Z,B>; for B with negative entries (c_C>0) DNN != CP for M>=5 (Horn matrix). Technically false, O(M c_C) effect only. CHECK numerically if SDP solver available.
+- Remark 1 on Thm C "Without uniform margins, H gives nothing beyond Cor A.1": needs a member satisfying H with lambda_max = O(M log M); not proved (D_A violates H; random model lambda_max only evidence).
+- D.1 re-derived OK (Gram, r formula, eigenvalues; k zero-diagonal implicit "[same group, x!=y]").
+- Sec 5: "W >= min_r max(f_D(r), r log X)" valid only if p_j > X and r := number of threshold cuts (sum e_j). Q uses k=max(1,ceil(2D/tau)) dropping c_C: definitional.
+- Sec 6 B.1 row: "D_max <= (10+o(1)) log M" WRONG by factor 2: Lemma 3.3(1) bounds log m <= mu_M log M; D=2 log m <= (20+o(1)) log M; B.1 then <= (40+o(1)) M log M/K. Still consistent (<66). Own table shows D_max/log M = 12.4 at M=1024.
+- Sec 0 pt 3 / Sec 6 row 6 "heuristic disappears for adapted profiles": in P3 D depends on profile (kappa = A ell, parity sigma depends on a_x); relaxation decouples; plus lambda_max=O(M log X) only evidence. Overstated.
+- PSD counterexample idea: 5-cycle D (weight 2), c_C=1, B = D-(J-I) = -(Horn - I). Perron-type sup =1 ->2; DNN Z=circ(1,.6,0,0,.6)/5 gives <Z,B>=1.2 -> PSD bound >= 2.4; Cor A.1 formula gives 0. CHECK numerically incl. W_cut.
+- TODO: check flipped.md Thm L claim vs round8 lw.md (LW gives no growth; Paley skew double core immune).
+## computations done
+- cutlp.py: sandwich OK on 36 matrices M=4..9; dual equality; cut identity; ratio up to 1.4433 (residues M=4) and 1.5 adversarial (author: [1.000,1.224] on his 48).
+- psd_horn.py: PSD bound >= 12/5 > Perron 2 > Cor A.1 formula 0; W_cut = 10/3. Confirms minor issue.
+- design_DA.py: Lemma A.4 holds M=64..1024; const parity gives lmax/(MlogM) 5.6-6.5 (author's 2.66-3.19 is colouring-specific); Dmax/logM 10-13.6.
+- parity_actual.py: exact parity formula + B.3 count OK on 215,670 pair-modulus instances; Im-only divisibility catches 10,892 unit -1 collisions.
+- e_counts.py: per-modulus factor 2 false (inf, 6.5, 4); aggregated bias/free 2.56, 2.30, 2.20, 2.15 at M=1e2..1e5 (>2 at finite M); parity-free 3.21 at 1e5 (->4 slowly).
+- h_stats.py: indep model F_k/E_k ~1; Lemma C.1 bounds hold; Thm C threshold delta^k E_k>=1 already at M=1e4 (eta=delta=eps=1/2).
+- clique_D1.py: D.1 10 cases OK.
+- indep_lmax.py: lmax/(MlogM)=1.909,1.916,1.927 matches author.
+- Sharp Thm 5.1: tau >= 2 log r >= 2 log M so W >= 66(M-1) log M OK.

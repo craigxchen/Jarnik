@@ -1,0 +1,11 @@
+construct q0=11 b=8 trial=0: check A passed on 17 prime powers <= 48, 132 ordered pairs x 4 units; check B (exact Z[i], N with 870 digits) passed
+lower q0=11 b=33 trial=0: check A passed on 17 prime powers <= 48, 132 ordered pairs x 4 units; check B (exact Z[i], N with 3157 digits) passed
+construct q0=11 b=8 trial=1: check A passed on 17 prime powers <= 48, 132 ordered pairs x 4 units; check B (exact Z[i], N with 896 digits) passed
+lower q0=11 b=33 trial=1: check A passed on 17 prime powers <= 48, 132 ordered pairs x 4 units; check B (exact Z[i], N with 3251 digits) passed
+construct q0=11 b=8 trial=2: check A passed on 17 prime powers <= 48, 132 ordered pairs x 4 units; check B (exact Z[i], N with 892 digits) passed
+lower q0=11 b=33 trial=2: check A passed on 17 prime powers <= 48, 132 ordered pairs x 4 units; check B (exact Z[i], N with 3238 digits) passed
+construct q0=19 b=8 trial=0: check A passed on 25 prime powers <= 80, 380 ordered pairs x 4 units; check B (exact Z[i], N with 1526 digits) passed
+lower q0=19 b=33 trial=0: check A passed on 25 prime powers <= 80, 380 ordered pairs x 4 units; check B (exact Z[i], N with 5561 digits) passed
+construct q0=23 b=8 trial=0: check A passed on 28 prime powers <= 96, 552 ordered pairs x 4 units
+construct q0=31 b=8 trial=0: check A passed on 37 prime powers <= 128, 992 ordered pairs x 4 units
+ALL DIRECT CHECKS PASSED

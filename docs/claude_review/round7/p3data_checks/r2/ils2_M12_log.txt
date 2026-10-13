@@ -1,0 +1,8 @@
+M=12 t=1 X=24: Wcut 76.26465957957456 W_ils 118.22 (r 22, 3 at floor, pal2) prime 132.5386389426402 (delta 0.25) 103s
+M=12 t=0 X=24: Wcut 95.25343403502245 W_ils 126.92 (r 30, 7 at floor, syl2) prime 171.75542237207964 (delta 0.25) 107s
+M=12 t=0 X=48: Wcut 136.75281922386142 W_ils 184.20 (r 33, 8 at floor, pal3) prime 202.9495736210316 (delta 0.25) 115s
+M=12 t=1 X=48: Wcut 121.15758471735576 W_ils 160.25 (r 30, 9 at floor, syl2) prime 179.28453152063912 (delta 0.25) 118s
+M=12 t=2 X=24: Wcut 70.43010049359167 W_ils 122.97 (r 29, 8 at floor, syl2) prime 168.9382499193352 (delta 0.25) 126s
+M=12 t=2 X=48: Wcut 109.06463702908147 W_ils 154.09 (r 33, 11 at floor, pal3) prime 187.6324592200478 (delta 0.25) 122s
+M=12 t=3 X=24: Wcut 98.07970862974189 W_ils 130.16 (r 33, 14 at floor, pal3) prime 186.058852637766 (delta 0.25) 123s
+M=12 t=3 X=48: Wcut 124.92012575753323 W_ils 165.50 (r 30, 6 at floor, syl2) prime 184.94559106130723 (delta 0.25) 128s

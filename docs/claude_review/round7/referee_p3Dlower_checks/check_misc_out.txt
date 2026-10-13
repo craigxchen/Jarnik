@@ -1,0 +1,6 @@
+G: r=20, X=300: #q=+-1 mod 8: 28, distinct nu(q): 28; max #q=+-1 mod 8 compatible with ONE additive lambda: 1; log-prod over q=+-3 mod 8: 146.2 vs all odd: 276.3
+   pairs j<k with equal Legendre symbols at all q=+-1 mod 8 <= X: 0
+G: r=60, X=1000: #q=+-1 mod 8: 80, distinct nu(q): 80; max #q=+-1 mod 8 compatible with ONE additive lambda: 1; log-prod over q=+-3 mod 8: 491.8 vs all odd: 955.6
+   pairs j<k with equal Legendre symbols at all q=+-1 mod 8 <= X: 0
+H: 231782 pairs (p, zeta) with Norm zeta < p: max over them of (least q=+-1 mod 8 with (n/q)=-1)/(log n)^2 = 2.702 at (5, (0, 1), 5, 7)
+I: Cor 4.4 k_1 matches (4.3): True

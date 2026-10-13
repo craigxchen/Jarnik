@@ -1,0 +1,3 @@
+moduli checked: 143, pair-modulus instances: 215670, unit-1 collisions: 10840
+instances with Q | Im(...) but no unit-1 collision (unit -1 collisions): 10892
+ALL ACTUAL-POINT PARITY CHECKS PASSED

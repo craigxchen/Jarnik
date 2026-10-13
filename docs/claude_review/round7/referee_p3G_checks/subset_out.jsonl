@@ -1,0 +1,6 @@
+{"base": "M=164 b=8 K=4 seed=0", "subset": "first", "rsub": 163, "tight": 863, "certs": 111, "free": 52, "half_pinned": 111, "exact_pinned": 111}
+{"base": "M=164 b=8 K=4 seed=0", "subset": "random", "rsub": 163, "tight": 765, "certs": 115, "free": 48, "half_pinned": 115, "exact_pinned": 115}
+{"base": "M=164 b=8 K=4 seed=0", "subset": "random", "rsub": 163, "tight": 795, "certs": 109, "free": 54, "half_pinned": 109, "exact_pinned": 109}
+{"base": "M=164 b=8 K=4 seed=0", "subset": "random", "rsub": 163, "tight": 780, "certs": 128, "free": 35, "half_pinned": 128, "exact_pinned": 128}
+{"base": "M=164 b=8 K=4 seed=0", "subset": "first", "rsub": 326, "tight": 3033, "certs": 325, "free": 1, "half_pinned": 325, "exact_pinned": 325}
+{"base": "M=164 b=8 K=4 seed=0", "subset": "random", "rsub": 326, "tight": 2789, "certs": 317, "free": 9, "half_pinned": 317, "exact_pinned": 317}

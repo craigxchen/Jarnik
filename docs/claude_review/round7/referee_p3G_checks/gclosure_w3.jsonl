@@ -1,0 +1,4 @@
+{"set": "adaptive_primes_M164_K3.75_s0.json", "r": 163, "tight": 2254, "w3": true, "certs": 1, "certs_checked": 1, "k3_certs": 1, "exact_pinned": 1, "half_pinned": 1, "free": 162}
+{"set": "adaptive_primes_M164_K3.5_s0.json", "r": 163, "tight": 4629, "w3": true, "certs": 159, "certs_checked": 159, "k3_certs": 4, "exact_pinned": 163, "half_pinned": 163, "free": 0}
+{"set": "adaptive_primes_M164_K3.25_s0.json", "r": 163, "tight": 10215, "w3": true, "certs": 155, "certs_checked": 155, "k3_certs": 10, "exact_pinned": 163, "half_pinned": 163, "free": 0}
+{"set": "adaptive_primes_M164_K3.0_s0.json", "r": 163, "tight": 22137, "w3": true, "certs": 163, "certs_checked": 163, "k3_certs": 0, "exact_pinned": 163, "half_pinned": 163, "free": 0}

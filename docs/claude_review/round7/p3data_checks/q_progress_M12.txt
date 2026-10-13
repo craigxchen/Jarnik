@@ -1,0 +1,8 @@
+t=1 X=48 0s lp done
+t=1 X=24 0s lp done
+t=0 X=24 0s lp done
+t=0 X=48 0s lp done
+t=1 X=48 225s sc done
+t=0 X=48 225s sc done
+t=0 X=24 225s sc done
+t=1 X=24 225s sc done

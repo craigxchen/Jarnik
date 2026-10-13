@@ -1,0 +1,27 @@
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ~~~~^^^^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round7/p3data_checks/q_run.py", line 241, in run_instance
+    cols, rec['prime_safety'] = realize_safety(D, M, wmin, masks_all, lp_sup, nu, iters, tlim, exact, plist, log)
+                                ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round7/p3data_checks/q_run.py", line 141, in realize_safety
+    cols, dev = round_nearest(scd['masks'], scd['lam'], plist)
+                ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round7/p3data_checks/q_run.py", line 126, in round_nearest
+    for kk in best[1]:
+              ~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round7/p3data_checks/q_run.py", line 317, in <module>
+    for rec in pool.imap_unordered(run_instance, jobs):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/multiprocessing/pool.py", line 873, in next
+    raise value
+TypeError: 'NoneType' object is not subscriptable

@@ -1,0 +1,7 @@
+{"file": "adaptive_primes_M164_K3.0_s0.json", "r": 163, "tight_w2": 4026, "pair_degree": 46.61, "k2_free": 163, "k2_certs": 0, "tight_triples": 18111, "triples_per_col": 333.33, "k2w3_free": 163, "k2w3_certs": 0, "secs": 5.7}
+{"file": "adaptive_primes_M164_K3.25_s0.json", "r": 163, "tight_w2": 2696, "pair_degree": 30.66, "k2_free": 163, "k2_certs": 0, "tight_triples": 7519, "triples_per_col": 138.39, "k2w3_free": 163, "k2w3_certs": 0, "secs": 5.6}
+{"file": "adaptive_primes_M164_K3.5_s0.json", "r": 163, "tight_w2": 1704, "pair_degree": 18.74, "k2_free": 163, "k2_certs": 0, "tight_triples": 2925, "triples_per_col": 53.83, "k2w3_free": 163, "k2w3_certs": 0, "secs": 5.2}
+{"file": "adaptive_primes_M644_K4.0_s0.json", "r": 643, "tight_w2": 8956, "pair_degree": 26.44, "k2_free": 643, "k2_certs": 0}
+{"file": "adaptive_primes_M324_K3.5_s0.json", "r": 323, "tight_w2": 6409, "pair_degree": 37.67, "k2_free": 323, "k2_certs": 0}
+{"file": "adaptiveT_primes_M164_K2.75_s0.json", "r": 163, "tight_w2": 7042, "pair_degree": 82.2, "k2_free": 163, "k2_certs": 0, "tight_triples": 44279, "triples_per_col": 814.95, "k2w3_free": 163, "k2w3_certs": 0, "secs": 9.3}
+{"file": "adaptiveT_primes_M1284_K4.0_s0.json", "r": 1283, "tight_w2": 36297, "pair_degree": 54.76, "k2_free": 1283, "k2_certs": 0}

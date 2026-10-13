@@ -1,0 +1,4 @@
+best_ub_M24.jsonl M=24 X=48 t=1 W=742.5 pairs_ok=True supp4_exact_ok=True (min 98.02) | min s_c (|c|<=12) = 0.117 at support 2  32s
+best_ub_M24.jsonl M=24 X=96 t=1 W=681.9 pairs_ok=True supp4_exact_ok=True (min 100.22) | min s_c (|c|<=12) = 0.191 at support 2  27s
+best_ub_M24.jsonl M=24 X=48 t=0 W=696.4 pairs_ok=True supp4_exact_ok=True (min 108.48) | min s_c (|c|<=12) = 0.092 at support 2  30s
+best_ub_M24.jsonl M=24 X=96 t=0 W=745.2 pairs_ok=True supp4_exact_ok=True (min 118.70) | min s_c (|c|<=12) = 0.077 at support 2  28s

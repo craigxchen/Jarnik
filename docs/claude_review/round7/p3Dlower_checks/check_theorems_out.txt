@@ -1,0 +1,4 @@
+Thm 1.1(1) units permuted: True
+Thm 2.1 (kappa = F + Lambda, identity (2.2)): True
+Thm 4.3 (collision at q with unit i^s  <=>  q | D_s(Z_v rho^d), D_s != 0): True  collisions tested: 18140
+ALL OK

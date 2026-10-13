@@ -1,0 +1,4 @@
+{"set": "adaptiveT_primes_M164_K2.75_s0.json", "r": 163, "tight": 7042, "w3": false, "level0_certs_k_le_3": 4, "example": [[[[[6, 2]], 2, 1], [[[6, 1], [27, 1]], 1, 1], [[[6, 1], [27, -1]], 2, 1]]]}
+{"set": "adaptive_primes_M644_K4.0_s0.json", "r": 643, "tight": 8956, "w3": false, "level0_certs_k_le_3": 0, "example": []}
+{"set": "adaptive_primes_M324_K3.5_s0.json", "r": 323, "tight": 6409, "w3": false, "level0_certs_k_le_3": 0, "example": []}
+{"set": "adaptiveT_primes_M1284_K4.0_s0.json", "r": 1283, "tight": 36297, "w3": false, "level0_certs_k_le_3": 3, "example": [[[[[39, 2]], 1, 1], [[[725, 2]], 2, 1], [[[39, 1], [725, -1]], 3, 2]]]}

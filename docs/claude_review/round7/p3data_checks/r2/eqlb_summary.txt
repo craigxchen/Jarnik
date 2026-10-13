@@ -1,0 +1,10 @@
+M=8 X=16 n=12 LB_eq/2lam median 1.169 [0.950, 1.250]; tau*/w0 median 1.08
+M=8 X=32 n=12 LB_eq/2lam median 1.121 [0.969, 1.181]; tau*/w0 median 1.06
+M=12 X=24 n=12 LB_eq/2lam median 1.187 [1.117, 1.272]; tau*/w0 median 1.06
+M=12 X=48 n=12 LB_eq/2lam median 1.147 [1.069, 1.209]; tau*/w0 median 1.02
+M=20 X=40 n=12 LB_eq/2lam median 1.169 [1.122, 1.197]; tau*/w0 median 1.05
+M=20 X=80 n=12 LB_eq/2lam median 1.198 [1.168, 1.232]; tau*/w0 median 1.01
+M=24 X=48 n=12 LB_eq/2lam median 1.182 [1.163, 1.221]; tau*/w0 median 1.00
+M=24 X=96 n=12 LB_eq/2lam median 1.198 [1.171, 1.228]; tau*/w0 median 1.00
+M=32 X=64 n=12 LB_eq/2lam median 1.220 [1.187, 1.229]; tau*/w0 median 1.01
+M=32 X=128 n=12 LB_eq/2lam median 1.214 [1.181, 1.244]; tau*/w0 median 1.00

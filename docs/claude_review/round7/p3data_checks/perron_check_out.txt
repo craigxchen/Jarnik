@@ -1,0 +1,34 @@
+M= 8 t=0 X= 16  W_cut/2lam = 1.05888  (lb/2lam = 1.05888)  sum lam<s,u>^2 = 2.4925  u-slack = -0.0000  identity err -2.3e-15
+M= 8 t=0 X= 32  W_cut/2lam = 1.13322  (lb/2lam = 1.13322)  sum lam<s,u>^2 = 9.3289  u-slack = 0.4475  identity err 4.4e-14
+M= 8 t=1 X= 16  W_cut/2lam = 1.08536  (lb/2lam = 1.08536)  sum lam<s,u>^2 = 3.4402  u-slack = 0.0000  identity err -3.2e-14
+M= 8 t=1 X= 32  W_cut/2lam = 1.04649  (lb/2lam = 1.04649)  sum lam<s,u>^2 = 3.1105  u-slack = -0.0000  identity err 1.3e-14
+M= 8 t=2 X= 16  W_cut/2lam = 1.08535  (lb/2lam = 1.08535)  sum lam<s,u>^2 = 3.4797  u-slack = 0.0000  identity err -2.2e-14
+M= 8 t=2 X= 32  W_cut/2lam = 1.08979  (lb/2lam = 1.08979)  sum lam<s,u>^2 = 5.5685  u-slack = 0.0000  identity err -1.4e-14
+M= 8 t=3 X= 16  W_cut/2lam = 1.05182  (lb/2lam = 1.05182)  sum lam<s,u>^2 = 2.7249  u-slack = 0.0000  identity err -2.7e-15
+M= 8 t=3 X= 32  W_cut/2lam = 1.07486  (lb/2lam = 1.07486)  sum lam<s,u>^2 = 6.5975  u-slack = -0.0000  identity err -3.7e-15
+M= 8 t=4 X= 16  W_cut/2lam = 1.11191  (lb/2lam = 1.11191)  sum lam<s,u>^2 = 3.2151  u-slack = 0.8660  identity err -5.6e-15
+M= 8 t=4 X= 32  W_cut/2lam = 1.03411  (lb/2lam = 1.03411)  sum lam<s,u>^2 = 1.9530  u-slack = 0.0000  identity err 1.3e-14
+M= 8 t=5 X= 16  W_cut/2lam = 1.21146  (lb/2lam = 1.21146)  sum lam<s,u>^2 = 4.7906  u-slack = 1.0167  identity err -9.8e-15
+M= 8 t=5 X= 32  W_cut/2lam = 1.31248  (lb/2lam = 1.31248)  sum lam<s,u>^2 = 12.8449  u-slack = 2.1334  identity err -4.3e-14
+M=12 t=0 X= 24  W_cut/2lam = 1.01098  (lb/2lam = 1.01098)  sum lam<s,u>^2 = 1.0341  u-slack = -0.0000  identity err 6.5e-14
+M=12 t=0 X= 48  W_cut/2lam = 1.01806  (lb/2lam = 1.01806)  sum lam<s,u>^2 = 2.4256  u-slack = 0.0000  identity err 8.7e-15
+M=12 t=1 X= 24  W_cut/2lam = 1.02416  (lb/2lam = 1.02416)  sum lam<s,u>^2 = 1.7994  u-slack = 0.0000  identity err 5.9e-14
+M=12 t=1 X= 48  W_cut/2lam = 1.03453  (lb/2lam = 1.03453)  sum lam<s,u>^2 = 4.0440  u-slack = -0.0000  identity err 5.2e-14
+M=12 t=2 X= 24  W_cut/2lam = 1.00740  (lb/2lam = 1.00740)  sum lam<s,u>^2 = 0.5174  u-slack = 0.0000  identity err 1.5e-14
+M=12 t=2 X= 48  W_cut/2lam = 1.05064  (lb/2lam = 1.05064)  sum lam<s,u>^2 = 5.2571  u-slack = -0.0000  identity err -7.0e-14
+M=12 t=3 X= 24  W_cut/2lam = 1.03788  (lb/2lam = 1.03788)  sum lam<s,u>^2 = 3.5798  u-slack = 0.0000  identity err -8.2e-14
+M=12 t=3 X= 48  W_cut/2lam = 1.03086  (lb/2lam = 1.03086)  sum lam<s,u>^2 = 3.7398  u-slack = -0.0000  identity err 4.1e-14
+M=12 t=4 X= 24  W_cut/2lam = 1.05371  (lb/2lam = 1.05371)  sum lam<s,u>^2 = 4.3965  u-slack = 0.0000  identity err 2.6e-14
+M=12 t=4 X= 48  W_cut/2lam = 1.01625  (lb/2lam = 1.01625)  sum lam<s,u>^2 = 1.9059  u-slack = 0.0000  identity err -5.0e-14
+M=12 t=5 X= 24  W_cut/2lam = 1.03213  (lb/2lam = 1.03213)  sum lam<s,u>^2 = 2.6179  u-slack = 0.0000  identity err 6.4e-14
+M=12 t=5 X= 48  W_cut/2lam = 1.02523  (lb/2lam = 1.02523)  sum lam<s,u>^2 = 2.6518  u-slack = 0.0000  identity err 1.6e-15
+M=20 t=0 X= 40  W_cut/2lam = 1.00001  (lb/2lam = 1.00001)  sum lam<s,u>^2 = 0.0027  u-slack = 0.0000  identity err -1.1e-13
+M=20 t=0 X= 80  W_cut/2lam = 1.01183  (lb/2lam = 1.01183)  sum lam<s,u>^2 = 3.0347  u-slack = -0.0000  identity err 2.4e-14
+M=20 t=1 X= 40  W_cut/2lam = 1.01388  (lb/2lam = 1.01388)  sum lam<s,u>^2 = 2.8387  u-slack = 0.0000  identity err -6.9e-15
+M=20 t=1 X= 80  W_cut/2lam = 1.00754  (lb/2lam = 1.00754)  sum lam<s,u>^2 = 1.9073  u-slack = 0.0000  identity err 1.1e-13
+M=20 t=2 X= 40  W_cut/2lam = 1.00795  (lb/2lam = 1.00795)  sum lam<s,u>^2 = 1.6135  u-slack = -0.0000  identity err -1.2e-13
+M=20 t=2 X= 80  W_cut/2lam = 1.01302  (lb/2lam = 1.01302)  sum lam<s,u>^2 = 3.3277  u-slack = 0.0000  identity err 3.2e-13
+M=20 t=3 X= 40  W_cut/2lam = 1.00003  (lb/2lam = 1.00003)  sum lam<s,u>^2 = 0.0058  u-slack = -0.0000  identity err -1.1e-13
+M=20 t=3 X= 80  W_cut/2lam = 1.00002  (lb/2lam = 1.00002)  sum lam<s,u>^2 = 0.0049  u-slack = 0.0000  identity err -7.8e-14
+M=24 t=0 X= 48  W_cut/2lam = 1.00000  (lb/2lam = 1.00000)  sum lam<s,u>^2 = 0.0000  u-slack = -0.0000  identity err -1.6e-13
+M=24 t=1 X= 48  W_cut/2lam = 1.00000  (lb/2lam = 1.00000)  sum lam<s,u>^2 = 0.0000  u-slack = -0.0000  identity err -1.5e-13

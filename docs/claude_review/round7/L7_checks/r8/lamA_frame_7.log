@@ -1,0 +1,40 @@
+   fin 20 inf -30 ncomp 35 degL 0
+   fin 20 inf -30 ncomp 35 degL 0
+   fin 20 inf -30 ncomp 35 degL 0
+mu [-10, -10, -10]
+['O', 'a1', 'a2'] [-9, -9, -9]  diff from mu: 1
+['O', 'a1', 'b1'] [-10, -10, -10]  diff from mu: 0
+['O', 'a1', 'b2'] [-10, -10, -10]  diff from mu: 0
+['O', 'a1', 'c1'] [-10, -10, -10]  diff from mu: 0
+['O', 'a1', 'c2'] [-9, -9, -9]  diff from mu: 1
+['O', 'a2', 'b1'] [-10, -10, -10]  diff from mu: 0
+['O', 'a2', 'b2'] [-10, -10, -10]  diff from mu: 0
+['O', 'a2', 'c1'] [-9, -9, -9]  diff from mu: 1
+['O', 'a2', 'c2'] [-10, -10, -10]  diff from mu: 0
+['O', 'b1', 'b2'] [-9, -9, -9]  diff from mu: 1
+['O', 'b1', 'c1'] [-10, -10, -10]  diff from mu: 0
+['O', 'b1', 'c2'] [-10, -10, -10]  diff from mu: 0
+['O', 'b2', 'c1'] [-10, -10, -10]  diff from mu: 0
+['O', 'b2', 'c2'] [-10, -10, -10]  diff from mu: 0
+['O', 'c1', 'c2'] [-9, -9, -9]  diff from mu: 1
+['a1', 'a2', 'b1'] [-10, -10, -10]  diff from mu: 0
+['a1', 'a2', 'b2'] [-10, -10, -10]  diff from mu: 0
+['a1', 'a2', 'c1'] [-10, -10, -10]  diff from mu: 0
+['a1', 'a2', 'c2'] [-10, -10, -10]  diff from mu: 0
+['a1', 'b1', 'b2'] [-10, -10, -10]  diff from mu: 0
+['a1', 'b1', 'c1'] [-9, -9, -9]  diff from mu: 1
+['a1', 'b1', 'c2'] [-9, -9, -9]  diff from mu: 1
+['a1', 'b2', 'c1'] [-9, -9, -9]  diff from mu: 1
+['a1', 'b2', 'c2'] [-9, -9, -9]  diff from mu: 1
+['a1', 'c1', 'c2'] [-10, -10, -10]  diff from mu: 0
+['a2', 'b1', 'b2'] [-11, -11, -11]  diff from mu: -1
+['a2', 'b1', 'c1'] [-9, -9, -9]  diff from mu: 1
+['a2', 'b1', 'c2'] [-11, -11, -11]  diff from mu: -1
+['a2', 'b2', 'c1'] [-9, -9, -9]  diff from mu: 1
+['a2', 'b2', 'c2'] [-11, -11, -11]  diff from mu: -1
+['a2', 'c1', 'c2'] [-10, -10, -10]  diff from mu: 0
+['b1', 'b2', 'c1'] [-10, -10, -10]  diff from mu: 0
+['b1', 'b2', 'c2'] [-11, -11, -11]  diff from mu: -1
+['b1', 'c1', 'c2'] [-10, -10, -10]  diff from mu: 0
+['b2', 'c1', 'c2'] [-10, -10, -10]  diff from mu: 0
+lambda_A(beta) = sum_T lambda(mu_T) - 32 lambda(mu) = -23

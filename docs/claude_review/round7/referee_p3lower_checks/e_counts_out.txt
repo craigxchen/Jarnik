@@ -1,0 +1,15 @@
+E facts: OK
+per-modulus parity gain ratios (worst n0):
+  M=  10 m=   8: parity-free E(M,m)=    2, worst parity count=    8, ratio=4.0
+  M=  10 m=  12: parity-free E(M,m)=    0, worst parity count=    4, ratio=inf
+  M=  10 m=  16: parity-free E(M,m)=    0, worst parity count=    2, ratio=inf
+  M=  40 m=  36: parity-free E(M,m)=    4, worst parity count=   26, ratio=6.5
+  M=  40 m=  60: parity-free E(M,m)=    0, worst parity count=   10, ratio=inf
+  M= 100 m=  12: parity-free E(M,m)=  368, worst parity count=  784, ratio=2.13
+  M= 100 m= 120: parity-free E(M,m)=    0, worst parity count=   40, ratio=inf
+aggregated B.3(4) main terms / (M log M), X = 3M, all odd q <= X assumed coprime to N:
+  M=   100: parity-free 2.082, balanced parity 2.082, full bias 5.322; aggregated ratio bias/free = 2.556
+  M=  1000: parity-free 2.689, balanced parity 2.689, full bias 6.175; aggregated ratio bias/free = 2.297
+  M= 10000: parity-free 3.013, balanced parity 3.013, full bias 6.628; aggregated ratio bias/free = 2.200
+  M=100000: parity-free 3.210, balanced parity 3.210, full bias 6.902; aggregated ratio bias/free = 2.150
+ALL E CHECKS DONE

@@ -1,0 +1,26 @@
+M=20 t=0 X=40: W_ils 362.92 (r 92, 53 at floor) prime 590.5241332780618 (delta 0.25) 198s
+M=20 t=1 X=40: W_ils 362.77 (r 89, 47 at floor) prime 572.9502955831246 (delta 0.25) 203s
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ~~~~^^^^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round7/p3data_checks/ils_run.py", line 74, in run
+    cols, delta, worst = realise_fixed_S(D, b['S'], plist, mod, X)
+                         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round7/p3data_checks/ils_run.py", line 51, in realise_fixed_S
+    floors = np.array([logs[k] - 0.02 for k in assign])
+                       ~~~~^^^
+IndexError: index 3000 is out of bounds for axis 0 with size 3000
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round7/p3data_checks/ils_run.py", line 91, in <module>
+    for rec in pool.imap_unordered(run, jobs):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/lib/python3.13/multiprocessing/pool.py", line 873, in next
+    raise value
+IndexError: index 3000 is out of bounds for axis 0 with size 3000

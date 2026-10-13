@@ -1,0 +1,4 @@
+M=24 t=1 X=96: Wcut None W_ils 674.59 (r 68, 36 at floor, pal3) prime 765.4543521146577 (delta 0.25) 517s
+M=24 t=0 X=96: Wcut None W_ils 742.89 (r 69, 34 at floor, pal3) prime 827.0539013093872 (delta 0.25) 527s
+M=24 t=1 X=48: Wcut 255.40464078343365 W_ils 565.08 (r 67, 33 at floor, pal3) prime 683.2435350157172 (delta 0.25) 536s
+M=24 t=0 X=48: Wcut 256.0702915942208 W_ils 595.01 (r 69, 32 at floor, pal3) prime 737.0953523338491 (delta 0.25) 559s

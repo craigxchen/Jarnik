@@ -1,0 +1,34 @@
+V_A lambda(mu) = -10  lambda(beta) = -23
+   lambda(mu_T) - lambda(mu): {'Oa1a2': 1, 'Oa1c2': 1, 'Oa2c1': 1, 'Ob1b2': 1, 'Oc1c2': 1, 'a1b1c1': 1, 'a1b1c2': 1, 'a1b2c1': 1, 'a1b2c2': 1, 'a2b1b2': -1, 'a2b1c1': 1, 'a2b1c2': -1, 'a2b2c1': 1, 'a2b2c2': -1, 'b1b2c2': -1}
+V_A lambda(mu) = -10  lambda(beta) = -23
+   lambda(mu_T) - lambda(mu): {'Oa1a2': 1, 'Oa1c2': 1, 'Oa2c1': 1, 'Ob1b2': 1, 'Oc1c2': 1, 'a1b1c1': 1, 'a1b1c2': 1, 'a1b2c1': 1, 'a1b2c2': 1, 'a2b1b2': -1, 'a2b1c1': 1, 'a2b1c2': -1, 'a2b2c1': 1, 'a2b2c2': -1, 'b1b2c2': -1}
+V_A lambda(mu) = -10  lambda(beta) = -23
+   lambda(mu_T) - lambda(mu): {'Oa1a2': 1, 'Oa1c2': 1, 'Oa2c1': 1, 'Ob1b2': 1, 'Oc1c2': 1, 'a1b1c1': 1, 'a1b1c2': 1, 'a1b2c1': 1, 'a1b2c2': 1, 'a2b1b2': -1, 'a2b1c1': 1, 'a2b1c2': -1, 'a2b2c1': 1, 'a2b2c2': -1, 'b1b2c2': -1}
+F_O lambda(mu) = 2  lambda(beta) = -9
+   lambda(mu_T) - lambda(mu): {'Oa1a2': -1, 'Oa1b1': -1, 'Oa1b2': -1, 'Oa1c1': -1, 'Oa1c2': -1, 'Oa2b1': -1, 'Oa2b2': -1, 'Oa2c1': -1, 'Oa2c2': -1, 'Ob1b2': -1, 'Ob1c1': -1, 'Ob1c2': -1, 'Ob2c1': -1, 'Ob2c2': -1, 'Oc1c2': -1}
+F_a1 lambda(mu) = 2  lambda(beta) = -9
+   lambda(mu_T) - lambda(mu): {'Oa1a2': -1, 'Oa1b1': -1, 'Oa1b2': -1, 'Oa1c1': -1, 'Oa1c2': -1, 'a1a2b1': -1, 'a1a2b2': -1, 'a1a2c1': -1, 'a1a2c2': -1, 'a1b1b2': -1, 'a1b1c1': -1, 'a1b1c2': -1, 'a1b2c1': -1, 'a1b2c2': -1, 'a1c1c2': -1}
+F_a2 lambda(mu) = 2  lambda(beta) = -9
+   lambda(mu_T) - lambda(mu): {'Oa1a2': -1, 'Oa2b1': -1, 'Oa2b2': -1, 'Oa2c1': -1, 'Oa2c2': -1, 'a1a2b1': -1, 'a1a2b2': -1, 'a1a2c1': -1, 'a1a2c2': -1, 'a2b1b2': -1, 'a2b1c1': -1, 'a2b1c2': -1, 'a2b2c1': -1, 'a2b2c2': -1, 'a2c1c2': -1}
+F_b1 lambda(mu) = 2  lambda(beta) = -9
+   lambda(mu_T) - lambda(mu): {'Oa1b1': -1, 'Oa2b1': -1, 'Ob1b2': -1, 'Ob1c1': -1, 'Ob1c2': -1, 'a1a2b1': -1, 'a1b1b2': -1, 'a1b1c1': -1, 'a1b1c2': -1, 'a2b1b2': -1, 'a2b1c1': -1, 'a2b1c2': -1, 'b1b2c1': -1, 'b1b2c2': -1, 'b1c1c2': -1}
+F_b2 lambda(mu) = 2  lambda(beta) = -9
+   lambda(mu_T) - lambda(mu): {'Oa1b2': -1, 'Oa2b2': -1, 'Ob1b2': -1, 'Ob2c1': -1, 'Ob2c2': -1, 'a1a2b2': -1, 'a1b1b2': -1, 'a1b2c1': -1, 'a1b2c2': -1, 'a2b1b2': -1, 'a2b2c1': -1, 'a2b2c2': -1, 'b1b2c1': -1, 'b1b2c2': -1, 'b2c1c2': -1}
+F_c1 lambda(mu) = 2  lambda(beta) = -9
+   lambda(mu_T) - lambda(mu): {'Oa1c1': -1, 'Oa2c1': -1, 'Ob1c1': -1, 'Ob2c1': -1, 'Oc1c2': -1, 'a1a2c1': -1, 'a1b1c1': -1, 'a1b2c1': -1, 'a1c1c2': -1, 'a2b1c1': -1, 'a2b2c1': -1, 'a2c1c2': -1, 'b1b2c1': -1, 'b1c1c2': -1, 'b2c1c2': -1}
+F_c2 lambda(mu) = 2  lambda(beta) = -9
+   lambda(mu_T) - lambda(mu): {'Oa1c2': -1, 'Oa2c2': -1, 'Ob1c2': -1, 'Ob2c2': -1, 'Oc1c2': -1, 'a1a2c2': -1, 'a1b1c2': -1, 'a1b2c2': -1, 'a1c1c2': -1, 'a2b1c2': -1, 'a2b2c2': -1, 'a2c1c2': -1, 'b1b2c2': -1, 'b1c1c2': -1, 'b2c1c2': -1}
+F_O lambda(mu) = 2  lambda(beta) = -9
+   lambda(mu_T) - lambda(mu): {'Oa1a2': -1, 'Oa1b1': -1, 'Oa1b2': -1, 'Oa1c1': -1, 'Oa1c2': -1, 'Oa2b1': -1, 'Oa2b2': -1, 'Oa2c1': -1, 'Oa2c2': -1, 'Ob1b2': -1, 'Ob1c1': -1, 'Ob1c2': -1, 'Ob2c1': -1, 'Ob2c2': -1, 'Oc1c2': -1}
+F_a1 lambda(mu) = 2  lambda(beta) = -9
+   lambda(mu_T) - lambda(mu): {'Oa1a2': -1, 'Oa1b1': -1, 'Oa1b2': -1, 'Oa1c1': -1, 'Oa1c2': -1, 'a1a2b1': -1, 'a1a2b2': -1, 'a1a2c1': -1, 'a1a2c2': -1, 'a1b1b2': -1, 'a1b1c1': -1, 'a1b1c2': -1, 'a1b2c1': -1, 'a1b2c2': -1, 'a1c1c2': -1}
+F_a2 lambda(mu) = 2  lambda(beta) = -9
+   lambda(mu_T) - lambda(mu): {'Oa1a2': -1, 'Oa2b1': -1, 'Oa2b2': -1, 'Oa2c1': -1, 'Oa2c2': -1, 'a1a2b1': -1, 'a1a2b2': -1, 'a1a2c1': -1, 'a1a2c2': -1, 'a2b1b2': -1, 'a2b1c1': -1, 'a2b1c2': -1, 'a2b2c1': -1, 'a2b2c2': -1, 'a2c1c2': -1}
+F_b1 lambda(mu) = 2  lambda(beta) = -9
+   lambda(mu_T) - lambda(mu): {'Oa1b1': -1, 'Oa2b1': -1, 'Ob1b2': -1, 'Ob1c1': -1, 'Ob1c2': -1, 'a1a2b1': -1, 'a1b1b2': -1, 'a1b1c1': -1, 'a1b1c2': -1, 'a2b1b2': -1, 'a2b1c1': -1, 'a2b1c2': -1, 'b1b2c1': -1, 'b1b2c2': -1, 'b1c1c2': -1}
+F_b2 lambda(mu) = 2  lambda(beta) = -9
+   lambda(mu_T) - lambda(mu): {'Oa1b2': -1, 'Oa2b2': -1, 'Ob1b2': -1, 'Ob2c1': -1, 'Ob2c2': -1, 'a1a2b2': -1, 'a1b1b2': -1, 'a1b2c1': -1, 'a1b2c2': -1, 'a2b1b2': -1, 'a2b2c1': -1, 'a2b2c2': -1, 'b1b2c1': -1, 'b1b2c2': -1, 'b2c1c2': -1}
+F_c1 lambda(mu) = 2  lambda(beta) = -9
+   lambda(mu_T) - lambda(mu): {'Oa1c1': -1, 'Oa2c1': -1, 'Ob1c1': -1, 'Ob2c1': -1, 'Oc1c2': -1, 'a1a2c1': -1, 'a1b1c1': -1, 'a1b2c1': -1, 'a1c1c2': -1, 'a2b1c1': -1, 'a2b2c1': -1, 'a2c1c2': -1, 'b1b2c1': -1, 'b1c1c2': -1, 'b2c1c2': -1}
+F_c2 lambda(mu) = 2  lambda(beta) = -9
+   lambda(mu_T) - lambda(mu): {'Oa1c2': -1, 'Oa2c2': -1, 'Ob1c2': -1, 'Ob2c2': -1, 'Oc1c2': -1, 'a1a2c2': -1, 'a1b1c2': -1, 'a1b2c2': -1, 'a1c1c2': -1, 'a2b1c2': -1, 'a2b2c2': -1, 'a2c1c2': -1, 'b1b2c2': -1, 'b1c1c2': -1, 'b2c1c2': -1}

@@ -1,0 +1,14 @@
+A/A' (Thm 1.1(1) + forced unit parity at q=+-3 mod 8): True cases 5277
+B (Thm 1.1(2) exact probability 8/m or 0, r=2): True
+  q=  7 m=  8: v=(1)e_j collides for all even labels: True; label 1 avoids: True
+  q= 17 m= 16: v=(2)e_j collides for all even labels: True; label 1 avoids: True
+  q= 23 m= 24: v=(3)e_j collides for all even labels: True; label 1 avoids: True
+  q= 31 m= 32: v=(4)e_j collides for all even labels: True; label 1 avoids: True
+  q= 41 m= 40: v=(5)e_j collides for all even labels: True; label 1 avoids: True
+  q= 47 m= 48: v=(6)e_j collides for all even labels: True; label 1 avoids: True
+  q= 71 m= 72: v=(9)e_j collides for all even labels: True; label 1 avoids: True
+  q= 73 m= 72: v=(9)e_j collides for all even labels: True; label 1 avoids: True
+  q= 79 m= 80: v=(10)e_j collides for all even labels: True; label 1 avoids: True
+C genuine q=7: 553 primes p=1 mod 4 with (p/7)=1 below 2e4; all have 7 | D_s(pi) for some s: True
+examples: [(29, (2, 5), [5, -3, 2, 7]), (37, (1, 6), [6, -5, 1, 7]), (53, (2, 7), [7, -5, 2, 9])]
+ALL OK

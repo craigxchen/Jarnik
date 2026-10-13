@@ -1,0 +1,5 @@
+author code on referee adaptive set K=3.0: Counter({'P': 3799, 'S': 217, 'T': 10}) certs 0 status Counter({0: 163})
+author code on referee adaptive set K=3.5: Counter({'P': 1527, 'S': 171, 'T': 6}) certs 0 status Counter({0: 163})
+author code on ../referee_p3G_checks/adaptive_primes_M644_K4.0_s0.json: {'S': 454, 'T': 3, 'P': 8499} certs 0 status {0: 643}
+author code on ../referee_p3G_checks/adaptive_primes_M324_K3.5_s0.json: {'S': 319, 'T': 6, 'P': 6084} certs 0 status {0: 323}
+author code on ../referee_p3G_checks/adaptiveT_primes_M164_K2.75_s0.json: {'S': 289, 'T': 54, 'P': 6699} certs 0 status {0: 163}

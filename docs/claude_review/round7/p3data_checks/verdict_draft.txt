@@ -1,0 +1,30 @@
+**Growth: no proof of `M = o(log R/loglog R)`, and no new barrier theorem for actual circles.**
+Question (Q) is not decided. This round locates the `log^2 M/loglog M` effect more precisely:
+* it is not in the pair LP;
+* it is not in separation;
+* on small-`M` evidence, it is not in discreteness;
+* it sits in the coupling between the residues and the exponent profile.
+
+| # | statement | class | type |
+|---|---|---|---|
+| 1 | Genuine unit-1 demands of the Paley profiles with actual primes match the independent residue model in every statistic tested. Mean `~ 2 log X`; `lambda_max(D) = (1.5-2.0) M log M` and `max_x D_x = (2.0-2.8) M log M`, both flat in `M`; `D_max` grows faster than `log M` (`D_max/H` from 2.2 to 3.7, `H = log^2 M/loglog M`, `M <= 84`). Only uniform margins pay for `D_max`: `(M-1) D_max/lambda_max` grows from 3.6 to 5.6 (§2) | data of actual lattice points (P3-gen members) | exact per trial; aggregates are evidence |
+| 2 | Identity (6.1): `W - 2 lambda_max = imbalance + u-weighted slack` for every cut measure and every profile. The real-weight optimum equals `2 lambda_max(D)` iff `2(lambda_max I - D)` is a combination of `u`-balanced cut matrices (Lemma 6.3) | any `D >= 0` | proved |
+| 3 | For genuine `D`, `W_cut = 2 lambda_max(D) + O(1)`: excess 0-15, ratio `<= 1.014` for `M >= 20`. From `M = 12` on, the optimal margins are exactly tight, and the excess is pure imbalance (§6.2) | (Q), genuine `D`, `M <= 24` | certified LP values (evidence about `M -> infinity`) |
+| 4 | Discreteness: (4.2 numbers) | (Q), genuine `D`, `M <= 24` | heuristic upper bounds verified exactly; lower bound `W_cut` (evidence) |
+| 5 | Separation costs `O(M)` at real weights and `O(M log M)` at the prime floor (Prop. 6.2); a term of order `M` is unavoidable (Prop. 3.2) | (Q) / all members of `A_X` | proved |
+| 6 | Margins and character margins are additive under concatenation (Lemma 6.1); character margins of a fitted profile cannot be repaired cheaply that way | any profiles | proved |
+| 7 | Against residues that are uniform relative to a fixed profile, every profile (adapted or not, any weights, any number of columns) with `W <= (2 - eps) M log^2 M/loglog M` satisfies all pair inequalities with probability `<= 4 M^(-eps/16)` (Thm 5.1, Cor. 5.2) | model `U_X` | proved |
+| 8 | The fitted `M = 8` profiles are infeasible for their own genuine residues (0 of 400 conjugation choices each); at equal `W`, uniform margins beat Paley profiles, which beat adapted ones (§5.1) | P3-gen data | exact per trial; evidence |
+| 9 | Prime selection (choosing among `K >= 4` primes per column) is not excluded by the random-residue method (§6.3 remark) | -- | proved limitation of the method |
+
+**What this means for the conjecture.**
+* In the (Q) order, where `D` is fixed and the profile is fitted, nothing in the data points to
+  growth. The pair channel costs the Perron bound `~ (3-4) M log M` plus a small discrete overhead.
+* In the P3-gen order, where `D` comes from the profile's own primes, independent residues force
+  `(2 - o(1)) M log^2 M/loglog M` (item 7).
+* So a growth proof through pair data needs a statement about **actual** circles: their prime
+  residues cannot follow their exponent profile (an `H`-type hypothesis for adapted profiles).
+  A construction at `W = O(M log M)` needs the opposite: prime selection that steers residues modulo
+  many `q ~ M` at once.
+* Both directions remain open. Question (Q) itself is now evidence-only and very likely "yes"; it is
+  no longer the bottleneck.

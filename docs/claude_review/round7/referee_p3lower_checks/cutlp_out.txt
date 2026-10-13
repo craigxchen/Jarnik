@@ -1,0 +1,45 @@
+== sandwich on test families ==
+uniform M=4              Wcut=   6.0000 dual=   6.0000 2lmax=   6.0000 pi*lmax=   9.4248 ratio=1.0000 supp=3 (binom=6) OK
+heavy pair M=4           Wcut=  23.0000 dual=  23.0000 2lmax=  21.1980 pi*lmax=  33.2978 ratio=1.0850 supp=3 (binom=6) OK
+rand exp M=4             Wcut=  13.3161 dual=  13.3161 2lmax=  10.2823 pi*lmax=  16.1514 ratio=1.2951 supp=4 (binom=6) OK
+rand sparse M=4          Wcut=   5.0389 dual=   5.0389 2lmax=   3.6053 pi*lmax=   5.6632 ratio=1.3976 supp=4 (binom=6) OK
+residues X=3M M=4        Wcut=  19.3133 dual=  19.3133 2lmax=  13.3811 pi*lmax=  21.0190 ratio=1.4433 supp=4 (binom=6) OK
+residues X=M^2 M=4       Wcut=  34.9530 dual=  34.9530 2lmax=  26.9771 pi*lmax=  42.3755 ratio=1.2957 supp=5 (binom=6) OK
+uniform M=5              Wcut=  10.0000 dual=  10.0000 2lmax=   8.0000 pi*lmax=  12.5664 ratio=1.2500 supp=10 (binom=10) OK
+heavy pair M=5           Wcut=  23.0000 dual=  23.0000 2lmax=  21.3107 pi*lmax=  33.4748 ratio=1.0793 supp=7 (binom=10) OK
+rand exp M=5             Wcut=  11.3383 dual=  11.3383 2lmax=   9.3492 pi*lmax=  14.6857 ratio=1.2128 supp=9 (binom=10) OK
+rand sparse M=5          Wcut=   6.0626 dual=   6.0626 2lmax=   5.2737 pi*lmax=   8.2839 ratio=1.1496 supp=10 (binom=10) OK
+residues X=3M M=5        Wcut=  23.8130 dual=  23.8130 2lmax=  18.5186 pi*lmax=  29.0890 ratio=1.2859 supp=8 (binom=10) OK
+residues X=M^2 M=5       Wcut=  43.2256 dual=  43.2256 2lmax=  35.9969 pi*lmax=  56.5437 ratio=1.2008 supp=9 (binom=10) OK
+uniform M=6              Wcut=  10.0000 dual=  10.0000 2lmax=  10.0000 pi*lmax=  15.7080 ratio=1.0000 supp=10 (binom=15) OK
+heavy pair M=6           Wcut=  23.0000 dual=  23.0000 2lmax=  21.4340 pi*lmax=  33.6684 ratio=1.0731 supp=9 (binom=15) OK
+rand exp M=6             Wcut=  10.4715 dual=  10.4715 2lmax=   9.1825 pi*lmax=  14.4238 ratio=1.1404 supp=13 (binom=15) OK
+rand sparse M=6          Wcut=   6.5886 dual=   6.5886 2lmax=   5.1548 pi*lmax=   8.0972 ratio=1.2781 supp=11 (binom=15) OK
+residues X=3M M=6        Wcut=  34.0728 dual=  34.0728 2lmax=  29.1857 pi*lmax=  45.8449 ratio=1.1674 supp=13 (binom=15) OK
+residues X=M^2 M=6       Wcut=  79.0954 dual=  79.0954 2lmax=  67.0225 pi*lmax= 105.2787 ratio=1.1801 supp=15 (binom=15) OK
+uniform M=7              Wcut=  14.0000 dual=  14.0000 2lmax=  12.0000 pi*lmax=  18.8496 ratio=1.1667 supp=7 (binom=21) OK
+heavy pair M=7           Wcut=  23.0000 dual=  23.0000 2lmax=  21.5692 pi*lmax=  33.8808 ratio=1.0663 supp=12 (binom=21) OK
+rand exp M=7             Wcut=  14.7898 dual=  14.7898 2lmax=  12.8860 pi*lmax=  20.2413 ratio=1.1477 supp=21 (binom=21) OK
+rand sparse M=7          Wcut=   2.7582 dual=   2.7582 2lmax=   2.7085 pi*lmax=   4.2545 ratio=1.0184 supp=7 (binom=21) OK
+residues X=3M M=7        Wcut=  65.6467 dual=  65.6467 2lmax=  55.5460 pi*lmax=  87.2515 ratio=1.1818 supp=19 (binom=21) OK
+residues X=M^2 M=7       Wcut=  66.2949 dual=  66.2949 2lmax=  60.1706 pi*lmax=  94.5157 ratio=1.1018 supp=21 (binom=21) OK
+uniform M=8              Wcut=  14.0000 dual=  14.0000 2lmax=  14.0000 pi*lmax=  21.9911 ratio=1.0000 supp=7 (binom=28) OK
+heavy pair M=8           Wcut=  23.0000 dual=  23.0000 2lmax=  21.7178 pi*lmax=  34.1142 ratio=1.0590 supp=14 (binom=28) OK
+rand exp M=8             Wcut=  18.0031 dual=  18.0031 2lmax=  15.9620 pi*lmax=  25.0730 ratio=1.1279 supp=27 (binom=28) OK
+rand sparse M=8          Wcut=   9.3684 dual=   9.3684 2lmax=   7.9264 pi*lmax=  12.4508 ratio=1.1819 supp=26 (binom=28) OK
+residues X=3M M=8        Wcut=  62.6297 dual=  62.6297 2lmax=  57.0052 pi*lmax=  89.5436 ratio=1.0987 supp=28 (binom=28) OK
+residues X=M^2 M=8       Wcut=  73.9665 dual=  73.9665 2lmax=  60.3738 pi*lmax=  94.8349 ratio=1.2251 supp=25 (binom=28) OK
+uniform M=9              Wcut=  18.0000 dual=  18.0000 2lmax=  16.0000 pi*lmax=  25.1327 ratio=1.1250 supp=36 (binom=36) OK
+heavy pair M=9           Wcut=  23.0000 dual=  23.0000 2lmax=  21.8815 pi*lmax=  34.3714 ratio=1.0511 supp=27 (binom=36) OK
+rand exp M=9             Wcut=  16.1665 dual=  16.1665 2lmax=  15.0652 pi*lmax=  23.6644 ratio=1.0731 supp=36 (binom=36) OK
+rand sparse M=9          Wcut=   9.3015 dual=   9.3015 2lmax=   7.8846 pi*lmax=  12.3851 ratio=1.1797 supp=34 (binom=36) OK
+residues X=3M M=9        Wcut=  88.6709 dual=  88.6709 2lmax=  83.2467 pi*lmax= 130.7636 ratio=1.0652 supp=36 (binom=36) OK
+residues X=M^2 M=9       Wcut= 103.3015 dual= 103.3015 2lmax=  97.0020 pi*lmax= 152.3704 ratio=1.0649 supp=36 (binom=36) OK
+ratio W_cut/(2 lmax) range on test families: [1.0000, 1.4433]
+== dual-certificate feasibility (exact over all cuts) ==
+dual certificates feasible
+== adversarial search for max W_cut/(2 lmax) (evidence) ==
+M=5: best ratio found 1.5000  (pi/2 = 1.5708)
+M=6: best ratio found 1.5000  (pi/2 = 1.5708)
+M=7: best ratio found 1.4994  (pi/2 = 1.5708)
+ALL THEOREM-A CHECKS PASSED

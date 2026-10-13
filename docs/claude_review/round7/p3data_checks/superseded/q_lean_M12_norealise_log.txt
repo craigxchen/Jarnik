@@ -1,0 +1,2 @@
+M=12 t=0 X=24: lam2 94.2 Wcut 95.3 (lb 95.3) sc 142.35830171778122 prime None r None ok None char4 None | Wcut_sep 141.2 | unif 348.2 (1209s)
+M=12 t=0 X=48: lam2 134.3 Wcut 136.8 (lb 136.8) sc 182.47614842710342 prime None r None ok None char4 None | Wcut_sep 186.4 | unif 422.3 (1209s)

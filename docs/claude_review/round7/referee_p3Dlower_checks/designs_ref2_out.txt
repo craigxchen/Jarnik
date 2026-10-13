@@ -1,0 +1,10 @@
+M=400 r=400 X=1200 #moduli=195; budget w(v)/2 ~ 1.5 k log M (+0.35 per k)
+  RAND  correct per-unit: k=1..2:  4.84,  6.06    raw-class (author's bookkeeping):  4.84,  6.06
+  COH   correct per-unit: k=1..2:  0.79,  1.56    raw-class (author's bookkeeping):  1.48,  2.97
+  TWIST correct per-unit: k=1..2:  2.35,  5.39    raw-class (author's bookkeeping):  2.08,  5.30
+  GEN   correct per-unit: k=1..2:  1.61,  3.17    raw-class (author's bookkeeping):  3.03,  5.48
+M=800 r=800 X=2400 #moduli=356; budget w(v)/2 ~ 1.5 k log M (+0.35 per k)
+  RAND  correct per-unit: k=1..2:  4.94,  6.80    raw-class (author's bookkeeping):  4.08,  6.78
+  COH   correct per-unit: k=1..2:  0.78,  1.51    raw-class (author's bookkeeping):  1.45,  2.90
+  TWIST correct per-unit: k=1..2:  2.67,  5.81    raw-class (author's bookkeeping):  2.20,  6.19
+  GEN   correct per-unit: k=1..2:  1.60,  3.15    raw-class (author's bookkeeping):  3.00,  6.17

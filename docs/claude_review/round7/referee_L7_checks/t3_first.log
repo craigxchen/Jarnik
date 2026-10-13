@@ -1,0 +1,7 @@
+x = (6, -6, -3, -5, 2, 0, 1)  distinct classes: 1260  time 67s
+sum comp = -9576  avg = -38/5  min -12  max 2
+value distribution: [(-12, 6), (-11, 44), (-10, 188), (-9, 228), (-8, 312), (-7, 172), (-6, 93), (-5, 90), (-4, 52), (-3, 44), (-2, 16), (-1, 10), (0, 4), (2, 1)]
+forgetful validation mismatches (Lemma 4.1 vs count), over 7*#classes: 0
+min #nonzero W_k: 35
+
+[exited with code 0]

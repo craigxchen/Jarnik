@@ -1,0 +1,7 @@
+{"M": 164, "K": 3.75, "seed": 0, "target_r": 163, "got": 163, "candidates": 252, "outcomes": {"ok": 163, "tie": 66, "seed1": 16, "seed2": 1, "walk": 6}, "secs": 0.1}
+{"M": 164, "K": 3.5, "seed": 0, "target_r": 163, "got": 163, "candidates": 404, "outcomes": {"seed1": 28, "ok": 163, "tie": 173, "walk": 35, "seed2": 5}, "secs": 0.3}
+{"M": 164, "K": 3.25, "seed": 0, "target_r": 163, "got": 163, "candidates": 2360, "outcomes": {"tie": 1195, "ok": 163, "seed1": 247, "seed2": 122, "walk": 628, "dbl": 5}, "secs": 2.3}
+{"M": 164, "K": 3.0, "seed": 0, "target_r": 163, "got": 163, "candidates": 79625, "outcomes": {"ok": 163, "tie": 20024, "seed1": 10013, "walk": 35628, "seed2": 13427, "dbl": 370}, "secs": 107.2}
+Terminated
+
+[exited with code 143]

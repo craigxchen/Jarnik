@@ -1,0 +1,27 @@
+# referee notes p3Dlower (scratch)
+- Thm1.1(1): correct as stated (m_v invariant). But at q=+-3 mod 8 parity forces unit PARITY: s = <v,nu(q)> mod 2 (iota odd). Per-unit height cond sees units -> Remark 1.2 "parity-based lower bound can only use q=+-1 mod 8" overstated; effect only constant factor (2 units instead of 4)? check nu_s.
+- Thm1.1(2): prob 8/m vs 4/m correct (gcd(v,m/2)=1 forces v not all even since 8|m).
+- Thm2.1: algebra verified by hand (F_y + Lambda_y; (2.2); norms). Item 4 only point-level; Cor 2.2 is reduction not refutation: twin labels Lambda still constrained -> (M1) "false" is partial.
+- Prop3.1: pigeonhole fine; constant 2 = prod nu_s^{-1} (check nu_s: sqrt2 for odd s?). Consequence W >= M X/(4(h+2)).
+- Thm3.2: QR-pattern + GRH Chebotarev; fine modulo: Frobenius<->(n/q)=-1 only for q not| n (handled by count > omega(n)); log d_L bound ok (d_L <= 256 n^2). Attribution: classical (LMO 1979 least prime / Bach). (3.3) only LEVEL 1 -> Cor 3.3 certificate at higher levels a>=2 not implied (check Lemma 4.2).
+- Cor 3.3 "never certify": only the crude |D| bound; X-smooth part not addressed (author acknowledges).
+- Thm1.1(2) heading "only as a veto" FALSE as description: at q=+-1 mod 8 with nu_j=0, ell_j even, v=(m_q/8)e_j collides for EVERY parity-respecting ell (unconstrained ell_j odd avoids). q=7 (m=8): v=e_j collides whenever (p_j/7)=1. Genuine check: 29=(5+2i): X+Y=7. 37: 1+6i: X+Y=7; 53: 7+2i X=7. Formal stmt correct; Lemma 5.1 excludes via gcd hyp. Summary/table drop gcd hyp. Growth-harmless (torsion type, factor 2).
+- Lemma 5.1 nearly vacuous: |V|<m_q/8 <= X/8, but V of interest has (2r)^k >> X. Meta-claim "counting cannot force concentration" not a theorem -> (M2) "proved failure" overstated.
+- (M1) "false" overstated: only free labels unconstrained; twin labels (M of r) carry the mechanism; author's own heuristic §5.2 last row says twin channel gives random rate -> supports mechanism.
+- Lemma4.2: D_s check OK (W - i^s conj W = 2iY,(1-i)(X-Y),2X,(1+i)(X+Y)); nu_s^{-1}=1 even s, sqrt2 odd s => prod=2 OK.
+- prod_s' |D_s'(Z)| <= |Z|^4/4 actually (sin4theta), 2|Z|^4 loose fine.
+- Cor4.4 algebra verified. "Nothing certified for k>k1" is loose (sufficient condition only).
+- Def4.1 "admissible in P3-all*" = admissible residue data only, not membership.
+- NOVELTY: Thm2.1 decoupling = sharp.md Lemma 6.3(2) (fibre parametrised by non-twin labels, u, t; twin labels solved) + Lemma 6.2 (c') + sharp §6.6 last para ("With twins, M labels are always solved from the point design"). Not cited as such.
+- §5.1 "pigeonhole forces only average demands" = sharp.md §6.7 verbatim idea.
+- Random fibre tau: Prop6.5 lower (2-eps) any X>=M; Thm 6.4 upper (2A+o(1)). Table "(2+o(1))" exact only at A=1.
+- Prop 3.1 Consequence: additive labels at q=+-1 mod 8 parity-fit requires nu(q) in {0, lambda mod 2} -> (p_j p_k/q)=1 for all q=+-1 mod8<=X for j,k same lambda parity -> under GRH impossible (same as Thm3.2). So admissible additive designs exist only on q=+-3 mod 8 => constant 1/8 not 1/4. Growth irrelevant.
+- Cor3.3: certificate needs coherence at top level (3.3 is level 1 only) and nondegeneracy D_s(Z_v)!=0 (zeta_j general Gaussian ints, e.g. zeta1=zeta2 -> v=e1-e2 has D_0=0).
+- §0 item 2 "Certified designs cannot reach O(M log M)" / "any fake at O(M log M) must use uncertified labels": genuine labels (actual circles) are certified per §3 def (zero slack). Literal reading would imply growth theorem. Only proved: crude certificates can't PROVE membership.
+- EVIDENCE BUG (confirmed): designs.py classifies unit by u=<v,ell>/(m/4) without normalising by iota=log i, which is m/4 at 21 and 3m/4 at 13 of the q<150 (author's generators). So "per-unit" odd-unit demand mixes i and -i across q. My designs_ref.py reproduces the author's numbers EXACTLY in raw-class mode (COH 1.63,2.93,4.89; GEN 2.51,4.56,6.38; TWIST 2.37,5.04,6.77 at M=50) and gives correct values: M=50 GEN 1.66,3.25,4.80; COH 0.92,1.79,2.61; TWIST 1.85,5.04,6.77; RAND 2.82,5.20,6.43. Author's GEN k=1=2.51 > genuine cap log(sqrt(2*2M^3))/logM=1.68 (gen_bound.py) => impossible for genuine labels. Readings "genuine sit with random", "twist matches coherent at k=1", "coherent ~1.5k" are artefacts.
+- check_parity.py ALL OK: Thm1.1(1),(2) verified exactly; A' forced unit parity at +-3 mod 8; C: veto counterexample q=7,...,79; 553 genuine primes at q=7.
+- check_twin.py ALL OK: Thm 2.1 all items; sparsity not preserved (factor 2).
+- check_twist.py ALL OK: Lemma 4.2 all levels (author: level 1 only), cap never violated, cap loose (ratio 0.14).
+- check_misc.py: G additive parity fit at most 1 q=+-1 mod 8 (r=20,60) -> Prop3.1 consequence vacuous at +-1 mod 8, constant 1/8. H Thm3.2 evidence ok. I Cor4.4 algebra ok.
+- p3lower referee: B.3 "factor 2 per modulus" FALSE as phrased; B.5 only single-modulus two-term (CRT/longer unproved). p3Dlower §5.1 repeats both.
+- referee_p3G: headline not established (selected primes defeat closures); p3Dlower genuine row cites p3G for tau~log^2/loglog.
