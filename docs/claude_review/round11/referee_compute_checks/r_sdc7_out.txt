@@ -1,0 +1,9 @@
+skew double core q=7: 14 distinct balanced cuts, every pair separated by exactly 8 (Plotkin-tight)
+base=0: |A|=757  dimV_p(A,m) for m=6..10: [232, 44, 1, 0, 0]
+base=1: |A|=757  dimV_p(A,m) for m=6..10: [232, 44, 1, 0, 0]
+base=2: |A|=757  dimV_p(A,m) for m=6..10: [232, 44, 1, 0, 0]
+base=3: |A|=757  dimV_p(A,m) for m=6..10: [232, 44, 1, 0, 0]
+base=4: |A|=757  dimV_p(A,m) for m=6..10: [232, 44, 1, 0, 0]
+base=5: |A|=757  dimV_p(A,m) for m=6..10: [232, 44, 1, 0, 0]
+base=6: |A|=757  dimV_p(A,m) for m=6..10: [232, 44, 1, 0, 0]
+base=7: |A|=757  dimV_p(A,m) for m=6..10: [232, 44, 1, 0, 0]

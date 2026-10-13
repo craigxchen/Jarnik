@@ -1,0 +1,23 @@
+Part 1: column identity on F_2^k (exact)
+  example k=3 a=(0, 0, 1) b=(0, 1, 0) class=(0, 0): (alpha,beta,gamma,delta) = ('1', '-1', '-1', '2')
+  example k=3 a=(0, 0, 1) b=(0, 1, 0) class=(0, 1): (alpha,beta,gamma,delta) = ('-1', '1', '1', '2')
+  example k=3 a=(0, 0, 1) b=(0, 1, 0) class=(1, 0): (alpha,beta,gamma,delta) = ('1', '1', '-1', '-2')
+  example k=3 a=(0, 0, 1) b=(0, 1, 0) class=(1, 1): (alpha,beta,gamma,delta) = ('1', '-1', '1', '-2')
+k=3: n=8, checked 168 (a,b,class) triples, failures 0
+k=4: n=16, checked 840 (a,b,class) triples, failures 0
+k=5: n=32, checked 3720 (a,b,class) triples, failures 0
+k=6: n=64, checked 15624 (a,b,class) triples, failures 0
+k=7: n=128, checked 64008 (a,b,class) triples, failures 0
+
+Part 2: cheapness in the regime slab box (T = n, r = n - 1)
+k, n, w, 2*2floor(w/2), (n/4)*2T, cost, 0.7n(n-1) [proved m lower bound], cost<0.7n(n-1)?, m(lgamma), cost<m?, n-1>=300ln4r?, m>=4w (with proved bound)?
+11, 2048, 786695, 1573388, 2097152, 3.67054e+06, 2.93458e+06, False, 3088218 (margins 0.000521,0.000142), False, False, False
+12, 4096, 2.30942e+06, 4618840, 8388608, 1.30074e+07, 1.17412e+07, False, 12349471 (margins 0.000257,7.42e-05), False, True, True
+13, 8192, 6.76175e+06, 13523500, 33554432, 4.70779e+07, 4.69705e+07, False, 49388999 (margins 0.000165,7.12e-07), True, True, True
+14, 16384, 1.9753e+07, 39506008, 134217728, 1.73724e+08, 1.87893e+08, True, 197534058 (margins 5.48e-05,2.81e-05), True, True, True
+15, 32768, 5.75904e+07, 115180744, 536870912, 6.52052e+08, 7.51596e+08, True, 790084009 (margins 2.15e-05,1.99e-05), True, True, True
+16, 65536, 1.67614e+08, 335228000, 2147483648, 2.48271e+09, 3.00643e+09, True, 3160214892 (margins 8.31e-06,1.24e-05), True, True, True
+17, 131072, 4.87077e+08, 974154020, 8589934592, 9.56409e+09, 1.20258e+10, True, -, -, True, True
+18, 262144, 1.41345e+09, 2826908240, 34359738368, 3.71866e+10, 4.81035e+10, True, -, -, True, True
+19, 524288, 4.09658e+09, 8193166880, 137438953472, 1.45632e+11, 1.92414e+11, True, -, -, True, True
+20, 1048576, 1.18596e+10, 23719127484, 549755813888, 5.73475e+11, 7.69657e+11, True, -, -, True, True

@@ -1,0 +1,9 @@
+profile [[0, 3, 4], [0, 2, 3], [0, 3], [0, 2], [0, 4], [0, 2, 4], [0, 1, 3, 4], [0, 1, 3], [0]]: |A|=615 rank Poly_<12=611 rank Poly_<13=615 dimV(A,12)=4
+   basis poly 0: product of monomial and two-term factors, total order 12:  ['w2 - 1', 'w1 - 1', 'w1 - w2', 'w0 - 1', 'w0 - w2', 'w0*w1 - w2', 'w1 - w3^3', 'w0 - w3^3']
+   basis poly 1: product of monomial and two-term factors, total order 12:  ['w1 - w2', 'w0 - w2', 'w2 - 1^2', 'w0*w1 - w2^2', 'w1 - w3^3', 'w0 - w3^3']
+   basis poly 2: product of monomial and two-term factors, total order 12:  ['w1 - 1', 'w0 - 1', 'w2 - 1^2', 'w0*w1 - w2^2', 'w1 - w3^3', 'w0 - w3^3']
+   basis poly 3: product of monomial and two-term factors, total order 12:  ['w1 - 1', 'w0 - 1', 'w1 - w2^2', 'w0 - w2^2', 'w1 - w3^3', 'w0 - w3^3']
+   zonotope certificate (zeta >= 12) found: True
+profile [[0, 1, 4], [0, 2, 3], [0, 1, 2], [0, 2, 3, 4], [0, 1], [0, 2], [0, 4], [0, 2, 4], [0, 1, 2, 3], [0, 1, 2, 4], [0, 1, 3]]: |A|=543 rank Poly_<12=542 rank Poly_<13=543 dimV(A,12)=1
+   basis poly 0: product of monomial and two-term factors, total order 12:  ['w2 - w3^3', 'w1 - w3^3', 'w0 - w2^3', 'w0 - w1^3']
+   zonotope certificate (zeta >= 12) found: True

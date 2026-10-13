@@ -1,0 +1,10 @@
+|A| = 757  exact rank Poly_<8|_A = 756  => dim V(A,8) = 1
+exact rank Poly_<9|_A = 757 (= |A| means rho = 8)
+primitive c: sup-norm 42  support 687  even: True
+Phi != 0: True  content(Phi) = 40320  8! = 40320
+g = Phi/content: terms 196  coefficient set [-2, -1, 1, 3]
+factorisation of g over Q: const -1  factors (degree, mult): [(8, 1)]
+on [-2,2]^7 \ 0: #positive 0  #negative 65604  #zero 12520
+first negative witness ((-2, -2, -2, -2, -1, -1, -1), -4)
+positive witness ((25, 6, -12, 1, -11, -14, -20), 76047300)
+min_v sum_p |v(S_p)| over generators = 8 ; ranges of k(S_p) on A: [4] ; => zeta <= 7 (floor of 56 / 8 )

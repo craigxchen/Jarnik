@@ -1,0 +1,3 @@
+L=2 m=8 |A|=1037 E=1290 exact rank=995 dimV=42 (0.6s)
+nullity 42 (1.2s)
+all kernel vectors verified exactly; sup norms [2, 2, 2, 2, 4, 6, 4, 4, 4, 3, 3, 3, 3, 6, 4, 4, 3, 4, 2, 6, 4, 6, 2, 4, 3, 2, 4, 4, 4, 4, 6, 3, 3, 2, 3, 3, 2, 2, 3, 3, 3, 4]

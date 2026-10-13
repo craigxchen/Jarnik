@@ -1,0 +1,2 @@
+forms: 42 degrees [8]
+ABANDONED by the judge after ~25 min CPU: the initial Groebner basis of the 42 octics (flint buchberger_naive) did not finish. Not used; Corollary J4 (README §5.4) is proved from the Theorem 5.2 factor data instead.

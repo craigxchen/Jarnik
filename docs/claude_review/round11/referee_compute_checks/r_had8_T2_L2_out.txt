@@ -1,0 +1,10 @@
+H8 T=2 L=2 |A|=2507
+  m=1: rows=1 rank_p=1 dimV_p=2506 (0s)
+  m=2: rows=8 rank_p=8 dimV_p=2499 (0s)
+  m=3: rows=36 rank_p=36 dimV_p=2471 (0s)
+  m=4: rows=120 rank_p=120 dimV_p=2387 (0s)
+  m=5: rows=330 rank_p=330 dimV_p=2177 (1s)
+  m=6: rows=785 rank_p=778 dimV_p=1729 (3s)
+  m=7: rows=1660 rank_p=1541 dimV_p=966 (8s)
+  m=8: rows=3180 rank_p=2255 dimV_p=252 (19s)
+  m=9: rows=5595 rank_p=2507 dimV_p=0 (40s)

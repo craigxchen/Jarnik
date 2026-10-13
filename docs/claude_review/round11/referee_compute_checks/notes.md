@@ -19,3 +19,48 @@
   Missing case: zero cutting patterns -> slabs don't cut, excluded by (i). Also "two or more cutting" includes {1},{3} etc. OK.
   Also: what about L >= 2T for pattern {3}? then doesn't cut. L<2T fine.
   One cutting {1}: L < T; A = [-L,L]x[-T,T]; zeta >= 2L+2T, rho <= 2L+2T. (ii) needs m > h_A(beta_{1}) = 2*2L... but also non-cutting columns {2},{3} need h_A < m: h_A for {2} = 2*2T=4T, for {3}: width of k1+k2 = 2(L+T), h = 4(L+T)? Hmm wait: h_A(beta) = 2 width(k(S)). So (ii) requires m > 4(L+T) if {3} in profile. Then m > rho. Anyway conclusion fine if profile includes them; if the profile is just {{1}} then m> 4L and rho = 2L+2T... m <= rho needed, so zeta=rho>=m. Fine, conclusion "m <= zeta = rho" holds.
+
+## Reading pass 2 (lines 200-613): candidate issues
+1. M8, M8' satisfy only (ii') (range < m), not README (ii) (h_A < m), and far from the regime LP condition
+   sum omega h_A <= m/2 (Thm 2.1(d)). M8: h=8=m; M8': h=12>11. "faithful" = only necessary condition zeta<m.
+   -> major interpretive: "first faithful models" overstated.
+2. Prop 2.4 (n-1=2) proved under (ii) h_A<m, but n-1=3,4 scans and n=8 models use (ii'). Apples/oranges.
+   Need: does n-1=2 have zeta<rho under (ii')? (2D centrally symmetric hexagons are zonotopes -> probably zeta=rho anyway; check.)
+3. ZE-braid: likely FALSE in regime. Prop 5.2 strata delta = sum_{p in S} t_p a_p with sum_S h_A(a_p) < m lie in Bs;
+   if rows restricted to S are distinct (|S| >= log2 n, e.g. Sylvester basis columns) generic points have no collisions.
+   In regime m/w ~ 0.24 sqrt(n/ln4r) >> log2 n. => ZE-braid false for large n. Check at model size: H8, T=1, L=1:
+   range 2, 3 columns -> 6 < m <= rho(A_1)? compute rho(A_1).
+4. Thm 5.2 indexing: "x,y in {1..8}" vs 0-based 0..7 with base 7. minor.
+5. Lemma 5.1 requires all two-term factors of form w^a - w^{a'} (coef -1); check w^a + w^{a'} absent. 
+6. Thm 5.2(b) uses 24 of 42 polys: fine logically (superset).
+7. "no gap-admissible fake position lies on Z_P" OK given nondegenerate.
+8. Prop 6.2 proof checked logically OK; verify exact inputs.
+9. "n-1=3: all 355" restricted T<=4, L<=3; "n-1=4": 12 random profiles -> overgeneralised "model sizes n-1=2,3,4 are all unfaithful".
+
+## Computations done (referee's own code)
+- r_had8.py: H8 T=1: L=1 |A|=57 rho=3; L=2 |A|=1037 rho=8 dimV(8)=42; L=3 |A|=1877 rho=11 dimV(11)=7. (mod p ranks; exact below)
+- r_kernel.py: exact kernels, M8' dim 7 (sup<=4), M8 dim 42 (sup<=6). LLL. Verified M c = 0 exactly.
+- r_factor.py: M8' each basis poly = monomial * linear-in-x binomials * ONE x-form (3 cubics, 4 quartics). Matches author.
+  M8: 24 polys with only x-form non-binomial factors, 18 with non-form factor; 27 distinct two-term factors, all w^a - w^b;
+  my basis has 7 non-linear two-term factors (w0w3-w4, w0w5-w2, w0w6-w1, w1w3-w5, w1w6-w0, w2w3-w6, w2w5-w0) vs author's 6. Basis-dependent; harmless.
+- r_saturate.py (flint Groebner + Bayer, own code; G_j = product of factors): M8' unit ideal after x0..x6, x0-x1..x2-x3 (30-element GB of forms, same as author). M8: same list -> unit. THEOREM 5.2 CONFIRMED.
+  (Author's cone_reduce.py also uses products G_j: checked.)
+- r_sdc7.py / r_sdc7_c.py: sdc q=7 built from Paley; 14 cuts Plotkin tight; |A|=757 for every base point; exact dim V(A,8)=1, rho=8;
+  c even sup 42 supp 687; Phi = 8! g, g 196 terms coeffs {-2,-1,1,3}, irreducible over Q; g<0 at all 65604 nonzero-valued pts of [-2,2]^7 (12520 zeros);
+  positive witness (25,6,-12,1,-11,-14,-20) -> 76047300 (base=7, my coordinates). zeta<=7 rigorous via min_v sum|v(S_p)| = 8 and 14*4/8.
+  PROP 6.2 INPUTS CONFIRMED.
+- ZE-braid falsity: Sylvester n=2^k, k>=16: k*w < 0.7 n(n-1) <= m, so the k-column subtorus (Prop 5.2, kappa=0) lies in Bs; generic points collision-free.
+- r_scan.py n=3 (T<=8,L<=7) under (ii'): 55 distinct admissible A, all zeta=rho (witness); none under (ii).
+  2D general proof: P={|k1|<=a,|k2|<=b,|k1+k2|<=s}: rectangle/parallelogram (CI) or hexagon = zonotope with edge lengths
+  s-a+b, a+b-s, s+a-b (sum a+b+s); line interpolation gives rho<=a+b+s. So zeta=rho for EVERY 2D slab-box, no (ii) needed.
+- r_scan.py n=4 (T<=4,L<=3): 355 distinct admissible A (matches author), all zeta=rho with my own witnesses. (instances count 3664 incl. m; author 980 = different convention)
+- r_tc_m8.py: TC claims of §4 confirmed (exp<=2, >=4 vars, 7+21+35 subspaces dim<=3, exactly 7 4-planes = cuts avoiding base, none dim>=5). max coeff 161280 in my basis.
+- r_had8_T2: T=2,L=1 |A|=57 rho=3; T=2,L=2 |A|=2507 rho_p=8 (h=8): README (ii) infeasible at n=8 Hadamard T<=2.
+- r_braid_threshold: Sylvester k=16 (n=65536): regime holds, k*2floor(w/2)=2.682e9 < m=3160214892. => ZE-braid false. k=12..15 not by this argument.
+## Minor issues list
+- Prop 6.1: A' arbitrary finite subset: |v_i|_1 <= 2D bound needs A' in box B_T; else log diam enters.
+- "every model with m<=2T is unfaithful": coordinate segment of length 2T lies in A only if not cut (L>=T or x,base not separated).
+- Thm 5.2(a) labels {1..8} vs 0..7.
+- "six four-term relations": basis dependent (mine: 7).
+- "Each single P_c has non-toric zeros through e with nondegenerate real points": not proved (P_c(e^{iu}) complex-valued: 2 real eqs).
+- §6 "zonotopal whenever |J|<=5": overgeneralised from samples.

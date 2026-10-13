@@ -1,0 +1,12 @@
+k= 6 n=    64: regime(n-1>=300ln4r)=False  m>=4w:False  k*h_A(a_p)<= 2.027e+04  0.7n(n-1)=2822  exact m=3002  k*h<m: False  (sufficient, via m>=0.7n(n-1)): False
+k= 7 n=   128: regime(n-1>=300ln4r)=False  m>=4w:False  k*h_A(a_p)<= 7.127e+04  0.7n(n-1)=1.138e+04  exact m=12064  k*h<m: False  (sufficient, via m>=0.7n(n-1)): False
+k= 8 n=   256: regime(n-1>=300ln4r)=False  m>=4w:False  k*h_A(a_p)<= 2.435e+05  0.7n(n-1)=4.57e+04  exact m=48302  k*h<m: False  (sufficient, via m>=0.7n(n-1)): False
+k= 9 n=   512: regime(n-1>=300ln4r)=False  m>=4w:False  k*h_A(a_p)<= 8.134e+05  0.7n(n-1)=1.831e+05  exact m=193170  k*h<m: False  (sufficient, via m>=0.7n(n-1)): False
+k=10 n=  1024: regime(n-1>=300ln4r)=False  m>=4w:False  k*h_A(a_p)<= 2.672e+06  0.7n(n-1)=7.333e+05  exact m=772350  k*h<m: False  (sufficient, via m>=0.7n(n-1)): False
+k=11 n=  2048: regime(n-1>=300ln4r)=False  m>=4w:False  k*h_A(a_p)<= 8.654e+06  0.7n(n-1)=2.935e+06  exact m=3088218  k*h<m: False  (sufficient, via m>=0.7n(n-1)): False
+k=12 n=  4096: regime(n-1>=300ln4r)=True  m>=4w:True  k*h_A(a_p)<= 2.771e+07  0.7n(n-1)=1.174e+07  exact m=12349471  k*h<m: False  (sufficient, via m>=0.7n(n-1)): False
+k=13 n=  8192: regime(n-1>=300ln4r)=True  m>=4w:True  k*h_A(a_p)<= 8.79e+07  0.7n(n-1)=4.697e+07  exact m=49388999  k*h<m: False  (sufficient, via m>=0.7n(n-1)): False
+k=14 n= 16384: regime(n-1>=300ln4r)=True  m>=4w:True  k*h_A(a_p)<= 2.765e+08  0.7n(n-1)=1.879e+08  exact m=197534058  k*h<m: False  (sufficient, via m>=0.7n(n-1)): False
+k=15 n= 32768: regime(n-1>=300ln4r)=True  m>=4w:True  k*h_A(a_p)<= 8.639e+08  0.7n(n-1)=7.516e+08  exact m=790084009  k*h<m: False  (sufficient, via m>=0.7n(n-1)): False
+k=16 n= 65536: regime(n-1>=300ln4r)=True  m>=4w:True  k*h_A(a_p)<= 2.682e+09  0.7n(n-1)=3.006e+09  exact m=3160214892  k*h<m: True  (sufficient, via m>=0.7n(n-1)): True
+k=17 n=131072: regime(n-1>=300ln4r)=True  m>=4w:True  k*h_A(a_p)<= 8.28e+09  0.7n(n-1)=1.203e+10  (sufficient, via m>=0.7n(n-1)): True

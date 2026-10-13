@@ -1,0 +1,5 @@
+T=2 L=1: |A|=57 ranges k(S_p)=[2] (h_A = 2*range)
+   m=1: rank_p Poly_<m|_A = 1, dimV_p = 56 (0s)
+   m=2: rank_p Poly_<m|_A = 8, dimV_p = 49 (0s)
+   m=3: rank_p Poly_<m|_A = 36, dimV_p = 21 (0s)
+   m=4: rank_p Poly_<m|_A = 57, dimV_p = 0 (0s)

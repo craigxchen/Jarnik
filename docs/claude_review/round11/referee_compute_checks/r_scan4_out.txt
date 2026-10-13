@@ -1,0 +1,3 @@
+patterns: [[0], [1], [2], [3], [0, 1], [0, 2], [0, 3]]
+n=4 T<=4 L<=3: (profile,T,L,m) instances with (i),(ii'),(iii),(v): 3664; with (ii): 587; distinct admissible A: 355 (216 also with (ii)) (30s)
+zonotope witness with sum L_i = rho found for 355/355 distinct admissible A (48s)

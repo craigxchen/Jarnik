@@ -74,9 +74,14 @@ growth improvement and no new cap. Round 10 (`round10/README.md`) refutes the in
 formulated, and finds the most promising new route: in the growth regime the determinant method with
 forced divisibility becomes supercritical, so every large actual cluster satisfies an exact
 algebraic system that almost every fake violates. Under an unproved zero estimate (ZE) this would
-give `M = O(loglog R)` on squarefree norms.
+give `M = O(loglog R)` on squarefree norms. Round 11 (`round11/README.md`) attacks ZE. ZE is still open:
+the only evidence for it is exact theorems on two small LP-subcritical models. Every stronger or angle-free
+replacement proposed (ZE-braid, the separation hypotheses SL and SL\*) is false, through the cheap rational
+subtori of Hadamard-type profiles. New: ZE restricted to the actual point (ZE-col\*) would give
+`M = O((loglog R)^2)` on all norms, and route 5 also runs at box size `T = 1`, where ZE reduces to a real
+tangent-cone statement (unrefereed).
 
-**Growth-rate status (2026-10-12).** No growth improvement over `log R/loglog R` is proved, either
+**Growth-rate status (2026-10-13).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues
@@ -88,6 +93,7 @@ refereed barrier theorems:
 * Baker/Matveev bounds;
 * single-form Lang-Waldschmidt.
 
-The only conditional route known to work is Vojta's conjecture for one fixed variety, which gives the
-uniform bound. Still open: the class P3-all (genuine prime-level residues imposed on every monomial),
+The only conditional route known to work from a standard conjecture is Vojta's conjecture for one fixed
+variety, which gives the uniform bound. Route 5 (rounds 10-11) gives `M = O(loglog R)` on squarefree norms, or
+`O((loglog R)^2)` on all norms, from the non-standard zero estimate ZE or ZE-col\*. Both are open. Still open: the class P3-all (genuine prime-level residues imposed on every monomial),
 and the full Lang-Waldschmidt conjecture with `eps -> 0` used simultaneously.
