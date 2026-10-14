@@ -1,0 +1,6 @@
+K=2 r=4 first P=[5, 13, 17, 29] |F|=7 #V/2=20: forced mass (level 1) 74.7; genuine level-1 mass 80.0; genuine all-level demand on F 87.7; capacity sum_(v,s) B 200.6; ratios forced/cap 0.372, gen-demand/cap 0.437
+K=2 r=4 last P=[173, 181, 193, 197] |F|=10 #V/2=20: forced mass (level 1) 137.5; genuine level-1 mass 164.3; genuine all-level demand on F 181.0; capacity sum_(v,s) B 390.0; ratios forced/cap 0.353, gen-demand/cap 0.464
+K=3 r=4 first P=[5, 13, 17, 29] |F|=17 #V/2=64: forced mass (level 1) 317.0; genuine level-1 mass 450.1; genuine all-level demand on F 496.8; capacity sum_(v,s) B 915.9; ratios forced/cap 0.346, gen-demand/cap 0.542
+K=3 r=4 last P=[173, 181, 193, 197] |F|=23 #V/2=64: forced mass (level 1) 529.4; genuine level-1 mass 738.8; genuine all-level demand on F 830.3; capacity sum_(v,s) B 1799.8; ratios forced/cap 0.294, gen-demand/cap 0.461
+K=4 r=4 first P=[5, 13, 17, 29] |F|=40 #V/2=160: forced mass (level 1) 1204.3; genuine level-1 mass 1677.7; genuine all-level demand on F 1785.5; capacity sum_(v,s) B 2974.4; ratios forced/cap 0.405, gen-demand/cap 0.600
+K=4 r=4 last P=[173, 181, 193, 197] |F|=40 #V/2=160: forced mass (level 1) 1804.7; genuine level-1 mass 2343.1; genuine all-level demand on F 2551.5; capacity sum_(v,s) B 5878.7; ratios forced/cap 0.307, gen-demand/cap 0.434

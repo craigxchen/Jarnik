@@ -1,0 +1,1 @@
+{"name": "rand4", "K": 5, "Qsub": 59, "capmax": null, "P": [53, 61, 89, 173], "core_lower": 7, "first_noncoherent": 11, "log": [[3, "INFEASIBLE", 1], [5, "INFEASIBLE", 1], [7, "INFEASIBLE", 1], [11, "WITNESS", 16]]}

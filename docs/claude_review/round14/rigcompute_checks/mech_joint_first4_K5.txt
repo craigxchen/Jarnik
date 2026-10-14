@@ -1,0 +1,52 @@
+first4 K=5 C=F∩[3,109] moduli<= 199 depth 1: baseline INFEASIBLE
+  drop outer modulus 113: DONE
+  drop outer modulus 127: INFEASIBLE
+  drop outer modulus 131: INFEASIBLE
+  drop outer modulus 137: INFEASIBLE
+  drop outer modulus 139: INFEASIBLE
+  drop outer modulus 149: INFEASIBLE
+  drop outer modulus 151: DONE
+  drop outer modulus 157: INFEASIBLE
+  drop outer modulus 163: INFEASIBLE
+  drop outer modulus 167: INFEASIBLE
+  drop outer modulus 173: INFEASIBLE
+  drop outer modulus 179: INFEASIBLE
+  drop outer modulus 181: INFEASIBLE
+  drop outer modulus 191: INFEASIBLE
+  drop outer modulus 193: INFEASIBLE
+  drop outer modulus 197: INFEASIBLE
+  drop outer modulus 199: INFEASIBLE
+  drop core modulus 3: DONE
+  drop core modulus 7: DONE
+  drop core modulus 11: DONE
+  drop core modulus 19: DONE
+  drop core modulus 23: DONE
+  drop core modulus 31: DONE
+  drop core modulus 37: DONE
+  drop core modulus 41: INFEASIBLE
+  drop core modulus 43: DONE
+  drop core modulus 47: INFEASIBLE
+  drop core modulus 53: INFEASIBLE
+  drop core modulus 59: INFEASIBLE
+  drop core modulus 61: DONE
+  drop core modulus 67: DONE
+  drop core modulus 71: DONE
+  drop core modulus 73: DONE
+  drop core modulus 79: DONE
+  drop core modulus 83: DONE
+  drop core modulus 89: INFEASIBLE
+  drop core modulus 97: INFEASIBLE
+  drop core modulus 101: INFEASIBLE
+  drop core modulus 103: INFEASIBLE
+  drop core modulus 107: DONE
+  drop core modulus 109: INFEASIBLE
+  lift budgets of norm 1: INFEASIBLE
+  lift budgets of norm 2: INFEASIBLE
+  lift budgets of norm 3: DONE
+  lift budgets of norm 4: DONE
+  lift budgets of norm 5: DONE
+  keep only norm-1 budgets: DONE
+  keep only norm-2 budgets: DONE
+  keep only norm-3 budgets: DONE
+  keep only norm-4 budgets: DONE
+  keep only norm-5 budgets: DONE

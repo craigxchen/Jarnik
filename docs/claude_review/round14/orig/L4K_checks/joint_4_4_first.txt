@@ -1,0 +1,1 @@
+K=4 r=4 first: 0/12 searches found a good system on all forced moduli; max depth reached per search [12, 11, 12, 11, 11, 12, 11, 12, 12, 11, 11, 11] of 40 [5438s]

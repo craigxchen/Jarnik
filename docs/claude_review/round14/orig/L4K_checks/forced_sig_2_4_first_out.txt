@@ -1,0 +1,17 @@
+K=2 r=4 first P=[5, 13, 17, 29] forced primes F=[3, 7, 11, 19, 23, 31, 41]
+  q=3 m=4 vectors=16 signatures=16 genuine-signature class size=1
+  q=7 m=8 vectors=256 signatures=128 genuine-signature class size=2
+  q=11 m=12 vectors=1296 signatures=336 genuine-signature class size=4
+  q=19 m=20 vectors=10000 signatures=568 genuine-signature class size=32
+  q=23 m=24 vectors=20736 signatures=640 genuine-signature class size=128
+  q=31 m=32 vectors=65536 signatures=616 genuine-signature class size=1024
+  q=41 m=40 vectors=160000 signatures=990 genuine-signature class size=4096
+  good level-1 systems on F: 5066549580791808 (signature tuples: 36864) [55.3s]
+  of which with the genuine signature at every q: 137438953472
+    q=3: good systems with non-genuine signature at q: 4749890231992320
+    q=7: good systems with non-genuine signature at q: 4987384743591936
+    q=11: good systems with non-genuine signature at q: 4987384743591936
+    q=19: good systems with non-genuine signature at q: 4749890231992320
+    q=23: good systems with non-genuine signature at q: 4433230883192832
+    q=31: good systems with non-genuine signature at q: 3799912185593856
+    q=41: good systems with non-genuine signature at q: 2533274790395904

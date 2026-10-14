@@ -1,0 +1,8 @@
+(a) identity sin^2(theta - s pi/4) = nu_s^2 D_s^2/p exact for 4783 split primes <= 1e5: OK
+(b) grid check (40000 pts mod pi) on 1125 split primes <= 2e4: grid solutions off the candidate set: 0
+(c) columns failing condition (i) [p_l | a_j(a_j+b_j)(a_j-b_j)], random prime sets:
+   primes in [100,1000], r=50: mean failing columns 0.00 of 50
+   primes in [1000,10000], r=100: mean failing columns 0.00 of 100
+   primes in [10000,100000], r=200: mean failing columns 0.00 of 200
+   primes in [100000,1000000], r=200: mean failing columns 0.00 of 200
+   primes in [100,1000000], r=200: mean failing columns 0.10 of 200

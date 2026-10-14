@@ -1,0 +1,40 @@
+K=4 q0=3 n=1 surv=1 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=7 n=2 surv=2 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=11 n=3 surv=2 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=19 n=5 surv=4 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=23 n=6 surv=4 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=31 n=8 surv=8 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=37 n=9 surv=6 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=41 n=10 surv=8 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=43 n=11 surv=10 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=47 n=12 surv=8 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=53 n=13 surv=12 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=59 n=15 surv=8 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=61 n=15 surv=8 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=67 n=17 surv=16 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=71 n=18 surv=12 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=73 n=18 surv=12 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=79 n=20 surv=32 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=83 n=21 surv=36 nonclass=24 F1=24 F2=0 wit=[1, 51, 46, 78]
+K=4 q0=89 n=22 surv=80 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=97 n=24 surv=16 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=101 n=25 surv=20 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=103 n=26 surv=48 nonclass=0 F1=0 F2=0 wit=-
+K=4 q0=107 n=27 surv=216 nonclass=144 F1=144 F2=0 wit=[1, 4, 61, 92]
+K=4 q0=109 n=27 surv=198 nonclass=162 F1=162 F2=0 wit=[2, 3, 91, 92]
+K=4 q0=113 n=28 surv=336 nonclass=240 F1=240 F2=0 wit=[1, 16, 91, 47]
+K=4 q0=127 n=32 surv=6592 nonclass=6080 F1=5568 F2=512 wit=[1, 4, 10, 13]
+K=4 q0=131 n=33 surv=2520 nonclass=2440 F1=2440 F2=0 wit=[2, 10, 9, 17]
+K=4 q0=137 n=34 surv=5632 nonclass=5376 F1=5376 F2=0 wit=[1, 5, 8, 57]
+K=4 q0=139 n=35 surv=20496 nonclass=20448 F1=19104 F2=1344 wit=[2, 8, 13, 52]
+K=4 q0=149 n=37 surv=26136 nonclass=25992 F1=25704 F2=288 wit=[2, 5, 18, 48]
+K=4 q0=151 n=38 surv=8208 nonclass=8064 F1=7488 F2=576 wit=[2, 3, 26, 68]
+K=4 q0=157 n=39 surv=67200 nonclass=67104 F1=51168 F2=15936 wit=[1, 4, 10, 23]
+K=4 q0=163 n=41 surv=73040 nonclass=72880 F1=56720 F2=16160 wit=[1, 5, 13, 17]
+K=4 q0=167 n=42 surv=161088 nonclass=160320 F1=132672 F2=27648 wit=[1, 5, 13, 64]
+K=4 q0=173 n=43 surv=252672 nonclass=252504 F1=227472 F2=25032 wit=[1, 4, 11, 14]
+K=4 q0=179 n=45 surv=249408 nonclass=249024 F1=161856 F2=87168 wit=[2, 8, 20, 26]
+K=4 q0=181 n=45 surv=466416 nonclass=466320 F1=404400 F2=61920 wit=[2, 8, 7, 20]
+K=4 q0=191 n=48 surv=84480 nonclass=84224 F1=77568 F2=6656 wit=[2, 12, 76, 3]
+K=4 q0=193 n=48 surv=31168 nonclass=31040 F1=31040 F2=0 wit=[1, 5, 13, 125]
+K=4 q0=199 n=50 surv=500800 nonclass=500160 F1=443200 F2=56960 wit=[2, 8, 7, 70]

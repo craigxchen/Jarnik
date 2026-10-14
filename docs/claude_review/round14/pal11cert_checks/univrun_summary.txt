@@ -1,0 +1,125 @@
+profile 0 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2)) | mode full | pool 176 (reps 36) | written leaves 0 | 4s
+    pool 176 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 379 10110 113808 57383 2443 0 0
+    pool 176 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 382 10223 113538 62800 1933 0 0
+    pool 176 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 318 8479 90485 41918 1628 0 0
+    pool 176 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 317 8513 95172 50431 1532 0 0
+profile 1 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (12, 1)) | mode full | pool 77 (reps 17) | written leaves 0 | 0s
+    pool 77 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 1 32 63 60 0 0 0 0
+    pool 77 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 1 32 63 60 0 0 0 0
+    pool 77 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 1 32 63 60 0 0 0 0
+    pool 77 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 0 0 0 0 0 0 0 0
+profile 2 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (12, 2)) | mode full+reps(12,2) | pool 1067 (reps 215) | written leaves 0 | 5s
+    pool 1067 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 51 1976 15304 119829 60578 1935 0 0
+    pool 1067 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 50 2038 15568 116231 53650 2188 0 0
+    pool 1067 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 50 1944 13307 99510 52735 1530 0 0
+    pool 1067 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 50 1879 12492 97907 45704 1883 0 0
+profile 3 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 6), (6, 2)) | mode full | pool 1166 (reps 234) | written leaves 0 | 414s
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 387 10845 150862 396301 51332 0 0
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 386 10996 144206 389862 48373 0 0
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 323 9073 118858 296429 35932 0 0
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 322 9230 120515 324656 41119 0 0
+profile 4 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (6, 2)) | mode full | pool 176 (reps 36) | written leaves 0 | 8s
+    pool 176 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 775 24100 224531 93214 2881 0 0
+    pool 176 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 751 23280 228028 103104 2460 0 0
+    pool 176 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 660 20492 177787 69112 1912 0 0
+    pool 176 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 628 19774 194658 85409 1964 0 0
+profile 5 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (6, 4)) | mode full | pool 1496 (reps 300) | written leaves 0 | 49s
+    pool 1496 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 72 8292 280143 1420004 274416 3483 0 0
+    pool 1496 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 72 8301 287711 1610073 310442 2875 0 0
+    pool 1496 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 71 6914 224557 1045804 187317 2228 0 0
+    pool 1496 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 71 6917 235027 1291694 251927 2185 0 0
+profile 6 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (6, 6)) | mode free slot (6, 6) | pool 176 (reps 36) | written leaves 0 | 9s
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 4230 ; saturated rank 11 (no completion) 4230 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 512 14004 171581 367354 5040 4230
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3821 ; saturated rank 11 (no completion) 3821 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 502 13673 167585 362290 4651 3821
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3080 ; saturated rank 11 (no completion) 3080 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 495 13536 163561 324542 4247 3080
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3311 ; saturated rank 11 (no completion) 3311 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 461 12389 151026 317126 4077 3311
+profile 7 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (7, 5)) | mode full | pool 9416 (reps 1884) | written leaves 0 | 169s
+    pool 9416 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 54727 1332743 4026775 367220 3046 0 0
+    pool 9416 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 55482 1446846 4847876 435837 2599 0 0
+    pool 9416 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 45237 1050668 2886516 251374 1956 0 0
+    pool 9416 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 45802 1163268 3886372 352084 1961 0 0
+profile 8 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (7, 6)) | mode free slot (7, 6) | pool 176 (reps 36) | written leaves 0 | 9s
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 4230 ; saturated rank 11 (no completion) 4230 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 512 14004 171581 367354 5040 4230
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3821 ; saturated rank 11 (no completion) 3821 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 502 13673 167585 362290 4651 3821
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3080 ; saturated rank 11 (no completion) 3080 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 495 13536 163561 324542 4247 3080
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3311 ; saturated rank 11 (no completion) 3311 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 461 12389 151026 317126 4077 3311
+profile 9 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (8, 4)) | mode free slot (8, 4) | pool 176 (reps 36) | written leaves 0 | 10s
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 4230 ; saturated rank 11 (no completion) 4230 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 512 14004 171581 367354 5040 4230
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3821 ; saturated rank 11 (no completion) 3821 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 502 13673 167585 362290 4651 3821
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3080 ; saturated rank 11 (no completion) 3080 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 495 13536 163561 324542 4247 3080
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3311 ; saturated rank 11 (no completion) 3311 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 461 12389 151026 317126 4077 3311
+profile 10 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (8, 5)) | mode free slot (8, 5) | pool 176 (reps 36) | written leaves 0 | 9s
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 4230 ; saturated rank 11 (no completion) 4230 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 512 14004 171581 367354 5040 4230
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3821 ; saturated rank 11 (no completion) 3821 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 502 13673 167585 362290 4651 3821
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3080 ; saturated rank 11 (no completion) 3080 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 495 13536 163561 324542 4247 3080
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3311 ; saturated rank 11 (no completion) 3311 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 461 12389 151026 317126 4077 3311
+profile 11 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (8, 6)) | mode free slot (8, 6) | pool 176 (reps 36) | written leaves 0 | 10s
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 4230 ; saturated rank 11 (no completion) 4230 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 512 14004 171581 367354 5040 4230
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3821 ; saturated rank 11 (no completion) 3821 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 502 13673 167585 362290 4651 3821
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3080 ; saturated rank 11 (no completion) 3080 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 495 13536 163561 324542 4247 3080
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3311 ; saturated rank 11 (no completion) 3311 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 461 12389 151026 317126 4077 3311
+profile 12 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 4), (6, 4)) | mode full | pool 1386 (reps 278) | written leaves 0 | 128s
+    pool 1386 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 66 46362 1192209 3844571 359681 581 0 0
+    pool 1386 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 66 46885 1148797 3616564 309857 391 0 0
+    pool 1386 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 66 46193 1069509 3039445 224263 251 0 0
+    pool 1386 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 66 45615 1207328 4225493 367271 540 0 0
+profile 13 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 4), (8, 4)) | mode free slot (8, 4) | pool 1386 (reps 278) | written leaves 0 | 61s
+    pool 1386 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 3229 ; saturated rank 11 (no completion) 3229 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 70 4367 121104 1297153 1780792 4404 3229
+    pool 1386 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 2914 ; saturated rank 11 (no completion) 2914 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 70 4332 119828 1287229 1743353 3691 2914
+    pool 1386 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 2733 ; saturated rank 11 (no completion) 2733 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 69 4316 119859 1275123 1666436 3554 2733
+    pool 1386 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 2923 ; saturated rank 11 (no completion) 2923 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 69 4310 119140 1280792 1726331 3766 2923
+profile 14 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (3, 9), (6, 2), (6, 2)) | mode free slot (3, 9) | pool 176 (reps 36) | written leaves 0 | 16s
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 1942 ; saturated rank 11 (no completion) 1942 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 908 28388 322964 633069 6156 1942
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 1946 ; saturated rank 11 (no completion) 1946 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 871 27077 311763 620762 5748 1946
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 1528 ; saturated rank 11 (no completion) 1528 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 837 25888 293058 539914 4592 1528
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 1814 ; saturated rank 11 (no completion) 1814 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 9 772 23922 278342 548154 5105 1814
+profile 15 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 6), (4, 6), (6, 2)) | mode full | pool 1166 (reps 234) | written leaves 0 | 419s
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 387 10845 150862 396301 51332 0 0
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 386 10996 144206 389862 48373 0 0
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 323 9073 118858 296429 35932 0 0
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 322 9230 120515 324656 41119 0 0
+profile 16 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 6), (6, 2), (6, 2)) | mode full | pool 1166 (reps 234) | written leaves 0 | 470s
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 783 25229 280929 503400 51770 0 0
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 755 24400 271458 499780 48901 0 0
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 665 21424 221572 376397 36218 0 0
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 633 20762 230001 421902 41554 0 0
+profile 17 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 6), (6, 2), (6, 4)) | mode full | pool 2486 (reps 498) | written leaves 0 | 1324s
+    pool 2486 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 72 8307 296870 1678317 1149085 52376 0 0
+    pool 2486 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 72 8306 297656 1809891 1190403 49315 0 0
+    pool 2486 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 71 6923 236844 1245988 810557 36535 0 0
+    pool 2486 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 71 6922 242569 1453270 992707 41774 0 0
+profile 18 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 6), (6, 2), (6, 6)) | mode free slot (6, 6) reserve [6, 0, 6, 6, 6, 0, 12, 12, 18, 24] | pool 1166 (reps 234) | written leaves 0 | 516s
+    pool 1166 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 1469 ; saturated rank 11 (no completion) 1469 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 387 10545 107361 64957 1512 1469
+    pool 1166 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 1339 ; saturated rank 11 (no completion) 1339 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 386 10518 106279 65564 1406 1339
+    pool 1166 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 948 ; saturated rank 11 (no completion) 948 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 323 8793 85660 49816 1012 948
+    pool 1166 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 1286 ; saturated rank 11 (no completion) 1286 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 322 8793 89938 57005 1321 1286
+profile 19 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 6), (6, 4), (6, 4)) | mode full reserve None | pool 2376 (reps 476) | written leaves 0 | 1917s
+    pool 2376 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 66 39869 791932 1055252 45274 0 0 0
+    pool 2376 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 66 38839 759553 974079 39989 0 0 0
+    pool 2376 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 66 37328 667654 791900 30032 0 0 0
+    pool 2376 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 66 40061 830290 1141561 48941 0 0 0
+profile 20 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 8), (6, 2), (6, 2)) | mode free slot (4, 8) reserve [8, 0, 8, 4, 8, 0, 12, 12, 20, 28] | pool 176 (reps 36) | written leaves 0 | 9s
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 683 ; saturated rank 11 (no completion) 683 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 396 12716 90226 101562 683 683
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 781 ; saturated rank 11 (no completion) 781 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 369 12022 87864 104632 780 781
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 576 ; saturated rank 11 (no completion) 576 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 342 11032 78759 88134 575 576
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 739 ; saturated rank 11 (no completion) 739 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 311 10282 75951 88534 736 739
+profile 21 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 8), (6, 2), (6, 4)) | mode free slot (4, 8) reserve [8, 0, 8, 4, 8, 0, 12, 12, 20, 28] | pool 1496 (reps 300) | written leaves 0 | 72s
+    pool 1496 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 74 ; saturated rank 11 (no completion) 74 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 7920 258157 636362 19666 74 74
+    pool 1496 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 70 ; saturated rank 11 (no completion) 70 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 7920 259478 651041 22583 70 70
+    pool 1496 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 53 ; saturated rank 11 (no completion) 53 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 6600 213236 495586 14318 53 53
+    pool 1496 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 49 ; saturated rank 11 (no completion) 49 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 6600 218038 557636 19367 49 49
+profile 22 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 9), (6, 2), (6, 2)) | mode full reserve None | pool 671 (reps 135) | written leaves 0 | 18s
+    pool 671 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 761 23560 103176 11727 0 0 0
+    pool 671 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 732 22552 108697 12878 0 0 0
+    pool 671 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 645 19751 77265 8006 0 0 0
+    pool 671 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 615 19141 86701 10183 1 0 0
+profile 23 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 10), (6, 2), (6, 2)) | mode free slot (4, 10) reserve [10, 0, 10, 4, 10, 0, 14, 14, 24, 34] | pool 176 (reps 36) | written leaves 0 | 4s
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 396 12581 28286 350 0 0
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 369 11784 26399 360 0 0
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 342 10836 23598 264 0 0
+    pool 176 dirs 1519 m 7 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 311 10143 23505 377 0 0
+profile 24 ((2, 6), (2, 6), (2, 6), (2, 6), (4, 6), (4, 6), (4, 6), (6, 2)) | mode full reserve None | pool 1166 (reps 234) | written leaves 0 | 271s
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 387 10845 92281 59860 8 0 0
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 6 386 10996 91018 60786 9 0 0
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 323 9073 70694 43945 1 0 0
+    pool 1166 dirs 1519 m 8 weightvecs 10 : count-feasible leaves 0 ; saturated rank 11 (no completion) 0 ; rank <= 10 (completable, written) 0 ; nodes per level: 1 5 322 9230 75182 50439 7 0 0

@@ -1,0 +1,57 @@
+K=6 q0=3 n=1: S2+e1(|D|=66) gen=yes extras=0 affordable=0
+K=6 q0=7 n=2: S2+e1(|D|=66) gen=yes extras=147 affordable=122
+K=6 q0=11 n=3: S2+e1(|D|=66) gen=yes extras=197 affordable=154
+K=6 q0=19 n=5: S2+e1(|D|=66) gen=yes extras=236 affordable=161
+K=6 q0=23 n=6: S2+e1(|D|=66) gen=yes extras=246 affordable=164
+K=6 q0=31 n=8: S2+e1(|D|=66) gen=yes extras=249 affordable=156
+K=6 q0=37 n=9: S2+e1(|D|=66) gen=yes extras=258 affordable=155
+K=6 q0=41 n=10: S2+e1(|D|=66) gen=yes extras=255 affordable=146
+K=6 q0=43 n=11: S2+e1(|D|=66) gen=yes extras=263 affordable=154
+K=6 q0=47 n=12: S2+e1(|D|=66) gen=yes extras=265 affordable=150
+K=6 q0=53 n=13: S2+e1(|D|=66) gen=yes extras=266 affordable=144
+K=6 q0=59 n=15: S2+e1(|D|=66) gen=yes extras=267 affordable=141
+K=6 q0=61 n=15: S2+e1(|D|=66) gen=yes extras=271 affordable=145
+K=6 q0=67 n=17: S2+e1(|D|=66) gen=yes extras=270 affordable=141
+K=6 q0=71 n=18: S2+e1(|D|=66) gen=yes extras=270 affordable=136
+K=6 q0=73 n=18: S2+e1(|D|=66) gen=yes extras=276 affordable=139
+K=6 q0=79 n=20: S2+e1(|D|=66) gen=yes extras=271 affordable=135
+K=6 q0=83 n=21: S2+e1(|D|=66) gen=yes extras=275 affordable=138
+K=6 q0=89 n=22: S2+e1(|D|=66) gen=yes extras=272 affordable=133
+K=6 q0=97 n=24: S2+e1(|D|=66) gen=yes extras=280 affordable=138
+K=6 q0=101 n=25: S2+e1(|D|=66) gen=yes extras=277 affordable=130
+K=6 q0=103 n=26: S2+e1(|D|=66) gen=yes extras=279 affordable=130
+K=6 q0=107 n=27: S2+e1(|D|=66) gen=yes extras=277 affordable=124
+K=6 q0=109 n=27: S2+e1(|D|=66) gen=yes extras=278 affordable=127
+K=6 q0=113 n=28: S2+e1(|D|=66) gen=yes extras=278 affordable=126
+K=6 q0=127 n=32: S2+e1(|D|=66) gen=yes extras=280 affordable=123
+K=6 q0=131 n=33: S2+e1(|D|=66) gen=yes extras=280 affordable=123
+K=6 q0=137 n=34: S2+e1(|D|=66) gen=yes extras=280 affordable=121
+K=6 q0=139 n=35: no covering anticode
+K=6 q0=149 n=37: S2+e1(|D|=66) gen=yes extras=281 affordable=117
+K=6 q0=151 n=38: no covering anticode
+K=6 q0=157 n=39: no covering anticode
+K=6 q0=163 n=41: S2+e3(|D|=66) gen=yes extras=285 affordable=126
+K=6 q0=167 n=42: S2+e1(|D|=66) gen=yes extras=284 affordable=115
+K=6 q0=173 n=43: no covering anticode
+K=6 q0=179 n=45: S2+e1(|D|=66) gen=yes extras=284 affordable=113
+K=6 q0=181 n=45: no covering anticode
+K=6 q0=191 n=48: no covering anticode
+K=6 q0=193 n=48: S2+e1(|D|=66) gen=no(index 96) extras=285 affordable=113
+K=6 q0=197 n=49: no covering anticode
+K=6 q0=199 n=50: no covering anticode
+K=6 q0=211 n=53: no covering anticode
+K=6 q0=223 n=56: no covering anticode
+K=6 q0=227 n=57: no covering anticode
+K=6 q0=229 n=57: no covering anticode
+K=6 q0=233 n=58: no covering anticode
+K=6 q0=239 n=60: no covering anticode
+K=6 q0=241 n=60: no covering anticode
+K=6 q0=251 n=63: no covering anticode
+K=6 q0=257 n=64: no covering anticode
+K=6 q0=263 n=66: no covering anticode
+K=6 q0=269 n=67: no covering anticode
+K=6 q0=271 n=68: no covering anticode
+K=6 q0=277 n=69: no covering anticode
+K=6 q0=281 n=70: no covering anticode
+K=6 q0=283 n=71: no covering anticode
+K=6 q0=293 n=73: no covering anticode

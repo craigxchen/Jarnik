@@ -1,0 +1,8 @@
+first4 K=6 Qsub=163 Qstart=0: lower=163 witness=None
+first4 K=6 Qsub=223 Qstart=164: lower=193 witness=None
+first4 K=6 Qsub=293 Qstart=197: lower=193 witness=None
+first4 K=6 Qsub=383 Qstart=197: lower=193 witness=None
+first4 K=6 Qsub=499 Qstart=197: lower=193 witness=None
+first4 K=6 Qsub=743 Qstart=197: lower=193 witness=None
+first4 K=6 Qsub=1039 Qstart=197: lower=193 witness=None
+LADDER first4 K=6: joint core >= 193; witness at None; one-mod segment 263, q_flex1 269

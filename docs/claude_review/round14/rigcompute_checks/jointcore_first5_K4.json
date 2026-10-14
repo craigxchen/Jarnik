@@ -1,0 +1,1 @@
+{"name": "first5", "K": 4, "Qsub": 103, "capmax": null, "P": [5, 13, 17, 29, 37], "core_lower": 101, "first_noncoherent": 103, "log": [[83, "INFEASIBLE", 1569, 0], [89, "INFEASIBLE", 1569, 0], [97, "INFEASIBLE", 1569, 0], [101, "INFEASIBLE", 1569, 0], [103, "WITNESS", 5, 2]]}

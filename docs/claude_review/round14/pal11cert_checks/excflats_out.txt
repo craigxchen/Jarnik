@@ -1,0 +1,15 @@
+done support 6
+done support 7
+done support 8
+done support 12
+sigma 6 t 2 complement-dim 1 : 110 flats
+sigma 6 t 4 complement-dim 1 : 1320 flats
+sigma 7 t 5 complement-dim 1 : 9240 flats
+sigma 8 t 4 complement-dim 2 : 1980 flats
+sigma 8 t 5 complement-dim 1 : 2310 flats
+sigma 8 t 5 complement-dim 2 : 13860 flats
+sigma 12 t 1 complement-dim 1 : 11 flats
+sigma 12 t 2 complement-dim 2 : 55 flats
+sigma 12 t 3 complement-dim 3 : 165 flats
+sigma 12 t 4 complement-dim 4 : 330 flats
+sigma 12 t 5 complement-dim 5 : 462 flats

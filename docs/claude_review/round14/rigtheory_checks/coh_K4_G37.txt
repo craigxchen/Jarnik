@@ -1,0 +1,2 @@
+columns: 112654 (30s)
+K=4 G=[3, 7] S=[11, 19, 23, 31, 37, 41, 43, 47, 53, 59, 61]: status 2: INFEASIBLE -> every good system is coherent on S (53s)

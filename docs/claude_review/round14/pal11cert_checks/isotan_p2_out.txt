@@ -1,0 +1,15 @@
+points: free orbits 2418 fixed 3
+deg <= 0 block ranks [1, 0, 0, 0, 0] total 1 (0s)
+deg <= 1 block ranks [4, 2, 2, 2, 2] total 12 (0s)
+deg <= 2 block ranks [18, 15, 15, 15, 15] total 78 (0s)
+deg <= 3 block ranks [73, 70, 70, 70, 70] total 353 (1s)
+deg <= 4 block ranks [249, 246, 246, 246, 246] total 1233 (3s)
+deg <= 5 block ranks [698, 697, 697, 697, 697] total 3486 (10s)
+deg <= 6 block ranks [1630, 1630, 1630, 1630, 1630] total 8150 (30s)
+deg <= 7 block ranks [2333, 2331, 2331, 2331, 2331] total 11657 (80s)
+block 0 cols 2421 kernel dim (deg<8) 88 dim T_8 block 88 rank K_<=8 block 2421 (133s)
+block 1 cols 2418 kernel dim (deg<8) 87 dim T_8 block 87 rank K_<=8 block 2418 (175s)
+block 2 cols 2418 kernel dim (deg<8) 87 dim T_8 block 87 rank K_<=8 block 2418 (212s)
+block 3 cols 2418 kernel dim (deg<8) 87 dim T_8 block 87 rank K_<=8 block 2418 (247s)
+block 4 cols 2418 kernel dim (deg<8) 87 dim T_8 block 87 rank K_<=8 block 2418 (280s)
+rank_p K_{<=8} = 12093  |A| = 12093  dim T_8 = 436

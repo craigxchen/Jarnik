@@ -1,0 +1,17 @@
+tables built for 14 moduli <= 47 [48s]; sizes 3:16/16 5:16/16 7:128/128 11:288/288 13:288/288 17:512/512 19:960/960 23:3456/3456 29:3392/3392 31:5248/5248 37:10048/9920 41:12896/12896 43:14144/14144 47:26880/26112
+Q=3: coherent (exact, depth level 0) nodes=1 [1s]
+Q=5: coherent (exact, depth level 0) nodes=1 [1s]
+Q=7: coherent (exact, depth level 0) nodes=1 [1s]
+Q=11: DONE with depth level 0 (nodes=15); deepening
+   deep table q=3 a=3: 11008 signatures, 10880 minimal
+   deep table q=5 a=3: 96000 signatures, 85760 minimal
+   deep table q=7 a=2: 37120 signatures, 34816 minimal
+Q=11: DONE with depth level 1 (nodes=15); deepening
+   deep table q=3 a=3: 11008 signatures, 10880 minimal
+   deep table q=5 a=3: 96000 signatures, 85760 minimal
+   deep table q=7 a=2: 37120 signatures, 34816 minimal
+   deep table q=11 a=2: 277888 signatures, 108928 minimal
+   deep table q=13 a=2: 343680 signatures, 50048 minimal
+Q=11: DONE at full depth (nodes=39); building witness
+Q=11: explicit verified non-coherent good system on all of F [2851s]
+RESULT bal4 K=4: joint core >= 7 (exact); non-coherent witness at Q=11

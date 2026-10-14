@@ -1,0 +1,17 @@
+tables built for 43 moduli <= 223 [2103s]; sizes 3:16/16 7:64/64 11:128/128 19:128/128 23:128/128 31:256/256 37:256/256 41:256/256 43:512/512 47:768/768 53:1024/1024 59:256/256 61:512/512 67:1280/1280 71:1792/1792 73:3072/3072 79:4096/4096 83:4864/4864 89:4864/4864 97:21504/21504 101:5888/5888 103:4608/4608 107:4864/4864 109:8192/8192 113:14848/14848 127:18432/18432 131:28032/28032 137:26752/26752 139:30912/30912 149:20288/20288 151:15232/15232 157:65216/65216 163:36480/36480 167:81920/81920 173:54016/54016 179:61440/61440 181:81472/81472 191:16384/16384 193:114048/114048 197:151936/151936 199:52736/52736 211:139392/139392 223:190208/190208
+Q=167: coherent (exact, depth level 0) nodes=401 [49s]
+Q=173: coherent (exact, depth level 0) nodes=401 [48s]
+Q=179: coherent (exact, depth level 0) nodes=401 [45s]
+Q=181: coherent (exact, depth level 0) nodes=401 [46s]
+Q=191: coherent (exact, depth level 0) nodes=401 [45s]
+Q=193: coherent (exact, depth level 0) nodes=401 [45s]
+Q=197: DONE with depth level 0 (nodes=8); deepening
+   deep table q=3 a=3: 128 signatures, 128 minimal
+   deep table q=7 a=2: 512 signatures, 512 minimal
+Q=197: DONE with depth level 1 (nodes=6); deepening
+   deep table q=3 a=3: 128 signatures, 128 minimal
+   deep table q=7 a=2: 512 signatures, 512 minimal
+   deep table q=11 a=2: 4352 signatures, 4352 minimal
+Q=197: DONE at full depth (nodes=6); building witness
+Q=197: UNDECIDED (30 level-1/deep solutions, none extended+verified) [133s]
+RESULT first4 K=6: joint core >= 193 (exact); non-coherent witness at Q=None

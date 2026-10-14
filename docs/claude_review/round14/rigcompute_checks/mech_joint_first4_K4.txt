@@ -1,0 +1,26 @@
+first4 K=4 C=F∩[3,61] moduli<= 79 depth 0: baseline INFEASIBLE
+  drop outer modulus 67: INFEASIBLE
+  drop outer modulus 71: INFEASIBLE
+  drop outer modulus 73: DONE
+  drop outer modulus 79: INFEASIBLE
+  drop core modulus 3: DONE
+  drop core modulus 7: DONE
+  drop core modulus 11: INFEASIBLE
+  drop core modulus 19: INFEASIBLE
+  drop core modulus 23: INFEASIBLE
+  drop core modulus 31: INFEASIBLE
+  drop core modulus 37: DONE
+  drop core modulus 41: DONE
+  drop core modulus 43: INFEASIBLE
+  drop core modulus 47: DONE
+  drop core modulus 53: DONE
+  drop core modulus 59: INFEASIBLE
+  drop core modulus 61: INFEASIBLE
+  lift budgets of norm 1: INFEASIBLE
+  lift budgets of norm 2: INFEASIBLE
+  lift budgets of norm 3: DONE
+  lift budgets of norm 4: DONE
+  keep only norm-1 budgets: DONE
+  keep only norm-2 budgets: DONE
+  keep only norm-3 budgets: DONE
+  keep only norm-4 budgets: DONE

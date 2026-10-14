@@ -1,0 +1,4 @@
+K=6 #F(<=1500) 115 max 1039
+K=6 q0 257 surv 64 nonclass 0 F1 0 F2 0 wit [0, 0, 0, 0]
+K=6 q0 263 surv 40 nonclass 0 F1 0 F2 0 wit [0, 0, 0, 0]
+K=6 q0 269 surv 132 nonclass 66 F1 66 F2 0 wit [4, 254, 111, 117]

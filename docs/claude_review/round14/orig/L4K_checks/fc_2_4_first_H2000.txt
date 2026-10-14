@@ -1,0 +1,6 @@
+K=2 r=4 first P=[5, 13, 17, 29] F=[3, 7, 11, 19, 23, 31, 41] H=2000 (#zeta=1573)
+  genuine coherent (sanity): all F: True
+  mode: exact weighted sampling from all good level-1 systems, then lifts through all levels
+
+  generated good systems (all levels): 100 (failed restarts 0, level-1-good samples with no good lift 0); coherent on all forced q: 1; coherent on forced Q_7 q [7, 23, 31]: 100; genuine signature everywhere: 0  [23s]
+  example non-coherent good system (level-1 labels): {3: [1, 0, 1, 1], 7: [7, 1, 1, 6], 11: [2, 1, 5, 7], 19: [18, 19, 6, 1], 23: [23, 4, 15, 2], 31: [30, 17, 29, 21], 41: [32, 7, 11, 35]}

@@ -1,0 +1,1 @@
+pool 10791 dirs 1519 m 8 weightvecs 10 : leaves 0 ; nodes per level: 1 7 940 30517 323644 555867 52681 0 0

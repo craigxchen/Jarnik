@@ -1,0 +1,7 @@
+K=2 r=4 first q=3 n=1: vectors with genuine signature 1, in genuine class 1
+K=2 r=4 first q=7 n=2: vectors with genuine signature 2, in genuine class 2
+K=2 r=4 first q=11 n=3: vectors with genuine signature 4, in genuine class 4
+K=2 r=4 first q=19 n=5: vectors with genuine signature 32, in genuine class 16
+K=2 r=4 first q=23 n=6: vectors with genuine signature 128, in genuine class 64
+K=2 r=4 first q=31 n=8: vectors with genuine signature 1024, in genuine class 256
+K=2 r=4 first q=41 n=10: vectors with genuine signature 4096, in genuine class 512

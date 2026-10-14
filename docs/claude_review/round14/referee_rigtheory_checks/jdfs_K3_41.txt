@@ -1,0 +1,1 @@
+K=3 q0=41 G=[]: FEASIBLE nodes=18 time=0.1s

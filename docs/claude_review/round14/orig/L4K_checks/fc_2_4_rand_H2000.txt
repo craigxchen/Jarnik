@@ -1,0 +1,6 @@
+K=2 r=4 rand P=[13, 37, 97, 109] F=[3, 5, 7, 11, 17, 19, 23, 29, 31, 41] H=2000 (#zeta=1573)
+  genuine coherent (sanity): all F: True
+  mode: randomized greedy generation (budget-respecting), lifts through all levels
+
+  generated good systems (all levels): 100 (failed restarts 331, level-1-good samples with no good lift 0); coherent on all forced q: 0; coherent on forced Q_7 q [7, 23, 31]: 100; genuine signature everywhere: 0  [88s]
+  example non-coherent good system (level-1 labels): {11: [1, 8, 4, 5], 31: [19, 15, 2, 30], 3: [0, 0, 0, 2], 5: [3, 1, 1, 0], 29: [6, 11, 25, 16], 19: [19, 11, 13, 17], 17: [6, 7, 13, 13], 41: [33, 34, 3, 9], 23: [16, 3, 1, 5], 7: [5, 6, 5, 2]}

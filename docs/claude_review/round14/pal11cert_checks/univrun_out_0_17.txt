@@ -1,0 +1,19 @@
+{(6, 2): 110, (12, 1): 11, (2, 6): 66, (4, 9): 495, (7, 5): 9240, (4, 6): 990, (6, 4): 1320, 'reps12_2': 1001}
+profile 0 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2)) | mode full | pool 176 (reps 36) | written leaves 0 | 4s
+profile 1 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (12, 1)) | mode full | pool 77 (reps 17) | written leaves 0 | 0s
+profile 2 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (12, 2)) | mode full+reps(12,2) | pool 1067 (reps 215) | written leaves 0 | 5s
+profile 3 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 6), (6, 2)) | mode full | pool 1166 (reps 234) | written leaves 0 | 414s
+profile 4 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (6, 2)) | mode full | pool 176 (reps 36) | written leaves 0 | 8s
+profile 5 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (6, 4)) | mode full | pool 1496 (reps 300) | written leaves 0 | 49s
+profile 6 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (6, 6)) | mode free slot (6, 6) | pool 176 (reps 36) | written leaves 0 | 9s
+profile 7 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (7, 5)) | mode full | pool 9416 (reps 1884) | written leaves 0 | 169s
+profile 8 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (7, 6)) | mode free slot (7, 6) | pool 176 (reps 36) | written leaves 0 | 9s
+profile 9 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (8, 4)) | mode free slot (8, 4) | pool 176 (reps 36) | written leaves 0 | 10s
+profile 10 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (8, 5)) | mode free slot (8, 5) | pool 176 (reps 36) | written leaves 0 | 9s
+profile 11 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 2), (8, 6)) | mode free slot (8, 6) | pool 176 (reps 36) | written leaves 0 | 10s
+profile 12 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 4), (6, 4)) | mode full | pool 1386 (reps 278) | written leaves 0 | 128s
+profile 13 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (6, 4), (8, 4)) | mode free slot (8, 4) | pool 1386 (reps 278) | written leaves 0 | 61s
+profile 14 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (3, 9), (6, 2), (6, 2)) | mode free slot (3, 9) | pool 176 (reps 36) | written leaves 0 | 16s
+profile 15 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 6), (4, 6), (6, 2)) | mode full | pool 1166 (reps 234) | written leaves 0 | 419s
+profile 16 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 6), (6, 2), (6, 2)) | mode full | pool 1166 (reps 234) | written leaves 0 | 470s
+profile 17 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 6), (6, 2), (6, 4)) | mode full | pool 2486 (reps 498) | written leaves 0 | 1324s

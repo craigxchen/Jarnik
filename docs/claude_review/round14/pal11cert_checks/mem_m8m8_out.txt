@@ -1,0 +1,4 @@
+syl8 L 2 m 8 |A| 1037  rank_Q K_{<=m} = 1037  rank_p = 1037  (negatives rigorous: True )
+dim T_m mod p = 42
+leaves tested 42 : members mod p 0 , non-members 42
+members that are zonotopes: 0 of 0

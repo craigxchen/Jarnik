@@ -1,0 +1,24 @@
+K=2 r=4 last ps=[173, 181, 193, 197] q*=31 Y=1297 H=2000 (#zeta=1573) seed=2 A_K=154
+  genuine share theta_7([1,q*])/theta_7([1,Y]) = 0.0274
+  columns (0, 1): max pair-coherent share of free part = 0.0778; upper bound for coherent share = 0.1053
+     restricted to F_K={n_q<=A_K} (Q_7 mass 146.4, forced Q_7 share 0.0582): max pair-coherent share of free part = 0.1524
+  columns (2, 3): max pair-coherent share of free part = 0.0779; upper bound for coherent share = 0.1053
+     restricted to F_K={n_q<=A_K} (Q_7 mass 146.4, forced Q_7 share 0.0582): max pair-coherent share of free part = 0.1364
+K=2 r=8 first ps=[5, 13, 17, 29, 37, 41, 53, 61] q*=79 Y=4625 H=2000 (#zeta=1573) seed=3 A_K=298
+  genuine share theta_7([1,q*])/theta_7([1,Y]) = 0.0187
+  columns (0, 1): max pair-coherent share of free part = 0.0338; upper bound for coherent share = 0.0524
+     restricted to F_K={n_q<=A_K} (Q_7 mass 288.9, forced Q_7 share 0.0727): max pair-coherent share of free part = 0.0925
+  columns (2, 3): max pair-coherent share of free part = 0.0263; upper bound for coherent share = 0.0450
+     restricted to F_K={n_q<=A_K} (Q_7 mass 288.9, forced Q_7 share 0.0727): max pair-coherent share of free part = 0.0834
+K=3 r=4 first ps=[5, 13, 17, 29] q*=103 Y=1625 H=2000 (#zeta=1573) seed=4 A_K=405
+  genuine share theta_7([1,q*])/theta_7([1,Y]) = 0.0601
+  columns (0, 1): max pair-coherent share of free part = 0.0649; upper bound for coherent share = 0.1249
+     restricted to F_K={n_q<=A_K} (Q_7 mass 426.8, forced Q_7 share 0.0601): max pair-coherent share of free part = 0.0649
+  columns (2, 3): max pair-coherent share of free part = 0.0576; upper bound for coherent share = 0.1177
+     restricted to F_K={n_q<=A_K} (Q_7 mass 426.8, forced Q_7 share 0.0601): max pair-coherent share of free part = 0.0576
+K=2 r=4 first ps=[5, 13, 17, 29] q*=41 Y=1297 H=8000 (#zeta=6284) seed=5 A_K=154
+  genuine share theta_7([1,q*])/theta_7([1,Y]) = 0.0274
+  columns (0, 1): max pair-coherent share of free part = 0.0979; upper bound for coherent share = 0.1253
+     restricted to F_K={n_q<=A_K} (Q_7 mass 146.4, forced Q_7 share 0.0582): max pair-coherent share of free part = 0.1934
+  columns (2, 3): max pair-coherent share of free part = 0.1004; upper bound for coherent share = 0.1279
+     restricted to F_K={n_q<=A_K} (Q_7 mass 146.4, forced Q_7 share 0.0582): max pair-coherent share of free part = 0.1880

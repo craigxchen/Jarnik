@@ -1,0 +1,8 @@
+first5 K=5 r=5 P=[5, 13, 17, 29, 37] Qscan=18945: #forced=104 q*=719 aborted=[] [38.2s]
+rand5 K=5 r=5 P=[89, 109, 149, 281, 353] Qscan=18945: #forced=102 q*=641 aborted=[] [31.3s]
+bal5 K=5 r=5 P=[97, 101, 109, 113, 137] Qscan=18945: #forced=101 q*=647 aborted=[] [27.5s]
+last5 K=5 r=5 P=[349, 353, 373, 389, 397] Qscan=18945: #forced=102 q*=617 aborted=[] [26.8s]
+first6 K=5 r=6 P=[5, 13, 17, 29, 37, 41] Qscan=30465: #forced=150 q*=1039 aborted=[] [3690.5s]
+rand6 K=5 r=6 P=[37, 101, 257, 317, 373, 389] Qscan=30465: #forced=147 q*=911 aborted=[919, 1801] [5904.9s]
+bal6 K=5 r=6 P=[97, 101, 109, 113, 137, 149] Qscan=30465: #forced=147 q*=967 aborted=[] [4048.2s]
+last6 K=5 r=6 P=[337, 349, 353, 373, 389, 397] Qscan=30465: #forced=148 q*=1039 aborted=[] [6021.6s]

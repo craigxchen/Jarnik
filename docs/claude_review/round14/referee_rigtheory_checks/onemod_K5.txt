@@ -1,0 +1,42 @@
+K=5 q0=3 n=1 surv=1 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=7 n=2 surv=2 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=11 n=3 surv=2 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=19 n=5 surv=4 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=23 n=6 surv=4 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=31 n=8 surv=8 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=37 n=9 surv=6 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=41 n=10 surv=8 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=43 n=11 surv=10 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=47 n=12 surv=8 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=53 n=13 surv=12 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=59 n=15 surv=8 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=61 n=15 surv=8 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=67 n=17 surv=16 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=71 n=18 surv=12 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=73 n=18 surv=12 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=79 n=20 surv=16 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=83 n=21 surv=12 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=89 n=22 surv=20 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=97 n=24 surv=16 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=101 n=25 surv=20 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=103 n=26 surv=24 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=107 n=27 surv=18 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=109 n=27 surv=18 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=113 n=28 surv=24 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=127 n=32 surv=32 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=131 n=33 surv=20 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=137 n=34 surv=32 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=139 n=35 surv=24 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=149 n=37 surv=36 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=151 n=38 surv=36 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=157 n=39 surv=48 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=163 n=41 surv=160 nonclass=80 F1=80 F2=0 wit=[1, 69, 65, 87]
+K=5 q0=167 n=42 surv=120 nonclass=96 F1=96 F2=0 wit=[1, 131, 71, 148]
+K=5 q0=173 n=43 surv=84 nonclass=42 F1=42 F2=0 wit=[3, 26, 47, 110]
+K=5 q0=179 n=45 surv=48 nonclass=24 F1=24 F2=0 wit=[4, 44, 170, 118]
+K=5 q0=181 n=45 surv=48 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=191 n=48 surv=32 nonclass=0 F1=0 F2=0 wit=-
+K=5 q0=193 n=48 surv=256 nonclass=128 F1=128 F2=0 wit=[3, 59, 81, 13]
+K=5 q0=197 n=49 surv=1554 nonclass=1470 F1=462 F2=1008 wit=[1, 13, 155, 174]
+K=5 q0=199 n=50 surv=120 nonclass=40 F1=40 F2=0 wit=[8, 80, 45, 102]
+K=5 q0=211 n=53 surv=884 nonclass=832 F1=832 F2=0 wit=[2, 10, 25, 9]

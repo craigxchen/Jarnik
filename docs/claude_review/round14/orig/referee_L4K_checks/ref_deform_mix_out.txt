@@ -1,0 +1,2 @@
+monomial norm<=4, genuine on forced set of norm 5: q0=107 n=27 parity vectors=8503056 level-1 survivors=36 outside genuine class=0
+monomial norm<=4, genuine on forced set of norm 5: q0=127 n=32 parity vectors=16777216 level-1 survivors=1152 outside genuine class=640

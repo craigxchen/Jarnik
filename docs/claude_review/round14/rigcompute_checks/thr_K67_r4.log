@@ -1,0 +1,8 @@
+first4 K=6 r=4 P=[5, 13, 17, 29] Qscan=33245: #forced=115 q*=1039 aborted=[] [3.9s]
+rand4 K=6 r=4 P=[53, 61, 89, 173] Qscan=33245: #forced=113 q*=929 aborted=[] [3.6s]
+bal4 K=6 r=4 P=[97, 101, 109, 113] Qscan=33245: #forced=113 q*=809 aborted=[] [3.4s]
+last4 K=6 r=4 P=[353, 373, 389, 397] Qscan=33245: #forced=113 q*=1231 aborted=[] [3.9s]
+first4 K=7 r=4 P=[5, 13, 17, 29] Qscan=50601: #forced=173 q*=2089 aborted=[] [29.6s]
+rand4 K=7 r=4 P=[53, 61, 89, 173] Qscan=50601: #forced=174 q*=1879 aborted=[] [28.5s]
+bal4 K=7 r=4 P=[97, 101, 109, 113] Qscan=50601: #forced=174 q*=1913 aborted=[] [30.8s]
+last4 K=7 r=4 P=[353, 373, 389, 397] Qscan=50601: #forced=174 q*=1231 aborted=[] [28.7s]

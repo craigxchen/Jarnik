@@ -1,0 +1,8 @@
+{(6, 2): 110, (12, 1): 11, (2, 6): 66, (4, 9): 495, (7, 5): 9240, (4, 6): 990, (6, 4): 1320, 'reps12_2': 1001}
+profile 18 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 6), (6, 2), (6, 6)) | mode free slot (6, 6) reserve [6, 0, 6, 6, 6, 0, 12, 12, 18, 24] | pool 1166 (reps 234) | written leaves 0 | 516s
+profile 19 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 6), (6, 4), (6, 4)) | mode full reserve None | pool 2376 (reps 476) | written leaves 0 | 1917s
+profile 20 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 8), (6, 2), (6, 2)) | mode free slot (4, 8) reserve [8, 0, 8, 4, 8, 0, 12, 12, 20, 28] | pool 176 (reps 36) | written leaves 0 | 9s
+profile 21 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 8), (6, 2), (6, 4)) | mode free slot (4, 8) reserve [8, 0, 8, 4, 8, 0, 12, 12, 20, 28] | pool 1496 (reps 300) | written leaves 0 | 72s
+profile 22 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 9), (6, 2), (6, 2)) | mode full reserve None | pool 671 (reps 135) | written leaves 0 | 18s
+profile 23 ((2, 6), (2, 6), (2, 6), (2, 6), (2, 6), (4, 10), (6, 2), (6, 2)) | mode free slot (4, 10) reserve [10, 0, 10, 4, 10, 0, 14, 14, 24, 34] | pool 176 (reps 36) | written leaves 0 | 4s
+profile 24 ((2, 6), (2, 6), (2, 6), (2, 6), (4, 6), (4, 6), (4, 6), (6, 2)) | mode full reserve None | pool 1166 (reps 234) | written leaves 0 | 271s

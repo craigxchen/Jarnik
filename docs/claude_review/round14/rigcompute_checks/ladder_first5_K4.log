@@ -1,0 +1,3 @@
+first5 K=4 Qsub=79 Qstart=0: lower=79 witness=None
+first5 K=4 Qsub=103 Qstart=80: lower=101 witness=103
+LADDER first5 K=4: joint core >= 101; witness at 103; one-mod segment 127, q_flex1 131

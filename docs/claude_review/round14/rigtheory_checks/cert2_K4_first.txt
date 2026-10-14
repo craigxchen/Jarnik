@@ -1,0 +1,40 @@
+K=4 q0=3 n=1: S1+e1(|D|=16) gen=yes extras=0 affordable=0
+K=4 q0=7 n=2: S1+e1(|D|=16) gen=yes extras=24 affordable=19
+K=4 q0=11 n=3: S1+e1(|D|=16) gen=yes extras=29 affordable=21
+K=4 q0=19 n=5: S1+e1(|D|=16) gen=yes extras=33 affordable=13
+K=4 q0=23 n=6: S1+e1(|D|=16) gen=yes extras=37 affordable=15
+K=4 q0=31 n=8: S1+e1(|D|=16) gen=yes extras=38 affordable=10
+K=4 q0=37 n=9: S1+e1(|D|=16) gen=yes extras=41 affordable=7
+K=4 q0=41 n=10: S1+e2(|D|=16) gen=no(index 20) extras=42 affordable=12
+K=4 q0=43 n=11: S1+e1(|D|=16) gen=yes extras=42 affordable=7
+K=4 q0=47 n=12: S1+e1(|D|=16) gen=no(index 144) extras=43 affordable=4
+K=4 q0=53 n=13: S1+e1(|D|=16) gen=no(index 169) extras=43 affordable=2
+K=4 q0=59 n=15: no covering anticode
+K=4 q0=61 n=15: no covering anticode
+K=4 q0=67 n=17: no covering anticode
+K=4 q0=71 n=18: no covering anticode
+K=4 q0=73 n=18: no covering anticode
+K=4 q0=79 n=20: no covering anticode
+K=4 q0=83 n=21: no covering anticode
+K=4 q0=89 n=22: no covering anticode
+K=4 q0=97 n=24: no covering anticode
+K=4 q0=101 n=25: no covering anticode
+K=4 q0=103 n=26: no covering anticode
+K=4 q0=107 n=27: no covering anticode
+K=4 q0=109 n=27: no covering anticode
+K=4 q0=113 n=28: no covering anticode
+K=4 q0=127 n=32: no covering anticode
+K=4 q0=131 n=33: no covering anticode
+K=4 q0=137 n=34: no covering anticode
+K=4 q0=139 n=35: no covering anticode
+K=4 q0=149 n=37: no covering anticode
+K=4 q0=151 n=38: no covering anticode
+K=4 q0=157 n=39: no covering anticode
+K=4 q0=163 n=41: no covering anticode
+K=4 q0=167 n=42: no covering anticode
+K=4 q0=173 n=43: no covering anticode
+K=4 q0=179 n=45: no covering anticode
+K=4 q0=181 n=45: no covering anticode
+K=4 q0=191 n=48: no covering anticode
+K=4 q0=193 n=48: no covering anticode
+K=4 q0=199 n=50: no covering anticode

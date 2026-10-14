@@ -1,0 +1,16 @@
+q0=3 target=none: NO target label at all (local)
+q0=7 target=none: NO target label at all (local)
+q0=11 target=none: NO target label at all (local)
+q0=19 target=none: NO target label at all (local)
+q0=23 target=none: NO target label at all (local)
+q0=31 target=none: NO target label at all (local)
+q0=37 target=none: INFEASIBLE (exact) nodes=17 l1sol=0 [0s]
+q0=41 target=none: INFEASIBLE (exact) nodes=145 l1sol=0 [3s]
+q0=43 target=none: INFEASIBLE (exact) nodes=401 l1sol=0 [11s]
+q0=47 target=none: INFEASIBLE (exact) nodes=401 l1sol=0 [9s]
+q0=53 target=none: INFEASIBLE (exact) nodes=145 l1sol=0 [4s]
+q0=59 target=none: INFEASIBLE (exact) nodes=401 l1sol=0 [7s]
+q0=61 target=none: INFEASIBLE (exact) nodes=401 l1sol=0 [13s]
+q0=67 target=none: LEVEL1-SOLUTIONS-UNLIFTED nodes=231 l1sol=200 [160s]
+q0=71 target=none: LEVEL1-SOLUTIONS-UNLIFTED nodes=230 l1sol=200 [133s]
+q0=73 target=none: INFEASIBLE (exact) nodes=401 l1sol=0 [9s]

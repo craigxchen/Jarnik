@@ -1,0 +1,10 @@
+tables built for 14 moduli <= 47 [155s]; sizes 3:16/16 5:16/16 7:128/128 11:288/288 13:288/288 17:256/256 19:960/960 23:3456/3456 29:3392/3392 31:5760/5760 37:10048/9920 41:10560/10560 43:14144/14144 47:40576/38400
+Q=3: coherent (exact) nodes=1 [1s]
+Q=5: coherent (exact) nodes=1 [1s]
+Q=7: coherent (exact) nodes=1 [1s]
+Q=11: DONE on F<=47 (nodes=15); building witness
+   deep table q=3 a=3: 8192 signatures, 8192 minimal
+   deep table q=5 a=3: 78336 signatures, 73728 minimal
+   deep table q=7 a=2: 43392 signatures, 41216 minimal
+Q=11: explicit verified non-coherent good system on all of F [294s]
+RESULT rand4 K=4: joint core >= 7 (exact); non-coherent witness at Q=11

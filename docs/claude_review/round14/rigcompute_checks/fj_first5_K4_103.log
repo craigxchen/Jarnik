@@ -1,0 +1,15 @@
+tables built for 21 moduli <= 103 [271s]; sizes 3:32/32 7:128/128 11:512/512 19:1024/1024 23:512/512 31:2048/2048 41:1024/1024 43:2048/2048 47:3072/3072 53:4096/4096 59:3072/3072 61:1024/1024 67:5120/5120 71:10240/10240 73:12288/12288 79:60928/60928 83:23552/23552 89:27648/27648 97:172032/172032 101:48896/48896 103:42752/42752
+Q=83: coherent (exact, depth level 0) nodes=1569 [13s]
+Q=89: coherent (exact, depth level 0) nodes=1569 [13s]
+Q=97: coherent (exact, depth level 0) nodes=1569 [13s]
+Q=101: coherent (exact, depth level 0) nodes=1569 [14s]
+Q=103: DONE with depth level 0 (nodes=6); deepening
+   deep table q=3 a=3: 512 signatures, 512 minimal
+   deep table q=7 a=2: 2048 signatures, 2048 minimal
+Q=103: DONE with depth level 1 (nodes=5); deepening
+   deep table q=3 a=3: 512 signatures, 512 minimal
+   deep table q=7 a=2: 2048 signatures, 2048 minimal
+   deep table q=11 a=2: 11776 signatures, 11776 minimal
+Q=103: DONE at full depth (nodes=5); building witness
+Q=103: explicit verified non-coherent good system on all of F [43s]
+RESULT first5 K=4: joint core >= 101 (exact); non-coherent witness at Q=103

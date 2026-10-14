@@ -1,0 +1,6 @@
+K=5: genuine (all levels) at every forced q (<=349) except the top Q7 moduli [199, 191, 167, 151, 127] ; search non-genuine there (min-collision greedy)
+q=199 n=50: non-genuine-class level-1 vector [144, 40, 185, 86], 10 level-1 collisions, level-2 clean lift found: True
+q=191: no non-genuine-class fitting vector found in 2e7 samples
+K=5: genuine (all levels) at every forced q (<=349) except the top Q7 moduli [199, 191, 167, 151, 127] ; search non-genuine there (min-collision greedy)
+q=199 n=50: non-genuine-class level-1 vector [8, 160, 65, 62], 10 level-1 collisions, level-2 clean lift found: True
+q=191: no non-genuine-class fitting vector found in 2e7 samples

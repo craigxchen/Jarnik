@@ -1,0 +1,5 @@
+tables built for 15 moduli <= 53 [1s]; sizes 3:16/16 5:16/16 7:128/128 11:288/288 13:288/288 17:512/512 19:1024/1024 23:3456/3456 29:3392/3392 31:5248/5248 37:10944/10816 41:16000/16000 43:15936/15936 47:28736/28480 53:26688/26688
+Q=3: coherent (exact, depth level 0) nodes=1 [4s]
+Q=5: coherent (exact, depth level 0) nodes=1 [4s]
+Q=7: coherent (exact, depth level 0) nodes=1 [4s]
+Terminated

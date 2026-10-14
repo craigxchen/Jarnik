@@ -1,0 +1,13 @@
+tables built for 16 moduli <= 59 [78s]; sizes 3:16/16 5:16/16 7:128/128 11:656/640 13:656/640 17:1024/1024 19:2000/2000 23:3584/3552 29:3392/3392 31:4608/4608 37:10944/10816 41:10240/10240 43:15040/15040 47:28032/27776 53:26688/26688 59:75136/73088
+Q=3: coherent (exact, depth level 0) nodes=1 [3s]
+Q=5: coherent (exact, depth level 0) nodes=1 [3s]
+Q=7: coherent (exact, depth level 0) nodes=1 [4s]
+Q=11: DONE with depth level 0 (nodes=17); deepening
+   deep table q=3 a=3: 12416 signatures, 12416 minimal
+   deep table q=5 a=3: 218688 signatures, 218688 minimal
+   deep table q=7 a=2: 37632 signatures, 37632 minimal
+Q=11: DONE with depth level 1 (nodes=17); deepening
+   deep table q=3 a=3: 12416 signatures, 12416 minimal
+   deep table q=5 a=3: 218688 signatures, 218688 minimal
+   deep table q=7 a=2: 37632 signatures, 37632 minimal
+   deep table q=11 a=2: 0 signatures, 0 minimal

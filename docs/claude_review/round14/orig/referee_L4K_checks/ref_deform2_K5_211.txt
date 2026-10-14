@@ -1,0 +1,1 @@
+K=5 q0=211 n=53 parity vectors=126247696 level-1 survivors=884 outside genuine class=832

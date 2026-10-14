@@ -1,0 +1,65 @@
+K=5 q0=3 n=1: cover by S2 (|D|=41); Prop R' certificate=YES (affordable extras=0)
+K=5 q0=7 n=2: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=294)
+K=5 q0=11 n=3: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=374)
+K=5 q0=19 n=5: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=364)
+K=5 q0=23 n=6: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=394)
+K=5 q0=31 n=8: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=386)
+K=5 q0=37 n=9: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=372)
+K=5 q0=41 n=10: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=360)
+K=5 q0=43 n=11: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=376)
+K=5 q0=47 n=12: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=362)
+K=5 q0=53 n=13: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=354)
+K=5 q0=59 n=15: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=344)
+K=5 q0=61 n=15: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=352)
+K=5 q0=67 n=17: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=344)
+K=5 q0=71 n=18: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=334)
+K=5 q0=73 n=18: no covering anticode
+K=5 q0=79 n=20: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=332)
+K=5 q0=83 n=21: no covering anticode
+K=5 q0=89 n=22: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=328)
+K=5 q0=97 n=24: no covering anticode
+K=5 q0=101 n=25: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=324)
+K=5 q0=103 n=26: no covering anticode
+K=5 q0=107 n=27: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=312)
+K=5 q0=109 n=27: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=314)
+K=5 q0=113 n=28: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=312)
+K=5 q0=127 n=32: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=300)
+K=5 q0=131 n=33: cover by S2 (|D|=41); Prop R' certificate=no (affordable extras=304)
+K=5 q0=137 n=34: no covering anticode
+K=5 q0=139 n=35: no covering anticode
+K=5 q0=149 n=37: no covering anticode
+K=5 q0=151 n=38: no covering anticode
+K=5 q0=157 n=39: no covering anticode
+K=5 q0=163 n=41: no covering anticode
+K=5 q0=167 n=42: no covering anticode
+K=5 q0=173 n=43: no covering anticode
+K=5 q0=179 n=45: no covering anticode
+K=5 q0=181 n=45: no covering anticode
+K=5 q0=191 n=48: no covering anticode
+K=5 q0=193 n=48: no covering anticode
+K=5 q0=197 n=49: no covering anticode
+K=5 q0=199 n=50: no covering anticode
+K=5 q0=211 n=53: no covering anticode
+K=5 q0=223 n=56: no covering anticode
+K=5 q0=227 n=57: no covering anticode
+K=5 q0=229 n=57: no covering anticode
+K=5 q0=233 n=58: no covering anticode
+K=5 q0=239 n=60: no covering anticode
+K=5 q0=241 n=60: no covering anticode
+K=5 q0=251 n=63: no covering anticode
+K=5 q0=257 n=64: no covering anticode
+K=5 q0=263 n=66: no covering anticode
+K=5 q0=269 n=67: no covering anticode
+K=5 q0=271 n=68: no covering anticode
+K=5 q0=277 n=69: no covering anticode
+K=5 q0=281 n=70: no covering anticode
+K=5 q0=283 n=71: no covering anticode
+K=5 q0=293 n=73: no covering anticode
+K=5 q0=307 n=77: no covering anticode
+K=5 q0=311 n=78: no covering anticode
+K=5 q0=313 n=78: no covering anticode
+K=5 q0=317 n=79: no covering anticode
+K=5 q0=331 n=83: no covering anticode
+K=5 q0=337 n=84: no covering anticode
+K=5 q0=347 n=87: no covering anticode
+K=5 q0=349 n=87: no covering anticode

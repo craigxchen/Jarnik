@@ -1,0 +1,13 @@
+  seed 0: good system on all 17 forced moduli; non-genuine-class at core q<=41: [11, 19, 23, 31, 37, 41]; at top: 9
+  seed 1: good system on all 17 forced moduli; non-genuine-class at core q<=41: [11, 19, 23, 31, 37, 41]; at top: 9
+  seed 2: good system on all 17 forced moduli; non-genuine-class at core q<=41: [11, 19, 23, 31, 37, 41]; at top: 9
+  seed 3: good system on all 17 forced moduli; non-genuine-class at core q<=41: [11, 19, 23, 31, 37, 41]; at top: 9
+  seed 4: good system on all 17 forced moduli; non-genuine-class at core q<=41: [11, 19, 23, 31, 37, 41]; at top: 9
+  seed 5: good system on all 17 forced moduli; non-genuine-class at core q<=41: [19, 23, 31, 37, 41]; at top: 9
+  seed 6: good system on all 17 forced moduli; non-genuine-class at core q<=41: [19, 23, 31, 37, 41]; at top: 9
+  seed 7: good system on all 17 forced moduli; non-genuine-class at core q<=41: [11, 19, 23, 31, 37, 41]; at top: 9
+  seed 8: good system on all 17 forced moduli; non-genuine-class at core q<=41: [31, 37, 41]; at top: 9
+  seed 9: good system on all 17 forced moduli; non-genuine-class at core q<=41: [19, 23, 31, 37, 41]; at top: 9
+  seed 10: good system on all 17 forced moduli; non-genuine-class at core q<=41: [19, 23, 31, 37, 41]; at top: 9
+  seed 11: good system on all 17 forced moduli; non-genuine-class at core q<=41: [19, 23, 31, 37, 41]; at top: 9
+K=3 r=4 first: 12/12 searches found a good system on all forced moduli; max depth reached per search [17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17] of 17 [43s]

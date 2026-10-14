@@ -1,0 +1,13 @@
+tables built for 15 moduli <= 59 [1s]; sizes 3:16/16 5:16/16 7:128/128 11:288/288 13:288/288 17:256/256 19:1024/1024 23:3456/3456 29:3392/3392 31:6144/6144 37:10944/10816 41:12800/12800 43:15936/15936 47:41088/40960 59:76480/75328
+Q=3: coherent (exact, depth level 0) nodes=1 [7s]
+Q=5: coherent (exact, depth level 0) nodes=1 [6s]
+Q=7: coherent (exact, depth level 0) nodes=1 [6s]
+Q=11: DONE at depth level 0 (nodes=16), no verified witness among 30; deepening
+   deep table q=3 a=2: 432 signatures, 432 minimal
+   deep table q=5 a=2: 1024 signatures, 1024 minimal
+   deep table q=7 a=2: 43904 signatures, 43904 minimal
+Q=11: DONE at depth level 1 (nodes=14), no verified witness among 30; deepening
+   deep table q=3 a=3: 8192 signatures, 8192 minimal
+   deep table q=5 a=3: 82944 signatures, 82944 minimal
+   deep table q=7 a=2: 43904 signatures, 43904 minimal
+Killed

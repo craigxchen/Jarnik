@@ -1,0 +1,18 @@
+tables built for 16 moduli <= 79 [57s]; sizes 3:32/32 7:128/128 11:512/512 19:1024/1024 23:512/512 31:2048/2048 41:1024/1024 43:2048/2048 47:3072/3072 53:4096/4096 59:3072/3072 61:1024/1024 67:5120/5120 71:10240/10240 73:12288/12288 79:60928/60928
+Q=3: coherent (exact, depth level 0) nodes=1 [1s]
+Q=7: coherent (exact, depth level 0) nodes=1 [1s]
+Q=11: coherent (exact, depth level 0) nodes=1569 [4s]
+Q=19: coherent (exact, depth level 0) nodes=1569 [4s]
+Q=23: coherent (exact, depth level 0) nodes=1569 [4s]
+Q=31: coherent (exact, depth level 0) nodes=1569 [3s]
+Q=41: coherent (exact, depth level 0) nodes=1569 [4s]
+Q=43: coherent (exact, depth level 0) nodes=1569 [4s]
+Q=47: coherent (exact, depth level 0) nodes=1569 [3s]
+Q=53: coherent (exact, depth level 0) nodes=1569 [4s]
+Q=59: coherent (exact, depth level 0) nodes=1569 [4s]
+Q=61: coherent (exact, depth level 0) nodes=1569 [4s]
+Q=67: coherent (exact, depth level 0) nodes=1569 [4s]
+Q=71: coherent (exact, depth level 0) nodes=1569 [4s]
+Q=73: coherent (exact, depth level 0) nodes=1569 [4s]
+Q=79: coherent (exact, depth level 0) nodes=1569 [4s]
+RESULT first5 K=4: joint core >= 79 (exact); non-coherent witness at Q=None

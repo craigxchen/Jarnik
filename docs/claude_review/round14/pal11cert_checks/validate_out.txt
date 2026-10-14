@@ -1,0 +1,17 @@
+block 0 kernel elt 17 : E_<8 c = 0 OK; mu_8(c) member: True ; perturbed member: False
+block 0 kernel elt 72 : E_<8 c = 0 OK; mu_8(c) member: True ; perturbed member: False
+block 0 kernel elt 8 : E_<8 c = 0 OK; mu_8(c) member: True ; perturbed member: False
+block 1 kernel elt 57 : E_<8 c = 0 OK; mu_8(c) member: True ; perturbed member: False
+block 1 kernel elt 60 : E_<8 c = 0 OK; mu_8(c) member: True ; perturbed member: False
+block 1 kernel elt 83 : E_<8 c = 0 OK; mu_8(c) member: True ; perturbed member: False
+block 2 kernel elt 12 : E_<8 c = 0 OK; mu_8(c) member: True ; perturbed member: False
+block 2 kernel elt 62 : E_<8 c = 0 OK; mu_8(c) member: True ; perturbed member: False
+block 2 kernel elt 3 : E_<8 c = 0 OK; mu_8(c) member: True ; perturbed member: False
+block 3 kernel elt 77 : E_<8 c = 0 OK; mu_8(c) member: True ; perturbed member: False
+block 3 kernel elt 0 : E_<8 c = 0 OK; mu_8(c) member: True ; perturbed member: False
+block 3 kernel elt 57 : E_<8 c = 0 OK; mu_8(c) member: True ; perturbed member: False
+block 4 kernel elt 29 : E_<8 c = 0 OK; mu_8(c) member: True ; perturbed member: False
+block 4 kernel elt 75 : E_<8 c = 0 OK; mu_8(c) member: True ; perturbed member: False
+block 4 kernel elt 13 : E_<8 c = 0 OK; mu_8(c) member: True ; perturbed member: False
+random vector member: False
+rank of the 436 lifted kernel vectors: 436

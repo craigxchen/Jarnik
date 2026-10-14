@@ -1,0 +1,32 @@
+tables built for 41 moduli <= 199 [678s]; sizes 3:16/16 7:64/64 11:128/128 19:128/128 23:128/128 31:256/256 37:256/256 41:256/256 43:512/512 47:768/768 53:1024/1024 59:256/256 61:512/512 67:1280/1280 71:1792/1792 73:3072/3072 79:4096/4096 83:4864/4864 89:4864/4864 97:18816/18816 101:5888/5888 103:4608/4608 107:4864/4864 109:8192/8192 113:14848/14848 127:16896/16896 131:27968/27968 137:26752/26752 139:30784/30784 149:19776/19776 151:15232/15232 157:63616/63104 163:34752/34752 167:72704/72704 173:50816/50816 179:56576/56320 181:74688/73536 191:16384/16384 193:24128/12800 197:136896/132864 199:52736/52736
+Q=3: coherent (exact) nodes=1 [5s]
+Q=7: coherent (exact) nodes=1 [4s]
+Q=11: coherent (exact) nodes=401 [13s]
+Q=19: coherent (exact) nodes=401 [14s]
+Q=23: coherent (exact) nodes=401 [13s]
+Q=31: coherent (exact) nodes=401 [13s]
+Q=37: coherent (exact) nodes=401 [13s]
+Q=41: coherent (exact) nodes=401 [13s]
+Q=43: coherent (exact) nodes=401 [14s]
+Q=47: coherent (exact) nodes=401 [15s]
+Q=53: coherent (exact) nodes=401 [14s]
+Q=59: coherent (exact) nodes=401 [14s]
+Q=61: coherent (exact) nodes=401 [14s]
+Q=67: coherent (exact) nodes=401 [15s]
+Q=71: coherent (exact) nodes=401 [14s]
+Q=73: coherent (exact) nodes=401 [15s]
+Q=79: coherent (exact) nodes=401 [15s]
+Q=83: coherent (exact) nodes=401 [16s]
+Q=89: coherent (exact) nodes=401 [15s]
+Q=97: coherent (exact) nodes=1937 [22s]
+Q=101: coherent (exact) nodes=1937 [22s]
+Q=103: coherent (exact) nodes=1937 [22s]
+Q=107: coherent (exact) nodes=1937 [23s]
+Q=109: DONE on F<=199 (nodes=28); building witness
+   deep table q=3 a=3: 128 signatures, 128 minimal
+   deep table q=7 a=2: 512 signatures, 512 minimal
+   deep table q=3 a=3: 128 signatures, 128 minimal
+   deep table q=7 a=2: 512 signatures, 512 minimal
+   deep table q=11 a=2: 4352 signatures, 4352 minimal
+Q=109: UNDECIDED (INFEASIBLE, 0 level-1 solutions, none extended+verified) [50s]
+RESULT first4 K=5: joint core >= 107 (exact); non-coherent witness at Q=None

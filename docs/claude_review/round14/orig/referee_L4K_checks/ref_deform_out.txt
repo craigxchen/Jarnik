@@ -1,0 +1,10 @@
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round10/referee_L4K_checks/ref_deform.py:4: SyntaxWarning: invalid escape sequence '\{'
+  (q0 * prod_{q in F\{q0}} q^{v_q(D_s(Z_v))})^2 <= Norm(Z_v) * (2 if s odd).
+K=4 q0=47 n=12 parity vectors=331776 level-1 survivors=8 outside genuine class=0
+K=4 q0=83 n=21 parity vectors=3111696 level-1 survivors=36 outside genuine class=24
+K=4 q0=97 n=24 parity vectors=5308416 level-1 survivors=16 outside genuine class=0
+K=4 q0=101 n=25 parity vectors=6250000 level-1 survivors=20 outside genuine class=0
+K=4 q0=103 n=26 parity vectors=7311616 level-1 survivors=48 outside genuine class=0
+K=4 q0=107 n=27 parity vectors=8503056 level-1 survivors=216 outside genuine class=144
+
+[exited with code 0]

@@ -1,0 +1,2 @@
+K=4 q0=83 n=21 parity vectors=3111696 level-1 survivors=36 outside sign-extended genuine class (u*(+-L_j))=24
+K=4 q0=107 n=27 parity vectors=8503056 level-1 survivors=216 outside sign-extended genuine class (u*(+-L_j))=144

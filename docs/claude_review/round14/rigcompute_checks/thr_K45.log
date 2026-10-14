@@ -1,0 +1,17 @@
+first4 K=4 r=4 P=[5, 13, 17, 29] Qscan=6549: #forced=40 q*=199 aborted=[] [0.1s]
+rand4 K=4 r=4 P=[53, 61, 89, 173] Qscan=6549: #forced=40 q*=199 aborted=[] [0.1s]
+bal4 K=4 r=4 P=[97, 101, 109, 113] Qscan=6549: #forced=40 q*=271 aborted=[] [0.1s]
+last4 K=4 r=4 P=[353, 373, 389, 397] Qscan=6549: #forced=44 q*=263 aborted=[] [0.1s]
+first5 K=4 r=5 P=[5, 13, 17, 29, 37] Qscan=10549: #forced=54 q*=293 aborted=[] [0.8s]
+rand5 K=4 r=5 P=[89, 109, 149, 281, 353] Qscan=10549: #forced=55 q*=293 aborted=[] [0.8s]
+bal5 K=4 r=5 P=[97, 101, 109, 113, 137] Qscan=10549: #forced=54 q*=293 aborted=[] [0.8s]
+last5 K=4 r=5 P=[349, 353, 373, 389, 397] Qscan=10549: #forced=60 q*=337 aborted=[] [0.9s]
+first6 K=4 r=6 P=[5, 13, 17, 29, 37, 41] Qscan=16949: #forced=74 q*=433 aborted=[] [77.8s]
+rand6 K=4 r=6 P=[37, 101, 257, 317, 373, 389] Qscan=16949: #forced=76 q*=449 aborted=[] [53.8s]
+bal6 K=4 r=6 P=[97, 101, 109, 113, 137, 149] Qscan=16949: #forced=75 q*=599 aborted=[] [79.4s]
+last6 K=4 r=6 P=[337, 349, 353, 373, 389, 397] Qscan=16949: #forced=75 q*=601 aborted=[] [41.0s]
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round14/rigcompute_checks/run_thr.py", line 17, in <module>
+    capture_output=True, text=True).stdout
+    ^^^^
+IndexError: list index out of range

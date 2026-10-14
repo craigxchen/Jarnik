@@ -1,0 +1,40 @@
+K=4 q0=3 n=1: cover by S1+e1 (|D|=16); Prop R' certificate=YES (affordable extras=0)
+K=4 q0=7 n=2: cover by S1+e1 (|D|=16); Prop R' certificate=no (affordable extras=102)
+K=4 q0=11 n=3: cover by S1+e1 (|D|=16); Prop R' certificate=no (affordable extras=130)
+K=4 q0=19 n=5: cover by S1+e1 (|D|=16); Prop R' certificate=no (affordable extras=118)
+K=4 q0=23 n=6: cover by S1+e1 (|D|=16); Prop R' certificate=no (affordable extras=122)
+K=4 q0=31 n=8: cover by S1+e1 (|D|=16); Prop R' certificate=no (affordable extras=118)
+K=4 q0=37 n=9: cover by S1+e1 (|D|=16); Prop R' certificate=no (affordable extras=98)
+K=4 q0=41 n=10: cover by S1+e2 (|D|=16); Prop R' certificate=no (affordable extras=102)
+K=4 q0=43 n=11: cover by S1+e1 (|D|=16); Prop R' certificate=no (affordable extras=100)
+K=4 q0=47 n=12: cover by S1+e1 (|D|=16); Prop R' certificate=no (affordable extras=90)
+K=4 q0=53 n=13: cover by S1+e1 (|D|=16); Prop R' certificate=no (affordable extras=86)
+K=4 q0=59 n=15: no covering anticode
+K=4 q0=61 n=15: no covering anticode
+K=4 q0=67 n=17: no covering anticode
+K=4 q0=71 n=18: no covering anticode
+K=4 q0=73 n=18: no covering anticode
+K=4 q0=79 n=20: no covering anticode
+K=4 q0=83 n=21: no covering anticode
+K=4 q0=89 n=22: no covering anticode
+K=4 q0=97 n=24: no covering anticode
+K=4 q0=101 n=25: no covering anticode
+K=4 q0=103 n=26: no covering anticode
+K=4 q0=107 n=27: no covering anticode
+K=4 q0=109 n=27: no covering anticode
+K=4 q0=113 n=28: no covering anticode
+K=4 q0=127 n=32: no covering anticode
+K=4 q0=131 n=33: no covering anticode
+K=4 q0=137 n=34: no covering anticode
+K=4 q0=139 n=35: no covering anticode
+K=4 q0=149 n=37: no covering anticode
+K=4 q0=151 n=38: no covering anticode
+K=4 q0=157 n=39: no covering anticode
+K=4 q0=163 n=41: no covering anticode
+K=4 q0=167 n=42: no covering anticode
+K=4 q0=173 n=43: no covering anticode
+K=4 q0=179 n=45: no covering anticode
+K=4 q0=181 n=45: no covering anticode
+K=4 q0=191 n=48: no covering anticode
+K=4 q0=193 n=48: no covering anticode
+K=4 q0=199 n=50: no covering anticode

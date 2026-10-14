@@ -1,0 +1,42 @@
+{
+ "first4:4": {
+  "core": 61,
+  "witness": 67,
+  "src": "fj.py first4 4 103 (log in jc2/fj runs); cp_mix.py independent; jwmix_first4_K4_67.pkl"
+ },
+ "first4:5": {
+  "core": 109,
+  "witness": 113,
+  "src": "fj_first4_K5.log (<=107, depth 0), fj_first4_K5b.log (109 depth 1; witness 113); jwmix_first4_K5_113.pkl"
+ },
+ "rand4:4": {
+  "core": 7,
+  "witness": 11,
+  "src": "fj_rand4_K4.log; jwmix_rand4_K4_11.pkl"
+ },
+ "rand4:5": {
+  "core": 7,
+  "witness": 11,
+  "src": "fj_rand4_K5.log; jwmix_rand4_K5_11.pkl"
+ },
+ "bal4:4": {
+  "core": 7,
+  "witness": 11,
+  "src": "fj_bal4_K4.log; jwmix_bal4_K4_11.pkl"
+ },
+ "first5:4": {
+  "core": 101,
+  "witness": 103,
+  "src": "ladder_first5_K4.log, fj_first5_K4_79.log, fj_first5_K4_103.log; jwmix_first5_K4_103.pkl"
+ },
+ "first4:6": {
+  "core_lower": 193,
+  "witness": null,
+  "src": "ladder_first4_K6.log (Qsub 163, 223); Q=197 undecided at Qsub=223; Qsub=293 running"
+ },
+ "first4:7": {
+  "core_lower": 199,
+  "witness": null,
+  "src": "ladder_first4_K7.log (Qsub 199 all certified); Qsub=263 running"
+ }
+}

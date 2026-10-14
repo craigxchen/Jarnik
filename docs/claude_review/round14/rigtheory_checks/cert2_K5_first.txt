@@ -1,0 +1,65 @@
+K=5 q0=3 n=1: S2(|D|=41) gen=yes extras=0 affordable=0
+K=5 q0=7 n=2: S2(|D|=41) gen=yes extras=78 affordable=61
+K=5 q0=11 n=3: S2(|D|=41) gen=yes extras=113 affordable=82
+K=5 q0=19 n=5: S2(|D|=41) gen=yes extras=129 affordable=72
+K=5 q0=23 n=6: S2(|D|=41) gen=yes extras=133 affordable=73
+K=5 q0=31 n=8: S2(|D|=41) gen=yes extras=138 affordable=66
+K=5 q0=37 n=9: S2(|D|=41) gen=yes extras=140 affordable=58
+K=5 q0=41 n=10: S2(|D|=41) gen=yes extras=144 affordable=57
+K=5 q0=43 n=11: S2(|D|=41) gen=yes extras=145 affordable=59
+K=5 q0=47 n=12: S2(|D|=41) gen=yes extras=145 affordable=55
+K=5 q0=53 n=13: S2(|D|=41) gen=yes extras=148 affordable=52
+K=5 q0=59 n=15: S2(|D|=41) gen=yes extras=149 affordable=46
+K=5 q0=61 n=15: S2(|D|=41) gen=yes extras=149 affordable=48
+K=5 q0=67 n=17: S2(|D|=41) gen=yes extras=152 affordable=47
+K=5 q0=71 n=18: S2(|D|=41) gen=yes extras=150 affordable=41
+K=5 q0=73 n=18: no covering anticode
+K=5 q0=79 n=20: S2(|D|=41) gen=yes extras=152 affordable=40
+K=5 q0=83 n=21: no covering anticode
+K=5 q0=89 n=22: S2(|D|=41) gen=no(index 44) extras=152 affordable=40
+K=5 q0=97 n=24: no covering anticode
+K=5 q0=101 n=25: S2(|D|=41) gen=yes extras=153 affordable=34
+K=5 q0=103 n=26: no covering anticode
+K=5 q0=107 n=27: S2(|D|=41) gen=yes extras=157 affordable=35
+K=5 q0=109 n=27: S2(|D|=41) gen=yes extras=156 affordable=34
+K=5 q0=113 n=28: S2(|D|=41) gen=no(index 56) extras=156 affordable=34
+K=5 q0=127 n=32: S2(|D|=41) gen=no(index 2048) extras=158 affordable=29
+K=5 q0=131 n=33: S2(|D|=41) gen=no(index 1089) extras=158 affordable=30
+K=5 q0=137 n=34: no covering anticode
+K=5 q0=139 n=35: no covering anticode
+K=5 q0=149 n=37: no covering anticode
+K=5 q0=151 n=38: no covering anticode
+K=5 q0=157 n=39: no covering anticode
+K=5 q0=163 n=41: no covering anticode
+K=5 q0=167 n=42: no covering anticode
+K=5 q0=173 n=43: no covering anticode
+K=5 q0=179 n=45: no covering anticode
+K=5 q0=181 n=45: no covering anticode
+K=5 q0=191 n=48: no covering anticode
+K=5 q0=193 n=48: no covering anticode
+K=5 q0=197 n=49: no covering anticode
+K=5 q0=199 n=50: no covering anticode
+K=5 q0=211 n=53: no covering anticode
+K=5 q0=223 n=56: no covering anticode
+K=5 q0=227 n=57: no covering anticode
+K=5 q0=229 n=57: no covering anticode
+K=5 q0=233 n=58: no covering anticode
+K=5 q0=239 n=60: no covering anticode
+K=5 q0=241 n=60: no covering anticode
+K=5 q0=251 n=63: no covering anticode
+K=5 q0=257 n=64: no covering anticode
+K=5 q0=263 n=66: no covering anticode
+K=5 q0=269 n=67: no covering anticode
+K=5 q0=271 n=68: no covering anticode
+K=5 q0=277 n=69: no covering anticode
+K=5 q0=281 n=70: no covering anticode
+K=5 q0=283 n=71: no covering anticode
+K=5 q0=293 n=73: no covering anticode
+K=5 q0=307 n=77: no covering anticode
+K=5 q0=311 n=78: no covering anticode
+K=5 q0=313 n=78: no covering anticode
+K=5 q0=317 n=79: no covering anticode
+K=5 q0=331 n=83: no covering anticode
+K=5 q0=337 n=84: no covering anticode
+K=5 q0=347 n=87: no covering anticode
+K=5 q0=349 n=87: no covering anticode

@@ -1,0 +1,15 @@
+K=2 r=10 primes in [3000,6000] X=30000: q_T=1485, moduli q in (q_T,X]: 3000, norm-4 monomials of the form e_i+e_j-e_k-e_l: 630
+   proved lower bound Z_r = (1/6) sum_s N_s^2 - (1/2) binom(r,2) = 1.67
+   min over q of #such monomials with <v,a>=0 exactly: 13  (total such monomials 630)
+   monomials violating the unit-0 budget w(v)/2 from moduli > q_T alone: 630 of 630
+   witness v = e_3+e_8-e_5-e_10 (primes 4969,5477,5081,5801): log m_(v,0) >= 1078.5 vs budget 17.16; collides at 116 moduli, e.g. [1867, 1933, 1993, 2087, 2179, 2357]
+K=3 r=10 primes in [3000,6000] X=60000: q_T=3929, moduli q in (q_T,X]: 5504, norm-4 monomials of the form e_i+e_j-e_k-e_l: 630
+   proved lower bound Z_r = (1/6) sum_s N_s^2 - (1/2) binom(r,2) = 1.67
+   min over q of #such monomials with <v,a>=0 exactly: 13  (total such monomials 630)
+   monomials violating the unit-0 budget w(v)/2 from moduli > q_T alone: 630 of 630
+   witness v = e_1+e_9-e_2-e_8 (primes 3041,5881,3613,5333): log m_(v,0) >= 2010.9 vs budget 16.74; collides at 198 moduli, e.g. [4357, 5147, 5237, 5351, 5669, 5927]
+K=3 r=16 primes in [20000,40000] X=60000: q_T=6233, moduli q in (q_T,X]: 5230, norm-4 monomials of the form e_i+e_j-e_k-e_l: 5460
+   proved lower bound Z_r = (1/6) sum_s N_s^2 - (1/2) binom(r,2) = 44.00
+   min over q of #such monomials with <v,a>=0 exactly: 79  (total such monomials 5460)
+   monomials violating the unit-0 budget w(v)/2 from moduli > q_T alone: 5460 of 5460
+   witness v = e_10+e_16-e_12-e_14 (primes 34361,39301,36997,38453): log m_(v,0) >= 1330.8 vs budget 21.05; collides at 130 moduli, e.g. [6491, 7013, 7151, 7877, 8623, 8629]

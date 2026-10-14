@@ -1,0 +1,7 @@
+K=2 q0=3 n=1 survivors=1 inclass=1 strict=1 outside=0 [F2=0 F1=0] allowed(v,s)=57 gcoll=20 (0.0s)
+K=2 q0=7 n=2 survivors=2 inclass=2 strict=2 outside=0 [F2=0 F1=0] allowed(v,s)=39 gcoll=11 (0.0s)
+K=2 q0=11 n=3 survivors=12 inclass=4 strict=4 outside=8 [F2=0 F1=8] allowed(v,s)=27 gcoll=6 (0.0s)
+K=2 q0=19 n=5 survivors=160 inclass=32 strict=16 outside=128 [F2=32 F1=96] allowed(v,s)=12 gcoll=3 (0.0s)
+K=2 q0=23 n=6 survivors=256 inclass=64 strict=64 outside=192 [F2=64 F1=128] allowed(v,s)=7 gcoll=2 (0.0s)
+K=2 q0=31 n=8 survivors=3072 inclass=512 strict=256 outside=2560 [F2=1536 F1=1024] allowed(v,s)=4 gcoll=1 (0.0s)
+K=2 q0=41 n=10 survivors=8192 inclass=1024 strict=512 outside=7168 [F2=7168 F1=0] allowed(v,s)=2 gcoll=1 (0.0s)

@@ -1,0 +1,26 @@
+q=107 n=27: non-genuine-class level-1 vector [83, 34, 39, 100], 3 level-1 collisions, level-2 clean lift found: True
+q=109 n=27: non-genuine-class level-1 vector [14, 43, 75, 36], 5 level-1 collisions, level-2 clean lift found: True
+q=113 n=28: non-genuine-class level-1 vector [47, 110, 109, 43], 5 level-1 collisions, level-2 clean lift found: True
+q=127 n=32: non-genuine-class level-1 vector [55, 2, 8, 83], 4 level-1 collisions, level-2 clean lift found: True
+q=131 n=33: non-genuine-class level-1 vector [98, 60, 51, 109], 2 level-1 collisions, level-2 clean lift found: True
+q=137 n=34: non-genuine-class level-1 vector [91, 13, 116, 29], 3 level-1 collisions, level-2 clean lift found: True
+q=139 n=35: non-genuine-class level-1 vector [92, 68, 53, 32], 3 level-1 collisions, level-2 clean lift found: True
+q=149 n=37: non-genuine-class level-1 vector [134, 95, 114, 70], 1 level-1 collisions, level-2 clean lift found: True
+q=151 n=38: non-genuine-class level-1 vector [86, 55, 16, 150], 3 level-1 collisions, level-2 clean lift found: True
+q=157 n=39: non-genuine-class level-1 vector [113, 124, 122, 59], 2 level-1 collisions, level-2 clean lift found: True
+q=163 n=41: non-genuine-class level-1 vector [19, 35, 127, 103], 2 level-1 collisions, level-2 clean lift found: True
+q=167 n=42: non-genuine-class level-1 vector [73, 87, 57, 40], 2 level-1 collisions, level-2 clean lift found: True
+q=173 n=43: non-genuine-class level-1 vector [153, 136, 15, 130], 1 level-1 collisions, level-2 clean lift found: True
+q=179 n=45: non-genuine-class level-1 vector [76, 16, 158, 154], 1 level-1 collisions, level-2 clean lift found: True
+q=181 n=45: non-genuine-class level-1 vector [104, 20, 33, 72], 1 level-1 collisions, level-2 clean lift found: True
+q=191 n=48: non-genuine-class level-1 vector [18, 4, 76, 121], 2 level-1 collisions, level-2 clean lift found: True
+q=193 n=48: non-genuine-class level-1 vector [67, 13, 33, 27], 3 level-1 collisions, level-2 clean lift found: True
+q=199 n=50: non-genuine-class level-1 vector [14, 120, 49, 88], 2 level-1 collisions, level-2 clean lift found: True
+budget violations: 0
+top Q7 [127, 151, 167, 191, 199] share of forced Q7 mass 0.499
+columns (0, 1): zeta pairs coherent on ALL top Q7 moduli: 0; max coherent share of top Q7 mass 0.594
+columns (2, 3): zeta pairs coherent on ALL top Q7 moduli: 0; max coherent share of top Q7 mass 0.598
+columns (0, 2): zeta pairs coherent on ALL top Q7 moduli: 0; max coherent share of top Q7 mass 0.413
+columns (1, 3): zeta pairs coherent on ALL top Q7 moduli: 0; max coherent share of top Q7 mass 0.604
+
+[exited with code 0]

@@ -1,0 +1,17 @@
+q=3 parity vectors=16 signatures=16 genuine-signature vectors=1
+q=7 parity vectors=256 signatures=128 genuine-signature vectors=2
+q=11 parity vectors=1296 signatures=336 genuine-signature vectors=4
+q=19 parity vectors=10000 signatures=568 genuine-signature vectors=32
+q=23 parity vectors=20736 signatures=640 genuine-signature vectors=128
+q=31 parity vectors=65536 signatures=616 genuine-signature vectors=1024
+q=41 parity vectors=160000 signatures=990 genuine-signature vectors=4096
+good level-1 systems: 5066549580791808  signature tuples: 36864
+all-genuine-signature systems: 137438953472  = 2^37.000  fraction 2.713e-05
+  share of good systems with non-genuine signature at q=3: 0.938
+  share of good systems with non-genuine signature at q=7: 0.984
+  share of good systems with non-genuine signature at q=11: 0.984
+  share of good systems with non-genuine signature at q=19: 0.938
+  share of good systems with non-genuine signature at q=23: 0.875
+  share of good systems with non-genuine signature at q=31: 0.750
+  share of good systems with non-genuine signature at q=41: 0.500
+time 3.1s

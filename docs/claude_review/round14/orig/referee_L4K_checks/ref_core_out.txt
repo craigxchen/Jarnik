@@ -1,0 +1,11 @@
+q=3 n=1 vectors=16 signatures=16
+q=7 n=2 vectors=256 signatures=128
+q=11 n=3 vectors=1296 signatures=656
+q=19 n=5 vectors=10000 signatures=2192
+q=23 n=6 vectors=20736 signatures=5120
+q=31 n=8 vectors=65536 signatures=7552
+q=37 n=9 vectors=104976 signatures=15760
+q=41 n=10 vectors=160000 signatures=15872
+q=43 n=11 vectors=234256 signatures=19408
+q=47 n=12 vectors=331776 signatures=37376
+core [3, 7, 11, 19, 23, 31, 37, 41, 43, 47]: good signature tuples=1 good level-1 systems=1966080 systems outside the genuine class at >=1 core modulus=0  [0.2s]

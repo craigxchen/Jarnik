@@ -1,0 +1,32 @@
+M=30 h0=3 A=3: X=81000, 200 columns, p_j in [13537,26921]
+   exact P(column survives norm-1 per-unit): mean 0.0507, max 0.0632  (q=+-3 mod 8 only: mean 0.2226; Mertens prediction (log sqrt(2p)/log X)^2 = 0.2323)
+   expected violating columns 189.9; simulated (seeded) violating columns 193 of 200
+   first 3 witnesses (p_j, q, label ell_j(q), m_q, #hits, log q - log sqrt(2p_j)):
+      13537, 11317, 0, 11316, 3, excess 4.23
+      13553, 78779, 19695, 78780, 4, excess 6.17
+      13613, 20731, 0, 20732, 2, excess 4.83
+   excess over budget among violators: median 4.48, max 6.17; (A - h0/2) log M = 5.10
+M=30 h0=3 A=4: X=2430000, 200 columns, p_j in [13537,26881]
+   exact P(column survives norm-1 per-unit): mean 0.0178, max 0.0225  (q=+-3 mod 8 only: mean 0.1317; Mertens prediction (log sqrt(2p)/log X)^2 = 0.1372)
+   expected violating columns 196.4; simulated (seeded) violating columns 198 of 200
+   first 3 witnesses (p_j, q, label ell_j(q), m_q, #hits, log q - log sqrt(2p_j)):
+      13537, 34369, 0, 34368, 2, excess 5.34
+      13553, 1530233, 0, 1530232, 5, excess 9.14
+      13597, 109111, 27278, 109112, 1, excess 6.49
+   excess over budget among violators: median 6.89, max 9.46; (A - h0/2) log M = 8.50
+M=50 h0=2.5 A=3: X=375000, 200 columns, p_j in [8929,17669]
+   exact P(column survives norm-1 per-unit): mean 0.0266, max 0.0330  (q=+-3 mod 8 only: mean 0.1574; Mertens prediction (log sqrt(2p)/log X)^2 = 0.1665)
+   expected violating columns 194.7; simulated (seeded) violating columns 194 of 200
+   first 3 witnesses (p_j, q, label ell_j(q), m_q, #hits, log q - log sqrt(2p_j)):
+      8929, 92459, 46230, 92460, 4, excess 6.54
+      8941, 297457, 0, 297456, 6, excess 7.71
+      8969, 196661, 49165, 196660, 5, excess 7.29
+   excess over budget among violators: median 6.00, max 7.90; (A - h0/2) log M = 6.85
+M=50 h0=2.5 A=3.5: X=2651650.429449553, 200 columns, p_j in [8929,17497]
+   exact P(column survives norm-1 per-unit): mean 0.0149, max 0.0203  (q=+-3 mod 8 only: mean 0.1175; Mertens prediction (log sqrt(2p)/log X)^2 = 0.1251)
+   expected violating columns 197.0; simulated (seeded) violating columns 196 of 200
+   first 3 witnesses (p_j, q, label ell_j(q), m_q, #hits, log q - log sqrt(2p_j)):
+      8929, 41507, 31131, 41508, 1, excess 5.74
+      8933, 1143719, 571860, 1143720, 3, excess 9.05
+      9029, 6703, 3352, 6704, 5, excess 3.91
+   excess over budget among violators: median 7.35, max 9.78; (A - h0/2) log M = 8.80

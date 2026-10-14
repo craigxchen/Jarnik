@@ -1,0 +1,3 @@
+top 0/2497 leaves 0 nodes1 1
+done rep item 0 (pool index 0) leaves 0
+done rep item 4 (pool index 12) leaves 14105

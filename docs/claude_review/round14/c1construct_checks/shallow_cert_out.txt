@@ -1,0 +1,6 @@
+r=6 E0=3 X=3000 KMAX=3: zeta norms [17, 97, 113, 193, 241, 257]; shallow moduli 324, levels 347, collisions 1211
+   parity OK at every level; level-1 realisation found for all q <= 150; every collision certified by Im(gamma^(2^k))
+   max ratio (shallow demand)/((2^E0-2) sum|v_j| log l_j) = 0.279 at v=(1, 0, 0, 0, 0, 0), s=0 (demand 4.74, bound 17.00)
+r=8 E0=4 X=2000 KMAX=2: zeta norms [97, 193, 257, 353, 449, 577, 641, 673]; shallow moduli 266, levels 286, collisions 487
+   parity OK at every level; level-1 realisation found for all q <= 100; every collision certified by Im(gamma^(2^k))
+   max ratio (shallow demand)/((2^E0-2) sum|v_j| log l_j) = 0.117 at v=(1, 0, 0, 0, 0, 0, 0, 0), s=0 (demand 7.48, bound 64.05)

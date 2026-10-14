@@ -1,0 +1,17 @@
+K=3 q0=3 n=1: cover by S1 (|D|=9); Prop R' certificate=YES (affordable extras=0)
+K=3 q0=7 n=2: cover by S1 (|D|=9); Prop R' certificate=no (affordable extras=56)
+K=3 q0=11 n=3: cover by S1 (|D|=9); Prop R' certificate=no (affordable extras=60)
+K=3 q0=19 n=5: cover by S1 (|D|=9); Prop R' certificate=no (affordable extras=60)
+K=3 q0=23 n=6: cover by S1 (|D|=9); Prop R' certificate=no (affordable extras=56)
+K=3 q0=31 n=8: no covering anticode
+K=3 q0=37 n=9: cover by S1 (|D|=9); Prop R' certificate=no (affordable extras=40)
+K=3 q0=41 n=10: no covering anticode
+K=3 q0=43 n=11: no covering anticode
+K=3 q0=47 n=12: no covering anticode
+K=3 q0=53 n=13: no covering anticode
+K=3 q0=59 n=15: no covering anticode
+K=3 q0=61 n=15: no covering anticode
+K=3 q0=67 n=17: no covering anticode
+K=3 q0=71 n=18: no covering anticode
+K=3 q0=83 n=21: no covering anticode
+K=3 q0=103 n=26: no covering anticode
