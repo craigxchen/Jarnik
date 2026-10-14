@@ -1,0 +1,4 @@
+sdc7 L=2 m=8 |A|=757 test dirs with tau<m: 695  (1.6s)
+pool size 238
+dim T_m (mod p) = 1  N_m = 357
+leaves (multisets passing all width counts): 0;  in T_m mod p: 0  (3.9s)

@@ -1,0 +1,7 @@
+line orbit reps 3, plane orbit reps 1 [8s]
+  width powers: [0, 0, 0, 0, 0, 15, 225, 1851]  J(A)=[0, 0, 0, 0, 0, 15, 540, 9769] cum_eq=[True, True, True, True, True, True, False, False] [22s]
+  + lines: [0, 0, 0, 0, 0, 15, 540, 6226]  J(A)=[0, 0, 0, 0, 0, 15, 540, 9769] cum_eq=[True, True, True, True, True, True, True, False] [69s]
+  + planes: [0, 0, 0, 0, 0, 15, 540, 9691]  J(A)=[0, 0, 0, 0, 0, 15, 540, 9769] cum_eq=[True, True, True, True, True, True, True, False] [273s]
+  b=5: orbit reps by (grid image, inside a plane) -> {(np.False_, True): 21, (np.False_, False): 180}
+  + all 5-column families not inside a plane: [0, 0, 0, 0, 0, 15, 540, 9691]  J(A)=[0, 0, 0, 0, 0, 15, 540, 9769] cum_eq=[True, True, True, True, True, True, True, False] [676s]
+  b=6: orbit reps by (grid image, inside a plane) -> {(np.False_, True): 7, (np.False_, False): 328}

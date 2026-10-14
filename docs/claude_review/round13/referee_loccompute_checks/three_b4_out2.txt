@@ -1,0 +1,4 @@
+{"i": 6, "regions": [0, 1, 2, 1, 1, 1, 0], "L": [1, 1, 1], "rho": 6, "b0_col": null, "b0_mixed": 4, "pairs_suffice": true, "deficits": [], "nongrid_pairs": 48943, "t": 211.8}
+{"i": 7, "regions": [1, 1, 1, 1, 1, 1, 0], "L": [1, 1, 1], "rho": 6, "b0_col": null, "b0_mixed": 4, "pairs_suffice": true, "deficits": [], "nongrid_pairs": 40485, "t": 169.3}
+{"i": 8, "regions": [0, 0, 0, 1, 1, 2, 2], "L": [1, 1, 1], "rho": 7, "b0_col": null, "b0_mixed": 4, "pairs_suffice": true, "deficits": [], "nongrid_pairs": 47088, "t": 506.1}
+{"i": 9, "regions": [0, 0, 1, 1, 1, 2, 1], "L": [1, 1, 1], "rho": 7, "b0_col": null, "b0_mixed": 4, "pairs_suffice": true, "deficits": [], "nongrid_pairs": 47353, "t": 535.8}

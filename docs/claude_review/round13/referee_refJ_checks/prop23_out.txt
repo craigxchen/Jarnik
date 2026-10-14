@@ -1,0 +1,7 @@
+{'P1': (4, 4), 'P2': (4, 4), 'P3': (4, 4), 'Q12': (4, 4), 'Q13': (4, 4), 'Q23': (4, 4), 'Z': (6, 6)}
+c_a=p1+p2: True  c_b=p1+p3: True  c_ab=p2+p3: True
+octic monomials 45 conditions 70 rank 45 => dim of system 0
+u (-3, 1, 0, 0, -3, 1, 0) in TC(A,8): True
+u (-5, -4, 5, 0, -5, -4, 5) in TC(A,8): True
+u (-4, 0, 3, 0, -4, 0, 3) in TC(A,8): True
+control u (1, 2, 0, -1, 3, 0, 1) in TC: False

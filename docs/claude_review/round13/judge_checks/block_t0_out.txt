@@ -1,0 +1,17 @@
+(1) parity box P_j = {|y_i|<=j, y1+y2+y3 even}: rho(P_j) <= 3j
+  j=1 |P_j|=13 rank_p(deg<=3)=13  full=True
+  j=2 |P_j|=63 rank_p(deg<=6)=63  full=True
+  j=3 |P_j|=171 rank_p(deg<=9)=171  full=True
+  j=4 |P_j|=365 rank_p(deg<=12)=365  full=True
+  j=5 |P_j|=665 rank_p(deg<=15)=665  full=True
+(2) identity k(S_a)+k(S_b)+k(S_a+b) = 2 k(S_a & S_b) for sum k = 0 (random exact tests, F_2^5)
+  identity holds on all samples: True
+(3) collision-freeness of span{1_S_c : c in F} + constants, F = {e1,e2,e1+e2, e3,e4,e3+e4, e5} on F_2^5
+  binary code (32 distinct values) lies in span exactly: True  distinct: True
+(4) Y_3(j) = {(sum_c K_c [a.c=0])_{a!=0} : K in Z^8, sum K = 0} cap [-j,j]^7; rho(Y_3(2)) <= 8
+  det of lattice basis: 32
+  j=1 |Y_3(j)|=57 rank_p(deg<=4)=57 full=True
+  j=2 |Y_3(j)|=2605 rank_p(deg<=8)=2605 full=True
+  j=2 rank_p(deg<=7)=2353 (only an upper bound on the rational rank)
+(5) two complementary 3-dim blocks on F_2^6: span of 14 indicators + const contains an injective function
+  6-bit code in span exactly: True

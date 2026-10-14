@@ -1,0 +1,3 @@
+|P| = 12481
+e 6 #reduced monos<=e 2931 mod-p rank 2931 full 54s
+e 7 #reduced monos<=e 6075 mod-p rank 6075 full 181s

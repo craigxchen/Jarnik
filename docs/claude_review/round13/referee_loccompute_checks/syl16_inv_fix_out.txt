@@ -1,0 +1,15 @@
+engine 0.7035541534423828 orbits deg7 4797
+cols 120
++sigma^7 121
++half-sums 124
++quarter-sums (author's J_w) 125
++lines 416
+support-4 width-7 dirs 105 example [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1] [(1, 1, 0, 0), (1, 1, 0, 1), (1, 1, 1, 0), (1, 1, 1, 1)]
+  affine 4-sum [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1] width 7 new 0 total 416
+  affine 4-sum [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1] width 7 new 0 total 416
+  affine 4-sum [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0] width 7 new 0 total 416
+  affine 4-sum [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1] width 7 new 0 total 416
+  affine 4-sum [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0] width 7 new 0 total 416
+  affine 4-sum [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1] width 7 new 0 total 416
+  affine 4-sum [0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1] width 7 new 0 total 416
+author J_w+lines: 416  + affine 4-sums: 416

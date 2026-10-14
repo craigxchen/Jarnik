@@ -1,0 +1,35 @@
+=== syl8 2 8 3
+syl8 L=2 m=8: |A|=1037 N_m=357 H_A(m)=42 (exact) dim J(A)_m=315  (3s)
+  b0=1 (width powers of 604 directions in [-2,2]^d): dim_p = 294  ->  Loc_m(1) not shown (deficit 21 mod p)
+  b0=2 (widths + column families of size <= 2): dim_p = 294  ->  Loc_m(2) not shown (deficit 21 mod p)  (8s)
+  b0=3 (widths + column families of size <= 3): dim_p = 315  ->  Loc_m(3) HOLDS (exact, sandwich)  (43s)
+=== sdc7 2 8 3
+sdc7 L=2 m=8: |A|=757 N_m=357 H_A(m)=1 (exact) dim J(A)_m=356  (2s)
+  b0=1 (width powers of 695 directions in [-2,2]^d): dim_p = 356  ->  Loc_m(1) HOLDS (exact, sandwich)
+  b0=2 (widths + column families of size <= 2): dim_p = 356  ->  Loc_m(2) HOLDS (exact, sandwich)  (25s)
+  b0=3 (widths + column families of size <= 3): dim_p = 356  ->  Loc_m(3) HOLDS (exact, sandwich)  (370s)
+=== sdc7 2 7 3
+sdc7 L=2 m=7: |A|=757 N_m=393 H_A(m)=43 (exact) dim J(A)_m=350  (1s)
+  b0=1 (width powers of 695 directions in [-2,2]^d): dim_p = 294  ->  Loc_m(1) not shown (deficit 56 mod p)
+  b0=2 (widths + column families of size <= 2): dim_p = 294  ->  Loc_m(2) not shown (deficit 56 mod p)  (9s)
+  b0=3 (widths + column families of size <= 3): dim_p = 350  ->  Loc_m(3) HOLDS (exact, sandwich)  (98s)
+=== pal7 2 7 3
+pal7 L=2 m=7: |A|=861 N_m=393 H_A(m)=95 (exact) dim J(A)_m=298  (1s)
+  b0=1 (width powers of 748 directions in [-2,2]^d): dim_p = 242  ->  Loc_m(1) not shown (deficit 56 mod p)
+  b0=2 (widths + column families of size <= 2): dim_p = 248  ->  Loc_m(2) not shown (deficit 50 mod p)  (9s)
+  b0=3 (widths + column families of size <= 3): dim_p = 298  ->  Loc_m(3) HOLDS (exact, sandwich)  (127s)
+=== pal7 2 6 3
+pal7 L=2 m=6: |A|=861 N_m=357 H_A(m)=241 (exact) dim J(A)_m=116  (1s)
+  b0=1 (width powers of 128 directions in [-2,2]^d): dim_p = 82  ->  Loc_m(1) not shown (deficit 34 mod p)
+  b0=2 (widths + column families of size <= 2): dim_p = 83  ->  Loc_m(2) not shown (deficit 33 mod p)  (3s)
+  b0=3 (widths + column families of size <= 3): dim_p = 104  ->  Loc_m(3) not shown (deficit 12 mod p)  (28s)
+=== syl8 3 11 3
+syl8 L=3 m=11: |A|=1877 N_m=77 H_A(m)=7 (exact) dim J(A)_m=70  (4s)
+  b0=1 (width powers of 4111 directions in [-2,2]^d): dim_p = 70  ->  Loc_m(1) HOLDS (exact, sandwich)
+  b0=2 (widths + column families of size <= 2): dim_p = 70  ->  Loc_m(2) HOLDS (exact, sandwich)  (27s)
+  b0=3 (widths + column families of size <= 3): dim_p = 70  ->  Loc_m(3) HOLDS (exact, sandwich)  (1114s)
+=== syl8 3 10 3
+syl8 L=3 m=10: |A|=1877 N_m=161 H_A(m)=63 (exact) dim J(A)_m=98  (4s)
+  b0=1 (width powers of 1570 directions in [-2,2]^d): dim_p = 98  ->  Loc_m(1) HOLDS (exact, sandwich)
+  b0=2 (widths + column families of size <= 2): dim_p = 98  ->  Loc_m(2) HOLDS (exact, sandwich)  (16s)
+  b0=3 (widths + column families of size <= 3): dim_p = 98  ->  Loc_m(3) HOLDS (exact, sandwich)  (431s)

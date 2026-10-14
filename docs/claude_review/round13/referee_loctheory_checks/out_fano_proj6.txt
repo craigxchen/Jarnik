@@ -1,0 +1,4 @@
+group size 168
+start rank 386 target 764
+orbit reps 31
+z (-1, 0, 0, 0, 0, 0, 0) |img| 2025 rank 386 -> 386 / 764 8s

@@ -1,0 +1,15 @@
+=== pal11 pairs only
+pal11 L=2 m=8 |A|=12093 test dirs with tau<m: 1299  (72.0s)
+pool size 66
+dim T_m (mod p) = 0  N_m = 1
+leaves (multisets passing all width counts): 0;  in T_m mod p: 0  (1406.4s)
+=== sdc11 pairs only
+sdc11 L=2 m=8 |A|=9373 test dirs with tau<m: 1453  (44.9s)
+pool size 66
+dim T_m (mod p) = 0  N_m = 1
+leaves (multisets passing all width counts): 0;  in T_m mod p: 0  (904.4s)
+=== paley12 pairs only
+paley12 L=2 m=8 |A|=20153 test dirs with tau<m: 980  (95.6s)
+pool size 66
+dim T_m (mod p) = 0  N_m = 1
+leaves (multisets passing all width counts): 0;  in T_m mod p: 0  (1460.0s)

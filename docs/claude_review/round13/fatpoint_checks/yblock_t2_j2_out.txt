@@ -1,0 +1,18 @@
+t=2 j=2 |Y|=63 b=3
+H_Y (mod p) = [1, 3, 6, 10, 15, 18, 10]  rho <= 6
+H_grid = [1, 3, 6, 10, 15, 18, 19, 18, 15]  alpha (first e with H_Y < H_grid) = 6
+#light 6 #heavy2 3
+heavy2 example restricted vector a = [ 0 -2  0]
+e=5 dimT=18 light: (max count, max weighted cost, lines<=3j-1) -> (in J^perp, sampled):
+      (4, 4, True): (1929, 1929)
+e=5 dimT=18 heavy2: (max count, max weighted cost, lines<=3j-1) -> (in J^perp, sampled):
+      (2, 4, True): (748, 748)
+      (3, 6, True): (958, 958)
+      (4, 8, True): (294, 294)
+e=6 dimT=10 light: (max count, max weighted cost, lines<=3j-1) -> (in J^perp, sampled):
+      (4, 4, False): (514, 1038)
+e=6 dimT=10 heavy2: (max count, max weighted cost, lines<=3j-1) -> (in J^perp, sampled):
+      (2, 4, False): (252, 252)
+      (3, 6, False): (0, 1154)
+      (4, 8, False): (0, 594)
+e=7: V = 0

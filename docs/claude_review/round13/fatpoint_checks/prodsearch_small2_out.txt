@@ -1,0 +1,34 @@
+=== sdc7 2 7 4 1
+sdc7 L=2 m=7 |A|=757 test dirs with tau<m: 695  (0.8s)
+pool size 238
+dim T_m (mod p) = 43  N_m = 393
+leaves (multisets passing all width counts): 24;  in T_m mod p: 24  (39.0s)
+certificates found: 24; of which genuine zonotopes (translate inside A): 24
+=== pal7 2 7 4 1
+pal7 L=2 m=7 |A|=861 test dirs with tau<m: 748  (0.8s)
+pool size 238
+dim T_m (mod p) = 95  N_m = 393
+leaves (multisets passing all width counts): 57;  in T_m mod p: 57  (43.2s)
+certificates found: 57; of which genuine zonotopes (translate inside A): 57
+=== syl8 2 7 4 1
+syl8 L=2 m=7 |A|=1037 test dirs with tau<m: 604  (1.0s)
+pool size 238
+dim T_m (mod p) = 175  N_m = 393
+leaves (multisets passing all width counts): 696;  in T_m mod p: 696  (53.4s)
+certificates found: 696; of which genuine zonotopes (translate inside A): 696
+=== sdc7 2 6 4 1
+sdc7 L=2 m=6 |A|=757 test dirs with tau<m: 128  (0.7s)
+pool size 238
+dim T_m (mod p) = 188  N_m = 357
+leaves (multisets passing all width counts): 14035;  in T_m mod p: 6769  (330.7s)
+certificates found: 6769; of which genuine zonotopes (translate inside A): 6769
+=== pal7 2 6 4 1
+pal7 L=2 m=6 |A|=861 test dirs with tau<m: 128  (0.9s)
+pool size 238
+dim T_m (mod p) = 241  N_m = 357
+leaves (multisets passing all width counts): 35527;  in T_m mod p: 14980  (962.1s)
+certificates found: 14980; of which genuine zonotopes (translate inside A): 14980
+=== syl8 2 6 4 1
+syl8 L=2 m=6 |A|=1037 test dirs with tau<m: 112  (1.1s)
+pool size 238
+dim T_m (mod p) = 287  N_m = 357

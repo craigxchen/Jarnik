@@ -1,0 +1,3 @@
+L 2 |A| = 1037
+Delta H (exact): [1, 7, 28, 77, 161, 259, 287, 175, 42]
+m=8: dim R_m=357, target dim J(A)_m/(x^3) = 315, rank_p(width powers) = 294 -> deficit (mod p, evidence)

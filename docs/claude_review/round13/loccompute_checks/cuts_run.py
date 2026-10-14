@@ -34,7 +34,12 @@ def analyse(d, cols, Ls, R, extra_deg=1):
 
 if __name__ == '__main__':
     which = sys.argv[1]; dmax = int(sys.argv[2])
-    out = open(f'cuts_{which}_d{dmax}_out.txt', 'w')
+    import os
+    fn = f'cuts_{which}_d{dmax}_out.txt'
+    done = set()
+    if os.path.exists(fn):
+        done = {l[:l.index('{')].strip() for l in open(fn) if '{' in l}
+    out = open(fn, 'a')
     t0 = time.time()
     if which in ('two', 'two_a1'):
         for a, b, c in itertools.product(range(0, dmax+1), repeat=3):
@@ -45,9 +50,11 @@ if __name__ == '__main__':
             for L1 in range(1, len(S1)):
                 for L2 in range(1, len(S2)):
                     if a == c and L1 > L2: continue
+                    key = f"two (a,b,c)=({a},{b},{c}) L=({L1},{L2})"
+                    if key in done: continue
                     r = analyse(d, *models.cuts(d, [S1, S2], [L1, L2])[1:], R=2 if d <= 6 else 1)
                     if r is None: continue
-                    line = f"two (a,b,c)=({a},{b},{c}) L=({L1},{L2}) " + json.dumps(r)
+                    line = key + " " + json.dumps(r)
                     print(line, flush=True); out.write(line + "\n"); out.flush()
     if which == 'three':
         regions = [(1,0,0),(0,1,0),(0,0,1),(1,1,0),(1,0,1),(0,1,1),(1,1,1)]

@@ -1,0 +1,9 @@
+k 4 min gap 0.125 2/n 0.125 max|u| 1.0
+k=4: max eps=5.1588831 >= 2ln(n/2)=4.1588831; one pair with eps=0 needs gap >= 1; u's adjacent pair (x=0, x with value 2/n) has gap 2/n<1 -> u notin G
+k=16: max eps=21.794415 >= 2ln(n/2)=20.794415; one pair with eps=0 needs gap >= 1; u's adjacent pair (x=0, x with value 2/n) has gap 2/n<1 -> u notin G
+Average constraint: sum eps <= N2*abar => min eps <= abar. Corrected (2) needs min eps>=2ln(n/2):
+16 abar_ne 9.63568 2ln(n/2) 20.7944 W needed for abar>=2ln(n/2): W/Wmin >= 2.1581
+17 abar_ne 10.6753 2ln(n/2) 22.1807 W needed for abar>=2ln(n/2): W/Wmin >= 2.0778
+18 abar_ne 11.715 2ln(n/2) 23.567 W needed for abar>=2ln(n/2): W/Wmin >= 2.0117
+19 abar_ne 12.7547 2ln(n/2) 24.9533 W needed for abar>=2ln(n/2): W/Wmin >= 1.9564
+20 abar_ne 13.7944 2ln(n/2) 26.3396 W needed for abar>=2ln(n/2): W/Wmin >= 1.9094

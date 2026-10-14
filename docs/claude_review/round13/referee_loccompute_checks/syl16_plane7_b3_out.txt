@@ -1,0 +1,154 @@
+|P| 2507
+dim J(P)_D mod p (upper bounds) [0, 0, 0, 0, 0, 14, 161, 1002]
+candidates 22
+D 7 J_w(P) 421 J(P) 1002
++lines 771
+ b 2 ('y0', 'zV') |img| 29 new 1 total 772
+ b 2 ('y1', 'zV') |img| 29 new 1 total 773
+ b 2 ('y2', 'zV') |img| 29 new 1 total 774
+ b 2 ('y3', 'zV') |img| 29 new 1 total 775
+ b 2 ('y4', 'zV') |img| 29 new 1 total 776
+ b 2 ('y5', 'zV') |img| 29 new 1 total 777
+ b 2 ('y6', 'zV') |img| 29 new 1 total 778
+ b 2 ('z(0, 1, 2)', 'zV') |img| 27 new 1 total 779
+ b 2 ('z(0, 3, 4)', 'zV') |img| 27 new 1 total 780
+ b 2 ('z(0, 5, 6)', 'zV') |img| 27 new 1 total 781
+ b 2 ('z(1, 3, 5)', 'zV') |img| 27 new 1 total 782
+ b 2 ('z(1, 4, 6)', 'zV') |img| 27 new 1 total 783
+ b 2 ('z(2, 3, 6)', 'zV') |img| 27 new 1 total 784
+after all b=2 families (133 nongrid): 784 time 116.27885723114014
+ b 3 ('y0', 'y1', 'zV') |img| 115 new 1 total 785
+ b 3 ('y0', 'y2', 'zV') |img| 115 new 1 total 786
+ b 3 ('y0', 'y3', 'zV') |img| 115 new 1 total 787
+ b 3 ('y0', 'y4', 'zV') |img| 115 new 1 total 788
+ b 3 ('y0', 'y5', 'zV') |img| 115 new 1 total 789
+ b 3 ('y0', 'z(0, 1, 2)', 'zV') |img| 89 new 1 total 790
+ b 3 ('y0', 'z(0, 1, 2)', 'k(0, 0, 1, 0)') |img| 83 new 1 total 791
+ b 3 ('y0', 'z(0, 3, 4)', 'zV') |img| 89 new 1 total 792
+ b 3 ('y0', 'z(0, 3, 4)', 'k(0, 1, 0, 0)') |img| 83 new 1 total 793
+ b 3 ('y0', 'z(0, 5, 6)', 'zV') |img| 89 new 1 total 794
+ b 3 ('y0', 'z(0, 5, 6)', 'k(0, 0, 1, 0)') |img| 83 new 1 total 795
+ b 3 ('y0', 'z(1, 3, 5)', 'zV') |img| 105 new 1 total 796
+ b 3 ('y0', 'z(1, 4, 6)', 'zV') |img| 105 new 1 total 797
+ b 3 ('y0', 'z(2, 3, 6)', 'zV') |img| 105 new 1 total 798
+ b 3 ('y0', 'z(2, 4, 5)', 'zV') |img| 105 new 1 total 799
+ b 3 ('y0', 'k(0, 0, 0, 1)', 'k(0, 0, 1, 0)') |img| 99 new 1 total 800
+ b 3 ('y0', 'k(0, 0, 0, 1)', 'k(0, 0, 1, 1)') |img| 83 new 1 total 801
+ b 3 ('y0', 'k(0, 0, 0, 1)', 'k(0, 1, 0, 0)') |img| 99 new 1 total 802
+ b 3 ('y0', 'k(0, 0, 0, 1)', 'k(0, 1, 0, 1)') |img| 83 new 1 total 803
+ b 3 ('y0', 'k(0, 0, 0, 1)', 'k(0, 1, 1, 0)') |img| 99 new 1 total 804
+ b 3 ('y0', 'k(0, 0, 0, 1)', 'k(0, 1, 1, 1)') |img| 83 new 1 total 805
+ b 3 ('y0', 'k(0, 0, 1, 0)', 'k(0, 0, 1, 1)') |img| 99 new 1 total 806
+ b 3 ('y0', 'k(0, 0, 1, 0)', 'k(0, 1, 0, 1)') |img| 99 new 1 total 807
+ b 3 ('y0', 'k(0, 0, 1, 0)', 'k(0, 1, 1, 1)') |img| 99 new 1 total 808
+ b 3 ('y0', 'k(0, 0, 1, 1)', 'k(0, 1, 0, 0)') |img| 99 new 1 total 809
+ b 3 ('y0', 'k(0, 0, 1, 1)', 'k(0, 1, 0, 1)') |img| 83 new 1 total 810
+ b 3 ('y0', 'k(0, 0, 1, 1)', 'k(0, 1, 1, 0)') |img| 99 new 1 total 811
+ b 3 ('y0', 'k(0, 0, 1, 1)', 'k(0, 1, 1, 1)') |img| 83 new 1 total 812
+ b 3 ('y0', 'k(0, 1, 0, 0)', 'k(0, 1, 0, 1)') |img| 99 new 1 total 813
+ b 3 ('y0', 'k(0, 1, 0, 0)', 'k(0, 1, 1, 1)') |img| 99 new 1 total 814
+ b 3 ('y0', 'k(0, 1, 0, 1)', 'k(0, 1, 1, 0)') |img| 99 new 1 total 815
+ b 3 ('y0', 'k(0, 1, 0, 1)', 'k(0, 1, 1, 1)') |img| 83 new 1 total 816
+ b 3 ('y0', 'k(0, 1, 1, 0)', 'k(0, 1, 1, 1)') |img| 99 new 1 total 817
+ b 3 ('y1', 'y3', 'zV') |img| 115 new 1 total 818
+ b 3 ('y1', 'y4', 'zV') |img| 115 new 1 total 819
+ b 3 ('y1', 'y5', 'zV') |img| 115 new 1 total 820
+ b 3 ('y1', 'z(0, 1, 2)', 'zV') |img| 89 new 1 total 821
+ b 3 ('y1', 'z(0, 1, 2)', 'k(0, 0, 0, 1)') |img| 83 new 1 total 822
+ b 3 ('y1', 'z(0, 3, 4)', 'zV') |img| 105 new 1 total 823
+ b 3 ('y1', 'z(0, 5, 6)', 'zV') |img| 105 new 1 total 824
+ b 3 ('y1', 'z(1, 3, 5)', 'zV') |img| 89 new 1 total 825
+ b 3 ('y1', 'z(1, 3, 5)', 'k(0, 1, 0, 0)') |img| 83 new 1 total 826
+ b 3 ('y1', 'z(1, 4, 6)', 'zV') |img| 89 new 1 total 827
+ b 3 ('y1', 'z(1, 4, 6)', 'k(0, 0, 0, 1)') |img| 83 new 1 total 828
+ b 3 ('y1', 'z(2, 3, 6)', 'zV') |img| 105 new 1 total 829
+ b 3 ('y1', 'z(2, 4, 5)', 'zV') |img| 105 new 1 total 830
+ b 3 ('y1', 'k(0, 0, 0, 1)', 'k(0, 0, 1, 0)') |img| 99 new 1 total 831
+ b 3 ('y1', 'k(0, 0, 0, 1)', 'k(0, 0, 1, 1)') |img| 99 new 1 total 832
+ b 3 ('y1', 'k(0, 0, 0, 1)', 'k(0, 1, 1, 0)') |img| 99 new 1 total 833
+ b 3 ('y1', 'k(0, 0, 0, 1)', 'k(0, 1, 1, 1)') |img| 99 new 1 total 834
+ b 3 ('y1', 'k(0, 0, 1, 0)', 'k(0, 0, 1, 1)') |img| 83 new 1 total 835
+ b 3 ('y1', 'k(0, 0, 1, 0)', 'k(0, 1, 0, 0)') |img| 99 new 1 total 836
+ b 3 ('y1', 'k(0, 0, 1, 0)', 'k(0, 1, 0, 1)') |img| 99 new 1 total 837
+ b 3 ('y1', 'k(0, 0, 1, 0)', 'k(0, 1, 1, 0)') |img| 83 new 1 total 838
+ b 3 ('y1', 'k(0, 0, 1, 0)', 'k(0, 1, 1, 1)') |img| 83 new 1 total 839
+ b 3 ('y1', 'k(0, 0, 1, 1)', 'k(0, 1, 0, 0)') |img| 99 new 1 total 840
+ b 3 ('y1', 'k(0, 0, 1, 1)', 'k(0, 1, 0, 1)') |img| 99 new 1 total 841
+ b 3 ('y1', 'k(0, 0, 1, 1)', 'k(0, 1, 1, 0)') |img| 83 new 1 total 842
+ b 3 ('y1', 'k(0, 0, 1, 1)', 'k(0, 1, 1, 1)') |img| 83 new 1 total 843
+ b 3 ('y1', 'k(0, 1, 0, 0)', 'k(0, 1, 1, 0)') |img| 99 new 1 total 844
+ b 3 ('y1', 'k(0, 1, 0, 0)', 'k(0, 1, 1, 1)') |img| 99 new 1 total 845
+ b 3 ('y1', 'k(0, 1, 0, 1)', 'k(0, 1, 1, 0)') |img| 99 new 1 total 846
+ b 3 ('y1', 'k(0, 1, 0, 1)', 'k(0, 1, 1, 1)') |img| 99 new 1 total 847
+ b 3 ('y1', 'k(0, 1, 1, 0)', 'k(0, 1, 1, 1)') |img| 83 new 1 total 848
+ b 3 ('y2', 'z(0, 1, 2)', 'zV') |img| 89 new 1 total 849
+ b 3 ('y2', 'z(0, 3, 4)', 'zV') |img| 105 new 1 total 850
+ b 3 ('y2', 'z(0, 5, 6)', 'zV') |img| 105 new 1 total 851
+ b 3 ('y2', 'z(1, 3, 5)', 'zV') |img| 105 new 1 total 852
+ b 3 ('y2', 'z(1, 4, 6)', 'zV') |img| 105 new 1 total 853
+ b 3 ('y2', 'z(2, 3, 6)', 'zV') |img| 89 new 1 total 854
+ b 3 ('y2', 'z(2, 3, 6)', 'k(0, 1, 0, 0)') |img| 83 new 1 total 855
+ b 3 ('y2', 'z(2, 4, 5)', 'zV') |img| 89 new 1 total 856
+ b 3 ('y2', 'z(2, 4, 5)', 'k(0, 0, 1, 1)') |img| 83 new 1 total 857
+ b 3 ('y2', 'k(0, 0, 0, 1)', 'k(0, 0, 1, 0)') |img| 83 new 1 total 858
+ b 3 ('y2', 'k(0, 0, 0, 1)', 'k(0, 0, 1, 1)') |img| 99 new 1 total 859
+ b 3 ('y2', 'k(0, 0, 0, 1)', 'k(0, 1, 0, 0)') |img| 99 new 1 total 860
+ b 3 ('y2', 'k(0, 0, 0, 1)', 'k(0, 1, 0, 1)') |img| 83 new 1 total 861
+ b 3 ('y2', 'k(0, 0, 0, 1)', 'k(0, 1, 1, 0)') |img| 83 new 1 total 862
+ b 3 ('y2', 'k(0, 0, 0, 1)', 'k(0, 1, 1, 1)') |img| 99 new 1 total 863
+ b 3 ('y2', 'k(0, 0, 1, 0)', 'k(0, 0, 1, 1)') |img| 99 new 1 total 864
+ b 3 ('y2', 'k(0, 0, 1, 0)', 'k(0, 1, 0, 0)') |img| 99 new 1 total 865
+ b 3 ('y2', 'k(0, 0, 1, 0)', 'k(0, 1, 0, 1)') |img| 83 new 1 total 866
+ b 3 ('y2', 'k(0, 0, 1, 0)', 'k(0, 1, 1, 1)') |img| 99 new 1 total 867
+ b 3 ('y2', 'k(0, 0, 1, 1)', 'k(0, 1, 0, 1)') |img| 99 new 1 total 868
+ b 3 ('y2', 'k(0, 0, 1, 1)', 'k(0, 1, 1, 0)') |img| 99 new 1 total 869
+ b 3 ('y2', 'k(0, 1, 0, 1)', 'k(0, 1, 1, 0)') |img| 83 new 1 total 870
+ b 3 ('y3', 'z(0, 3, 4)', 'zV') |img| 89 new 1 total 871
+ b 3 ('y3', 'z(0, 3, 4)', 'k(0, 0, 0, 1)') |img| 83 new 1 total 872
+ b 3 ('y3', 'z(0, 5, 6)', 'zV') |img| 105 new 1 total 873
+ b 3 ('y3', 'z(1, 3, 5)', 'zV') |img| 89 new 1 total 874
+ b 3 ('y3', 'z(1, 3, 5)', 'k(0, 0, 1, 0)') |img| 83 new 1 total 875
+ b 3 ('y3', 'z(1, 4, 6)', 'zV') |img| 105 new 1 total 876
+ b 3 ('y3', 'z(2, 3, 6)', 'zV') |img| 89 new 1 total 877
+ b 3 ('y3', 'z(2, 3, 6)', 'k(0, 0, 0, 1)') |img| 83 new 1 total 878
+ b 3 ('y3', 'z(2, 4, 5)', 'zV') |img| 105 new 1 total 879
+ b 3 ('y3', 'k(0, 0, 0, 1)', 'k(0, 1, 0, 0)') |img| 99 new 1 total 880
+ b 3 ('y3', 'k(0, 0, 0, 1)', 'k(0, 1, 1, 0)') |img| 99 new 1 total 881
+ b 3 ('y3', 'k(0, 0, 0, 1)', 'k(0, 1, 1, 1)') |img| 99 new 1 total 882
+ b 3 ('y3', 'k(0, 0, 1, 0)', 'k(0, 1, 0, 0)') |img| 99 new 1 total 883
+ b 3 ('y3', 'k(0, 0, 1, 0)', 'k(0, 1, 0, 1)') |img| 99 new 1 total 884
+ b 3 ('y3', 'k(0, 0, 1, 0)', 'k(0, 1, 1, 1)') |img| 99 new 1 total 885
+ b 3 ('y3', 'k(0, 0, 1, 1)', 'k(0, 1, 0, 0)') |img| 99 new 1 total 886
+ b 3 ('y3', 'k(0, 0, 1, 1)', 'k(0, 1, 0, 1)') |img| 99 new 1 total 887
+ b 3 ('y3', 'k(0, 0, 1, 1)', 'k(0, 1, 1, 0)') |img| 99 new 1 total 888
+ b 3 ('y3', 'k(0, 1, 0, 0)', 'k(0, 1, 0, 1)') |img| 83 new 1 total 889
+ b 3 ('y3', 'k(0, 1, 0, 0)', 'k(0, 1, 1, 0)') |img| 83 new 1 total 890
+ b 3 ('y3', 'k(0, 1, 0, 0)', 'k(0, 1, 1, 1)') |img| 83 new 1 total 891
+ b 3 ('y3', 'k(0, 1, 0, 1)', 'k(0, 1, 1, 0)') |img| 83 new 1 total 892
+ b 3 ('y3', 'k(0, 1, 0, 1)', 'k(0, 1, 1, 1)') |img| 83 new 1 total 893
+ b 3 ('y3', 'k(0, 1, 1, 0)', 'k(0, 1, 1, 1)') |img| 83 new 1 total 894
+ b 3 ('y4', 'z(0, 3, 4)', 'zV') |img| 89 new 1 total 895
+ b 3 ('y4', 'z(1, 3, 5)', 'zV') |img| 105 new 1 total 896
+ b 3 ('y4', 'z(1, 4, 6)', 'zV') |img| 89 new 1 total 897
+ b 3 ('y4', 'z(1, 4, 6)', 'k(0, 0, 1, 0)') |img| 83 new 1 total 898
+ b 3 ('y4', 'z(2, 3, 6)', 'zV') |img| 105 new 1 total 899
+ b 3 ('y4', 'z(2, 4, 5)', 'zV') |img| 89 new 1 total 900
+ b 3 ('y4', 'z(2, 4, 5)', 'k(0, 0, 1, 0)') |img| 83 new 1 total 901
+ b 3 ('y4', 'k(0, 0, 0, 1)', 'k(0, 0, 1, 1)') |img| 83 new 1 total 902
+ b 3 ('y4', 'k(0, 0, 0, 1)', 'k(0, 1, 0, 0)') |img| 83 new 1 total 903
+ b 3 ('y4', 'k(0, 0, 0, 1)', 'k(0, 1, 1, 0)') |img| 83 new 1 total 904
+ b 3 ('y4', 'k(0, 0, 1, 1)', 'k(0, 1, 0, 0)') |img| 83 new 1 total 905
+ b 3 ('y4', 'k(0, 1, 0, 0)', 'k(0, 1, 0, 1)') |img| 99 new 1 total 906
+ b 3 ('y5', 'z(0, 5, 6)', 'zV') |img| 89 new 1 total 907
+ b 3 ('y5', 'z(1, 3, 5)', 'zV') |img| 89 new 1 total 908
+ b 3 ('y5', 'z(2, 4, 5)', 'zV') |img| 89 new 1 total 909
+ b 3 ('y5', 'k(0, 0, 1, 0)', 'k(0, 0, 1, 1)') |img| 83 new 1 total 910
+ b 3 ('y5', 'k(0, 0, 1, 0)', 'k(0, 1, 0, 0)') |img| 83 new 1 total 911
+ b 3 ('y5', 'k(0, 0, 1, 0)', 'k(0, 1, 0, 1)') |img| 83 new 1 total 912
+ b 3 ('y6', 'z(0, 5, 6)', 'zV') |img| 89 new 1 total 913
+ b 3 ('y6', 'z(1, 4, 6)', 'zV') |img| 89 new 1 total 914
+ b 3 ('y6', 'z(2, 3, 6)', 'zV') |img| 89 new 1 total 915
+ b 3 ('y6', 'k(0, 0, 0, 1)', 'k(0, 0, 1, 0)') |img| 83 new 1 total 916
+ b 3 ('y6', 'k(0, 0, 0, 1)', 'k(0, 1, 0, 0)') |img| 83 new 1 total 917
+ b 3 ('y6', 'k(0, 0, 0, 1)', 'k(0, 1, 1, 1)') |img| 83 new 1 total 918
+after all b=3 families (1505 nongrid): 918 time 1524.2381868362427

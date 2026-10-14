@@ -1,0 +1,2 @@
+start 87 sigma + 3 coords extra col
+final 87 time 223.39699363708496

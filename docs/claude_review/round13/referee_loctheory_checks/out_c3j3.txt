@@ -1,0 +1,14 @@
+c 3 j 3 degree 9 target dim (J(P_s)/grid)_D = 19 (Thm 3.3 count)
+after families of <= 1 directions (entries in [-1,1]): rank mod p = 4 / 19
+after families of <= 2 directions (entries in [-1,1]): rank mod p = 16 / 19
+families used 10 max rho among used 9
+([(1, 1, 1)], 8, 1)
+([(1, -1, 1)], 8, 1)
+([(1, 1, -1)], 8, 1)
+([(1, -1, -1)], 8, 1)
+([(0, 1, -1), (1, 0, 0)], 9, 2)
+([(0, 0, 1), (1, 1, 1)], 9, 2)
+([(0, 1, 0), (1, 0, 1)], 9, 2)
+([(0, 0, 1), (1, -1, 0)], 9, 2)
+([(0, 1, 0), (1, 1, -1)], 9, 2)
+([(1, -1, -1), (1, 0, 0)], 9, 2)

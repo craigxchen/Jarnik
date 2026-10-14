@@ -1,0 +1,4 @@
+rows 3180 cols 2605
+rank mod 2147475331 = 2353 5s
+rank mod 1000000007 = 2353 5s
+rank over Z = 2353 9s

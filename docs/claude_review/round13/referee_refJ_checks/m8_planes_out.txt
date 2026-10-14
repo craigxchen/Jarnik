@@ -1,0 +1,2 @@
+baseline J_w + Fano pencil planes (mod p, lower bound): 630
+tested admissible-size planes 4038 distinct planes 75545 final rank 630 hits 0

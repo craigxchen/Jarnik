@@ -1,0 +1,4 @@
+L 3 |A| = 1877
+Delta H (exact): [1, 7, 28, 77, 161, 266, 357, 386, 329, 195, 63, 7]
+m=10: dim R_m=161, target dim J(A)_m/(x^3) = 98, rank_p(width powers) = 98 -> Loc_m(1) HOLDS (certified)
+m=11: dim R_m=77, target dim J(A)_m/(x^3) = 70, rank_p(width powers) = 70 -> Loc_m(1) HOLDS (certified)

@@ -1,0 +1,14 @@
+exact target dim (J/grid)_D 2163
+directions (rows): [[1, -1, 0, 0, 0, 0, 0], [0, 0, -1, 0, 0, 0, 0], [0, 0, 0, -1, 0, 0, 0], [0, 0, 0, 0, -1, 0, 0], [0, 0, 0, 0, 0, -1, 0], [0, 0, 0, 0, 0, 0, -1]]
+|img| 1627
+rho(img) <= 10 (mod-p upper bound)
+exact J(img)_1 dim 0 0s
+exact J(img)_2 dim 0 0s
+exact J(img)_3 dim 0 0s
+exact J(img)_4 dim 0 0s
+exact J(img)_5 dim 5 1s
+exact J(img)_6 dim 50 3s
+exact J(img)_7 dim 326 9s
+exact J(img)_8 dim 1037 28s
+start 1274
+mod-p rank of exact generators: 2163 target (exact) 2163 CERTIFIED EQUAL

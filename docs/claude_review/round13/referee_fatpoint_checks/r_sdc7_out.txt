@@ -1,0 +1,8 @@
+distinct cuts 14
+|A| = 757
+cumulative H (exact): [1, 8, 36, 113, 274, 525, 713, 756, 757]  Delta: [1, 7, 28, 77, 161, 251, 188, 43, 1]
+tau histogram (<=7): [(np.int64(2), 7), (np.int64(4), 57), (np.int64(6), 357)]
+tau_0 (base coordinate) = 4
+core column taus: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+generator rows 10521
+dim S_8 = 3003  rank_p(width-power part of J_8) = 3002  target dim J(A)_8 = 3002

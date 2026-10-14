@@ -1,0 +1,6 @@
+J_w + () mod-p eval ranks deg5..8: [203, 616, 1485, 2940]   dim J(A): [203, 637, 1541, 2961]
+J_w + ('pair',) mod-p eval ranks deg5..8: [203, 616, 1485, 2940]   dim J(A): [203, 637, 1541, 2961]
+J_w + ('nonline',) mod-p eval ranks deg5..8: [203, 616, 1485, 2940]   dim J(A): [203, 637, 1541, 2961]
+J_w + ('line',) mod-p eval ranks deg5..8: [203, 637, 1541, 2961]   dim J(A): [203, 637, 1541, 2961]
+
+[exited with code 0]

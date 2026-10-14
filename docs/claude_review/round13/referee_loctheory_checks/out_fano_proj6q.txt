@@ -1,0 +1,5 @@
+start rank 386 target 764
+orbit reps 31
+z (-1, 0, 0, 0, 0, 0, 0) |img| 2025 gens 384 rank 386 -> 386 / 764 88s
+z (-1, -1, 0, 0, 0, 0, 0) |img| 1627 gens 381 rank 386 -> 764 / 764 51s
+CLOSED (mod p evidence)

@@ -1,0 +1,16 @@
+sdc7 L=2: n=8 core columns=7 (Hadamard core needs 7) T_core=28 tau_0=4 -> certificates in L_m impossible for m > 7
+pal7 L=2: n=8 core columns=7 (Hadamard core needs 7) T_core=28 tau_0=6 -> certificates in L_m impossible for m > 8
+syl8 L=2: n=8 core columns=7 (Hadamard core needs 7) T_core=28 tau_0=6 -> certificates in L_m impossible for m > 8
+syl8 L=3: n=8 core columns=7 (Hadamard core needs 7) T_core=42 tau_0=8 -> certificates in L_m impossible for m > 10
+sdc11 L=2: n=12 core columns=6 (Hadamard core needs 11) T_core=24 tau_0=4 -> certificates in L_m impossible for m > 7
+pal11 L=2: n=12 core columns=11 (Hadamard core needs 11) T_core=44 tau_0=4 -> certificates in L_m impossible for m > 9
+paley12 L=2: n=12 core columns=11 (Hadamard core needs 11) T_core=44 tau_0=4 -> certificates in L_m impossible for m > 9
+Sylvester n=2^12: m'=2256 j=281: m'^2=5089536  (2d+m')*2j(n-1)/n=5869219  -> width certificates not excluded
+Sylvester n=2^13: m'=3302 j=412: m'^2=10903204  (2d+m')*2j(n-1)/n=16217636  -> width certificates not excluded
+Sylvester n=2^14: m'=4823 j=602: m'^2=23261329  (2d+m')*2j(n-1)/n=45254394  -> width certificates not excluded
+Sylvester n=2^15: m'=7031 j=878: m'^2=49434961  (2d+m')*2j(n-1)/n=127420251  -> width certificates not excluded
+Sylvester n=2^16: m'=10231 j=1278: m'^2=104673361  (2d+m')*2j(n-1)/n=361159845  -> width certificates not excluded
+Sylvester n=2^17: m'=14865 j=1858: m'^2=220968225  (2d+m')*2j(n-1)/n=1029350159  -> width certificates not excluded
+Sylvester n=2^18: m'=21568 j=2695: m'^2=465178624  (2d+m')*2j(n-1)/n=2942141837  -> width certificates not excluded
+Sylvester n=2^19: m'=31255 j=3906: m'^2=976875025  (2d+m')*2j(n-1)/n=8435608058  -> width certificates not excluded
+Sylvester n=2^20: m'=45241 j=5655: m'^2=2046748081  (2d+m')*2j(n-1)/n=24230419102  -> width certificates not excluded

@@ -1,0 +1,3 @@
+start 82 set cq b 3
+candidates 89
+families 10324 nongrid 10168 final 82 time 1519.7432444095612

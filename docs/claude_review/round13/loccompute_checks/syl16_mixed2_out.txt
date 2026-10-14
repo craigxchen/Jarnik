@@ -1,0 +1,2 @@
+2-dim families: 435 grids, 0 non-grid [31s]
+width + all mixed pairs: [0, 0, 0, 0, 0, 15, 225]  J(A) = [0, 0, 0, 0, 0, 15, 540]  [31s]

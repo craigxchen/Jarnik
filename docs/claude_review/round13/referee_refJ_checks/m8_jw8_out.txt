@@ -1,0 +1,2 @@
+rows 9464
+deg 8 EXACT Q rank (J_w)_8: 2940 time 29

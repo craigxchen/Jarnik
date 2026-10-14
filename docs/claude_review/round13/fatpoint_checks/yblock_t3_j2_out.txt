@@ -1,0 +1,32 @@
+t=3 j=2 |Y|=2605 b=7
+H_Y (mod p) = [1, 7, 28, 84, 210, 455, 812, 756, 252]  rho <= 8
+H_grid = [1, 7, 28, 84, 210, 455, 875, 1520, 2415, 3535, 4795]  alpha (first e with H_Y < H_grid) = 6
+#light 28 #heavy2 42
+heavy2 example restricted vector a = [ 0 -2  0  0  0 -2  0]
+e=5 dimT=455 light: (max count, max weighted cost, lines<=3j-1) -> (in J^perp, sampled):
+      (4, 4, True): (2988, 2988)
+e=5 dimT=455 heavy2: (max count, max weighted cost, lines<=3j-1) -> (in J^perp, sampled):
+      (2, 4, True): (648, 648)
+      (3, 6, True): (1790, 1790)
+      (4, 8, True): (562, 562)
+e=6 dimT=812 light: (max count, max weighted cost, lines<=3j-1) -> (in J^perp, sampled):
+      (4, 4, False): (623, 2204)
+e=6 dimT=812 heavy2: (max count, max weighted cost, lines<=3j-1) -> (in J^perp, sampled):
+      (2, 4, False): (31, 31)
+      (2, 4, True): (98, 98)
+      (3, 6, False): (45, 972)
+      (3, 6, True): (683, 683)
+      (4, 8, False): (4, 1080)
+      (4, 8, True): (136, 136)
+e=7 dimT=756 light: (max count, max weighted cost, lines<=3j-1) -> (in J^perp, sampled):
+      (4, 4, False): (24, 394)
+e=7 dimT=756 heavy2: (max count, max weighted cost, lines<=3j-1) -> (in J^perp, sampled):
+      (2, 4, False): (4, 4)
+      (2, 4, True): (0, 1)
+      (3, 6, False): (0, 1032)
+      (3, 6, True): (0, 6)
+      (4, 8, False): (0, 1957)
+e=8 dimT=252 light: (max count, max weighted cost, lines<=3j-1) -> (in J^perp, sampled):
+e=8 dimT=252 heavy2: (max count, max weighted cost, lines<=3j-1) -> (in J^perp, sampled):
+      (3, 6, False): (0, 478)
+      (4, 8, False): (0, 2522)

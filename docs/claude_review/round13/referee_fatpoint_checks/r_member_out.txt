@@ -1,0 +1,9 @@
+kernel dim (deg<=6): 1008 expected 1008
+dim T_7 mod p = 756 (6s)
+annihilator dim 960
+(maxaxis, member mod p, zonotope fits) -> count   (380s)
+   (2, False, False) 1536
+   (2, True, True) 1536
+   (3, False, None) 84000
+   (4, False, None) 4200
+members that are not zonotopes: 0 []

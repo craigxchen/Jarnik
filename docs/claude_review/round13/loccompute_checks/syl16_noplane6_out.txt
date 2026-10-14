@@ -1,0 +1,4 @@
+line orbit reps 3, plane orbit reps 1 [12s]
+  width powers: [0, 0, 0, 0, 0, 15, 225, 1851]  J(A)=[0, 0, 0, 0, 0, 15, 540, 9769] cum_eq=[True, True, True, True, True, True, False, False] [31s]
+  + lines: [0, 0, 0, 0, 0, 15, 540, 6226]  J(A)=[0, 0, 0, 0, 0, 15, 540, 9769] cum_eq=[True, True, True, True, True, True, True, False] [92s]
+  (no planes): [0, 0, 0, 0, 0, 15, 540, 6226]  J(A)=[0, 0, 0, 0, 0, 15, 540, 9769] cum_eq=[True, True, True, True, True, True, True, False] [156s]

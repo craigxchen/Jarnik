@@ -1,0 +1,7 @@
+start 82 sigma + 3 coords extra none
+fam sigma+coords (0, 1, 5)  |img| 125 new 1 total 83
+fam sigma+coords (0, 1, 8)  |img| 125 new 1 total 84
+fam sigma+coords (0, 1, 9)  |img| 125 new 1 total 85
+fam sigma+coords (0, 2, 6)  |img| 125 new 1 total 86
+fam sigma+coords (0, 2, 8)  |img| 125 new 1 total 87
+final 87 time 5.502977132797241

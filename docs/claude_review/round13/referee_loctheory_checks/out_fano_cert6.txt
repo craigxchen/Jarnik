@@ -1,0 +1,12 @@
+directions (rows): [[1, -1, 0, 0, 0, 0, 0], [0, 0, -1, 0, 0, 0, 0], [0, 0, 0, -1, 0, 0, 0], [0, 0, 0, 0, -1, 0, 0], [0, 0, 0, 0, 0, -1, 0], [0, 0, 0, 0, 0, 0, -1]]
+|img| 1627
+rho(img) <= 10 (mod-p upper bound)
+exact J(img)_1 dim 0 0s
+exact J(img)_2 dim 0 0s
+exact J(img)_3 dim 0 0s
+exact J(img)_4 dim 0 0s
+exact J(img)_5 dim 5 1s
+exact J(img)_6 dim 50 2s
+exact J(img)_7 dim 326 7s
+start 386
+mod-p rank of exact generators: 764 target (exact) 764 CERTIFIED EQUAL

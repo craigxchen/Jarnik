@@ -1,0 +1,8 @@
+multisets (axis<=4, line<=5): 91272
+  maxaxis=2 width-violated=False kinds=() : 2880
+  maxaxis=2 width-violated=True kinds=('ord4',) : 192
+  maxaxis=3 width-violated=False kinds=() : 77952
+  maxaxis=3 width-violated=True kinds=('ord4',) : 6048
+  maxaxis=4 width-violated=False kinds=() : 3948
+  maxaxis=4 width-violated=True kinds=('ord4',) : 252
+width-count feasible multisets: 84780 Counter({3: 77952, 4: 3948, 2: 2880})

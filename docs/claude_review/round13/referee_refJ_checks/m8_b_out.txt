@@ -1,0 +1,5 @@
+deg 6 #rows 931 modp eval-rank J_w (lower bound on Q dim) 616 dim J(A) 637
+deg 7 #rows 3144 modp eval-rank J_w (lower bound on Q dim) 1485 dim J(A) 1541
+deg 8 #rows 9464 modp eval-rank J_w (lower bound on Q dim) 2940 dim J(A) 2961
+deg 6 EXACT Q rank of (J_w)_deg: 616 time 0.1
+deg 7 EXACT Q rank of (J_w)_deg: 1485 time 1.3

@@ -1,0 +1,16 @@
+coordinate labels [(0, 0, 1), (0, 1, 0), (0, 1, 1), (1, 0, 0), (1, 0, 1), (1, 1, 0), (1, 1, 1)]
+b=2 extra coords [(0, 1, 1)] |img| 23 rank 386 / 764
+b=2 S (1,) no gens <=7
+b=2 S (2,) no gens <=7
+b=2 S (3,) no gens <=7
+b=2 S (4,) no gens <=7
+b=3 extra coords [(0, 1, 1), (1, 0, 0)] |img| 115 rank 386 / 764
+b=3 extra coords [(0, 1, 1), (1, 0, 1)] |img| 115 rank 386 / 764
+b=3 extra coords [(0, 1, 1), (1, 1, 0)] |img| 115 rank 386 / 764
+b=3 extra coords [(0, 1, 1), (1, 1, 1)] |img| 115 rank 386 / 764
+b=3 S (1, 2) no gens <=7
+b=3 S (1, 3) no gens <=7
+b=3 S (1, 4) no gens <=7
+b=3 S (2, 3) no gens <=7
+b=3 S (2, 4) no gens <=7
+b=3 S (3, 4) no gens <=7

@@ -1,7 +1,7 @@
 # Round 13 — Locality Loc(b0) of the leading-form ideal J(A): exact computations
 
-Status: computations complete except where marked; every claim carries its status (proved / exact / mod `p` evidence /
-heuristic).
+Status: complete. Not completed: Paley `L_col(7)` and Syl16 degree `>= 8`. Every claim carries its status (proved /
+exact / mod `p` evidence / heuristic). Scripts are in `loccompute_checks/`; working notes are in `loccompute_notes.md`.
 
 ## 0. Summary of results
 
@@ -17,11 +17,11 @@ therefore not a structural property of slab boxes.
 | `Syl(8,1)` | 3-4 | 1.5-2 | 1 | 1 | exact |
 | `M8 = Syl(8,2)` | 8 | 2 | **3** (exactly the 7 lines) | **3** | exact, both directions (`b = 2` fails over `Q`) |
 | `M8' = Syl(8,3)` | 11 | 1.83 | **1**: `J(A) = J_w` in all degrees `<= 11` | 1 | exact |
-| two-cut blocks (TWOCUT_COUNT of 402 with `d <= 7`) | `<= rho + 1` | up to 4.5 | 1 | 1 | exact |
+| two-cut blocks (400 of 402 with `d <= 7`) | `<= rho + 1` | up to 4.5 | 1 | 1 | exact |
 | three-cut blocks, `d <= 6` (953 types) | `<= rho` | up to 5 | 1 (827), 3 (27), none (99) | `<= 4` always | equalities exact; failures mod `p` |
 | `Syl(16,1)` | 3 | 1.5 | — | 3 | exact (`b = 2` failure mod `p`) |
 | **Paley-12, `L = 2`** | 8 | 2 | **`> 5` over `Q`; `> 6` mod `p`** | `> 4` mod `p` | exact (Proposition 4.4) |
-| `Syl(16,2)` | `<= 7` | `<= 1.75` | §3.6 | | mod `p` |
+| **`Syl(16,2)`** | `<= 7` | `<= 1.75` | **`>= 3` over `Q`** (lines give exact equality through degree 6); **`>= 7` mod `p`** at `m = 7`: whole 7-column planes are needed (`L_col(6)_7 = 6226`, `+ planes = 9691`, `J(A)_7 = 9769`) | `>= 3` over `Q` | see §3.6 |
 
 **Main results.**
 1. **Proposition 4.4 (exact; the key negative outcome).** In Paley-12 (`T = 1`, `L = 2`, `m = 8`), over `Q`,
@@ -35,8 +35,9 @@ therefore not a structural property of slab boxes.
    * They couple at least 3 slabs on 9-11 of the 11 coordinates. Projections onto `<= 4` columns are grids
      (Lemma 4.1), and pair cut boxes are exactly width-generated.
 2. **README §7.1's family restriction `rho(pi_F A) < ceil(4w)` is wrong as a criterion.** In Paley every family that
-   contributes below `m` has `rho(pi_F A) >= m`, which is exact by counting. So the proposed bound
-   `b_0 <= m'/(2j) + O(1)` via projection costs (README §7.3(3)) cannot work.
+   contributes below `m` has `rho(pi_F A) >= m`, which is exact by counting. So the route to
+   `b_0 <= m'/(2j) + O(1)` via projection costs (README §7.3(3)) fails at its first step. The Sylvester data (item 5)
+   point the same way: `b_0 >= 7` at `m/(2L) = 1.75` (mod `p`).
 3. **Two mechanisms.**
    * (a) Arithmetic congruences among columns (Lemma 4.2) make projections non-grid. These are projection-local, with
      `b` = support of the congruence: Sylvester lines `b = 3` (mod 2), Paley `b = 5` (mod 3).
@@ -44,17 +45,23 @@ therefore not a structural property of slab boxes.
 4. **No dependence on `m/(2L)`.**
    * Two-cut blocks are width-local up to ratio 4.5.
    * Three-cut blocks have `b_0(mixed) <= 4` at every ratio up to 5, with only a mild drift from 3 to 4.
-   * Among the Hadamard models at ratio 2, `b_0` ranges from 1 to `> 6`.
-5. **Regime-type evidence for Sylvester profiles** (mod `p`, plus a heuristic). In the large-coset limit:
-   * every line image has non-width generators exactly at degree `3j < m' ~ 8j`;
-   * the plane image (7 columns) at `j = 2` has generators **not produced by its 7 lines** (degree 7: `582` against
-     `960`).
-   * A dimension-count heuristic suggests that subspace families up to 15 columns (`s = 4`) can matter below `8j`. If
-     the width powers of the full box do not absorb them, Sylvester regime boxes would need `b_0 >= 7`, perhaps 15. That
-     is still bounded in `n`, but it is far from `3`.
+   * Among the Hadamard models at ratio about 2, `b_0` ranges from 1 to `> 6`.
+5. **Sylvester profiles: `b_0` grows with the subspace dimension.**
+   * In `Syl(16,2)`, the first Sylvester model whose line images are full as in the regime, the 35 line families are
+     **needed and exactly sufficient** through degree `6 = 3L`. This is exact: an exhaustive scan shows that no width
+     power or 2-dimensional family supplies them. Unlike `M8'`, nothing is absorbed.
+   * In degree 7 the 15 plane families (7 columns each) add `3465` generators beyond the lines (mod `p`).
+   * No proper subfamily of a plane, and no family of `<= 6` columns outside a plane, produces any of them
+     (`L_col(6)_7 = 6226`). So column `b_0 >= 7` already at `m = 7 = 1.75 * (2L)`.
+   * The abstract large-coset images agree (mod `p`): lines have non-width generators exactly at `3j`, and planes have
+     generators that their lines do not produce.
+   * A dimension-count heuristic puts subspace families up to 15 columns below `m' ~ 8j`. Evidence therefore points to
+     a `b_0` for Sylvester regime boxes that is **bounded in `n` but at least 7, plausibly 15**: not the hoped-for
+     `m'/(2j) + O(1)`.
 
 **What this does not do.** It proves nothing about growth or uniformity. `M <= (2/3+eps) log R/loglog R` stands.
-`Loc` is neither proved nor refuted for any regime box. All exact models are LP-subcritical (§6.3).
+`Loc` is neither proved nor refuted for any regime box. All exact models are LP-subcritical, and the Hadamard ones are
+ball-bound (§6.1, §6.3).
 
 ## 1. Definitions, conventions, family sets
 
@@ -208,13 +215,13 @@ Scripts: `cyc_run.py paley 2 8 4` (`cyc_paley_L2_out.txt`), `paley_images.py`, `
 | `J_w(R=1) = L_col(4)` | 792 | 3300 | 725 (**exact**, §4.2) |
 | `L_col(5)` (all 462 five-column families) | 902 | 7546 | 615 (**exact** non-containment, §4.2) |
 | `L_col(6)` (contains `L_col(5)`: pullbacks are monotone under refinement of the family) | 902 | 7612 | 615 |
-| `L_col(7)` | PENDING | | |
+| `L_col(7)` | not completed (estimated `> 10 h`) | | |
 | columns + coordinates, `b <= 3` (all images full products) | 792 | 3300 | 725 |
 | columns + coordinates, `b <= 4` | 792 | 5335 | 725 |
 | `J(A)` | 1517 | 10010 | — |
 
 * Among the 5-column families, only the all-ones mod-3 congruence `(0,1,2,6,9)` (1 orbit, image 1041) has degree-7
-  generators: 11 per family, 110 in all.
+  generators: 11 per family. Its 11 shifts together raise `dim L_7` by 110.
 * The other congruence families have generators only in degrees 5 and 8 (51 each in degree 8).
 * Near-full images contribute only `y_q^5`, up to degree 8.
 * Families with `rho(pi_F A) >= m = 8` do contribute generators below `m`: every 5-column family has
@@ -234,10 +241,10 @@ The test runs in all degrees `<= rho + 1`, with `J_w(R=2)` for `d <= 6` and `R =
 factor off, so blocks are enumerated by Venn-region sizes.
 
 **Two cuts.**
-* TWOCUT_COUNT of the 402 blocks with `a + b + c <= 7` (all binding `L_1, L_2`) were completed. These are all
-  blocks with `d <= 5`, all nested ones (`a = 0`) with `d <= 7`, and part of `a >= 1`, `d = 6, 7`.
-  **Every one of them has `J(A) = J_w` in every degree `<= rho + 1`** (exact, by the sandwich).
-* `rho` reaches 12. The ratio `rho/(2 L_max)` reaches 4.5, for example `(1,2,4)`, `L = (1,1)`, `rho = 9`.
+* 400 of the 402 blocks with `a + b + c <= 7` (all binding `L_1, L_2`) were completed. The two missing ones are the
+  nested `(0,7,0)`, `L = (5,6), (6,6)`, cut off when the run was stopped. **Every completed block has `J(A) = J_w` in
+  every degree `<= rho + 1`** (exact, by the sandwich).
+* `rho` reaches 13. The ratio `rho/(2 L_max)` reaches 4.5, for example `(1,2,4)`, `L = (1,1)`, `rho = 9`.
 * So two cuts are local with `b_0 = 1` at every ratio tested, including ratios above the regime's 4.
 * The same holds for the Paley pair block `(3,3,3)`, `L = (2,2)`, `d = 9` (§3.2).
 
@@ -303,6 +310,65 @@ All results are mod `p` (evidence).
     Sylvester subspace families up to `s = 4` (**15 columns**) can matter below `m' ~ 8j`, and `s = 5` (31 columns) is
     borderline.
   * Whether the actual box's width powers absorb them, as happens in `M8'` but not in `M8`, is not decided.
+
+### 3.6 `Syl(16, 2)` (`d = 15`, `|A| = 213937`, `T = 1`, degrees `<= 7`; Singer cycle `Z_15`) (`syl16.py`, `syl16_L2_m7_out.txt`)
+
+**Data.**
+* `H_A = [1,15,120,665,2835,9813,28125,62186]`. This is mod `p`, from `hilbert_lean`. The per-component column subsets
+  only lower ranks, so `dim J(A)` below is an upper bound, which is the sound direction.
+* `dim J(A)_i = [0,0,0,0,0,15,540,9769]` in `R`.
+* Family set: the width powers of the columns (`|image| = 5`), of `sigma = -k_base` (`|image| = 7`), of the 35 line
+  half-sums and of the 15 plane quarter-sums (all `|image| = 7`). Column families are added on top.
+
+| family set | `i = 5` | `i = 6` | `i = 7` |
+| --- | --- | --- | --- |
+| `J(A)` | 15 | 540 | 9769 |
+| width powers as above | 15 | **225** | 1851 |
+| + 35 line triples | 15 | **540 (equal)** | 6226 |
+| + 15 plane 7-column families (1 Singer orbit) | 15 | 540 | **9691** (deficit 78) |
+
+1. **Lines are needed and are exactly enough in degree 6, i.e. `b_0 >= 3`.**
+   * Every line image is the **full** abstract `P_2 = [-2,2]^3 ∩ {sum even}` (63 points; regions of 4 points). It
+     contributes 9 non-width generators in degree 6 (§3.5).
+   * `35 x 9 = 315 = 540 - 225`: they are independent, and **none is absorbed by the box's width powers**.
+   * Exact scan (`syl16_widthscan.py`, `syl16_widthscan_out.txt`, integer arithmetic): among all `7174228` primitive
+     `v in {-1,0,1}^15` of support `>= 3`, the only ones with `|<v,A>| <= 6` are the 15 columns.
+   * So `J_w(R=1)` agrees in degrees `<= 6` with the width ideal used here. Smaller supports give powers that vanish
+     in `R`.
+   * The `R = 1` width ideal therefore misses all 315 line generators in degree 6.
+   * All 435 two-dimensional families from columns and coordinates have **grid** images (`syl16_mixed2.py`,
+     `syl16_mixed2_out.txt`). By Lemma 4.1, `L_mixed(2)_6` is spanned by the products `R_1 *` (15 column quintics).
+   * **Exact:** `dim_Q L_mixed(2)_6 <= 15 * 15 = 225 < 540 <= dim_Q J(A)_6`. The lower bound comes from the mod-`p`
+     dimension of the exact line ideal.
+   * So `b_0(Syl(16,2)) >= 3` over `Q`, for columns and for columns + coordinates, and `b_0 = 3` suffices through
+     degree 6.
+   * Equality through degree 6 is exact, by the sandwich.
+
+   This is the first Sylvester model with regime-type (full) line images. In it the M8'-type absorption does **not**
+   happen.
+2. **Degree 7.** Lines leave a deficit of `3543` (mod `p`). The plane images (`|P| = 2507`, not full; regions of 2
+   points) have non-width generators `[(5,14),(6,63),(7,232)]`. **Adding the plane families raises degree 7 from 6226 to
+   9691**, so 7-column families are needed in degree 7 (`b_0 >= 7` for column families, mod `p` evidence).
+   * The plane contribution is not generated by lines, matching the abstract plane image (§3.5).
+   * **The full plane is needed.** All 4-, 5- and 6-column subfamilies of a plane, added to the lines, give nothing in
+     degree 7: it stays at `6226` (`syl16_planesub.py`, `syl16_planesub_out.txt`).
+   * The mechanism is the mod-4 congruence `sum_{a in V} y_a = 4 z_V` (Lemma 4.2), which involves all 7 columns.
+   * Families outside planes add nothing on top of the planes. Of the `b = 3, 4, 5` families outside planes, `0`, `56`
+     (all grids) and `180` (non-grid) orbits respectively change nothing (`syl16_rest_out.txt`,
+     `syl16_rest56_out.txt`). The run that added the 328 non-grid 6-column orbits on top of the planes was OOM-killed;
+     see the incremental run below.
+   * Without the planes, the 180 non-grid 5-column families outside planes, added to the lines, also give **nothing**:
+     degree 7 stays at `6226` (`syl16_noplane5_out.txt`).
+   * **Incremental run** (`syl16_inc.py 6`, `syl16_inc6_out.txt`). Since `L_6 = J(A)_6` already, only degree-7
+     generators matter. Adding to width + lines all 328 non-grid 6-column orbits outside planes leaves degree 7 at
+     **`6226`**. Adding the planes then gives `9691`.
+   * Hence, mod `p`, **`L_col(6)_7 = 6226 < 9769`**. The pieces are: lines, in-plane subfamilies of size `<= 6`
+     (nothing new), non-plane families of size 4 (grids), 5 and 6 (nothing new).
+   * The plane families (`b = 7`) add `3465`.
+   * A residual of 78 remains in degree 7 after planes (`syl16_planes_out.txt`). Its source (families of `>= 8`
+     columns, or mixed families) is not identified.
+   * **Mod `p`, then, column-`b_0(Syl(16,2), m = 7) >= 7`.** The 7-column plane families are genuinely needed, and even
+     they leave 78.
 
 ## 4. Non-local generators
 
@@ -451,8 +517,8 @@ the all-ones mod-3 congruence family. The certificate for (ii) uses different po
 
 **6.1 `Loc(b_0)` as stated in README §7.1 is refuted as a model-independent principle.** It fails on an exact model,
 Paley-12 (`L = 2`, `m = 8`):
-* in degree `7 < m`, for every `b_0 <= 4`, over `Q` (Proposition 4.4);
-* for `b_0 <= 5` (mod `p`; `b = 6, 7` in §3.2).
+* in degree `7 < m`, for every `b_0 <= 5`, over `Q` (Proposition 4.4);
+* for `b_0 <= 6` mod `p` (`L_col(6)_7 = 902 < 1517`). `b = 7` was not completed.
 
 The model is zonotope-free, overdetermined and indecomposable, but **LP-subcritical, and ball-bound** (zetc Lemma 4.4).
 Two further points:
@@ -495,16 +561,24 @@ In the language of the round-12 README, these are **global low-degree relations 
    * The abstract Sylvester line image `[-j,j]^3 ∩ {sum even}`, which is the exact image once cosets are large, has
      non-width generators exactly at its `rho = 3j` (computed for `j = 2..6`, `line_lattice_out.txt`). Since
      `3j < m' ~ 8j`, line families are needed unless the width powers of `A` absorb them.
-   * They are absorbed in `M8'` and not in `M8`.
-   * Whether the plane images (7 columns, index-32 lattice) add generators beyond the lines is the test in
-     `plane_lattice.py`. That decides whether `b_0` grows like `2^s - 1` along Sylvester subspace families.
+   * They are absorbed in `M8'` (small images) and not in `M8`.
+   * **They are not absorbed in `Syl(16,2)`**, the first Sylvester model whose line images are full (§3.6, exact). All
+     35 x 9 line generators are needed in degree `6 = 3L`, and no width power or 2-dimensional family supplies them.
+   * Planes (7 columns) add generators beyond their lines, both in the abstract image (`582 < 960`, §3.5) and in
+     `Syl(16,2)` itself (degree 7: `6226 -> 9691`, §3.6; mod `p`).
+   * So along Sylvester profiles **`b_0` grows with the subspace dimension `s` (`b = 2^s - 1`) as the degree rises**:
+     `b = 3` at degree `3L`, `b = 7` at degree `3L + 1` for `L = 2`.
+   * The count heuristic of §3.5 puts `s = 4` (15 columns) below `8j`. This is evidence for a **bounded but large**
+     `b_0`, at least 7 and plausibly 15, for Sylvester regime boxes. It is not a proof in either direction.
 2. *Generic real profiles.* For profiles with **real** columns, `<beta_p, k>` takes exponentially many values on `A`.
    * No column width power exists below degree `m'`, so every element of `J(A)_{<= m'}` beyond `x^3` is an H-basis
      completion or an integer-direction width power.
    * `Loc(b_0)` then asks whether these completions are visible to projections onto few **integer** directions.
    * Nothing computed here bears on that case: every exact model has integer columns.
 3. *Where the failures sit.*
-   * In every exact model the first non-width degree satisfies `rho(A) - i_fail <= 4`.
+   * In every exact model except `Syl(16,2)` the first non-width degree satisfies `rho(A) - i_fail <= 4`.
+   * `Syl(16,2)` has `i_fail = 6` and `8 <= rho <= 11`. The upper bound is the referee's; the lower bound holds because
+     `sum_{i<=7} H_A <= N_{<=7} = 114084 < 213937 = |A|`.
    * In the regime `m'/rho(A) -> 0`, so these failure *positions* do not transfer.
    * But the congruence mechanism attaches failures to the `rho` of a **projection** (`3j` for a line), and that does
      transfer.
@@ -539,5 +613,9 @@ notes are in `loccompute_notes.md`.
 | `paley_syz.py` | §4.2: 440 degree-9 syzygies | mod `p` (evidence) |
 | `paley_cert.py`, `paley_cert3.py cong`, `paley_cong_check.py`, `paley_nearfull_check.py` | Proposition 4.4 | **exact** |
 | `cuts_run.py two/two_a1/three`, `three_mixed.py`, `ratio_table.py` | §3.3, §5 | exact for `b_0 = 1` equalities; failures mod `p` |
-| `syl16.py`, `syl16_L1.py` | §3.4, §3.6 | as stated there |
+| `syl16.py` (Hilbert function + first run; OOM-killed after the plane `J(P)` step), `syl16_planes.py`, `syl16_rest.py 3,4` / `5,6`, `syl16_planesub.py`, `syl16_noplane.py 5`, `syl16_inc.py 6` | §3.6 | equalities exact; degree-7 deficits mod `p` |
+| `syl16_widthscan.py`, `syl16_mixed2.py` | §3.6: only the columns have width `<= 5`; all mixed pairs are grids | **exact** (integer scan) / grid check exact |
+| `syl16_L1.py` | §3.4 | as stated |
+| `three_cert.py` | §3.3 example: `dim_Q L_col(3)_4 = 15 < 18` | **exact** |
+| `froberg_check.py` | §6.2: column width powers versus the Fröberg count | mod `p` |
 | `line_lattice.py`, `plane_lattice.py` | §3.5 | mod `p` (evidence) |

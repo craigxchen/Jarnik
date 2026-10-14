@@ -75,3 +75,11 @@
 - paley b=7 killed (est. >10h). three_mixed done: b0_mixed 2:6, 3:81, 4:39. three_cert: exact dim_Q L_col(3)_4 = 15 < 18.
 - paley_cong_check / paley_nearfull_check: ALL OK -> Prop 4.4(ii) rigorous. plane R=2 same as R=1 (582 < 960 at deg 7).
 - two-cut: 318/402 blocks done (d<=5 all, a=0 d<=7, part a>=1), all b0=1; two_a1 still running.
+- Syl16 L=2 (H 1h, hilbert_lean): J(A)=[..,15,540,9769]; widths 225 at deg 6; + lines 540 EXACT equality deg<=6;
+  widthscan: only columns among 7.17M R=1 dirs have |image|<=5 (exact); mixed pairs all 435 grids -> exact b0>=3.
+  deg 7: lines 6226, + planes 9691 (deficit 78), + non-plane 3,4-col (all grids or in planes) 9691. Running 5,6.
+  First syl16 run OOM-killed at planes (pullback cache); syl16_planes.py lean (orbit reps).
+- syl16_rest56: 5-col non-plane families (180 non-grid orbits) add nothing at deg 7 (9691). 6 running. syl16_planesub.py: 4,5,6-subfamilies of plane (without full plane) to see whether 7-col needed.
+- syl16_planesub: in-plane 4,5,6-subfamilies add NOTHING at deg 7 (6226) -> full plane needed. noplane5: non-plane 5-col add
+  nothing (6226). rest56 & noplane6 OOM-killed at b=6 (generator accumulation). syl16_inc.py: incremental deg-7 merge, running.
+- syl16_inc6: L_col(6)_7 = 6226 (all 328 non-plane 6-col add nothing); + planes 9691.
