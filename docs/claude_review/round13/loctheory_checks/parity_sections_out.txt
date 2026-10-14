@@ -1,0 +1,60 @@
+parity: b=1 j=1 |P|=1 |Q|=2 s=2 rho(P)=0 rho(Q)=1 alpha=s-rho(Q)=1 linkage_ok=True exact
+   H_box [1, 1, 1]
+   H_P   [1]
+parity: b=1 j=2 |P|=3 |Q|=2 s=4 rho(P)=2 rho(Q)=1 alpha=s-rho(Q)=3 linkage_ok=True exact
+   H_box [1, 1, 1, 1, 1]
+   H_P   [1, 1, 1]
+parity: b=1 j=3 |P|=3 |Q|=4 s=6 rho(P)=2 rho(Q)=3 alpha=s-rho(Q)=3 linkage_ok=True exact
+   H_box [1, 1, 1, 1, 1, 1, 1]
+   H_P   [1, 1, 1]
+parity: b=1 j=4 |P|=5 |Q|=4 s=8 rho(P)=4 rho(Q)=3 alpha=s-rho(Q)=5 linkage_ok=True exact
+   H_box [1, 1, 1, 1, 1, 1, 1, 1, 1]
+   H_P   [1, 1, 1, 1, 1]
+parity: b=2 j=1 |P|=5 |Q|=4 s=4 rho(P)=2 rho(Q)=2 alpha=s-rho(Q)=2 linkage_ok=True exact
+   H_box [1, 2, 3, 2, 1]
+   H_P   [1, 2, 2]
+parity: b=2 j=2 |P|=13 |Q|=12 s=8 rho(P)=4 rho(Q)=4 alpha=s-rho(Q)=4 linkage_ok=True exact
+   H_box [1, 2, 3, 4, 5, 4, 3, 2, 1]
+   H_P   [1, 2, 3, 4, 3]
+parity: b=2 j=3 |P|=25 |Q|=24 s=12 rho(P)=6 rho(Q)=6 alpha=s-rho(Q)=6 linkage_ok=True exact
+   H_box [1, 2, 3, 4, 5, 6, 7, 6, 5, 4, 3, 2, 1]
+   H_P   [1, 2, 3, 4, 5, 6, 4]
+parity: b=2 j=4 |P|=41 |Q|=40 s=16 rho(P)=8 rho(Q)=8 alpha=s-rho(Q)=8 linkage_ok=True exact
+   H_box [1, 2, 3, 4, 5, 6, 7, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+   H_P   [1, 2, 3, 4, 5, 6, 7, 8, 5]
+parity: b=3 j=1 |P|=13 |Q|=14 s=6 rho(P)=3 rho(Q)=3 alpha=s-rho(Q)=3 linkage_ok=True exact
+   H_box [1, 3, 6, 7, 6, 3, 1]
+   H_P   [1, 3, 6, 3]
+parity: b=3 j=2 |P|=63 |Q|=62 s=12 rho(P)=6 rho(Q)=6 alpha=s-rho(Q)=6 linkage_ok=True exact
+   H_box [1, 3, 6, 10, 15, 18, 19, 18, 15, 10, 6, 3, 1]
+   H_P   [1, 3, 6, 10, 15, 18, 10]
+parity: b=3 j=3 |P|=171 |Q|=172 s=18 rho(P)=9 rho(Q)=9 alpha=s-rho(Q)=9 linkage_ok=True exact
+   H_box [1, 3, 6, 10, 15, 21, 28, 33, 36, 37, 36, 33, 28, 21, 15, 10, 6, 3, 1]
+   H_P   [1, 3, 6, 10, 15, 21, 28, 33, 36, 18]
+parity: b=3 j=4 |P|=365 |Q|=364 s=24 rho(P)=12 rho(Q)=12 alpha=s-rho(Q)=12 linkage_ok=True exact
+   H_box [1, 3, 6, 10, 15, 21, 28, 36, 45, 52, 57, 60, 61, 60, 57, 52, 45, 36, 28, 21, 15, 10, 6, 3, 1]
+   H_P   [1, 3, 6, 10, 15, 21, 28, 36, 45, 52, 57, 60, 31]
+parity: b=4 j=1 |P|=41 |Q|=40 s=8 rho(P)=4 rho(Q)=4 alpha=s-rho(Q)=4 linkage_ok=True exact
+   H_box [1, 4, 10, 16, 19, 16, 10, 4, 1]
+   H_P   [1, 4, 10, 16, 10]
+parity: b=4 j=2 |P|=313 |Q|=312 s=16 rho(P)=8 rho(Q)=8 alpha=s-rho(Q)=8 linkage_ok=True exact
+   H_box [1, 4, 10, 20, 35, 52, 68, 80, 85, 80, 68, 52, 35, 20, 10, 4, 1]
+   H_P   [1, 4, 10, 20, 35, 52, 68, 80, 43]
+parity: b=4 j=3 |P|=1201 |Q|=1200 s=24 rho(P)=12 rho(Q)=12 alpha=s-rho(Q)=12 linkage_ok=True modp
+   H_box [1, 4, 10, 20, 35, 56, 84, 116, 149, 180, 206, 224, 231, 224, 206, 180, 149, 116, 84, 56, 35, 20, 10, 4, 1]
+   H_P   [1, 4, 10, 20, 35, 56, 84, 116, 149, 180, 206, 224, 116]
+parity: b=4 j=4 |P|=3281 |Q|=3280 s=32 rho(P)=16 rho(Q)=16 alpha=s-rho(Q)=16 linkage_ok=True modp
+   H_box [1, 4, 10, 20, 35, 56, 84, 120, 165, 216, 270, 324, 375, 420, 456, 480, 489, 480, 456, 420, 375, 324, 270, 216, 165, 120, 84, 56, 35, 20, 10, 4, 1]
+   H_P   [1, 4, 10, 20, 35, 56, 84, 120, 165, 216, 270, 324, 375, 420, 456, 480, 245]
+parity: b=5 j=1 |P|=121 |Q|=122 s=10 rho(P)=5 rho(Q)=5 alpha=s-rho(Q)=5 linkage_ok=True exact
+   H_box [1, 5, 15, 30, 45, 51, 45, 30, 15, 5, 1]
+   H_P   [1, 5, 15, 30, 45, 25]
+parity: b=5 j=2 |P|=1563 |Q|=1562 s=20 rho(P)=10 rho(Q)=10 alpha=s-rho(Q)=10 linkage_ok=True modp
+   H_box [1, 5, 15, 35, 70, 121, 185, 255, 320, 365, 381, 365, 320, 255, 185, 121, 70, 35, 15, 5, 1]
+   H_P   [1, 5, 15, 35, 70, 121, 185, 255, 320, 365, 191]
+parity: b=5 j=3 |P|=8403 |Q|=8404 s=30 rho(P)=15 rho(Q)=15 alpha=s-rho(Q)=15 linkage_ok=True modp
+   H_box [1, 5, 15, 35, 70, 126, 210, 325, 470, 640, 826, 1015, 1190, 1330, 1420, 1451, 1420, 1330, 1190, 1015, 826, 640, 470, 325, 210, 126, 70, 35, 15, 5, 1]
+   H_P   [1, 5, 15, 35, 70, 126, 210, 325, 470, 640, 826, 1015, 1190, 1330, 1420, 725]
+Y_3: b=7 j=1 |P|=57 |Q|=2130 s=14 rho(P)=3 rho(Q)=11 alpha=s-rho(Q)=3 linkage_ok=True modp
+   H_box [1, 7, 28, 77, 161, 266, 357, 393, 357, 266, 161, 77, 28, 7, 1]
+   H_P   [1, 7, 28, 21]

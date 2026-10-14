@@ -1,0 +1,1 @@
+# notes for fatpoint.md

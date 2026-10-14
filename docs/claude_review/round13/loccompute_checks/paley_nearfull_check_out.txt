@@ -1,0 +1,4 @@
+(0, 1, 4, 6, 9) 3113 dim_P62 J(P)_{<=7} = 105  grid ideal dim = 105 True
+(0, 1, 4, 7, 9) 3113 dim_P62 J(P)_{<=7} = 105  grid ideal dim = 105 True
+(0, 2, 4, 6, 8) 3113 dim_P62 J(P)_{<=7} = 105  grid ideal dim = 105 True
+ALL OK: True

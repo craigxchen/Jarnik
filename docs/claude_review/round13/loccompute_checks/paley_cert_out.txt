@@ -1,0 +1,6 @@
+width gens (orbit reps, exact): [(5, 2), (7, 17)]
+(1) J_w(R=1) = L_cols(4): #rows 149, EXACT dim_Q P_0(L_7) = 72  (invariant coords: 822) [10s]
+(2) invariant polys deg<=7: 1589 unknowns, kernel dim mod p62 = 151 [97s]
+(3) exact vanishing invariant polys found: 1; rank_p(rows + their top forms) = 73 > r0 = 72: True
+    first certificate polynomial: max |coef| = 48  nonzero top coeffs: 384
+VERDICT: J(A)_7 not contained in L_7 over Q (rigorous) [102s]

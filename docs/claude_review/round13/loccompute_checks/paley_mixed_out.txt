@@ -1,0 +1,6 @@
+  b=2: family orbits by (#columns, image is full product) -> {(2, np.True_): 5, (1, np.True_): 11, (0, np.True_): 5} [13s]
+== mixed (columns u coordinates) <= 2: [0, 0, 0, 0, 0, 12, 132, 792, 3300] J(A)=[0, 0, 0, 0, 0, 12, 132, 1517, 10010] cum_eq=[True, True, True, True, True, True, True, False, False] [24s]
+  b=3: family orbits by (#columns, image is full product) -> {(3, np.True_): 15, (2, np.True_): 55, (1, np.True_): 55, (0, np.True_): 15} [25s]
+== mixed (columns u coordinates) <= 3: [0, 0, 0, 0, 0, 12, 132, 792, 3300] J(A)=[0, 0, 0, 0, 0, 12, 132, 1517, 10010] cum_eq=[True, True, True, True, True, True, True, False, False] [36s]
+  b=4: family orbits by (#columns, image is full product) -> {(4, np.True_): 30, (3, np.False_): 155, (3, np.True_): 10, (2, np.True_): 150, (2, np.False_): 125, (1, np.True_): 135, (1, np.False_): 30, (0, np.True_): 30} [644s]
+== mixed (columns u coordinates) <= 4: [0, 0, 0, 0, 0, 12, 132, 792, 5335] J(A)=[0, 0, 0, 0, 0, 12, 132, 1517, 10010] cum_eq=[True, True, True, True, True, True, True, False, False] [658s]

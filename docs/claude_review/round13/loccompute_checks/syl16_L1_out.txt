@@ -1,0 +1,4 @@
+Syl(16,1) |A| 241 H [1, 15, 120, 105, 0] J(A) [0, 0, 0, 560, 2835]
+  mixed (cols+coords) b<=1 [2 non-grid orbit reps]: [0, 0, 0, 15, 225] cum_eq=[True, True, True, False, False] [6s]
+  mixed (cols+coords) b<=2 [22 non-grid orbit reps]: [0, 0, 0, 330, 2775] cum_eq=[True, True, True, False, False] [7s]
+  mixed (cols+coords) b<=3 [244 non-grid orbit reps]: [0, 0, 0, 560, 2835] cum_eq=[True, True, True, True, True] [10s]

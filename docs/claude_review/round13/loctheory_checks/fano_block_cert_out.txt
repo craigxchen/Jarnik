@@ -1,0 +1,12 @@
+   exact h_P(0) = 1
+   exact h_P(1) = 8
+   exact h_P(2) = 36
+   exact h_P(3) = 120
+   exact h_P(4) = 330
+   exact h_P(5) = 785
+   exact h_P(6) = 1597
+   exact h_P(7) = 2353
+exact H_P up to 7: [1, 7, 28, 84, 210, 455, 812, 756]
+degree 5: reduced monomials 455, dim_Q J(P)_i/grid = 0, dim_Q L_i/grid = 0, deficit = 0
+degree 6: reduced monomials 875, dim_Q J(P)_i/grid = 63, dim_Q L_i/grid = 63, deficit = 0
+degree 7: reduced monomials 1520, dim_Q J(P)_i/grid = 764, dim_Q L_i/grid = 386, deficit = 378

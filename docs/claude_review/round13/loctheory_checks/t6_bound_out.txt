@@ -1,0 +1,2 @@
+first j with relaxed inequality: 91  holds at j0, j0+1, 10^4: True True True
+exact (unrelaxed) check at j0..j0+5: [True, True, True, True, True, True]

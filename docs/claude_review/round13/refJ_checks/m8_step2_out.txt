@@ -1,0 +1,11 @@
+{3: 7, 7: 302, 5: 49}
+deg 0: rows 0 dim_Q (J_w)_i = 0  dim J(A)_i = 0  [0.0s]
+deg 1: rows 0 dim_Q (J_w)_i = 0  dim J(A)_i = 0  [0.0s]
+deg 2: rows 0 dim_Q (J_w)_i = 0  dim J(A)_i = 0  [0.0s]
+deg 3: rows 7 dim_Q (J_w)_i = 7  dim J(A)_i = 7  [0.0s]
+deg 4: rows 49 dim_Q (J_w)_i = 49  dim J(A)_i = 49  [0.0s]
+deg 5: rows 245 dim_Q (J_w)_i = 203  dim J(A)_i = 203  [0.0s]
+deg 6: rows 931 dim_Q (J_w)_i = 616  dim J(A)_i = 637  [0.1s]
+deg 7: rows 3144 dim_Q (J_w)_i = 1485  dim J(A)_i = 1541  [0.8s]
+deg 8: rows 9464 dim_Q (J_w)_i = 2940  dim J(A)_i = 2961  [17.4s]
+J_w dims exact: [0, 0, 0, 7, 49, 203, 616, 1485, 2940]

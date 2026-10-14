@@ -1,0 +1,10 @@
+all k' with |k'|_1 <= 2 in A: True
+p1 (0, 0, 1, 0, 0, 0, 1) (tau,h) = (4, 4)
+p2 (1, 0, 0, 0, 1, 0, 0) (tau,h) = (4, 4)
+p3 (0, 1, 0, 0, 0, 1, 0) (tau,h) = (4, 4)
+p1+p2 (1, 0, 1, 0, 1, 0, 1) (tau,h) = (4, 4)
+p1+p3 (0, 1, 1, 0, 0, 1, 1) (tau,h) = (4, 4)
+p2+p3 (1, 1, 0, 0, 1, 1, 0) (tau,h) = (4, 4)
+z=p1+p2+p3 (1, 1, 1, 0, 1, 1, 1) (tau,h) = (6, 6)
+dim of ternary octics with the multiplicities at the 7 points P_i, Q_ij, Z: 0
+dim with all integer points (coefficients in [-2,2]) of U_l with tau < 8: 0

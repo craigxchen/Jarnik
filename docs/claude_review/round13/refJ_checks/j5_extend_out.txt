@@ -1,0 +1,34 @@
+k=12 n=4096 j=281 m'=2256 R1(exact)=True regime=True Q4=16.05882 Q5=32.24409 o1=1694 o1*Q5-d=50526.496
+   uniform-Q0 fails for every Q0>0 at every abar >= max(2ln15=5.4161, 2ln31/Q4=0.4277, g*(Q5)=0.356689) ; caseB direct=True side=True ; near-extremal level 5.47799
+   per-subspace span (s,c)=(1,0) cells=4 o=1413 oQ-d=1561.144: fails for abar >= 5.262401 (W/W_min = 0.9606); direct=True mixing/eta_ok=True
+   per-subspace span (s,c)=(2,0) cells=16 o=570 oQ-d=5058.529: fails for abar >= 6.4161 (W/W_min = 1.171); direct=True mixing/eta_ok=True
+   per-subspace span (s,c)=(1,1) cells=8 o=851 oQ-d=2724.658: fails for abar >= 4.89182 (W/W_min = 0.893); direct=True mixing/eta_ok=True
+   per-subspace span (s,c)=(1,2) cells=16 o=289 oQ-d=546.0: fails for abar >= 12.1917 (W/W_min = 2.226); direct=True mixing/eta_ok=True
+   per-subspace span (s,c)=(0,2) cells=4 o=1132 oQ-d=436.3196: fails for abar >= 17.93471 (W/W_min = 3.274); direct=True mixing/eta_ok=True
+   per-subspace span (s,c)=(0,3) cells=8 o=570 oQ-d=472.8082: fails for abar >= 14.90284 (W/W_min = 2.72); direct=True mixing/eta_ok=True
+k=13 n=8192 j=412 m'=3302 R1(exact)=True regime=True Q4=16.02935 Q5=32.12157 o1=2478 o1*Q5-d=71406.247
+   uniform-Q0 fails for every Q0>0 at every abar >= max(2ln15=5.4161, 2ln31/Q4=0.4285, g*(Q5)=0.368999) ; caseB direct=True side=True ; near-extremal level 6.51717
+   per-subspace span (s,c)=(1,0) cells=4 o=2066 oQ-d=76.02785: fails for abar >= 158.0917 (W/W_min = 24.26); direct=True mixing/eta_ok=True
+   per-subspace span (s,c)=(2,0) cells=16 o=830 oQ-d=5113.364: fails for abar >= 6.4161 (W/W_min = 0.9845); direct=True mixing/eta_ok=True
+   per-subspace span (s,c)=(1,1) cells=8 o=1242 oQ-d=1753.499: fails for abar >= 6.203299 (W/W_min = 0.9518); direct=True mixing/eta_ok=True
+k=14 n=16384 j=602 m'=4823 R1(exact)=True regime=True Q4=16.01466 Q5=32.06067 o1=3619 o1*Q5-d=99644.548
+   uniform-Q0 fails for every Q0>0 at every abar >= max(2ln15=5.4161, 2ln31/Q4=0.4289, g*(Q5)=0.386061) ; caseB direct=True side=True ; near-extremal level 7.55655
+   per-subspace span (s,c)=(2,0) cells=16 o=1211 oQ-d=3010.757: fails for abar >= 6.4161 (W/W_min = 0.8491); direct=True mixing/eta_ok=True
+k=15 n=32768 j=878 m'=7031 R1(exact)=True regime=True Q4=16.00733 Q5=32.03030 o1=5275 o1*Q5-d=136192.85
+   uniform-Q0 fails for every Q0>0 at every abar >= max(2ln15=5.4161, 2ln31/Q4=0.4291, g*(Q5)=0.411658) ; caseB direct=True side=True ; near-extremal level 8.59607
+k=16 n=65536 j=1278 m'=10231 R1(exact)=True regime=True Q4=16.00366 Q5=32.01514 o1=7675 o1*Q5-d=180181.23
+   uniform-Q0 fails for every Q0>0 at every abar >= max(2ln15=5.4161, 2ln31/Q4=0.4292, g*(Q5)=0.452706) ; caseB direct=True side=True ; near-extremal level 9.63568
+k=17 n=131072 j=1858 m'=14865 R1(exact)=True regime=True Q4=16.00183 Q5=32.00757 o1=11149 o1*Q5-d=225781.4
+   uniform-Q0 fails for every Q0>0 at every abar >= max(2ln15=5.4161, 2ln31/Q4=0.4292, g*(Q5)=0.52482) ; caseB direct=True side=True ; near-extremal level 10.6753
+k=18 n=262144 j=2695 m'=21568 R1(exact)=True regime=True Q4=16.00092 Q5=32.00378 o1=16178 o1*Q5-d=255614.23
+   uniform-Q0 fails for every Q0>0 at every abar >= max(2ln15=5.4161, 2ln31/Q4=0.4292, g*(Q5)=0.672637) ; caseB direct=True side=True ; near-extremal level 11.715
+k=19 n=524288 j=3906 m'=31255 R1(exact)=True regime=True Q4=16.00046 Q5=32.00189 o1=23443 o1*Q5-d=225933.36
+   uniform-Q0 fails for every Q0>0 at every abar >= max(2ln15=5.4161, 2ln31/Q4=0.4292, g*(Q5)=1.10275) ; caseB direct=True side=True ; near-extremal level 12.7547
+k=20 n=1048576 j=5655 m'=45241 R1(exact)=True regime=True Q4=16.00023 Q5=32.00095 o1=33931 o1*Q5-d=37249.101
+   uniform-Q0 fails for every Q0>0 at every abar >= max(2ln15=5.4161, 2ln31/Q4=0.4292, g*(Q5)=9.68137) ; caseB direct=True side=True ; near-extremal level 13.7944
+k=21 n=2097152 j=8177 m'=65418 R1(lgamma)=True regime=True Q4=16.00011 Q5=32.00047 o1=49064 o1*Q5-d=-527079.79
+   uniform-Q0 fails for every Q0>0 at every abar >= max(2ln15=5.4161, 2ln31/Q4=0.4292, g*(Q5)=+inf) ; caseB direct=None side=None ; near-extremal level 14.8341
+k=22 n=4194304 j=11813 m'=94505 R1(lgamma)=True regime=True Q4=16.00006 Q5=32.00024 o1=70879 o1*Q5-d=-1926158.2
+   uniform-Q0 fails for every Q0>0 at every abar >= max(2ln15=5.4161, 2ln31/Q4=0.4292, g*(Q5)=+inf) ; caseB direct=None side=None ; near-extremal level 15.8739
+k=23 n=8388608 j=17050 m'=136406 R1(lgamma)=True regime=True Q4=16.00003 Q5=32.00012 o1=102306 o1*Q5-d=-5114802.9
+   uniform-Q0 fails for every Q0>0 at every abar >= max(2ln15=5.4161, 2ln31/Q4=0.4292, g*(Q5)=+inf) ; caseB direct=None side=None ; near-extremal level 16.9136

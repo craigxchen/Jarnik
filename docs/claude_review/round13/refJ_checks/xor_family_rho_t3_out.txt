@@ -1,0 +1,2 @@
+t=3 j=1: |Y|=57 rho_p=3 (rho_p <= rho_Q only if ranks agree; evidence)  ratio rho/j=3.000
+t=3 j=2: |Y|=2605 rho_p=8 (rho_p <= rho_Q only if ranks agree; evidence)  ratio rho/j=4.000

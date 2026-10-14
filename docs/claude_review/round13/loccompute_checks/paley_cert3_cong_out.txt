@@ -1,0 +1,7 @@
+width gens (orbit reps, exact): [(5, 2), (7, 17)]
+  with congruence families: 65 gens
+(1) J_w + all 5-col families (only the congruence ones are not full boxes): #rows 2470, EXACT dim_Q P_0(L_7) = 82  (invariant coords: 822) [102s]
+(2) rank_p E = 1438; free cols 151; selected 55 free top columns giving new tops mod p [312s]
+    dixon solve done [322s]
+(3) exact (verified on all of A) vanishing invariant polys with independent new tops: 55; rank_p = 137 > r0 = 82: True
+VERDICT: J(A)_7 not contained in L_7 over Q (rigorous); exact lower bound dim_Q P_0(J(A)_7) >= 137 [495s]

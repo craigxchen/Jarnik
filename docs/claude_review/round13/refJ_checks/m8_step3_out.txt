@@ -1,0 +1,12 @@
+pair (1, 2) |Y| 25 rho(Y) None Y-generator degrees {5: 2}
+pairs done 0.25179147720336914
+triples done 7.130751609802246
+triple info (|Y|, rho(Y), Y-gen degree counts, Fano line):
+    (57, 6, ((5, 6), (6, 3)), True) x 7
+    (125, None, ((5, 3),), False) x 28
+J_w + 21 column pairs: dims (exact Q for i<=6, mod p for 7,8) = [0, 0, 0, 7, 49, 203, 616, 1485, 2940]
+Fano-line triples: [(1, 2, 3), (1, 4, 5), (1, 6, 7), (2, 4, 6), (2, 5, 7), (3, 4, 7), (3, 5, 6)]
+J_w + all 35 triples: dims (exact Q i<=6, mod p 7,8) = [0, 0, 0, 7, 49, 203, 637, 1541, 2961]  J(A) = [0, 0, 0, 7, 49, 203, 637, 1541, 2961]
+J_w + 7 Fano-line triples: dims (exact Q i<=6, mod p 7,8) = [0, 0, 0, 7, 49, 203, 637, 1541, 2961]  J(A) = [0, 0, 0, 7, 49, 203, 637, 1541, 2961]
+J_w + 28 non-line triples: dims (exact Q i<=6, mod p 7,8) = [0, 0, 0, 7, 49, 203, 616, 1485, 2940]  J(A) = [0, 0, 0, 7, 49, 203, 637, 1541, 2961]
+time 218.8317334651947

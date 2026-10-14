@@ -1,0 +1,6 @@
+t=2 b=3 log2 I_t=1 kappa_t=1.5  asymptotic rho_t/j >= 3.0   finite j=50,100,1000: [2.96, 2.98, 2.998]
+t=3 b=7 log2 I_t=5 kappa_t=2.0821564  asymptotic rho_t/j >= 4.1643128   finite j=50,100,1000: [4.1, 4.13, 4.161]
+t=4 b=15 log2 I_t=17 kappa_t=2.9339207  asymptotic rho_t/j >= 5.8678413   finite j=50,100,1000: [5.48, 5.79, 5.86]
+t=5 b=31 log2 I_t=49 kappa_t=4.1523734  asymptotic rho_t/j >= 8.3047467   finite j=50,100,1000: [7.66, 7.82, 8.289]
+t=6 b=63 log2 I_t=129 kappa_t=5.8786704  asymptotic rho_t/j >= 11.757341   finite j=50,100,1000: [10.66, 10.97, 11.632]
+t=7 b=127 log2 I_t=321 kappa_t=8.3188934  asymptotic rho_t/j >= 16.637787   finite j=50,100,1000: 

@@ -1,0 +1,953 @@
+three regions=(0, 0, 0, 0, 1, 1, 1) L=(1, 1, 1) {"|A|": 15, "rho": 4, "H": [1, 3, 6, 4, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 1) L=(1, 1, 2) {"|A|": 17, "rho": 4, "H": [1, 3, 6, 5, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 2) L=(1, 1, 1) {"|A|": 39, "rho": 5, "H": [1, 4, 10, 13, 9, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 2) L=(1, 1, 2) {"|A|": 45, "rho": 6, "H": [1, 4, 10, 14, 11, 4, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 2) L=(1, 2, 1) {"|A|": 45, "rho": 5, "H": [1, 4, 10, 14, 12, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 2) L=(1, 2, 2) {"|A|": 55, "rho": 6, "H": [1, 4, 10, 15, 15, 8, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 2) L=(2, 1, 1) {"|A|": 45, "rho": 5, "H": [1, 4, 10, 14, 12, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 2) L=(2, 1, 2) {"|A|": 55, "rho": 6, "H": [1, 4, 10, 15, 15, 8, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 2) L=(2, 2, 1) {"|A|": 51, "rho": 5, "H": [1, 4, 10, 15, 15, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 2) L=(2, 2, 2) {"|A|": 67, "rho": 6, "H": [1, 4, 10, 16, 19, 13, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 3) L=(1, 1, 1) {"|A|": 103, "rho": 6, "H": [1, 5, 15, 27, 32, 19, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 3) L=(1, 1, 2) {"|A|": 117, "rho": 7, "H": [1, 5, 15, 28, 35, 24, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 3) L=(1, 2, 1) {"|A|": 121, "rho": 6, "H": [1, 5, 15, 28, 36, 27, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 3) L=(1, 2, 2) {"|A|": 147, "rho": 7, "H": [1, 5, 15, 29, 40, 35, 18, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 3) L=(2, 1, 1) {"|A|": 121, "rho": 6, "H": [1, 5, 15, 28, 36, 27, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 3) L=(2, 1, 2) {"|A|": 147, "rho": 7, "H": [1, 5, 15, 29, 40, 35, 18, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 3) L=(2, 2, 1) {"|A|": 141, "rho": 6, "H": [1, 5, 15, 29, 40, 36, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 3) L=(2, 2, 2) {"|A|": 185, "rho": 7, "H": [1, 5, 15, 30, 45, 48, 32, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 4) L=(1, 1, 1) {"|A|": 281, "rho": 7, "H": [1, 6, 21, 47, 74, 78, 45, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 4) L=(1, 1, 2) {"|A|": 319, "rho": 8, "H": [1, 6, 21, 48, 78, 87, 57, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 4) L=(1, 2, 1) {"|A|": 333, "rho": 7, "H": [1, 6, 21, 48, 79, 91, 66, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 4) L=(1, 2, 2) {"|A|": 403, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 87, 42, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 4) L=(2, 1, 1) {"|A|": 333, "rho": 7, "H": [1, 6, 21, 48, 79, 91, 66, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 4) L=(2, 1, 2) {"|A|": 403, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 87, 42, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 4) L=(2, 2, 1) {"|A|": 393, "rho": 7, "H": [1, 6, 21, 49, 84, 105, 91, 36], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 1, 4) L=(2, 2, 2) {"|A|": 515, "rho": 8, "H": [1, 6, 21, 50, 90, 123, 125, 78, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 1) L=(1, 1, 1) {"|A|": 39, "rho": 5, "H": [1, 4, 10, 13, 9, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 1) L=(1, 1, 2) {"|A|": 45, "rho": 5, "H": [1, 4, 10, 14, 12, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 1) L=(1, 2, 1) {"|A|": 45, "rho": 5, "H": [1, 4, 10, 14, 12, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 1) L=(1, 2, 2) {"|A|": 57, "rho": 6, "H": [1, 4, 10, 15, 16, 9, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 2) L=(1, 1, 1) {"|A|": 101, "rho": 6, "H": [1, 5, 15, 27, 31, 18, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 2) L=(1, 1, 2) {"|A|": 117, "rho": 7, "H": [1, 5, 15, 28, 35, 24, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 2) L=(1, 2, 1) {"|A|": 121, "rho": 6, "H": [1, 5, 15, 28, 35, 27, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 2) L=(1, 2, 2) {"|A|": 151, "rho": 7, "H": [1, 5, 15, 29, 40, 37, 20, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 2) L=(2, 1, 1) {"|A|": 119, "rho": 6, "H": [1, 5, 15, 28, 36, 26, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 2) L=(2, 1, 2) {"|A|": 147, "rho": 7, "H": [1, 5, 15, 29, 40, 35, 18, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 2) L=(2, 2, 1) {"|A|": 139, "rho": 6, "H": [1, 5, 15, 29, 40, 35, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 2) L=(2, 2, 2) {"|A|": 187, "rho": 7, "H": [1, 5, 15, 30, 45, 48, 33, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 3) L=(1, 1, 1) {"|A|": 269, "rho": 7, "H": [1, 6, 21, 47, 73, 73, 40, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 3) L=(1, 1, 2) {"|A|": 309, "rho": 8, "H": [1, 6, 21, 48, 78, 84, 54, 16, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 3) L=(1, 2, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 78, 87, 63, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 3) L=(1, 2, 2) {"|A|": 403, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 88, 43, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 3) L=(2, 1, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 79, 90, 62, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 3) L=(2, 1, 2) {"|A|": 401, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 85, 41, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 3) L=(2, 2, 1) {"|A|": 385, "rho": 7, "H": [1, 6, 21, 49, 84, 104, 87, 33], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 2, 3) L=(2, 2, 2) {"|A|": 517, "rho": 8, "H": [1, 6, 21, 50, 90, 123, 124, 79, 23], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 3, 1) L=(1, 1, 1) {"|A|": 103, "rho": 6, "H": [1, 5, 15, 27, 32, 19, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 3, 1) L=(1, 1, 2) {"|A|": 121, "rho": 6, "H": [1, 5, 15, 28, 36, 27, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 3, 1) L=(1, 2, 1) {"|A|": 121, "rho": 6, "H": [1, 5, 15, 28, 36, 27, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 3, 1) L=(1, 2, 2) {"|A|": 159, "rho": 7, "H": [1, 5, 15, 29, 41, 40, 23, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 3, 2) L=(1, 1, 1) {"|A|": 269, "rho": 7, "H": [1, 6, 21, 47, 73, 73, 40, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 3, 2) L=(1, 1, 2) {"|A|": 319, "rho": 8, "H": [1, 6, 21, 48, 78, 87, 57, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 3, 2) L=(1, 2, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 78, 87, 63, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 3, 2) L=(1, 2, 2) {"|A|": 421, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 95, 49, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 3, 2) L=(2, 1, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 79, 90, 62, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 3, 2) L=(2, 1, 2) {"|A|": 403, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 87, 42, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 3, 2) L=(2, 2, 1) {"|A|": 385, "rho": 7, "H": [1, 6, 21, 49, 84, 104, 87, 33], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 3, 2) L=(2, 2, 2) {"|A|": 523, "rho": 8, "H": [1, 6, 21, 50, 90, 123, 126, 82, 24], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 4, 1) L=(1, 1, 1) {"|A|": 281, "rho": 7, "H": [1, 6, 21, 47, 74, 78, 45, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 4, 1) L=(1, 1, 2) {"|A|": 333, "rho": 7, "H": [1, 6, 21, 48, 79, 91, 66, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 4, 1) L=(1, 2, 1) {"|A|": 333, "rho": 7, "H": [1, 6, 21, 48, 79, 91, 66, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 1, 4, 1) L=(1, 2, 2) {"|A|": 445, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 104, 57, 12], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 0) L=(1, 1, 1) {"|A|": 41, "rho": 5, "H": [1, 4, 10, 13, 10, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 0) L=(1, 1, 2) {"|A|": 49, "rho": 6, "H": [1, 4, 10, 14, 13, 6, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 1) L=(1, 1, 1) {"|A|": 103, "rho": 6, "H": [1, 5, 15, 27, 30, 19, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 1) L=(1, 1, 2) {"|A|": 119, "rho": 6, "H": [1, 5, 15, 28, 35, 26, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 1) L=(1, 2, 1) {"|A|": 119, "rho": 6, "H": [1, 5, 15, 28, 35, 26, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 1) L=(1, 2, 2) {"|A|": 153, "rho": 7, "H": [1, 5, 15, 29, 40, 37, 21, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 1) L=(2, 1, 1) {"|A|": 119, "rho": 6, "H": [1, 5, 15, 28, 35, 26, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 1) L=(2, 1, 2) {"|A|": 153, "rho": 7, "H": [1, 5, 15, 29, 40, 37, 21, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 1) L=(2, 2, 1) {"|A|": 137, "rho": 6, "H": [1, 5, 15, 29, 40, 34, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 1) L=(2, 2, 2) {"|A|": 189, "rho": 7, "H": [1, 5, 15, 30, 45, 48, 34, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 2) L=(1, 1, 1) {"|A|": 263, "rho": 7, "H": [1, 6, 21, 47, 72, 69, 38, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 2) L=(1, 1, 2) {"|A|": 305, "rho": 8, "H": [1, 6, 21, 48, 78, 83, 52, 15, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 2) L=(1, 2, 1) {"|A|": 317, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 59, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 2) L=(1, 2, 2) {"|A|": 401, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 87, 42, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 2) L=(2, 1, 1) {"|A|": 317, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 59, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 2) L=(2, 1, 2) {"|A|": 401, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 87, 42, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 2) L=(2, 2, 1) {"|A|": 377, "rho": 7, "H": [1, 6, 21, 49, 84, 103, 83, 30], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 2, 2) L=(2, 2, 2) {"|A|": 521, "rho": 8, "H": [1, 6, 21, 50, 90, 123, 123, 81, 26], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 3, 0) L=(1, 1, 1) {"|A|": 109, "rho": 6, "H": [1, 5, 15, 27, 32, 22, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 3, 0) L=(1, 1, 2) {"|A|": 133, "rho": 7, "H": [1, 5, 15, 28, 36, 30, 15, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 3, 0) L=(1, 2, 1) {"|A|": 121, "rho": 6, "H": [1, 5, 15, 28, 36, 27, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 3, 0) L=(1, 2, 2) {"|A|": 163, "rho": 7, "H": [1, 5, 15, 29, 41, 40, 25, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 3, 1) L=(1, 1, 1) {"|A|": 271, "rho": 7, "H": [1, 6, 21, 47, 72, 71, 42, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 3, 1) L=(1, 1, 2) {"|A|": 319, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 60, 19], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 3, 1) L=(1, 2, 1) {"|A|": 319, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 60, 19], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 3, 1) L=(1, 2, 2) {"|A|": 427, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 94, 52, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 3, 1) L=(2, 1, 1) {"|A|": 319, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 60, 19], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 3, 1) L=(2, 1, 2) {"|A|": 409, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 89, 46, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 3, 1) L=(2, 2, 1) {"|A|": 377, "rho": 7, "H": [1, 6, 21, 49, 84, 103, 83, 30], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 3, 1) L=(2, 2, 2) {"|A|": 527, "rho": 8, "H": [1, 6, 21, 50, 90, 123, 125, 84, 27], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 4, 0) L=(1, 1, 1) {"|A|": 293, "rho": 7, "H": [1, 6, 21, 47, 74, 78, 51, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 4, 0) L=(1, 1, 2) {"|A|": 357, "rho": 8, "H": [1, 6, 21, 48, 79, 91, 72, 33, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 4, 0) L=(1, 2, 1) {"|A|": 333, "rho": 7, "H": [1, 6, 21, 48, 79, 91, 66, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 2, 4, 0) L=(1, 2, 2) {"|A|": 457, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 104, 63, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 3, 3, 0) L=(1, 1, 1) {"|A|": 289, "rho": 7, "H": [1, 6, 21, 47, 73, 76, 50, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 3, 3, 0) L=(1, 1, 2) {"|A|": 361, "rho": 8, "H": [1, 6, 21, 48, 78, 90, 72, 36, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 3, 3, 0) L=(1, 2, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 78, 87, 63, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 3, 3, 0) L=(1, 2, 2) {"|A|": 439, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 97, 58, 17], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 3, 3, 0) L=(2, 1, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 78, 87, 63, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 3, 3, 0) L=(2, 1, 2) {"|A|": 439, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 97, 58, 17], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 3, 3, 0) L=(2, 2, 1) {"|A|": 379, "rho": 7, "H": [1, 6, 21, 49, 84, 103, 84, 31], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 0, 3, 3, 0) L=(2, 2, 2) {"|A|": 535, "rho": 8, "H": [1, 6, 21, 50, 90, 123, 127, 88, 29], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 0) L=(1, 1, 1) {"|A|": 13, "rho": 3, "H": [1, 3, 6, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 1) L=(1, 1, 1) {"|A|": 35, "rho": 4, "H": [1, 4, 10, 13, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 1) L=(1, 1, 2) {"|A|": 43, "rho": 5, "H": [1, 4, 10, 14, 11, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 1) L=(1, 2, 1) {"|A|": 43, "rho": 5, "H": [1, 4, 10, 14, 11, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 1) L=(1, 2, 2) {"|A|": 53, "rho": 6, "H": [1, 4, 10, 15, 15, 7, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 1) L=(2, 1, 1) {"|A|": 43, "rho": 5, "H": [1, 4, 10, 14, 11, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 1) L=(2, 1, 2) {"|A|": 53, "rho": 6, "H": [1, 4, 10, 15, 15, 7, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 1) L=(2, 2, 1) {"|A|": 53, "rho": 6, "H": [1, 4, 10, 15, 15, 7, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 1) L=(2, 2, 2) {"|A|": 67, "rho": 6, "H": [1, 4, 10, 16, 19, 13, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 2) L=(1, 1, 1) {"|A|": 91, "rho": 5, "H": [1, 5, 15, 27, 30, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 2) L=(1, 1, 2) {"|A|": 113, "rho": 6, "H": [1, 5, 15, 28, 35, 23, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 2) L=(1, 2, 1) {"|A|": 113, "rho": 6, "H": [1, 5, 15, 28, 35, 23, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 2) L=(1, 2, 2) {"|A|": 141, "rho": 7, "H": [1, 5, 15, 29, 40, 34, 15, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 2) L=(2, 1, 1) {"|A|": 113, "rho": 6, "H": [1, 5, 15, 28, 35, 23, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 2) L=(2, 1, 2) {"|A|": 141, "rho": 7, "H": [1, 5, 15, 29, 40, 34, 15, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 2) L=(2, 2, 1) {"|A|": 141, "rho": 7, "H": [1, 5, 15, 29, 40, 34, 15, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 2) L=(2, 2, 2) {"|A|": 183, "rho": 8, "H": [1, 5, 15, 30, 45, 48, 30, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 3) L=(1, 1, 1) {"|A|": 249, "rho": 6, "H": [1, 6, 21, 47, 72, 71, 31], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 0, 1, 1, 1, 3) L=(1, 1, 2) {"|A|": 307, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 54, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 3) L=(1, 2, 1) {"|A|": 307, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 54, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 3) L=(1, 2, 2) {"|A|": 385, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 83, 34, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 3) L=(2, 1, 1) {"|A|": 307, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 54, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 3) L=(2, 1, 2) {"|A|": 385, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 83, 34, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 3) L=(2, 2, 1) {"|A|": 385, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 83, 34, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 1, 3) L=(2, 2, 2) {"|A|": 503, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 123, 71, 17, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 2, 0) L=(1, 1, 1) {"|A|": 33, "rho": 5, "H": [1, 4, 10, 11, 6, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 2, 0) L=(1, 1, 2) {"|A|": 43, "rho": 5, "H": [1, 4, 10, 14, 11, 3], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 1, 2, 0) L=(1, 2, 1) {"|A|": 43, "rho": 5, "H": [1, 4, 10, 14, 11, 3], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 1, 2, 0) L=(1, 2, 2) {"|A|": 55, "rho": 6, "H": [1, 4, 10, 15, 16, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 2, 1) L=(1, 1, 1) {"|A|": 87, "rho": 6, "H": [1, 5, 15, 27, 27, 11, 1], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": 4, "b0": null}
+three regions=(0, 0, 0, 1, 1, 2, 1) L=(1, 1, 2) {"|A|": 111, "rho": 6, "H": [1, 5, 15, 28, 35, 22, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 2, 1) L=(1, 2, 1) {"|A|": 111, "rho": 6, "H": [1, 5, 15, 28, 35, 22, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 2, 1) L=(1, 2, 2) {"|A|": 145, "rho": 7, "H": [1, 5, 15, 29, 40, 37, 17, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 2, 1) L=(2, 1, 1) {"|A|": 111, "rho": 6, "H": [1, 5, 15, 28, 35, 22, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 2, 1) L=(2, 1, 2) {"|A|": 141, "rho": 7, "H": [1, 5, 15, 29, 40, 34, 15, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 2, 1) L=(2, 2, 1) {"|A|": 141, "rho": 7, "H": [1, 5, 15, 29, 40, 34, 15, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 2, 1) L=(2, 2, 2) {"|A|": 185, "rho": 7, "H": [1, 5, 15, 30, 45, 48, 32, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 2, 2) L=(1, 1, 1) {"|A|": 231, "rho": 7, "H": [1, 6, 21, 47, 72, 60, 22, 2], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 0, 1, 1, 2, 2) L=(1, 1, 2) {"|A|": 295, "rho": 7, "H": [1, 6, 21, 48, 78, 83, 48, 10], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 0, 1, 1, 2, 2) L=(1, 2, 1) {"|A|": 295, "rho": 7, "H": [1, 6, 21, 48, 78, 83, 48, 10], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 0, 1, 1, 2, 2) L=(1, 2, 2) {"|A|": 385, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 85, 34, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 2, 2) L=(2, 1, 1) {"|A|": 301, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 50, 10, 1], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 0, 1, 1, 2, 2) L=(2, 1, 2) {"|A|": 381, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 81, 32, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 2, 2) L=(2, 2, 1) {"|A|": 381, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 81, 32, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 2, 2) L=(2, 2, 2) {"|A|": 505, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 123, 72, 18, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 3, 0) L=(1, 1, 1) {"|A|": 85, "rho": 6, "H": [1, 5, 15, 25, 26, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 3, 0) L=(1, 1, 2) {"|A|": 115, "rho": 6, "H": [1, 5, 15, 28, 35, 24, 7], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 1, 3, 0) L=(1, 2, 1) {"|A|": 115, "rho": 6, "H": [1, 5, 15, 28, 35, 24, 7], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 1, 3, 0) L=(1, 2, 2) {"|A|": 151, "rho": 7, "H": [1, 5, 15, 29, 41, 38, 19, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 3, 1) L=(1, 1, 1) {"|A|": 231, "rho": 7, "H": [1, 6, 21, 47, 69, 61, 25, 1], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": 4, "b0": null}
+three regions=(0, 0, 0, 1, 1, 3, 1) L=(1, 1, 2) {"|A|": 299, "rho": 7, "H": [1, 6, 21, 48, 78, 84, 50, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 3, 1) L=(1, 2, 1) {"|A|": 299, "rho": 7, "H": [1, 6, 21, 48, 78, 84, 50, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 3, 1) L=(1, 2, 2) {"|A|": 399, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 91, 38, 3], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 0, 1, 1, 3, 1) L=(2, 1, 1) {"|A|": 299, "rho": 7, "H": [1, 6, 21, 48, 78, 84, 50, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 3, 1) L=(2, 1, 2) {"|A|": 383, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 82, 33, 4], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 0, 1, 1, 3, 1) L=(2, 2, 1) {"|A|": 383, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 82, 33, 4], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 0, 1, 1, 3, 1) L=(2, 2, 2) {"|A|": 513, "rho": 8, "H": [1, 6, 21, 50, 90, 123, 125, 77, 20], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 4, 0) L=(1, 1, 1) {"|A|": 229, "rho": 7, "H": [1, 6, 21, 45, 66, 60, 27, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 1, 4, 0) L=(1, 1, 2) {"|A|": 313, "rho": 7, "H": [1, 6, 21, 48, 78, 87, 57, 15], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 1, 4, 0) L=(1, 2, 1) {"|A|": 313, "rho": 7, "H": [1, 6, 21, 48, 78, 87, 57, 15], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 1, 4, 0) L=(1, 2, 2) {"|A|": 417, "rho": 8, "H": [1, 6, 21, 49, 85, 108, 96, 45, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 2, 2, 0) L=(1, 1, 1) {"|A|": 83, "rho": 6, "H": [1, 5, 15, 24, 23, 12, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 2, 2, 0) L=(1, 1, 2) {"|A|": 111, "rho": 6, "H": [1, 5, 15, 28, 33, 22, 7], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 2, 2, 0) L=(1, 2, 1) {"|A|": 111, "rho": 7, "H": [1, 5, 15, 28, 33, 21, 7, 1], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 2, 2, 0) L=(1, 2, 2) {"|A|": 145, "rho": 7, "H": [1, 5, 15, 29, 40, 35, 17, 3], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 2, 2, 0) L=(2, 1, 1) {"|A|": 111, "rho": 7, "H": [1, 5, 15, 28, 33, 21, 7, 1], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 2, 2, 0) L=(2, 1, 2) {"|A|": 145, "rho": 7, "H": [1, 5, 15, 29, 40, 35, 17, 3], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 2, 2, 0) L=(2, 2, 1) {"|A|": 141, "rho": 7, "H": [1, 5, 15, 29, 40, 33, 15, 3], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 2, 2, 0) L=(2, 2, 2) {"|A|": 189, "rho": 8, "H": [1, 5, 15, 30, 45, 48, 33, 11, 1], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 2, 2, 1) L=(1, 1, 1) {"|A|": 219, "rho": 7, "H": [1, 6, 21, 47, 66, 53, 22, 3], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": 4, "b0": null}
+three regions=(0, 0, 0, 1, 2, 2, 1) L=(1, 1, 2) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 48, 78, 79, 44, 10], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 0, 1, 2, 2, 1) L=(1, 2, 1) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 48, 78, 79, 44, 10], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 0, 1, 2, 2, 1) L=(1, 2, 2) {"|A|": 381, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 82, 32, 3], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 0, 1, 2, 2, 1) L=(2, 1, 1) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 48, 78, 79, 44, 10], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 0, 1, 2, 2, 1) L=(2, 1, 2) {"|A|": 381, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 82, 32, 3], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 0, 1, 2, 2, 1) L=(2, 2, 1) {"|A|": 379, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 78, 31, 6], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 0, 1, 2, 2, 1) L=(2, 2, 2) {"|A|": 507, "rho": 8, "H": [1, 6, 21, 50, 90, 123, 123, 74, 19], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 2, 3, 0) L=(1, 1, 1) {"|A|": 215, "rho": 7, "H": [1, 6, 21, 44, 61, 52, 25, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 1, 2, 3, 0) L=(1, 1, 2) {"|A|": 295, "rho": 7, "H": [1, 6, 21, 48, 76, 79, 50, 14], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 2, 3, 0) L=(1, 2, 1) {"|A|": 299, "rho": 8, "H": [1, 6, 21, 48, 76, 79, 49, 16, 3], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 2, 3, 0) L=(1, 2, 2) {"|A|": 397, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 85, 40, 8], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 2, 3, 0) L=(2, 1, 1) {"|A|": 291, "rho": 8, "H": [1, 6, 21, 48, 76, 78, 47, 13, 1], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 2, 3, 0) L=(2, 1, 2) {"|A|": 385, "rho": 8, "H": [1, 6, 21, 49, 84, 101, 82, 36, 5], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 2, 3, 0) L=(2, 2, 1) {"|A|": 381, "rho": 8, "H": [1, 6, 21, 49, 84, 101, 78, 34, 7], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 1, 2, 3, 0) L=(2, 2, 2) {"|A|": 521, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 123, 78, 26, 3], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 2, 2, 2, 0) L=(1, 1, 1) {"|A|": 207, "rho": 7, "H": [1, 6, 21, 43, 57, 48, 25, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 0, 2, 2, 2, 0) L=(1, 1, 2) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 48, 74, 72, 43, 13, 1], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 2, 2, 2, 0) L=(1, 2, 1) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 48, 74, 72, 43, 13, 1], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 2, 2, 2, 0) L=(1, 2, 2) {"|A|": 375, "rho": 8, "H": [1, 6, 21, 49, 84, 99, 76, 33, 6], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 2, 2, 2, 0) L=(2, 1, 1) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 48, 74, 72, 43, 13, 1], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 2, 2, 2, 0) L=(2, 1, 2) {"|A|": 375, "rho": 8, "H": [1, 6, 21, 49, 84, 99, 76, 33, 6], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 2, 2, 2, 0) L=(2, 2, 1) {"|A|": 375, "rho": 8, "H": [1, 6, 21, 49, 84, 99, 76, 33, 6], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 0, 2, 2, 2, 0) L=(2, 2, 2) {"|A|": 511, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 120, 75, 24, 1], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": null, "b0": 3, "b0_upto_rho": 3}
+three regions=(0, 0, 1, 0, 0, 1, 2) L=(1, 1, 1) {"|A|": 41, "rho": 5, "H": [1, 4, 10, 13, 10, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 2) L=(1, 1, 2) {"|A|": 51, "rho": 6, "H": [1, 4, 10, 14, 13, 7, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 2) L=(1, 2, 1) {"|A|": 45, "rho": 5, "H": [1, 4, 10, 14, 12, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 2) L=(1, 2, 2) {"|A|": 59, "rho": 6, "H": [1, 4, 10, 15, 16, 10, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 3) L=(1, 1, 1) {"|A|": 109, "rho": 6, "H": [1, 5, 15, 27, 32, 22, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 3) L=(1, 1, 2) {"|A|": 135, "rho": 7, "H": [1, 5, 15, 28, 36, 30, 16, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 3) L=(1, 2, 1) {"|A|": 121, "rho": 6, "H": [1, 5, 15, 28, 35, 27, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 3) L=(1, 2, 2) {"|A|": 159, "rho": 7, "H": [1, 5, 15, 29, 40, 38, 24, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 3) L=(2, 1, 1) {"|A|": 121, "rho": 6, "H": [1, 5, 15, 28, 36, 27, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 3) L=(2, 1, 2) {"|A|": 153, "rho": 7, "H": [1, 5, 15, 29, 40, 36, 21, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 3) L=(2, 2, 1) {"|A|": 139, "rho": 6, "H": [1, 5, 15, 29, 40, 35, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 3) L=(2, 2, 2) {"|A|": 189, "rho": 7, "H": [1, 5, 15, 30, 45, 48, 34, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 4) L=(1, 1, 1) {"|A|": 293, "rho": 7, "H": [1, 6, 21, 47, 74, 78, 51, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 4) L=(1, 1, 2) {"|A|": 363, "rho": 8, "H": [1, 6, 21, 48, 79, 91, 72, 36, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 4) L=(1, 2, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 78, 87, 63, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 4) L=(1, 2, 2) {"|A|": 427, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 93, 54, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 4) L=(2, 1, 1) {"|A|": 333, "rho": 7, "H": [1, 6, 21, 48, 79, 91, 66, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 4) L=(2, 1, 2) {"|A|": 423, "rho": 8, "H": [1, 6, 21, 49, 84, 105, 91, 51, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 4) L=(2, 2, 1) {"|A|": 385, "rho": 7, "H": [1, 6, 21, 49, 84, 104, 87, 33], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 1, 4) L=(2, 2, 2) {"|A|": 527, "rho": 8, "H": [1, 6, 21, 50, 90, 123, 125, 84, 27], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 2, 2) L=(1, 1, 1) {"|A|": 107, "rho": 6, "H": [1, 5, 15, 27, 32, 21, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 2, 2) L=(1, 1, 2) {"|A|": 135, "rho": 7, "H": [1, 5, 15, 28, 36, 30, 16, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 2, 2) L=(1, 2, 1) {"|A|": 121, "rho": 6, "H": [1, 5, 15, 28, 36, 27, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 2, 2) L=(1, 2, 2) {"|A|": 163, "rho": 7, "H": [1, 5, 15, 29, 41, 40, 25, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 2, 3) L=(1, 1, 1) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 47, 73, 76, 49, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 2, 3) L=(1, 1, 2) {"|A|": 363, "rho": 8, "H": [1, 6, 21, 48, 78, 90, 72, 37, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 2, 3) L=(1, 2, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 78, 87, 63, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 2, 3) L=(1, 2, 2) {"|A|": 439, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 97, 58, 17], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 2, 3) L=(2, 1, 1) {"|A|": 329, "rho": 7, "H": [1, 6, 21, 48, 79, 90, 64, 20], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 2, 3) L=(2, 1, 2) {"|A|": 417, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 89, 49, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 2, 3) L=(2, 2, 1) {"|A|": 385, "rho": 7, "H": [1, 6, 21, 49, 84, 104, 87, 33], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 2, 3) L=(2, 2, 2) {"|A|": 529, "rho": 8, "H": [1, 6, 21, 50, 90, 123, 126, 85, 27], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 3, 2) L=(1, 1, 1) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 47, 74, 77, 48, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 3, 2) L=(1, 1, 2) {"|A|": 363, "rho": 8, "H": [1, 6, 21, 48, 79, 91, 72, 36, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 3, 2) L=(1, 2, 1) {"|A|": 333, "rho": 7, "H": [1, 6, 21, 48, 79, 91, 66, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 0, 3, 2) L=(1, 2, 2) {"|A|": 455, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 104, 62, 17], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 1) L=(1, 1, 1) {"|A|": 39, "rho": 5, "H": [1, 4, 10, 13, 9, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 1) L=(1, 1, 2) {"|A|": 49, "rho": 6, "H": [1, 4, 10, 14, 13, 6, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 2) L=(1, 1, 1) {"|A|": 103, "rho": 6, "H": [1, 5, 15, 27, 30, 19, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 2) L=(1, 1, 2) {"|A|": 129, "rho": 7, "H": [1, 5, 15, 28, 35, 28, 14, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 2) L=(1, 2, 1) {"|A|": 119, "rho": 6, "H": [1, 5, 15, 28, 35, 26, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 2) L=(1, 2, 2) {"|A|": 155, "rho": 7, "H": [1, 5, 15, 29, 40, 37, 22, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 2) L=(2, 1, 1) {"|A|": 119, "rho": 6, "H": [1, 5, 15, 28, 35, 26, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 2) L=(2, 1, 2) {"|A|": 155, "rho": 7, "H": [1, 5, 15, 29, 40, 37, 22, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 2) L=(2, 2, 1) {"|A|": 137, "rho": 6, "H": [1, 5, 15, 29, 40, 34, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 2) L=(2, 2, 2) {"|A|": 189, "rho": 7, "H": [1, 5, 15, 30, 45, 48, 34, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 3) L=(1, 1, 1) {"|A|": 271, "rho": 7, "H": [1, 6, 21, 47, 72, 71, 42, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 3) L=(1, 1, 2) {"|A|": 337, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 64, 28, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 3) L=(1, 2, 1) {"|A|": 319, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 60, 19], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 3) L=(1, 2, 2) {"|A|": 415, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 89, 49, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 3) L=(2, 1, 1) {"|A|": 319, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 60, 19], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 3) L=(2, 1, 2) {"|A|": 415, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 89, 49, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 3) L=(2, 2, 1) {"|A|": 377, "rho": 7, "H": [1, 6, 21, 49, 84, 103, 83, 30], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 1, 3) L=(2, 2, 2) {"|A|": 523, "rho": 8, "H": [1, 6, 21, 50, 90, 123, 123, 82, 27], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 2, 1) L=(1, 1, 1) {"|A|": 101, "rho": 6, "H": [1, 5, 15, 27, 31, 18, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 2, 1) L=(1, 1, 2) {"|A|": 129, "rho": 7, "H": [1, 5, 15, 28, 36, 29, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 2, 1) L=(1, 2, 1) {"|A|": 119, "rho": 6, "H": [1, 5, 15, 28, 36, 26, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 2, 1) L=(1, 2, 2) {"|A|": 161, "rho": 7, "H": [1, 5, 15, 29, 41, 40, 24, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 2, 2) L=(1, 1, 1) {"|A|": 263, "rho": 7, "H": [1, 6, 21, 47, 72, 69, 38, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 2, 2) L=(1, 1, 2) {"|A|": 335, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 63, 27, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 2, 2) L=(1, 2, 1) {"|A|": 317, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 59, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 2, 2) L=(1, 2, 2) {"|A|": 429, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 94, 53, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 2, 2) L=(2, 1, 1) {"|A|": 317, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 59, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 2, 2) L=(2, 1, 2) {"|A|": 413, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 89, 48, 12], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 2, 2) L=(2, 2, 1) {"|A|": 377, "rho": 7, "H": [1, 6, 21, 49, 84, 103, 83, 30], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 2, 2) L=(2, 2, 2) {"|A|": 527, "rho": 8, "H": [1, 6, 21, 50, 90, 123, 125, 84, 27], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 3, 1) L=(1, 1, 1) {"|A|": 269, "rho": 7, "H": [1, 6, 21, 47, 73, 73, 40, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 3, 1) L=(1, 1, 2) {"|A|": 345, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 28, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 3, 1) L=(1, 2, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 79, 90, 62, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 1, 3, 1) L=(1, 2, 2) {"|A|": 447, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 103, 58, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 2, 2, 0) L=(1, 1, 1) {"|A|": 107, "rho": 6, "H": [1, 5, 15, 27, 32, 21, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 2, 2, 0) L=(1, 1, 2) {"|A|": 139, "rho": 7, "H": [1, 5, 15, 28, 37, 32, 17, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 2, 2, 1) L=(1, 1, 1) {"|A|": 263, "rho": 7, "H": [1, 6, 21, 47, 72, 69, 38, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 2, 2, 1) L=(1, 1, 2) {"|A|": 343, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 66, 28, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 2, 2, 1) L=(1, 2, 1) {"|A|": 317, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 59, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 2, 2, 1) L=(1, 2, 2) {"|A|": 431, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 96, 54, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 2, 2, 1) L=(2, 1, 1) {"|A|": 317, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 59, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 2, 2, 1) L=(2, 1, 2) {"|A|": 431, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 96, 54, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 2, 2, 1) L=(2, 2, 1) {"|A|": 377, "rho": 7, "H": [1, 6, 21, 49, 84, 103, 83, 30], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 2, 2, 1) L=(2, 2, 2) {"|A|": 533, "rho": 8, "H": [1, 6, 21, 50, 90, 123, 127, 87, 28], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 2, 3, 0) L=(1, 1, 1) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 47, 73, 76, 49, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 2, 3, 0) L=(1, 1, 2) {"|A|": 375, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 77, 40, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 2, 3, 0) L=(1, 2, 1) {"|A|": 329, "rho": 7, "H": [1, 6, 21, 48, 79, 90, 64, 20], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 0, 2, 3, 0) L=(1, 2, 2) {"|A|": 459, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 105, 64, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 1) L=(1, 1, 1) {"|A|": 39, "rho": 5, "H": [1, 4, 10, 13, 9, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 1) L=(1, 1, 2) {"|A|": 49, "rho": 6, "H": [1, 4, 10, 14, 13, 6, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 1) L=(1, 2, 1) {"|A|": 45, "rho": 5, "H": [1, 4, 10, 14, 12, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 1) L=(1, 2, 2) {"|A|": 59, "rho": 6, "H": [1, 4, 10, 15, 16, 10, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 2) L=(1, 1, 1) {"|A|": 101, "rho": 6, "H": [1, 5, 15, 27, 31, 18, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 2) L=(1, 1, 2) {"|A|": 129, "rho": 7, "H": [1, 5, 15, 28, 36, 29, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 2) L=(1, 2, 1) {"|A|": 117, "rho": 7, "H": [1, 5, 15, 28, 35, 24, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 2) L=(1, 2, 2) {"|A|": 157, "rho": 8, "H": [1, 5, 15, 29, 40, 38, 22, 6, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 2) L=(2, 1, 1) {"|A|": 117, "rho": 7, "H": [1, 5, 15, 28, 35, 24, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 2) L=(2, 1, 2) {"|A|": 147, "rho": 7, "H": [1, 5, 15, 29, 40, 35, 18, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 2) L=(2, 2, 1) {"|A|": 143, "rho": 7, "H": [1, 5, 15, 29, 40, 34, 16, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 2) L=(2, 2, 2) {"|A|": 191, "rho": 8, "H": [1, 5, 15, 30, 45, 48, 33, 12, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 3) L=(1, 1, 1) {"|A|": 269, "rho": 7, "H": [1, 6, 21, 47, 73, 73, 40, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 3) L=(1, 1, 2) {"|A|": 345, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 28, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 3) L=(1, 2, 1) {"|A|": 309, "rho": 8, "H": [1, 6, 21, 48, 78, 84, 54, 16, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 3) L=(1, 2, 2) {"|A|": 417, "rho": 9, "H": [1, 6, 21, 49, 84, 104, 91, 48, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 3) L=(2, 1, 1) {"|A|": 319, "rho": 8, "H": [1, 6, 21, 48, 78, 87, 57, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 3) L=(2, 1, 2) {"|A|": 403, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 87, 42, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 3) L=(2, 2, 1) {"|A|": 389, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 82, 36, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 1, 3) L=(2, 2, 2) {"|A|": 525, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 124, 79, 27, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 2, 1) L=(1, 1, 1) {"|A|": 101, "rho": 6, "H": [1, 5, 15, 27, 31, 18, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 2, 1) L=(1, 1, 2) {"|A|": 129, "rho": 7, "H": [1, 5, 15, 28, 36, 29, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 2, 1) L=(1, 2, 1) {"|A|": 119, "rho": 6, "H": [1, 5, 15, 28, 36, 26, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 2, 1) L=(1, 2, 2) {"|A|": 161, "rho": 7, "H": [1, 5, 15, 29, 41, 40, 24, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 2, 2) L=(1, 1, 1) {"|A|": 267, "rho": 8, "H": [1, 6, 21, 47, 72, 72, 39, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 2, 2) L=(1, 1, 2) {"|A|": 343, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 68, 28, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 2, 2) L=(1, 2, 1) {"|A|": 313, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 55, 16, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 2, 2) L=(1, 2, 2) {"|A|": 427, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 96, 51, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 2, 2) L=(2, 1, 1) {"|A|": 313, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 55, 16, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 2, 2) L=(2, 1, 2) {"|A|": 397, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 85, 40, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 2, 2) L=(2, 2, 1) {"|A|": 389, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 83, 36, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 2, 2) L=(2, 2, 2) {"|A|": 529, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 125, 81, 28, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 3, 1) L=(1, 1, 1) {"|A|": 269, "rho": 7, "H": [1, 6, 21, 47, 73, 73, 40, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 3, 1) L=(1, 1, 2) {"|A|": 345, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 28, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 3, 1) L=(1, 2, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 79, 90, 62, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 0, 3, 1) L=(1, 2, 2) {"|A|": 447, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 103, 58, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 0) L=(1, 1, 1) {"|A|": 35, "rho": 4, "H": [1, 4, 10, 13, 7], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": 4, "b0": null}
+three regions=(0, 0, 1, 1, 1, 1, 0) L=(1, 1, 2) {"|A|": 47, "rho": 5, "H": [1, 4, 10, 14, 13, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 1) L=(1, 1, 1) {"|A|": 91, "rho": 5, "H": [1, 5, 15, 27, 30, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 1) L=(1, 1, 2) {"|A|": 123, "rho": 6, "H": [1, 5, 15, 28, 35, 28, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 1) L=(1, 2, 1) {"|A|": 113, "rho": 6, "H": [1, 5, 15, 28, 35, 23, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 1) L=(1, 2, 2) {"|A|": 151, "rho": 7, "H": [1, 5, 15, 29, 40, 37, 20, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 1) L=(2, 1, 1) {"|A|": 113, "rho": 6, "H": [1, 5, 15, 28, 35, 23, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 1) L=(2, 1, 2) {"|A|": 151, "rho": 7, "H": [1, 5, 15, 29, 40, 37, 20, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 1) L=(2, 2, 1) {"|A|": 141, "rho": 7, "H": [1, 5, 15, 29, 40, 34, 15, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 1) L=(2, 2, 2) {"|A|": 191, "rho": 8, "H": [1, 5, 15, 30, 45, 48, 34, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 2) L=(1, 1, 1) {"|A|": 239, "rho": 6, "H": [1, 6, 21, 47, 72, 66, 26], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 1, 1, 1, 2) L=(1, 1, 2) {"|A|": 321, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 61, 20], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 2) L=(1, 2, 1) {"|A|": 299, "rho": 7, "H": [1, 6, 21, 48, 78, 83, 50, 12], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 2) L=(1, 2, 2) {"|A|": 401, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 87, 42, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 2) L=(2, 1, 1) {"|A|": 299, "rho": 7, "H": [1, 6, 21, 48, 78, 83, 50, 12], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 2) L=(2, 1, 2) {"|A|": 401, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 87, 42, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 2) L=(2, 2, 1) {"|A|": 381, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 79, 32, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 1, 2) L=(2, 2, 2) {"|A|": 519, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 123, 77, 25, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 2, 0) L=(1, 1, 1) {"|A|": 89, "rho": 6, "H": [1, 5, 15, 27, 27, 12, 2], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": 4, "b0": null}
+three regions=(0, 0, 1, 1, 1, 2, 0) L=(1, 1, 2) {"|A|": 121, "rho": 7, "H": [1, 5, 15, 28, 36, 26, 9, 1], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 1, 1, 1, 2, 0) L=(1, 2, 1) {"|A|": 115, "rho": 6, "H": [1, 5, 15, 28, 36, 24, 6], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 1, 1, 1, 2, 0) L=(1, 2, 2) {"|A|": 157, "rho": 7, "H": [1, 5, 15, 29, 41, 40, 22, 4], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 1, 1, 2, 1) L=(1, 1, 1) {"|A|": 231, "rho": 7, "H": [1, 6, 21, 47, 72, 60, 22, 2], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 1, 1, 1, 2, 1) L=(1, 1, 2) {"|A|": 315, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 57, 17, 1], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 1, 1, 2, 1) L=(1, 2, 1) {"|A|": 301, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 50, 10, 1], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 1, 1, 2, 1) L=(1, 2, 2) {"|A|": 411, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 94, 44, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 2, 1) L=(2, 1, 1) {"|A|": 295, "rho": 7, "H": [1, 6, 21, 48, 78, 83, 48, 10], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 1, 1, 2, 1) L=(2, 1, 2) {"|A|": 399, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 87, 41, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 2, 1) L=(2, 2, 1) {"|A|": 381, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 81, 32, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 2, 1) L=(2, 2, 2) {"|A|": 525, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 125, 81, 26, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 1, 1, 3, 0) L=(1, 1, 1) {"|A|": 233, "rho": 7, "H": [1, 6, 21, 47, 69, 61, 26, 2], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": 4, "b0": null}
+three regions=(0, 0, 1, 1, 1, 3, 0) L=(1, 1, 2) {"|A|": 321, "rho": 8, "H": [1, 6, 21, 48, 79, 87, 59, 19, 1], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 1, 1, 1, 3, 0) L=(1, 2, 1) {"|A|": 311, "rho": 7, "H": [1, 6, 21, 48, 79, 87, 55, 14], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 1, 1, 1, 3, 0) L=(1, 2, 2) {"|A|": 431, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 99, 50, 10], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 1, 2, 2, 0) L=(1, 1, 1) {"|A|": 229, "rho": 8, "H": [1, 6, 21, 47, 66, 55, 26, 6, 1], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": 4, "b0": null}
+three regions=(0, 0, 1, 1, 2, 2, 0) L=(1, 1, 2) {"|A|": 313, "rho": 8, "H": [1, 6, 21, 48, 78, 83, 54, 19, 3], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 1, 1, 2, 2, 0) L=(1, 2, 1) {"|A|": 299, "rho": 8, "H": [1, 6, 21, 48, 78, 81, 48, 14, 2], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 1, 1, 2, 2, 0) L=(1, 2, 2) {"|A|": 413, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 91, 44, 10, 1], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 1, 2, 2, 0) L=(2, 1, 1) {"|A|": 299, "rho": 8, "H": [1, 6, 21, 48, 78, 81, 48, 14, 2], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 1, 1, 2, 2, 0) L=(2, 1, 2) {"|A|": 413, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 91, 44, 10, 1], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 1, 2, 2, 0) L=(2, 2, 1) {"|A|": 383, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 80, 33, 6], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 1, 2, 2, 0) L=(2, 2, 2) {"|A|": 535, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 127, 84, 29, 4], "b1_firstfail": 7, "b2_firstfail": 7, "b3_firstfail": 7, "b0": null}
+three regions=(0, 0, 1, 2, 0, 1, 0) L=(1, 1, 1) {"|A|": 41, "rho": 5, "H": [1, 4, 10, 13, 10, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 0) L=(1, 2, 1) {"|A|": 49, "rho": 6, "H": [1, 4, 10, 14, 13, 6, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 1) L=(1, 1, 1) {"|A|": 101, "rho": 6, "H": [1, 5, 15, 27, 31, 18, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 1) L=(1, 1, 2) {"|A|": 129, "rho": 7, "H": [1, 5, 15, 28, 36, 29, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 1) L=(1, 2, 1) {"|A|": 121, "rho": 6, "H": [1, 5, 15, 28, 35, 27, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 1) L=(1, 2, 2) {"|A|": 159, "rho": 7, "H": [1, 5, 15, 29, 40, 38, 24, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 1) L=(2, 1, 1) {"|A|": 117, "rho": 7, "H": [1, 5, 15, 28, 35, 24, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 1) L=(2, 1, 2) {"|A|": 147, "rho": 7, "H": [1, 5, 15, 29, 40, 35, 18, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 1) L=(2, 2, 1) {"|A|": 151, "rho": 7, "H": [1, 5, 15, 29, 40, 37, 20, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 1) L=(2, 2, 2) {"|A|": 195, "rho": 8, "H": [1, 5, 15, 30, 45, 48, 35, 14, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 2) L=(1, 1, 1) {"|A|": 261, "rho": 7, "H": [1, 6, 21, 47, 73, 70, 36, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 2) L=(1, 1, 2) {"|A|": 341, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 66, 26, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 2) L=(1, 2, 1) {"|A|": 309, "rho": 8, "H": [1, 6, 21, 48, 78, 84, 54, 16, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 2) L=(1, 2, 2) {"|A|": 417, "rho": 9, "H": [1, 6, 21, 49, 84, 104, 91, 48, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 2) L=(2, 1, 1) {"|A|": 309, "rho": 8, "H": [1, 6, 21, 48, 78, 84, 54, 16, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 2) L=(2, 1, 2) {"|A|": 401, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 85, 41, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 2) L=(2, 2, 1) {"|A|": 397, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 86, 40, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 1, 2) L=(2, 2, 2) {"|A|": 531, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 124, 82, 30, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 2, 0) L=(1, 1, 1) {"|A|": 107, "rho": 7, "H": [1, 5, 15, 27, 31, 20, 7, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 2, 0) L=(1, 1, 2) {"|A|": 131, "rho": 7, "H": [1, 5, 15, 28, 36, 29, 14, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 2, 0) L=(1, 2, 1) {"|A|": 129, "rho": 7, "H": [1, 5, 15, 28, 36, 29, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 2, 0) L=(1, 2, 2) {"|A|": 167, "rho": 8, "H": [1, 5, 15, 29, 41, 40, 26, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 2, 1) L=(1, 1, 1) {"|A|": 263, "rho": 7, "H": [1, 6, 21, 47, 72, 69, 38, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 2, 1) L=(1, 1, 2) {"|A|": 343, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 66, 28, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 2, 1) L=(1, 2, 1) {"|A|": 317, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 59, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 2, 1) L=(1, 2, 2) {"|A|": 431, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 96, 54, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 2, 1) L=(2, 1, 1) {"|A|": 305, "rho": 8, "H": [1, 6, 21, 48, 78, 83, 52, 15, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 2, 1) L=(2, 1, 2) {"|A|": 395, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 83, 39, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 2, 1) L=(2, 2, 1) {"|A|": 401, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 87, 42, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 2, 1) L=(2, 2, 2) {"|A|": 537, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 125, 84, 32, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 3, 0) L=(1, 1, 1) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 47, 73, 73, 44, 13, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 3, 0) L=(1, 1, 2) {"|A|": 351, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 31, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 3, 0) L=(1, 2, 1) {"|A|": 345, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 28, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 0, 3, 0) L=(1, 2, 2) {"|A|": 463, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 103, 63, 22, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 1, 1, 0) L=(1, 1, 1) {"|A|": 91, "rho": 6, "H": [1, 5, 15, 27, 27, 13, 3], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": 4, "b0": null}
+three regions=(0, 0, 1, 2, 1, 1, 0) L=(1, 1, 2) {"|A|": 123, "rho": 7, "H": [1, 5, 15, 28, 35, 26, 11, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 1, 1, 0) L=(1, 2, 1) {"|A|": 115, "rho": 6, "H": [1, 5, 15, 28, 35, 24, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 1, 1, 0) L=(1, 2, 2) {"|A|": 153, "rho": 7, "H": [1, 5, 15, 29, 40, 37, 21, 5], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 2, 1, 1, 0) L=(2, 1, 1) {"|A|": 115, "rho": 6, "H": [1, 5, 15, 28, 35, 24, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 1, 1, 0) L=(2, 1, 2) {"|A|": 153, "rho": 7, "H": [1, 5, 15, 29, 40, 37, 21, 5], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 2, 1, 1, 0) L=(2, 2, 1) {"|A|": 149, "rho": 7, "H": [1, 5, 15, 29, 40, 37, 19, 3], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 2, 1, 1, 0) L=(2, 2, 2) {"|A|": 197, "rho": 8, "H": [1, 5, 15, 30, 45, 48, 36, 15, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 1, 1, 1) L=(1, 1, 1) {"|A|": 231, "rho": 7, "H": [1, 6, 21, 47, 72, 60, 22, 2], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 1, 2, 1, 1, 1) L=(1, 1, 2) {"|A|": 315, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 57, 17, 1], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 2, 1, 1, 1) L=(1, 2, 1) {"|A|": 295, "rho": 7, "H": [1, 6, 21, 48, 78, 83, 48, 10], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 2, 1, 1, 1) L=(1, 2, 2) {"|A|": 399, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 87, 41, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 1, 1, 1) L=(2, 1, 1) {"|A|": 295, "rho": 7, "H": [1, 6, 21, 48, 78, 83, 48, 10], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 2, 1, 1, 1) L=(2, 1, 2) {"|A|": 399, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 87, 41, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 1, 1, 1) L=(2, 2, 1) {"|A|": 385, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 85, 34, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 1, 1, 1) L=(2, 2, 2) {"|A|": 527, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 123, 83, 29, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 2, 1, 2, 0) L=(1, 1, 1) {"|A|": 227, "rho": 7, "H": [1, 6, 21, 47, 66, 54, 26, 6], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": 4, "b0": null}
+three regions=(0, 0, 1, 2, 1, 2, 0) L=(1, 1, 2) {"|A|": 311, "rho": 8, "H": [1, 6, 21, 48, 78, 81, 52, 20, 4], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 1, 2, 1, 2, 0) L=(1, 2, 1) {"|A|": 297, "rho": 7, "H": [1, 6, 21, 48, 78, 81, 49, 13], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 1, 2, 1, 2, 0) L=(1, 2, 2) {"|A|": 413, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 90, 45, 11], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 2, 1, 2, 0) L=(2, 1, 1) {"|A|": 293, "rho": 8, "H": [1, 6, 21, 48, 78, 79, 46, 13, 1], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 1, 2, 1, 2, 0) L=(2, 1, 2) {"|A|": 399, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 84, 40, 10, 1], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 2, 1, 2, 0) L=(2, 2, 1) {"|A|": 389, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 83, 36, 6], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 2, 1, 2, 0) L=(2, 2, 2) {"|A|": 535, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 125, 84, 31, 4], "b1_firstfail": 7, "b2_firstfail": 7, "b3_firstfail": 7, "b0": null}
+three regions=(0, 0, 1, 3, 0, 1, 0) L=(1, 1, 1) {"|A|": 109, "rho": 6, "H": [1, 5, 15, 27, 32, 22, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 1, 0) L=(1, 2, 1) {"|A|": 133, "rho": 7, "H": [1, 5, 15, 28, 36, 30, 15, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 1, 0) L=(2, 1, 1) {"|A|": 121, "rho": 6, "H": [1, 5, 15, 28, 36, 27, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 1, 0) L=(2, 2, 1) {"|A|": 163, "rho": 7, "H": [1, 5, 15, 29, 41, 40, 25, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 1, 1) L=(1, 1, 1) {"|A|": 269, "rho": 7, "H": [1, 6, 21, 47, 73, 73, 40, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 1, 1) L=(1, 1, 2) {"|A|": 345, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 28, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 1, 1) L=(1, 2, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 78, 87, 63, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 1, 1) L=(1, 2, 2) {"|A|": 427, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 93, 54, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 1, 1) L=(2, 1, 1) {"|A|": 319, "rho": 8, "H": [1, 6, 21, 48, 78, 87, 57, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 1, 1) L=(2, 1, 2) {"|A|": 403, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 87, 42, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 1, 1) L=(2, 2, 1) {"|A|": 421, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 95, 49, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 1, 1) L=(2, 2, 2) {"|A|": 545, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 126, 88, 35, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 2, 0) L=(1, 1, 1) {"|A|": 287, "rho": 8, "H": [1, 6, 21, 47, 72, 74, 47, 16, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 2, 0) L=(1, 1, 2) {"|A|": 351, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 69, 32, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 2, 0) L=(1, 2, 1) {"|A|": 349, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 69, 31, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 2, 0) L=(1, 2, 2) {"|A|": 451, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 98, 61, 22, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 2, 0) L=(2, 1, 1) {"|A|": 317, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 56, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 2, 0) L=(2, 1, 2) {"|A|": 399, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 85, 41, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 2, 0) L=(2, 2, 1) {"|A|": 433, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 96, 53, 15, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 0, 2, 0) L=(2, 2, 2) {"|A|": 553, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 127, 90, 38, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 1, 1, 0) L=(1, 1, 1) {"|A|": 235, "rho": 7, "H": [1, 6, 21, 47, 69, 61, 27, 3], "b1_firstfail": 4, "b2_firstfail": 4, "b3_firstfail": 4, "b0": null}
+three regions=(0, 0, 1, 3, 1, 1, 0) L=(1, 1, 2) {"|A|": 319, "rho": 8, "H": [1, 6, 21, 48, 78, 84, 58, 21, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 1, 1, 0) L=(1, 2, 1) {"|A|": 307, "rho": 7, "H": [1, 6, 21, 48, 78, 84, 54, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 1, 1, 0) L=(1, 2, 2) {"|A|": 409, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 88, 46, 11], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 3, 1, 1, 0) L=(2, 1, 1) {"|A|": 307, "rho": 7, "H": [1, 6, 21, 48, 78, 84, 54, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 3, 1, 1, 0) L=(2, 1, 2) {"|A|": 409, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 88, 46, 11], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 3, 1, 1, 0) L=(2, 2, 1) {"|A|": 411, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 91, 44, 9], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 1, 3, 1, 1, 0) L=(2, 2, 2) {"|A|": 545, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 125, 87, 36, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 4, 0, 1, 0) L=(1, 1, 1) {"|A|": 293, "rho": 7, "H": [1, 6, 21, 47, 74, 78, 51, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 4, 0, 1, 0) L=(1, 2, 1) {"|A|": 357, "rho": 8, "H": [1, 6, 21, 48, 79, 91, 72, 33, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 4, 0, 1, 0) L=(2, 1, 1) {"|A|": 333, "rho": 7, "H": [1, 6, 21, 48, 79, 91, 66, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 1, 4, 0, 1, 0) L=(2, 2, 1) {"|A|": 457, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 104, 63, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 1, 2) L=(1, 1, 1) {"|A|": 109, "rho": 6, "H": [1, 5, 15, 27, 32, 22, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 1, 2) L=(1, 1, 2) {"|A|": 143, "rho": 7, "H": [1, 5, 15, 28, 37, 33, 19, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 1, 2) L=(1, 2, 1) {"|A|": 121, "rho": 6, "H": [1, 5, 15, 28, 36, 27, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 1, 2) L=(1, 2, 2) {"|A|": 167, "rho": 7, "H": [1, 5, 15, 29, 41, 41, 27, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 1, 3) L=(1, 1, 1) {"|A|": 289, "rho": 7, "H": [1, 6, 21, 47, 73, 76, 50, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 1, 3) L=(1, 1, 2) {"|A|": 379, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 78, 42, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 1, 3) L=(1, 2, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 78, 87, 63, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 1, 3) L=(1, 2, 2) {"|A|": 451, "rho": 8, "H": [1, 6, 21, 49, 84, 107, 100, 63, 20], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 1, 3) L=(2, 1, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 78, 87, 63, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 1, 3) L=(2, 1, 2) {"|A|": 427, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 93, 54, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 1, 3) L=(2, 2, 1) {"|A|": 379, "rho": 7, "H": [1, 6, 21, 49, 84, 103, 84, 31], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 1, 3) L=(2, 2, 2) {"|A|": 535, "rho": 8, "H": [1, 6, 21, 50, 90, 123, 126, 88, 30], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 2, 2) L=(1, 1, 1) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 47, 73, 76, 49, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 2, 2) L=(1, 1, 2) {"|A|": 377, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 78, 41, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 2, 2) L=(1, 2, 1) {"|A|": 329, "rho": 7, "H": [1, 6, 21, 48, 79, 90, 64, 20], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 0, 2, 2) L=(1, 2, 2) {"|A|": 461, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 105, 65, 19], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 1, 1, 1) L=(1, 1, 1) {"|A|": 103, "rho": 6, "H": [1, 5, 15, 27, 32, 19, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 1, 1, 1) L=(1, 1, 2) {"|A|": 139, "rho": 7, "H": [1, 5, 15, 28, 37, 33, 17, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 1, 1, 2) L=(1, 1, 1) {"|A|": 271, "rho": 7, "H": [1, 6, 21, 47, 72, 71, 42, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 1, 1, 2) L=(1, 1, 2) {"|A|": 367, "rho": 8, "H": [1, 6, 21, 48, 78, 91, 74, 38, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 1, 1, 2) L=(1, 2, 1) {"|A|": 319, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 60, 19], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 1, 1, 2) L=(1, 2, 2) {"|A|": 439, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 97, 58, 17], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 1, 1, 2) L=(2, 1, 1) {"|A|": 319, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 60, 19], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 1, 1, 2) L=(2, 1, 2) {"|A|": 439, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 97, 58, 17], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 1, 1, 2) L=(2, 2, 1) {"|A|": 377, "rho": 7, "H": [1, 6, 21, 49, 84, 103, 83, 30], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 1, 1, 2) L=(2, 2, 2) {"|A|": 535, "rho": 8, "H": [1, 6, 21, 50, 90, 123, 127, 88, 29], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 1, 2, 1) L=(1, 1, 1) {"|A|": 269, "rho": 7, "H": [1, 6, 21, 47, 73, 73, 40, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 1, 2, 1) L=(1, 1, 2) {"|A|": 365, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 76, 35, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 1, 2, 1) L=(1, 2, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 79, 90, 62, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 1, 2, 1) L=(1, 2, 2) {"|A|": 455, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 105, 62, 16], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 2, 2, 0) L=(1, 1, 1) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 47, 74, 77, 48, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 0, 2, 2, 0) L=(1, 1, 2) {"|A|": 393, "rho": 8, "H": [1, 6, 21, 48, 80, 97, 84, 45, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 1, 1) L=(1, 1, 1) {"|A|": 103, "rho": 6, "H": [1, 5, 15, 27, 32, 19, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 1, 1) L=(1, 1, 2) {"|A|": 139, "rho": 7, "H": [1, 5, 15, 28, 37, 33, 17, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 1, 1) L=(1, 2, 1) {"|A|": 121, "rho": 6, "H": [1, 5, 15, 28, 36, 27, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 1, 1) L=(1, 2, 2) {"|A|": 167, "rho": 7, "H": [1, 5, 15, 29, 41, 41, 27, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 1, 2) L=(1, 1, 1) {"|A|": 269, "rho": 7, "H": [1, 6, 21, 47, 73, 73, 40, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 1, 2) L=(1, 1, 2) {"|A|": 365, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 76, 35, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 1, 2) L=(1, 2, 1) {"|A|": 319, "rho": 8, "H": [1, 6, 21, 48, 78, 87, 57, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 1, 2) L=(1, 2, 2) {"|A|": 443, "rho": 9, "H": [1, 6, 21, 49, 84, 107, 100, 57, 16, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 1, 2) L=(2, 1, 1) {"|A|": 309, "rho": 8, "H": [1, 6, 21, 48, 78, 84, 54, 16, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 1, 2) L=(2, 1, 2) {"|A|": 417, "rho": 9, "H": [1, 6, 21, 49, 84, 104, 91, 48, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 1, 2) L=(2, 2, 1) {"|A|": 389, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 82, 36, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 1, 2) L=(2, 2, 2) {"|A|": 539, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 126, 85, 32, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 2, 1) L=(1, 1, 1) {"|A|": 269, "rho": 7, "H": [1, 6, 21, 47, 73, 73, 40, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 2, 1) L=(1, 1, 2) {"|A|": 365, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 76, 35, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 2, 1) L=(1, 2, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 79, 90, 62, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 0, 2, 1) L=(1, 2, 2) {"|A|": 455, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 105, 62, 16], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 1, 1, 0) L=(1, 1, 1) {"|A|": 95, "rho": 5, "H": [1, 5, 15, 27, 32, 15], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 2, 1, 1, 1, 0) L=(1, 1, 2) {"|A|": 133, "rho": 6, "H": [1, 5, 15, 28, 37, 33, 14], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 2, 1, 1, 1, 1) L=(1, 1, 1) {"|A|": 249, "rho": 6, "H": [1, 6, 21, 47, 72, 71, 31], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 2, 1, 1, 1, 1) L=(1, 1, 2) {"|A|": 347, "rho": 7, "H": [1, 6, 21, 48, 78, 91, 74, 28], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 1, 1, 1) L=(1, 2, 1) {"|A|": 307, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 54, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 1, 1, 1) L=(1, 2, 2) {"|A|": 427, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 97, 52, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 1, 1, 1) L=(2, 1, 1) {"|A|": 307, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 54, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 1, 1, 1) L=(2, 1, 2) {"|A|": 427, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 97, 52, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 1, 1, 1) L=(2, 2, 1) {"|A|": 385, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 83, 34, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 1, 1, 1) L=(2, 2, 2) {"|A|": 541, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 127, 88, 32, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 1, 1, 2, 0) L=(1, 1, 1) {"|A|": 243, "rho": 7, "H": [1, 6, 21, 47, 73, 64, 27, 4], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 2, 1, 1, 2, 0) L=(1, 1, 2) {"|A|": 343, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 68, 24, 3], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 2, 1, 1, 2, 0) L=(1, 2, 1) {"|A|": 315, "rho": 7, "H": [1, 6, 21, 48, 79, 90, 57, 13], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 2, 1, 1, 2, 0) L=(1, 2, 2) {"|A|": 445, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 105, 57, 11], "b1_firstfail": 7, "b2_firstfail": 7, "b3_firstfail": 7, "b0": null}
+three regions=(0, 0, 2, 2, 0, 1, 0) L=(1, 1, 1) {"|A|": 109, "rho": 6, "H": [1, 5, 15, 27, 32, 22, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 0, 1, 0) L=(1, 1, 2) {"|A|": 143, "rho": 7, "H": [1, 5, 15, 28, 37, 33, 19, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 0, 1, 0) L=(1, 2, 1) {"|A|": 133, "rho": 7, "H": [1, 5, 15, 28, 36, 30, 15, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 0, 1, 0) L=(1, 2, 2) {"|A|": 175, "rho": 8, "H": [1, 5, 15, 29, 41, 41, 29, 12, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 0, 1, 1) L=(1, 1, 1) {"|A|": 269, "rho": 7, "H": [1, 6, 21, 47, 73, 73, 40, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 0, 1, 1) L=(1, 1, 2) {"|A|": 365, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 76, 35, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 0, 1, 1) L=(1, 2, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 78, 87, 63, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 0, 1, 1) L=(1, 2, 2) {"|A|": 451, "rho": 8, "H": [1, 6, 21, 49, 84, 107, 100, 63, 20], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 0, 1, 1) L=(2, 1, 1) {"|A|": 309, "rho": 8, "H": [1, 6, 21, 48, 78, 84, 54, 16, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 0, 1, 1) L=(2, 1, 2) {"|A|": 417, "rho": 9, "H": [1, 6, 21, 49, 84, 104, 91, 48, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 0, 1, 1) L=(2, 2, 1) {"|A|": 403, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 88, 43, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 0, 1, 1) L=(2, 2, 2) {"|A|": 553, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 126, 91, 39, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 0, 2, 0) L=(1, 1, 1) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 47, 73, 73, 44, 13, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 0, 2, 0) L=(1, 1, 2) {"|A|": 373, "rho": 9, "H": [1, 6, 21, 48, 79, 93, 76, 38, 10, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 0, 2, 0) L=(1, 2, 1) {"|A|": 345, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 28, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 0, 2, 0) L=(1, 2, 2) {"|A|": 473, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 105, 68, 25, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 2, 1, 1, 0) L=(1, 1, 1) {"|A|": 247, "rho": 7, "H": [1, 6, 21, 47, 72, 64, 30, 6], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 0, 2, 2, 1, 1, 0) L=(1, 1, 2) {"|A|": 349, "rho": 8, "H": [1, 6, 21, 48, 78, 91, 69, 29, 6], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 2, 2, 1, 1, 0) L=(1, 2, 1) {"|A|": 311, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 56, 15], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 2, 2, 1, 1, 0) L=(1, 2, 2) {"|A|": 433, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 97, 55, 14], "b1_firstfail": 7, "b2_firstfail": 7, "b3_firstfail": 7, "b0": null}
+three regions=(0, 0, 2, 2, 1, 1, 0) L=(2, 1, 1) {"|A|": 311, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 56, 15], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 2, 2, 1, 1, 0) L=(2, 1, 2) {"|A|": 433, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 97, 55, 14], "b1_firstfail": 7, "b2_firstfail": 7, "b3_firstfail": 7, "b0": null}
+three regions=(0, 0, 2, 2, 1, 1, 0) L=(2, 2, 1) {"|A|": 401, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 89, 42, 6], "b1_firstfail": 7, "b2_firstfail": 7, "b3_firstfail": 7, "b0": null}
+three regions=(0, 0, 2, 2, 1, 1, 0) L=(2, 2, 2) {"|A|": 559, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 127, 94, 41, 6], "b1_firstfail": 8, "b2_firstfail": 8, "b3_firstfail": 8, "b0": null}
+three regions=(0, 0, 2, 3, 0, 1, 0) L=(1, 1, 1) {"|A|": 289, "rho": 7, "H": [1, 6, 21, 47, 73, 76, 50, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 3, 0, 1, 0) L=(1, 1, 2) {"|A|": 379, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 78, 42, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 3, 0, 1, 0) L=(1, 2, 1) {"|A|": 361, "rho": 8, "H": [1, 6, 21, 48, 78, 90, 72, 36, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 3, 0, 1, 0) L=(1, 2, 2) {"|A|": 475, "rho": 9, "H": [1, 6, 21, 49, 84, 107, 102, 69, 30, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 3, 0, 1, 0) L=(2, 1, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 78, 87, 63, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 3, 0, 1, 0) L=(2, 1, 2) {"|A|": 427, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 93, 54, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 3, 0, 1, 0) L=(2, 2, 1) {"|A|": 439, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 97, 58, 17], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 2, 3, 0, 1, 0) L=(2, 2, 2) {"|A|": 577, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 128, 97, 49, 12], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 3, 0, 0, 1, 2) L=(1, 1, 1) {"|A|": 293, "rho": 7, "H": [1, 6, 21, 47, 74, 78, 51, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 3, 0, 0, 1, 2) L=(1, 1, 2) {"|A|": 405, "rho": 8, "H": [1, 6, 21, 48, 80, 98, 87, 50, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 3, 0, 0, 1, 2) L=(1, 2, 1) {"|A|": 333, "rho": 7, "H": [1, 6, 21, 48, 79, 91, 66, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 3, 0, 0, 1, 2) L=(1, 2, 2) {"|A|": 473, "rho": 8, "H": [1, 6, 21, 49, 85, 111, 109, 70, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 3, 0, 1, 1, 1) L=(1, 1, 1) {"|A|": 281, "rho": 7, "H": [1, 6, 21, 47, 74, 78, 45, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 3, 0, 1, 1, 1) L=(1, 1, 2) {"|A|": 393, "rho": 8, "H": [1, 6, 21, 48, 80, 98, 87, 44, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 3, 1, 0, 1, 1) L=(1, 1, 1) {"|A|": 281, "rho": 7, "H": [1, 6, 21, 47, 74, 78, 45, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 3, 1, 0, 1, 1) L=(1, 1, 2) {"|A|": 393, "rho": 8, "H": [1, 6, 21, 48, 80, 98, 87, 44, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 3, 1, 0, 1, 1) L=(1, 2, 1) {"|A|": 333, "rho": 7, "H": [1, 6, 21, 48, 79, 91, 66, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 3, 1, 0, 1, 1) L=(1, 2, 2) {"|A|": 473, "rho": 8, "H": [1, 6, 21, 49, 85, 111, 109, 70, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 3, 1, 1, 1, 0) L=(1, 1, 1) {"|A|": 263, "rho": 6, "H": [1, 6, 21, 47, 74, 78, 36], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 0, 3, 1, 1, 1, 0) L=(1, 1, 2) {"|A|": 377, "rho": 7, "H": [1, 6, 21, 48, 80, 98, 87, 36], "b1_firstfail": 7, "b2_firstfail": 7, "b3_firstfail": 7, "b0": null}
+three regions=(0, 0, 3, 2, 0, 1, 0) L=(1, 1, 1) {"|A|": 293, "rho": 7, "H": [1, 6, 21, 47, 74, 78, 51, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 3, 2, 0, 1, 0) L=(1, 1, 2) {"|A|": 405, "rho": 8, "H": [1, 6, 21, 48, 80, 98, 87, 50, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 3, 2, 0, 1, 0) L=(1, 2, 1) {"|A|": 357, "rho": 8, "H": [1, 6, 21, 48, 79, 91, 72, 33, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 0, 3, 2, 0, 1, 0) L=(1, 2, 2) {"|A|": 497, "rho": 9, "H": [1, 6, 21, 49, 85, 111, 109, 76, 33, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 2) L=(1, 1, 1) {"|A|": 43, "rho": 6, "H": [1, 4, 10, 13, 10, 4, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 2) L=(1, 1, 2) {"|A|": 51, "rho": 6, "H": [1, 4, 10, 14, 13, 7, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 2) L=(1, 2, 1) {"|A|": 51, "rho": 6, "H": [1, 4, 10, 14, 13, 7, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 2) L=(1, 2, 2) {"|A|": 63, "rho": 7, "H": [1, 4, 10, 15, 16, 11, 5, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 3) L=(1, 1, 1) {"|A|": 111, "rho": 7, "H": [1, 5, 15, 27, 32, 22, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 3) L=(1, 1, 2) {"|A|": 135, "rho": 7, "H": [1, 5, 15, 28, 36, 30, 16, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 3) L=(1, 2, 1) {"|A|": 135, "rho": 7, "H": [1, 5, 15, 28, 36, 30, 16, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 3) L=(1, 2, 2) {"|A|": 171, "rho": 8, "H": [1, 5, 15, 29, 40, 39, 27, 12, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 3) L=(2, 1, 1) {"|A|": 117, "rho": 7, "H": [1, 5, 15, 28, 35, 24, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 3) L=(2, 1, 2) {"|A|": 147, "rho": 7, "H": [1, 5, 15, 29, 40, 35, 18, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 3) L=(2, 2, 1) {"|A|": 147, "rho": 7, "H": [1, 5, 15, 29, 40, 35, 18, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 3) L=(2, 2, 2) {"|A|": 195, "rho": 8, "H": [1, 5, 15, 30, 45, 48, 34, 14, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 4) L=(1, 1, 1) {"|A|": 299, "rho": 8, "H": [1, 6, 21, 47, 74, 78, 51, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 4) L=(1, 1, 2) {"|A|": 363, "rho": 8, "H": [1, 6, 21, 48, 79, 91, 72, 36, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 4) L=(1, 2, 1) {"|A|": 363, "rho": 8, "H": [1, 6, 21, 48, 79, 91, 72, 36, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 4) L=(1, 2, 2) {"|A|": 459, "rho": 9, "H": [1, 6, 21, 49, 84, 105, 97, 63, 27, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 4) L=(2, 1, 1) {"|A|": 319, "rho": 8, "H": [1, 6, 21, 48, 78, 87, 57, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 4) L=(2, 1, 2) {"|A|": 403, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 87, 42, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 4) L=(2, 2, 1) {"|A|": 403, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 87, 42, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 0, 4) L=(2, 2, 2) {"|A|": 539, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 125, 84, 33, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 1, 2) L=(1, 1, 1) {"|A|": 107, "rho": 7, "H": [1, 5, 15, 27, 31, 20, 7, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 1, 2) L=(1, 1, 2) {"|A|": 131, "rho": 7, "H": [1, 5, 15, 28, 36, 29, 14, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 1, 2) L=(1, 2, 1) {"|A|": 131, "rho": 7, "H": [1, 5, 15, 28, 36, 29, 14, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 1, 2) L=(1, 2, 2) {"|A|": 169, "rho": 8, "H": [1, 5, 15, 29, 41, 40, 26, 10, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 1, 3) L=(1, 1, 1) {"|A|": 287, "rho": 8, "H": [1, 6, 21, 47, 72, 74, 47, 16, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 1, 3) L=(1, 1, 2) {"|A|": 351, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 69, 32, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 1, 3) L=(1, 2, 1) {"|A|": 351, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 69, 32, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 1, 3) L=(1, 2, 2) {"|A|": 453, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 98, 61, 23, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 1, 3) L=(2, 1, 1) {"|A|": 317, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 56, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 1, 3) L=(2, 1, 2) {"|A|": 399, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 85, 41, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 1, 3) L=(2, 2, 1) {"|A|": 399, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 85, 41, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 1, 3) L=(2, 2, 2) {"|A|": 537, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 125, 83, 32, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 2, 2) L=(1, 1, 1) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 47, 73, 73, 43, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 2, 2) L=(1, 1, 2) {"|A|": 349, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 30, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 2, 2) L=(1, 2, 1) {"|A|": 349, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 30, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 0, 2, 2) L=(1, 2, 2) {"|A|": 465, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 103, 63, 23, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 1) L=(1, 1, 1) {"|A|": 41, "rho": 5, "H": [1, 4, 10, 13, 10, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 1) L=(1, 1, 2) {"|A|": 51, "rho": 6, "H": [1, 4, 10, 14, 13, 7, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 2) L=(1, 1, 1) {"|A|": 107, "rho": 7, "H": [1, 5, 15, 27, 31, 20, 7, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 2) L=(1, 1, 2) {"|A|": 135, "rho": 8, "H": [1, 5, 15, 28, 35, 29, 16, 5, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 2) L=(1, 2, 1) {"|A|": 131, "rho": 7, "H": [1, 5, 15, 28, 36, 29, 14, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 2) L=(1, 2, 2) {"|A|": 165, "rho": 8, "H": [1, 5, 15, 29, 40, 38, 25, 10, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 2) L=(2, 1, 1) {"|A|": 117, "rho": 7, "H": [1, 5, 15, 28, 35, 24, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 2) L=(2, 1, 2) {"|A|": 155, "rho": 8, "H": [1, 5, 15, 29, 40, 37, 21, 6, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 2) L=(2, 2, 1) {"|A|": 147, "rho": 7, "H": [1, 5, 15, 29, 40, 35, 18, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 2) L=(2, 2, 2) {"|A|": 197, "rho": 8, "H": [1, 5, 15, 30, 45, 48, 35, 15, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 3) L=(1, 1, 1) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 47, 73, 73, 44, 13, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 3) L=(1, 1, 2) {"|A|": 351, "rho": 9, "H": [1, 6, 21, 48, 78, 87, 67, 33, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 3) L=(1, 2, 1) {"|A|": 351, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 31, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 3) L=(1, 2, 2) {"|A|": 441, "rho": 9, "H": [1, 6, 21, 49, 84, 104, 93, 57, 22, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 3) L=(2, 1, 1) {"|A|": 309, "rho": 8, "H": [1, 6, 21, 48, 78, 84, 54, 16, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 3) L=(2, 1, 2) {"|A|": 411, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 88, 46, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 3) L=(2, 2, 1) {"|A|": 401, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 85, 41, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 0, 3) L=(2, 2, 2) {"|A|": 541, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 124, 84, 35, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 1, 1) L=(1, 1, 1) {"|A|": 101, "rho": 6, "H": [1, 5, 15, 27, 31, 18, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 1, 1) L=(1, 1, 2) {"|A|": 129, "rho": 7, "H": [1, 5, 15, 28, 36, 29, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 1, 1) L=(1, 2, 1) {"|A|": 129, "rho": 7, "H": [1, 5, 15, 28, 36, 29, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 1, 1) L=(1, 2, 2) {"|A|": 167, "rho": 8, "H": [1, 5, 15, 29, 41, 40, 26, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 1, 2) L=(1, 1, 1) {"|A|": 263, "rho": 7, "H": [1, 6, 21, 47, 72, 69, 38, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 1, 2) L=(1, 1, 2) {"|A|": 335, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 63, 27, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 1, 2) L=(1, 2, 1) {"|A|": 343, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 66, 28, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 1, 2) L=(1, 2, 2) {"|A|": 443, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 96, 57, 20, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 1, 2) L=(2, 1, 1) {"|A|": 305, "rho": 8, "H": [1, 6, 21, 48, 78, 83, 52, 15, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 1, 2) L=(2, 1, 2) {"|A|": 407, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 87, 44, 11, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 1, 2) L=(2, 2, 1) {"|A|": 395, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 83, 39, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 1, 2) L=(2, 2, 2) {"|A|": 539, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 125, 84, 33, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 2, 1) L=(1, 1, 1) {"|A|": 261, "rho": 7, "H": [1, 6, 21, 47, 73, 70, 36, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 2, 1) L=(1, 1, 2) {"|A|": 341, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 66, 26, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 2, 1) L=(1, 2, 1) {"|A|": 341, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 66, 26, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 1, 2, 1) L=(1, 2, 2) {"|A|": 457, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 103, 61, 19, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 0, 1) L=(1, 1, 1) {"|A|": 107, "rho": 6, "H": [1, 5, 15, 27, 32, 21, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 0, 1) L=(1, 1, 2) {"|A|": 135, "rho": 7, "H": [1, 5, 15, 28, 36, 30, 16, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 0, 1) L=(2, 1, 1) {"|A|": 121, "rho": 6, "H": [1, 5, 15, 28, 36, 27, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 0, 1) L=(2, 1, 2) {"|A|": 163, "rho": 7, "H": [1, 5, 15, 29, 41, 40, 25, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 0, 2) L=(1, 1, 1) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 47, 73, 73, 43, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 0, 2) L=(1, 1, 2) {"|A|": 351, "rho": 9, "H": [1, 6, 21, 48, 78, 87, 67, 33, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 0, 2) L=(1, 2, 1) {"|A|": 349, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 30, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 0, 2) L=(1, 2, 2) {"|A|": 441, "rho": 9, "H": [1, 6, 21, 49, 84, 104, 93, 57, 22, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 0, 2) L=(2, 1, 1) {"|A|": 319, "rho": 8, "H": [1, 6, 21, 48, 78, 87, 57, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 0, 2) L=(2, 1, 2) {"|A|": 431, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 95, 52, 15, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 0, 2) L=(2, 2, 1) {"|A|": 403, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 87, 42, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 0, 2) L=(2, 2, 2) {"|A|": 549, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 126, 88, 37, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 1, 0) L=(1, 1, 1) {"|A|": 107, "rho": 6, "H": [1, 5, 15, 27, 32, 21, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 1, 0) L=(1, 1, 2) {"|A|": 139, "rho": 7, "H": [1, 5, 15, 28, 37, 32, 17, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 1, 1) L=(1, 1, 1) {"|A|": 267, "rho": 8, "H": [1, 6, 21, 47, 72, 72, 39, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 1, 1) L=(1, 1, 2) {"|A|": 343, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 68, 28, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 1, 1) L=(1, 2, 1) {"|A|": 343, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 68, 28, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 1, 1) L=(1, 2, 2) {"|A|": 447, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 98, 60, 20, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 1, 1) L=(2, 1, 1) {"|A|": 313, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 55, 16, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 1, 1) L=(2, 1, 2) {"|A|": 427, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 96, 51, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 1, 1) L=(2, 2, 1) {"|A|": 397, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 85, 40, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 1, 1) L=(2, 2, 2) {"|A|": 551, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 127, 90, 37, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 2, 0) L=(1, 1, 1) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 47, 73, 73, 43, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 2, 0) L=(1, 1, 2) {"|A|": 369, "rho": 9, "H": [1, 6, 21, 48, 79, 93, 75, 36, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 2, 0) L=(1, 2, 1) {"|A|": 349, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 30, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 2, 2, 0) L=(1, 2, 2) {"|A|": 473, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 105, 67, 25, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 3, 0, 1) L=(1, 1, 1) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 47, 74, 77, 48, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 3, 0, 1) L=(1, 1, 2) {"|A|": 363, "rho": 8, "H": [1, 6, 21, 48, 79, 91, 72, 36, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 3, 0, 1) L=(2, 1, 1) {"|A|": 333, "rho": 7, "H": [1, 6, 21, 48, 79, 91, 66, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 3, 0, 1) L=(2, 1, 2) {"|A|": 455, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 104, 62, 17], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 3, 1, 0) L=(1, 1, 1) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 47, 73, 76, 49, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 3, 1, 0) L=(1, 1, 2) {"|A|": 375, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 77, 40, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 3, 1, 0) L=(2, 1, 1) {"|A|": 329, "rho": 7, "H": [1, 6, 21, 48, 79, 90, 64, 20], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 0, 3, 1, 0) L=(2, 1, 2) {"|A|": 459, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 105, 64, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 0) L=(1, 1, 1) {"|A|": 41, "rho": 5, "H": [1, 4, 10, 13, 10, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 1) L=(1, 1, 1) {"|A|": 103, "rho": 6, "H": [1, 5, 15, 27, 30, 19, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 1) L=(1, 1, 2) {"|A|": 129, "rho": 7, "H": [1, 5, 15, 28, 35, 28, 14, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 1) L=(1, 2, 1) {"|A|": 129, "rho": 7, "H": [1, 5, 15, 28, 35, 28, 14, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 1) L=(1, 2, 2) {"|A|": 159, "rho": 8, "H": [1, 5, 15, 29, 40, 37, 23, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 1) L=(2, 1, 1) {"|A|": 119, "rho": 6, "H": [1, 5, 15, 28, 35, 26, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 1) L=(2, 1, 2) {"|A|": 155, "rho": 7, "H": [1, 5, 15, 29, 40, 37, 22, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 1) L=(2, 2, 1) {"|A|": 155, "rho": 7, "H": [1, 5, 15, 29, 40, 37, 22, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 1) L=(2, 2, 2) {"|A|": 201, "rho": 8, "H": [1, 5, 15, 30, 45, 48, 36, 17, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 2) L=(1, 1, 1) {"|A|": 263, "rho": 7, "H": [1, 6, 21, 47, 72, 69, 38, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 2) L=(1, 1, 2) {"|A|": 335, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 63, 27, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 2) L=(1, 2, 1) {"|A|": 335, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 63, 27, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 2) L=(1, 2, 2) {"|A|": 423, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 89, 51, 17, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 2) L=(2, 1, 1) {"|A|": 305, "rho": 8, "H": [1, 6, 21, 48, 78, 83, 52, 15, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 2) L=(2, 1, 2) {"|A|": 407, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 87, 44, 11, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 2) L=(2, 2, 1) {"|A|": 407, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 87, 44, 11, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 0, 2) L=(2, 2, 2) {"|A|": 545, "rho": 10, "H": [1, 6, 21, 50, 90, 123, 123, 85, 37, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 1, 0) L=(1, 1, 1) {"|A|": 93, "rho": 5, "H": [1, 5, 15, 27, 31, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 1, 0) L=(1, 1, 2) {"|A|": 125, "rho": 6, "H": [1, 5, 15, 28, 36, 29, 11], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 1, 1, 1, 1, 1, 0) L=(1, 2, 1) {"|A|": 125, "rho": 6, "H": [1, 5, 15, 28, 36, 29, 11], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 1, 1, 1, 1, 1, 0) L=(1, 2, 2) {"|A|": 165, "rho": 7, "H": [1, 5, 15, 29, 41, 40, 26, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 1, 1) L=(1, 1, 1) {"|A|": 239, "rho": 6, "H": [1, 6, 21, 47, 72, 66, 26], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 1, 1, 1, 1, 1, 1) L=(1, 1, 2) {"|A|": 321, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 61, 20], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 1, 1) L=(1, 2, 1) {"|A|": 321, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 61, 20], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 1, 1) L=(1, 2, 2) {"|A|": 431, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 94, 54, 16], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 1, 1) L=(2, 1, 1) {"|A|": 299, "rho": 7, "H": [1, 6, 21, 48, 78, 83, 50, 12], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 1, 1) L=(2, 1, 2) {"|A|": 401, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 87, 42, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 1, 1) L=(2, 2, 1) {"|A|": 401, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 87, 42, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 1, 1) L=(2, 2, 2) {"|A|": 543, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 125, 87, 35, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 1, 2, 0) L=(1, 1, 1) {"|A|": 237, "rho": 7, "H": [1, 6, 21, 47, 73, 62, 24, 3], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 1, 1, 1, 1, 2, 0) L=(1, 1, 2) {"|A|": 325, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 60, 18, 2], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 1, 1, 1, 1, 2, 0) L=(1, 2, 1) {"|A|": 325, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 60, 18, 2], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 1, 1, 1, 1, 2, 0) L=(1, 2, 2) {"|A|": 445, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 103, 56, 13, 1], "b1_firstfail": 7, "b2_firstfail": 7, "b3_firstfail": 7, "b0": null}
+three regions=(0, 1, 1, 1, 2, 0, 0) L=(1, 1, 1) {"|A|": 107, "rho": 7, "H": [1, 5, 15, 27, 31, 20, 7, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 2, 0, 0) L=(1, 1, 2) {"|A|": 131, "rho": 7, "H": [1, 5, 15, 28, 36, 29, 14, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 2, 0, 0) L=(2, 1, 1) {"|A|": 129, "rho": 7, "H": [1, 5, 15, 28, 36, 29, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 2, 0, 0) L=(2, 1, 2) {"|A|": 167, "rho": 8, "H": [1, 5, 15, 29, 41, 40, 26, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 2, 0, 1) L=(1, 1, 1) {"|A|": 263, "rho": 7, "H": [1, 6, 21, 47, 72, 69, 38, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 2, 0, 1) L=(1, 1, 2) {"|A|": 335, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 63, 27, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 2, 0, 1) L=(1, 2, 1) {"|A|": 335, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 63, 27, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 2, 0, 1) L=(1, 2, 2) {"|A|": 423, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 89, 51, 17, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 2, 0, 1) L=(2, 1, 1) {"|A|": 317, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 59, 18], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 2, 0, 1) L=(2, 1, 2) {"|A|": 429, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 94, 53, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 2, 0, 1) L=(2, 2, 1) {"|A|": 413, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 89, 48, 12], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 2, 0, 1) L=(2, 2, 2) {"|A|": 555, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 125, 89, 41, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 2, 1, 0) L=(1, 1, 1) {"|A|": 239, "rho": 7, "H": [1, 6, 21, 47, 72, 62, 26, 4], "b1_firstfail": 5, "b2_firstfail": 5, "b3_firstfail": 5, "b0": null}
+three regions=(0, 1, 1, 1, 2, 1, 0) L=(1, 1, 2) {"|A|": 327, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 61, 20, 3], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 1, 1, 1, 2, 1, 0) L=(1, 2, 1) {"|A|": 323, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 59, 21, 3], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 1, 1, 1, 2, 1, 0) L=(1, 2, 2) {"|A|": 435, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 96, 54, 16, 2], "b1_firstfail": 7, "b2_firstfail": 7, "b3_firstfail": 7, "b0": null}
+three regions=(0, 1, 1, 1, 2, 1, 0) L=(2, 1, 1) {"|A|": 309, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 55, 14], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 1, 1, 1, 2, 1, 0) L=(2, 1, 2) {"|A|": 423, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 96, 50, 10], "b1_firstfail": 7, "b2_firstfail": 7, "b3_firstfail": 7, "b0": null}
+three regions=(0, 1, 1, 1, 2, 1, 0) L=(2, 2, 1) {"|A|": 409, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 89, 46, 10], "b1_firstfail": 7, "b2_firstfail": 7, "b3_firstfail": 7, "b0": null}
+three regions=(0, 1, 1, 1, 2, 1, 0) L=(2, 2, 2) {"|A|": 559, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 127, 93, 41, 7], "b1_firstfail": 8, "b2_firstfail": 8, "b3_firstfail": 8, "b0": null}
+three regions=(0, 1, 1, 1, 3, 0, 0) L=(1, 1, 1) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 47, 73, 73, 44, 13, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 3, 0, 0) L=(1, 1, 2) {"|A|": 351, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 31, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 3, 0, 0) L=(2, 1, 1) {"|A|": 345, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 28, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 1, 3, 0, 0) L=(2, 1, 2) {"|A|": 463, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 103, 63, 22, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 2, 2, 0, 0) L=(1, 1, 1) {"|A|": 275, "rho": 8, "H": [1, 6, 21, 47, 72, 69, 41, 15, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 2, 2, 0, 0) L=(1, 1, 2) {"|A|": 341, "rho": 9, "H": [1, 6, 21, 48, 78, 86, 63, 29, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 2, 2, 0, 0) L=(1, 2, 1) {"|A|": 341, "rho": 9, "H": [1, 6, 21, 48, 78, 86, 63, 29, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 2, 2, 0, 0) L=(1, 2, 2) {"|A|": 425, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 89, 51, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 2, 2, 0, 0) L=(2, 1, 1) {"|A|": 343, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 66, 28, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 2, 2, 0, 0) L=(2, 1, 2) {"|A|": 443, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 96, 57, 20, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 2, 2, 0, 0) L=(2, 2, 1) {"|A|": 443, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 96, 57, 20, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 1, 2, 2, 0, 0) L=(2, 2, 2) {"|A|": 569, "rho": 10, "H": [1, 6, 21, 50, 90, 123, 127, 93, 45, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 0, 2) L=(1, 1, 1) {"|A|": 111, "rho": 7, "H": [1, 5, 15, 27, 32, 22, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 0, 2) L=(1, 1, 2) {"|A|": 145, "rho": 8, "H": [1, 5, 15, 28, 37, 33, 19, 6, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 0, 2) L=(1, 2, 1) {"|A|": 135, "rho": 7, "H": [1, 5, 15, 28, 36, 30, 16, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 0, 2) L=(1, 2, 2) {"|A|": 177, "rho": 8, "H": [1, 5, 15, 29, 41, 41, 29, 13, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 0, 3) L=(1, 1, 1) {"|A|": 291, "rho": 8, "H": [1, 6, 21, 47, 73, 76, 50, 16, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 0, 3) L=(1, 1, 2) {"|A|": 381, "rho": 9, "H": [1, 6, 21, 48, 79, 93, 78, 42, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 0, 3) L=(1, 2, 1) {"|A|": 363, "rho": 8, "H": [1, 6, 21, 48, 78, 90, 72, 37, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 0, 3) L=(1, 2, 2) {"|A|": 477, "rho": 9, "H": [1, 6, 21, 49, 84, 107, 102, 69, 31, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 0, 3) L=(2, 1, 1) {"|A|": 309, "rho": 8, "H": [1, 6, 21, 48, 78, 84, 54, 16, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 0, 3) L=(2, 1, 2) {"|A|": 417, "rho": 9, "H": [1, 6, 21, 49, 84, 104, 91, 48, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 0, 3) L=(2, 2, 1) {"|A|": 399, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 84, 41, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 0, 3) L=(2, 2, 2) {"|A|": 549, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 126, 88, 37, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 1, 2) L=(1, 1, 1) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 47, 73, 73, 44, 13, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 1, 2) L=(1, 1, 2) {"|A|": 373, "rho": 9, "H": [1, 6, 21, 48, 79, 93, 76, 38, 10, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 1, 2) L=(1, 2, 1) {"|A|": 351, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 31, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 0, 1, 2) L=(1, 2, 2) {"|A|": 477, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 105, 68, 27, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 1, 0, 1) L=(1, 1, 1) {"|A|": 109, "rho": 6, "H": [1, 5, 15, 27, 32, 22, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 1, 0, 1) L=(1, 1, 2) {"|A|": 143, "rho": 7, "H": [1, 5, 15, 28, 37, 33, 19, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 1, 0, 2) L=(1, 1, 1) {"|A|": 287, "rho": 8, "H": [1, 6, 21, 47, 72, 74, 47, 16, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 1, 0, 2) L=(1, 1, 2) {"|A|": 377, "rho": 9, "H": [1, 6, 21, 48, 78, 91, 76, 41, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 1, 0, 2) L=(1, 2, 1) {"|A|": 351, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 69, 32, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 1, 0, 2) L=(1, 2, 2) {"|A|": 461, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 99, 64, 26, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 1, 0, 2) L=(2, 1, 1) {"|A|": 317, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 56, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 1, 0, 2) L=(2, 1, 2) {"|A|": 437, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 97, 55, 16, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 1, 0, 2) L=(2, 2, 1) {"|A|": 399, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 85, 41, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 1, 0, 2) L=(2, 2, 2) {"|A|": 557, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 127, 91, 40, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 1, 1, 1) L=(1, 1, 1) {"|A|": 269, "rho": 7, "H": [1, 6, 21, 47, 73, 73, 40, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 1, 1, 1) L=(1, 1, 2) {"|A|": 365, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 76, 35, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 1, 1, 1) L=(1, 2, 1) {"|A|": 345, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 28, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 1, 1, 1) L=(1, 2, 2) {"|A|": 473, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 105, 68, 25, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 2, 0, 1) L=(1, 1, 1) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 47, 73, 76, 49, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 2, 0, 1) L=(1, 1, 2) {"|A|": 377, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 78, 41, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 2, 0, 1) L=(2, 1, 1) {"|A|": 329, "rho": 7, "H": [1, 6, 21, 48, 79, 90, 64, 20], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 2, 0, 1) L=(2, 1, 2) {"|A|": 461, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 105, 65, 19], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 2, 1, 0) L=(1, 1, 1) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 47, 74, 77, 48, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 0, 2, 1, 0) L=(1, 1, 2) {"|A|": 393, "rho": 8, "H": [1, 6, 21, 48, 80, 97, 84, 45, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 0, 1) L=(1, 1, 1) {"|A|": 109, "rho": 6, "H": [1, 5, 15, 27, 32, 22, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 0, 1) L=(1, 1, 2) {"|A|": 143, "rho": 7, "H": [1, 5, 15, 28, 37, 33, 19, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 0, 1) L=(1, 2, 1) {"|A|": 135, "rho": 7, "H": [1, 5, 15, 28, 36, 30, 16, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 0, 1) L=(1, 2, 2) {"|A|": 177, "rho": 8, "H": [1, 5, 15, 29, 41, 41, 29, 13, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 0, 2) L=(1, 1, 1) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 47, 73, 73, 44, 13, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 0, 2) L=(1, 1, 2) {"|A|": 373, "rho": 9, "H": [1, 6, 21, 48, 79, 93, 76, 38, 10, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 0, 2) L=(1, 2, 1) {"|A|": 351, "rho": 9, "H": [1, 6, 21, 48, 78, 87, 67, 33, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 0, 2) L=(1, 2, 2) {"|A|": 471, "rho": 10, "H": [1, 6, 21, 49, 84, 107, 100, 66, 29, 7, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 0, 2) L=(2, 1, 1) {"|A|": 309, "rho": 8, "H": [1, 6, 21, 48, 78, 84, 54, 16, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 0, 2) L=(2, 1, 2) {"|A|": 417, "rho": 9, "H": [1, 6, 21, 49, 84, 104, 91, 48, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 0, 2) L=(2, 2, 1) {"|A|": 411, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 88, 46, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 0, 2) L=(2, 2, 2) {"|A|": 559, "rho": 10, "H": [1, 6, 21, 50, 90, 123, 126, 91, 41, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 1, 1) L=(1, 1, 1) {"|A|": 269, "rho": 7, "H": [1, 6, 21, 47, 73, 73, 40, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 1, 1) L=(1, 1, 2) {"|A|": 365, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 76, 35, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 1, 1) L=(1, 2, 1) {"|A|": 345, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 28, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 0, 1, 1) L=(1, 2, 2) {"|A|": 473, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 105, 68, 25, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 1, 0, 0) L=(1, 1, 1) {"|A|": 109, "rho": 6, "H": [1, 5, 15, 27, 32, 22, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 1, 0, 0) L=(1, 1, 2) {"|A|": 143, "rho": 7, "H": [1, 5, 15, 28, 37, 33, 19, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 1, 0, 1) L=(1, 1, 1) {"|A|": 271, "rho": 7, "H": [1, 6, 21, 47, 72, 71, 42, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 1, 0, 1) L=(1, 1, 2) {"|A|": 367, "rho": 8, "H": [1, 6, 21, 48, 78, 91, 74, 38, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 1, 0, 1) L=(1, 2, 1) {"|A|": 337, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 64, 28, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 1, 0, 1) L=(1, 2, 2) {"|A|": 453, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 97, 61, 24, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 1, 0, 1) L=(2, 1, 1) {"|A|": 319, "rho": 7, "H": [1, 6, 21, 48, 78, 86, 60, 19], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 1, 0, 1) L=(2, 1, 2) {"|A|": 439, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 97, 58, 17], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 1, 0, 1) L=(2, 2, 1) {"|A|": 415, "rho": 8, "H": [1, 6, 21, 49, 84, 103, 89, 49, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 1, 0, 1) L=(2, 2, 2) {"|A|": 569, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 127, 94, 46, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 1, 1, 0) L=(1, 1, 1) {"|A|": 253, "rho": 6, "H": [1, 6, 21, 47, 73, 73, 32], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(0, 1, 2, 1, 1, 1, 0) L=(1, 1, 2) {"|A|": 353, "rho": 7, "H": [1, 6, 21, 48, 79, 93, 76, 29], "b1_firstfail": 7, "b2_firstfail": 7, "b3_firstfail": 7, "b0": null}
+three regions=(0, 1, 2, 1, 1, 1, 0) L=(1, 2, 1) {"|A|": 337, "rho": 7, "H": [1, 6, 21, 48, 79, 90, 68, 24], "b1_firstfail": 7, "b2_firstfail": 7, "b3_firstfail": 7, "b0": null}
+three regions=(0, 1, 2, 1, 1, 1, 0) L=(1, 2, 2) {"|A|": 467, "rho": 8, "H": [1, 6, 21, 49, 85, 110, 105, 68, 22], "b1_firstfail": 8, "b2_firstfail": 8, "b3_firstfail": 8, "b0": null}
+three regions=(0, 1, 2, 1, 2, 0, 0) L=(1, 1, 1) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 47, 73, 73, 44, 13, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 2, 0, 0) L=(1, 1, 2) {"|A|": 373, "rho": 9, "H": [1, 6, 21, 48, 79, 93, 76, 38, 10, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 2, 0, 0) L=(2, 1, 1) {"|A|": 345, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 28, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 1, 2, 0, 0) L=(2, 1, 2) {"|A|": 473, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 105, 68, 25, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 0, 0, 0) L=(1, 1, 1) {"|A|": 119, "rho": 7, "H": [1, 5, 15, 27, 33, 25, 11, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 0, 0, 0) L=(1, 2, 1) {"|A|": 147, "rho": 8, "H": [1, 5, 15, 28, 37, 33, 20, 7, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 0, 0, 1) L=(1, 1, 1) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 47, 73, 76, 49, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 0, 0, 1) L=(1, 1, 2) {"|A|": 377, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 78, 41, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 0, 0, 1) L=(1, 2, 1) {"|A|": 363, "rho": 8, "H": [1, 6, 21, 48, 78, 90, 72, 37, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 0, 0, 1) L=(1, 2, 2) {"|A|": 477, "rho": 9, "H": [1, 6, 21, 49, 84, 107, 102, 69, 31, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 0, 0, 1) L=(2, 1, 1) {"|A|": 325, "rho": 7, "H": [1, 6, 21, 48, 78, 87, 63, 21], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 0, 0, 1) L=(2, 1, 2) {"|A|": 427, "rho": 8, "H": [1, 6, 21, 49, 84, 104, 93, 54, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 0, 0, 1) L=(2, 2, 1) {"|A|": 439, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 97, 58, 17], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 0, 0, 1) L=(2, 2, 2) {"|A|": 577, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 128, 97, 49, 12], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 0, 1, 0) L=(1, 1, 1) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 47, 73, 76, 49, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 0, 1, 0) L=(1, 1, 2) {"|A|": 377, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 78, 41, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 0, 1, 0) L=(1, 2, 1) {"|A|": 375, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 77, 40, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 0, 1, 0) L=(1, 2, 2) {"|A|": 493, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 107, 74, 33, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 1, 0, 0) L=(1, 1, 1) {"|A|": 287, "rho": 8, "H": [1, 6, 21, 47, 72, 74, 47, 16, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 1, 0, 0) L=(1, 1, 2) {"|A|": 377, "rho": 9, "H": [1, 6, 21, 48, 78, 91, 76, 41, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 1, 0, 0) L=(1, 2, 1) {"|A|": 351, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 69, 32, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 1, 0, 0) L=(1, 2, 2) {"|A|": 461, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 99, 64, 26, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 1, 0, 0) L=(2, 1, 1) {"|A|": 349, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 69, 31, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 1, 0, 0) L=(2, 1, 2) {"|A|": 459, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 99, 64, 25, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 1, 0, 0) L=(2, 2, 1) {"|A|": 451, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 98, 61, 22, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 2, 1, 0, 0) L=(2, 2, 2) {"|A|": 593, "rho": 10, "H": [1, 6, 21, 50, 90, 123, 129, 100, 54, 17, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 3, 0, 0, 0) L=(1, 1, 1) {"|A|": 315, "rho": 8, "H": [1, 6, 21, 47, 74, 80, 58, 24, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 3, 0, 0, 0) L=(1, 2, 1) {"|A|": 399, "rho": 9, "H": [1, 6, 21, 48, 79, 94, 81, 48, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 3, 0, 0, 0) L=(2, 1, 1) {"|A|": 357, "rho": 8, "H": [1, 6, 21, 48, 79, 91, 72, 33, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 2, 3, 0, 0, 0) L=(2, 2, 1) {"|A|": 483, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 106, 71, 29, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 0, 0, 0, 2) L=(1, 1, 1) {"|A|": 299, "rho": 8, "H": [1, 6, 21, 47, 74, 78, 51, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 0, 0, 0, 2) L=(1, 1, 2) {"|A|": 409, "rho": 9, "H": [1, 6, 21, 48, 80, 98, 87, 50, 16, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 0, 0, 0, 2) L=(1, 2, 1) {"|A|": 363, "rho": 8, "H": [1, 6, 21, 48, 79, 91, 72, 36, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 0, 0, 0, 2) L=(1, 2, 2) {"|A|": 501, "rho": 9, "H": [1, 6, 21, 49, 85, 111, 109, 76, 35, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 0, 1, 0, 1) L=(1, 1, 1) {"|A|": 293, "rho": 7, "H": [1, 6, 21, 47, 74, 78, 51, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 0, 1, 0, 1) L=(1, 1, 2) {"|A|": 405, "rho": 8, "H": [1, 6, 21, 48, 80, 98, 87, 50, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 1, 0, 0, 1) L=(1, 1, 1) {"|A|": 293, "rho": 7, "H": [1, 6, 21, 47, 74, 78, 51, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 1, 0, 0, 1) L=(1, 1, 2) {"|A|": 405, "rho": 8, "H": [1, 6, 21, 48, 80, 98, 87, 50, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 1, 0, 0, 1) L=(1, 2, 1) {"|A|": 363, "rho": 8, "H": [1, 6, 21, 48, 79, 91, 72, 36, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 1, 0, 0, 1) L=(1, 2, 2) {"|A|": 501, "rho": 9, "H": [1, 6, 21, 49, 85, 111, 109, 76, 35, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 1, 1, 0, 0) L=(1, 1, 1) {"|A|": 293, "rho": 7, "H": [1, 6, 21, 47, 74, 78, 51, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 1, 1, 0, 0) L=(1, 1, 2) {"|A|": 405, "rho": 8, "H": [1, 6, 21, 48, 80, 98, 87, 50, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 2, 0, 0, 0) L=(1, 1, 1) {"|A|": 323, "rho": 8, "H": [1, 6, 21, 47, 74, 81, 60, 27, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 2, 0, 0, 0) L=(1, 1, 2) {"|A|": 425, "rho": 9, "H": [1, 6, 21, 48, 80, 98, 89, 56, 22, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 2, 0, 0, 0) L=(1, 2, 1) {"|A|": 399, "rho": 9, "H": [1, 6, 21, 48, 79, 94, 81, 48, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 1, 3, 2, 0, 0, 0) L=(1, 2, 2) {"|A|": 525, "rho": 10, "H": [1, 6, 21, 49, 85, 111, 111, 82, 43, 14, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 2, 2, 0, 0, 0, 2) L=(1, 1, 1) {"|A|": 291, "rho": 8, "H": [1, 6, 21, 47, 73, 76, 50, 16, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 2, 2, 0, 0, 0, 2) L=(1, 1, 2) {"|A|": 381, "rho": 9, "H": [1, 6, 21, 48, 79, 93, 78, 42, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 2, 2, 0, 0, 0, 2) L=(1, 2, 1) {"|A|": 381, "rho": 9, "H": [1, 6, 21, 48, 79, 93, 78, 42, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 2, 2, 0, 0, 0, 2) L=(1, 2, 2) {"|A|": 499, "rho": 10, "H": [1, 6, 21, 49, 85, 110, 107, 75, 35, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 2, 2, 0, 1, 0, 1) L=(1, 1, 1) {"|A|": 289, "rho": 7, "H": [1, 6, 21, 47, 73, 76, 50, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 2, 2, 0, 1, 0, 1) L=(1, 1, 2) {"|A|": 379, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 78, 42, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 2, 2, 0, 1, 0, 1) L=(1, 2, 1) {"|A|": 379, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 78, 42, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 2, 2, 0, 1, 0, 1) L=(1, 2, 2) {"|A|": 497, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 107, 75, 35, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 2, 2, 0, 2, 0, 0) L=(1, 1, 1) {"|A|": 315, "rho": 8, "H": [1, 6, 21, 47, 74, 80, 58, 24, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 2, 2, 0, 2, 0, 0) L=(1, 1, 2) {"|A|": 413, "rho": 9, "H": [1, 6, 21, 48, 80, 97, 86, 52, 19, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 2, 2, 1, 1, 0, 0) L=(1, 1, 1) {"|A|": 289, "rho": 7, "H": [1, 6, 21, 47, 73, 76, 50, 15], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 2, 2, 1, 1, 0, 0) L=(1, 1, 2) {"|A|": 379, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 78, 42, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 2, 2, 1, 1, 0, 0) L=(1, 2, 1) {"|A|": 379, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 78, 42, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(0, 2, 2, 1, 1, 0, 0) L=(1, 2, 2) {"|A|": 497, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 107, 75, 35, 8], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 1) L=(1, 1, 1) {"|A|": 43, "rho": 6, "H": [1, 4, 10, 13, 10, 4, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 2) L=(1, 1, 1) {"|A|": 115, "rho": 8, "H": [1, 5, 15, 27, 30, 21, 11, 4, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 2) L=(1, 1, 2) {"|A|": 133, "rho": 8, "H": [1, 5, 15, 28, 35, 28, 15, 5, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 2) L=(1, 2, 1) {"|A|": 133, "rho": 8, "H": [1, 5, 15, 28, 35, 28, 15, 5, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 2) L=(1, 2, 2) {"|A|": 161, "rho": 8, "H": [1, 5, 15, 29, 40, 37, 23, 9, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 2) L=(2, 1, 1) {"|A|": 133, "rho": 8, "H": [1, 5, 15, 28, 35, 28, 15, 5, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 2) L=(2, 1, 2) {"|A|": 161, "rho": 8, "H": [1, 5, 15, 29, 40, 37, 23, 9, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 2) L=(2, 2, 1) {"|A|": 161, "rho": 8, "H": [1, 5, 15, 29, 40, 37, 23, 9, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 2) L=(2, 2, 2) {"|A|": 205, "rho": 9, "H": [1, 5, 15, 30, 45, 48, 36, 18, 6, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 3) L=(1, 1, 1) {"|A|": 291, "rho": 9, "H": [1, 6, 21, 47, 72, 71, 46, 20, 6, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 3) L=(1, 1, 2) {"|A|": 345, "rho": 9, "H": [1, 6, 21, 48, 78, 86, 64, 31, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 3) L=(1, 2, 1) {"|A|": 345, "rho": 9, "H": [1, 6, 21, 48, 78, 86, 64, 31, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 3) L=(1, 2, 2) {"|A|": 429, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 89, 52, 20, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 3) L=(2, 1, 1) {"|A|": 345, "rho": 9, "H": [1, 6, 21, 48, 78, 86, 64, 31, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 3) L=(2, 1, 2) {"|A|": 429, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 89, 52, 20, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 3) L=(2, 2, 1) {"|A|": 429, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 89, 52, 20, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 0, 3) L=(2, 2, 2) {"|A|": 563, "rho": 10, "H": [1, 6, 21, 50, 90, 123, 123, 87, 44, 15, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 1, 1) L=(1, 1, 1) {"|A|": 107, "rho": 7, "H": [1, 5, 15, 27, 31, 20, 7, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 1, 1) L=(1, 1, 2) {"|A|": 131, "rho": 7, "H": [1, 5, 15, 28, 36, 29, 14, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 1, 1) L=(1, 2, 1) {"|A|": 131, "rho": 7, "H": [1, 5, 15, 28, 36, 29, 14, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 1, 1) L=(1, 2, 2) {"|A|": 169, "rho": 8, "H": [1, 5, 15, 29, 41, 40, 26, 10, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 1, 2) L=(1, 1, 1) {"|A|": 275, "rho": 8, "H": [1, 6, 21, 47, 72, 69, 41, 15, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 1, 2) L=(1, 1, 2) {"|A|": 341, "rho": 9, "H": [1, 6, 21, 48, 78, 86, 63, 29, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 1, 2) L=(1, 2, 1) {"|A|": 341, "rho": 9, "H": [1, 6, 21, 48, 78, 86, 63, 29, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 1, 2) L=(1, 2, 2) {"|A|": 447, "rho": 10, "H": [1, 6, 21, 49, 84, 106, 94, 56, 23, 6, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 1, 2) L=(2, 1, 1) {"|A|": 341, "rho": 9, "H": [1, 6, 21, 48, 78, 86, 63, 29, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 1, 2) L=(2, 1, 2) {"|A|": 425, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 89, 51, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 1, 2) L=(2, 2, 1) {"|A|": 425, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 89, 51, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 1, 2) L=(2, 2, 2) {"|A|": 563, "rho": 10, "H": [1, 6, 21, 50, 90, 123, 125, 89, 43, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 2, 1) L=(1, 1, 1) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 47, 73, 73, 43, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 2, 1) L=(1, 1, 2) {"|A|": 349, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 30, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 2, 1) L=(1, 2, 1) {"|A|": 349, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 30, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 0, 2, 1) L=(1, 2, 2) {"|A|": 465, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 103, 63, 23, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 1, 1, 0) L=(1, 1, 1) {"|A|": 107, "rho": 6, "H": [1, 5, 15, 27, 32, 21, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 1, 1, 0) L=(1, 1, 2) {"|A|": 139, "rho": 7, "H": [1, 5, 15, 28, 37, 32, 17, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 1, 1, 1) L=(1, 1, 1) {"|A|": 263, "rho": 7, "H": [1, 6, 21, 47, 72, 69, 38, 9], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 1, 1, 1) L=(1, 1, 2) {"|A|": 343, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 66, 28, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 1, 1, 1) L=(1, 2, 1) {"|A|": 335, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 63, 27, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 1, 1, 1) L=(1, 2, 2) {"|A|": 443, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 96, 57, 20, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 1, 1, 1) L=(2, 1, 1) {"|A|": 335, "rho": 8, "H": [1, 6, 21, 48, 78, 86, 63, 27, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 1, 1, 1) L=(2, 1, 2) {"|A|": 443, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 96, 57, 20, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 1, 1, 1) L=(2, 2, 1) {"|A|": 423, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 89, 51, 17, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 1, 1, 1) L=(2, 2, 2) {"|A|": 569, "rho": 10, "H": [1, 6, 21, 50, 90, 123, 127, 93, 45, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 1, 2, 0) L=(1, 1, 1) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 47, 73, 73, 43, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 1, 2, 0) L=(1, 1, 2) {"|A|": 369, "rho": 9, "H": [1, 6, 21, 48, 79, 93, 75, 36, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 1, 2, 0) L=(1, 2, 1) {"|A|": 349, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 30, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 0, 1, 2, 0) L=(1, 2, 2) {"|A|": 473, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 105, 67, 25, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 1, 1, 1, 0) L=(1, 1, 1) {"|A|": 251, "rho": 6, "H": [1, 6, 21, 47, 72, 72, 32], "b1_firstfail": 6, "b2_firstfail": 6, "b3_firstfail": 6, "b0": null}
+three regions=(1, 1, 1, 1, 1, 1, 0) L=(1, 1, 2) {"|A|": 335, "rho": 7, "H": [1, 6, 21, 48, 78, 89, 68, 24], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 1, 1, 1, 0) L=(1, 2, 1) {"|A|": 335, "rho": 7, "H": [1, 6, 21, 48, 78, 89, 68, 24], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 1, 1, 1, 0) L=(1, 2, 2) {"|A|": 443, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 98, 60, 18], "b1_firstfail": 8, "b2_firstfail": 8, "b3_firstfail": 8, "b0": null}
+three regions=(1, 1, 1, 1, 1, 1, 0) L=(2, 1, 1) {"|A|": 335, "rho": 7, "H": [1, 6, 21, 48, 78, 89, 68, 24], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 1, 1, 1, 1, 0) L=(2, 1, 2) {"|A|": 443, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 98, 60, 18], "b1_firstfail": 8, "b2_firstfail": 8, "b3_firstfail": 8, "b0": null}
+three regions=(1, 1, 1, 1, 1, 1, 0) L=(2, 2, 1) {"|A|": 443, "rho": 8, "H": [1, 6, 21, 49, 84, 106, 98, 60, 18], "b1_firstfail": 8, "b2_firstfail": 8, "b3_firstfail": 8, "b0": null}
+three regions=(1, 1, 1, 1, 1, 1, 0) L=(2, 2, 2) {"|A|": 583, "rho": 9, "H": [1, 6, 21, 50, 90, 123, 129, 99, 51, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 0, 0, 1) L=(1, 1, 1) {"|A|": 111, "rho": 7, "H": [1, 5, 15, 27, 32, 22, 8, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 0, 0, 1) L=(1, 1, 2) {"|A|": 145, "rho": 8, "H": [1, 5, 15, 28, 37, 33, 19, 6, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 0, 0, 2) L=(1, 1, 1) {"|A|": 291, "rho": 9, "H": [1, 6, 21, 47, 72, 71, 46, 20, 6, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 0, 0, 2) L=(1, 1, 2) {"|A|": 383, "rho": 10, "H": [1, 6, 21, 48, 78, 91, 74, 41, 17, 5, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 0, 0, 2) L=(1, 2, 1) {"|A|": 345, "rho": 9, "H": [1, 6, 21, 48, 78, 86, 64, 31, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 0, 0, 2) L=(1, 2, 2) {"|A|": 459, "rho": 10, "H": [1, 6, 21, 49, 84, 106, 97, 61, 26, 7, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 0, 0, 2) L=(2, 1, 1) {"|A|": 345, "rho": 9, "H": [1, 6, 21, 48, 78, 86, 64, 31, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 0, 0, 2) L=(2, 1, 2) {"|A|": 459, "rho": 10, "H": [1, 6, 21, 49, 84, 106, 97, 61, 26, 7, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 0, 0, 2) L=(2, 2, 1) {"|A|": 429, "rho": 9, "H": [1, 6, 21, 49, 84, 103, 89, 52, 20, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 0, 0, 2) L=(2, 2, 2) {"|A|": 579, "rho": 10, "H": [1, 6, 21, 50, 90, 123, 127, 94, 48, 16, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 0, 1, 1) L=(1, 1, 1) {"|A|": 279, "rho": 8, "H": [1, 6, 21, 47, 73, 73, 44, 13, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 0, 1, 1) L=(1, 1, 2) {"|A|": 373, "rho": 9, "H": [1, 6, 21, 48, 79, 93, 76, 38, 10, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 0, 1, 1) L=(1, 2, 1) {"|A|": 351, "rho": 8, "H": [1, 6, 21, 48, 79, 90, 68, 31, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 0, 1, 1) L=(1, 2, 2) {"|A|": 477, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 105, 68, 27, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 1, 1, 0) L=(1, 1, 1) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 47, 74, 77, 48, 13], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 0, 1, 1, 0) L=(1, 1, 2) {"|A|": 393, "rho": 8, "H": [1, 6, 21, 48, 80, 97, 84, 45, 11], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 1, 0, 0, 0) L=(1, 1, 1) {"|A|": 119, "rho": 7, "H": [1, 5, 15, 27, 33, 25, 11, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 1, 0, 0, 1) L=(1, 1, 1) {"|A|": 287, "rho": 8, "H": [1, 6, 21, 47, 72, 74, 47, 16, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 1, 0, 0, 1) L=(1, 1, 2) {"|A|": 377, "rho": 9, "H": [1, 6, 21, 48, 78, 91, 76, 41, 13, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 1, 0, 0, 1) L=(1, 2, 1) {"|A|": 351, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 69, 32, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 1, 0, 0, 1) L=(1, 2, 2) {"|A|": 461, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 99, 64, 26, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 1, 0, 0, 1) L=(2, 1, 1) {"|A|": 351, "rho": 8, "H": [1, 6, 21, 48, 78, 89, 69, 32, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 1, 0, 0, 1) L=(2, 1, 2) {"|A|": 461, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 99, 64, 26, 5], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 1, 0, 0, 1) L=(2, 2, 1) {"|A|": 453, "rho": 9, "H": [1, 6, 21, 49, 84, 106, 98, 61, 23, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 1, 0, 0, 1) L=(2, 2, 2) {"|A|": 595, "rho": 10, "H": [1, 6, 21, 50, 90, 123, 129, 100, 54, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 1, 0, 1, 0) L=(1, 1, 1) {"|A|": 287, "rho": 7, "H": [1, 6, 21, 47, 73, 76, 49, 14], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 1, 0, 1, 0) L=(1, 1, 2) {"|A|": 377, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 78, 41, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 1, 0, 1, 0) L=(1, 2, 1) {"|A|": 375, "rho": 8, "H": [1, 6, 21, 48, 79, 93, 77, 40, 10], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 1, 0, 1, 0) L=(1, 2, 2) {"|A|": 493, "rho": 9, "H": [1, 6, 21, 49, 85, 110, 107, 74, 33, 7], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 2, 0, 0, 0) L=(1, 1, 1) {"|A|": 315, "rho": 9, "H": [1, 6, 21, 47, 73, 78, 56, 25, 7, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 2, 0, 0, 0) L=(1, 2, 1) {"|A|": 385, "rho": 9, "H": [1, 6, 21, 48, 79, 93, 78, 43, 14, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 2, 0, 0, 0) L=(2, 1, 1) {"|A|": 385, "rho": 9, "H": [1, 6, 21, 48, 79, 93, 78, 43, 14, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 2, 2, 0, 0, 0) L=(2, 2, 1) {"|A|": 497, "rho": 10, "H": [1, 6, 21, 49, 85, 110, 107, 74, 34, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 3, 0, 0, 0, 1) L=(1, 1, 1) {"|A|": 299, "rho": 8, "H": [1, 6, 21, 47, 74, 78, 51, 18, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 3, 0, 0, 0, 1) L=(1, 1, 2) {"|A|": 409, "rho": 9, "H": [1, 6, 21, 48, 80, 98, 87, 50, 16, 2], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 3, 1, 0, 0, 0) L=(1, 1, 1) {"|A|": 323, "rho": 8, "H": [1, 6, 21, 47, 74, 81, 60, 27, 6], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 1, 3, 1, 0, 0, 0) L=(1, 1, 2) {"|A|": 425, "rho": 9, "H": [1, 6, 21, 48, 80, 98, 89, 56, 22, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 2, 2, 0, 0, 0, 1) L=(1, 1, 1) {"|A|": 291, "rho": 8, "H": [1, 6, 21, 47, 73, 76, 50, 16, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 2, 2, 0, 0, 0, 1) L=(1, 1, 2) {"|A|": 381, "rho": 9, "H": [1, 6, 21, 48, 79, 93, 78, 42, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 2, 2, 0, 0, 0, 1) L=(1, 2, 1) {"|A|": 381, "rho": 9, "H": [1, 6, 21, 48, 79, 93, 78, 42, 12, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 2, 2, 0, 0, 0, 1) L=(1, 2, 2) {"|A|": 499, "rho": 10, "H": [1, 6, 21, 49, 85, 110, 107, 75, 35, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 2, 2, 0, 1, 0, 0) L=(1, 1, 1) {"|A|": 315, "rho": 8, "H": [1, 6, 21, 47, 74, 80, 58, 24, 4], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(1, 2, 2, 0, 1, 0, 0) L=(1, 1, 2) {"|A|": 413, "rho": 9, "H": [1, 6, 21, 48, 80, 97, 86, 52, 19, 3], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}
+three regions=(2, 2, 2, 0, 0, 0, 0) L=(1, 1, 1) {"|A|": 343, "rho": 9, "H": [1, 6, 21, 47, 75, 84, 66, 33, 9, 1], "b1_firstfail": null, "b0": 1, "b0_upto_rho": 1}

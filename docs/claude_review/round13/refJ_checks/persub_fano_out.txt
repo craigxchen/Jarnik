@@ -1,0 +1,28 @@
+k=12 Fano span U (proved rho<=3j): o=1413 oQ-d=1561.144 fails for abar >= 5.2624007 (W >= 43099.062 = 0.9606 W_min); direct=True eta=5.34e-5 mixing_ok=True
+k=12 coordinate L_2 (rho<=4j): o=1132 oQ-d=436.3196 fails for abar >= 17.934709 (W >= 146885.27 = 3.274 W_min); direct=True eta=5.15e-16 mixing_ok=True
+k=12 8-cell XOR span (CONDITIONAL rho<=4j): o=1132 oQ-d=4976.507 fails for abar >= 1.5728864 (W >= 12881.94 = 0.2871 W_min); direct=True eta=0.00367 mixing_ok=False
+k=12 coordinate L_3 (rho<=6j): o=570 oQ-d=472.8082 fails for abar >= 14.90284 (W >= 122054.26 = 2.72 W_min); direct=True eta=2.34e-26 mixing_ok=True
+k=13 Fano span U (proved rho<=3j): o=2066 oQ-d=76.02785 fails for abar >= 158.09173 (W >= 2589858.7 = 24.26 W_min); direct=True eta=8.59e-138 mixing_ok=True
+k=13 coordinate L_2 (rho<=4j): o=1654 oQ-d=-1572.576 <= 0: no failure
+k=13 8-cell XOR span (CONDITIONAL rho<=4j): o=1654 oQ-d=5052.318 fails for abar >= 2.2661747 (W >= 37124.474 = 0.3477 W_min); direct=True eta=0.00023 mixing_ok=False
+k=13 coordinate L_3 (rho<=6j): o=830 oQ-d=-1545.321 <= 0: no failure
+k=14 Fano span U (proved rho<=3j): o=3017 oQ-d=-4312.79 <= 0: no failure
+k=14 coordinate L_2 (rho<=4j): o=2415 oQ-d=-6721.231 <= 0: no failure
+k=14 8-cell XOR span (CONDITIONAL rho<=4j): o=2415 oQ-d=2945.258 fails for abar >= 5.6769246 (W >= 186010.11 = 0.7513 W_min); direct=True eta=2.72e-10 mixing_ok=True
+k=14 coordinate L_3 (rho<=6j): o=1211 oQ-d=-6690.859 <= 0: no failure
+k=15 Fano span U (proved rho<=3j): o=4397 oQ-d=-15177.39 <= 0: no failure
+k=15 coordinate L_2 (rho<=4j): o=3519 oQ-d=-18689.71 <= 0: no failure
+k=15 8-cell XOR span (CONDITIONAL rho<=4j): o=3519 oQ-d=-4608.985 <= 0: no failure
+k=15 coordinate L_3 (rho<=6j): o=1763 oQ-d=-18659.99 <= 0: no failure
+k=16 Fano span U (proved rho<=3j): o=6397 oQ-d=-39945.83 <= 0: no failure
+k=16 coordinate L_2 (rho<=4j): o=5119 oQ-d=-45058.06 <= 0: no failure
+k=16 8-cell XOR span (CONDITIONAL rho<=4j): o=5119 oQ-d=-24578.63 <= 0: no failure
+k=16 coordinate L_3 (rho<=6j): o=2563 oQ-d=-45028.81 <= 0: no failure
+k=17 Fano span U (proved rho<=3j): o=9291 oQ-d=-93906.15 <= 0: no failure
+k=17 coordinate L_2 (rho<=4j): o=7433 oQ-d=-101338.3 <= 0: no failure
+k=17 8-cell XOR span (CONDITIONAL rho<=4j): o=7433 oQ-d=-71603.82 <= 0: no failure
+k=17 coordinate L_3 (rho<=6j): o=3717 oQ-d=-101333.4 <= 0: no failure
+k=18 Fano span U (proved rho<=3j): o=13483 oQ-d=-208210.4 <= 0: no failure
+k=18 coordinate L_2 (rho<=4j): o=10788 oQ-d=-218990.5 <= 0: no failure
+k=18 8-cell XOR span (CONDITIONAL rho<=4j): o=10788 oQ-d=-175836.7 <= 0: no failure
+k=18 coordinate L_3 (rho<=6j): o=5398 oQ-d=-218957.8 <= 0: no failure

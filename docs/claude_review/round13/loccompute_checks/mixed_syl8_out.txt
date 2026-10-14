@@ -1,0 +1,8 @@
+Syl(8,2) m=8
+   b=1: L=[0, 0, 0, 0, 0, 7, 49, 162, 294] J(A)=[0, 0, 0, 0, 0, 7, 70, 218, 315] eq=[True, True, True, True, True, True, False, False, False]
+   b=2: L=[0, 0, 0, 0, 0, 7, 49, 162, 294] J(A)=[0, 0, 0, 0, 0, 7, 70, 218, 315] eq=[True, True, True, True, True, True, False, False, False]
+   b=3: L=[0, 0, 0, 0, 0, 7, 70, 218, 315] J(A)=[0, 0, 0, 0, 0, 7, 70, 218, 315] eq=[True, True, True, True, True, True, True, True, True]
+{'|A|': 1037, 'rho': 8, 'm': 8, 'b0_mixed': 3}
+Syl(8,3) m=11
+   b=1: L=[0, 0, 0, 0, 0, 0, 0, 7, 28, 71, 98, 70] J(A)=[0, 0, 0, 0, 0, 0, 0, 7, 28, 71, 98, 70] eq=[True, True, True, True, True, True, True, True, True, True, True, True]
+{'|A|': 1877, 'rho': 11, 'm': 11, 'b0_mixed': 1}

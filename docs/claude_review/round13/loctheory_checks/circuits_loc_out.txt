@@ -1,0 +1,18 @@
+t=2 F=[1, 2, 3] j=2 |P|=63 H_P(modp)=[1, 3, 6, 10, 15, 18, 10] rho<= 6
+   b=1: deficits dim J(P)_i - dim L_b,i (i=0..7) = [0, 0, 0, 0, 0, 0, 9, 18]  
+   b=2: deficits dim J(P)_i - dim L_b,i (i=0..7) = [0, 0, 0, 0, 0, 0, 9, 18]  
+   b=3: deficits dim J(P)_i - dim L_b,i (i=0..7) = [0, 0, 0, 0, 0, 0, 0, 0]  LOCAL (certified)
+t=2 F=[1, 2, 3] j=3 |P|=171 H_P(modp)=[1, 3, 6, 10, 15, 21, 28, 33, 36, 18] rho<= 9
+   b=1: deficits dim J(P)_i - dim L_b,i (i=0..10) = [0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 36]  
+   b=2: deficits dim J(P)_i - dim L_b,i (i=0..10) = [0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 36]  
+   b=3: deficits dim J(P)_i - dim L_b,i (i=0..10) = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  LOCAL (certified)
+t=3 F=[1, 2, 4, 7] j=2 |P|=313 H_P(modp)=[1, 4, 10, 20, 35, 52, 68, 80, 43] rho<= 8
+   b=1: deficits dim J(P)_i - dim L_b,i (i=0..9) = [0, 0, 0, 0, 0, 0, 0, 0, 42, 80]  
+   b=2: deficits dim J(P)_i - dim L_b,i (i=0..9) = [0, 0, 0, 0, 0, 0, 0, 0, 42, 80]  
+   b=3: deficits dim J(P)_i - dim L_b,i (i=0..9) = [0, 0, 0, 0, 0, 0, 0, 0, 42, 80]  
+   b=4: deficits dim J(P)_i - dim L_b,i (i=0..9) = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  LOCAL (certified)
+t=3 F=[1, 2, 3, 4, 5] j=2 |P|=795 H_P(modp)=[1, 5, 15, 35, 70, 121, 167, 183, 136, 53, 9] rho<= 10
+   b=1: deficits dim J(P)_i - dim L_b,i (i=0..11) = [0, 0, 0, 0, 0, 0, 18, 72, 184, 312, 372, 365]  
+   b=2: deficits dim J(P)_i - dim L_b,i (i=0..11) = [0, 0, 0, 0, 0, 0, 18, 72, 184, 312, 372, 365]  
+   b=3: deficits dim J(P)_i - dim L_b,i (i=0..11) = [0, 0, 0, 0, 0, 0, 0, 0, 28, 52, 16, 0]  
+   b=4: deficits dim J(P)_i - dim L_b,i (i=0..11) = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  LOCAL (certified)

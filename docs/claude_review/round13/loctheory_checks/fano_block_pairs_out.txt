@@ -1,0 +1,3 @@
+cheap directions: 43
+families of <= 1 cheap directions: deficits (degree, dim J - dim_p L) = [(6, 63), (7, 728)]
+families of <= 2 cheap directions: deficits (degree, dim J - dim_p L) = [(6, 7), (7, 302)]

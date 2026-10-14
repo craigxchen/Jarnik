@@ -1,0 +1,6 @@
+width gens (orbit reps, exact): [(5, 2), (7, 17)]
+  with congruence families: 65 gens
+(1) J_w + all 5-col families (only the congruence ones are not full boxes): #rows 2470, EXACT dim_Q P_0(L_7) = 82  (invariant coords: 822) [125s]
+(2) invariant polys deg<=7: 1589 unknowns; exact lifted kernel vectors with new top forms: 0 [356s]
+(3) exact vanishing invariant polys found: 0; rank_p(rows + their top forms) = 82 > r0 = 82: False
+VERDICT: no certificate [357s]

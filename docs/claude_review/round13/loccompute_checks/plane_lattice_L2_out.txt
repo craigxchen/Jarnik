@@ -1,0 +1,5 @@
+L=2: |P| = 2605, det U = -32 [0s]
+  H_P = [1, 7, 28, 84, 210, 455, 812, 756, 252]  rho = 8 [119s]
+  J(P)        = [0, 0, 0, 0, 0, 7, 112, 960, 2751, 5005]
+  J_w(R=1) [25 orbit reps] = [0, 0, 0, 0, 0, 7, 49, 232, 840, 2485]  cum_eq=[True, True, True, True, True, True, False, False, False, False] [126s]
+  J_w + 7 line pullbacks = [0, 0, 0, 0, 0, 7, 112, 582, 1862, 4459]  cum_eq=[True, True, True, True, True, True, True, False, False, False] [142s]

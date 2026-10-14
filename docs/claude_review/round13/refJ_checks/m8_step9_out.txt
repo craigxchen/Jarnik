@@ -1,0 +1,29 @@
+column pair (1,2): |Y| = 25  full grid: True
+all 21 column pairs full grid: True
+all 28 non-line triples full cube: True
+Fano triple (1,2,3): |Y| = 57  subset of parity lattice box (63 pts): True  missing: [(-2, -2, 2), (-2, 2, -2), (-2, 2, 2), (2, -2, -2), (2, -2, 2), (2, 2, -2)]
+  line (1,2,3) plane span(z, 1c_a-0c_b): |Y|=21 rho=6 #deg6 gens=1
+  line (1,2,3) plane span(z, -4c_a-1c_b): |Y|=55 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, -3c_a-1c_b): |Y|=47 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, -2c_a-1c_b): |Y|=35 rho=8 #deg6 gens=1
+  line (1,2,3) plane span(z, -1c_a-1c_b): |Y|=21 rho=6 #deg6 gens=1
+  line (1,2,3) plane span(z, 0c_a-1c_b): |Y|=21 rho=6 #deg6 gens=1
+  line (1,2,3) plane span(z, 1c_a-1c_b): |Y|=35 rho=8 #deg6 gens=1
+  line (1,2,3) plane span(z, 2c_a-1c_b): |Y|=47 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, 3c_a-1c_b): |Y|=55 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, 4c_a-1c_b): |Y|=57 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, -3c_a-2c_b): |Y|=47 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, -1c_a-2c_b): |Y|=35 rho=8 #deg6 gens=1
+  line (1,2,3) plane span(z, 1c_a-2c_b): |Y|=47 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, 3c_a-2c_b): |Y|=57 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, -4c_a-3c_b): |Y|=55 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, -2c_a-3c_b): |Y|=47 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, -1c_a-3c_b): |Y|=47 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, 1c_a-3c_b): |Y|=55 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, 2c_a-3c_b): |Y|=57 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, 4c_a-3c_b): |Y|=57 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, -3c_a-4c_b): |Y|=55 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, -1c_a-4c_b): |Y|=55 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, 1c_a-4c_b): |Y|=57 rho=None #deg6 gens=1
+  line (1,2,3) plane span(z, 3c_a-4c_b): |Y|=57 rho=None #deg6 gens=1
+degree-6 gain over J_w, all 7 lines: admissible pencil planes (rho<8): 14 ; all pencil planes |n|<=4: 14

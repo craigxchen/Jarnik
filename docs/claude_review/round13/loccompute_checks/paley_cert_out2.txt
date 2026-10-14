@@ -1,0 +1,2 @@
+width gens (orbit reps, exact): [(5, 2), (7, 17)]
+(1) J_w(R=1) = L_cols(4): #rows 149, EXACT dim_Q P_0(L_7) = 72  (invariant coords: 822) [30s]

@@ -1,0 +1,1 @@
+exact dim_Q L_col(3)_4 = 15;  mod-p dim of mixed(3) local ideal in degree 4 = 18 (lower bound for dim_Q J(A)_4); non-local for columns: True

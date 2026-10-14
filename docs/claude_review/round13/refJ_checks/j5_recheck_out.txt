@@ -1,0 +1,72 @@
+k=12 n=4096 w=563.8235751 j=281 m'=2256 m_max~2631 R1(exact)=True regime(d>=316ln4r)=True
+   Q_b=['2.0004885', '4.0029326', '8.0136986', '16.058824'] o_b=[1694, 1132, 570, 8]
+   caseA: fails for Q0<Q4 when Q0*g >= 2ln15=5.4161;  caseB: o1*Q4-d=23108.647 g*(Q4)=0.67769262 direct_check=True side_conditions=True eta=0.069601 grid[Q4,1e6]_ok=True
+   C-dependence of case B threshold: + 8.6548e-5 * ln(1/C);  near-extremal level g_ne=(3n ln n-14n)/(2d)=5.47799; uniform failure for all Q0 at g >= 5.4161
+   per-subspace b=1: o_b Q_b - d = -706.17245 <= 0 : no failure from this span
+   per-subspace b=2: o_b Q_b - d = 436.31965 > 0, fails for g >= 17.934709 (W >= 146885.3, W/W_min = 3.274); direct=True eta=5.154e-16<=1/2:True mixing_ok=True
+   per-subspace b=3: o_b Q_b - d = 472.80822 > 0, fails for g >= 14.90284 (W >= 122054.3, W/W_min = 2.72); direct=True eta=2.337e-26<=1/2:True mixing_ok=True
+   per-subspace b=4: o_b Q_b - d = -3966.5294 <= 0 : no failure from this span
+k=13 n=8192 w=825.4091272 j=412 m'=3302 m_max~5260 R1(exact)=True regime(d>=316ln4r)=True
+   Q_b=['2.0002442', '4.0014656', '8.0068426', '16.029354'] o_b=[2478, 1654, 830, 6]
+   caseA: fails for Q0<Q4 when Q0*g >= 2ln15=5.4161;  caseB: o1*Q4-d=31529.74 g*(Q4)=0.72642244 direct_check=True side_conditions=True eta=0.047478 grid[Q4,1e6]_ok=True
+   C-dependence of case B threshold: + 6.3432e-5 * ln(1/C);  near-extremal level g_ne=(3n ln n-14n)/(2d)=6.51717; uniform failure for all Q0 at g >= 5.4161
+   per-subspace b=1: o_b Q_b - d = -3234.3949 <= 0 : no failure from this span
+   per-subspace b=2: o_b Q_b - d = -1572.576 <= 0 : no failure from this span
+   per-subspace b=3: o_b Q_b - d = -1545.3206 <= 0 : no failure from this span
+   per-subspace b=4: o_b Q_b - d = -8094.8239 <= 0 : no failure from this span
+k=14 n=16384 w=1205.627751 j=602 m'=4823 m_max~10518 R1(exact)=True regime(d>=316ln4r)=True
+   Q_b=['2.0001221', '4.0007326', '8.0034196', '16.014663'] o_b=[3619, 2415, 1211, 7]
+   caseA: fails for Q0<Q4 when Q0*g >= 2ln15=5.4161;  caseB: o1*Q4-d=41574.065 g*(Q4)=0.80446354 direct_check=True side_conditions=True eta=0.025526 grid[Q4,1e6]_ok=True
+   C-dependence of case B threshold: + 4.8107e-5 * ln(1/C);  near-extremal level g_ne=(3n ln n-14n)/(2d)=7.55655; uniform failure for all Q0 at g >= 5.4161
+   per-subspace b=1: o_b Q_b - d = -9144.5582 <= 0 : no failure from this span
+   per-subspace b=2: o_b Q_b - d = -6721.2308 <= 0 : no failure from this span
+   per-subspace b=3: o_b Q_b - d = -6690.8588 <= 0 : no failure from this span
+   per-subspace b=4: o_b Q_b - d = -16270.897 <= 0 : no failure from this span
+k=15 n=32768 w=1757.518734 j=878 m'=7031 m_max~21034 R1(exact)=True regime(d>=316ln4r)=True
+   Q_b=['2.000061', '4.0003663', '8.0017094', '16.007328'] o_b=[5275, 3519, 1763, 7]
+   caseA: fails for Q0<Q4 when Q0*g >= 2ln15=5.4161;  caseB: o1*Q4-d=51671.654 g*(Q4)=0.94339842 direct_check=True side_conditions=True eta=0.0084165 grid[Q4,1e6]_ok=True
+   C-dependence of case B threshold: + 3.8706e-5 * ln(1/C);  near-extremal level g_ne=(3n ln n-14n)/(2d)=8.59607; uniform failure for all Q0 at g >= 5.4161
+   per-subspace b=1: o_b Q_b - d = -22216.678 <= 0 : no failure from this span
+   per-subspace b=2: o_b Q_b - d = -18689.711 <= 0 : no failure from this span
+   per-subspace b=3: o_b Q_b - d = -18659.986 <= 0 : no failure from this span
+   per-subspace b=4: o_b Q_b - d = -32654.949 <= 0 : no failure from this span
+k=16 n=65536 w=2557.586688 j=1278 m'=10231 m_max~42065 R1(exact)=True regime(d>=316ln4r)=True
+   Q_b=['2.0000305', '4.0001831', '8.0008546', '16.003663'] o_b=[7675, 5119, 2563, 7]
+   caseA: fails for Q0<Q4 when Q0*g >= 2ln15=5.4161;  caseB: o1*Q4-d=57293.114 g*(Q4)=1.2379433 direct_check=True side_conditions=True eta=0.00079834 grid[Q4,1e6]_ok=True
+   C-dependence of case B threshold: + 3.4908e-5 * ln(1/C);  near-extremal level g_ne=(3n ln n-14n)/(2d)=9.63568; uniform failure for all Q0 at g >= 5.4161
+   per-subspace b=1: o_b Q_b - d = -50184.766 <= 0 : no failure from this span
+   per-subspace b=2: o_b Q_b - d = -45058.063 <= 0 : no failure from this span
+   per-subspace b=3: o_b Q_b - d = -45028.81 <= 0 : no failure from this span
+   per-subspace b=4: o_b Q_b - d = -65422.974 <= 0 : no failure from this span
+k=17 n=131072 w=3716.102677 j=1858 m'=14865 m_max~84126 R1(exact)=True regime(d>=316ln4r)=True
+   Q_b=['2.0000153', '4.0000916', '8.0004273', '16.001831'] o_b=[11149, 7433, 3717, 1]
+   caseA: fails for Q0<Q4 when Q0*g >= 2ln15=5.4161;  caseB: o1*Q4-d=47333.417 g*(Q4)=2.1768148 direct_check=True side_conditions=True eta=4.368e-7 grid[Q4,1e6]_ok=True
+   C-dependence of case B threshold: + 4.2253e-5 * ln(1/C);  near-extremal level g_ne=(3n ln n-14n)/(2d)=10.6753; uniform failure for all Q0 at g >= 5.4161
+   per-subspace b=1: o_b Q_b - d = -108772.83 <= 0 : no failure from this span
+   per-subspace b=2: o_b Q_b - d = -101338.32 <= 0 : no failure from this span
+   per-subspace b=3: o_b Q_b - d = -101333.41 <= 0 : no failure from this span
+   per-subspace b=4: o_b Q_b - d = -131055.0 <= 0 : no failure from this span
+k=18 n=262144 w=5391.899574 j=2695 m'=21568 m_max~168247 R1(lgamma,evidence)=True regime(d>=316ln4r)=True
+   Q_b=['2.0000076', '4.0000458', '8.0002136', '16.000916'] o_b=[16178, 10788, 5398, 8]
+   caseA: fails for Q0<Q4 when Q0*g >= 2ln15=5.4161;  caseB: o1*Q4-d=-3280.1877 g*(Q4)=+inf direct_check=None side_conditions=None eta=- grid[Q4,1e6]_ok=None
+   C-dependence of case B threshold: + - * ln(1/C);  near-extremal level g_ne=(3n ln n-14n)/(2d)=11.715; uniform failure for all Q0 at g >= +inf
+   per-subspace b=1: o_b Q_b - d = -229786.88 <= 0 : no failure from this span
+   per-subspace b=2: o_b Q_b - d = -218990.51 <= 0 : no failure from this span
+   per-subspace b=3: o_b Q_b - d = -218957.85 <= 0 : no failure from this span
+   per-subspace b=4: o_b Q_b - d = -262014.99 <= 0 : no failure from this span
+k=19 n=524288 w=7813.612825 j=3906 m'=31255 m_max~336490 R1(lgamma,evidence)=True regime(d>=316ln4r)=True
+   Q_b=['2.0000038', '4.0000229', '8.0001068', '16.000458'] o_b=[23443, 15631, 7819, 7]
+   caseA: fails for Q0<Q4 when Q0*g >= 2ln15=5.4161;  caseB: o1*Q4-d=-149188.27 g*(Q4)=+inf direct_check=None side_conditions=None eta=- grid[Q4,1e6]_ok=None
+   C-dependence of case B threshold: + - * ln(1/C);  near-extremal level g_ne=(3n ln n-14n)/(2d)=12.7547; uniform failure for all Q0 at g >= +inf
+   per-subspace b=1: o_b Q_b - d = -477400.91 <= 0 : no failure from this span
+   per-subspace b=2: o_b Q_b - d = -461762.64 <= 0 : no failure from this span
+   per-subspace b=3: o_b Q_b - d = -461734.16 <= 0 : no failure from this span
+   per-subspace b=4: o_b Q_b - d = -524175.0 <= 0 : no failure from this span
+k=20 n=1048576 w=11310.16135 j=5655 m'=45241 m_max~672975 R1(lgamma,evidence)=True regime(d>=316ln4r)=True
+   Q_b=['2.0000019', '4.0000114', '8.0000534', '16.000229'] o_b=[33931, 22621, 11311, 1]
+   caseA: fails for Q0<Q4 when Q0*g >= 2ln15=5.4161;  caseB: o1*Q4-d=-505671.23 g*(Q4)=+inf direct_check=None side_conditions=None eta=- grid[Q4,1e6]_ok=None
+   C-dependence of case B threshold: + - * ln(1/C);  near-extremal level g_ne=(3n ln n-14n)/(2d)=13.7944; uniform failure for all Q0 at g >= +inf
+   per-subspace b=1: o_b Q_b - d = -980712.94 <= 0 : no failure from this span
+   per-subspace b=2: o_b Q_b - d = -958090.74 <= 0 : no failure from this span
+   per-subspace b=3: o_b Q_b - d = -958086.4 <= 0 : no failure from this span
+   per-subspace b=4: o_b Q_b - d = -1048559.0 <= 0 : no failure from this span

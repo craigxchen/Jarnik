@@ -1,0 +1,28 @@
+1D j=1: dim G_e = [1, 1, 1], lambda_j = -1
+1D j=2: dim G_e = [1, 1, 1, 1, 1], lambda_j = 1
+1D j=3: dim G_e = [1, 1, 1, 1, 1, 1, 1], lambda_j = -1
+1D j=4: dim G_e = [1, 1, 1, 1, 1, 1, 1, 1, 1], lambda_j = 1
+1D j=5: dim G_e = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], lambda_j = -1
+b=2 code gens=[(0, 1)] j=1: |P|=5 orbit formula [1, 2, 2] direct [1, 2, 2]  EQUAL
+b=2 code gens=[(0, 1)] j=2: |P|=13 orbit formula [1, 2, 3, 4, 3] direct [1, 2, 3, 4, 3]  EQUAL
+b=2 code gens=[(0, 1)] j=3: |P|=25 orbit formula [1, 2, 3, 4, 5, 6, 4] direct [1, 2, 3, 4, 5, 6, 4]  EQUAL
+b=3 code gens=[(0, 1, 2)] j=1: |P|=13 orbit formula [1, 3, 6, 3] direct [1, 3, 6, 3]  EQUAL
+b=3 code gens=[(0, 1, 2)] j=2: |P|=63 orbit formula [1, 3, 6, 10, 15, 18, 10] direct [1, 3, 6, 10, 15, 18, 10]  EQUAL
+b=3 code gens=[(0, 1, 2)] j=3: |P|=171 orbit formula [1, 3, 6, 10, 15, 21, 28, 33, 36, 18] direct [1, 3, 6, 10, 15, 21, 28, 33, 36, 18]  EQUAL
+b=4 code gens=[(0, 1, 2, 3)] j=1: |P|=41 orbit formula [1, 4, 10, 16, 10] direct [1, 4, 10, 16, 10]  EQUAL
+b=4 code gens=[(0, 1, 2, 3)] j=2: |P|=313 orbit formula [1, 4, 10, 20, 35, 52, 68, 80, 43] direct [1, 4, 10, 20, 35, 52, 68, 80, 43]  EQUAL
+b=4 code gens=[(0, 1, 2, 3)] j=3: |P|=1201 orbit formula [1, 4, 10, 20, 35, 56, 84, 116, 149, 180, 206, 224, 116] direct [1, 4, 10, 20, 35, 56, 84, 116, 149, 180, 206, 224, 116]  EQUAL
+b=4 code gens=[(0, 1, 2)] j=1: |P|=39 orbit formula [1, 4, 10, 12, 9, 3] direct [1, 4, 10, 12, 9, 3]  EQUAL
+b=4 code gens=[(0, 1, 2)] j=2: |P|=315 orbit formula [1, 4, 10, 20, 35, 52, 59, 53, 43, 28, 10] direct [1, 4, 10, 20, 35, 52, 59, 53, 43, 28, 10]  EQUAL
+b=4 code gens=[(0, 1, 2)] j=3: |P|=1197 orbit formula [1, 4, 10, 20, 35, 56, 84, 116, 149, 161, 151, 136, 115, 87, 54, 18] direct [1, 4, 10, 20, 35, 56, 84, 116, 149, 161, 151, 136, 115, 87, 54, 18]  EQUAL
+b=5 code gens=[(0, 1, 2), (0, 3, 4)] j=1: |P|=57 orbit formula [1, 5, 15, 22, 13, 1] direct [1, 5, 15, 22, 13, 1]  EQUAL
+b=5 code gens=[(0, 1, 2), (0, 3, 4)] j=2: |P|=795 orbit formula [1, 5, 15, 35, 70, 121, 167, 183, 136, 53, 9] direct [1, 5, 15, 35, 70, 121, 167, 183, 136, 53, 9]  EQUAL
+b=4 code gens=[(0, 1), (2, 3)] j=1: |P|=25 orbit formula [1, 4, 8, 8, 4] direct [1, 4, 8, 8, 4]  EQUAL
+b=4 code gens=[(0, 1), (2, 3)] j=2: |P|=169 orbit formula [1, 4, 10, 20, 31, 36, 34, 24, 9] direct [1, 4, 10, 20, 31, 36, 34, 24, 9]  EQUAL
+b=4 code gens=[(0, 1), (2, 3)] j=3: |P|=625 orbit formula [1, 4, 10, 20, 35, 56, 78, 92, 97, 92, 76, 48, 16] direct [1, 4, 10, 20, 35, 56, 78, 92, 97, 92, 76, 48, 16]  EQUAL
+b=4 code gens=[(0, 1, 2), (1, 2, 3)] j=1: |P|=21 orbit formula [1, 4, 9, 6, 1] direct [1, 4, 9, 6, 1]  EQUAL
+b=4 code gens=[(0, 1, 2), (1, 2, 3)] j=2: |P|=165 orbit formula [1, 4, 10, 20, 33, 44, 36, 14, 3] direct [1, 4, 10, 20, 33, 44, 36, 14, 3]  EQUAL
+b=4 code gens=[(0, 1, 2), (1, 2, 3)] j=3: |P|=609 orbit formula [1, 4, 10, 20, 35, 56, 81, 104, 123, 102, 52, 18, 3] direct [1, 4, 10, 20, 35, 56, 81, 104, 123, 102, 52, 18, 3]  EQUAL
+b=5 code gens=[(0, 1, 2, 3, 4)] j=1: |P|=121 orbit formula [1, 5, 15, 30, 45, 25] direct [1, 5, 15, 30, 45, 25]  EQUAL
+b=5 code gens=[(0, 1, 2, 3, 4)] j=2: |P|=1563 orbit formula [1, 5, 15, 35, 70, 121, 185, 255, 320, 365, 191] direct [1, 5, 15, 35, 70, 121, 185, 255, 320, 365, 191]  EQUAL
+b=6 code gens=[(0, 1, 2), (0, 3, 4), (1, 3, 5)] j=1: |P|=81 orbit formula [1, 6, 21, 34, 19] direct [1, 6, 21, 34, 19]  EQUAL

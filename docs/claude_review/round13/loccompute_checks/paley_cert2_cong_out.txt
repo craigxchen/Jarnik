@@ -1,0 +1,6 @@
+width gens (orbit reps, exact): [(5, 2), (7, 17)]
+  with congruence families: 65 gens
+(1) J_w + all 5-col families (only the congruence ones are not full boxes): #rows 2470, EXACT dim_Q P_0(L_7) = 82  (invariant coords: 822) [107s]
+(2) saved exact polynomial(s) re-verified on all of A; with new top forms: 0 [269s]
+(3) rank_p(rows + top forms) = 82 > r0 = 82: False
+VERDICT: no certificate [269s]

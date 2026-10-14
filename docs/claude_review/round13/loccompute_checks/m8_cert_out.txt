@@ -1,0 +1,1 @@
+M8: exact dim_Q L_mixed(2)_6 = 49 (rows 686, N_6 = 357); dim_Q J(A)_6 >= 70  => non-local at b=2: True  [2s]

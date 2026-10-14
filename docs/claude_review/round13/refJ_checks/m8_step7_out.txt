@@ -1,0 +1,3 @@
+51933 distinct planes from 358 low-width directions; 3213 have degree-6 generators of J(Y) [499s]
+dim_Q (J_w + all these plane pullbacks)_6 = 630  vs J_w: 616  J(A)_6: 637 [508s]
+rho(Y) histogram (computed up to degree 6; None = rho > 6) of contributing planes: {None: 3213}

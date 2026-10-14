@@ -1,0 +1,26 @@
+SLP s=1 eps=(1,): max rank for all (i,t): True
+SLP s=1 eps=(1,): max rank for all (i,t): True
+SLP s=1 eps=(-1,): max rank for all (i,t): True
+SLP s=2 eps=(1, 1): max rank for all (i,t): True
+SLP s=2 eps=(1, -1): max rank for all (i,t): True
+SLP s=2 eps=(-1, -1): max rank for all (i,t): True
+SLP s=3 eps=(1, 1, 1): max rank for all (i,t): True
+SLP s=3 eps=(1, -1, 1): max rank for all (i,t): True
+SLP s=3 eps=(-1, -1, -1): max rank for all (i,t): True
+SLP s=4 eps=(1, 1, 1, 1): max rank for all (i,t): True
+SLP s=4 eps=(1, -1, 1, -1): max rank for all (i,t): True
+SLP s=4 eps=(-1, -1, -1, -1): max rank for all (i,t): True
+SLP s=5 eps=(1, 1, 1, 1, 1): max rank for all (i,t): True
+SLP s=5 eps=(1, -1, 1, -1, 1): max rank for all (i,t): True
+SLP s=5 eps=(-1, -1, -1, -1, -1): max rank for all (i,t): True
+SLP s=6 eps=(1, 1, 1, 1, 1, 1): max rank for all (i,t): True
+SLP s=6 eps=(1, -1, 1, -1, 1, -1): max rank for all (i,t): True
+SLP s=6 eps=(-1, -1, -1, -1, -1, -1): max rank for all (i,t): True
+d=5 cuts=[((0, 1, 2, 3, 4), (1, 1, 1, 1, 1), 1)] |A|=141: H(R/J(A)) exact = [1, 5, 15, 29, 40, 36, 15]; Lefschetz product = [1, 5, 15, 29, 40, 36, 15]; equal: True
+d=5 cuts=[((0, 1, 2, 3, 4), (1, -1, 1, -1, -1), 2)] |A|=201: H(R/J(A)) exact = [1, 5, 15, 30, 45, 50, 40, 15]; Lefschetz product = [1, 5, 15, 30, 45, 50, 40, 15]; equal: True
+d=6 cuts=[((0, 1, 2, 3), (1, -1, -1, 1), 1)] |A|=459: H(R/J(A)) exact = [1, 6, 21, 49, 84, 105, 97, 63, 27, 6]; Lefschetz product = [1, 6, 21, 49, 84, 105, 97, 63, 27, 6]; equal: True
+d=6 cuts=[((0, 1, 2), (1, 1, -1), 0), ((3, 4, 5), (1, -1, 1), 1)] |A|=133: H(R/J(A)) exact = [1, 5, 15, 28, 36, 30, 15, 3]; Lefschetz product = [1, 5, 15, 28, 36, 30, 15, 3]; equal: True
+d=7 cuts=[((0, 1, 2), (1, 1, 1), 1), ((3, 4, 5, 6), (-1, 1, -1, 1), 1)] |A|=969: H(R/J(A)) exact = [1, 7, 28, 75, 147, 213, 228, 171, 81, 18]; Lefschetz product = [1, 7, 28, 75, 147, 213, 228, 171, 81, 18]; equal: True
+d=7 cuts=[((0, 1), (1, -1), 0), ((2, 3, 4), (1, 1, 1), 1), ((5, 6), (1, 1), 1)] |A|=399: H(R/J(A)) exact = [1, 6, 21, 48, 79, 94, 81, 48, 18, 3]; Lefschetz product = [1, 6, 21, 48, 79, 94, 81, 48, 18, 3]; equal: True
+d=7 cuts=[((0, 1, 2, 3, 4, 5), (1, -1, 1, -1, 1, -1), 2)] |A|=1719: H(R/J(A)) exact = [1, 7, 28, 77, 161, 265, 350, 365, 280, 145, 40]; Lefschetz product = [1, 7, 28, 77, 161, 265, 350, 365, 280, 145, 40]; equal: True
+strict increase h_i < h_(i+1) for 0 <= i < s, all 2 <= s <= 200: True

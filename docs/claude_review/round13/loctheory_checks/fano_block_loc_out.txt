@@ -1,0 +1,6 @@
+Y_3(2): |P|=2605 H_P(modp, up to 8) = [1, 7, 28, 84, 210, 455, 812, 756, 252]
+  3025 class-combination directions, 43 width powers of degree <= 8
+  grid: deficits dim J_i - dim L_i, i=0..8: [0, 0, 0, 0, 0, 0, 63, 764, 2163]
+  grid+W: deficits dim J_i - dim L_i, i=0..8: [0, 0, 0, 0, 0, 0, 63, 728, 1911]
+  grid+T: deficits dim J_i - dim L_i, i=0..8: [0, 0, 0, 0, 0, 0, 0, 386, 903]
+  grid+T+W: deficits dim J_i - dim L_i, i=0..8: [0, 0, 0, 0, 0, 0, 0, 378, 847]

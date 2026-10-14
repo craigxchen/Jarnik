@@ -1,0 +1,7 @@
+|A| = 1037
+H_A (exact Q) = [1, 7, 28, 77, 161, 259, 287, 175, 42] sum 1037
+dim J(A)_i (exact Q) = [0, 0, 0, 7, 49, 203, 637, 1541, 2961] 1.7424194812774658
+#primitive directions |v_i|<=3 with tau+1<=8: 358
+count by (tau,h): [((2, 2), 7), ((4, 4), 49), ((6, 6), 302)]
+any tau<h: []
+max |v_i| among them: 2

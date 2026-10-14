@@ -1,0 +1,10 @@
+mod3 b=3 j=2 |P|=41 s=12 rho(P)=6 rho(Q)=8 alpha=s-rho(Q)=4 first e with H_P<H_B: 4 linkage=True exact
+   H_P [1, 3, 6, 10, 13, 7, 1]
+mod3 b=4 j=2 |P|=209 s=16 rho(P)=8 rho(Q)=11 alpha=s-rho(Q)=5 first e with H_P<H_B: 5 linkage=True exact
+   H_P [1, 4, 10, 20, 35, 51, 54, 29, 5]
+mod3 b=5 j=2 |P|=1041 s=20 rho(P)=10 rho(Q)=13 alpha=s-rho(Q)=7 first e with H_P<H_B: 7 linkage=True exact
+   H_P [1, 5, 15, 35, 70, 121, 185, 244, 234, 115, 16]
+mod3 b=3 j=3 |P|=115 s=18 rho(P)=9 rho(Q)=12 alpha=s-rho(Q)=6 first e with H_P<H_B: 6 linkage=True exact
+   H_P [1, 3, 6, 10, 15, 21, 26, 22, 10, 1]
+mod3 b=4 j=3 |P|=801 s=24 rho(P)=12 rho(Q)=16 alpha=s-rho(Q)=8 first e with H_P<H_B: 8 linkage=True exact
+   H_P [1, 4, 10, 20, 35, 56, 84, 116, 146, 155, 118, 49, 7]

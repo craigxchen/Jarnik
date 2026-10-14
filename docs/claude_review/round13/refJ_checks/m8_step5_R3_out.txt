@@ -1,0 +1,9 @@
+R=3: 1015 planes inside the 7 Fano 3-spaces; rho histogram {None: 1015}; generator counts {e: len} = {5: 588, 6: 112} [14s]
+  deg 0: dim_p = 0  (J_w: 0, J(A): 0)
+  deg 1: dim_p = 0  (J_w: 0, J(A): 0)
+  deg 2: dim_p = 0  (J_w: 0, J(A): 0)
+  deg 3: dim_p = 7  (J_w: 7, J(A): 7)
+  deg 4: dim_p = 49  (J_w: 49, J(A): 49)
+  deg 5: dim_p = 203  (J_w: 203, J(A): 203)
+  deg 6: dim_p = 630  (J_w: 616, J(A): 637)
+  deg 6 exact dim_Q = 630 [19s]
