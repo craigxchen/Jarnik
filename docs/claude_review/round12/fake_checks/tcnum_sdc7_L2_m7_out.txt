@@ -1,0 +1,7 @@
+sdc7 L=2 m=7 |A|=757 dim Poly_<m|A = 713, dim V(A,m) = 44 (float rank; 4.4s)
+s>=0.000: min kappa2 = 1.275e-15  (kappa in [4.64e-17, 1.28e-15])  sep=0.0000  sorted positions=[-0.0, -0.0, -0.0, 0.0, 0.2169, 0.2193, 0.4841, 1.0] (61s)
+s>=0.050: min kappa2 = 8.266e-08  (kappa in [3.00e-09, 8.27e-08])  sep=0.0500  sorted positions=[-0.1, -0.05, 0.0, 0.05, 0.1, 0.15, 0.2, 1.0] (117s)
+s>=0.100: min kappa2 = 2.107e-06  (kappa in [7.66e-08, 2.11e-06])  sep=0.1000  sorted positions=[-0.1, 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 1.0] (143s)
+s>=0.150: min kappa2 = 1.789e-05  (kappa in [6.50e-07, 1.79e-05])  sep=0.1500  sorted positions=[-0.3, -0.15, 0.0, 0.15, 0.3, 0.45, 0.6, 1.0] (179s)
+s>=0.200: min kappa2 = 4.636e-05  (kappa in [1.69e-06, 4.64e-05])  sep=0.2000  sorted positions=[-0.4, -0.2, 0.0, 0.2, 0.4, 0.6, 0.8, 1.0] (234s)
+s>=0.250: min kappa2 = 4.271e-04  (kappa in [1.55e-05, 4.27e-04])  sep=0.2500  sorted positions=[-0.75, -0.5, -0.25, 0.0, 0.25, 0.5, 0.75, 1.0] (386s)

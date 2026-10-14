@@ -1,0 +1,3 @@
+r = n: last failing n in [426119,757545] = 473715; max A-ratio on (473715,757545] = 1.000000; exact A-ratio at 473716 = 1.000000
+r = n ln n: last failing n in [507510,902240] = 564083; max A-ratio on (564083,902240] = 1.000000; exact A-ratio at 564084 = 1.000000
+r = n^2: last failing n in [852435,1515440] = 947349; max A-ratio on (947349,1515440] = 1.000000; exact A-ratio at 947350 = 1.000000

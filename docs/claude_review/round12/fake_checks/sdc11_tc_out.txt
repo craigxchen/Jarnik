@@ -1,0 +1,23 @@
+trial 1: zero with sep=0.00000 cond=1.34e-01 (15s)
+trial 2: zero with sep=0.00001 cond=1.21e-01 (22s)
+trial 11: zero with sep=0.00000 cond=1.47e-01 (73s)
+trial 16: zero with sep=0.00000 cond=1.36e-01 (100s)
+trial 17: zero with sep=0.00000 cond=1.98e-01 (109s)
+trial 18: zero with sep=0.00001 cond=9.73e-02 (118s)
+trial 25: zero with sep=0.00000 cond=4.94e-02 (152s)
+trial 30: zero with sep=0.00000 cond=7.88e-02 (176s)
+trial 33: zero with sep=0.00001 cond=5.90e-02 (198s)
+trial 37: zero with sep=0.00000 cond=1.14e-01 (227s)
+trial 42: zero with sep=0.00000 cond=1.18e-01 (256s)
+trial 49: zero with sep=0.00000 cond=6.19e-02 (293s)
+trial 55: zero with sep=0.00000 cond=5.91e-02 (334s)
+13 converged zeros out of 60 starts (354s)
+sep=0.00001  Jacobian sigma_min/sigma_max=5.90e-02  sorted=[-0.0018, -0.0015, -0.001, -0.0009, -0.0009, -0.0008, -0.0008, -0.0007, -0.0006, 0.0, 0.0009, 1.0]
+sep=0.00001  Jacobian sigma_min/sigma_max=9.73e-02  sorted=[-0.0018, -0.0002, 0.0, 0.0, 0.0004, 0.0005, 0.0005, 0.0006, 0.0007, 0.0008, 0.001, 1.0]
+sep=0.00001  Jacobian sigma_min/sigma_max=1.21e-01  sorted=[0.0, 0.3327, 0.3342, 0.3342, 0.3342, 0.3342, 0.3343, 0.3344, 0.3344, 0.3348, 0.3352, 1.0]
+sep=0.00000  Jacobian sigma_min/sigma_max=1.34e-01  sorted=[-0.0004, -0.0003, 0.0, 0.0, 0.0003, 0.0004, 0.0006, 0.0006, 0.0007, 0.0008, 0.0014, 1.0]
+sep=0.00000  Jacobian sigma_min/sigma_max=1.98e-01  sorted=[-0.0007, -0.0006, -0.0002, -0.0002, -0.0, 0.0, 0.0001, 0.0003, 0.0004, 0.0005, 0.0011, 1.0]
+sep=0.00000  Jacobian sigma_min/sigma_max=4.94e-02  sorted=[0.0, 0.3055, 0.3056, 0.3056, 0.3058, 0.3059, 0.306, 0.306, 0.3061, 0.3062, 0.307, 1.0]
+sep=0.00000  Jacobian sigma_min/sigma_max=1.14e-01  sorted=[-0.0008, -0.0007, -0.0007, -0.0007, -0.0003, -0.0, 0.0, 0.0001, 0.0001, 0.0001, 0.0008, 1.0]
+sep=0.00000  Jacobian sigma_min/sigma_max=5.91e-02  sorted=[-0.0032, -0.0031, -0.0031, -0.003, -0.003, -0.003, -0.003, -0.0029, -0.0024, 0.0, 0.0008, 1.0]
+equally spaced optimum: 2/11 = 0.18182

@@ -1,0 +1,13 @@
+d=4 cuts=[(4, 1), (3, 1)] |A|=45 m=3: primal 4.504861e-01 dual 4.504861e-01
+d=4 cuts=[(4, 2), (2, 1)] |A|=59 m=3: primal 2.473269e+00 dual 2.473269e+00
+d=4 cuts=[(3, 1)] |A|=57 m=4: primal 7.717209e-01 dual 7.717209e-01
+d=5 cuts=[(4, 1), (2, 1)] |A|=135 m=5: primal 5.586264e-01 dual 5.586264e-01
+d=4 cuts=[(3, 2)] |A|=75 m=4: primal 1.051400e+00 dual 1.051400e+00
+d=4 cuts=[(4, 2), (2, 1)] |A|=59 m=3: primal 6.877541e-02 dual 6.877541e-02
+d=5 cuts=[(4, 2)] |A|=213 m=4: primal 6.022200e+00 dual 6.022200e+00
+d=4 cuts=[(2, 1)] |A|=63 m=3: primal 5.289346e-01 dual 5.289346e-01
+d=5 cuts=[(5, 3)] |A|=231 m=5: primal 4.514022e+01 dual 4.514022e+01
+d=4 cuts=[(4, 3), (2, 1)] |A|=63 m=5: primal 6.013354e-01 dual 6.013354e-01
+d=5 cuts=[(5, 1)] |A|=141 m=5: primal 2.917615e+00 dual 2.917615e+00
+d=5 cuts=[(2, 1), (2, 1)] |A|=153 m=3: primal 3.251853e+00 dual 3.251853e+00
+max relative primal-dual gap: 1.093078758662263e-14

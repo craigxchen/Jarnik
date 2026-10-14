@@ -1,0 +1,8 @@
+sdc7 L=2 |A|=757 automorphism perms found: 42
+functionals 1093, candidate directions 15274
+LP value 7.000000 (41 orbit variables, 393 distinct constraints)
+RESULT sdc7 L=2: rigorous zeta <= 7 = 7.00000
+pal7 L=2 |A|=861 automorphism perms found: 3
+functionals 1093, candidate directions 17184
+LP value 7.000000 (373 orbit variables, 5728 distinct constraints)
+RESULT pal7 L=2: rigorous zeta <= 7 = 7.00000

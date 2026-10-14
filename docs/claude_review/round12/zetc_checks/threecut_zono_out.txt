@@ -1,0 +1,4 @@
+d=3 done, blocks so far 3, gaps 0
+d=4 done, blocks so far 51, gaps 0
+d=5 done, blocks so far 278, gaps 0
+d=6 done, blocks so far 953, gaps 0

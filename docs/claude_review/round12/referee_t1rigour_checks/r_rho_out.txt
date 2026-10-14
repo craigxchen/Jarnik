@@ -1,0 +1,28 @@
+(2) rho({(0,0),(1,1),(2,0)}) = 1  rho of its x-projection {0,1,2} = 2
+(1) near-twin columns: Lambda = {(t1,t2): |t1|,|t2| <= j, |t1-t2| <= 2*delta} (exact image when |S1 cap S2| >= 2j+2delta)
+  j=1 delta=1: rho=4  Newton bound 2j+2delta=4  width cost 4j=4, alt family 2j+4delta=6  claimed lower bounds 2(js+e): F=(2,0)->4, F'=(1,2delta)->6
+  j=2 delta=1: rho=6  Newton bound 2j+2delta=6  width cost 4j=8, alt family 2j+4delta=8  claimed lower bounds 2(js+e): F=(2,0)->8, F'=(1,2delta)->8
+  j=2 delta=2: rho=8  Newton bound 2j+2delta=8  width cost 4j=8, alt family 2j+4delta=12  claimed lower bounds 2(js+e): F=(2,0)->8, F'=(1,2delta)->12
+  j=3 delta=1: rho=8  Newton bound 2j+2delta=8  width cost 4j=12, alt family 2j+4delta=10  claimed lower bounds 2(js+e): F=(2,0)->12, F'=(1,2delta)->10
+  j=3 delta=2: rho=10  Newton bound 2j+2delta=10  width cost 4j=12, alt family 2j+4delta=14  claimed lower bounds 2(js+e): F=(2,0)->12, F'=(1,2delta)->14
+  j=3 delta=3: rho=12  Newton bound 2j+2delta=12  width cost 4j=12, alt family 2j+4delta=18  claimed lower bounds 2(js+e): F=(2,0)->12, F'=(1,2delta)->18
+  j=4 delta=1: rho=10  Newton bound 2j+2delta=10  width cost 4j=16, alt family 2j+4delta=12  claimed lower bounds 2(js+e): F=(2,0)->16, F'=(1,2delta)->12
+  j=4 delta=2: rho=12  Newton bound 2j+2delta=12  width cost 4j=16, alt family 2j+4delta=16  claimed lower bounds 2(js+e): F=(2,0)->16, F'=(1,2delta)->16
+  j=4 delta=3: rho=14  Newton bound 2j+2delta=14  width cost 4j=16, alt family 2j+4delta=20  claimed lower bounds 2(js+e): F=(2,0)->16, F'=(1,2delta)->20
+  j=4 delta=4: rho=16  Newton bound 2j+2delta=16  width cost 4j=16, alt family 2j+4delta=24  claimed lower bounds 2(js+e): F=(2,0)->16, F'=(1,2delta)->24
+  j=5 delta=1: rho=12  Newton bound 2j+2delta=12  width cost 4j=20, alt family 2j+4delta=14  claimed lower bounds 2(js+e): F=(2,0)->20, F'=(1,2delta)->14
+  j=5 delta=2: rho=14  Newton bound 2j+2delta=14  width cost 4j=20, alt family 2j+4delta=18  claimed lower bounds 2(js+e): F=(2,0)->20, F'=(1,2delta)->18
+  j=5 delta=3: rho=16  Newton bound 2j+2delta=16  width cost 4j=20, alt family 2j+4delta=22  claimed lower bounds 2(js+e): F=(2,0)->20, F'=(1,2delta)->22
+  j=5 delta=4: rho=18  Newton bound 2j+2delta=18  width cost 4j=20, alt family 2j+4delta=26  claimed lower bounds 2(js+e): F=(2,0)->20, F'=(1,2delta)->26
+  j=5 delta=5: rho=20  Newton bound 2j+2delta=20  width cost 4j=20, alt family 2j+4delta=30  claimed lower bounds 2(js+e): F=(2,0)->20, F'=(1,2delta)->30
+  j=6 delta=1: rho=14  Newton bound 2j+2delta=14  width cost 4j=24, alt family 2j+4delta=16  claimed lower bounds 2(js+e): F=(2,0)->24, F'=(1,2delta)->16
+  j=6 delta=2: rho=16  Newton bound 2j+2delta=16  width cost 4j=24, alt family 2j+4delta=20  claimed lower bounds 2(js+e): F=(2,0)->24, F'=(1,2delta)->20
+  j=6 delta=3: rho=18  Newton bound 2j+2delta=18  width cost 4j=24, alt family 2j+4delta=24  claimed lower bounds 2(js+e): F=(2,0)->24, F'=(1,2delta)->24
+  j=6 delta=4: rho=20  Newton bound 2j+2delta=20  width cost 4j=24, alt family 2j+4delta=28  claimed lower bounds 2(js+e): F=(2,0)->24, F'=(1,2delta)->28
+  j=6 delta=5: rho=22  Newton bound 2j+2delta=22  width cost 4j=24, alt family 2j+4delta=32  claimed lower bounds 2(js+e): F=(2,0)->24, F'=(1,2delta)->32
+  j=6 delta=6: rho=24  Newton bound 2j+2delta=24  width cost 4j=24, alt family 2j+4delta=36  claimed lower bounds 2(js+e): F=(2,0)->24, F'=(1,2delta)->36
+  image check j=2 delta=1: image == band: True
+  image check j=3 delta=1: image == band: True
+  image check j=4 delta=2: image == band: True
+(3) Lemma 6.9
+  slices rho = s-|t| and rho(A2(s,j)) = s+j for 2<=s<=6: confirmed

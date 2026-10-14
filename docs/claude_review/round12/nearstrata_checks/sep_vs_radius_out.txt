@@ -1,0 +1,6 @@
+r = n: last n in [500, 20000] where sigma_F <= rho_F^min for some cheap F at some W >= W_min: 5184
+r = n ln n: last n in [500, 20000] where sigma_F <= rho_F^min for some cheap F at some W >= W_min: 6424
+r = n^2: last n in [500, 20000] where sigma_F <= rho_F^min for some cheap F at some W >= W_min: 10279
+3000 [-53.627, -0.069]
+5185 [2789.608, 0.002]
+10000 [12772.781, 0.065]

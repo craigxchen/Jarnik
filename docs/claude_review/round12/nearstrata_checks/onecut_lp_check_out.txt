@@ -1,0 +1,1 @@
+tested 977 cases with nu_eta >= m; min kappa_V / bound = 11.953460403309222

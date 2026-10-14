@@ -1,0 +1,61 @@
+slice s=1 t=0: |L|=1 rho=0 (s-|t|=1) MISMATCH
+slice s=1 t=1: |L|=1 rho=0 (s-|t|=0) OK
+A2 s=1 j=0: |A2|=1 rho=0 (s+j=1) MISMATCH
+A2 s=1 j=1: |A2|=3 rho=2 (s+j=2) OK
+slice s=2 t=0: |L|=3 rho=2 (s-|t|=2) OK
+slice s=2 t=1: |L|=2 rho=1 (s-|t|=1) OK
+slice s=2 t=2: |L|=1 rho=0 (s-|t|=0) OK
+A2 s=2 j=0: |A2|=3 rho=2 (s+j=2) OK
+A2 s=2 j=1: |A2|=7 rho=3 (s+j=3) OK
+A2 s=2 j=2: |A2|=9 rho=4 (s+j=4) OK
+slice s=3 t=0: |L|=7 rho=3 (s-|t|=3) OK
+slice s=3 t=1: |L|=6 rho=2 (s-|t|=2) OK
+slice s=3 t=2: |L|=3 rho=1 (s-|t|=1) OK
+slice s=3 t=3: |L|=1 rho=0 (s-|t|=0) OK
+A2 s=3 j=0: |A2|=7 rho=3 (s+j=3) OK
+A2 s=3 j=1: |A2|=19 rho=4 (s+j=4) OK
+A2 s=3 j=2: |A2|=25 rho=5 (s+j=5) OK
+A2 s=3 j=3: |A2|=27 rho=6 (s+j=6) OK
+slice s=4 t=0: |L|=19 rho=4 (s-|t|=4) OK
+slice s=4 t=1: |L|=16 rho=3 (s-|t|=3) OK
+slice s=4 t=2: |L|=10 rho=2 (s-|t|=2) OK
+slice s=4 t=3: |L|=4 rho=1 (s-|t|=1) OK
+slice s=4 t=4: |L|=1 rho=0 (s-|t|=0) OK
+A2 s=4 j=0: |A2|=19 rho=4 (s+j=4) OK
+A2 s=4 j=1: |A2|=51 rho=5 (s+j=5) OK
+A2 s=4 j=2: |A2|=71 rho=6 (s+j=6) OK
+A2 s=4 j=3: |A2|=79 rho=7 (s+j=7) OK
+A2 s=4 j=4: |A2|=81 rho=8 (s+j=8) OK
+slice s=5 t=0: |L|=51 rho=5 (s-|t|=5) OK
+slice s=5 t=1: |L|=45 rho=4 (s-|t|=4) OK
+slice s=5 t=2: |L|=30 rho=3 (s-|t|=3) OK
+slice s=5 t=3: |L|=15 rho=2 (s-|t|=2) OK
+slice s=5 t=4: |L|=5 rho=1 (s-|t|=1) OK
+slice s=5 t=5: |L|=1 rho=0 (s-|t|=0) OK
+A2 s=5 j=0: |A2|=51 rho=5 (s+j=5) OK
+A2 s=5 j=1: |A2|=141 rho=6 (s+j=6) OK
+A2 s=5 j=2: |A2|=201 rho=7 (s+j=7) OK
+A2 s=5 j=3: |A2|=231 rho=8 (s+j=8) OK
+A2 s=5 j=4: |A2|=241 rho=9 (s+j=9) OK
+A2 s=5 j=5: |A2|=243 rho=10 (s+j=10) OK
+slice s=6 t=0: |L|=141 rho=6 (s-|t|=6) OK
+slice s=6 t=1: |L|=126 rho=5 (s-|t|=5) OK
+slice s=6 t=2: |L|=90 rho=4 (s-|t|=4) OK
+slice s=6 t=3: |L|=50 rho=3 (s-|t|=3) OK
+slice s=6 t=4: |L|=21 rho=2 (s-|t|=2) OK
+slice s=6 t=5: |L|=6 rho=1 (s-|t|=1) OK
+slice s=6 t=6: |L|=1 rho=0 (s-|t|=0) OK
+A2 s=6 j=0: |A2|=141 rho=6 (s+j=6) OK
+A2 s=6 j=1: |A2|=393 rho=7 (s+j=7) OK
+A2 s=6 j=2: |A2|=573 rho=8 (s+j=8) OK
+A2 s=6 j=3: |A2|=673 rho=9 (s+j=9) OK
+A2 s=6 j=4: |A2|=715 rho=10 (s+j=10) OK
+A2 s=6 j=5: |A2|=727 rho=11 (s+j=11) OK
+A2 s=6 j=6: |A2|=729 rho=12 (s+j=12) OK
+ALL rho formulas: FAIL
+
+model: d=6, S'=[0, 1, 2, 3], j=1, |A|=459, rho(A) = 9
+m=6: dim V(A,m)=193; Phi_c(u_S')==0 for all c: True; u on S' + one coordinate: False; generic full-support u: False
+m=7: dim V(A,m)=96; Phi_c(u_S')==0 for all c: True; u on S' + one coordinate: False; generic full-support u: False
+m=8: dim V(A,m)=33; Phi_c(u_S')==0 for all c: True; u on S' + one coordinate: True; generic full-support u: False
+m=9: dim V(A,m)=6; Phi_c(u_S')==0 for all c: True; u on S' + one coordinate: True; generic full-support u: False

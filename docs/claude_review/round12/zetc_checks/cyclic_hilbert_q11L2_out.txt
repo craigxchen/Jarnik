@@ -1,0 +1,13 @@
+q=11 L=2 |A|=20153 point orbits=1833 monomial orbits=16107 (0.9s)
+  s=0 rows=1833 rank=1833 maxdeg=8 (92.2s)
+  s=1 rows=1832 rank=1832 maxdeg=8 (143.3s)
+  s=2 rows=1832 rank=1832 maxdeg=8 (192.7s)
+  s=3 rows=1832 rank=1832 maxdeg=8 (242.0s)
+  s=4 rows=1832 rank=1832 maxdeg=8 (290.0s)
+  s=5 rows=1832 rank=1832 maxdeg=8 (337.9s)
+  s=6 rows=1832 rank=1832 maxdeg=8 (387.2s)
+  s=7 rows=1832 rank=1832 maxdeg=8 (436.8s)
+  s=8 rows=1832 rank=1832 maxdeg=8 (486.9s)
+  s=9 rows=1832 rank=1832 maxdeg=8 (534.9s)
+  s=10 rows=1832 rank=1832 maxdeg=8 (583.4s)
+RESULT q=11 D=[0, 1, 3, 4, 5, 9] L=2 p=288230376151711687 |A|=20153 sumH=20153 rho=8 H=[1, 11, 66, 275, 880, 2265, 4785, 7525, 4345]

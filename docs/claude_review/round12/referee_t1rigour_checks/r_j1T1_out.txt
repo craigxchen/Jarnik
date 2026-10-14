@@ -1,0 +1,17 @@
+indicator identity failures (k=3..6): 0
+k=12 n=4096 j=281 window=[2256,2631] lambda=1/4: family (b,a+b,1_Vc) cheap for m' in (2256, 2631) ; author's coordinate family cheap iff m' > 3172
+k=12 n=4096 j=281 window=[2256,2631] lambda=1/2: family (b,a+b,1_Vc) cheap for m' in (2256, 2631) ; author's coordinate family cheap iff m' > 3172
+k=12 n=4096 j=281 window=[2256,2631] lambda=1: family (b,a+b,1_Vc) cheap for m' in None ; author's coordinate family cheap iff m' > 3172
+k=12 n=4096 j=281 window=[2256,2631] lambda=2: family (b,a+b,1_Vc) cheap for m' in None ; author's coordinate family cheap iff m' > 3172
+k=13 n=8192 j=412 window=[3302,5260] lambda=1/4: family (b,a+b,1_Vc) cheap for m' in (3302, 5260) ; author's coordinate family cheap iff m' > 5744
+k=13 n=8192 j=412 window=[3302,5260] lambda=1/2: family (b,a+b,1_Vc) cheap for m' in (3302, 5260) ; author's coordinate family cheap iff m' > 5744
+k=13 n=8192 j=412 window=[3302,5260] lambda=1: family (b,a+b,1_Vc) cheap for m' in (4943, 5260) ; author's coordinate family cheap iff m' > 5744
+k=13 n=8192 j=412 window=[3302,5260] lambda=2: family (b,a+b,1_Vc) cheap for m' in None ; author's coordinate family cheap iff m' > 5744
+k=14 n=16384 j=602 window=[4823,10518] lambda=1/4: family (b,a+b,1_Vc) cheap for m' in (4823, 10518) ; author's coordinate family cheap iff m' > 10600
+k=14 n=16384 j=602 window=[4823,10518] lambda=1/2: family (b,a+b,1_Vc) cheap for m' in (4823, 10518) ; author's coordinate family cheap iff m' > 10600
+k=14 n=16384 j=602 window=[4823,10518] lambda=1: family (b,a+b,1_Vc) cheap for m' in (7223, 10518) ; author's coordinate family cheap iff m' > 10600
+k=14 n=16384 j=602 window=[4823,10518] lambda=2: family (b,a+b,1_Vc) cheap for m' in None ; author's coordinate family cheap iff m' > 10600
+k=15 n=32768 j=878 window=[7031,21034] lambda=1/4: family (b,a+b,1_Vc) cheap for m' in (7031, 21034) ; author's coordinate family cheap iff m' > 19896
+k=15 n=32768 j=878 window=[7031,21034] lambda=1/2: family (b,a+b,1_Vc) cheap for m' in (7031, 21034) ; author's coordinate family cheap iff m' > 19896
+k=15 n=32768 j=878 window=[7031,21034] lambda=1: family (b,a+b,1_Vc) cheap for m' in (10535, 21034) ; author's coordinate family cheap iff m' > 19896
+k=15 n=32768 j=878 window=[7031,21034] lambda=2: family (b,a+b,1_Vc) cheap for m' in None ; author's coordinate family cheap iff m' > 19896

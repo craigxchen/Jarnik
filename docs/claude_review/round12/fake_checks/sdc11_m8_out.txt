@@ -1,0 +1,8 @@
+|A|=9373 point orbits=853 monomial orbits (deg<8)=1589 (0.1s)
+invariant V(A,8): dim = 5 (5.8s)
+verified exactly: all 5 basis vectors annihilate all 17469 monomials of degree < 8
+  basis vector: |c|_inf=554573184 |c|_1=39645161116 support=5633 even=True
+  basis vector: |c|_inf=554573184 |c|_1=590504749824 support=5654 even=True
+  basis vector: |c|_inf=1001915376 |c|_1=684053079072 support=5676 even=True
+  basis vector: |c|_inf=1663719552 |c|_1=933019403316 support=5655 even=True
+  basis vector: |c|_inf=2002004400 |c|_1=1506583235520 support=5698 even=True

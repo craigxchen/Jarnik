@@ -1,0 +1,6 @@
+|A| = 459
+m=6: dim V(A,m) = 193; common zero of all Phi_c: [((1, 3, 7, 19, 0, 0), True), ((1, 3, 7, 19, 5, 0), False), ((1, 3, 7, 19, 43, 101), False)]
+m=7: dim V(A,m) = 96; common zero of all Phi_c: [((1, 3, 7, 19, 0, 0), True), ((1, 3, 7, 19, 5, 0), False), ((1, 3, 7, 19, 43, 101), False)]
+m=8: dim V(A,m) = 33; common zero of all Phi_c: [((1, 3, 7, 19, 0, 0), True), ((1, 3, 7, 19, 5, 0), True), ((1, 3, 7, 19, 43, 101), False)]
+m=9: dim V(A,m) = 6; common zero of all Phi_c: [((1, 3, 7, 19, 0, 0), True), ((1, 3, 7, 19, 5, 0), True), ((1, 3, 7, 19, 43, 101), False)]
+zonotope k0 + sum_{t in [0,2]^4} t_i g_i inside A: True  => zeta(A) >= 8, so V(A,m) has a character certificate for every m <= 8

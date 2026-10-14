@@ -1,0 +1,18 @@
+J1 column identity: classes -> {(0, 0): (1, -1, -1, 2), (0, 1): (-1, 1, 1, 2), (1, 0): (1, 1, -1, -2), (1, 1): (1, -1, 1, -2)} ; checked 9326784 (a,b,c,x) for k=3..7, failures 0
+J1 T=n, n=2^13: m = 49388999 (exact boundary check: (True, True)), 0.7n(n-1) = 4.69705e+07, cost 4floor(w/2) + n^2/2 = 4.70779e+07, cheap (cost < m): True, cost < 0.7n(n-1): False
+J1 T=n, n=2^14: m = 197534058 (exact boundary check: None), 0.7n(n-1) = 1.87893e+08, cost 4floor(w/2) + n^2/2 = 1.73724e+08, cheap (cost < m): True, cost < 0.7n(n-1): True
+J1 ratio bound decreasing on 2^14..2^40 and < 1 at 2^14: 0.924586941300363
+
+Sylvester at T = 1 (r = n - 1): k, n, w, j, 2jk, ceil(4w), m_max, m_max>=4w, k cols cheap at m_max (2jk < m_max)
+11, 2048, 384.1, 192, 4224, 1537, 1317, False, False
+12, 4096, 563.8, 281, 6744, 2256, 2631, True, False
+13, 8192, 825.4, 412, 10712, 3302, 5260, True, False
+14, 16384, 1205.6, 602, 16856, 4823, 10518, True, False
+15, 32768, 1757.5, 878, 26340, 7031, 21034, True, False
+16, 65536, 2557.6, 1278, 40896, 10231, 42065, True, True
+17, 131072, 3716.1, 1858, 63172, 14865, 84126, True, True
+18, 262144, 5391.9, 2695, 97020, 21568, 168247, True, True
+19, 524288, 7813.6, 3906, 148428, 31255, 336490, True, True
+20, 1048576, 11310.2, 5655, 226200, 45241, 672975, True, True
+21, 2097152, 16354.5, 8177, 343434, 65418, 1345946, True, True
+22, 4194304, 23626.2, 11813, 519772, 94505, 2691886, True, True

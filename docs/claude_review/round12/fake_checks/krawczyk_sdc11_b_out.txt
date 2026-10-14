@@ -1,0 +1,6 @@
+Krawczyk K(X) subset int X: True  (box radius 1e-30 in 5 unknowns [2, 4, 6, 9, 10]; 17s)
+certified: sep(u*) >= 0.01000888, |u*|_inf <= 1.00000000 (u*_0 = 1), normalised sep >= 0.01000888; equally spaced max 2/11 = 0.181818
+Gamma(u*) = 4.0321 ; sorted positions [-0.458, -0.14795, -0.11462, -0.09597, -0.08595, -0.07594, -0.02146, 0.0, 0.0101, 0.02089, 0.07443, 1.0]
+tangent basis: max |J(u*) b| <= 3.91e-18 ; sigma_min(J) ~ 2.416e-03
+restricted Hessians: singular values of the 5 x 36 matrix of entries: [0.185 0.141 0.07  0.02  0.011] ; max entry radius 2.3e-27 ; Hessian l1 bound 4.67e+00
+(F) certified if sigma_min(G) = 1.059e-02 > perturbation bound 1.813e-13 : True

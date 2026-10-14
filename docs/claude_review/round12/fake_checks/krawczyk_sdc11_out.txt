@@ -1,0 +1,14 @@
+refined residual 1.13e-61 (4s)
+square system residual 5.66e-61
+  K_0 - xc = [3.4890e-41 +/- 7.48e-46] ; Fc = [-8.9521e-42 +/- 7.15e-48]
+  K_1 - xc = [-7.828e-42 +/- 7.27e-46] ; Fc = [-8.5554e-42 +/- 4.72e-48]
+  K_2 - xc = [1.623e-41 +/- 3.25e-45] ; Fc = [1.0176e-42 +/- 3.40e-47]
+  K_3 - xc = [-3.4032e-41 +/- 8.37e-46] ; Fc = [-2.6135e-42 +/- 4.89e-47]
+  K_4 - xc = [2.7108e-41 +/- 2.53e-46] ; Fc = [-6.9182e-42 +/- 3.37e-47]
+|Y| = 2.305e+01
+Krawczyk K(X) subset int X: True  (box radius 1e-30 in 5 unknowns [2, 5, 7, 8, 10]; 15s)
+certified: sep(u*) >= 0.00528723, |u*|_inf <= 1.00000000 (u*_0 = 1), normalised sep >= 0.00528723; equally spaced max 2/11 = 0.181818
+Gamma(u*) = 3.0343 ; sorted positions [-0.32202, -0.31673, -0.3067, -0.20375, -0.10381, -0.09802, 0.0, 0.13211, 0.13755, 0.15433, 0.2552, 1.0]
+tangent basis: max |J(u*) b| <= 3.31e-17 ; sigma_min(J) ~ 4.162e-02
+restricted Hessians: singular values of the 5 x 36 matrix of entries: [1.173 0.655 0.443 0.222 0.072] ; max entry radius 3.8e-27 ; Hessian l1 bound 4.23e+01
+(F) certified if sigma_min(G) = 7.157e-02 > perturbation bound 8.063e-13 : True

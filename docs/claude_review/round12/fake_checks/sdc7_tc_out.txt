@@ -1,0 +1,14 @@
+|A|=757 dim V=1, |c|_inf=42 |c|_1=1008 support=687 even=True (0.7s)
+max sep on {Phi=0} (|u|_inf=1): 0.250000 at u=[0.5, -0.901477, 0.75, 1.0, 0.25, -0.400106, -0.650979], Gamma=0.9819
+max sep over all u with |u|_inf=1: 2/7 = 0.285714 (equally spaced); its Phi sign: -1.082e+01
+sep >= 0.00: max kappa-signed Phi/(|c|_1 d^8) = -2.257e-10, min = -3.599e-05
+sep >= 0.05: max kappa-signed Phi/(|c|_1 d^8) = +1.775e-08, min = -5.910e-05
+sep >= 0.10: max kappa-signed Phi/(|c|_1 d^8) = -6.301e-09, min = -1.817e-05
+sep >= 0.15: max kappa-signed Phi/(|c|_1 d^8) = -8.031e-08, min = -4.144e-05
+sep >= 0.20: max kappa-signed Phi/(|c|_1 d^8) = -3.980e-07, min = -3.287e-05
+sep >= 0.25: max kappa-signed Phi/(|c|_1 d^8) = -5.393e-07, min = -1.986e-05
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round12/fake_checks/sdc7_tc.py", line 109, in <module>
+    print('sep >= %.2f: max kappa-signed Phi/(|c|_1 d^8) = %+.3e, min = %+.3e' % (s, vals[0], vals[1]))
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+TypeError: must be real number, not NoneType

@@ -1,0 +1,7 @@
+last n (r=n, C=1) with min G <= 0, W -> infinity: 5184
+last n (r=n, C=1) with min G <= 0, W = 3n ln n - 14n: 3661
+3000 G_inf = -0.0689  G(W_min) = -599.94
+5000 G_inf = -0.004  G(W_min) = 1740.58
+6000 G_inf = 0.016  G(W_min) = 3348.82
+10000 G_inf = 0.0653  G(W_min) = 11713.25
+100000 G_inf = 0.1857  G(W_min) = 391142.91

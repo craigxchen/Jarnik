@@ -1,0 +1,5 @@
+Syl16 L=2 |A|=213937 D=[3, 6, 7, 9, 11, 12, 13, 14] (1s)
+orbit reps 7137 (12s)
+monomial orbits deg<=9: even 12641 odd 25952 (16s)
+eps=0 s=0 rows=7137 cols=7993 rank=7037 deficient (137s)
+eps=0 s=1 rows=7129 cols=7984 rank=7035 deficient (249s)

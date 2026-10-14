@@ -1,0 +1,1 @@
+pal11 L=2 slab orbits=[5, 5, 1, 5, 5, 1, 1]  LP bound zeta <= 22/3 = 7.3333 (LP value 7.3333), 46661 feature vectors, y=[Fraction(0, 1), Fraction(0, 1), Fraction(1, 6), Fraction(0, 1), Fraction(1, 6), Fraction(1, 6), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] (62.0s)

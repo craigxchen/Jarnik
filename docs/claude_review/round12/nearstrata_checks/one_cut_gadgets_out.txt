@@ -1,0 +1,2 @@
+checked 3000 random (u, eta, S, L) instances, d in [3,7]: all assertions passed
+case coverage: {'C-odd': 374, 'B': 448, 'A': 2099, 'C-even': 79}

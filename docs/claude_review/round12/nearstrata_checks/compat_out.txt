@@ -1,0 +1,15 @@
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round12/nearstrata_checks/compat.py:34: RuntimeWarning: divide by zero encountered in divide
+  R = 2 * q * N2 / ((n - e) * (n - e - q))
+r = n: condition A last failing n = 473466 (next 200 pass: False; exact A-ratio at 473467: 1.000222); condition B last failing n = 5184 (next 200 pass: True)
+r = n ln n: condition A last failing n = 563900 (next 200 pass: False; exact A-ratio at 563901: 1.000158); condition B last failing n = 6397 (next 200 pass: True)
+r = n^2: condition A last failing n = 947150 (next 200 pass: False; exact A-ratio at 947151: 1.000086); condition B last failing n = 10279 (next 200 pass: True)
+
+n (r = n): b, A-ratio = max m' N2/(P d), B-ratio, m', 8w, 64w
+3000 4 10.1891 1.2754 1899 3797.7 30381.4
+5185 4 7.952 0.9936 2569 5136.4 41091.0
+10000 4 5.9034 0.739 3683 7365.4 58923.3
+100000 4 2.0563 0.2571 12850 25698.9 205591.2
+400000 4 1.0819 0.1353 27045 54089.4 432715.4
+500000 4 0.9752 0.1219 30473 60944.3 487554.5
+1000000 4 0.7058 0.0883 44112 88223.1 705784.8
+2000000 4 0.5103 0.0638 63790 127579.1 1020632.7

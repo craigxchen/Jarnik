@@ -1,0 +1,8 @@
+author : last n with W-coefficient <= 0: 5184 ; last n with G(3n ln n - 14n) <= 0: 3661
+proved : last n with W-coefficient <= 0: 255100 ; last n with G(3n ln n - 14n) <= 0: 250600
+5185 proved-bound G_coef = -1.2412  author G_coef = 0.0016
+10000 proved-bound G_coef = -0.8572  author G_coef = 0.0653
+50000 proved-bound G_coef = -0.2807  author G_coef = 0.1614
+100000 proved-bound G_coef = -0.1356  author G_coef = 0.1857
+200000 proved-bound G_coef = -0.0299  author G_coef = 0.2033
+300000 proved-bound G_coef = 0.0181  author G_coef = 0.2114

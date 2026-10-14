@@ -1,0 +1,8 @@
+numerical zero u = [0.50069288, -0.90210639, 0.75043512, 1.0, 0.24963353, -0.40126536, -0.65146347]  Phi/|c|_1 = 5.64e-16  sep = 0.249565
+p(-h) = -2.445e-07, p(h) = 2.444e-07, opposite signs: True
+Sturm: roots of p in [-h,h]: 1, roots of p' in [-h,h]: 0
+certified: u* = u_r + t* g with |t*| < h = 1e-11;  sep(u*) >= 0.249565,  |u*|_inf in [1.000000, 1.000000]
+normalised separation sep(u*)/|u*|_inf >= 0.249565  (global max over all u: 2/7 = 0.285714)
+at u_r: |grad|^2 = 2.378448e+08, ||P H P||_F^2 = 6.887222e+09, ||H||_F^2 = 6.363075e+10
+|u*-u_r|_2 <= 1.585e-11;  ||P*H*P* - P_r H_r P_r||_F <= 1.014e+02  vs  ||P_r H_r P_r||_F = 8.298929e+04
+CERTIFIED: second fundamental form of {Phi=0} at the regular zero u* is nonzero

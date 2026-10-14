@@ -1,0 +1,5 @@
+Syl16 L=2 |A|=213937 D=[3, 6, 7, 9, 11, 12, 13, 14] (1s)
+orbit reps 7137 (13s)
+monomial orbits deg<=15: even 239159 odd 298750 (34s)
+eps=0 s=3 rows=7135 cols=15641 rank=7135 FULL (327s)
+RESULT Syl16 L=2: monomials of degree <= 15 span all functions on A (mod p): True

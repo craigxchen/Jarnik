@@ -1,0 +1,8 @@
+k=10: Gamma(binary point) <= 2.9838;  1.5 ln n - 7 = 3.397
+k=12: Gamma(binary point) <= 2.9953;  1.5 ln n - 7 = 5.477
+k=14: Gamma(binary point) <= 2.9987;  1.5 ln n - 7 = 7.556
+k=16: Gamma(binary point) <= 2.9996;  1.5 ln n - 7 = 9.636
+k=17: Gamma(binary point) <= 2.9998;  1.5 ln n - 7 = 10.675
+k=15: n=32768, w=1757.519, j=878, ceil(4w)=7031, 2jk=26340, m_max=21034, window (2jk, m_max] nonempty: False, ceil(4w) <= 2jk: True
+k=16: n=65536, w=2557.587, j=1278, ceil(4w)=10231, 2jk=40896, m_max=42065, window (2jk, m_max] nonempty: True, ceil(4w) <= 2jk: True
+k=17: n=131072, w=3716.103, j=1858, ceil(4w)=14865, 2jk=63172, m_max=84126, window (2jk, m_max] nonempty: True, ceil(4w) <= 2jk: True

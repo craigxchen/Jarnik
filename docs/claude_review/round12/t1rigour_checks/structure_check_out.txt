@@ -1,0 +1,1 @@
+structure checks passed: 2400 directions (h_A >= 2 tau_j, tau_j >= j ell + e), 990 cheap families
