@@ -1,0 +1,16 @@
+sdc7 #pats 14 L 2 base 0 |A| 757 H [1, 7, 28, 77, 161, 251, 188, 43, 1, 0, 0, 0, 0] same2p True sum 757 4.5s
+sdc7 #pats 14 L 2 base 7 |A| 757 H [1, 7, 28, 77, 161, 251, 188, 43, 1, 0, 0, 0, 0] same2p True sum 757 4.9s
+sdc7 #pats 14 L 3 base 0 |A| 1765 H [1, 7, 28, 77, 161, 266, 357, 379, 301, 153, 35, 0, 0] same2p True sum 1765 15.6s
+sdc7 #pats 14 L 3 base 7 |A| 1765 H [1, 7, 28, 77, 161, 266, 357, 379, 301, 153, 35, 0, 0] same2p True sum 1765 15.6s
+pal7 #pats 15 L 2 base 0 |A| 861 H [1, 7, 28, 77, 161, 251, 241, 95, 0, 0, 0, 0, 0] same2p True sum 861 6.0s
+pal7 #pats 15 L 2 base 7 |A| 807 H [1, 7, 28, 77, 161, 250, 214, 69, 0, 0, 0, 0, 0] same2p True sum 807 5.1s
+pal7 #pats 15 L 3 base 0 |A| 1877 H [1, 7, 28, 77, 161, 266, 357, 386, 329, 195, 63, 7, 0] same2p True sum 1877 17.3s
+pal7 #pats 15 L 3 base 7 |A| 1781 H [1, 7, 28, 77, 161, 266, 357, 383, 311, 157, 33, 0, 0] same2p True sum 1781 15.1s
+pal7core #pats 7 L 2 base 0 |A| 1037 H [1, 7, 28, 77, 161, 259, 287, 175, 42, 0, 0, 0, 0] same2p True sum 1037 7.3s
+pal7core #pats 7 L 2 base 7 |A| 1037 H [1, 7, 28, 77, 161, 259, 287, 175, 42, 0, 0, 0, 0] same2p True sum 1037 7.5s
+pal7core #pats 7 L 3 base 0 |A| 1877 H [1, 7, 28, 77, 161, 266, 357, 386, 329, 195, 63, 7, 0] same2p True sum 1877 17.4s
+pal7core #pats 7 L 3 base 7 |A| 1877 H [1, 7, 28, 77, 161, 266, 357, 386, 329, 195, 63, 7, 0] same2p True sum 1877 17.5s
+syl8 #pats 7 L 2 base 0 |A| 1037 H [1, 7, 28, 77, 161, 259, 287, 175, 42, 0, 0, 0, 0] same2p True sum 1037 7.7s
+syl8 #pats 7 L 2 base 7 |A| 1037 H [1, 7, 28, 77, 161, 259, 287, 175, 42, 0, 0, 0, 0] same2p True sum 1037 8.0s
+syl8 #pats 7 L 3 base 0 |A| 1877 H [1, 7, 28, 77, 161, 266, 357, 386, 329, 195, 63, 7, 0] same2p True sum 1877 17.8s
+syl8 #pats 7 L 3 base 7 |A| 1877 H [1, 7, 28, 77, 161, 266, 357, 386, 329, 195, 63, 7, 0] same2p True sum 1877 17.1s

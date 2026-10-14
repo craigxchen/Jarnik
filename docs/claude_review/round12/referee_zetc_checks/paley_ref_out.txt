@@ -1,0 +1,31 @@
+pattern sizes [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+Paley12 L 1 |A| 133
+Paley12 L 2 |A| 20153
+Paley12L2_D8 chi=(j=0,eps=0) rows=917 cols=1839 rank=917 FULL t=1s
+Paley12L2_D8 chi=(j=1,eps=0) rows=916 cols=1839 rank=916 FULL t=2s
+Paley12L2_D8 chi=(j=2,eps=0) rows=916 cols=1839 rank=916 FULL t=4s
+Paley12L2_D8 chi=(j=3,eps=0) rows=916 cols=1839 rank=916 FULL t=5s
+Paley12L2_D8 chi=(j=4,eps=0) rows=916 cols=1839 rank=916 FULL t=6s
+Paley12L2_D8 chi=(j=5,eps=0) rows=916 cols=1839 rank=916 FULL t=7s
+Paley12L2_D8 chi=(j=6,eps=0) rows=916 cols=1839 rank=916 FULL t=8s
+Paley12L2_D8 chi=(j=7,eps=0) rows=916 cols=1839 rank=916 FULL t=9s
+Paley12L2_D8 chi=(j=8,eps=0) rows=916 cols=1839 rank=916 FULL t=11s
+Paley12L2_D8 chi=(j=9,eps=0) rows=916 cols=1839 rank=916 FULL t=12s
+Paley12L2_D8 chi=(j=10,eps=0) rows=916 cols=1839 rank=916 FULL t=13s
+Paley12L2_D8 chi=(j=0,eps=1) rows=916 cols=1055 rank=916 FULL t=13s
+Paley12L2_D8 chi=(j=1,eps=1) rows=916 cols=1055 rank=916 FULL t=14s
+Paley12L2_D8 chi=(j=2,eps=1) rows=916 cols=1055 rank=916 FULL t=15s
+Paley12L2_D8 chi=(j=3,eps=1) rows=916 cols=1055 rank=916 FULL t=15s
+Paley12L2_D8 chi=(j=4,eps=1) rows=916 cols=1055 rank=916 FULL t=16s
+Paley12L2_D8 chi=(j=5,eps=1) rows=916 cols=1055 rank=916 FULL t=17s
+Paley12L2_D8 chi=(j=6,eps=1) rows=916 cols=1055 rank=916 FULL t=18s
+Paley12L2_D8 chi=(j=7,eps=1) rows=916 cols=1055 rank=916 FULL t=19s
+Paley12L2_D8 chi=(j=8,eps=1) rows=916 cols=1055 rank=916 FULL t=20s
+Paley12L2_D8 chi=(j=9,eps=1) rows=916 cols=1055 rank=916 FULL t=20s
+Paley12L2_D8 chi=(j=10,eps=1) rows=916 cols=1055 rank=916 FULL t=21s
+Paley12L2_D8 p 1048433 sum of rows 20153 N 20153 all full: True
+Paley12L2_D7 chi=(j=0,eps=0) rows=917 cols=534 rank=522 DEFICIENT t=0s
+Paley12L2_D7 chi=(j=0,eps=1) rows=916 cols=1055 rank=916 FULL t=1s
+Paley12L2_D7 chi=(j=1,eps=0) rows=916 cols=534 rank=521 DEFICIENT t=1s
+Paley12L2_D7 chi=(j=1,eps=1) rows=916 cols=1055 rank=916 FULL t=2s
+Paley12L2_D7 p 1048433 sum of rows 3665 N 20153 all full: False

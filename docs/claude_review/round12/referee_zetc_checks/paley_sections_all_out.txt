@@ -1,0 +1,32 @@
+classes 30
+(0, 1, 2, 3, 4, 5, 6) |A_Y| 909 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 19s
+(0, 1, 2, 3, 4, 5, 7) |A_Y| 901 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 19s
+(0, 1, 2, 3, 4, 5, 8) |A_Y| 901 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 19s
+(0, 1, 2, 3, 4, 5, 9) |A_Y| 915 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 16s
+(0, 1, 2, 3, 4, 6, 7) |A_Y| 901 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 19s
+(0, 1, 2, 3, 4, 6, 8) |A_Y| 909 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 19s
+(0, 1, 2, 3, 4, 6, 9) |A_Y| 901 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 19s
+(0, 1, 2, 3, 4, 7, 8) |A_Y| 901 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 20s
+(0, 1, 2, 3, 4, 7, 9) |A_Y| 901 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 20s
+(0, 1, 2, 3, 4, 8, 9) |A_Y| 909 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 20s
+(0, 1, 2, 3, 5, 6, 7) |A_Y| 915 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 17s
+(0, 1, 2, 3, 5, 6, 8) |A_Y| 901 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 20s
+(0, 1, 2, 3, 5, 6, 9) |A_Y| 909 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 19s
+(0, 1, 2, 3, 5, 7, 8) |A_Y| 901 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 20s
+(0, 1, 2, 3, 5, 7, 9) |A_Y| 909 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 19s
+(0, 1, 2, 3, 5, 8, 9) |A_Y| 901 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 19s
+(0, 1, 2, 3, 6, 7, 8) |A_Y| 909 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 19s
+(0, 1, 2, 3, 6, 7, 9) |A_Y| 909 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 20s
+(0, 1, 2, 3, 6, 8, 9) |A_Y| 915 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 16s
+(0, 1, 2, 3, 7, 8, 9) |A_Y| 901 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 20s
+(0, 1, 2, 4, 5, 6, 8) |A_Y| 901 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 20s
+(0, 1, 2, 4, 5, 6, 9) |A_Y| 909 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 19s
+(0, 1, 2, 4, 5, 7, 8) |A_Y| 901 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 21s
+(0, 1, 2, 4, 5, 7, 9) |A_Y| 901 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 21s
+(0, 1, 2, 4, 5, 8, 9) |A_Y| 909 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 20s
+(0, 1, 2, 4, 6, 7, 8) |A_Y| 901 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 23s
+(0, 1, 2, 4, 6, 7, 9) |A_Y| 901 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 20s
+(0, 1, 2, 4, 6, 8, 9) |A_Y| 915 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 17s
+(0, 1, 2, 5, 6, 8, 9) |A_Y| 915 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 17s
+(0, 1, 3, 4, 6, 7, 9) |A_Y| 909 dimV8 1 rho<=8 True indefinite(exact) True irreducible/Q True 20s
+all classes: dimV8=1: True rho=8: True indefinite: 30 irreducible: 30 of 30

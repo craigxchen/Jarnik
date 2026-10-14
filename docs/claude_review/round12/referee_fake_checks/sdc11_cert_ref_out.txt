@@ -1,0 +1,4 @@
+[zero 1] unknown coords [2, 5, 6, 8, 10]; residual 4.2e-81; Krawczyk K(X) in int X: True; sep(u*) >= 0.005287 (minus 2e-30); |u|_inf = 1 at coord 0: True; max other |u_x| = 0.3220
+[zero 1] sigma(J) = [0.4   0.169 0.165 0.063 0.032] ; singular values of the 5 x 36 restricted-Hessian matrix: [0.927  0.5266 0.3896 0.2027 0.0457]  (39s)
+[zero 2] unknown coords [3, 4, 6, 9, 10]; residual 2.2e-81; Krawczyk K(X) in int X: True; sep(u*) >= 0.010009 (minus 2e-30); |u|_inf = 1 at coord 0: True; max other |u_x| = 0.4580
+[zero 2] sigma(J) = [0.026 0.022 0.006 0.005 0.002] ; singular values of the 5 x 36 restricted-Hessian matrix: [0.2103 0.0946 0.0638 0.0162 0.0061]  (37s)

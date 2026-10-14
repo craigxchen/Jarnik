@@ -1,0 +1,8 @@
+base 0 |A| 757 dim V(A,8) = 1  rank deg<=8 = 757  |c|_inf 42 |c|_1 1008 supp 687 even True 1.2s
+base 1 |A| 757 dim V(A,8) = 1  rank deg<=8 = 757  |c|_inf 42 |c|_1 1008 supp 687 even True 1.1s
+base 2 |A| 757 dim V(A,8) = 1  rank deg<=8 = 757  |c|_inf 42 |c|_1 1008 supp 687 even True 1.1s
+base 3 |A| 757 dim V(A,8) = 1  rank deg<=8 = 757  |c|_inf 42 |c|_1 1008 supp 687 even True 1.0s
+base 4 |A| 757 dim V(A,8) = 1  rank deg<=8 = 757  |c|_inf 42 |c|_1 1008 supp 687 even True 1.0s
+base 5 |A| 757 dim V(A,8) = 1  rank deg<=8 = 757  |c|_inf 42 |c|_1 1008 supp 687 even True 1.0s
+base 6 |A| 757 dim V(A,8) = 1  rank deg<=8 = 757  |c|_inf 42 |c|_1 1008 supp 687 even True 1.1s
+base 7 |A| 757 dim V(A,8) = 1  rank deg<=8 = 757  |c|_inf 42 |c|_1 1008 supp 687 even True 1.0s

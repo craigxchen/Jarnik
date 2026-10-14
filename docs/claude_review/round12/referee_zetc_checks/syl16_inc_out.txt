@@ -1,0 +1,6 @@
+Syl16 L2 |A| 213937
+Frobenius invariance: OK
+Syl16L2_D15 chi=(j=0,eps=0) rows=7137 rank=7137 FULL per-degree gains=[(0, 1), (2, 8), (4, 189), (6, 1877), (8, 4962), (10, 100)] t=535s
+Syl16L2_D15 chi=(j=0,eps=1) rows=7136 rank=7136 FULL per-degree gains=[(1, 1), (3, 45), (5, 655), (7, 4146), (9, 2286), (11, 3)] t=1090s
+Syl16L2_D15 chi=(j=1,eps=0) rows=7129 rank=7129 FULL per-degree gains=[(0, 0), (2, 8), (4, 189), (6, 1874), (8, 4964), (10, 94)] t=1620s
+Syl16L2_D15 chi=(j=1,eps=1) rows=7129 rank=7129 FULL per-degree gains=[(1, 1), (3, 44), (5, 654), (7, 4146), (9, 2283), (11, 1)] t=2187s

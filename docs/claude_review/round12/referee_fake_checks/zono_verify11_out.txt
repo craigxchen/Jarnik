@@ -1,0 +1,2 @@
+sdc11 L=2 base inf: translates with all 128 subset sums in A: 1 e.g. (-1, 0, -1, 0, 0, 0, 0, 0, 0, 0, 1)
+c in V(A,7): True  |c|_1 = 96  Phi_c = 7! prod <v_i,u>: True

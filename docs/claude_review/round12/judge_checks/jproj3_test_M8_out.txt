@@ -1,0 +1,6 @@
+M8: J_w + 3-column projections (35 families, 2436 forms): dims=[0, 0, 0, 7, 49, 203, 637, 1541, 2961]
+   J(A) dims=[0, 0, 0, 7, 49, 203, 637, 1541, 2961]
+   cumulative equal: [True, True, True, True, True, True, True, True, True] [46s]
+M8: J_w + 4-column projections (35 families, 8428 forms): dims=[0, 0, 0, 7, 49, 203, 637, 1541, 2961]
+   J(A) dims=[0, 0, 0, 7, 49, 203, 637, 1541, 2961]
+   cumulative equal: [True, True, True, True, True, True, True, True, True] [140s]

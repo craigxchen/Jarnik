@@ -1,0 +1,7 @@
+Newton residual Phi/|c|_1 = -3.3545e-59
+sign change of Phi on the segment u_r +- h g (h = 1e-22): True -2.4120853830626777e-18 2.4120853932547776e-18
+max |u_x| over x != 3: 0.9021063902706312
+sep(u_r) = 0.249564880 ; sep(u*) >= 0.249564880
+|grad Phi(u_r)|_2 = 1.5422e+04 ; perturbation <= 7.319e-12  => grad Phi(u*) != 0: True
+||P H P||_F at u_r = 8.2989e+04 ; variation bound <= 4.954e-10  => second fundamental form nonzero: True
+positions (0,u*) sorted: [-0.9021063902706312, -0.6514634698097796, -0.4012653593680024, 0.0, 0.24963352955710252, 0.5006928806909553, 0.7504351200312797, 1.0]

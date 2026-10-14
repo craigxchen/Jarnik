@@ -1,0 +1,4 @@
+sdc7 L=2 base inf: translates k0 with the whole zonotope (2^7 subset sums) in A: 1  e.g. k0 = (-1, 0, -1, 1, 0, 0, 0)
+   c in V(A,7) (all reduced monomials deg<=6 annihilated): True  |c|_1 = 126  Phi_c = 7! prod <v_i,u>: True
+pal7 L=2 base inf: translates k0 with the whole zonotope (2^7 subset sums) in A: 1  e.g. k0 = (0, -1, 0, 0, 0, -1, 0)
+   c in V(A,7) (all reduced monomials deg<=6 annihilated): True  |c|_1 = 96  Phi_c = 7! prod <v_i,u>: True

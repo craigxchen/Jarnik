@@ -1,0 +1,19 @@
+pal7 L=3 base 0: full-profile box == Paley-core box: True 1877
+  pal7 L=3 base 0 |A| = 1877
+  pal7 L=3 base 1 |A| = 1781
+  pal7 L=3 base 2 |A| = 1757
+  pal7 L=3 base 3 |A| = 1757
+  pal7 L=3 base 4 |A| = 1781
+  pal7 L=3 base 5 |A| = 1757
+  pal7 L=3 base 6 |A| = 1781
+  pal7 L=3 base 7 |A| = 1781
+  pal7 L=2 base 0 |A| = 861
+  pal7 L=2 base 1 |A| = 807
+  pal7 L=2 base 2 |A| = 801
+  pal7 L=2 base 3 |A| = 801
+  pal7 L=2 base 4 |A| = 807
+  pal7 L=2 base 5 |A| = 801
+  pal7 L=2 base 6 |A| = 807
+  pal7 L=2 base 7 |A| = 807
+#perms mapping Paley-core cuts onto Sylvester cuts: 1344  with 0->0: 168  example: (0, 1, 2, 4, 3, 6, 7, 5)
+author's permutation maps core onto Sylvester: True

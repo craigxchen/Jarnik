@@ -1,0 +1,9 @@
+(0, 1, 2, 3, 4, 5, 6) |A_Y| 909 rank<8 908 rank<9 909 dim V(A_Y,8) 1
+  exact signs at 3000 random integer points: pos 1388 neg 1607 witness+ [-15, 7, 4, -22, -7, 28, 8] witness- [23, 0, -14, 5, -16, -18, 15]
+  factor_list: content -40320 factors (deg, mult): [(8, 1)] t=21s
+(0, 1, 2, 3, 4, 5, 7) |A_Y| 901 rank<8 900 rank<9 901 dim V(A_Y,8) 1
+  exact signs at 3000 random integer points: pos 827 neg 2170 witness+ [-19, 14, 17, -29, -17, -14, 22] witness- [-27, 25, 1, -2, 21, -29, -27]
+  factor_list: content -40320 factors (deg, mult): [(8, 1)] t=21s
+(0, 1, 2, 3, 4, 5, 9) |A_Y| 915 rank<8 914 rank<9 915 dim V(A_Y,8) 1
+  exact signs at 3000 random integer points: pos 828 neg 2166 witness+ [17, 21, 12, 4, 4, 19, 13] witness- [-29, 13, 14, 24, 26, -22, -7]
+  factor_list: content -40320 factors (deg, mult): [(8, 1)] t=18s

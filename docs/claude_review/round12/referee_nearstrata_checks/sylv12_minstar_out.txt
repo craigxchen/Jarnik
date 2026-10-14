@@ -1,0 +1,4 @@
+n=4096 r=4095 w=563.8236 j=281 m'=2256 m_max=2631 (R1) ceil(4w)<=m_max: True  w>=10: True
+3-col span: P=1046528, N2/P=8.01370, proved order o>=570, o*N2/P=4567.8 vs d=4095
+Gamma_L=30.200; MIN* fails for every g > g* = 328.39  (i.e. W = 2 d g > 2.689e+06);
+near-extremal level abar ~ 1.5 ln n = 12.48; W_min = 3 n ln n - 14 n = 4.486e+04

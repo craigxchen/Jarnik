@@ -1,0 +1,14 @@
+normalisation signs (Phi_b = sgn*Phi_0 exactly at a random point): [1, 1, 1, 1, 1, 1, 1, 1]
+Phi_b == sgn_b Phi_0 at 40 random integer points: True
+rank Phi*quadrics: 28  rank {Psi_b - Psi_0}: 0  rank together: 28
+ => dim of span{Psi_b - Psi_0} modulo (Phi)_10 = 0
+Phi(u*)/(|c|_1 d^8) = -2.87e-15
+  b=1: (Psi_b - Psi_0)(u*)/(|c|_1 d^10) = +8.0174e-22   [Psi_0(u*)/(|c|_1 d^10) = -2.7016e-08]
+  b=2: (Psi_b - Psi_0)(u*)/(|c|_1 d^10) = +8.4965e-22   [Psi_0(u*)/(|c|_1 d^10) = -2.7016e-08]
+  b=3: (Psi_b - Psi_0)(u*)/(|c|_1 d^10) = +7.2508e-22   [Psi_0(u*)/(|c|_1 d^10) = -2.7016e-08]
+  b=4: (Psi_b - Psi_0)(u*)/(|c|_1 d^10) = +8.2410e-22   [Psi_0(u*)/(|c|_1 d^10) = -2.7016e-08]
+  b=5: (Psi_b - Psi_0)(u*)/(|c|_1 d^10) = +1.2809e-21   [Psi_0(u*)/(|c|_1 d^10) = -2.7016e-08]
+  b=6: (Psi_b - Psi_0)(u*)/(|c|_1 d^10) = +3.1303e-22   [Psi_0(u*)/(|c|_1 d^10) = -2.7016e-08]
+  b=7: (Psi_b - Psi_0)(u*)/(|c|_1 d^10) = +6.2606e-22   [Psi_0(u*)/(|c|_1 d^10) = -2.7016e-08]
+measures identical as measures on Z^8_0: True
+max |k_x| on supp c (all x): 1

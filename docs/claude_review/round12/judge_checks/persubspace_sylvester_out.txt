@@ -1,0 +1,12 @@
+k=12 b=1 o_b=1694 Q_b=2.00049 o_bQ_b-d=-706.172 : no violation from this span (proved order)
+k=12 b=2 o_b=1132 Q_b=4.00293 o_bQ_b-d=436.32 gstar=17.9347 fail_from_g=17.9347 eta=5.154e-16 mixed_ok=True W_fail=146885.0 W_min=45233.4
+k=12 b=3 o_b=570 Q_b=8.01370 o_bQ_b-d=472.808 gstar=14.9028 fail_from_g=14.9028 eta=2.337e-26 mixed_ok=True W_fail=122054.0 W_min=45233.4
+k=12 b=4 o_b=8 Q_b=16.05882 o_bQ_b-d=-3966.53 : no violation from this span (proved order)
+k=13 b=1 o_b=2478 Q_b=2.00024 o_bQ_b-d=-3234.39 : no violation from this span (proved order)
+k=13 b=2 o_b=1654 Q_b=4.00147 o_bQ_b-d=-1572.58 : no violation from this span (proved order)
+k=13 b=3 o_b=830 Q_b=8.00684 o_bQ_b-d=-1545.32 : no violation from this span (proved order)
+k=13 b=4 o_b=6 Q_b=16.02935 o_bQ_b-d=-8094.82 : no violation from this span (proved order)
+k=14 b=1 o_b=3619 Q_b=2.00012 o_bQ_b-d=-9144.56 : no violation from this span (proved order)
+k=14 b=2 o_b=2415 Q_b=4.00073 o_bQ_b-d=-6721.23 : no violation from this span (proved order)
+k=14 b=3 o_b=1211 Q_b=8.00342 o_bQ_b-d=-6690.86 : no violation from this span (proved order)
+k=14 b=4 o_b=7 Q_b=16.01466 o_bQ_b-d=-16270.9 : no violation from this span (proved order)

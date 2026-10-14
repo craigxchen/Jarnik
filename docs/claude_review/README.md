@@ -79,9 +79,15 @@ the only evidence for it is exact theorems on two small LP-subcritical models. E
 replacement proposed (ZE-braid, the separation hypotheses SL and SL\*) is false, through the cheap rational
 subtori of Hadamard-type profiles. New: ZE restricted to the actual point (ZE-col\*) would give
 `M = O((loglog R)^2)` on all norms, and route 5 also runs at box size `T = 1`, where ZE reduces to a real
-tangent-cone statement (unrefereed).
+tangent-cone statement (unrefereed). Round 12 (`round12/README.md`) makes route 5 at `T = 1` rigorous on all norms,
+with no rank or squarefree input: rigidity, the reduction to the tangent cone, the structure of cheap families and the
+separation of the actual point from them are proved and refereed. Growth then follows from one open inequality,
+MIN^pair: the tangent-cone forms cannot all be tiny on the set of directions that respect every pair gap of the
+cluster. MIN^pair would give `M = O(loglog R)` on all norms. It is open, with no evidence either way at regime sizes,
+which are beyond exact computation (the smallest LP-supercritical Sylvester model already has `n >= 32`). By the
+fake-test theorem, deciding it on the fake profiles is exactly the barrier question.
 
-**Growth-rate status (2026-10-13).** No growth improvement over `log R/loglog R` is proved, either
+**Growth-rate status (2026-10-14).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues
@@ -94,6 +100,6 @@ refereed barrier theorems:
 * single-form Lang-Waldschmidt.
 
 The only conditional route known to work from a standard conjecture is Vojta's conjecture for one fixed
-variety, which gives the uniform bound. Route 5 (rounds 10-11) gives `M = O(loglog R)` on squarefree norms, or
-`O((loglog R)^2)` on all norms, from the non-standard zero estimate ZE or ZE-col\*. Both are open. Still open: the class P3-all (genuine prime-level residues imposed on every monomial),
+variety, which gives the uniform bound. Route 5 (rounds 10-12) gives `M = O(loglog R)` on all norms from the
+non-standard inequality MIN^pair (round 12), and earlier from ZE or ZE-col\*. All of these are open. Still open: the class P3-all (genuine prime-level residues imposed on every monomial),
 and the full Lang-Waldschmidt conjecture with `eps -> 0` used simultaneously.

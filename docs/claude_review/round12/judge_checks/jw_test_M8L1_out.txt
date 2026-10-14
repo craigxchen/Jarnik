@@ -1,0 +1,5 @@
+Syl(8), L=1: |A|=57 d=7 m=4 R=2 #width-gens=127
+  H_A    =[1, 7, 28, 21, 0]
+  dimJ(A)=[0, 0, 0, 63, 210]
+  dimJ_w =[0, 0, 0, 63, 210]
+  cumulative equal (=> J(A)=J_w over Q up to that degree): [True, True, True, True, True]   [0.3s]

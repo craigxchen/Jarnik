@@ -1,0 +1,5 @@
+d=2 blocks so far 0 gaps 0
+d=3 blocks so far 2 gaps 0
+d=4 blocks so far 12 gaps 0
+d=5 blocks so far 31 gaps 0
+d=6 blocks so far 66 gaps 0

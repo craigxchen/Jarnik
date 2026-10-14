@@ -1,0 +1,9 @@
+k=12 n=4096 j=281 m'=2256 | 3col: cost=1686 cheap=True o_lower=570 o_crit=511.0 | 4col: cost=2248 cheap=True o_lower=8 o_crit=255.0
+k=13 n=8192 j=412 m'=3302 | 3col: cost=2472 cheap=True o_lower=830 o_crit=1023.0 | 4col: cost=3296 cheap=True o_lower=6 o_crit=511.0
+k=14 n=16384 j=602 m'=4823 | 3col: cost=3612 cheap=True o_lower=1211 o_crit=2047.0 | 4col: cost=4816 cheap=True o_lower=7 o_crit=1023.0
+k=15 n=32768 j=878 m'=7031 | 3col: cost=5268 cheap=True o_lower=1763 o_crit=4095.0 | 4col: cost=7024 cheap=True o_lower=7 o_crit=2047.0
+k=16 n=65536 j=1278 m'=10231 | 3col: cost=7668 cheap=True o_lower=2563 o_crit=8191.0 | 4col: cost=10224 cheap=True o_lower=7 o_crit=4095.0
+k=17 n=131072 j=1858 m'=14865 | 3col: cost=11148 cheap=True o_lower=3717 o_crit=16383.0 | 4col: cost=14864 cheap=True o_lower=1 o_crit=8191.0
+k=18 n=262144 j=2695 m'=21568 | 3col: cost=16170 cheap=True o_lower=5398 o_crit=32767.0 | 4col: cost=21560 cheap=True o_lower=8 o_crit=16383.0
+k=19 n=524288 j=3906 m'=31255 | 3col: cost=23436 cheap=True o_lower=7819 o_crit=65535.0 | 4col: cost=31248 cheap=True o_lower=7 o_crit=32767.0
+k=20 n=1048576 j=5655 m'=45241 | 3col: cost=33930 cheap=True o_lower=11311 o_crit=131071.0 | 4col: cost=45240 cheap=True o_lower=1 o_crit=65535.0

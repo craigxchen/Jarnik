@@ -11,7 +11,7 @@ fake test of the `T = 1` programme (R11 §8.3 item 4, §8.4). Results:
    Paley twin profile) is, to within `theta e^{-W/4}`, the direction of genuine gap-admissible fakes, at every large
    prime window; these fakes satisfy Step 0's conclusion `kappa_c(hat u) <= eps_0` for all `c in V_H` and all pair
    inequalities, so they refute ZE-TC_eps + arithmetic separation for that profile. No Diophantine hypothesis on `u*`
-   is needed. At the barrier scale `W = O(n log n)` the same holds iff `u*` has polynomial Diophantine quality (2.2)
+   is needed. At the barrier scale `W = O(n log n)` the same holds if `u*` has polynomial Diophantine quality (2.2)
    (contains nearstrata's `Gamma(u*) = O(log n)`). Conversely fakes have no other freedom: if quantitative ZE-TC holds
    on the fake pattern sets, fakes simply violate Step 0. **So the fake test for route 5 at `T = 1` is neither
    easier nor harder than ZE-TC on the barrier pattern sets.**
@@ -34,7 +34,9 @@ fake test of the `T = 1` programme (R11 §8.3 item 4, §8.4). Results:
      lies on `Z_P`** (Prop 3.4, proved from refereed data).
    * sdc7 (`m = 7`, 43 forms), pal7 (`m = 7`, 95), sdc11 (`m = 7`, 2157), pal11 (`m = 8`, **436 forms, faithful**:
      `zeta <= 7 < 8 = rho`): the minimum of `kappa` over directions with all gaps `>= s` is positive for every `s > 0`
-     tried and decays like `s^{4..6}`; minimisers sit next to cheap strata. PAL11SUM
+     tried and decays like `s^{4..8}`; minimisers sit next to cheap strata. For pal11, the round-5 fake profile at `n = 12` and the
+     only faithful overdetermined fake model computed, the minimisers over `{sep >= s}` are again arithmetic
+     progressions next to the 2-value stratum, with `kappa2* = 6e-11, 2e-8, 1e-7, 3e-6` at `s = 0.02, 0.05, 0.08, 0.12`.
 5. **Growth of `dim V` in the skew-double-core family and shrinking of the cone (§6).** `dim V(A, rho) = 1, 5` for
    `q = 7, 11`, and `H_A(rho - 1) = 43, 2157`. The largest gap of a real tangent-cone point drops from `87%` of the
    maximum (`q = 7`) to `5.5-11%` (`q = 11`) at the top degree, and to `~0` once `H_A(m) >> d`. The cone shrinks
@@ -243,7 +245,7 @@ pattern set: the fake-circle barrier transfers to it.
    then class 1 holds for `tau >= (2a ln n + ln(13 s*/C))/rho_1` and the condition on `eta` for
    `r tau/4 >= a Lambda ln n + O(log n)`, i.e. `tau = O((a/rho_1 + 1) log n)` suffices, i.e. **fakes at `W = O(r log n)`, the barrier scale, with
    `kappa(hat u) <= eps_0`.** For pairs (2.2) is polynomial separation, `|u*_x - u*_y| >= n^{-2a}`; in nearstrata's
-   language (2.2) contains `Gamma(u*) <= 4a ln n`. So the barrier-scale fake test is exactly: *does `TC_H(A,m)`
+   language (2.2) contains `Gamma(u*) <= 4a ln n`. So a sufficient condition for a barrier-scale fake is: *does `TC_H(A,m)`
    contain a nondegenerate point with polynomial Diophantine quality (2.2)?*
 3. *Residues.* The same proof works in the class `A_1(Q_0)` of `construct.md` (residue axiom (R)): the requirement
    (5.1) there has the extra factor `L^{||lambda||_1/2}` inside the arcsin, which is absorbed by `tau rho_1 ||lambda||_1/2`
@@ -475,7 +477,7 @@ with `tcnum.py` on sdc7).
 | pal7 | 7 | 95 | `1e-15` (collision) | | `1.3e-7` | | `3.7e-6` | | | 0 |
 | sdc11 | 8 | 5 | `1e-20` (zeros up to `s = 0.01`) | `4e-14`\* | `1e-11`\* | `4e-10`\* | | `5e-9`\* (`s=.12`) | `3e-8`\* (`s=.16`) | **0.0100 (certified, Prop 3.2)**; none found `>= 0.02` |
 | sdc11 | 7 | 2157 | `6e-12` (sep `1e-4`) | `6.5e-9` | `3.9e-7` | `6.6e-6` | | | | 0 |
-| pal11 | 8 | 436 | PAL11ROW |
+| pal11 | 8 | 436 | `2e-15` (collision) | `6.0e-11` | `1.9e-8` | `1.1e-7` | | `2.8e-6` (`s=.12`) | `3.0e-5` (`s=.16`) | 0 |
 
 (\*: sdc11 at `m = 8` reports `(sum_i (Phi_i/(|c_i|_1 d^8))^2)^{1/2}` over the 5 basis forms, typical size `3e-8`.)
 Separation scale: `2/d` is the largest possible `sep` (`0.2857` at `n = 8`, `0.1818` at `n = 12`).
@@ -488,7 +490,7 @@ Separation scale: `2/d` is the largest possible `sep` (`0.2857` at `n = 8`, `0.1
   arithmetic progressions of step exactly `s` together with one far point (e.g. sdc11, `m = 7`, `s = 0.05`: positions
   `-0.1, -0.05, 0, 0.05, ..., 0.4, 1`): the optimiser runs into the boundary of the separated region next to the
   cheap stratum "all but one point coincide with the base point" (R11 Prop 5.1 type; its span is `R e_x`, cost `2 < m`).
-  `kappa2*` decays roughly like `s^{4..6}` as `s -> 0`, and no zero with `sep > 1e-4` was found. This is the
+  `kappa2*` decays roughly like `s^{4..8}` as `s -> 0`, and no zero with `sep > 1e-4` was found. This is the
   behaviour ZE-TC^braid with a polynomial Lojasiewicz exponent predicts, at model size. In the regime the fake
   separation is `n^{-O(1)}` and the required bound is `kappa > eps_0 ~ e^{-W/4}`; a decay `s^{O(m)}` would be ample
   (R11 §5.3), but nothing here controls the exponent's growth with `n`.
@@ -588,7 +590,7 @@ computation `sdc11_m8.py`; `zeta`: verified zonotope of length 6 and rigorous LP
 
    So the cone shrinks quickly with the number of forms, and once `H_A(m) >> d` the numerical tangent cone sits on
    the collision/cheap strata: the near-minimisers of `kappa2` over `{sep >= s}` are arithmetic progressions next to
-   the stratum "all but one point at the base point" (span `R e_x`, cost 2), with `kappa2*(s) ~ s^{4..6}`.
+   the stratum "all but one point at the base point" (span `R e_x`, cost 2), with `kappa2*(s) ~ s^{4..8}`.
    **But "shrinks to cheap spans" is not what happens at the underdetermined order**: at sdc11, `m = 8`, the
    certified zeros are collision-free, with `Gamma = 3-4.5`, so qualitative ZE-TC^deg fails there, while the
    separation available on the cone has dropped by an order of magnitude. Whether the overdetermined orders contain
@@ -618,16 +620,20 @@ computation `sdc11_m8.py`; `zeta`: verified zonotope of length 6 and rigorous LP
    have `43` (`n = 8`) and `2157` (`n = 12`) tangent forms, and the numerical tangent-cone landscape (§4) collapses onto
    the collision strata: the minimum of `kappa` over directions with all gaps `>= s` is positive for every `s > 0`
    tried and decays like a power of `s`. The caveat is that at these orders `zeta = m` is not excluded (LP bound
-   `zeta <= 7`), in which case the collapse is explained by a single character.
+   `zeta <= 7`), in which case the collapse is explained by a single character. The round-5 Paley fake profile at
+   `n = 12` (pal11, `L = 2`) has a **faithful** overdetermined top degree (`zeta <= 7 < 8 = rho`, 436 octics in 11
+   variables) and shows the same collapse, with no caveat; at `n = 8` (pal7, `L = 3` = `M8'`) the collapse is a theorem
+   (Prop 3.4).
 4. **Restricted positive theorems** (§5): explicit lower bounds come only from zonotopes (blind in the regime, for
    fakes and actual clusters alike, Prop 5.3), and from sections and products of small certified models (Sylvester
    towers, LP-subcritical). An explicit `f(sigma)` for `M8'` is the first missing finite computation.
 
 **Open points (in order of usefulness).**
 * Decide whether `TC_H(A, ceil(4w))` of a regime-size fake pattern set has nondegenerate points. Theorem 2.1 makes
-  this the whole fake test. The computable proxy is the sequence of fake-profile models at orders `m < rho` with
-  `H_A(m) >> d`: §4 shows collapse at `n = 8, 12`, `m = 7`; models with `zeta < m < rho` and `H_A(m) >> d` are
-  needed (larger `L` at `n = 12`, e.g. sdc11 at `L = 3`, `|A| = 71633`).
+  this the whole fake test. The computable proxies are overdetermined faithful fake-profile models: pal11 at
+  `L = 2`, `m = 8` (436 octics) is the first one; deciding exactly whether its real tangent cone lies in the braid
+  arrangement (as for `M8'`, by the R11 cone-reduction/saturation method) is the most useful next computation, then
+  sdc11 at `L = 3` (`|A| = 71633`).
 * An explicit Lojasiewicz function `f(sigma)` for one overdetermined zonotope-free model (Theorem 5.4's input), via a
   Nullstellensatz certificate.
 * Whether the underdetermined top-degree phenomenon persists: `H_A(rho) = 1, 5` for sdc at `n = 8, 12`; if

@@ -1,0 +1,9 @@
+exact rank of the 8 base-point octics (evaluated at 40 integer points): 1
+  base 0: Phi_b(z*)/(|c|_1 d^8) = -3.806e-12
+  base 1: Phi_b(z*)/(|c|_1 d^8) = -3.806e-12
+  base 2: Phi_b(z*)/(|c|_1 d^8) = -3.806e-12
+  base 3: Phi_b(z*)/(|c|_1 d^8) = -3.806e-12
+  base 4: Phi_b(z*)/(|c|_1 d^8) = -3.806e-12
+  base 5: Phi_b(z*)/(|c|_1 d^8) = -3.806e-12
+  base 6: Phi_b(z*)/(|c|_1 d^8) = -3.806e-12
+  base 7: Phi_b(z*)/(|c|_1 d^8) = -3.806e-12

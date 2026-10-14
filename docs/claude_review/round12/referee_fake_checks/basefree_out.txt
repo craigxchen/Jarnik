@@ -1,0 +1,5 @@
+sdc7 L 2 max |k_0| on A_0: 2  all full-coordinate boxes equal: False [757, 757, 757, 757, 757, 757, 757, 757]
+sdc11 L 2 max |k_0| on A_0: 2  all full-coordinate boxes equal: False [9373, 9553, 9553, 9553, 9553, 9553, 9553, 9553, 9553, 9553, 9553, 9553]
+pal7 L 2 max |k_0| on A_0: 3  all full-coordinate boxes equal: False [861, 807, 801, 801, 807, 801, 807, 807]
+pal7 L 3 max |k_0| on A_0: 4  all full-coordinate boxes equal: False [1877, 1781, 1757, 1757, 1781, 1757, 1781, 1781]
+pal11 L 2 max |k_0| on A_0: 2  all full-coordinate boxes equal: False [12093, 11813, 11791, 11811, 11791, 11791, 11791, 11811, 11811, 11811, 11791, 11811]

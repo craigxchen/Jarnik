@@ -1,0 +1,6 @@
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round12/referee_fake_checks/lpzeta_ref.py:4: SyntaxWarning: invalid escape sequence '\ '
+  admissible generator v, then zeta <= sum_f y_f h_A(f).  Generators: all v in {-2..2}^d \ 0 (superset of the
+pal11 L 2 |A| 12093 widths: slabs [4] coords [4, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+iter 0: LP value 4.862623, #constraints 60160, min_v sum y|f(v)| = 0.376241
+iter 1: LP value 7.333333, #constraints 65672, min_v sum y|f(v)| = 1.000000
+rational y (common denominator 6): min_v sum y|f(v)| = 1 ; certified zeta <= 22/3 = 7.3333

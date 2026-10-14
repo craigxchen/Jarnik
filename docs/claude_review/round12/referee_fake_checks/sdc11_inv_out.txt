@@ -1,0 +1,10 @@
+box invariant under the cyclic shift: True
+|A| = 9373  orbits = 853
+monomial orbits (deg<=7) = 1589
+dim of invariant V(A,8) (exact) = 5  (1s)
+  basis vector |c|_1 = 5235263000  |c|_inf = 6905840
+  basis vector |c|_1 = 2236760416  |c|_inf = 2100656
+  basis vector |c|_1 = 1957825188  |c|_inf = 2913486
+  basis vector |c|_1 = 3902223292  |c|_inf = 4340531
+  basis vector |c|_1 = 39645161116  |c|_inf = 554573184
+all invariant basis vectors annihilate all 17469 reduced monomials of degree <= 7: True

@@ -1,0 +1,25 @@
+onecut d=5 S=all L=1: |A|=141 d=5 m=6 R=2 #width-gens=36
+  H_A    =[1, 5, 15, 29, 40, 36, 15]
+  dimJ(A)=[0, 0, 0, 6, 30, 90, 195]
+  dimJ_w =[0, 0, 0, 6, 30, 90, 195]
+  cumulative equal (=> J(A)=J_w over Q up to that degree): [True, True, True, True, True, True, True]   [0.1s]
+onecut d=5 S=all L=2: |A|=201 d=5 m=7 R=2 #width-gens=116
+  H_A    =[1, 5, 15, 30, 45, 50, 40, 15]
+  dimJ(A)=[0, 0, 0, 5, 25, 76, 170, 315]
+  dimJ_w =[0, 0, 0, 5, 25, 76, 170, 315]
+  cumulative equal (=> J(A)=J_w over Q up to that degree): [True, True, True, True, True, True, True, True]   [0.2s]
+onecut d=6 S={0,1} L=1 (zetc n=7 example): |A|=567 d=6 m=8 R=2 #width-gens=232
+  H_A    =[1, 6, 21, 49, 85, 112, 115, 91, 55]
+  dimJ(A)=[0, 0, 0, 7, 41, 140, 347, 701, 1232]
+  dimJ_w =[0, 0, 0, 7, 41, 140, 347, 701, 1232]
+  cumulative equal (=> J(A)=J_w over Q up to that degree): [True, True, True, True, True, True, True, True, True]   [5.2s]
+twocut d=5 S1={0,1,2} S2={2,3,4} L=1,1: |A|=121 d=5 m=6 R=2 #width-gens=43
+  H_A    =[1, 5, 15, 28, 35, 27, 10]
+  dimJ(A)=[0, 0, 0, 7, 35, 99, 200]
+  dimJ_w =[0, 0, 0, 7, 35, 99, 200]
+  cumulative equal (=> J(A)=J_w over Q up to that degree): [True, True, True, True, True, True, True]   [0.1s]
+twocut d=6 S1={0..3} S2={2..5} L=1,1: |A|=309 d=6 m=7 R=2 #width-gens=351
+  H_A    =[1, 6, 21, 48, 78, 84, 54, 16]
+  dimJ(A)=[0, 0, 0, 8, 48, 168, 408, 776]
+  dimJ_w =[0, 0, 0, 8, 48, 168, 408, 776]
+  cumulative equal (=> J(A)=J_w over Q up to that degree): [True, True, True, True, True, True, True, True]   [1.8s]

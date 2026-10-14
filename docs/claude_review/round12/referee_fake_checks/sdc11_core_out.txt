@@ -1,0 +1,2 @@
+|A_0| = 9373  |core C| = 9263
+core : |S| = 9263  rank E_{<=7} mod p = 9258  => dim V(S,8) mod p = 5  (232s)

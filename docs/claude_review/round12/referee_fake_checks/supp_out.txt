@@ -1,0 +1,13 @@
+max |k_0| on supp c: 0
+max |k_0| on supp c: 0
+max |k_0| on supp c: 0
+max |k_0| on supp c: 0
+max |k_0| on supp c: 0
+x=0: values of k_x on supp c: [-1, 0, 1]
+x=1: values of k_x on supp c: [-1, 0, 1]
+x=2: values of k_x on supp c: [-1, 0, 1]
+x=3: values of k_x on supp c: [-1, 0, 1]
+x=4: values of k_x on supp c: [-1, 0, 1]
+x=5: values of k_x on supp c: [-1, 0, 1]
+x=6: values of k_x on supp c: [-1, 0, 1]
+x=7: values of k_x on supp c: [-1, 0, 1]

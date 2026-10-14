@@ -1,0 +1,30 @@
+d=4 S=[0, 1, 2, 3] L=1 |A|=51 sum H_A=51 rho<= 5
+  H_A      =[1, 4, 10, 15, 15, 6]
+  H(S/J0)  =[1, 4, 10, 15, 15, 6]
+  Lefschetz=[1, 4, 10, 15, 15, 6]
+  J(A)=J0 in all degrees (cum sandwich): True
+d=5 S=[0, 1, 2, 3, 4] L=1 |A|=141 sum H_A=141 rho<= 6
+  H_A      =[1, 5, 15, 29, 40, 36, 15]
+  H(S/J0)  =[1, 5, 15, 29, 40, 36, 15]
+  Lefschetz=[1, 5, 15, 29, 40, 36, 15]
+  J(A)=J0 in all degrees (cum sandwich): True
+d=5 S=[0, 1, 2, 3, 4] L=2 |A|=201 sum H_A=201 rho<= 7
+  H_A      =[1, 5, 15, 30, 45, 50, 40, 15]
+  H(S/J0)  =[1, 5, 15, 30, 45, 50, 40, 15]
+  Lefschetz=[1, 5, 15, 30, 45, 50, 40, 15]
+  J(A)=J0 in all degrees (cum sandwich): True
+d=6 S=[0, 1] L=1 |A|=567 sum H_A=567 rho<= 11
+  H_A      =[1, 6, 21, 49, 85, 112, 115, 91, 55, 24, 7, 1]
+  H(S/J0)  =[1, 6, 21, 49, 85, 112, 115, 91, 55, 24, 7, 1]
+  Lefschetz=[1, 6, 21, 49, 85, 112, 115, 91, 55, 24, 7, 1]
+  J(A)=J0 in all degrees (cum sandwich): True
+d=6 S=[0, 1, 2, 3] L=1 |A|=459 sum H_A=459 rho<= 9
+  H_A      =[1, 6, 21, 49, 84, 105, 97, 63, 27, 6]
+  H(S/J0)  =[1, 6, 21, 49, 84, 105, 97, 63, 27, 6]
+  Lefschetz=[1, 6, 21, 49, 84, 105, 97, 63, 27, 6]
+  J(A)=J0 in all degrees (cum sandwich): True
+d=6 S=[0, 1, 2, 3, 4, 5] L=2 |A|=573 sum H_A=573 rho<= 8
+  H_A      =[1, 6, 21, 50, 90, 125, 135, 105, 40]
+  H(S/J0)  =[1, 6, 21, 50, 90, 125, 135, 105, 40]
+  Lefschetz=[1, 6, 21, 50, 90, 125, 135, 105, 40]
+  J(A)=J0 in all degrees (cum sandwich): True

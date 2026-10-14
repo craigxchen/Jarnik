@@ -1,0 +1,6 @@
+5185 B(r=n)= -33.04  #r<=n failing: 40  examples: [5138, 5139, 5140, 5141, 5142] [5175, 5176, 5177]
+5500 B(r=n)= -156.2  #r<=n failing: 0  examples: [] []
+6000 B(r=n)= -384.45  #r<=n failing: 0  examples: [] []
+8000 B(r=n)= -1449.27  #r<=n failing: 0  examples: [] []
+12000 B(r=n)= -3826.23  #r<=n failing: 0  examples: [] []
+20000 B(r=n)= -9195.22  #r<=n failing: 0  examples: [] []

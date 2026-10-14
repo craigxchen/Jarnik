@@ -1,0 +1,4 @@
+k=14 n=16384 r=16383 w=1205.62775076 j=602 ceil4w=4823 2jk=16856 m_max=10518 window_nonempty=False
+k=15 n=32768 r=32767 w=1757.5187335 j=878 ceil4w=7031 2jk=26340 m_max=21034 window_nonempty=False
+k=16 n=65536 r=65535 w=2557.58668844 j=1278 ceil4w=10231 2jk=40896 m_max=42065 window_nonempty=True
+k=17 n=131072 r=131071 w=3716.10267669 j=1858 ceil4w=14865 2jk=63172 m_max=84126 window_nonempty=True

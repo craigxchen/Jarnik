@@ -1,0 +1,1 @@
+M8 degree 6, exact over Q: dim (J_w)_6 = 616 (from 931 generator multiples); H_A(6) = 287; dim J(A)_6 = 637; gap = 21

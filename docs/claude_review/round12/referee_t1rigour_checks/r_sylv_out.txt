@@ -1,0 +1,6 @@
+k=12 n=4096 w=563.824 j=281 ceil(4w)=2256 m_max=2631 (exact) 2jk=6744 k-cols cheap inside window: False
+k=13 n=8192 w=825.409 j=412 ceil(4w)=3302 m_max=5260 (exact) 2jk=10712 k-cols cheap inside window: False
+k=14 n=16384 w=1205.628 j=602 ceil(4w)=4823 m_max=10518 (exact) 2jk=16856 k-cols cheap inside window: False
+k=15 n=32768 w=1757.519 j=878 ceil(4w)=7031 m_max=21034 (exact) 2jk=26340 k-cols cheap inside window: False
+k=16 n=65536 w=2557.587 j=1278 ceil(4w)=10231 m_max=42065 (exact) 2jk=40896 k-cols cheap inside window: True
+k*w < 0.6417 d - 2.2137 for 17 <= k < 80 (and k^{3/2} 2^{-k/2} decreasing beyond)

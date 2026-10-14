@@ -1,0 +1,5 @@
+M8 = Syl(8), L=2: |A|=1037 d=7 m=8 R=2 #width-gens=358
+  H_A    =[1, 7, 28, 77, 161, 259, 287, 175, 42]
+  dimJ(A)=[0, 0, 0, 7, 49, 203, 637, 1541, 2961]
+  dimJ_w =[0, 0, 0, 7, 49, 203, 616, 1485, 2940]
+  cumulative equal (=> J(A)=J_w over Q up to that degree): [True, True, True, True, True, True, False, False, False]   [44.0s]

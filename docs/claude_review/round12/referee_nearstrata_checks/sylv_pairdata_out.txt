@@ -1,0 +1,7 @@
+primes = 1 mod 4 in [P0, P0+H]: 119975  P0 = 72004899337
+log p range: 25.00000000032795 25.000045643680327 spread 4.5643352375890345e-05
+W = 1638376.4946935466  3n ln n - 13.91 n = 1268846.7340084754  T3 consistent: True
+abar = 12.500011403780778  (>= Gamma(binary point) = 2.99962): True
+eps_xy: min 12.499687190982513 max 12.873914081137627  (Lemma 3.1 needs eps>=0: True )
+max eps = 12.873914081137627  vs 2 ln((n-1)/2) = 20.794384898987403  -> individual gaps infeasible: True
+min allowed gap exp(-max eps/2) = 0.0016012718799249422  times (n-1) = 104.93935265088109 (>2 means infeasible)
