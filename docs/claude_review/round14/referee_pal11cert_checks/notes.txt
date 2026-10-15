@@ -1,0 +1,4 @@
+notes: r_box ok (12093, 1519 dirs tau 2/4/6 = 11/134/1374). r_flats: min-t table, attainable types, line counts reproduce. r_profiles: 25 profiles reproduced.
+R1 (7 pairs): 7307 multisets, all sat rank 11. R2 (6p+(6,2)): 72210 (=5*14442), all rank 11. R3: 58995 feasible; R4: 31725.
+M8' (syl8 L=3) zonotope verified, k0=(1,1,0,1,0,1,0). tau(1)=8 for M8', 6 for M8 (syl8 L2), pal7 L2 tau(1)=6.
+(7,5) explicit vectors have nonbase entries up to 3 (text says <=2): minor.

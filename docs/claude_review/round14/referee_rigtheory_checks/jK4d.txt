@@ -1,0 +1,7 @@
+K=4 q0=41 G={3,7} moduli 11..89 (17 free): INFEASIBLE (exact) nodes=3 0s
+K=4 q0=43 G={3,7} moduli 11..89 (17 free): INFEASIBLE (exact) nodes=8 0s
+K=4 q0=47 G={3,7} moduli 11..89 (17 free): INFEASIBLE (exact) nodes=4 0s
+K=4 q0=53 G={3,7} moduli 11..89 (17 free): INFEASIBLE (exact) nodes=6 0s
+K=4 q0=59 G={3,7} moduli 11..89 (17 free): INFEASIBLE (exact) nodes=2 0s
+K=4 q0=61 G={3,7} moduli 11..89 (17 free): INFEASIBLE (exact) nodes=11 0s
+K=4 q0=73 G={3,7} moduli 11..89 (17 free): INFEASIBLE (exact) nodes=6 0s

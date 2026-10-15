@@ -1,0 +1,1 @@
+pair multisets read 218315, nodes 25623041, feasible full multisets 0

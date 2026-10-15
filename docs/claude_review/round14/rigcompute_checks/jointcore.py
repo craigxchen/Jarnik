@@ -48,12 +48,13 @@ def extend(S, Dd, choice, nodecap=10 ** 6):
         if q in ch: continue
         m, n, L, iota = modulus_data(S, q)
         # leave room for one extra level of each collision (q^2 per collision) to ease lifting
-        forb = [[(s * iota) % m for s in range(4) if (prod.get((i, s), 1) * q) ** 2 > S.cap[i][s]] for i in range(len(V))]
-        par = nu(P, q); col0 = orbit_reps_U1(m, par[0])
-        res, w = run_csp(m, n, S.r, 2, 0, nodecap, par, col0, V, forb, [])
-        if res["raw"] == 0: return None
-        # mode 2 records no witness line; recover the label by re-running in mode 1 with an empty class set
-        res, w = run_csp(m, n, S.r, 1, 1, nodecap, par, col0, V, forb, [])
+        par = nu(P, q); col0 = orbit_reps_U1(m, par[0]); w = None
+        for spare in (q ** 3, q ** 2, q, 1):     # prefer labels that leave room (spreads the load); exact test last
+            forb = [[(s * iota) % m for s in range(4) if (prod.get((i, s), 1) * q * spare) ** 2 > S.cap[i][s]] for i in range(len(V))]
+            res, w = run_csp(m, n, S.r, 1, 1, nodecap, par, col0, V, forb, [])
+            if w: break
+        if not w:
+            print(f'   extend: no label fits at q={q}', flush=True); return None
         ell = list(w[0]); coll = []
         for i, v in enumerate(V):
             t = sum(a * b for a, b in zip(v, ell)) % m

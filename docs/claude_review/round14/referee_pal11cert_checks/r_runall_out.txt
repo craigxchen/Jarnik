@@ -1,0 +1,6 @@
+pair multisets read 909817, nodes 968812, feasible full multisets 58995
+pair multisets read 2638339, nodes 10966219, feasible full multisets 31725
+pair multisets read 2638339, nodes 42332559, feasible full multisets 627895
+pair multisets read 2638339, nodes 11004234, feasible full multisets 69740
+pair multisets read 2638339, nodes 47570754, feasible full multisets 41290
+Terminated

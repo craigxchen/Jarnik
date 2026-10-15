@@ -1,0 +1,8 @@
+   table q=283: 444352 sigs, 444352 minimal [1120s]
+   table q=293: 446016 sigs, 446016 minimal [1386s]
+Q=197: DONE at depth level 0; deepening
+   deep table q=3 a=2: 128 sigs
+Q=197: DONE at depth level 1; deepening
+Q=197: DONE at depth level 2; deepening
+Q=197: UNDECIDED [5315s]
+RESULT first4 K=6 Qsub=293: coherent up to None (exact, tested from 197); witness at None

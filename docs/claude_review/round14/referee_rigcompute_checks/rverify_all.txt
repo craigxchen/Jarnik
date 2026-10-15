@@ -1,0 +1,20 @@
+jwmix_bal4_K4_11.pkl P [97, 101, 109, 113] K 4 Qclaim 11 | budget violations 0 [] | coherent on F<= 7 first non-coherent 11 | outside every eps-class: 35 of 40 ; above Q: 34/36 
+   per-v angle-incompatible v: 2 [((-1, -1, -2, 0), [1, 9555, 1, 13589]), ((1, 1, 2, 0), [1, 13589, 1, 9555])]
+jwmix_bal4_K5_11.pkl P [97, 101, 109, 113] K 5 Qclaim 11 | budget violations 0 [] | coherent on F<= 7 first non-coherent 11 | outside every eps-class: 63 of 68 ; above Q: 62/64 
+   per-v angle-incompatible v: 4 [((-1, 1, 0, -1), [41, 1133, 105, 1139]), ((0, 0, 0, -2), [7, 151, 15, 73]), ((0, 0, 0, 2), [7, 73, 15, 151])]
+jwmix_first4_K4_67.pkl P [5, 13, 17, 29] K 4 Qclaim 67 | budget violations 0 [] | coherent on F<= 61 first non-coherent 67 | outside every eps-class: 24 of 40 ; above Q: 23/26 
+   per-v angle-incompatible v: 32 [((-2, 0, -1, -1), [27, 157, 79, 43]), ((-2, 0, 1, -1), [83, 1, 111, 101]), ((-2, 1, -1, 0), [37, 27, 7, 103])]
+jwmix_first4_K5_113.pkl P [5, 13, 17, 29] K 5 Qclaim 113 | budget violations 0 [] | coherent on F<= 109 first non-coherent 113 | outside every eps-class: 38 of 65 ; above Q: 37/40 
+   per-v angle-incompatible v: 32 [((-2, -2, 1, 0), [239, 333, 19, 263]), ((-2, -1, -2, 0), [129, 233, 1, 407]), ((-2, -1, 1, -1), [399, 1, 167, 1])]
+jwmix_first4_K6_197.pkl P [5, 13, 17, 29] K 6 Qclaim 197 | budget violations 0 [] | coherent on F<= 193 first non-coherent 197 | outside every eps-class: 75 of 115 ; above Q: 74/75 
+   per-v angle-incompatible v: 40 [((-3, -1, -1, 1), [331, 541, 431, 621]), ((-3, -1, 0, -1), [9, 277, 77, 263]), ((-3, -1, 1, 1), [437, 1137, 193, 1067])]
+jwmix_first5_K4_103.pkl P [5, 13, 17, 29, 37] K 4 Qclaim 103 | budget violations 0 [] | coherent on F<= 101 first non-coherent 103 | outside every eps-class: 34 of 54 ; above Q: 33/33 
+   per-v angle-incompatible v: 44 [((-2, 0, -1, -1, 0), [103, 157, 3, 1]), ((-2, 0, 0, -2, 0), [9, 167, 1, 161]), ((-2, 0, 0, 1, 1), [131, 231, 31, 1])]
+jwmix_last4_K4_11.pkl P [353, 373, 389, 397] K 4 Qclaim 11 | budget violations 0 [] | coherent on F<= 7 first non-coherent 11 | outside every eps-class: 38 of 44 ; above Q: 37/40 
+   per-v angle-incompatible v: 0 []
+jwmix_last4_K5_11.pkl P [353, 373, 389, 397] K 5 Qclaim 11 | budget violations 0 [] | coherent on F<= 7 first non-coherent 11 | outside every eps-class: 68 of 71 ; above Q: 67/67 
+   per-v angle-incompatible v: 0 []
+jwmix_rand4_K4_11.pkl P [53, 61, 89, 173] K 4 Qclaim 11 | budget violations 0 [] | coherent on F<= 7 first non-coherent 11 | outside every eps-class: 35 of 40 ; above Q: 34/36 
+   per-v angle-incompatible v: 2 [((-1, 0, 0, -1), [65, 11, 87, 59]), ((1, 0, 0, 1), [65, 59, 87, 11])]
+jwmix_rand4_K5_11.pkl P [53, 61, 89, 173] K 5 Qclaim 11 | budget violations 0 [] | coherent on F<= 7 first non-coherent 11 | outside every eps-class: 65 of 69 ; above Q: 64/65 
+   per-v angle-incompatible v: 4 [((-1, -2, 0, -1), [1075, 1, 5757, 79]), ((-1, 0, -1, 1), [205, 1089, 1, 749]), ((1, 0, 1, -1), [205, 749, 1, 1089])]

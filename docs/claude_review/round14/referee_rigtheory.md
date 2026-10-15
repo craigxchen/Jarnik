@@ -19,8 +19,10 @@ lattice theory and the one-modulus data are correct and were reproduced. There a
      the twisted primes.
 2. **(M2) The claim "`q_core >= M` is reached at bounded `K`" needs `r >= M^gamma`**, which regime (1.4) does not supply.
 3. **(M3-M5) The joint-core evidence is weaker than presented.**
-   * Joint rigidity claims rest on HiGHS MILP runs (floating point, no certificate) yet are labelled "exact". §4a
-     gives what I could certify exactly.
+   * Joint rigidity claims rest on HiGHS MILP runs (floating point, no certificate) yet are labelled "exact". I have
+     now certified exactly, by an integer DFS on minimal signatures (§4a), two of them: `37 in Core^eps_J(3)` (already
+     on the subset `{3, 37}`) and the conditional `K = 4` core `F ∩ ([11, 61] ∪ {73})`. The `K = 4` coherence claim
+     and the `K = 5` conditional claim remain solver-only.
    * The `K = 4, 5` joint cores and the `K = 4` coherence are conditional on fixing genuine labels at 3 and 7, and at
      `K = 5` also on the whole flexible top above 163. Joint growth from `K = 3` to `K = 4` is therefore not
      established unconditionally: `37 <= q_core^(J,eps)(4) <= 61`.
@@ -214,6 +216,42 @@ author's witness pickles were read as data, after checking with `pickletools` th
 | Theorem 3.4 hypothesis (covering by balls / double balls) | `cover.py` | covered forced moduli: `K = 3`: {3,7,11,19,23,37}; `K = 4`: up to 53; `K = 5`: up to 131 with gaps 73, 83, 97, 103; `K = 6`: up to 193 with gaps. The rigid one-modulus range extends past the covered range at every `K` (§3.4) |
 | associate twist | `twist.py` | twisted genuine system non-strict at 14/17, 37/40, 61/65 forced moduli (`K = 3, 4, 5`); Lemma T' subset contained (§3.6) |
 
+### 4a. Exact certification of joint rigidity claims (referee)
+
+**Method** (`jsig.py`, `jsig1.py`, `jdfs.py`, `jsub.py`):
+* For every forced modulus, all level-1 signatures of parity-respecting labels are enumerated exhaustively, keeping
+  only those whose collisions are individually affordable, and reduced to the inclusion-minimal ones. At `q = 3` and
+  `q = 7` the labels are enumerated mod `m_(3^4)` and `m_(7^2)`, with the per-level collision depths.
+* At `q_0` the target is the minimal signatures of labels outside every `eps`-class.
+* A DFS in Python integer arithmetic then chooses one signature per modulus and checks every budget
+  `prod q^(a)` squared `<= Norm(Z_v) 2^[s odd]` exactly.
+* Dropping moduli and leaving levels uncharged only lowers demand. So an infeasible **subset** is an exact
+  certificate for the full all-level problem.
+* My `K = 3` minimal-signature counts agree with the author's (`q = 37`: 256 minimal, 128 minimal non-class). The fast
+  and slow signature codes agree at 41, 47 and 61.
+
+**Results:**
+* `K = 3`, `q_0 = 37`, unconditional: **exactly infeasible already on the subset `{3, 37}`**, i.e. with `q = 3` at levels
+  up to 81 and the target at 37, all other moduli dropped (`jsub_K3_37.txt`; 129 DFS nodes).
+  * So `37 in Core^eps_J(3)` is now **exactly certified**.
+  * Together with the exhaustive "no affordable non-class label" at 11-31 (reproduced) and the verified witnesses,
+    `Core^eps_J(3) = F_3^ex ∩ [3, 37]` **holds exactly**.
+  * The mechanism is worth recording: rigidity at 37 comes from the 3-adic level budget alone. Every `v` collides at
+    `q = 3` (`n_3 = 1`), and the levels `9, 27, 81` use up the slack that a non-class collision at 37 would need. It is
+    not a multi-modulus budget-sharing effect.
+  * Sanity check: the subsets `{3, 41}` and `{3, 7, 41}` are feasible, consistent with the verified witness at 41.
+* `K = 4`, conditional on genuine labels at all levels of 3 and 7:
+  * with only `q_0` free, `{3, 7, q_0}` is exactly infeasible for `q_0 <= 37` and feasible for every
+    `q_0 in [41, 79]` (`jK4.txt`). So the conditional core beyond 37 is a genuinely joint effect;
+  * on the subset `F ∩ [11, 89]` (17 free moduli, signatures exhaustive): **exactly infeasible at
+    `q_0 = 41, 43, 47, 53, 59, 61, 73`** (`jK4d.txt`; at most 11 DFS nodes each). With `q_0 <= 37` from the line above,
+    the author's conditional claim `Core^eps_J(4 | 3, 7 genuine) ⊇ F ∩ ([11, 61] ∪ {73})` is **exactly certified**. The
+    verified witness at 67 makes it sharp.
+* **Not certified by me (solver-only):** the `K = 4` coherence claim (`coh.py`) and the `K = 5` claim conditional on
+  3, 7 and the top above 163. These remain HiGHS outputs with float logs.
+* Spot check `K = 6` (`k6spot.txt`; forced set computed only to 1500, so not certified complete): `q_0 = 257` and `263`
+  are one-modulus rigid; `269` is flexible with 66 non-class survivors, all F1. This agrees with §5.2/§5.4.
+
 ## 5. Implications for growth, checked against the barrier logic
 
 * **No growth and no cap is claimed. Correct.** The `2/3` bound and the P3-all\* bracket are untouched.
@@ -235,7 +273,7 @@ author's witness pickles were read as data, after checking with `pickletools` th
   * One-modulus core: reproduced exactly at `K = 2..5`. It is a stable power of the forced range at `r <= 6` with the
     smallest primes. This is evidence, correctly labelled.
   * Joint core: the only unconditional facts are
-    * `Core^eps_J(3) = F_3 ∩ [3, 37]` (rigidity at 37 from the author's HiGHS run; my certification is in §4a);
+    * `Core^eps_J(3) = F_3 ∩ [3, 37]` (now exactly certified, §4a);
     * `37 <= q_core^(J,eps)(4) <= 61`, from monotonicity and the verified witness at 67.
     
     The `K = 4` lower bound 61 and coherence are conditional on genuine labels at all levels of 3 and 7. The `K = 5`
@@ -258,11 +296,13 @@ author's witness pickles were read as data, after checking with `pickletools` th
 * **M2 (size claim).** "The size route 3 needs (`q_core >= M`) is reached at bounded `K`" requires `r >= M^gamma`,
   which regime (1.4) does not provide. For `r = M^(o(1))`, Theorem 2.5(3) gives `q_core(K) = M^(o(1))` at every bounded
   `K`.
-* **M3 (certification standard).** Every rigidity (infeasibility) claim for joint cores rests on HiGHS MILP runs: `K = 3`
+* **M3 (certification standard; partly repaired by the referee).** Every rigidity (infeasibility) claim for joint cores rests on HiGHS MILP runs: `K = 3`
   at `q_0 = 37`; `K = 4` on `[11, 61] ∪ {73}`; `K = 5` on `[11, 157]`; `K = 4` coherence.
   * These runs use floating-point logs, a `1e-9` tolerance, and no checkable infeasibility certificate.
   * They are labelled "exact". The round standard asks for exactly certified infeasibility. They are
-    solver-verified, not certified. §4a gives the referee's exact certification where it was feasible.
+    solver-verified, not certified.
+  * I certified two of them exactly (§4a): `37 in Core^eps_J(3)` and the conditional `K = 4` claim. Remaining solver-only:
+    `K = 4` coherence and the `K = 5` conditional claim. The author should replace the ILP by (or add) an exact check.
   * By contrast, the one-modulus rigidity claims are exhaustive enumerations and are exact; I reproduced them.
 * **M4 (overclaimed explanation).** Theorem 3.4 excludes only F2 deformations, and only on covered moduli. The covered
   range is strictly smaller than the rigid range at every `K` computed: at `K = 5`, 137-157 are not covered; at `K = 3`,
@@ -271,7 +311,9 @@ author's witness pickles were read as data, after checking with `pickletools` th
   theorem.
 * **M5 (joint growth not established).** The `K = 4` and `K = 5` joint cores and the `K = 4` coherence are conditional
   on fixing genuine labels at 3 and 7. At `K = 5` they are also conditional on the whole flexible top above 163.
-  * Unconditionally: `Core^eps_J(3) = F_3 ∩ [3, 37]` (37 per M3), and `37 <= q_core^(J,eps)(4) <= 61`.
+  * Unconditionally: `Core^eps_J(3) = F_3 ∩ [3, 37]` (exact, §4a), and `37 <= q_core^(J,eps)(4) <= 61`.
+  * Moreover, the `K = 3` rigidity at 37 is produced by the 3-adic level budget alone (subset `{3, 37}`). That is a
+    small-modulus effect, not the budget-sharing mechanism that growth would need.
   * "The joint core grows with `K` (`n = 9, 15`)" and "tracks the one-modulus core" are not established.
 
 **Minor**
@@ -323,10 +365,13 @@ every unit `s`. This is exactly the norm-`<= K` part of P3-all\*. The symmetry g
 * `Core^eps_J(3) ⊇ F_3 ∩ [3, 31]` by exhaustion.
 * The `K = 6, 7` one-modulus figures were not re-checked here, except the spot check in §4a.
 
-**Solver-verified only (HiGHS, float logs, no certificate), unless §4a says otherwise:**
-* `37 in Core^eps_J(3)`;
-* given genuine labels at all levels of 3 and 7: `Core^eps_J(4) ⊇ F ∩ ([11, 61] ∪ {73})`, and coherence on
-  `F ∩ [11, 61]`;
+**Exactly certified by the referee (integer DFS on exhaustive minimal signatures, §4a):**
+* `Core^eps_J(3) = F_3^ex ∩ [3, 37]`, unconditionally. Rigidity at 37 already follows from the 3-adic levels
+  (`q = 3` up to 81) alone.
+* Given genuine labels at all levels of 3 and 7: `Core^eps_J(4) ⊇ F ∩ ([11, 61] ∪ {73})`, sharp at 67 by the witness.
+
+**Solver-verified only (HiGHS, float logs, no certificate):**
+* coherence on `F ∩ [11, 61]` at `K = 4` (given 3, 7);
 * given genuine labels at 3, 7 and every forced modulus above 163: `Core^eps_J(5) ⊇ F ∩ [11, 157]`.
 
 **Evidence only:**

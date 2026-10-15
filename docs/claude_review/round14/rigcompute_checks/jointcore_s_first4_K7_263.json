@@ -1,0 +1,1 @@
+{"name": "first4", "K": 7, "Qsub": 263, "P": [5, 13, 17, 29], "core_lower": 239, "first_noncoherent": null, "log": [[211, "INFEASIBLE", 401, 0], [223, "INFEASIBLE", 401, 0], [227, "INFEASIBLE", 401, 0], [229, "INFEASIBLE", 401, 0], [233, "INFEASIBLE", 401, 0], [239, "INFEASIBLE", 401, 0], [241, "UNDECIDED", 4, 3]]}

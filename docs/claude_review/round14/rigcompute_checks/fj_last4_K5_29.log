@@ -6,5 +6,5 @@ Q=11: DONE at depth level 0 (nodes=10), no verified witness among 30; deepening
    deep table q=3 a=2: 656 signatures, 656 minimal
    deep table q=5 a=2: 2000 signatures, 2000 minimal
    deep table q=7 a=2: 37632 signatures, 37632 minimal
-Q=11: explicit verified non-coherent good system on all of F (depth level 1) [117s]
+Q=11: explicit verified non-coherent good system on all of F (depth level 1) [691s]
 RESULT last4 K=5: joint core >= 7 (exact); non-coherent witness at Q=11

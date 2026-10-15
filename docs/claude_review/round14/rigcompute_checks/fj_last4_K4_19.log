@@ -1,0 +1,6 @@
+tables built for 7 moduli <= 19 [0s]; sizes 3:16/16 5:16/16 7:128/128 11:656/640 13:656/640 17:1024/1024 19:1784/1784
+Q=3: coherent (exact, depth level 0) nodes=1 [0s]
+Q=5: coherent (exact, depth level 0) nodes=1 [0s]
+Q=7: coherent (exact, depth level 0) nodes=1 [0s]
+Q=11: explicit verified non-coherent good system on all of F (depth level 0) [3s]
+RESULT last4 K=4: joint core >= 7 (exact); non-coherent witness at Q=11

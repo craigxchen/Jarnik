@@ -1,0 +1,1 @@
+Lemma P0: 4783 split primes < 1e5 checked; positive-length free sets: 0

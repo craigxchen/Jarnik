@@ -1,0 +1,2 @@
+last4 K=4 Qsub=19 Qstart=0: lower=7 witness=11
+LADDER last4 K=4: joint core >= 7; witness at 11; one-mod segment 29, q_flex1 31

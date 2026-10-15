@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round14/rigcompute_checks/ladder.py", line 14, in <module>
+    r = json.load(open(f"jointcore_{name}_K{K}.json")); hist.append(dict(Qsub=Qsub, Qstart=Qstart, **{k: r[k] for k in ("core_lower", "first_noncoherent", "log")}))
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'jointcore_first5_K5.json'

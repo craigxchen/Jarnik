@@ -1,0 +1,15 @@
+K=4 q0=11 G={3,7} only q0 free: INFEASIBLE (exact) nonclass-min=0
+K=4 q0=19 G={3,7} only q0 free: INFEASIBLE (exact) nonclass-min=0
+K=4 q0=23 G={3,7} only q0 free: INFEASIBLE (exact) nonclass-min=0
+K=4 q0=31 G={3,7} only q0 free: INFEASIBLE (exact) nonclass-min=0
+K=4 q0=37 G={3,7} only q0 free: INFEASIBLE (exact) nonclass-min=128
+K=4 q0=41 G={3,7} only q0 free: FEASIBLE nonclass-min=128
+K=4 q0=43 G={3,7} only q0 free: FEASIBLE nonclass-min=384
+K=4 q0=47 G={3,7} only q0 free: FEASIBLE nonclass-min=256
+K=4 q0=53 G={3,7} only q0 free: FEASIBLE nonclass-min=896
+K=4 q0=59 G={3,7} only q0 free: FEASIBLE nonclass-min=640
+K=4 q0=61 G={3,7} only q0 free: FEASIBLE nonclass-min=896
+K=4 q0=67 G={3,7} only q0 free: FEASIBLE nonclass-min=1152
+K=4 q0=71 G={3,7} only q0 free: FEASIBLE nonclass-min=1536
+K=4 q0=73 G={3,7} only q0 free: FEASIBLE nonclass-min=2048
+K=4 q0=79 G={3,7} only q0 free: FEASIBLE nonclass-min=3328

@@ -30,13 +30,33 @@
   "src": "ladder_first5_K4.log, fj_first5_K4_79.log, fj_first5_K4_103.log; jwmix_first5_K4_103.pkl"
  },
  "first4:6": {
-  "core_lower": 193,
-  "witness": null,
-  "src": "ladder_first4_K6.log (Qsub 163, 223); Q=197 undecided at Qsub=223; Qsub=293 running"
+  "core": 193,
+  "witness": 197,
+  "src": "ladder_first4_K6.log (<=193 certified, moduli <=223); diag_first4_K6b.txt (witness at 197 from the depth-(3:3,7:2,11:2) relaxation on moduli <=293, extended + verified, exhaustive lifts for q^r<=2e5); jwmix_first4_K6_197.pkl"
  },
  "first4:7": {
-  "core_lower": 199,
+  "core_lower": 239,
   "witness": null,
-  "src": "ladder_first4_K7.log (Qsub 199 all certified); Qsub=263 running"
+  "src": "ladder_first4_K7.log (<=199), fjs_first4_K7.log (200..239 certified depth 0, Qsub=263); Q=241 undecided (30 solutions at each depth, none extended+verified)"
+ },
+ "first5:5": {
+  "core_lower": 163,
+  "witness": null,
+  "src": "fjs_first5_K5.log (all Q<=163 certified with moduli <=163, depth 0)"
+ },
+ "bal4:5": {
+  "core": 7,
+  "witness": 11,
+  "src": "ladder_bal4_K5.log; jwmix_bal4_K5_11.pkl (core >= 7 is automatic: n_q <= 2 moduli carry full masks)"
+ },
+ "last4:4": {
+  "core": 7,
+  "witness": 11,
+  "src": "ladder_last4_K4.log; jwmix_last4_K4_11.pkl (core >= 7 is automatic: n_q <= 2 moduli carry full masks)"
+ },
+ "last4:5": {
+  "core": 7,
+  "witness": 11,
+  "src": "ladder_last4_K5.log; jwmix_last4_K5_11.pkl (core >= 7 is automatic: n_q <= 2 moduli carry full masks)"
  }
 }

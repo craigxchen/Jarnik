@@ -1,0 +1,2 @@
+bal4 K=5 Qsub=37 Qstart=0: lower=7 witness=11
+LADDER bal4 K=5: joint core >= 7; witness at 11; one-mod segment 61, q_flex1 67

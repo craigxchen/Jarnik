@@ -76,7 +76,7 @@ def verify(P, V, tabs, choice, q0, target, rng=None, maxlev=12):
         for lev in range(2 + T.get('deep', 1) - 1, maxlev + 1):
             if not active: break
             nmod = mod * q
-            cands = itertools.product(range(q), repeat=r) if q ** r <= 20000 else (tuple(rng.randrange(q) for _ in range(r)) for _ in range(4000))
+            cands = itertools.product(range(q), repeat=r) if q ** r <= 200000 else (tuple(rng.randrange(q) for _ in range(r)) for _ in range(4000))
             best = None
             for tt in cands:
                 l2 = [cur[j] + mod * tt[j] for j in range(r)]

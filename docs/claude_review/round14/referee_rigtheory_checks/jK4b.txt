@@ -1,0 +1,4 @@
+K=4 q0=41 G={3,7} subset F∩[11,61]∪{q0}: INFEASIBLE (exact) nodes=3 0s
+K=4 q0=61 G={3,7} subset F∩[11,61]∪{q0}: FEASIBLE(subset) nodes=13 0s
+K=4 q0=73 G={3,7} subset F∩[11,61]∪{q0}: INFEASIBLE (exact) nodes=6 0s
+K=4 q0=67 G={3,7} subset F∩[11,61]∪{q0}: FEASIBLE(subset) nodes=14 0s

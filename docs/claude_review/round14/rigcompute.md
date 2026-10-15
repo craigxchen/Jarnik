@@ -1,6 +1,6 @@
 # Round 14 — first finite test of Rig(K): rigid cores for r = 4..8, K = 4..7
 
-(skeleton; sections filled in progressively)
+(round 14; unrefereed; scripts and outputs in `rigcompute_checks/`, run from that directory)
 
 ## 0. Summary of results
 
@@ -10,8 +10,9 @@ Labels: *proved* (all quantifiers, here), *exact* (finite computation, certifica
 §7.2 (parity-respecting labels, per-unit budgets for every `||v||_1 <= K`, all levels); actual circles give the genuine
 system, which satisfies everything here.
 
-1. **The first finite test of Rig(K) is done exactly on both sides** for `r = 4` (`K = 4, 5`, plus lower bounds at
-   `K = 6, 7`) and `r = 5` (`K = 4`), with one-modulus data for `r = 4..7`. The rigid core `Q_core(P, K)` (largest `Q`
+1. **The first finite test of Rig(K) is done exactly on both sides** for `r = 4` (`K = 4, 5, 6`; lower bound at
+   `K = 7`) and `r = 5` (`K = 4`; lower bound at `K = 5`), with one-modulus data and exact forced sets for `r = 4..8`
+   (`r = 8`: `first8`, `K = 4` only; 26 moduli above 499 of unknown status, one-modulus scan up to `q = 353`). The rigid core `Q_core(P, K)` (largest `Q`
    such that every good system is system-level coherent with one column-sign conjugate of the genuine labels on
    `F_K^ex ∩ [3, Q]`) is certified from below by a complete search over an exact relaxation (Lemma R) and from above
    by an explicit good system, verified at every level by two independent checkers. New exact tools: a C engine for
@@ -21,15 +22,18 @@ system, which satisfies everything here.
    segment. *Lemma K (proved):* local rigidity is independent of `K` once `p_min^(K+1) >= q^2`, so it cannot grow
    with `K`; it ends at `q = 31` (`first4`), `11` (`first5-7`), and is vacuous for the other sets.
 3. **Tight primes (`first`, the `r` smallest split primes): the joint core grows with `K` and `r`.**
-   `Q_core = 61, 109` (`K = 4, 5`), `>= 193`, `>= 199` (`K = 6, 7`), `r = 4`; `Q_core = 101` for `r = 5`, `K = 4`.
-   In units `n = m_q/4`: `15, 27, >= 48, >= 50` (`r = 4`) and `25` (`r = 5`), i.e. `0.37-0.66 |S_floor(K/2)|`: the core
+   `Q_core = 61, 109` (`K = 4, 5`), `193` (`K = 6`), `>= 239` (`K = 7`), `r = 4`; `Q_core = 101` (`K = 4`) and `>= 163` (`K = 5`) for `r = 5`.
+   In units `n = m_q/4`: `15, 27, 48, >= 60` (`r = 4`) and `25, >= 41` (`r = 5`, `K = 4, 5`), i.e. `0.37-0.66 |S_floor(K/2)|`: the core
    tracks the pigeonhole scale `M^(floor(K/2))` (§6), a stable fraction `0.69-0.78` (in `n`) of the one-modulus segment, while
-   the forced range `n*` runs ahead at even `K`. Mechanism (exact relaxation analysis): the forced collisions of the
+   the forced range `n*` runs ahead at even `K`. *Caveat (exact):* at `K = 4` the one-modulus segment, an upper bound
+   for the core, stops growing at `r = 6`: `q_flex1 = 179` for `first6`, `first7`, `first8` (the added primes 41, 53,
+   61 are no longer small), so the core is `<= 173` (`n <= 43`) there and its `r`-growth at fixed `K` saturates.
+   Mechanism (exact relaxation analysis): the forced collisions of the
    smallest moduli (`q = 3, 7`: every monomial collides) plus a few mid moduli, acting through the norm-3..K budgets
    jointly; no single modulus or norm carries it.
-4. **Loose primes (`rand4`, `bal4`: all `p_j >= 53`): the joint core stalls at the vacuous moduli** (`n_q <= 2`) for
-   `K = 4, 5`, although one-modulus rigidity reaches `q = 29-61`. Explicit verified witnesses are good for all norms
-   `<= K` and lie outside every column-sign class at `34/36` and `64/65` of the non-vacuous forced moduli: flexible
+4. **Loose primes (`rand4`, `bal4`, `last4`: all `p_j >= 53`): the joint core stalls at the vacuous moduli** (`n_q <= 2`)
+   for `K = 4, 5` (six exact cases), although one-modulus rigidity reaches `q = 29-61`. Explicit verified witnesses are
+   good for all norms `<= K` and lie outside every column-sign class at `34/36` to `66/67` of the forced moduli above `q = 11`: flexible
    tops covering the whole forced range (C1 seeds at norm `<= K`). At `K = 6` the exact relaxations still admit
    non-coherent systems at `q = 11` (no certificate beyond the vacuous moduli), but no witness was completed
    (deep 3-adic collisions at `q = 3`; §7).
@@ -198,6 +202,8 @@ label), so every claim below is valid either way.
 | bal7 | 7 | 4 | [97, 101, 109, 113, 137, 149, 157] | 92 | 599 | 150 | 113 | 6236 | 24949 | [499, 541, 547, 557, 563, 571, 673] |
 | first7 | 7 | 4 | [5, 13, 17, 29, 37, 41, 53] | 92 | 599 | 150 | 113 | 6236 | 24949 | [499, 541, 547, 557, 563, 571] |
 | rand7 | 7 | 4 | [5, 41, 53, 149, 173, 257, 313] | 88 | 509 | 127 | 113 | 6236 | 24949 | [499, 541, 547, 557, 563, 571, 769] |
+| first8 | 8 | 4 | [5, 13, 17, 29, 37, 41, 53, 61] | 97 | 631 | 158 | 145 | 9036 | 36149 | [499, 541, 547, 557, 563, 571, 587, 613, 619, 641, 643, 647, 653, 659, 661, 677, 683, 691, 701, 719, 727, 733, 743, 751, 769, 863] |
+| rand8 | 8 | 4 | [61, 97, 173, 197, 229, 337, 353, 373] | 99 | 761 | 190 | 145 | 9036 | 36149 | [499, 541, 547, 557, 563, 571, 587, 613, 619, 643, 647, 653, 659, 661, 677, 683, 691, 701, 719, 727, 733, 743, 751] |
 
 
 (r = 7, 8 at `K >= 5` and r = 8 at `K = 4` were not completed: the exhaustive proofs of forcedness near the boundary
@@ -251,11 +257,16 @@ cost about an hour per set at `r = 7`, `K = 4`.)
 
 
 Reading (*exact data*):
-* For the **tightest** primes the one-modulus segment grows steadily with `K` and with `r`:
-  `n_seg = 20, 39, 66, 83` (`r = 4`, `K = 4..7`), `n_seg = 20, 32, 43, 43` (`K = 4`, `r = 4..7`), `n_seg = 39, 73, 102`
-  (`K = 5`, `r = 4..6`). In every tight case `n_seg / |S_h|` lies in `0.38-1.2`: **one-modulus rigidity reaches the
-  pigeonhole scale `|S_floor(K/2)| ~ (2r)^floor(K/2)/floor(K/2)!`, i.e. `M^(floor(K/2))`**, a fixed fraction
-  (`0.16-0.45`) of the forced range `n*`.
+* For the **tightest** primes the one-modulus segment grows steadily with `K`: `n_seg = 20, 39, 66, 83` (`r = 4`,
+  `K = 4..7`), `n_seg = 39, 73, 102` (`K = 5`, `r = 4..6`); `n_seg / |S_h| = 0.49, 0.95, 0.51, 0.64` (`r = 4`) and
+  `0.95, 1.20, 1.20` (`K = 5`). In `r` at `K = 4` it grows only up to `r = 6`: `n_seg = 20, 32, 43, 43, 43` for
+  `r = 4..8` (`first8`, `K = 4`: `log_def_first8_K4.txt`, run up to `q = 353`: FLEX at `179` and `307`, undecided at `347`
+  (level-1 survivors outside the class, none verified when the status-unknown moduli carry genuine labels), every other
+  forced `q <= 353` RIGID; the forced set has 97 moduli, `q* >= 631`, 26 moduli above 499 of unknown status).
+  So `n_seg/|S_2|` falls from `0.49-0.52` (`r = 4..6`) to `0.38, 0.30` (`r = 7, 8`): the columns added at `r >= 7`
+  (`p = 53, 61`) are looser, and the same flexible label at `q = 179` survives. **One-modulus rigidity reaches the
+  pigeonhole scale `|S_floor(K/2)|` (i.e. `M^(floor(K/2))`) as long as the added primes stay small**; it is a fraction
+  `0.16-0.45` of the forced range `n*`.
 * For **loose** primes (`last`, primes near 400) it barely moves: `n_seg = 7, 10, 10, 13` (`r = 4`, `K = 4..7`).
   `rand` and `bal` are in between (`rand4`: `7, 12, 20, 20`; `bal4`: `9, 15, 21, 32`).
 * Rigid moduli also occur above `q_flex1` (column "rigid above it"); the segment is not the whole rigid set.
@@ -331,9 +342,13 @@ level, checks every budget exactly, and classifies every label):
 | witness file | set | K | non-coherent on F ∩ [3,Q], Q = | |F| | coherent (one eps) on forced q <= | moduli with label outside every eps-class | of the forced moduli above Q: outside every eps-class |
 |---|---|---|---|---|---|---|---|
 | `jwmix_bal4_K4_11.pkl` | bal4 | 4 | 11 | 40 | 7 | 35 (smallest 11) | 34/36 |
+| `jwmix_bal4_K5_11.pkl` | bal4 | 5 | 11 | 68 | 7 | 63 (smallest 11) | 62/64 |
 | `jwmix_first4_K4_67.pkl` | first4 | 4 | 67 | 40 | 61 | 24 (smallest 67) | 23/26 |
 | `jwmix_first4_K5_113.pkl` | first4 | 5 | 113 | 65 | 109 | 38 (smallest 113) | 37/40 |
+| `jwmix_first4_K6_197.pkl` | first4 | 6 | 197 | 115 | 193 | 75 (smallest 197) | 74/75 |
 | `jwmix_first5_K4_103.pkl` | first5 | 4 | 103 | 54 | 101 | 34 (smallest 103) | 33/33 |
+| `jwmix_last4_K4_11.pkl` | last4 | 4 | 11 | 44 | 7 | 38 (smallest 11) | 37/40 |
+| `jwmix_last4_K5_11.pkl` | last4 | 5 | 11 | 71 | 7 | 68 (smallest 11) | 67/67 |
 | `jwmix_rand4_K4_11.pkl` | rand4 | 4 | 11 | 40 | 7 | 35 (smallest 11) | 34/36 |
 | `jwmix_rand4_K5_11.pkl` | rand4 | 5 | 11 | 69 | 7 | 65 (smallest 11) | 64/65 |
 
@@ -362,8 +377,9 @@ Three nested notions, all exact (`LOCe` range `<=` joint core `<=` one-modulus s
 3. **Joint rigidity (the rigid core).** With every modulus free, the spent budgets are no longer fixed; what remains
    is the *forced* demand of the other moduli. `mech_joint.py` (exact; relaxations of the certified instance
    `first4`, `K = 4`, `C = F ∩ [3, 61]`, moduli `<= 79`):
-   * removing the demand of any one of the core moduli `3, 7, 37, 41, 47, 53`, or of the outer modulus `73`, makes a
-     non-coherent good system appear; removing any other single modulus does not;
+   * removing any one of the core moduli `3, 7, 37, 41, 47, 53` (its demand and its coherence requirement), or the
+     demand of the outer modulus `73`, makes a non-coherent system appear in the relaxation; removing any other single
+     modulus does not;
    * lifting all norm-3 budgets, or all norm-4 budgets, makes it feasible; norms 1 and 2 are not needed; no single
      norm suffices on its own.
 
@@ -386,27 +402,34 @@ forced/free boundary, `LOCe` = local rigidity range (§5), `seg`/`q_flex1` = one
 | set | r | K | Q_core | n(Q_core) | first non-coherent Q (witness) | LOCe | one-mod seg (n) | q_flex1 | n* | pigeonhole |S_h| | n(Q_core)/|S_h| |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | bal4 | 4 | 4 | 7 | 2 | 11 | 7 | 37 (9) | 41 | 68 | 41 | 0.05 |
+| bal4 | 4 | 5 | 7 | 2 | 11 | 7 | 61 (15) | 67 | 92 | 41 | 0.05 |
+| last4 | 4 | 4 | 7 | 2 | 11 | 7 | 29 (7) | 31 | 66 | 41 | 0.05 |
+| last4 | 4 | 5 | 7 | 2 | 11 | 7 | 41 (10) | 43 | 96 | 41 | 0.05 |
 | rand4 | 4 | 4 | 7 | 2 | 11 | 7 | 29 (7) | 31 | 50 | 41 | 0.05 |
 | rand4 | 4 | 5 | 7 | 2 | 11 | 7 | 47 (12) | 59 | 152 | 41 | 0.05 |
 | first4 | 4 | 4 | 61 | 15 | 67 | 31 | 79 (20) | 83 | 50 | 41 | 0.37 |
 | first4 | 4 | 5 | 109 | 27 | 113 | 31 | 157 (39) | 163 | 87 | 41 | 0.66 |
-| first4 | 4 | 6 | >= 193 | >= 48 | - | 31 | 263 (66) | 269 | 260 | 129 | >= 0.37 |
-| first4 | 4 | 7 | >= 199 | >= 50 | - | 31 | 331 (83) | 337 | 522 | 129 | >= 0.39 |
+| first4 | 4 | 6 | 193 | 48 | 197 | 31 | 263 (66) | 269 | 260 | 129 | 0.37 |
+| first4 | 4 | 7 | >= 239 | >= 60 | - | 31 | 331 (83) | 337 | 522 | 129 | >= 0.47 |
 | first5 | 5 | 4 | 101 | 25 | 103 | 11 | 127 (32) | 131 | 73 | 61 | 0.41 |
+| first5 | 5 | 5 | >= 163 | >= 41 | - | 11 | 293 (73) | 307 | 180 | 61 | >= 0.67 |
 
 
 **Fits (evidence; tiny `r`, few points).**
-* *Tight primes, growth in `K` (`r = 4`).* `n(Q_core) = 15, 27, >= 48, >= 50` for `K = 4, 5, 6, 7`. Between `K = 4` and `5`
-  (same `h = 2`) the core already grows by `x1.8`; at `K = 6` it is at least `x3.2` the `K = 4` value. Normalised by the
-  pigeonhole scale: `n(Q_core)/|S_floor(K/2)| = 0.37, 0.66, >= 0.37, >= 0.38`; by the forced range:
-  `n(Q_core)/n* = 0.30, 0.31, >= 0.18, >= 0.10`. So the core tracks `|S_floor(K/2)|` (i.e. `M^(floor(K/2))`), not the
+* *Tight primes, growth in `K` (`r = 4`).* `n(Q_core) = 15, 27, 48, >= 60` for `K = 4, 5, 6, 7`. Between `K = 4` and `5`
+  (same `h = 2`) the core already grows by `x1.8`; at `K = 6` it is `x3.2` the `K = 4` value. Normalised by the
+  pigeonhole scale: `n(Q_core)/|S_floor(K/2)| = 0.37, 0.66, 0.37, >= 0.47`; by the forced range:
+  `n(Q_core)/n* = 0.30, 0.31, 0.18, >= 0.11`. So the core tracks `|S_floor(K/2)|` (i.e. `M^(floor(K/2))`), not the
   forced range, which grows faster at even `K` (`n*/|S_h| = 1.2, 2.1, 2.0, 4.0`).
-* *Tight primes, growth in `r` (`K = 4`).* `n(Q_core) = 15, 25` for `r = 4, 5` (`|S_2| = 41, 61`): ratio `1.67`, against
-  `1.49` for `|S_2|` and `1.56` for `r^2`; local exponent `log(25/15)/log(5/4) = 2.3`. One step only.
-* *One-modulus segment vs joint core.* `n_seg/n(Q_core) = 1.33, 1.44, <= 1.38, <= 1.66` (`r = 4`), `1.28` (`r = 5`):
+* *Tight primes, growth in `r`.* `K = 4`: `n(Q_core) = 15, 25` for `r = 4, 5` (`|S_2| = 41, 61`): ratio `1.67`, against
+  `1.49` for `|S_2|` and `1.56` for `r^2` (local exponent `2.3`). `K = 5`: `n(Q_core) = 27, >= 41`: ratio `>= 1.52`.
+  For `r = 6, 7, 8` (`K = 4`) only the exact upper bound is known: `Q_core < q_flex1 = 179`, i.e. `n(Q_core) <= 43`,
+  against `|S_2| = 85, 113, 145`: the `r`-growth at fixed `K` cannot continue at the `|S_2|` rate once the added primes
+  (41, 53, 61) are no longer small.
+* *One-modulus segment vs joint core.* `n_seg/n(Q_core) = 1.33, 1.44, 1.38, <= 1.38` (`r = 4`), `1.28` (`r = 5`):
   the joint core is a stable fraction (`0.69-0.78` in `n`, exact cases) of the one-modulus segment, which itself scales like `|S_h|`
-  (§3.2, all tight cases `0.4-1.2 |S_h|`).
-* *Loose primes.* `rand4`, `bal4`: `Q_core = 7` (only the vacuous moduli `n <= 2`) at `K = 4, 5`; the first
+  (§3.2: `0.3-1.2 |S_h|`, decreasing in `r` once the added primes are no longer the smallest).
+* *Loose primes.* `rand4`, `bal4`, `last4`: `Q_core = 7` (only the vacuous moduli `n <= 2`) at `K = 4, 5`; the first
   non-vacuous forced modulus `q = 11` already carries a non-coherent good system, although one-modulus rigidity reaches
   `q = 29-61`. **No growth at all** from `K = 4` to `K = 5` for these sets.
 
@@ -418,19 +441,20 @@ the bracket `3 M log M - O(M) <= W_min^all <= O(M log^2 M/loglog M)` and `M <= (
 unchanged.
 
 1. **The joint rigid core exists, is computable exactly, and is strictly smaller than the one-modulus segment.** In
-   every tight instance it is a non-trivial initial segment (`first4`: 61, 109, `>= 193`, `>= 199` for `K = 4..7`;
-   `first5`, `K = 4`: 101), and it is exactly bracketed by a certificate (Lemma R relaxation + complete search) and a
+   every tight instance it is a non-trivial initial segment (`first4`: 61, 109, 193, `>= 239` for `K = 4..7`;
+   `first5`: 101, `>= 163` for `K = 4, 5`), and it is exactly bracketed (except the `>=` entries) by a certificate (Lemma R relaxation + complete search) and a
    verified witness. The round-10 "rigid core `{3..47}` at `K = 4`" survives in the strong sense (everything free):
    the true core is `[3, 61]`.
 2. **For the tightest primes the core grows with `K` and with `r`, at the pigeonhole scale.** `n(Q_core)` is
    `0.37-0.66 |S_floor(K/2)|` in all four tight `K`-values and both `r`-values tested; it does *not* stall where it
    could (between `K = 4` and `K = 5`, same `h`), and the one-modulus segment that bounds it from above scales the same
-   way. This is the "growing" branch of round 13 §7.2, **for tight primes only**: a first local rigidity mechanism,
+   way, *as long as the added primes are small*: at `K = 4` the upper bound `q_flex1 = 179` is the same for `r = 6, 7, 8`
+   (`first6..8`), so growth in `r` at fixed `K` saturates once the new columns are loose. This is the "growing" branch of round 13 §7.2, **for tight primes only**: a first local rigidity mechanism,
    driven by the forced collisions of the smallest moduli (`q = 3, 7`, every monomial collides) acting jointly with the
    norm-3..K budgets (§5).
-3. **For loose primes it stalls completely.** With all `p_j >= 53` (`rand4`, `bal4`, `r = 4`) the core contains only
-   the vacuous moduli `n_q <= 2` at `K = 4, 5`; the witnesses are good systems whose labels at `34/36` and `64/65` of
-   the non-vacuous forced moduli lie outside **every** column-sign class. These are explicit flexible tops covering
+3. **For loose primes it stalls completely.** With all `p_j >= 53` (`rand4`, `bal4`, `last4`, `r = 4`) the core contains
+   only the vacuous moduli `n_q <= 2` at `K = 4, 5` (all six cases exact); the witnesses are good systems whose labels
+   at `34/36` to `66/67` of the forced moduli above `q = 11` lie outside **every** column-sign class. These are explicit flexible tops covering
    the entire forced range: C1 seeds at norm `<= K`.
 4. **What this means for the two branches of round 13 §7.2.**
    * *Growth branch.* A proof of Rig(K) would have to use the arithmetic of small primes (the data show no rigidity
@@ -441,16 +465,26 @@ unchanged.
    * *Construction branch (C1).* The loose-prime witnesses are the first explicit label systems that are good for all
      norms `<= K` and non-coherent on essentially all of the forced range. They are **not** P3-all\* members: goodness
      for all norms is needed, and by Lemma M the all-norm core is `>= sup_K Q_core(K)`, which for loose primes was only
-     tested up to `K = 5` (`K = 6, 7` queued, see the appendix). Whether the loose cores stay vacuous for all `K` is the
+     tested up to `K = 5`; at `K = 6` (`rand4`, `last4`) the relaxations still admit non-coherent systems at `q = 11`
+     at every depth level tried, but all 100 solutions examined failed to lift because of deep 3-adic collisions
+     (`q = 3` at levels 3-5: 215 violations, `q = 5` level 3: 53, `q = 11` level 2: 23; `diag_rand4_K6.txt`), and
+     deeper tables exhausted memory, so `K = 6` is undecided for loose primes. Whether the loose cores stay vacuous for all `K` is the
      next finite question; if they start to grow at `K >= 6` the loose sets behave like the tight ones with a delay.
 5. **Comparison with the targets of round 13 §7.2.** `M^(floor(K/2))`: the tight-prime core tracks it (ratio
    `0.37-0.66`). Forced/free threshold of L4K Thm 1: the core is a decreasing fraction of it at even `K`
-   (`0.30, 0.31, >= 0.18, >= 0.10`), because `n*` itself grows faster than `|S_h|` at even `K`.
+   (`0.30, 0.31, 0.18, >= 0.11`), because `n*` itself grows faster than `|S_h|` at even `K`.
 
 **Open points.**
-* `first4`, `K = 6, 7`: exact core (only lower bounds `193`, `199`; ladders were running at `Q_sub = 293, 263`).
-* `r = 6..8` joint cores; `r = 8` forced sets (`first8`, `K = 4` was still running).
-* Loose sets at `K = 6, 7` (the decisive test of item 4).
+* `first4`, `K = 7`: exact core. Certified `>= 239` (moduli `<= 263`); at `Q = 241` the relaxations (all depth levels)
+  contain non-coherent systems, but every one of 30 solutions fails to extend at the first modulus above the window
+  (`q = 269`, the one-modulus FLEX modulus): the window is too small to decide. (`K = 6` was decided only after
+  making the lift search exhaustive for `q^r <= 2*10^5`: the earlier failures were level-2 collisions at `q = 19`.)
+* `first5`, `K = 5`: certified `>= 163` (moduli `<= 163`); no witness attempted above.
+* `r = 6..8` joint cores: the signature-table enumeration does not scale to `r = 6` (the `first6`, `K = 4` tables up to
+  `q = 107` did not finish in 40 minutes); `r = 8` forced sets (`first8`, `K = 4`) took 4.8 hours with 26 moduli above 499 left
+  undecided at the node cap; `rand8`, `bal8` were not reached. One-modulus data exist for `r = 4..7`.
+* Loose sets at `K = 6, 7` (the decisive test of item 4): needs `q = 3` modelled to 3-adic depth `>= 5` with compact
+  (C-side) dominance reduction.
 * All-norm version: a joint test with budgets of *all* norms `<= K_max` imposed on `F_(K_max)` for several `K_max` (this
   is what P3-all\* imposes); by Lemma M it can only enlarge the cores reported here.
 * A proof: the mechanism of §5 suggests an exact statement of the form "the forced demand of the moduli `n_q <= 2`
@@ -469,11 +503,13 @@ unchanged.
 | `loc.py` | local rigidity LOC/LOCe (`loc_<set>_K<K>.json`) |
 | `sigtab.py`, `deepsig.c`, `deep.py` | level-1 and multi-level signature tables |
 | `cp_joint.py`, `cp_mix.py` | Python joint DFS (targets: label outside all eps-classes; non-coherence on a segment) |
-| `cpc.c`, `fj.py`, `ladder.py`, `queue_ladder.sh` | C joint DFS and the joint-core pipeline (`fj_<set>_K<K>_<Qsub>.log`, `ladder_<set>_K<K>.log`, `jointcore_*.json`, caches `l1cache_*`, `deepcache_*`) |
+| `cpc.c`, `fj.py`, `fjs.py` (streaming, memory-light), `ladder.py`, `queue_ladder.sh` | C joint DFS and the joint-core pipeline (`fj_<set>_K<K>_<Qsub>.log`, `ladder_<set>_K<K>.log`, `jointcore_*.json`, caches `l1cache_*`, `deepcache_*`) |
 | `jointcore.py` (`extend`), `joint_ilp.py` (`verify`) | witness extension to all forced moduli; exact all-level verification |
 | `check_system.py`, `witness_table.py` | independent re-check of every joint witness `jwmix_<set>_K<K>_<Q>.pkl` |
 | `mech_joint.py` | relaxation analysis of a certified core (`mech_joint_first4_K4.txt`, `mech_joint_first4_K5.txt`) |
 | `joint_lp.py`, `joint_ilp.py`, `ls_joint.py` | LP/Lagrangian certificates, HiGHS MILP, local search (superseded; evidence only) |
+| `diag_wit.py`, `diag_stream.py`, `repair.py` | diagnostics of failed witness constructions (`diag_*.txt`); norm-raising repair (failed; evidence only) |
+| `joint_results.json` | the joint-core results with their sources (logs, witness files) |
 | `joint_results.json`, `make_joint_table.py`, `thr_table.py`, `wit_examples.py` | result tables used in §§3-6 |
 | `orig/` (one level up) | read-only copy of the round-10 harness used for reference |
 

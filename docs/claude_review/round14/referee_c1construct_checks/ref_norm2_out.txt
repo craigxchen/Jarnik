@@ -1,0 +1,2 @@
+p=13: theta=0.5880; norm-1 free set [(0.28103490150281357, 0.5880026035475675), (2.5535900500422257, 2.86055775208698)]; with norm-2 relations to the other columns at genuine angles: []
+p=17: theta=1.3258; norm-1 free set [(1.8157749899217608, 2.183843900293022), (2.528545080091668, 2.896613990462929)]; with norm-2 relations to the other columns at genuine angles: []

@@ -1,0 +1,16 @@
+   table q=263: 398976 sigs, 398976 minimal [875s]
+Q=211: coherent (exact, depth level 0) nodes=401 [166s]
+Q=223: coherent (exact, depth level 0) nodes=401 [153s]
+Q=227: coherent (exact, depth level 0) nodes=401 [181s]
+Q=229: coherent (exact, depth level 0) nodes=401 [188s]
+Q=233: coherent (exact, depth level 0) nodes=401 [212s]
+Q=239: coherent (exact, depth level 0) nodes=401 [271s]
+Q=241: DONE at depth level 0; deepening
+   deep table q=3 a=2: 128 sigs
+   deep table q=7 a=2: 512 sigs
+Q=241: DONE at depth level 1; deepening
+   deep table q=3 a=3: 128 sigs
+Q=241: DONE at depth level 2; deepening
+   deep table q=11 a=2: 4352 sigs
+Q=241: UNDECIDED [4644s]
+RESULT first4 K=7 Qsub=263: coherent up to 239 (exact, tested from 200); witness at None

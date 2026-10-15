@@ -1,0 +1,1 @@
+{"name": "bal4", "K": 5, "Qsub": 37, "capmax": null, "P": [97, 101, 109, 113], "core_lower": 7, "first_noncoherent": 11, "log": [[3, "INFEASIBLE", 1, 0], [5, "INFEASIBLE", 1, 0], [7, "INFEASIBLE", 1, 0], [11, "WITNESS", 12, 2]]}

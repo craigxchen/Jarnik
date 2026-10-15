@@ -1,0 +1,5 @@
+r=8: |F|=210, Z_r=-2.000 (r^3/36=14.22), min #zeros over 400 random (sigma,nu) = 5; Z_r/|F| * 9r/2 = -0.343
+r=10: |F|=630, Z_r=1.667 (r^3/36=27.78), min #zeros over 400 random (sigma,nu) = 13; Z_r/|F| * 9r/2 = 0.119
+r=16: |F|=5460, Z_r=44.000 (r^3/36=113.78), min #zeros over 400 random (sigma,nu) = 81; Z_r/|F| * 9r/2 = 0.580
+r=24: |F|=31878, Z_r=223.333 (r^3/36=384.00), min #zeros over 400 random (sigma,nu) = 322; Z_r/|F| * 9r/2 = 0.757
+instance K=3 r=10 primes [1301, 1409, 1553, 1709, 2153, 3581, 3929, 4217, 5477, 5869], q in (59,60000]: monomials of F over unit-0 budget: 630/630; min demand 1434.7, max budget 16.95

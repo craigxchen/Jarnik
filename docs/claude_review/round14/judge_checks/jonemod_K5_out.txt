@@ -1,0 +1,4 @@
+ps=[5, 13, 17, 29] K=5 q0=163 |F|=65 labels=45212176 genuine L=[155, 17, 19, 71]
+  PU: survivors 160 / outside genuine class 80 / outside every eps-class 80; examples [(1, 69, 65, 87), (1, 147, 31, 159), (5, 17, 161, 107)]
+  ANG: survivors 80 / outside genuine class 0 / outside every eps-class 0; examples []
+  SLg: survivors 80 / outside genuine class 0 / outside every eps-class 0; examples []

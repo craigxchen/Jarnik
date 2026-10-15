@@ -1,0 +1,12 @@
+(A) first r split primes (the near-extremal prime sets of actual circles):
+   r=   10, p_max=     89: columns failing (i) = 8 / 10
+   r=   20, p_max=    193: columns failing (i) = 16 / 20
+   r=   50, p_max=    577: columns failing (i) = 42 / 50
+   r=  100, p_max=   1237: columns failing (i) = 87 / 100
+   r=  200, p_max=   2797: columns failing (i) = 180 / 200
+   r=  500, p_max=   8009: columns failing (i) = 448 / 500
+   r= 1000, p_max=  17657: columns failing (i) = 913 / 1000
+(B) selected sets: 5 and 13 plus r-2 primes p<=Y chosen with 5 or 13 dividing prod_{s in S_j} D_s(pi_j):
+   Y=10000: fraction of split primes <= Y with 5|.. or 13|..: 0.695; chosen r=50: failing (i) = 49 / 50
+   Y=100000: fraction of split primes <= Y with 5|.. or 13|..: 0.703; chosen r=200: failing (i) = 199 / 200
+   Y=1000000: fraction of split primes <= Y with 5|.. or 13|..: 0.700; chosen r=1000: failing (i) = 999 / 1000

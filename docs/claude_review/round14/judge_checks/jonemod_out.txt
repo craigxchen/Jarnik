@@ -1,0 +1,8 @@
+ps=[5, 13, 17, 29] K=4 q0=83 |F|=40 labels=3111696 genuine L=[3, 55, 46, 72]
+  PU: survivors 36 / outside genuine class 24 / outside every eps-class 24; examples [(1, 51, 46, 78), (3, 25, 16, 72), (3, 53, 44, 72)]
+  ANG: survivors 12 / outside genuine class 0 / outside every eps-class 0; examples []
+  SLg: survivors 12 / outside genuine class 0 / outside every eps-class 0; examples []
+ps=[5, 13, 17, 29] K=4 q0=107 |F|=40 labels=8503056 genuine L=[85, 64, 97, 80]
+  PU: survivors 216 / outside genuine class 144 / outside every eps-class 144; examples [(1, 4, 61, 92), (1, 62, 69, 22), (1, 88, 43, 50)]
+  ANG: survivors 180 / outside genuine class 108 / outside every eps-class 108; examples [(1, 4, 61, 92), (1, 88, 43, 50), (1, 88, 97, 104)]
+  SLg: survivors 180 / outside genuine class 108 / outside every eps-class 108; examples [(1, 4, 61, 92), (1, 88, 43, 50), (1, 88, 97, 104)]

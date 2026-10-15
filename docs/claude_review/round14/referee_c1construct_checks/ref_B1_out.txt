@@ -1,0 +1,4 @@
+M=30 A=3 X=81000 p_j=101: product (no exclusion) 0.0664, (log Y/log X)^2 0.0551, product excluding q in first 90 split primes 0.1544 (ratio 2.32)
+M=30 A=3 X=81000 p_j=1009: product (no exclusion) 0.1150, (log Y/log X)^2 0.1133, product excluding q in first 90 split primes 0.2122 (ratio 1.84)
+M=30 A=3 X=81000 p_j=5009: product (no exclusion) 0.1596, (log Y/log X)^2 0.1661, product excluding q in first 90 split primes 0.2537 (ratio 1.59)
+M=30 A=3 X=81000 p_j=26993: product (no exclusion) 0.2376, (log Y/log X)^2 0.2324, product excluding q in first 90 split primes 0.3042 (ratio 1.28)

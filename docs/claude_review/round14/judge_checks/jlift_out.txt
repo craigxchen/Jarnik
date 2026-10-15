@@ -1,0 +1,3 @@
+ell (1, 4, 61, 92) lift [1837, 7780, 11077, 10568] outside every eps-class True | PU viol 0 ANG fail 0 slab viol at phi=arg pi 0
+ell (1, 88, 43, 50) lift [1837, 7864, 11059, 10526] outside every eps-class True | PU viol 0 ANG fail 0 slab viol at phi=arg pi 0
+ell (1, 88, 97, 104) lift [1837, 7864, 11113, 10580] outside every eps-class True | PU viol 0 ANG fail 0 slab viol at phi=arg pi 0

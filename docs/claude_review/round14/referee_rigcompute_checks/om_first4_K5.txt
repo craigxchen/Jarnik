@@ -1,0 +1,7 @@
+first4 K 5 q0 151 survivors [all, outside genuine class, outside every eps-class]: per-unit [36, 0, 0] | per-unit+angle [36, 0, 0] | example ANG non-genuine []
+first4 K 5 q0 157 survivors [all, outside genuine class, outside every eps-class]: per-unit [48, 0, 0] | per-unit+angle [48, 0, 0] | example ANG non-genuine []
+first4 K 5 q0 163 survivors [all, outside genuine class, outside every eps-class]: per-unit [160, 80, 80] | per-unit+angle [80, 0, 0] | example ANG non-genuine []
+first4 K 5 q0 167 survivors [all, outside genuine class, outside every eps-class]: per-unit [120, 96, 96] | per-unit+angle [72, 48, 48] | example ANG non-genuine [(1, 121, 71, 104), (7, 31, 83, 110), (7, 55, 131, 38)]
+first4 K 5 q0 173 survivors [all, outside genuine class, outside every eps-class]: per-unit [84, 42, 42] | per-unit+angle [84, 42, 42] | example ANG non-genuine [(1, 20, 73, 164)]
+first4 K 5 q0 179 survivors [all, outside genuine class, outside every eps-class]: per-unit [48, 24, 24] | per-unit+angle [24, 0, 0] | example ANG non-genuine []
+Killed
