@@ -95,7 +95,13 @@ Round 14 (`round14/README.md`) tests that class in the growth regime. Rigidity o
 all fail the single-angle coupling of P3-all\*, so they are not fakes. No fake (C1) was built; several
 construction routes are proved to fail. P3-all\* remains open and uncapped there.
 
-**Growth-rate status (2026-10-15).** No growth improvement over `log R/loglog R` is proved, either
+Round 15 (`round15/README.md`) was interrupted by a usage limit; its theory part shows that no outcome of the
+P3-all\* rigidity question changes the growth rate of actual circles by itself. `local_smoothing/README.md`
+assesses OpenAI's claimed proof of the local smoothing conjecture in all dimensions (Oct 2026): not useful for
+this problem (nothing new in the plane; vacuous on a single circle; L^p and energy chains are capped at
+Theta(log R); fake circles satisfy every such estimate).
+
+**Growth-rate status (2026-10-27).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues
