@@ -1,0 +1,6 @@
+|A| = 7  |B| = 7
+Psi^Sigma_A(u) = 3/8  (> 0: Cheb_A(u) > 0, MIN_inf holds at u for small eps_0)
+Psi^Sigma_B(u) = 0  (= 0: some P with l_u^3 = P on B, cube mass 7/9 = mu(A))
+grid points of TC(A,3) off the braid arrangement: []
+subset A minus (-1, 0) : Psi = 0, so SB_{mu_A}(u;0) >= 6/7 (AC_p fails for every p > 1/7, every delta)
+cube d=2, m=4: Psi_cube(u) = 1 ; cube minus (0,0): Psi = 0

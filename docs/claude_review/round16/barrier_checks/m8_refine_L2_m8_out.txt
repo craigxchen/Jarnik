@@ -1,0 +1,2 @@
+Syl(8) L=2 m=8 |A|=1037 dimV=42
+{'slid_to_stratum': 120, 'no_conv': 0, 'genuine': 0} 73s

@@ -1,0 +1,6 @@
+q=7 status=0 sigma=3 sigma/r=0.2143 dual_bound_sigma=3.0 norm1=4 supp=4 lam=[-1, 0, 0, 0, -1, 1, 0, 1] time=0s
+q=11 status=0 sigma=5 sigma/r=0.2273 dual_bound_sigma=4.999999999999762 norm1=4 supp=4 lam=[-1, -1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1] time=0s
+q=19 status=0 sigma=7 sigma/r=0.1842 dual_bound_sigma=6.9999999999811315 norm1=4 supp=4 lam=[-1, 0, 1, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 0] time=2s
+q=23 status=0 sigma=9 sigma/r=0.1957 dual_bound_sigma=8.999999999995111 norm1=4 supp=4 lam=[1, 0, 0, 1, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0] time=4s
+q=31 status=0 sigma=13 sigma/r=0.2097 dual_bound_sigma=12.999999999998664 norm1=4 supp=4 lam=[1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 1, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] time=27s
+q=43 status=0 sigma=17 sigma/r=0.1977 dual_bound_sigma=16.999999999992134 norm1=4 supp=4 lam=[1, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] time=148s

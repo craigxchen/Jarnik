@@ -1,0 +1,11 @@
+sdc11 L=2: |A|=9373  density=5.291e-02  (0s)
+free orbits 852, fixed points 1
+i=1: monomial orbit reps 1, rank_p 0 / rows 852, rank with f_i 1; second prime ranks 0, 1 -> f_i NOT in span (nu_A(psi_1) >= i)  (0s)
+i=2: monomial orbit reps 2, rank_p 1 / rows 852, rank with f_i 2; second prime ranks 1, 2 -> f_i NOT in span (nu_A(psi_1) >= i)  (0s)
+i=3: monomial orbit reps 8, rank_p 7 / rows 852, rank with f_i 8; second prime ranks 7, 8 -> f_i NOT in span (nu_A(psi_1) >= i)  (0s)
+i=4: monomial orbit reps 33, rank_p 32 / rows 852, rank with f_i 33; second prime ranks 32, 33 -> f_i NOT in span (nu_A(psi_1) >= i)  (0s)
+i=5: monomial orbit reps 113, rank_p 112 / rows 852, rank with f_i 113; second prime ranks 112, 113 -> f_i NOT in span (nu_A(psi_1) >= i)  (0s)
+i=6: monomial orbit reps 320, rank_p 316 / rows 852, rank with f_i 317; second prime ranks 316, 317 -> f_i NOT in span (nu_A(psi_1) >= i)  (1s)
+i=7: monomial orbit reps 767, rank_p 656 / rows 852, rank with f_i 657; second prime ranks 656, 657 -> f_i NOT in span (nu_A(psi_1) >= i)  (2s)
+i=8: monomial orbit reps 1589, rank_p 852 / rows 852, rank with f_i 852; second prime ranks 852, 852 -> f_i in span (psi_1 in TC(A,i)) [M full row rank: vacuous]  (6s)
+i=9: monomial orbit reps 2894, rank_p 852 / rows 852, rank with f_i 852; second prime ranks 852, 852 -> f_i in span (psi_1 in TC(A,i)) [M full row rank: vacuous]  (9s)

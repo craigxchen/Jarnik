@@ -1,0 +1,10 @@
+sdc19 L=2 m=5: |A|=264291 free orbits 13910 fixed 1 (129s)
+monomial orbit reps of degree < 5: 447
+character deficiencies delta_c on the characters needed (c: delta) = {1: 13464, 3: 13464, 5: 13464, 14: 13464, 16: 13464, 18: 13464} | second prime agrees: True
+membership of F_i (i: in span) = {3: False, 4: False, 5: False, 0: False, 1: False, 2: False} | second prime agrees: True
+=> circle C_1 is NOT contained in TC(A,5) (mod-p evidence)  (362s)
+sdc19 L=2 m=6: |A|=264291 free orbits 13910 fixed 1 (134s)
+monomial orbit reps of degree < 6: 2028
+character deficiencies delta_c on the characters needed (c: delta) = {0: 11887, 2: 11886, 4: 11886, 6: 11886, 13: 11886, 15: 11886, 17: 11886} | second prime agrees: True
+membership of F_i (i: in span) = {3: False, 4: False, 5: False, 6: False, 0: False, 1: False, 2: False} | second prime agrees: True
+=> circle C_1 is NOT contained in TC(A,6) (mod-p evidence)  (1560s)

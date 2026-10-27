@@ -1,0 +1,5 @@
+sdc7 L=2 m=8: |A|=757 free orbits 108 fixed 1 (0s)
+monomial orbit reps of degree < 8: 186
+character deficiencies delta_c on the characters needed (c: delta) = {0: 1, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0} | second prime agrees: True
+membership of F_i (i: in span) = {4: False, 1: True, 8: True, 5: True, 2: True, 6: True, 3: True, 0: True, 7: True} | second prime agrees: True
+=> circle C_1 is NOT contained in TC(A,8) (mod-p evidence)  (1s)

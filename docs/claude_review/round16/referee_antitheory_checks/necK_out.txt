@@ -1,0 +1,22 @@
+half largest k in [12,60] with K*o_q>d for some q: 36
+t0 largest k in [12,60] with K*o_q>d for some q: 19
+tS k 12 qmax 4
+tS k 30 qmax 4
+tS k 60 qmax 4
+tS largest k in [12,60] with K*o_q>d for some q: 13
+detail tS:
+12 q 1 c 238 j 281 rho 476 m 2256 o 1780 K*o 3560 d 4095 adm True
+12 q 2 c 242 j 281 rho 968 m 2256 o 1288 K*o 5152 d 4095 adm True
+12 q 3 c 244 j 281 rho 1464 m 2256 o 792 K*o 6336 d 4095 adm True
+12 q 4 c 246 j 281 rho 1968 m 2256 o 288 K*o 4608 d 4095 adm True
+12 q 5 c 247 j 281 rho 2470 m 2256 o -214 K*o -6848 d 4095 adm False
+13 q 1 c 348 j 412 rho 696 m 3302 o 2606 K*o 5212 d 8191 adm True
+13 q 2 c 353 j 412 rho 1412 m 3302 o 1890 K*o 7560 d 8191 adm True
+13 q 3 c 356 j 412 rho 2136 m 3302 o 1166 K*o 9328 d 8191 adm True
+13 q 4 c 358 j 412 rho 2864 m 3302 o 438 K*o 7008 d 8191 adm True
+13 q 5 c 360 j 412 rho 3600 m 3302 o -298 K*o -9536 d 8191 adm False
+14 q 1 c 507 j 602 rho 1014 m 4823 o 3809 K*o 7618 d 16383 adm True
+14 q 2 c 514 j 602 rho 2056 m 4823 o 2767 K*o 11068 d 16383 adm True
+14 q 3 c 519 j 602 rho 3114 m 4823 o 1709 K*o 13672 d 16383 adm True
+14 q 4 c 522 j 602 rho 4176 m 4823 o 647 K*o 10352 d 16383 adm True
+14 q 5 c 524 j 602 rho 5240 m 4823 o -417 K*o -13344 d 16383 adm False

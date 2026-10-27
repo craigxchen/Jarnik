@@ -1,0 +1,7 @@
+|A|= 7
+Psi_A(u) symbolic (sum form): 6*u1**2*u2**2*(u1 - u2)**2
+Psi_A(1/2,1) sum form = 3/8 ; mean form = 3/56
+|B|= 7  Psi_B(1/2,1)= 0
+|A6|= 6  Psi_A6(1/2,1)= 0
+cube m=4 Psi(u) = 16*u1**4*u2**4
+cube minus point m=4 Psi(u) = 0

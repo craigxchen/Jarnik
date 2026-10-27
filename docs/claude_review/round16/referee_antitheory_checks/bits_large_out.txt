@@ -1,0 +1,8 @@
+half k= 26 m= 408307 j= 51038 admissible q: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] failing q (in MIN region): [10, 11, 12, 13, 14]
+half k= 30 m= 1745994 j= 218249 admissible q: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] failing q (in MIN region): [13, 14, 15]
+half k= 34 m= 7407624 j= 925952 admissible q: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] failing q (in MIN region): []
+
+[exited with code 144]
+half k= 31 m= 2507493 j= 313436 admissible q: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] failing q (in MIN region): [14, 15]
+half k= 32 m= 3599458 j= 449932 admissible q: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] failing q (in MIN region): []
+half k= 33 m= 5164719 j= 645589 admissible q: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] failing q (in MIN region): []

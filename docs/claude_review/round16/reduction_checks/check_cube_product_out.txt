@@ -1,0 +1,35 @@
+cube d=3 m=1 r0=1: formula exact match = True
+cube d=3 m=2 r0=4: formula exact match = True
+cube d=3 m=3 r0=10: formula exact match = True
+cube d=3 m=4 r0=17: formula exact match = True
+cube d=3 m=5 r0=23: formula exact match = True
+cube d=3 m=6 r0=26: formula exact match = True
+cube d=3 m=7 r0=27: formula exact match = True
+cube d=4 m=1 r0=1: formula exact match = True
+cube d=4 m=2 r0=5: formula exact match = True
+cube d=4 m=3 r0=15: formula exact match = True
+cube d=4 m=4 r0=31: formula exact match = True
+cube d=4 m=5 r0=50: formula exact match = True
+cube d=4 m=6 r0=66: formula exact match = True
+cube d=4 m=7 r0=76: formula exact match = True
+cube d=4 m=8 r0=80: formula exact match = True
+cube d=4 m=9 r0=81: formula exact match = True
+cube d=5 m=1 r0=1: formula exact match = True
+cube d=5 m=2 r0=6: formula exact match = True
+cube d=5 m=3 r0=21: formula exact match = True
+cube d=5 m=4 r0=51: formula exact match = True
+cube d=5 m=5 r0=96: formula exact match = True
+cube d=5 m=6 r0=147: formula exact match = True
+cube d=5 m=7 r0=192: formula exact match = True
+cube d=5 m=8 r0=222: formula exact match = True
+cube d=5 m=9 r0=237: formula exact match = True
+cube d=5 m=10 r0=242: formula exact match = True
+cube d=5 m=11 r0=243: formula exact match = True
+time 1.3s
+product X(one-cut s=3,L=1) x Y(cube d=2), m=1: product formula exact = True
+product X(one-cut s=3,L=1) x Y(cube d=2), m=2: product formula exact = True
+product X(one-cut s=3,L=1) x Y(cube d=2), m=3: product formula exact = True
+product X(one-cut s=3,L=1) x Y(cube d=2), m=4: product formula exact = True
+product X(one-cut s=3,L=1) x Y(cube d=2), m=5: product formula exact = True
+product X(one-cut s=3,L=1) x Y(cube d=2), m=6: product formula exact = True
+time 1.4s

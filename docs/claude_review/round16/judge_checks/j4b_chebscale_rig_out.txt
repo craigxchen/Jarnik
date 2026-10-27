@@ -1,0 +1,10 @@
+max|T_3| on grid = 1.0
+max|T_7| on grid = 1.0
+max|T_12| on grid = 1.0
+largest n in [2966,20000) with 3n ln n - 14n <= W_rig: 3750
+n=2966 m'=1887 W_lo=29615.2 W_rig=34316.9 3nlnn=71139.2
+n=3500 m'=2068 W_lo=36685.4 W_rig=38293.9 3nlnn=85685.4
+n=3750 m'=2149 W_lo=40082 W_rig=40090.6 3nlnn=92582
+n=3751 m'=2149 W_lo=40095.7 W_rig=40091.7 3nlnn=92609.7
+n=10000 m'=3683 W_lo=136310 W_rig=75936.2 3nlnn=276310
+n=100000 m'=12850 W_lo=2.05388e+06 W_rig=324122 3nlnn=3.45388e+06

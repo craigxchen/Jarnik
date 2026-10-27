@@ -99,7 +99,10 @@ Round 15 (`round15/README.md`) was interrupted by a usage limit; its theory part
 P3-all\* rigidity question changes the growth rate of actual circles by itself. `local_smoothing/README.md`
 assesses OpenAI's claimed proof of the local smoothing conjecture in all dimensions (Oct 2026): not useful for
 this problem (nothing new in the plane; vacuous on a single circle; L^p and energy chains are capped at
-Theta(log R); fake circles satisfy every such estimate).
+Theta(log R); fake circles satisfy every such estimate). Round 16 (`round16/README.md`) recasts route 5's last
+inequality as a statement about the slab box alone: MIN^pair is an L^2 restriction statement about the top component of
+<k,u>^m', and the polynomial anti-concentration literature is provably vacuous at the degree it needs. The barrier side
+reduces to one quantitative test on the Fourier circles of the skew double core boxes. Route 5 is open, stuck, not capped.
 
 **Growth-rate status (2026-10-27).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by

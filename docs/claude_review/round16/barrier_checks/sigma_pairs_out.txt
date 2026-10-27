@@ -1,0 +1,6 @@
+sdc7: n=8 r=14 pair sigma: min 1 max 1 | 4-term sigma/r mean 0.178 | 6-term 0.521 | 8-term 0.526  (light iff < 0.5)
+sdc11: n=12 r=22 pair sigma: min 1 max 1 | 4-term sigma/r mean 0.210 | 6-term 0.490 | 8-term 0.649  (light iff < 0.5)
+sdc19: n=20 r=38 pair sigma: min 1 max 1 | 4-term sigma/r mean 0.216 | 6-term 0.462 | 8-term 0.623  (light iff < 0.5)
+sdc23: n=24 r=46 pair sigma: min 1 max 1 | 4-term sigma/r mean 0.220 | 6-term 0.464 | 8-term 0.613  (light iff < 0.5)
+sdc31: n=32 r=62 pair sigma: min 1 max 1 | 4-term sigma/r mean 0.228 | 6-term 0.453 | 8-term 0.607  (light iff < 0.5)
+sdc43: n=44 r=86 pair sigma: min 1 max 1 | 4-term sigma/r mean 0.236 | 6-term 0.449 | 8-term 0.608  (light iff < 0.5)

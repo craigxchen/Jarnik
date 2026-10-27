@@ -1,0 +1,5 @@
+sdc7: r=14  min sigma, type ++--: 3 (= 0.214 r)  type 2--: 9 (= 0.643 r)   0s
+sdc11: r=22  min sigma, type ++--: 5 (= 0.227 r)  type 2--: 13 (= 0.591 r)   0s
+sdc19: r=38  min sigma, type ++--: 7 (= 0.184 r)  type 2--: 21 (= 0.553 r)   0s
+sdc23: r=46  min sigma, type ++--: 9 (= 0.196 r)  type 2--: 25 (= 0.543 r)   0s
+sdc31: r=62  min sigma, type ++--: 13 (= 0.210 r)  type 2--: 33 (= 0.532 r)   1s

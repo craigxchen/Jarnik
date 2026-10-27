@@ -1,0 +1,2 @@
+degree of Q - l_u^m: 5 (< m = 7 )
+identity holds on 2781 of 2781 points of Y (exact rationals)

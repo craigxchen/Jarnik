@@ -1,0 +1,9 @@
+regime sdc primes q<2e5 (q=3 mod 4): 8777
+first regime sdc q, w, j, m': (3251, 514.1998398359077, 257, 2057)
+first q with 2m'<q: (5479, 2738)
+# regime q with m'>=q: 0 ; # with m'>8j+4: 4446 ; max m'-8j: 8
+Syl k=11 d=2047 regime=False w=384.13 j=192 m'=1537
+Syl k=12 d=4095 regime=True w=563.82 j=281 m'=2256
+Syl k=13 d=8191 regime=True w=825.41 j=412 m'=3302
+Syl k=14 d=16383 regime=True w=1205.63 j=602 m'=4823
+Syl k=15 d=32767 regime=True w=1757.52 j=878 m'=7031

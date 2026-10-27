@@ -1,0 +1,11 @@
+# referee notes (barrier.md)
+- Thm 2.3 first-group bound: true bound is 1/4 (no e^{-tau/2}); harmless.
+- Prop 2.4: only shows Lemma 2.0 ceiling can't certify; summary "collision strata never give barrier points" overclaims.
+- Prop 2.5: tau_L misses (d-1)ln(2r+3)/(c0 r) term from eta (matters for small b); fixable O(log n).
+- Prop 3.1(3): m' <= 8j+4 false in general (m' <= 8j+8); conclusion ok for j>=4.
+- Thm 3.2: 2m<N can be relaxed to m<N for odd N (only even freq in |f|^2). 
+- 2m'<q: regime start q~3200 has 2m'~4000>q; need q >~ 5500.
+- Thm 3.5/§8: 'single algebraic question' -- exact non-membership does not settle; quantitative. Liouville gives only e^{-O(q^2)}.
+- AC "strictly stronger than MIN^pair" contradicts Cor 2.2(3).
+- AGL(1,q) preserves sdc patterns (x->tx, t QR: P_a->P_ta; t=-1: P_a -> P'_{-a}) => 2-transitive; all circles equivalent exactly.
+- Chebyshev witness: AC false for all u if W < ~2m' ln d + 5m'; fine at W ~ n log n.

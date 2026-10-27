@@ -1,0 +1,2 @@
+cube formula: 63 cases, 0 mismatches
+product formula (X one-cut s=3 L=1, Y irregular 6-point set): 21 cases, 0 mismatches

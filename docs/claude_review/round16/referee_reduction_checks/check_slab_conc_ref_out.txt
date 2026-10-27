@@ -1,0 +1,9 @@
+n=2901 r=n: d=2900 w=465.97343 j=232 deg=2j+1=465 m'=1864  316 ln4r=2957.48 (regime d>=316 ln4r? False)
+   s=1450: Pr(Q_S != 0) = 10^-13.18   Hoeffding bound 10^-7.8291   max normalised influence <= (2j+1)/s = 0.3207
+   s=2900: Pr(Q_S != 0) = 10^-6.9142   Hoeffding bound 10^-3.764   max normalised influence <= (2j+1)/s = 0.1603
+n=5000 r=n: d=4999 w=629.3332 j=314 deg=2j+1=629 m'=2518  316 ln4r=3129.5 (regime d>=316 ln4r? True)
+   s=2499: Pr(Q_S != 0) = 10^-13.922   Hoeffding bound 10^-8.321   max normalised influence <= (2j+1)/s = 0.2517
+   s=4999: Pr(Q_S != 0) = 10^-7.2972   Hoeffding bound 10^-4.0091   max normalised influence <= (2j+1)/s = 0.1258
+n=6000 r=n^2: d=5999 w=949.49737 j=474 deg=2j+1=949 m'=3798  316 ln4r=5936.16 (regime d>=316 ln4r? True)
+   s=2999: Pr(Q_S != 0) = 10^-25.696   Hoeffding bound 10^-16.036   max normalised influence <= (2j+1)/s = 0.3164
+   s=5999: Pr(Q_S != 0) = 10^-13.22   Hoeffding bound 10^-7.866   max normalised influence <= (2j+1)/s = 0.1582

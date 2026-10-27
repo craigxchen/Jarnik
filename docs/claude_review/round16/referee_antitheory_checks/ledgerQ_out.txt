@@ -1,0 +1,5 @@
+Q= 16 crossover n ~ 527222  margin at 1e6: 1.7758e+6
+Q= 32 crossover n ~ 2202057  margin at 1e6: -3.0671e+6
+Q= 64 crossover n ~ 9367056  margin at 1e6: -1.2753e+7
+Q= 128 crossover n ~ 40107976  margin at 1e6: -3.2124e+7
+Q= 256 crossover n ~ 171715498  margin at 1e6: -7.0868e+7
