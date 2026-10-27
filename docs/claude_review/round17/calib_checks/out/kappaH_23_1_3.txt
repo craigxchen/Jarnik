@@ -1,0 +1,6 @@
+sdc23 L=1 m=3: |A|=553, monomials 300, rank 300, dim V = 253  (0s)
+nullspace basis: max |entry| = 1  (0s)
+LLL basis: H_red = max|c|_inf = 1; height profile (H: #vectors) = [(1, 253)]; max |c|_1 = 46  (1s)
+theta=0.0000: best single LLL vector kappa_c(hat u) = 6.041605e-05;  lower bounds kappa_H(hat u) >= sqrt(Psi_span)/d^m: [(1, 8.874402e-05)]
+theta=0.0683: best single LLL vector kappa_c(hat u) = 6.124107e-05;  lower bounds kappa_H(hat u) >= sqrt(Psi_span)/d^m: [(1, 8.936757e-05)]
+done (15s)

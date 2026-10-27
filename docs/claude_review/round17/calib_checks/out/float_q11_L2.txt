@@ -1,0 +1,17 @@
+[float_iso] sdc11 L=2: |A|=9373, free orbits 852, max support 8, mmax=8, tol=1e-09
+monomial orbit reps by degree: [1, 1, 6, 25, 80, 207, 447, 822] (0s)
+c=0: dims Poly_<m,c (m=1..8) = [1, 2, 8, 33, 113, 316, 651, 848] / rows 853  (2s)
+c=1: dims Poly_<m,c (m=1..8) = [0, 1, 7, 32, 112, 316, 656, 852] / rows 852  (2s)
+c=2: dims Poly_<m,c (m=1..8) = [0, 1, 7, 32, 112, 316, 656, 852] / rows 852  (2s)
+c=3: dims Poly_<m,c (m=1..8) = [0, 1, 7, 32, 112, 316, 656, 852] / rows 852  (2s)
+c=4: dims Poly_<m,c (m=1..8) = [0, 1, 7, 32, 112, 316, 656, 852] / rows 852  (2s)
+c=5: dims Poly_<m,c (m=1..8) = [0, 1, 7, 32, 112, 316, 656, 852] / rows 852  (2s)
+m=1: dim Poly_<m|_A = 1, dim V = 9372; Psi_A(C_1) = 2.7684839432e+00, E l^2m = 2.768484e+00, rel = 1.000000e+00; random u: Psi in [7.2707e-01, 2.5819e+00], rel in [1.0000e+00, 1.0000e+00]
+m=2: dim Poly_<m|_A = 12, dim V = 9361; Psi_A(C_1) = 1.5958856306e+01, E l^2m = 2.362336e+01, rel = 6.755541e-01; random u: Psi in [9.3977e-01, 1.1890e+01], rel in [6.0067e-01, 6.5284e-01]
+m=3: dim Poly_<m|_A = 78, dim V = 9295; Psi_A(C_1) = 1.3180986759e+02, E l^2m = 3.333917e+02, rel = 3.953604e-01; random u: Psi in [1.5868e+00, 6.9127e+01], rel in [3.0836e-01, 3.5492e-01]
+m=4: dim Poly_<m|_A = 353, dim V = 9020; Psi_A(C_1) = 1.4164690843e+03, E l^2m = 6.491981e+03, rel = 2.181875e-01; random u: Psi in [2.9151e+00, 4.4399e+02], rel in [1.4381e-01, 1.7183e-01]
+m=5: dim Poly_<m|_A = 1233, dim V = 8140; Psi_A(C_1) = 1.7047761788e+04, E l^2m = 1.590100e+05, rel = 1.072119e-01; random u: Psi in [5.4280e+00, 2.8846e+03], rel in [5.7986e-02, 7.4970e-02]
+m=6: dim Poly_<m|_A = 3476, dim V = 5897; Psi_A(C_1) = 1.6740358758e+05, E l^2m = 4.575850e+06, rel = 3.658415e-02; random u: Psi in [9.0099e+00, 1.6688e+04], rel in [1.8592e-02, 2.5679e-02]
+m=7: dim Poly_<m|_A = 7211, dim V = 2162; Psi_A(C_1) = 9.4995399896e+05, E l^2m = 1.465334e+08, rel = 6.482848e-03; random u: Psi in [8.5326e+00, 6.1976e+04], rel in [3.5190e-03, 4.8723e-03]
+m=8: dim Poly_<m|_A = 9368, dim V = 5; Psi_A(C_1) = 3.0136921747e+04, E l^2m = 5.022447e+09, rel = 6.000446e-06; random u: Psi in [3.8270e-03, 8.2059e+02], rel in [2.7305e-07, 2.4789e-06]
+done (12s)

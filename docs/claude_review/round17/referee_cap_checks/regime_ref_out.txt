@@ -1,0 +1,40 @@
+first regime prime q=3 mod 4: 3251
+previous prime 3 mod 4: 3203  316 ln(8q)= 3207.806
+
+=== q=3251: d=3251 r=6502 316ln4r=3212.5064 regime=True w=514.1998398 j=257 m'=2057 m'<q=True 4j=1028 m'/2=1028.5
+ tau_D terms: t2= 48.665407  t3= 62.337048  t1(0.184)= 296.09194
+  ln T* at floor (tau=62.337048): -101332.9234
+  ln T* at c0=0.184 (tau=296.09194): -481301.5031
+  ln T* at c0=0.5 (tau=108.96183): -177121.5137
+  cube-only lower bound ln kappa^(T) >= -4506.576084  (sum ln cos= -86.988054 )  gap to floor T*: 96826.347
+  S-grid: alpha = 4 x 514 + 1; lower bound ln kappa >= -11311.29178  gap to floor T*: 90021.632
+  sum_i cos(pi i/2q)= 2069.15084  ln slab-mass prefactor <= -2770.233966
+  survival threshold ln N_0 > -166545.4818
+  ln((m'!)^2 (2/3)^m') = 26447.14724
+  per-unit-mass certificate need ln(2^(m'+1) d^m' T*) = -83272.04774  cube Lambda value ln(m'!/2^m') = 12214.79073
+  ln(2q H_T(m'-2j-1)/H_T(m')) = -366.9693516
+  sum_{e<q} H_T(e) < 3^q/2: True
+  exact ln Pr_T(|k(P)|>j) = -33.025241  union bound ln(2q*tail)= -24.245376  sd= 32.924155  j/sd= 7.80582
+  zonotope bound m <= floor(4jq/(q+1)) = 1027
+  ln(3^(-3m')/4) = -6780.9227
+  ln H' at floor = 20843349.0
+  ln H' at c0=0.184 = 99002886.0
+
+=== q=5479: d=5479 r=10958 316ln4r=3377.4457 regime=True w=684.4571941 j=342 m'=2738 m'<q=True 4j=1368 m'/2=1369.0
+ tau_D terms: t2= 50.752934  t3= 65.468308  t1(0.184)= 307.4372
+  ln T* at floor (tau=65.468308): -179354.3873
+  ln T* at c0=0.184 (tau=307.4372): -842228.1631
+  ln T* at c0=0.5 (tau=113.13689): -309942.4654
+  cube-only lower bound ln kappa^(T) >= -6601.787319  (sum ln cos= -71.49023 )  gap to floor T*: 172752.6
+  S-grid: alpha = 4 x 684 + 2; lower bound ln kappa >= -16417.99081  gap to floor T*: 162936.4
+  sum_i cos(pi i/2q)= 3487.539709  ln slab-mass prefactor <= -4042.720442
+  survival threshold ln N_0 > -307771.9805
+  ln((m'!)^2 (2/3)^m') = 36766.03639
+  per-unit-mass certificate need ln(2^(m'+1) d^m' T*) = -153885.2971  cube Lambda value ln(m'!/2^m') = 17040.26295
+  ln(2q H_T(m'-2j-1)/H_T(m')) = -657.6740883
+  sum_{e<q} H_T(e) < 3^q/2: True
+  exact ln Pr_T(|k(P)|>j) = -34.524459  union bound ln(2q*tail)= -25.222634  sd= 42.739521  j/sd= 8.00196
+  zonotope bound m <= floor(4jq/(q+1)) = 1367
+  ln(3^(-3m')/4) = -9025.3876
+  ln H' at floor = 49106148.0
+  ln H' at c0=0.184 = 2.3060099e+8

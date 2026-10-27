@@ -1,0 +1,8 @@
+q=7 formula mismatches=0/400 chi*chi=1-q*delta0: True
+q=11 formula mismatches=0/400 chi*chi=1-q*delta0: True
+q=19 formula mismatches=0/400 chi*chi=1-q*delta0: True
+q=23 formula mismatches=0/400 chi*chi=1-q*delta0: True
+q=31 formula mismatches=0/400 chi*chi=1-q*delta0: True
+q=43 formula mismatches=0/400 chi*chi=1-q*delta0: True
+q=47 formula mismatches=0/400 chi*chi=1-q*delta0: True
+q=59 formula mismatches=0/400 chi*chi=1-q*delta0: True

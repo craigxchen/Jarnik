@@ -1,0 +1,26 @@
+q 7 L 1 |A| 57
+m 1 dim V 56
+  witness |c|_1=2 |c|_inf=1 i=0 max_s|sigma_s alpha|=1 |N(alpha)|=1
+  bound(before max>=1)=0.25  bound(3.1, |c|_1^-1 2^-m binom)=0.25
+    theta=0.0000 LP Cheb=1.90097  ratio LP/bound=7.604  OK=True
+    theta=0.3000 LP Cheb=1.94429  ratio LP/bound=7.777  OK=True
+    theta=0.4488 LP Cheb=1.90097  ratio LP/bound=7.604  OK=True
+    theta=1.1000 LP Cheb=1.94938  ratio LP/bound=7.798  OK=True
+    item-2 check: min over 61 thetas of max_a|Phi|/(2^-m binom |sigma_s alpha|) = 1.949856 (must be >=1)
+m 2 dim V 49
+  witness |c|_1=4 |c|_inf=1 i=1 max_s|sigma_s alpha|=3.04892 |N(alpha)|=49
+  bound(before max>=1)=0.381115  bound(3.1, |c|_1^-1 2^-m binom)=0.125
+    theta=0.0000 LP Cheb=1.80684  ratio LP/bound=4.741  OK=True
+    theta=0.3000 LP Cheb=1.89012  ratio LP/bound=4.959  OK=True
+    theta=0.4488 LP Cheb=1.80684  ratio LP/bound=4.741  OK=True
+    theta=1.1000 LP Cheb=1.90005  ratio LP/bound=4.986  OK=True
+    item-2 check: min over 61 thetas of max_a|Phi|/(2^-m binom |sigma_s alpha|) = 2.160555 (must be >=1)
+m 3 dim V 21
+  witness |c|_1=768 |c|_inf=128 i=1 max_s|sigma_s alpha|=1398.62 |N(alpha)|=1.97032e+15
+  bound(before max>=1)=0.682922  bound(3.1, |c|_1^-1 2^-m binom)=0.000488281
+    theta=0.0000 LP Cheb=1.71271  ratio LP/bound=2.508  OK=True
+    theta=0.3000 LP Cheb=1.83692  ratio LP/bound=2.69  OK=True
+    theta=0.4488 LP Cheb=1.71271  ratio LP/bound=2.508  OK=True
+    theta=1.1000 LP Cheb=1.85192  ratio LP/bound=2.712  OK=True
+    item-2 check: min over 61 thetas of max_a|Phi|/(2^-m binom |sigma_s alpha|) = 2.507921 (must be >=1)
+m 4 dim V = 0

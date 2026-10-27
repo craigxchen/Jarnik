@@ -1,0 +1,18 @@
+q=7 tested=1500 cumulative violations={'Z': 0, 'F1': 0, 'F0': 0, 'id': 0} tight-zero-bound cases=632
+q=11 tested=1500 cumulative violations={'Z': 0, 'F1': 0, 'F0': 0, 'id': 0} tight-zero-bound cases=998
+q=19 tested=1500 cumulative violations={'Z': 0, 'F1': 0, 'F0': 0, 'id': 0} tight-zero-bound cases=1220
+q=23 tested=1500 cumulative violations={'Z': 0, 'F1': 0, 'F0': 0, 'id': 0} tight-zero-bound cases=1372
+q=31 tested=1500 cumulative violations={'Z': 0, 'F1': 0, 'F0': 0, 'id': 0} tight-zero-bound cases=1489
+q=43 tested=1500 cumulative violations={'Z': 0, 'F1': 0, 'F0': 0, 'id': 0} tight-zero-bound cases=1565
+q=47 tested=1500 cumulative violations={'Z': 0, 'F1': 0, 'F0': 0, 'id': 0} tight-zero-bound cases=1642
+q=59 tested=1500 cumulative violations={'Z': 0, 'F1': 0, 'F0': 0, 'id': 0} tight-zero-bound cases=1707
+q=67 tested=1500 cumulative violations={'Z': 0, 'F1': 0, 'F0': 0, 'id': 0} tight-zero-bound cases=1767
+q=71 tested=1500 cumulative violations={'Z': 0, 'F1': 0, 'F0': 0, 'id': 0} tight-zero-bound cases=1811
+q=79 tested=1500 cumulative violations={'Z': 0, 'F1': 0, 'F0': 0, 'id': 0} tight-zero-bound cases=1844
+q=83 tested=1500 cumulative violations={'Z': 0, 'F1': 0, 'F0': 0, 'id': 0} tight-zero-bound cases=1894
+q=103 tested=400 cumulative violations={'Z': 0, 'F1': 0, 'F0': 0, 'id': 0} tight-zero-bound cases=1904
+q=127 tested=400 cumulative violations={'Z': 0, 'F1': 0, 'F0': 0, 'id': 0} tight-zero-bound cases=1914
+q=199 tested=400 cumulative violations={'Z': 0, 'F1': 0, 'F0': 0, 'id': 0} tight-zero-bound cases=1918
+q=19 pair: zeros=8 bound (q-3)/2=8
+q=43 pair: zeros=20 bound (q-3)/2=20
+q=199 pair: zeros=98 bound (q-3)/2=98

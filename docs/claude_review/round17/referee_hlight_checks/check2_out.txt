@@ -1,0 +1,12 @@
+q=7 |lam_x|<=2: #lambda=38165, min sigma over non-pair-multiples = 3.0 (r/6=2.333), example [-1, -1, 0, 0, 0, 1, 0, 1]
+   multiples l*pair, |l|>=2: min sigma = 9.0 (claim |l|(q+1)-q -> 9)
+q=7 |lam_x|<=3: #lambda=398567, min sigma over non-pair-multiples = 3.0 (r/6=2.333), example [-1, -1, 0, 0, 0, 1, 0, 1]
+   multiples l*pair, |l|>=2: min sigma = 9.0 (claim |l|(q+1)-q -> 9)
+q=11 |lam_x|<=1: #lambda=73789, min sigma over non-pair-multiples = 5.0 (r/6=3.667), example [-1, -1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
+q=7: base 4-terms e_x+e_y-e_z-e_inf sigma values = [3.0, 5.0]  ((q-1)/2=3.0)
+q=11: base 4-terms e_x+e_y-e_z-e_inf sigma values = [5.0, 7.0]  ((q-1)/2=5.0)
+q=19: base 4-terms e_x+e_y-e_z-e_inf sigma values = [9.0, 11.0]  ((q-1)/2=9.0)
+q=23: base 4-terms e_x+e_y-e_z-e_inf sigma values = [11.0, 13.0]  ((q-1)/2=11.0)
+q=31: base 4-terms e_x+e_y-e_z-e_inf sigma values = [15.0, 17.0]  ((q-1)/2=15.0)
+q=43: base 4-terms e_x+e_y-e_z-e_inf sigma values = [21.0, 23.0]  ((q-1)/2=21.0)
+q=47: base 4-terms e_x+e_y-e_z-e_inf sigma values = [23.0, 25.0]  ((q-1)/2=23.0)

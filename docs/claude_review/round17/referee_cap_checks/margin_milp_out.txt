@@ -1,0 +1,6 @@
+q=7 B=3: status=0 (Optimization terminated successfully. (HiGHS Status 7: Optimal)) min sum_P|v(P)| = 8  (q+1=8)  argmin v=[1, 0, 0, 0, -1, 0, 0]
+q=11 B=3: status=0 (Optimization terminated successfully. (HiGHS Status 7: Optimal)) min sum_P|v(P)| = 12  (q+1=12)  argmin v=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+q=19 B=3: status=0 (Optimization terminated successfully. (HiGHS Status 7: Optimal)) min sum_P|v(P)| = 20  (q+1=20)  argmin v=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0]
+q=23 B=3: status=0 (Optimization terminated successfully. (HiGHS Status 7: Optimal)) min sum_P|v(P)| = 24  (q+1=24)  argmin v=[1, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+q=31 B=3: status=0 (Optimization terminated successfully. (HiGHS Status 7: Optimal)) min sum_P|v(P)| = 32  (q+1=32)  argmin v=[1, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+q=43 B=3: status=0 (Optimization terminated successfully. (HiGHS Status 7: Optimal)) min sum_P|v(P)| = 44  (q+1=44)  argmin v=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

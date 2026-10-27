@@ -1,0 +1,30 @@
+=== q=3251: n=3252 d=3251 r=6502 regime d>=316 ln 4r: True (316 ln 4r=3212.5064)
+w=514.1998398 j=257 m'=2057 2j+1=515 |P|=(q+1)/2=1626  m'<q: True  m'/(2j)=4.00195
+cube sd of k(P) = 32.9242;  j/sd = 7.80582
+  tau_D(c0=0.184) = 296.09194 ; ln T*(tau_D) = -481301.5656
+  tau_D(c0=0.5) = 108.96183 ; ln T*(tau_D) = -177121.5762
+  tau_D(c0=1.0) = 62.337048 ; ln T*(tau_D) = -101332.9859
+  c0-free floor tau >= 2 ln(1000 q n^2) = 62.337048 ; ln T* there = -101332.9859
+  absolute floor tau=4 (Thm 2.3): ln T* = -6506.113923
+  [cube-only]  ln kappa_V^(T)(u_theta) >= -4506.576084   (ln m'!=13640.59448, sum ln cos=-86.988054)
+  [S-grid-only] ln kappa^(grid)(u_theta) >= -11311.29178   (|gamma|=2/sqrt(q+1), alpha=4x514+1)
+  [slab mass] sum_a |c_a| >= |gamma| * 2069.15084;  ln(mass fraction touched by S_a^(2j+1)) <= -2770.233966
+  [Hilbert] ln H_T(m') = 3229.184522 ; ln(3^q) = 3571.58855
+  [Hilbert] ln( sum_(e<m') H_T(e) / 3^q ) = -342.1683828  (< ln(1/2) => H_A(m')>0)
+  [Hilbert] ln( 2q H_T(m'-2j-1)/H_T(m') ) = -366.9693516  (relative dim of syntactic slab part of J_gen in degree m')
+  [Hilbert] H_A(e) > 0 for all e <= 3251 (cumulative cube count first reaches 3^q/2 at e=3251); q=3251
+=== q=5479: n=5480 d=5479 r=10958 regime d>=316 ln 4r: True (316 ln 4r=3377.4457)
+w=684.4571941 j=342 m'=2738 2j+1=685 |P|=(q+1)/2=2740  m'<q: True  m'/(2j)=4.00292
+cube sd of k(P) = 42.7395;  j/sd = 8.00196
+  tau_D(c0=0.184) = 307.4372 ; ln T*(tau_D) = -842228.2256
+  tau_D(c0=0.5) = 113.13689 ; ln T*(tau_D) = -309942.5279
+  tau_D(c0=1.0) = 65.468308 ; ln T*(tau_D) = -179354.4498
+  c0-free floor tau >= 2 ln(1000 q n^2) = 65.468308 ; ln T* there = -179354.4498
+  absolute floor tau=4 (Thm 2.3): ln T* = -10962.02044
+  [cube-only]  ln kappa_V^(T)(u_theta) >= -6601.787319   (ln m'!=18938.09993, sum ln cos=-71.49023)
+  [S-grid-only] ln kappa^(grid)(u_theta) >= -16417.99081   (|gamma|=2/sqrt(q+1), alpha=4x684+2)
+  [slab mass] sum_a |c_a| >= |gamma| * 3487.539709;  ln(mass fraction touched by S_a^(2j+1)) <= -4042.720442
+  [Hilbert] ln H_T(m') = 4931.75469 ; ln(3^q) = 6019.29673
+  [Hilbert] ln( sum_(e<m') H_T(e) / 3^q ) = -1087.808145  (< ln(1/2) => H_A(m')>0)
+  [Hilbert] ln( 2q H_T(m'-2j-1)/H_T(m') ) = -657.6740883  (relative dim of syntactic slab part of J_gen in degree m')
+  [Hilbert] H_A(e) > 0 for all e <= 5479 (cumulative cube count first reaches 3^q/2 at e=5479); q=5479

@@ -1,0 +1,2 @@
+primes with 4-term min NOT < (q-3)/2: [(7, 3), (11, 5)]
+Weil-bound violations: []

@@ -1,0 +1,12 @@
+q=7: 2*sigma_pairs=[2] AGL-invariant=True formula mismatches=0/60
+q=11: 2*sigma_pairs=[2] AGL-invariant=True formula mismatches=0/60
+q=19: 2*sigma_pairs=[2] AGL-invariant=True formula mismatches=0/60
+q=23: 2*sigma_pairs=[2] AGL-invariant=True formula mismatches=0/60
+q=31: 2*sigma_pairs=[2] AGL-invariant=True formula mismatches=0/60
+q=43: 2*sigma_pairs=[2] AGL-invariant=True formula mismatches=0/60
+q=47: 2*sigma_pairs=[2] AGL-invariant=True formula mismatches=0/60
+q=59: 2*sigma_pairs=[2] AGL-invariant=True formula mismatches=0/60
+q=67: 2*sigma_pairs=[2] AGL-invariant=True formula mismatches=0/60
+q=71: 2*sigma_pairs=[2] AGL-invariant=True formula mismatches=0/60
+q=79: 2*sigma_pairs=[2] AGL-invariant=True formula mismatches=0/60
+q=83: 2*sigma_pairs=[2] AGL-invariant=True formula mismatches=0/60

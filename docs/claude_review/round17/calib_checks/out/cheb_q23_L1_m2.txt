@@ -1,0 +1,7 @@
+sdc23 L=1 m=2: |A|=553, rank Poly_<m = 24, dim V = 529  (1s)
+theta=0.00000: Cheb=1.98141527e+00 |u|_inf=1.000000 kappa_V(hat u)=3.745587e-03  sqrt(Psi(hat u))=1.089568e+00  Cheb/sqrt(Psi)=1.8185  dual l1=1.0000
+theta=0.03415: Cheb=1.98836557e+00 |u|_inf=0.999417 kappa_V(hat u)=3.763111e-03  sqrt(Psi(hat u))=1.090839e+00  Cheb/sqrt(Psi)=1.8249  dual l1=1.0000
+theta=0.06830: Cheb=1.99068595e+00 |u|_inf=0.997669 kappa_V(hat u)=3.780718e-03  sqrt(Psi(hat u))=1.094666e+00  Cheb/sqrt(Psi)=1.8270  dual l1=1.0000
+theta=0.10244: Cheb=1.98836557e+00 |u|_inf=0.999417 kappa_V(hat u)=3.763111e-03  sqrt(Psi(hat u))=1.090839e+00  Cheb/sqrt(Psi)=1.8249  dual l1=1.0000
+theta=0.13659: Cheb=1.98141527e+00 |u|_inf=1.000000 kappa_V(hat u)=3.745587e-03  sqrt(Psi(hat u))=1.089568e+00  Cheb/sqrt(Psi)=1.8185  dual l1=1.0000
+inf/sup kappa_V(hat u) over grid = 0.99071  (Thm 3.2 bound (m+1)^-1/2 = 0.57735); inf kappa_V = 3.745587e-03 at theta=0.00000; ln inf kappa_V = -5.5872  (1s)

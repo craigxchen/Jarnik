@@ -1,0 +1,12 @@
+q=7 |F|=1 n=4: min sigma=3 bound (q-1)/2=3 ok=True;  n=6: min sigma=5 bound (q+1)/2=4
+q=11 |F|=1 n=4: min sigma=5 bound (q-1)/2=5 ok=True;  n=6: min sigma=7 bound (q+1)/2=6
+q=19 |F|=1 n=4: min sigma=9 bound (q-1)/2=9 ok=True;  n=6: min sigma=13 bound (q+1)/2=10
+q=23 |F|=1 n=4: min sigma=11 bound (q-1)/2=11 ok=True;  n=6: min sigma=17 bound (q+1)/2=12
+q=31 |F|=1 n=4: min sigma=15 bound (q-1)/2=15 ok=True;  n=6: min sigma=23 bound (q+1)/2=16
+q=43 |F|=1 n=4: min sigma=21 bound (q-1)/2=21 ok=True;  n=6: min sigma=33 bound (q+1)/2=22
+q=47 |F|=1 n=4: min sigma=23 bound (q-1)/2=23 ok=True;  n=6: min sigma=35 bound (q+1)/2=24
+q=59 |F|=1 n=4: min sigma=29 bound (q-1)/2=29 ok=True;  n=6: min sigma=skip bound (q+1)/2=30
+q=67 |F|=1 n=4: min sigma=33 bound (q-1)/2=33 ok=True;  n=6: min sigma=skip bound (q+1)/2=34
+q=71 |F|=1 n=4: min sigma=35 bound (q-1)/2=35 ok=True;  n=6: min sigma=skip bound (q+1)/2=36
+q=79 |F|=1 n=4: min sigma=39 bound (q-1)/2=39 ok=True;  n=6: min sigma=skip bound (q+1)/2=40
+q=83 |F|=1 n=4: min sigma=41 bound (q-1)/2=41 ok=True;  n=6: min sigma=skip bound (q+1)/2=42

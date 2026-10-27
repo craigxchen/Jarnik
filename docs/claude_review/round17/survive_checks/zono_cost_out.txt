@@ -1,0 +1,9 @@
+q=3251: Parseval identity sum S_a^2 = (q+1)(K^2+||v||^2)/4 holds on all 66990 candidates: True
+  support 1: min h'(v) = 3252 = 1.0000(q+1)  at v={0: 1}
+  support 2: min h'(v) = 3252 = 1.0000(q+1)  at v={0: 1, 1: -1}
+  support 3: min h'(v) = 4876 = 1.4994(q+1)  at v={0: 1, 1: 1, 2: -1}
+  support 4: min h'(v) = 4824 = 1.4834(q+1)  at v=(random sample)
+  support 5: min h'(v) = 6058 = 1.8629(q+1)  at v=(random sample)
+  support 6: min h'(v) = 6020 = 1.8512(q+1)  at v=(random sample)
+  support 7: min h'(v) = 7072 = 2.1747(q+1)  at v=(random sample)
+  support 8: min h'(v) = 7086 = 2.1790(q+1)  at v=(random sample)

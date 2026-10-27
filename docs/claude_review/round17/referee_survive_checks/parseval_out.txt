@@ -1,0 +1,6 @@
+q 7 trials 2000 identity/ineq failures 0 min h'/(q+1) sampled 1.0 h'(e_x)= 8
+q 11 trials 2000 identity/ineq failures 0 min h'/(q+1) sampled 1.0 h'(e_x)= 12
+q 19 trials 2000 identity/ineq failures 0 min h'/(q+1) sampled 1.0 h'(e_x)= 20
+q 23 trials 2000 identity/ineq failures 0 min h'/(q+1) sampled 1.0 h'(e_x)= 24
+q 43 trials 2000 identity/ineq failures 0 min h'/(q+1) sampled 1.0 h'(e_x)= 44
+q 3251 trials 300 identity/ineq failures 0 min h'/(q+1) sampled 1.0 h'(e_x)= 3252

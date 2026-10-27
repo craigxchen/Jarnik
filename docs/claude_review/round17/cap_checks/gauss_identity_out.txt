@@ -1,0 +1,14 @@
+q=7: identities (1-g)hat k(1)=2 sum zeta^a S_a, (1+g)hat k(1)=2 sum zeta^a T_a, S+T=K+k, g^2=-q : True
+q=11: identities (1-g)hat k(1)=2 sum zeta^a S_a, (1+g)hat k(1)=2 sum zeta^a T_a, S+T=K+k, g^2=-q : True
+q=19: identities (1-g)hat k(1)=2 sum zeta^a S_a, (1+g)hat k(1)=2 sum zeta^a T_a, S+T=K+k, g^2=-q : True
+q=23: identities (1-g)hat k(1)=2 sum zeta^a S_a, (1+g)hat k(1)=2 sum zeta^a T_a, S+T=K+k, g^2=-q : True
+q=31: identities (1-g)hat k(1)=2 sum zeta^a S_a, (1+g)hat k(1)=2 sum zeta^a T_a, S+T=K+k, g^2=-q : True
+q=43: identities (1-g)hat k(1)=2 sum zeta^a S_a, (1+g)hat k(1)=2 sum zeta^a T_a, S+T=K+k, g^2=-q : True
+q=47: identities (1-g)hat k(1)=2 sum zeta^a S_a, (1+g)hat k(1)=2 sum zeta^a T_a, S+T=K+k, g^2=-q : True
+q=59: identities (1-g)hat k(1)=2 sum zeta^a S_a, (1+g)hat k(1)=2 sum zeta^a T_a, S+T=K+k, g^2=-q : True
+q=67: identities (1-g)hat k(1)=2 sum zeta^a S_a, (1+g)hat k(1)=2 sum zeta^a T_a, S+T=K+k, g^2=-q : True
+q=71: identities (1-g)hat k(1)=2 sum zeta^a S_a, (1+g)hat k(1)=2 sum zeta^a T_a, S+T=K+k, g^2=-q : True
+q=79: identities (1-g)hat k(1)=2 sum zeta^a S_a, (1+g)hat k(1)=2 sum zeta^a T_a, S+T=K+k, g^2=-q : True
+q=83: identities (1-g)hat k(1)=2 sum zeta^a S_a, (1+g)hat k(1)=2 sum zeta^a T_a, S+T=K+k, g^2=-q : True
+q=103: identities (1-g)hat k(1)=2 sum zeta^a S_a, (1+g)hat k(1)=2 sum zeta^a T_a, S+T=K+k, g^2=-q : True
+q=107: identities (1-g)hat k(1)=2 sum zeta^a S_a, (1+g)hat k(1)=2 sum zeta^a T_a, S+T=K+k, g^2=-q : True

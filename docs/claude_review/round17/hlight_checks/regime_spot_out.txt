@@ -1,0 +1,1 @@
+q=3251: formula-vs-direct mismatches=0 (12 checked), violations of LB=0, min sigma seen=1573

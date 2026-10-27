@@ -1,0 +1,5 @@
+[float_iso] sdc19 L=2: |A|=264291, free orbits 13910, max support 8, mmax=7, tol=1e-09
+monomial orbit reps by degree: [1, 1, 10, 69, 366, 1581, 5763] (0s)
+c=0: dims Poly_<m,c (m=1..7) = [1, 2, 12, 81, 447, 2024, 6858] / rows 13911  (443s)
+c=1: dims Poly_<m,c (m=1..7) = [0, 1, 11, 80, 446, 2024, 6858] / rows 13910  (537s)
+c=2: dims Poly_<m,c (m=1..7) = [0, 1, 11, 80, 446, 2024, 6858] / rows 13910  (1456s)

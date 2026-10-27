@@ -1,0 +1,14 @@
+q=7: AGL(1,q) preserves pattern set: True; translation/multiplier identities: True; 2i-m distinct mod q for all m<q: True
+q=11: AGL(1,q) preserves pattern set: True; translation/multiplier identities: True; 2i-m distinct mod q for all m<q: True
+q=19: AGL(1,q) preserves pattern set: True; translation/multiplier identities: True; 2i-m distinct mod q for all m<q: True
+q=23: AGL(1,q) preserves pattern set: True; translation/multiplier identities: True; 2i-m distinct mod q for all m<q: True
+q=31: AGL(1,q) preserves pattern set: True; translation/multiplier identities: True; 2i-m distinct mod q for all m<q: True
+q=43: AGL(1,q) preserves pattern set: True; translation/multiplier identities: True; 2i-m distinct mod q for all m<q: True
+q=47: AGL(1,q) preserves pattern set: True; translation/multiplier identities: True; 2i-m distinct mod q for all m<q: True
+q=59: AGL(1,q) preserves pattern set: True; translation/multiplier identities: True; 2i-m distinct mod q for all m<q: True
+q=67: AGL(1,q) preserves pattern set: True; translation/multiplier identities: True; 2i-m distinct mod q for all m<q: True
+q=71: AGL(1,q) preserves pattern set: True; translation/multiplier identities: True; 2i-m distinct mod q for all m<q: True
+q=79: AGL(1,q) preserves pattern set: True; translation/multiplier identities: True; 2i-m distinct mod q for all m<q: True
+q=83: AGL(1,q) preserves pattern set: True; translation/multiplier identities: True; 2i-m distinct mod q for all m<q: True
+q=3251: AGL(1,q) preserves pattern set: None; translation/multiplier identities: True; 2i-m distinct mod q for all m<q: True
+ALL OK

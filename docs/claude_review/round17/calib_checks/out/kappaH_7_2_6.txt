@@ -1,0 +1,6 @@
+sdc7 L=2 m=6: |A|=757, monomials 540, rank 525, dim V = 232  (0s)
+nullspace basis: max |entry| = 1010  (1s)
+LLL basis: H_red = max|c|_inf = 4; height profile (H: #vectors) = [(1, 61), (2, 205), (3, 226), (4, 232)]; max |c|_1 = 288  (2s)
+theta=0.0000: best single LLL vector kappa_c(hat u) = 2.462449e-04;  lower bounds kappa_H(hat u) >= sqrt(Psi_span)/d^m: [(1, 0.0001370173), (2, 0.0004959598), (3, 0.0004994848), (4, 0.000500554)]
+theta=0.2244: best single LLL vector kappa_c(hat u) = 4.627817e-04;  lower bounds kappa_H(hat u) >= sqrt(Psi_span)/d^m: [(1, 0.0002251646), (2, 0.0005693954), (3, 0.0005793276), (4, 0.0005829293)]
+done (45s)

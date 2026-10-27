@@ -1,0 +1,1 @@
+q=3251 j=257 m'=2057: ln r0 in [1073.3, 3229.4] ; q ln3 = 3571.6; BV codim(V_H in V) < 1 needs ln H > r0 ln U/2 >= exp(1073.3) ; record ln H' = m'W/40 ~ 9.9e+07 (tau=296)

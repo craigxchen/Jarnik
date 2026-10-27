@@ -1,0 +1,8 @@
+q=19 L=1 |A|=381
+ m=1: r0=1 dimV=380 circle_in_TC_V=False nonzero_i=[0, 1] | best witness: |c|_1=2 |c|_inf=1 i=1 max|conj|=1.993 min|conj|=0.3292 Thm3.1 bound (with max|conj|) on Cheb=4.9829e-01 LP Cheb(theta)=['1.9864e+00', '1.9905e+00', '1.9864e+00', '1.9925e+00'] (0.6s)
+ m=2: r0=20 dimV=361 circle_in_TC_V=False nonzero_i=[0, 1, 2] | best witness: |c|_1=4 |c|_inf=1 i=1 max|conj|=5.945 min|conj|=0.1878 Thm3.1 bound (with max|conj|) on Cheb=7.4318e-01 LP Cheb(theta)=['1.9728e+00', '1.9810e+00', '1.9728e+00', '1.9851e+00'] (0.7s)
+ m=3: r0=210 dimV=171 circle_in_TC_V=False nonzero_i=[0, 1, 2, 3] | best witness: |c|_1=6 |c|_inf=1 i=2 max|conj|=11.85 min|conj|=0.1788 Thm3.1 bound (with max|conj|) on Cheb=7.4064e-01 LP Cheb(theta)=['1.9593e+00', '1.9715e+00', '1.9593e+00', '1.9777e+00'] (0.6s)
+ m=4: r0=381 dimV=0
+ m=5: r0=381 dimV=0
+ m=6: r0=381 dimV=0
+# run stopped after m=6 (stopped by hand): r0=|A| from m=4 on, so V(A,m)=0 for all m>=4

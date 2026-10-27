@@ -1,0 +1,12 @@
+q=7 vals=-3..3 : 53718 f tested, violations of #zeros <= (q-1)/2 - j0: 0, max(z-bound)=0, tight cases=3570
+q=11 vals=-1..1 : 51194 f tested, violations of #zeros <= (q-1)/2 - j0: 0, max(z-bound)=0, tight cases=1848
+q=19 vals=-1..1 : 200000 f tested, violations of #zeros <= (q-1)/2 - j0: 0, max(z-bound)=0, tight cases=21686
+q=23: 3000 random f (values up to 3q), violations 0, max(z-bound) 0
+q=31: 3000 random f (values up to 3q), violations 0, max(z-bound) 0
+q=43: 3000 random f (values up to 3q), violations 0, max(z-bound) -10
+q=59: 3000 random f (values up to 3q), violations 0, max(z-bound) 0
+q=83: 3000 random f (values up to 3q), violations 0, max(z-bound) -36
+q=103: 3000 random f (values up to 3q), violations 0, max(z-bound) -39
+q=11: F=0 ternary, support > (q+1)/2: max #zeros found 3 vs (q-3)/2 = 4
+q=19: F=0 ternary, support > (q+1)/2: max #zeros found 5 vs (q-3)/2 = 8
+q=23: F=0 ternary, support > (q+1)/2: max #zeros found 7 vs (q-3)/2 = 10

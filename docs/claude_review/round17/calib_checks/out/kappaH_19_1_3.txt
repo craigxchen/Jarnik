@@ -1,0 +1,6 @@
+sdc19 L=1 m=3: |A|=381, monomials 210, rank 210, dim V = 171  (0s)
+nullspace basis: max |entry| = 1  (0s)
+LLL basis: H_red = max|c|_inf = 1; height profile (H: #vectors) = [(1, 171)]; max |c|_1 = 38  (0s)
+theta=0.0000: best single LLL vector kappa_c(hat u) = 1.284757e-04;  lower bounds kappa_H(hat u) >= sqrt(Psi_span)/d^m: [(1, 0.0001578712)]
+theta=0.0827: best single LLL vector kappa_c(hat u) = 1.309598e-04;  lower bounds kappa_H(hat u) >= sqrt(Psi_span)/d^m: [(1, 0.0001594999)]
+done (9s)

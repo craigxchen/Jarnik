@@ -1,0 +1,276 @@
+q=7 L=1 |A|=57 mu(A)=0.0261  (0.0s)
+  m=2: #monomials=8 rank Poly_<m|_A=8 dim V(A,m)=49
+    circle a=1 th=0.0        Psi_A=1.061096e+00 Psi_T=9.138889e+00 rho_A=0.00303
+    circle a=1 th=0.37       Psi_A=1.074369e+00 Psi_T=9.253207e+00 rho_A=0.00303
+    circle a=1 th=1.1        Psi_A=1.152347e+00 Psi_T=9.924810e+00 rho_A=0.00303
+    circle a=1 th=2.0        Psi_A=1.154635e+00 Psi_T=9.944518e+00 rho_A=0.00303
+    circle a=2 th=0.0        Psi_A=1.061096e+00 Psi_T=9.138889e+00 rho_A=0.00303
+    circle a=2 th=0.37       Psi_A=1.074369e+00 Psi_T=9.253207e+00 rho_A=0.00303
+    circle a=2 th=1.1        Psi_A=1.152347e+00 Psi_T=9.924810e+00 rho_A=0.00303
+    circle a=2 th=2.0        Psi_A=1.154635e+00 Psi_T=9.944518e+00 rho_A=0.00303
+    perm-circle #0           Psi_A=1.074369e+00 Psi_T=9.253207e+00 rho_A=0.00303
+    perm-circle #1           Psi_A=1.074369e+00 Psi_T=9.253207e+00 rho_A=0.00303
+    perm-circle #2           Psi_A=1.074369e+00 Psi_T=9.253207e+00 rho_A=0.00303
+    perm-circle #3           Psi_A=1.074369e+00 Psi_T=9.253207e+00 rho_A=0.00303
+    uniform #0               Psi_A=2.169191e-01 Psi_T=5.729333e+00 rho_A=0.00099
+    uniform #1               Psi_A=5.190900e-01 Psi_T=3.527852e+00 rho_A=0.00383
+    uniform #2               Psi_A=3.248165e-01 Psi_T=3.185794e+00 rho_A=0.00266
+    uniform #3               Psi_A=2.997003e-01 Psi_T=1.615264e+00 rho_A=0.00484
+  m=3: #monomials=36 rank Poly_<m|_A=36 dim V(A,m)=21
+    circle a=1 th=0.0        Psi_A=1.208882e+00 Psi_T=4.433333e+01 rho_A=0.00071
+    circle a=1 th=0.37       Psi_A=1.231635e+00 Psi_T=4.516778e+01 rho_A=0.00071
+    circle a=1 th=1.1        Psi_A=1.368129e+00 Psi_T=5.017340e+01 rho_A=0.00071
+    circle a=1 th=2.0        Psi_A=1.372206e+00 Psi_T=5.032293e+01 rho_A=0.00071
+    circle a=2 th=0.0        Psi_A=1.208882e+00 Psi_T=4.433333e+01 rho_A=0.00071
+    circle a=2 th=0.37       Psi_A=1.231635e+00 Psi_T=4.516778e+01 rho_A=0.00071
+    circle a=2 th=1.1        Psi_A=1.368129e+00 Psi_T=5.017340e+01 rho_A=0.00071
+    circle a=2 th=2.0        Psi_A=1.372206e+00 Psi_T=5.032293e+01 rho_A=0.00071
+    perm-circle #0           Psi_A=1.231635e+00 Psi_T=4.516778e+01 rho_A=0.00071
+    perm-circle #1           Psi_A=1.231635e+00 Psi_T=4.516778e+01 rho_A=0.00071
+    perm-circle #2           Psi_A=1.231635e+00 Psi_T=4.516778e+01 rho_A=0.00071
+    perm-circle #3           Psi_A=1.231635e+00 Psi_T=4.516778e+01 rho_A=0.00071
+    uniform #0               Psi_A=3.486634e-02 Psi_T=3.923281e+01 rho_A=0.00002
+    uniform #1               Psi_A=5.196990e-01 Psi_T=7.769558e+00 rho_A=0.00174
+    uniform #2               Psi_A=1.013389e+00 Psi_T=3.411405e+01 rho_A=0.00077
+    uniform #3               Psi_A=3.676621e-02 Psi_T=1.226190e+01 rho_A=0.00008
+  m=4: #monomials=113 rank Poly_<m|_A=57 dim V(A,m)=0
+    circle a=1 th=0.0        Psi_A=4.425731e-30 Psi_T=2.330903e+02 rho_A=0.00000
+    circle a=1 th=0.37       Psi_A=5.591430e-30 Psi_T=2.389582e+02 rho_A=0.00000
+    circle a=1 th=1.1        Psi_A=4.224097e-30 Psi_T=2.749044e+02 rho_A=0.00000
+    circle a=1 th=2.0        Psi_A=7.394775e-30 Psi_T=2.759973e+02 rho_A=0.00000
+    circle a=2 th=0.0        Psi_A=4.327763e-30 Psi_T=2.330903e+02 rho_A=0.00000
+    circle a=2 th=0.37       Psi_A=4.675285e-30 Psi_T=2.389582e+02 rho_A=0.00000
+    circle a=2 th=1.1        Psi_A=7.694372e-30 Psi_T=2.749044e+02 rho_A=0.00000
+    circle a=2 th=2.0        Psi_A=7.553471e-30 Psi_T=2.759973e+02 rho_A=0.00000
+    perm-circle #0           Psi_A=5.168979e-30 Psi_T=2.389582e+02 rho_A=0.00000
+    perm-circle #1           Psi_A=3.785658e-30 Psi_T=2.389582e+02 rho_A=0.00000
+    perm-circle #2           Psi_A=3.912529e-30 Psi_T=2.389582e+02 rho_A=0.00000
+    perm-circle #3           Psi_A=5.616364e-30 Psi_T=2.389582e+02 rho_A=0.00000
+    uniform #0               Psi_A=2.591854e-30 Psi_T=1.001870e+02 rho_A=0.00000
+    uniform #1               Psi_A=2.655724e-30 Psi_T=1.217882e+02 rho_A=0.00000
+    uniform #2               Psi_A=5.321388e-31 Psi_T=6.214598e+00 rho_A=0.00000
+    uniform #3               Psi_A=1.688940e-30 Psi_T=1.672662e+02 rho_A=0.00000
+q=7 L=2 |A|=757 mu(A)=0.3461  (0.0s)
+  m=3: #monomials=36 rank Poly_<m|_A=36 dim V(A,m)=721
+    circle a=1 th=0.0        Psi_A=6.043244e+01 Psi_T=4.433333e+01 rho_A=0.47183
+    circle a=1 th=0.37       Psi_A=6.156990e+01 Psi_T=4.516778e+01 rho_A=0.47183
+    circle a=1 th=1.1        Psi_A=6.839326e+01 Psi_T=5.017340e+01 rho_A=0.47183
+    circle a=1 th=2.0        Psi_A=6.859708e+01 Psi_T=5.032293e+01 rho_A=0.47183
+    circle a=2 th=0.0        Psi_A=6.043244e+01 Psi_T=4.433333e+01 rho_A=0.47183
+    circle a=2 th=0.37       Psi_A=6.156990e+01 Psi_T=4.516778e+01 rho_A=0.47183
+    circle a=2 th=1.1        Psi_A=6.839326e+01 Psi_T=5.017340e+01 rho_A=0.47183
+    circle a=2 th=2.0        Psi_A=6.859708e+01 Psi_T=5.032293e+01 rho_A=0.47183
+    perm-circle #0           Psi_A=2.222233e+01 Psi_T=4.516778e+01 rho_A=0.17030
+    perm-circle #1           Psi_A=4.630048e+01 Psi_T=4.516778e+01 rho_A=0.35482
+    perm-circle #2           Psi_A=3.646541e+01 Psi_T=4.516778e+01 rho_A=0.27945
+    perm-circle #3           Psi_A=4.596695e+01 Psi_T=4.516778e+01 rho_A=0.35226
+    uniform #0               Psi_A=8.765050e+00 Psi_T=9.706882e+00 rho_A=0.31255
+    uniform #1               Psi_A=1.453978e+01 Psi_T=1.408483e+01 rho_A=0.35732
+    uniform #2               Psi_A=6.709816e+00 Psi_T=1.414678e+01 rho_A=0.16417
+    uniform #3               Psi_A=5.040643e+01 Psi_T=6.243251e+01 rho_A=0.27946
+  m=4: #monomials=113 rank Poly_<m|_A=113 dim V(A,m)=644
+    circle a=1 th=0.0        Psi_A=3.480477e+02 Psi_T=2.330903e+02 rho_A=0.51685
+    circle a=1 th=0.37       Psi_A=3.568096e+02 Psi_T=2.389582e+02 rho_A=0.51685
+    circle a=1 th=1.1        Psi_A=4.104841e+02 Psi_T=2.749044e+02 rho_A=0.51685
+    circle a=1 th=2.0        Psi_A=4.121160e+02 Psi_T=2.759973e+02 rho_A=0.51685
+    circle a=2 th=0.0        Psi_A=3.480477e+02 Psi_T=2.330903e+02 rho_A=0.51685
+    circle a=2 th=0.37       Psi_A=3.568096e+02 Psi_T=2.389582e+02 rho_A=0.51685
+    circle a=2 th=1.1        Psi_A=4.104841e+02 Psi_T=2.749044e+02 rho_A=0.51685
+    circle a=2 th=2.0        Psi_A=4.121160e+02 Psi_T=2.759973e+02 rho_A=0.51685
+    perm-circle #0           Psi_A=2.560015e+02 Psi_T=2.389582e+02 rho_A=0.37082
+    perm-circle #1           Psi_A=2.497844e+02 Psi_T=2.389582e+02 rho_A=0.36182
+    perm-circle #2           Psi_A=3.000591e+02 Psi_T=2.389582e+02 rho_A=0.43464
+    perm-circle #3           Psi_A=1.761642e+02 Psi_T=2.389582e+02 rho_A=0.25518
+    uniform #0               Psi_A=4.994110e+01 Psi_T=1.052486e+02 rho_A=0.16424
+    uniform #1               Psi_A=2.477813e+02 Psi_T=3.693527e+02 rho_A=0.23221
+    uniform #2               Psi_A=1.068872e+02 Psi_T=1.927890e+02 rho_A=0.19191
+    uniform #3               Psi_A=2.189495e+01 Psi_T=2.065854e+01 rho_A=0.36685
+  m=5: #monomials=274 rank Poly_<m|_A=274 dim V(A,m)=483
+    circle a=1 th=0.0        Psi_A=1.427146e+03 Psi_T=1.227836e+03 rho_A=0.40232
+    circle a=1 th=0.37       Psi_A=1.472196e+03 Psi_T=1.266594e+03 rho_A=0.40232
+    circle a=1 th=1.1        Psi_A=1.754044e+03 Psi_T=1.509080e+03 rho_A=0.40232
+    circle a=1 th=2.0        Psi_A=1.762764e+03 Psi_T=1.516583e+03 rho_A=0.40232
+    circle a=2 th=0.0        Psi_A=1.427146e+03 Psi_T=1.227836e+03 rho_A=0.40232
+    circle a=2 th=0.37       Psi_A=1.472196e+03 Psi_T=1.266594e+03 rho_A=0.40232
+    circle a=2 th=1.1        Psi_A=1.754044e+03 Psi_T=1.509080e+03 rho_A=0.40232
+    circle a=2 th=2.0        Psi_A=1.762764e+03 Psi_T=1.516583e+03 rho_A=0.40232
+    perm-circle #0           Psi_A=1.058389e+03 Psi_T=1.266594e+03 rho_A=0.28924
+    perm-circle #1           Psi_A=1.069599e+03 Psi_T=1.266594e+03 rho_A=0.29230
+    perm-circle #2           Psi_A=1.208702e+03 Psi_T=1.266594e+03 rho_A=0.33032
+    perm-circle #3           Psi_A=7.554742e+02 Psi_T=1.266594e+03 rho_A=0.20646
+    uniform #0               Psi_A=1.347811e+02 Psi_T=1.494895e+02 rho_A=0.31208
+    uniform #1               Psi_A=1.041009e+01 Psi_T=9.803239e+01 rho_A=0.03676
+    uniform #2               Psi_A=2.720751e+01 Psi_T=8.735571e+01 rho_A=0.10781
+    uniform #3               Psi_A=9.166999e+01 Psi_T=8.731781e+02 rho_A=0.03634
+  m=6: #monomials=540 rank Poly_<m|_A=525 dim V(A,m)=232
+    circle a=1 th=0.0        Psi_A=3.467994e+03 Psi_T=6.139887e+03 rho_A=0.19551
+    circle a=1 th=0.37       Psi_A=3.599772e+03 Psi_T=6.373193e+03 rho_A=0.19551
+    circle a=1 th=1.1        Psi_A=4.441858e+03 Psi_T=7.864059e+03 rho_A=0.19551
+    circle a=1 th=2.0        Psi_A=4.468372e+03 Psi_T=7.911000e+03 rho_A=0.19551
+    circle a=2 th=0.0        Psi_A=3.467994e+03 Psi_T=6.139887e+03 rho_A=0.19551
+    circle a=2 th=0.37       Psi_A=3.599772e+03 Psi_T=6.373193e+03 rho_A=0.19551
+    circle a=2 th=1.1        Psi_A=4.441858e+03 Psi_T=7.864059e+03 rho_A=0.19551
+    circle a=2 th=2.0        Psi_A=4.468372e+03 Psi_T=7.911000e+03 rho_A=0.19551
+    perm-circle #0           Psi_A=4.866628e+03 Psi_T=6.373193e+03 rho_A=0.26431
+    perm-circle #1           Psi_A=4.515082e+03 Psi_T=6.373193e+03 rho_A=0.24522
+    perm-circle #2           Psi_A=4.704821e+03 Psi_T=6.373193e+03 rho_A=0.25552
+    perm-circle #3           Psi_A=3.778210e+03 Psi_T=6.373193e+03 rho_A=0.20520
+    uniform #0               Psi_A=5.882122e+03 Psi_T=6.520209e+03 rho_A=0.31226
+    uniform #1               Psi_A=8.331453e+02 Psi_T=1.987549e+03 rho_A=0.14509
+    uniform #2               Psi_A=2.147868e+03 Psi_T=3.383732e+03 rho_A=0.21971
+    uniform #3               Psi_A=1.041681e+02 Psi_T=2.050206e+02 rho_A=0.17587
+  m=7: #monomials=897 rank Poly_<m|_A=713 dim V(A,m)=44
+    circle a=1 th=0.0        Psi_A=2.091101e+03 Psi_T=2.796126e+04 rho_A=0.02589
+    circle a=1 th=0.37       Psi_A=2.368704e+03 Psi_T=2.917035e+04 rho_A=0.02811
+    circle a=1 th=1.1        Psi_A=3.629960e+03 Psi_T=3.716522e+04 rho_A=0.03381
+    circle a=1 th=2.0        Psi_A=3.659426e+03 Psi_T=3.742339e+04 rho_A=0.03385
+    circle a=2 th=0.0        Psi_A=2.091101e+03 Psi_T=2.796126e+04 rho_A=0.02589
+    circle a=2 th=0.37       Psi_A=2.368704e+03 Psi_T=2.917035e+04 rho_A=0.02811
+    circle a=2 th=1.1        Psi_A=3.629960e+03 Psi_T=3.716522e+04 rho_A=0.03381
+    circle a=2 th=2.0        Psi_A=3.659426e+03 Psi_T=3.742339e+04 rho_A=0.03385
+    perm-circle #0           Psi_A=7.508566e+03 Psi_T=2.917035e+04 rho_A=0.08910
+    perm-circle #1           Psi_A=9.563860e+03 Psi_T=2.917035e+04 rho_A=0.11349
+    perm-circle #2           Psi_A=9.288374e+03 Psi_T=2.917035e+04 rho_A=0.11022
+    perm-circle #3           Psi_A=1.089335e+03 Psi_T=2.917035e+04 rho_A=0.01293
+    uniform #0               Psi_A=1.134439e+02 Psi_T=6.822000e+03 rho_A=0.00576
+    uniform #1               Psi_A=1.341419e+04 Psi_T=5.715851e+04 rho_A=0.08123
+    uniform #2               Psi_A=2.146649e+01 Psi_T=6.191228e+01 rho_A=0.12001
+    uniform #3               Psi_A=2.141966e+01 Psi_T=7.093126e+02 rho_A=0.01045
+  m=8: #monomials=1290 rank Poly_<m|_A=756 dim V(A,m)=1
+    circle a=1 th=0.0        Psi_A=2.312720e+01 Psi_T=1.117165e+05 rho_A=0.00007
+    circle a=1 th=0.37       Psi_A=2.430629e+01 Psi_T=1.166559e+05 rho_A=0.00007
+    circle a=1 th=1.1        Psi_A=3.216905e+01 Psi_T=1.518346e+05 rho_A=0.00007
+    circle a=1 th=2.0        Psi_A=3.242533e+01 Psi_T=1.530265e+05 rho_A=0.00007
+    circle a=2 th=0.0        Psi_A=2.312720e+01 Psi_T=1.117165e+05 rho_A=0.00007
+    circle a=2 th=0.37       Psi_A=2.430629e+01 Psi_T=1.166559e+05 rho_A=0.00007
+    circle a=2 th=1.1        Psi_A=3.216905e+01 Psi_T=1.518346e+05 rho_A=0.00007
+    circle a=2 th=2.0        Psi_A=3.242533e+01 Psi_T=1.530265e+05 rho_A=0.00007
+    perm-circle #0           Psi_A=1.204316e+03 Psi_T=1.166559e+05 rho_A=0.00357
+    perm-circle #1           Psi_A=2.430629e+01 Psi_T=1.166559e+05 rho_A=0.00007
+    perm-circle #2           Psi_A=2.440124e+03 Psi_T=1.166559e+05 rho_A=0.00724
+    perm-circle #3           Psi_A=1.249726e+03 Psi_T=1.166559e+05 rho_A=0.00371
+    uniform #0               Psi_A=5.108322e+02 Psi_T=3.833384e+04 rho_A=0.00461
+    uniform #1               Psi_A=6.808692e+02 Psi_T=3.830725e+04 rho_A=0.00615
+    uniform #2               Psi_A=1.633606e+00 Psi_T=7.806481e+02 rho_A=0.00072
+    uniform #3               Psi_A=1.675232e+04 Psi_T=1.920023e+06 rho_A=0.00302
+q=11 L=1 |A|=133 mu(A)=0.0008  (0.3s)
+  m=2: #monomials=12 rank Poly_<m|_A=12 dim V(A,m)=121
+    circle a=1 th=0.0        Psi_A=1.124004e+00 Psi_T=2.413889e+01 rho_A=0.00003
+    circle a=1 th=0.37       Psi_A=1.140151e+00 Psi_T=2.448567e+01 rho_A=0.00003
+    circle a=1 th=1.1        Psi_A=1.128053e+00 Psi_T=2.422585e+01 rho_A=0.00003
+    circle a=1 th=2.0        Psi_A=1.124005e+00 Psi_T=2.413892e+01 rho_A=0.00003
+    circle a=2 th=0.0        Psi_A=1.124004e+00 Psi_T=2.413889e+01 rho_A=0.00003
+    circle a=2 th=0.37       Psi_A=1.140151e+00 Psi_T=2.448567e+01 rho_A=0.00003
+    circle a=2 th=1.1        Psi_A=1.128053e+00 Psi_T=2.422585e+01 rho_A=0.00003
+    circle a=2 th=2.0        Psi_A=1.124005e+00 Psi_T=2.413892e+01 rho_A=0.00003
+    perm-circle #0           Psi_A=1.140151e+00 Psi_T=2.448567e+01 rho_A=0.00003
+    perm-circle #1           Psi_A=1.140151e+00 Psi_T=2.448567e+01 rho_A=0.00003
+    perm-circle #2           Psi_A=1.140151e+00 Psi_T=2.448567e+01 rho_A=0.00003
+    perm-circle #3           Psi_A=1.140151e+00 Psi_T=2.448567e+01 rho_A=0.00003
+    uniform #0               Psi_A=6.245173e-01 Psi_T=1.695651e+01 rho_A=0.00003
+    uniform #1               Psi_A=7.685488e-01 Psi_T=1.790877e+01 rho_A=0.00003
+    uniform #2               Psi_A=4.810327e-01 Psi_T=7.362768e+00 rho_A=0.00005
+    uniform #3               Psi_A=4.241196e-01 Psi_T=1.195048e+01 rho_A=0.00003
+  m=3: #monomials=78 rank Poly_<m|_A=78 dim V(A,m)=55
+    circle a=1 th=0.0        Psi_A=1.194079e+00 Psi_T=2.126667e+02 rho_A=0.00000
+    circle a=1 th=0.37       Psi_A=1.219903e+00 Psi_T=2.172659e+02 rho_A=0.00000
+    circle a=1 th=1.1        Psi_A=1.200537e+00 Psi_T=2.138169e+02 rho_A=0.00000
+    circle a=1 th=2.0        Psi_A=1.194081e+00 Psi_T=2.126671e+02 rho_A=0.00000
+    circle a=2 th=0.0        Psi_A=1.194079e+00 Psi_T=2.126667e+02 rho_A=0.00000
+    circle a=2 th=0.37       Psi_A=1.219903e+00 Psi_T=2.172659e+02 rho_A=0.00000
+    circle a=2 th=1.1        Psi_A=1.200537e+00 Psi_T=2.138169e+02 rho_A=0.00000
+    circle a=2 th=2.0        Psi_A=1.194081e+00 Psi_T=2.126671e+02 rho_A=0.00000
+    perm-circle #0           Psi_A=1.219903e+00 Psi_T=2.172659e+02 rho_A=0.00000
+    perm-circle #1           Psi_A=1.219903e+00 Psi_T=2.172659e+02 rho_A=0.00000
+    perm-circle #2           Psi_A=1.219903e+00 Psi_T=2.172659e+02 rho_A=0.00000
+    perm-circle #3           Psi_A=1.219903e+00 Psi_T=2.172659e+02 rho_A=0.00000
+    uniform #0               Psi_A=1.133762e+00 Psi_T=2.021595e+02 rho_A=0.00000
+    uniform #1               Psi_A=8.860751e-01 Psi_T=6.479499e+01 rho_A=0.00001
+    uniform #2               Psi_A=7.389526e-01 Psi_T=1.070696e+02 rho_A=0.00001
+    uniform #3               Psi_A=1.174964e-01 Psi_T=6.701455e+01 rho_A=0.00000
+q=11 L=2 |A|=9373 mu(A)=0.0529  (0.1s)
+  m=3: #monomials=78 rank Poly_<m|_A=78 dim V(A,m)=9295
+    circle a=1 th=0.0        Psi_A=1.318099e+02 Psi_T=2.126667e+02 rho_A=0.03279
+    circle a=1 th=0.37       Psi_A=1.346604e+02 Psi_T=2.172659e+02 rho_A=0.03279
+    circle a=1 th=1.1        Psi_A=1.325228e+02 Psi_T=2.138169e+02 rho_A=0.03279
+    circle a=1 th=2.0        Psi_A=1.318101e+02 Psi_T=2.126671e+02 rho_A=0.03279
+    circle a=2 th=0.0        Psi_A=1.318099e+02 Psi_T=2.126667e+02 rho_A=0.03279
+    circle a=2 th=0.37       Psi_A=1.346604e+02 Psi_T=2.172659e+02 rho_A=0.03279
+    circle a=2 th=1.1        Psi_A=1.325228e+02 Psi_T=2.138169e+02 rho_A=0.03279
+    circle a=2 th=2.0        Psi_A=1.318101e+02 Psi_T=2.126671e+02 rho_A=0.03279
+    perm-circle #0           Psi_A=6.966644e+01 Psi_T=2.172659e+02 rho_A=0.01697
+    perm-circle #1           Psi_A=7.230668e+01 Psi_T=2.172659e+02 rho_A=0.01761
+    perm-circle #2           Psi_A=1.018041e+02 Psi_T=2.172659e+02 rho_A=0.02479
+    perm-circle #3           Psi_A=9.588801e+01 Psi_T=2.172659e+02 rho_A=0.02335
+    uniform #0               Psi_A=3.696130e+01 Psi_T=1.593893e+02 rho_A=0.01227
+    uniform #1               Psi_A=3.844765e+01 Psi_T=1.021073e+02 rho_A=0.01992
+    uniform #2               Psi_A=3.867290e+01 Psi_T=9.942996e+01 rho_A=0.02058
+    uniform #3               Psi_A=5.150896e+01 Psi_T=1.274698e+02 rho_A=0.02138
+  m=4: #monomials=353 rank Poly_<m|_A=353 dim V(A,m)=9020
+    circle a=1 th=0.0        Psi_A=1.416469e+03 Psi_T=2.214896e+03 rho_A=0.03384
+    circle a=1 th=0.37       Psi_A=1.457460e+03 Psi_T=2.278992e+03 rho_A=0.03384
+    circle a=1 th=1.1        Psi_A=1.426693e+03 Psi_T=2.230883e+03 rho_A=0.03384
+    circle a=1 th=2.0        Psi_A=1.416473e+03 Psi_T=2.214902e+03 rho_A=0.03384
+    circle a=2 th=0.0        Psi_A=1.416469e+03 Psi_T=2.214896e+03 rho_A=0.03384
+    circle a=2 th=0.37       Psi_A=1.457460e+03 Psi_T=2.278992e+03 rho_A=0.03384
+    circle a=2 th=1.1        Psi_A=1.426693e+03 Psi_T=2.230883e+03 rho_A=0.03384
+    circle a=2 th=2.0        Psi_A=1.416473e+03 Psi_T=2.214902e+03 rho_A=0.03384
+    perm-circle #0           Psi_A=6.551547e+02 Psi_T=2.278992e+03 rho_A=0.01521
+    perm-circle #1           Psi_A=3.167201e+02 Psi_T=2.278992e+03 rho_A=0.00735
+    perm-circle #2           Psi_A=8.952997e+02 Psi_T=2.278992e+03 rho_A=0.02079
+    perm-circle #3           Psi_A=6.923428e+02 Psi_T=2.278992e+03 rho_A=0.01607
+    uniform #0               Psi_A=1.799182e+01 Psi_T=9.396922e+01 rho_A=0.01013
+    uniform #1               Psi_A=1.216277e+02 Psi_T=7.132385e+02 rho_A=0.00902
+    uniform #2               Psi_A=1.081527e+02 Psi_T=3.580463e+02 rho_A=0.01598
+    uniform #3               Psi_A=1.275227e+02 Psi_T=4.668541e+02 rho_A=0.01445
+  m=5: #monomials=1233 rank Poly_<m|_A=1233 dim V(A,m)=8140
+    circle a=1 th=0.0        Psi_A=1.704776e+04 Psi_T=2.540885e+04 rho_A=0.03550
+    circle a=1 th=0.37       Psi_A=1.766665e+04 Psi_T=2.633128e+04 rho_A=0.03550
+    circle a=1 th=1.1        Psi_A=1.720172e+04 Psi_T=2.563832e+04 rho_A=0.03550
+    circle a=1 th=2.0        Psi_A=1.704782e+04 Psi_T=2.540894e+04 rho_A=0.03550
+    circle a=2 th=0.0        Psi_A=1.704776e+04 Psi_T=2.540885e+04 rho_A=0.03550
+    circle a=2 th=0.37       Psi_A=1.766665e+04 Psi_T=2.633128e+04 rho_A=0.03550
+    circle a=2 th=1.1        Psi_A=1.720172e+04 Psi_T=2.563832e+04 rho_A=0.03550
+    circle a=2 th=2.0        Psi_A=1.704782e+04 Psi_T=2.540894e+04 rho_A=0.03550
+    perm-circle #0           Psi_A=7.868665e+03 Psi_T=2.633128e+04 rho_A=0.01581
+    perm-circle #1           Psi_A=3.400316e+03 Psi_T=2.633128e+04 rho_A=0.00683
+    perm-circle #2           Psi_A=6.127156e+03 Psi_T=2.633128e+04 rho_A=0.01231
+    perm-circle #3           Psi_A=1.202288e+04 Psi_T=2.633128e+04 rho_A=0.02416
+    uniform #0               Psi_A=4.404364e+02 Psi_T=7.414550e+03 rho_A=0.00314
+    uniform #1               Psi_A=6.177527e+03 Psi_T=2.746476e+04 rho_A=0.01190
+    uniform #2               Psi_A=1.410412e+02 Psi_T=6.403225e+03 rho_A=0.00117
+    uniform #3               Psi_A=1.508441e+02 Psi_T=1.128430e+03 rho_A=0.00707
+  m=6: #monomials=3510 rank Poly_<m|_A=3476 dim V(A,m)=5897
+    circle a=1 th=0.0        Psi_A=1.674036e+05 Psi_T=3.064020e+05 rho_A=0.02891
+    circle a=1 th=0.37       Psi_A=1.747225e+05 Psi_T=3.197981e+05 rho_A=0.02891
+    circle a=1 th=1.1        Psi_A=1.692194e+05 Psi_T=3.097255e+05 rho_A=0.02891
+    circle a=1 th=2.0        Psi_A=1.674042e+05 Psi_T=3.064032e+05 rho_A=0.02891
+    circle a=2 th=0.0        Psi_A=1.674036e+05 Psi_T=3.064020e+05 rho_A=0.02891
+    circle a=2 th=0.37       Psi_A=1.747225e+05 Psi_T=3.197981e+05 rho_A=0.02891
+    circle a=2 th=1.1        Psi_A=1.692194e+05 Psi_T=3.097255e+05 rho_A=0.02891
+    circle a=2 th=2.0        Psi_A=1.674042e+05 Psi_T=3.064032e+05 rho_A=0.02891
+    perm-circle #0           Psi_A=3.865332e+04 Psi_T=3.197981e+05 rho_A=0.00640
+    perm-circle #1           Psi_A=4.916348e+04 Psi_T=3.197981e+05 rho_A=0.00813
+    perm-circle #2           Psi_A=4.671857e+04 Psi_T=3.197981e+05 rho_A=0.00773
+    perm-circle #3           Psi_A=8.697345e+04 Psi_T=3.197981e+05 rho_A=0.01439
+    uniform #0               Psi_A=3.931641e+04 Psi_T=2.750685e+05 rho_A=0.00756
+    uniform #1               Psi_A=2.534231e+03 Psi_T=2.058301e+04 rho_A=0.00651
+    uniform #2               Psi_A=4.849795e+03 Psi_T=8.375296e+04 rho_A=0.00306
+    uniform #3               Psi_A=1.197492e+03 Psi_T=7.205911e+03 rho_A=0.00879
+  m=7: #monomials=8427 rank Poly_<m|_A=7211 dim V(A,m)=2162
+    circle a=1 th=0.0        Psi_A=9.499540e+05 Psi_T=3.754519e+06 rho_A=0.01339
+    circle a=1 th=0.37       Psi_A=9.985829e+05 Psi_T=3.946716e+06 rho_A=0.01339
+    circle a=1 th=1.1        Psi_A=9.619862e+05 Psi_T=3.802074e+06 rho_A=0.01339
+    circle a=1 th=2.0        Psi_A=9.499583e+05 Psi_T=3.754536e+06 rho_A=0.01339
+    circle a=2 th=0.0        Psi_A=9.499540e+05 Psi_T=3.754519e+06 rho_A=0.01339
+    circle a=2 th=0.37       Psi_A=9.985829e+05 Psi_T=3.946716e+06 rho_A=0.01339
+    circle a=2 th=1.1        Psi_A=9.619862e+05 Psi_T=3.802074e+06 rho_A=0.01339
+    circle a=2 th=2.0        Psi_A=9.499583e+05 Psi_T=3.754536e+06 rho_A=0.01339
+    perm-circle #0           Psi_A=2.493973e+04 Psi_T=3.946716e+06 rho_A=0.00033
+    perm-circle #1           Psi_A=1.218141e+05 Psi_T=3.946716e+06 rho_A=0.00163
+    perm-circle #2           Psi_A=2.365963e+05 Psi_T=3.946716e+06 rho_A=0.00317
+    perm-circle #3           Psi_A=1.579560e+05 Psi_T=3.946716e+06 rho_A=0.00212
+    uniform #0               Psi_A=4.098192e+02 Psi_T=1.223687e+05 rho_A=0.00018
+    uniform #1               Psi_A=8.752545e+03 Psi_T=2.371735e+05 rho_A=0.00195
+    uniform #2               Psi_A=7.581627e+04 Psi_T=2.997159e+06 rho_A=0.00134
+    uniform #3               Psi_A=3.881552e+03 Psi_T=4.746267e+05 rho_A=0.00043

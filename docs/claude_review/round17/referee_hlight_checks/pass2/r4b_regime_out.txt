@@ -1,0 +1,8 @@
+q=3251 min_sigma=1571 count_nf=10080 argmin=(c=2,e=177) sigma/r=0.24162 (q-3)/2=1624.0 weilLB=1528.974 viol_L27=0 maxST=113 2sqrtq+1=115.04 3sqrtq=171.05 hasse_viol=0
+  elapsed 16 s
+q=3259 min_sigma=1575 count_nf=10104 argmin=(c=14,e=430) sigma/r=0.24164 (q-3)/2=1628.0 weilLB=1532.869 viol_L27=0 maxST=113 2sqrtq+1=115.18 3sqrtq=171.26 hasse_viol=0
+  elapsed 19 s
+q=3271 min_sigma=1581 count_nf=40560 argmin=(c=6,e=117) sigma/r=0.24167 (q-3)/2=1634.0 weilLB=1538.711 viol_L27=0 maxST=113 2sqrtq+1=115.39 3sqrtq=171.58 hasse_viol=0
+  elapsed 21 s
+q=5479 min_sigma=2667 count_nf=2812 argmin=(c=10,e=1422) sigma/r=0.24338 (q-3)/2=2738.0 weilLB=2617.470 viol_L27=0 maxST=149 2sqrtq+1=149.04 3sqrtq=222.06 hasse_viol=0
+  elapsed 104 s

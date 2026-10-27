@@ -1,0 +1,1 @@
+q=3251 j=257 m'=2057: min over p in [1e-20,1] of G(p) (with exact tail LOWER bound) = 1823.1 at p=0.891; chain needs G < -ln2

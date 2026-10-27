@@ -1,0 +1,2 @@
+[float_iso] sdc19 L=2: |A|=264291, free orbits 13910, max support 8, mmax=8, tol=1e-09
+monomial orbit reps by degree: [1, 1, 10, 69, 366, 1581, 5763, 18156] (1s)

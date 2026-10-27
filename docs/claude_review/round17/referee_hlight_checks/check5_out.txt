@@ -1,0 +1,16 @@
+q=19: F=0, n=6 exhaustive (271320): min sigma=11  Prop2.5 bound (q-3)/2=8.0, g(6)=8.0
+q=19: |F|=1, n=6 exhaustive (116280): min sigma=13  Prop2.4 bound (q+1)/2=10.0
+q=19: |F|=1, n=4 exhaustive: min sigma=9  Prop2.4 bound (q-1)/2=9.0
+q=23: F=0, n=6 exhaustive (1009470): min sigma=13  Prop2.5 bound (q-3)/2=10.0, g(6)=10.0
+q=23: |F|=1, n=6 exhaustive (336490): min sigma=17  Prop2.4 bound (q+1)/2=12.0
+q=23: |F|=1, n=4 exhaustive: min sigma=11  Prop2.4 bound (q-1)/2=11.0
+q=43 F=0 n=4: sampled min sigma=17; proved max(n-1, g(n) [n<=(q+1)/2]) = 14.33
+q=43 F=0 n=6: sampled min sigma=25; proved max(n-1, g(n) [n<=(q+1)/2]) = 20.00
+q=43 F=0 n=8: sampled min sigma=35; proved max(n-1, g(n) [n<=(q+1)/2]) = 22.60
+q=43 F=0 n=10: sampled min sigma=45; proved max(n-1, g(n) [n<=(q+1)/2]) = 23.67
+q=43 F=0 n=12: sampled min sigma=47; proved max(n-1, g(n) [n<=(q+1)/2]) = 23.86
+q=43 F=0 n=14: sampled min sigma=61; proved max(n-1, g(n) [n<=(q+1)/2]) = 23.50
+q=43 F=0 n=16: sampled min sigma=67; proved max(n-1, g(n) [n<=(q+1)/2]) = 22.78
+q=43 F=0 n=18: sampled min sigma=75; proved max(n-1, g(n) [n<=(q+1)/2]) = 21.80
+q=43 F=0 n=20: sampled min sigma=81; proved max(n-1, g(n) [n<=(q+1)/2]) = 20.64
+q=43 F=0 n=22: sampled min sigma=85; proved max(n-1, g(n) [n<=(q+1)/2]) = 21.00

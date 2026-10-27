@@ -1,0 +1,29 @@
+(a) q=19: brute-force 4-term F=0 min sigma = 7 over 23256 characters; values [7, 9, 11, 13, 15]...
+(a) q=23: brute-force 4-term F=0 min sigma = 9 over 53130 characters; values [9, 11, 13, 15, 17]...
+(b) Lemma 2.3: 6884 random f (q=7..131, |T|<=(q+1)/2, values incl. multiples of q): violations 0, equality cases 193
+(b) Lemma 2.3 exhaustive ternary q=11, 1<=|T|<=6: 51194 f, violations 0
+(b') q=11, F=0 ternary |T|=(q+3)/2=7: max #zeros = 0 vs (q-3)/2 = 4
+(c) q=7: dual pair sigma(def) = 3, (q-1)/2 = 3, ||lam||_1 = 4, (q+1)/2 = 4
+(c) q=11: dual pair sigma(def) = 5, (q-1)/2 = 5, ||lam||_1 = 6, (q+1)/2 = 6
+(c) q=19: dual pair sigma(def) = 9, (q-1)/2 = 9, ||lam||_1 = 10, (q+1)/2 = 10
+(c) q=23: dual pair sigma(def) = 11, (q-1)/2 = 11, ||lam||_1 = 12, (q+1)/2 = 12
+(c) q=31: dual pair sigma(def) = 15, (q-1)/2 = 15, ||lam||_1 = 16, (q+1)/2 = 16
+(c) q=43: dual pair sigma(def) = 21, (q-1)/2 = 21, ||lam||_1 = 22, (q+1)/2 = 22
+(c) q=47: dual pair sigma(def) = 23, (q-1)/2 = 23, ||lam||_1 = 24, (q+1)/2 = 24
+(c) q=59: dual pair sigma(def) = 29, (q-1)/2 = 29, ||lam||_1 = 30, (q+1)/2 = 30
+(c) q=67: dual pair sigma(def) = 33, (q-1)/2 = 33, ||lam||_1 = 34, (q+1)/2 = 34
+(c) q=71: dual pair sigma(def) = 35, (q-1)/2 = 35, ||lam||_1 = 36, (q+1)/2 = 36
+(c) q=79: dual pair sigma(def) = 39, (q-1)/2 = 39, ||lam||_1 = 40, (q+1)/2 = 40
+(c) q=83: dual pair sigma(def) = 41, (q-1)/2 = 41, ||lam||_1 = 42, (q+1)/2 = 42
+(c) q=3251: dual pair sigma(formula) = 1625, (q-1)/2 = 1625, ||.||_1 = 1626
+(c) q=3259: dual pair sigma(formula) = 1629, (q-1)/2 = 1629, ||.||_1 = 1630
+(c) q=5479: dual pair sigma(formula) = 2739, (q-1)/2 = 2739, ||.||_1 = 2740
+(d) q=7: base 4-term sigma values [3, 5], (q-1)/2 = 3
+(d) q=11: base 4-term sigma values [5, 7], (q-1)/2 = 5
+(d) q=19: base 4-term sigma values [9, 11], (q-1)/2 = 9
+(d) q=23: base 4-term sigma values [11, 13], (q-1)/2 = 11
+(d) q=31: base 4-term sigma values [15, 17], (q-1)/2 = 15
+(d) q=43: base 4-term sigma values [21, 23], (q-1)/2 = 21
+(d) q=59: base 4-term sigma values [29, 31], (q-1)/2 = 29
+(d) q=83: base 4-term sigma values [41, 43], (q-1)/2 = 41
+(d) q=103: base 4-term sigma values [51, 53], (q-1)/2 = 51

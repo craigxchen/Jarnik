@@ -1,0 +1,2 @@
+sdc11 L=2 m=5: |A|=9373, rank Poly_<m = 1233, dim V = 8140  (7s)
+theta=0.00000: Cheb=5.66311149e+02 |u|_inf=1.000000 kappa_V(hat u)=3.516347e-03  sqrt(Psi(hat u))=1.305671e+02  Cheb/sqrt(Psi)=4.3373  dual l1=1.0000

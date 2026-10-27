@@ -1,0 +1,11 @@
+q=11 L=1 |A|=133
+ m=1: r0=1 dimV=132 circle_in_TC_V=False nonzero_i=[0, 1] | best witness: |c|_1=2 |c|_inf=1 i=1 max|conj|=1.98 min|conj|=0.5635 Thm3.1 bound (with max|conj|) on Cheb=4.9491e-01 LP Cheb(theta)=['1.9595e+00', '1.9633e+00', '1.9595e+00', '1.9697e+00'] (0.1s)
+ m=2: r0=12 dimV=121 circle_in_TC_V=False nonzero_i=[0, 1, 2] | best witness: |c|_1=4 |c|_inf=1 i=1 max|conj|=5.838 min|conj|=0.3383 Thm3.1 bound (with max|conj|) on Cheb=7.2975e-01 LP Cheb(theta)=['1.9198e+00', '1.9274e+00', '1.9198e+00', '1.9398e+00'] (0.1s)
+ m=3: r0=78 dimV=55 circle_in_TC_V=False nonzero_i=[0, 1, 2, 3] | best witness: |c|_1=6 |c|_inf=1 i=2 max|conj|=11.56 min|conj|=0.3658 Thm3.1 bound (with max|conj|) on Cheb=7.2232e-01 LP Cheb(theta)=['1.8801e+00', '1.8914e+00', '1.8801e+00', '1.9100e+00'] (0.1s)
+ m=4: r0=133 dimV=0
+ m=5: r0=133 dimV=0
+ m=6: r0=133 dimV=0
+ m=7: r0=133 dimV=0
+ m=8: r0=133 dimV=0
+ m=9: r0=133 dimV=0
+ m=10: r0=133 dimV=0

@@ -1,0 +1,20 @@
+primes=98 (q from 3 to 5479); violations of Lemma 2.7/Prop2.5 n=4 bound: 0
+global min exactly determined (4-term min < (q-3)/2) for 95 primes; otherwise (global min in [(q-3)/2,(q-1)/2]): [3, 7, 11]
+smallest 4-term sigma/r over q>=19: 0.1842 at q=19
+  q=3 min4 sigma=1152921504606846973 sigma/r=192153584101141152.0000 (q-3)/2=0 LB(q)=0.0
+  q=7 min4 sigma=3 sigma/r=0.2143 (q-3)/2=2 LB(q)=2.0
+  q=11 min4 sigma=5 sigma/r=0.2273 (q-3)/2=4 LB(q)=3.7
+  q=19 min4 sigma=7 sigma/r=0.1842 (q-3)/2=8 LB(q)=6.3
+  q=23 min4 sigma=9 sigma/r=0.1957 (q-3)/2=10 LB(q)=7.7
+  q=31 min4 sigma=13 sigma/r=0.2097 (q-3)/2=14 LB(q)=10.3
+  q=43 min4 sigma=17 sigma/r=0.1977 (q-3)/2=20 LB(q)=14.3
+  q=47 min4 sigma=19 sigma/r=0.2021 (q-3)/2=22 LB(q)=15.7
+  q=103 min4 sigma=43 sigma/r=0.2087 (q-3)/2=50 LB(q)=34.3
+  q=199 min4 sigma=87 sigma/r=0.2186 (q-3)/2=98 LB(q)=66.3
+  q=499 min4 sigma=229 sigma/r=0.2295 (q-3)/2=248 LB(q)=204.0
+  q=1019 min4 sigma=481 sigma/r=0.2360 (q-3)/2=508 LB(q)=450.5
+  q=1091 min4 sigma=515 sigma/r=0.2360 (q-3)/2=544 LB(q)=483.5
+  q=3251 min4 sigma=1571 sigma/r=0.2416 (q-3)/2=1624 LB(q)=1527.5
+  q=3259 min4 sigma=1575 sigma/r=0.2416 (q-3)/2=1628 LB(q)=1531.5
+  q=3271 min4 sigma=1581 sigma/r=0.2417 (q-3)/2=1634 LB(q)=1537.5
+  q=5479 min4 sigma=2667 sigma/r=0.2434 (q-3)/2=2738 LB(q)=2616.0

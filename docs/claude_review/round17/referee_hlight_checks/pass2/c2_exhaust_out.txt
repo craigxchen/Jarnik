@@ -1,0 +1,12 @@
+q=7, all lambda with |lambda_x|<=2: min sigma over non-pair-multiples = 3 (argmin [-1, -1, 0, 0, 0, 1, 0, 1], definition gives 3); min over pair multiples = 1; (q-1)/2 = 3, q/3 = 2.333
+q=11, all lambda with |lambda_x|<=1: min sigma over non-pair-multiples = 5 (argmin [-1, -1, -1, 1, 0, 0, 0, 0, 1, 0, 1, 0], definition gives 5); min over pair multiples = 1; (q-1)/2 = 5, q/3 = 3.667
+q=7 ternary F=0 n>=6: count 140, min sigma 5 (Prop 2.5(1): n-1 >= 5)
+q=11 F=0 n=4: min sigma 5, proved bound 3.667, ok=True
+q=11 F=0 n=6: min sigma 5, proved bound 5.000, ok=True
+q=11 F=0 n=8: min sigma 9, proved bound 7.000, ok=True
+q=11 F=0 n=10: min sigma 9, proved bound 9.000, ok=True
+q=11 F=1 n=4: min sigma 5, proved bound 5.000, ok=True
+q=11 F=1 n=6: min sigma 7, proved bound 6.000, ok=True
+q=11 F=1 n=8: min sigma 9, proved bound 6.000, ok=True
+q=11 F=1 n=10: min sigma 13, proved bound 6.000, ok=True
+q=11 F=1 n=12: min sigma 9, proved bound 6.000, ok=True

@@ -1,0 +1,20 @@
+q=3251 configs=26381880 min sigma(n=4,F=0)=1571 sigma/r=0.241618 witness: f(0)=1 cfg=0 x=2 y=177
+
+real	0m17.220s
+user	0m17.052s
+sys	0m0.004s
+q=3259 configs=26511980 min sigma(n=4,F=0)=1575 sigma/r=0.241639 witness: f(0)=1 cfg=0 x=2 y=311
+
+real	0m16.802s
+user	0m16.617s
+sys	0m0.040s
+q=3271 configs=26707730 min sigma(n=4,F=0)=1581 sigma/r=0.241669 witness: f(0)=1 cfg=0 x=2 y=13
+
+real	0m17.289s
+user	0m17.087s
+sys	0m0.024s
+q=5479 configs=74980130 min sigma(n=4,F=0)=2667 sigma/r=0.243384 witness: f(0)=1 cfg=0 x=2 y=1852
+
+real	1m23.575s
+user	1m22.649s
+sys	0m0.012s

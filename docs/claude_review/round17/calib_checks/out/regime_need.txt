@@ -1,0 +1,10 @@
+q=3251: w=514.20 j=257 m'=2057 m'/q=0.633 tau_D=296.1 W=2q tau_D=1.9252e+06 ln eps0=-4.8130e+05 ln T=-4.8130e+05
+     kappa_V-cap needs ln Psi_A(C_1) <= -9.2933e+05 (necessary), <= -9.3291e+05 (sufficient); heuristic ln E_A l^2m' ~ 2.9437e+04; required decay -ln(rel)/m' >= 466.1 per degree; cube (Gaussian model) decay = 0.691 per degree
+q=5479: w=684.46 j=342 m'=2738 m'/q=0.500 tau_D=307.4 W=2q tau_D=3.3689e+06 ln eps0=-8.4222e+05 ln T=-8.4223e+05
+     kappa_V-cap needs ln Psi_A(C_1) <= -1.6373e+06 (necessary), <= -1.6433e+06 (sufficient); heuristic ln E_A l^2m' ~ 4.1394e+04; required decay -ln(rel)/m' >= 613.1 per degree; cube (Gaussian model) decay = 0.691 per degree
+q=10007: w=950.72 j=475 m'=3803 m'/q=0.380 tau_D=320.5 W=2q tau_D=6.4151e+06 ln eps0=-1.6038e+06 ln T=-1.6038e+06
+     kappa_V-cap needs ln Psi_A(C_1) <= -3.1375e+06 (necessary), <= -3.1485e+06 (sufficient); heuristic ln E_A l^2m' ~ 6.1035e+04; required decay -ln(rel)/m' >= 841.1 per degree; cube (Gaussian model) decay = 0.692 per degree
+q=100003: w=3297.61 j=1648 m'=13191 m'/q=0.132 tau_D=370.6 W=2q tau_D=7.4116e+07 ln eps0=-1.8529e+07 ln T=-1.8529e+07
+     kappa_V-cap needs ln Psi_A(C_1) <= -3.6755e+07 (necessary), <= -3.6864e+07 (sufficient); heuristic ln E_A l^2m' ~ 2.5848e+05; required decay -ln(rel)/m' >= 2805.9 per degree; cube (Gaussian model) decay = 0.693 per degree
+q=1000003: w=11276.53 j=5638 m'=45107 m'/q=0.045 tau_D=420.6 W=2q tau_D=8.4126e+08 ln eps0=-2.1031e+08 ln T=-2.1031e+08
+     kappa_V-cap needs ln Psi_A(C_1) <= -4.1938e+08 (necessary), <= -4.2048e+08 (sufficient); heuristic ln E_A l^2m' ~ 1.0432e+06; required decay -ln(rel)/m' >= 9320.6 per degree; cube (Gaussian model) decay = 0.693 per degree

@@ -1,0 +1,13 @@
+[float_iso] sdc7 L=2: |A|=757, free orbits 108, max support 7, mmax=6, tol=1e-09
+monomial orbit reps by degree: [1, 1, 4, 11, 23, 38] (0s)
+c=0: dims Poly_<m,c (m=1..6) = [1, 2, 6, 17, 40, 75] / rows 109  (2s)
+c=1: dims Poly_<m,c (m=1..6) = [0, 1, 5, 16, 39, 75] / rows 108  (2s)
+c=2: dims Poly_<m,c (m=1..6) = [0, 1, 5, 16, 39, 75] / rows 108  (2s)
+c=3: dims Poly_<m,c (m=1..6) = [0, 1, 5, 16, 39, 75] / rows 108  (2s)
+m=1: dim Poly_<m|_A = 1, dim V = 756; Psi_A(C_1) = 2.1915455746e+00, E l^2m = 2.191546e+00, rel = 1.000000e+00; random u: Psi in [1.2621e+00, 2.3975e+00], rel in [1.0000e+00, 1.0000e+00]
+m=2: dim Poly_<m|_A = 8, dim V = 749; Psi_A(C_1) = 1.0073283873e+01, E l^2m = 1.487616e+01, rel = 6.771429e-01; random u: Psi in [2.6864e+00, 1.0200e+01], rel in [5.4518e-01, 6.5221e-01]
+m=3: dim Poly_<m|_A = 36, dim V = 721; Psi_A(C_1) = 6.0432435455e+01, E l^2m = 1.619732e+02, rel = 3.731013e-01; random u: Psi in [6.8666e+00, 5.8718e+01], rel in [2.3927e-01, 3.5182e-01]
+m=4: dim Poly_<m|_A = 113, dim V = 644; Psi_A(C_1) = 3.4804769371e+02, E l^2m = 2.252136e+03, rel = 1.545412e-01; random u: Psi in [1.6122e+01, 3.9582e+02], rel in [8.5453e-02, 1.7056e-01]
+m=5: dim Poly_<m|_A = 274, dim V = 483; Psi_A(C_1) = 1.4271460351e+03, E l^2m = 3.554680e+04, rel = 4.014836e-02; random u: Psi in [3.2724e+01, 2.5512e+03], rel in [2.3794e-02, 6.5307e-02]
+m=6: dim Poly_<m|_A = 525, dim V = 232; Psi_A(C_1) = 3.4679941453e+03, E l^2m = 6.001337e+05, rel = 5.778703e-03; random u: Psi in [4.6868e+01, 1.3399e+04], rel in [4.8166e-03, 1.7923e-02]
+done (9s)

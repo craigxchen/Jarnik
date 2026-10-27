@@ -1,0 +1,4 @@
+n=4 E_n=3/2=1.500000 A_n=9/2=4.5000 B_n=7/2=3.5000 |coef| by |I|={2: [Fraction(1, 2)], 4: [Fraction(1, 2)]}
+n=6 E_n=15/8=1.875000 A_n=105/8=13.1250 B_n=63/8=7.8750 |coef| by |I|={2: [Fraction(3, 8)], 4: [Fraction(1, 8)], 6: [Fraction(3, 8)]}
+n=8 E_n=35/16=2.187500 A_n=525/16=32.8125 B_n=243/16=15.1875 |coef| by |I|={2: [Fraction(5, 16)], 4: [Fraction(1, 16)], 6: [Fraction(1, 16)], 8: [Fraction(5, 16)]}
+n=10 E_n=315/128=2.460938 A_n=9765/128=76.2891 B_n=3515/128=27.4609 |coef| by |I|={2: [Fraction(35, 128)], 4: [Fraction(5, 128)], 6: [Fraction(3, 128)], 8: [Fraction(5, 128)], 10: [Fraction(35, 128)]}

@@ -1,0 +1,18 @@
+q=7: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=11: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=19: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=23: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=31: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=43: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=47: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=59: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=67: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=71: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=79: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=83: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=103: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=107: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=127: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=131: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+q=139: g^2=-q True; patterns match author's P_a,P'_a True; identities (2.1) and S+T=K+k_a on 25 random k: True
+ALL OK: True

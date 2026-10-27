@@ -1,0 +1,13 @@
+q=19: brute-force (no symmetry) 4-term F=0 min sigma = 7
+q=23: brute-force (no symmetry) 4-term F=0 min sigma = 9
+q=31: brute-force (no symmetry) 4-term F=0 min sigma = 13
+q=7: dual pair sum=0 l1=4 ((q+1)/2=4) sigma(def)=3.0 ((q-1)/2=3.0)
+q=11: dual pair sum=0 l1=6 ((q+1)/2=6) sigma(def)=5.0 ((q-1)/2=5.0)
+q=19: dual pair sum=0 l1=10 ((q+1)/2=10) sigma(def)=9.0 ((q-1)/2=9.0)
+q=23: dual pair sum=0 l1=12 ((q+1)/2=12) sigma(def)=11.0 ((q-1)/2=11.0)
+q=31: dual pair sum=0 l1=16 ((q+1)/2=16) sigma(def)=15.0 ((q-1)/2=15.0)
+q=43: dual pair sum=0 l1=22 ((q+1)/2=22) sigma(def)=21.0 ((q-1)/2=21.0)
+q=83: dual pair sum=0 l1=42 ((q+1)/2=42) sigma(def)=41.0 ((q-1)/2=41.0)
+q=3251: dual pair F=0 l1=1626 sigma(formula)=1625 ((q-1)/2=1625)
+q=3259: dual pair F=0 l1=1630 sigma(formula)=1629 ((q-1)/2=1629)
+q=5479: dual pair F=0 l1=2740 sigma(formula)=2739 ((q-1)/2=2739)

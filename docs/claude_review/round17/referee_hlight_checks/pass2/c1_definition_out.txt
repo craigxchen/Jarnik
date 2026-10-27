@@ -1,0 +1,12 @@
+q=7: |S| values [4], #patterns containing inf 7/14, distinct 14; formula mismatches 0/300, conv(+/-) mismatches 0/300, pair sigmas [1]
+q=11: |S| values [6], #patterns containing inf 11/22, distinct 22; formula mismatches 0/300, conv(+/-) mismatches 0/300, pair sigmas [1]
+q=19: |S| values [10], #patterns containing inf 19/38, distinct 38; formula mismatches 0/300, conv(+/-) mismatches 0/300, pair sigmas [1]
+q=23: |S| values [12], #patterns containing inf 23/46, distinct 46; formula mismatches 0/300, conv(+/-) mismatches 0/300, pair sigmas [1]
+q=31: |S| values [16], #patterns containing inf 31/62, distinct 62; formula mismatches 0/300, conv(+/-) mismatches 0/300, pair sigmas [1]
+q=43: |S| values [22], #patterns containing inf 43/86, distinct 86; formula mismatches 0/300, conv(+/-) mismatches 0/300, pair sigmas [1]
+q=47: |S| values [24], #patterns containing inf 47/94, distinct 94; formula mismatches 0/300, conv(+/-) mismatches 0/300, pair sigmas [1]
+q=59: |S| values [30], #patterns containing inf 59/118, distinct 118; formula mismatches 0/300, conv(+/-) mismatches 0/300, pair sigmas [1]
+q=7: rank 7, SNF non-unit invariants [4] (expect [(q+1)/2] = [4])
+q=11: rank 11, SNF non-unit invariants [6] (expect [(q+1)/2] = [6])
+q=19: rank 19, SNF non-unit invariants [10] (expect [(q+1)/2] = [10])
+q=23: rank 23, SNF non-unit invariants [12] (expect [(q+1)/2] = [12])

@@ -1,0 +1,45 @@
+first prime q=3 mod 4 with q >= 316 ln(8q): 3251
+previous candidate 3203 316 ln 8q = 3207.8060 (rad 7.9e-74)
+regime primes <= 2e5: 8776  any with m' >= q: []  max m'/q = 0.6327
+
+=== q=3251: prime True, q mod 4 = 3, regime True; w=514.1998 (rad 1.7e-74), j=257, m'=2057, m'<q True, 4j=1028, m'/2=1028.5, m'/(2j)=4.0019
+tau_D terms: (2/c0)* 27.2405 (rad 6.2e-76) ;  48.6654 (rad 5.5e-76) ; floor 62.3370 (rad 5.5e-76)
+  ln T* [floor, tau=62.337 (rad 5.5e-76)]: W=r tau: -101332.923 (rad 7.7e-72);  W=r tau+1/4: -101332.986 (rad 7.7e-72)
+  ln T* [c0=0.184, tau=296.092 (rad 1.2e-74)]: W=r tau: -481301.503 (rad 4.6e-71);  W=r tau+1/4: -481301.566 (rad 4.6e-71)
+  ln T* [c0=0.5, tau=108.962 (rad 2.5e-75)]: W=r tau: -177121.514 (rad 1.8e-71);  W=r tau+1/4: -177121.576 (rad 1.8e-71)
+  sum_{i<=q} cos(pi i/2q) = 2069.1508 (rad 5.0e-71)
+  Prop3.2 cube: ln kappa^T >= -4506.576 (rad 1.2e-72)  coords used 1029  gap to floor ln T*: 96826.4 (rad 1.0e-71)
+  Prop3.2 S-grid: ln kappa^Y >= -11311.292 (rad 1.4e-72)  coords used 5  gap: 90021.7 (rad 9.1e-72)
+  Lemma3.1 prefactor ln: -2770.234 (rad 1.3e-71)
+  survival threshold ln N_0 > -166545.61 (rad 2.1e-71)
+  cube ln N0^T >=  26447.15 (rad 6.1e-73) ; fraction ln -192992.8 (rad 2.4e-71)
+  sec6 value per unit l1 mass ln(2^{m'+1} d^{m'} T*) = -83272.1 (rad 8.6e-72)
+  Prop6.1 bound floor(4jq/(q+1)) = 1027
+  Prop3.5 ln(2q H_T(m'-2j-1)/H_T(m')) = -366.969 (rad 1.1e-73)
+  sum_{e<q} H_T(e) < 3^q/2: True
+  |P|= 1626  sd= 32.924 (rad 5.5e-76)  j/sd= 7.806 (rad 2.0e-76)
+  ln Pr_T(|k(P)|>j) = -33.025 (rad 6.3e-74) ; ln(2q tail) = -24.245 (rad 6.4e-74)
+  Rem6.2: j^2/(2*|X|/2) at |X|=m'/2: 64.22 (rad 1.1e-75)  vs (m'/2)ln3+ln4q: 1139.4 (rad 5.3e-74)
+  Rem6.2 hypercontr ln(3^{-3m'}/4) = -6780.9 (rad 2.5e-73)
+  ln H' = m'W/40 at floor: 20843349 (rad 7.1e-70)  at c0=.184: 99002886 (rad 5.9e-69)
+
+=== q=5479: prime True, q mod 4 = 3, regime True; w=684.4572 (rad 1.7e-74), j=342, m'=2738, m'<q True, 4j=1368, m'/2=1369.0, m'/(2j)=4.0029
+tau_D terms: (2/c0)* 28.2842 (rad 6.2e-76) ;  50.7529 (rad 5.5e-76) ; floor 65.4683 (rad 1.1e-75)
+  ln T* [floor, tau=65.468 (rad 1.1e-75)]: W=r tau: -179354.387 (rad 1.7e-71);  W=r tau+1/4: -179354.450 (rad 1.7e-71)
+  ln T* [c0=0.184, tau=307.437 (rad 1.2e-74)]: W=r tau: -842228.163 (rad 8.6e-71);  W=r tau+1/4: -842228.226 (rad 8.6e-71)
+  ln T* [c0=0.5, tau=113.137 (rad 2.5e-75)]: W=r tau: -309942.465 (rad 3.4e-71);  W=r tau+1/4: -309942.528 (rad 3.4e-71)
+  sum_{i<=q} cos(pi i/2q) = 3487.5397 (rad 1.4e-70)
+  Prop3.2 cube: ln kappa^T >= -6601.787 (rad 1.7e-72)  coords used 1369  gap to floor ln T*: 172752.7 (rad 2.1e-71)
+  Prop3.2 S-grid: ln kappa^Y >= -16417.991 (rad 2.1e-72)  coords used 5  gap: 162936.5 (rad 2.1e-71)
+  Lemma3.1 prefactor ln: -4042.720 (rad 2.9e-71)
+  survival threshold ln N_0 > -307772.11 (rad 4.4e-71)
+  cube ln N0^T >=  36766.04 (rad 1.2e-72) ; fraction ln -344538.1 (rad 4.9e-71)
+  sec6 value per unit l1 mass ln(2^{m'+1} d^{m'} T*) = -153885.4 (rad 2.0e-71)
+  Prop6.1 bound floor(4jq/(q+1)) = 1367
+  Prop3.5 ln(2q H_T(m'-2j-1)/H_T(m')) = -657.674 (rad 2.1e-73)
+  sum_{e<q} H_T(e) < 3^q/2: True
+  |P|= 2740  sd= 42.740 (rad 7.6e-76)  j/sd= 8.002 (rad 2.8e-76)
+  ln Pr_T(|k(P)|>j) = -34.524 (rad 1.2e-73) ; ln(2q tail) = -25.223 (rad 1.2e-73)
+  Rem6.2: j^2/(2*|X|/2) at |X|=m'/2: 85.44 (rad 1.1e-75)  vs (m'/2)ln3+ln4q: 1514.0 (rad 5.9e-74)
+  Rem6.2 hypercontr ln(3^{-3m'}/4) = -9025.4 (rad 4.2e-73)
+  ln H' = m'W/40 at floor: 49106148 (rad 1.9e-69)  at c0=.184: 230600987 (rad 1.5e-68)

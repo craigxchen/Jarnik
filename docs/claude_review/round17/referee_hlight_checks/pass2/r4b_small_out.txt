@@ -1,0 +1,16 @@
+q=7 min_sigma=3 count_nf=4 argmin=(c=2,e=4) sigma/r=0.21429 (q-3)/2=2.0 weilLB=-11.469 viol_L27=0 maxST=3 2sqrtq+1=6.29 3sqrtq=7.94 hasse_viol=0
+q=11 min_sigma=5 count_nf=18 argmin=(c=2,e=4) sigma/r=0.22727 (q-3)/2=4.0 weilLB=-10.475 viol_L27=0 maxST=5 2sqrtq+1=7.63 3sqrtq=9.95 hasse_viol=0
+q=19 min_sigma=7 count_nf=12 argmin=(c=2,e=6) sigma/r=0.18421 (q-3)/2=8.0 weilLB=-8.038 viol_L27=0 maxST=9 2sqrtq+1=9.72 3sqrtq=13.08 hasse_viol=0
+q=23 min_sigma=9 count_nf=42 argmin=(c=10,e=18) sigma/r=0.19565 (q-3)/2=10.0 weilLB=-6.694 viol_L27=0 maxST=9 2sqrtq+1=10.59 3sqrtq=14.39 hasse_viol=0
+q=31 min_sigma=13 count_nf=108 argmin=(c=6,e=13) sigma/r=0.20968 (q-3)/2=14.0 weilLB=-3.852 viol_L27=0 maxST=9 2sqrtq+1=12.14 3sqrtq=16.70 hasse_viol=0
+q=43 min_sigma=17 count_nf=78 argmin=(c=14,e=16) sigma/r=0.19767 (q-3)/2=20.0 weilLB=0.664 viol_L27=0 maxST=13 2sqrtq+1=14.11 3sqrtq=19.67 hasse_viol=0
+q=47 min_sigma=19 count_nf=84 argmin=(c=2,e=6) sigma/r=0.20213 (q-3)/2=22.0 weilLB=2.217 viol_L27=0 maxST=13 2sqrtq+1=14.71 3sqrtq=20.57 hasse_viol=0
+q=59 min_sigma=25 count_nf=306 argmin=(c=14,e=27) sigma/r=0.21186 (q-3)/2=28.0 weilLB=6.978 viol_L27=0 maxST=13 2sqrtq+1=16.36 3sqrtq=23.04 hasse_viol=0
+q=67 min_sigma=27 count_nf=40 argmin=(c=14,e=17) sigma/r=0.20149 (q-3)/2=32.0 weilLB=10.222 viol_L27=0 maxST=17 2sqrtq+1=17.37 3sqrtq=24.56 hasse_viol=0
+q=71 min_sigma=29 count_nf=126 argmin=(c=2,e=4) sigma/r=0.20423 (q-3)/2=34.0 weilLB=11.861 viol_L27=0 maxST=17 2sqrtq+1=17.85 3sqrtq=25.28 hasse_viol=0
+q=79 min_sigma=33 count_nf=276 argmin=(c=14,e=34) sigma/r=0.20886 (q-3)/2=38.0 weilLB=15.168 viol_L27=0 maxST=17 2sqrtq+1=18.78 3sqrtq=26.66 hasse_viol=0
+q=83 min_sigma=35 count_nf=144 argmin=(c=10,e=33) sigma/r=0.21084 (q-3)/2=40.0 weilLB=16.834 viol_L27=0 maxST=17 2sqrtq+1=19.22 3sqrtq=27.33 hasse_viol=0
+q=103 min_sigma=43 count_nf=60 argmin=(c=6,e=49) sigma/r=0.20874 (q-3)/2=50.0 weilLB=25.277 viol_L27=0 maxST=21 2sqrtq+1=21.30 3sqrtq=30.45 hasse_viol=0
+q=199 min_sigma=87 count_nf=112 argmin=(c=2,e=72) sigma/r=0.21859 (q-3)/2=98.0 weilLB=67.340 viol_L27=0 maxST=29 2sqrtq+1=29.21 3sqrtq=42.32 hasse_viol=0
+q=499 min_sigma=229 count_nf=1620 argmin=(c=2,e=25) sigma/r=0.22946 (q-3)/2=248.0 weilLB=204.993 viol_L27=0 maxST=45 2sqrtq+1=45.68 3sqrtq=67.01 hasse_viol=0
+q=1019 min_sigma=481 count_nf=16140 argmin=(c=10,e=56) sigma/r=0.23602 (q-3)/2=508.0 weilLB=450.617 viol_L27=0 maxST=61 2sqrtq+1=64.84 3sqrtq=95.77 hasse_viol=0

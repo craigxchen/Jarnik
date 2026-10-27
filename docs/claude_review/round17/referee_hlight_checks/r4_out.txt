@@ -1,0 +1,18 @@
+q=7 4term_min_sigma=3 at f=d0+d1-d2-d4 ; (q-3)/2=2 ; ratio=0.2143 ; #f=10 ; violations_of_Weil_bound=0
+q=11 4term_min_sigma=5 at f=d0+d1-d2-d4 ; (q-3)/2=4 ; ratio=0.2273 ; #f=36 ; violations_of_Weil_bound=0
+q=19 4term_min_sigma=7 at f=d0+d1-d2-d6 ; (q-3)/2=8 ; ratio=0.1842 ; #f=136 ; violations_of_Weil_bound=0
+q=23 4term_min_sigma=9 at f=d0+d1-d2-d3 ; (q-3)/2=10 ; ratio=0.1957 ; #f=210 ; violations_of_Weil_bound=0
+q=31 4term_min_sigma=13 at f=d0+d1-d2-d8 ; (q-3)/2=14 ; ratio=0.2097 ; #f=406 ; violations_of_Weil_bound=0
+q=43 4term_min_sigma=17 at f=d0+d1-d2-d8 ; (q-3)/2=20 ; ratio=0.1977 ; #f=820 ; violations_of_Weil_bound=0
+q=103 4term_min_sigma=43 at f=d0+d1-d3-d64 ; (q-3)/2=50 ; ratio=0.2087 ; #f=5050 ; violations_of_Weil_bound=0
+q=199 4term_min_sigma=87 at f=d0+d1-d2-d72 ; (q-3)/2=98 ; ratio=0.2186 ; #f=19306 ; violations_of_Weil_bound=0
+q=499 4term_min_sigma=229 at f=d0+d1-d2-d25 ; (q-3)/2=248 ; ratio=0.2295 ; #f=123256 ; violations_of_Weil_bound=0
+q=1019 4term_min_sigma=481 at f=d0+d1-d2-d20 ; (q-3)/2=508 ; ratio=0.2360 ; #f=516636 ; violations_of_Weil_bound=0
+q=3251 4term_min_sigma=1571 at f=d0+d1-d2-d177 ; (q-3)/2=1624 ; ratio=0.2416 ; #f=5276376 ; violations_of_Weil_bound=0
+
+real	0m3.580s
+user	0m10.551s
+sys	0m0.000s
+q=3259 4term_min_sigma=1575 at f=d0+d1-d2-d311 ; (q-3)/2=1628 ; ratio=0.2416 ; #f=5302396 ; violations_of_Weil_bound=0
+q=3271 4term_min_sigma=1581 at f=d0+d1-d2-d13 ; (q-3)/2=1634 ; ratio=0.2417 ; #f=5341546 ; violations_of_Weil_bound=0
+q=5479 4term_min_sigma=2667 at f=d0+d1-d2-d1852 ; (q-3)/2=2738 ; ratio=0.2434 ; #f=14996026 ; violations_of_Weil_bound=0

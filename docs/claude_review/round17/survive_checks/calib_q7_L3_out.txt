@@ -1,0 +1,4 @@
+q=7 L=3 |A|=1765
+ m=4: r0=113 dimV=1652 circle_in_TC_V=False nonzero_i=[0, 1, 2, 3, 4] | best witness: |c|_1=12 |c|_inf=1 i=2 max|conj|=74.21 min|conj|=5.058 Thm3.1 bound (with max|conj|) on Cheb=2.3191e+00 LP Cheb(theta)=['5.0492e+01', '4.8199e+01', '5.0492e+01', '4.6265e+01'] (123.4s)
+ m=5: r0=274 dimV=1491 circle_in_TC_V=False nonzero_i=[0, 1, 2, 3, 4, 5] | best witness: |c|_1=24 |c|_inf=1 i=2 max|conj|=236.3 min|conj|=6.414 Thm3.1 bound (with max|conj|) on Cheb=3.0765e+00 LP Cheb(theta)=['1.1222e+02', '1.0628e+02', '1.1222e+02', '1.0147e+02'] (112.9s)
+ m=6: r0=540 dimV=1225 circle_in_TC_V=False nonzero_i=[0, 1, 2, 3, 4, 5, 6] | best witness: |c|_1=36 |c|_inf=1 i=3 max|conj|=1135 min|conj|=50.5 Thm3.1 bound (with max|conj|) on Cheb=9.8564e+00 LP Cheb(theta)=['2.2794e+02', '2.1109e+02', '2.2794e+02', '1.9845e+02'] (110.7s)
