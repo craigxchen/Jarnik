@@ -1,0 +1,4 @@
+P=300 s=29 R=30000: U=5537564  mean mu per square=19.3  mu/s=0.67  (1s)
+P=300 s=29 R=100000: U=21145300  mean mu per square=22.4  mu/s=0.77  (2s)
+P=600 s=51 R=100000: U=64142996  mean mu per square=68.0  mu/s=1.33  (6s)
+P=1000 s=80 R=100000: U=129903248  mean mu per square=137.6  mu/s=1.72  (12s)

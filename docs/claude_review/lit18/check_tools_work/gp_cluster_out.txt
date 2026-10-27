@@ -1,0 +1,28 @@
+s=12 A=0.5: log H = 22.0 >= A s log s = 14.9; square side used = 15; max|pi_i-pi_j|^2 = 250; H/Nmin - 1 = 4.63e-04
+   m=2: delta_eff >= 0.749 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 0.5); sampled min 0.749; ordered tuples 132; proper subspaces needed >= s-m+1 = 11
+   m=3: delta_eff >= 1.498 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 1.0); sampled min 1.506; ordered tuples 1320; proper subspaces needed >= s-m+1 = 10
+   m=4: delta_eff >= 2.247 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 1.5); sampled min 2.265; ordered tuples 11880; proper subspaces needed >= s-m+1 = 9
+   m=5: delta_eff >= 2.996 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 2.0); sampled min 3.041; ordered tuples 95040; proper subspaces needed >= s-m+1 = 8
+   near-1 set: 132 of s(s-1) = 132 ratios gamma = pi_j/pi_k satisfy |gamma-1| <= R_gamma^(-1/2), h(gamma) = log R_gamma
+   2-function proximity ratio lambda_inf/h for (pi_j/pi_1, pi_k/pi_1): min 0.751 (cluster value 1/2); time 0s
+s=40 A=0.5: log H = 78.8 >= A s log s = 73.8; square side used = 49; max|pi_i-pi_j|^2 = 3394; H/Nmin - 1 = 8.88e-16
+   m=2: delta_eff >= 0.897 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 0.5); sampled min 0.897; ordered tuples 1560; proper subspaces needed >= s-m+1 = 39
+   m=3: delta_eff >= 1.794 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 1.0); sampled min 1.794; ordered tuples 59280; proper subspaces needed >= s-m+1 = 38
+   m=4: delta_eff >= 2.690 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 1.5); sampled min 2.703; ordered tuples 2193360; proper subspaces needed >= s-m+1 = 37
+   m=5: delta_eff >= 3.587 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 2.0); sampled min 3.607; ordered tuples 78960960; proper subspaces needed >= s-m+1 = 36
+   near-1 set: 1560 of s(s-1) = 1560 ratios gamma = pi_j/pi_k satisfy |gamma-1| <= R_gamma^(-1/2), h(gamma) = log R_gamma
+   2-function proximity ratio lambda_inf/h for (pi_j/pi_1, pi_k/pi_1): min 0.897 (cluster value 1/2); time 0s
+s=40 A=1.0: log H = 152.6 >= A s log s = 147.6; square side used = 64; max|pi_i-pi_j|^2 = 4802; H/Nmin - 1 = 0.00e+00
+   m=2: delta_eff >= 0.944 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 0.5); sampled min 0.944; ordered tuples 1560; proper subspaces needed >= s-m+1 = 39
+   m=3: delta_eff >= 1.889 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 1.0); sampled min 1.890; ordered tuples 59280; proper subspaces needed >= s-m+1 = 38
+   m=4: delta_eff >= 2.833 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 1.5); sampled min 2.837; ordered tuples 2193360; proper subspaces needed >= s-m+1 = 37
+   m=5: delta_eff >= 3.778 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 2.0); sampled min 3.785; ordered tuples 78960960; proper subspaces needed >= s-m+1 = 36
+   near-1 set: 1560 of s(s-1) = 1560 ratios gamma = pi_j/pi_k satisfy |gamma-1| <= R_gamma^(-1/2), h(gamma) = log R_gamma
+   2-function proximity ratio lambda_inf/h for (pi_j/pi_1, pi_k/pi_1): min 0.944 (cluster value 1/2); time 0s
+s=100 A=0.5: log H = 235.3 >= A s log s = 230.3; square side used = 134; max|pi_i-pi_j|^2 = 34848; H/Nmin - 1 = 0.00e+00
+   m=2: delta_eff >= 0.956 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 0.5); sampled min 0.956; ordered tuples 9900; proper subspaces needed >= s-m+1 = 99
+   m=3: delta_eff >= 1.911 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 1.0); sampled min 1.914; ordered tuples 970200; proper subspaces needed >= s-m+1 = 98
+   m=4: delta_eff >= 2.867 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 1.5); sampled min 2.873; ordered tuples 94109400; proper subspaces needed >= s-m+1 = 97
+   m=5: delta_eff >= 3.822 for ALL ordered m-tuples (needed: any delta < (m-1)/2 = 2.0); sampled min 3.829; ordered tuples 9034502400; proper subspaces needed >= s-m+1 = 96
+   near-1 set: 9900 of s(s-1) = 9900 ratios gamma = pi_j/pi_k satisfy |gamma-1| <= R_gamma^(-1/2), h(gamma) = log R_gamma
+   2-function proximity ratio lambda_inf/h for (pi_j/pi_1, pi_k/pi_1): min 0.957 (cluster value 1/2); time 2s

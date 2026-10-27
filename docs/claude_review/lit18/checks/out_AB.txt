@@ -1,0 +1,7 @@
+(A) M=6: line p + t(a;b) lies on X_M: True; not contained in Y: True
+(B) pairs (i<j among first s split primes) with gcd-ratio -log|rho-1|/h(rho) > 0.5
+    s=   50  P_s=    577  count=    112  count/s=  2.240  max ratio=0.881
+    s=  100  P_s=   1237  count=    320  count/s=  3.200  max ratio=0.897
+    s=  200  P_s=   2797  count=    894  count/s=  4.470  max ratio=0.911
+    s=  400  P_s=   6277  count=   2449  count/s=  6.122  max ratio=0.919
+    s=  800  P_s=  13669  count=   6646  count/s=  8.307  max ratio=0.926

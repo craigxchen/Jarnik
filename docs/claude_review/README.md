@@ -102,7 +102,12 @@ this problem (nothing new in the plane; vacuous on a single circle; L^p and ener
 Theta(log R); fake circles satisfy every such estimate). Round 16 (`round16/README.md`) recasts route 5's last
 inequality as a statement about the slab box alone: MIN^pair is an L^2 restriction statement about the top component of
 <k,u>^m', and the polynomial anti-concentration literature is provably vacuous at the degree it needs. The barrier side
-reduces to one quantitative test on the Fourier circles of the skew double core boxes. Route 5 is open, stuck, not capped.
+reduces to one quantitative test on the Fourier circles of the skew double core boxes. Route 5 is open, stuck, not capped. `lit18/README.md` is a literature sweep (2015-2026: the direct
+problem, height-based tools uniform in `S`, genuine-prime statistics), each part checked by an adversarial referee. Nothing found
+beats the barrier: no paper proves `o(log R)` for every `R` (the best all-`R` literature bound is Bourgain-Rudnick's `O(log R)`).
+Its barrier-map output: the round-8 Subspace route `QS` is dead for every threshold that depends on the prime set only through its
+size (Props A, B), composite-supported analytic inputs remain unclassified, and the one surviving hypothesis `QS^prod` is at
+least as strong as the target.
 
 **Growth-rate status (2026-10-27).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by

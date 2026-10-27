@@ -1,0 +1,52 @@
+(a) Recompute primes.md table at eta=1/2, eps=0.1, lambda_Q ~ log(1/(1-eta))
+  M=1e+03 k= 7 logE_k=  2.03 ratio log Q_k/log binom= 1.84  primes.md formula (1-eta)L/(2l)= 0.89  corrected (1-eta)(1-eps/8)L/l= 1.76  u= 6.13 log10 D=  18.4
+  M=1e+06 k=10 logE_k=  8.17 ratio log Q_k/log binom= 2.56  primes.md formula (1-eta)L/(2l)= 1.32  corrected (1-eta)(1-eps/8)L/l= 2.60  u= 8.69 log10 D=  52.1
+  M=1e+09 k=13 logE_k= 13.44 ratio log Q_k/log binom= 3.31  primes.md formula (1-eta)L/(2l)= 1.71  corrected (1-eta)(1-eps/8)L/l= 3.38  u=11.28 log10 D= 101.5
+  M=1e+12 k=16 logE_k= 18.03 ratio log Q_k/log binom= 4.05  primes.md formula (1-eta)L/(2l)= 2.08  corrected (1-eta)(1-eps/8)L/l= 4.11  u=13.89 log10 D= 166.7
+
+(b) Joint modulus vs family size for other window parameters eta (Thm C holds for any fixed eta<1)
+  eta=0.10  M=1e+06: (1-eta)k/2= 4.50  M=1e+09: (1-eta)k/2= 5.85  M=1e+12: (1-eta)k/2= 7.20  M=1e+30: (1-eta)k/2=14.40
+  eta=0.25  M=1e+06: (1-eta)k/2= 3.75  M=1e+09: (1-eta)k/2= 4.88  M=1e+12: (1-eta)k/2= 6.00  M=1e+30: (1-eta)k/2=12.00
+  eta=0.50  M=1e+06: (1-eta)k/2= 2.50  M=1e+09: (1-eta)k/2= 3.25  M=1e+12: (1-eta)k/2= 4.00  M=1e+30: (1-eta)k/2= 8.00
+  eta=0.75  M=1e+06: (1-eta)k/2= 1.25  M=1e+09: (1-eta)k/2= 1.62  M=1e+12: (1-eta)k/2= 2.00  M=1e+30: (1-eta)k/2= 4.00
+  eta=0.90  M=1e+06: (1-eta)k/2= 0.50  M=1e+09: (1-eta)k/2= 0.65  M=1e+12: (1-eta)k/2= 0.80  M=1e+30: (1-eta)k/2= 1.60
+  -> ratio >1 means the k-fold joint modulus exceeds the number of pairs binom(M,2).
+     For fixed eta the ratio ~ (1-eta) L/l -> infinity; it is <=1 only if eta >= 1-2/k, i.e. eta -> 1.
+
+(c) What counting/pigeonhole/entropy can FORCE: a collision mod Q is forced only if #classes(Q) ~ Q < M.
+    A product of j window primes is >= M^(j(1-eta)), so forced joint collisions need j < 1/(1-eta).
+  eta=0.25 M=1e+06: max forced joint count j_max=1, heavy pair needs k=10
+  eta=0.25 M=1e+12: max forced joint count j_max=1, heavy pair needs k=16
+  eta=0.50 M=1e+06: max forced joint count j_max=1, heavy pair needs k=10
+  eta=0.50 M=1e+12: max forced joint count j_max=1, heavy pair needs k=16
+  eta=0.75 M=1e+06: max forced joint count j_max=3, heavy pair needs k=10
+  eta=0.75 M=1e+12: max forced joint count j_max=3, heavy pair needs k=16
+  eta=0.90 M=1e+06: max forced joint count j_max=9, heavy pair needs k=10
+  eta=0.90 M=1e+12: max forced joint count j_max=9, heavy pair needs k=16
+    D_A (round-6 design) has c_xy <= floor(18/(1-eta)): bounded, as is j_max. Any input whose only
+    forcing is counting (pigeonhole, large sieve, Shearer entropy) is satisfied by D_A at k > 18/(1-eta).
+
+(d) Entropy deficit at moduli Q > M is automatic: for ANY M-point set, log #classes(Q) - H(X mod Q) >= log(Q/M).
+  M=1e+06 Q=M^1: forced deficit >=   0.00 nats, same for fakes and actual clusters
+  M=1e+06 Q=M^2: forced deficit >=  13.82 nats, same for fakes and actual clusters
+  M=1e+06 Q=M^5: forced deficit >=  55.26 nats, same for fakes and actual clusters
+
+(e) Size of the 'global' integers in the cluster analogue of CMPSY: sum_{x<y} log|B_xy| <= M W/8, W=c0 M log M.
+  c0=3.0: average |B_xy| ~ M^0.75; window primes per average pair <= 1.50 at eta=1/2
+  c0=4.0: average |B_xy| ~ M^1.00; window primes per average pair <= 2.00 at eta=1/2
+  c0=6.0: average |B_xy| ~ M^1.50; window primes per average pair <= 3.00 at eta=1/2
+    CMPSY-type counting saturates at omega(B) <= log|B|/loglog|B|: this is the two_thirds rate, not better.
+
+(f) Merikoski 2302.11331 range: |B| = X^(1/2-delta), delta<1/10 => |B| > X^0.4. Selection |S|<=M, X=M^h.
+  h=1.2: M = X^0.833 -> in size range (can pad B)
+  h=2.0: M = X^0.500 -> in size range (can pad B)
+  h=2.5: M = X^0.400 -> in size range (can pad B)
+  h=3.0: M = X^0.333 -> too sparse
+  h=5.0: M = X^0.200 -> too sparse
+  h=9.0: M = X^0.111 -> too sparse
+    h0 = 2c0-3 >= 3 since c0 >= 3 (two_thirds), so the top height is always out of range; in the
+    low-height regime P_+(N) < M^(2-delta) the size condition can be met, but the theorem is a count
+    over all primes with b in B (main term >= X^0.9/log X >> M for h > 1.12), so it cannot see the selection.
+  M=1e6 h=1.12: X^0.9/log X = 7.218e+04  vs M=1e+06
+  M=1e6 h=1.5: X^0.9/log X = 6.075e+06  vs M=1e+06
+  M=1e6 h=2.0: X^0.9/log X = 2.284e+09  vs M=1e+06

@@ -1,0 +1,74 @@
+Q1 [ext] lattice points on short arcs of circles Cilleruelo Granville conjecture
+ -> Oganesyan, "Lattice points on small arcs", arXiv 2107.09991 (2021): for alpha in (1/2,1), # lattice pts on arc of length R^alpha not unif bounded; disproves CG conj; L4 norms of Gauss sums. arXiv page marks WITHDRAWN (snippet).
+ -> CG "Close lattice points on circles" CJM 2009; arXiv 1603.09646 (nodal intersections segment); 1308.4247 (Bourgain-Rudnick nodal Lp)
+Q2 [std] "lattice points" "short arcs" circle sqrt R bound 2024 -> nothing new 2024; 2505.06234 (largest circle enclosing n lattice points); 1912.10462 (lattice pts in spherical segments); 2303.00545 (lattice points close to a helix); CANT2022 talk "Lattice points close to ovals, arcs, and helixes"
+Q3 [std] "Cilleruelo-Córdoba" conjecture arcs lattice points proof -> 2012.10784 Temur; 1306.0242 (lattices distinct distances Elekes-Sharir); 1506.08757 (?); JTNB 2000 12 1 87; austms c68
+Q4 [ext] Oganesyan "Lattice points on small arcs" Gauss sums L4 norm -> confirms withdrawal; 1910.01360 (optimal small scale equidistribution lattice points on sphere)
+Q5 [std] "arcs containing" lattice points circle "k lattice points" Cilleruelo Zygmund -> nothing new; Cilleruelo austms 2002 c68 (JAustMS 72 (2002) 217-222); hexagonal lattice pts math/0508201
+Q6 [ext] lattice points on circles close together sqrt R arc uniform bound new result 2025 arXiv -> no 2025 result; 2505.06234 unrelated; craigxchen.com Jarnik_CraigChen.pdf (user's own)
+Q7 [std] "1506.08757" -> not found
+Q8 [std] Granville Wigman Planck-scale mass equidistribution -> CMP 2017 1612.07819: density-one subsequence, uses proximity of lattice pts on circles (Cilleruelo); 1812.00962 Sartori de-randomisation; Mathematika CLT Planck-scale mass
+Q9 [std] Sartori lattice points arcs spectral correlations -> Sartori 2005.04698 "spectral quasi-correlations" generic sums of two squares have none; Klurman-Sartori Lemma 1.5 density-one separation; MPIM preprint 2021-32
+Q10 [std] Benatar Marinucci Wigman -> JAM 141 (2020) 707-749 1710.06153, uses spectral quasi-correlation bounds; 2206.15108 moderate deviations
+Q11 [ext] Klurman Sartori nodal lines near boundary -> arXiv 2104.13038 "new study of lattice points in small arcs" (density one)
+Q12 [std] Kurlberg Lester Poisson spacing -> 2112.08522, Invent. Math (2025) 537-585; density one subsequence; non-iid at scales N^-gamma, 1/2<gamma<log(pi/2)/log2
+Q13 [ext] lattice points on circles small scale angular distribution 2023-2025 -> nothing new
+Q14 [ext] squares in AP improvement Bombieri Zannier k^{3/5} -> no improvement found; Hegyvari "Note on the sumset of squares" arXiv 2504.13230 (2025) uses BZ 3/5 as input: |Q+Q| >= C|Q|(log|Q|)^{1/3+o(1)}; 1708.06951 squares in AP & infinitely many primes; 2005.11559 uniformity conjecture
+Q15 [std] squares in AP Rudin conjecture 2023-2025 -> nothing new; Gonzalez-Jimenez-Xarles 1301.5122 (N<=52); Hajdu-Tengely
+Q16 [std] uniform Mordell DGH squares AP -> DGH Annals 194 (2021) 237-298: #C(Q) bounded in g,d,rank; Garcia-Fritz-Pasten 2604.04850 Bremner conjecture via DGH; Kuhne 2101.10272? (not seen)
+Q17 [std] "Note on the sumset of squares" -> Hegyvari 2504.13230 v2 22 Apr 2025, Chang-Freiman + BZ
+Q18 [std] "Sumsets in the set of squares" -> Elsholtz-Wurzinger, Q. J. Math 75(4) (2024) 1243-1254; Rivat-Sarkozy-Stewart |A|<=(36+o(1))log N for A+A in squares; Dujella-Elsholtz; arXiv 2603.17132 (?)
+Q19 [std] Gabdullin squares short intervals L4 -> arXiv 2205.13611 (v3 Dec 2023) proves CC L4 conjecture for gamma<(sqrt5-1)/2; reduces to divisors in short intervals; Gabdullin-Konyagin cubes 2311.14937; Garaev-Garayev-Konyagin 2602.08807 Sidon sets squares cubes quartics short intervals (2026)
+Q20 [std] CANT2022 talk Gabdullin -> confirms; themoonlight review "Divisors of an Integer in a Short Interval"
+Q21 [ext] Erdos-Rosenfeld divisors near sqrt n -> ER: at most 1+C^2 divisors in (n^{1/2}, n^{1/2}+C n^{1/4}) for n>n0(C); Chan 1303.2069 perfect squares <=5 divisors; Chan 1406.2230 almost squares <=18 divisors in window n^{1/4}(log n)^{1/14}; erdosproblems #887; formal-conjectures PR #7218 (Oct 2026) "rosenfeld_4 is false" C=31 five divisors (forum, unrefereed)
+Q22 [std] erdosproblems lattice points circle short arc Cilleruelo -> nothing new; only CG/CC/BR statements
+Q23 [std] Gabdullin divisors short interval -> Letendre arXiv 2503.12146 (15 Mar 2025) "Divisors of an integer in a short interval": D_n(X,Y) divisors in [X,X+Y]
+Q24 [std] Letendre abstract -> Thm1: D_n(n^theta,n^eta) << tau(n)^{1-xi(theta,eta)} V(n) log tau(n)/(theta(1-theta)) [snippet Q26]; Althofer note on Erdos 873; erdosproblems forum thread 886
+Q25 [std] Gaussian divisors argument short interval -> Sectorial Turan-Kubilius arXiv 2609.25255 "Ergodic averages over shrinking sectors of Z[i]" (2026); Teravainen 2303.05822 Gaussian almost primes narrow sectors; Sinyavskii 2001
+Q26 [ext] erdosproblems 886 -> #886 (Ruzsa) open; ER: infinitely many n with 4 divisors in (n^{1/2}, n^{1/2}+16 n^{1/4}); forum post (Chojecki) using Letendre at theta=1/2: "for any delta in (0,1/4) a uniform estimate above n^{1/4} scale, O(1/delta)" (unclear statement); 2609.25446 density of sums of distinct divisors
+Q27 [ext] Letendre theorem statement -> Thm 1 form tau^{1-xi} V log tau; D_n(X,X) << tau(n)/sqrt(Omega_2(n)); 2510.03672 related; 2408.16576 short-interval Hildebrand-Tenenbaum; Letendre abc revisited 2607.07641
+Q28 [std] erdosproblems 886 latex Letendre -> forum: Letendre at theta=1/2 gives O(1/delta) for window n^{1/4-delta} (BELOW the critical n^{1/4}=R^{1/2} scale); "for eps<=1/4 uniform bound open"; ER 1+C^2 in [n^{1/2}, n^{1/2}+C n^{1/4}]
+   WebFetch github grandchallenge/MATH-PROGRAMME issue 2157: #886 open, ER 1997 Acta Arith, Chan 2014 Acta Arith
+Q29 [std] Tsz Ho Chan lattice points circles 2020-2023 -> nothing after 1406.2230
+Q30 [std] minimal gap lattice points circle uniform -> Cilleruelo JAustMS 2002 (well distributed for most circles), Cilleruelo JNT 43 (1993)
+Q31 [ext] CG conjecture short arcs 2024-2026 -> nothing new; 1906.00435 (random fields)
+Q32 [std] integer points on short arcs of conics -> Ramana Acta Arith 143 (2010) 197-210 "Arcs with no more than two integer points on conics"; 1012.3569 concentration on modular quadratic forms (n^{1/6} arcs <=2 pts on x^2-Dy^2=n); math/0703286 Ramana Vandermonde
+Q33 [ext] "log R / log log R" lattice points arc sublog -> nothing beyond user's own essay (craigxchen.com); Rudnick open problems 2018 PDF (unreachable); 2607.13659 area correlations (unrelated)
+Q34 [std] Temur -> Turkish J. Math 46(7) (2022); weighted sums over lattice pts
+Q35 [std] 2607.13659 -> Lester-Wigman 2305.03549 area correlations, unrelated
+Q36 [ext] integer points on strictly convex arcs Jarnik improvement 2022-2024 -> 2205.08206 "Lattice points on a curve via l^2 decoupling" (|Gamma cap (Z/N)^2| <= c(Gamma,eps) N^{1/2+eps}, FIXED curve); 2407.01778 integral points close to smooth plane curves; 1810.01154 integral points on convex curves; 2509.01568 additive structure in convex sets; Swinnerton-Dyer/Schmidt N^{3/5+eps}
+Q37 [std] Bombieri-Pila uniform 2023 BCN -> Bloom-Lichtman 2312.12890 expository (v3 Jul 2025); BCN d^2 (log N)^{O(1)} N^{1/d}; CCDN 2302.04209 optimal in degree; Walsh
+Q38 [std] Kurlberg-Wigman attainable measures -> Math Ann 2016 (1501.01995); Sartori Bull Polish Acad 66(2) 2018 fractal structure; Chatzakos-Kurlberg-Lester-Wigman 2009.10546 hyperbolic circles
+Q39 [std] spectral correlations Bombieri-Bourgain length-6 -> nothing new; Humphries-Radziwill 1910.01360
+Q40 [std] Bombieri-Bourgain "A problem on sums of two squares" -> IMRN 2015 no.11, 3343-3407, doi 10.1093/imrn/rnu005; methods: sum-product, diophantine approx, elliptic curves
+Q41 [std] Bourgain-Rudnick restriction caps -> Cheng Zhang (+?) arXiv 2606.08650 "Restriction estimates for toral eigenfunctions and lattice points in spherical regions" (2026; slicing/packing + Magyar-Stein-Wainger); Huang-Zhang APDE 2021
+Q42 [std] lattice points spherical caps 2023-2025 -> 2402.12822 variance of lattice pts in spherical caps (BRS conjecture on average); 1105.0018 BR cap bound R^eps(1+r^2/R^{1/2})
+Q43 [std] lattice points linear forms in logs gaussian -> nothing; 2302.01562 (S-integral torsion pts), 2608.15903 (sums of two units)
+Q44 [std] Gaussian primes narrow sectors 2023-25 -> Huang-Liu-Rudnick 1903.04005 (almost all sectors, rho<3/50?); Rudnick-Waxman 1705.07498 angles of Gaussian primes; Varbanets-Vorobyov
+Q45 [std] four/five lattice points short arc R^{2/5} -> R^{2/5} 4-point question open per CG 2007
+Q46 [std] close lattice points follow-up Pell -> nothing new; 2207.09532 lattice pts near convex curve by curvature
+GITHUB code search: "Cilleruelo Granville lattice points arc" -> plasma-ai/erdos library (CG 2007 conj 13, Chan thm 3); formal-conjectures ErdosProblems/782.lean (Erdos #782; not accessible via MCP); ehijano/rss_fetch (daily arXiv RSS dumps 2024-03..2026-10)
+RSS CORPUS: downloaded ehijano/rss_fetch@30c967b daily dumps for math.NT, CA, CO, AG, SP, MG, PR, AP, DS, GM, HO (964 days each, 2024-03-05..2026-10-27): 92,926 distinct arXiv records. Regex searches (tools/grep.py):
+  'lattice points' & arc|circle -> only Waxman-Yesha 2305.02060 (thin sectors of the DISC), CDW 2608.12316, Gauss circle numerics; NO paper on lattice points ON short arcs of a circle 2024-03..2026-10.
+  Cilleruelo -> 9 hits, none on circles. Jarnik -> none relevant. squares in AP -> only number-field versions (2602.01380, 2602.03251). Bombieri-Zannier / Erdos-Rosenfeld -> 0. divisor short interval -> Letendre 2503.12146.
+  sums of two squares -> 44 hits; relevant-ish: Guo-Ilyin 2309.10971 (annuli with sparse lattice points, threshold s=1/4), Burrin-Grobner 2502.17678, Baier-Rahaman 2504.09650/2508.18044, Sun-Zhao 2609.13894 (Linnik microsquares), Tsai-Lee-Takahashi 2606.07735 (symmetric PTE ~ x^2+y^2=u^2+v^2)
+  linear forms in logs / Vojta / unit equations / subspace -> Ziegler 2609.15487 (a1x+a2y=a3 has <=(|S|-1)/2 sols for large h(a3)), Ferreira-Ribas 2602.23597 (Arg of algebraic unimodular numbers Diophantine via LFL), Calegari-Dimitrov-Tang 2510.04156 (holonomy bounds, effective DA), Wang-Xiao 2604.26497, Lombardo 2609.23899
+  sectors -> Lester-Waxman-Yesha 2609.23214 (variance in narrow sectors), Kus 2605.19105 (Halasz in sectors)
+  additive energy circle -> CDW 2608.12316, Li-Yung 2609.33949 (high-low, same results)
+  Sidon squares short intervals -> Garaev-Garayev-Konyagin 2602.08807
+  toral -> Burq-Germain-Sorella-Zhu 2507.16599 (uses cluster structure), Zhang-Zhu 2606.08650, Wu-Xiao 2610.23836
+Q47 [std] abc implies lattice points short arcs CG conditional -> nothing; CG paper only
+Q48 [std] Cammarota-Klurman-Wigman spectral semi-correlations -> CMP 2020 doi 10.1007/s00220-020-03737-w
+Q49 [std] arXiv 1104.2635 -> not identified
+Q50 [std] Temur "equivalent to a well known conjecture" -> Temur Conj 3 (arc N^eta, eta<1/2, <= C_eta pts), Thm 5 via simultaneous Pell + Schmidt
+Q51 [std] Oganesyan withdrawn -> no reason found
+Q52 [std] lattice points arcs uniformly bounded 2022-2023 special family -> nothing; Trifonov 2207.09532
+Q53 [ext] lattice points arc R^{1/2} uniform recent -> nothing new; Rudnick open problems 2018 notes (BR separation for all but O(N^{1-eps}) radii)
+Q54 [std] Cilleruelo arcs no three lattice points follow-up -> nothing new
+Q55 [ext] squares in AP N^{3/5} improved -> no improvement; 2606.01780 (Korsky, hitting APs at sqrt scale, unrelated); RACSAM 2022 uniform bounds powers in AP; 1811.11919
+Q56 [std] BGP genus 5 uniform Mordell squares -> no DGH application found; Gonzalez-Jimenez 2602.03251
+Q57 [std] erdosproblems circle lattice points arc -> #466 (unrelated); no Erdos problem on arcs
+GITHUB raw: plasma-ai/erdos@05a6a79 cards: CG 2007 Conj 13-15 (equivalence, (5.1) easy for alpha<=1/4, unproved for alpha>1/4), Erdos #782 (open), Chan 2015 Thm 3 (n=N^2: <=10 pts with |b|<n^{1/4}(log n)^{1/7}; via simultaneous Pell, Turk 1984)
+Q58 [std] Vojta / Bombieri-Lang implies arcs bounded -> nothing beyond CG/repo
+Q59 [std] Katai-Kornyei / Kurlberg-Lester small scale -> density-one only
+Q60 [std] Huxley Swinnerton-Dyer convex arcs new -> nothing new (2407.01778 survey-type near curves)
