@@ -1,0 +1,23 @@
+# Referee notes
+- Lemma 2.1, Cor 2.2: re-derived, OK.
+- Thm A (1)-(4): re-derived, OK (OPP only in (3)).
+- Lemma B0, B1, Thm B(1)-(3): re-derived, OK. Triple tau-pattern check OK (8 patterns).
+- Cor B2: OK.
+- Thm P: proof re-derived OK; sign from pi Z^r shift is (-1)^{<e,n>}, x-independent. Missing: q^a<=X condition in computational TC (allnorm) needs X >= max|Re Z_v^2|.
+- Thm S: C<=1 case vacuous for actual clusters (Cilleruelo: arc sqrt2 R^{1/2} has <=2 pts). Check stability.md.
+- Forced sets K=4 recomputed independently (forced.py, enum.c): identical to author's for all 4 sets.
+- One-modulus K=4 scans (onemod.py): segments first4 [3,103]/107(108), rand4 [3,47]/59(752), bal4 [3,41]/43(40), last4 [3,29]/31(24) CONFIRMED. index[Z^4:Lambda_T]=1 at all q0>=7 CONFIRMED (last4 q0=5 rank<4, q0=3 idx2).
+- Author's C counts in classify table differ from mine (mine count all collisions over +-v incl retained genuine); A0/A1 counts agree. presentational.
+- |P0| range "18 to 81" in text wrong: actual 18..164 (K=4).
+- Lifts at 59/43/31/107 verified (lift.py) - 20 each.
+- Thm C (2.1) correct. BUT propagation reading "forces deviation at q1 in F\{q0}" false when q0 | D_{s'+2}(Z_v): U^F relative to all F, so drop can be at q0 itself (label moves genuine q0-collision from unit s'+2 to s'). Theorem statement "some q1 in F" fine; summary "second modulus" wrong.
+- Cor S1: "every q<=2M forced" needs r > M/4 - O(1); for C>1 Thm S gives only r > (M/4)(1+2M log C/W')^{-1} = M/4 - Theta(M/log M). So q<=2M claim false-as-derived for C>1 (only q <= 2M(1+2Mlog C/W')^{-1}); window q<=M fine.
+- Thm S C<=1 statements vacuous for actual clusters (Cilleruelo-Cordoba: arc sqrt2 R^{1/2} => <=2 pts). Operative bound (M/4)(1-O_C(1/log M)).
+- K=5 (author forced data, round-14 verified): first4 one-mod SL rigid [3,163], 163 PU 160/80 no A1 all A0; 167 (24), 173 (42) confirmed. 179 SL-rigid again.
+- K=5 triple index 1 at every forced q0>=7, all four sets: confirmed (tg5_*.txt).
+- NEW referee data K=5 loose: rand4 first SL-flex 67 (16), bal4 67 (16), last4 43 (60).
+- TC certificates: r=16,32,64 all-mode; Y=4r for r=16,32,64; r=64 Y=128: index 1 confirmed (tc_*.out).
+- Strictness K=4 one-mod: matches author exactly (79: 32/32/16; 89: 80/40/20; 103: 48/48/24; others all (1,0)-strict). 89 non-strict labels lift to level 2 (strict_lift).
+- Thm C "second modulus" REFUTED per-monomial: first4 v=(-3,1,0,0), Z_v=-28-29i, D=(-29,1,-28,-57), q0=19 | D_3, U^F_1=U^F_3=1; moving q0-collision from unit 3 to unit 1 gives m_1=19, m_3=3: 361+9<=3250, full J0 holds. 108 such (v,s,q0) for first4 K=4, 80 for rand4 (thmC_search.py).
+- K=5 strictness first4: only 157 (48/48/24), 163 (80/80/40) non-(1,0)-strict: confirmed.
+- K=5 lifts: first4/167, rand4/67, bal4/67, last4/43 OK.

@@ -1,0 +1,8 @@
+ps=[5, 13, 17, 29] K=4 q0=83 n=21 |F|=40 genuine L=[3, 55, 46, 72]
+  totals: {'all': 36, 'out_gen': 24, 'out_eps': 24, 'ANG': 12, 'ANG_out_eps': 0, 'SLg_out_eps': 0}
+  extra-type profiles of survivors outside every eps-class (count):
+    {'C': 8, 'OPP': 4}: 12
+    {'C': 2, 'OPP': 2}: 12
+  opposite-unit cofactor U_(s'+2) on OPP-failing extras: {1: 72}
+  examples: [((1, 51, 46, 78), {'GEN': 2, 'C': 8, 'A1': 0, 'OPP': 4, 'ADJ': 0, 'MAX': 0}), ((3, 25, 16, 72), {'GEN': 8, 'C': 2, 'A1': 0, 'OPP': 2, 'ADJ': 0, 'MAX': 0}), ((3, 53, 44, 72), {'GEN': 8, 'C': 2, 'A1': 0, 'OPP': 2, 'ADJ': 0, 'MAX': 0})]
+  ANG-good, not SL at genuine phi, outside every eps-class: 0

@@ -1,0 +1,18 @@
+GB tables: 3:1 7:1 11:1 19:1 23:1 31:1 41:1 43:1 47:1 53:1 59:1 61:1 67:6 71:2 73:1 79:26 83:10 89:48 97:9 101:50 103:140 107:70 109:66 113:209 127:462 131:1527 137:1567 139:3362 149:5129 151:23 157:8465 163:3847 167:7918 173:15614 179:18842 181:20034 191:9280 193:2556 197:47295 199:26732 211:59289 223:36779 227:70052 229:82872 233:48319 239:55939 241:64430 251:76510 257:41770 263:49782 269:65281 271:27915 281:30530 293:42637 [944s]
+Q=101: level-1 genuine-budget cpc on F<=293: INFEASIBLE nodes=1 [946s]
+CERT Q=101 level1 [946s]
+Q=103: level-1 genuine-budget cpc on F<=293: INFEASIBLE nodes=1 [946s]
+CERT Q=103 level1 [946s]
+Q=107: level-1 genuine-budget cpc on F<=293: INFEASIBLE nodes=1 [947s]
+CERT Q=107 level1 [947s]
+Q=109: level-1 genuine-budget cpc on F<=293: INFEASIBLE nodes=1 [949s]
+CERT Q=109 level1 [949s]
+Q=113: level-1 genuine-budget cpc on F<=293: INFEASIBLE nodes=1 [950s]
+CERT Q=113 level1 [950s]
+Q=127: level-1 genuine-budget cpc on F<=293: DONE nodes=34 [951s]
+   level-1 on F<=293, Q=127: DONE nodes=34 [955s]
+   deep ((3, 3), (5, 3), (7, 2)): DONE nodes=63 sols=30 [957s]
+WITNESS Q=127 saved W_first5_K4_gen_Q127.pkl [972s]
+OK: 54 moduli, 2720 (v,s) slab checks passed (phi=genuine); min slack ratio |D|/m = 1.0
+   coherent (one eps) on forced q <= 113;  first non-coherent: [127]
+   labels outside EVERY column-sign class: 29/54; in genuine class: 25

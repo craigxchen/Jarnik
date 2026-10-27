@@ -1,0 +1,4 @@
+ps=[53, 61, 89, 173] K=4 q0=31 ell=[3, 13, 9, 6]: minimal infeasible core of 3 monomials (bnb nodes 331)
+  v=(0, 0, 0, 1) N=173 D=[13, -11, 2, 15] U=[1, 1, 2, 1] q0-unit(ell)=None q0-unit(gen)=None type=none
+  v=(0, 1, 0, 0) N=61 D=[6, -1, 5, 11] U=[2, 1, 1, 1] q0-unit(ell)=None q0-unit(gen)=None type=none
+  v=(0, 2, 0, 1) N=643733 D=[-23, -779, -802, -825] U=[1, 1, 802, 1] q0-unit(ell)=0 q0-unit(gen)=None type=A

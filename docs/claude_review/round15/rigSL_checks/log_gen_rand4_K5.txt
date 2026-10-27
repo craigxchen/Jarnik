@@ -1,0 +1,2 @@
+   level-1 on F<=47, Q=11: DONE nodes=44 [2s]
+   deep ((3, 3), (5, 3), (7, 2)): ABORTED nodes=1000001 sols=0 [713s]

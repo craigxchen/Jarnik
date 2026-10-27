@@ -1,0 +1,7 @@
+  totals: {'all': 120, 'out_gen': 96, 'out_eps': 96, 'ANG': 72, 'ANG_out_eps': 48, 'SLg_out_eps': 24}
+  ell=[121, 59, 23, 100] lift=[13897, 6443, 16991, 27988] outside every eps-class=True PU viol=0 slab viol at phi0=0
+  ell=[125, 79, 139, 20] lift=[13901, 6463, 17107, 27908] outside every eps-class=True PU viol=0 slab viol at phi0=0
+ps=[5, 13, 17, 29] K=5 q0=167: verified all-level SL witnesses outside every eps-class: 20
+q0=167: |P0|=332 |T|=332 index[Z^r:<T>]=1
+
+[exited with code 0]

@@ -1,0 +1,7 @@
+   level-1 on F<=47, Q=11: DONE nodes=15 [7s]
+   deep ((3, 3), (5, 3), (7, 2)): DONE nodes=44 sols=30 [28s]
+RESULT last4 K=4 Q=11: WITNESS [31s]
+saved W_last4_K4_gen_Q11.pkl [31s]
+OK: 44 moduli, 1280 (v,s) slab checks passed (phi=genuine); min slack ratio |D|/m = 1.0
+   coherent (one eps) on forced q <= 7;  first non-coherent: [11]
+   labels outside EVERY column-sign class: 41/44; in genuine class: 3

@@ -1,0 +1,8 @@
+Ysmooth=0 K=3 r=4 primes [5, 13, 17, 29]: |P0 ∩ V_2|=20 |T|=58 index[Z^r:<T>]=1
+Ysmooth=0 K=3 r=8 primes [5, 13, 17, 29, 37, 41]...: |P0 ∩ V_2|=44 |T|=170 index[Z^r:<T>]=1
+Ysmooth=0 K=3 r=16 primes [5, 13, 17, 29, 37, 41]...: |P0 ∩ V_2|=124 |T|=580 index[Z^r:<T>]=1
+Ysmooth=0 K=3 r=32 primes [5, 13, 17, 29, 37, 41]...: |P0 ∩ V_2|=400 |T|=2958 index[Z^r:<T>]=1
+Ysmooth=0 K=3 r=64 primes [5, 13, 17, 29, 37, 41]...: |P0 ∩ V_2|=1224 |T|=14336 index[Z^r:<T>]=1
+Ysmooth=0 K=3 r=4 primes [53, 61, 89, 173]: |P0 ∩ V_2|=40 |T|=124 index[Z^r:<T>]=1
+Ysmooth=0 K=3 r=4 primes [97, 101, 109, 113]: |P0 ∩ V_2|=38 |T|=124 index[Z^r:<T>]=1
+Ysmooth=0 K=3 r=4 primes [353, 373, 389, 397]: |P0 ∩ V_2|=40 |T|=126 index[Z^r:<T>]=1

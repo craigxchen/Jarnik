@@ -1,0 +1,6 @@
+Ysmooth=16 K=4 r=16 primes [5, 13, 17, 29, 37, 41]...: |P0 ∩ V_2|=28 |T|=16 index[Z^r:<T>]=rank<r
+Ysmooth=32 K=4 r=16 primes [5, 13, 17, 29, 37, 41]...: |P0 ∩ V_2|=64 |T|=94 index[Z^r:<T>]=rank<r
+Ysmooth=32 K=4 r=32 primes [5, 13, 17, 29, 37, 41]...: |P0 ∩ V_2|=106 |T|=122 index[Z^r:<T>]=rank<r
+Ysmooth=64 K=4 r=32 primes [5, 13, 17, 29, 37, 41]...: |P0 ∩ V_2|=172 |T|=314 index[Z^r:<T>]=2
+Ysmooth=64 K=4 r=64 primes [5, 13, 17, 29, 37, 41]...: |P0 ∩ V_2|=324 |T|=456 index[Z^r:<T>]=rank<r
+Ysmooth=128 K=4 r=64 primes [5, 13, 17, 29, 37, 41]...: |P0 ∩ V_2|=558 |T|=1562 index[Z^r:<T>]=1

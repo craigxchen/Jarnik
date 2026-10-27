@@ -1,0 +1,9 @@
+index test 2 4 2 3
+Ysmooth=64 K=4 r=16 primes [5, 13, 17, 29, 37, 41]...: |P0 ∩ V_2|=86 |T|=176 index[Z^r:<T>]=1
+Ysmooth=256 K=4 r=16 primes [5, 13, 17, 29, 37, 41]...: |P0 ∩ V_2|=124 |T|=764 index[Z^r:<T>]=1
+Ysmooth=128 K=4 r=32 primes [5, 13, 17, 29, 37, 41]...: |P0 ∩ V_2|=270 |T|=838 index[Z^r:<T>]=1
+Ysmooth=512 K=4 r=32 primes [5, 13, 17, 29, 37, 41]...: |P0 ∩ V_2|=400 |T|=3952 index[Z^r:<T>]=1
+Ysmooth=256 K=4 r=64 primes [5, 13, 17, 29, 37, 41]...: |P0 ∩ V_2|=808 |T|=4342 index[Z^r:<T>]=1
+Terminated
+
+[exited with code 143]

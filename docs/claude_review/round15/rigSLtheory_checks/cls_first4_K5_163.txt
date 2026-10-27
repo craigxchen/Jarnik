@@ -1,0 +1,11 @@
+  col 0: 80 partial survivors
+  col 1: 3680 partial survivors
+  col 2: 7280 partial survivors
+  col 3: 160 partial survivors
+ps=[5, 13, 17, 29] K=5 q0=163 n=41 |F|=65 genuine L=[155, 17, 19, 71]
+  totals: {'all': 160, 'out_gen': 80, 'out_eps': 80, 'ANG': 80, 'ANG_out_eps': 0, 'SLg_out_eps': 0}
+  extra-type profiles of survivors outside every eps-class (count):
+    {'C': 12, 'OPP': 2}: 40
+    {'C': 8, 'OPP': 2}: 40
+  opposite-unit cofactor U_(s'+2) on OPP-failing extras: {1: 160}
+  examples: [((1, 69, 65, 87), {'GEN': 2, 'C': 12, 'A1': 0, 'OPP': 2, 'ADJ': 0, 'MAX': 0}), ((1, 147, 31, 159), {'GEN': 4, 'C': 8, 'A1': 0, 'OPP': 2, 'ADJ': 0, 'MAX': 0}), ((5, 17, 161, 107), {'GEN': 2, 'C': 12, 'A1': 0, 'OPP': 2, 'ADJ': 0, 'MAX': 0})]

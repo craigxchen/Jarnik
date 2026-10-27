@@ -1,0 +1,9 @@
+  ell=[3, 1, 11, 14]: INFEASIBLE (49 nodes) witness=None
+  ell=[7, 29, 39, 6]: INFEASIBLE (49 nodes) witness=None
+  ell=[11, 17, 27, 38]: INFEASIBLE (49 nodes) witness=None
+  ell=[19, 33, 3, 22]: INFEASIBLE (49 nodes) witness=None
+  ell=[23, 21, 31, 14]: INFEASIBLE (49 nodes) witness=None
+  ell=[27, 9, 19, 6]: INFEASIBLE (49 nodes) witness=None
+  ell=[31, 37, 7, 38]: INFEASIBLE (49 nodes) witness=None
+  ell=[39, 13, 23, 22]: INFEASIBLE (49 nodes) witness=None
+ps=[97, 101, 109, 113] K=4 q0=41: 8 labels; outcomes {'INFEASIBLE': 8}

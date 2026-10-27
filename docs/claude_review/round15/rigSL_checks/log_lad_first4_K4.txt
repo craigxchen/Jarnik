@@ -1,0 +1,18 @@
+PU tables: 3:16 7:64 11:128 19:128 23:128 31:256 37:256 41:256 43:512 47:768 53:1024 59:768 61:1024 67:1280 71:1792 73:3072 79:4352 83:4736 89:3328 97:18816 101:5440 103:4544 107:3712 109:5184 113:7104 127:4064 131:10208 137:6528 139:9392 149:6736 151:6448 157:11608 163:3936 167:3118 173:7392 179:4460 181:5408 191:2300 193:24128 199:4240 [9s]
+Q=61: level-1 genuine-budget cpc on F<=199: INFEASIBLE nodes=1 [9s]
+CERT Q=61 level1 [9s]
+Q=67: level-1 genuine-budget cpc on F<=199: INFEASIBLE nodes=1 [10s]
+CERT Q=67 level1 [10s]
+Q=71: level-1 genuine-budget cpc on F<=199: INFEASIBLE nodes=1 [10s]
+CERT Q=71 level1 [10s]
+Q=73: level-1 genuine-budget cpc on F<=199: INFEASIBLE nodes=1 [10s]
+CERT Q=73 level1 [10s]
+Q=79: level-1 genuine-budget cpc on F<=199: INFEASIBLE nodes=1 [11s]
+CERT Q=79 level1 [11s]
+Q=83: level-1 genuine-budget cpc on F<=199: DONE nodes=24 [11s]
+   level-1 on F<=199, Q=83: DONE nodes=24 [13s]
+   deep ((3, 3), (5, 3), (7, 2)): DONE nodes=53 sols=30 [13s]
+WITNESS Q=83 saved W_first4_K4_gen_Q83.pkl [14s]
+OK: 40 moduli, 1280 (v,s) slab checks passed (phi=genuine); min slack ratio |D|/m = 1.0
+   coherent (one eps) on forced q <= 79;  first non-coherent: [83]
+   labels outside EVERY column-sign class: 20/40; in genuine class: 20

@@ -1,0 +1,5 @@
+ps=[97, 101, 109, 113] K=4 q0=41 ell=[3, 1, 11, 14]: minimal infeasible core of 4 monomials (bnb nodes 1085)
+  v=(0, 0, 1, 0) N=109 D=[10, -7, 3, 13] U=[2, 1, 1, 1] q0-unit(ell)=None q0-unit(gen)=None type=none
+  v=(1, 0, -1, 2) N=135006637 D=[11619, -11693, -74, 11545] U=[1291, 1063, 2, 2309] q0-unit(ell)=2 q0-unit(gen)=None type=A
+  v=(1, 0, 0, 0) N=97 D=[9, -5, 4, 13] U=[1, 1, 4, 1] q0-unit(ell)=None q0-unit(gen)=None type=none
+  v=(1, 0, 0, 1) N=10961 D=[95, -139, -44, 51] U=[1, 1, 4, 1] q0-unit(ell)=None q0-unit(gen)=None type=none

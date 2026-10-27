@@ -1,0 +1,1 @@
+ps=[53, 61, 89, 173] K=4 q0=31 ell=[3, 13, 9, 6] constraints=160: INFEASIBLE after 21 nodes; witness t (phi=pi t) = None

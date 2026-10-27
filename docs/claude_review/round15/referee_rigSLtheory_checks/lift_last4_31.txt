@@ -1,0 +1,21 @@
+{"q0": 31, "label": [1, 14, 29, 30], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [767, 658, 931, 514]]}
+{"q0": 31, "label": [3, 10, 25, 2], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [509, 886, 231, 414]]}
+{"q0": 31, "label": [3, 10, 25, 18], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [29, 758, 199, 430]]}
+{"q0": 31, "label": [5, 6, 17, 22], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [987, 218, 559, 906]]}
+{"q0": 31, "label": [7, 2, 5, 10], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [89, 350, 315, 854]]}
+{"q0": 31, "label": [7, 2, 5, 26], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [505, 734, 347, 166]]}
+{"q0": 31, "label": [9, 30, 5, 14], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [407, 2, 571, 818]]}
+{"q0": 31, "label": [11, 26, 17, 2], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [245, 934, 847, 990]]}
+{"q0": 31, "label": [11, 26, 17, 18], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [85, 198, 335, 526]]}
+{"q0": 31, "label": [13, 22, 25, 6], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [339, 266, 935, 730]]}
+{"q0": 31, "label": [15, 18, 29, 10], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [721, 302, 483, 182]]}
+{"q0": 31, "label": [15, 18, 29, 26], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [241, 750, 611, 358]]}
+{"q0": 31, "label": [17, 14, 13, 30], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [143, 50, 883, 418]]}
+{"q0": 31, "label": [19, 10, 9, 2], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [749, 342, 503, 286]]}
+{"q0": 31, "label": [19, 10, 9, 18], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [141, 118, 407, 846]]}
+{"q0": 31, "label": [21, 6, 1, 22], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [939, 506, 895, 330]]}
+{"q0": 31, "label": [23, 2, 21, 10], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [521, 830, 555, 886]]}
+{"q0": 31, "label": [23, 2, 21, 26], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [585, 702, 43, 774]]}
+{"q0": 31, "label": [25, 30, 21, 14], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [647, 162, 587, 882]]}
+{"q0": 31, "label": [27, 26, 1, 2], "SLphi0_exact": true, "collisions": 44, "in_eps_class": false, "lift_found_both_conventions": true, "lift": [-1, [261, 326, 703, 286]]}
+ALL_OK True n_labels 20 SL counts (32, 8, 24)
