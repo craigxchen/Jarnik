@@ -292,7 +292,30 @@ $\mathrm{dist}(y,e)\le H_B(y)^{-(1/4+\delta/2)}$, approximating the **rational**
 * So this is the McKinnon–Roth regime. According to the killer, the only predictions beyond Liouville/Seshadri are
   conjectural: Vojta, and McKinnon's conjecture that best approximations lie on rational curves. The killer also
   knew of no unconditional theorem that beats Liouville at a rational point of such a variety on a Zariski-dense
-  set. Both statements are the killer's own and **not literature-checked**.
+  set. Round 22 checked this at snippet level (two independent searches plus an offline arXiv mirror): no
+  unconditional theorem with $\alpha^{\rm ess}>\tau_x$ at a rational point was found for any variety
+  (`round22/README.md` §2, J3).
+
+**In the approximation-constant literature's own terms** (round 22; `round22/README.md` §§0, 4; `round22/toric.md`,
+`round22/lit.md` with their killer reports). The 4-fold is the twisted Losev–Manin space $X=\overline{L}_5^{\rm tw}$. It
+is smooth and **weak Fano**, not Fano: $-K$ is nef and big but not ample, with polytope the $A_4$ root polytope, and
+$-K=\phi^*(-K_{X'})$ for the small crepant contraction $\phi$ onto the twisted Gorenstein toric Fano $X'$, with
+$X(\mathbb Q)=X'(\mathbb Q)=T_5(\mathbb Q)$ and $(-K)^4=70$ (**proved**). With $H=H_{-K}=R''^2$, an A-point at
+$\delta$ has McKinnon–Roth exponent $\gamma=4/(1+2\delta)$, and:
+* $\varepsilon_e(-K)=\alpha_e(-K)=2$ (**proved**), attained only on diagonal conics, which carry repeated points;
+* $10/3\le\tau_e(-K)\le15/4$ (**proved**; exact data $t_{\max}(m)=\lfloor10m/3\rfloor$ for $m\le8$ suggest
+  $\tau_e=10/3$); every finite family of auxiliary Laurent polynomials used through Liouville, for every profile,
+  gives at best $A_5(\delta)$ for $\delta>2/\tau_e-1/2\ge1/30$ (**proved**);
+* $A_5(\delta<1/30)$ is exactly $\alpha^{\rm ess}_e(-K)>15/4$ off a proper closed set, and $(L_5^\circ)$ is the same
+  over balanced sequences; Vojta predicts $\ge4=\dim X$.
+
+> **Question B, literature form.** Is the twisted toric Fano 4-fold $X'$ (so that $X'(\mathbb Q)=T_5(\mathbb Q)$ for
+> the anisotropic norm-one torus $T_5$) **canonically bounded** at the identity $e$ in the sense of McKinnon–Satriano
+> (TAMS 374 (2021)), i.e. does every Zariski-dense sequence of rational points tending to $e$ have
+> $\alpha(-K)\ge\dim X=4$? Less ambitiously: is $\alpha^{\rm ess}_e(-K)>15/4$, at least along sequences whose 15
+> toric heights are asymptotically equal? A yes gives the uniform Cilleruelo–Granville bound (gauss Thm 3.4'). In
+> McKinnon–Satriano canonical boundedness is a **hypothesis**; by their 2023 erratum Vojta implies it when $-K$ is
+> big. The record found no unconditional proof for any variety (snippet level; full texts unread).
 
 > **Question B.** Prove $(L_5^\circ)$, or $A_5(\delta)$ for some $\delta<1/30$. Or refute $(L_5^\circ)$ by a
 > Zariski-dense supply of balanced bounded-residue 5-tuples at exponent $\ge7/15$ (for a rational family, one

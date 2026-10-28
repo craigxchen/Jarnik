@@ -1,0 +1,5 @@
+(1) toric -K height == (max/min)*lcm on 300 random primitive tuples: OK
+(2) k=3: #A ni j = 3, #A = 6, #A contains a,b = 1; balanced Liouville alpha = 3 = 4(1-2^(1-k)) = 3
+(2) k=4: #A ni j = 7, #A = 14, #A contains a,b = 3; balanced Liouville alpha = 7/2 = 4(1-2^(1-k)) = 7/2
+(2) k=5: #A ni j = 15, #A = 30, #A contains a,b = 7; balanced Liouville alpha = 15/4 = 4(1-2^(1-k)) = 15/4
+(2) k=6: #A ni j = 31, #A = 62, #A contains a,b = 15; balanced Liouville alpha = 31/8 = 4(1-2^(1-k)) = 31/8

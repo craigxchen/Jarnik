@@ -1,0 +1,5 @@
+k=5 m=1 |S|=21 max ord (mod p, two primes) = [3, 3]
+k=5 m=2 |S|=131 max ord (mod p, two primes) = [6, 6]
+k=5 m=3 |S|=471 max ord (mod p, two primes) = [10, 10]
+k=5 m=4 |S|=1251 max ord (mod p, two primes) = [13, 13]
+k=5 m=5 |S|=2751 max ord (mod p, two primes) = [16, 16]

@@ -138,9 +138,12 @@ being exactly Liouville-critical on it. Round 21 (`round21/README.md`) attacks t
 it (`P_+(N') = o(log R)` implies `M = o(log R/loglog R)`); the large sieve there reduces to arc counts and to the cross-gap item;
 the record's Haar-completion fake constructions provably cannot run there (success probability `<= exp(-c M^(delta/2))`); angle
 models are genuine on every complete initial segment of split primes. The judge again recommends stopping; the overview is
-updated through round 21.
+updated through round 21. Round 22 (`round22/README.md`) restates `(L_5^circ)` in the approximation-constant literature's terms: it is
+`alpha^ess_e(-K) > 15/4` at the identity of the twisted weak-Fano Losev-Manin 4-fold, implied by McKinnon-Satriano canonical
+boundedness at `e`, which is only a hypothesis (or a consequence of Vojta) in the literature. Every Liouville/section/Seshadri
+argument is proved to stop at `tau_e <= 15/4`; no known theorem reaches the target.
 
-**Growth-rate status (2026-10-28, after round 21).** No growth improvement over `log R/loglog R` is proved, either
+**Growth-rate status (2026-10-28, after round 22).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues

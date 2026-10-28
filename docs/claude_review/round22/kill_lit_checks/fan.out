@@ -1,0 +1,14 @@
+k=3: max cones 6, distinct m_sigma 6, nef violations 0, strict-convexity violations 0; ample=True; example None
+   rays 6, Galois orbits 3 -> rank Pic(X)^Gal = 3; geometric Pic rank = 4
+   widths of P(-K) over proper A: [2]; Thm B mean-width bound per m = 3 (claimed 4-2^(3-k) = 3)
+k=4: max cones 24, distinct m_sigma 12, nef violations 0, strict-convexity violations 24; ample=False; example ((0, 1, 2, 3), [0, 2], 1)
+   rays 14, Galois orbits 7 -> rank Pic(X)^Gal = 7; geometric Pic rank = 11
+   widths of P(-K) over proper A: [2]; Thm B mean-width bound per m = 7/2 (claimed 4-2^(3-k) = 7/2)
+k=5: max cones 120, distinct m_sigma 20, nef violations 0, strict-convexity violations 480; ample=False; example ((0, 1, 2, 3, 4), [0, 2], 1)
+   rays 30, Galois orbits 15 -> rank Pic(X)^Gal = 15; geometric Pic rank = 26
+   widths of P(-K) over proper A: [2]; Thm B mean-width bound per m = 15/4 (claimed 4-2^(3-k) = 15/4)
+   -K.C_v == 2(max v - min v) on 2000 random v: True
+   vertex set of P == {e_i - e_j}: True
+k=6: max cones 720, distinct m_sigma 30, nef violations 0, strict-convexity violations 7920; ample=False; example ((0, 1, 2, 3, 4, 5), [0, 2], 1)
+   rays 62, Galois orbits 31 -> rank Pic(X)^Gal = 31; geometric Pic rank = 57
+   widths of P(-K) over proper A: [2]; Thm B mean-width bound per m = 31/8 (claimed 4-2^(3-k) = 31/8)

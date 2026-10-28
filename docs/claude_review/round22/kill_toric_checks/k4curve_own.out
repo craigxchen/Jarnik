@@ -1,0 +1,5 @@
+(X,m)=(-3,3): ImP = [-420, -180, -240], constant=True, 14 distinct roots=True, each of 14 rays met once=True, B.C=14, contact=4, ratio=7/2, D_V.C=24 vs ord_e V_4 * mult = 24
+(X,m)=(2,5): ImP = [6032/98415, 188500/19683, -7540/6561], constant=True, 14 distinct roots=True, each of 14 rays met once=True, B.C=14, contact=4, ratio=7/2, D_V.C=24 vs ord_e V_4 * mult = 24
+(X,m)=(1/2,3/2): ImP = [-2015/15972, -585/1331, -585/5324], constant=True, 14 distinct roots=True, each of 14 rays met once=True, B.C=14, contact=4, ratio=7/2, D_V.C=24 vs ord_e V_4 * mult = 24
+(X,m)=(-5,1): ImP = [975/4, 3315/4, 585], constant=True, 14 distinct roots=True, each of 14 rays met once=True, B.C=14, contact=4, ratio=7/2, D_V.C=24 vs ord_e V_4 * mult = 24
+(X,m)=(7,2): ImP = [-506415/1331, -690060/1331, -1068480/1331], constant=True, 14 distinct roots=True, each of 14 rays met once=True, B.C=14, contact=4, ratio=7/2, D_V.C=24 vs ord_e V_4 * mult = 24

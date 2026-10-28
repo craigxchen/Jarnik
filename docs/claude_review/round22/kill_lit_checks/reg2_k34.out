@@ -1,0 +1,9 @@
+k=3 m=1 |S|=7 max_ord(mod p, p in [1000003, 998244353]) = [3, 3]  ratio 3.0000
+k=3 m=2 |S|=19 max_ord(mod p, p in [1000003, 998244353]) = [6, 6]  ratio 3.0000
+k=3 m=3 |S|=37 max_ord(mod p, p in [1000003, 998244353]) = [9, 9]  ratio 3.0000
+k=3 m=4 |S|=61 max_ord(mod p, p in [1000003, 998244353]) = [12, 12]  ratio 3.0000
+k=3 m=5 |S|=91 max_ord(mod p, p in [1000003, 998244353]) = [15, 15]  ratio 3.0000
+k=4 m=1 |S|=13 max_ord(mod p, p in [1000003, 998244353]) = [3, 3]  ratio 3.0000
+k=4 m=2 |S|=55 max_ord(mod p, p in [1000003, 998244353]) = [6, 6]  ratio 3.0000
+k=4 m=3 |S|=147 max_ord(mod p, p in [1000003, 998244353]) = [9, 9]  ratio 3.0000
+k=4 m=4 |S|=309 max_ord(mod p, p in [1000003, 998244353]) = [12, 12]  ratio 3.0000

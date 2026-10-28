@@ -1,0 +1,6 @@
+m=6 |S|=5321 T=floor(10m/3)=20 #monomials=10626 rank=5321 full=True [94s]
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round22/toric_checks/reg_cert.py", line 12, in <module>
+    rows=[[ (pow(x[0]%p,a[0],p)*pow(x[1]%p,a[1],p)*pow(x[2]%p,a[2],p)%p*pow(x[3]%p,a[3],p))%p for a in ms] for x in pts]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+MemoryError

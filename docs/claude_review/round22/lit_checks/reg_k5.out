@@ -1,0 +1,4 @@
+k=5 m=1 |S|=21 reg_p=3 ord/m=3.0000 (tau bound 3.75)
+k=5 m=2 |S|=131 reg_p=6 ord/m=3.0000 (tau bound 3.75)
+k=5 m=3 |S|=471 reg_p=10 ord/m=3.3333 (tau bound 3.75)
+k=5 m=4 |S|=1251 reg_p=13 ord/m=3.2500 (tau bound 3.75)
