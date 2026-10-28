@@ -1,0 +1,17 @@
+Part A: 10-pt cluster, r = 5 primes, rank B = 5, free dimension m = r - rank B = 0
+  angle model at phi = arg(pi_p): max |rel angle - actual| mod pi/2 = 1.78e-15
+  fake 0: diam ratio 0.9986; max |arg Z_f - arg Z| = 1.143e-03 (Z_f != Z); max_S |lambda_f(y_S) - lambda(y_S)| = 0.0361; widths/heights/gcds: profile-level, identical
+  fake 1: diam ratio 1.0042; max |arg Z_f - arg Z| = 1.205e-03 (Z_f != Z); max_S |lambda_f(y_S) - lambda(y_S)| = 0.0742; widths/heights/gcds: profile-level, identical
+  fake 2: diam ratio 0.9500; max |arg Z_f - arg Z| = 2.224e-03 (Z_f != Z); max_S |lambda_f(y_S) - lambda(y_S)| = 0.0888; widths/heights/gcds: profile-level, identical
+  monomial relations Z^k = 1 for k in relation lattice (k' in {-1,0,1}^9): 50 found, all exactly 1: True (fakes satisfy them identically: arg Z_f^k = sum_p 2<k,a_p> phi'_p = 0)
+Part B: supercriticality scan (evidence)
+  lambda(Z) = 3.1127
+  E= 181.540  P0=[113] b=0 |S|=51 reg<=5 L=35.351 RHS=0.000
+  E= 181.540  P0=[29, 113] b=0 |S|=51 reg<=5 L=35.351 RHS=0.000
+  E= 181.540  P0=[29] b=0 |S|=51 reg<=5 L=35.351 RHS=0.000
+  E= 181.540  P0=[17, 113] b=1 |S|=51 reg<=5 L=35.351 RHS=0.000
+  E= 181.540  P0=[17, 113] b=0 |S|=51 reg<=5 L=35.351 RHS=0.000
+  E= 181.540  P0=[17, 29, 113] b=2 |S|=51 reg<=5 L=35.351 RHS=0.000
+  E= 181.540  P0=[17, 29, 113] b=1 |S|=51 reg<=5 L=35.351 RHS=0.000
+  E= 181.540  P0=[17, 29, 113] b=0 |S|=51 reg<=5 L=35.351 RHS=0.000
+  supports scanned: 104; max E = 181.540; any E > 0: True

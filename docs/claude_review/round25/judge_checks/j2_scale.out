@@ -1,0 +1,20 @@
+(a) R1(d): (1-2^-m)(1+eta)/(1-eta) < (1-eta) with m=2t+1, eta=2^-(2t+4)
+   holds exactly for t = 3..30
+(a') route-5 regime n-1 >= 300 ln(4r), r = 2^(2t+1)-2, M = largest 4q+1 <= 2^t
+   t=10: M=1021, M-1=1020, 300 ln 4r = 4782.7, ok=False
+   t=11: M=2045, M-1=2044, 300 ln 4r = 5198.6, ok=False
+   t=12: M=4093, M-1=4092, 300 ln 4r = 5614.5, ok=False
+   t=13: M=8189, M-1=8188, 300 ln 4r = 6030.4, ok=True
+   t=14: M=16381, M-1=16380, 300 ln 4r = 6446.3, ok=True
+   t=15: M=32765, M-1=32764, 300 ln 4r = 6862.2, ok=True
+(b) scale of the data (lower bounds on W = log N'):
+   R1 data t=13: r=134217726, w0>=39.51, W>=5.303e+09; M log M = 7.379e+04; ratio W/(M log M) >= 7.187e+04
+   generally r = 2^(2t+1)-2 >= 2M^2-2 primes, so W >= (2M^2-2) log 5; e.g. M=8189: 2.159e+08
+   cube class M=10: W >= (2^(M-1)-1) log 5 = 8.224e+02; M log M = 23.0
+   cube class M=20: W >= (2^(M-1)-1) log 5 = 8.438e+05; M log M = 59.9
+   cube class M=40: W >= (2^(M-1)-1) log 5 = 8.848e+11; M log M = 147.6
+(c) U = I - (strict upper ones), r x r: exact inverse
+   r=5: entries = 2^(j-i-1) above diagonal: True; max entry 8; max row l1 16 = 2^(r-1)
+   r=10: entries = 2^(j-i-1) above diagonal: True; max entry 256; max row l1 512 = 2^(r-1)
+   r=20: entries = 2^(j-i-1) above diagonal: True; max entry 262144; max row l1 524288 = 2^(r-1)
+(d) Lemma R2 constant: 1 + log m <= (1.39 - (log 4 - 1)) m for m = 1..10^6: True

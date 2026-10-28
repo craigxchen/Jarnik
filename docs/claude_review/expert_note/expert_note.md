@@ -357,6 +357,20 @@ $\delta$ has McKinnon–Roth exponent $\gamma=4/(1+2\delta)$, and:
 > Blind numerical solvers all missed $M$, so failed searches in this class are not evidence of emptiness. Consequently
 > a proof of Question B for $T_5$ that is not also a proof for the split form (hence of Erdős #887) must use a global
 > twist-sensitive input; the only one known is the parity lemma.
+>
+> The disjoint-primes hypothesis is essential (round 25 `intra.md`, `referee_intra.md`, **proved**). The
+> $\binom M5$ gcd-reduced 5-subtuples $y_S$ of one cluster are the projections $\mathrm{pr}_S(Z)$ of a single point
+> $Z\in T_M(\mathbb Q)$, $T_M=(R^1_{\mathbb Q(i)/\mathbb Q}\mathbb G_m)^M/\mathrm{diag}$. Every multi-point
+> Liouville/Dyson comparison among them, with toric forced divisibility across shared primes, is one-point toric
+> Liouville on $T_M$ at $Z$. Conversely, a star partition $T_M\cong T_5^{(M-1)/4}$ identifies route 5's
+> forced-divisibility forms with intra-cluster forms. Two results follow.
+> * If $Z$ is balanced on all $2^{M-1}-1$ cuts of $[M]$, nothing in this class with a Taylor-type archimedean bound
+>   beats $15/4$, uniformly in the auxiliary form.
+> * For 5-wise uniform cut designs (e.g. extended BCH, $M\ge8189$) every 5-subtuple is exactly balanced with
+>   $\mu<4(1-\eta)$, yet route 5's LP supercriticality forces $F(y)=0$.
+>
+> So shared primes do beat the one-point cap, but only by producing exact algebraic relations. Using those relations
+> requires route 5's open zero estimate at the actual point. This gives nothing towards Question B.
 
 > **Absolute form of the A-branch** (round 23 judge J4; independent referee `round23/referee_J4.md`, **proved**). If
 > $A_5(\delta)$ holds for one $\delta\in(0,1/30)$, there is $K=K(\delta,Z)$ such that for every $C>0$ and every
@@ -485,6 +499,10 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      **proved** as a formal barrier).
    * On the Gaussian model: the forms are exactly critical (Lemma K1 with `threshold/construct.md` Cor C3 and Thm B).
    * Roth and Schmidt need an irrational target, and $e$ is rational.
+   * Multi-point (Thue/Siegel/Dyson) arguments on the 5-subtuples of one cluster are one-point toric Liouville on
+     $T_M$ at the cluster point, which is the determinant method with forced divisibility ("route 5"). In the growth
+     regime they force exact algebraic relations and stop at a zero estimate at the actual point. With lacunary degrees
+     they reduce to one-point caps (round 25 `intra.md`, **proved**; the comparable-degree dichotomy is **heuristic**).
 4. **Single linear forms in logarithms** (Baker–Matveev, single-form Lang–Waldschmidt). Fakes satisfy them
    (`round8/lw.md` Thms A, B; `round8/stability.md` Prop 6.1; **proved**).
 5. **$S$-unit and Subspace arguments with thresholds depending on $S$ only through $|S|$.** These give at best

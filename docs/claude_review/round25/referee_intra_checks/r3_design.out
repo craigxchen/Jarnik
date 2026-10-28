@@ -1,0 +1,24 @@
+greedy F_2^6: M=7, m=6, r=2^m-1=63 primes (one per u); any 5 columns independent: True
+   every 5-subtuple exactly balanced (15 cuts x 2^(m-4) primes, gcd class 2^(m-4)-1): True
+   distinct cuts of [M] carried: 32 of 63  (Thm 5.1 needs all 63; 31 empty)
+   equal-weight primes, diameter L=C sqrt R, subtuple diam >= L/kappa:  mu(y_S) = 4(1-2^-m) - log(C/kappa)/w_S = 3.937500 - log(C/kappa)/w_S  (< 4 iff kappa < C*e^{w_S 2^(2-m)})
+greedy F_2^7: M=9, m=7, r=2^m-1=127 primes (one per u); any 5 columns independent: True
+   every 5-subtuple exactly balanced (15 cuts x 2^(m-4) primes, gcd class 2^(m-4)-1): True
+   distinct cuts of [M] carried: 64 of 255  (Thm 5.1 needs all 255; 191 empty)
+   equal-weight primes, diameter L=C sqrt R, subtuple diam >= L/kappa:  mu(y_S) = 4(1-2^-m) - log(C/kappa)/w_S = 3.968750 - log(C/kappa)/w_S  (< 4 iff kappa < C*e^{w_S 2^(2-m)})
+ext-BCH t=3: M=8, m=7, r=2^m-1=127 primes (one per u); any 5 columns independent: True
+   every 5-subtuple exactly balanced (15 cuts x 2^(m-4) primes, gcd class 2^(m-4)-1): True
+   distinct cuts of [M] carried: 64 of 127  (Thm 5.1 needs all 127; 63 empty)
+   equal-weight primes, diameter L=C sqrt R, subtuple diam >= L/kappa:  mu(y_S) = 4(1-2^-m) - log(C/kappa)/w_S = 3.968750 - log(C/kappa)/w_S  (< 4 iff kappa < C*e^{w_S 2^(2-m)})
+ext-BCH t=4: M=16, m=9, r=2^m-1=511 primes (one per u); any 5 columns independent: True
+   every 5-subtuple exactly balanced (15 cuts x 2^(m-4) primes, gcd class 2^(m-4)-1): True
+   distinct cuts of [M] carried: 256 of 32767  (Thm 5.1 needs all 32767; 32511 empty)
+   equal-weight primes, diameter L=C sqrt R, subtuple diam >= L/kappa:  mu(y_S) = 4(1-2^-m) - log(C/kappa)/w_S = 3.992188 - log(C/kappa)/w_S  (< 4 iff kappa < C*e^{w_S 2^(2-m)})
+t=8: M=256, r=131071, n-1 >= 300 ln(4r)? False  (255 vs 3951); cube would need r=2^(M-1)-1
+t=9: M=512, r=524287, n-1 >= 300 ln(4r)? False  (511 vs 4367); cube would need r=2^(M-1)-1
+t=10: M=1024, r=2097151, n-1 >= 300 ln(4r)? False  (1023 vs 4783); cube would need r=2^(M-1)-1
+t=11: M=2048, r=8388607, n-1 >= 300 ln(4r)? False  (2047 vs 5199); cube would need r=2^(M-1)-1
+t=12: M=4096, r=33554431, n-1 >= 300 ln(4r)? False  (4095 vs 5614); cube would need r=2^(M-1)-1
+t=13: M=8192, r=134217727, n-1 >= 300 ln(4r)? True  (8191 vs 6030); cube would need r=2^(M-1)-1
+t=14: M=16384, r=536870911, n-1 >= 300 ln(4r)? True  (16383 vs 6446); cube would need r=2^(M-1)-1
+t=15: M=32768, r=2147483647, n-1 >= 300 ln(4r)? True  (32767 vs 6862); cube would need r=2^(M-1)-1

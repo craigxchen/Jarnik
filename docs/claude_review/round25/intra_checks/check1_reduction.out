@@ -1,0 +1,18 @@
+== record 10-pt cluster: N'=1176852625 M=10 primes=[(5, 3), (13, 2), (17, 1), (29, 1), (113, 1)] W=20.8861
+  (a) chi_s(y_S) via reduced tuple == Z^(iota_S s), all 252 5-subsets: True
+  (b) v_pi(zeta_S)=a-min and N/N(g_S)=prod p^(max-min): True;  h_B(y_S)/W in [1/2,1] all: True  (min 0.7737, max 1.0000)
+      lambda(Z)=3.1127  W/lambda(Z)=6.7100 ; subtuple exponents h_B/lambda min/med/max = 5.0713/6.3852/6.7100  (evidence)
+  (c) F(y)==G(Z): True; width_F == width_Phi*suppF >= width_suppG: True (strict at 30 prime-instances); Norm(G(Z))*prod p^width integer>=1: True
+  (d) sharing gain sum_i RHS_i - RHS_F over 40 F: min 4.778 med 21.421 max 55.530 (>=0 always: True)
+== 9-pt subcluster: N'=1176852625 M=9 primes=[(5, 3), (13, 2), (17, 1), (29, 1), (113, 1)] W=20.8861
+  (a) chi_s(y_S) via reduced tuple == Z^(iota_S s), all 126 5-subsets: True
+  (b) v_pi(zeta_S)=a-min and N/N(g_S)=prod p^(max-min): True;  h_B(y_S)/W in [1/2,1] all: True  (min 0.7737, max 1.0000)
+      lambda(Z)=3.1572  W/lambda(Z)=6.6153 ; subtuple exponents h_B/lambda min/med/max = 5.0713/6.2846/6.6153  (evidence)
+  (c) F(y)==G(Z): True; width_F == width_Phi*suppF >= width_suppG: True (strict at 35 prime-instances); Norm(G(Z))*prod p^width integer>=1: True
+  (d) sharing gain sum_i RHS_i - RHS_F over 40 F: min 5.731 med 33.582 max 64.261 (>=0 always: True)
+== 8-pt window, squarefree-ish norm: N'=3159797225 M=8 primes=[(5, 2), (13, 2), (17, 1), (29, 1), (37, 1), (41, 1)] W=21.8738
+  (a) chi_s(y_S) via reduced tuple == Z^(iota_S s), all 56 5-subsets: True
+  (b) v_pi(zeta_S)=a-min and N/N(g_S)=prod p^(max-min): True;  h_B(y_S)/W in [1/2,1] all: True  (min 0.8349, max 1.0000)
+      lambda(Z)=2.9372  W/lambda(Z)=7.4470 ; subtuple exponents h_B/lambda min/med/max = 5.7845/7.0949/7.4470  (evidence)
+  (c) F(y)==G(Z): True; width_F == width_Phi*suppF >= width_suppG: True (strict at 44 prime-instances); Norm(G(Z))*prod p^width integer>=1: True
+  (d) sharing gain sum_i RHS_i - RHS_F over 40 F: min 3.540 med 34.037 max 60.494 (>=0 always: True)

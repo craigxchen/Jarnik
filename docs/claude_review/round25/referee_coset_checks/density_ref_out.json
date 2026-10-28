@@ -1,0 +1,10 @@
+{
+ "n_monomials": 30228,
+ "transplant_ok": true,
+ "eps_normalised=0.001": 0.001,
+ "eps_normalised=0.0001": 0.0915,
+ "eps_normalised=1e-05": 0.4845,
+ "eps_normalised=1e-06": 0.9195,
+ "eps_normalised=1e-07": 1.0,
+ "uniform": 0.0
+}

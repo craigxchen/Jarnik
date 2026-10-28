@@ -1,0 +1,7 @@
+M=5: done
+M=6: done
+M=7: done
+(5.1) reg <= 2^(2-M) sum_cuts width : violations 0/95, max reg/bound 0.4898
+reg < 2*max|k|_1                     : violations 0/95, max reg/K1 0.5000
+star M=9: unique preimage and s_j in 4T R_5 for T=1,2,3: True
+star M=13: unique preimage and s_j in 4T R_5 for T=1,2,3: True

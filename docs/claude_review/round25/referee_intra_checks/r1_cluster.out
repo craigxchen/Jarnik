@@ -1,0 +1,12 @@
+== N=1176852625 M=10 C=8.2386 gcd norm=1
+  L2.1(1) chars True  (2) vals True  (3) heights True hB/W in [0.7737,1.0000]  (4) lam True
+  Thm3.1(1) F(y)==G(Z): True; width_suppG<=width_QF: True (strict 0); L3.3 integral>=1: True
+  sharing gain sum_i RHS(pr_i) - RHS_F: min 5.666 max 127.215  W=20.886  lamZ=3.1127
+== N=1176852625 M=9 C=7.8798 gcd norm=1
+  L2.1(1) chars True  (2) vals True  (3) heights True hB/W in [0.7737,1.0000]  (4) lam True
+  Thm3.1(1) F(y)==G(Z): True; width_suppG<=width_QF: True (strict 0); L3.3 integral>=1: True
+  sharing gain sum_i RHS(pr_i) - RHS_F: min 0.000 max 133.659  W=20.886  lamZ=3.1572
+== N=2576450045 M=8 C=15.0115 gcd norm=1
+  L2.1(1) chars True  (2) vals True  (3) heights True hB/W in [0.8286,1.0000]  (4) lam True
+  Thm3.1(1) F(y)==G(Z): True; width_suppG<=width_QF: True (strict 0); L3.3 integral>=1: True
+  sharing gain sum_i RHS(pr_i) - RHS_F: min 1.609 max 113.193  W=21.670  lamZ=2.7086

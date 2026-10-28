@@ -147,9 +147,12 @@ problem #887 (absolute form): it is not easier and supplies no mechanism; a 2026
 curve at the Liouville constant that cannot exist on the twisted form. Round 24 (`round24/README.md`) tests the anisotropy of `T_5`: pointwise it gives
 nothing (every Galois-aware Liouville argument is implied by a single-section one, so the split caps hold), and balanced twisted
 curves at `15/4` exist over `R` but only finitely many over `Q` on the known component (a form-independent fact). The judge again
-recommends stopping internal rounds.
+recommends stopping internal rounds. Round 25 (`round25/README.md`) shows the intra-cluster multi-point (Thue/Dyson) argument on the
+5-subtuples of one cluster is exactly route 5's determinant method: shared primes beat the one-point cap only by forcing exact
+algebraic relations, which need route 5's open zero estimate. It also reduces the low-height window's fake-existence question
+to existence with slack and proves sequential union-bound certificates cannot reach it.
 
-**Growth-rate status (2026-10-28, after round 24).** No growth improvement over `log R/loglog R` is proved, either
+**Growth-rate status (2026-10-28, after round 25).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues

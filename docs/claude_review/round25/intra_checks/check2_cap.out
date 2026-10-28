@@ -1,0 +1,9 @@
+(i) star partition
+  M=9, q=2: Phi^* = identity in bases e_x - e_anchor: True; slab monomials pull back with s_j in 4T R_5 (T=1,2): True
+  M=13, q=3: Phi^* = identity in bases e_x - e_anchor: True; slab monomials pull back with s_j in 4T R_5 (T=1,2): True
+  M=17, q=4: Phi^* = identity in bases e_x - e_anchor: True; slab monomials pull back with s_j in 4T R_5 (T=1,2): True
+(ii)/(iii) orders, Theorem B on the sum-zero slice, cube cap
+  M=6: idx<=ord True; ord<=reg True; reg<=2^(2-M)sum_cuts w_A True; cube RHS >= 2^(M-3) ord True; star: idx==ord n/a; idx<ord in mode0: 0/20, mode1: 20/20; samples (mode,idx,ord,reg,MW,RHS/2^(M-3)): [(0, 2, 2, 2, 7.75, 7.75), (1, 1, 2, 2, 5.8125, 5.8125), (0, 3, 3, 3, 9.375, 9.375), (1, 1, 2, 2, 5.375, 5.375), (0, 3, 3, 3, 10.625, 10.625), (1, 1, 2, 2, 7.75, 7.75), (0, 2, 2, 2, 9.375, 9.375), (1, 1, 2, 2, 6.3125, 6.3125)]
+  M=7: idx<=ord True; ord<=reg True; reg<=2^(2-M)sum_cuts w_A True; cube RHS >= 2^(M-3) ord True; star: idx==ord n/a; idx<ord in mode0: 0/15, mode1: 15/15; samples (mode,idx,ord,reg,MW,RHS/2^(M-3)): [(0, 2, 2, 2, 9.9375, 9.9375), (1, 1, 3, 3, 10.28125, 10.28125), (0, 2, 2, 2, 8.6875, 8.6875), (1, 1, 2, 2, 9.0, 9.0), (0, 2, 2, 2, 5.875, 5.875), (1, 1, 2, 2, 7.9375, 7.9375), (0, 2, 2, 2, 9.03125, 9.03125), (1, 1, 3, 3, 8.34375, 8.34375)]
+  M=9: idx<=ord True; ord<=reg True; reg<=2^(2-M)sum_cuts w_A True; cube RHS >= 2^(M-3) ord True; star: idx==ord True; idx<ord in mode0: 0/12, mode1: 12/12; samples (mode,idx,ord,reg,MW,RHS/2^(M-3)): [(0, 3, 3, 3, 9.4453125, 9.4453125), (1, 1, 2, 2, 8.40625, 8.40625), (0, 2, 2, 2, 9.59375, 9.59375), (1, 1, 2, 2, 9.8125, 9.8125), (0, 2, 2, 2, 7.3125, 7.3125), (1, 1, 2, 2, 6.7578125, 6.7578125), (0, 2, 2, 2, 5.9375, 5.9375), (1, 1, 2, 2, 7.71875, 7.71875)]
+(iv) lacunary width inequality on the 10-pt profile, 300 F x primes: True; min slack 1
