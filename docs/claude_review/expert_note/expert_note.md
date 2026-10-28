@@ -503,6 +503,24 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      $T_M$ at the cluster point, which is the determinant method with forced divisibility ("route 5"). In the growth
      regime they force exact algebraic relations and stop at a zero estimate at the actual point. With lacunary degrees
      they reduce to one-point caps (round 25 `intra.md`, **proved**; the comparable-degree dichotomy is **heuristic**).
+   * *Zero estimates do not supply route 5's missing lemma* (round 26 `ze.md`, `referee_ze.md`; **proved** at the
+     degree level, given the shape of Philippon's 1986 zero lemma, with margins $\ge e^{1.7\cdot10^4}$ that make its
+     exact constants irrelevant). Route 5's Liouville step certifies, for one form $P_c$, vanishing at $Z^M$ only for
+     integer endomorphisms $M$ with $\Lambda_M(c)<\mathrm{ord}(c)-O(E)$; for the powers $Z^j$ this means
+     $|j|<\mathrm{ord}(c)/\Lambda(c)\le1.07\sqrt n/\lambda$, by the spectral cap
+     $\mathrm{ord}(c)\le(\sqrt n/\lambda)\Lambda(\mathrm{supp}\,c)$, and only $|j|\le1$–$4$ on regime boxes. A
+     Philippon estimate on $\mathbb G_m^d$ needs progressions of length about $d$, so its conclusion is met by the
+     trivial subgroup. The dual framing (one exponential polynomial on $\mathbb G_a^d\times\mathbb G_m$ vanishing on
+     the slab box) has obstruction subgroups whose counts do not depend on the point, is vacuous at the degree level,
+     and is false in Hilbert-sharp form. Moreover it concerns $\mathrm{Bs}(V(A,m))$, while route 5 needs
+     $Z\notin\mathrm{Bs}(V_H)$ for the height-cut forced space $V_H$. The global statement any group-theoretic
+     argument would have to prove is therefore **ZE$^{\rm all}_H$: $\mathrm{Bs}(V_H)$ contains no nondegenerate point**,
+     which is not group-structured. The Hilbert-level claim that no single-form estimate can help is proved only for
+     powers-only data and well-conditioned profiles ($\lambda\ge\lambda^*(n,\mu)$, checked at four values of $n$).
+     Profile automorphisms are certified too, and once they are counted the argument fails near $m_{\max}$ (the
+     claim is then unproved, not refuted), so it should not be cited as general.
+     The actual point lies on no proper algebraic subgroup, but that does not affect a count at the trivial subgroup.
+   | round 26: zero estimates vs route 5's ZE; spectral LP cap; target ZE$^{\rm all}_H$ | `round26/README.md`, `round26/ze.md` (with `referee_ze.md`) |
 4. **Single linear forms in logarithms** (Baker–Matveev, single-form Lang–Waldschmidt). Fakes satisfy them
    (`round8/lw.md` Thms A, B; `round8/stability.md` Prop 6.1; **proved**).
 5. **$S$-unit and Subspace arguments with thresholds depending on $S$ only through $|S|$.** These give at best

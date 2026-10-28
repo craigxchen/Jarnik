@@ -1,0 +1,8 @@
+k=3 n=8: checked 1344 affine maps, column-to-+-column for 1344
+  Lambda(sigma S) == Lambda(S) on 200 random supports: failures=0
+  P_c(Z^sigma) == P_(c o sigma^-1 on exponents)(Z), 30 exact trials: failures=0
+k=4 n=16: checked 3000 affine maps, column-to-+-column for 3000
+  Lambda(sigma S) == Lambda(S) on 200 random supports: failures=0
+  P_c(Z^sigma) == P_(c o sigma^-1 on exponents)(Z), 30 exact trials: failures=0
+ln|AGL(12,2)| = 106.89
+ln|AGL(13,2)| = 124.91

@@ -1,0 +1,4 @@
+n=2966 m=1887: all hold=True; tightest ln(LHS/RHS)=0.2008 at e=2964 Vx1
+n=2966 m=1906: all hold=True; tightest ln(LHS/RHS)=0.1969 at e=2964 Vx1
+n=4096 m=2256: all hold=True; tightest ln(LHS/RHS)=0.2545 at e=4094 Vx1
+n=4096 m=2631: all hold=True; tightest ln(LHS/RHS)=0.1971 at e=4094 Vx1

@@ -1,0 +1,30 @@
+n=2966 d=2965 W=29615.2 w=471.72 ceil4w=1887 m_max=1906 E(mmax,1)=1.690 Jl(mmax)=2 Jl(4w)=1
+   Prop3.5(1): ln(d!2^d)=22799.2; minus ln binom(1+d,d)=22791.2
+   GV S_d=17142.1; log10 W bound=7441.1
+   Prop4.4: ln((d+1)(m-1)^d)=22370.7, minus d ln3 = 19113.3
+   mu=1887: lam=n/(n-1): ln count=3205.4 ln avail=3256.7 holds=True; barrier holds iff lam >~ <=1e-3 (2.14 sqrt n/d = 0.0393)
+   mu=1906: lam=n/(n-1): ln count=3223.5 ln avail=3256.5 holds=True; barrier holds iff lam >~ 0.01684 [exact: holds at 1.01*thr: True; at 0.99*thr: False] (2.14 sqrt n/d = 0.0393)
+n=3000 d=2999 W=30057.3 w=474.71 ceil4w=1899 m_max=1928 E(mmax,1)=1.685 Jl(mmax)=2 Jl(4w)=1
+   Prop3.5(1): ln(d!2^d)=23094.8; minus ln binom(1+d,d)=23086.8
+   GV S_d=17372.8; log10 W bound=7541.3
+   Prop4.4: ln((d+1)(m-1)^d)=22646.1, minus d ln3 = 19351.4
+   mu=1899: lam=n/(n-1): ln count=3233.3 ln avail=3294.0 holds=True; barrier holds iff lam >~ <=1e-3 (2.14 sqrt n/d = 0.0391)
+   mu=1928: lam=n/(n-1): ln count=3260.1 ln avail=3293.8 holds=True; barrier holds iff lam >~ 0.01978 [exact: holds at 1.01*thr: True; at 0.99*thr: False] (2.14 sqrt n/d = 0.0391)
+n=4096 d=4095 W=44864.7 w=563.83 ceil4w=2256 m_max=2631 E(mmax,1)=1.541 Jl(mmax)=2 Jl(4w)=1
+   Prop3.5(1): ln(d!2^d)=32808.8; minus ln binom(1+d,d)=32800.5
+   GV S_d=24994.1; log10 W bound=10851.0
+   Prop4.4: ln((d+1)(m-1)^d)=31625.4, minus d ln3 = 27126.6
+   mu=2256: lam=n/(n-1): ln count=4090.8 ln avail=4498.1 holds=True; barrier holds iff lam >~ <=1e-3 (2.14 sqrt n/d = 0.0334)
+   mu=2631: lam=n/(n-1): ln count=4458.9 ln avail=4498.0 holds=True; barrier holds iff lam >~ 0.00943 [exact: holds at 1.01*thr: True; at 0.99*thr: False] (2.14 sqrt n/d = 0.0334)
+   AGL(12,2) orbit: ln|AGL|=106.89; mu=2256: ln(count*|AGL|)=4197.7 ln avail=4498.1 holds=True
+   AGL(12,2) orbit: ln|AGL|=106.89; mu=2631: ln(count*|AGL|)=4565.8 ln avail=4498.0 holds=False
+   AGL orbit: largest mu with barrier = 2559 (m_max=2631)
+n=8192 d=8191 W=106764.2 w=825.41 ceil4w=3302 m_max=5260 E(mmax,1)=1.296 Jl(mmax)=3 Jl(4w)=1
+   Prop3.5(1): ln(d!2^d)=71299.4; minus ln binom(1+d,d)=71290.4
+   GV S_d=55663.5; log10 W bound=24170.3
+   Prop4.4: ln((d+1)(m-1)^d)=66372.3, minus d ln3 = 57373.6
+   mu=3302: lam=n/(n-1): ln count=6842.2 ln avail=8998.0 holds=True; barrier holds iff lam >~ <=1e-3 (2.14 sqrt n/d = 0.0236)
+   mu=5260: lam=n/(n-1): ln count=8942.7 ln avail=8997.9 holds=True; barrier holds iff lam >~ 0.00613 [exact: holds at 1.01*thr: True; at 0.99*thr: False] (2.14 sqrt n/d = 0.0236)
+   AGL(13,2) orbit: ln|AGL|=124.91; mu=3302: ln(count*|AGL|)=6967.1 ln avail=8998.0 holds=True
+   AGL(13,2) orbit: ln|AGL|=124.91; mu=5260: ln(count*|AGL|)=9067.6 ln avail=8997.9 holds=False
+   AGL orbit: largest mu with barrier = 5186 (m_max=5260)

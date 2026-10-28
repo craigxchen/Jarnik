@@ -1,0 +1,6 @@
+J = 68 m_max = 2631
+mu=2256: powers-only holds=True; orbit holds=True; ln(agl*c)=4197.66 ln(avail)=4498.12
+mu=2558: powers-only holds=True; orbit holds=True; ln(agl*c)=4496.91 ln(avail)=4498.12
+mu=2559: powers-only holds=True; orbit holds=True; ln(agl*c)=4497.88 ln(avail)=4498.12
+mu=2560: powers-only holds=True; orbit holds=False; ln(agl*c)=4498.84 ln(avail)=4498.12
+mu=2631: powers-only holds=True; orbit holds=False; ln(agl*c)=4565.80 ln(avail)=4498.00

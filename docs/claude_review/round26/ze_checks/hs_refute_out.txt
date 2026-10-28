@@ -1,0 +1,4 @@
+n=2966 m=1887 floor(w/2)=235: HS refuted (no obstruction subgroup) = True; min ln(LHS/RHS) = 0.201 at dim V = 2964
+n=2966 m=1906 floor(w/2)=235: HS refuted (no obstruction subgroup) = True; min ln(LHS/RHS) = 0.197 at dim V = 2964
+n=4096 m=2256 floor(w/2)=281: HS refuted (no obstruction subgroup) = True; min ln(LHS/RHS) = 0.254 at dim V = 4094
+n=4096 m=2631 floor(w/2)=281: HS refuted (no obstruction subgroup) = True; min ln(LHS/RHS) = 0.197 at dim V = 4094

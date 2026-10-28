@@ -1,0 +1,55 @@
+T=1 slab box; r = n (and Sylvester r = n-1 for lam); C = 1; W = W_min = 3 n ln n - 14 n
+      n  m_max        w     4w E(m_max,1) J_lemma(m_max) J_lemma(ceil4w) sqrt(n)/lam_Syl    d/2
+   2966   1906   471.72   1887      1.690              2               1           54.44   1482
+   3000   1928   474.71   1899      1.685              2               1           54.75   1499
+   4096   2631   563.83   2256      1.541              2               1           63.98   2047
+   8192   5260   825.41   3302      1.296              3               1           90.50   4095
+  16384  10518  1205.63   4823      1.117              4               1          127.99   8191
+ 100000  64167  3212.36  12850      0.822              9               1          316.22  49999
+1000000 641697 11027.89  44112      0.615             29               1         1000.00 499999
+
+Philippon (torus picture), degree normalisation d!(2T)^d at T=1; singleton Sigma, T0 <= mu/d <= 2:
+  n=2966: ln binom(T0+d,d) <= 15.3  vs  ln d!2^d = 22799.2  -> H={e} inequality holds (vacuous)
+  n=3000: ln binom(T0+d,d) <= 15.3  vs  ln d!2^d = 23094.8  -> H={e} inequality holds (vacuous)
+  n=4096: ln binom(T0+d,d) <= 15.9  vs  ln d!2^d = 32808.8  -> H={e} inequality holds (vacuous)
+  n=8192: ln binom(T0+d,d) <= 17.3  vs  ln d!2^d = 71299.4  -> H={e} inequality holds (vacuous)
+  n=16384: ln binom(T0+d,d) <= 18.7  vs  ln d!2^d = 153959.2  -> H={e} inequality holds (vacuous)
+  n=100000: ln binom(T0+d,d) <= 22.3  vs  ln d!2^d = 1120601.7  -> H={e} inequality holds (vacuous)
+  n=1000000: ln binom(T0+d,d) <= 26.9  vs  ln d!2^d = 13508651.1  -> H={e} inequality holds (vacuous)
+
+Generous variant (vanishing only on Sigma, order T0 <= mu <= 2d, |Sigma| <= 2J*+1, J* <= T d W/log 5):
+  n=2966: ln[d!2^d / binom(3d,d)] = 17142.1; vacuous for all W with ln(2dW/log5+1) <= that, i.e. log10 W_vac ~ 7441
+  n=3000: ln[d!2^d / binom(3d,d)] = 17372.8; vacuous for all W with ln(2dW/log5+1) <= that, i.e. log10 W_vac ~ 7541
+  n=4096: ln[d!2^d / binom(3d,d)] = 24994.1; vacuous for all W with ln(2dW/log5+1) <= that, i.e. log10 W_vac ~ 10851
+  n=8192: ln[d!2^d / binom(3d,d)] = 55663.5; vacuous for all W with ln(2dW/log5+1) <= that, i.e. log10 W_vac ~ 24170
+  n=16384: ln[d!2^d / binom(3d,d)] = 122680.8; vacuous for all W with ln(2dW/log5+1) <= that, i.e. log10 W_vac ~ 53275
+  n=100000: ln[d!2^d / binom(3d,d)] = 929655.9; vacuous for all W with ln(2dW/log5+1) <= that, i.e. log10 W_vac ~ 403739
+  n=1000000: ln[d!2^d / binom(3d,d)] = 11599118.1; vacuous for all W with ln(2dW/log5+1) <= that, i.e. log10 W_vac ~ 5037427
+
+Dual picture G_a^d x G_m, bidegree (m-1,1): |Sigma| <= |A| <= 3^d  vs  (d+1)(m-1)^d
+  n=2966 m=1887: ln 3^d = 3257.4 <= ln (d+1)(m-1)^d = 22370.7  (m-1 >= 3 suffices)
+  n=2966 m=1906: ln 3^d = 3257.4 <= ln (d+1)(m-1)^d = 22400.4  (m-1 >= 3 suffices)
+  n=3000 m=1899: ln 3^d = 3294.7 <= ln (d+1)(m-1)^d = 22646.1  (m-1 >= 3 suffices)
+  n=3000 m=1928: ln 3^d = 3294.7 <= ln (d+1)(m-1)^d = 22691.6  (m-1 >= 3 suffices)
+  n=4096 m=2256: ln 3^d = 4498.8 <= ln (d+1)(m-1)^d = 31625.4  (m-1 >= 3 suffices)
+  n=4096 m=2631: ln 3^d = 4498.8 <= ln (d+1)(m-1)^d = 32255.4  (m-1 >= 3 suffices)
+  n=8192 m=3302: ln 3^d = 8998.7 <= ln (d+1)(m-1)^d = 66372.3  (m-1 >= 3 suffices)
+  n=8192 m=5260: ln 3^d = 8998.7 <= ln (d+1)(m-1)^d = 70187.0  (m-1 >= 3 suffices)
+  n=16384 m=4823: ln 3^d = 17998.6 <= ln (d+1)(m-1)^d = 138953.0  (m-1 >= 3 suffices)
+  n=16384 m=10518: ln 3^d = 17998.6 <= ln (d+1)(m-1)^d = 151728.5  (m-1 >= 3 suffices)
+  n=100000 m=12850: ln 3^d = 109860.1 <= ln (d+1)(m-1)^d = 946104.2  (m-1 >= 3 suffices)
+  n=100000 m=64167: ln 3^d = 109860.1 <= ln (d+1)(m-1)^d = 1106923.3  (m-1 >= 3 suffices)
+  n=1000000 m=44112: ln 3^d = 1098611.2 <= ln (d+1)(m-1)^d = 10694467.6  (m-1 >= 3 suffices)
+  n=1000000 m=641697: ln 3^d = 1098611.2 <= ln (d+1)(m-1)^d = 13371870.4  (m-1 >= 3 suffices)
+
+Single-polynomial count (Thm 4.1): conditions sum_{1<=|j|<=J} binom(tau_j+d-1,d), tau_j = ceil(mu(1-|j|lam/sqrt n)), vs dim V_H >= 3^d/4
+  n=2966 mu=1887: ln(conditions) = 3205.4   ln(3^d/4) = 3256.0
+  n=2966 mu=1906: ln(conditions) = 3222.5   ln(3^d/4) = 3256.0
+  n=3000 mu=1899: ln(conditions) = 3233.3   ln(3^d/4) = 3293.4
+  n=3000 mu=1928: ln(conditions) = 3260.1   ln(3^d/4) = 3293.4
+  n=4096 mu=2256: ln(conditions) = 4090.8   ln(3^d/4) = 4497.4
+  n=4096 mu=2631: ln(conditions) = 4458.0   ln(3^d/4) = 4497.4
+  n=8192 mu=3302: ln(conditions) = 6842.2   ln(3^d/4) = 8997.3
+  n=8192 mu=5260: ln(conditions) = 8941.8   ln(3^d/4) = 8997.3
+  n=16384 mu=4823: ln(conditions) = 11309.1   ln(3^d/4) = 17997.2
+  n=16384 mu=10518: ln(conditions) = 17919.1   ln(3^d/4) = 17997.2

@@ -1,0 +1,4 @@
+n=2966: mu=1887: holds=True, ln(count)=3205.4, ln(avail)=3256.7; mu=1906: holds=True, ln(count)=3223.5, ln(avail)=3256.5; mu_count=1907 (rho(A) <= 2d = 5930)
+n=3000: mu=1899: holds=True, ln(count)=3233.3, ln(avail)=3294.0; mu=1928: holds=True, ln(count)=3260.1, ln(avail)=3293.8; mu_count=1929 (rho(A) <= 2d = 5998)
+n=4096: mu=2256: holds=True, ln(count)=4090.8, ln(avail)=4498.1; mu=2631: holds=True, ln(count)=4458.9, ln(avail)=4498.0; mu_count=2633 (rho(A) <= 2d = 8190)
+n=8192: mu=3302: holds=True, ln(count)=6842.2, ln(avail)=8998.0; mu=5260: holds=True, ln(count)=8942.7, ln(avail)=8997.9; mu_count=5262 (rho(A) <= 2d = 16382)

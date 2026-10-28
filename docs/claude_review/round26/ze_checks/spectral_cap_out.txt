@@ -1,0 +1,14 @@
+n=5 r=9 |S|=35 rho=4 Omega=7.750 mid=21.731 cap=90.099 lam=0.172 ok=True
+n=6 r=11 |S|=24 rho=3 Omega=7.500 mid=22.648 cap=204.580 lam=0.084 ok=True
+n=7 r=6 |S|=20 rho=2 Omega=9.125 mid=47.657 cap=508.570 lam=0.054 ok=True
+n=6 r=8 |S|=37 rho=3 Omega=8.375 mid=50.702 cap=528.141 lam=0.046 ok=True
+n=4 r=5 |S|=7 rho=2 Omega=5.250 mid=11.314 cap=33.145 lam=0.292 ok=True
+n=5 r=6 |S|=30 rho=3 Omega=7.375 mid=21.728 cap=276.311 lam=0.062 ok=True
+n=6 r=12 |S|=32 rho=3 Omega=9.125 mid=25.458 cap=184.378 lam=0.114 ok=True
+n=4 r=3 |S|=24 rho=5 Omega=6.000 mid=16.971 cap=64.020 lam=0.243 ok=True
+n=5 r=5 |S|=27 rho=3 Omega=6.875 mid=26.038 cap=141.048 lam=0.150 ok=True
+n=6 r=11 |S|=6 rho=2 Omega=6.125 mid=34.321 cap=378.115 lam=0.046 ok=True
+tests 49 failures 0 max rho/cap 0.1898
+Sylvester n=4: lam_min on 1-perp = 1.333333, n/(n-1) = 1.333333
+Sylvester n=8: lam_min on 1-perp = 1.142857, n/(n-1) = 1.142857
+Sylvester n=16: lam_min on 1-perp = 1.066667, n/(n-1) = 1.066667
