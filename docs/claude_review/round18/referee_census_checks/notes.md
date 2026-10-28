@@ -1,0 +1,20 @@
+# referee notes (census)
+- Typo claim 2^m-m-2: correct (T subset [m], 2<=|T|<=m-1).
+- Lemma 1.2: Thm B(iv)(2) proof holds for general (L_8) data (blocks compatible since two chains). OK.
+- Prop 1.3(1): OK (eta0=eta1/2,c=eta1/4). (2) only for admissible Phi; "for some anchor and labelling" -> relabelling moves Phi; need Z symmetrized. minor.
+- Lemma 1.1: dividing X_j by gcd of differences not integral -> need translation. minor/harmless.
+- Thm E: proof OK; numbers p_24=89 etc OK.
+- 7K coefficients OK; K.beta=10 OK; 70-182eta OK; 5/13 OK.
+- Prop 7.5(2) normal sheaf argument OK (standard).
+- Crit (b) never applies at k=8: OK (free curves -K.g>=2).
+- MAJOR overclaim: §6.3 "No family of curves of genus<=1 and bounded degree... produces balanced points densely"; §8(a) "dense supply would need infinitely many rigid curves of class ∝ beta, or sporadic points on no curve of genus <=1": FALSE dichotomy: every Q-point of Mbar_{0,8} lies on a Q-line of Kapranov P^5 (bounded-degree covering rational family). Each member may carry finitely many balanced pts; O_C constants non-uniform (owner constraint: template-dependent threshold as uniform).
+- Similarly "no product chart produces balanced points densely": X rational, (P^1)^5 --> X birational, so any dense set comes from a product chart. Only criterion (b) mechanism excluded.
+- §7.2 "Z ⊇ every curve genus<=1 class d beta with infinitely many rational points": reversal; Prop 7.4 gives necessity only (archimedean proximity can unbalance finite parts).
+- Cor 7.6 "lie in no covering family, i.e. infinitely many rigid curves": not covering != rigid. minor.
+- rlib three methods agree 14618 cmp. rcensus.c reproduces k=5 B=100 exactly (3646069, hist, best eps .1333/.1345), k=6 B=60 and k=7 B=40 hist exactly.
+- rsym.py: minima 3,6,25,48 (2^4 type) reproduced.
+- remptiness.py: Thm E table reproduced.
+- rlattice.py: k=5 A=1000 H/w 8.5-9.5; k=8 A=20000 H/w 465,468 (index check ok). consistent.
+- rk6fam.py: w*, eps N=2..14 reproduced exactly (repo k6fam generator, own profiling).
+- §4.2 "bounded cost <= 2*79": real residue cost sum_T C(|T|,2) log s_T <= 6*79. minor.
+- Kapranov lines: every Q-point of M_{0,8} lies on a Q-line (strict transform, class h, eta=1): covering bounded-degree rational family -> dichotomy in §8(a) false.

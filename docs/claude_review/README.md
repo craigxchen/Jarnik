@@ -116,7 +116,12 @@ least as strong as the target. Round 17 (`round17/README.md`) runs the Fourier-c
 `sdc_q` (`c_0 = 1/6` for all `q >= 7`, `>= 0.2349` in the regime), so the circle cap test needs no hypothesis, and on the circles
 the quantitative test reduces to an exact tangent-cone membership against one witness height. The test itself is undecided at
 every regime `q`, so **route 5 is stopped**: neither capped nor unblocked. The judge's remaining target is the arithmetic lemma
-`(L_8)` (Vojta on `Mbar_(0,8)`), with an estimated chance of proof well below 1%.
+`(L_8)` (Vojta on `Mbar_(0,8)`), with an estimated chance of proof well below 1%. Round 18 (`round18/README.md`) examines `(L_8)` by census, lifting test and theory. It stays
+**open**, with no concrete exceptional set. Proved: a balanced 8-datum needs at least 24 primes and has all minors `>= 10^49`,
+so no feasible computation can test `(L_8)`; the `(L_6)` curves do not lift through class `beta_7`; on pairwise-coprime
+profiles the chain, anchoring and residue structure carry no information. One uncovered conditional mechanism (abc on
+auxiliary pencils of positive gain) is identified; no such pencil exists in degree `<= 4`. The judge recommends **stopping
+internal rounds** on growth and uniformity and putting `(L_8)` before outside experts.
 
 **Growth-rate status (2026-10-28).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by

@@ -1,0 +1,20 @@
+k=5: V=10, max blocks/prime=2, min #primes r=5, p_r=11, min sum log n_T=15.49 (avg 1.549), some pair has log G_ij >= 3.78; balanced: log G_ij >= 3*(1-eta)*w for all pairs
+    eta=0.0: hypothesis class empty for w < 2.398 (e^w < 11.0); any realisation has log|det| >= 7.2 for every pair (|det|>=10^3.1)
+    eta=0.1: hypothesis class empty for w < 2.180 (e^w < 8.8); any realisation has log|det| >= 5.9 for every pair (|det|>=10^2.6)
+    eta=0.25: hypothesis class empty for w < 1.918 (e^w < 6.8); any realisation has log|det| >= 4.3 for every pair (|det|>=10^1.9)
+    eta=0.5: hypothesis class empty for w < 1.599 (e^w < 4.9); any realisation has log|det| >= 2.4 for every pair (|det|>=10^1.0)
+k=6: V=25, max blocks/prime=3, min #primes r=9, p_r=23, min sum log n_T=51.40 (avg 2.056), some pair has log G_ij >= 11.07; balanced: log G_ij >= 7*(1-eta)*w for all pairs
+    eta=0.0: hypothesis class empty for w < 3.135 (e^w < 23.0); any realisation has log|det| >= 21.9 for every pair (|det|>=10^9.5)
+    eta=0.1: hypothesis class empty for w < 2.850 (e^w < 17.3); any realisation has log|det| >= 18.0 for every pair (|det|>=10^7.8)
+    eta=0.25: hypothesis class empty for w < 2.508 (e^w < 12.3); any realisation has log|det| >= 13.2 for every pair (|det|>=10^5.7)
+    eta=0.5: hypothesis class empty for w < 2.090 (e^w < 8.1); any realisation has log|det| >= 7.3 for every pair (|det|>=10^3.2)
+k=7: V=56, max blocks/prime=4, min #primes r=14, p_r=43, min sum log n_T=148.44 (avg 2.651), some pair has log G_ij >= 30.44; balanced: log G_ij >= 15*(1-eta)*w for all pairs
+    eta=0.0: hypothesis class empty for w < 3.761 (e^w < 43.0); any realisation has log|det| >= 56.4 for every pair (|det|>=10^24.5)
+    eta=0.1: hypothesis class empty for w < 3.419 (e^w < 30.5); any realisation has log|det| >= 46.2 for every pair (|det|>=10^20.0)
+    eta=0.25: hypothesis class empty for w < 3.009 (e^w < 20.3); any realisation has log|det| >= 33.9 for every pair (|det|>=10^14.7)
+    eta=0.5: hypothesis class empty for w < 2.507 (e^w < 12.3); any realisation has log|det| >= 18.8 for every pair (|det|>=10^8.2)
+k=8: V=119, max blocks/prime=5, min #primes r=24, p_r=89, min sum log n_T=391.28 (avg 3.288), some pair has log G_ij >= 80.10; balanced: log G_ij >= 31*(1-eta)*w for all pairs
+    eta=0.0: hypothesis class empty for w < 4.489 (e^w < 89.0); any realisation has log|det| >= 139.1 for every pair (|det|>=10^60.4)
+    eta=0.1: hypothesis class empty for w < 4.081 (e^w < 59.2); any realisation has log|det| >= 113.8 for every pair (|det|>=10^49.4)
+    eta=0.25: hypothesis class empty for w < 3.591 (e^w < 36.3); any realisation has log|det| >= 83.5 for every pair (|det|>=10^36.3)
+    eta=0.5: hypothesis class empty for w < 2.992 (e^w < 19.9); any realisation has log|det| >= 46.4 for every pair (|det|>=10^20.1)

@@ -1,0 +1,5 @@
+F-curve type (5, 1, 1, 1): K.F = -1, B.F = 2, (K+B).F = 1
+F-curve type (4, 2, 1, 1): K.F = 0, B.F = 1, (K+B).F = 1
+F-curve type (3, 3, 1, 1): K.F = 0, B.F = 1, (K+B).F = 1
+F-curve type (3, 2, 2, 1): K.F = 1, B.F = 0, (K+B).F = 1
+F-curve type (2, 2, 2, 2): K.F = 2, B.F = -1, (K+B).F = 1

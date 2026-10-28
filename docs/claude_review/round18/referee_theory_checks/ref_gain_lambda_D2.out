@@ -1,0 +1,7 @@
+D 1 (A,C) pairs so far 20 special lam evaluated 0 time 0.0
+  special-lam hist top: []
+  generic gain max so far -32
+D 2 (A,C) pairs so far 610 special lam evaluated 6 time 3.3
+  special-lam hist top: [(-32, 6)]
+  generic gain max so far -32
+best (-32, ((0, 1), (0, 1)), ((0, 2), (1, 2)), Fraction(-1, 4))

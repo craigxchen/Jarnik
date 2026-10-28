@@ -1,0 +1,2 @@
+v_p(A)= 2  v_p(C)= 2  v_p(gcd)= 2
+sum_T mu_T v_p(d_T) = 1  -> excess 1 copies of p = one full block d_12
