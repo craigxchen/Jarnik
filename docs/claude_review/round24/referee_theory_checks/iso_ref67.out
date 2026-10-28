@@ -1,0 +1,6 @@
+m=6 |S|=5321 n_even=2661 n_odd=2660 floor(10m/3)=20
+  even: claim t=20: rank(deg<=19)=2660 (deficient=True), rank(deg<=20)=2661 (full=True) n=2661
+  odd: claim t=19: rank(deg<=18)=2610 (deficient=True), rank(deg<=19)=2660 (full=True) n=2660
+m=7 |S|=9381 n_even=4691 n_odd=4690 floor(10m/3)=23
+  even: claim t=22: rank(deg<=21)=4586 (deficient=True), rank(deg<=22)=4691 (full=True) n=4691
+  odd: claim t=23: rank(deg<=22)=4684 (deficient=True), rank(deg<=23)=4690 (full=True) n=4690

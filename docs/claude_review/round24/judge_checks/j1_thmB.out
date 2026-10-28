@@ -1,0 +1,17 @@
+Res_W(bquartic, Y+W^2/v)/G is free of Y: True
+u invariant under b->lam b: True
+v invariant under b->lam b: True
+check u,v from b-quartic coefficients: True True
+disc_Y(numerator of G) = -140737488355328*(m - 3)**12*(m - 1)**16*(m + 1)**2*(m + 3)*(m**3 - 11*m**2 + 39*m - 13)**3*(m**4 + 70*m**2 - 48*m + 9)
+odd-exponent factors: [(m + 3, 1), (m**3 - 11*m**2 + 39*m - 13, 3), (m**4 + 70*m**2 - 48*m + 9, 1)]  #odd points = 8
+leading coeff in Y: 256*(m - 3)**4*(m - 1)**4
+  gcd with lc: 1
+  gcd with lc: 1
+  gcd with lc: 1
+odd-point polynomial squarefree: True
+order at m=inf (s=0): numer (0,) denom (44,)
+m= -2  irreducible: True  Gal: (<S4TransitiveSubgroups.S4: 'S4'>, False)
+m= -3/2  irreducible: True  Gal: (<S4TransitiveSubgroups.S4: 'S4'>, False)
+m= 5  irreducible: True  Gal: (<S4TransitiveSubgroups.S4: 'S4'>, False)
+m= 7/3  irreducible: True  Gal: (<S4TransitiveSubgroups.S4: 'S4'>, False)
+m= -5/4  irreducible: True  Gal: (<S4TransitiveSubgroups.S4: 'S4'>, False)

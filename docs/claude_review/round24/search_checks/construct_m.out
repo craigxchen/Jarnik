@@ -1,0 +1,40 @@
+full check m = -1.1
+   min separation of the 30 places (w-coordinate): 3.181
+   zeros of H: 8  places: 30  rays hit: 30  all once: True  ray vectors: True
+   contact at w0 ['4.0', '4.0', '4.0', '4.0']
+   contact at inf ['4.001', '4.0', '4.0', '4.0']
+full check m = -1.5
+   min separation of the 30 places (w-coordinate): 1.23
+   zeros of H: 8  places: 30  rays hit: 30  all once: True  ray vectors: True
+   contact at w0 ['4.0', '4.0', '4.0', '4.0']
+   contact at inf ['4.0', '4.0', '4.0', '4.0']
+full check m = -1.8
+   min separation of the 30 places (w-coordinate): 0.481
+   zeros of H: 8  places: 30  rays hit: 30  all once: True  ray vectors: True
+   contact at w0 ['4.0', '4.0', '4.0', '4.0']
+   contact at inf ['4.0', '4.0', '4.0', '4.0']
+full check m = -2.0
+   min separation of the 30 places (w-coordinate): 0.2556
+   zeros of H: 8  places: 30  rays hit: 30  all once: True  ray vectors: True
+   contact at w0 ['4.0', '4.0', '4.0', '4.0']
+   contact at inf ['4.0', '4.0', '4.0', '4.0']
+full check m = -2.2
+   min separation of the 30 places (w-coordinate): 0.1273
+   zeros of H: 8  places: 30  rays hit: 30  all once: True  ray vectors: True
+   contact at w0 ['4.0', '4.0', '4.0', '4.0']
+   contact at inf ['4.0', '4.0', '4.0', '4.0']
+full check m = -2.5
+   min separation of the 30 places (w-coordinate): 0.0334
+   zeros of H: 8  places: 30  rays hit: 30  all once: True  ray vectors: True
+   contact at w0 ['4.0', '4.0', '4.0', '4.0']
+   contact at inf ['4.0', '4.0', '4.0', '4.0']
+full check m = -2.8
+   min separation of the 30 places (w-coordinate): 0.002983
+   zeros of H: 8  places: 30  rays hit: 30  all once: True  ray vectors: True
+   contact at w0 ['4.0', '4.0', '4.0', '4.0']
+   contact at inf ['4.0', '4.0', '4.0', '4.0']
+full check m = -2.95
+   min separation of the 30 places (w-coordinate): 8.848e-5
+   zeros of H: 8  places: 30  rays hit: 30  all once: True  ray vectors: True
+   contact at w0 ['4.0', '4.0', '4.0', '4.0']
+   contact at inf ['4.0', '4.0', '4.0', '4.0']

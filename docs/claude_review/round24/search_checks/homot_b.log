@@ -1,0 +1,18 @@
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/homot.py:9: RuntimeWarning: overflow encountered in exp
+  r=x[:15]+1j*eps*np.exp(x[15:]); da=np.ones(15,complex); db=1j*eps*np.exp(x[15:])
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/homot.py:9: RuntimeWarning: invalid value encountered in multiply
+  r=x[:15]+1j*eps*np.exp(x[15:]); da=np.ones(15,complex); db=1j*eps*np.exp(x[15:])
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/homot.py:14: RuntimeWarning: invalid value encountered in multiply
+  blk[:,MEM[j]]=(sub*da[MEM[j]]).imag; blk[:,15+MEM[j]]=(sub*db[MEM[j]]).imag; rows.append(blk)
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/homot.py", line 78, in <module>
+    status,xe,tau=track(x,eps,rng,out)
+                  ~~~~~^^^^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/homot.py", line 48, in track
+    Hh,Jx,Jt=Hfun(x,1.0,eps,EN0,sl,s0); d=np.linalg.solve(Jx,-Hh); x=x+d
+                                          ~~~~~~~~~~~~~~~^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/numpy/linalg/_linalg.py", line 463, in solve
+    r = gufunc(a, b, signature=signature)
+  File "/usr/local/lib/python3.13/dist-packages/numpy/linalg/_linalg.py", line 144, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix

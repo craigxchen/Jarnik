@@ -1,0 +1,16 @@
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/symm.py:88: RuntimeWarning: overflow encountered in exp
+  elif k=='line:-s': z=1j*np.exp(p[q]); q+=1
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/symm_lm.py:8: RuntimeWarning: invalid value encountered in reciprocal
+  out+=[np.sum(w**k).imag for k in (1,2,3)]+[np.sum(w**(-k)).imag for k in (1,2,3)]+[np.sin(np.sum(np.angle(w)))]
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/symm_lm.py:8: RuntimeWarning: invalid value encountered in power
+  out+=[np.sum(w**k).imag for k in (1,2,3)]+[np.sum(w**(-k)).imag for k in (1,2,3)]+[np.sin(np.sum(np.angle(w)))]
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/symm_lm.py:8: RuntimeWarning: overflow encountered in square
+  out+=[np.sum(w**k).imag for k in (1,2,3)]+[np.sum(w**(-k)).imag for k in (1,2,3)]+[np.sin(np.sum(np.angle(w)))]
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/symm_lm.py:8: RuntimeWarning: overflow encountered in power
+  out+=[np.sum(w**k).imag for k in (1,2,3)]+[np.sum(w**(-k)).imag for k in (1,2,3)]+[np.sin(np.sum(np.angle(w)))]
+/usr/local/lib/python3.13/dist-packages/numpy/_core/fromnumeric.py:83: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/symm_lm.py:8: RuntimeWarning: divide by zero encountered in power
+  out+=[np.sum(w**k).imag for k in (1,2,3)]+[np.sum(w**(-k)).imag for k in (1,2,3)]+[np.sin(np.sum(np.angle(w)))]
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/symm_lm.py:8: RuntimeWarning: overflow encountered in reciprocal
+  out+=[np.sum(w**k).imag for k in (1,2,3)]+[np.sum(w**(-k)).imag for k in (1,2,3)]+[np.sin(np.sum(np.angle(w)))]

@@ -1,0 +1,6 @@
+0 degenerate tau=0.9997 res=4.4e-04 imin=2.9e-03 sep=9.4e-07 rmax=4.7e+00 rmin=7.4e-03
+3 turned_back tau=-0.5066 res=3.0e+02 imin=5.7e-02 sep=3.5e-02 rmax=6.2e+00 rmin=7.1e-02
+6 turned_back tau=-0.5139 res=1.6e+02 imin=1.1e-01 sep=1.2e-01 rmax=6.3e+00 rmin=3.3e-01
+7 turned_back tau=-0.5087 res=3.8e+02 imin=3.6e-03 sep=7.2e-03 rmax=9.5e+00 rmin=1.4e-02
+10 reached tau=1.0000 res=4.5e-02 imin=4.9e-01 sep=3.4e-05 rmax=5.8e+00 rmin=6.3e-01
+stats {'degenerate': 1, 'turned_back': 3, 'reached': 1}

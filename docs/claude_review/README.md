@@ -144,9 +144,12 @@ boundedness at `e`, which is only a hypothesis (or a consequence of Vojta) in th
 argument is proved to stop at `tau_e <= 15/4`; no known theorem reaches the target. Round 23 (`round23/README.md`) proves `tau_e(-K) = 10/3`
 exactly (so toric Liouville gives exactly Cilleruelo-Cordoba), and shows the split twin of Question B implies the open Erdős
 problem #887 (absolute form): it is not easier and supplies no mechanism; a 2026 five-divisor construction is a balanced rational
-curve at the Liouville constant that cannot exist on the twisted form.
+curve at the Liouville constant that cannot exist on the twisted form. Round 24 (`round24/README.md`) tests the anisotropy of `T_5`: pointwise it gives
+nothing (every Galois-aware Liouville argument is implied by a single-section one, so the split caps hold), and balanced twisted
+curves at `15/4` exist over `R` but only finitely many over `Q` on the known component (a form-independent fact). The judge again
+recommends stopping internal rounds.
 
-**Growth-rate status (2026-10-28, after round 23).** No growth improvement over `log R/loglog R` is proved, either
+**Growth-rate status (2026-10-28, after round 24).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues

@@ -1,0 +1,6 @@
+m=1 |S_m|=21 dim_even=11 dim_odd=10 t_plus=2 t_minus=3 max=3 floor(10m/3)=3
+m=2 |S_m|=131 dim_even=66 dim_odd=65 t_plus=6 t_minus=5 max=6 floor(10m/3)=6
+m=3 |S_m|=471 dim_even=236 dim_odd=235 t_plus=10 t_minus=9 max=10 floor(10m/3)=10
+m=4 |S_m|=1251 dim_even=626 dim_odd=625 t_plus=12 t_minus=13 max=13 floor(10m/3)=13
+m=5 |S_m|=2751 dim_even=1376 dim_odd=1375 t_plus=16 t_minus=15 max=16 floor(10m/3)=16
+(m=6 stopped for time)

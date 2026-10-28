@@ -1,0 +1,2 @@
+trials 300, pairs 3000: H_B=R''^2, N(P_j) formula, [P_a,P_b] divisible by prod p^c_ab, dist identity,
+t_ab^2 = [P_a,P_b]^2/(prod p^(2c_ab) 2^(e_a+e_b)) all exact. pairs with e_a=e_b: 1744 (t_ab integer), e_a!=e_b: 1256 (t_ab^2 in Z/2)

@@ -1,0 +1,6 @@
+V: in S_3: True, iota-parity +1, ord_e = 10, Q-rational as is: True, i*f Q-rational: False, #terms 120
+V_123: in S_1: True, iota-parity -1, ord_e = 3, Q-rational as is: False, i*f Q-rational: True, #terms 6
+D_12: in S_1: True, iota-parity +1, ord_e = 2, Q-rational as is: True, i*f Q-rational: False, #terms 3
+V_123*V_145: in S_2: True, iota-parity +1, ord_e = 6, Q-rational as is: True, i*f Q-rational: False, #terms 36
+V_123*V_145*V_245: in S_3: True, iota-parity -1, ord_e = 9, Q-rational as is: False, i*f Q-rational: True, #terms 140
+V_123*D_45: in S_2: True, iota-parity -1, ord_e = 5, Q-rational as is: False, i*f Q-rational: True, #terms 18

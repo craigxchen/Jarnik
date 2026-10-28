@@ -1,0 +1,7 @@
+2 res=6.2e-11 imin=1.918e-16 sep=1.908e-12 csep=3.837e-16 du=2.099e-01 rmax=5.266e+00 chk=3.219e-11  
+6 res=1.1e-14 imin=5.622e-03 sep=1.380e-13 csep=5.966e-03 du=4.257e-13 rmax=2.467e+00 chk=3.553e-15  
+35 res=1.1e-14 imin=1.421e-03 sep=3.554e-16 csep=2.842e-03 du=7.850e-16 rmax=1.359e+00 chk=7.105e-15  
+56 res=9.5e-14 imin=2.654e-04 sep=1.176e-17 csep=5.308e-04 du=1.337e-15 rmax=1.738e+00 chk=6.128e-14  
+70 res=8.6e-11 imin=8.967e-12 sep=8.041e-09 csep=1.793e-11 du=2.095e-01 rmax=1.710e+00 chk=3.025e-11  
+82 res=4.5e-11 imin=5.842e-11 sep=7.588e-07 csep=1.168e-10 du=4.196e-01 rmax=2.370e+00 chk=1.956e-11  
+100 res=1.5e-13 imin=3.671e-05 sep=7.196e-16 csep=7.342e-05 du=1.627e-15 rmax=1.302e+00 chk=1.092e-13  

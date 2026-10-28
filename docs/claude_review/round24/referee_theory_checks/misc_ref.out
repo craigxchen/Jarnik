@@ -1,0 +1,4 @@
+(1) rays 30 Galois orbits 15 -> rank Pic twisted = 15 , split = 26
+(2) identity r_tw = (r_sp(v)+r_sp(-v))/2 holds on 20000 random (Q,v); twisted RHS strictly smaller than split RHS at v in 8285 cases
+    example f=x1/x2-1, v=1_{2}: r_sp(v)= 1  r_tw= 0.5
+(3) width_{Q_F}(phi_* v) = width_{phi^*Q_F}(v) >= width_{Q_G}(v): failures 0 of 5000

@@ -338,6 +338,26 @@ $\delta$ has McKinnon–Roth exponent $\gamma=4/(1+2\delta)$, and:
 > may need the anisotropy. Split Question B is undecided. It would fail if infinitely many such hypersurfaces existed,
 > or if absolute #887 failed.
 
+> **Anisotropy** (round 24 `theory.md`, `search.md`, refereed). *Pointwise, it does nothing.* Let $\mathcal L$ be the
+> arguments "archimedean Taylor upper bound $\ge$ product-formula lower bound" whose lower bound may use integrality,
+> toric forced divisibility at every place of $\mathbb Q(i)$, point parity $v_{\bar\pi}=-v_\pi$ and reality of values,
+> with auxiliary objects that are isotypic sections for $\sigma_X=\iota\circ\overline{\phantom{x}}$, polynomials in
+> group words of A-points (including $\iota y$), or polynomials in the Hilbert-90 vectors ($x_j=P_j/\bar P_j$). Every
+> such inequality is implied by toric Liouville for one section (or its $n$-point form at the generating points), so
+> on balanced simple profiles with disjoint primes nothing in $\mathcal L$ beats $15/4$ ($\delta=1/30$), and nothing
+> beats $\delta=1/10$ for arbitrary profiles, for every family with $\log H(F)+\sum d_i\log d_i=o(\sum d_iw_i)$. The
+> reason is that $\sigma_X$ fixes $e$ and orders at $e$, so Galois averaging is lossless; the isotypic parts of
+> $H^0(m(-K))$ have maximal orders $\lfloor10m/3\rfloor$ and $\lfloor10m/3\rfloor-1$ in both forms. Twist-sensitive
+> congruence divisibility at inert places contributes $O_F(1)$. *Globally, it is visible only through curves.* By
+> the parity lemma a balanced twisted curve at $15/4$ has $B\cdot C\ge30$. Such curves exist over $\mathbb R$: an
+> explicit one-parameter real family $M$ (two conjugate branches of contact 4, each ray hit once; Jacobian rank 28,
+> so a component). Only finitely many curves of its complex component are defined over $\mathbb Q$ (geometric
+> monodromy $S_4$ of the place configuration, Faltings; ineffective; none of height $\le300$). The same finiteness
+> holds for the split form, so this is not an anisotropy effect. Whether the class has other components is open.
+> Blind numerical solvers all missed $M$, so failed searches in this class are not evidence of emptiness. Consequently
+> a proof of Question B for $T_5$ that is not also a proof for the split form (hence of Erdős #887) must use a global
+> twist-sensitive input; the only one known is the parity lemma.
+
 > **Absolute form of the A-branch** (round 23 judge J4; independent referee `round23/referee_J4.md`, **proved**). If
 > $A_5(\delta)$ holds for one $\delta\in(0,1/30)$, there is $K=K(\delta,Z)$ such that for every $C>0$ and every
 > $R\ge R_1(C)=\max(C^{2/\kappa},(CR_0)^2)$, every arc of length $\le C\sqrt R$ holds at most $K$ lattice points; so
@@ -355,6 +375,8 @@ $\delta$ has McKinnon–Roth exponent $\gamma=4/(1+2\delta)$, and:
 > curve parameter has image of dimension $\le3$ and refutes nothing. By the killer's dimension count, one-variable
 > polynomial-block families cannot be dense at $k=5$ (**heuristic**), and bounded-degree covering families are
 > excluded (Thm 4.3(ii)) (`kill_gauss.md` §§4, 6.3).
+> The two-branch twisted Pell ansatz ($B\cdot C=30$, contact 4, round 24) yields real curves at exactly $15/4$ but only
+> finitely many over $\mathbb Q$ on the known component; it can only enlarge $Z$.
 
 **Compared with $(L_8)$** (`round20/README.md` §§5, 7). $(L_5^\circ)$ is smaller: a 4-fold and 5 points, against a
 5-fold and 8 points. It needs the archimedean divisor $D=E$ rather than $D=0$, and its heuristic margin is much

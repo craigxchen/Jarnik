@@ -1,0 +1,13 @@
+V min m 3 parity 1 ord 10
+V123 min m 1 parity -1 ord 3
+V145 min m 1 parity -1 ord 3
+V245 min m 1 parity -1 ord 3
+D12 min m 1 parity 1 ord 2
+D45 min m 1 parity 1 ord 2
+m=1 t=3 even: inS=True par=1 ord=2 | odd: inS=True par=-1 ord=3
+m=2 t=6 even: inS=True par=1 ord=6 | odd: inS=True par=-1 ord=5
+m=3 t=10 even: inS=True par=1 ord=10 | odd: inS=True par=-1 ord=9
+m=4 t=13 even: inS=True par=1 ord=12 | odd: inS=True par=-1 ord=13
+m=5 t=16 even: inS=True par=1 ord=None | odd: inS=True par=-1 ord=None
+m=6 t=20 even: inS=True par=1 ord=None | odd: inS=True par=-1 ord=None
+m=7 t=23 even: inS=True par=1 ord=None | odd: inS=True par=-1 ord=None

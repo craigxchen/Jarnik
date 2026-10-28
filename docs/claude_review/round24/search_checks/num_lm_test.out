@@ -1,0 +1,8 @@
+0 res=2.1e-12 min|Im r|=2.048e-18 minsep=1.393e-05 min|r-conj r'|=4.097e-18 min|kappa|=2.247e-01 max|r|=3.36e+00 min|u_j-u_k|=1.542e-01
+1 res=7.0e-13 min|Im r|=3.124e-15 minsep=7.337e-14 min|r-conj r'|=6.249e-15 min|kappa|=4.119e-15 max|r|=3.52e+00 min|u_j-u_k|=7.993e-16
+2 res=4.5e-14 min|Im r|=4.980e-20 minsep=4.003e-16 min|r-conj r'|=9.960e-20 min|kappa|=1.225e-16 max|r|=1.87e+00 min|u_j-u_k|=1.498e-16
+3 res=1.3e-12 min|Im r|=6.545e-08 minsep=1.114e-10 min|r-conj r'|=9.225e-08 min|kappa|=3.526e-01 max|r|=2.08e+00 min|u_j-u_k|=4.829e-05
+4 res=7.4e-12 min|Im r|=3.957e-16 minsep=3.065e-08 min|r-conj r'|=7.914e-16 min|kappa|=2.353e-12 max|r|=1.07e+01 min|u_j-u_k|=3.127e-11
+5 res=2.4e-12 min|Im r|=2.325e-08 minsep=3.629e-10 min|r-conj r'|=2.059e-08 min|kappa|=3.009e-01 max|r|=3.38e+00 min|u_j-u_k|=3.485e-01
+6 res=9.9e-14 min|Im r|=1.054e-19 minsep=3.724e-16 min|r-conj r'|=2.109e-19 min|kappa|=1.225e-16 max|r|=3.42e+00 min|u_j-u_k|=1.809e-17
+7 res=4.7e-10 min|Im r|=4.026e-10 minsep=8.235e-07 min|r-conj r'|=8.051e-10 min|kappa|=4.984e-01 max|r|=2.12e+00 min|u_j-u_k|=6.105e-01

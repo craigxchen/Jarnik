@@ -1,0 +1,18 @@
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/homot.py:9: RuntimeWarning: overflow encountered in exp
+  r=x[:15]+1j*eps*np.exp(x[15:]); da=np.ones(15,complex); db=1j*eps*np.exp(x[15:])
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/homot.py:9: RuntimeWarning: invalid value encountered in multiply
+  r=x[:15]+1j*eps*np.exp(x[15:]); da=np.ones(15,complex); db=1j*eps*np.exp(x[15:])
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/homot.py:14: RuntimeWarning: invalid value encountered in multiply
+  blk[:,MEM[j]]=(sub*da[MEM[j]]).imag; blk[:,15+MEM[j]]=(sub*db[MEM[j]]).imag; rows.append(blk)
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/homot.py:17: RuntimeWarning: overflow encountered in exp
+  r14=x[14]+1j*eps[14]*np.exp(x[29]); g=np.log(abs(r14))
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/homot.py:18: RuntimeWarning: overflow encountered in exp
+  G=np.zeros(30); G[14]=x[14]/abs(r14)**2; G[29]=(eps[14]*np.exp(x[29]))**2/abs(r14)**2
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/homot.py:18: RuntimeWarning: invalid value encountered in scalar divide
+  G=np.zeros(30); G[14]=x[14]/abs(r14)**2; G[29]=(eps[14]*np.exp(x[29]))**2/abs(r14)**2
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/homot.py:14: RuntimeWarning: overflow encountered in multiply
+  blk[:,MEM[j]]=(sub*da[MEM[j]]).imag; blk[:,15+MEM[j]]=(sub*db[MEM[j]]).imag; rows.append(blk)
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round24/search_checks/homot.py:18: RuntimeWarning: overflow encountered in scalar power
+  G=np.zeros(30); G[14]=x[14]/abs(r14)**2; G[29]=(eps[14]*np.exp(x[29]))**2/abs(r14)**2
+/usr/local/lib/python3.13/dist-packages/numpy/linalg/_linalg.py:2767: RuntimeWarning: overflow encountered in dot
+  sqnorm = x.dot(x)

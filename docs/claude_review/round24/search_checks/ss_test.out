@@ -1,0 +1,3 @@
+11 res=1.4e-15 imin=5.819e-06 sep=0.000e+00 kap=1.066e-14 rmax=3.776e+00 rmin=1.000e+00  
+19 res=2.4e-14 imin=9.943e-01 sep=1.388e-17 kap=1.421e-14 rmax=3.596e+00 rmin=1.000e+00  
+pattern 0 ++++++++++----- converged 2 nondeg 0

@@ -1,0 +1,10 @@
+-s id -1 npar 15 gauge 1 converged 30 nondeg 0
+-s (12) -1 npar 15 gauge 1 converged 1 nondeg 0
+-s (15) -1 npar 15 gauge 1 converged 3 nondeg 0
+-s (12)(34) -1 npar 15 gauge 1 converged 31 nondeg 0
+-s (12)(35) -1 npar 15 gauge 1 converged 12 nondeg 0
+1/s id -1 npar 15 gauge 0 converged 39 nondeg 0
+1/s (12) -1 npar 15 gauge 0 converged 30 nondeg 0
+1/s (15) -1 npar 15 gauge 0 converged 30 nondeg 0
+1/s (12)(34) -1 npar 15 gauge 0 converged 37 nondeg 0
+1/s (12)(35) -1 npar 15 gauge 0 converged 40 nondeg 0

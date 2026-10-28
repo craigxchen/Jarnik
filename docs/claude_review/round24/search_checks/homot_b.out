@@ -1,0 +1,22 @@
+0 stalled tau=0.9972 res44=2.5e-04 imin=4.3e-01 sep=4.7e-05 rmax=1.0e+00 rmin=7.9e-01 
+2 stalled tau=0.9995 res44=3.8e-05 imin=1.2e-01 sep=3.8e-06 rmax=1.0e+00 rmin=4.9e-01 
+3 turned_back tau=-0.5121 res44=1.2e+00 imin=1.3e-01 sep=9.7e-02 rmax=1.6e+00 rmin=2.5e-01 
+4 turned_back tau=-0.5112 res44=5.2e-02 imin=1.9e-02 sep=1.4e-03 rmax=1.5e+00 rmin=1.5e-01 
+7 degenerate tau=0.9994 res44=8.7e-05 imin=4.9e-07 sep=9.8e-07 rmax=1.0e+00 rmin=8.3e-05 
+10 turned_back tau=-0.5272 res44=7.8e-02 imin=6.1e-01 sep=3.0e-02 rmax=1.3e+00 rmin=6.4e-01 
+11 stalled tau=0.9994 res44=2.3e-04 imin=4.1e-02 sep=1.9e-03 rmax=1.4e+00 rmin=6.7e-01 
+15 stalled tau=1.0000 res44=7.7e-09 imin=1.1e-02 sep=1.3e-06 rmax=1.0e+00 rmin=1.1e-02 
+16 turned_back tau=-0.5380 res44=1.0e-01 imin=4.0e-02 sep=4.1e-03 rmax=2.1e+00 rmin=1.2e-01 
+18 turned_back tau=-0.5108 res44=9.8e-01 imin=6.4e-02 sep=1.4e-02 rmax=1.3e+00 rmin=1.3e-01 
+20 turned_back tau=-0.5190 res44=1.3e-01 imin=1.5e-01 sep=4.0e-02 rmax=1.0e+00 rmin=1.5e-01 
+21 reached tau=1.0000 res44=nan imin=nan sep=nan rmax=nan rmin=nan [np.complex128(nan+nanj), np.complex128(nan+nanj), np.complex128(nan+nanj), np.complex128(nan+nanj), np.complex128(nan+nanj), np.complex128(nan+nanj), np.complex128(nan+nanj), np.complex128(nan+nanj), np.complex128(nan+nanj), np.complex128(nan+nanj), np.complex128(nan+nanj), np.complex128(nan+nanj), np.complex128(nan+nanj), np.complex128(nan+nanj), np.complex128(nan+nanj)]
+24 stalled tau=0.9993 res44=1.1e-04 imin=2.9e-06 sep=5.7e-06 rmax=4.7e+00 rmin=3.7e-02 
+25 turned_back tau=-0.5055 res44=3.6e-01 imin=2.1e-01 sep=7.6e-03 rmax=1.7e+00 rmin=2.2e-01 
+26 turned_back tau=-0.5112 res44=1.2e+00 imin=8.9e-01 sep=1.4e-02 rmax=3.3e+00 rmin=9.9e-01 
+27 degenerate tau=0.9017 res44=8.3e-01 imin=4.8e-07 sep=9.7e-07 rmax=1.2e+00 rmin=2.9e-04 
+28 turned_back tau=-0.5114 res44=6.2e-02 imin=2.3e-01 sep=2.6e-02 rmax=1.0e+00 rmin=2.3e-01 
+29 degenerate tau=1.0000 res44=2.0e-11 imin=4.9e-07 sep=9.8e-07 rmax=1.0e+00 rmin=1.2e-03 
+33 turned_back tau=-0.5310 res44=1.3e-01 imin=6.7e-01 sep=6.9e-03 rmax=1.3e+00 rmin=6.8e-01 
+36 degenerate tau=0.9999 res44=6.3e-06 imin=2.3e-04 sep=1.0e-06 rmax=1.0e+00 rmin=1.2e-01 
+37 turned_back tau=-0.5157 res44=5.2e-01 imin=2.2e-01 sep=2.2e-02 rmax=3.8e+00 rmin=2.3e-01 
+41 degenerate tau=0.2723 res44=9.5e-02 imin=4.8e-07 sep=9.6e-07 rmax=1.0e+00 rmin=2.9e-05 
