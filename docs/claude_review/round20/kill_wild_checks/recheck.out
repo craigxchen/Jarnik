@@ -1,0 +1,6 @@
+(A,n,K)=(10,20,2000): h(F1)/h(ell)=0.990755 [bound 0.990589] G1=1; hsum0(F2)/h(ell)=9.9575 [bound 9.9050, n/2=10.0] log2(G2)=0
+(A,n,K)=(2,30,3000): h(F1)/h(ell)=0.990428 [bound 0.990426] G1=1; hsum0(F2)/h(ell)=14.9325 [bound 14.8550, n/2=15.0] log2(G2)=0
+(A,n,K)=(3,8,50): h(F1)/h(ell)=0.877812 [bound 0.877193] G1=1; hsum0(F2)/h(ell)=4.3582 [bound 3.4400, n/2=4.0] log2(G2)=21
+N=1176852625={5: 3, 13: 2, 17: 1, 29: 1, 113: 1} k=10: best chord/sqrtR=8.2386 gcd norm=1 split primes=5 rank B=5 (M-1=9)
+N=3159797225={5: 2, 13: 2, 17: 1, 29: 1, 37: 1, 41: 1} k=7: best chord/sqrtR=10.5641 gcd norm=1 split primes=6 rank B=6 (M-1=6)
+N=3159797225={5: 2, 13: 2, 17: 1, 29: 1, 37: 1, 41: 1} k=6: best chord/sqrtR=8.5424 gcd norm=1 split primes=6 rank B=5 (M-1=5)

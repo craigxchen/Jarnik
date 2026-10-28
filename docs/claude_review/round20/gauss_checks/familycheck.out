@@ -1,0 +1,19 @@
+(1) C1 family: visible blocks {(2, 3, 4): 's - 6', (1, 3, 4): 's - 7', (1, 2, 4): 's', (1, 2, 3): 's - 2', (1, 2): '5 - s', (1, 3): '18 - 2*s', (1, 4): '22 - 3*s', (2, 3): '21 - s', (2, 4): '24 - 2*s', (3, 4): '-s - 6'}
+    all resultants Res(n_T, X_i^2+1) nonzero; max |Res| = 41408180101 => for every s with some |n_T(s)| > 41408180101 the member is not circle data with rho = i
+    C1 member s=52346140003: min_j phi = 0.0000 (circle data need 1)
+    C1 member s=138246594643: min_j phi = 0.0000 (circle data need 1)
+    C1 member s=653649322483: min_j phi = 0.0000 (circle data need 1)
+(2) E_t, t0 = (2,3,-5,1):
+    N= 2 w=6.2  min_j phi = 0.0000  max_j phi = 0.0266 (circle data need 1)
+    N= 3 w=17.1  min_j phi = 0.0000  max_j phi = 0.0000 (circle data need 1)
+    N= 4 w=33.3  min_j phi = 0.0000  max_j phi = 0.0035 (circle data need 1)
+    N= 5 w=55.4  min_j phi = 0.0000  max_j phi = 0.0009 (circle data need 1)
+    N= 6 w=82.5  min_j phi = 0.0000  max_j phi = 0.0000 (circle data need 1)
+    N= 7 w=115.0  min_j phi = 0.0000  max_j phi = 0.0000 (circle data need 1)
+    N= 8 w=153.1  min_j phi = 0.0000  max_j phi = 0.0003 (circle data need 1)
+    N= 9 w=196.5  min_j phi = 0.0000  max_j phi = 0.0000 (circle data need 1)
+    N=10 w=245.4  min_j phi = 0.0000  max_j phi = 0.0020 (circle data need 1)
+    N=11 w=299.6  min_j phi = 0.0000  max_j phi = 0.0002 (circle data need 1)
+    N=12 w=359.1  min_j phi = 0.0000  max_j phi = 0.0000 (circle data need 1)
+    N=13 w=424.2  min_j phi = 0.0000  max_j phi = 0.0000 (circle data need 1)
+    N=14 w=494.6  min_j phi = 0.0000  max_j phi = 0.0004 (circle data need 1)

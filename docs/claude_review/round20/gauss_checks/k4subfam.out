@@ -1,0 +1,4 @@
+(X,m,s)= ['-3', '-3', '7']  rank onto T_4 = 3 (3 = dominant)  rank onto P(X_4) = 3 (max 3 < 4)
+(X,m,s)= ['-2', '1/3', '9']  rank onto T_4 = 3 (3 = dominant)  rank onto P(X_4) = 3 (max 3 < 4)
+(X,m,s)= ['5/2', '2', '4']  rank onto T_4 = 3 (3 = dominant)  rank onto P(X_4) = 3 (max 3 < 4)
+(X,m,s)= ['-7/3', '5/4', '-11']  rank onto T_4 = 3 (3 = dominant)  rank onto P(X_4) = 3 (max 3 < 4)

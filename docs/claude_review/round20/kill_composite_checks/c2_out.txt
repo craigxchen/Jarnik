@@ -1,0 +1,6 @@
+X=    2000 #prim=     956 #S-div=    20  X*minspacing: genuine=1.0406  minimal=0.8330  multiplicative=1.158e-01
+X=   10000 #prim=    4772 #S-div=    96  X*minspacing: genuine=1.0204  minimal=0.5788  multiplicative=3.632e-02
+X=   50000 #prim=   23878 #S-div=   476  X*minspacing: genuine=1.0100  minimal=0.5126  multiplicative=1.139e-02
+X=  200000 #prim=   95478 #S-div=  1872  X*minspacing: genuine=1.0032  minimal=0.7264  multiplicative=2.860e-03
+X= 1000000 #prim=  477444 #S-div=  9356  X*minspacing: genuine=1.0030  minimal=0.2279  multiplicative=5.630e-05
+X= 4000000 #prim= 1909876 #S-div= 37416  X*minspacing: genuine=1.0012  minimal=0.4558  multiplicative=2.252e-04

@@ -1,0 +1,7 @@
+point ['-6', '-4', '-6', '-3', '-6', '5', '7'] : rank dcons = 3 ; rank [dcons; T_4] = 6 (6 => submersion onto T_4) ; rank [dcons; P(X_4)] = 7 (7 => onto P(X_4))
+point ['-6', '-4', '-6', '-3', '-6', '5', '13/2'] : rank dcons = 3 ; rank [dcons; T_4] = 6 (6 => submersion onto T_4) ; rank [dcons; P(X_4)] = 7 (7 => onto P(X_4))
+point ['-8', '-3', '-10', '-6', '-27/2', '8', '5'] : rank dcons = 3 ; rank [dcons; T_4] = 6 (6 => submersion onto T_4) ; rank [dcons; P(X_4)] = 7 (7 => onto P(X_4))
+point ['-3/2', '-5/2', '-3/2', '-3/2', '-3/2', '2', '11'] : rank dcons = 3 ; rank [dcons; T_4] = 6 (6 => submersion onto T_4) ; rank [dcons; P(X_4)] = 7 (7 => onto P(X_4))
+subfamily X=-3 m=-3 s=7 -> a,b,c = ['6', '-4', '6', '-3', '6', '5'] constraints hold: True
+subfamily X=-2 m=1/3 s=9 -> a,b,c = ['18/17', '-3', '18/17', '37/17', '18/17', '-20/17'] constraints hold: True
+subfamily X=5/2 m=2 s=4 -> a,b,c = ['-15/13', '3/2', '-15/13', '-41/26', '-15/13', '-25/13'] constraints hold: True

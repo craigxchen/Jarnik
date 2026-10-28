@@ -1,0 +1,24 @@
+S = [101, 109, 113, 137, 149, 157]  #ideals 3141586  #S-smooth nontrivial 454
+k=1
+  X=   20000 |genuine|=2.081e-08 |mult graft|=2.091e+00 |minimal graft|=2.525e-01  (sum of weights 2.034e+03)
+  X=  100000 |genuine|=1.706e-12 |mult graft|=3.193e-02 |minimal graft|=1.706e-12  (sum of weights 1.017e+04)
+  X=  500000 |genuine|=1.875e-12 |mult graft|=1.131e-01 |minimal graft|=1.875e-12  (sum of weights 5.085e+04)
+  X= 1000000 |genuine|=4.067e-12 |mult graft|=4.330e-01 |minimal graft|=4.232e-01  (sum of weights 1.017e+05)
+  X= 2000000 |genuine|=0.000e+00 |mult graft|=1.501e+00 |minimal graft|=6.488e-01  (sum of weights 2.034e+05)
+k=2
+  X=   20000 |genuine|=2.133e-08 |mult graft|=1.089e+00 |minimal graft|=9.464e-01  (sum of weights 2.034e+03)
+  X=  100000 |genuine|=1.580e-12 |mult graft|=6.941e-02 |minimal graft|=1.580e-12  (sum of weights 1.017e+04)
+  X=  500000 |genuine|=6.845e-13 |mult graft|=7.035e-02 |minimal graft|=6.845e-13  (sum of weights 5.085e+04)
+  X= 1000000 |genuine|=2.087e-12 |mult graft|=2.769e-01 |minimal graft|=7.884e-01  (sum of weights 1.017e+05)
+  X= 2000000 |genuine|=4.067e-12 |mult graft|=1.174e+00 |minimal graft|=3.230e+00  (sum of weights 2.034e+05)
+k=5
+  X=   20000 |genuine|=2.208e-08 |mult graft|=1.012e+00 |minimal graft|=2.650e-02  (sum of weights 2.034e+03)
+  X=  100000 |genuine|=1.565e-12 |mult graft|=1.235e+00 |minimal graft|=1.565e-12  (sum of weights 1.017e+04)
+  X=  500000 |genuine|=4.756e-13 |mult graft|=5.909e-01 |minimal graft|=4.756e-13  (sum of weights 5.085e+04)
+  X= 1000000 |genuine|=1.705e-13 |mult graft|=9.903e-01 |minimal graft|=3.221e-02  (sum of weights 1.017e+05)
+  X= 2000000 |genuine|=0.000e+00 |mult graft|=5.261e-01 |minimal graft|=5.863e-01  (sum of weights 2.034e+05)
+pinning test, k=1, X=1e6: phi_p = theta_p + eps*u_p, |u_p|<=1
+  eps=1e-01  |F_1 graft| = 9.344e-02
+  eps=1e-02  |F_1 graft| = 8.819e-03
+  eps=1e-03  |F_1 graft| = 8.503e-04
+  eps=1e-04  |F_1 graft| = 8.468e-05

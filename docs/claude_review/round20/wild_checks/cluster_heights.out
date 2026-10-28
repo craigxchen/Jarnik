@@ -1,0 +1,35 @@
+== Prop C(ii): u=(1,g,...,g^{n-1},g^K), g=A+i ==
+   F2 (1,g^(K-n+1..K)): h_sum/h(ell)=4.3582  rigorous >= n(K-n+1)/(2K)=3.4400  (n/2=4.0)  G=2097152
+A=3 n=8 K=50: F1 ratio=0.877812  rigorous lower bound K/(K+n-1)=0.877193  G=1
+   F2 (1,g^(K-n+1..K)): h_sum/h(ell)=4.6647  rigorous >= n(K-n+1)/(2K)=3.9300  (n/2=4.0)  G=100433627766186892221372630771322662657637687111424552206336
+A=3 n=8 K=400: F1 ratio=0.983531  rigorous lower bound K/(K+n-1)=0.982801  G=1
+   F2 (1,g^(K-n+1..K)): h_sum/h(ell)=9.9575  rigorous >= n(K-n+1)/(2K)=9.9050  (n/2=10.0)  G=1
+A=10 n=20 K=2000: F1 ratio=0.990755  rigorous lower bound K/(K+n-1)=0.990589  G=1
+   F2 (1,g^(K-n+1..K)): h_sum/h(ell)=14.9325  rigorous >= n(K-n+1)/(2K)=14.8550  (n/2=15.0)  G=1
+A=2 n=30 K=3000: F1 ratio=0.990428  rigorous lower bound K/(K+n-1)=0.990426  G=1
+
+== full circles (all lattice points) ==
+N=1105: M=32 rank=3 (#split primes 3) h(z)=3.5038 h(ell)=7.0076 ratio=0.5000
+N=32045: M=64 rank=4 (#split primes 4) h(z)=5.1874 h(ell)=10.3749 ratio=0.5000
+N=1185665: M=128 rank=5 (#split primes 5) h(z)=6.9929 h(ell)=13.9858 ratio=0.5000
+N=48612265: M=256 rank=6 (#split primes 6) h(z)=8.8497 h(ell)=17.6994 ratio=0.5000
+
+== actual clusters: best k-windows ==
+   sum-height (min anchor) = 27.0972, h_sum/h(ell) = 1.5860, compare n/3 = 1.6667, n/2 = 2.5000
+N=1176852625 k=6: C(chord)=4.1387 normalised N'=1176852625 rank=5 (#primes 5) h(z)=10.4431 h(ell)=17.0849 G=1 ratio=0.6112 >= (W'/2)/((3/4)W'+log C)=0.6112
+   sum-height (min anchor) = 36.6590, h_sum/h(ell) = 2.0811, compare n/3 = 2.3333, n/2 = 3.5000
+N=1176852625 k=8: C(chord)=7.0323 normalised N'=1176852625 rank=5 (#primes 5) h(z)=10.4431 h(ell)=17.6149 G=1 ratio=0.5929 >= (W'/2)/((3/4)W'+log C)=0.5928
+   sum-height (min anchor) = 48.9964, h_sum/h(ell) = 2.7568, compare n/3 = 3.0000, n/2 = 4.5000
+N=1176852625 k=10: C(chord)=8.2386 normalised N'=1176852625 rank=5 (#primes 5) h(z)=10.4431 h(ell)=17.7732 G=1 ratio=0.5876 >= (W'/2)/((3/4)W'+log C)=0.5876
+   sum-height (min anchor) = 24.0951, h_sum/h(ell) = 1.3213, compare n/3 = 1.3333, n/2 = 2.0000
+N=3159797225 k=5: C(chord)=6.2358 normalised N'=3159797225 rank=4 (#primes 6) h(z)=10.9369 h(ell)=18.2355 G=1 ratio=0.5998 >= (W'/2)/((3/4)W'+log C)=0.5998
+   sum-height (min anchor) = 26.8821, h_sum/h(ell) = 1.4492, compare n/3 = 1.6667, n/2 = 2.5000
+N=3159797225 k=6: C(chord)=8.5424 normalised N'=3159797225 rank=5 (#primes 6) h(z)=10.9369 h(ell)=18.5502 G=1 ratio=0.5896 >= (W'/2)/((3/4)W'+log C)=0.5896
+   sum-height (min anchor) = 32.4584, h_sum/h(ell) = 1.7300, compare n/3 = 2.0000, n/2 = 3.0000
+N=3159797225 k=7: C(chord)=10.5641 normalised N'=3159797225 rank=6 (#primes 6) h(z)=10.9369 h(ell)=18.7625 G=1 ratio=0.5829 >= (W'/2)/((3/4)W'+log C)=0.5829
+   sum-height (min anchor) = 17.5607, h_sum/h(ell) = 1.0263, compare n/3 = 1.0000, n/2 = 1.5000
+N=2576450045 k=4: C(chord)=2.3591 normalised N'=2576450045 rank=3 (#primes 7) h(z)=10.8348 h(ell)=17.1105 G=1 ratio=0.6332 >= (W'/2)/((3/4)W'+log C)=0.6332
+   sum-height (min anchor) = 23.6606, h_sum/h(ell) = 1.3250, compare n/3 = 1.3333, n/2 = 2.0000
+N=2576450045 k=5: C(chord)=4.9747 normalised N'=2576450045 rank=4 (#primes 7) h(z)=10.8348 h(ell)=17.8566 G=1 ratio=0.6068 >= (W'/2)/((3/4)W'+log C)=0.6068
+   sum-height (min anchor) = 28.0000, h_sum/h(ell) = 1.5396, compare n/3 = 1.6667, n/2 = 2.5000
+N=2576450045 k=6: C(chord)=6.9203 normalised N'=2576450045 rank=5 (#primes 7) h(z)=10.8348 h(ell)=18.1866 G=1 ratio=0.5958 >= (W'/2)/((3/4)W'+log C)=0.5958

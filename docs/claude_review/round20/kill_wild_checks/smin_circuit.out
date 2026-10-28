@@ -1,0 +1,12 @@
+T=1e12 cycle 2k=4: n=3 formal rank=2 (n-1=2) h(ell)=55.955 2logT=55.262 G=2 minanchor=109.831 ratio/n=0.6543 S-(n/3)h(ell)=53.9
+T=1e12 cycle 2k=6: n=5 formal rank=4 (n-1=4) h(ell)=56.648 2logT=55.262 G=2 minanchor=219.662 ratio/n=0.7755 S-(n/3)h(ell)=125.2
+T=1e12 cycle 2k=8: n=7 formal rank=6 (n-1=6) h(ell)=57.054 2logT=55.262 G=2 minanchor=327.883 ratio/n=0.8210 S-(n/3)h(ell)=194.8
+T=1e12 cycle 2k=12: n=11 formal rank=10 (n-1=10) h(ell)=57.565 2logT=55.262 G=2 minanchor=545.936 ratio/n=0.8622 S-(n/3)h(ell)=334.9
+T=1e12 cycle 2k=20: n=19 formal rank=18 (n-1=18) h(ell)=58.152 2logT=55.262 G=2 minanchor=973.424 ratio/n=0.8810 S-(n/3)h(ell)=605.1
+T=1e12 cycle 2k=30: n=29 formal rank=28 (n-1=28) h(ell)=58.594 2logT=55.262 G=2 minanchor=1516.141 ratio/n=0.8922 S-(n/3)h(ell)=949.7
+T=1e30 cycle 2k=4: n=3 formal rank=2 (n-1=2) h(ell)=138.848 2logT=138.155 G=2 minanchor=275.617 ratio/n=0.6617 S-(n/3)h(ell)=136.8
+T=1e30 cycle 2k=6: n=5 formal rank=4 (n-1=4) h(ell)=139.541 2logT=138.155 G=2 minanchor=551.234 ratio/n=0.7901 S-(n/3)h(ell)=318.7
+T=1e30 cycle 2k=8: n=7 formal rank=6 (n-1=6) h(ell)=139.947 2logT=138.155 G=2 minanchor=825.242 ratio/n=0.8424 S-(n/3)h(ell)=498.7
+T=1e30 cycle 2k=12: n=11 formal rank=10 (n-1=10) h(ell)=140.458 2logT=138.155 G=2 minanchor=1374.866 ratio/n=0.8899 S-(n/3)h(ell)=859.9
+T=1e30 cycle 2k=20: n=19 formal rank=18 (n-1=18) h(ell)=141.045 2logT=138.155 G=2 minanchor=2468.332 ratio/n=0.9211 S-(n/3)h(ell)=1575.0
+T=1e30 cycle 2k=30: n=29 formal rank=28 (n-1=28) h(ell)=141.487 2logT=138.155 G=2 minanchor=3839.711 ratio/n=0.9358 S-(n/3)h(ell)=2472.0

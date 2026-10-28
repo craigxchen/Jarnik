@@ -1,0 +1,19 @@
+== 1. rank-one (1:g:g^2), g=A+i ==
+A=10: n=2 h(u)=4.6151 h(ell)=4.6151 G=1 minanchor=4.6151(a=1) ratio=1.0000 n/3=0.6667 ratio/n=0.5000 excess S-(n/3)h(ell)=1.5384 L=log(A^2+1)=4.6151
+A=1000: n=2 h(u)=13.8155 h(ell)=13.8155 G=1 minanchor=13.8155(a=1) ratio=1.0000 n/3=0.6667 ratio/n=0.5000 excess S-(n/3)h(ell)=4.6052 L=log(A^2+1)=13.8155
+A=1000000: n=2 h(u)=27.6310 h(ell)=27.6310 G=1 minanchor=27.6310(a=1) ratio=1.0000 n/3=0.6667 ratio/n=0.5000 excess S-(n/3)h(ell)=9.2103 L=log(A^2+1)=27.6310
+A=1000000000000: n=2 h(u)=55.2620 h(ell)=55.2620 G=1 minanchor=55.2620(a=1) ratio=1.0000 n/3=0.6667 ratio/n=0.5000 excess S-(n/3)h(ell)=18.4207 L=log(A^2+1)=55.2620
+A=1000000000000000000000000: n=2 h(u)=110.5241 h(ell)=110.5241 G=1 minanchor=110.5241(a=1) ratio=1.0000 n/3=0.6667 ratio/n=0.5000 excess S-(n/3)h(ell)=36.8414 L=log(A^2+1)=110.5241
+== 2. rank-one (1:g:g^2:g^3) ==
+A=10: n=3 h(u)=6.9227 h(ell)=9.2302 G=1 minanchor=9.2302(a=1) ratio=1.0000 n/3=1.0000 ratio/n=0.3333 excess S-(n/3)h(ell)=0.0000 
+A=1000: n=3 h(u)=20.7233 h(ell)=27.6310 G=1 minanchor=27.6310(a=1) ratio=1.0000 n/3=1.0000 ratio/n=0.3333 excess S-(n/3)h(ell)=0.0000 
+A=1000000: n=3 h(u)=41.4465 h(ell)=55.2620 G=1 minanchor=55.2620(a=1) ratio=1.0000 n/3=1.0000 ratio/n=0.3333 excess S-(n/3)h(ell)=0.0000 
+A=1000000000000: n=3 h(u)=82.8931 h(ell)=110.5241 G=1 minanchor=110.5241(a=1) ratio=1.0000 n/3=1.0000 ratio/n=0.3333 excess S-(n/3)h(ell)=0.0000 
+A=1000000000000000000000000: n=3 h(u)=165.7861 h(ell)=221.0482 G=1 minanchor=221.0482(a=1) ratio=1.0000 n/3=1.0000 ratio/n=0.3333 excess S-(n/3)h(ell)=0.0000 
+== 3. genuine short-arc 3-clusters z=((b-i)^2, b^2+1, (b+i)^2), b even ==
+b=10: n=2 h(u)=4.6151 h(ell)=5.2883 G=20 minanchor=4.6151(a=1) ratio=0.8727 n/3=0.6667 ratio/n=0.4364 excess S-(n/3)h(ell)=1.0896 R=101 arc/sqrtR=4.006630 log R=4.6151
+b=100: n=2 h(u)=9.2104 h(ell)=9.9034 G=200 minanchor=9.2104(a=1) ratio=0.9300 n/3=0.6667 ratio/n=0.4650 excess S-(n/3)h(ell)=2.6082 R=1e+04 arc/sqrtR=4.000067 log R=9.2104
+b=1000: n=2 h(u)=13.8155 h(ell)=14.5087 G=2000 minanchor=13.8155(a=1) ratio=0.9522 n/3=0.6667 ratio/n=0.4761 excess S-(n/3)h(ell)=4.1431 R=1e+06 arc/sqrtR=4.000001 log R=13.8155
+b=10000: n=2 h(u)=18.4207 h(ell)=19.1138 G=20000 minanchor=18.4207(a=1) ratio=0.9637 n/3=0.6667 ratio/n=0.4819 excess S-(n/3)h(ell)=5.6781 R=1e+08 arc/sqrtR=4.000000 log R=18.4207
+b=1000000: n=2 h(u)=27.6310 h(ell)=28.3242 G=2000000 minanchor=27.6310(a=1) ratio=0.9755 n/3=0.6667 ratio/n=0.4878 excess S-(n/3)h(ell)=8.7482 R=1e+12 arc/sqrtR=4.000000 log R=27.6310
+b=1000000000: n=2 h(u)=41.4465 h(ell)=42.1397 G=2000000000 minanchor=41.4465(a=1) ratio=0.9836 n/3=0.6667 ratio/n=0.4918 excess S-(n/3)h(ell)=13.3534 R=1e+18 arc/sqrtR=4.000000 log R=41.4465

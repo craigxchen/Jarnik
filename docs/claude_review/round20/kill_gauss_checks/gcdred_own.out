@@ -1,0 +1,5 @@
+Lemma 3.2 numeric violations (k<=8, M<400): 0
+rho_{10,5} = 0.007936507936507936
+points on circle 384  best 10-window diameter/sqrt(R) = 8.238647518069936
+cluster gcd norm 1
+E[W0/W] over 5-subsets = 0.023454954927528755  Rpp>=sqrt(R) always: True  reduced exponents range 0.606 0.702

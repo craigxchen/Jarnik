@@ -1,0 +1,5 @@
+S range 1009..1601 s=40  sup|f'|=0.4323
+X=1500000 #S-smooth=3240 partner failures=0 eta=3.39e-03 max|dn|=1341 mean|dn|=154.5 (X^0.5=1225) max|dtheta|=3.38e-03
+   genuine |err| max=0.448 mean=0.141 | minimal graft max=8.056 mean=2.298 | swap extension max=0.449 mean=0.141 | max|swap-genuine|=0.0014 <= proved bound 0.1443
+X=2500000 #S-smooth=2835 partner failures=0 eta=2.76e-03 max|dn|=4616 mean|dn|=181.3 (X^0.5=1581) max|dtheta|=2.76e-03
+   genuine |err| max=0.560 mean=0.144 | minimal graft max=1.163 mean=0.587 | swap extension max=0.559 mean=0.144 | max|swap-genuine|=0.0015 <= proved bound 0.0889

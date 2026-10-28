@@ -1,0 +1,15 @@
+X=20000 S=[101, 109, 113, 137] #ideals=15711 #S-divisible=1074 #S-smooth(nontrivial)=44 tau_1/2=1.1972
+  K=   5 genuine=   15771.0 mult=   15954.1 (+0.0116) minimal=   15785.1 (+0.0009) proved_lb=15711 lb_ok=True proved_ub_ok=True X+K*sqrtX=20707
+  K=  20 genuine=   16323.0 mult=   16464.7 (+0.0087) minimal=   16324.8 (+0.0001) proved_lb=15711 lb_ok=True proved_ub_ok=True X+K*sqrtX=22828
+  K=  60 genuine=   20996.4 mult=   21343.6 (+0.0165) minimal=   20996.2 (-0.0000) proved_lb=17061 lb_ok=True proved_ub_ok=True X+K*sqrtX=28485
+  K= 150 genuine=   44212.2 mult=   44554.6 (+0.0077) minimal=   44213.3 (+0.0000) proved_lb=42441 lb_ok=True proved_ub_ok=True X+K*sqrtX=41213
+X=100000 S=[229, 233, 241, 257, 269, 277] #ideals=78549 #S-divisible=3710 #S-smooth(nontrivial)=90 tau_1/2=1.1902
+  K=   5 genuine=   78638.2 mult=   78823.3 (+0.0024) minimal=   78663.9 (+0.0003) proved_lb=78549 lb_ok=True proved_ub_ok=True X+K*sqrtX=101581
+  K=  20 genuine=   79241.9 mult=   79824.7 (+0.0074) minimal=   79240.8 (-0.0000) proved_lb=78549 lb_ok=True proved_ub_ok=True X+K*sqrtX=106325
+  K=  60 genuine=   83937.8 mult=   85570.3 (+0.0194) minimal=   83934.6 (-0.0000) proved_lb=78549 lb_ok=True proved_ub_ok=True X+K*sqrtX=118974
+  K= 150 genuine=  111489.2 mult=  115023.5 (+0.0317) minimal=  111489.4 (+0.0000) proved_lb=95116 lb_ok=True proved_ub_ok=True X+K*sqrtX=147434
+X=300000 S=[401, 409, 421, 433, 449, 457, 461, 509] #ideals=235610 #S-divisible=8464 #S-smooth(nontrivial)=152 tau_1/2=1.1834
+  K=   5 genuine=  235650.1 mult=  235764.0 (+0.0005) minimal=  235683.8 (+0.0001) proved_lb=235610 lb_ok=True proved_ub_ok=True X+K*sqrtX=302739
+  K=  20 genuine=  236094.2 mult=  237877.3 (+0.0076) minimal=  236259.7 (+0.0007) proved_lb=235610 lb_ok=True proved_ub_ok=True X+K*sqrtX=310954
+  K=  60 genuine=  240731.9 mult=  242735.5 (+0.0083) minimal=  240810.8 (+0.0003) proved_lb=235610 lb_ok=True proved_ub_ok=True X+K*sqrtX=332863
+  K= 150 genuine=  268258.6 mult=  273180.9 (+0.0183) minimal=  268318.5 (+0.0002) proved_lb=235610 lb_ok=True proved_ub_ok=True X+K*sqrtX=382158

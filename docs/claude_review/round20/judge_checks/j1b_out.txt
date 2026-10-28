@@ -1,0 +1,6 @@
+X=1500000 eta=2.86e-02 k=1: |F| genuine=8.135e-12 minimal graft=1.929e-01 swap=1.632e-02
+X=1500000 eta=2.86e-02 k=2: |F| genuine=4.547e-12 minimal graft=1.083e+00 swap=2.880e-02
+X=1500000 eta=2.86e-02 k=3: |F| genuine=1.819e-12 minimal graft=6.217e+00 swap=3.902e-02
+X=1500000 eta=3.39e-03 k=1: |F| genuine=8.135e-12 minimal graft=1.929e-01 swap=1.632e-02
+X=1500000 eta=3.39e-03 k=2: |F| genuine=4.547e-12 minimal graft=1.083e+00 swap=2.880e-02
+X=1500000 eta=3.39e-03 k=3: |F| genuine=1.819e-12 minimal graft=6.217e+00 swap=3.902e-02

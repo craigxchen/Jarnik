@@ -125,9 +125,15 @@ internal rounds** on growth and uniformity and putting `(L_8)` before outside ex
 beta-weighted log Riemann-Hurwitz inequality on `Mbar_(0,8)` proves that **no unit pencil has positive gain**, in any degree
 (refereed), and an exact search confirms gain `<= -32` for all unit pencils of degree `<= 6` (refereed). The abc lane is closed;
 only non-unit pencils remain, with no proved conditional implication. Internal rounds on growth and uniformity stop here; the
-consolidated `overview/overview.md` is updated through round 19.
+consolidated `overview/overview.md` is updated through round 19. Round 20 (`round20/README.md`) is a second fresh-mechanism panel
+(circle-specific Gaussian arithmetic at small `k`, genus-0 arithmetic intersection theory, composite-supported analytic inputs,
+unlikely intersections in tori), each attacked by an adversarial killer. All four lenses were killed; no live lead survives. New
+on record: robust composite-supported analytic inputs are capped; genus-0 Arakelov inequalities reduce to pair data, `tau*` and
+rank; unlikely-intersection inputs are vacuous or capped at `omega(N')`; and a fifth conditional form, a Vojta instance `V_E(5)`
+on a 4-fold whose 5-point statement `(L_5^circ)` implies the uniform theorem (the 4-point analogue is false), every known method
+being exactly Liouville-critical on it.
 
-**Growth-rate status (2026-10-28, after round 19).** No growth improvement over `log R/loglog R` is proved, either
+**Growth-rate status (2026-10-28, after round 20).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues

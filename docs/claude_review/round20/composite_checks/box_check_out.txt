@@ -1,0 +1,5 @@
+(a) max |count-area| / (2.53 y^1/2 + 1.58) over 400 random sectors: 0.0578  (<=1 required)
+(b) S=[101, 109, 113, 137, 149, 157], tau_1/2=2.0787, tau'=1.7940; max |graft-genuine| = 107; max ratio to proved bound = 0.0008
+(c) X=1e+08 P0=101 s=6: Psi_S=455, binom(2s+L,L)=455, X^kappa=1.747e+07 (kappa=0.905)
+(c) X=1e+10 P0=1009 s=10: Psi_S=1771, binom(2s+L,L)=1771, X^kappa=6.013e+06 (kappa=0.678)
+(c) X=1e+12 P0=10007 s=20: Psi_S=861, binom(2s+L,L)=861, X^kappa=1.027e+07 (kappa=0.584)

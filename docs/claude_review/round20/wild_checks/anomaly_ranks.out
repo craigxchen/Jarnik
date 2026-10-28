@@ -1,0 +1,16 @@
+k=4: rank(all cross-ratios)=2 (expected 2) | s=4: rank=2 (exp 2), dimY=0, threshold=0, anomalous=False
+k=5: rank(all cross-ratios)=5 (expected 5) | s=4: rank=2 (exp 2), dimY=1, threshold=0, anomalous=True | s=5: rank=5 (exp 5), dimY=0, threshold=0, anomalous=False
+k=6: rank(all cross-ratios)=9 (expected 9) | s=4: rank=2 (exp 2), dimY=2, threshold=1, anomalous=True | s=5: rank=5 (exp 5), dimY=1, threshold=0, anomalous=True
+k=7: rank(all cross-ratios)=14 (expected 14) | s=4: rank=2 (exp 2), dimY=3, threshold=2, anomalous=True | s=5: rank=5 (exp 5), dimY=2, threshold=0, anomalous=True
+k=8: rank(all cross-ratios)=20 (expected 20) | s=4: rank=2 (exp 2), dimY=4, threshold=3, anomalous=True | s=5: rank=5 (exp 5), dimY=3, threshold=0, anomalous=True
+k=9: rank(all cross-ratios)=27 (expected 27) | s=4: rank=2 (exp 2), dimY=5, threshold=4, anomalous=True | s=5: rank=5 (exp 5), dimY=4, threshold=1, anomalous=True
+
+chord space M=3: dimV=1, torus dim=2, triangle fibre dimY=0, threshold=0, anomalous=False
+chord space M=4: dimV=2, torus dim=5, triangle fibre dimY=1, threshold=0, anomalous=True
+chord space M=5: dimV=3, torus dim=9, triangle fibre dimY=2, threshold=1, anomalous=True
+chord space M=6: dimV=4, torus dim=14, triangle fibre dimY=3, threshold=2, anomalous=True
+chord space M=7: dimV=5, torus dim=20, triangle fibre dimY=4, threshold=3, anomalous=True
+chord space M=8: dimV=6, torus dim=27, triangle fibre dimY=5, threshold=4, anomalous=True
+chord space M=9: dimV=7, torus dim=35, triangle fibre dimY=6, threshold=5, anomalous=True
+chord space M=10: dimV=8, torus dim=44, triangle fibre dimY=7, threshold=6, anomalous=True
+chord space M=11: dimV=9, torus dim=54, triangle fibre dimY=8, threshold=7, anomalous=True

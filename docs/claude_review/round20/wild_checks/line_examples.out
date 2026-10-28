@@ -1,0 +1,15 @@
+== Prop C: rank-one points u=(1,g,g^b), g=A+i (subgroup of codim n-1 in G_m^n) ==
+b=2 A=            10: h(u)=    4.6151 h(ell)=    4.6151 ratio=1.000000 gcd(minors)=1
+b=2 A=          1000: h(u)=   13.8155 h(ell)=   13.8155 ratio=1.000000 gcd(minors)=1
+b=2 A=       1000000: h(u)=   27.6310 h(ell)=   27.6310 ratio=1.000000 gcd(minors)=1
+b=2 A= 1000000000000: h(u)=   55.2620 h(ell)=   55.2620 ratio=1.000000 gcd(minors)=1
+b=3 A=            10: h(u)=    6.9227 h(ell)=    7.6109 ratio=0.909580 gcd(minors)=1
+b=3 A=          1000: h(u)=   20.7233 h(ell)=   21.4164 ratio=0.967635 gcd(minors)=1
+b=3 A=       1000000: h(u)=   41.4465 h(ell)=   42.1397 ratio=0.983551 gcd(minors)=1
+b=3 A= 1000000000000: h(u)=   82.8931 h(ell)=   83.5862 ratio=0.991707 gcd(minors)=1
+b=5 A=            10: h(u)=   11.5378 h(ell)=   12.8991 ratio=0.894464 gcd(minors)=1
+b=5 A=          1000: h(u)=   34.5388 h(ell)=   35.9251 ratio=0.961412 gcd(minors)=1
+b=5 A=       1000000: h(u)=   69.0776 h(ell)=   70.4638 ratio=0.980326 gcd(minors)=1
+b=5 A= 1000000000000: h(u)=  138.1551 h(ell)=  139.5414 ratio=0.990065 gcd(minors)=1
+u=(g^0..g^8), A=1000: h(u)=55.2620 h(ell)=96.7086 ratio=0.571429 G=1
+u=(g^0..g^8), A=1000000: h(u)=110.5241 h(ell)=193.4171 ratio=0.571429 G=1
