@@ -51,6 +51,8 @@ it is recorded here and not pursued further.**
 
 ## 3. Status of the uniform theorem
 
+**For outside experts:** `expert_note/expert_note.md` is a short (about 5 pages) self-contained statement of the three open questions the record reduces to: `(L_8)` (integer `2 x 8` matrices; implies the uniform theorem; Vojta-predicted), `(L_5^circ)` (five lattice points on a circle; implies the uniform theorem; the 4-point version is false), and positive-gain non-unit pencils on `Mbar_(0,8)`, with what any proof must avoid. Accuracy-checked (`expert_note/check.md`).
+
 **Start here:** `overview/overview.md` is a consolidated account of the whole record for outside experts (problem, the
 `(2/3+eps)` theorem with a proof sketch, restricted and conditional theorems, the barrier map, routes and where each stops,
 open problems), with a status label and file pointer on every statement. It was checked claim by claim against the record
