@@ -303,9 +303,13 @@ $-K=\phi^*(-K_{X'})$ for the small crepant contraction $\phi$ onto the twisted G
 $X(\mathbb Q)=X'(\mathbb Q)=T_5(\mathbb Q)$ and $(-K)^4=70$ (**proved**). With $H=H_{-K}=R''^2$, an A-point at
 $\delta$ has McKinnon–Roth exponent $\gamma=4/(1+2\delta)$, and:
 * $\varepsilon_e(-K)=\alpha_e(-K)=2$ (**proved**), attained only on diagonal conics, which carry repeated points;
-* $10/3\le\tau_e(-K)\le15/4$ (**proved**; exact data $t_{\max}(m)=\lfloor10m/3\rfloor$ for $m\le8$ suggest
-  $\tau_e=10/3$); every finite family of auxiliary Laurent polynomials used through Liouville, for every profile,
-  gives at best $A_5(\delta)$ for $\delta>2/\tau_e-1/2\ge1/30$ (**proved**);
+* $\tau_e(-K)=10/3$ (**proved**, round 23 `width.md` Thm 2.5, refereed). For every $m$, the maximal order at $e$ of a
+  section of $m(-K)$ is $\lfloor10m/3\rfloor$, for the split and the twisted form, and it is attained by Vandermonde
+  products. The proof slices the lattice points of $a\Delta-b\Delta$ coordinatewise, which gives the same family again,
+  and peels the slices. Consequently every finite family of auxiliary Laurent polynomials over $\mathbb Q(i)$, used
+  through Liouville with toric forced divisibility, gives for arbitrary profiles exactly the Cilleruelo–Córdoba exponent
+  $\delta=1/10$ and never more; for balanced profiles it gives $\delta=1/30$. McKinnon–Roth's base-locus Liouville at $e$
+  is therefore exactly Cilleruelo–Córdoba. The open window $\alpha^{\rm ess}\in(15/4,4)$ is untouched.
 * $A_5(\delta<1/30)$ is exactly $\alpha^{\rm ess}_e(-K)>15/4$ off a proper closed set, and $(L_5^\circ)$ is the same
   over balanced sequences; Vojta predicts $\ge4=\dim X$.
 
@@ -316,6 +320,23 @@ $\delta$ has McKinnon–Roth exponent $\gamma=4/(1+2\delta)$, and:
 > toric heights are asymptotically equal? A yes gives the uniform Cilleruelo–Granville bound (gauss Thm 3.4'). In
 > McKinnon–Satriano canonical boundedness is a **hypothesis**; by their 2023 erratum Vojta implies it when $-K$ is
 > big. The record found no unconditional proof for any variety (snippet level; full texts unread).
+
+> **Split calibration** (round 23 `split.md`, refereed). The same window occurs on the *split* Losev–Manin 4-fold at
+> $e$. There a primitive positive 5-tuple $u$ has $H_{-K}=(\max u/\min u)\,\mathrm{lcm}(u)$ and
+> $\mathrm{dist}\asymp(\max u-\min u)/\min u$. Split Question B asks whether five distinct integers with gcd 1 in
+> $[U,U(1+\mathrm{lcm}^{-(1+2\delta)/4})]$, $\delta<1/30$, have their ratio class in a fixed proper closed set once the
+> lcm is large. Equivalently, it concerns five factorisations of $N$ within hyperbolic angle $N^{-(1+2\delta)/4}$ on
+> $xy=N$. It is **not known**: it implies Erdős Problem #887 in its absolute form ($\exists K\,\forall C$: eventually at
+> most $K$ divisors of $n$ in $[X,X(1+Cn^{-1/4})]$, for every $X$), and Ruzsa's #886 for
+> $\varepsilon>(15/64)(1+2\delta)$. Both are open (formal-conjectures, October 2026). The proof uses a random 5-subset,
+> averaging over threshold layers, and Schwartz–Zippel. The 2026 five-divisor construction for #887
+> ($n=(x^2-1)(x^2-4)(x^2-16)(x^2-49)$, $z^2=56x^2+65$) is a rational curve hitting each of the 15 cuts once, with
+> $\alpha=15/4$ exactly. It lies in a 2-parameter family sweeping a hypersurface $W$, which every admissible split
+> exceptional set must contain. Such curves do not exist on the twisted form: for a curve over $\mathbb Q$ there,
+> $E_A\cdot C=E_{A^c}\cdot C$, so a balanced twisted curve at $15/4$ has $B\cdot C\ge30$ and $\mathrm{mult}_e\ge8$. A
+> proof of Question B valid for every $\mathbb Q$-form of the 4-fold would therefore solve #887; a proof for $T_5$ alone
+> may need the anisotropy. Split Question B is undecided. It would fail if infinitely many such hypersurfaces existed,
+> or if absolute #887 failed.
 
 > **Question B.** Prove $(L_5^\circ)$, or $A_5(\delta)$ for some $\delta<1/30$. Or refute $(L_5^\circ)$ by a
 > Zariski-dense supply of balanced bounded-residue 5-tuples at exponent $\ge7/15$ (for a rational family, one

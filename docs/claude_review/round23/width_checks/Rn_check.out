@@ -1,0 +1,3 @@
+n=3: (R_n) holds on [0,40]^2: True; H_n equals max_(p,q) of left side: True; F_n monotone: True
+n=4: (R_n) holds on [0,40]^2: True; H_n equals max_(p,q) of left side: True; F_n monotone: True
+n=5: (R_n) holds on [0,40]^2: True; H_n equals max_(p,q) of left side: True; F_n monotone: True

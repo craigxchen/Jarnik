@@ -1,0 +1,12 @@
+N=70  mismatches rho_n vs F_n (n=3,4,5): 0 []
+rho_5(m,m)==floor(10m/3) for m<=N: True
+rho_4(m,m)==3m: True
+m= 1  peel[C_bal(4)]=   3 (7m/2=7/2)  peel[ThmB(4)]=   3 (15m/4=15/4)  peel[true F_4]=   3 (10m/3=10/3)
+m= 2  peel[C_bal(4)]=   7 (7m/2=7)  peel[ThmB(4)]=   7 (15m/4=15/2)  peel[true F_4]=   6 (10m/3=20/3)
+m= 3  peel[C_bal(4)]=  10 (7m/2=21/2)  peel[ThmB(4)]=  11 (15m/4=45/4)  peel[true F_4]=  10 (10m/3=10)
+m= 4  peel[C_bal(4)]=  14 (7m/2=14)  peel[ThmB(4)]=  15 (15m/4=15)  peel[true F_4]=  13 (10m/3=40/3)
+m= 6  peel[C_bal(4)]=  21 (7m/2=21)  peel[ThmB(4)]=  22 (15m/4=45/2)  peel[true F_4]=  20 (10m/3=20)
+m= 8  peel[C_bal(4)]=  28 (7m/2=28)  peel[ThmB(4)]=  30 (15m/4=30)  peel[true F_4]=  26 (10m/3=80/3)
+m=12  peel[C_bal(4)]=  42 (7m/2=42)  peel[ThmB(4)]=  45 (15m/4=45)  peel[true F_4]=  40 (10m/3=40)
+m=24  peel[C_bal(4)]=  84 (7m/2=84)  peel[ThmB(4)]=  90 (15m/4=90)  peel[true F_4]=  80 (10m/3=80)
+m=48  peel[C_bal(4)]= 168 (7m/2=168)  peel[ThmB(4)]= 180 (15m/4=180)  peel[true F_4]= 160 (10m/3=160)

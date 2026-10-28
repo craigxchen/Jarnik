@@ -1,0 +1,14 @@
+n=5 a=0 b=1 |T|=5 F=1 full_at_F=True deficient_at_F-1=True
+n=5 a=0 b=2 |T|=15 F=2 full_at_F=True deficient_at_F-1=True
+n=5 a=0 b=3 |T|=35 F=3 full_at_F=True deficient_at_F-1=True
+n=5 a=0 b=4 |T|=70 F=4 full_at_F=True deficient_at_F-1=True
+n=5 a=1 b=1 |T|=21 F=3 full_at_F=True deficient_at_F-1=True
+n=5 a=1 b=2 |T|=55 F=4 full_at_F=True deficient_at_F-1=True
+n=5 a=1 b=3 |T|=115 F=6 full_at_F=True deficient_at_F-1=True
+n=5 a=1 b=4 |T|=210 F=7 full_at_F=True deficient_at_F-1=True
+n=5 a=2 b=2 |T|=131 F=6 full_at_F=True deficient_at_F-1=True
+n=5 a=2 b=3 |T|=255 F=8 full_at_F=True deficient_at_F-1=False
+n=5 a=2 b=4 |T|=440 F=9 full_at_F=True deficient_at_F-1=True
+n=5 a=3 b=3 |T|=471 F=10 full_at_F=True deficient_at_F-1=True
+n=5 a=3 b=4 |T|=780 F=11 full_at_F=True deficient_at_F-1=True
+n=5 a=4 b=4 |T|=1251 F=13 full_at_F=True deficient_at_F-1=True

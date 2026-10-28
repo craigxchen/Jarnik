@@ -1,0 +1,4 @@
+N= 45 failures: 0 tight counts (H_n = max min): {3: 2116, 4: 2116, 5: 2116} of 2116
+rho5(m,m) == floor(10m/3) for all m<=N: True
+F5(m,m) == floor(10m/3): True
+F4(m,m)==3m, F3(m,m)==3m: True

@@ -1,0 +1,11 @@
+(1, 2, 4) m=56 B=65 norm identity: True  const places: 1  distinct cuts: 15 of 15  B.C = 15  m square? False
+(2, 5, 9) m=1440 B=27001 norm identity: True  const places: 1  distinct cuts: 15 of 15  B.C = 15  m square? False
+(1, 4, 6) m=264 B=7657 norm identity: True  const places: 1  distinct cuts: 15 of 15  B.C = 15  m square? False
+(3, 4, 10) m=2040 B=-16511 norm identity: True  const places: 1  distinct cuts: 15 of 15  B.C = 15  m square? False
+(2, 7, 8) m=1904 B=69113 norm identity: True  const places: 1  distinct cuts: 15 of 15  B.C = 15  m square? False
+m-czech Pell points (exact): x, #divisors in window, max offset / n^(1/4) (approx), offsets/x^2
+37 True 30.447076239822355 [0.0, 12.622352081811542, 12.655222790357925, 15.620160701241783, 27.611395178962745] gcd 9
+1109 True 30.000488672315534 [0.0, 14.885573482312516, 14.918943377448713, 17.918904349282574, 29.91889459224104] gcd 1
+33233 True 30.000000544170987 [0.0, 14.963921504833873, 14.997291957116984, 17.99729191365574, 29.99729190279043] gcd 9
+995881 True 30.000000000605983 [0.0, 14.966539174974182, 14.999909627877726, 17.999909627829325, 29.999909627817228] gcd 1
+29843197 True 30.000000000000675 [0.0, 14.966626531333214, 14.999996984237447, 17.99999698423739, 29.99999698423738] gcd 9

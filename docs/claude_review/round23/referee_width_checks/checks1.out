@@ -1,0 +1,9 @@
+Lemma 2.1 slices (n<=5,a,b<=4): True
+|T_5(m,m)| m=1..5: [21, 131, 471, 1251, 2751]
+n=3: all full at F_n: True  full already at F_n-1 at: []
+n=4: all full at F_n: True  full already at F_n-1 at: []
+n=5: all full at F_n: True  full already at F_n-1 at: [(2, 3)]
+T_5(2,3): full at 7? True full at 6? False
+m=1 |S|=21  full at floor(10m/3)=3: True ; full at one less: False
+m=2 |S|=131  full at floor(10m/3)=6: True ; full at one less: False
+m=3 |S|=471  full at floor(10m/3)=10: True ; full at one less: False

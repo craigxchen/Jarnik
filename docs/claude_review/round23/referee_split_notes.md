@@ -1,0 +1,15 @@
+# referee_split notes
+- 1.2 height, 1.4 cut bookkeeping, balanced Liouville 15/4 (80w/20=4w vs 15w): re-derived OK.
+- Thm1 steps (ii)-(v) re-derived OK; Northcott wording: finite set of H<H0 tuples includes non-distinct ones (e itself, dist 0); must restrict to distinct-coordinate tuples. minor.
+- KEY RISK: Thm1 => A^split_5 false if #887 absolute-K is false (e.g. constructions of k divisors for all k). Must search.
+- Thm2 combinatorics: re-derived by hand: 16 places, each x-value gives S and S∪{1}; all 15 cuts once regardless of which z F1 vanishes. x^3 cancels since d=a+b+c; x^2 coeff of F1-F0 is exactly 2z/x (since -S/2 - e2(a,b,c,-d)=0).
+- offsets "0, 2sqrt56-35, 15,18,30" looks wrong: should be 2sqrt56≈14.97 relative to F0 (F1 - F0 ~ 2xz). check pell5.py.
+- (v) Jacobian rank only numerical -> (vi) "proved" overstated. Try exact rank at rational point via conic param.
+- Parity lemma: OK (Gal(Qbar/K) orbits argument; E_A.C = E_{A^c}.C in general).
+- LIT verified: PR #7218 (closed 2026-10-22; body: parts.i/ii still open; m-czech forum July 2026; C=40 Lean, also C=7/2 five divisors claim). 887.lean/886.lean fetched via raw.githubusercontent: parts.ii = ∃K ∀C, Ioo floor(sqrt n) ceil(sqrt n + C n^{1/4}); 886 open; rosenfeld_bound 1+C^2 solved. JTNB 12 (2000) 87-92 ok; AA 85 (1998) 229-233 ok; QJM 51 (2000) 343-352 ok; Chan 1303.2249, 2507.07094, 2508.02818, Letendre 2503.12146 ok. Missing from table: Chan 1406.2230 (almost squares & lattice points on circles; in record lit18), Chan 1303.2069 (perfect squares <=5 divisors).
+- Integer window Ioo floor/ceil: absorb by C -> C+1 (minor).
+- ERROR 5.3.2: "group products never improve alpha" uses dist(yy') <~ max -- wrong direction (upper bound on dist). Every point of T is a product of coordinate 1-PS points, so the claim would give alpha>=8 everywhere, contradicting Thm 2. 
+- typo: offset "2sqrt56-35" should be 2sqrt56 ≈ 14.967 (relative to F0); 2sqrt56-35 = -20.03.
+- checks done: thm2_sym.py (i)-(iii) symbolic + profile at 6 params OK; jac_exact.py exact rank 3 at 4 rational pts + exact homogeneity => W hypersurface PROVED; pell_indep.out: log(dist^3.75 H) in [6.0,14.0], logL/logn->15/16, first gamma<4 at logH 105.8 (claim "logH>~60" weaker, harmless); conv_indep.out ranges match split.md exactly; scan_indep.out matches scan_2e8 ranges 2^18,2^19; hyper_indep 0 violations.
+- MS erratum (snippet): Vojta => CB for toric with -K big. consistent.
+- PR #7218 also mentions C=7/2 five-divisor claim (no source) - not mentioned in split.md.

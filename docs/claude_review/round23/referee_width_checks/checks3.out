@@ -1,0 +1,2 @@
+Cor 3.1: every pair width of T_5(a,b) = a+b with range [-b,a] (a,b<=5): True
+F5<=5(a+b)/3 on [0,200)^2: True ; equality set == {(3s,3s)}: True
