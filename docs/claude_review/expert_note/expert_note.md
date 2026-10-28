@@ -338,6 +338,17 @@ $\delta$ has McKinnon–Roth exponent $\gamma=4/(1+2\delta)$, and:
 > may need the anisotropy. Split Question B is undecided. It would fail if infinitely many such hypersurfaces existed,
 > or if absolute #887 failed.
 
+> **Absolute form of the A-branch** (round 23 judge J4; independent referee `round23/referee_J4.md`, **proved**). If
+> $A_5(\delta)$ holds for one $\delta\in(0,1/30)$, there is $K=K(\delta,Z)$ such that for every $C>0$ and every
+> $R\ge R_1(C)=\max(C^{2/\kappa},(CR_0)^2)$, every arc of length $\le C\sqrt R$ holds at most $K$ lattice points; so
+> $\sup_C M_\infty(C)<\infty$ (here $\kappa=1-(15/16+\eta)(1+2\delta)>0$, $\eta=(1/(1+2\delta)-15/16)/2$). The same
+> argument gives it from $A_k(\delta)$, $\delta<1/(2^k-2)$, for every $k\ge3$: convexity averaging of the tuple gcd alone
+> reaches the sharp range, with no balanced selection and no unit-class restriction. Scope: this is proved from the
+> $A_5$ branch only, not from $(L_5^\circ)$ (whose route subdivides the arc and gives $K$ linear in $C$). So a
+> construction with $M_\infty(C)\to\infty$ would refute $A_5(\delta)$ for all $\delta<1/30$, and $V_E(5)$, but not
+> $(L_5^\circ)$. The absolute form is only formally stronger than $M(C)<\infty$, and it also follows from
+> Cilleruelo–Granville's own $R^{1-\varepsilon}$ conjecture ($\varepsilon=1/4$).
+
 > **Question B.** Prove $(L_5^\circ)$, or $A_5(\delta)$ for some $\delta<1/30$. Or refute $(L_5^\circ)$ by a
 > Zariski-dense supply of balanced bounded-residue 5-tuples at exponent $\ge7/15$ (for a rational family, one
 > dominating the 4-dimensional $T_5$); that would refute $V_E(5)$. Unlike $k=4$, a 2-parameter family plus its

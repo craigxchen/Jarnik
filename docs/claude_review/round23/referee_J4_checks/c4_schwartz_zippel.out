@@ -1,0 +1,9 @@
+N=1176852625 M=14 Z=w2w3=w4w5        [z] in Z <=> F(z)=0 on all distinct ordered tuples: True; zeros in Sigma^5: 7420 (distinct: 1520) <= D*M^4 = 76832 : True
+N=1176852625 M=14 Z=Re w2=Re w3      [z] in Z <=> F(z)=0 on all distinct ordered tuples: True; zeros in Sigma^5: 38416 (distinct: 0) <= D*M^4 = 115248 : True
+N=1176852625 M=14 Z=x2+x3+x4+x5=0    [z] in Z <=> F(z)=0 on all distinct ordered tuples: True; zeros in Sigma^5: 0 (distinct: 0) <= D*M^4 = 192080 : True
+N=2082925 M=16 Z=w2w3=w4w5        [z] in Z <=> F(z)=0 on all distinct ordered tuples: True; zeros in Sigma^5: 14720 (distinct: 5088) <= D*M^4 = 131072 : True
+N=2082925 M=16 Z=Re w2=Re w3      [z] in Z <=> F(z)=0 on all distinct ordered tuples: True; zeros in Sigma^5: 65536 (distinct: 0) <= D*M^4 = 196608 : True
+N=2082925 M=16 Z=x2+x3+x4+x5=0    [z] in Z <=> F(z)=0 on all distinct ordered tuples: True; zeros in Sigma^5: 0 (distinct: 0) <= D*M^4 = 327680 : True
+N=143650 M=16 Z=w2w3=w4w5        [z] in Z <=> F(z)=0 on all distinct ordered tuples: True; zeros in Sigma^5: 17088 (distinct: 6624) <= D*M^4 = 131072 : True
+N=143650 M=16 Z=Re w2=Re w3      [z] in Z <=> F(z)=0 on all distinct ordered tuples: True; zeros in Sigma^5: 68096 (distinct: 1560) <= D*M^4 = 196608 : True
+N=143650 M=16 Z=x2+x3+x4+x5=0    [z] in Z <=> F(z)=0 on all distinct ordered tuples: True; zeros in Sigma^5: 0 (distinct: 0) <= D*M^4 = 327680 : True

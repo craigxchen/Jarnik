@@ -1,0 +1,5 @@
+record cluster: n=1176852625, 10-point chord span/sqrt(R) = 8.238648
+  normalised: N=1176852625, subsets=252, fails=0, unit classes in cluster=4
+  times gamma=(1+i)^3*3*7*(2+i)^2: N=103798401525000, subsets=252, fails=0, unit classes in cluster=4
+circles N<=20000 with >=5 points: 5123
+totals: {'subsets': 794668, 'fail': 0, 'cross_unit': 794553, 'ramified': 393328, 'inert': 104000, 'nonnormalised': 474001}
