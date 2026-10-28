@@ -1,0 +1,1148 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1.05in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{statement}[theorem]{Statement}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{question}{Question}
+\renewcommand{\thequestion}{\Alph{question}}
+
+% A theorem-like environment whose full heading is given as an argument.
+\newcommand{\namedname}{}
+\newtheorem*{namedinner}{\namedname}
+\newenvironment{named}[1]{\renewcommand{\namedname}{#1}\begin{namedinner}}{\end{namedinner}}
+
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\N}{\mathbb N}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\PP}{\mathbb P}
+\newcommand{\GI}{\mathbb Z[i]}
+\newcommand{\Norm}{\operatorname{N}}
+\newcommand{\ord}{\operatorname{ord}}
+\newcommand{\dist}{\operatorname{dist}}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+\newcommand{\conj}[1]{\overline{#1}}
+\newcommand{\E}{\mathcal E}
+\newcommand{\M}{\mathcal M}
+\newcommand{\LL}{\mathcal L}
+\newcommand{\Mbar}{\overline M_{0,8}}
+\newcommand{\Ltw}[1]{\overline L{}^{\rm tw}_{#1}}
+\newcommand{\Bal}{\operatorname{Bal}}
+\newcommand{\gain}{\operatorname{gain}}
+\newcommand{\mult}{\operatorname{mult}}
+% Record paths in typewriter type.  The second definition (the one TeX uses)
+% allows line breaks after "/" and "-"; the first is what pandoc sees.
+% Arguments must not contain spaces or braces.
+\newcommand{\rec}[1]{\texttt{#1}}
+\makeatletter
+\def\rec@scan#1{\ifx#1\relax\else#1\ifx#1/\allowbreak\fi
+  \ifx#1-\allowbreak\fi\expandafter\rec@scan\fi}
+\expandafter\def\csname rec\endcsname#1{\texttt{\rec@scan#1\relax}}
+\makeatother
+
+\title{Lattice Points on Critical Arcs:\\ Three Diophantine Questions}
+\author{Craig Chen}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Let \(N=R^2\in\N\) and let \(\E_R=\{z\in\GI:|z|^2=N\}\).  The critical case
+of a conjecture of Cilleruelo and Granville asserts that an arc of length
+\(C\sqrt R\) on \(|z|=R\), in any position, contains a number of points of
+\(\E_R\) bounded in terms of \(C\) alone.  For every large \(R\) the bound
+\((\frac23+\varepsilon)\log R/\log\log R\) is proved, no bound
+\(o(\log R/\log\log R)\) is known, and ``fake circles'' show that several
+classes of local inputs cannot prove one.  The only standard-conjecture
+routes to the uniform bound pass through Vojta's Main Conjecture for one
+fixed variety.  This note records three questions isolated in a review of
+these routes, each with its status and with the known partial results and
+barriers: Question~A, a statement \((L_8)\) about integer \(2\times8\) matrices
+(closely related to, and implied by, a statement about rational points of
+\(\Mbar\) with balanced boundary contacts; the two are not known to be
+equivalent), together with a lattice form that every proof must cover;
+Question~B, a statement \((L_5^\circ)\) about five lattice points on a circle,
+which is an approximation-constant question at the identity of the twisted
+Losev--Manin \(4\)-fold, with a split calibration related to Erd\H{o}s Problem
+\#887; and Question~C, whether a non-unit pencil on \(\Mbar\) can have
+positive gain.  We also list what any proof must avoid.  All statements are
+taken from a review record whose files we cite by path.
+\end{abstract}
+
+\tableofcontents
+
+\section{The problem and what is known}\label{sec:problem}
+
+\subsection{Sources and status labels}
+
+Every statement below is taken from the review record in the directory
+\rec{docs/claude\_review/} of the repository
+\rec{github.com/craigxchen/Jarnik}, branch
+\rec{claude/upbeat-einstein-p0peju}.  Each statement is the
+referee-corrected or killer-corrected version, and each carries a status label
+and a file pointer.  File paths are relative to \rec{docs/claude\_review/}.
+The labels are as follows.
+\begin{itemize}[leftmargin=2em]
+  \item \emph{Proved} means checked by an independent adversarial referee.
+  \item \emph{Proved (killer-checked)} applies to round~20 only: the result was
+    checked by an adversarial ``killer'' but not by a separate referee.
+  \item \emph{Proved by the killer} marks the killer's own new results
+    (round~20), which no second party has checked.
+  \item \emph{Conditional} means proved from a named hypothesis.
+  \item \emph{Exact} means a finite exact computation.
+  \item \emph{Heuristic} means a count that no proof uses.
+  \item \emph{Unrefereed} means checked by its author only.
+  \item \emph{Open} means neither proved nor refuted.
+\end{itemize}
+Theorem-like environments carry the status and the source in brackets.  A
+number written next to a file path (for example ``\rec{round20/gauss.md}
+Thm~4.3'') is that file's own numbering.  It is unrelated to the numbering of
+this note, which is used only through cross-references.
+
+\subsection{The problem}
+
+Let \(N=R^2\in\N\) and \(\E_R=\{z\in\GI:|z|^2=N\}\).  For \(C>0\), let
+\(M(C)\) be the supremum, over all \(R\) and over all arcs \(I\) of \(|z|=R\)
+of length \(\le C\sqrt R\) \emph{in any position}, of \(\#(I\cap\E_R)\), and
+let \(M_\infty(C)\) be the corresponding \(\limsup\) as \(R\to\infty\)
+(\rec{overview/overview.md} \S1.1).
+
+\begin{conjecture}[Cilleruelo--Granville, critical case; \cite{CillerueloGranville2007,CillerueloGranville2009}]\label{conj:CG}
+\(M(C)<\infty\) for every \(C>0\).
+\end{conjecture}
+
+The scale \(\sqrt R\) is critical because the sagitta \(L^2/8R\) of an arc of
+length \(L\) becomes of order \(1\) there.  Arcs that touch an axis point are
+trivial, so the whole difficulty is uniformity in the position of the arc
+(\rec{overview/overview.md} \S1.1).
+
+\subsection{The \texorpdfstring{\((\frac23+\varepsilon)\log R/\log\log R\)}{(2/3+eps) log R/loglog R} theorem}
+
+For every \(R\) the literature bound is \(\ll_C\log R\)
+(Cilleruelo--C\'ordoba~\cite{CillerueloCordoba1992}; Bourgain--Rudnick).
+
+\begin{theorem}[proved, two referees; \rec{two\_thirds/proof.md} Thm 7.5, Cor 8.1]\label{thm:twothirds}
+Let \(M\ge2\) distinct lattice points lie on an arc of length \(\le C\sqrt R\).
+Then
+\[
+  3M\log M\le\log R^2+(14+4\log^+C)\,M .
+\]
+Hence for every \(C,\varepsilon>0\) there is an explicit \(R_0(C,\varepsilon)\)
+such that \(M\le(\frac23+\varepsilon)\log R/\log\log R\) for all \(R\ge R_0\).
+\end{theorem}
+
+\paragraph{Idea of the proof.}
+The proof compares an archimedean upper bound with an arithmetic lower bound
+for the product of the reduced chords.  After dividing by
+\(\gcd(z_1,\dots,z_M)\) one obtains the \emph{normalised} cluster: \(N\) is
+odd, all \(p\mid N\) split, and
+\(z_j=\varepsilon_j\prod_p\pi_p^{a_{jp}}\conj\pi_p^{\,e_p-a_{jp}}\).  Put
+\(c_{ij}=(z_i-z_j)/\gcd(z_i,z_j)\) (the reduced chords) and
+\(S_{p\tau}=\#\{i:a_{ip}<\tau\}\) for \(1\le\tau\le e_p\).  The link is an exact
+cut identity (\rec{overview/overview.md} \S2.2, Step~2):
+\[
+  \prod_{i<j}|z_i-z_j|^8
+  =N^{M(M-2)}\prod_{p\mid N}p^{\sum_\tau(2S_{p\tau}-M)^2}\prod_{i<j}|c_{ij}|^8 .
+\]
+The arithmetic side comes from pigeonhole collisions at primes
+\(q\lesssim M\), together with a chain lemma on exponent levels.  The factor
+\(\log M\) is the mass \(\sum_{q\le M}\log q/q\).
+
+No bound \(o(\log R/\log\log R)\) is known for every \(R\), either
+unconditionally or from any standard conjecture.  Explicit examples give
+\(M(C)\ge10\) for \(C\ge8.2394\) (one explicit \(10\)-point cluster) and
+\(M_\infty(C)\ge8\) for \(C>5.89771\) (a family)
+(\rec{growth/families.md}, \rec{growth/referee\_families.md}).
+
+\subsection{The fake-circle barrier}\label{sec:fakes}
+
+Why is \(\log R/\log\log R\) a barrier for local inputs
+(\rec{overview/overview.md} \S\S5.1, 5.4)?  Divide a cluster by its Gaussian
+gcd.  Then \(N=\prod_jp_j^{e_j}\) with \(p_j\equiv1\pmod 4\), and
+\(z_x=\varepsilon_x\prod_j\pi_j^{a_{xj}}\conj\pi_j^{\,e_j-a_{xj}}\).  The arc
+condition becomes a linear system in the angles \(\phi_j=\arg\pi_j\): for all
+\(x\), \(\langle2a_x-e,\phi\rangle\in\theta_0+[0,\Delta]+\frac\pi2\Z\), with
+\(\Delta\asymp R^{-1/2}\).  A \emph{fake circle} (angle model) keeps the
+genuine primes and the genuine exponent profile but uses an arbitrary
+\emph{real} \(\phi\).  That \(\phi\) must solve the system and satisfy every
+monomial gap
+\(\dist(\langle v,\phi\rangle,\frac\pi2\Z)\ge\arcsin e^{-w(v)/2}\), where
+\(w(v)=\sum|v_j|\log p_j\); these gaps hold on actual circles.  Since
+\(W=\log N=cM\log M\) corresponds to \(M\approx(2/c)\log R/\log\log R\), an
+input class that admits fakes with \(W=O(M\log M)\) cannot prove
+\(M=o(\log R/\log\log R)\).  The record builds such fakes for several classes.
+\begin{itemize}[leftmargin=2em]
+  \item Skew-Hadamard (Paley) profiles give fakes at
+    \(W\le(8+o(1))M\log M+8M\log(1/C)\).  These satisfy every pair, cut,
+    monomial-gap and rational-character inequality (\rec{round8/lw.md}
+    Thm~6.1; \emph{proved}).
+  \item Residue designs extend this to point-level residues at moduli
+    \(\le M^A\) with \(A\) fixed in advance (\rec{round5/construct.md},
+    \rec{round5/lower.md}).  Referee scope limits: all primes of \(N\) must
+    exceed the modulus bound \(X\), and the twisted extension at \(X=M^A\),
+    \(A>1\), is open (\rec{round5/README.md}; \rec{overview/overview.md}
+    \S5.2 item~2).
+  \item Grafts cap robust averaged analytic inputs
+    (\rec{round10/analytic.md} Thm~B; \rec{round20/composite.md}).
+\end{itemize}
+Actual clusters satisfy \(W\ge3M\log M-O(M)\).  Not everything is capped.
+P3-all\(^*\), the sharp-constant large sieves and the low-height window
+\(P_+(N')\le M^{2-\delta}\) remain uncapped; here \(N'\) is the normalised
+norm and \(P_+(N')\) its largest prime factor (\rec{round21/README.md}, status
+\emph{open}), and the residue caps are not uniform in \(A\); see
+\rec{overview/overview.md} \S5.5.  The record's synthesis is a judge's
+assessment, \emph{unrefereed} (\rec{round17/README.md} \S7.1;
+\rec{overview/overview.md} \S7.6).  It says a new mechanism must be global,
+multi-place and tied to the actual arithmetic of \(N\).  The only statements
+of that type in the record are Vojta-type, and their sharpest arithmetic forms
+are Questions~\ref{q:A} and~\ref{q:B} below.
+
+\subsection{What is conditional: Vojta}
+
+The only standard-conjecture routes give the uniform bound directly.  They use
+Vojta's Main Conjecture for \emph{one fixed} variety:
+\begin{itemize}[leftmargin=2em]
+  \item \(D=0\) on a resolution of \(\mathrm{Bl}_YX_7\), where \(X_7\) is the
+    equal-norm variety and \(Y\) its diagonal line
+    (\rec{growth/conditional.md} Thm~5.1);
+  \item \(D=0\) on \(\Mbar\) (Section~\ref{sec:A});
+  \item \(D=E\), \(S=\{\infty\}\) on a \(4\)-fold (Section~\ref{sec:B}).
+\end{itemize}
+
+\section{Question A: \texorpdfstring{\((L_8)\)}{(L8)}, a statement about integer \texorpdfstring{\(2\times8\)}{2x8} matrices}\label{sec:A}
+
+\subsection{The statement}
+
+The data are as follows (\rec{growth/ptolemy.md} \S7;
+\rec{overview/overview.md} \S7.1).
+\begin{itemize}[leftmargin=2em]
+  \item A matrix \(P=(P_0|\cdots|P_7)\in\Z^{2\times8}\) with primitive
+    columns, \(P_0=(1,0)^T\) and \(P_j=(X_j,Y_j)^T\).
+  \item Positive integers \(n_T\) for \(\emptyset\ne T\subseteq[7]\), such
+    that for all \(0\le i<j\le7\)
+    \[
+      \det(P_i,P_j)=t_{ij}\prod_{T\ni i,j}n_T,\qquad
+      t_{ij}\in\Z\setminus\{0\}\quad(t_{0j}=Y_j).
+    \]
+  \item The \emph{chain condition}: at each prime \(p\), the sets \(T\) with
+    \(p\mid n_T\) form two chains under inclusion, and the unions of the two
+    chains are disjoint.
+\end{itemize}
+The \emph{visible} blocks are those with \(2\le|T|\le6\).  There are \(119\)
+of them, one for each boundary divisor \(D_T\) of \(\Mbar\).  Singletons occur
+in no minor.  The top block \([7]\) divides every minor with \(i,j\ge1\), but
+it can be inflated by a fresh prime (\(z\mapsto nz\)) without moving \(\Phi\),
+so imposing balance only on the \(119\) visible blocks is equivalent
+(\rec{round18/README.md} \S1, ``Balance'').  Column~\(0\) is the
+\emph{anchor}: it is normalised to \(P_0=(1,0)^T\) and sent to \(\infty\) in
+Kapranov's chart \(\PP^5=\PP(\Q^7/\Q\mathbf 1)\).  The chain condition does
+not depend on the anchor, but \(Z\) depends on the labelling, so a statement
+with an arbitrary anchor must symmetrise \(Z\) (\rec{round18/README.md} \S1,
+``Anchor'').  Put
+\[
+  H_\Sigma=\sum_j\log|Y_j|+\sum_{1\le i<j\le7}\log|t_{ij}| .
+\]
+The datum is \emph{\(\eta\)-balanced at scale \(w\)} if \(|\log n_T-w|\le\eta w\)
+for all \(119\) visible \(T\).  Finally, \(\Phi\in M_{0,8}(\Q)\) is the point
+given by the eight columns as points of \(\PP^1(\Q)\).
+
+\begin{statement}[\((L_8)\); open]\label{st:L8}
+There are \(c>0\), \(\eta_0>0\) and a proper Zariski-closed \(Z\subset\Mbar\)
+such that every such datum with \(\Phi\notin Z\) and \(\eta\le\eta_0\)
+satisfies \(H_\Sigma\ge c\,w-O(1)\).
+\end{statement}
+
+\subsection{Cleanest form and the sandwich}
+
+The following reductions are \emph{proved} (\rec{round18/theory.md} \S1.3,
+Prop~2.1; \rec{round18/census.md} Prop~1.3).  Every \(\Phi\in M_{0,8}(\Q)\) has
+a primitive representative \(x\in\Z^7\), taken modulo translation, with
+point~\(0\) sent to \(\infty\) and
+\[
+  |x_i-x_j|=\prod_{T\ \text{visible},\ T\ni i,j}d_T(\Phi).
+\]
+Here \(d_T=\prod_pp^{\ell_T(p)}\) is the \emph{contact integer}, the finite part
+of the height \(h_{D_T}(\Phi)\), and \(\ell_T(p)\) is the number of levels \(t\)
+at which \(T\) is a residue class of \(x\bmod p^t\) (\rec{round18/theory.md}
+Lemma~2.2).  Let \(\Bal(\eta)\) be the set of \(\Phi\) with
+\(|\log d_T-w|\le\eta w\) for all \(119\) \(T\).  The strongest natural form,
+\((L_8^c)^{\rm all}\), which implies \((L_8)\), says that \emph{a rational point
+of \(M_{0,8}\) off a fixed \(Z\) cannot have all \(119\) boundary contacts of
+the same size \(e^{w}\), \(w\to\infty\)}; \((L_8)\) itself gives this only at
+caterpillar points.
+
+\begin{proposition}[proved; round 18, \rec{round18/theory.md} \S1.3, \rec{round18/census.md} Prop 1.3]\label{prop:sandwich}
+\[
+  (L_8^c)^{\rm all}\Rightarrow(L_8)\Rightarrow(L_8^f)\Rightarrow(L_8^c)^{\rm cat}\Rightarrow(L_8^{pc}).
+\]
+No arrow is known to reverse.
+\end{proposition}
+
+The terms are as follows.
+\begin{itemize}[leftmargin=2em]
+  \item \((L_8^c)^{\rm all}(\eta_1)\): \(\Bal(\eta_1)\cap\{w\ge w_1\}\subset Z\).
+    It implies \((L_8)\) with \(\eta_0=\eta_1/2\), \(c=\eta_1/4\).  Conversely
+    \((L_8)\) implies \((L_8^c)(\eta_0,Z)\) only for \(\Phi\) admissible from
+    anchor~\(0\) (any anchor, with symmetrised \(Z\)); this is not an
+    equivalence (\rec{round18/README.md} \S2.1 item~1;
+    \rec{overview/overview.md} \S7.1 item~2).
+  \item ``cat'' restricts this to points that are \emph{caterpillar} at every
+    prime.  A compatible split system is a \emph{caterpillar} if one side of
+    each split can be chosen so that the chosen sides form a chain;
+    equivalently, all internal edges of its tree lie on one path.  The chain
+    condition is exactly the caterpillar condition on the block system at each
+    prime (\rec{round18/theory.md} Lemma~1.1; exact on all \(39208\) trees with
+    \(8\) leaves).  Caveat (referee item~H): the block system equals the
+    \(p\)-adic tree of \(\Phi\) only at primes dividing no residue.
+  \item ``pc'' restricts it to pairwise coprime \(d_T\).
+  \item \((L_8^f)\) replaces \(cw\) by any \(f(w)\to\infty\) with \(f\le cw\).
+    Every proof of \((L_8^f)\) must prove \((L_8^c)^{\rm cat}\), the
+    \(H_\Sigma=0\) content of \((L_8)\), so a slowly growing \(f\) is no
+    shortcut; but \((L_8^f)\) is not known to be equivalent to \((L_8)\)
+    (\rec{round18/referee\_theory.md} \S2.3, item~A).
+\end{itemize}
+
+\subsection{Lattice form}
+
+The following is \emph{open}; it is a consequence of \((L_8)\), not known to be
+equivalent to it (\rec{round18/theory.md} Lemma~2.2, \S5(2), as corrected by
+\rec{round18/referee\_theory.md} item~G).
+\begin{itemize}[leftmargin=2em]
+  \item In Kapranov's model \(\Mbar\to\PP^5\): \(H\cdot\beta=31\),
+    \(E_T\cdot\beta=1\), \(K=-6H+\sum_{3\le|T|\le6}(|T|-2)E_T\) and
+    \(K\cdot\beta=10\).  Here \(\beta\) is the balanced class, defined by
+    \(D_T\cdot\beta=1\) for all \(T\).
+  \item The congruence lattice \(\Lambda(x)\) consists of the \(y\in\Z^7\) with
+    \(y_i\equiv y_j\bmod p^t\) whenever \(i,j\) lie in one residue class of
+    \(x\bmod p^t\) of size \(\ge3\).  It contains \(x\) and has index
+    \([\Z^7:\Lambda(x)]=\prod_{3\le|T|\le6}d_T^{|T|-1}\).
+  \item A balanced point has \(|x|\approx e^{31w}\).  The Minkowski scale of
+    its own lattice is \(e^{49w}\), and the trivial (Liouville) bound is
+    \(e^{30w}\).
+\end{itemize}
+
+\begin{statement}[\((L_8^{pc})\), lattice form; open]\label{st:L8pc}
+There are \(\eta_1>0\), \(w_1\) and a proper closed \(Z\) with the following
+property.  Let \(e_T\in[e^{(1-\eta_1)w},e^{(1+\eta_1)w}]\), for
+\(T\subseteq[7]\) with \(3\le|T|\le6\), be pairwise coprime integers, and let
+\(w\ge w_1\).  Then the lattice
+\[
+  \Lambda_e=\{y\in\Z^7:e_T\mid y_i-y_j\ \text{for } i,j\in T\}
+\]
+has no primitive vector \(y\notin\Z\mathbf 1\) such that all of the following
+hold:
+\begin{enumerate}[label=(\roman*)]
+  \item \([y]\in M_{0,8}\setminus Z\);
+  \item \(|y|\le e^{31w(1+\eta_1)}\);
+  \item the pair cofactors \((y_i-y_j)/\prod_{T\supseteq\{i,j\}}e_T\) are
+    pairwise coprime of size \(e^{w(1\pm\eta_1)}\).
+\end{enumerate}
+\end{statement}
+
+In words, structured lattices have no primitive vector \(e^{18w}\) below their
+Minkowski scale.  Nothing between the trivial bound and Minkowski is known for
+these lattices.  The heuristic count gives \(98-108=-10=-K\cdot\beta\) per unit
+of \(w\): \(e^{98w}\) profiles against \(e^{-108w}\) for shortness
+(\emph{heuristic}).  \((L_8^{pc})\) alone does \emph{not} give the uniform
+theorem; that needs the chain cases, that is, \((L_8)\) itself.
+
+\subsection{What is known around \texorpdfstring{\((L_8)\)}{(L8)}}
+
+\begin{theorem}[proved, refereed; \rec{growth/ptolemy.md} \S7 and Steps 0--5 of \S6.2, \rec{growth/referee\_ptolemy.md}]\label{thm:L8uniform}
+\((L_8)\) implies the uniform bound: \(M(C)<\infty\) for every \(C>0\).
+\end{theorem}
+
+The proof has four steps.
+\begin{enumerate}[leftmargin=2em]
+  \item Subdivide the arc, keep one Gaussian unit class, and divide by its gcd.
+  \item A random balanced selection (item~532 of the notes on branch
+    \rec{agent/uniform-gcd-formalization}) shows that at least half of all
+    ordered \(8\)-tuples have balance \(\eta\le2\sqrt2\cdot255/\sqrt{M-7}\) and
+    \(H_\Sigma\le3584\,w/(M-1)\), with \(w=W/128\).
+  \item At most \(c(Z)M^7\) of the \(8\)-tuples have \(\Phi\in Z\) (\rec{growth/ptolemy.md} Lemma~6.1).
+  \item \((L_8)\) then bounds \(M\) independently of \(R\).
+\end{enumerate}
+
+\begin{theorem}[conditional on Vojta; Thm D, \rec{growth/ptolemy.md} \S6]\label{thm:VojtaL8}
+Assume Vojta's Main Conjecture with \(D=0\) on \(\Mbar\) over \(\Q\), with
+\(B=\sum_TD_T\) the boundary and \(A=K+B\), which is ample (Keel--McKernan).
+Then \((L_8)\) holds with \(Z=Z_{1/43}\) and \(\eta_0=1/381\).
+\end{theorem}
+
+The key estimate is \(h_K(\Phi)\ge10w-282\eta w-60H_\Sigma-O(1)\).  The sign is
+\(K\cdot\beta=2^{k-3}(k-8)+k+2\), which is \(-7\) at \(k=7\) and \(+10\) at
+\(k=8\).  So \(k=8\) is the first case in which the \(D=0\) inequality says
+anything at balanced points.
+
+\begin{theorem}[proved; \rec{growth/referee\_ptolemy.md} \S3.3, \rec{threshold/L8.md} Prop C and Thm B]\label{thm:L56false}
+\((L_5)\) and \((L_6)\) are false.
+\end{theorem}
+
+\((L_7)\) is open and expected false, and \((L_7)\Rightarrow(L_8)\)
+(\rec{round18/census.md} Lemma~7.7).
+
+\begin{remark}[Correction B; \rec{round18/referee\_theory.md} \S2.7]
+A refutation of \((L_8)\) refutes Vojta at balanced points, but not
+conversely: a refuter must produce caterpillar points.
+\end{remark}
+
+\subsection{Round-18 facts}
+
+The following are from \rec{round18/README.md} \S\S0--3; all are
+\emph{proved} and refereed unless labelled otherwise.
+\begin{enumerate}[leftmargin=2em]
+  \item \emph{No feasible computation} (\rec{round18/census.md} Thm~E).  Each
+    prime divides at most \(5\) visible blocks, so a balanced datum needs at
+    least \(24\) primes.  At \(\eta=0.1\) the class is empty for
+    \(e^w<59.2\), and all \(21\) minors \(\det(P_i,P_j)\) with \(i,j\ge1\) are
+    \(\ge10^{49.4}\).  Block-sampling searches return \(H_\Sigma\asymp w\) even
+    at \(k=5,6\), where bounded-\(H\) points are known to be abundant
+    (\emph{exact}).  So a failed search says nothing.
+  \item \emph{No family mechanism.}
+    \begin{itemize}
+      \item Density, box and sieve arguments produce only
+        \(\kappa\le-\sum\log e_T\), where \(\kappa\) is the finite part of
+        \(h_K\) (\rec{round18/theory.md} Prop~2.3).
+      \item Bounded-degree covering families of genus-\(\le1\) curves whose
+        members \emph{each} carry infinitely many balanced small-\(H\) points
+        are excluded (\rec{round18/census.md} Prop~7.5).  Correction~M1: a
+        dense supply with finitely many points on each member, for example on
+        the lines of Kapranov's \(\PP^5\), is \emph{not} excluded.
+      \item Class-\(\beta_7\) lifts of the \((L_6)\) families are excluded
+        (\rec{round18/lift.md} Thm~4.2).  Classes \(c\beta_7\) with \(c\ge2\),
+        and point-level lifts, are open.
+      \item Restricted theorems are known only on special loci with
+        locus-dependent constants, or for a fixed prime set (Ridout:
+        \(H_\Sigma\ge8(1-\eta)(1-\varepsilon)w-C(S_0,\eta,\varepsilon)\) when all
+        blocks are \(S_0\)-units; \rec{round18/theory.md} Thm~2.5).  The
+        constant \(C\) depends on \(S_0\), so this is useless here.
+    \end{itemize}
+  \item \emph{Chains carry no information on pairwise-coprime profiles}
+    (\rec{round18/theory.md} Prop~2.1).  On \(\Bal^{pc}\) each prime divides
+    one block, and the \(p\)-adic tree is a single edge.  So the chain
+    condition, the anchoring and the residues are vacuous, and \emph{every
+    proof of \((L_8)\) must prove \((L_8^{pc})\)}.  The gloss ``nothing but
+    \(K\cdot\beta=10\) survives'' is not a theorem (item~G).
+\end{enumerate}
+
+\begin{question}\label{q:A}
+Prove \((L_8)\), or at least its lattice form \((L_8^{pc})\), which every proof
+must cover.  A proof of \((L_8)\) would be an unconditional case of \(D=0\)
+Vojta on the rational \(5\)-fold \(\Mbar\), for a structured but unbounded
+family of points.  Alternatively, find, for every \(\eta>0\) and every \(w_1\),
+a Zariski-dense set of \(\eta\)-balanced points with \(w\ge w_1\) that are
+caterpillar up to \(o(w)\) of residue.  That would refute both \((L_8)\) and
+Vojta (Correction~B; \rec{round18/referee\_theory.md} \S2.7,
+\rec{round18/theory.md} \S3.1).
+\end{question}
+
+\section{Question B: \texorpdfstring{\((L_5^\circ)\)}{(L5 circ)}, five lattice points on a circle}\label{sec:B}
+
+Every theorem in this section is \emph{proved (killer-checked)} or
+\emph{conditional}, except where labelled otherwise; the statements \(A_5\),
+\((L_5^\circ)\) and its arc form are \emph{open}.  Sources:
+\rec{round20/gauss.md} \S\S1--4, \rec{round20/kill\_gauss.md} \S\S1.2, 6--7,
+and \rec{overview/overview.md} \S\S4.3, 7.1A.
+
+\subsection{Setting}
+
+\begin{itemize}[leftmargin=2em]
+  \item Let \(\zeta_1,\dots,\zeta_k\) be a \emph{primitive} tuple of distinct
+    lattice points of \(|\zeta|=R''\), meaning \(\gcd_{\GI}=1\).
+  \item Its similarity class \([\zeta]=(\zeta_j/\zeta_1)_j\) is a point of the
+    norm-one torus
+    \(T_k=(R^1_{\Q(i)/\Q}\mathbb G_m)^k/\text{diag}\), which has dimension
+    \(k-1\).  \(T_k\) is the open torus of the twisted Losev--Manin space
+    \(\Ltw k\) (the permutohedral fan in \(\Z^k/\Z\mathbf 1\), with Galois
+    acting by \(-1\) on cocharacters).  \([\zeta]\) is invariant under
+    \(\zeta\mapsto\gamma\zeta\), \(\gamma\in\Q(i)^*\), which is why the
+    exceptional set \(Z\) must live in \(T_k\).  For \(A\subsetneq[k]\)
+    nonempty, \(E_A\) is the toric divisor of the ray \(\mathbf 1_A\).
+  \item \emph{Unit class.} Fix the Gaussian primes \(\pi_p\) once.  Each point
+    factors as \(\zeta=\varepsilon\prod_p\pi_p^{a(p)}\conj\pi_p^{\,e_p-a(p)}\)
+    with a unit \(\varepsilon\in\{\pm1,\pm i\}\); points lie in one \emph{unit
+    class} when their units agree.  Within one class,
+    \(\zeta_a/\zeta_b=P/\conj P\) with \(P\in\GI\) conjugate-primitive
+    (\rec{growth/ptolemy.md} \S1, following item~532 on branch
+    \rec{agent/uniform-gcd-formalization}; \rec{docs/claude\_review/} has no
+    separate formal definition).\footnote{The form \(P/\conj P\) is a
+      consequence of the definition, not an equivalent definition:
+      \(i=(1+i)/(1-i)\) and \(-1=i/(-i)\) are themselves of the form
+      \(P/\conj P\).}
+  \item Each threshold layer \((p,t)\) of the exponent profile gives a cut
+    \(\{A,A^c\}\) of \([k]\).  Let \(n_A\) be the product of the \(p\) over the
+    layers with that cut.  Then \(h_{E_A+E_{A^c}}([\zeta])=\log n_A\) exactly,
+    and \(\sum_A\log n_A=\log R''^2\) (\rec{round20/gauss.md} Lemma~1.1).
+  \item A short arc means archimedean proximity of \([\zeta]\) to the identity
+    \(e\).
+  \item Put \(d_{ab}=\sum_{A\text{ separates }a,b}\log n_A\), define \(t_{ab}\)
+    by \(|\zeta_a-\zeta_b|=2|t_{ab}|R''e^{-d_{ab}/2}\), and put
+    \(H_\Sigma=\sum_{a<b}\log|t_{ab}|\).  Here \(t_{ab}\) is a nonzero integer
+    when \(\zeta_a,\zeta_b\) lie in one Gaussian unit class.  Across unit
+    classes it need not be: \(|t_{ab}|\in\sqrt{\text{odd}/2}\) occurs (killer
+    correction, minor~1).  The record allows either repair: restrict to one
+    unit class (as below), or take \(t_{ab}:=|c_{ab}|/2\) real, with
+    \(c_{ab}=(\zeta_a-\zeta_b)/\gcd(\zeta_a,\zeta_b)\), and read the conclusion
+    as \(H_\Sigma\ge cw-O(1)\) (\rec{round20/kill\_gauss.md} \S7 item~1;
+    \rec{round20/README.md} \S1.1 item~1).
+\end{itemize}
+
+\subsection{The statements}
+
+\begin{statement}[\(A_k(\delta)\); open for \(k=5\)]\label{st:Ak}
+There are a proper Zariski-closed \(Z\subset T_k\) and an \(R_0\) such that
+every primitive \(k\)-tuple of distinct lattice points of a circle of radius
+\(R''\ge R_0\), with all mutual distances \(\le R''^{1/2-\delta}\), has
+\([\zeta]\in Z\).
+\end{statement}
+
+\begin{statement}[\((L_k^\circ)\); open for \(k=5\)]\label{st:Lkcirc}
+There are \(c,\eta_0>0\), \(w_0\) and a proper Zariski-closed \(Z\subset T_k\)
+with the following property.  Every primitive \(k\)-tuple \emph{within one
+unit class} with \([\zeta]\notin Z\), \(w\ge w_0\) and
+\(|\log n_A-w|\le\eta_0w\) for all \(2^{k-1}-1\) cuts has
+\(H_\Sigma\ge cw\).
+\end{statement}
+
+At \(k=5\) there is also a sufficient \emph{arc form} (\emph{open}; it implies
+\((L_5^\circ)\) by the argument of \rec{round20/gauss.md} Prop~3.1, and the
+converse is not proved; \rec{overview/overview.md} \S7.1A).
+
+\begin{statement}[arc form of \((L_5^\circ)\); open]\label{st:arc}
+Take five primitive lattice points of a circle of radius \(R\), in one unit
+class, whose Gaussian profile is \(\eta_0\)-balanced over all \(15\) cuts and
+whose class lies outside \(Z\).  Then, once \(R\) is large, they do not all lie
+within \(R^{7/15+c}\) of each other.
+\end{statement}
+
+The exponent \(7/15\) arises because each pair is separated by \(8\) of the
+\(15\) cuts.  So \(|t_{ab}|\ge1\) (valid within one unit class) gives diameter
+\(\ge2R''^{7/15}\) at exact balance, and this is exactly the Liouville bound.
+For a balanced \(k\)-tuple taken from a large cluster on a critical
+\(\sqrt R\)-arc, dividing by the tuple gcd moves it to the ``subcritical''
+exponent \(\frac12-\frac1{2^k-2}\) in the reduced radius
+(\rec{round20/gauss.md} Lemma~1.2).
+
+\subsection{Theorems}
+
+\begin{theorem}[proved, killer-checked; \rec{round20/gauss.md} Thm 3.4\('\), Prop 3.1]\label{thm:reduction}
+Let \(k\ge3\) and \(0<\delta<1/(2^k-2)\).  Then
+\[
+  A_k(\delta)\Rightarrow(L_k^\circ)\Rightarrow\text{the uniform bound}.
+\]
+For \(\delta\le2^{-k-1}\), only a convexity averaging of the tuple gcd is
+needed.  The converse \((L_5^\circ)\Rightarrow A_5\) is \emph{not} proved.
+\end{theorem}
+
+\begin{theorem}[proved, killer-checked; \rec{round20/gauss.md} Thm 4.1]\label{thm:k4false}
+The \(4\)-point version is false.
+\begin{itemize}
+  \item Take Gaussian linear blocks \(H_T(s)=q_T(s-r_T)\), with roots \(r_T\) on
+    an explicit rational \(2\)-parameter family.  These give balanced
+    \(4\)-tuples with bounded residues at exponent
+    \(3/7=\frac12-\frac1{14}\), dense in \(T_4\).
+  \item Hence \(A_4(\delta)\) is false for every \(\delta<1/14\), and
+    \((L_4^\circ)\) is false for every \(c,\eta_0,Z\).
+\end{itemize}
+\end{theorem}
+
+The exact Jacobian rank was reproduced at \(6\) rational points.
+
+\begin{remark}[proved by the killer, not independently checked; \rec{round20/kill\_gauss.md} \S3, \rec{round20/kill\_gauss\_checks/k3\_projection.py}]\label{rem:k3false}
+Likewise \(A_3(\delta<1/6)\) and \((L_3^\circ)\) are false (the killer's own
+projection corollary).
+\end{remark}
+
+So \(k=5\) is the first case where the reduction can work.
+
+\begin{theorem}[conditional on Vojta; \rec{round20/gauss.md} Thm 4.2, re-derived by the killer]\label{thm:VE}
+Let \(Y_k=\mathrm{Bl}_e\Ltw k\), so \(K_{Y_k}=-\pi^*\sum_\rho E_\rho+(k-2)E\).
+Let \(V_E(k,\varepsilon)\) be Vojta's Main Conjecture for
+\((Y_k,D=E,S=\{\infty\})\): off a proper closed \(Z_\varepsilon\),
+\[
+  \lambda_{E,\infty}(y)+h_{K_{Y_k}}(y)\le\varepsilon h_A(y)+C_\varepsilon .
+\]
+Here \(A=\pi^*L-\varepsilon'E\) is ample with \(L=\sum_\rho a_\rho E_\rho\),
+\(a_\rho>0\), and \(c_A=\max_\rho a_\rho\), so that \(h_A\le c_AW'+O(1)\) with
+\(W'=\log R''^2\) (\rec{round20/gauss.md} Thm~4.2 proof).
+\begin{itemize}
+  \item If \(k\ge5\), \(\kappa=(k-1)(1+2\delta)/4-1>0\) and
+    \(\varepsilon<\kappa/c_A\), then \(V_E(k,\varepsilon)\Rightarrow A_k(\delta)\).
+  \item At \(k=5\), \(\kappa=2\delta\), so \(V_E(5)\) with one
+    \(\varepsilon<(1/32)/c_A\) gives the uniform bound (via \(A_5(1/64)\)),
+    and \(V_E(5)\) predicts \((L_5^\circ)\).
+\end{itemize}
+The instance is non-vacuous (\rec{round20/gauss.md} Thm~4.2, Remark~(3)).  The
+\(D=0\) form would need \(k\ge6\).
+\end{theorem}
+
+\begin{theorem}[proved, killer-checked; \rec{round20/gauss.md} Thm 4.3(ii)]\label{thm:covering}
+Let \(k\ge5\) and \(\delta>0\).  Put \(B=\pi^*\sum_\rho E_\rho\), so
+\(h_B=W'\).  Call the class of a primitive tuple with diameter
+\(\le R''^{1/2-\delta}\) an \emph{A-point}.  For each \(d\), the curves \(C\)
+with \(B\cdot C\le d\) that carry infinitely many A-points lie in a proper
+closed set.
+\end{theorem}
+
+Part~(i) of the same result (\rec{round20/gauss.md} Thm~4.3(i)) was narrowed by the killer
+(\rec{round20/kill\_gauss.md} \S1.2 item~4).  The density mechanism is excluded
+at \(k=5\) only \emph{heuristically} (count \(e^{-w}\) per scale).
+
+\begin{lemma}[K1, proved by the killer, not independently checked; \rec{round20/kill\_gauss.md} \S6.1]\label{lem:K1}
+Every recorded method is exactly critical.  Let \(F\) be bihomogeneous of
+bidegree \((a,b)\).
+\begin{itemize}
+  \item Then \(F(z)=g^a\conj g^{\,b}F(\zeta)\), and the forced divisor scales
+    in the same way.
+  \item The angular width is unchanged, and so are the pair data and the
+    residues.
+  \item Consequently, every forced-divisibility, Liouville, pair, cut,
+    character or single-form inequality is the same before and after division
+    by the gcd.  The move from \(\frac12\) to \(\frac7{15}\) is a change of
+    units.
+  \item Auxiliary forms are capped at ratio exactly \(1\)
+    (\rec{threshold/construct.md} Cor~C3, with Thm~B), and single-form
+    Lang--Waldschmidt is exactly tight.
+  \item Only Vojta's \(D=E\) term and the heuristic count see the reduction.
+\end{itemize}
+\end{lemma}
+
+\subsection{Approximation reading}
+
+The following is from \rec{round20/kill\_gauss.md} \S6.2.  Measure height by
+\(h_B=\log R''^2\).  An A-point satisfies
+\(\dist(y,e)\le H_B(y)^{-(1/4+\delta/2)}\), approximating the \emph{rational}
+point \(e\) of the \(4\)-fold \(T_5\).
+\begin{itemize}[leftmargin=2em]
+  \item \(\delta=0\) is counting-critical (\emph{heuristic}).
+  \item Liouville excludes balanced points for \(\delta>1/30\), and arbitrary
+    points for \(\delta>1/10\) (Cilleruelo--C\'ordoba).
+  \item What is needed is that, for some \(\delta<1/30\), \emph{the Liouville
+    exponent at \(e\) is not attained by a Zariski-dense set of balanced
+    points}.
+  \item At \(k=4\) this fails (Theorem~\ref{thm:k4false}).  On \(\PP^1\),
+    Liouville is attained at every rational point.
+  \item Roth, Schmidt and Ru--Vojta with \(S=\{\infty\}\) do not apply.  The
+    target is rational and \(E\) is geometrically irreducible, so
+    \(\beta(L,E)\le\tau(L,E)\), which never goes beyond Liouville.
+  \item So this is the McKinnon--Roth regime.  According to the killer, the
+    only predictions beyond Liouville/Seshadri are conjectural: Vojta, and
+    McKinnon's conjecture that best approximations lie on rational curves.
+    The killer also knew of no unconditional theorem that beats Liouville at a
+    rational point of such a variety on a Zariski-dense set.  Round~22 checked
+    this at snippet level (two independent searches plus an offline arXiv
+    mirror): no unconditional theorem with \(\alpha^{\rm ess}>\tau_x\) at a
+    rational point was found for any variety (\rec{round22/README.md} \S2,
+    J3).
+\end{itemize}
+
+\subsection{The approximation-constant form at the identity}
+
+The following is from round~22 (\rec{round22/README.md} \S\S0, 4;
+\rec{round22/toric.md}, \rec{round22/lit.md} with their killer reports) and
+round~23.  The \(4\)-fold is the twisted Losev--Manin space \(X=\Ltw5\).
+Propositions~\ref{prop:weakFano} and~\ref{prop:seshadri} are labelled
+\emph{proved} in the record's summaries.  However, \rec{round22/README.md}
+states that nothing written in round~22 was refereed by anyone other than the
+killers, so these two results have been checked by the killers only.
+
+\begin{proposition}[proved, killers only; round 22, \rec{round22/README.md} \S\S0, 4, \rec{round22/toric.md}]\label{prop:weakFano}
+\(X\) is smooth and \emph{weak Fano}, not Fano: \(-K\) is nef and big but not
+ample, with polytope the \(A_4\) root polytope, and \(-K=\phi^*(-K_{X'})\) for
+the small crepant contraction \(\phi\) onto the twisted Gorenstein toric Fano
+\(X'\), with \(X(\Q)=X'(\Q)=T_5(\Q)\) and \((-K)^4=70\).
+\end{proposition}
+
+With \(H=H_{-K}=R''^2\), an A-point at \(\delta\) has McKinnon--Roth exponent
+\(\gamma=4/(1+2\delta)\), and the following hold.
+
+\begin{proposition}[proved, killers only; round 22, \rec{round22/README.md} \S\S0, 4]\label{prop:seshadri}
+\(\varepsilon_e(-K)=\alpha_e(-K)=2\), attained only on diagonal conics, which
+carry repeated points.
+\end{proposition}
+
+\begin{theorem}[proved, refereed; \rec{round23/width.md} Thm 2.5]\label{thm:tau}
+\(\tau_e(-K)=10/3\).  For every \(m\), the maximal order at \(e\) of a section
+of \(m(-K)\) is \(\floor{10m/3}\), for the split and the twisted form, and it is
+attained by Vandermonde products.
+\end{theorem}
+
+The proof slices the lattice points of \(a\Delta-b\Delta\) coordinatewise,
+which gives the same family again, and peels the slices.  Consequently every
+finite family of auxiliary Laurent polynomials over \(\Q(i)\), used through
+Liouville with toric forced divisibility, gives for arbitrary profiles exactly
+the Cilleruelo--C\'ordoba exponent \(\delta=1/10\) and never more; for
+balanced profiles it gives \(\delta=1/30\).  McKinnon--Roth's base-locus
+Liouville at \(e\) is therefore exactly Cilleruelo--C\'ordoba.  The open window
+\(\alpha^{\rm ess}\in(15/4,4)\) is untouched.
+
+\(A_5(\delta<1/30)\) is exactly \(\alpha^{\rm ess}_e(-K)>15/4\) off a proper
+closed set, and \((L_5^\circ)\) is the same over balanced sequences; Vojta
+predicts \(\ge4=\dim X\).
+
+\begin{named}{Question B, literature form}
+Is the twisted toric Fano \(4\)-fold \(X'\) (so that \(X'(\Q)=T_5(\Q)\) for the
+anisotropic norm-one torus \(T_5\)) \emph{canonically bounded} at the identity
+\(e\) in the sense of McKinnon--Satriano (TAMS 374 (2021)), i.e.\ does every
+Zariski-dense sequence of rational points tending to \(e\) have
+\(\alpha(-K)\ge\dim X=4\)?  Less ambitiously: is
+\(\alpha^{\rm ess}_e(-K)>15/4\), at least along sequences whose \(15\) toric
+heights are asymptotically equal?
+\end{named}
+
+A yes gives the uniform Cilleruelo--Granville bound (\rec{round20/gauss.md}
+Thm~3.4\('\)).  In McKinnon--Satriano canonical boundedness is a
+\emph{hypothesis}; by their 2023 erratum Vojta implies it when \(-K\) is big.
+The record found no unconditional proof for any variety (snippet level; full
+texts unread).
+
+\subsection{The split calibration and \texorpdfstring{Erd\H{o}s \#887}{Erdős \#887}}
+
+The following is from round~23 (\rec{round23/split.md}, refereed).  The same
+window occurs on the \emph{split} Losev--Manin \(4\)-fold at \(e\).  There a
+primitive positive \(5\)-tuple \(u\) has
+\(H_{-K}=(\max u/\min u)\,\mathrm{lcm}(u)\) and
+\(\dist\asymp(\max u-\min u)/\min u\).
+
+\begin{named}{Split Question B (not known)}
+Do five distinct integers with gcd \(1\) in
+\([U,U(1+\mathrm{lcm}^{-(1+2\delta)/4})]\), \(\delta<1/30\), have their ratio
+class in a fixed proper closed set once the lcm is large?  Equivalently, this
+concerns five factorisations of \(N\) within hyperbolic angle
+\(N^{-(1+2\delta)/4}\) on \(xy=N\).
+\end{named}
+
+\begin{theorem}[proved, refereed; \rec{round23/split.md}]\label{thm:split}
+Split Question~B implies Erd\H{o}s Problem
+\#887 in its absolute form (\(\exists K\,\forall C\): eventually at most \(K\)
+divisors of \(n\) in \([X,X(1+Cn^{-1/4})]\), for every \(X\)), and Ruzsa's
+\#886 for \(\varepsilon>(15/64)(1+2\delta)\).
+\end{theorem}
+
+Split Question~B is \emph{not known}, and both Erd\H{o}s problems are open
+(formal-conjectures, October 2026).  The proof of the implication uses a
+random \(5\)-subset, averaging over threshold layers, and Schwartz--Zippel.
+The 2026 five-divisor construction for \#887
+(\(n=(x^2-1)(x^2-4)(x^2-16)(x^2-49)\), \(z^2=56x^2+65\)) is a rational curve
+hitting each of the \(15\) cuts once, with \(\alpha=15/4\) exactly.  It lies in
+a \(2\)-parameter family sweeping a hypersurface \(W\), which every admissible
+split exceptional set must contain.  Such curves do not exist on the twisted
+form: for a curve over \(\Q\) there, \(E_A\cdot C=E_{A^c}\cdot C\), so a
+balanced twisted curve at \(15/4\) has \(B\cdot C\ge30\) and
+\(\mult_e\ge8\).  A proof of Question~B valid for every \(\Q\)-form of the
+\(4\)-fold would therefore solve \#887; a proof for \(T_5\) alone may need the
+anisotropy.  Split Question~B is undecided.  It would fail if infinitely many
+such hypersurfaces existed, or if absolute \#887 failed.
+
+\subsection{Anisotropy}
+
+The following results are from round~24 (\rec{round24/theory.md},
+\rec{round24/search.md}, refereed).
+
+\begin{theorem}[refereed; \rec{round24/theory.md}; proved except where labelled, \rec{round24/README.md} \S1]\label{thm:aniso-local}
+Pointwise, the anisotropy does nothing.  Let \(\LL\) be the arguments
+``archimedean Taylor upper bound \(\ge\) product-formula lower bound'' whose
+lower bound may use integrality, toric forced divisibility at every place of
+\(\Q(i)\), point parity \(v_{\conj\pi}=-v_\pi\) and reality of values, with
+auxiliary objects that are isotypic sections for
+\(\sigma_X=\iota\circ\overline{\phantom{x}}\), polynomials in group words of
+A-points (including \(\iota y\)), or polynomials in the Hilbert-90 vectors
+(\(x_j=P_j/\conj P_j\)).  Every such inequality is implied by toric Liouville
+for one section (or its \(n\)-point form at the generating points).  So on
+balanced simple profiles with disjoint primes nothing in \(\LL\) beats
+\(15/4\) (\(\delta=1/30\)), and nothing beats \(\delta=1/10\) for arbitrary
+profiles, for every family with
+\(\log H(F)+\sum d_i\log d_i=o(\sum d_iw_i)\).
+\end{theorem}
+
+The reason is that \(\sigma_X\) fixes \(e\) and orders at \(e\), so Galois
+averaging is lossless; the isotypic parts of \(H^0(m(-K))\) have maximal orders
+\(\floor{10m/3}\) and \(\floor{10m/3}-1\) in both forms.  Twist-sensitive
+congruence divisibility at inert places contributes \(O_F(1)\).
+
+\begin{theorem}[refereed, component claim numerical; \rec{round24/theory.md}, \rec{round24/search.md}, \rec{round24/README.md} \S1.2]\label{thm:aniso-global}
+Globally, the anisotropy is visible only through curves.  By the parity lemma
+a balanced twisted curve at \(15/4\) has \(B\cdot C\ge30\).  Such curves exist
+over \(\R\): an explicit one-parameter real family \(M\) (two conjugate
+branches of contact \(4\), each ray hit once).  Only finitely many curves of
+its complex component are defined over \(\Q\) (geometric monodromy \(S_4\) of
+the place configuration, Faltings; ineffective).  The same finiteness holds
+for the split form, so this is not an anisotropy effect.
+\end{theorem}
+
+That \(M\) is a component rests on a numerical computation: the Jacobian has
+rank \(28\) along \(M\) (\rec{round24/README.md} \S1.2, where the component
+claim is labelled \emph{numerical}).  The finiteness is ineffective; a finite
+search found no such curve over \(\Q\) of height \(\le300\).
+
+Whether the class has other components is open.  Blind numerical solvers all
+missed \(M\), so failed searches in this class are not evidence of emptiness.
+Consequently a proof of Question~B for \(T_5\) that is not also a proof for
+the split form (hence of Erd\H{o}s \#887) must use a global twist-sensitive
+input; the only one known is the parity lemma.
+
+\subsection{The absolute form of the A-branch}
+
+\begin{theorem}[proved; round 23 judge J4, independent referee \rec{round23/referee\_J4.md}]\label{thm:absolute}
+If \(A_5(\delta)\) holds for one \(\delta\in(0,1/30)\), there is
+\(K=K(\delta,Z)\) such that for every \(C>0\) and every
+\(R\ge R_1(C)=\max(C^{2/\kappa},(CR_0)^2)\), every arc of length
+\(\le C\sqrt R\) holds at most \(K\) lattice points; so
+\(\sup_C M_\infty(C)<\infty\).  Here \(\kappa=1-(15/16+\eta)(1+2\delta)>0\)
+and \(\eta=(1/(1+2\delta)-15/16)/2\).  The same argument gives this from
+\(A_k(\delta)\), \(\delta<1/(2^k-2)\), for every \(k\ge3\): convexity averaging
+of the tuple gcd alone reaches the sharp range, with no balanced selection and
+no unit-class restriction.
+\end{theorem}
+
+Scope: this is proved from the \(A_5\) branch only, not from \((L_5^\circ)\)
+(whose route subdivides the arc and gives \(K\) linear in \(C\)).  So a
+construction with \(M_\infty(C)\to\infty\) would refute \(A_5(\delta)\) for all
+\(\delta<1/30\), and \(V_E(5)\), but not \((L_5^\circ)\).  The absolute form is
+only formally stronger than \(M(C)<\infty\), and it also follows from
+Cilleruelo--Granville's own \(R^{1-\varepsilon}\) conjecture
+(\(\varepsilon=1/4\)).
+
+\begin{question}\label{q:B}
+Prove \((L_5^\circ)\), or \(A_5(\delta)\) for some \(\delta<1/30\).  Or refute
+\((L_5^\circ)\) by a Zariski-dense supply of balanced bounded-residue
+\(5\)-tuples at exponent \(\ge7/15\) (for a rational family, one dominating
+the \(4\)-dimensional \(T_5\)); that would refute \(V_E(5)\).  Unlike \(k=4\),
+a \(2\)-parameter family plus its curve parameter has image of dimension
+\(\le3\) and refutes nothing.  By the killer's dimension count, one-variable
+polynomial-block families cannot be dense at \(k=5\) (\emph{heuristic}), and
+bounded-degree covering families are excluded (Theorem~\ref{thm:covering},
+that is, \rec{round20/gauss.md} Thm~4.3(ii)) (\rec{round20/kill\_gauss.md}
+\S\S4, 6.3).  The two-branch twisted Pell ansatz (\(B\cdot C=30\), contact
+\(4\), round~24) yields real curves at exactly \(15/4\) but only finitely many
+over \(\Q\) on the known component; it can only enlarge \(Z\).
+\end{question}
+
+\paragraph{Compared with \((L_8)\)} (\rec{round20/README.md} \S\S5, 7).
+\((L_5^\circ)\) is smaller: a \(4\)-fold and \(5\) points, against a
+\(5\)-fold and \(8\) points.  It needs the archimedean divisor \(D=E\) rather
+than \(D=0\), and its heuristic margin is much thinner:
+\(\kappa=2\delta\approx1/15\) and \(e^{-w}\) per scale, against
+\(K\cdot\beta=10\) and \(e^{-10w}\).  Neither statement is known to imply the
+other.  Fakes violate \((L_5^\circ)\), whereas \((L_8)\) is fake-blind.
+
+\section{Question C: positive-gain non-unit pencils on \texorpdfstring{\(\Mbar\)}{M0,8}}\label{sec:C}
+
+This question is smaller than Questions~\ref{q:A} and~\ref{q:B}.
+
+\subsection{Gain and the abc criterion}
+
+The following is from \rec{round18/theory.md} \S2.4 and
+\rec{round19/theory.md} \S1.  Let \(X=\Mbar\), let \(\partial=\sum_TD_T\)
+(\(119\) components, snc), and let \(\beta\) be the balanced class.  For a
+pencil (a non-constant rational function) \(f\), write \(F_p=f^*(p)\sim L\) and
+\(R_p=(F_p)_{\rm red}\cdot\beta\).
+
+\begin{definition}[gain]
+\[
+  \gain(f)=L\cdot\beta-(R_0+R_1+R_\infty)
+  =\sum_{Y\subset F_0+F_1+F_\infty}\tfrac{m_Y-3}{3}\,Y\cdot\beta .
+\]
+\end{definition}
+
+When the base locus lies in codimension-\(2\) boundary strata, this equals
+\(10-K^{\log}_{\tilde X/\PP^1}\cdot\tilde\beta\).
+
+A \emph{unit pencil} is \(f=\lambda A/C\) with \(\lambda\in\Q^*\), where
+\(A,C\) are coprime products of differences \(x_i-x_j\) in Kapranov's chart.
+Put \(B=C-\lambda A\).
+
+\begin{proposition}[conditional on abc, implication proved; \rec{round18/theory.md} Prop 2.6]\label{prop:abc}
+Assume the abc conjecture.  If \(f\) is a unit pencil with \(\gain(f)>0\), then
+\((L_8^{pc})\) holds with \(Z=\{B=0\}\).
+\end{proposition}
+
+The mechanism is as follows.  On \(\Bal^{pc}\) we have
+\(\gcd(A(x),C(x))=\prod d_T^{\mu_T}\), so
+\(h(f(\Phi))=(L\cdot\beta)w+O(\eta w)\).  Divide \((\lambda A(x),B(x),C(x))\) by
+its gcd to get a coprime abc triple.  The log of the radical of that triple is
+\(\le(F_{\rm red}\cdot\beta)w+O(\eta w)\).  The refereed abc barrier covers
+only relations among products of differences (\rec{round8/weakest.md}
+Prop~4.2), so this was a genuine gap in the barrier map.
+
+\subsection{Round 19 closed the unit part}
+
+The following is from \rec{round19/theory.md}, refereed in
+\rec{round19/referee\_theory.md}; a summary is in \rec{round19/README.md}
+\S1.
+
+\begin{theorem}[proved; \(\beta\)-weighted log Riemann--Hurwitz; \rec{round19/theory.md} Thm 2.4]\label{thm:RH}
+For every non-constant rational function \(f\) on \(\Mbar\),
+\[
+  \sum_{p\in\PP^1}\big(L\cdot\beta-R_p^{\rm int}\big)
+  \ \le\ 2L\cdot\beta+\Lambda_{k(f)}\cdot\beta
+  \ \le\ 2L\cdot\beta+31 .
+\]
+Here:
+\begin{itemize}
+  \item \(R_p^{\rm int}\) is the \(\beta\)-degree of the reduced non-boundary
+    part of \(F_p\);
+  \item \(k(f)\) is the least \(|S|\) such that \(f\) factors through a
+    forgetful map \(\pi_S\);
+  \item \(\Lambda_k=\pi_k^*\psi_k\), with \(\Lambda_k\cdot\beta=16,24,28,30,31\)
+    for \(k=4,\dots,8\).
+\end{itemize}
+Equality holds for the cross-ratio and for \(4z(1-z)\).
+\end{theorem}
+
+\begin{corollary}[proved; \rec{round19/theory.md} Cor 2.5]\label{cor:gain31}
+\(\gain(f)\le31-n'(f)\), where \(n'(f)=\#\{T: f|_{D_T}\text{ constant}\}\).
+\end{corollary}
+
+\paragraph{Idea of the proof.}
+The form \(df\) spans a line subsheaf of \(\Omega^1_X(\log\partial)\), and its
+divisor is read off the fibres.  The forgetful filtration
+\(F_k=\pi_k^*\Omega^1_{\overline M_{0,k}}(\log\partial_k)\) has line-bundle
+quotients \(\Lambda_k\).  Every line subsheaf of \(F_k\) that is not in
+\(F_{k-1}\) has \(\beta\)-degree \(\le\Lambda_k\cdot\beta\), because \(\beta\) is
+positive on every effective divisor (Keel--McKernan, via
+\rec{threshold/L8.md} Thm~A(a)).  This is not a curve argument.  Restricting to
+covering curves of class \(d\beta\) only gives gain \(\le(2g-2)/d\), a bound
+that is \(\ge10\) and so cannot exclude positive gain.
+
+\begin{theorem}[proved; \rec{round19/theory.md} Thm 3.3, Cor 3.4]\label{thm:units}
+For every non-constant unit \(u\) of \(M_{0,8}\) and every
+\(\lambda\in\C^*\),
+\[
+  \gain(\lambda u)\le\Lambda_{k(u)}\cdot\beta-N(u)-n_1\le-2^{8-k(u)}\le-1
+  \qquad(\le-16\ \text{if}\ k(u)=4),
+\]
+where \(n_p=\#\{T:D_T\subset\operatorname{supp}F_p\}\) counts the boundary
+divisors in the fibre over \(p\).  The same bound \(\gain\le-1\) holds for
+every composite \(h\circ u\).
+\end{theorem}
+
+The key input is \(N(u)=\#\{T:\ord_{D_T}u\ne0\}\ge32\), from multilinear
+Schwartz--Zippel on \(\{0,1\}^7\).  So Proposition~\ref{prop:abc} never
+applies.  Exact computation agrees: gain \(\le-32\), attained, for all unit
+pencils of degree \(D\le6\) and all \(\lambda\in\Q^*\) (\rec{round19/search.md},
+reproduced by the referee; \rec{round18/theory.md} \S2.4).  Morphisms have
+gain \(\le-32\) (Bruno--Mella, \emph{read from the abstract only}).
+
+\subsection{What is open}
+
+The following is from \rec{round19/theory.md} \S4 and
+\rec{round19/referee\_theory.md} m2.  The remaining case is non-unit pencils
+in
+\[
+  P^\circ=\Big\{f\ \text{regular on}\ X\setminus\textstyle\bigcup_{T\ne T'}(D_T\cap D_{T'})\Big\}.
+\]
+Two things are needed, and both are open.
+\begin{enumerate}[label=(\roman*),leftmargin=2em]
+  \item \emph{A gcd extension of Proposition~\ref{prop:abc}} to \(P^\circ\).
+    This means bounding the excess of \(\gcd(A(x),C(x))\) over
+    \(\prod d_T^{\mu_T}\) at balanced pairwise-coprime points.  Round~18
+    asserted, without proof, that for base locus in codimension-\(2\) boundary
+    strata the excess gcd vanishes on \(\Bal^{pc}\) (\rec{round18/theory.md}
+    \S2.4, after Prop~2.6).  Round~19 \S4.1 records this as plausible but
+    \emph{unproved} and gives only an unrefereed sketch of the obstruction.
+    (For base locus meeting the interior, outside \(P^\circ\), round~18 calls
+    the gcd ``a Vojta-type gcd problem in its own right''.)
+  \item \emph{A pencil with gain \(\ge1\).}  Any such pencil must satisfy these
+    proved necessary conditions:
+    \begin{itemize}
+      \item \(n'(f)\le31-2^{8-k(f)}\) and \(k(f)\ge5\);
+      \item \(f\) is not of the form \(h\circ u\) with \(u\) a unit;
+      \item all three fibres are non-reduced, with \(\beta\)-average
+        multiplicities \(\mu_p=L\cdot\beta/R_p\) satisfying
+        \(\sum_{p\in\{0,1,\infty\}}1/\mu_p<1\);
+      \item \(\sum_{p\notin\{0,1,\infty\}}(L\cdot\beta-R_p^{\rm int})\le30-n(f)\),
+        where \(n(f)=n_0+n_1+n_\infty\) counts the boundary divisors in the
+        three special fibres (\(n(f)\le n'(f)\)).
+    \end{itemize}
+    \emph{No example is known}, and Theorem~\ref{thm:RH} alone allows gain
+    \(\le31\).  Campana-type statements see only gcd multiplicities, so they
+    do not decide the question.
+\end{enumerate}
+
+Even with both (i) and (ii), the result would be only an abc-conditional
+\((L_8^{pc})\).  Reaching \((L_8)\) also needs a nested-chain extension.
+There, for the chain \(\{1,2\}\subset\{1,2,3\}\), the gcd exceeds the value in
+Proposition~\ref{prop:abc} by a full block (\rec{round18/README.md} \S3.3, J2;
+\emph{unrefereed}).  The judge adds that the radical also counts \(p\) once,
+which might compensate, and that this is not analysed; so J2 shows a gcd
+excess, not that the extension fails.
+
+\begin{question}\label{q:C}\leavevmode
+\begin{enumerate}[label=(\alph*)]
+  \item Does some \(f\in P^\circ\) have
+    \(K^{\log}_{\tilde X/\PP^1}\cdot\tilde\beta<10\), that is,
+    \(\gain(f)>0\)?
+  \item Does Proposition~\ref{prop:abc} (\rec{round18/theory.md} Prop~2.6)
+    extend to \(P^\circ\)?  This would be a gcd inequality for two forms at
+    balanced points.
+  \item Is Theorem~\ref{thm:RH} (\rec{round19/theory.md} Thm~2.4) known, or
+    useful elsewhere?  The record notes that it holds verbatim for any movable
+    class \(\gamma\), with \(31\) replaced by \(\max_k\Lambda_k\cdot\gamma\),
+    the maximum taken over orderings (unused there; \rec{round19/theory.md}
+    \S7 item~4, referee m7).  Is it known, or sharp, in that generality, and
+    on \(\overline M_{0,n}\)?
+\end{enumerate}
+\end{question}
+
+\section{What any proof must avoid}\label{sec:avoid}
+
+Each item below is a barrier result in the record
+(\rec{overview/overview.md} \S\S5.4, 7.6).  Statuses are as given there.
+\begin{enumerate}[leftmargin=2em]
+  \item \emph{Local inputs.}  These are pairs, gcds, cuts, monomial
+    (Liouville) gaps, rational characters, and point-level residues at moduli
+    \(\le M^A\) with \(A\) fixed in advance.  Fakes at \(W=O(M\log M)\) satisfy
+    all of them (\emph{proved}, with the scope limits of
+    \rec{overview/overview.md} \S5.2 item~2).  Caveat: caps uniform in \(A\)
+    are not proved, and P3-all\(^*\) is uncapped.
+  \item \emph{Averaged or robust analytic inputs.}  This covers large sieves
+    with non-sharp constants, prime sums or box counts with power-saving
+    error, and ``almost all'' statements.  Grafted fakes satisfy them
+    (\rec{round10/analytic.md} Thm~B, \emph{proved}; composite-supported
+    version \rec{round20/composite.md}, killer-checked).  Exceptions inside the
+    low-height window are listed in \rec{round21/README.md}.
+  \item \emph{Auxiliary polynomials and single-place Diophantine
+    approximation.}
+    \begin{itemize}
+      \item On \(X_M\): \(\tau^*(M)=2-1/\ceil{M/2}<2\), so Liouville at
+        \(\infty\), and Ru--Vojta with \(S=\{\infty\}\), never reach exponent
+        \(\frac12\) (\rec{threshold/upper.md}, \emph{proved}).
+      \item On \(\overline M_{0,k}\) for any \(k\): \(\beta\) lies in the
+        interior of the movable cone (\rec{threshold/L8.md} Thm~A,
+        \emph{proved} as a formal barrier).
+      \item On the Gaussian model: the forms are exactly critical
+        (Lemma~\ref{lem:K1} with \rec{threshold/construct.md} Cor~C3 and
+        Thm~B).
+      \item Roth and Schmidt need an irrational target, and \(e\) is rational.
+    \end{itemize}
+  \item \emph{Single linear forms in logarithms} (Baker--Matveev, single-form
+    Lang--Waldschmidt).  Fakes satisfy them (\rec{round8/lw.md} Thms~A, B;
+    \rec{round8/stability.md} Prop~6.1; \emph{proved}).
+  \item \emph{\(S\)-unit and Subspace arguments with thresholds depending on
+    \(S\) only through \(|S|\).}  These give at best \(M\le\omega(N')\) (lit18
+    Props~A, B; \emph{unrefereed}).  Fixed-\(S\) theorems such as
+    \rec{round18/theory.md} Thm~2.5 have \(S\)-dependent constants, and \(S\) is
+    the unbounded set of primes of \(N\).
+  \item \emph{abc on single relations.}  abc through relations among products
+    of chords (pair, triangle, Ptolemy or \(n\)-term) is vacuous on squarefree
+    profiles (\rec{round8/weakest.md} Prop~4.2), which contain every recorded
+    fake (Cor~4.3), so it cannot prove growth (\emph{proved}).  abc on unit
+    pencils is closed as well (Theorem~\ref{thm:units}).
+  \item \emph{gcd normalisation.}  It is invisible to forced-divisibility,
+    auxiliary-form, Liouville, pair, cut, character and single-form
+    inequalities (Lemma~\ref{lem:K1}, proved by the killer).  Vojta's \(D=E\)
+    term and the heuristic count do see it.
+  \item \emph{Genus-\(0\) Arakelov theory and unlikely intersections in tori.}
+    The first reduces to items~1 and~3 (\rec{overview/overview.md} \S5.4 rows~2
+    and~8) and to the limitation ``Lim'' of known tools (Mordell--Weil packing
+    gives \(e^{O(\mathrm{rank})}\); bounded rank is equivalent to the uniform
+    theorem).  The second is vacuous, or capped at
+    \(M\le\omega(N')+O_C(1)\); the R\'emond-cone case of that ceiling is only
+    \emph{heuristic} (\rec{round20/arakelov.md}, \rec{round20/wild.md};
+    killer-checked; \rec{overview/overview.md} \S5.4 rows~18--19).
+  \item \emph{For refutations.}
+    \begin{itemize}
+      \item No feasible computation exists (\rec{round18/census.md} Thm~E).
+      \item No density mechanism works: proved at \(k=8\), heuristic at
+        \(k=5\) for circles.
+      \item Bounded-degree covering curve families whose members each carry
+        infinitely many balanced small-\(H\) points are excluded at \(k=8\)
+        (genus \(\le1\) by \rec{round18/census.md} Prop~7.5; genus \(\ge2\) by
+        Faltings), and, for circles, those whose members each carry infinitely
+        many A-points are excluded at \(k\ge5\), \(\delta>0\)
+        (Theorem~\ref{thm:covering}).  Families with infinitely many rational
+        points per member are not excluded as such (the lines of Kapranov's
+        \(\PP^5\) are one; correction~M1).
+      \item What remains are dense supplies with finitely many points per
+        curve, curves of unbounded degree, and sporadic points.
+    \end{itemize}
+\end{enumerate}
+
+\section{Where the details are}\label{sec:pointers}
+
+All files are in the repository \rec{github.com/craigxchen/Jarnik}, branch
+\rec{claude/upbeat-einstein-p0peju}, directory \rec{docs/claude\_review/}.
+Each write-up \rec{X.md} has its referee report \rec{referee\_X.md} next to it,
+or, in round~20, a kill report \rec{kill\_X.md}.  Its exact checks are in
+\rec{X\_checks/}.  The round READMEs give the referee-corrected statements.
+
+\begin{center}
+\small
+\begin{tabular}{@{}p{0.40\textwidth}p{0.55\textwidth}@{}}
+\hline
+\textbf{Item} & \textbf{File} \\
+\hline
+consolidated account (status labels, corrections) &
+  \rec{overview/overview.md} (\S\S4, 5.4--5.5, 7.1, 7.1A, 7.6, 8.2) \\
+Theorem~\ref{thm:twothirds}, the \((\frac23+\varepsilon)\) bound &
+  \rec{two\_thirds/proof.md} (Thm~7.5, Cor~8.1, \S10) \\
+Vojta on \(\mathrm{Bl}_YX_7\) &
+  \rec{growth/conditional.md} (Thms~5.1--5.2),
+  \rec{growth/referee\_conditional.md} \\
+\((L_8)\); Vojta on \(\Mbar\) implies uniform &
+  \rec{growth/ptolemy.md} (\S6 Thm~D, \S7), \rec{growth/referee\_ptolemy.md} \\
+\((L_5)\), \((L_6)\) false; Liouville barrier on \(\overline M_{0,k}\) &
+  \rec{threshold/L8.md} (Thms~A, B, Prop~C), \rec{threshold/referee\_L8.md},
+  \rec{growth/referee\_ptolemy.md} \S3.3 \\
+round 18: census, sandwich, lattice form, lifts, Prop~2.6 &
+  \rec{round18/README.md}, \rec{round18/theory.md}, \rec{round18/census.md},
+  \rec{round18/lift.md} (with \rec{referee\_*.md}) \\
+round 19: Thm~2.4, Thm~3.3, non-unit residue &
+  \rec{round19/README.md}, \rec{round19/theory.md}, \rec{round19/search.md}
+  (with \rec{referee\_*.md}) \\
+round 20: \((L_5^\circ)\), \(V_E(5)\), Thm~4.1, Lemma~K1 &
+  \rec{round20/README.md}, \rec{round20/gauss.md}, \rec{round20/kill\_gauss.md} \\
+round 21: low-height window (open) & \rec{round21/README.md} \\
+round 22: approximation constants at \(e\) &
+  \rec{round22/README.md}, \rec{round22/toric.md}, \rec{round22/lit.md} \\
+round 23: \(\tau_e(-K)=10/3\), split calibration, absolute form &
+  \rec{round23/width.md}, \rec{round23/split.md}, \rec{round23/referee\_J4.md} \\
+round 24: anisotropy & \rec{round24/theory.md}, \rec{round24/search.md} \\
+fake circles and capped classes &
+  \rec{round4/outside.md}, \rec{round5/construct.md}, \rec{round8/lw.md},
+  \rec{round10/analytic.md} \\
+mean-width Thm~B, Cor~C3 (auxiliary forms capped) &
+  \rec{threshold/construct.md} \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{thebibliography}{9}
+
+\bibitem{CillerueloCordoba1992}
+J. Cilleruelo and A. Cordoba,
+\newblock Trigonometric polynomials and lattice points,
+\newblock \emph{Proceedings of the American Mathematical Society}
+\textbf{115} (1992), no. 4, 899--905.
+
+\bibitem{CillerueloGranville2007}
+J. Cilleruelo and A. Granville,
+\newblock Lattice points on circles, squares in arithmetic progressions and
+sumsets of squares,
+\newblock in \emph{Additive Combinatorics}, CRM Proceedings \& Lecture Notes
+\textbf{43}, American Mathematical Society, Providence, RI, 2007, 241--262.
+
+\bibitem{CillerueloGranville2009}
+J. Cilleruelo and A. Granville,
+\newblock Close lattice points on circles,
+\newblock \emph{Canadian Journal of Mathematics} \textbf{61} (2009), no. 6,
+1214--1238.
+
+\end{thebibliography}
+
+\end{document}
