@@ -51,6 +51,11 @@ it is recorded here and not pursued further.**
 
 ## 3. Status of the uniform theorem
 
+**Start here:** `overview/overview.md` is a consolidated account of the whole record for outside experts (problem, the
+`(2/3+eps)` theorem with a proof sketch, restricted and conditional theorems, the barrier map, routes and where each stops,
+open problems), with a status label and file pointer on every statement. It was checked claim by claim against the record
+by an adversarial checker (`overview/check.md`, 4 major and 23 minor findings, all applied).
+
 Open. The growth-rate and uniform-bound work of this review is indexed in `growth/README.md`:
 two conditional theorems (Vojta's conjecture for one fixed variety implies the uniform bound),
 restricted uniform and growth theorems for Hadamard and Walsh profiles, the cotangent trade-off,
