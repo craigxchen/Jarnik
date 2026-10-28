@@ -1,0 +1,1 @@
+q=3251 m=2057: ln Psi_cube=27188.36242  ln E_cube l^2m=28949.3725 (Gaussian model 29436.54459)  -ln(rel)/m=0.85610602  m/q=0.633  (257s)

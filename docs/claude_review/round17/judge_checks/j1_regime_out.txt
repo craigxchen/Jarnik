@@ -1,0 +1,28 @@
+q=3251: regime=True w=514.19984 j=257 m'=2057 m'<q=True LB(q)=1528.9737
+  c0=0.166667 [1/6 (elementary, all q)]: tau_D=326.8855 (terms 326.886, 48.6654, 62.337)
+      ln T* = -531356.44; survival budget ln|c|_1 < 513291.75 = 157.887 q; kappa_V-cap needs ln Psi_A(C_1) <= -1029444.1; ln H' = 1.09299e+8
+  c0=0.235154 [LB(q)/r (Weil, Thm 2.8)]: tau_D=231.6815 (terms 231.682, 48.6654, 62.337)
+      ln T* = -376602.34; survival budget ln|c|_1 < 358537.65 = 110.285 q; kappa_V-cap needs ln Psi_A(C_1) <= -719935.92; ln H' = 7.74663e+7
+  c0=0.241618 [exact min 1571/r]: tau_D=225.4837 (terms 225.484, 48.6654, 62.337)
+      ln T* = -366527.84; survival budget ln|c|_1 < 348463.15 = 107.186 q; kappa_V-cap needs ln Psi_A(C_1) <= -699786.92; ln H' = 7.53939e+7
+  c0=   0.184 [0.184 (R16 evidence value, superseded)]: tau_D=296.0919 (terms 296.092, 48.6654, 62.337)
+      ln T* = -481301.5; survival budget ln|c|_1 < 463236.81 = 142.491 q; kappa_V-cap needs ln Psi_A(C_1) <= -929334.25; ln H' = 9.90029e+7
+  height window at proved c0 (Weil): ln H in [354966.1 (using |A|<=3^q), 7.746627e+7]
+  c0-free floor tau=62.33705: ln T*=-101332.92, budget=25.6131 q
+q=5479: regime=True w=684.45719 j=342 m'=2738 m'<q=True LB(q)=2617.4696
+  c0=0.166667 [1/6 (elementary, all q)]: tau_D=339.4107 (terms 339.411, 50.7529, 65.4683)
+      ln T* = -929819.48; survival budget ln|c|_1 < 904346.43 = 165.057 q; kappa_V-cap needs ln Psi_A(C_1) <= -1812497.8; ln H' = 2.54583e+8
+  c0=0.238864 [LB(q)/r (Weil, Thm 2.8)]: tau_D=236.823 (terms 236.823, 50.7529, 65.4683)
+      ln T* = -648780.58; survival budget ln|c|_1 < 623307.53 = 113.763 q; kappa_V-cap needs ln Psi_A(C_1) <= -1250420.0; ln H' = 1.77635e+8
+  c0=0.243384 [exact min 2667/r]: tau_D=232.4248 (terms 232.425, 50.7529, 65.4683)
+      ln T* = -636731.77; survival budget ln|c|_1 < 611258.72 = 111.564 q; kappa_V-cap needs ln Psi_A(C_1) <= -1226322.4; ln H' = 1.74336e+8
+  c0=   0.184 [0.184 (R16 evidence value, superseded)]: tau_D=307.4372 (terms 307.437, 50.7529, 65.4683)
+      ln T* = -842228.16; survival budget ln|c|_1 < 816755.11 = 149.07 q; kappa_V-cap needs ln Psi_A(C_1) <= -1637315.2; ln H' = 2.30601e+8
+  height window at proved c0 (Weil): ln H in [617288.2 (using |A|<=3^q), 1.77635e+8]
+  c0-free floor tau=65.46831: ln T*=-179354.39, budget=28.0857 q
+decay needed (c0 Weil LB, lnE 29437): 364.304 per degree
+decay needed (c0 Weil LB, lnE 28949): 364.067 per degree
+decay needed (c0 exact, lnE 29437): 354.508 per degree
+decay needed (c0 exact, lnE 28949): 354.271 per degree
+decay needed (c0 0.184, lnE 29437): 466.102 per degree
+decay needed (c0 0.184, lnE 28949): 465.864 per degree

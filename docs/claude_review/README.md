@@ -107,9 +107,13 @@ problem, height-based tools uniform in `S`, genuine-prime statistics), each part
 beats the barrier: no paper proves `o(log R)` for every `R` (the best all-`R` literature bound is Bourgain-Rudnick's `O(log R)`).
 Its barrier-map output: the round-8 Subspace route `QS` is dead for every threshold that depends on the prime set only through its
 size (Props A, B), composite-supported analytic inputs remain unclassified, and the one surviving hypothesis `QS^prod` is at
-least as strong as the target.
+least as strong as the target. Round 17 (`round17/README.md`) runs the Fourier-circle test. H_light is proved for
+`sdc_q` (`c_0 = 1/6` for all `q >= 7`, `>= 0.2349` in the regime), so the circle cap test needs no hypothesis, and on the circles
+the quantitative test reduces to an exact tangent-cone membership against one witness height. The test itself is undecided at
+every regime `q`, so **route 5 is stopped**: neither capped nor unblocked. The judge's remaining target is the arithmetic lemma
+`(L_8)` (Vojta on `Mbar_(0,8)`), with an estimated chance of proof well below 1%.
 
-**Growth-rate status (2026-10-27).** No growth improvement over `log R/loglog R` is proved, either
+**Growth-rate status (2026-10-28).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues

@@ -1,0 +1,12 @@
+q=7 m=1: U=57 nmon=1 rank=1 dimV=56 offdiag<R_i,R_i'>=0 exactly: True
+   ||R_i||^2 (prob. norm) = 112/57, 112/57
+   Psi_A(C_1) = 56/57 ~ 9.8245614035e-01;  E l^2m = 9.8245614035e-01; rel = 1.000000e+00  (0.0s)
+q=7 m=2: U=57 nmon=8 rank=8 dimV=49 offdiag<R_i,R_i'>=0 exactly: True
+   ||R_i||^2 (prob. norm) = 308/57, 5012/3249, 308/57
+   Psi_A(C_1) = 6895/6498 ~ 1.0610957218e+00;  E l^2m = 2.0263157895e+00; rel = 5.236576e-01  (0.0s)
+q=7 m=3: U=57 nmon=36 rank=36 dimV=21 offdiag<R_i,R_i'>=0 exactly: True
+   ||R_i||^2 (prob. norm) = 294/19, 49/19, 49/19, 294/19
+   Psi_A(C_1) = 735/608 ~ 1.2088815789e+00;  E l^2m = 5.4495614035e+00; rel = 2.218310e-01  (0.4s)
+q=7 m=4: U=57 nmon=113 rank=57 dimV=0 offdiag<R_i,R_i'>=0 exactly: True
+   ||R_i||^2 (prob. norm) = 0, 0, 0, 0, 0
+   Psi_A(C_1) = 0 ~ 0.0000000000e+00;  E l^2m = 1.6521381579e+01; rel = 0.000000e+00  (0.0s)

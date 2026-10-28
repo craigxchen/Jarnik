@@ -44,3 +44,14 @@ kappa_H: H_red = 1 for all L=1 (q<=23,m=2,3); sdc7 L2 m=5: H_red=3 (profile 261/
  q23 m=5 circle rel inside random range [.0882,.106] (below max) -> §5.2 nuance.
  -ln rel/m at m=5 L=2: q=11 .447, q=19 .453, q=23 .454 (converging in q).
  running: float q19 m7 (m7run), float q23 m6 (m6run), exact q19 m5 (m5run), exact q23 m4.
+## N7 (third run, start 23:56 UTC)
+ Found: exact_q23_L2.txt complete m<=4 EXACT (403s) = float to 10 digits. exact q19 m5run stopped after m=4 (m5 not done).
+ float q19 m7run reached m=6 only; q23 m6run reached m=5 only. Placeholders in calib.md: TABLE_MAIN, SEE_Q19_MMAX, SEE_Q19_DIMV,
+ SEE_Q23_SHORT, SEE_Q23, SEE_Q19_RATIO.
+ relaunched 23:58: m7run3 (q19 m7), m6run3 (q23 m6), timeout 1700, 2 threads each
+ 23:58 launched exact q19 m5 (m5run3, timeout 1500)
+ 00:08: q19 m6 recomputed (same), q23 m5 recomputed (same); m7/m6 in progress
+ 00:19: float q19 m7 + q23 m6 were OOM-KILLED (memcg, ~4.5GB each). exact q19 m5 killed (not needed). relaunched q19 m7 ALONE nrand=0 (m7run4, timeout 1500)
+ 00:30 q19 m7 DONE (m7run4, 682s): rel .01240, dimV 133989, c0,c1 dims 6858 (=record), cube rel .02253 ratio .55, above 2 random [.00996,.01074]. launched q23 m6 alone (m6run4, timeout 1100)
+ 00:45 q23 m6 DONE (m6run4, 889s): rel .04360, dimV 727445, dims 3970, above 2 random [.0373,.0423]
+ 00:47 write-up finalized (table, q19 m7, q23 m6 text, §8)

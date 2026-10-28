@@ -14,21 +14,28 @@ translation eigenspace, and every `||R_i||^2` is **rational**. Hence `inf_theta 
 rigorously. This turns the circle test into one number per `(q, L, m)` and makes exact calibration cheap. (Lemma 7.1, also
 proved: `rho(A) >= d + 1` for every half-cube, so regime orders satisfy `m'/rho(A) < 0.633`.)
 
-**Computed** (exact multimodular for `L = 1`, all primes `7 <= q <= 103`, and `L = 2`, `q = 7, 11`; complex128, validated
-against the exact values to `>= 10` digits, for `L = 2`, `q = 19` (`m <= SEE_Q19_MMAX`) and `q = 23` (SEE_Q23_SHORT);
+**Computed** (exact multimodular for `L = 1`, all primes `7 <= q <= 103`, and `L = 2`, `q = 7, 11` (all `m`) and `q = 19, 23` (`m <= 4`); complex128, validated
+against the exact values to `>= 10` digits, for `L = 2`, `q = 19` (`m = 5, 6, 7`) and `q = 23` (`m = 5, 6`);
 LP for `kappa_V`; LLL for `kappa_H`). `q = 31, 43` at `L = 2` were not reachable (enumeration of `A`); `q = 31, 43`
 are covered at `L = 1`.
 * The circle is **never** in `TC_V` below saturation, and is not even close: the relative residual
   `rel = Psi_A(C_1)/E l^{2m}` decays like the **uncut cube's** on the same circle (`rel_A/rel_cube in [0.29, 1.31]` for
   `m <= rho - 2`), i.e. at `0.2 - 0.86` per degree, with a single faster drop at the last degree before saturation
   (`sdc11`, `m = 8`, `dim V = 5`: `rel = 6.0e-6`).
-* The circle is not more tangent than random directions (above the random range for `sdc11`, `sdc19`; inside it for
+* The circle is not more tangent than random directions (above the random range for `sdc11`, `sdc19`, and `sdc23` except `m = 5`; inside it for
   `sdc7`; at most `12%` below it for the pair boxes `L = 1`).
 * `kappa_V(hat u_theta)` is constant on the circle to within `0.6%` (`sdc7`, `L = 2`) -- far better than barrier
   Thm 3.2's `(m+1)^{-1/2}`.
 * `kappa_H`: `V_H = V(A,m)` already for `H <= 4` in every computed case with `m < q`; no `H`-gap is visible.
 * Against the threshold: each toy circle meets `eps_0/(2 sqrt(m+1) e^{pi^2/(4q)})` only at `tau* <= 2.22`, while the
   barrier needs `tau >= tau_D = 164 - 221`.
+* **Scaling shape (evidence).** In every toy below saturation,
+  `inf_theta kappa_V(hat u_theta) ~ k_lo = (rel_A(m) E_A l^{2m})^{1/2}/q^m ~ (rel_A(m) (2m-1)!!)^{1/2} (sigma_A/q)^m`, with
+  `sigma_A^2 = E_A l^2 = Psi_A(C_1)|_{m=1}` (`2.19 - 3.35` for `L = 2`, `~ 1` for `L = 1`) and `rel_A(m) ~ rel_cube(m) ~ e^{-(0.2 .. 0.6) m}`
+  (e.g. `sdc19`, `L = 2`, `m = 6`: model `1.6e-5`, `k_lo = 1.25e-5`). So `ln inf kappa` is **linear in `m`** with slope
+  `-(ln(q/sigma_A) + O(1))`, nearly independent of `L` beyond `sigma_A`, and converges in `q` at fixed `(L, m)` after the
+  `q^{-m}` normalisation; the threshold shape `eps_0/(2 sqrt(m+1))` contributes only `O(ln m)`, so the comparison is
+  decided entirely by `eps_0 ~ e^{-W/4} = e^{-q tau/2}`, which no toy approaches (`tau* <= 2.22`).
 * All exact circle data of round 16 are reproduced (`sdc7`: `Phi_c = 7717.5`; `sdc11`: `dim V(A,8) = 5`, only the
   trivial eigenspace; `sdc19`: `m = 5, 6` deficiencies) and made quantitative (§6).
 
@@ -112,10 +119,10 @@ are equally spaced at distance `pi/q`, so one of them is within `pi/(2q)` of `0`
 
 *Remarks.* (a) This sharpens barrier Thm 3.2 on `C_1`: there `inf >= (m+1)^{-1/2} sup` for `kappa`; here `Psi_A` (the `L^2`
 form) is **exactly constant** on `C_1`, for every `m < q` (the referee's `m < N` relaxation is exactly what is needed). It
-does not make `kappa_V` constant (Chebyshev is not an `L^2` quantity; §4.4 shows it varies). (b) By the `AGL(1,q)`
+does not make `kappa_V` constant (Chebyshev is not an `L^2` quantity; the LP values of §4.1 and §5.1 show it varies, though by `<= 15%`). (b) By the `AGL(1,q)`
 invariance the same values hold on every circle `C_a`. (c) Prop 2.1 is what makes the calibration cheap: one number per
 `(q, L, m)`, computed in `(m+1)/2` eigenspaces of dimension `~U/q`. (d) (2.1) is the only rigorous `kappa` statement the
-computation gives directly; a lower bound for `kappa_H` additionally needs `V_H = V(A,m)` (§4.5).
+computation gives directly; a lower bound for `kappa_H` additionally needs `V_H = V(A,m)` (§5.6).
 
 
 ## 3. Computation method and certification
@@ -169,11 +176,80 @@ cube on `C_1`; the range of `rel` over 6 random `u` (`|u|_inf = 1`); `k_lo = Psi
 bound for `inf_theta kappa_V(hat u_theta)` whenever `Psi_A(C_1)` is exact (2.1); the LP value of `inf_theta kappa_V(hat u_theta)`
 over the grid with `inf/sup` in brackets; `tau*` (§5.7) from `k_lo` and from the LP value; `tau_D(q)`.
 
-TABLE_MAIN
+<!--TABLE-->
+| q | L | U | m | dim V | Psi_A(C_1) | rel | -ln(rel)/m | Psi_A/Psi_cube | cube rel | random-u rel range | k_lo = sqrt(Psi)/d^m | LP inf kappa_V (inf/sup) | tau* (k_lo / LP) | tau_D |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 7 | 1 | 57 | 1 | 56 | 0.982456 (E) | 1 | 0.000 | 0.421 | 1 | [1, 1] | 1.416e-01 | - | 0.52 | 164 |
+| 7 | 1 | 57 | 2 | 49 | 1.0611 (E) | 0.5237 | 0.323 | 0.116 | 0.627 | [0.508, 0.64] | 2.102e-02 | 3.687e-02 (0.903) | 0.89 / 0.73 | 164 |
+| 7 | 1 | 57 | 3 | 21 | 1.20888 (E) | 0.2218 | 0.502 | 0.0273 | 0.327 | [0.194, 0.238] | 3.206e-03 | 4.993e-03 (0.856) | 1.30 / 1.18 | 164 |
+| 11 | 1 | 133 | 1 | 132 | 0.992481 (E) | 1 | 0.000 | 0.271 | 1 | [1, 1] | 9.057e-02 | - | 0.52 | 174 |
+| 11 | 1 | 133 | 2 | 121 | 1.124 (E) | 0.533 | 0.315 | 0.0466 | 0.642 | [0.509, 0.593] | 8.762e-03 | 1.587e-02 (0.960) | 0.83 / 0.72 | 174 |
+| 11 | 1 | 133 | 3 | 55 | 1.19408 (E) | 0.2081 | 0.523 | 0.00561 | 0.356 | [0.153, 0.285] | 8.210e-04 | 1.413e-03 (0.940) | 1.18 / 1.08 | 174 |
+| 19 | 1 | 381 | 1 | 380 | 0.997375 (E) | 1 | 0.000 | 0.157 | 1 | [1, 1] | 5.256e-02 | - | 0.42 | 185 |
+| 19 | 1 | 381 | 2 | 361 | 1.17453 (E) | 0.5414 | 0.307 | 0.0156 | 0.653 | [0.536, 0.655] | 3.002e-03 | 5.465e-03 (0.986) | 0.66 / 0.60 | 185 |
+| 19 | 1 | 381 | 3 | 171 | 1.17254 (E) | 0.197 | 0.542 | 0.000926 | 0.375 | [0.182, 0.28] | 1.579e-04 | 2.856e-04 (0.980) | 0.93 / 0.86 | 185 |
+| 23 | 1 | 553 | 1 | 552 | 0.998192 (E) | 1 | 0.000 | 0.13 | 1 | [1, 1] | 4.344e-02 | - | 0.39 | 189 |
+| 23 | 1 | 553 | 2 | 529 | 1.18716 (E) | 0.5437 | 0.305 | 0.0106 | 0.655 | [0.554, 0.664] | 2.060e-03 | 3.746e-03 (0.991) | 0.60 / 0.55 | 189 |
+| 23 | 1 | 553 | 3 | 253 | 1.16586 (E) | 0.1942 | 0.546 | 0.000502 | 0.38 | [0.198, 0.274] | 8.874e-05 | 1.621e-04 (0.986) | 0.83 / 0.78 | 189 |
+| 31 | 1 | 993 | 1 | 992 | 0.998993 (E) | 1 | 0.000 | 0.0967 | 1 | [1, 1] | 3.224e-02 | - | 0.33 | 195 |
+| 31 | 1 | 993 | 2 | 961 | 1.20292 (E) | 0.5466 | 0.302 | 0.00584 | 0.658 | [0.552, 0.61] | 1.141e-03 | - | 0.50 | 195 |
+| 31 | 1 | 993 | 3 | 465 | 1.15679 (E) | 0.1906 | 0.552 | 0.000195 | 0.385 | [0.201, 0.255] | 3.610e-05 | - | 0.70 | 195 |
+| 43 | 1 | 1893 | 1 | 1892 | 0.999472 (E) | 1 | 0.000 | 0.0697 | 1 | [1, 1] | 2.325e-02 | - | 0.27 | 202 |
+| 43 | 1 | 1893 | 2 | 1849 | 1.21579 (E) | 0.549 | 0.300 | 0.00304 | 0.661 | [0.568, 0.607] | 5.963e-04 | - | 0.41 | 202 |
+| 43 | 1 | 1893 | 3 | 903 | 1.1488 (E) | 0.1877 | 0.558 | 7.04e-05 | 0.389 | [0.213, 0.244] | 1.348e-05 | - | 0.56 | 202 |
+| 47 | 1 | 2257 | 1 | 2256 | 0.999557 (E) | 1 | 0.000 | 0.0638 | 1 | - | 2.127e-02 | - | 0.25 | 204 |
+| 47 | 1 | 2257 | 2 | 2209 | 1.21865 (E) | 0.5495 | 0.299 | 0.00254 | 0.661 | - | 4.997e-04 | - | 0.39 | 204 |
+| 47 | 1 | 2257 | 3 | 1081 | 1.14695 (E) | 0.1871 | 0.559 | 5.35e-05 | 0.39 | - | 1.032e-05 | - | 0.53 | 204 |
+| 59 | 1 | 3541 | 1 | 3540 | 0.999718 (E) | 1 | 0.000 | 0.0508 | 1 | - | 1.695e-02 | - | 0.22 | 209 |
+| 59 | 1 | 3541 | 2 | 3481 | 1.22494 (E) | 0.5507 | 0.298 | 0.00161 | 0.662 | - | 3.179e-04 | - | 0.33 | 209 |
+| 59 | 1 | 3541 | 3 | 1711 | 1.1428 (E) | 0.1857 | 0.561 | 2.65e-05 | 0.392 | - | 5.205e-06 | - | 0.46 | 209 |
+| 67 | 1 | 4557 | 1 | 4556 | 0.999781 (E) | 1 | 0.000 | 0.0448 | 1 | - | 1.492e-02 | - | 0.20 | 212 |
+| 67 | 1 | 4557 | 2 | 4489 | 1.22789 (E) | 0.5513 | 0.298 | 0.00125 | 0.663 | - | 2.468e-04 | - | 0.30 | 212 |
+| 67 | 1 | 4557 | 3 | 2211 | 1.14081 (E) | 0.185 | 0.562 | 1.8e-05 | 0.393 | - | 3.551e-06 | - | 0.42 | 212 |
+| 71 | 1 | 5113 | 1 | 5112 | 0.999804 (E) | 1 | 0.000 | 0.0422 | 1 | - | 1.408e-02 | - | 0.19 | 213 |
+| 71 | 1 | 5113 | 2 | 5041 | 1.22912 (E) | 0.5515 | 0.298 | 0.00111 | 0.663 | - | 2.199e-04 | - | 0.29 | 213 |
+| 71 | 1 | 5113 | 3 | 2485 | 1.13997 (E) | 0.1847 | 0.563 | 1.5e-05 | 0.394 | - | 2.983e-06 | - | 0.40 | 213 |
+| 79 | 1 | 6321 | 1 | 6320 | 0.999842 (E) | 1 | 0.000 | 0.038 | 1 | - | 1.266e-02 | - | 0.18 | 215 |
+| 79 | 1 | 6321 | 2 | 6241 | 1.23121 (E) | 0.5519 | 0.297 | 0.000901 | 0.663 | - | 1.778e-04 | - | 0.27 | 215 |
+| 79 | 1 | 6321 | 3 | 3081 | 1.13853 (E) | 0.1843 | 0.564 | 1.08e-05 | 0.394 | - | 2.164e-06 | - | 0.37 | 215 |
+| 83 | 1 | 6973 | 1 | 6972 | 0.999857 (E) | 1 | 0.000 | 0.0361 | 1 | - | 1.205e-02 | - | 0.17 | 217 |
+| 83 | 1 | 6973 | 2 | 6889 | 1.23211 (E) | 0.5521 | 0.297 | 0.000816 | 0.664 | - | 1.611e-04 | - | 0.26 | 217 |
+| 83 | 1 | 6973 | 3 | 3403 | 1.13791 (E) | 0.1841 | 0.564 | 9.33e-06 | 0.395 | - | 1.866e-06 | - | 0.36 | 217 |
+| 103 | 1 | 10713 | 1 | 10712 | 0.999907 (E) | 1 | 0.000 | 0.0291 | 1 | - | 9.708e-03 | - | 0.15 | 221 |
+| 103 | 1 | 10713 | 2 | 10609 | 1.23555 (E) | 0.5527 | 0.296 | 0.00053 | 0.664 | - | 1.048e-04 | - | 0.22 | 221 |
+| 103 | 1 | 10713 | 3 | 5253 | 1.1355 (E) | 0.1833 | 0.566 | 4.83e-06 | 0.396 | - | 9.752e-07 | - | 0.30 | 221 |
+| 7 | 2 | 757 | 1 | 756 | 2.19155 (E) | 1 | 0.000 | 0.939 | 1 | [1, 1] | 2.115e-01 | - | 0.40 | 164 |
+| 7 | 2 | 757 | 2 | 749 | 10.0733 (E) | 0.6771 | 0.195 | 1.1 | 0.627 | [0.545, 0.652] | 6.477e-02 | 2.061e-01 (1.000) | 0.57 / 0.24 | 164 |
+| 7 | 2 | 757 | 3 | 721 | 60.4324 (E) | 0.3731 | 0.329 | 1.36 | 0.327 | [0.239, 0.352] | 2.266e-02 | 6.595e-02 (0.997) | 0.75 / 0.44 | 164 |
+| 7 | 2 | 757 | 4 | 644 | 348.048 (E) | 0.1545 | 0.467 | 1.49 | 0.148 | [0.0855, 0.171] | 7.770e-03 | 2.091e-02 (0.998) | 0.96 / 0.67 | 164 |
+| 7 | 2 | 757 | 5 | 483 | 1427.15 (E) | 0.04015 | 0.643 | 1.16 | 0.0579 | [0.0238, 0.0653] | 2.248e-03 | 5.359e-03 (0.996) | 1.23 / 0.98 | 164 |
+| 7 | 2 | 757 | 6 | 232 | 3467.99 (E) | 0.005779 | 0.859 | 0.565 | 0.0196 | [0.00482, 0.0179] | 5.006e-04 | 1.073e-03 (0.995) | 1.59 / 1.38 | 164 |
+| 11 | 2 | 9373 | 1 | 9372 | 2.76848 (E) | 1 | 0.000 | 0.755 | 1 | [1, 1] | 1.513e-01 | - | 0.42 | 174 |
+| 11 | 2 | 9373 | 2 | 9361 | 15.9589 (E) | 0.6756 | 0.196 | 0.661 | 0.642 | [0.601, 0.653] | 3.302e-02 | 1.654e-01 (0.973) | 0.59 / 0.30 | 174 |
+| 11 | 2 | 9373 | 3 | 9295 | 131.81 (E) | 0.3954 | 0.309 | 0.62 | 0.356 | [0.308, 0.355] | 8.626e-03 | 4.756e-02 (0.960) | 0.76 / 0.44 | 174 |
+| 11 | 2 | 9373 | 4 | 9020 | 1416.47 (E) | 0.2182 | 0.381 | 0.64 | 0.178 | [0.144, 0.172] | 2.571e-03 | 1.365e-02 (0.947) | 0.91 / 0.61 | 174 |
+| 11 | 2 | 9373 | 5 | 8140 | 17047.8 (E) | 0.1072 | 0.447 | 0.671 | 0.0822 | [0.058, 0.075] | 8.107e-04 | <= 3.516e-03 (theta=0 only) | 1.07 / 0.81 | 174 |
+| 11 | 2 | 9373 | 6 | 5897 | 167404 (E) | 0.03658 | 0.551 | 0.546 | 0.0349 | [0.0186, 0.0257] | 2.310e-04 | - | 1.26 | 174 |
+| 11 | 2 | 9373 | 7 | 2162 | 949954 (E) | 0.006483 | 0.720 | 0.253 | 0.0137 | [0.00352, 0.00487] | 5.002e-05 | - | 1.50 | 174 |
+| 11 | 2 | 9373 | 8 | 5 | 30136.9 (E) | 6e-06 | 1.503 | 0.000662 | 0.0049 | [2.73e-07, 2.48e-06] | 8.099e-07 | - | 2.22 | 174 |
+| 19 | 2 | 264291 | 1 | 264290 | 3.25808 (E) | 1 | 0.000 | 0.514 | 1 | [1, 1] | 9.500e-02 | - | 0.36 | 185 |
+| 19 | 2 | 264291 | 2 | 264271 | 20.5063 (E) | 0.6589 | 0.209 | 0.272 | 0.653 | [0.636, 0.65] | 1.254e-02 | - | 0.51 | 185 |
+| 19 | 2 | 264291 | 3 | 264081 | 183.089 (E) | 0.3811 | 0.322 | 0.145 | 0.375 | [0.351, 0.369] | 1.973e-03 | - | 0.66 | 185 |
+| 19 | 2 | 264291 | 4 | 262770 | 2106.12 (E) | 0.2089 | 0.392 | 0.0793 | 0.2 | [0.175, 0.193] | 3.521e-04 | - | 0.81 | 185 |
+| 19 | 2 | 264291 | 5 | 255816 | 27393.3 (F) | 0.1039 | 0.453 | 0.0421 | 0.101 | [0.0805, 0.0938] | 6.684e-05 | - | 0.95 | 185 |
+| 19 | 2 | 264291 | 6 | 225835 | 347191 (F) | 0.04294 | 0.525 | 0.0194 | 0.0488 | [0.0315, 0.04] | 1.252e-05 | - | 1.10 | 185 |
+| 19 | 2 | 264291 | 7 | 133989 | 3.45409e+06 (F) | 0.0124 | 0.627 | 0.00648 | 0.0225 | [0.00996, 0.0107] | 2.079e-06 | - | 1.27 | 185 |
+| 23 | 2 | 818755 | 1 | 818754 | 3.35384 (E) | 1 | 0.000 | 0.437 | 1 | [1, 1] | 7.962e-02 | - | 0.33 | 189 |
+| 23 | 2 | 818755 | 2 | 818731 | 21.6665 (E) | 0.6583 | 0.209 | 0.194 | 0.655 | [0.642, 0.656] | 8.799e-03 | - | 0.47 | 189 |
+| 23 | 2 | 818755 | 3 | 818455 | 199.177 (E) | 0.3814 | 0.321 | 0.0857 | 0.38 | [0.359, 0.378] | 1.160e-03 | - | 0.61 | 189 |
+| 23 | 2 | 818755 | 4 | 816178 | 2336.06 (E) | 0.2075 | 0.393 | 0.0383 | 0.205 | [0.185, 0.204] | 1.727e-04 | - | 0.75 | 189 |
+| 23 | 2 | 818755 | 5 | 801757 | 31253.9 (F) | 0.1035 | 0.454 | 0.0165 | 0.106 | [0.0882, 0.106] | 2.747e-05 | - | 0.88 | 189 |
+| 23 | 2 | 818755 | 6 | 727445 | 414429 (F) | 0.0436 | 0.522 | 0.00618 | 0.0523 | [0.0373, 0.0423] | 4.349e-06 | - | 1.02 | 189 |
+<!--/TABLE-->
 
 `L = 1`: `rho(A_1) = 4` for every `q` (`dim V(A_1, 4) = 0`), so only `m <= 3` qualify. `L = 2`: `rho = 9` (`q = 7, 11`);
-for `q = 19` the run reached `m = SEE_Q19_MMAX` (`dim V` still `SEE_Q19_DIMV`, far from saturation; `max |supp k| = 8` on `A_2(19)`).
-`q = 23`, `L = 2`: SEE_Q23.
+for `q = 19` the runs reached `m = 7` (exact for `m <= 4`, `F` for `m = 5, 6, 7`; `dim V(A,7) = 133989`, i.e. `51%` of `U`, still far from saturation; per-eigenspace `dim Poly_{<7,c} = 6858` for `c = 0` and `c = 1` (out of `13911`, `13910`); `max |supp k| = 8` on `A_2(19)`).
+`q = 23`, `L = 2`: exact for `m <= 4` (`out/exact_q23_L2.txt`, `22` primes at `m = 4`), `F` at `m = 5, 6` (agreeing with the exact values to `10` digits for `m <= 4`); `dim V(A,6) = 727445` (`89%` of `U`), per-eigenspace `dim Poly_{<6,c} = 3970` (`c = 0, 1`). Two concurrent runs (`q = 19`, `m = 7`; `q = 23`, `m = 6`) were killed by the container's memory limit (kernel memcg OOM, `~4.5 GB` each); `q = 19`, `m = 7` was then rerun alone (`out/float_q19_L2_m7run4.txt`, `682 s`, with 2 random `u` instead of 6). `q = 23`, `m = 6` was likewise rerun alone (`out/float_q23_L2_m6run4.txt`, `889 s`, 2 random `u`).
 
 ### 4.2 Per-eigenspace residuals (sample)
 
@@ -198,8 +274,8 @@ Read off from the tables of §4 (exact entries marked `E`, floating `F`).
    `2.4` at `m = 8`); on `sdc7, L = 2` it is above the random range for `m = 2, 3` and inside it for `m = 4, 5, 6` (between
    `1.2 x` the smallest and `0.32 x` the largest random value at `m = 6`); on the pair boxes `L = 1` it sits at the bottom
    of the random range, at most a factor `0.88` below it (`q = 43`, `m = 3`). On `sdc19, L = 2` the circle is above the
-   random range at every `m = 2..6` (factor `1.01 - 1.11`); on `sdc23, L = 2` it is above it for `m = 2, 3, 4` (factor
-   `1.00 - 1.02`) and inside it at `m = 5` (`0.1035` against `[0.0882, 0.1060]`). No toy shows a tendency of the Fourier
+   random range at every `m = 2..7` (factor `1.01 - 1.15`; only 2 random `u` at `m = 7`); on `sdc23, L = 2` it is above it for `m = 2, 3, 4, 6` (factor
+   `1.00 - 1.03`; 2 random `u` at `m = 6`) and inside it at `m = 5` (`0.1035` against `[0.0882, 0.1060]`). No toy shows a tendency of the Fourier
    circle to approach `TC_V` faster than a random direction; for large `q` at fixed `L` the circle and the random directions
    become indistinguishable at this resolution (both sit at the cube value, item 5).
 3. **Dependence on `m`.** `-ln(rel)/m` grows slowly with `m` and is of the same size as for the **uncut cube** on the
@@ -214,12 +290,13 @@ Read off from the tables of §4 (exact entries marked `E`, floating `F`).
    (`m = 2, 3`, `q = 103`), monotone in `q` from `q = 7`. For `L = 2` the `q = 7, 11` values of `rel` agree to within a factor
    `1.41` for `m <= 4` and differ by `2.7` at `m = 5` (both boxes have `rho = 9`, but `sdc7` has `U = 757` against `9373`).
    Going on to `sdc19` (`F`) the `L = 2` values stabilise and lock onto the **uncut cube**: `rel(C_1) = 0.659, 0.381, 0.209,
-   0.104, 0.0429` for `m = 2..6`, i.e. `rel_A/rel_cube = 1.01, 1.02, 1.04, 1.03, 0.88`, and within a factor `1.17` of `sdc11` for
-   every `m <= 6`. `sdc23` (`E` for `m <= 3`, `F` beyond) continues the pattern: `rel = 0.658, 0.381, 0.2075, 0.1035`
-   (`m = 2..5`), `rel_A/rel_cube = 1.00, 1.00, 1.01, 0.98`; at `m = 5` the per-degree decay `-ln(rel)/m` is `0.447, 0.453, 0.454`
+   0.104, 0.0429, 0.0124` for `m = 2..7`, i.e. `rel_A/rel_cube = 1.01, 1.02, 1.04, 1.03, 0.88, 0.55`, and within a factor `1.17` of `sdc11` for
+   every `m <= 6` (at `m = 7` the slab starts to bite at `sdc19` too: `rel_A/rel_cube = 0.55`, `dim V(A,7)/U = 0.51`; the
+   `sdc11` value `0.0065` is lower still, `sdc11` being two degrees from saturation). `sdc23` (`E` for `m <= 4`, `F` at `m = 5, 6`) continues the pattern: `rel = 0.658, 0.381, 0.2075, 0.1035, 0.0436`
+   (`m = 2..6`), `rel_A/rel_cube = 1.00, 1.00, 1.01, 0.98, 0.83`; at `m = 6`, `-ln(rel)/m = 0.551, 0.525, 0.522` for `q = 11, 19, 23`; at `m = 5` the per-degree decay `-ln(rel)/m` is `0.447, 0.453, 0.454`
    for `q = 11, 19, 23` (converging in `q`). In words: at fixed `(L, m)` and growing `q` the slab constraint becomes invisible to the
    circle at degree `m` (the box is far from saturation, `dim V(A,m)/U >= 0.85` at `sdc19`, `m = 6`), and the circle's
-   distance from `Poly_{<m}` is the cube's, `rel ~ e^{-(0.2 .. 0.53) m}`, slowly approaching the cube's `ln 2`-per-degree
+   distance from `Poly_{<m}` is the cube's, `rel ~ e^{-(0.2 .. 0.63) m}` (`0.627` per degree at `sdc19`, `m = 7`), slowly approaching the cube's `ln 2`-per-degree
    asymptotics.
 6. **`kappa_H`.** Where computed (`L = 1`, `q <= 23`, `m = 2, 3`; `sdc7`, `L = 2`, `m = 5, 6, 8`) an LLL-reduced integer basis
    of `V(A,m)` has height `H_red = 1` (`L = 1`), `3, 4` (`sdc7`, `m = 5, 6`) and `42` (`sdc7`, `m = 8 > q`). Hence
@@ -282,7 +359,7 @@ Across all toys with `dim V(A,m) >= 2` and `m < q` (§4):
 * the circle is not more tangent than a random direction (§5.2);
 * `V_H = V(A,m)` already at heights `H <= 4` (`m < q`), so in the toys `kappa_H` on the circle is `kappa_V` up to a factor
   `<= 4` even at `H = 1`.
-The toy ratios `m/(2L)` reach `2` (`sdc11`, `m = 8`; SEE_Q19_RATIO), against the regime's `m'/(2j) in [4, 4.04]`; the toy
+The toy ratios `m/(2L)` reach `2` (`sdc11`, `m = 8`; `1.75` at `sdc19`, `m = 7`), against the regime's `m'/(2j) in [4, 4.04]`; the toy
 ratios `m/rho(A)` cover `[0.1, 0.9]`, while in the regime `m'/rho(A) < m'/(q+1) <= 0.633` (proved below) and `-> 0`.
 
 **Lemma 7.1 (proved).** If `A subset {-1,0,1}^d` has `|A| >= 3^d/2`, then `rho(A) >= d + 1`.
@@ -335,6 +412,8 @@ factor `e^{4.8e5}` in `kappa`, at `q = 3251`), so a crude certificate may suffic
 | `cheb_lp.py` | `Cheb_A = d^m kappa_V` on a `theta`-grid by LP (`out/cheb_q*_L*_m*.txt`) |
 | `kappa_h.py` | integer basis of `V(A,m)`, LLL heights, `kappa_H` lower bounds (`out/kappaH_*.txt`) |
 | `regime_need.py` | regime bookkeeping of §7.1 (`out/regime_need.txt`) |
-| `tables.py` | assembles the §4 table from the outputs |
+| `float_iso_sym.py` | complex128 engine using the `AGL(1,q)` symmetry (only eigenspaces `c = 0, 1` built); `sdc19`, `sdc23` runs (`out/float_q19_L2*.txt`, `out/float_q23_L2*.txt`) |
+| `exact_iso_big.py`, `exact_iso_big23.py` | `exact_iso.py` with primes `< 2^24` / `< 2^23` (exact `int64` dot products) for `sdc19`, `sdc23` (`out/exact_q19_L2*.txt`, `out/exact_q23_L2.txt`) |
+| `tables.py`, `insert_table.py` | assemble the §4 table from the outputs and insert it here |
 
 Data files under `data/` are regenerated by `enumA` (largest: `q = 23`, `L = 2`, 0.8 MB).

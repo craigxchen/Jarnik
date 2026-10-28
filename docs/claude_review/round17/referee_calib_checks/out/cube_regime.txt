@@ -1,0 +1,6 @@
+q=3251 m=100: ln Psi_cube=1060.826398  ln E_cube l^2m=1127.845462 (Gaussian model 1128.988457)  -ln(rel)/m=0.67019064  m/q=0.031  (0s)
+q=3251 m=500: ln Psi_cube=6060.874104  ln E_cube l^2m=6419.403899 (Gaussian model 6448.276946)  -ln(rel)/m=0.71705959  m/q=0.154  (1s)
+q=3251 m=1000: ln Psi_cube=12716.57502  ln E_cube l^2m=13473.64837 (Gaussian model 13589.35462)  -ln(rel)/m=0.75707334  m/q=0.308  (4s)
+q=3251 m=2057: ln Psi_cube=(27507.65666 + 3.141592654j)  ln E_cube l^2m=28949.3725 (Gaussian model 29436.54459)  -ln(rel)/m=(0.70088276 - 0.0015272692j)  m/q=0.633  (16s)
+q=103 m=65: ln Psi_cube=413.475441  ln E_cube l^2m=466.4078579 (Gaussian model 481.5832573)  -ln(rel)/m=0.81434488  m/q=0.631  (0s)
+q=1000003 m=2000: ln Psi_cube=38638.07712  ln E_cube l^2m=40020.74904 (Gaussian model 40022.24837)  -ln(rel)/m=0.69133596  m/q=0.002  (16s)

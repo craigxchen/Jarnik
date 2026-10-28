@@ -1,0 +1,6 @@
+q=7 L=1: |A|=57  max supp=2  time=0.0s
+  A_1 == {0,+-e_x,e_x-e_y}: True  1+q(q+1) = 57
+q=7 L=2: |A|=757  max supp=7  time=0.0s
+q=11 L=1: |A|=133  max supp=2  time=0.4s
+  A_1 == {0,+-e_x,e_x-e_y}: True  1+q(q+1) = 133
+q=11 L=2: |A|=9373  max supp=8  time=0.2s

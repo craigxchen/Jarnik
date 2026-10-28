@@ -40,6 +40,7 @@ def float_rows(q, L):
         mm = re.match(r"m=(\d+): dim Poly_<m\|_A = (\d+), dim V = (\d+); Psi_A\(C_1\) = (\S+), E l\^2m = (\S+), rel = (\S+); random u: Psi in \[(\S+), (\S+)\], rel in \[(\S+), (\S+)\]", line)
         if mm:
             g = mm.groups()
+            if int(g[0]) in rows: continue  # first (6-random-u) file wins
             rows[int(g[0])] = dict(dimP=int(g[1]), dimV=int(g[2]), Psi=float(g[3]), E=float(g[4]), rel=float(g[5].rstrip(';')),
                                    rPsi=(float(g[6]), float(g[7].rstrip(','))), rrel=(float(g[8]), float(g[9].rstrip(']'))), src='float')
     return rows
@@ -77,5 +78,5 @@ for (q, L) in [(7, 1), (11, 1), (19, 1), (23, 1), (31, 1), (43, 1), (47, 1), (59
         lps = (f"{l[1]:.3e} ({l[0]:.3f})" if l[0] is not None else f"<= {l[1]:.3e} (theta=0 only)") if l else "-"
         ts = f"{tstar(q, m, klo):.2f}" + (f" / {tstar(q, m, l[1]):.2f}" if l else "")
         rel = r['rel']
-        print(f"| {q} | {L} | {U} | {m} | {r['dimV']} | {r['Psi']:.6g} ({src}) | {rel:.4g} | {(-math.log(rel)/m if rel > 0 else float('inf')):.3f} | {cbs} | {cbr} | "
+        print(f"| {q} | {L} | {U} | {m} | {r['dimV']} | {r['Psi']:.6g} ({src}) | {rel:.4g} | {(abs(-math.log(rel)/m) if rel > 0 else float("inf")):.3f} | {cbs} | {cbr} | "
               f"{(f'[{rr[0]:.3g}, {rr[1]:.3g}]' if rr else '-')} | {klo:.3e} | {lps} | {ts} | {tau_D(q):.0f} |")
