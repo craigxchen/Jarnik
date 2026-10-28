@@ -1,0 +1,16 @@
+primes [101, 109, 113, 137, 149, 157] s=6 sum p^-1/2=0.537
+WMAX=24.0 #v(up to sign)=1039 E_enum=2.0896 tail_intensity<=0.0124
+Haar: P(all enumerated gaps hold)=0.09710 (+-0.00070)  Poisson exp(-E)=0.12374  ratio=0.785
+genuine angles pass (rel. tol 1e-9 for equality cases): True
+primes [29, 37, 41, 53, 61, 73, 89, 97] s=8 sum p^-1/2=1.096
+WMAX=22.0 #v(up to sign)=6786 E_enum=8.5223 tail_intensity<=0.2874
+Haar: P(all enumerated gaps hold)=0.00002 (+-0.00001)  Poisson exp(-E)=0.00020  ratio=0.075
+genuine angles pass (rel. tol 1e-9 for equality cases): True
+primes [13, 17, 29, 37, 41, 53, 61, 73, 89, 97, 101, 109] s=12 sum p^-1/2=1.811
+WMAX=20.0 #v(up to sign)=33372 E_enum=33.4517 tail_intensity<=7.9299
+Haar: P(all enumerated gaps hold)=0.00000 (+-0.00000)  Poisson exp(-E)=0.00000  ratio=0.000
+genuine angles pass (rel. tol 1e-9 for equality cases): True
+primes [5, 13, 17, 29, 37, 41, 53, 61, 73, 89, 97, 101, 109, 113] s=14 sum p^-1/2=2.353
+WMAX=18.0 #v(up to sign)=48521 E_enum=81.6326 tail_intensity<=51.6269
+Haar: P(all enumerated gaps hold)=0.00000 (+-0.00000)  Poisson exp(-E)=0.00000  ratio=0.000
+genuine angles pass (rel. tol 1e-9 for equality cases): True

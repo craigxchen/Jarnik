@@ -1,0 +1,1 @@
+# B=200 X=1e+18 primes=21 norms(incl n=1)=40715512 classes=18613663791

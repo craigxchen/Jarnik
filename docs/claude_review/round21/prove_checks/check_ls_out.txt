@@ -1,0 +1,12 @@
+(a) genuine primes
+ Y=20000 n=1125 K=10: maxarc=127 <= 1144.8 ; subset n=1125: Lambda=2406.1 <= 8Km=10160.0, >= (2K+1)t/sqrt2=1009.7; genuine bound piY+20.24K sqrtY+12.64K=91581.9
+ Y=20000 n=1125 K=141: maxarc=17 <= 415.1 ; subset n=1125: Lambda=3878.6 <= 8Km=19176.0, >= (2K+1)t/sqrt2=2401.3; genuine bound piY+20.24K sqrtY+12.64K=468208.0
+ Y=20000 n=1125 K=300: maxarc=12 <= 385.6 ; subset n=1125: Lambda=5812.1 <= 8Km=28800.0, >= (2K+1)t/sqrt2=3399.8; genuine bound piY+20.24K sqrtY+12.64K=925334.3
+ Y=100000 n=4783 K=10: maxarc=517 <= 4728.6 ; subset n=2500: Lambda=5526.4 <= 8Km=23440.0, >= (2K+1)t/sqrt2=2375.9; genuine bound piY+20.24K sqrtY+12.64K=378290.2
+ Y=100000 n=4783 K=316: maxarc=31 <= 925.9 ; subset n=2500: Lambda=9068.5 <= 8Km=42976.0, >= (2K+1)t/sqrt2=4923.6; genuine bound piY+20.24K sqrtY+12.64K=2340695.7
+ Y=100000 n=4783 K=300: maxarc=34 <= 932.5 ; subset n=2500: Lambda=8992.4 <= 8Km=43200.0, >= (2K+1)t/sqrt2=4674.7; genuine bound piY+20.24K sqrtY+12.64K=2238086.3
+(b) realisation torus demo
+ M=40 s=60 rank B=39 dim H=21 primes in [137,881]
+ trial 0: realisation spread of the M angles mod pi/2 = 2.05e-08 ; (L, max arc count, Prop 4.2 bound): [(2, 21, 163.8), (4, 8, 92.0), (6, 4, 83.4)]
+ trial 1: realisation spread of the M angles mod pi/2 = 2.05e-08 ; (L, max arc count, Prop 4.2 bound): [(2, 21, 163.8), (4, 8, 92.0), (6, 4, 83.4)]
+ trial 2: realisation spread of the M angles mod pi/2 = 2.05e-08 ; (L, max arc count, Prop 4.2 bound): [(2, 24, 163.8), (4, 9, 92.0), (6, 4, 83.4)]

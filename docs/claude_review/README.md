@@ -131,9 +131,14 @@ unlikely intersections in tori), each attacked by an adversarial killer. All fou
 on record: robust composite-supported analytic inputs are capped; genus-0 Arakelov inequalities reduce to pair data, `tau*` and
 rank; unlikely-intersection inputs are vacuous or capped at `omega(N')`; and a fifth conditional form, a Vojta instance `V_E(5)`
 on a 4-fold whose 5-point statement `(L_5^circ)` implies the uniform theorem (the 4-point analogue is false), every known method
-being exactly Liouville-critical on it.
+being exactly Liouville-critical on it. Round 21 (`round21/README.md`) attacks the one regime with no known fakes, the low-height window
+`P_+(N') <= M^(2-delta)`. It stays **open**: no restricted growth theorem inside it and no cap. Proved: restricted growth just below
+it (`P_+(N') = o(log R)` implies `M = o(log R/loglog R)`); the large sieve there reduces to arc counts and to the cross-gap item;
+the record's Haar-completion fake constructions provably cannot run there (success probability `<= exp(-c M^(delta/2))`); angle
+models are genuine on every complete initial segment of split primes. The judge again recommends stopping; the overview is
+updated through round 21.
 
-**Growth-rate status (2026-10-28, after round 20).** No growth improvement over `log R/loglog R` is proved, either
+**Growth-rate status (2026-10-28, after round 21).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues

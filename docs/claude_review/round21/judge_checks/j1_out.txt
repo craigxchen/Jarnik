@@ -1,0 +1,15 @@
+r=2 minP=37 triv_lb=28.2 ok=True minP/r^2=9.250 minP/(r^2 log r)=13.345
+r=3 minP=229 triv_lb=88.3 ok=True minP/r^2=25.444 minP/(r^2 log r)=23.161
+r=5 minP=977 triv_lb=304.4 ok=True minP/r^2=39.080 minP/(r^2 log r)=24.282
+r=8 minP=2269 triv_lb=868.4 ok=True minP/r^2=35.453 minP/(r^2 log r)=17.049
+r=10 minP=5189 triv_lb=1404.4 ok=True minP/r^2=51.890 minP/(r^2 log r)=22.536
+r=15 minP=12241 triv_lb=3304.5 ok=True minP/r^2=54.404 minP/(r^2 log r)=20.090
+r=20 minP=23537 triv_lb=6004.5 ok=True minP/r^2=58.843 minP/(r^2 log r)=19.642
+r=30 minP=63277 triv_lb=13804.5 ok=True minP/r^2=70.308 minP/(r^2 log r)=20.671
+r=50 minP=175753 triv_lb=39004.5 ok=True minP/r^2=70.301 minP/(r^2 log r)=17.971
+r=75 minP=487589 triv_lb=88504.5 ok=True minP/r^2=86.682 minP/(r^2 log r)=20.077
+r=100 minP=906289 triv_lb=158004.5 ok=True minP/r^2=90.629 minP/(r^2 log r)=19.680
+r=150 minP=2361221 triv_lb=357004.5 ok=True minP/r^2=104.943 minP/(r^2 log r)=20.944
+r=200 minP=4368113 triv_lb=636004.5 ok=True minP/r^2=109.203 minP/(r^2 log r)=20.611
+r=300 minP=10393921 triv_lb=1434004.5 ok=True minP/r^2=115.488 minP/(r^2 log r)=20.248
+r=400 minP=19950661 triv_lb=2552004.5 ok=True minP/r^2=124.692 minP/(r^2 log r)=20.812

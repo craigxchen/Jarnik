@@ -1,0 +1,27 @@
+# referee notes
+- Thm A (a)-(e): checked, correct. kappa=(4/pi)(1+1/sqrt2). Cor A.1 9.83 OK. Cor A.2 needs m>=cM as HYPOTHESIS; capped input only gives r>M/4, not m large (l<=M-1 could exceed r). TODO: check whether summary overstates.
+- Prop A': Fubini argument correct; arcsin(y)/y at 1/sqrt13 = 1.01327 OK.
+- Prop B correct.
+- TODO: check stability Thm 3.3 hypotheses (near-extremal? N' definition), outside.md double core m=M-1, 84(M-1)^2.
+- Thm C steps 1-3 re-derived: correct. Step1 eps in{0,1} ok; Step2 Minkowski area 4(1+e)(1-e/2)>4; Norm<p+1; Step3 f(eta)=sqrt(1+R^2)cos(eta+arctanR), -1 at 2arctan(1/R). R=p impossible since p∤p^2+1. Cor C induction ok, base S empty.
+- PLAN independent check: for all split p< some bound, union of open arcs radius arcsin((pN z)^-1/2) around arg z (prim z, Nz<p) mod pi/2: complement must be exactly {arg pi_p, -arg pi_p}.
+- Lemma T: check proof. A_v primitive argument OK? l | n_j exactly one j since coprime norms. beta_j primitive => divisible by only one of pi,conj pi. OK.
+- Lemma T: re-derived correct. Distinctness argued only for Z_x=Z_y; should be eps_x Z_x = eps_y Z_y (units); same argument (A_d real or imaginary => d=0). minor.
+- LS1, Thm LS 1-2: correct (MV/Selberg N+delta^-1-1, N=2K+1, delta=2/(pi X)). K must be integer. Scope: split primes only (inert/ramified excluded); fine.
+- Nontriviality: trivial bound is (2K+1)*2r not (2K+1)r; minor.
+- Remark after LS: transplant points satisfy cross-gap "unless beta_j associate to varpi" -- but if beta_j is a Gaussian prime above l not dividing N (natural transplant), varpi_l IS in Theta^ext: exact collision, cross-gap sin=0 fails. So "satisfied by transplant points" false in that case; at K~sqrt X the sharp LS still OK by perturbation, but cross-gap formulation fails. minor-to-major (remark only).
+- Summary "large sieve adds nothing" overstated: only c>=2 union / c>=1 cluster-only forms; sharp form open (they say so in body).
+- MAJOR(LS): row 7 robust (R1) constant c(X+K X^1/2) with ANY fixed c>0. Thm LS covers union only at 2D ~ pi X. Genuine union satisfies D (Thm LS item1 applied to genuine). So the window's natural union LS (constant D(1+o(1)), or c X with c<pi) is NOT covered; "LS adds nothing" overstated. Body admits c<2 open, but summary overclaims. Also Theorem B's (1+o(1)) form not reached.
+- MAJOR(Q-yes): "If yes, window fakes exist and window capped": a point of G∩Real gives a row-1 (A_0) fake (+ row-3 profile inputs if profile satisfies them); rows 2-4 residue designs need primes > X (lower.md 5.2), row 7 graft needs A>2 -> not capped by (Q)-yes. Must scope.
+- Evidence scope: MC + sequential runs are on FULL torus, no profile/coset; prime sets 13..73, 13..97, 13..109 are COMPLETE segments of split primes minus 5, not "sparse like the window's". 
+- Q dichotomy: "arithmetic" must mean arg beta_j with Norm beta_j <= p_j (Lemma T generalises: coprimality only used for gap-admissibility; Z_x distinct if gap-admissible). Points arg beta with norm > p_j, or rigid rational points, fall in "yes" branch.
+- Stability Thm 5.2 (A<=3+delta: almost all split p<=M divide N') -- relevant to Thm C; not an error.
+- 5.1 "cannot come from positive-probability random choice": wording (prob tiny but positive), conditional on law.
+- COMPUTED: ref_seq: 360,050 monomials (w<=34, 8 primes) all 4 vectors pass, min ratio 1.002-1.042; 1,043,472 (w<=33, 10 primes): 1 of 3 passes (the flagged one, ratio 1.005), others fail (ratios .07,.097) consistent with text.
+- ref_tail: shells match; tail beyond 34 = 0.022 (text 0.03), beyond 33 = 0.147 (text 0.2). OK conservative.
+- ref_g1: mu1 G1(13)=0.3019, G1(17)=0.3927, G1(101)=0.773; MC {13,17} T=26: 0.0365 (text .0361). Lambda/Pi columns OK.
+- ref_thmC: Step-1 covering (branch independent!) verified all 180 split p<=2500: complement = exactly {arg pi_p, pi/2-arg pi_p}. 63-branch certificate redundant (Step 1 is branch-independent).
+- constants: kappa 2.17356, (k/ln2)^2 = 9.833, arcsin ratio 1.01329, k1 2.20246, step mass at 109 = 7.52.
+- "48 directions" includes even norms (49 prim norm in (1,101], minus 1+i); text sentence says "odd norm ... coprime" survive but list includes even norms (10, 50). trivial.
+- MAJOR wording: "record's constructions provably fail there" -- Theorem A is an upper bound on success prob, not zero; Haar completion+rejection would still produce fakes if nu>0 (= scenario P). Correct: the union-bound existence proofs cannot run.
+- Summary says e^30 / body e^28 for Pi=17.4. trivial.

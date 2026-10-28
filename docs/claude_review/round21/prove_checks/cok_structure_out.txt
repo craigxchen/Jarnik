@@ -1,0 +1,16 @@
+10-pt C=8.24 n=1176852625 k=10 C=8.2386 N'=1176852625 s=5 rank B=5
+   primes [5, 13, 17, 29, 113] exponents [3, 2, 1, 1, 1]
+   Smith invariants of B^T: [2, 2, 2, 2, 24]   orders D_j of e_j in Cok: [24, 8, 6, 4, 24]
+golden 8-pt n=537606725 k=8 C=5.8974 N'=537606725 s=5 rank B=4
+   primes [5, 17, 61, 89, 233] exponents [2, 1, 1, 1, 1]
+   Smith invariants of B^T: [2, 2, 2, 2, 0]   orders D_j of e_j in Cok: [inf, inf, inf, inf, inf]
+sporadic 7-pt n=235370525 k=7 C=5.2695 N'=235370525 s=5 rank B=5
+   primes [5, 13, 17, 29, 113] exponents [2, 2, 1, 1, 1]
+   Smith invariants of B^T: [2, 2, 2, 2, 24]   orders D_j of e_j in Cok: [24, 8, 6, 4, 24]
+5-pt C=2.26 n=2163838625 k=5 C=2.2584 N'=2163838625 s=6 rank B=4
+   primes [5, 13, 17, 29, 37, 73] exponents [3, 1, 1, 1, 1, 1]
+   Smith invariants of B^T: [2, 2, 2, 2]   orders D_j of e_j in Cok: [inf, inf, inf, inf, inf, inf]
+
+Corollary 4.3 hypothesis (no row-space vector supported on <= 2 coordinates):
+   golden 8-pt rank 4 s 5 dependent pairs: 10 of 10 [(5, 17), (5, 61), (5, 89), (5, 233), (17, 61), (17, 89)]
+   5-pt C=2.26 rank 4 s 6 dependent pairs: 1 of 15 [(5, 37)]

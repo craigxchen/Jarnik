@@ -1,0 +1,10 @@
+first 3 primes >=53, WMAX=22: tail <= 0.001
+first 5 primes >=53, WMAX=22: tail <= 0.010
+first 7 primes >=53, WMAX=22: tail <= 0.073
+first 9 primes >=53, WMAX=22: tail <= 0.286
+first 10 primes >=53, WMAX=22: tail <= 0.480
+first 11 primes >=53, WMAX=22: tail <= 0.753
+first 12 primes >=53, WMAX=22: tail <= 1.115
+101..157 WMAX=24: 0.012
+29..97 WMAX=22: 0.287
+check 2.18 constant: 2.23606797749979

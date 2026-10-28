@@ -1,0 +1,15 @@
+r=2 q=37 count=2 (>= r: True) prev=29 prev_count=1 (< r: True) endpoint_dist=0.0735
+r=3 q=229 count=3 (>= r: True) prev=197 prev_count=1 (< r: True) endpoint_dist=0.099
+r=5 q=977 count=5 (>= r: True) prev=953 prev_count=3 (< r: True) endpoint_dist=0.0919
+r=8 q=2269 count=8 (>= r: True) prev=2237 prev_count=6 (< r: True) endpoint_dist=0.0258
+r=10 q=5189 count=10 (>= r: True) prev=5153 prev_count=9 (< r: True) endpoint_dist=0.36
+r=15 q=12241 count=16 (>= r: True) prev=12197 prev_count=12 (< r: True) endpoint_dist=0.274
+r=20 q=23537 count=20 (>= r: True) prev=23509 prev_count=19 (< r: True) endpoint_dist=0.059
+r=30 q=63277 count=31 (>= r: True) prev=63241 prev_count=29 (< r: True) endpoint_dist=0.488
+r=50 q=175753 count=50 (>= r: True) prev=175709 prev_count=48 (< r: True) endpoint_dist=0.0344
+r=75 q=487589 count=75 (>= r: True) prev=487561 prev_count=74 (< r: True) endpoint_dist=0.00851
+r=100 q=906289 count=100 (>= r: True) prev=906233 prev_count=97 (< r: True) endpoint_dist=0.443
+r=150 q=2361221 count=150 (>= r: True) prev=2361133 prev_count=148 (< r: True) endpoint_dist=0.35
+r=200 q=4368113 count=200 (>= r: True) prev=4368053 prev_count=197 (< r: True) endpoint_dist=0.445
+r=300 q=10393921 count=300 (>= r: True) prev=10393837 prev_count=299 (< r: True) endpoint_dist=0.211
+r=400 q=19950661 count=401 (>= r: True) prev=19950569 prev_count=398 (< r: True) endpoint_dist=0.0606

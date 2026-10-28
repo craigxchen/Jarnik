@@ -11,13 +11,23 @@
 > Route 5 (determinant method) reduces growth to a box inequality whose decisive fake test is undecided; other routes stop at precisely stated open lemmas.
 > *Round 18* examined $(L_8)$ by census, lifting test and theory: it stays open, no feasible computation can test it (balanced data have minors $\ge10^{49}$), no concrete exceptional set exists in the record, and the $(L_5)$/$(L_6)$ refutation mechanisms provably fail at $k=8$ (proved, refereed; §6.6, §7.1).
 > Its one new conditional lane, abc on auxiliary pencils, stops at the pairwise-coprime case $(L_8^{pc})$; *round 19* closed its unit-pencil part by proof (no unit pencil has positive gain; proved, refereed), leaving only an unsupported non-unit residue (§5.5, §7.1).
+> *Round 20* tested four further lenses; all were killed and neither growth nor uniformity moved. It capped robust composite-supported analytic inputs (proved, killer-checked), reduced genus-0 Arakelov theory to pairs, $\tau^*$ and rank, showed unlikely intersections in tori vacuous or capped at $\omega(N')$, and proved that gcd-normalising a tuple changes nothing any recorded method sees (killer Lemma K1; §5.4 rows 17–20).
+> It added a second self-contained Diophantine formulation next to $(L_8)$: the 5-point statement $(L_5^\circ)$, which gives the uniform theorem (proved) and is predicted by a Vojta instance $V_E(5)$ on a 4-fold (conditional); $(L_5^\circ)$ is open and Liouville-tight for every recorded method, and its 4-point analogue is false (proved). All of this is killer-checked only (§4.3, §7.1A).
 > §7 states the smallest open problems; every statement carries a status label and a file pointer, and §8.2 lists the referee corrections.
+> *Round 21* examined the low-height window $P_+(N')\le M^{2-\delta}$, the one regime with no known fake. **Its status is unchanged: open.** No restricted growth theorem was proved inside it, and it is not capped. The rate is unchanged everywhere (`round21/README.md` §§0, 2).
+> Proved, refereed: below the window, $P_+(N')=o(\log R)$ gives $M=o(\log R/\log\log R)$. This is a restricted result and a corollary of `round8/stability.md` Thm 3.3, and near-extremal clusters have $P_+(N')\ge c_\varepsilon M\log M$ (`round21/prove.md` Thm 2.1, Cors 2.2–2.3).
+> Proved, refereed: in the window, union-bound/Haar completion of fakes succeeds with probability at most $e^{-c M^{\delta/2}}$ when the free dimension is $m\ge cM$, which is not a non-existence proof. Angle models are genuine on complete initial segments of split primes, and arithmetic models are actual clusters. Every model satisfies the cluster-only large sieve at the genuine constant and the union large sieve at twice it (`round21/fakes.md` Thms A, C, LS, Lemma T).
+> Still uncapped in the window: the union large sieve at the genuine constant, GRH-quality prime sums and box counts, and pinned profiles ($m=0$). The fake side reduces to an existence question (Q), and neither answer gives growth (judge J2, **unrefereed**; §5.5). The judge recommends stopping.
 
 *A consolidated account of a research program on the Cilleruelo–Granville conjecture, written for
 experts in Diophantine approximation and analytic number theory. Compiled 2026-10-28 from the
 review record in `docs/claude_review/` of the repository `craigxchen/Jarnik` and the research notes
 on the branch `agent/uniform-gcd-formalization`; updated through the round-18 judge's report
-(`round18/README.md`), and through the round-19 judge's report (`round19/README.md`).*
+(`round18/README.md`), through the round-19 judge's report (`round19/README.md`), and through the
+round-20 judge's report (`round20/README.md`), and through the round-21 judge's report
+(`round21/README.md`; refereed write-ups, judge remarks **unrefereed**). Round-20 statements were checked only by that round's
+adversarial killers (`round20/kill_*.md`), not by a separate referee; they are labelled
+"killer-checked", and judge-only remarks are labelled **unrefereed**.*
 
 **How to read this document.** Every statement below is the version a referee accepted. Where a
 referee corrected a statement, the corrected one is given and the correction is listed in §8.2.
@@ -53,7 +63,13 @@ note names (such as `inert_prime_cofactor_bound.md`) refer to `docs/` on the bra
    feasible computation can test it (census Thm E, **proved**), it reduces to no weaker equivalent
    (only a sandwich down to the pairwise-coprime case $(L_8^{pc})$, **proved**), and it holds only on
    special loci with locus-dependent constants (**proved**); no concrete exceptional set is known
-   (§6.6, §7.1; `round18/README.md` §§0, 3).
+   (§6.6, §7.1; `round18/README.md` §§0, 3). *Round 20* added a further conditional form on a
+   smaller variety: Vojta for $(\mathrm{Bl}_e\overline L{}^{\rm tw}_5, D=E, S=\{\infty\})$, a 4-fold
+   ($V_E(5)$), implies the uniform theorem through the 5-point statement $(L_5^\circ)$
+   (**conditional**, killer-checked; `round20/gauss.md` Thms 3.4', 4.2; §4.3). This is a different
+   instance, not a weaker hypothesis in any proved sense; its 4-point analogue is false (**proved**,
+   killer-checked; Thm 4.1), and $(L_5^\circ)$ is open, Liouville-tight for every recorded method,
+   with no method in either direction (§7.1A).
 3. *Restricted results.* Pure Hadamard-core clusters are uniformly bounded. One split prime with
    bounded cotangent valuation forces $M=O(\sqrt{\log R})$. Any five lattice points have diameter
    $\ge 1.9433\,R^{2/5}$ (§3).
@@ -66,12 +82,20 @@ note names (such as `inert_prime_cofactor_bound.md`) refer to `docs/` on the bra
    under abc (**conditional**; `round18/theory.md` Prop 2.6), but round 19 proved that no unit pencil
    has positive gain (`round19/theory.md` Thm 3.3; **proved, refereed**); only non-unit pencils remain, with
    no proved implication, and $(L_8^{pc})$ alone does not give the uniform theorem.
+   Round 20 added four rows to the capped table (§5.4 rows 17–20; killer-checked): robust
+   composite-supported analytic inputs (kind F), genus-0 arithmetic intersection theory (reduces to
+   rows 2, 8 and Lim), unlikely intersections in tori (vacuous, or capped at $\omega(N')$), and
+   gcd-normalised $k$-point statements (killer Lemma K1). The non-robust composite inputs remain
+   unclassified, as four sub-items (§5.5; `round20/README.md` §3).
 5. *Routes.* Several routes were stopped at a precise missing statement (§6). The smallest
    self-contained open problems are collected in §7. The round-18 judge put the chance of a proof of
    $(L_8)$ in a further internal round at $<0.1\%$ and recommended taking $(L_8)$, in its lattice form,
    and the abc-gain question to outside experts (`round18/README.md` §7.3). *Round 19*: the
    unit-pencil abc lane is closed by proof (**proved, refereed**; `round19/theory.md` Thm 3.3), growth and
    uniformity are unchanged, and the judge recommends stopping internal rounds (`round19/README.md`; §7.1).
+   *Round 20* (an extra panel of four lenses: gauss, arakelov, composite, wild) killed all four;
+   growth and uniformity are unchanged, and the judge again recommends stopping, with one addition
+   to the external package: $(L_5^\circ)$ and $V_E(5)$ (`round20/README.md` §§0, 7; §7.1A).
 
 ---
 
@@ -551,9 +575,10 @@ for any $C$.
 
 ## 4. Conditional theorems (Vojta)
 
-Both theorems in this section are **conditional**. Each assumes **one instance** of Vojta's Main
+All theorems in this section are **conditional**. Each assumes **one instance** of Vojta's Main
 Conjecture (Vojta, LNM 1239, Conj. 3.4.3; Bombieri–Gubler Ch. 14) for **rational points**, with
-$D=0$, on **one fixed** smooth projective variety over $\mathbb Q$. No set of places $S$ enters, so
+$D=0$ (§§4.1–4.2) or with $D=E$ and $S=\{\infty\}$ fixed (§4.3, round 20), on **one fixed** smooth
+projective variety over $\mathbb Q$. No set of places $S$ enters, so
 no uniformity in $S$ is assumed; the exceptional set depends only on the variety, the big divisor
 and $\varepsilon$. These are the only routes in the record from a standard conjecture, and they give the
 **uniform bound** directly (not merely a growth improvement). Deriving approximation exponents from
@@ -677,6 +702,76 @@ integers and no circle. It is stated precisely in §7.1.
 * **No auxiliary-polynomial (Liouville) argument proves $(L_k)$ for any $k$**, nor any $H_\Sigma\ge f(w)$ with
   $f\to\infty$ (`threshold/L8.md` Thm A, in the precise form of `threshold/referee_L8.md` §2.3): the balanced class
   lies in the interior of the movable cone of $\overline M_{0,k}$ (Keel–McKernan).
+
+### 4.3 Vojta on a 4-fold with $D=E$, and the 5-point statement $(L_5^\circ)$ (round 20; `round20/gauss.md` §§3–4, `round20/kill_gauss.md`; killer-checked, not separately refereed)
+
+**Setting** (`round20/gauss.md` §1; `round20/README.md` §1.1). A primitive $k$-tuple $\zeta_1,\dots,\zeta_k$
+of lattice points on a circle of radius $R''$, up to similarity, is a point $[\zeta]$ of the norm-one
+torus $T_k$ (dimension $k-1$) inside the twisted Losev–Manin space $\overline L{}^{\rm tw}_k$ (the twisted
+$\overline M_{0,k+2}$ with the two isotropic marks of `threshold/L8.md` §6.1, where the model and the
+"Gaussian analogue with 6 points" pointer first appear). The Gaussian cut norms $n_A$ are its toric
+heights, and a short arc is archimedean contact with the identity $e$ (exceptional divisor $E$ of
+$\mathrm{Bl}_e$). **Primitive** means divided by the tuple's Gaussian gcd; this shortens the arc
+(in the reduced radius $R''$ a balanced $k$-tuple of a short-arc cluster lies on an arc
+$R''^{1/2-1/(2^k-2)}$, i.e. $R''^{7/15}$ at $k=5$).
+
+**$A_k(\delta)$.** There are a proper Zariski-closed $Z\subset T_k$ and $R_0$ such that every primitive
+$k$-tuple of distinct lattice points of a circle of radius $R''\ge R_0$ with all distances
+$\le R''^{1/2-\delta}$ has $[\zeta]\in Z$.
+
+**$(L_k^\circ)$.** With $d_{ab}=\sum_{A\text{ separating }a,b}\log n_A$, define $t_{ab}$ by
+$|\zeta_a-\zeta_b|=2|t_{ab}|R''e^{-d_{ab}/2}$ and $H_\Sigma=\sum_{a<b}\log|t_{ab}|$. $(L_k^\circ)$ asserts:
+there are $c,\eta_0>0$, $w_0$ and a proper Zariski-closed $Z\subset T_k$ such that every primitive
+$k$-tuple **within one Gaussian unit class**, with $[\zeta]\notin Z$ and $|\log n_A-w|\le\eta_0w$ for all
+$2^{k-1}-1$ cuts, $w\ge w_0$, has $H_\Sigma\ge cw$. *Killer correction* (`round20/kill_gauss.md` minor 1):
+$t_{ab}$ is an integer only within one unit class (408 of 1866 tested cross-class pairs have
+$|t_{ab}|\in\sqrt{\text{odd}/2}$); the alternative is $t_{ab}:=|c_{ab}|/2$ real with $H_\Sigma\ge cw-O(1)$.
+$(L_k^\circ)$ is the circle restriction of $(L_k)$ (§4.2), weaker in three respects: actual Gaussian
+tuples, exceptional set in the $(k-1)$-dimensional $T_k$, and balance over all cuts.
+
+> **Theorem 4.4 (`round20/gauss.md` Thms 3.4, 3.4′, Prop 3.1; proved, elementary; killer-checked).** Let
+> $k\ge3$ and $0<\delta<1/(2^k-2)$. Then $A_k(\delta)\Rightarrow(L_k^\circ)\Rightarrow$ the uniform theorem
+> ($M(C)<\infty$ for every $C$). For $\delta\le2^{-k-1}$ the proof uses only the convexity averaging of
+> Lemma 3.2; otherwise it uses item 532's balanced selection **within one unit class** (costing a factor
+> 4 in $M$). The converse $(L_5^\circ)\Rightarrow A_5$ is **not** proved (the proposal's "equivalently" is
+> withdrawn; `round20/kill_gauss.md`).
+
+> **Theorem 4.5 (`round20/gauss.md` Thm 4.1 and killer corollary; proved; exact rank reproduced at 6
+> rational points).** $A_4(\delta)$ is false for every $\delta<1/14$, and $(L_4^\circ)$ is false: an
+> explicit rational 2-parameter family of Gaussian linear blocks gives balanced, bounded-residue
+> 4-tuples at exponent $3/7$, dense in $T_4$ (ratio range $[8.31,142.28]$). By projection
+> (`round20/kill_gauss_checks/k3_projection.py`), $A_3(\delta)$ for $\delta<1/6$ and $(L_3^\circ)$ are also
+> false. So $k=5$ is the smallest $k$ at which the reduction can work.
+
+**Hypothesis $V_E(k,\varepsilon)$.** Vojta's Main Conjecture for $(Y_k=\mathrm{Bl}_e\overline L{}^{\rm tw}_k,\
+D=E,\ S=\{\infty\})$, $\dim Y_k=k-1$: for every $\varepsilon>0$ there are a proper closed $Z_\varepsilon$ and
+$C_\varepsilon$ with $\lambda_{E,\infty}(y)+h_{K_{Y_k}}(y)\le\varepsilon h_A(y)+C_\varepsilon$ for
+$y\in Y_k(\mathbb Q)\setminus Z_\varepsilon$ ($A$ ample). $D=E$ is smooth and $S$ is fixed, so no uniformity
+in an unbounded $S$ is involved.
+
+> **Theorem 4.6 (`round20/gauss.md` Thm 4.2; conditional on $V_E(k,\varepsilon)$; re-derived by the killer).**
+> If $k\ge5$ and $\kappa:=(k-1)(1+2\delta)/4-1>0$, then $V_E(k,\varepsilon)$ with $\varepsilon<\kappa/c_A$ implies
+> $A_k(\delta)$. At $k=5$ this holds for every $\delta>0$, so **$V_E(5)$ implies the uniform theorem** (via
+> Theorem 4.4), and $V_E(5)$ predicts $(L_5^\circ)$. The instance is non-vacuous:
+> $(K+D_{PQ})\cdot\hat\gamma=1/16>0$ at $k=5$ (exact, recomputed for $k=3,\dots,9$). The $D=0$ form needs $k=6$.
+
+**Comparison of the conditional instances** (`round20/README.md` §5). $V(7,1/4)$: a 7-fold, $D=0$
+(§4.1). $V_8$/$(L_8)$: a 5-fold, $D=0$, $K\cdot\beta=10$ (§4.2). $V_E(5)$/$(L_5^\circ)$: a **4-fold**, $D=E$,
+margin $\kappa=2\delta\approx1/15$. This is a different instance, not a weaker hypothesis in any proved
+sense; neither is known to imply the others. Its 4-point analogue is false (Theorem 4.5), so the instance
+is sharp in $k$.
+
+**Standing of $(L_5^\circ)$** (`round20/kill_gauss.md` §6.1; `round20/README.md` §1.1). **Open**, with no
+method in either direction, the same standing as $(L_8)$ (likewise $(L_6^\circ)$, $(L_7^\circ)$). It asks
+that the Liouville exponent at the **rational** point $e$ of the 4-fold $T_5$ not be attained by a
+Zariski-dense set of balanced points. Killer Lemma K1 (**proved**, killer-checked): dividing by the tuple
+gcd changes no forced-divisibility, Liouville, pair, cut, character or single-form inequality, so the
+move from exponent $1/2$ to $7/15$ is a change of units, not of difficulty; every recorded method is
+exactly critical on $(L_5^\circ)$ (`construct.md` Cor C3 caps auxiliary forms at ratio exactly 1;
+single-form Lang–Waldschmidt is exactly tight). Roth, Schmidt and Ru–Vojta do not apply at a rational
+target; fakes violate the statement; only Vojta predicts it. Also proved: no bounded-degree covering family
+of curves with infinitely many $A$-points exists for $k\ge5$ (`round20/gauss.md` Thm 4.3(ii)); Thm 4.3(i)
+is narrowed by the killer, and the density mechanism is excluded at $k=5$ only **heuristically**.
 
 ## 5. The barrier map: fake circles and capped input classes
 
@@ -843,10 +938,20 @@ carries a **kind** and a **status**:
 | 14 | S-unit counts, Subspace with known $S$-dependence, gcd theorems for fixed $S$ | — | — | counts exponential in $s$; exceptional sets depend on $S$ | Lim; remarks in refereed write-ups and in the literature sweep | `round8/weakest.md` §5, `round8/stability.md` Prop 8.2; `lit18/README.md` §1.2 |
 | 15 | abc, Bombieri–Lang | — | — | abc is vacuous on squarefree block relations (all fakes are squarefree); for Bombieri–Lang the auxiliary varieties are rational, and the record found nothing usable ("nothing found", not a proof of no implication; §4.1). The cap does not cover abc on auxiliary pencils of $\overline M_{0,8}$ (round 18; §5.5) | V/vacuity; abc vacuity proved, refereed | `round8/weakest.md` Props 4.1–4.2, 6.2; `growth/referee_conditional.md` minor item 4 |
 | 16 | **Interpolation determinants and point-counting on one circle**: Bombieri–Pila, Heath-Brown, Salberger determinants; gap principles, larger-sieve variants, Stepanov's method; also sums, Sidon sets, the $\sigma$-cocycle, the $\mathbb F_q$ polynomial method | — | — | on one circle the interpolation determinants factor as a Vandermonde times a symmetric factor with no extra arithmetic, so these arguments reduce to pair data and give nothing beyond $O(\log R/\log\log R)$ | Red; `growth/auxiliary.md` is **unrefereed** (no referee report); the additive-tools reduction is refereed | `growth/auxiliary.md`; `growth/README.md`; `round10/additive.md` §5 and §6 table |
+| 17 | **Robust composite-supported analytic inputs** (round 20): all-ideal Hecke large sieve over any support with constant $\ge c(X+KX^{1/2})$; Type I/II, multilinear and Halász bounds with free coefficients; divisor-weighted and Selberg/GPY-weighted sums; polar-box counts with error $\ge cX^\gamma$; with or without multiplicativity in the forms P1–P5; $c,\gamma,B,C_c$ and the precision fixed before the target constant | minimal and multiplicative grafts of the row-1 fakes ($A>\max(4,1/\gamma)$) or of the P3-char fakes ($A>\max(2,1/\gamma)$) | $(2A+o(1))M\log M$, resp. $(bA+o(1))M\log M$, $b\ge33$ | the minimal graft changes only $\Psi_S(X)\le X^{(1+o(1))/A}$ ideals; the multiplicative graft rotates each $S$-fibre by a constant; every true all-ideal large sieve is robust (Prop 1.5); error $1+O(M^{1-A/2}+2^BM^{1-A\gamma})$ (killer-corrected constant F1). R1 caveat applies and is **not vacuous** here, since true composite inputs exist at every precision | F; proved (composite Thms M, P, Cor 2.2, as corrected by kill F1), killer-checked, not separately refereed | `round20/composite.md`; `round20/kill_composite.md` §8; `round20/README.md` §§1.3, 3 |
+| 17′ | *(judge J1)* smoothed-norm, sharp-angle sector counts over all ideals, for any fixed finite family of sectors (any edges), used **without** multiplicativity, at precision $\ge X^{(2+\varepsilon)/A-1/2}$; Lipschitz test functions of (norm, angle), including smooth Hecke sums without complete additivity, at precision $\ge X^{(1+\varepsilon)/A-1/4}$ | swap extension of the row-17 witnesses | as row 17, with $A>4+2\varepsilon$ (resp. $A>4+4\varepsilon$) | the swap moves each fake ideal's genuine angle to a non-$S$-smooth ideal of nearby norm, so (norm, angle) multisets change only by small norm shifts; exact-data check: swap restores the genuine error to within 0.0015 | F; **unrefereed** (judge's proof; Lipschitz variant a sketch) | `round20/README.md` §4 J1; `round20/judge_checks/j1_swap.py`, `j1b_hecke.py` |
+| 18 | **Arithmetic intersection theory on genus-0 models** (round 20): arithmetic Hodge index, Faltings–Hriljac, adelic energy/capacity/Fekete, Bost slopes on $\mathbb P^1$, equidistribution energies | `round5/lower.md` witnesses (2-adic collisions included, cut at $X=2M$) | $(48+o(1))M\log M$ | in genus 0 every global relation is a pair relation and every finite configuration is ultrametric, so these are row 2 (adelic capacity ADC); Zhang/Northcott/bigness on a fixed model needs $\tau^*(M)>2$ (row 8); Mordell–Weil packing gives $e^{O(\mathrm{rank})}$ (Lim; bounded rank $\Leftrightarrow$ uniform theorem). The dictionary (Thm A) is exact; the $(2/3+\varepsilon)$ finite inequality is adelic Fekete with the crude $(1+i)$ bound (Thm B) | Red to rows 2, 8, Lim; proved (arakelov Prop B.2 as repaired by the killer, Prop 3.3(b), Thm C), killer-checked | `round20/arakelov.md`; `round20/kill_arakelov.md` |
+| 19 | **Unlikely intersections in tori** (round 20): BMZ, Habegger, Rémond cones, anomalous Zilber–Pink | — (fixed carriers); full-rank fake profiles (subgroup case) | rows 1–3 | the open-anomalous locus $V^{oa}$ is empty for $X_M$, the chord space $L_M$ ($M\ge4$) and $M_{0,k}$ ($k\ge5$), so these theorems are vacuous there; moving-line height comparisons (UI-$\ell$), (UI-$\ell_\Sigma$) are false at every useful constant, already on actual 3-clusters; subgroup membership sees only rank-deficient clusters, ceiling $M\le\omega(N')+O_C(1)$ (= lit18 Prop B) | V + Red to lit18 Prop B; proved (wild Thm 6.2, Props 6.6, 6.8; kill_wild K.0–K.2), killer-checked; the Rémond-cone case of the ceiling is **heuristic** | `round20/wild.md`; `round20/kill_wild.md` |
+| 20 | **gcd-reduced $k$-point circle statements** $(L_k^\circ)$, $A_k(\delta)$, $k\ge5$ (§4.3), attacked by forced divisibility, auxiliary forms, pair/cut/character data or single-form LW | — | — | killer Lemma K1: for bihomogeneous $F$ of bidegree $(a,b)$, $F(z)=g^a\bar g^bF(\zeta)$, and the tropical forced divisor scales the same way, so dividing by the tuple gcd leaves every such inequality unchanged; `construct.md` C3 on $k$ rows gives ratio exactly 1, single-form LW is exactly tight; the target $e$ is rational, so Roth/Schmidt do not apply | V (exact criticality); proved (`round20/kill_gauss.md` §6.1, re-derived from the proposal's own §4.4), killer-checked | `round20/gauss.md`; `round20/kill_gauss.md` §6.1 |
 
 **Refuted hypotheses** (not caps, but closed): $\mathrm{SLW}(k,g,\kappa)$ with union heights is false
 for every $k$ at every $g<1$, and $\mathrm{SLW}^{\log}$ at every $g<1/2$ (`round8/referee_weakest.md`
-Props R1–R2, polynomial templates). $QS(m\le3,\delta,o(s))$ is false (`round8/weakest.md` Prop 5.3).
+Props R1–R2, polynomial templates). $QS(m\le3,\delta,o(s))$ is false (`round8/weakest.md` Prop 5.3). Round 20
+(proved, killer-checked): $A_4(\delta)$ for $\delta<1/14$ and $(L_4^\circ)$; $A_3(\delta)$ for $\delta<1/6$ and
+$(L_3^\circ)$ (`round20/gauss.md` Thm 4.1 and the killer's projection corollary; §4.3). $(\mathrm{UI}\text{-}\ell)$ for
+$\kappa<1$, $(\mathrm{UI}\text{-}\ell_\Sigma)$ for $\kappa_\Sigma(n)<n/2$, and $(S_{\min})$ with all its natural rescues,
+false for every $n$, already on genuine short-arc 3-clusters $((b-i)^2,b^2+1,(b+i)^2)$ (`round20/wild.md` Prop 6.6;
+`round20/kill_wild.md` K.0–K.3, Prop K.1 re-checked exactly to $b=10^{20}$ in `round20/README.md` §4 J2).
 
 **Caveat on residue caps** (round 9 R1; an unrefereed README remark). Rows 2–4 and 7 hold for residue
 moduli up to $M^A$ with $A$ **fixed in advance**. Every construction of rounds 5–7 has $p_j>X$, so the
@@ -865,8 +970,22 @@ $p_j\le M^{h_0}$, $X=3M^A$ and $A$ is chosen after $c_0$ (`round9/README.md` §0
 * **The sharp $(X+K)$ large sieve**: up to constants equivalent to the max-scale cross-gap
   $|\sin(\phi_p-\arg\varpi)|\ge c/\max(p,\mathrm{Norm}\,\varpi)$, not to the capped pair-gap form; its
   status is open and unclassified (`round10/README.md` §3 item 6, §7.2).
-* **Composite-supported analytic inputs** (all-ideal large sieve, Type I/II sums): **unclassified**; Thm B
-  does not cover them (`round10/README.md` §7.2; `lit18/README.md` §2.2 item 3).
+* **Non-robust composite-supported analytic inputs** (round 20). The robust part is now capped (§5.4 row 17;
+  `round20/composite.md` Thms M, P). Only the non-robust part stays unclassified, as four sub-items, none
+  known to give growth (`round20/README.md` §3; `round20/kill_composite.md` F2–F4):
+  (a) the sharp large sieve on primitive support **without** multiplicativity, i.e. the composite max-scale
+  cross-gap $|\sin(\langle v,\phi\rangle-\arg\alpha)|\ge c/\max(Nd,N\alpha)$ (**open**; joins the sharp-large-sieve
+  item above);
+  (b) the same **with** multiplicativity, i.e. the product-scale gap
+  $|\sin(\psi_d+\arg\beta-\arg\alpha')|\ge c/\max(Nd\,N\beta,N\alpha')$ (LCG-shaped; collapse **heuristic**; exact
+  spacing evidence $X\cdot$minspacing $=1.003$ genuine, $0.228$ minimal graft, $5.6\cdot10^{-5}$ multiplicative graft
+  at $p=101$, $X=10^6$);
+  (c) smoothed sector counts with badly approximable edges used **with** complete multiplicativity, or uniformly
+  over a bounded-type class of edges (the finite-family, non-multiplicative case is capped by judge J1, row 17′,
+  **unrefereed**; the uniform-in-type case is capped only **heuristically**);
+  (d) effective smooth Hecke sums **without** complete additivity at precision finer than
+  $X^{(1+\varepsilon)/A-1/4}$ (coarser precisions: J1, **unrefereed**; with complete additivity they force
+  $\phi_p=\pm\theta_p\pmod{\pi/2}$, i.e. the problem itself, `round20/composite.md` Prop 3.1, proved).
 * **Additive (archimedean) data** such as $\mathrm{Log}((z_x+z_y)/(2z_u))=O(\Delta)$: not modelled by angle
   models. Used in full they are the problem itself: the additive gap is violated by almost every fake,
   but its universal form is strictly stronger than growth (`round10/additive.md`).
@@ -875,8 +994,32 @@ $p_j\le M^{h_0}$, $X=3M^A$ and $A$ is chosen after $c_0$ (`round9/README.md` §0
   Whether near-extremal actual clusters must do so is open (`round8/README.md` §2.5 item 6;
   `round8/stability.md` §9.3). If they had to, the problem would become one about angles of Gaussian
   primes in very short intervals.
-* **The low-height window** $P_+(N)<M^{2-\delta}$: no fakes are known there; every known fake needs
-  $P\gtrsim r^2\log r$ (`round10/README.md` §3).
+* **The low-height window** $P_+(N')\le M^{2-\delta}$: **uncapped, and no restricted growth theorem is known there**.
+  This is the round-21 status (`round21/README.md` §§2–3; referee-corrected). No fakes are known there.
+  * *Why the record's fakes need $P\gtrsim r^2$.* An equal-weight window $[a,ae^{1/(4r)}]$ holding $r$ split primes needs
+    $a\ge16r(r-1)e^{-1/(4r)}$ (judge J1; **unrefereed**, exact check). Haar/union-bound completion succeeds on a
+    realisation coset with probability $\le\exp(-2.17\sum_{j\in J}p_j^{-1/2})$, where $|J|=m$ is the free dimension.
+    So it needs $P_+>9.83m^2$, and in the window, when $m\ge cM$, the probability is $\le e^{-2.17cM^{\delta/2}}$
+    (`round21/fakes.md` Thm A, Cors A.1–A.2; proved, refereed). This is not a proof that window fakes do not exist.
+  * *Large sieve.* For any angle set, the dual large sieve is equivalent up to an absolute factor below 23 to arc
+    counts (`round21/prove.md` Lemma 3.2; proved). Every angle model satisfies the cluster-only Hecke large sieve at
+    the genuine constant $D=2K+\pi X/2$, and the union with all split-prime angles at $2D$ (`round21/fakes.md` Thm LS;
+    proved).
+  * *Uncapped in the window* (refereed findings):
+    * the union large sieve at the genuine constant, or any constant below $2D$ (a row-7 robust input);
+    * square-root-quality (GRH) Hecke prime sums and $x^{1/2}$-error box counts, since the graft extension covers
+      only $\gamma>1/(1+\eta)$ with primes $\ge M^{1+\eta}$ (`round21/prove.md` Props 5.2–5.3, Cor 5.4, conditional on
+      spread window models);
+    * the residue rows 2 and 4, whose fake designs need primes $>M^A$.
+  * *Rigidity.* Angle models are genuine on every complete initial segment of split primes (`round21/fakes.md`
+    Thm C; proved; covering checked exactly for all split $p\le2477$). Models with $\varphi_j=\arg\beta_j$,
+    $\mathrm{Norm}\,\beta_j\le p_j$ are actual clusters (Lemma T).
+  * *Open (Q).* For barrier-scale window profiles, do non-arithmetic gap-admissible points survive on realisation
+    cosets as $\Lambda=\sum p_j^{-1/2}\to\infty$? "Yes" caps only class $A_0$ and the row-3 profile inputs. "No" makes
+    $A_0$ lossless in the window, which is not growth (judge J2, **unrefereed**). Pinned profiles ($m=0$), which include
+    the 7- and 10-point records, are untouched by every measure argument.
+  * *Below the window* (restricted): $P_+(N')=o(\log R)\Rightarrow M=o(\log R/\log\log R)$ (`round21/prove.md` Cor 2.2;
+    proved). Near-extremal clusters have $P_+(N')\ge c_\varepsilon M\log M$.
 * **Full Lang–Waldschmidt with $\varepsilon\to0$** used simultaneously (`round8/README.md` §2.5).
 * **QS$^{\rm prod}$** (§6.7) and **H$^{\rm gen}$** (§6.1).
 * **abc on auxiliary pencils of $\overline M_{0,8}$** (round 18; unit-pencil part **closed by proof in round 19**; non-unit part not capped; a genuine gap in the
@@ -899,7 +1042,7 @@ $M=o(\log R/\log\log R)$; the status of that barrier, refereed or not, is stated
 and the judges ended the route); **open** (neither proved, refuted nor capped). The table first, then the
 details.
 
-| route | what it would give | missing statement | status | judge's estimate (round 17 §7.2; the $(L_8)$ and abc-pencil rows: round 18 §7.2) |
+| route | what it would give | missing statement | status | judge's estimate (round 17 §7.2; the $(L_8)$ and abc-pencil rows: round 18 §7.2; round-20 rows: `round20/README.md` §7) |
 |---|---|---|---|---|
 | Route 1 (pairs with uniform margins) | growth | L1 (uniform margins) and L2 ($H_1$ for actual clusters) | open; pair-cut certificates alone capped | — |
 | Route 3 (H$^{\rm gen}$ + L1) | $W\gtrsim M\log^2M/\log\log M$ | H$^{\rm gen}$ (Poisson tails for genuine pair integers) and L1 | **open**, no method; the label-only part (L4) is refuted / fake-satisfied | $<0.1\%$ |
@@ -908,7 +1051,11 @@ details.
 | $(L_7)$ | uniform bound | $(L_7)$ | **open**; predicted **false** | proof $\sim0$; refutation plausible |
 | $(L_8)$ | uniform bound | $(L_8)$ | **open**; predicted true by Vojta; no feasible computational test (census Thm E); no concrete $Z$ (`round18/README.md` §3) | proof $<0.1\%$ (lowered from $<1\%$); refutation $\sim0$ |
 | abc + auxiliary pencil (round 18) | $(L_8^{pc})$ under abc; uniform under abc only with an unproved nested-chain extension | a unit pencil on $\overline M_{0,8}$ with $K^{\log}_{\rm rel}\cdot\beta<10$ (gain $>0$) | **unit pencils: closed by proof** (no unit pencil or composite $h(A/C)$ has gain $>0$; `round19/theory.md` Thm 3.3, Cor 3.4, refereed; exact gain $\le-32$ for $D\le6$, `round19/search.md`); non-unit pencils: open, no proved implication (§5.5) | unit pencils: $0$; non-unit residue: abc-conditional uniform theorem in one round well below $1\%$; unconditional growth $0$ (`round19/README.md` §6) |
-| QS$^{\rm prod}$ | growth or uniform | QS$^{\rm prod}$ | **open**, non-standard, at least as strong as the target | $\sim0$ |
+| $(L_5^\circ)$ / $A_5(\delta<1/30)$ (round 20, gauss) | uniform bound (`round20/gauss.md` Thm 3.4′; proved, killer-checked) | $(L_5^\circ)$ (§4.3, §7.1A) | **open**; Liouville-tight for every recorded method by invariance (killer Lemma K1, §5.4 row 20); fake-violated; predicted by $V_E(5)$ only; $k\le4$ refuted (proved) | proof $<0.5\%$ (jointly with $(L_8)$); refutation $\sim1\%$, which would refute $V_E(5)$ and not count as progress |
+| Genus-0 Arakelov theory (round 20, arakelov) | growth | "global coherence"; its precise form is $(L_8)$/Vojta | **killed**: reduces to §5.4 rows 2, 8, Lim (row 18); residual statement at least as strong as the target (killer-checked) | not a lead |
+| Composite-supported analytic inputs (round 20, composite) | growth | a non-robust composite input that is fake-violated and weaker than the problem | robust part **capped** (§5.4 row 17, killer-checked); non-robust part unclassified, four sub-items (§5.5); with multiplicativity/additivity used in full they are the problem itself (Prop 3.1) | map items, not leads |
+| Unlikely intersections in tori (round 20, wild) | growth | $(S_{\\min})$ | **killed**: fixed carriers vacuous, line comparisons false, subgroup ceiling $\\omega(N')$ (§5.4 row 19); $(S_{\\min})$ false for every $n$ (killer-checked) | not a lead |
+| QS$^{\\rm prod}$ | growth or uniform | QS$^{\\rm prod}$ | **open**, non-standard, at least as strong as the target | $\sim0$ |
 | QS (round 8) | growth | $QS(m,\delta,o(s),H_0)$ | **capped** by lit18 Props A, B (**unrefereed**: proved in `lit18/check_tools.md` §2.2 and re-derived by the lit18 judge); $QS(m\le3)$ refuted (refereed) | — |
 
 ### 6.1 Route 3: genuine-prime statistics (H$^{\rm gen}$ + L1)
@@ -1169,6 +1316,14 @@ internal rounds on growth and uniformity and putting $(L_8)$, in the lattice for
 together with the abc-gain question, before experts (`round18/README.md` §7.3). *Round 19*: the unit-pencil abc lane is
 closed by proof (no unit pencil has positive gain; **proved, refereed**, `round19/theory.md` Thm 3.3), and the
 stop rule fires on exact data ($D\le6$); see §7.1 and `round19/README.md`.
+*Round 20* (`round20/README.md` §§1.1–1.2, 5, 7). Two lenses ended at $(L_8)$-type statements. The
+arakelov lens's precise residual ("equivalently $(L_8)$, or Vojta $D=0$ on $\mathrm{Bl}_YX_7$/$\overline M_{0,8}$")
+implies the uniform theorem, so it is at least as strong as the target (`round20/kill_arakelov.md`;
+killer-checked). The gauss lens produced a sibling of $(L_8)$ on a smaller variety, $(L_5^\circ)$ with
+$V_E(5)$ on a 4-fold (§4.3, §7.1A), with the same standing: open, Liouville-tight for every recorded method
+(killer Lemma K1), predicted only by Vojta. The round-20 judge's estimate for a proof of $(L_5^\circ)$ or
+$(L_8)$ in a further internal round: **$<0.5\%$**; for a refutation of $(L_5^\circ)$: $\sim1\%$, not counted as
+progress (`round20/README.md` §7).
 
 ### 6.7 The Subspace route: QS (capped) and QS$^{\rm prod}$ (open)
 
@@ -1203,6 +1358,8 @@ $s\sim5\cdot10^3$. **Do not spend proof effort on it**; a refutation attempt is 
 | $\mathrm{SLW}_w^{\log}(\theta,g,\kappa)$, $k_0\ge6$, $\theta<1/\log5.5$, $g<1/4$ | $M=O((\log R)^{1-\eta})$ | new, open | same |
 | rank of exponent lattice $\le\theta\log W'$, $\theta<1/\log5.5$ (resp. bounded) | $M=O((\log R)^{1-\eta})$ (resp. uniform; converse holds) | open; fakes have full rank | `round8/weakest.md` Thm 1.3 |
 | one instance $V(m_0,\varepsilon)$, $m_0\ge7$, $\varepsilon<(m_0-6)/2$ | uniform | standard (Vojta), open | `round8/weakest.md` Prop 6.1, threshold corrected by referee |
+| $A_k(\delta)$, $k\ge3$, $\delta<1/(2^k-2)$; or $(L_k^\circ)$ (§4.3) | uniform | open for $k\ge5$ (Liouville-tight by Lemma K1); **false** for $k=3,4$ (proved, killer-checked) | `round20/gauss.md` Thms 3.4′, 4.1; `round20/kill_gauss.md` |
+| one instance $V_E(5,\varepsilon)$: Vojta for $(\mathrm{Bl}_e\overline L{}^{\rm tw}_5,D=E,S=\{\infty\})$, $\varepsilon<(1/32)/c_A$ | uniform (via $A_5(1/64)$) | standard (Vojta), open; non-vacuous, $(K+D_{PQ})\cdot\hat\gamma=1/16$ | `round20/gauss.md` Thm 4.2 (conditional, killer-checked) |
 | Lang–Waldschmidt two-logarithm bound with naive heights over $\mathbb Q(i)$ | fully flipped Hadamard phase lemma when flipped mass $\le(1/2-\delta)W$ | a Lang–Waldschmidt-type conjecture, open | `round4/flipped.md` Thm L |
 
 ## 7. Open problems for experts
@@ -1418,6 +1575,55 @@ So Prop 2.6 never applies: **the unit-pencil abc lane is closed by proof**. **Ex
 **Open, with no proved implication:** non-unit pencils with base locus in codimension-2 boundary strata (would need an unproved gcd extension of Prop 2.6 and a pencil meeting proved necessary conditions; none known; `round19/referee_theory.md` m2).
 **Unchanged:** $(L_8)$ open; uniform theorem conditional on Vojta; $M\le(2/3+\varepsilon)\log R/\log\log R$. The judge recommends stopping internal rounds (`round19/README.md` §6).
 
+### 7.1A $(L_5^\circ)$ and $V_E(5)$: a second self-contained Diophantine formulation (round 20)
+
+*Source:* `round20/README.md` §7 (the round-20 judge's single most promising next step), `round20/gauss.md`
+§§3–4, `round20/kill_gauss.md` §6.1. Killer-checked, not separately refereed. It sits next to $(L_8)$ as the
+second self-contained Diophantine formulation, and is proposed as an addition to the expert package of
+`round19/README.md` §6.
+
+> **Question $(L_5^\circ)$ (open).** Let $T_5$ be the norm-one torus of similarity classes of 5-tuples on
+> circles (§4.3). Are there $c>0$, $\eta_0>0$ and a proper Zariski-closed $Z\subset T_5$ such that no five
+> primitive lattice points of a circle of radius $R$, **within one Gaussian unit class**, with
+> $\eta_0$-balanced Gaussian profile over all 15 cuts and class outside $Z$, lie within $R^{7/15+c}$ of
+> each other once $R$ is large?
+
+(This is the arc form stated in `round20/README.md` §7. The residue form of §4.3, $H_\Sigma\ge cw$ off $Z$
+for balanced primitive 5-tuples, follows from it by the argument of `round20/gauss.md` Prop 3.1; the converse
+is not proved. Either form gives the uniform theorem.)
+
+**What is known.**
+* A yes gives the uniform theorem (`round20/gauss.md` Thm 3.4′; **proved**, killer-checked; Theorem 4.4).
+* Vojta for $(\mathrm{Bl}_e\overline L{}^{\rm tw}_5,D=E,S=\{\infty\})$, a 4-fold, predicts yes (Thm 4.2;
+  **conditional**; Theorem 4.6). The instance is non-vacuous, $(K+D_{PQ})\cdot\hat\gamma=1/16$.
+* **The 4-point analogue is false** (`round20/gauss.md` Thm 4.1; **proved**, exact rank reproduced; Theorem
+  4.5): an explicit dense rational 2-parameter family of Gaussian linear blocks gives balanced
+  bounded-residue 4-tuples at exponent $3/7$. The 3-point analogue is false too (killer's projection
+  corollary). So $k=5$ is the first possible case, and the instance is sharp in $k$.
+* **Every method in the record is exactly critical on it** (killer Lemma K1; **proved**, killer-checked;
+  §5.4 row 20): gcd normalisation is invisible to forced divisibility, Liouville, pair, cut, character and
+  single-form inequalities, so the exponent $7/15<1/2$ is a change of units, not a gain. The target $e$ is a
+  **rational** point of a 4-fold, so this is approximation beyond Liouville at a rational point, the
+  McKinnon–Roth regime, where Roth, Schmidt and Ru–Vojta give nothing. Fakes violate it.
+* No bounded-degree covering family of curves with infinitely many $A$-points exists for $k\ge5$
+  (`round20/gauss.md` Thm 4.3(ii); **proved**). The density mechanism is excluded at $k=5$ only
+  **heuristically**; the killer's expected-dimension count $D(2-(k-1)(1-e))+k-3\ge k-2$ says one-variable
+  polynomial families cannot be dense at $k=5$ (**heuristic**).
+
+**Comparison with $(L_8)$** (`round20/README.md` §§5, 7). $(L_5^\circ)$ is smaller (a 4-fold, 5 points
+against a 5-fold and 8 points), needs an archimedean divisor ($D=E$ rather than $D=0$), and has a much
+thinner heuristic margin ($\kappa=2\delta\approx1/15$ against $K\cdot\beta=10$). Neither is known to imply
+the other. The expertise needed is the same: Vojta for blow-ups of toric varieties at a rational point,
+and McKinnon's conjecture on best approximations.
+
+**Status and estimates** (`round20/README.md` §7; judge's estimates). Open, Liouville-tight by
+invariance, fake-violated, Vojta-predicted, with no method in either direction. A proof of $(L_5^\circ)$ or
+$(L_8)$ in a further internal round: $<0.5\%$. A refutation of $(L_5^\circ)$ (which would refute $V_E(5)$):
+$\sim1\%$, and it would not count as progress. The only internal task suggested (and not recommended) is a
+refutation search for a 2-parameter rational family of balanced 5-tuples at exponent $\ge7/15$ in the shape
+of Thm 4.1's Gaussian linear blocks; it is predicted to fail, and the $N\le10^{12}$ scan cannot test it
+(balanced 5-tuples need $\ge4$ split primes; predicted count $e^{-w}$ per scale; **heuristic**).
+
 ### 7.2 The route-5 box inequality: MIN$^{\rm pair}$ / $(R_H)$, and its fake test
 
 *Source:* `round12/README.md` §§1, 2.3; `round16/README.md` §§0, 5.1; `round17/README.md` §§1–3.
@@ -1499,7 +1705,10 @@ answer is new: (T$'$) would be the first local growth mechanism; C1 would cap th
   equivalent to the uniform theorem.
 * **$\beta_M>2$?** Closed negatively: $\beta_M\le\tau^*(M)<2$ (§5.4 row 8).
 * **QS$^{\rm prod}$** (§6.7): refute it for $m=2$, $\delta,c\to1/2$ (cheap; decisive in one direction).
-* **The low-height window** $P_+(N)<M^{2-\delta}$: no fakes are known; is there one?
+* **The low-height window** $P_+(N')\le M^{2-\delta}$: no fakes are known; is there one? Round 21 reduced the
+  $A_0$ part to question (Q) of §5.5, and showed that neither answer gives growth. The most tractable decisive item
+  is to extend `round21/fakes.md` Prop A′ (positivity on the full torus up to $\Lambda\sim\frac14\log P$) to
+  realisation cosets. That would cap the window for $A_0$, which is map value only (`round21/README.md` §7).
 
 ### 7.6 What any successful argument must avoid (`round17/README.md` §7.1)
 
@@ -1531,10 +1740,20 @@ theorem, and item 7 is a judge's assessment.
    per member, class-$\beta_7$ lifts; **proved**, read with correction M1); no computational test (Thm E,
    **proved**); and the only uncovered conditional mechanism, abc on auxiliary pencils, stops at
    $(L_8^{pc})$, with a genuine gcd excess on nested chains (J2, **unrefereed**).
+10. Added by round 20 (`round20/README.md` §3; killer-checked): **no gcd/normalisation trick.** Dividing a
+    sub-tuple by its Gaussian gcd changes no forced-divisibility, Liouville, pair, cut, character or
+    single-form inequality (killer Lemma K1, `round20/kill_gauss.md` §6.1; **proved**; §5.4 row 20). A
+    "subcritical exponent in the reduced radius" is not a gain unless the method sees the absolute size of
+    $N''$ (Vojta's $D=E$ term does; nothing proved does).
+11. Added by round 20 (`round20/README.md` §3; killer-checked): **no genus-0 arithmetic intersection theory
+    and no unlikely-intersection theorem on fixed carriers.** These reduce to pairs (row 2), $\tau^*$ (row 8)
+    or rank (the $\omega(N')$ ceiling) (§5.4 rows 18–19; `round20/kill_arakelov.md`, `round20/kill_wild.md`).
+    Likewise robust composite-supported analytic inputs are capped (§5.4 row 17; **proved**,
+    killer-checked); the non-robust ones remain unclassified (§5.5).
 
 The judge's conclusion: a genuinely new mechanism must be **global, multi-place, and tied to the actual
 arithmetic of $N$**. The only known statements of that type are Vojta-type inequalities, and their sharpest
-arithmetic form in the record is $(L_8)$.
+arithmetic forms in the record are $(L_8)$ and, since round 20, $(L_5^\circ)$ (§7.1A; `round20/README.md` §5).
 
 ## 8. Index of files and referee corrections
 
@@ -1594,6 +1813,16 @@ the referee-corrected statements and are the authoritative summaries.
 | round 18: lift Thm 4.2, Cor 4.3 (class $\beta_7$ only) | proved | `round18/lift.md`; `round18/referee_lift.md` §8 |
 | round 18: J1 (constants), J2 (nested-chain gcd excess) | **unrefereed** | `round18/judge_checks/j1_out.txt`, `j2_out.txt`; `round18/README.md` §5 |
 | literature verdicts | sweep with checks | `lit18/README.md`, `lit18/direct.md`, `lit18/tools.md`, `lit18/primes.md` |
+| round 20 (gauss): $A_k(\delta)\Rightarrow(L_k^\circ)\Rightarrow$ uniform (Thms 3.4, 3.4′, Prop 3.1; one unit class); $A_4$, $(L_4^\circ)$, $A_3$, $(L_3^\circ)$ false (Thm 4.1 + projection corollary); Thm 4.3(ii) | proved, killer-checked | `round20/gauss.md`; `round20/kill_gauss.md`, `round20/kill_gauss_checks/k3_projection.py` |
+| round 20 (gauss): $V_E(5)\Rightarrow$ uniform (Thm 4.2) | conditional (Vojta, $D=E$), killer-checked | `round20/gauss.md` §4.2 |
+| round 20: killer Lemma K1 (gcd normalisation invisible; §5.4 row 20) | proved, killer-checked | `round20/kill_gauss.md` §6.1 |
+| round 20 (arakelov): dictionary Thm A; Thm B; Prop B.2 (repaired); Prop 3.3(b); Thm C (§5.4 row 18) | exact / proved, killer-checked | `round20/arakelov.md`; `round20/kill_arakelov.md` |
+| round 20 (composite): Lemmas 1.2–1.4, Prop 1.5, Thms M, P, Prop 3.1; cap with constant per F1 (§5.4 row 17) | proved, killer-checked | `round20/composite.md`; `round20/kill_composite.md` §8 |
+| round 20 (wild): Thm 6.2, Lemma 6.3, Props 6.4, 6.6, 6.8; $(S_{\min})$ false (Props K.1, K.2) (§5.4 row 19) | proved, killer-checked; Rémond-cone ceiling heuristic | `round20/wild.md`; `round20/kill_wild.md` |
+| round 20: J1 swap extension (§5.4 row 17′); J2 re-check of Prop K.1 | **unrefereed** / exact | `round20/README.md` §4; `round20/judge_checks/` |
+| round 21 (prove): Thm 2.1, Cors 2.2–2.3 (restricted growth below the window); Lemma 3.2; Prop 4.2, Cor 4.3 (unpinned only); Props 5.2–5.3, Cor 5.4 (conditional); Props 6.1–6.2, 8.1 | proved / conditional, refereed | `round21/prove.md`; `round21/referee_prove.md` §9 |
+| round 21 (fakes): Thm A, Cors A.1–A.2, Prop A′ (full torus), Prop B, Thm C, Cor C, Lemma T, Cor T, Thm LS | proved, refereed (Thm C covering exact to $p\le2477$) | `round21/fakes.md`; `round21/referee_fakes.md` §11 |
+| round 21: J1 (equal-weight window counting), J2 ((Q) gives no growth), J3 (records have $m\le2$) | **unrefereed** / exact | `round21/README.md` §4; `round21/judge_checks/` |
 
 ### 8.2 Corrections the referees made to earlier claims
 
@@ -1703,6 +1932,42 @@ only (G); chain $=$ caterpillar only at primes dividing no residue (H). `round18
 $E_t$ mechanism does not lift" holds only for class $\beta_7$. `growth/ptolemy.md` §1: the number of
 visible blocks is $2^m-m-2$, not $2^m-m-1$. `round17/README.md` §7.3's expectation of an explicit
 candidate $Z$ from a census is recorded as a finding, not an error.
+
+**Round 20** (killer corrections; `round20/README.md` §1, `round20/kill_*.md`). *gauss:* the headline
+"subcritical exponent" withdrawn (killer Lemma K1: a change of units); $t_{ab}$ is an integer only within one
+Gaussian unit class (minor 1); "$(L_5^\circ)$ equivalently $A_5$" withdrawn (only $A_5\Rightarrow(L_5^\circ)$);
+Thm 4.3(i) narrowed to genus 0 with a real algebraic approached point; the density mechanism is excluded at
+$k=5$ only heuristically; the $\varphi$-test of §2.1 carries no weight; the ratio range of Thm 4.1 is
+$[8.31,142.28]$, not $[8.3,43.4]$; the model and the 6-point pointer are in `threshold/L8.md` §6.1.
+*arakelov:* the residual "global coherence" statement is at least as strong as the target; Prop B.2 omitted the
+2-adic place (repaired with the `round5/lower.md` witnesses at $(48+o(1))M\log M$, valid for $X\ge2M$); the
+§4.3 totals are 29 pairs (expected 25.67) and 1 triple, not 28/25.5. *composite:* "composite support adds no
+separating power" and "the only non-robust leftover is the sharp primitive large sieve" withdrawn (F2: with
+multiplicativity the sharp sieve is product-scale; F3: smoothed sharp-angle sector counts were missed; F4:
+smooth Hecke sums without complete additivity are not shown to collapse); the cap constant corrected (F1); the
+§5 "needed statement" is mis-specified. *wild:* $(S_{\min})$ is false for every $n$ (Props K.1, K.2), contrary
+to the write-up; Prop 6.4(iii) is an upper bound only; Cor 6.9 overclaimed for Rémond cones (heuristic only).
+
+**Round 21** (referee corrections; `round21/README.md` §1, `round21/referee_*.md`). *prove:*
+* "The short-arc condition never forces concentration" holds only for unpinned profiles (rank $B\le s-2$) and
+  against the realisation condition alone. For pinned profiles concentration is forced below a profile-dependent
+  threshold, and the comparison in Remark 4.4 is not an implication.
+* "Theorem B extends into the window" holds only for $\gamma>1/(1+\eta)$ and primes $\ge M^{1+\eta}$; GRH-quality
+  inputs are not covered.
+* Remark 2.4 ("counting provably cannot pass exponent 1") is a heuristic.
+* Prop 6.1(4) applies $s>M/5$ to $A_0$ fakes without a proved transfer.
+* "All refereed fakes have $\sum p^{-1/2}\le1/32$" is false; the correct bound is $0.22$.
+* The graft error is $M^{-\eta/4}(\log M)^{1/4}$.
+* The best $C_k$ per decade is not monotone, and no record cluster lies in the window for any $\delta>0$.
+
+*fakes:*
+* "The record's constructions provably fail in the window" is withdrawn: Thm A bounds a probability.
+* "The large sieve adds nothing" is withdrawn: the union sieve at the genuine constant is uncovered.
+* "(Q) yes caps the window" is narrowed to $A_0$ and row 3.
+* Transplants with some $\beta_j$ associate to an external prime violate the cross-gap.
+* All evidence is on the full torus with complete prime segments.
+* Two pieces of evidence were phrased as fact.
+* "Arithmetic" must mean $\mathrm{Norm}\,\beta_j\le p_j$.
 
 ---
 

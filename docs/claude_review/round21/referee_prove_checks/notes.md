@@ -1,0 +1,26 @@
+# Referee working notes
+- Thm 2.1: algebra ok. Item 3 needs strict 3logM>K'; Cor 2.2 M_1 uses >=; when C<=1 harmless (log^+C=0), when C>1 M_1 strict since 8log^+C>0. ok.
+- Cor 2.2: s>M/5 actually from proof (Prop 3.3(3) cites Cor 2.2 for s> M/5 -- Cor 2.2 states pi(Y), not s; minor).
+- Lemma 3.1, 3.2 verified by hand. 16sqrt2 ok.
+- Prop 3.3 ok.
+- Lemma 4.1, Prop 4.2 ok. Cor 4.3 constants ok (1.4427^.5*32=38.44, *4=4.80; 40.4/pi=12.86; 39*sqrt1.26=43.8).
+- Cor 4.3 requires rank B <= s-2: NOT typical for actual clusters (Remark 4.4 says rank B = s typical when s<=M-1). F2 scope.
+- H-translation does NOT preserve gap admissibility -> spread points in Real(Delta) not spread points in Real cap Gaps.
+- Prop 5.2 ok algebra. (ii) for fake follows from gaps at e_i +- e_j (sep (p_i p_j)^-1/2 >= 1/P).
+- Prop 6.1 algebra ok. Item 4 uses s>M/5 from Cor 2.2 -- derived from (I2) for ACTUAL clusters; does (I2) hold for angle models? CHECK stability.md Thm 3.3 inputs.
+- F1 scope: large sieve applied to set of monomial angles <v,theta> (not just prime angles) -- Lemma 3.2 applies but arc counts then = monomial gap data. "large sieve plays no part" is about LS on prime angle set only.
+- Thm 2.1 items 1-2 = stability.md Thm 3.3(3) + s<=pi(Y;4,1) verbatim; Prop 3.4 (C<=1) already gives omega>(M/2)(1-M^-1/3)^2 => M<~2pi(Y). Novelty minimal; not error.
+- stability Prop 7.1 transfers Thm 3.3 to fakes only in A_1^>(Q_0) (needs residue pigeonhole). Prop 6.1(4) applies Cor 2.2 (actual clusters) to window FAKES in A_0 -> transfer not proved. Fakes with s=o(M) not excluded by write-up.
+- Prop 6.1(4) "all refereed fakes have sum p^-1/2 <= 1/32": FALSE for construct.md Thm 2 (r=9M-8 primes, P>=21 r^2 -> sum up to 1/sqrt21=0.218). Minor.
+- Table line 23: graft LS factor is (1+t^1/2)^2 = 1+O(M^-eta/4 (logM)^1/4), not 1+O(M^-eta/2 (logM)^1/2). Minor.
+- §7.1 "best C_k per decade increases beyond 1e9": own table not monotone (k=11: 16.17@1e9 > 16.14@1e12; k=10 11.68@1e12<12.97@1e11 etc). Wording.
+- §7.2 record clusters all have P_+ > k^2: NOT in the window for any delta>0. "populated window" only at delta=0 and only due to B cutoff for k>=11.
+- Prop 8.1(2): s=O(M) automatic from W<=kappa M log M and primes>=M^(1+eta). ok.
+- Independent scan rscan.c reproduces counts 40,715,511 / 4,656,319 and table rows 1e6,1e8..1e14 exactly (k=7..11 all & P<=k^2). P<=k^1.75 column added (delta=1/4).
+- records.py reproduces §7.2 table exactly; pairs check 10/10 and 1/15 (5,37) ok.
+- gaps.py reproduces #v and E for 5 rows; MC P_good agrees (8-prime row: 1.19e-5 vs write-up direct 2.0e-5 +-0.7 in log; SMC -11.26 vs mine -11.34).
+- Lemma 3.1 brute force worst ratio 0.978; Lemma 3.2 eigen check 0 violations; constants ok.
+- MAJOR scope: Prop 5.3 needs gamma>1/(1+eta)>1/2 -> square-root (GRH) prime sums and sqrt box counts NOT covered in window; F3 "window not special" overclaims.
+- MAJOR scope: F2 only unpinned (rank B<=s-2, pairwise indep). Pinned = typical; Remark 4.4 comparison is not an implication (D_j large per coordinate does not imply spread set). Real(Delta) spread points need not satisfy gaps (H does not preserve gaps).
+- Remark 2.4 labelled proved but is not a theorem (needs existence of objects with given prime sizes).
+- Sharp-constant LS (uncapped item in overview 5.5) not addressed: F1 is up to factor 23, Cor 4.3 factor 3.
