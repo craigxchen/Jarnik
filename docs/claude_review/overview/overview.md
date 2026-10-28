@@ -9,12 +9,15 @@
 > Barriers: most known inputs are capped at $\log R/\log\log R$, mainly by *fake circles* (genuine primes and profiles, real angles) at $W=O(M\log M)$.
 > One cap (the Subspace route QS) rests on unrefereed propositions; P3-all$^*$, H$^{\rm gen}$ and several analytic inputs remain uncapped.
 > Route 5 (determinant method) reduces growth to a box inequality whose decisive fake test is undecided; other routes stop at precisely stated open lemmas.
+> *Round 18* examined $(L_8)$ by census, lifting test and theory: it stays open, no feasible computation can test it (balanced data have minors $\ge10^{49}$), no concrete exceptional set exists in the record, and the $(L_5)$/$(L_6)$ refutation mechanisms provably fail at $k=8$ (proved, refereed; §6.6, §7.1).
+> Its one new conditional lane, abc on auxiliary pencils, stops at the pairwise-coprime case $(L_8^{pc})$; *round 19* closed its unit-pencil part by proof (no unit pencil has positive gain; proved, refereed), leaving only an unsupported non-unit residue (§5.5, §7.1).
 > §7 states the smallest open problems; every statement carries a status label and a file pointer, and §8.2 lists the referee corrections.
 
 *A consolidated account of a research program on the Cilleruelo–Granville conjecture, written for
 experts in Diophantine approximation and analytic number theory. Compiled 2026-10-28 from the
 review record in `docs/claude_review/` of the repository `craigxchen/Jarnik` and the research notes
-on the branch `agent/uniform-gcd-formalization`.*
+on the branch `agent/uniform-gcd-formalization`; updated through the round-18 judge's report
+(`round18/README.md`), and through the round-19 judge's report (`round19/README.md`).*
 
 **How to read this document.** Every statement below is the version a referee accepted. Where a
 referee corrected a statement, the corrected one is given and the correction is listed in §8.2.
@@ -46,7 +49,11 @@ note names (such as `inert_prime_cofactor_bound.md`) refer to `docs/` on the bra
 2. *Uniform bound.* It is open unconditionally. The only route from a standard conjecture is Vojta's
    Main Conjecture with $D=0$ for **one fixed variety**: the blow-up of the equal-norm variety $X_7$
    along its diagonal line, or $\overline{M}_{0,8}$ through an arithmetic lemma $(L_8)$ (§4;
-   **conditional**).
+   **conditional**). After round 18, $(L_8)$ is **open** with no method in either direction: no
+   feasible computation can test it (census Thm E, **proved**), it reduces to no weaker equivalent
+   (only a sandwich down to the pairwise-coprime case $(L_8^{pc})$, **proved**), and it holds only on
+   special loci with locus-dependent constants (**proved**); no concrete exceptional set is known
+   (§6.6, §7.1; `round18/README.md` §§0, 3).
 3. *Restricted results.* Pure Hadamard-core clusters are uniformly bounded. One split prime with
    bounded cotangent valuation forces $M=O(\sqrt{\log R})$. Any five lattice points have diameter
    $\ge 1.9433\,R^{2/5}$ (§3).
@@ -54,8 +61,17 @@ note names (such as `inert_prime_cofactor_bound.md`) refer to `docs/` on the bra
    circles*: angle models with genuine primes, a genuine exponent profile and real angles, which
    satisfy every inequality of the input class at $\log R=O(M\log M)$; a few caps are instead
    theorems on a variety, and one (the Subspace route QS) rests on unrefereed propositions (§5.4).
+   Round 18 found one genuine gap in the barrier map: abc applied to auxiliary pencils of
+   $\overline M_{0,8}$ is **not capped** (§5.5). A pencil with positive gain would give $(L_8^{pc})$
+   under abc (**conditional**; `round18/theory.md` Prop 2.6), but round 19 proved that no unit pencil
+   has positive gain (`round19/theory.md` Thm 3.3; **proved, refereed**); only non-unit pencils remain, with
+   no proved implication, and $(L_8^{pc})$ alone does not give the uniform theorem.
 5. *Routes.* Several routes were stopped at a precise missing statement (§6). The smallest
-   self-contained open problems are collected in §7.
+   self-contained open problems are collected in §7. The round-18 judge put the chance of a proof of
+   $(L_8)$ in a further internal round at $<0.1\%$ and recommended taking $(L_8)$, in its lattice form,
+   and the abc-gain question to outside experts (`round18/README.md` §7.3). *Round 19*: the
+   unit-pencil abc lane is closed by proof (**proved, refereed**; `round19/theory.md` Thm 3.3), growth and
+   uniformity are unchanged, and the judge recommends stopping internal rounds (`round19/README.md`; §7.1).
 
 ---
 
@@ -654,7 +670,10 @@ integers and no circle. It is stated precisely in §7.1.
   proper closed set, balanced anchored configurations with $\eta\to0$, $w\to\infty$, $Y_j=\pm1$ and bounded
   residues. (The original `growth/ptolemy.md` claim of this was over-scoped; see §8.2.)
 * $(L_7)$ is **open**; heuristics predict it is false (§6.5).
-* $(L_8)$ is **open**.
+* $(L_8)$ is **open**. Round 18 proved that no feasible computation can test it, that it holds on special
+  loci only with locus-dependent constants, that $(L_7)\Rightarrow(L_8)$, and that the $(L_5)$/$(L_6)$
+  refutation mechanisms fail at $k=8$; no concrete exceptional set is known (§7.1 items 1–8;
+  `round18/README.md` §§0–3).
 * **No auxiliary-polynomial (Liouville) argument proves $(L_k)$ for any $k$**, nor any $H_\Sigma\ge f(w)$ with
   $f\to\infty$ (`threshold/L8.md` Thm A, in the precise form of `threshold/referee_L8.md` §2.3): the balanced class
   lies in the interior of the movable cone of $\overline M_{0,k}$ (Keel–McKernan).
@@ -822,7 +841,7 @@ carries a **kind** and a **status**:
 | 12 | $\mathrm{LW}_{\max}(\varepsilon,C_0)$ at a **fixed** $\varepsilon$, $0<\varepsilon\le1$, $0<C_0\le1$, for all forms whose list contains $\mathrm{Log}\,i$, simultaneously; Paley orders $M=q+1\ge M_2(\varepsilon,C_0)$ | skew double core | proved: $(\max(8,4/\varepsilon)+o(1))M\log M+8M\log(1/C_0)$; the referee's refinement lowers $4/\varepsilon$ to $2/\varepsilon+o(1)$ | union bound over representations | F; proved, refereed (max form only); the constant degrades as $\varepsilon\to0$ | `round8/lw.md` Thm C; `round8/README.md` §1.1, §2.2 row 7 |
 | 13 | **Subspace route QS** (round 8): $QS(m,\delta,f,H_0)$ with any threshold $H_0(s)$ depending on the prime set only through $s=\lvert P\rvert$ | smooth $S$-integers in small squares (Prop A); $s$ Gaussian primes in an octant square (Prop B) | — | Prop A forces $f(s)\ge\exp(s^{1/2-o(1)})$; Prop B forces $\ge s-m+1$ subspaces, so the route gives at best $M\le\omega(N')$, which can be $(2+o(1))\log R/\log\log R$ | **unrefereed**: Props A, B are proved in `lit18/check_tools.md` §2.2, recounted by a checker (A) and re-derived by the lit18 judge (B), but not refereed | `lit18/README.md` §2.2 ("unrefereed; not leads") |
 | 14 | S-unit counts, Subspace with known $S$-dependence, gcd theorems for fixed $S$ | — | — | counts exponential in $s$; exceptional sets depend on $S$ | Lim; remarks in refereed write-ups and in the literature sweep | `round8/weakest.md` §5, `round8/stability.md` Prop 8.2; `lit18/README.md` §1.2 |
-| 15 | abc, Bombieri–Lang | — | — | abc is vacuous on squarefree block relations (all fakes are squarefree); for Bombieri–Lang the auxiliary varieties are rational, and the record found nothing usable ("nothing found", not a proof of no implication; §4.1) | V/vacuity; abc vacuity proved, refereed | `round8/weakest.md` Props 4.1–4.2, 6.2; `growth/referee_conditional.md` minor item 4 |
+| 15 | abc, Bombieri–Lang | — | — | abc is vacuous on squarefree block relations (all fakes are squarefree); for Bombieri–Lang the auxiliary varieties are rational, and the record found nothing usable ("nothing found", not a proof of no implication; §4.1). The cap does not cover abc on auxiliary pencils of $\overline M_{0,8}$ (round 18; §5.5) | V/vacuity; abc vacuity proved, refereed | `round8/weakest.md` Props 4.1–4.2, 6.2; `growth/referee_conditional.md` minor item 4 |
 | 16 | **Interpolation determinants and point-counting on one circle**: Bombieri–Pila, Heath-Brown, Salberger determinants; gap principles, larger-sieve variants, Stepanov's method; also sums, Sidon sets, the $\sigma$-cocycle, the $\mathbb F_q$ polynomial method | — | — | on one circle the interpolation determinants factor as a Vandermonde times a symmetric factor with no extra arithmetic, so these arguments reduce to pair data and give nothing beyond $O(\log R/\log\log R)$ | Red; `growth/auxiliary.md` is **unrefereed** (no referee report); the additive-tools reduction is refereed | `growth/auxiliary.md`; `growth/README.md`; `round10/additive.md` §5 and §6 table |
 
 **Refuted hypotheses** (not caps, but closed): $\mathrm{SLW}(k,g,\kappa)$ with union heights is false
@@ -860,6 +879,18 @@ $p_j\le M^{h_0}$, $X=3M^A$ and $A$ is chosen after $c_0$ (`round9/README.md` §0
   $P\gtrsim r^2\log r$ (`round10/README.md` §3).
 * **Full Lang–Waldschmidt with $\varepsilon\to0$** used simultaneously (`round8/README.md` §2.5).
 * **QS$^{\rm prod}$** (§6.7) and **H$^{\rm gen}$** (§6.1).
+* **abc on auxiliary pencils of $\overline M_{0,8}$** (round 18; unit-pencil part **closed by proof in round 19**; non-unit part not capped; a genuine gap in the
+  barrier map, refereed). The refereed abc barrier (`growth/conditional.md` Prop 8.3,
+  `round8/weakest.md` Prop 4.2) covers only relations among products of differences, and `threshold/L8.md`
+  Thm A covers only Liouville arguments; neither covers abc applied to a unit pencil $\lambda A/C$ with
+  high-multiplicity fibres. Such a pencil with $\mathrm{gain}=10-K^{\log}_{\rm rel}\cdot\beta>0$ would give
+  $(L_8^{pc})$ under abc (`round18/theory.md` Prop 2.6; **conditional**, implication proved;
+  `round18/referee_theory.md` §2.6, §5 item 6). The gap is closed for morphisms (gain $\le-32$, Bruno–Mella,
+  read from the abstract only) and for low-degree pencils (**exact**: $\lambda=\pm1$, $D\le4$, 277,940
+  pencils; all special rational $\lambda$, $D\le3$, referee; maximum gain $-32$). $D=4$ with $\lambda\ne\pm1$
+  and $D\ge5$ were untested in round 18 (referee item F, §7.1 item 6). **Round 19 closed the unit-pencil part by proof:** every unit pencil, of any $D$ and any $\lambda$, and every composite $h(A/C)$ has gain $\le-1$ (`round19/theory.md` Thm 3.3, Cor 3.4; **proved, refereed**), and gain $\le-32$ holds exactly for $D\le6$ (`round19/search.md`, refereed). What stays open is non-unit pencils with base locus in codimension-2 boundary strata, which need an unproved gcd extension of Prop 2.6 and a pencil meeting proved necessary conditions; none is known (`round19/referee_theory.md` m2). Even if that opens, it yields $(L_8^{pc})$, not
+  $(L_8)$; the extension to nested chains meets a genuine gcd excess (`round18/README.md` §3.3, §4, J2;
+  **unrefereed**). It is fake-blind and cannot give unconditional growth.
 
 ## 6. Routes tried, and where each stops
 
@@ -868,14 +899,15 @@ $M=o(\log R/\log\log R)$; the status of that barrier, refereed or not, is stated
 and the judges ended the route); **open** (neither proved, refuted nor capped). The table first, then the
 details.
 
-| route | what it would give | missing statement | status | judge's estimate (round 17 §7.2) |
+| route | what it would give | missing statement | status | judge's estimate (round 17 §7.2; the $(L_8)$ and abc-pencil rows: round 18 §7.2) |
 |---|---|---|---|---|
 | Route 1 (pairs with uniform margins) | growth | L1 (uniform margins) and L2 ($H_1$ for actual clusters) | open; pair-cut certificates alone capped | — |
 | Route 3 (H$^{\rm gen}$ + L1) | $W\gtrsim M\log^2M/\log\log M$ | H$^{\rm gen}$ (Poisson tails for genuine pair integers) and L1 | **open**, no method; the label-only part (L4) is refuted / fake-satisfied | $<0.1\%$ |
 | Route 5 (determinant method at $T=1$) | $M=O(\log\log R)$ on all norms | MIN$^{\rm pair}$ (or its $L^2$ form $(R_H)$) | **stopped**: not capped, not unblocked; CIRCLE$(q)$ undecided | $\sim0$ for growth |
 | P3-all$^*$ (local class) | growth if a lower bound (T) is proved; a cap if a fake is built | (T) or a construction C1 | **open**, uncapped, no fake known in the regime that matters | — |
 | $(L_7)$ | uniform bound | $(L_7)$ | **open**; predicted **false** | proof $\sim0$; refutation plausible |
-| $(L_8)$ | uniform bound | $(L_8)$ | **open**; predicted true by Vojta | $<1\%$ |
+| $(L_8)$ | uniform bound | $(L_8)$ | **open**; predicted true by Vojta; no feasible computational test (census Thm E); no concrete $Z$ (`round18/README.md` §3) | proof $<0.1\%$ (lowered from $<1\%$); refutation $\sim0$ |
+| abc + auxiliary pencil (round 18) | $(L_8^{pc})$ under abc; uniform under abc only with an unproved nested-chain extension | a unit pencil on $\overline M_{0,8}$ with $K^{\log}_{\rm rel}\cdot\beta<10$ (gain $>0$) | **unit pencils: closed by proof** (no unit pencil or composite $h(A/C)$ has gain $>0$; `round19/theory.md` Thm 3.3, Cor 3.4, refereed; exact gain $\le-32$ for $D\le6$, `round19/search.md`); non-unit pencils: open, no proved implication (§5.5) | unit pencils: $0$; non-unit residue: abc-conditional uniform theorem in one round well below $1\%$; unconditional growth $0$ (`round19/README.md` §6) |
 | QS$^{\rm prod}$ | growth or uniform | QS$^{\rm prod}$ | **open**, non-standard, at least as strong as the target | $\sim0$ |
 | QS (round 8) | growth | $QS(m,\delta,o(s),H_0)$ | **capped** by lit18 Props A, B (**unrefereed**: proved in `lit18/check_tools.md` §2.2 and re-derived by the lit18 judge); $QS(m\le3)$ refuted (refereed) | — |
 
@@ -1104,9 +1136,39 @@ $n_An_Bn_C$ essentially squarefree; the gap appears only when all $\binom84=70$ 
 jointly); and Subspace / Ru–Vojta / Evertse ($S$ unbounded, exceptional sets depend on $S$; the $D=0$ form
 involves global heights $h_{D_T}$ summing contacts over unboundedly many primes, a GCD-type statement on an
 iterated blow-up of $\mathbb P^5$). The round-17 judge's estimate for a
-proof in a further round: **well below 1%**. Recommended first tasks (evidence only): a census of small-height
-balanced anchored 8-configurations to locate the exceptional set $Z$, and a lifting test for the
-$(L_6)$-refuting families $E_t$. The record contains no result on these tasks yet.
+proof in a further round was **well below 1%**; it recommended a census of small-height balanced anchored
+8-configurations to locate the exceptional set $Z$, and a lifting test for the $(L_6)$-refuting families
+$E_t$.
+
+*Round 18* (`round18/README.md` §§0–4, 7; details and verbatim referee corrections M1, B, F in §7.1
+items 1–8). Both tasks, and a theory write-up, were carried out and refereed. **Status after round 18:
+open, with no method in either direction and no concrete exceptional set $Z$.**
+* **No feasible test** (census Thm E; **proved**): balanced data need $\ge24$ primes, and at $\eta=0.1$ all 21
+  minors with $i,j\ge1$ are $\ge10^{49.4}$. The round-17 expectation that a census would produce "an
+  explicit candidate $Z$" is recorded as a finding, not an error: it produced none, and Thm E shows a
+  census cannot (`round18/README.md` §8).
+* **No weaker equivalent** (**proved**): $(L_8^c)^{\rm all}\Rightarrow(L_8)\Rightarrow(L_8^c)^{\rm cat}\Rightarrow(L_8^{pc})$,
+  with no implication reversed; every proof must cover the pairwise-coprime case $(L_8^{pc})$, where the
+  chain and residue hypotheses carry no information (census Prop 1.3; theory Prop 2.1, §1.3).
+* **The $(L_5)$/$(L_6)$ refutation mechanisms provably fail at $k=8$** (**proved**): density (theory
+  Prop 2.3), covering genus-$\le1$ families with infinitely many points per member (census Prop 7.5, read
+  with correction M1: a dense supply with finitely many points per member is **not** excluded), and
+  class-$\beta_7$ lifts of $E_t$ (lift Thm 4.2; classes $c\beta_7$, $c\ge2$, and point-level lifts are
+  open). A refutation of $(L_8)$ would also refute $V_8$, but not conversely (correction B).
+* **Restricted theorems only on special loci or for a fixed prime set**, with locus- or $S_0$-dependent
+  constants (census Prop 7.1, 7.4, 7.5(4); theory Thm 2.5; **proved**); none is a piece of Step 4.
+* **One conditional lane, not capped** (§5.5): abc plus a unit pencil of positive gain gives $(L_8^{pc})$
+  (theory Prop 2.6; **conditional**); no such pencil is known (all tested pencils have gain $\le-32$;
+  correction F), and $(L_8^{pc})$ does not give the uniform theorem without an unproved nested-chain
+  extension (`round18/README.md` §3.3, J2, **unrefereed**).
+
+The round-18 judge's estimate for a proof of $(L_8)$ in one further internal round: **$<0.1\%$** (lowered
+from $<1\%$, because round 18 removed the hope that $(L_8)$ reduces to something weaker); refutation $\sim0$;
+an explicit $Z$ $<2\%$ and worthless for growth (`round18/README.md` §7.2). The judge recommends stopping
+internal rounds on growth and uniformity and putting $(L_8)$, in the lattice form $(L_8^{pc})$ of §7.1 item 3,
+together with the abc-gain question, before experts (`round18/README.md` §7.3). *Round 19*: the unit-pencil abc lane is
+closed by proof (no unit pencil has positive gain; **proved, refereed**, `round19/theory.md` Thm 3.3), and the
+stop rule fires on exact data ($D\le6$); see §7.1 and `round19/README.md`.
 
 ### 6.7 The Subspace route: QS (capped) and QS$^{\rm prod}$ (open)
 
@@ -1150,7 +1212,8 @@ would give. Labels refer to §§4–6.
 
 ### 7.1 $(L_8)$: a statement about integer $2\times8$ matrices
 
-*Source:* `growth/ptolemy.md` §7, restated in `threshold/L8.md` §1 and `round17/README.md` §7.3.
+*Source:* `growth/ptolemy.md` §7, restated in `threshold/L8.md` §1, `round17/README.md` §7.3 and
+`round18/README.md` §1 (object re-checked against ptolemy §7 and Steps 0–5 by all three round-18 referees).
 
 **Data.** An integer matrix $P=(P_0\,|\,P_1\,|\cdots|\,P_7)\in\mathbb Z^{2\times8}$ with primitive columns,
 $P_0=(1,0)^T$ and $P_i=(X_i,Y_i)^T$, together with positive integers $n_T$ for the nonempty
@@ -1174,11 +1237,186 @@ first positive value. A proof would be an unconditional case of Vojta's conjectu
 5-dimensional rational variety, for a structured but unbounded family of points. The visible blocks are
 $2\le|T|\le6$; singletons and the top block $T=\{1,\dots,7\}$ enter no Plücker relation.
 
-**Smallest useful experiments** (evidence only, recommended by `round17/README.md` §7.3): enumerate
-balanced anchored 8-configurations exactly at increasing $w$, record $\min H_\Sigma$ and the locus where it
-stays bounded (the candidate $Z$; candidates are pull-backs of the $(L_6)$ genus-one families, forgetful and
-Kapranov curves); test whether the $(L_6)$-refuting families $E_t\subset\overline M_{0,6}$ lift to balanced
-8-point configurations with bounded residues.
+**Round-18 addendum: what the recommended experiments found** (`round18/README.md` §§0–3, §7.3).
+Round 17 recommended a census of small-height balanced anchored 8-configurations (to locate $Z$) and a
+lifting test for the $(L_6)$-refuting families $E_t$. Round 18 carried both out, together with a theory
+write-up; each was attacked by an adversarial referee. **Outcome: $(L_8)$ is open. It is neither proved nor
+refuted, no restricted version holds on a Zariski-dense set with uniform constants, and no concrete
+exceptional set $Z$ was found** (`round18/README.md` §0, §3.1–3.2). The results, in referee-corrected form:
+
+1. **No feasible census (census Thm E; proved).** Each prime divides at most $k-3$ visible blocks, so a
+   balanced datum needs at least $5,9,14,24$ primes at $k=5,\dots,8$. At $k=8$, $\eta=0.1$, the class is
+   empty for $e^w<59.2$, and the 21 minors $\det(P_i,P_j)$ with $i,j\ge1$ are $\ge10^{49.4}$ (at $\eta=1/2$:
+   $e^w\ge19.9$, minors $\ge10^{20.1}$). **No feasible search can test $(L_8)$.** Block-sampling lattice
+   searches return $H_\Sigma\asymp w$ even at $k=5,6$, where bounded-$H$ points are known to be abundant
+   (**exact**), so a search failure at $k=8$ says nothing (`round18/census.md` Thm E;
+   `round18/referee_census.md` §3, §8(ii); reproduced in `round18/judge_checks/j1_out.txt`, **unrefereed**).
+2. **A sandwich, not an equivalence (proved).** Write $(L_8^c)$ for the statement that balanced contact
+   profiles (all 119 contact integers $d_T$ with $|\log d_T-w|\le\eta w$) do not occur for large $w$ off $Z$;
+   $(L_8^c)^{\rm all}$ for it over all $\Phi$, $(L_8^c)^{\rm cat}$ over caterpillar profiles, $(L_8^f)$ for
+   $(L_8)$ with $c\,w$ replaced by any $f(w)\to\infty$, $f\le cw$, and $(L_8^{pc})$ for the pairwise-coprime
+   case. Then
+   $$(L_8^c)^{\rm all}\Rightarrow(L_8)\Rightarrow(L_8^f)\Rightarrow(L_8^c)^{\rm cat}\Rightarrow(L_8^{pc}).$$
+   The first implication holds with $\eta_0=\eta_1/2$, $c=\eta_1/4$; the converse direction holds only for
+   $\Phi$ admissible from anchor 0 (any anchor with symmetrised $Z$). The item-532 chain hypothesis is exactly
+   the caterpillar condition on the block system at each prime (**exact** on all 26/236/2752/39208 trees with
+   5–8 leaves), and it equals the $p$-adic tree of $\Phi$ only at primes dividing no residue. On
+   pairwise-coprime profiles, which every proof must cover, chains, anchoring and residues carry no
+   information. **None of these implications is shown to reverse**; no slowly-growing variant of $(L_8)$
+   avoids excluding dense caterpillar balanced points (`round18/census.md` Prop 1.3; `round18/theory.md`
+   Lemma 1.1, Prop 2.1, §1.3; `round18/referee_theory.md` §5 items 1–3, items A, G, H;
+   `round18/referee_census.md` m1, m2).
+3. **Lattice form of $(L_8^{pc})$ (proved; index checked by HNF on 80/80 configurations).**
+   $[\mathbb Z^7:\Lambda(x)]=\prod_{|T|\ge3}d_T^{|T|-1}$, and $\kappa=\sum(|T|-2)\ell_T-6\log|x|$ is the
+   finite part of $h_K$ (not $h_K$ itself). A balanced point is a vector of its own congruence lattice at
+   length $e^{31w}$, against the Minkowski scale $e^{49w}$ and the trivial bound $e^{30w}$. At positive
+   lattice density $\kappa\le-\sum\log e_T$, so density, box and sieve mechanisms (the $(L_5)$ mechanism)
+   cannot produce balanced points at $k=8$ (`round18/theory.md` Lemma 2.2, Prop 2.3, §5(2);
+   `round18/referee_theory.md` §5 item 4, item D). The sharpest open form (**open**; a strict consequence
+   of $(L_8)$, and it implies the uniform theorem only together with the chain cases, i.e. $(L_8)$ itself;
+   referee item G):
+
+   > **$(L_8^{pc})$, lattice form** (`round18/theory.md` §5(2)). There are $\eta_1>0$ and a proper closed
+   > $Z$ such that, for pairwise coprime integers $e_T\in[e^{(1-\eta_1)w},e^{(1+\eta_1)w}]$
+   > ($T\subseteq[7]$, $3\le|T|\le6$) and $w\ge w_1$, the lattice
+   > $\Lambda_e=\{y\in\mathbb Z^7: e_T\mid y_i-y_j\text{ for }i,j\in T\}$ has no primitive vector
+   > $y\notin\mathbb Z\cdot\mathbf 1$ with $[y]\in M_{0,8}\setminus Z$, $|y|\le e^{31w(1+\eta_1)}$, and pair
+   > cofactors $(y_i-y_j)/\prod_{T\supseteq\{i,j\}}e_T$ pairwise coprime of size $e^{w(1\pm\eta_1)}$.
+
+   Heuristic count: $98-108=-10=-K\cdot\beta$ (**heuristic**).
+4. **Loci on which $(L_8)$ holds, with locus-dependent constants (proved).** (i) Every subvariety missing
+   some $D_T$ carries no balanced points: all symmetric loci $Y_\sigma$ (at least 48 identically trivial
+   contacts, **exact** over $S_8$), all forgetful fibres (48/80/100/112 bounded contacts) and the boundary
+   (census Prop 7.1, Cor 7.2, 7.3). (ii) On each fixed curve $C$ of genus $\le1$ with $K\cdot C\le0$, $(L_8)$
+   holds for $\eta_0<5/141$, with constants depending on $C$ (census Prop 7.4, 7.5(4)). (iii) Covering
+   families of genus-$\le1$ curves satisfy $7K\cdot\gamma\ge a(70-182\,\eta(\gamma))$ and $K\cdot\gamma\le0$,
+   hence class imbalance $\eta\ge5/13$; so no bounded-degree covering family has members that *each* carry
+   infinitely many balanced small-$H$ points (census Prop 7.5(1)–(3), Cor 7.6). Neither (i) nor (ii) is a
+   statement on a Zariski-dense set with uniform constants, so neither is a piece of Step 4
+   (`round18/census.md` §7; `round18/referee_census.md` §5, §8(iii)–(iv); `round18/README.md` §2.1
+   items 3–4). Also proved: $(L_k)\Rightarrow(L_{k+1})$ (census Lemma 7.7). **Correction M1** (referee of
+   the census, verbatim from `round18/referee_census.md` §7):
+
+   > **M1 (major, interpretive, wrong as stated).** The following sentences are wrong:
+   > * §6.3, bullet 3: "No family of curves of genus `<= 1` and bounded degree, and no product chart,
+   >   produces balanced points densely";
+   > * §7.2, final paragraph: "a counterexample [...] lives [...] on no bounded-degree family of
+   >   curves of genus `<= 1`";
+   > * §8(a): "A dense supply would need infinitely many rigid curves of class `∝ beta`, or sporadic
+   >   points on no curve of genus `<= 1`".
+   >
+   > *Counterexample to the dichotomy.* `Mbar_{0,8}` is the iterated blow-up of `P^5`, and `M_{0,8}` is
+   > the complement of the 21 hyperplanes `<p_A>`, `|A| = 5`. Take a `Q`-point `x`. A general `Q`-line
+   > through `x` avoids the centres, which have codimension `>= 2`. Its strict transform is a smooth
+   > rational curve of class `h`, with `h.H_A = 1` and `h.E_B = 0` (class imbalance `eta = 1`). These
+   > lines form a covering family of rational curves of bounded degree, defined over `Q`, and **every**
+   > rational point of `M_{0,8}` lies on members of it.
+   >
+   > Likewise, `Mbar_{0,8}` is birational to `(P^1)^5`, so every set of rational points off a closed set
+   > is the image of rational points of a product chart. "No product chart produces balanced points
+   > densely" is therefore, up to a closed set, the non-existence of a dense balanced supply, which is
+   > essentially `(L_8)` itself.
+   >
+   > What is proved is the following. For each fixed member `C` with `K.C <= 0`, only finitely many
+   > points have `eta <= eta_0 < 5/141` and `H_Sigma <= c w` with `c < (10 - 282 eta_0)/60`. That is
+   > Prop. 7.5(4) plus Northcott. The bound on `w` depends on `C`. So a refutation made of finitely many
+   > balanced points on each of infinitely many members of a covering bounded-degree family, for
+   > instance the lines, is **not excluded**. The correct reading of Prop. 7.5 is: "mechanisms in which
+   > each member of a bounded-degree covering family of genus-`<= 1` curves carries infinitely many
+   > balanced small-`H` points, and criteria (a)-(c) of `round4/L7.md` Thm 2 with bounded degree, cannot
+   > refute `(L_8)`".
+
+   Further census corrections: "rigid" should read "non-covering" (m5); $Z$ must contain every curve
+   carrying infinitely many balanced small-$H$ points (`round4/L7.md` Thm 2(a), genus 0 under its
+   hypotheses (i)–(iv); Thm 2(c), genus 1, sketched), not "every class-$d\beta$ curve with infinitely many
+   points" (m3) (`round18/referee_census.md` §7).
+5. **The lifting test, curve level (lift Thm 4.2; proved, unconditional, exact over $\mathbb Q$ at nine
+   parameter points plus openness).** For $t$ in a nonempty Zariski-open
+   $U_0\subseteq U\cap\{e_3^2-e_1e_2e_3+e_1^2e_4\ne0\}$ (containing $t_0=(2,3,-5,1)$, item 109's
+   $(1/3,3,2,5/3)$ and seven other points; $U_0$ is not explicit): (a) for $L\in\mathrm{Pic}^8(E_t\otimes\bar{\mathbb Q})$,
+   $L\ne\mathcal O(2H)$, no nonzero section of $L\boxtimes\mathcal O(2)$ vanishes at the 25 points
+   $(B_A,v_A)$, and for $L=\mathcal O(2H)$ these sections are exactly the pencil $h^2P_\lambda-a^2Q_\lambda$;
+   (b) every irreducible class-$\beta_7$ curve meeting $M_{0,7}$ and mapping onto $E_t$ is a pencil lift
+   $C'_\lambda$ of geometric genus 9 (or 5 for at most two $\lambda$). **No class-$\beta_7$ lift of genus
+   $\le4$ exists.** Cor 4.3: a class-$\beta_8$ lift of genus $\le4$ must have both 7-point projections
+   birational, of class $2\beta_7$. **As narrowed by the referee:** the conclusion "the $E_t$ mechanism does
+   not lift" holds only for class $\beta_7$. Genus-one lifts of class $c\beta_7$, $c\ge2$, class-$\beta_8$
+   lifts with projections of class $2\beta_7$, and **all point-level (integer) lifts** are **open**. The
+   integer data of lift §5 are nearly vacuous (**evidence**): for $N\le7$ the $\Phi_N(t_0)$ are not
+   themselves 1/5-balanced, and only $N=8$ carries information (`round18/lift.md` Thm 4.2, Cor 4.3;
+   `round18/referee_lift.md` §0, §8). Counts $-9$, $-18$, $-42$ per $E_t$ (**heuristic**).
+6. **The abc-gain question (conditional on abc; open).** theory Prop 2.6 (**conditional** on abc,
+   implication proved): a unit pencil $\lambda A/C$ on $\overline M_{0,8}$, $\lambda\in\mathbb Q^*$, with
+   $\mathrm{gain}=L\cdot\beta-F_{\rm red}\cdot\beta=10-K^{\log}_{\rm rel}\cdot\beta>0$ would give
+   $(L_8^{pc})$ off $\{B=0\}$; equivalently $\mathrm{gain}=\sum_Y((m_Y-3)/3)\,Y\cdot\beta$ over the
+   components of the three special fibres. Morphisms have gain $\le-32$ (Bruno–Mella, read from the
+   abstract only). **Data (exact; a rigorous upper bound for the pencils enumerated):** all 277,940 unit
+   pencils with $\lambda=\pm1$ and $D\le4$, and every special rational $\lambda$ with $D\le3$ (referee),
+   have maximum gain $-32$; $D=4$ with $\lambda\ne\pm1$ and every $D\ge5$ are untested
+   (`round18/theory.md` §2.4; `round18/referee_theory.md` §2.6, §3.3–3.4, §5 item 6). **Open question for
+   experts: does any pencil on $\overline M_{0,8}$ have $K^{\log}_{\rm rel}\cdot\beta<10$?** Even a positive
+   answer gives only $(L_8^{pc})$, a strict consequence of $(L_8)$; the uniform theorem would need an
+   extension of Prop 2.6's gcd bookkeeping to nested chains with residues, which is not routine: for the
+   nested chain $\{1,2\}\subset\{1,2,3\}$ the gcd exceeds Prop 2.6's value by a full block $d_{12}$
+   (`round18/README.md` §3.3, J2 in `round18/judge_checks/j2_out.txt`; **unrefereed**). **Correction F**
+   (referee of theory, verbatim from `round18/referee_theory.md` §2.6):
+
+   > **Item F (the enumeration is not "all unit pencils").** The scripts take `f = s A/C` with
+   > `s = ±1` only. A unit pencil is `lambda A/C` with any `lambda ∈ Q^*`. abc applies equally to
+   > `q C - p A = q B`, because the constants change `rad` by `O(1)`. Special values
+   > `lambda ≠ ±1` give genuinely different, more multiple fibres. Example:
+   > `f = 4z(1-z)` with `z = (x_1-x_2)/(x_1-x_3)` gives `B = (x_1 - 2x_2 + x_3)^2`. That pencil is
+   > **not** among the 277940. So "all unit pencils of degree `<= 4` are excluded" is overstated: the
+   > data cover `lambda = ±1`. I closed this gap independently for `D <= 3` (§3.4). Every rational
+   > special `lambda` gives gain `<= -32`.
+
+7. **Refutation lane (proved, as corrected).** Expected dimensions of balanced curves are $-10d+2$
+   (genus 0) and $-10d$ (genus 1), against $7d+1$ at $k=7$; no genus-$\le1$ curve with infinitely many
+   balanced points belongs to a covering family; the computed rigid curves with $K>0$ (F-curves of types
+   2222 and 3221) lie in the boundary (`round18/theory.md` §3; `round18/referee_theory.md` §2.7, §5
+   item 7). Genus-$\ge2$ covering families are not excluded (item C), and the split into curves with
+   infinitely many points and sporadic points is a description, not a theorem (item E). **Correction B**
+   (referee of theory, verbatim from `round18/referee_theory.md` §2.7):
+
+   > **Item B (major, interpretive).** §3.1 states: "`(L_8)` fails **iff** for every `eta` and
+   > `w_1`, `Bal(eta) ∩ {w >= w_1}` is Zariski dense". §3.4 and §5(1) state: "a refutation of
+   > `(L_8)` is **exactly** a refutation of `D = 0` Vojta at balanced points". Only one direction
+   > is proved:
+   >
+   > ```text
+   > Bal^cat(eta) dense for all eta  ⇒  not (L_8)  ⇒  Bal(eta) dense for all eta  ⇒  not V_8 .
+   > ```
+   >
+   > A Zariski-dense set of **non-caterpillar** balanced points would refute `V_8` but not `(L_8)`.
+   > An `(L_8)`-datum for such a point needs the residues to absorb the non-caterpillar part of the
+   > trees, at cost of order `w`. So the chain hypothesis is vacuous for the **proof** lane (on
+   > `Bal^pc`), as Prop 2.1 correctly says, but **not** for the refutation lane. A refuter must
+   > produce caterpillar points, up to `o(w)` of residue.
+   >
+   > "`(L_8)` cannot be mis-stated in a way that a refutation could exploit" is true: `V_8 ⇒ (L_8)`
+   > is refereed. The converse, which is what "exactly" asserts, is false as stated. The correct
+   > statement: refuting `(L_8)` refutes `V_8` at balanced points; it is **harder** than that, since
+   > it needs (near-)caterpillar balanced points.
+
+8. **Restricted theorem for a fixed prime set (proved; useless for the circle problem).** For a fixed
+   $S_0$, $H_\Sigma\ge8(1-\eta)(1-\varepsilon)w-C(S_0,\eta,\varepsilon)$ when all blocks are $S_0$-units
+   (Ridout). Since $C$ depends on $S_0$, it says nothing about Step 4 (`round18/theory.md` Thm 2.5;
+   `round18/referee_theory.md` §5 item 5).
+
+**Record correction (round 18; proved by count, exact in `round18/judge_checks/j1_out.txt`).** The number
+of visible blocks is $2^m-m-2$ ($=119$ at $m=7$, equal to the number of boundary divisors of
+$\overline M_{0,8}$), not $2^m-m-1$ as `growth/ptolemy.md` §1 states. Nothing depends on it
+(`round18/README.md` §1, §8).
+
+**What would now help** (`round18/README.md` §7.3). Not another census (Thm E makes it futile), not lifts at
+class $c\beta_7$, $c\ge2$, and not Liouville, Subspace or density proof attempts (all excluded). The
+statement for experts is $(L_8)$, in its lattice form $(L_8^{pc})$ above, together with the abc-gain
+question of item 6.
+
+**Round 19** (`round19/README.md`). **Proved, refereed:** every unit pencil $\lambda A/C$ (any $D$, any $\lambda\in\mathbb C^*$) and every composite $h(A/C)$ has $\mathrm{gain}\le-2^{8-k(f)}\le-1$, via the $\beta$-weighted log Riemann–Hurwitz inequality $\sum_p(L\cdot\beta-R_p^{\rm int})\le2L\cdot\beta+\Lambda_{k(f)}\cdot\beta\le2L\cdot\beta+31$ and $N(u)\ge32$ (`round19/theory.md` Thm 2.4, 3.3, Cor 3.4; `round19/referee_theory.md` §6, m1).
+So Prop 2.6 never applies: **the unit-pencil abc lane is closed by proof**. **Exact, refereed, reproduced:** gain $\le-32$ (attained) for all unit pencils with $D\le6$, all $\lambda\in\mathbb Q^*$; the literal stop rule fires (`round19/search.md`; `round19/referee_search.md` §7).
+**Open, with no proved implication:** non-unit pencils with base locus in codimension-2 boundary strata (would need an unproved gcd extension of Prop 2.6 and a pencil meeting proved necessary conditions; none known; `round19/referee_theory.md` m2).
+**Unchanged:** $(L_8)$ open; uniform theorem conditional on Vojta; $M\le(2/3+\varepsilon)\log R/\log\log R$. The judge recommends stopping internal rounds (`round19/README.md` §6).
 
 ### 7.2 The route-5 box inequality: MIN$^{\rm pair}$ / $(R_H)$, and its fake test
 
@@ -1288,6 +1526,11 @@ theorem, and item 7 is a judge's assessment.
 8. Also (§5.4 row 16; `growth/auxiliary.md`, **unrefereed**, with the refereed `round10/additive.md` §5):
    no interpolation-determinant (Bombieri–Pila, Heath-Brown, Salberger), gap-principle, larger-sieve or
    Stepanov argument on one circle, since these reduce to pair data.
+9. Added by round 18 (`round18/README.md` §7.1 items 7–9), for $(L_8)$ specifically: no refutation
+   mechanism of the $(L_5)$/$(L_6)$ type (density, covering genus-$\le1$ families with infinitely many points
+   per member, class-$\beta_7$ lifts; **proved**, read with correction M1); no computational test (Thm E,
+   **proved**); and the only uncovered conditional mechanism, abc on auxiliary pencils, stops at
+   $(L_8^{pc})$, with a genuine gcd excess on nested chains (J2, **unrefereed**).
 
 The judge's conclusion: a genuinely new mechanism must be **global, multi-place, and tied to the actual
 arithmetic of $N$**. The only known statements of that type are Vojta-type inequalities, and their sharpest
@@ -1345,6 +1588,11 @@ the referee-corrected statements and are the authoritative summaries.
 | $(R_H)$; anti-concentration vacuity | proved implications / proved | `round16/reduction.md`, `round16/antitheory.md` |
 | equivariant witness bound; gap principle | proved | `round17/survive.md` Thms 3.1, 3.4 |
 | $(L_7)$ partial results | proved / exact | `round4/L7.md`, `round7/L7.md` Thm B, Prop 5.4 |
+| round 18 on $(L_8)$: Thm E; sandwich (Prop 1.3); loci (Prop 7.1, Cor 7.2–7.3, Prop 7.4, 7.5, corrected per M1); Lemma 7.7 | proved | `round18/census.md`; `round18/referee_census.md` §8 |
+| round 18: caterpillar Lemma 1.1; Prop 2.1; rate statement; lattice form (Lemma 2.2, Prop 2.3); Thm 2.5 (fixed $S_0$) | proved (corrected per items A–H) | `round18/theory.md`; `round18/referee_theory.md` §5 |
+| round 18: abc + positive-gain pencil ⇒ $(L_8^{pc})$; gain data | conditional (abc) / exact (corrected per F) | `round18/theory.md` Prop 2.6; `round18/referee_theory.md` §§2.6, 3.3–3.4 |
+| round 18: lift Thm 4.2, Cor 4.3 (class $\beta_7$ only) | proved | `round18/lift.md`; `round18/referee_lift.md` §8 |
+| round 18: J1 (constants), J2 (nested-chain gcd excess) | **unrefereed** | `round18/judge_checks/j1_out.txt`, `j2_out.txt`; `round18/README.md` §5 |
 | literature verdicts | sweep with checks | `lit18/README.md`, `lit18/direct.md`, `lit18/tools.md`, `lit18/primes.md` |
 
 ### 8.2 Corrections the referees made to earlier claims
@@ -1440,6 +1688,21 @@ cap); `round17/survive.md` Remark 4.4's $+1823$ is $\ge2848$; `round17/calib.md`
 Gabdullin's result concerns arcs near the diagonal and corresponds to general-position arcs $R^{2\gamma-1}$;
 Letendre's specialisation sits in a trivial window; Ziegler's count is $\ge s$, so even a valid application
 would be three times worse than the proved bound.
+
+**Round 18** (`round18/README.md` §§2, 8; verbatim texts of M1, B, F in §7.1 items 4, 6, 7).
+`round18/census.md` §6.3, §7.2 (end), §8(a): "no bounded-degree family produces balanced points densely"
+withdrawn (M1: a curve-dependent threshold was treated as uniform; $\mathbb Q$-lines of Kapranov's $\mathbb P^5$
+pass through every rational point); Prop 1.3 is a sandwich, not an equivalence (m2); anchor changes need a
+symmetrised $Z$ (m1); "rigid" should read "non-covering" (m5); the containment for $Z$ cited the wrong
+direction of Prop 7.4 (m3). `round18/theory.md` §3.1, §3.4, §5(1): "$(L_8)$ fails iff" / "exactly a
+refutation of $V_8$" withdrawn (B: only one direction; a refutation needs caterpillar points); §2.4(2),
+§5(3): "all unit pencils of degree $\le4$" covers only $\lambda=\pm1$ (F); the $f$-version implies only
+$(L_8^c)^{\rm cat}$ (A); genus-$\ge2$ covering families are not excluded (C); $\kappa$ is the finite part
+of $h_K$ (D); the curve/sporadic split is a description (E); "equivalent in substance" is a reduction
+only (G); chain $=$ caterpillar only at primes dividing no residue (H). `round18/lift.md` §0, §6.1: "the
+$E_t$ mechanism does not lift" holds only for class $\beta_7$. `growth/ptolemy.md` §1: the number of
+visible blocks is $2^m-m-2$, not $2^m-m-1$. `round17/README.md` §7.3's expectation of an explicit
+candidate $Z$ from a census is recorded as a finding, not an error.
 
 ---
 

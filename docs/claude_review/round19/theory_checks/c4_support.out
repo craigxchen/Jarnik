@@ -1,0 +1,8 @@
+(a) cross-ratio (x1-x2)/(x1-x3): N = 32  points involved: 4
+(b) exhaustive small-support e (<=4 edges, +-1, sum 0): 36330 vectors, min N = 32
+(b) random e: min N = 48
+(c) evidence: min N found for units involving exactly 4 of the 8 points: 32  (method bound gain <= Lambda_k.beta - N = -16)
+(c) evidence: min N found for units involving exactly 5 of the 8 points: 48  (method bound gain <= Lambda_k.beta - N = -24)
+(c) evidence: min N found for units involving exactly 6 of the 8 points: 40  (method bound gain <= Lambda_k.beta - N = -12)
+(c) evidence: min N found for units involving exactly 7 of the 8 points: 48  (method bound gain <= Lambda_k.beta - N = -18)
+(c) evidence: min N found for units involving exactly 8 of the 8 points: 50  (method bound gain <= Lambda_k.beta - N = -19)

@@ -1,0 +1,14 @@
+D=4: 43 records
+D=5: 42 records
+D=6: 55 records
+  D=4 k(f)=4 N=32 n_1=0 gain=-32 Thm3.3 bound=-16 ok=True equality=False count=12
+  D=4 k(f)=4 N=32 n_1=16 gain=-32 Thm3.3 bound=-32 ok=True equality=True count=12
+  D=4 k(f)=4 N=48 n_1=0 gain=-32 Thm3.3 bound=-32 ok=True equality=True count=19
+  D=5 k(f)=4 N=32 n_1=0 gain=-32 Thm3.3 bound=-16 ok=True equality=False count=10
+  D=5 k(f)=4 N=32 n_1=16 gain=-32 Thm3.3 bound=-32 ok=True equality=True count=10
+  D=5 k(f)=4 N=48 n_1=0 gain=-32 Thm3.3 bound=-32 ok=True equality=True count=22
+  D=6 k(f)=4 N=32 n_1=0 gain=-32 Thm3.3 bound=-16 ok=True equality=False count=12
+  D=6 k(f)=4 N=32 n_1=16 gain=-32 Thm3.3 bound=-32 ok=True equality=True count=12
+  D=6 k(f)=4 N=48 n_1=0 gain=-32 Thm3.3 bound=-32 ok=True equality=True count=31
+ALL_BOUND_OK=True  ALL_EQUALITY=False  total=140
+Counter({(48, 0, 'special'): 72, (32, 16, '1'): 28, (32, 0, '-1'): 28, (32, 0, '1'): 6, (32, 16, '-1'): 6})

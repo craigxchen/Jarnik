@@ -121,9 +121,13 @@ every regime `q`, so **route 5 is stopped**: neither capped nor unblocked. The j
 so no feasible computation can test `(L_8)`; the `(L_6)` curves do not lift through class `beta_7`; on pairwise-coprime
 profiles the chain, anchoring and residue structure carry no information. One uncovered conditional mechanism (abc on
 auxiliary pencils of positive gain) is identified; no such pencil exists in degree `<= 4`. The judge recommends **stopping
-internal rounds** on growth and uniformity and putting `(L_8)` before outside experts.
+internal rounds** on growth and uniformity and putting `(L_8)` before outside experts. Round 19 (`round19/README.md`) decides that one item. A
+beta-weighted log Riemann-Hurwitz inequality on `Mbar_(0,8)` proves that **no unit pencil has positive gain**, in any degree
+(refereed), and an exact search confirms gain `<= -32` for all unit pencils of degree `<= 6` (refereed). The abc lane is closed;
+only non-unit pencils remain, with no proved conditional implication. Internal rounds on growth and uniformity stop here; the
+consolidated `overview/overview.md` is updated through round 19.
 
-**Growth-rate status (2026-10-28).** No growth improvement over `log R/loglog R` is proved, either
+**Growth-rate status (2026-10-28, after round 19).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues

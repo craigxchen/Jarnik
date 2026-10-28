@@ -1,0 +1,123 @@
+./run_c3_D3.sh: line 8: 250: command not found
+FAIL  
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 0 1750
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 1 1500
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 1 1750
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 2 1500
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 2 1750
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 3 1250
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 3 1500
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 3 1750
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 4 1250
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 4 1500
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 4 1750
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 5 1250
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 5 1500
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 5 1750
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 6 1250
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 6 1500
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 6 1750
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 7 1250
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 7 1500
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/theory_checks/c3_gain_vs_n.py", line 77, in <module>
+    rec = {'A': [list(e) for e in A], 'chunk': [C0, C1], 'pencils': cnt, 'max_gain_plus_n': worst[0], 'worst': worst, 'max_gain': gmax,
+                                                                                            ~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+FAIL 7 1750
+DONE

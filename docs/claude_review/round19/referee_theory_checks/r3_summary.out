@@ -1,0 +1,13 @@
+UNIT SAMPLE: chunks 200, (A,C) pairs 6000  all checks ok: True
+  D=1: pairs 757, candidate lambdas evaluated 2969, max gain -32, max(gain+n-Lambda_k) 0, min N 32, k-values [4, 5]
+  D=2: pairs 740, candidate lambdas evaluated 3226, max gain -32, max(gain+n-Lambda_k) 0, min N 32, k-values [4, 5, 6, 7, 8]
+  D=3: pairs 735, candidate lambdas evaluated 2999, max gain -32, max(gain+n-Lambda_k) 0, min N 32, k-values [4, 5, 6, 7, 8]
+  D=4: pairs 1483, candidate lambdas evaluated 5947, max gain -32, max(gain+n-Lambda_k) 0, min N 48, k-values [4, 5, 6, 7, 8]
+  D=5: pairs 2285, candidate lambdas evaluated 8964, max gain -32, max(gain+n-Lambda_k) 0, min N 48, k-values [4, 5, 6, 7, 8]
+  pairs whose max gain is attained at a special lambda != +-1: 3962  gains there: [(-32, 597), (-48, 211), (-52, 54), (-56, 216), (-58, 17), (-60, 74)]
+  distinct special lambdas attaining a max: 3355
+  hist of per-pair max gain (top): [(-32, 1178), (-40, 9), (-48, 365), (-52, 93), (-56, 300), (-58, 25), (-60, 101), (-62, 36)]
+NON-UNIT SAMPLE: (A,C) pairs 5000  pencils (A,C,lambda) evaluated 23454
+  max (gain + n - Lambda_{kbound}) = 0 ; max gain = -32
+  hist of per-pair max excess (top): [(0, 201), (-16, 273), (-24, 190), (-28, 27), (-30, 13), (-31, 2), (-32, 480), (-40, 171)]
+  hist of per-pair max gain (top): [(-32, 613), (-48, 628), (-52, 1), (-56, 387), (-58, 3), (-60, 54), (-64, 307), (-66, 6)]

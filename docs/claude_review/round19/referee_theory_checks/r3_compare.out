@@ -1,0 +1,15 @@
+D=1: referee orbits 1, triples 280, max gain -32, max (gain+n-Lambda_k(f)) 0
+      author triples 280, max gain -32
+      hist(gain+n) referee [(16, 10), (0, 270)]
+      hist(gain+n) author  [(16, 10), (0, 270)]
+      identical: True
+D=2: referee orbits 3, triples 8260, max gain -32, max (gain+n-Lambda_k(f)) 0
+      author triples 8260, max gain -32
+      hist(gain+n) referee [(16, 18), (8, 28), (4, 54), (2, 24), (0, 8136)]
+      hist(gain+n) author  [(16, 18), (8, 28), (4, 54), (2, 24), (0, 8136)]
+      identical: True
+D=3: referee orbits 8, triples 138600, max gain -32, max (gain+n-Lambda_k(f)) 0
+      author triples 138600, max gain -32
+      hist(gain+n) referee [(16, 10), (8, 52), (4, 148), (2, 270), (1, 193), (0, 137927)]
+      hist(gain+n) author  [(16, 10), (8, 52), (4, 148), (2, 270), (1, 193), (0, 137927)]
+      identical: True

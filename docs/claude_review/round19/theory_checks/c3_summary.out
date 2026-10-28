@@ -1,0 +1,6 @@
+D=1: A-orbits 1, pencils (A,C,lambda) 280, complete chunks: True, max gain -32, max (gain + n) 16  [Cor 2.5 bound: 31]
+   attained e.g. by A = [[0, 1]] (gain+n, gain, n, C, lambda) = [16, -32, 48, [[0, 2]], '1']
+D=2: A-orbits 3, pencils (A,C,lambda) 8260, complete chunks: True, max gain -32, max (gain + n) 16  [Cor 2.5 bound: 31]
+   attained e.g. by A = [[0, 1], [0, 1]] (gain+n, gain, n, C, lambda) = [16, -32, 48, [[0, 2], [0, 2]], '1']
+D=3: A-orbits 8, pencils (A,C,lambda) 138600, complete chunks: True, max gain -32, max (gain + n) 16  [Cor 2.5 bound: 31]
+   attained e.g. by A = [[0, 1], [0, 1], [0, 1]] (gain+n, gain, n, C, lambda) = [16, -32, 48, [[0, 2], [0, 2], [0, 2]], '1']

@@ -1,0 +1,4 @@
+special sets identical: True 22 22
+lam=+-1 histograms identical: True  generic identical: True
+stats A {'fast': 2556680, 'cand_lam': 848, 'cand_exact': 22, 'cand_sqfree': 826}
+stats B {'fast': 2556680, 'cand_lam': 840, 'cand_exact': 22, 'cand_sqfree': 818}

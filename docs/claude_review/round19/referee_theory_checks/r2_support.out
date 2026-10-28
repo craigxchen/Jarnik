@@ -1,0 +1,10 @@
+(a) {-1,0,1}, support<=6, sum 0: vectors 1121610  min N 32
+(b) {-2..2}, support<=3, sum 0: vectors 8820  min N 32
+(c) random vectors 300000  min N 32
+(d) evidence: smallest N found per k(u): {4: 32, 5: 48, 6: 40, 7: 48, 8: 44}
+     k = 4 example e: {(0, 1): -1, (0, 2): 1}
+     k = 5 example e: {(0, 1): -1, (2, 3): 1}
+     k = 6 example e: {(0, 1): -1, (0, 2): -1, (0, 3): 1, (0, 4): 1}
+     k = 7 example e: {(0, 5): -1, (1, 5): 1, (3, 5): 1, (4, 5): -2, (5, 6): 1}
+     k = 8 example e: {(0, 1): -1, (0, 2): -1, (0, 3): -1, (0, 4): 1, (0, 5): 1, (0, 6): 1}
+(e) cross-ratio (x1-x2)/(x1-x3): N = 32  k = 4

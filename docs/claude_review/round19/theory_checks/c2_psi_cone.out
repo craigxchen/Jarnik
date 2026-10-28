@@ -1,0 +1,8 @@
+exponent types: [(4,), (3, 1), (2, 2), (2, 1, 1), (1, 1, 1, 1)]  #monomials: 330
+type (4,) : D_T.s_lambda for |T|=2,3,4 : 6 0 0
+type (3, 1) : D_T.s_lambda for |T|=2,3,4 : 120 15 0
+type (2, 2) : D_T.s_lambda for |T|=2,3,4 : 90 0 16
+type (2, 1, 1) : D_T.s_lambda for |T|=2,3,4 : 720 180 96
+type (1, 1, 1, 1) : D_T.s_lambda for |T|=2,3,4 : 360 180 144
+nonnegative basic solutions of beta = sum c_lambda s_lambda:
+NO nonnegative solution with psi-monomials

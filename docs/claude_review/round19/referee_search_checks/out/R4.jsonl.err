@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/referee_search_checks/rsearch.py", line 118, in <module>
+    g2 = full_gain(A, Cl, p_, q_)
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/referee_search_checks/rcore.py", line 76, in full_gain
+    content, facs = B.factor()
+                    ~~~~~~~~^^
+  File "flint/types/fmpz_mpoly.pyx", line 908, in flint.types.fmpz_mpoly.fmpz_mpoly.factor
+  File "flint/types/fmpz_mpoly.pyx", line 1223, in flint.types.fmpz_mpoly._fmpz_mpoly_sort_key.__lt__
+OverflowError: value too large to convert to int
+FAIL 4 0 0
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/referee_search_checks/rsearch.py", line 118, in <module>
+    g2 = full_gain(A, Cl, p_, q_)
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/referee_search_checks/rcore.py", line 76, in full_gain
+    content, facs = B.factor()
+                    ~~~~~~~~^^
+  File "flint/types/fmpz_mpoly.pyx", line 908, in flint.types.fmpz_mpoly.fmpz_mpoly.factor
+  File "flint/types/fmpz_mpoly.pyx", line 1223, in flint.types.fmpz_mpoly._fmpz_mpoly_sort_key.__lt__
+OverflowError: value too large to convert to int
+FAIL 4 2 0
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/referee_search_checks/rsearch.py", line 118, in <module>
+    g2 = full_gain(A, Cl, p_, q_)
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/referee_search_checks/rcore.py", line 76, in full_gain
+    content, facs = B.factor()
+                    ~~~~~~~~^^
+  File "flint/types/fmpz_mpoly.pyx", line 908, in flint.types.fmpz_mpoly.fmpz_mpoly.factor
+  File "flint/types/fmpz_mpoly.pyx", line 1223, in flint.types.fmpz_mpoly._fmpz_mpoly_sort_key.__lt__
+OverflowError: value too large to convert to int
+FAIL 4 13 0
+DONE 4
+DONE 4

@@ -1,0 +1,4 @@
+D=4 k=4 n'=48 gain=-32 Cor2.5 bound=-32 ok=True equality=True count=43
+D=5 k=4 n'=48 gain=-32 Cor2.5 bound=-32 ok=True equality=True count=42
+D=6 k=4 n'=48 gain=-32 Cor2.5 bound=-32 ok=True equality=True count=55
+ALL_OK=True ALL_EQUALITY=True total=140

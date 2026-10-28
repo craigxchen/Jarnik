@@ -1,0 +1,407 @@
+done
+{"chunk": 1, "pencils": 124, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 2, "pencils": 109, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 3, "pencils": 124, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 4, "pencils": 115, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 5, "pencils": 126, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 6, "pencils": 117, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 7, "pencils": 127, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 8, "pencils": 119, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 9, "pencils": 113, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 10, "pencils": 112, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 11, "pencils": 119, "pairs": 25, "max_excess": -32, "max_gain": -48}
+{"chunk": 12, "pencils": 128, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 13, "pencils": 120, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 14, "pencils": 113, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 15, "pencils": 116, "pairs": 25, "max_excess": -24, "max_gain": -32}
+{"chunk": 16, "pencils": 116, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 17, "pencils": 114, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 18, "pencils": 121, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 19, "pencils": 110, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 20, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 21, "pencils": 112, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 22, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 23, "pencils": 123, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 24, "pencils": 121, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 25, "pencils": 124, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 26, "pencils": 120, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 27, "pencils": 124, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 28, "pencils": 132, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 29, "pencils": 117, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 30, "pencils": 111, "pairs": 25, "max_excess": -30, "max_gain": -48}
+{"chunk": 31, "pencils": 109, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 32, "pencils": 110, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 33, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 34, "pencils": 120, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 35, "pencils": 118, "pairs": 25, "max_excess": 0, "max_gain": -32}
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/referee_theory_checks/r4_nonunit.py", line 50, in <module>
+    A, C = rand_poly(rng, pts, D), rand_poly(rng, pts, D)
+           ~~~~~~~~~^^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round19/referee_theory_checks/r4_nonunit.py", line 25, in rand_poly
+    P = CTX.from_dict({(0,) * (NV + 1): 1}); deg = 0
+        ^^^
+NameError: name 'CTX' is not defined
+{"chunk": 37, "pencils": 112, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 38, "pencils": 125, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 39, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 40, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 41, "pencils": 125, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 42, "pencils": 116, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 43, "pencils": 119, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 44, "pencils": 117, "pairs": 25, "max_excess": -32, "max_gain": -32}
+{"chunk": 45, "pencils": 115, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 46, "pencils": 120, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 47, "pencils": 114, "pairs": 25, "max_excess": -32, "max_gain": -32}
+{"chunk": 48, "pencils": 122, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 49, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 50, "pencils": 117, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 51, "pencils": 117, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 52, "pencils": 126, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 53, "pencils": 116, "pairs": 25, "max_excess": -24, "max_gain": -48}
+{"chunk": 54, "pencils": 118, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 55, "pencils": 126, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 56, "pencils": 109, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 57, "pencils": 107, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 58, "pencils": 117, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 59, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 60, "pencils": 117, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 61, "pencils": 108, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 62, "pencils": 115, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 63, "pencils": 118, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 64, "pencils": 110, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 65, "pencils": 115, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 66, "pencils": 115, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 67, "pencils": 113, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 68, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 69, "pencils": 127, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 70, "pencils": 118, "pairs": 25, "max_excess": -24, "max_gain": -32}
+{"chunk": 71, "pencils": 126, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 72, "pencils": 111, "pairs": 25, "max_excess": -24, "max_gain": -48}
+{"chunk": 73, "pencils": 122, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 74, "pencils": 111, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 75, "pencils": 119, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 76, "pencils": 112, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 77, "pencils": 118, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 78, "pencils": 114, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 79, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 80, "pencils": 123, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 81, "pencils": 115, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 82, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 83, "pencils": 109, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 84, "pencils": 110, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 85, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 86, "pencils": 118, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 87, "pencils": 115, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 88, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 89, "pencils": 128, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 90, "pencils": 115, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 91, "pencils": 128, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 92, "pencils": 115, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 93, "pencils": 121, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 94, "pencils": 123, "pairs": 25, "max_excess": -24, "max_gain": -48}
+{"chunk": 95, "pencils": 113, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 96, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 97, "pencils": 118, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 98, "pencils": 123, "pairs": 25, "max_excess": -24, "max_gain": -48}
+{"chunk": 99, "pencils": 120, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 100, "pencils": 115, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 101, "pencils": 114, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 102, "pencils": 122, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 103, "pencils": 116, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 104, "pencils": 115, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 105, "pencils": 121, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 106, "pencils": 110, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 107, "pencils": 127, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 108, "pencils": 128, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 109, "pencils": 121, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 110, "pencils": 128, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 111, "pencils": 110, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 112, "pencils": 120, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 113, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 114, "pencils": 119, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 115, "pencils": 109, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 116, "pencils": 114, "pairs": 25, "max_excess": -32, "max_gain": -32}
+{"chunk": 117, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 118, "pencils": 121, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 119, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 120, "pencils": 134, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 121, "pencils": 115, "pairs": 25, "max_excess": -32, "max_gain": -48}
+{"chunk": 122, "pencils": 123, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 123, "pencils": 115, "pairs": 25, "max_excess": -24, "max_gain": -48}
+{"chunk": 124, "pencils": 112, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 125, "pencils": 130, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 126, "pencils": 120, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 127, "pencils": 116, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 128, "pencils": 115, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 129, "pencils": 118, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 130, "pencils": 114, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 131, "pencils": 107, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 132, "pencils": 120, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 133, "pencils": 115, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 134, "pencils": 117, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 135, "pencils": 119, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 136, "pencils": 117, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 137, "pencils": 122, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 138, "pencils": 123, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 139, "pencils": 122, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 140, "pencils": 117, "pairs": 25, "max_excess": -32, "max_gain": -32}
+{"chunk": 141, "pencils": 123, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 142, "pencils": 111, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 143, "pencils": 112, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 144, "pencils": 127, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 145, "pencils": 112, "pairs": 25, "max_excess": -24, "max_gain": -32}
+{"chunk": 146, "pencils": 120, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 147, "pencils": 111, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 148, "pencils": 121, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 149, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 150, "pencils": 118, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 151, "pencils": 124, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 152, "pencils": 117, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 153, "pencils": 111, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 154, "pencils": 114, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 155, "pencils": 118, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 156, "pencils": 104, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 157, "pencils": 118, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 158, "pencils": 113, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 159, "pencils": 119, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 160, "pencils": 112, "pairs": 25, "max_excess": -24, "max_gain": -32}
+{"chunk": 161, "pencils": 115, "pairs": 25, "max_excess": -24, "max_gain": -32}
+{"chunk": 162, "pencils": 114, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 163, "pencils": 111, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 164, "pencils": 111, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 165, "pencils": 121, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 166, "pencils": 119, "pairs": 25, "max_excess": -24, "max_gain": -48}
+{"chunk": 167, "pencils": 120, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 168, "pencils": 116, "pairs": 25, "max_excess": -24, "max_gain": -32}
+{"chunk": 169, "pencils": 113, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 170, "pencils": 118, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 171, "pencils": 117, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 172, "pencils": 110, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 173, "pencils": 115, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 174, "pencils": 113, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 175, "pencils": 113, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 176, "pencils": 116, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 177, "pencils": 115, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 178, "pencils": 118, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 179, "pencils": 125, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 180, "pencils": 111, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 181, "pencils": 120, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 182, "pencils": 122, "pairs": 25, "max_excess": -24, "max_gain": -48}
+{"chunk": 183, "pencils": 111, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 184, "pencils": 116, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 185, "pencils": 112, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 186, "pencils": 118, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 187, "pencils": 116, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 188, "pencils": 123, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 189, "pencils": 123, "pairs": 25, "max_excess": -24, "max_gain": -32}
+{"chunk": 190, "pencils": 112, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 191, "pencils": 122, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 192, "pencils": 126, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 193, "pencils": 113, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 194, "pencils": 120, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 195, "pencils": 125, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 196, "pencils": 118, "pairs": 25, "max_excess": -16, "max_gain": -32}
+{"chunk": 197, "pencils": 122, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 198, "pencils": 121, "pairs": 25, "max_excess": 0, "max_gain": -32}
+{"chunk": 199, "pencils": 116, "pairs": 25, "max_excess": 0, "max_gain": -32}
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+{"chunk": 36, "pencils": 125, "pairs": 25, "max_excess": -16, "max_gain": -32}
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
