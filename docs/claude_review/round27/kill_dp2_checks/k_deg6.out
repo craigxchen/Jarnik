@@ -1,0 +1,13 @@
+dimension of sections of -3K with ord_P >= 4: 3
+tangent cones:
+   x**4/2 + 5*x**3*y/4 - 5*x**2*y**2/8 + 19*x*y**3/16
+   x**3*y/2 + 5*x**2*y**2/4 - 5*x*y**3/8 + 19*y**4/16
+   -5*x**4/8 - 3*x**3*y/4 + 21*x**2*y**2/16 - 37*x*y**3/16 + 195*y**4/128
+rank of tangent-cone span: 3
+number of linear conditions for q^2 in span: 2
+conics: [-73*al**2 + 30*al*be + 4*al*ga + 2*be**2 + 32*be*ga, 375*al**2 - 326*al*be - 52*al*ga - 26*be**2 + 96*ga**2]
+eliminant in al (chart ga=1): (16, [(182753*al**4 + 558544*al**3 - 647968*al**2 - 87808*al - 157440, 1)])
+eliminant in ga (chart al=1): (-16, [(157440*ga**4 + 87808*ga**3 + 647968*ga**2 - 558544*ga - 182753, 1)])
+chart ga=0 (conics restricted): [-73*al**2 + 30*al*be + 2*be**2, 375*al**2 - 326*al*be - 26*be**2]  common root? 1
+lin*D in net: True
+lin*D in net: True

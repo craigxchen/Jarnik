@@ -409,6 +409,21 @@ $\delta$ has McKinnon–Roth exponent $\gamma=4/(1+2\delta)$, and:
 > The two-branch twisted Pell ansatz ($B\cdot C=30$, contact 4, round 24) yields real curves at exactly $15/4$ but only
 > finitely many over $\mathbb Q$ on the known component; it can only enlarge $Z$.
 
+**Round 27 additions to Question B** (`round27/README.md`; all **proved** or **exact** unless labelled).
+* *Split exceptional set.* Every admissible split exceptional set contains, besides $W$ and its image under the
+  inversion $u_a\mapsto\mathrm{lcm}(u)/u_a$, the 15 quadric cones $(u_2-u_1)(u_3-u_1)=(u_4-u_1)(u_5-u_1)$ (and their
+  $S_5$-images), swept by the second 2026 five-divisor construction ($C=7/2$, $\alpha=7/2$), and the 15 cubic threefolds
+  obtained from them by inversion. Only $Q\cap\sigma Q$ can carry rational points in the twisted form.
+* *A 2-dimensional calibration.* At an explicit rational point $P$ of an explicit degree-2 del Pezzo surface with
+  $\mathrm{Pic}=\mathbb ZK$: $\tau_P(-K)=3/2<2$, the $\tau$-curve has a real cubic branch field and $\alpha=2$, and no
+  $\mathbb Q$-curve of degree $\le6$ through $P$ has $\alpha<2$. So "$\alpha^{\rm ess}>\tau$ with $\tau<\dim$" is open
+  already there. The surface has no balance, so it does not model $(L_5^\circ)$; and the Losev–Manin tower has no
+  lower-dimensional balanced analogue, since $\alpha_{\rm bal}(k)=(2^{k-1}-1)/2^{k-3}<k-1$ iff $k\ge5$ (judge check,
+  **exact**, unrefereed).
+* *Pointer* (literature seen through search results only). $\mathrm{Bl}_eLM_5$ is a contraction of $\overline M_{0,7}$
+  (Castravet–Tevelev, Duke 2015), so $\tau_e(-K)$, Theorem B and the section caps are statements about
+  $\mathrm{Eff}(\overline M_{0,7})$; Question A lives on $\overline M_{0,8}$.
+
 **Compared with $(L_8)$** (`round20/README.md` §§5, 7). $(L_5^\circ)$ is smaller: a 4-fold and 5 points, against a
 5-fold and 8 points. It needs the archimedean divisor $D=E$ rather than $D=0$, and its heuristic margin is much
 thinner: $\kappa=2\delta\approx1/15$ and $e^{-w}$ per scale, against $K\cdot\beta=10$ and $e^{-10w}$. Neither
@@ -538,7 +553,24 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      Profile automorphisms are certified too, and once they are counted the argument fails near $m_{\max}$ (the
      claim is then unproved, not refuted), so it should not be cited as general.
      The actual point lies on no proper algebraic subgroup, but that does not affect a count at the trivial subgroup.
-   | round 26: zero estimates vs route 5's ZE; spectral LP cap; target ZE$^{\rm all}_H$ | `round26/README.md`, `round26/ze.md` (with `referee_ze.md`) |
+   * *A linear-algebra sufficient condition for route 5's target* (round 27 `interp.md`, `kill_interp.md`; **proved**,
+     new to the record; the hypothesis is **open**). Let $L_{\rm pair}=\{\pm e_x,\pm(e_x-e_y)\}$. If, for all $e<m$, the
+     degree-$e$ least space of the slab box $A$ is the sum of those of its shift-intersections $A\cap(A-l)$,
+     $l\in L_{\rm pair}$, then $\mathrm{Bs}\,V(A,m)$ lies in the braid-and-coordinate arrangement (round 11's ZE-braid);
+     with a top-degree height condition this gives $M=O_C(\log\log R)$. The hypothesis is at least as hard as
+     ZE$^{\rm all}_H$. Evidence on slab boxes is mixed: the criterion beats every product (zonotope) certificate on the
+     box M8$'$, but stays below the zonotope order on 20 of 27 random boxes.
+   * *No tight pencils* (round 27 `stab.md` Thm 3.3, Cor 3.4, `kill_stab.md`; **proved**, killer-checked). Mean-width
+     extremal measures are unique up to scalar on their support ($\dim A_t(S)\le1$ for integer $t\ge MW_n(S)$, all $n$).
+     Hence no pencil of tight sections exists on $\mathrm{Bl}_eX$ (both forms, every $k$), and "second-order integrality"
+     at Liouville-tight points is void. This closes the two-section part of the equality-case loophole of Theorem B;
+     the single-form part still rests on the structure half of `threshold/construct.md` Conjecture E.
+   * *Integrality at the root arrangement adds nothing at $e$* (round 27 dp2 Thm C and transfer, split Lemma 3.5, the
+     dp2 killer's line lemma; **proved**). Bounded pair cofactors make near-tight tuples integral with respect to the
+     diagonals, but on $\mathrm{Bl}_e\overline L_k$ that pair has log-canonical degree $-1$ on the lines through $e$ for
+     every $k\ge3$, so Lang–Vojta predicts nothing there, and poles along the diagonals amplify nothing beyond sections
+     wherever the section cap holds. A genuine fixed-$S$ Subspace argument on $LM_5\setminus\bigcup\Delta_{ab}$ is not
+     covered.
 4. **Single linear forms in logarithms** (Baker–Matveev, single-form Lang–Waldschmidt). Fakes satisfy them
    (`round8/lw.md` Thms A, B; `round8/stability.md` Prop 6.1; **proved**).
 5. **$S$-unit and Subspace arguments with thresholds depending on $S$ only through $|S|$.** These give at best
@@ -585,6 +617,9 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 21: low-height window (open) | `round21/README.md` |
 | fake circles and capped classes | `round4/outside.md`, `round5/construct.md`, `round8/lw.md`, `round10/analytic.md` |
 | mean-width Thm B, Cor C3 (auxiliary forms capped) | `threshold/construct.md` |
+| round 26: zero estimates vs route 5's ZE; spectral LP cap; target ZE$^{\rm all}_H$ | `round26/README.md`, `round26/ze.md` (with `referee_ze.md`) |
+| round 27: dP2 calibration, uniqueness of extremal measures, split cones, multi-shift criterion | `round27/README.md` (with `kill_*.md`) |
+| papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check
 

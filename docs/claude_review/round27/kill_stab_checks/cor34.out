@@ -1,0 +1,7 @@
+(A) root-product classes D (D.beta = 8t): 120 tested, 0 with h^0(pi*D - tE) >= 2  [0.1s]
+(B) random classes with D.beta = 8t: 200 tested, 0 effective, 0 with h^0 >= 2  [0.3s]
+(C) defect search over 3000 supports [13.4s]: defects found [4, 6, 7, 8, 9, 10, 11, 12]
+   s = 4 example support [(0, 0, 0, -1), (0, 0, 0, 0), (0, 1, 0, -1)]
+   s = 6 example support [(0, 0, 0, 0), (0, 1, 0, -1), (1, 0, 0, 0)]
+   s = 7 example support [(0, 0, 0, 0), (0, 1, 0, -1), (0, 1, 0, 0), (1, -1, 0, 0), (1, 0, -1, 0), (1, 0, 0, 0), (1, 1, -1, -1)]
+(D) 1736 random classes with D.beta - 8t in {1,2,3}: pencils found for s = [] [0.5s]

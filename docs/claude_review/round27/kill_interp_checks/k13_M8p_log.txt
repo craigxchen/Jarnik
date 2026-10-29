@@ -1,0 +1,13 @@
+|A| = 1877
+M8' e=0 H=1 dim sum=1 SHIFT=True (1s)
+M8' e=1 H=7 dim sum=7 SHIFT=True (2s)
+M8' e=2 H=28 dim sum=28 SHIFT=True (5s)
+M8' e=3 H=77 dim sum=77 SHIFT=True (8s)
+M8' e=4 H=161 dim sum=161 SHIFT=True (13s)
+M8' e=5 H=266 dim sum=266 SHIFT=True (20s)
+M8' e=6 H=357 dim sum=357 SHIFT=True (32s)
+M8' e=7 H=386 dim sum=386 SHIFT=True (46s)
+M8' e=8 H=329 dim sum=329 SHIFT=True (65s)
+M8' e=9 H=195 dim sum=195 SHIFT=True (91s)
+M8' e=10 H=63 dim sum=63 SHIFT=True (126s)
+M8' e=11 H=7 dim sum=0 SHIFT=False (183s)

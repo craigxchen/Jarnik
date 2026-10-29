@@ -1,0 +1,4 @@
+dim M_e(A) 287 dim sum 286
+dim (sum)^perp 638 dim J(A)_e 637
+products of 6 distinct column forms: total 7 ; in cap J(A_l) but not J(A): 0
+[]

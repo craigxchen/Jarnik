@@ -1,0 +1,12 @@
+sdc7 L 2 #patterns 14 |A| 757
+H_A (graded): [1, 7, 28, 77, 161, 251, 188, 43, 1]
+#shifts 98
+e 0 dim M_e(A) 1 dim sum M_e(A_l) 1 SHIFT 0.0s
+e 1 dim M_e(A) 7 dim sum M_e(A_l) 7 SHIFT 0.2s
+e 2 dim M_e(A) 28 dim sum M_e(A_l) 28 SHIFT 0.3s
+e 3 dim M_e(A) 77 dim sum M_e(A_l) 77 SHIFT 0.3s
+e 4 dim M_e(A) 161 dim sum M_e(A_l) 161 SHIFT 1.6s
+e 5 dim M_e(A) 251 dim sum M_e(A_l) 251 SHIFT 2.8s
+e 6 dim M_e(A) 188 dim sum M_e(A_l) 166 FAIL 13.5s
+e 7 dim M_e(A) 43 dim sum M_e(A_l) 0 FAIL 17.5s
+e 8 dim M_e(A) 1 dim sum M_e(A_l) 0 FAIL 37.9s

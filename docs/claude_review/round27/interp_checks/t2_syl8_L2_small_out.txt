@@ -1,0 +1,12 @@
+syl8 L 2 #patterns 7 |A| 1037
+H_A (graded): [1, 7, 28, 77, 161, 259, 287, 175, 42]
+#shifts 98
+e 0 dim M_e(A) 1 dim sum M_e(A_l) 1 SHIFT 0.0s
+e 1 dim M_e(A) 7 dim sum M_e(A_l) 7 SHIFT 0.3s
+e 2 dim M_e(A) 28 dim sum M_e(A_l) 28 SHIFT 0.5s
+e 3 dim M_e(A) 77 dim sum M_e(A_l) 77 SHIFT 0.6s
+e 4 dim M_e(A) 161 dim sum M_e(A_l) 161 SHIFT 1.3s
+e 5 dim M_e(A) 259 dim sum M_e(A_l) 259 SHIFT 2.3s
+e 6 dim M_e(A) 287 dim sum M_e(A_l) 286 FAIL 41.9s
+e 7 dim M_e(A) 175 dim sum M_e(A_l) 141 FAIL 43.0s
+e 8 dim M_e(A) 42 dim sum M_e(A_l) 0 FAIL 60.3s

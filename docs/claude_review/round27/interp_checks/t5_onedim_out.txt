@@ -1,0 +1,8 @@
+S = [0, 1, 3, 10, 11, 13]
+  m 1 dim V(S,m) 5 gcd of P_c: y - 1
+  m 2 dim V(S,m) 4 gcd of P_c: (y - 1)**2
+  m 3 dim V(S,m) 3 gcd of P_c: (y - 1)**3
+  m 4 dim V(S,m) 2 gcd of P_c: (y - 1)**4
+  m 5 dim V(S,m) 1 gcd of P_c: (y - 1)**5*(462*y**8 + 2310*y**7 + 4473*y**6 + 6173*y**5 + 6925*y**4 + 6537*y**3 + 5110*y**2 + 3038*y + 1008)/462
+  shift criterion certifies ZE^all(S,m) for m <= 3
+  zeta (max order of a cyclotomic-product form supported in S): 2 (y - 1)**2*(y + 1)**2*(y**4 - y**3 + y**2 - y + 1)*(y**4 + y**3 + y**2 + y + 1)

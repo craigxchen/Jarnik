@@ -1,0 +1,2 @@
+profile [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4] N= 2 unknowns 39 equations 32
+tries 2300 degenerate converged 1794 best residual 8.91087747853922e-19

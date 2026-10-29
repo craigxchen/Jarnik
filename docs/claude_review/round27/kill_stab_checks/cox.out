@@ -1,0 +1,14 @@
+Prop 1.1/1.2 on 400 random genuine one-class profiles (pi=a+bi, b>a>0):
+   param        failures/occurrences: 0
+   primitive    failures/occurrences: 0
+   norms        failures/occurrences: 0
+   Qprim        failures/occurrences: 0
+   zeta_eq_GQ   failures/occurrences: 0
+   dist         failures/occurrences: 0
+   tri          failures/occurrences: 0
+   tri5         failures/occurrences: 0
+   x_t          failures/occurrences: 0
+   quad         failures/occurrences: 0
+   coincide     failures/occurrences: 181
+(Ch) <=> primitive & canonical: agree 3000, disagree 0; (Ch) held in 523/3000
+Prop 1.1(iii) example: primitive True exponents of pi [2, 3, 0, 2, 3] canonical nontrivial blocks {(3,): (-3, -4), (1, 3, 4): (1, -2)} vs input {(3,): (1, -2), (1, 3): (1, -2), (3, 4): (1, -2)}

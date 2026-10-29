@@ -1,0 +1,16 @@
+f(0,0,1) = 1
+pure-power leading monomials (var index: exponent), modulus None : {2: 7, 0: 3, 1: 3}
+pure-power leading monomials (var index: exponent), modulus 3 : {2: 7, 0: 3, 1: 3}
+pure-power leading monomials (var index: exponent), modulus 5 : {2: 7, 1: 5, 0: 3}
+w1 = x - y/2
+w2 = -x**2/2 - x*y/2 + 3*y**2/8
+w3 = x**3/2 + 5*x**2*y/4 - 5*x*y**2/8 + 19*y**3/16
+T = -x**2/2 - x*y/2 + x*z + 3*y**2/8 - y*z/2 + z**2
+f - T^2 has z-degree 1 ; F3 = x**3 + 5*x**2*y/2 - 5*x*y**2/4 + 19*y**3/8 ; F4' = -x**4/4 + x**3*y/2 + x**2*y**2/8 - 13*x*y**3/8 + 119*y**4/64
+2*w3 == F3 ? True
+deg F3(1,t) = 3  deg F4'(1,t) = 4
+Res_t(F3(1,t),F4'(1,t)) = -80353/1024
+at direction (0,1): F3 = 19/8  F4' = 119/64
+8*F3(1,t) = 19*t**3 - 10*t**2 + 20*t + 8  irreducible over Q: True  disc = -1707008 {2: 10, 1667: 1, -1: 1}
+real roots: 1
+disc of f on line (m, m t, 1): (1, [(t, 2), (4360*t**10 - 17304*t**9 + 24756*t**8 - 22260*t**7 + 1576*t**6 + 8924*t**5 - 12571*t**4 + 1792*t**3 + 1064*t**2 - 1728*t - 432, 1)])

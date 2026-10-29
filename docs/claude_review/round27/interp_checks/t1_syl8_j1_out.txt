@@ -1,0 +1,6 @@
+d 7 j 1 |A| 57 of 2187
+e 0 dim M_e(A) 1 dim sum M_e(A_l) 1 SHIFT 0.0s
+e 1 dim M_e(A) 7 dim sum M_e(A_l) 7 SHIFT 0.0s
+e 2 dim M_e(A) 28 dim sum M_e(A_l) 28 SHIFT 0.0s
+e 3 dim M_e(A) 21 dim sum M_e(A_l) 0 FAIL 0.1s
+e 4 dim M_e(A) 0 dim sum M_e(A_l) 0 SHIFT 0.2s

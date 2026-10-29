@@ -1,0 +1,2 @@
+sdc7 L 2 |A| 757 #diff shifts 30296 largest |A_l| 338
+e 6 dim M_e(A) 188 dim sum over 15820 shifts 166 FAIL 298.8s

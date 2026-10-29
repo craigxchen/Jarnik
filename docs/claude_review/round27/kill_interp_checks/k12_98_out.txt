@@ -1,0 +1,2 @@
+syl8 e=6 with 98 shifts {+-e_x, +-e_x+-e_y}: H=287 dim sum=286 SHIFT=False
+syl8 e=6 with the 98 plus all 280 weight-3 shifts: H=287 dim sum=286 SHIFT=False

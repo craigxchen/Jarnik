@@ -1,0 +1,1 @@
+syl8 e=6 with 2128 shifts (cube): H_A(6)=287 dim sum=287 SHIFT_6=True

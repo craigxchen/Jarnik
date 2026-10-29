@@ -1,0 +1,5 @@
+n = 1 {'sets': 450, 'tight': 375, 'viol': 0, 'nonzero_at_ceil': 375}
+n = 2 {'sets': 1350, 'tight': 706, 'viol': 0, 'nonzero_at_ceil': 706}
+n = 3 {'sets': 1950, 'tight': 871, 'viol': 0, 'nonzero_at_ceil': 871}
+n = 4 {'sets': 2130, 'tight': 913, 'viol': 0, 'nonzero_at_ceil': 913}
+FINAL {'sets': 2130, 'tight': 913, 'viol': 0, 'nonzero_at_ceil': 913}

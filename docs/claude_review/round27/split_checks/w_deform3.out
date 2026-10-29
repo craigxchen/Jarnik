@@ -1,0 +1,7 @@
+degrees [7, 8, 8, 7, 7]
+common factor degree 0
+number of places 14  set sizes [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4]
+residual of W-curve at cusp points 4.440892098500626e-16
+cusp check: |u/u5-1| at distance 1e-3: 1.3431035220667908e-06
+four-branch family targets hit: 8 /8; residuals [5.7e-14 9.1e-14 1.5e-13 6.2e-13 9.1e-13 1.0e-13 6.5e-14 5.8e-14]
+cusp-constrained (W-curves) targets hit: 0 /8; residuals [5.6e-02 2.2e+02 9.0e-03 1.3e-01 1.7e-01 1.3e-02 1.2e-02 1.6e-01]

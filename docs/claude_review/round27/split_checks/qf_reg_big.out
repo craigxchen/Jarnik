@@ -1,0 +1,6 @@
+n= 5 |S|= 4577
+  d= 17 rank 4577 of 4577 (51s)
+W n= 5 reg= 17 reg/n= 3.4  vs 15/4
+n= 6 |S|= 8892
+FLINT exception (General error):
+    Unable to allocate memory (8).

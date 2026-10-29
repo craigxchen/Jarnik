@@ -1,0 +1,5 @@
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round27/kill_interp_checks/k9_allshifts.py:1: SyntaxWarning: invalid escape sequence '\ '
+  """K9: syl8 / sdc7 (L = 2) at e = 6 with ALL shifts l in {-1,0,1}^7 \ 0 (2186) and with all l in {-2..2}^7 having
+   shift 0 of 2128 dim sum 99 of 287
+   shift 200 of 2128 dim sum 286 of 287
+syl8 e=6 with 2128 shifts (cube): H_A(6)=287 dim sum=287 SHIFT_6=True (48s)

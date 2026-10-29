@@ -1,0 +1,3 @@
+Lemma 3.1: 300 cases (non-simple profiles, 2-4 layers/prime): divisibility fails 0, norm identity fails 0, subadditivity fails 0; max per-prime chain deficit 51.98
+example a(p)=(2,1,0,1,0), m=e1-e2+e3-e4: layer sets [[1, 2, 4], [1]] layer widths [1, 1] width(a(p)) = 0 -> deficit per prime = 2 log p
+cut values <m,1_A>: {(1,): 1, (2,): -1, (3,): 1, (4,): -1, (1, 2): 0, (1, 3): 2, (1, 4): 0, (2, 3): 0, (2, 4): -2, (3, 4): 0, (1, 2, 3): 1, (1, 2, 4): -1, (1, 3, 4): 1, (2, 3, 4): -1, (1, 2, 3, 4): 0}  sum|.| = 12

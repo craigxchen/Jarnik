@@ -1,0 +1,8 @@
+S' = [(0, 5), (1, 3), (1, 5), (2, 2), (3, 4), (4, 0), (4, 5)] l0 = (7, 3) |S| = 14
+graded H_S (mod P): [1, 2, 3, 4, 4]  graded H_S': [1, 2, 3, 1]
+shift criterion certifies ZE^all(S,m) for m <= 3 (rho = 4 )
+zeta(S) (max order of binomial-product form found in S; numeric search) = 2
+  exact: e 0 dim M_e(S) 1 dim sum_l M_e(S_l) 1 SHIFT
+  exact: e 1 dim M_e(S) 2 dim sum_l M_e(S_l) 2 SHIFT
+  exact: e 2 dim M_e(S) 3 dim sum_l M_e(S_l) 3 SHIFT
+  exact: e 3 dim M_e(S) 4 dim sum_l M_e(S_l) 1 FAIL

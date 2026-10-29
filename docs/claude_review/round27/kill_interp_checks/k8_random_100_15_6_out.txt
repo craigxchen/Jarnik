@@ -1,0 +1,15 @@
+seed=100 n=6 r=7 L=1 |A|=69 rho=5 H=[1, 5, 15, 24, 19, 5, 0] criterion reach=4 zeta>=5 ZONOTOPE BEATS CRITERION
+seed=101 n=6 r=8 L=2 |A|=185 rho=8 H=[1, 5, 15, 30, 45, 47, 31, 10, 1, 0] criterion reach=6 zeta>=7 ZONOTOPE BEATS CRITERION
+seed=102 n=6 r=7 L=2 |A|=183 rho=7 H=[1, 5, 15, 30, 45, 47, 31, 9, 0] criterion reach=7 zeta=7 equal
+seed=103 n=6 r=12 L=1 |A|=41 rho=4 H=[1, 5, 15, 15, 5, 0] criterion reach=3 zeta>=4 ZONOTOPE BEATS CRITERION
+seed=104 n=6 r=5 L=2 |A|=213 rho=8 H=[1, 5, 15, 30, 45, 50, 40, 21, 6, 0] criterion reach=8 zeta=8 equal
+seed=105 n=6 r=10 L=1 |A|=49 rho=4 H=[1, 5, 15, 19, 9, 0] criterion reach=4 zeta=4 equal
+seed=106 n=6 r=12 L=1 |A|=49 rho=4 H=[1, 5, 15, 19, 9, 0] criterion reach=4 zeta=4 equal
+seed=107 n=6 r=8 L=2 |A|=177 rho=7 H=[1, 5, 15, 30, 45, 46, 28, 7, 0] criterion reach=6 zeta>=7 ZONOTOPE BEATS CRITERION
+seed=108 n=6 r=7 L=1 |A|=67 rho=5 H=[1, 5, 15, 24, 18, 4, 0] criterion reach=4 zeta>=5 ZONOTOPE BEATS CRITERION
+seed=109 n=6 r=9 L=1 |A|=53 rho=5 H=[1, 5, 15, 19, 11, 2, 0] criterion reach=4 zeta>=5 ZONOTOPE BEATS CRITERION
+seed=110 n=6 r=11 L=1 |A|=45 rho=4 H=[1, 5, 15, 17, 7, 0] criterion reach=4 zeta=4 equal
+seed=111 n=6 r=8 L=2 |A|=193 rho=8 H=[1, 5, 15, 30, 45, 47, 33, 14, 3, 0] criterion reach=7 zeta>=8 ZONOTOPE BEATS CRITERION
+seed=112 n=6 r=12 L=1 |A|=39 rho=4 H=[1, 5, 15, 14, 4, 0] criterion reach=3 zeta>=4 ZONOTOPE BEATS CRITERION
+seed=113 n=6 r=5 L=1 |A|=117 rho=7 H=[1, 5, 15, 27, 32, 24, 11, 2, 0] criterion reach=6 zeta>=7 ZONOTOPE BEATS CRITERION
+seed=114 n=6 r=8 L=1 |A|=55 rho=5 H=[1, 5, 15, 21, 12, 1, 0] criterion reach=4 zeta>=5 ZONOTOPE BEATS CRITERION

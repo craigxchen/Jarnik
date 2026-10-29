@@ -1,0 +1,7 @@
+18866 |S| 2 reg 1 mincost 2.0 ratio 2reg/mincost 1.0
+18867 |S| 6 reg 2 mincost 4.0 ratio 2reg/mincost 1.0
+18873 |S| 8 reg 3 mincost 6.0 ratio 2reg/mincost 1.0
+18875 |S| 8 reg 3 mincost 6.0 ratio 2reg/mincost 1.0
+done 18875 best 1.0
+
+[exited with code 0]

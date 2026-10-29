@@ -1,0 +1,14 @@
+degrees [7, 8, 8, 7, 7]
+common factor degree 0
+number of places 14  set sizes [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4]
+residual of W-curve at cusp points 4.440892098500626e-16
+cusp check: |u/u5-1| at distance 1e-3: 1.3431035220667908e-06
+e=0.0: residual 1.1e-15, solution-set dim 14, dominance sv/sv0 = [1.000e+00 2.941e-02 2.250e-03 5.070e-04]
+e=0.01: residual 1.7e-15, solution-set dim 6, dominance sv/sv0 = [1.000e+00 5.095e-04 3.789e-05 4.024e-06]
+e=0.02: residual 1.4e-15, solution-set dim 6, dominance sv/sv0 = [1.000e+00 6.567e-04 5.777e-05 4.091e-06]
+e=0.05: residual 1.6e-15, solution-set dim 6, dominance sv/sv0 = [1.000e+00 1.277e-03 7.337e-05 4.096e-06]
+e=0.1: residual 1.1e-15, solution-set dim 6, dominance sv/sv0 = [1.000e+00 2.401e-03 7.604e-05 4.049e-06]
+e=0.2: residual 1.7e-15, solution-set dim 6, dominance sv/sv0 = [1.000e+00 4.481e-03 7.370e-05 3.865e-06]
+e=0.3: residual 4.9e-15, solution-set dim 6, dominance sv/sv0 = [1.000e+00 6.122e-03 6.871e-05 3.607e-06]
+e=0.5: residual 1.5e-15, solution-set dim 6, dominance sv/sv0 = [1.000e+00 7.771e-03 5.475e-05 3.101e-06]
+e=0.8: residual 8.0e-15, solution-set dim 6, dominance sv/sv0 = [1.000e+00 7.455e-03 3.507e-05 3.077e-06]

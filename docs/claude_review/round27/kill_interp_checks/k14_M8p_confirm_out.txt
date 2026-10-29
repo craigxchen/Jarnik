@@ -1,0 +1,6 @@
+M8' p=1000000007 e=8 H=329 dim sum=329 SHIFT=True
+M8' p=1000000007 e=9 H=195 dim sum=195 SHIFT=True
+M8' p=1000000007 e=10 H=63 dim sum=63 SHIFT=True
+M8' p=1000000007 e=11 H=7 dim sum=0 SHIFT=False
+M8' order-10 zonotope: all 1024 points in A: True; c in V(A,10): True; c in V(A,11): False; |c|_inf=2
+syl8 L=1: |A|=57 H=[1, 7, 28, 21, 0] reach=3

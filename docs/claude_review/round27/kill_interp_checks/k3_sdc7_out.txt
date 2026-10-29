@@ -1,0 +1,21 @@
+sdc7 profile ((0, 1, 2, 4), (0, 1, 2, 6), (0, 1, 3, 4), (0, 1, 3, 7), (0, 1, 5, 6), (0, 1, 5, 7), (0, 2, 3, 5), (0, 2, 3, 7), (0, 2, 4, 5), (0, 2, 6, 7), (0, 3, 4, 6), (0, 3, 5, 6), (0, 4, 5, 7), (0, 4, 6, 7)) |A| = 757
+  p=2147483629 e=0 H_A(e)=1 dim sum_{L_pair} M_e(A_l)=1 SHIFT=True  (0.1s)
+  p=2147483629 e=1 H_A(e)=7 dim sum_{L_pair} M_e(A_l)=7 SHIFT=True  (0.3s)
+  p=2147483629 e=2 H_A(e)=28 dim sum_{L_pair} M_e(A_l)=28 SHIFT=True  (0.5s)
+  p=2147483629 e=3 H_A(e)=77 dim sum_{L_pair} M_e(A_l)=77 SHIFT=True  (0.9s)
+  p=2147483629 e=4 H_A(e)=161 dim sum_{L_pair} M_e(A_l)=161 SHIFT=True  (2.5s)
+  p=2147483629 e=5 H_A(e)=251 dim sum_{L_pair} M_e(A_l)=251 SHIFT=True  (5.3s)
+  p=2147483629 e=6 H_A(e)=188 dim sum_{L_pair} M_e(A_l)=166 SHIFT=False  (17.7s)
+  p=2147483629 e=7 H_A(e)=43 dim sum_{L_pair} M_e(A_l)=0 SHIFT=False  (28.7s)
+  p=2147483629 e=8 H_A(e)=1 dim sum_{L_pair} M_e(A_l)=0 SHIFT=False  (50.4s)
+  p=2147483629 graded H_A(0..8) = [1, 7, 28, 77, 161, 251, 188, 43, 1]
+  p=1000000007 e=0 H_A(e)=1 dim sum_{L_pair} M_e(A_l)=1 SHIFT=True  (0.1s)
+  p=1000000007 e=1 H_A(e)=7 dim sum_{L_pair} M_e(A_l)=7 SHIFT=True  (0.5s)
+  p=1000000007 e=2 H_A(e)=28 dim sum_{L_pair} M_e(A_l)=28 SHIFT=True  (1.0s)
+  p=1000000007 e=3 H_A(e)=77 dim sum_{L_pair} M_e(A_l)=77 SHIFT=True  (1.3s)
+  p=1000000007 e=4 H_A(e)=161 dim sum_{L_pair} M_e(A_l)=161 SHIFT=True  (2.8s)
+  p=1000000007 e=5 H_A(e)=251 dim sum_{L_pair} M_e(A_l)=251 SHIFT=True  (6.0s)
+  p=1000000007 e=6 H_A(e)=188 dim sum_{L_pair} M_e(A_l)=166 SHIFT=False  (18.0s)
+  p=1000000007 e=7 H_A(e)=43 dim sum_{L_pair} M_e(A_l)=0 SHIFT=False  (27.1s)
+  p=1000000007 e=8 H_A(e)=1 dim sum_{L_pair} M_e(A_l)=0 SHIFT=False  (47.1s)
+  p=1000000007 graded H_A(0..8) = [1, 7, 28, 77, 161, 251, 188, 43, 1]

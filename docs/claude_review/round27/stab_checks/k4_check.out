@@ -1,0 +1,23 @@
+(1) Im Pi_x(s):
+   x=1  Im P_x = -420
+   x=2  Im P_x = -180
+   x=3  Im P_x = -240
+(2) along s:
+   s=107                    gcd norm=10368000   max|c_ab|^2=162    log N/log s=10.669
+   s=1007                   gcd norm=10368000   max|c_ab|^2=162    log N/log s=11.673
+   s=10007                  gcd norm=10368000   max|c_ab|^2=162    log N/log s=12.247
+   s=100007                 gcd norm=10368000   max|c_ab|^2=162    log N/log s=12.597
+   s=1000007                gcd norm=10368000   max|c_ab|^2=162    log N/log s=12.831
+   s=10000007               gcd norm=10368000   max|c_ab|^2=162    log N/log s=12.998
+   s=100000007              gcd norm=10368000   max|c_ab|^2=162    log N/log s=13.123
+   s=1000000007             gcd norm=10368000   max|c_ab|^2=162    log N/log s=13.220
+   s=10000000007            gcd norm=10368000   max|c_ab|^2=162    log N/log s=13.298
+   s=100000000007           gcd norm=10368000   max|c_ab|^2=162    log N/log s=13.362
+   s=1000000000007          gcd norm=10368000   max|c_ab|^2=162    log N/log s=13.415
+   s=123456789012345678901  gcd norm=32000      max|c_ab|^2=14400  log N/log s=13.776
+   singleton decoupling (gamma_x unique short solution): True
+(3) tight-section rigidity at k=4 (n=3 coordinates after dropping the base coordinate):
+   V_4 (all 6 pairs) |S|=38   MW=6 reg=6 dim A_MW=1
+   V_4 squared      |S|=201  MW=12 reg=12 dim A_MW=1
+   (12)(34)         |S|=4    MW=2 reg=2 dim A_MW=1
+   (12)(13)(23)     |S|=7    MW=3 reg=3 dim A_MW=1

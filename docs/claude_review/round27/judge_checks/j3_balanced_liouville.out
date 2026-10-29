@@ -1,0 +1,7 @@
+3 alpha_bal = 3 dim = 2 alpha_bal<dim: False | 4/(1+2 delta_L) = 3 equal: True | kappa(delta_L) = -1/3
+4 alpha_bal = 7/2 dim = 3 alpha_bal<dim: False | 4/(1+2 delta_L) = 7/2 equal: True | kappa(delta_L) = -1/7
+5 alpha_bal = 15/4 dim = 4 alpha_bal<dim: True | 4/(1+2 delta_L) = 15/4 equal: True | kappa(delta_L) = 1/15
+6 alpha_bal = 31/8 dim = 5 alpha_bal<dim: True | 4/(1+2 delta_L) = 31/8 equal: True | kappa(delta_L) = 9/31
+7 alpha_bal = 63/16 dim = 6 alpha_bal<dim: True | 4/(1+2 delta_L) = 63/16 equal: True | kappa(delta_L) = 11/21
+8 alpha_bal = 127/32 dim = 7 alpha_bal<dim: True | 4/(1+2 delta_L) = 127/32 equal: True | kappa(delta_L) = 97/127
+9 alpha_bal = 255/64 dim = 8 alpha_bal<dim: True | 4/(1+2 delta_L) = 255/64 equal: True | kappa(delta_L) = 257/255

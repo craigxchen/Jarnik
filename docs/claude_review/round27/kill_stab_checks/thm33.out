@@ -1,0 +1,18 @@
+E1: box (4, 1) all 1023 subsets, 0.2s
+E2: box (1, 1, 1) all 255 subsets, 0.0s
+E3: box (2, 1, 1) all 4095 subsets, 1.1s
+E4: box (5, 1) all 4095 subsets, 1.1s
+E5: box (1, 1, 1, 1) all 65535 subsets, 42.7s
+after exhaustive: 75003 sets 386 tight 0 B fails 0 T3.3 fails
+R5: n=5 box [0,2] 1500 random sets size (2, 14), 12.4s
+R6: n=6 box [0,1] 800 random sets size (2, 14), 3.2s
+R3: n=3 box [0,4] 2000 random sets size (2, 16), 5.1s
+Z3: n=3 1500 zonotope-derived sets, 0.9s
+Z4: n=4 1000 zonotope-derived sets, 1.5s
+Z5: n=5 300 zonotope-derived sets, 0.7s
+C3: n=3 400 cut closures in [0,3]^3, 1.7s
+C4: n=4 200 cut closures in [0,2]^4, 0.9s
+TOTAL sets 82703 tight(dim A_ceilMW = 1) 1638
+Theorem B failures 0 []
+Theorem 3.3 failures 0 []
+tight with non-integer MW (impossible if Thm B): 0

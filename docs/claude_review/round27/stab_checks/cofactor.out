@@ -1,0 +1,8 @@
+(1) Lemma 3.1: 316/316 exact identities hold; max chain deficit seen = 42.12
+(3) Pell x=37           max chain deficit over S={0,e_a-e_b+e_c-e_d}: 4.80   (w ~ log x/2 = 1.8)
+(3) Pell x=1109         max chain deficit over S={0,e_a-e_b+e_c-e_d}: 4.61   (w ~ log x/2 = 3.5)
+(3) Pell x=33233        max chain deficit over S={0,e_a-e_b+e_c-e_d}: 4.39   (w ~ log x/2 = 5.2)
+(3) Pell x=995881       max chain deficit over S={0,e_a-e_b+e_c-e_d}: 5.99   (w ~ log x/2 = 6.9)
+(3) Pell x=29843197     max chain deficit over S={0,e_a-e_b+e_c-e_d}: 5.42   (w ~ log x/2 = 8.6)
+(3) Pell x=894300029    max chain deficit over S={0,e_a-e_b+e_c-e_d}: 6.80   (w ~ log x/2 = 10.3)
+(3) Pell x=26799157673  max chain deficit over S={0,e_a-e_b+e_c-e_d}: 6.36   (w ~ log x/2 = 12.0)

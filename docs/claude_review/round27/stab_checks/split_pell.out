@@ -1,0 +1,8 @@
+x=1: nonpositive entries, skip
+x=37           cox_ok=True residues U_a-V_a=[8, 5, 9, 5]  log n_A range=[0.0,3.8] (log x=3.6)  alpha=6.5143
+x=1109         cox_ok=True residues U_a-V_a=[1, 5, 1, 1]  log n_A range=[0.0,7.2] (log x=7.0)  alpha=4.6651
+x=33233        cox_ok=True residues U_a-V_a=[8, 1, 1, 1]  log n_A range=[1.4,9.9] (log x=10.4)  alpha=4.3679
+x=995881       cox_ok=True residues U_a-V_a=[1, 1, 9, 5]  log n_A range=[1.4,10.6] (log x=13.8)  alpha=4.1969
+x=29843197     cox_ok=True residues U_a-V_a=[8, 5, 9, 5]  log n_A range=[6.7,10.6] (log x=17.2)  alpha=4.0970
+x=894300029    cox_ok=True residues U_a-V_a=[1, 5, 1, 1]  log n_A range=[6.8,14.0] (log x=20.6)  alpha=4.0071
+x=26799157673  cox_ok=True residues U_a-V_a=[8, 1, 1, 1]  log n_A range=[8.2,16.7] (log x=24.0)  alpha=3.9913

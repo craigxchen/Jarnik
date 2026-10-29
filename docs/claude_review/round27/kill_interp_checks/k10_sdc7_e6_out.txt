@@ -1,0 +1,1 @@
+sdc7 e=6 with 2002 cube shifts: H_A(e)=188 dim sum=166 SHIFT_e=False (30s)

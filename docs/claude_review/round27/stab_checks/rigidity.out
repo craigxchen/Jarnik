@@ -1,0 +1,9 @@
+exhaustive n=1 box=[6]: {'tot': 63, 'B_viol': 0, 'R_viol': 0, 'C_viol': 0, 'tight': 21, 'tight_dim1': 21}
+exhaustive n=2 box=[3, 3]: {'tot': 511, 'B_viol': 0, 'R_viol': 0, 'C_viol': 0, 'tight': 47, 'tight_dim1': 47}
+exhaustive n=2 box=[4, 3]: {'tot': 4095, 'B_viol': 0, 'R_viol': 0, 'C_viol': 0, 'tight': 83, 'tight_dim1': 83}
+exhaustive n=3 box=[2, 2, 2]: {'tot': 255, 'B_viol': 0, 'R_viol': 0, 'C_viol': 0, 'tight': 36, 'tight_dim1': 36}
+exhaustive n=3 box=[3, 2, 2]: {'tot': 4095, 'B_viol': 0, 'R_viol': 0, 'C_viol': 0, 'tight': 79, 'tight_dim1': 79}
+random n=3 side=4: {'tot': 4000, 'B_viol': 0, 'R_viol': 0, 'C_viol': 0, 'tight': 4, 'tight_dim1': 4}
+random n=4 side=3: {'tot': 3000, 'B_viol': 0, 'R_viol': 0, 'C_viol': 0, 'tight': 2, 'tight_dim1': 2}
+k=5 zonotope sumsets: {'tot': 1500, 'B_viol': 0, 'R_viol': 0, 'C_viol': 0, 'tight': 1500, 'tight_dim1': 1500}
+k=5 random subsets of zonotope sumsets: {'tot': 1500, 'B_viol': 0, 'R_viol': 0, 'C_viol': 0, 'tight': 705, 'tight_dim1': 705}

@@ -160,8 +160,15 @@ equals `tau >= dim`, and the only route to `alpha^ess_e(-K) >= 4` is Vojta (the 
 smooth projective `X` with `-K` big, not only split ones). It corrects several citations in round 22, round 23 and the
 expert note, and proposes a degree-2 del Pezzo surface (`tau = 3/2 < 2 = dim` at a general rational point) as the
 2-dimensional test case of the same "beyond Liouville at a rational point" problem.
+Round 27 (`round27/README.md`) was an invention round with four lanes (dP2 calibration, stability of near-tight
+Liouville, the split twin, route 5's zero estimate) and adversarial killers. Nothing moves the growth rate or the uniform
+bound. New and correct: uniqueness of mean-width-extremal measures (so no tight pencils exist on `Bl_e X`); a
+multi-shift linear-algebra criterion that would give `M = O(loglog R)` from a rank condition on the slab box (open, mixed
+evidence); the split exceptional set must contain 15 quadric cones and 15 cubic threefolds from the second 2026
+five-divisor construction; a certified dP2 instance with `tau = 3/2 < 2`; and the observation that `Bl_e LM_5` is a
+contraction of `Mbar_(0,7)` (Castravet-Tevelev).
 
-**Growth-rate status (2026-10-29, after round 26 and the papers check).** No growth improvement over `log R/loglog R` is proved, either
+**Growth-rate status (2026-10-29, after round 27).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues

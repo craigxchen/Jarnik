@@ -1,0 +1,4 @@
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round27/kill_interp_checks/k10_rich.py:1: SyntaxWarning: invalid escape sequence '\ '
+  """K10: (SHIFT_e) with the rich shift set L_cube = {-1,0,1}^d \ 0 (restricted to |A_l| > e), for given model and e.
+   shift 0 of 2002 dim sum 10 of 188
+sdc7 e=6 with 2002 cube shifts: H_A(e)=188 dim sum=166 SHIFT_e=False (30s)

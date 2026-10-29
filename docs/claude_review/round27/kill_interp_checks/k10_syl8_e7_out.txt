@@ -1,0 +1,1 @@
+syl8 e=7 with 2128 cube shifts: H_A(e)=175 dim sum=141 SHIFT_e=False (84s)

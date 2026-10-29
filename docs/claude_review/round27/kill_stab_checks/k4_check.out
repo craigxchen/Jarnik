@@ -1,0 +1,40 @@
+Im P_x(s) (sympy, s real): [-420, -180, -240]
+s=       1007 gcd norm= 10368000 max|c_ab|^2=   162 w= 11.53 balance=0.190 nonsimple=1/13 max chain deficit=0.00 fires=0
+s=      10001 gcd norm=  2592000 max|c_ab|^2=  1600 w= 16.31 balance=0.189 nonsimple=0/13 max chain deficit=0.00 fires=0
+s=     123457 gcd norm=    32000 max|c_ab|^2=  3600 w= 21.97 balance=0.037 nonsimple=0/16 max chain deficit=0.00 fires=0
+s=    1000003 gcd norm=   128000 max|c_ab|^2=  4050 w= 25.95 balance=0.077 nonsimple=0/17 max chain deficit=0.00 fires=0
+s=    9876543 gcd norm=  1152000 max|c_ab|^2=  4050 w= 30.22 balance=0.083 nonsimple=0/18 max chain deficit=0.00 fires=0
+s=  100000007 gcd norm= 10368000 max|c_ab|^2=   162 w= 34.53 balance=0.063 nonsimple=1/19 max chain deficit=0.00 fires=0
+s=  987654321 gcd norm=   288000 max|c_ab|^2=  1600 w= 39.63 balance=0.030 nonsimple=0/19 max chain deficit=0.00 fires=0
+s= 1000000009 gcd norm=     6400 max|c_ab|^2= 44100 w= 40.19 balance=0.066 nonsimple=1/17 max chain deficit=0.00 fires=0
+s=  253554709 gcd norm=     6400 max|c_ab|^2= 44100 w= 37.45 balance=0.071 nonsimple=1/22 max chain deficit=0.00 fires=0
+s=  325764383 gcd norm= 10368000 max|c_ab|^2=   162 w= 36.90 balance=0.063 nonsimple=0/19 max chain deficit=0.00 fires=0
+s=  110873681 gcd norm=  2592000 max|c_ab|^2=  1600 w= 34.94 balance=0.088 nonsimple=0/21 max chain deficit=0.00 fires=0
+s=  774500755 gcd norm=   128000 max|c_ab|^2=  4050 w= 39.26 balance=0.051 nonsimple=1/18 max chain deficit=7.22 fires=0
+s=  425364298 gcd norm=     2000 max|c_ab|^2=  9216 w= 38.65 balance=0.044 nonsimple=1/20 max chain deficit=0.00 fires=0
+s=  514291760 gcd norm=    40500 max|c_ab|^2= 32400 w= 38.60 balance=0.059 nonsimple=2/22 max chain deficit=0.00 fires=0
+s=  166500214 gcd norm=      800 max|c_ab|^2= 22050 w= 36.91 balance=0.068 nonsimple=0/19 max chain deficit=0.00 fires=0
+s=   96844404 gcd norm=      900 max|c_ab|^2= 19600 w= 35.81 balance=0.063 nonsimple=2/18 max chain deficit=5.13 fires=0
+s=   71520044 gcd norm=     8100 max|c_ab|^2= 19600 w= 34.89 balance=0.055 nonsimple=0/18 max chain deficit=0.00 fires=0
+s=   21378532 gcd norm=      500 max|c_ab|^2=230400 w= 32.87 balance=0.064 nonsimple=0/20 max chain deficit=0.00 fires=0
+s=  431305069 gcd norm=     6400 max|c_ab|^2= 44100 w= 38.51 balance=0.069 nonsimple=1/19 max chain deficit=0.00 fires=0
+s=  590015737 gcd norm=    32000 max|c_ab|^2=  3600 w= 38.91 balance=0.021 nonsimple=0/18 max chain deficit=0.00 fires=0
+s=  985746722 gcd norm=   162000 max|c_ab|^2= 25600 w= 39.70 balance=0.067 nonsimple=0/19 max chain deficit=0.00 fires=0
+s=  310814842 gcd norm=     2000 max|c_ab|^2=230400 w= 38.02 balance=0.087 nonsimple=1/19 max chain deficit=0.00 fires=0
+s=  859579167 gcd norm=  1152000 max|c_ab|^2=   162 w= 39.15 balance=0.033 nonsimple=1/16 max chain deficit=0.00 fires=0
+s=  821687094 gcd norm=     7200 max|c_ab|^2=  2450 w= 39.78 balance=0.055 nonsimple=2/20 max chain deficit=5.13 fires=0
+s=   63286545 gcd norm=   288000 max|c_ab|^2=  8100 w= 34.13 balance=0.079 nonsimple=0/13 max chain deficit=0.00 fires=0
+s=  238393563 gcd norm=  1152000 max|c_ab|^2=  4050 w= 36.59 balance=0.068 nonsimple=1/20 max chain deficit=0.00 fires=0
+s=  558810037 gcd norm=    32000 max|c_ab|^2=  3600 w= 38.80 balance=0.021 nonsimple=0/20 max chain deficit=0.00 fires=0
+s=  576355771 gcd norm=   128000 max|c_ab|^2= 14400 w= 38.66 balance=0.052 nonsimple=0/21 max chain deficit=0.00 fires=0
+s=  386910028 gcd norm=      500 max|c_ab|^2= 32400 w= 38.66 balance=0.023 nonsimple=0/19 max chain deficit=0.00 fires=0
+s=  297185726 gcd norm=   324000 max|c_ab|^2= 25600 w= 37.21 balance=0.088 nonsimple=0/21 max chain deficit=0.00 fires=0
+s=  837345412 gcd norm=      500 max|c_ab|^2=230400 w= 40.20 balance=0.052 nonsimple=3/17 max chain deficit=5.13 fires=0
+s=  185497122 gcd norm=    18000 max|c_ab|^2= 25600 w= 36.68 balance=0.081 nonsimple=1/20 max chain deficit=0.00 fires=0
+s=  887946706 gcd norm=     2000 max|c_ab|^2=230400 w= 40.12 balance=0.082 nonsimple=0/22 max chain deficit=0.00 fires=0
+s=  114113443 gcd norm=   128000 max|c_ab|^2=  4050 w= 35.43 balance=0.057 nonsimple=2/18 max chain deficit=0.00 fires=0
+s=  281119256 gcd norm=    40500 max|c_ab|^2= 25600 w= 37.39 balance=0.061 nonsimple=0/18 max chain deficit=0.00 fires=0
+s=  230310706 gcd norm=     2000 max|c_ab|^2=230400 w= 37.42 balance=0.088 nonsimple=0/19 max chain deficit=0.00 fires=0
+s=  995969378 gcd norm=   162000 max|c_ab|^2=  1024 w= 39.72 balance=0.043 nonsimple=0/15 max chain deficit=0.00 fires=0
+s=   27630394 gcd norm=      400 max|c_ab|^2= 44100 w= 33.41 balance=0.071 nonsimple=0/19 max chain deficit=0.00 fires=0
+WORST over 38 values of s: {'gcdnorm': 10368000, 'maxc2': 230400, 'maxD': 7.221835825288423, 'fire': 0, 'bal': 0.08824896531105995}
