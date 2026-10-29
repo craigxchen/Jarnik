@@ -636,9 +636,16 @@ point \(e\) of the \(4\)-fold \(T_5\).
     points}.
   \item At \(k=4\) this fails (Theorem~\ref{thm:k4false}).  On \(\PP^1\),
     Liouville is attained at every rational point.
-  \item Roth, Schmidt and Ru--Vojta with \(S=\{\infty\}\) do not apply.  The
-    target is rational and \(E\) is geometrically irreducible, so
-    \(\beta(L,E)\le\tau(L,E)\), which never goes beyond Liouville.
+  \item Roth- and Schmidt-type theorems apply but are weaker.
+    McKinnon--Roth~\cite{McKinnonRoth2015} Thm~5.1 gives, off a proper closed
+    set, \(\alpha^{\rm ess}_x\ge\beta_x(L)\), where
+    \(\beta_x(L)=\int_0^{\tau}\mathrm{Vol}(\pi^*L-\gamma E)/\mathrm{Vol}(L)\,d\gamma<\tau_x(L)\)
+    (ibid.\ p.~25).  Their Thm~6.3 gives \(\alpha_x\ge\varepsilon_x/2\), strict
+    at rational \(x\).  At \(e\) (on \(X'\)), \(\beta_e(-K)\in[2.31,2.61]\)
+    (inference), below Liouville's \(10/3\).  As McKinnon--Roth note (ibid.\
+    p.~24), at a \(k\)-rational point Liouville \(\alpha_x\ge\varepsilon_x\) is
+    ``a stronger inequality than \(\alpha_x\ge\frac12\varepsilon_x\)''
+    (\rec{papers_check/README.md} \S2.3).
   \item So this is the McKinnon--Roth regime.  According to the killer, the
     only predictions beyond Liouville/Seshadri are conjectural: Vojta, and
     McKinnon's conjecture that best approximations lie on rational curves.
@@ -647,7 +654,14 @@ point \(e\) of the \(4\)-fold \(T_5\).
     this at snippet level (two independent searches plus an offline arXiv
     mirror): no unconditional theorem with \(\alpha^{\rm ess}>\tau_x\) at a
     rational point was found for any variety (\rec{round22/README.md} \S2,
-    J3).
+    J3).  Seven full texts were then read (McKinnon--Roth 2015,
+    2016~\cite{McKinnonRoth2015,McKinnonRoth2016}; the McKinnon--Satriano
+    erratum~\cite{McKinnonSatriano2021}; Lehmann--McKinnon--Satriano
+    2024~\cite{LMS2024}; Huang ANT 2021~\cite{Huang2021}, Acta Arith.\ 2019,
+    Bull.\ SMF 2020).  Every unconditional lower bound on \(\alpha^{\rm ess}\)
+    in them is Liouville with a section, at most \(\tau_x\).  Every exact value
+    of \(\alpha^{\rm ess}\) they compute equals \(\tau\), with \(\tau\ge\dim\)
+    (\rec{papers_check/README.md}).
 \end{itemize}
 
 \subsection{The approximation-constant form at the identity}
@@ -687,7 +701,9 @@ finite family of auxiliary Laurent polynomials over \(\Q(i)\), used through
 Liouville with toric forced divisibility, gives for arbitrary profiles exactly
 the Cilleruelo--C\'ordoba exponent \(\delta=1/10\) and never more; for
 balanced profiles it gives \(\delta=1/30\).  McKinnon--Roth's base-locus
-Liouville at \(e\) is therefore exactly Cilleruelo--C\'ordoba.  The open window
+Liouville at \(e\) is therefore exactly Cilleruelo--C\'ordoba.
+(McKinnon--Roth~\cite{McKinnonRoth2016}, Thm~3.3.  It needs \(L\) ample, so it
+is applied to \(-K_{X'}\) on \(X'\).  The values are unchanged.)  The open window
 \(\alpha^{\rm ess}\in(15/4,4)\) is untouched.
 
 \(A_5(\delta<1/30)\) is exactly \(\alpha^{\rm ess}_e(-K)>15/4\) off a proper
@@ -695,20 +711,32 @@ closed set, and \((L_5^\circ)\) is the same over balanced sequences; Vojta
 predicts \(\ge4=\dim X\).
 
 \begin{named}{Question B, literature form}
-Is the twisted toric Fano \(4\)-fold \(X'\) (so that \(X'(\Q)=T_5(\Q)\) for the
-anisotropic norm-one torus \(T_5\)) \emph{canonically bounded} at the identity
-\(e\) in the sense of McKinnon--Satriano (TAMS 374 (2021)), i.e.\ does every
-Zariski-dense sequence of rational points tending to \(e\) have
-\(\alpha(-K)\ge\dim X=4\)?  Less ambitiously: is
+Is the identity \(e\) \emph{essentially bounded} on the smooth weak Fano
+\(4\)-fold \(X=\Ltw5\) (so that \(X(\Q)=T_5(\Q)\) for the anisotropic norm-one
+torus \(T_5\)), in the sense of Lehmann--McKinnon--Satriano~\cite{LMS2024}
+(Def~1.3: \(\alpha_{\rm ess}(e,-K_X+\varepsilon A)\ge\dim X\) for every ample
+\(A\) and rational \(\varepsilon>0\))?  Since \(-K_X\) is big, this is
+equivalent to \(\alpha^{\rm ess}_e(-K)\ge4\) (inference); the same constant is
+obtained on \(X'\), since \(\phi\) is an isomorphism near \(e\).  Less
+ambitiously: is
 \(\alpha^{\rm ess}_e(-K)>15/4\), at least along sequences whose \(15\) toric
 heights are asymptotically equal?
 \end{named}
 
 A yes gives the uniform Cilleruelo--Granville bound (\rec{round20/gauss.md}
-Thm~3.4\('\)).  In McKinnon--Satriano canonical boundedness is a
-\emph{hypothesis}; by their 2023 erratum Vojta implies it when \(-K\) is big.
-The record found no unconditional proof for any variety (snippet level; full
-texts unread).
+Thm~3.4\('\)).  Vojta's Main Conjecture implies it.  McKinnon--Satriano's
+erratum~\cite{McKinnonSatriano2021} (correcting their Prop~1.3) has Prop~0.1:
+``Let \(X\) be a smooth projective variety over a number field \(k\), and let
+\(P\in X(k)\) \dots\ If \(-K_X\) is big, then Vojta's Main Conjecture implies
+that \(X\) is canonically bounded at \(P\).''  Lehmann--McKinnon--Satriano
+Prop~1.4 gives the same for essential boundedness on any smooth projective
+\(X\).  Neither assumes splitness.  Both use Vojta on \(X\) with a
+normal-crossings divisor of multiplicity \(\dim X\) through \(P\), a different
+instance from \(V_E(5)\) with the same conclusion.  In
+Lehmann--McKinnon--Satriano Thm~1.5 essential boundedness is a hypothesis.  No
+unconditional proof was found for any variety where \(\tau_P(-K)<\dim X\).
+Full texts were checked for seven papers; McKinnon--Satriano (TAMS) and
+Monahan--Satriano remain unread (\rec{papers_check/README.md}).
 
 \subsection{The split calibration and \texorpdfstring{Erd\H{o}s \#887}{Erdős \#887}}
 
@@ -1028,7 +1056,9 @@ Each item below is a barrier result in the record
       \item On the Gaussian model: the forms are exactly critical
         (Lemma~\ref{lem:K1} with \rec{threshold/construct.md} Cor~C3 and
         Thm~B).
-      \item Roth and Schmidt need an irrational target, and \(e\) is rational.
+      \item Roth- and Schmidt-type bounds (McKinnon--Roth) give
+        \(\alpha^{\rm ess}\ge\beta<\tau\) at a rational target: weaker than
+        Liouville.
     \end{itemize}
   \item \emph{Single linear forms in logarithms} (Baker--Matveev, single-form
     Lang--Waldschmidt).  Fakes satisfy them (\rec{round8/lw.md} Thms~A, B;
@@ -1142,6 +1172,35 @@ J. Cilleruelo and A. Granville,
 \newblock Close lattice points on circles,
 \newblock \emph{Canadian Journal of Mathematics} \textbf{61} (2009), no. 6,
 1214--1238.
+
+\bibitem{Huang2021}
+Z. Huang,
+\newblock Rational approximations on toric varieties,
+\newblock \emph{Algebra \& Number Theory} \textbf{15} (2021), no. 2, 461--512.
+
+\bibitem{LMS2024}
+B. Lehmann, D. McKinnon and M. Satriano,
+\newblock Approximating rational points on surfaces,
+\newblock arXiv:2403.02480 (2024).
+
+\bibitem{McKinnonRoth2015}
+D. McKinnon and M. Roth,
+\newblock Seshadri constants, diophantine approximation, and Roth's theorem
+for arbitrary varieties,
+\newblock \emph{Inventiones Mathematicae} \textbf{200} (2015), 513--583.
+
+\bibitem{McKinnonRoth2016}
+D. McKinnon and M. Roth,
+\newblock An analogue of Liouville's theorem and an application to cubic
+surfaces,
+\newblock \emph{European Journal of Mathematics} \textbf{2} (2016), no. 4,
+929--959.
+
+\bibitem{McKinnonSatriano2021}
+D. McKinnon and M. Satriano,
+\newblock Approximating rational points on toric varieties,
+\newblock \emph{Transactions of the American Mathematical Society}
+\textbf{374} (2021), no. 5, 3557--3577; erratum (2023).
 
 \end{thebibliography}
 

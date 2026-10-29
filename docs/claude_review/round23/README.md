@@ -90,7 +90,9 @@ checked it exactly) and `dist([u],e) ≍ (max u - min u)/min u`.
   * A refutation needs Zariski-dense A-points, e.g. infinitely many Pell-type hypersurfaces `W_i`. PR #7218's second
     five-divisor claim (`C = 7/2`) is unexamined and may be a `W'`.
   * A disproof of #887 (absolute `K`) would refute the split statement.
-  * Vojta, via McKinnon-Satriano's erratum for toric varieties, predicts it true.
+  * Vojta, via McKinnon-Satriano's erratum, predicts it true. (Correction, `../papers_check/README.md` §2: the
+    erratum's Prop 0.1 covers every smooth projective X with -K big, not only toric varieties; it applies to the smooth
+    split `LM_5`.)
   * Exact data, `lcm <= 2·10^8`: min `gamma = 4.277` (cross-checked independently for `lcm < 2^20`). This is
     uninformative: W-points first reach `gamma < 4` at `log H ≈ 106`.
 * **Killed.** §5.3 item 2, "group/coordinate products never improve `alpha`" (**major**): the inequalities given are

@@ -1,5 +1,10 @@
 # Round 22 judge: `(L_5^circ)` through toric approximation constants (two lenses, two kill reports)
 
+> **Correction notice (2026-10-29, full-text check).** `../papers_check/README.md` §2.2 lists 12 corrections to this
+> README after reading seven of the cited papers in full. In particular, the table row grouping McKinnon–Satriano,
+> Monahan–Satriano and Lehmann–McKinnon–Satriano as "conditional on Vojta; split" is wrong: the erratum's Prop 0.1 and
+> LMS Prop 1.4 apply to every smooth projective $X$ with $-K$ big. The bottom line is unchanged.
+
 | key | write-up | kill report | lens |
 | --- | --- | --- | --- |
 | lit | `lit.md` (`lit_checks/`, `lit_notes.md`) | `kill_lit.md` (`kill_lit_checks/`, `kill_lit_notes.md`) | literature on approximating rational points (McKinnon, McKinnon-Roth, Huang, McKinnon-Satriano, Batyrev-Tschinkel), re-examining the lit18 "drifting phase" dismissal |

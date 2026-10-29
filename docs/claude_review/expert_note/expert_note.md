@@ -264,6 +264,8 @@ to the "subcritical" exponent $\frac12-\frac1{2^k-2}$ in the reduced radius (`ga
   * At $k=5$, $\kappa=2\delta$, so $V_E(5)$ with one $\varepsilon<(1/32)/c_A$ gives the uniform bound (via
     $A_5(1/64)$), and $V_E(5)$ predicts $(L_5^\circ)$.
   * The instance is non-vacuous (`gauss.md` Thm 4.2, Remark (3)). The $D=0$ form would need $k\ge6$.
+  * The literature's instance (Vojta on $X$ with a normal-crossings divisor of multiplicity 4 through $e$) gives the
+    same $\alpha^{\rm ess}\ge4$ (`papers_check/README.md` §1.3).
 * **Covering families are excluded** (`gauss.md` Thm 4.3(ii); $k\ge5$, $\delta>0$). Put $B=\pi^*\sum_\rho E_\rho$, so
   $h_B=W'$. For each $d$, the curves $C$ with $B\cdot C\le d$ that carry infinitely many "A-points" lie in a proper
   closed set. Here an A-point is the class of a primitive tuple with diameter $\le R''^{1/2-\delta}$. (Thm 4.3(i) was
@@ -287,14 +289,21 @@ $\mathrm{dist}(y,e)\le H_B(y)^{-(1/4+\delta/2)}$, approximating the **rational**
 * What is needed is that, for some $\delta<1/30$, **the Liouville exponent at $e$ is not attained by a Zariski-dense
   set of balanced points**.
 * At $k=4$ this fails (Thm 4.1). On $\mathbb P^1$, Liouville is attained at every rational point.
-* Roth, Schmidt and Ru–Vojta with $S=\{\infty\}$ do not apply. The target is rational and $E$ is geometrically
-  irreducible, so $\beta(L,E)\le\tau(L,E)$, which never goes beyond Liouville.
+* Roth- and Schmidt-type theorems apply but are weaker. McKinnon–Roth (Invent. Math. 200 (2015)) Thm 5.1 gives,
+  off a proper closed set, $\alpha^{\rm ess}_x\ge\beta_x(L)$, where
+  $\beta_x(L)=\int_0^{\tau}\mathrm{Vol}(\pi^*L-\gamma E)/\mathrm{Vol}(L)\,d\gamma<\tau_x(L)$ (ibid. p. 25). Their Thm 6.3
+  gives $\alpha_x\ge\varepsilon_x/2$, strict at rational $x$. At $e$ (on $X'$), $\beta_e(-K)\in[2.31,2.61]$ (inference),
+  below Liouville's $10/3$. As McKinnon–Roth note (ibid. p. 24), at a $k$-rational point Liouville $\alpha_x\ge\varepsilon_x$
+  is "a stronger inequality than $\alpha_x\ge\frac12\varepsilon_x$" (`papers_check/README.md` §2.3).
 * So this is the McKinnon–Roth regime. According to the killer, the only predictions beyond Liouville/Seshadri are
   conjectural: Vojta, and McKinnon's conjecture that best approximations lie on rational curves. The killer also
   knew of no unconditional theorem that beats Liouville at a rational point of such a variety on a Zariski-dense
   set. Round 22 checked this at snippet level (two independent searches plus an offline arXiv mirror): no
   unconditional theorem with $\alpha^{\rm ess}>\tau_x$ at a rational point was found for any variety
-  (`round22/README.md` §2, J3).
+  (`round22/README.md` §2, J3). Seven full texts were then read (McKinnon–Roth 2015, 2016; the McKinnon–Satriano
+  erratum; Lehmann–McKinnon–Satriano 2024; Huang ANT 2021, Acta Arith. 2019, Bull. SMF 2020). Every unconditional lower
+  bound on $\alpha^{\rm ess}$ in them is Liouville with a section, at most $\tau_x$. Every exact value of $\alpha^{\rm ess}$
+  they compute equals $\tau$, with $\tau\ge\dim$ (`papers_check/README.md`).
 
 **In the approximation-constant literature's own terms** (round 22; `round22/README.md` §§0, 4; `round22/toric.md`,
 `round22/lit.md` with their killer reports). The 4-fold is the twisted Losev–Manin space $X=\overline{L}_5^{\rm tw}$. It
@@ -309,17 +318,25 @@ $\delta$ has McKinnon–Roth exponent $\gamma=4/(1+2\delta)$, and:
   and peels the slices. Consequently every finite family of auxiliary Laurent polynomials over $\mathbb Q(i)$, used
   through Liouville with toric forced divisibility, gives for arbitrary profiles exactly the Cilleruelo–Córdoba exponent
   $\delta=1/10$ and never more; for balanced profiles it gives $\delta=1/30$. McKinnon–Roth's base-locus Liouville at $e$
-  is therefore exactly Cilleruelo–Córdoba. The open window $\alpha^{\rm ess}\in(15/4,4)$ is untouched.
+  is therefore exactly Cilleruelo–Córdoba. (McKinnon–Roth, Eur. J. Math. 2 (2016), Thm 3.3. It needs $L$ ample, so it is
+  applied to $-K_{X'}$ on $X'$. The values are unchanged.) The open window $\alpha^{\rm ess}\in(15/4,4)$ is untouched.
 * $A_5(\delta<1/30)$ is exactly $\alpha^{\rm ess}_e(-K)>15/4$ off a proper closed set, and $(L_5^\circ)$ is the same
   over balanced sequences; Vojta predicts $\ge4=\dim X$.
 
-> **Question B, literature form.** Is the twisted toric Fano 4-fold $X'$ (so that $X'(\mathbb Q)=T_5(\mathbb Q)$ for
-> the anisotropic norm-one torus $T_5$) **canonically bounded** at the identity $e$ in the sense of McKinnon–Satriano
-> (TAMS 374 (2021)), i.e. does every Zariski-dense sequence of rational points tending to $e$ have
-> $\alpha(-K)\ge\dim X=4$? Less ambitiously: is $\alpha^{\rm ess}_e(-K)>15/4$, at least along sequences whose 15
-> toric heights are asymptotically equal? A yes gives the uniform Cilleruelo–Granville bound (gauss Thm 3.4'). In
-> McKinnon–Satriano canonical boundedness is a **hypothesis**; by their 2023 erratum Vojta implies it when $-K$ is
-> big. The record found no unconditional proof for any variety (snippet level; full texts unread).
+> **Question B, literature form.** Is the identity $e$ **essentially bounded** on the smooth weak Fano 4-fold
+> $X=\overline L{}^{\rm tw}_5$ (so that $X(\mathbb Q)=T_5(\mathbb Q)$ for the anisotropic norm-one torus $T_5$), in the sense
+> of Lehmann–McKinnon–Satriano (arXiv 2403.02480, Def 1.3: $\alpha_{\rm ess}(e,-K_X+\varepsilon A)\ge\dim X$ for every
+> ample $A$ and rational $\varepsilon>0$)? Since $-K_X$ is big, this is equivalent to $\alpha^{\rm ess}_e(-K)\ge4$
+> (inference). The same constant is obtained on $X'$, since $\phi$ is an isomorphism near $e$. Less ambitiously: is
+> $\alpha^{\rm ess}_e(-K)>15/4$, at least along sequences whose 15 toric heights are asymptotically equal? A yes gives
+> the uniform Cilleruelo–Granville bound (gauss Thm 3.4'). Vojta's Main Conjecture implies it. McKinnon–Satriano's
+> erratum (correcting their TAMS 374 (2021) Prop 1.3) has Prop 0.1: "Let X be a smooth projective variety over a number
+> field k, and let P ∈ X(k) … If −K_X is big, then Vojta's Main Conjecture implies that X is canonically bounded at
+> P." Lehmann–McKinnon–Satriano Prop 1.4 gives the same for essential boundedness on any smooth projective $X$.
+> Neither assumes splitness. Both use Vojta on $X$ with a normal-crossings divisor of multiplicity $\dim X$ through
+> $P$, a different instance from $V_E(5)$ with the same conclusion. In Lehmann–McKinnon–Satriano Thm 1.5 essential
+> boundedness is a hypothesis. No unconditional proof was found for any variety where $\tau_P(-K)<\dim X$. Full texts
+> were checked for seven papers; McKinnon–Satriano (TAMS) and Monahan–Satriano remain unread (`papers_check/README.md`).
 
 > **Split calibration** (round 23 `split.md`, refereed). The same window occurs on the *split* Losev–Manin 4-fold at
 > $e$. There a primitive positive 5-tuple $u$ has $H_{-K}=(\max u/\min u)\,\mathrm{lcm}(u)$ and
@@ -498,7 +515,8 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
    * On $\overline M_{0,k}$ for any $k$: $\beta$ lies in the interior of the movable cone (`threshold/L8.md` Thm A,
      **proved** as a formal barrier).
    * On the Gaussian model: the forms are exactly critical (Lemma K1 with `threshold/construct.md` Cor C3 and Thm B).
-   * Roth and Schmidt need an irrational target, and $e$ is rational.
+   * Roth- and Schmidt-type bounds (McKinnon–Roth) give $\alpha^{\rm ess}\ge\beta<\tau$ at a rational target: weaker
+     than Liouville.
    * Multi-point (Thue/Siegel/Dyson) arguments on the 5-subtuples of one cluster are one-point toric Liouville on
      $T_M$ at the cluster point, which is the determinant method with forced divisibility ("route 5"). In the growth
      regime they force exact algebraic relations and stop at a zero estimate at the actual point. With lacunary degrees

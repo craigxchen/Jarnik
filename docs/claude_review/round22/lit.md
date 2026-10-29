@@ -3,6 +3,15 @@
 Status: complete (round 22, literature lens). Unrefereed. Scripts: `lit_checks/` next to this file; notes:
 `lit_notes.md`.
 
+> **Correction notice (2026-10-29, full-text check).** Seven of the papers discussed here were later read in full
+> (`../papers_check/README.md`). Its §2.1 lists 25 corrections to this file, item by item; read it before citing
+> anything below. The main ones: McKinnon–Roth's Thms 5.1, 6.1, 6.2 and 7.4 do have exceptional sets (only Thm 6.3 /
+> Cor 6.4 have none); the Vojta-conditional boundedness results (McKinnon–Satriano erratum Prop 0.1, LMS Prop 1.4)
+> hold for every smooth projective $X$ with $-K$ big and are not split, and use Vojta on $X$ with a normal-crossings
+> divisor through $P$, not $V_E(5)$; Huang's lower bounds are verified to be section-type Liouville; Huang Part II is
+> Bull. SMF 148 (2020) 189–235. The verdicts of this file are unchanged: nothing in the literature beats $\tau$ at a
+> rational point.
+
 ## 0. Verdict summary
 
 **No theorem in the literature implies `A_5(delta)` for any `delta < 1/30`, or `(L_5^circ)`.** Verdict: `no_new_result`

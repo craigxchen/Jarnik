@@ -153,8 +153,15 @@ algebraic relations, which need route 5's open zero estimate. It also reduces th
 to existence with slack and proves sequential union-bound certificates cannot reach it. Round 26 (`round26/README.md`) feeds route 5's data to Philippon-type zero estimates on tori:
 in both natural framings the estimate is met by the trivial subgroup (route 5 certifies vanishing only at very short progressions),
 so degree-level zero estimates cannot supply the missing zero estimate at the actual point; that lemma stays open.
+A full-text check of seven papers on approximation constants (McKinnon-Roth 2015, 2016; the McKinnon-Satriano erratum;
+Lehmann-McKinnon-Satriano 2024; three Huang papers; `papers_check/README.md`) finds nothing that settles or narrows
+Question B: every unconditional lower bound there is Liouville with a section (at most `tau`), every computed `alpha^ess`
+equals `tau >= dim`, and the only route to `alpha^ess_e(-K) >= 4` is Vojta (the erratum's Prop 0.1 and LMS Prop 1.4, for any
+smooth projective `X` with `-K` big, not only split ones). It corrects several citations in round 22, round 23 and the
+expert note, and proposes a degree-2 del Pezzo surface (`tau = 3/2 < 2 = dim` at a general rational point) as the
+2-dimensional test case of the same "beyond Liouville at a rational point" problem.
 
-**Growth-rate status (2026-10-28, after round 26).** No growth improvement over `log R/loglog R` is proved, either
+**Growth-rate status (2026-10-29, after round 26 and the papers check).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues
