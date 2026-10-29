@@ -1,0 +1,6 @@
+Sylvester n=128 d=127 L=16 |P|=64  LP-type bound 2L(1-1/n)=31.75
+  h = max sigma = 31.000000000000014 (status 0, dual bound -31.000000000000014) (1s)
+  h_pair = 29.999999999997605 (status 0, dual bound -29.999999999997613) -> rigidity (R): True (2s)
+Sylvester n=128 d=127 L=24 |P|=64  LP-type bound 2L(1-1/n)=47.62
+  h = max sigma = 45.00000000024738 (status 1, dual bound -46.0) (900s)
+Sylvester n=128 L=24: h_pair not computed (queue stopped after h timed out at 900 s)

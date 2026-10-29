@@ -1,0 +1,6 @@
+15:42:43 syl:3:2 n 8 cuts 7 L 2 |A| 1037
+15:42:44 H_A [1, 7, 28, 77, 161, 259, 287, 175, 42] rho 8
+15:42:45 classes 1093 used 1064
+15:43:10 e 6 sum 287 H 287 shifts used 155
+15:43:43 e 7 sum 141 H 175 shifts used 49
+15:43:43 RESULT syl:3:2 cube reach 7 time 60.6

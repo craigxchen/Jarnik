@@ -1,0 +1,12 @@
+|G| = 168
+standard monomials of degree 6 : 357  G-orbits: 8
+dim (J(A)_e)^G = 2 (0s)
+dim (J(A_e0)_e)^G = 3  |A_l| = 526 (1s)
+dim (J(A_e0-e1)_e)^G = 3  |A_l| = 412 (1s)
+dim (cap_l J(A_l)_e)^G = 3   vs dim (J(A)_e)^G = 2
+J(A)^G subset cap: True
+obstruction representative (orbit coefficients):
+   coef 1  orbit size 7  rep (0, 0, 0, 0, 2, 2, 2)
+   coef -2  orbit size 84  rep (0, 0, 0, 2, 1, 1, 2)
+   coef 4  orbit size 21  rep (0, 0, 1, 1, 1, 1, 2)
+   coef 8  orbit size 7  rep (0, 1, 1, 1, 1, 1, 1)

@@ -1,0 +1,1 @@
+Sylvester n=64 L=12: h incumbent 21.000000000098858, dual bound -21.000000000098858, status 0 (1503s)

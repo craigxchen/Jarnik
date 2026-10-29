@@ -1,0 +1,12 @@
+M8p |A| (base unconstrained / base in cube): 1877 1093
+J9a cuts 15 |A| base-free / base-in-cube: 4861 3013
+J9a_prime cuts 15 |A| base-free / base-in-cube: 4791 3013
+J9a face {k_8base=0} -> M8p subset? True size 1093 == M8p cap |k7|<=1: True
+J9a' face {k_8=0} == M8' (base 0 labelling): True 1877
+M8' base-0 box is the translate of the base-7 box: True
+J9a pair witness order 10 all vertices in A & nonzero gens: True all gens in L_pair: True
+J9a all witness order 10 all vertices in A & nonzero gens: True all gens in L_pair: True
+M8' pair witness order 10 ok True L_pair: True
+M8' all witness order 10 ok True L_pair: True
+J9a' verify keys: ['spec', 'size', 'zeta_pair', 'lp_pair', 'nodes_pair', 'wit_pair', 'wit_pair_ok', 'ncand', 'lp_all', 'zeta_all', 'zeta_all_reason', 'time']
+J9a' pair witness order 10 ok True L_pair: True

@@ -1,0 +1,1 @@
+verified witnesses 210 bad 0 ; boxes with reach_pair < zeta_pair certified by witness: 78

@@ -1,0 +1,4 @@
+M8' |A| 1877  with |k_base|<=1: 1093
+J9a slice k_8=0: 1093 points; image in M8': True ; equals M8' cap {|k_7|<=1}: True
+M8 config with base 0: |A| = 1877 (M8' has 1877 )
+J9a' slice k_8=0: 1877 points; equals the M8' box (base 0): True

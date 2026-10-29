@@ -1,0 +1,6 @@
+syl8:2 e=6 |A|=1037 H_A(e)=287 dim Sigma=286 delta=1
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round28/theory_checks/t6_powers.py:43: RuntimeWarning: overflow encountered in scalar add
+  inSig = True if Sm is None else all(v % p == 0 for v in coef.dot(Sm))
+number of phi with phi^e an obstruction: 1
+dim span of power obstructions mod J(A)_e: 1  (delta = 1 )
+  phi=(1, 1, 1, 1, 1, 1, 1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 6

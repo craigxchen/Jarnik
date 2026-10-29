@@ -1,0 +1,12 @@
+15:48:01 rhad:11:0,1,2,3,4,5,6,7,8,9:2 n 10 cuts 11 L 2 |A| 4525
+15:48:53 H_A [1, 9, 45, 156, 414, 870, 1446, 1227, 357] rho 8
+15:48:53 classes 45 used 45
+15:49:01 e 0 sum 1 H 1 shifts used 1
+15:49:01 e 1 sum 9 H 9 shifts used 1
+15:49:09 e 2 sum 45 H 45 shifts used 2
+15:49:09 e 3 sum 156 H 156 shifts used 2
+15:50:10 e 4 sum 414 H 414 shifts used 10
+15:50:15 e 5 sum 870 H 870 shifts used 10
+15:51:04 e 6 sum 1446 H 1446 shifts used 14
+15:55:22 e 7 sum 1112 H 1227 shifts used 45
+15:55:22 RESULT rhad:11:0,1,2,3,4,5,6,7,8,9:2 pair reach 7 time 440.9

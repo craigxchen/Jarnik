@@ -1,0 +1,10 @@
+syl:3:1 |A| 57 sigma range [-1, 1] top points 7 legal pair moves from top 42 (R) fails
+syl:3:2 |A| 1037 sigma range [-3, 3] top points 7 legal pair moves from top 0 (R) holds
+  top level points are 0/1 vectors: True  supports == Fano lines (complements of patterns): True [(0, 1, 6), (0, 2, 5), (0, 3, 4), (1, 2, 4), (1, 3, 5), (2, 3, 6), (4, 5, 6)]
+  EXACT sigma^7 in J(A)_7: True
+  EXACT sigma^6 in J(A)_6: False
+  EXACT sigma^6 in J(A_l)_6 for all 56 signed L_pair shifts: True  sigma ranges on A_l: [(-3, 2), (-2, 2), (-2, 3)]
+syl:3:3 |A| 1877 sigma range [-4, 4] top points 28 legal pair moves from top 252 (R) fails
+sdc:7:1 |A| 57 sigma range [-1, 1] top points 7 legal pair moves from top 42 (R) fails
+sdc:7:2 |A| 757 sigma range [-2, 2] top points 35 legal pair moves from top 294 (R) fails
+sdc:7:3 |A| 1765 sigma range [-4, 4] top points 21 legal pair moves from top 126 (R) fails

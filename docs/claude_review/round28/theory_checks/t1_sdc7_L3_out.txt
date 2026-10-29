@@ -1,0 +1,17 @@
+sdc7 L=3 |A|=1765 |B|=422 rho=10
+H_A = [1, 7, 28, 77, 161, 266, 357, 379, 301, 153, 35, 0, 0, 0, 0]
+H_B = [1, 7, 28, 77, 126, 113, 56, 14, 0, 0, 0, 0, 0, 0, 0]
+linkage H_A(e) == T(e) - H_B(2d-e) for all e: True
+  e=0 H_A=1 dim sum=1 delta=0 (27s)
+  e=1 H_A=7 dim sum=7 delta=0 (28s)
+  e=2 H_A=28 dim sum=28 delta=0 (28s)
+  e=3 H_A=77 dim sum=77 delta=0 (29s)
+  e=4 H_A=161 dim sum=161 delta=0 (31s)
+  e=5 H_A=266 dim sum=266 delta=0 (33s)
+  e=6 H_A=357 dim sum=357 delta=0 (36s)
+  e=7 H_A=379 dim sum=379 delta=0 (39s)
+  e=8 H_A=301 dim sum=301 delta=0 (46s)
+  e=9 H_A=153 dim sum=153 delta=0 (57s)
+  e=10 H_A=35 dim sum=0 delta=35 (76s)
+delta profile: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 35]
+reach(L_pair) = 10  rho = 10

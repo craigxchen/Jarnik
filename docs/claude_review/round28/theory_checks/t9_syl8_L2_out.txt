@@ -1,0 +1,15 @@
+step 0: |S|=1037 reach=6 (H so far [1, 7, 28, 77, 161, 259, 287]) (14s)
+  e=6: H=287 dim Sigma=286, 1 power obstructions spanning 1
+  removing |phi|=3 for phi=(1, 1, 1, 1, 1, 1, 1) (14 points)
+step 1: |S|=1023 reach=7 (H so far [1, 7, 28, 77, 161, 258, 280, 169]) (38s)
+  e=7: H=169 dim Sigma=141, 70 power obstructions spanning 28
+  removing |phi|=5 for phi=(1, -1, -1, -1, -1, -1, 1) (20 points)
+step 2: |S|=1003 reach=7 (H so far [1, 7, 28, 77, 161, 258, 279, 159]) (63s)
+  e=7: H=159 dim Sigma=129, 69 power obstructions spanning 27
+  removing |phi|=4 for phi=(0, 1, 1, 1, 1, 1, -1) (8 points)
+step 3: |S|=995 reach=7 (H so far [1, 7, 28, 77, 161, 258, 277, 155]) (85s)
+  e=7: H=155 dim Sigma=125, 65 power obstructions spanning 26
+  removing |phi|=5 for phi=(1, -1, -1, 1, -1, 1, 1) (14 points)
+step 4: |S|=981 reach=7 (H so far [1, 7, 28, 77, 161, 258, 275, 148]) (108s)
+  e=7: H=148 dim Sigma=115, 72 power obstructions spanning 29
+  removing |phi|=4 for phi=(0, 1, 1, -1, 1, 0, 0) (2 points)

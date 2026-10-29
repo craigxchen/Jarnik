@@ -1,0 +1,18 @@
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round28/theory_checks/t14_linkage.py:1: SyntaxWarning: invalid escape sequence '\ '
+  """T14: linkage form of (SHIFT_e) (mod p).  C = {-1,0,1}^d, B = C \ A, and for l in L_pair: C_l = C cap (C - l) (a grid),
+syl8 L=2 e=5: dim J(B)_9 mod J(C) = 259 ; H_A(e) = 259
+  linkage identity in C_l for l=(1, 0, 0, 0, 0, 0, 0): True
+  linkage identity in C_l for l=(1, -1, 0, 0, 0, 0, 0): True
+  dim sum_l mu_l J(B_l) = 259 ; dim (that + J(B)) = 259 ; dim J(B) = 259  -> containment: True ; linkage-SHIFT_e: True (53s)
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round28/theory_checks/t14_linkage.py:1: SyntaxWarning: invalid escape sequence '\ '
+  """T14: linkage form of (SHIFT_e) (mod p).  C = {-1,0,1}^d, B = C \ A, and for l in L_pair: C_l = C cap (C - l) (a grid),
+syl8 L=2 e=6: dim J(B)_8 mod J(C) = 287 ; H_A(e) = 287
+  linkage identity in C_l for l=(1, 0, 0, 0, 0, 0, 0): True
+  linkage identity in C_l for l=(1, -1, 0, 0, 0, 0, 0): True
+  dim sum_l mu_l J(B_l) = 286 ; dim (that + J(B)) = 287 ; dim J(B) = 287  -> containment: True ; linkage-SHIFT_e: False (48s)
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round28/theory_checks/t14_linkage.py:1: SyntaxWarning: invalid escape sequence '\ '
+  """T14: linkage form of (SHIFT_e) (mod p).  C = {-1,0,1}^d, B = C \ A, and for l in L_pair: C_l = C cap (C - l) (a grid),
+syl8 L=2 e=7: dim J(B)_7 mod J(C) = 175 ; H_A(e) = 175
+  linkage identity in C_l for l=(1, 0, 0, 0, 0, 0, 0): True
+  linkage identity in C_l for l=(1, -1, 0, 0, 0, 0, 0): True
+  dim sum_l mu_l J(B_l) = 141 ; dim (that + J(B)) = 175 ; dim J(B) = 175  -> containment: True ; linkage-SHIFT_e: False (46s)

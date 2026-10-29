@@ -1,0 +1,63 @@
+sdc7:2 e=6 |A|=757 H_A(e)=188 dim Sigma=166 delta=22
+number of phi with phi^e an obstruction: 14
+dim span of power obstructions mod J(A)_e: 7  (delta = 22 )
+  phi=(0, 1, 1, 1, 1, 1, 1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 6
+  phi=(1, -1, -1, -1, -1, -1, -1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 8
+  phi=(1, -1, 1, 1, 1, 1, 1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 8
+  phi=(1, 0, 1, 1, 1, 1, 1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 6
+  phi=(1, 1, -1, 1, 1, 1, 1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 8
+  phi=(1, 1, 0, 1, 1, 1, 1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 6
+  phi=(1, 1, 1, -1, 1, 1, 1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 8
+  phi=(1, 1, 1, 0, 1, 1, 1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 6
+  phi=(1, 1, 1, 1, -1, 1, 1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 8
+  phi=(1, 1, 1, 1, 0, 1, 1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 6
+  phi=(1, 1, 1, 1, 1, -1, 1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 8
+  phi=(1, 1, 1, 1, 1, 0, 1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 6
+rand:6,101 e=6 |A|=185 H_A(e)=31 dim Sigma=30 delta=1
+number of phi with phi^e an obstruction: 1
+dim span of power obstructions mod J(A)_e: 1  (delta = 1 )
+  phi=(0, 1, -1, 1, -1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 8
+rand:6,100 e=4 |A|=69 H_A(e)=19 dim Sigma=17 delta=2
+number of phi with phi^e an obstruction: 7
+dim span of power obstructions mod J(A)_e: 2  (delta = 2 )
+  phi=(0, 0, 0, 1, -1) range on A: 5 values [-2,2]; max #values on A_l (l in L_pair): 5
+  phi=(0, 0, 0, 1, 1) range on A: 5 values [-2,2]; max #values on A_l (l in L_pair): 4
+  phi=(0, 0, 1, -1, -1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 6
+  phi=(0, 1, 0, -1, -1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 6
+  phi=(1, 0, 0, 0, -1) range on A: 5 values [-2,2]; max #values on A_l (l in L_pair): 4
+  phi=(1, 0, 0, 0, 1) range on A: 5 values [-2,2]; max #values on A_l (l in L_pair): 5
+  phi=(1, 0, 1, -1, -1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 6
+rand:7,4 e=4 |A|=125 H_A(e)=41 dim Sigma=40 delta=1
+number of phi with phi^e an obstruction: 5
+dim span of power obstructions mod J(A)_e: 1  (delta = 1 )
+  phi=(1, -1, 1, 0, 0, -1) range on A: 5 values [-2,2]; max #values on A_l (l in L_pair): 5
+  phi=(1, 1, 1, -1, 0, 1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 6
+  phi=(1, 1, 1, 0, -1, 1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 6
+  phi=(1, 1, 1, 0, 0, -1) range on A: 5 values [-2,2]; max #values on A_l (l in L_pair): 5
+  phi=(1, 1, 1, 0, 0, 1) range on A: 5 values [-2,2]; max #values on A_l (l in L_pair): 4
+rand:7,1 e=7 |A|=465 H_A(e)=56 dim Sigma=47 delta=9
+number of phi with phi^e an obstruction: 12
+dim span of power obstructions mod J(A)_e: 6  (delta = 9 )
+  phi=(0, 1, 0, -1, 1, 1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 9
+  phi=(0, 1, 0, 1, 1, 1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 8
+  phi=(1, -1, -1, 1, -1, -1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 9
+  phi=(1, -1, 0, -1, -1, -1) range on A: 11 values [-5,5]; max #values on A_l (l in L_pair): 10
+  phi=(1, -1, 0, 0, -1, -1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 9
+  phi=(1, -1, 0, 0, -1, 1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 9
+  phi=(1, -1, 0, 1, -1, -1) range on A: 11 values [-5,5]; max #values on A_l (l in L_pair): 10
+  phi=(1, 1, -1, 1, 1, 1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 9
+  phi=(1, 1, 0, -1, 1, -1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 9
+  phi=(1, 1, 0, -1, 1, 1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 9
+  phi=(1, 1, 0, 1, -1, -1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 9
+  phi=(1, 1, 0, 1, 1, -1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 9
+rand:6,113 e=6 |A|=117 H_A(e)=11 dim Sigma=10 delta=1
+number of phi with phi^e an obstruction: 8
+dim span of power obstructions mod J(A)_e: 1  (delta = 1 )
+  phi=(1, -1, -1, 0, -1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 7
+  phi=(1, -1, -1, 0, 1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 7
+  phi=(1, 1, -1, 0, -1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 7
+  phi=(1, 1, -1, 0, 1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 7
+  phi=(1, 1, 1, -1, -1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 8
+  phi=(1, 1, 1, -1, 1) range on A: 9 values [-4,4]; max #values on A_l (l in L_pair): 8
+  phi=(1, 1, 1, 0, -1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 6
+  phi=(1, 1, 1, 0, 1) range on A: 7 values [-3,3]; max #values on A_l (l in L_pair): 6

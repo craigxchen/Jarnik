@@ -1,0 +1,7 @@
+e=6: sigma^e in J(A)_e: False
+e=7: sigma^e in J(A)_e: True
+l=(1, 0, 0, 0, 0, 0, 0): sigma values on A_l: [-3, -2, -1, 0, 1, 2] ; sigma^6 in J(A_l)_6: True
+l=(1, -1, 0, 0, 0, 0, 0): sigma values on A_l: [-2, -1, 0, 1, 2] ; sigma^6 in J(A_l)_6: True
+l=(-1, 0, 0, 0, 0, 0, 0): sigma values on A_l: [-2, -1, 0, 1, 2, 3] ; sigma^6 in J(A_l)_6: True
+l=(0, 0, 0, 0, 0, 1, -1): sigma values on A_l: [-2, -1, 0, 1, 2] ; sigma^6 in J(A_l)_6: True
+top level sigma=3: [(0, 0, 0, 0, 1, 1, 1), (0, 0, 1, 1, 0, 0, 1), (0, 1, 0, 1, 0, 1, 0), (0, 1, 1, 0, 1, 0, 0), (1, 0, 0, 1, 1, 0, 0), (1, 0, 1, 0, 0, 1, 0), (1, 1, 0, 0, 0, 0, 1)]

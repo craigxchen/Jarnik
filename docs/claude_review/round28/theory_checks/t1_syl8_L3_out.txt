@@ -1,0 +1,18 @@
+syl8 L=3 |A|=1877 |B|=310 rho=11
+H_A = [1, 7, 28, 77, 161, 266, 357, 386, 329, 195, 63, 7, 0, 0, 0]
+H_B = [1, 7, 28, 70, 98, 71, 28, 7, 0, 0, 0, 0, 0, 0, 0]
+linkage H_A(e) == T(e) - H_B(2d-e) for all e: True
+  e=0 H_A=1 dim sum=1 delta=0 (29s)
+  e=1 H_A=7 dim sum=7 delta=0 (29s)
+  e=2 H_A=28 dim sum=28 delta=0 (30s)
+  e=3 H_A=77 dim sum=77 delta=0 (31s)
+  e=4 H_A=161 dim sum=161 delta=0 (33s)
+  e=5 H_A=266 dim sum=266 delta=0 (35s)
+  e=6 H_A=357 dim sum=357 delta=0 (40s)
+  e=7 H_A=386 dim sum=386 delta=0 (45s)
+  e=8 H_A=329 dim sum=329 delta=0 (54s)
+  e=9 H_A=195 dim sum=195 delta=0 (66s)
+  e=10 H_A=63 dim sum=63 delta=0 (84s)
+  e=11 H_A=7 dim sum=0 delta=7 (109s)
+delta profile: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7]
+reach(L_pair) = 11  rho = 11

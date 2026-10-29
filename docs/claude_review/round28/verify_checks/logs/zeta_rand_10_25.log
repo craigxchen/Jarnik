@@ -1,0 +1,4 @@
+15:30:08 rand:10:25 zeta_pair 4 LP_pair 41/8 nodes 129 witness ok (True, 4, 9)
+15:30:13 candidates 10760 LP_all bound 16/3 = 5.333333333333333
+15:30:13 order 5 generators allowed 104 nodes 48 found
+15:30:13 rand:10:25 zeta_all 5

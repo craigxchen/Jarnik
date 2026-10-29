@@ -1,0 +1,9 @@
+16:07:57 rand:10:25 n 10 cuts 15 L 1 |A| 269
+16:07:57 H_A [1, 9, 45, 117, 89, 8] rho 5
+16:07:57 classes 45 used 45
+16:07:57 e 0 sum 1 H 1 shifts used 1
+16:07:57 e 1 sum 9 H 9 shifts used 1
+16:07:57 e 2 sum 45 H 45 shifts used 5
+16:07:58 e 3 sum 117 H 117 shifts used 11
+16:07:58 e 4 sum 25 H 89 shifts used 14
+16:07:58 RESULT rand:10:25 pair reach 4 time 0.6

@@ -1,0 +1,13 @@
+15:36:47 syl:3:3 |A| 1877 H_p [1, 7, 28, 77, 161, 266, 357, 386, 329, 195, 63, 7] rho 11
+15:36:47 e 1 exact-vector lower bound 7 H_p 7 classes used 1
+15:36:47 e 2 exact-vector lower bound 28 H_p 28 classes used 2
+15:36:47 e 3 exact-vector lower bound 77 H_p 77 classes used 2
+15:36:49 e 4 exact-vector lower bound 161 H_p 161 classes used 3
+15:36:54 e 5 exact-vector lower bound 266 H_p 266 classes used 3
+15:37:37 e 6 exact-vector lower bound 357 H_p 357 classes used 5
+15:38:43 e 7 exact-vector lower bound 386 H_p 386 classes used 5
+15:39:44 e 8 exact-vector lower bound 329 H_p 329 classes used 8
+15:40:05 e 9 exact-vector lower bound 195 H_p 195 classes used 14
+15:40:42 e 10 exact-vector lower bound 63 H_p 63 classes used 21
+15:40:52 exact dim V_Q(A,rho) = 7  dim V_Q(A,rho+1) = 0
+15:40:52 CERTIFIED reach_Q = rho = 11 ok True time 247.0

@@ -1,0 +1,14 @@
+15:33:47 syl:3:3 dim V_Q(A,6) = 1337
+15:33:50 syl:3:3 dim V_Q(A,7) = 980
+15:33:54 syl:3:3 dim V_Q(A,8) = 594
+15:33:58 syl:3:3 dim V_Q(A,9) = 265
+15:34:03 syl:3:3 dim V_Q(A,10) = 70
+15:34:10 syl:3:3 dim V_Q(A,11) = 7
+15:34:12 syl:3:3 dim V_Q(A,12) = 0
+15:34:12 H_Q {6: 357, 7: 386, 8: 329, 9: 195, 10: 63, 11: 7}
+15:34:19 e 6 exact lower bound dim sum = 357 H_Q = 357 shifts used 5 SHIFT_e CERTIFIED over Q
+15:34:26 e 7 exact lower bound dim sum = 386 H_Q = 386 shifts used 5 SHIFT_e CERTIFIED over Q
+15:34:38 e 8 exact lower bound dim sum = 329 H_Q = 329 shifts used 8 SHIFT_e CERTIFIED over Q
+15:34:56 e 9 exact lower bound dim sum = 195 H_Q = 195 shifts used 14 SHIFT_e CERTIFIED over Q
+15:35:33 e 10 exact lower bound dim sum = 63 H_Q = 63 shifts used 21 SHIFT_e CERTIFIED over Q
+15:35:52 e 11 exact lower bound dim sum = 0 H_Q = 7 shifts used 0 not certified (lower bound < H_Q)

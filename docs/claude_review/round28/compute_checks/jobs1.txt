@@ -1,0 +1,44 @@
+sdc:7:2 cube
+syl:3:2 cube
+syl:3:3 cube
+sdc:7:3 cube
+syl:3:1 cube
+sdc:7:1 cube
+rand:6:100 cube
+rand:6:101 cube
+rand:6:102 cube
+rand:6:103 cube
+rand:6:104 cube
+rand:6:105 cube
+rand:6:106 cube
+rand:6:107 cube
+rand:6:108 cube
+rand:6:109 cube
+rand:6:110 cube
+rand:6:111 cube
+rand:6:112 cube
+rand:6:113 cube
+rand:6:114 cube
+rand:7:1 cube
+rand:7:2 cube
+rand:7:3 cube
+rand:7:4 cube
+rand:7:5 cube
+rand:7:6 cube
+rand:7:7 cube
+rand:7:8 cube
+rand:7:9 cube
+rand:7:10 cube
+rand:7:11 cube
+rand:7:12 cube
+rsyl:4:0,1,2,3,4,5,6,7,8:1 cube
+rsyl:4:0,1,2,4,8,15,3,5,6:1 cube
+rsdc:11:0,1,2,3,4,5,6,7,8:1 cube
+rhad:11:0,1,2,3,4,5,6,7,8:1 cube
+rsyl:4:0,1,2,3,4,5,6,7,8:2 cube
+rsyl:4:0,1,2,4,8,15,3,5,6:2 cube
+rsdc:11:0,1,2,3,4,5,6,7,8:2 cube
+rhad:11:0,1,2,3,4,5,6,7,8:2 cube
+rsyl:4:0,1,2,3,4,5,6,7,8:3
+rsdc:11:0,1,2,3,4,5,6,7,8:3
+rhad:11:0,1,2,3,4,5,6,7,8:3

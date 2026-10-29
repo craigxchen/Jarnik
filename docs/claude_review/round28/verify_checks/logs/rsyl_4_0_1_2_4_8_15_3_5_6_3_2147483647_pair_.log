@@ -1,0 +1,15 @@
+15:38:06 rsyl:4:0,1,2,4,8,15,3,5,6:3 n 9 cuts 15 L 3 |A| 4787
+15:38:50 H_A [1, 8, 36, 112, 266, 504, 784, 1004, 1026, 735, 281, 30] rho 11
+15:38:51 classes 36 used 36
+15:39:10 e 0 sum 1 H 1 shifts used 1
+15:39:10 e 1 sum 8 H 8 shifts used 1
+15:39:29 e 2 sum 36 H 36 shifts used 2
+15:39:29 e 3 sum 112 H 112 shifts used 2
+15:39:48 e 4 sum 266 H 266 shifts used 3
+15:39:49 e 5 sum 504 H 504 shifts used 3
+15:40:33 e 6 sum 784 H 784 shifts used 5
+15:40:37 e 7 sum 1004 H 1004 shifts used 5
+15:42:04 e 8 sum 1026 H 1026 shifts used 9
+15:43:16 e 9 sum 735 H 735 shifts used 14
+15:47:54 e 10 sum 215 H 281 shifts used 36
+15:47:54 RESULT rsyl:4:0,1,2,4,8,15,3,5,6:3 pair reach 10 time 588.3

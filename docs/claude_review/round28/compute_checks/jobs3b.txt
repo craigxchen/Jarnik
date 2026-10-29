@@ -1,0 +1,26 @@
+rsyl:4:0,1,2,3,4,5,6,7,8,9:2 cube 300
+rsdc:11:0,1,2,3,4,5,6,7,8,9:2 cube 300
+rhad:11:0,1,2,3,4,5,6,7,8,9:2 cube 300
+rsyl:4:0,1,2,3,4,5,6,7,8,9:1 cube
+rand:10:2 cube 100
+rand:10:5 cube 100
+rand:10:6 cube 100
+rand:10:8 cube 100
+rand:10:9 cube 100
+rand:10:11 cube 100
+rand:10:14 cube 100
+rand:10:15 cube 100
+rand:10:16 cube 100
+rand:10:17 cube 100
+rand:10:19 cube 100
+rand:10:20 cube 100
+rand:10:21 cube 100
+rand:10:22 cube 100
+rand:10:23 cube 100
+rand:10:25 cube 100
+rand:10:27 cube 100
+rand:10:30 cube 100
+rand:10:31 cube 100
+rand:10:38 cube 100
+rsyl:4:0,1,2,4,8,15,3,5,6:3
+rand:9:2 cube 100

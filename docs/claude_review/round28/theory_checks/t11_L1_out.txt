@@ -1,0 +1,4 @@
+syl8 L=1 |A|=57: zeta_pair = 3 (exhaustive over L_pair generators, multiplicity <= 2; nodes 834; 1s)
+  witness k0 = (-1, 0, 0, 0, 0, 0, 0)  generators: [((1, 0, 0, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0, 0, 0), 1), ((1, -1, 0, 0, 0, 0, 0), 1)]
+sdc7 L=1 |A|=57: zeta_pair = 3 (exhaustive over L_pair generators, multiplicity <= 2; nodes 491; 0s)
+  witness k0 = (-1, 0, 0, 0, 0, 0, 0)  generators: [((1, 0, 0, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0, 0, 0), 1), ((1, -1, 0, 0, 0, 0, 0), 1)]

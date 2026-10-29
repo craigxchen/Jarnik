@@ -560,6 +560,13 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      with a top-degree height condition this gives $M=O_C(\log\log R)$. The hypothesis is at least as hard as
      ZE$^{\rm all}_H$. Evidence on slab boxes is mixed: the criterion beats every product (zonotope) certificate on the
      box M8$'$, but stays below the zonotope order on 20 of 27 random boxes.
+     *Round 28 (pre-registered test, `round28/README.md`): unfavourable.* On 105 independently verified slab boxes
+     ($d=5$–$9$), the criterion's reach exceeds the zonotope order only on M8$'$ (reach 11, exact over $\mathbb Q$) and
+     on one $d=8$ box containing M8$'$'s configuration; the true one-point extension of M8$'$ has reach $9<10$. The
+     share does not grow with $d$. Reach, $\rho$ and the zonotope order add under products of boxes, so no bound
+     reach $\le$ zonotope order $+\,c$ holds in general, but products violate the character gap. Under the fixed rule
+     the interpolation branch of route 5 is closed for internal work, and the corollary $M=O(\log\log R)$ is treated
+     as presumptively vacuous.
    * *No tight pencils* (round 27 `stab.md` Thm 3.3, Cor 3.4, `kill_stab.md`; **proved**, killer-checked). Mean-width
      extremal measures are unique up to scalar on their support ($\dim A_t(S)\le1$ for integer $t\ge MW_n(S)$, all $n$).
      Hence no pencil of tight sections exists on $\mathrm{Bl}_eX$ (both forms, every $k$), and "second-order integrality"
@@ -619,6 +626,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | mean-width Thm B, Cor C3 (auxiliary forms capped) | `threshold/construct.md` |
 | round 26: zero estimates vs route 5's ZE; spectral LP cap; target ZE$^{\rm all}_H$ | `round26/README.md`, `round26/ze.md` (with `referee_ze.md`) |
 | round 27: dP2 calibration, uniqueness of extremal measures, split cones, multi-shift criterion | `round27/README.md` (with `kill_*.md`) |
+| round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check

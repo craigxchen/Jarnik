@@ -1,0 +1,40 @@
+Sylvester n=16 d=15 L=2 |P|=8  LP-type bound 2L(1-1/n)=3.75
+  h = max sigma = 3.0 (status 0, dual bound -3.0) (0s)
+  h_pair = 2.0 (status 0, dual bound -2.0) -> rigidity (R): True (0s)
+  z2 = max |S1|+|S2| = 6.0 (status 0) ; 2h = 6.0 -> box-zonotope certificate of (N): True (0s)
+Sylvester n=16 d=15 L=3 |P|=8  LP-type bound 2L(1-1/n)=5.62
+  h = max sigma = 4.0 (status 0, dual bound -4.0) (0s)
+  h_pair = 4.0 (status 0, dual bound -4.0) -> rigidity (R): False (0s)
+  z2 = max |S1|+|S2| = 8.0 (status 0) ; 2h = 8.0 -> box-zonotope certificate of (N): True (0s)
+Sylvester n=16 d=15 L=4 |P|=8  LP-type bound 2L(1-1/n)=7.50
+  h = max sigma = 7.0 (status 0, dual bound -7.0) (0s)
+  h_pair = 6.0 (status 0, dual bound -6.0) -> rigidity (R): True (0s)
+  z2 = max |S1|+|S2| = 12.0 (status 0) ; 2h = 14.0 -> box-zonotope certificate of (N): False (0s)
+Sylvester n=32 d=31 L=3 |P|=16  LP-type bound 2L(1-1/n)=5.81
+  h = max sigma = 4.0 (status 0, dual bound -4.0) (0s)
+  h_pair = 4.0 (status 0, dual bound -4.0) -> rigidity (R): False (0s)
+  z2 = max |S1|+|S2| = 8.0 (status 0) ; 2h = 8.0 -> box-zonotope certificate of (N): True (0s)
+Sylvester n=32 d=31 L=5 |P|=16  LP-type bound 2L(1-1/n)=9.69
+  h = max sigma = 8.0 (status 0, dual bound -8.0) (0s)
+  h_pair = 8.0 (status 0, dual bound -8.0) -> rigidity (R): False (0s)
+  z2 = max |S1|+|S2| = 15.000000000000007 (status 0) ; 2h = 16.0 -> box-zonotope certificate of (N): False (1s)
+Sylvester n=32 d=31 L=8 |P|=16  LP-type bound 2L(1-1/n)=15.50
+  h = max sigma = 15.0 (status 0, dual bound -15.0) (0s)
+  h_pair = 14.00000000000005 (status 0, dual bound -14.00000000000005) -> rigidity (R): True (0s)
+  z2 = max |S1|+|S2| = 26.000000000000142 (status 0) ; 2h = 30.0 -> box-zonotope certificate of (N): False (13s)
+Sylvester n=64 d=63 L=8 |P|=32  LP-type bound 2L(1-1/n)=15.75
+  h = max sigma = 15.00000000000716 (status 0, dual bound -15.000000000007162) (0s)
+  h_pair = 14.0 (status 0, dual bound -14.0) -> rigidity (R): True (0s)
+  z2 = max |S1|+|S2| = 27.999999999999982 (status 0) ; 2h = 30.00000000001432 -> box-zonotope certificate of (N): False (53s)
+Sylvester n=64 d=63 L=12 |P|=32  LP-type bound 2L(1-1/n)=23.62
+  h = max sigma = 21.000000000098858 (status 1, dual bound -22.0) (400s)
+  h_pair = 20.99999999999999 (status 0, dual bound -20.999999999999993) -> rigidity (R): False (402s)
+  z2 = max |S1|+|S2| = 42.000000000000014 (status 0) ; 2h = 42.000000000197716 -> box-zonotope certificate of (N): True (770s)
+Sylvester n=64 d=63 L=16 |P|=32  LP-type bound 2L(1-1/n)=31.50
+  h = max sigma = 31.0 (status 0, dual bound -31.0) (0s)
+  h_pair = 30.000000000001744 (status 0, dual bound -30.000000000001744) -> rigidity (R): True (0s)
+  z2 = max |S1|+|S2| = 56.00000000000771 (status 1) ; 2h = 62.0 -> box-zonotope certificate of (N): False (400s)
+Sylvester n=64 d=63 L=26 |P|=32  LP-type bound 2L(1-1/n)=51.19
+  h = max sigma = 48.00000000000837 (status 1, dual bound -49.0) (400s)
+  h_pair = 47.00000000000877 (status 1, dual bound -48.0) -> rigidity (R): undecided (800s)
+  z2 = max |S1|+|S2| = 62.99999999999999 (status 0) ; 2h = 96.00000000001674 -> box-zonotope certificate of (N): False (800s)

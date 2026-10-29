@@ -1,0 +1,8 @@
+|A| 4861 cuts 15
+widths [2, 2, 2, 2, 2, 2, 2, 2, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+candidates fitting widths 155263
+LP float 11.0
+exact dual bound B = 11 (min c_v scaled to 1)
+generators allowed for order 11 : 36
+order-11 zonotope exists: False nodes 3506942 secs 219
+order-10 found: True gens [(np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1)), (np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1)), (np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0)), (np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0)), (np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(0)), (np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(-1), np.int64(0), np.int64(0)), (np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(0), np.int64(0), np.int64(0)), (np.int64(0), np.int64(0), np.int64(1), np.int64(-1), np.int64(0), np.int64(0), np.int64(0), np.int64(0)), (np.int64(0), np.int64(1), np.int64(-1), np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0)), (np.int64(0), np.int64(1), np.int64(0), np.int64(-1), np.int64(0), np.int64(0), np.int64(0), np.int64(0))] nodes 83

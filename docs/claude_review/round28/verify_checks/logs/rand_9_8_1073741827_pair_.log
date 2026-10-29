@@ -1,0 +1,9 @@
+16:07:55 rand:9:8 n 9 cuts 11 L 1 |A| 363
+16:07:56 H_A [1, 8, 36, 101, 143, 72, 2] rho 6
+16:07:56 classes 36 used 36
+16:07:56 e 0 sum 1 H 1 shifts used 1
+16:07:56 e 1 sum 8 H 8 shifts used 1
+16:07:56 e 2 sum 36 H 36 shifts used 3
+16:07:56 e 3 sum 101 H 101 shifts used 6
+16:07:57 e 4 sum 140 H 143 shifts used 34
+16:07:57 RESULT rand:9:8 pair reach 4 time 1.9

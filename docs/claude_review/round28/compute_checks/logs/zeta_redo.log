@@ -1,0 +1,149 @@
+sdc:7:2 pair target 7 found complete 1077 0s
+sdc:7:2 pair {'ncand': 28, 'lp': '7', 'lp_floor': 7, 'witness_order': 7, 'witness_ok': True, 'k0': (-1, -1, 0, -1, 1, 0, 1), 'gens': [((1, 0, 0, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0, 0, 0), 1), ((1, 0, 0, 0, -1, 0, 0), 1), ((0, 1, 0, 0, 0, 0, -1), 1), ((0, 0, 0, 1, -1, 0, 0), 1), ((0, 0, 0, 1, 0, -1, 0), 1), ((0, 0, 0, 0, 0, 1, -1), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(7, True, True, 1077)], 'secs': 0}
+sdc:7:2 all target 7 found complete 748 1s
+sdc:7:2 all {'ncand': 15016, 'lp': '7', 'lp_floor': 7, 'witness_order': 7, 'witness_ok': True, 'k0': (0, -1, 0, 0, 0, 0, 0), 'gens': [((0, 0, 0, 0, 0, 0, 1), 1), ((0, 0, 0, 0, 0, 1, -1), 1), ((0, 0, 0, 0, 1, -1, 0), 1), ((0, 0, 0, 1, -1, 0, 0), 1), ((0, 0, 1, -1, 0, 0, 0), 1), ((0, 1, -1, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0, 0, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(7, True, True, 748)], 'secs': 1}
+syl:3:2 pair target 7 found complete 994 0s
+syl:3:2 pair {'ncand': 28, 'lp': '7', 'lp_floor': 7, 'witness_order': 7, 'witness_ok': True, 'k0': (-1, 0, -1, 0, -1, 0, 1), 'gens': [((1, 0, 0, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0, 0, 0), 1), ((0, 0, 1, 0, 0, 0, 0), 1), ((0, 0, 0, 0, 1, 0, 0), 1), ((1, -1, 0, 0, 0, 0, 0), 1), ((0, 0, 1, 0, 0, 0, -1), 1), ((0, 0, 0, 0, 1, 0, -1), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(7, True, True, 994)], 'secs': 0}
+syl:3:2 all target 7 found complete 29 0s
+syl:3:2 all {'ncand': 19601, 'lp': '7', 'lp_floor': 7, 'witness_order': 7, 'witness_ok': True, 'k0': (0, 0, -1, -1, 0, 0, -1), 'gens': [((0, 0, 0, 0, 0, 0, 1), 2), ((0, 0, 0, 0, 0, 1, 0), 1), ((0, 0, 0, 0, 1, 0, 0), 1), ((0, 0, 0, 1, 0, 0, 0), 1), ((0, 0, 1, 0, 0, 0, 0), 1), ((0, 0, 1, 1, -1, -1, 0), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(7, True, True, 29)], 'secs': 0}
+sdc:7:3 pair target 10 found complete 168 0s
+sdc:7:3 pair {'ncand': 28, 'lp': '21/2', 'lp_floor': 10, 'witness_order': 10, 'witness_ok': True, 'k0': (-1, -1, 0, -1, 0, -1, 0), 'gens': [((1, 0, 0, 0, 0, 0, 0), 2), ((0, 1, 0, 0, 0, 0, 0), 2), ((0, 0, 0, 1, 0, 0, 0), 1), ((0, 0, 0, 0, 1, 0, 0), 1), ((0, 0, 0, 0, 0, 1, 0), 1), ((0, 0, 0, 0, 0, 0, 1), 1), ((0, 0, 0, 1, -1, 0, 0), 1), ((0, 0, 0, 0, 0, 1, -1), 1)], 'sup': 4, 'exact': True, 'upper': 'LP', 'log': [(10, True, True, 168)], 'secs': 0}
+sdc:7:3 all target 10 found complete 42 1s
+sdc:7:3 all {'ncand': 32894, 'lp': '21/2', 'lp_floor': 10, 'witness_order': 10, 'witness_ok': True, 'k0': (-1, 0, -1, 0, 0, -1, -1), 'gens': [((0, 0, 0, 0, 0, 0, 1), 2), ((0, 0, 0, 0, 0, 1, 0), 2), ((0, 0, 0, 0, 1, 0, 0), 1), ((0, 0, 0, 1, 0, 0, 0), 1), ((0, 0, 1, 0, -1, 0, 0), 1), ((0, 0, 1, 0, 0, 0, 0), 1), ((1, 0, 0, -1, 0, 0, 0), 1), ((1, 0, 0, 0, 0, 0, 0), 1)], 'sup': 4, 'exact': True, 'upper': 'LP', 'log': [(10, True, True, 42)], 'secs': 1}
+syl:3:1 pair target 3 found complete 5 0s
+syl:3:1 pair {'ncand': 28, 'lp': '7/2', 'lp_floor': 3, 'witness_order': 3, 'witness_ok': True, 'k0': (-1, 0, 0, 0, 0, 0, 0), 'gens': [((1, 0, 0, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0, 0, 0), 1), ((1, -1, 0, 0, 0, 0, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(3, True, True, 5)], 'secs': 0}
+syl:3:1 all target 3 found complete 5 0s
+syl:3:1 all {'ncand': 1225, 'lp': '7/2', 'lp_floor': 3, 'witness_order': 3, 'witness_ok': True, 'k0': (0, 0, 0, 0, 0, -1, 0), 'gens': [((0, 0, 0, 0, 0, 0, 1), 1), ((0, 0, 0, 0, 0, 1, -1), 1), ((0, 0, 0, 0, 0, 1, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(3, True, True, 5)], 'secs': 0}
+sdc:7:1 pair target 3 found complete 5 0s
+sdc:7:1 pair {'ncand': 28, 'lp': '7/2', 'lp_floor': 3, 'witness_order': 3, 'witness_ok': True, 'k0': (-1, 0, 0, 0, 0, 0, 0), 'gens': [((1, 0, 0, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0, 0, 0), 1), ((1, -1, 0, 0, 0, 0, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(3, True, True, 5)], 'secs': 0}
+sdc:7:1 all target 3 found complete 5 0s
+sdc:7:1 all {'ncand': 623, 'lp': '7/2', 'lp_floor': 3, 'witness_order': 3, 'witness_ok': True, 'k0': (0, 0, 0, 0, 0, -1, 0), 'gens': [((0, 0, 0, 0, 0, 0, 1), 1), ((0, 0, 0, 0, 0, 1, -1), 1), ((0, 0, 0, 0, 0, 1, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(3, True, True, 5)], 'secs': 0}
+rand:6:100 pair target 5 found complete 47 0s
+rand:6:100 pair {'ncand': 15, 'lp': '5', 'lp_floor': 5, 'witness_order': 5, 'witness_ok': True, 'k0': (0, -1, -1, 0, 1), 'gens': [((0, 1, 0, 0, 0), 1), ((0, 0, 1, 0, 0), 1), ((0, 1, 0, -1, 0), 1), ((0, 0, 1, 0, -1), 1), ((0, 0, 0, 1, -1), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(5, True, True, 47)], 'secs': 0}
+rand:6:100 all target 5 found complete 12 0s
+rand:6:100 all {'ncand': 352, 'lp': '5', 'lp_floor': 5, 'witness_order': 5, 'witness_ok': True, 'k0': (0, -1, -1, 0, 0), 'gens': [((0, 0, 0, 0, 1), 1), ((0, 0, 0, 1, -1), 1), ((0, 0, 1, 0, 0), 1), ((0, 1, 0, 0, 0), 1), ((0, 1, 1, -1, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(5, True, True, 12)], 'secs': 0}
+rand:6:101 pair target 8 found complete 23 0s
+rand:6:101 pair {'ncand': 15, 'lp': '8', 'lp_floor': 8, 'witness_order': 8, 'witness_ok': True, 'k0': (-1, -1, -1, 0, 0), 'gens': [((1, 0, 0, 0, 0), 2), ((0, 1, 0, 0, 0), 1), ((0, 0, 1, 0, 0), 1), ((0, 0, 0, 1, 0), 1), ((0, 0, 0, 0, 1), 1), ((0, 1, 0, -1, 0), 1), ((0, 0, 1, 0, -1), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(8, True, True, 23)], 'secs': 0}
+rand:6:101 all target 8 found complete 306 0s
+rand:6:101 all {'ncand': 1134, 'lp': '8', 'lp_floor': 8, 'witness_order': 8, 'witness_ok': True, 'k0': (-1, -1, -1, 0, 0), 'gens': [((0, 0, 0, 0, 1), 1), ((0, 0, 0, 1, 0), 1), ((0, 0, 1, 0, -1), 1), ((0, 0, 1, 0, 0), 1), ((0, 1, 0, -1, 0), 1), ((0, 1, 0, 0, 0), 1), ((1, 0, 0, 0, 0), 2)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(8, True, True, 306)], 'secs': 0}
+rand:6:102 pair target 7 found complete 19 0s
+rand:6:102 pair {'ncand': 15, 'lp': '7', 'lp_floor': 7, 'witness_order': 7, 'witness_ok': True, 'k0': (-1, -1, -1, 1, 0), 'gens': [((1, 0, 0, 0, 0), 2), ((0, 1, 0, 0, 0), 1), ((0, 0, 0, 0, 1), 1), ((0, 1, 0, 0, -1), 1), ((0, 0, 1, -1, 0), 2)], 'sup': 4, 'exact': True, 'upper': 'LP', 'log': [(7, True, True, 19)], 'secs': 0}
+rand:6:102 all target 7 found complete 7 0s
+rand:6:102 all {'ncand': 1114, 'lp': '7', 'lp_floor': 7, 'witness_order': 7, 'witness_ok': True, 'k0': (-1, 0, 1, -1, -1), 'gens': [((0, 0, 0, 0, 1), 2), ((0, 0, 0, 1, 0), 2), ((0, 1, -1, 0, 0), 1), ((1, -1, 0, 0, 0), 1), ((1, 0, -1, 0, 0), 1)], 'sup': 4, 'exact': True, 'upper': 'LP', 'log': [(7, True, True, 7)], 'secs': 0}
+rand:6:103 pair target 4 found complete 6 0s
+rand:6:103 pair {'ncand': 15, 'lp': '13/3', 'lp_floor': 4, 'witness_order': 4, 'witness_ok': True, 'k0': (0, -1, 0, 0, 0), 'gens': [((0, 1, 0, 0, 0), 1), ((0, 0, 0, 1, 0), 1), ((0, 1, -1, 0, 0), 1), ((0, 0, 1, -1, 0), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(4, True, True, 6)], 'secs': 0}
+rand:6:103 all target 4 found complete 6 0s
+rand:6:103 all {'ncand': 204, 'lp': '13/3', 'lp_floor': 4, 'witness_order': 4, 'witness_ok': True, 'k0': (0, 0, -1, 0, 0), 'gens': [((0, 0, 0, 0, 1), 1), ((0, 0, 0, 1, 0), 1), ((0, 0, 1, -1, 0), 1), ((0, 0, 1, 0, -1), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(4, True, True, 6)], 'secs': 0}
+rand:6:104 pair target 8 found complete 5 0s
+rand:6:104 pair {'ncand': 15, 'lp': '8', 'lp_floor': 8, 'witness_order': 8, 'witness_ok': True, 'k0': (-1, -1, -1, -1, 1), 'gens': [((1, 0, 0, 0, 0), 2), ((0, 1, 0, 0, 0), 2), ((0, 0, 1, 0, 0), 2), ((0, 0, 0, 1, -1), 2)], 'sup': 16, 'exact': True, 'upper': 'LP', 'log': [(8, True, True, 5)], 'secs': 0}
+rand:6:104 all target 8 found complete 5 0s
+rand:6:104 all {'ncand': 1281, 'lp': '8', 'lp_floor': 8, 'witness_order': 8, 'witness_ok': True, 'k0': (-1, -1, 1, -1, -1), 'gens': [((0, 0, 0, 0, 1), 2), ((0, 0, 0, 1, 0), 2), ((0, 1, 0, 0, 0), 2), ((1, 0, -1, 0, 0), 2)], 'sup': 16, 'exact': True, 'upper': 'LP', 'log': [(8, True, True, 5)], 'secs': 0}
+rand:6:105 pair target 4 found complete 7 0s
+rand:6:105 pair {'ncand': 15, 'lp': '13/3', 'lp_floor': 4, 'witness_order': 4, 'witness_ok': True, 'k0': (-1, 0, 0, 0, 0), 'gens': [((1, 0, 0, 0, 0), 1), ((0, 0, 1, 0, 0), 1), ((1, -1, 0, 0, 0), 1), ((0, 1, -1, 0, 0), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(4, True, True, 7)], 'secs': 0}
+rand:6:105 all target 4 found complete 6 0s
+rand:6:105 all {'ncand': 251, 'lp': '9/2', 'lp_floor': 4, 'witness_order': 4, 'witness_ok': True, 'k0': (0, 0, -1, -1, 1), 'gens': [((0, 0, 0, 1, -1), 1), ((0, 0, 0, 1, 0), 1), ((0, 0, 1, 0, -1), 1), ((0, 0, 1, 0, 0), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(4, True, True, 6)], 'secs': 0}
+rand:6:106 pair target 4 found complete 3 0s
+rand:6:106 pair {'ncand': 15, 'lp': '9/2', 'lp_floor': 4, 'witness_order': 4, 'witness_ok': True, 'k0': (-1, -1, 0, 0, 0), 'gens': [((1, 0, 0, 0, 0), 2), ((0, 1, 0, 0, 0), 2)], 'sup': 4, 'exact': True, 'upper': 'LP', 'log': [(4, True, True, 3)], 'secs': 0}
+rand:6:106 all target 4 found complete 6 0s
+rand:6:106 all {'ncand': 243, 'lp': '9/2', 'lp_floor': 4, 'witness_order': 4, 'witness_ok': True, 'k0': (0, -1, 0, -1, 1), 'gens': [((0, 0, 0, 1, -1), 1), ((0, 0, 0, 1, 0), 1), ((0, 1, 0, 0, -1), 1), ((0, 1, 0, 0, 0), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(4, True, True, 6)], 'secs': 0}
+rand:6:107 pair target 7 found complete 105 0s
+rand:6:107 pair {'ncand': 15, 'lp': '15/2', 'lp_floor': 7, 'witness_order': 7, 'witness_ok': True, 'k0': (-1, -1, 0, 0, -1), 'gens': [((1, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0), 2), ((0, 0, 1, 0, 0), 1), ((0, 0, 0, 0, 1), 2), ((1, 0, -1, 0, 0), 1)], 'sup': 4, 'exact': True, 'upper': 'LP', 'log': [(7, True, True, 105)], 'secs': 0}
+rand:6:107 all target 7 found complete 9 0s
+rand:6:107 all {'ncand': 1095, 'lp': '15/2', 'lp_floor': 7, 'witness_order': 7, 'witness_ok': True, 'k0': (0, -1, -1, 0, -1), 'gens': [((0, 0, 0, 0, 1), 2), ((0, 0, 0, 1, 0), 1), ((0, 0, 1, -1, 0), 1), ((0, 0, 1, 0, 0), 1), ((0, 1, 0, 0, 0), 2)], 'sup': 4, 'exact': True, 'upper': 'LP', 'log': [(7, True, True, 9)], 'secs': 0}
+rand:6:108 pair target 5 found complete 35 0s
+rand:6:108 pair {'ncand': 15, 'lp': '5', 'lp_floor': 5, 'witness_order': 5, 'witness_ok': True, 'k0': (-1, 0, -1, 0, 1), 'gens': [((1, 0, 0, 0, 0), 1), ((0, 0, 0, 1, 0), 1), ((1, 0, 0, 0, -1), 1), ((0, 0, 1, -1, 0), 1), ((0, 0, 1, 0, -1), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(5, True, True, 35)], 'secs': 0}
+rand:6:108 all target 5 found complete 13 0s
+rand:6:108 all {'ncand': 345, 'lp': '5', 'lp_floor': 5, 'witness_order': 5, 'witness_ok': True, 'k0': (-1, -1, 0, 0, 0), 'gens': [((0, 0, 0, 0, 1), 1), ((0, 0, 0, 1, 0), 1), ((0, 0, 1, -1, 0), 1), ((0, 1, 0, 0, 0), 1), ((2, 1, -1, 0, -1), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(5, True, True, 13)], 'secs': 0}
+rand:6:109 pair target 5 found complete 18 0s
+rand:6:109 pair {'ncand': 15, 'lp': '5', 'lp_floor': 5, 'witness_order': 5, 'witness_ok': True, 'k0': (-1, -1, 1, 0, 0), 'gens': [((1, 0, 0, 0, 0), 1), ((0, 0, 0, 1, 0), 1), ((1, 0, 0, -1, 0), 1), ((0, 1, -1, 0, 0), 2)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(5, True, True, 18)], 'secs': 0}
+rand:6:109 all target 5 found complete 63 0s
+rand:6:109 all {'ncand': 271, 'lp': '5', 'lp_floor': 5, 'witness_order': 5, 'witness_ok': True, 'k0': (-1, 0, 0, 0, 0), 'gens': [((0, 0, 0, 1, 0), 1), ((0, 0, 1, 0, 0), 1), ((0, 1, -1, 0, 0), 1), ((1, -1, 0, 0, 0), 1), ((1, 0, 0, -1, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(5, True, True, 63)], 'secs': 0}
+rand:6:110 pair target 4 found complete 7 0s
+rand:6:110 pair {'ncand': 15, 'lp': '4', 'lp_floor': 4, 'witness_order': 4, 'witness_ok': True, 'k0': (-1, -1, 1, 0, 0), 'gens': [((1, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0), 1), ((1, 0, -1, 0, 0), 1), ((0, 1, -1, 0, 0), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(4, True, True, 7)], 'secs': 0}
+rand:6:110 all target 4 found complete 9 0s
+rand:6:110 all {'ncand': 231, 'lp': '13/3', 'lp_floor': 4, 'witness_order': 4, 'witness_ok': True, 'k0': (-1, 0, 0, 0, 0), 'gens': [((0, 0, 0, 0, 1), 1), ((0, 0, 1, -1, 0), 1), ((1, 0, -1, 0, 0), 1), ((1, 0, 0, 1, -1), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(4, True, True, 9)], 'secs': 0}
+rand:6:111 pair target 8 found complete 16 0s
+rand:6:111 pair {'ncand': 15, 'lp': '8', 'lp_floor': 8, 'witness_order': 8, 'witness_ok': True, 'k0': (-1, -1, 0, 0, -1), 'gens': [((1, 0, 0, 0, 0), 2), ((0, 1, 0, 0, 0), 1), ((0, 0, 0, 1, 0), 1), ((0, 0, 0, 0, 1), 2), ((0, 1, -1, 0, 0), 1), ((0, 0, 1, -1, 0), 1)], 'sup': 8, 'exact': True, 'upper': 'LP', 'log': [(8, True, True, 16)], 'secs': 0}
+rand:6:111 all target 8 found complete 9 0s
+rand:6:111 all {'ncand': 1173, 'lp': '8', 'lp_floor': 8, 'witness_order': 8, 'witness_ok': True, 'k0': (-1, 0, 0, -1, -1), 'gens': [((0, 0, 0, 0, 1), 2), ((0, 0, 0, 1, 0), 2), ((0, 0, 1, 0, 0), 1), ((0, 1, -1, 0, 0), 1), ((1, -1, 0, 0, 0), 1), ((1, 0, 0, 0, 0), 1)], 'sup': 8, 'exact': True, 'upper': 'LP', 'log': [(8, True, True, 9)], 'secs': 0}
+rand:6:112 pair target 4 found complete 9 0s
+rand:6:112 pair {'ncand': 15, 'lp': '4', 'lp_floor': 4, 'witness_order': 4, 'witness_ok': True, 'k0': (-1, 0, -1, 0, 1), 'gens': [((1, 0, 0, 0, 0), 1), ((0, 0, 1, 0, 0), 1), ((1, 0, 0, 0, -1), 1), ((0, 0, 1, 0, -1), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(4, True, True, 9)], 'secs': 0}
+rand:6:112 all target 4 found complete 18 0s
+rand:6:112 all {'ncand': 191, 'lp': '13/3', 'lp_floor': 4, 'witness_order': 4, 'witness_ok': True, 'k0': (-1, 0, 0, 0, 0), 'gens': [((0, 0, 0, 0, 1), 1), ((1, -1, 0, 0, 0), 1), ((1, 0, -1, 0, 0), 1), ((0, 1, 1, 0, -1), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(4, True, True, 18)], 'secs': 0}
+rand:6:113 pair target 7 found complete 40 0s
+rand:6:113 pair {'ncand': 15, 'lp': '7', 'lp_floor': 7, 'witness_order': 7, 'witness_ok': True, 'k0': (-1, 0, 0, 0, -1), 'gens': [((1, 0, 0, 0, 0), 1), ((0, 0, 0, 1, 0), 1), ((0, 0, 0, 0, 1), 2), ((1, -1, 0, 0, 0), 1), ((0, 1, -1, 0, 0), 1), ((0, 0, 1, -1, 0), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(7, True, True, 40)], 'secs': 0}
+rand:6:113 all target 7 found complete 7 0s
+rand:6:113 all {'ncand': 639, 'lp': '7', 'lp_floor': 7, 'witness_order': 7, 'witness_ok': True, 'k0': (-1, 0, 1, -1, -1), 'gens': [((0, 0, 0, 0, 1), 2), ((0, 0, 0, 1, 0), 2), ((0, 1, -1, 0, 0), 1), ((1, -1, 0, 0, 0), 1), ((1, 0, -1, 0, 0), 1)], 'sup': 4, 'exact': True, 'upper': 'LP', 'log': [(7, True, True, 7)], 'secs': 0}
+rand:6:114 pair target 5 found complete 39 0s
+rand:6:114 pair {'ncand': 15, 'lp': '5', 'lp_floor': 5, 'witness_order': 5, 'witness_ok': True, 'k0': (-1, 0, 0, 0, 0), 'gens': [((0, 0, 1, 0, 0), 1), ((0, 0, 0, 1, 0), 1), ((1, -1, 0, 0, 0), 1), ((1, 0, -1, 0, 0), 1), ((0, 1, 0, -1, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(5, True, True, 39)], 'secs': 0}
+rand:6:114 all target 5 found complete 99 0s
+rand:6:114 all {'ncand': 275, 'lp': '5', 'lp_floor': 5, 'witness_order': 5, 'witness_ok': True, 'k0': (-1, 0, 0, 0, 0), 'gens': [((0, 0, 0, 1, 0), 1), ((0, 0, 1, 0, 0), 1), ((0, 1, 0, -1, 0), 1), ((1, -1, 0, 0, 0), 1), ((1, 0, -1, 0, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(5, True, True, 99)], 'secs': 0}
+rand:7:1 pair target 8 found complete 302 0s
+rand:7:1 pair {'ncand': 21, 'lp': '25/3', 'lp_floor': 8, 'witness_order': 8, 'witness_ok': True, 'k0': (-1, -1, -1, 0, 0, 0), 'gens': [((1, 0, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0, 0), 1), ((0, 0, 1, 0, 0, 0), 2), ((0, 0, 0, 1, 0, 0), 1), ((0, 0, 0, 0, 0, 1), 1), ((1, 0, 0, -1, 0, 0), 1), ((0, 1, 0, 0, 0, -1), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(8, True, True, 302)], 'secs': 0}
+rand:7:1 all target 8 found complete 194 0s
+rand:7:1 all {'ncand': 5009, 'lp': '25/3', 'lp_floor': 8, 'witness_order': 8, 'witness_ok': True, 'k0': (-1, -1, -1, 1, 1, -1), 'gens': [((0, 0, 0, 0, 0, 1), 2), ((0, 0, 1, 0, -1, 0), 1), ((0, 0, 1, 0, 0, 0), 1), ((0, 1, 0, 0, -1, 0), 1), ((0, 1, 0, 0, 0, 0), 1), ((1, 0, 0, -1, 0, 0), 2)], 'sup': 8, 'exact': True, 'upper': 'LP', 'log': [(8, True, True, 194)], 'secs': 0}
+rand:7:2 pair target 10 found complete 10 0s
+rand:7:2 pair {'ncand': 21, 'lp': '10', 'lp_floor': 10, 'witness_order': 10, 'witness_ok': True, 'k0': (-1, -1, -1, -1, -1, 1), 'gens': [((1, 0, 0, 0, 0, 0), 2), ((0, 1, 0, 0, 0, 0), 2), ((0, 0, 1, 0, 0, 0), 2), ((0, 0, 0, 1, 0, 0), 1), ((0, 0, 0, 0, 1, 0), 1), ((0, 0, 0, 1, 0, -1), 1), ((0, 0, 0, 0, 1, -1), 1)], 'sup': 16, 'exact': True, 'upper': 'LP', 'log': [(10, True, True, 10)], 'secs': 0}
+rand:7:2 all target 10 found complete 527 0s
+rand:7:2 all {'ncand': 6296, 'lp': '10', 'lp_floor': 10, 'witness_order': 10, 'witness_ok': True, 'k0': (-1, -1, -1, 0, -1, 0), 'gens': [((0, 0, 0, 0, 0, 1), 1), ((0, 0, 0, 0, 1, 0), 2), ((0, 0, 0, 1, 0, -1), 1), ((0, 0, 1, 0, 0, 0), 2), ((0, 1, 0, -1, 0, 0), 1), ((0, 1, 0, 0, 0, 0), 1), ((1, 0, 0, 0, 0, 0), 2)], 'sup': 16, 'exact': True, 'upper': 'LP', 'log': [(10, True, True, 527)], 'secs': 0}
+rand:7:3 pair target 5 found complete 7 0s
+rand:7:3 pair {'ncand': 21, 'lp': '5', 'lp_floor': 5, 'witness_order': 5, 'witness_ok': True, 'k0': (-1, -1, 0, 0, 1, 0), 'gens': [((1, 0, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0, 0), 1), ((1, 0, -1, 0, 0, 0), 1), ((0, 1, 0, 0, -1, 0), 1), ((0, 0, 1, 0, -1, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(5, True, True, 7)], 'secs': 0}
+rand:7:3 all target 5 found complete 6 0s
+rand:7:3 all {'ncand': 1022, 'lp': '11/2', 'lp_floor': 5, 'witness_order': 5, 'witness_ok': True, 'k0': (-1, -1, 1, 1, 0, -1), 'gens': [((0, 0, 0, 0, 0, 1), 2), ((0, 1, 0, 0, -1, 0), 1), ((1, 0, -1, -1, 1, 0), 1), ((1, 1, -1, -1, 0, 0), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(5, True, True, 6)], 'secs': 0}
+rand:7:4 pair target 5 found complete 11 0s
+rand:7:4 pair {'ncand': 21, 'lp': '5', 'lp_floor': 5, 'witness_order': 5, 'witness_ok': True, 'k0': (-1, 0, 0, 0, 0, 0), 'gens': [((0, 1, 0, 0, 0, 0), 1), ((0, 0, 0, 1, 0, 0), 1), ((1, -1, 0, 0, 0, 0), 1), ((1, 0, -1, 0, 0, 0), 1), ((0, 0, 1, -1, 0, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(5, True, True, 11)], 'secs': 0}
+rand:7:4 all target 5 found complete 14 0s
+rand:7:4 all {'ncand': 1076, 'lp': '11/2', 'lp_floor': 5, 'witness_order': 5, 'witness_ok': True, 'k0': (-1, 0, 1, -1, -1, 0), 'gens': [((0, 0, 0, 0, 0, 1), 1), ((0, 0, 0, 0, 1, 0), 1), ((0, 0, 0, 1, 0, 0), 1), ((1, 0, -2, 1, 1, 0), 1), ((1, 0, 0, 0, 0, -1), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(5, True, True, 14)], 'secs': 0}
+rand:7:5 pair target 5 found complete 9 0s
+rand:7:5 pair {'ncand': 21, 'lp': '5', 'lp_floor': 5, 'witness_order': 5, 'witness_ok': True, 'k0': (0, -1, 0, 0, 0, 0), 'gens': [((0, 0, 1, 0, 0, 0), 1), ((0, 0, 0, 0, 1, 0), 1), ((0, 1, -1, 0, 0, 0), 1), ((0, 1, 0, -1, 0, 0), 1), ((0, 0, 0, 1, -1, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(5, True, True, 9)], 'secs': 0}
+rand:7:5 all target 5 found complete 9 0s
+rand:7:5 all {'ncand': 667, 'lp': '5', 'lp_floor': 5, 'witness_order': 5, 'witness_ok': True, 'k0': (-1, -1, 1, 0, 0, 1), 'gens': [((0, 0, 0, 0, 1, -1), 1), ((0, 0, 0, 1, -1, 0), 1), ((0, 1, -1, 0, 0, 0), 1), ((1, 0, -1, 0, 0, 0), 1), ((1, 1, 0, -1, 0, -1), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(5, True, True, 9)], 'secs': 0}
+rand:7:6 pair target 6 found complete 43 0s
+rand:7:6 pair {'ncand': 21, 'lp': '6', 'lp_floor': 6, 'witness_order': 6, 'witness_ok': True, 'k0': (-1, 0, 0, 0, -1, 0), 'gens': [((1, 0, 0, 0, 0, 0), 1), ((0, 0, 0, 0, 1, 0), 2), ((0, 0, 0, 0, 0, 1), 1), ((1, 0, 0, -1, 0, 0), 1), ((0, 0, 0, 1, 0, -1), 1)], 'sup': 4, 'exact': True, 'upper': 'LP', 'log': [(6, True, True, 43)], 'secs': 0}
+rand:7:6 all target 6 found complete 18 0s
+rand:7:6 all {'ncand': 1443, 'lp': '6', 'lp_floor': 6, 'witness_order': 6, 'witness_ok': True, 'k0': (0, 0, -1, 0, -1, 0), 'gens': [((0, 0, 0, 0, 0, 1), 1), ((0, 0, 0, 0, 1, 0), 2), ((0, 0, 0, 1, 0, -1), 1), ((0, 0, 1, -1, 0, 0), 1), ((0, 0, 1, 0, 0, 0), 1)], 'sup': 4, 'exact': True, 'upper': 'LP', 'log': [(6, True, True, 18)], 'secs': 0}
+rand:7:8 pair target 5 found complete 138 0s
+rand:7:8 pair {'ncand': 21, 'lp': '5', 'lp_floor': 5, 'witness_order': 5, 'witness_ok': True, 'k0': (0, -1, 0, 0, 0, 0), 'gens': [((0, 0, 1, 0, 0, 0), 1), ((0, 0, 0, 0, 0, 1), 1), ((0, 1, -1, 0, 0, 0), 1), ((0, 1, 0, -1, 0, 0), 1), ((0, 0, 0, 1, 0, -1), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(5, True, True, 138)], 'secs': 0}
+rand:7:8 all target 6 found complete 15 0s
+rand:7:8 all {'ncand': 1019, 'lp': '6', 'lp_floor': 6, 'witness_order': 6, 'witness_ok': True, 'k0': (-1, -1, -1, 1, 1, -1), 'gens': [((0, 0, 0, 0, 0, 1), 1), ((0, 0, 1, 0, 0, 0), 1), ((0, 1, 0, -1, 0, 0), 2), ((1, 0, 0, 0, -1, 1), 1), ((1, 0, 1, 0, -1, 0), 1)], 'sup': 4, 'exact': True, 'upper': 'LP', 'log': [(6, True, True, 15)], 'secs': 0}
+rand:7:9 pair target 4 found complete 8 0s
+rand:7:9 pair {'ncand': 21, 'lp': '9/2', 'lp_floor': 4, 'witness_order': 4, 'witness_ok': True, 'k0': (0, -1, -1, 0, 0, 1), 'gens': [((0, 1, 0, 0, 0, 0), 1), ((0, 0, 1, 0, 0, 0), 1), ((0, 1, 0, 0, 0, -1), 1), ((0, 0, 1, 0, 0, -1), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(4, True, True, 8)], 'secs': 0}
+rand:7:9 all target 4 found complete 6 0s
+rand:7:9 all {'ncand': 655, 'lp': '14/3', 'lp_floor': 4, 'witness_order': 4, 'witness_ok': True, 'k0': (0, 0, 0, -1, -1, 1), 'gens': [((0, 0, 0, 0, 1, -1), 1), ((0, 0, 0, 1, 0, -1), 1), ((0, 0, 0, 1, 0, 0), 1), ((0, 0, 0, 0, 1, 0), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(4, True, True, 6)], 'secs': 0}
+rand:7:10 pair target 6 found complete 7 0s
+rand:7:10 pair {'ncand': 21, 'lp': '6', 'lp_floor': 6, 'witness_order': 6, 'witness_ok': True, 'k0': (-1, -1, -1, 0, 1, 1), 'gens': [((1, 0, 0, 0, 0, 0), 2), ((0, 1, 0, 0, -1, 0), 2), ((0, 0, 1, 0, 0, -1), 2)], 'sup': 8, 'exact': True, 'upper': 'LP', 'log': [(6, True, True, 7)], 'secs': 0}
+rand:7:10 all target 6 found complete 331 0s
+rand:7:10 all {'ncand': 1227, 'lp': '6', 'lp_floor': 6, 'witness_order': 6, 'witness_ok': True, 'k0': (-1, -1, 0, -1, 1, 1), 'gens': [((0, 0, 0, 1, 0, -1), 1), ((0, 0, 1, 0, 0, -1), 1), ((0, 1, -1, 1, -1, 0), 1), ((0, 1, 0, 0, -1, 0), 1), ((1, 0, 0, 0, 0, 0), 2)], 'sup': 4, 'exact': True, 'upper': 'LP', 'log': [(6, True, True, 331)], 'secs': 0}
+rand:7:11 pair target 8 found complete 8 0s
+rand:7:11 pair {'ncand': 21, 'lp': '25/3', 'lp_floor': 8, 'witness_order': 8, 'witness_ok': True, 'k0': (-1, -1, -1, 0, 0, 0), 'gens': [((1, 0, 0, 0, 0, 0), 2), ((0, 1, 0, 0, 0, 0), 2), ((0, 0, 1, 0, 0, 0), 1), ((0, 0, 0, 0, 1, 0), 1), ((0, 0, 1, -1, 0, 0), 1), ((0, 0, 0, 1, -1, 0), 1)], 'sup': 8, 'exact': True, 'upper': 'LP', 'log': [(8, True, True, 8)], 'secs': 0}
+rand:7:11 all target 8 found complete 49 0s
+rand:7:11 all {'ncand': 4687, 'lp': '25/3', 'lp_floor': 8, 'witness_order': 8, 'witness_ok': True, 'k0': (-1, -1, 0, -1, 1, -1), 'gens': [((0, 0, 0, 0, 0, 1), 2), ((0, 0, 0, 1, -1, 0), 2), ((0, 1, 0, 0, 0, 0), 2), ((1, 0, 0, 0, 0, 0), 2)], 'sup': 16, 'exact': True, 'upper': 'LP', 'log': [(8, True, True, 49)], 'secs': 0}
+rand:7:12 pair target 7 found complete 23 0s
+rand:7:12 pair {'ncand': 21, 'lp': '39/5', 'lp_floor': 7, 'witness_order': 7, 'witness_ok': True, 'k0': (-1, -1, 0, 0, 0, 0), 'gens': [((0, 1, 0, 0, 0, 0), 2), ((0, 0, 1, 0, 0, 0), 1), ((0, 0, 0, 0, 1, 0), 1), ((1, 0, -1, 0, 0, 0), 1), ((1, 0, 0, -1, 0, 0), 1), ((0, 0, 0, 1, -1, 0), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(7, True, True, 23)], 'secs': 0}
+rand:7:12 all target 8 found complete 809 0s
+rand:7:12 all {'ncand': 4579, 'lp': '8', 'lp_floor': 8, 'witness_order': 8, 'witness_ok': True, 'k0': (-1, -1, 0, 0, 0, 0), 'gens': [((0, 0, 0, 0, 0, 1), 1), ((0, 0, 0, 0, 1, 0), 1), ((0, 0, 0, 1, 0, 0), 1), ((0, 0, 1, 0, 0, 0), 1), ((0, 1, 0, 0, 0, -1), 1), ((0, 1, 0, 0, 0, 0), 1), ((1, 0, -1, 0, -1, 0), 1), ((1, 0, 0, -1, 0, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(8, True, True, 809)], 'secs': 0}
+rsyl:4:0,1,2,3,4,5,6,7,8:1 pair target 3 found complete 5 0s
+rsyl:4:0,1,2,3,4,5,6,7,8:1 pair {'ncand': 36, 'lp': '15/4', 'lp_floor': 3, 'witness_order': 3, 'witness_ok': True, 'k0': (-1, 0, 0, 0, 0, 0, 0, 0), 'gens': [((1, 0, 0, 0, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0, 0, 0, 0), 1), ((1, -1, 0, 0, 0, 0, 0, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(3, True, True, 5)], 'secs': 0}
+rsyl:4:0,1,2,3,4,5,6,7,8:1 all target 3 found complete 5 0s
+rsyl:4:0,1,2,3,4,5,6,7,8:1 all {'ncand': 1814, 'lp': '15/4', 'lp_floor': 3, 'witness_order': 3, 'witness_ok': True, 'k0': (0, 0, 0, 0, 0, 0, -1, 0), 'gens': [((0, 0, 0, 0, 0, 0, 0, 1), 1), ((0, 0, 0, 0, 0, 0, 1, -1), 1), ((0, 0, 0, 0, 0, 0, 1, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(3, True, True, 5)], 'secs': 0}
+rsyl:4:0,1,2,4,8,15,3,5,6:1 pair target 3 found complete 5 0s
+rsyl:4:0,1,2,4,8,15,3,5,6:1 pair {'ncand': 36, 'lp': '15/4', 'lp_floor': 3, 'witness_order': 3, 'witness_ok': True, 'k0': (-1, 0, 0, 0, 0, 0, 0, 0), 'gens': [((1, 0, 0, 0, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0, 0, 0, 0), 1), ((1, -1, 0, 0, 0, 0, 0, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(3, True, True, 5)], 'secs': 0}
+rsyl:4:0,1,2,4,8,15,3,5,6:1 all target 3 found complete 5 0s
+rsyl:4:0,1,2,4,8,15,3,5,6:1 all {'ncand': 1623, 'lp': '15/4', 'lp_floor': 3, 'witness_order': 3, 'witness_ok': True, 'k0': (0, 0, 0, 0, 0, 0, -1, 0), 'gens': [((0, 0, 0, 0, 0, 0, 0, 1), 1), ((0, 0, 0, 0, 0, 0, 1, -1), 1), ((0, 0, 0, 0, 0, 0, 1, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(3, True, True, 5)], 'secs': 0}
+rsdc:11:0,1,2,3,4,5,6,7,8:1 pair target 3 found complete 5 0s
+rsdc:11:0,1,2,3,4,5,6,7,8:1 pair {'ncand': 36, 'lp': '11/3', 'lp_floor': 3, 'witness_order': 3, 'witness_ok': True, 'k0': (-1, 0, 0, 0, 0, 0, 0, 0), 'gens': [((1, 0, 0, 0, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0, 0, 0, 0), 1), ((1, -1, 0, 0, 0, 0, 0, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(3, True, True, 5)], 'secs': 0}
+rsdc:11:0,1,2,3,4,5,6,7,8:1 all target 3 found complete 5 0s
+rsdc:11:0,1,2,3,4,5,6,7,8:1 all {'ncand': 1016, 'lp': '11/3', 'lp_floor': 3, 'witness_order': 3, 'witness_ok': True, 'k0': (0, 0, 0, 0, 0, 0, -1, 0), 'gens': [((0, 0, 0, 0, 0, 0, 0, 1), 1), ((0, 0, 0, 0, 0, 0, 1, -1), 1), ((0, 0, 0, 0, 0, 0, 1, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(3, True, True, 5)], 'secs': 0}
+rhad:11:0,1,2,3,4,5,6,7,8:1 pair target 3 found complete 5 0s
+rhad:11:0,1,2,3,4,5,6,7,8:1 pair {'ncand': 36, 'lp': '11/3', 'lp_floor': 3, 'witness_order': 3, 'witness_ok': True, 'k0': (-1, 0, 0, 0, 0, 0, 0, 0), 'gens': [((1, 0, 0, 0, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0, 0, 0, 0), 1), ((1, -1, 0, 0, 0, 0, 0, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(3, True, True, 5)], 'secs': 0}
+rhad:11:0,1,2,3,4,5,6,7,8:1 all target 3 found complete 5 0s
+rhad:11:0,1,2,3,4,5,6,7,8:1 all {'ncand': 1890, 'lp': '11/3', 'lp_floor': 3, 'witness_order': 3, 'witness_ok': True, 'k0': (0, 0, 0, 0, 0, 0, -1, 0), 'gens': [((0, 0, 0, 0, 0, 0, 0, 1), 1), ((0, 0, 0, 0, 0, 0, 1, -1), 1), ((0, 0, 0, 0, 0, 0, 1, 0), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(3, True, True, 5)], 'secs': 0}
+rsyl:4:0,1,2,3,4,5,6,7,8:2 pair target 7 found complete 101040 12s
+rsyl:4:0,1,2,3,4,5,6,7,8:2 pair {'ncand': 36, 'lp': '15/2', 'lp_floor': 7, 'witness_order': 7, 'witness_ok': True, 'k0': (-1, 0, 0, -1, 0, 1, 0, 1), 'gens': [((1, -1, 0, 0, 0, 0, 0, 0), 1), ((1, 0, -1, 0, 0, 0, 0, 0), 1), ((0, 1, 0, 0, -1, 0, 0, 0), 1), ((0, 0, 1, 0, 0, -1, 0, 0), 1), ((0, 0, 0, 1, 0, -1, 0, 0), 1), ((0, 0, 0, 1, 0, 0, 0, -1), 1), ((0, 0, 0, 0, 1, 0, 0, -1), 1)], 'sup': 1, 'exact': True, 'upper': 'LP', 'log': [(7, True, True, 101040)], 'secs': 12}
+rsyl:4:0,1,2,3,4,5,6,7,8:2 all target 7 found complete 14931 17s
+rsyl:4:0,1,2,3,4,5,6,7,8:2 all {'ncand': 62175, 'lp': '15/2', 'lp_floor': 7, 'witness_order': 7, 'witness_ok': True, 'k0': (0, -1, 1, 0, -1, 0, 0, -1), 'gens': [((0, 0, 0, 0, 0, 0, 0, 1), 1), ((0, 0, 0, 0, 0, 0, 1, 0), 1), ((0, 0, 0, 0, 0, 1, 0, 0), 1), ((0, 0, 0, 0, 1, -1, -1, 1), 1), ((0, 0, 0, 0, 1, 0, 0, 0), 1), ((0, 1, -1, 0, 0, 0, 0, 0), 2)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(7, True, True, 14931)], 'secs': 17}
+rsyl:4:0,1,2,4,8,15,3,5,6:2 pair target 7 found complete 1081 0s
+rsyl:4:0,1,2,4,8,15,3,5,6:2 pair {'ncand': 36, 'lp': '15/2', 'lp_floor': 7, 'witness_order': 7, 'witness_ok': True, 'k0': (-1, -1, -1, 0, 0, 0, 1, 0), 'gens': [((1, 0, 0, 0, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0, 0, 0, 0), 1), ((0, 0, 1, 0, 0, 0, 0, 0), 1), ((0, 0, 0, 1, 0, 0, 0, 0), 1), ((1, 0, 0, 0, 0, 0, -1, 0), 1), ((0, 1, 0, -1, 0, 0, 0, 0), 1), ((0, 0, 1, 0, 0, 0, -1, 0), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(7, True, True, 1081)], 'secs': 0}
+rsyl:4:0,1,2,4,8,15,3,5,6:2 all target 7 found complete 77 2s
+rsyl:4:0,1,2,4,8,15,3,5,6:2 all {'ncand': 62704, 'lp': '15/2', 'lp_floor': 7, 'witness_order': 7, 'witness_ok': True, 'k0': (-1, 0, 0, 0, 0, 0, -1, -1), 'gens': [((0, 0, 0, 0, 0, 0, 0, 1), 2), ((0, 0, 0, 0, 0, 0, 1, 0), 1), ((0, 0, 0, 1, 0, 0, 0, 0), 1), ((0, 1, 0, 0, 0, 0, 0, 0), 1), ((1, -1, -1, 0, 0, 0, 1, 0), 1), ((1, 0, 1, -1, 0, 0, 0, 0), 1)], 'sup': 2, 'exact': True, 'upper': 'LP', 'log': [(7, True, True, 77)], 'secs': 2}
+REDO DONE

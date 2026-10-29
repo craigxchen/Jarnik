@@ -1,0 +1,11 @@
+16:07:43 rand:9:20 n 9 cuts 18 L 2 |A| 2233
+16:08:01 H_A [1, 8, 36, 112, 266, 488, 657, 507, 157, 1] rho 9
+16:08:01 classes 36 used 36
+16:08:03 e 0 sum 1 H 1 shifts used 1
+16:08:03 e 1 sum 8 H 8 shifts used 1
+16:08:06 e 2 sum 36 H 36 shifts used 2
+16:08:06 e 3 sum 112 H 112 shifts used 2
+16:08:11 e 4 sum 266 H 266 shifts used 4
+16:08:17 e 5 sum 488 H 488 shifts used 6
+16:09:21 e 6 sum 655 H 657 shifts used 36
+16:09:21 RESULT rand:9:20 pair reach 6 time 97.3

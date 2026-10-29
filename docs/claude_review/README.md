@@ -167,8 +167,12 @@ multi-shift linear-algebra criterion that would give `M = O(loglog R)` from a ra
 evidence); the split exceptional set must contain 15 quadric cones and 15 cubic threefolds from the second 2026
 five-divisor construction; a certified dP2 instance with `tau = 3/2 < 2`; and the observation that `Bl_e LM_5` is a
 contraction of `Mbar_(0,7)` (Castravet-Tevelev).
+Round 28 (`round28/README.md`) ran the round-27 judge's pre-registered test of the multi-shift criterion on 105
+independently verified slab boxes (d = 5 to 9). It reads unfavourable: the criterion beats the zonotope order only on
+M8' and one box containing its configuration, and the share does not grow. Route 5's interpolation branch is closed for
+internal work; its zero estimate stays open.
 
-**Growth-rate status (2026-10-29, after round 27).** No growth improvement over `log R/loglog R` is proved, either
+**Growth-rate status (2026-10-29, after round 28).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues

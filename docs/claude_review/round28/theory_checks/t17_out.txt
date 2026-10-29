@@ -1,0 +1,6 @@
+hex        d=2 |A|=7 reach(L_pair)=3 H=[1, 2, 3, 1, 0]
+seg        d=1 |A|=3 reach(L_pair)=2 H=[1, 1, 1]
+cut3       d=3 |A|=19 reach(L_pair)=4 H=[1, 3, 6, 6, 3, 0]
+hex x hex  d=4 |A|=49 reach(L_pair)=6 H=[1, 4, 10, 14, 13, 6, 1, 0]
+hex x seg  d=3 |A|=21 reach(L_pair)=5 H=[1, 3, 6, 6, 4, 1, 0]
+cut3 x hex d=5 |A|=133 reach(L_pair)=7 H=[1, 5, 15, 28, 36, 30, 15, 3, 0]

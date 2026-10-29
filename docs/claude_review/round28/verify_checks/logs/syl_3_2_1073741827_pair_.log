@@ -1,0 +1,11 @@
+15:21:38 syl:3:2 n 8 cuts 7 L 2 |A| 1037
+15:21:40 H_A [1, 7, 28, 77, 161, 259, 287, 175, 42] rho 8
+15:21:40 classes 28 used 28
+15:21:40 e 0 sum 1 H 1 shifts used 1
+15:21:40 e 1 sum 7 H 7 shifts used 1
+15:21:40 e 2 sum 28 H 28 shifts used 2
+15:21:40 e 3 sum 77 H 77 shifts used 2
+15:21:41 e 4 sum 161 H 161 shifts used 5
+15:21:41 e 5 sum 259 H 259 shifts used 5
+15:21:46 e 6 sum 286 H 287 shifts used 28
+15:21:46 RESULT syl:3:2 pair reach 6 time 8.2

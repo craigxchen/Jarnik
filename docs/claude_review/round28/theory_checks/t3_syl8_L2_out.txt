@@ -1,0 +1,18 @@
+syl8 L=2 l=e0 e=0: dim J1 = 0, dim J(A_l) = 0, dim J(A) = 0  EQUAL
+syl8 L=2 l=e0 e=1: dim J1 = 0, dim J(A_l) = 0, dim J(A) = 0  EQUAL
+syl8 L=2 l=e0 e=2: dim J1 = 1, dim J(A_l) = 1, dim J(A) = 0  EQUAL
+syl8 L=2 l=e0 e=3: dim J1 = 6, dim J(A_l) = 6, dim J(A) = 0  EQUAL
+syl8 L=2 l=e0 e=4: dim J1 = 25, dim J(A_l) = 25, dim J(A) = 0  EQUAL
+syl8 L=2 l=e0 e=5: dim J1 = 99, dim J(A_l) = 99, dim J(A) = 7  EQUAL
+syl8 L=2 l=e0 e=6: dim J1 = 257, dim J(A_l) = 258, dim J(A) = 70  J1 SMALLER by 1
+syl8 L=2 l=e0 e=7: dim J1 = 375, dim J(A_l) = 375, dim J(A) = 218  EQUAL
+syl8 L=2 l=e0 e=8: dim J1 = 357, dim J(A_l) = 357, dim J(A) = 315  EQUAL
+syl8 L=2 l=e0-e1 e=0: dim J1 = 0, dim J(A_l) = 0, dim J(A) = 0  EQUAL
+syl8 L=2 l=e0-e1 e=1: dim J1 = 0, dim J(A_l) = 0, dim J(A) = 0  EQUAL
+syl8 L=2 l=e0-e1 e=2: dim J1 = 2, dim J(A_l) = 2, dim J(A) = 0  EQUAL
+syl8 L=2 l=e0-e1 e=3: dim J1 = 12, dim J(A_l) = 12, dim J(A) = 0  EQUAL
+syl8 L=2 l=e0-e1 e=4: dim J1 = 45, dim J(A_l) = 45, dim J(A) = 0  EQUAL
+syl8 L=2 l=e0-e1 e=5: dim J1 = 140, dim J(A_l) = 141, dim J(A) = 7  J1 SMALLER by 1
+syl8 L=2 l=e0-e1 e=6: dim J1 = 294, dim J(A_l) = 294, dim J(A) = 70  EQUAL
+syl8 L=2 l=e0-e1 e=7: dim J1 = 384, dim J(A_l) = 384, dim J(A) = 218  EQUAL
+syl8 L=2 l=e0-e1 e=8: dim J1 = 357, dim J(A_l) = 357, dim J(A) = 315  EQUAL

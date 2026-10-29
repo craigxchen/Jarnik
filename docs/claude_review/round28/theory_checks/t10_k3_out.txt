@@ -1,0 +1,12 @@
+Sylvester n=8 d=7 L=1 |P|=4  LP-type bound 2L(1-1/n)=1.75
+  h = max sigma = 1.0 (status 0, dual bound -1.0) (0s)
+  h_pair = 1.0 (status 0, dual bound -1.0) -> rigidity (R): False (0s)
+  z2 = max |S1|+|S2| = 2.0 (status 0) ; 2h = 2.0 -> box-zonotope certificate of (N): True (0s)
+Sylvester n=8 d=7 L=2 |P|=4  LP-type bound 2L(1-1/n)=3.50
+  h = max sigma = 3.0 (status 0, dual bound -3.0) (0s)
+  h_pair = 2.0 (status 0, dual bound -2.0) -> rigidity (R): True (0s)
+  z2 = max |S1|+|S2| = 5.0000000000000036 (status 0) ; 2h = 6.0 -> box-zonotope certificate of (N): False (0s)
+Sylvester n=8 d=7 L=3 |P|=4  LP-type bound 2L(1-1/n)=5.25
+  h = max sigma = 4.0 (status 0, dual bound -4.0) (0s)
+  h_pair = 4.0 (status 0, dual bound -4.0) -> rigidity (R): False (0s)
+  z2 = max |S1|+|S2| = 7.0 (status 0) ; 2h = 8.0 -> box-zonotope certificate of (N): False (0s)

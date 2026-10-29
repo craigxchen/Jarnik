@@ -1,0 +1,4 @@
+15:30:40 rsyl:4:0,1,2,4,8,15,3,5,6:3 zeta_pair 10 LP_pair 11 nodes 33699 witness ok (True, 4, 324)
+15:30:47 candidates 152940 LP_all bound 11 = 11.0
+15:30:58 order 11 generators allowed 59 nodes 35206 none
+15:30:58 rsyl:4:0,1,2,4,8,15,3,5,6:3 zeta_all 10

@@ -1,0 +1,32 @@
+slab forms: [k0 + k1 + k2 + k3, k0 + k1 + k4 + k5, -k2 - k3 - k4 - k5, k0 + k2 + k4 + k6, -k1 - k3 - k4 - k6, -k1 - k2 - k5 - k6, k0 + k3 + k5 + k6]
+F (orbit coords): [1, 0, 0, -2, 4, 0, 0, 8]
+sum s^6                                  [0, 0, 90, 0, 0, 0, 180, 0]
+sum s^4 * sig^2                          [36, 96, 108, 132, 120, 168, 192, 144]
+sum s^2 * sig^4                          [216, 408, 216, 408, 768, 768, 408, 1440]
+sig^6                                    [90, 180, 90, 180, 360, 360, 180, 720]
+sum s^4 * q                              [36, 24, 36, 12, 24, 0, 24, 0]
+sum s^2 * q^2                            [24, 8, 24, 8, 0, 0, 8, 0]
+q^3                                      [6, 0, 6, 0, 0, 0, 0, 0]
+q^2 sig^2                                [6, 4, 6, 4, 0, 0, 4, 0]
+q sig^4                                  [18, 24, 18, 24, 24, 24, 24, 0]
+sum s^5 * sig                            not invariant (sign)
+sum s^3 * sig^3                          not invariant (sign)
+prod-type e6(k)                          [0, 0, 0, 0, 0, 0, 0, 1]
+sum_{p<q} s_p^3 s_q^3                    not invariant (sign)
+sum_{p<q} s_p^2 s_q^4+s_p^4 s_q^2        [144, 240, 198, 288, 288, 336, 252, 288]
+sum_{p<q<r} s_p^2 s_q^2 s_r^2            [152, 232, 110, 208, 432, 408, 196, 816]
+F == c * sig^6 mod J(A)^G
+rank of candidates + J(A)^G: 8  (8 = all invariants)
+F in span of ('sig^6',) + J(A)^G
+F in span of ('sum s^6', 'sig^6') + J(A)^G
+F in span of ('sum s^4 * sig^2', 'sig^6') + J(A)^G
+F in span of ('sum s^2 * sig^4', 'sig^6') + J(A)^G
+F in span of ('sum s^2 * sig^4', 'q sig^4') + J(A)^G
+F in span of ('sig^6', 'sum s^4 * q') + J(A)^G
+F in span of ('sig^6', 'sum s^2 * q^2') + J(A)^G
+F in span of ('sig^6', 'q^3') + J(A)^G
+F in span of ('sig^6', 'q^2 sig^2') + J(A)^G
+F in span of ('sig^6', 'q sig^4') + J(A)^G
+F in span of ('sig^6', 'prod-type e6(k)') + J(A)^G
+F in span of ('sig^6', 'sum_{p<q} s_p^2 s_q^4+s_p^4 s_q^2') + J(A)^G
+F in span of ('sig^6', 'sum_{p<q<r} s_p^2 s_q^2 s_r^2') + J(A)^G

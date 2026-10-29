@@ -1,0 +1,11 @@
+15:21:17 sdc:7:2 n 8 cuts 14 L 2 |A| 757
+15:21:18 H_A [1, 7, 28, 77, 161, 251, 188, 43, 1] rho 8
+15:21:18 classes 28 used 28
+15:21:18 e 0 sum 1 H 1 shifts used 1
+15:21:18 e 1 sum 7 H 7 shifts used 1
+15:21:18 e 2 sum 28 H 28 shifts used 2
+15:21:18 e 3 sum 77 H 77 shifts used 2
+15:21:19 e 4 sum 161 H 161 shifts used 8
+15:21:20 e 5 sum 251 H 251 shifts used 8
+15:21:23 e 6 sum 166 H 188 shifts used 28
+15:21:23 RESULT sdc:7:2 pair reach 6 time 6.3

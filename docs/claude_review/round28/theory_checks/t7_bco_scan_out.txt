@@ -1,0 +1,33 @@
+syl8 L=1 |A|=57 h=1 2h=2 |top|=7 nonrigid pair-moves=42 -> (R) fails
+syl8 L=2 |A|=1037 h=3 2h=6 |top|=7 nonrigid pair-moves=0 -> BCO predicts reach<=2h=6 if (N)
+syl8 L=3 |A|=1877 h=4 2h=8 |top|=28 nonrigid pair-moves=252 -> (R) fails
+sdc7 L=1 |A|=57 h=1 2h=2 |top|=7 nonrigid pair-moves=42 -> (R) fails
+sdc7 L=2 |A|=757 h=2 2h=4 |top|=35 nonrigid pair-moves=294 -> (R) fails
+sdc7 L=3 |A|=1765 h=4 2h=8 |top|=21 nonrigid pair-moves=126 -> (R) fails
+random seed=100 n=6 L=1 |A|=69 rho=5 reach(L_pair)=4 zeta>=5 | h=2 2h=4 |top|=3 nonrigid=4 not rigid
+random seed=101 n=6 L=2 |A|=185 rho=8 reach(L_pair)=6 zeta>=7 | h=3 2h=6 |top|=4 nonrigid=8 not rigid
+random seed=102 n=6 L=2 |A|=183 rho=7 reach(L_pair)=7 zeta=7 | h=2 2h=4 |top|=23 nonrigid=178 not rigid
+random seed=103 n=6 L=1 |A|=41 rho=4 reach(L_pair)=3 zeta>=4 | h=1 2h=2 |top|=9 nonrigid=42 not rigid
+random seed=104 n=6 L=2 |A|=213 rho=8 reach(L_pair)=8 zeta=8 | h=3 2h=6 |top|=10 nonrigid=48 not rigid
+random seed=105 n=6 L=1 |A|=49 rho=4 reach(L_pair)=4 zeta=4 | h=2 2h=4 |top|=1 nonrigid=0 BCO-rigid: reach==2h
+random seed=106 n=6 L=1 |A|=49 rho=4 reach(L_pair)=4 zeta=4 | h=2 2h=4 |top|=1 nonrigid=0 BCO-rigid: reach==2h
+random seed=107 n=6 L=2 |A|=177 rho=7 reach(L_pair)=6 zeta>=7 | h=3 2h=6 |top|=3 nonrigid=6 not rigid
+random seed=108 n=6 L=1 |A|=67 rho=5 reach(L_pair)=4 zeta>=5 | h=2 2h=4 |top|=2 nonrigid=2 not rigid
+random seed=109 n=6 L=1 |A|=53 rho=5 reach(L_pair)=4 zeta>=5 | h=1 2h=2 |top|=12 nonrigid=62 not rigid
+random seed=110 n=6 L=1 |A|=45 rho=4 reach(L_pair)=4 zeta=4 | h=1 2h=2 |top|=11 nonrigid=60 not rigid
+random seed=111 n=6 L=2 |A|=193 rho=8 reach(L_pair)=7 zeta>=8 | h=3 2h=6 |top|=7 nonrigid=28 not rigid
+random seed=112 n=6 L=1 |A|=39 rho=4 reach(L_pair)=3 zeta>=4 | h=1 2h=2 |top|=8 nonrigid=36 not rigid
+random seed=113 n=6 L=1 |A|=117 rho=7 reach(L_pair)=6 zeta>=7 | h=2 2h=4 |top|=12 nonrigid=62 not rigid
+random seed=114 n=6 L=1 |A|=55 rho=5 reach(L_pair)=4 zeta>=5 | h=1 2h=2 |top|=13 nonrigid=74 not rigid
+random seed=1 n=7 L=2 |A|=465 rho=8 reach(L_pair)=7 zeta>=8 | h=3 2h=6 |top|=8 nonrigid=32 not rigid
+random seed=2 n=7 L=2 |A|=603 rho=10 reach(L_pair)=9 zeta>=10 | h=4 2h=8 |top|=7 nonrigid=28 not rigid
+random seed=3 n=7 L=1 |A|=119 rho=5 reach(L_pair)=5 zeta=5 | h=1 2h=2 |top|=25 nonrigid=160 not rigid
+random seed=4 n=7 L=1 |A|=125 rho=5 reach(L_pair)=4 zeta>=5 | h=2 2h=4 |top|=3 nonrigid=6 not rigid
+random seed=5 n=7 L=1 |A|=77 rho=5 reach(L_pair)=4 zeta>=5 | h=1 2h=2 |top|=13 nonrigid=72 not rigid
+random seed=6 n=7 L=1 |A|=165 rho=6 reach(L_pair)=5 zeta>=6 | h=2 2h=4 |top|=10 nonrigid=40 not rigid
+random seed=7 n=7 L=1 |A|=109 rho=6 reach(L_pair)=4 zeta>=5 | h=2 2h=4 |top|=4 nonrigid=10 not rigid
+random seed=8 n=7 L=1 |A|=121 rho=6 reach(L_pair)=4 zeta>=5 | h=2 2h=4 |top|=4 nonrigid=6 not rigid
+random seed=9 n=7 L=1 |A|=77 rho=4 reach(L_pair)=4 zeta=4 | h=2 2h=4 |top|=1 nonrigid=0 BCO-rigid: reach==2h
+random seed=10 n=7 L=1 |A|=139 rho=6 reach(L_pair)=4 zeta>=5 | h=2 2h=4 |top|=3 nonrigid=4 not rigid
+random seed=11 n=7 L=2 |A|=439 rho=8 reach(L_pair)=7 zeta>=8 | h=3 2h=6 |top|=7 nonrigid=26 not rigid
+random seed=12 n=7 L=2 |A|=419 rho=8 reach(L_pair)=6 zeta>=7 | h=3 2h=6 |top|=7 nonrigid=24 not rigid

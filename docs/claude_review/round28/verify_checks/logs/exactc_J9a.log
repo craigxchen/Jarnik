@@ -1,0 +1,6 @@
+15:42:30 rsyl:4:0,1,2,3,4,5,6,7,8:3 |A| 4861 H_p [1, 8, 36, 112, 266, 504, 784, 1001, 1029, 756, 315, 49] rho 11
+15:42:30 e 1 exact-vector lower bound 8 H_p 8 classes used 1
+15:42:30 e 2 exact-vector lower bound 36 H_p 36 classes used 2
+15:42:31 e 3 exact-vector lower bound 112 H_p 112 classes used 2
+15:42:33 e 4 exact-vector lower bound 266 H_p 266 classes used 3
+15:43:07 e 5 exact-vector lower bound 504 H_p 504 classes used 3

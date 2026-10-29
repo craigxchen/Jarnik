@@ -1,0 +1,3 @@
+syl16 L 2 h 3 averaging bound floor(2L(1-1/16)) 3 top points 35 legal pair moves 0 (R) True max sigma on A_{e0-e1} 2
+syl16 L 3 h 4 averaging bound floor(2L(1-1/16)) 5 top points 420 legal pair moves 7140 (R) False max sigma on A_{e0-e1} 4
+syl16 L 4 h 7 averaging bound floor(2L(1-1/16)) 7 top points 15 legal pair moves 0 (R) True max sigma on A_{e0-e1} 6

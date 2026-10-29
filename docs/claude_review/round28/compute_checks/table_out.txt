@@ -1,0 +1,105 @@
+sdc:7:2                            d=7 |A|=  757 L=2 rho= 8 rho/L= 4.00 reach_pair=6/6 cube=6/6 zeta=7/7(7,ex) r-z=-1
+syl:3:2                            d=7 |A|= 1037 L=2 rho= 8 rho/L= 4.00 reach_pair=6/6 cube=7/7 zeta=7/7(7,ex) r-z=-1
+syl:3:3                            d=7 |A|= 1877 L=3 rho=11 rho/L= 3.67 reach_pair=11/11 cube=11/11 zeta=10/10(21/2,ex) r-z=1
+sdc:7:3                            d=7 |A|= 1765 L=3 rho=10 rho/L= 3.33 reach_pair=10/10 cube=10/10 zeta=10/10(21/2,ex) r-z=0
+syl:3:1                            d=7 |A|=   57 L=1 rho= 3 rho/L= 3.00 reach_pair=3/3 cube=3/3 zeta=3/3(7/2,ex) r-z=0
+sdc:7:1                            d=7 |A|=   57 L=1 rho= 3 rho/L= 3.00 reach_pair=3/3 cube=3/3 zeta=3/3(7/2,ex) r-z=0
+rand:6:100                         d=5 |A|=   69 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(5,ex) r-z=-1
+rand:6:101                         d=5 |A|=  185 L=2 rho= 8 rho/L= 4.00 reach_pair=6/6 cube=6/6 zeta=8/8(8,ex) r-z=-2
+rand:6:102                         d=5 |A|=  183 L=2 rho= 7 rho/L= 3.50 reach_pair=7/7 cube=7/7 zeta=7/7(7,ex) r-z=0
+rand:6:103                         d=5 |A|=   41 L=1 rho= 4 rho/L= 4.00 reach_pair=3/3 cube=3/3 zeta=4/4(13/3,ex) r-z=-1
+rand:6:104                         d=5 |A|=  213 L=2 rho= 8 rho/L= 4.00 reach_pair=8/8 cube=8/8 zeta=8/8(8,ex) r-z=0
+rand:6:105                         d=5 |A|=   49 L=1 rho= 4 rho/L= 4.00 reach_pair=4/4 cube=4/4 zeta=4/4(9/2,ex) r-z=0
+rand:6:106                         d=5 |A|=   49 L=1 rho= 4 rho/L= 4.00 reach_pair=4/4 cube=4/4 zeta=4/4(9/2,ex) r-z=0
+rand:6:107                         d=5 |A|=  177 L=2 rho= 7 rho/L= 3.50 reach_pair=6/6 cube=6/6 zeta=7/7(15/2,ex) r-z=-1
+rand:6:108                         d=5 |A|=   67 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(5,ex) r-z=-1
+rand:6:109                         d=5 |A|=   53 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(5,ex) r-z=-1
+rand:6:110                         d=5 |A|=   45 L=1 rho= 4 rho/L= 4.00 reach_pair=4/4 cube=4/4 zeta=4/4(13/3,ex) r-z=0
+rand:6:111                         d=5 |A|=  193 L=2 rho= 8 rho/L= 4.00 reach_pair=7/7 cube=7/7 zeta=8/8(8,ex) r-z=-1
+rand:6:112                         d=5 |A|=   39 L=1 rho= 4 rho/L= 4.00 reach_pair=3/3 cube=3/3 zeta=4/4(13/3,ex) r-z=-1
+rand:6:113                         d=5 |A|=  117 L=1 rho= 7 rho/L= 7.00 reach_pair=6/6 cube=6/6 zeta=7/7(7,ex) r-z=-1
+rand:6:114                         d=5 |A|=   55 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(5,ex) r-z=-1
+rand:7:1                           d=6 |A|=  465 L=2 rho= 8 rho/L= 4.00 reach_pair=7/7 cube=7/7 zeta=8/8(25/3,ex) r-z=-1
+rand:7:2                           d=6 |A|=  603 L=2 rho=10 rho/L= 5.00 reach_pair=9/9 cube=9/9 zeta=10/10(10,ex) r-z=-1
+rand:7:3                           d=6 |A|=  119 L=1 rho= 5 rho/L= 5.00 reach_pair=5/5 cube=5/5 zeta=5/5(11/2,ex) r-z=0
+rand:7:4                           d=6 |A|=  125 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(11/2,ex) r-z=-1
+rand:7:5                           d=6 |A|=   77 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(5,ex) r-z=-1
+rand:7:6                           d=6 |A|=  165 L=1 rho= 6 rho/L= 6.00 reach_pair=5/5 cube=5/5 zeta=6/6(6,ex) r-z=-1
+rand:7:7                           d=6 |A|=  109 L=1 rho= 6 rho/L= 6.00 reach_pair=4/4 cube=4/4 zeta=6/5(6,ex) r-z=-2
+rand:7:8                           d=6 |A|=  121 L=1 rho= 6 rho/L= 6.00 reach_pair=4/4 cube=4/4 zeta=6/5(6,ex) r-z=-2
+rand:7:9                           d=6 |A|=   77 L=1 rho= 4 rho/L= 4.00 reach_pair=4/4 cube=4/4 zeta=4/4(14/3,ex) r-z=0
+rand:7:10                          d=6 |A|=  139 L=1 rho= 6 rho/L= 6.00 reach_pair=4/4 cube=4/4 zeta=6/6(6,ex) r-z=-2
+rand:7:11                          d=6 |A|=  439 L=2 rho= 8 rho/L= 4.00 reach_pair=7/7 cube=7/7 zeta=8/8(25/3,ex) r-z=-1
+rand:7:12                          d=6 |A|=  419 L=2 rho= 8 rho/L= 4.00 reach_pair=6/6 cube=6/6 zeta=8/7(8,ex) r-z=-2
+rsyl:4:0,1,2,3,4,5,6,7,8:1         d=8 |A|=   73 L=1 rho= 3 rho/L= 3.00 reach_pair=3/3 cube=3/3 zeta=3/3(15/4,ex) r-z=0
+rsyl:4:0,1,2,4,8,15,3,5,6:1        d=8 |A|=   73 L=1 rho= 3 rho/L= 3.00 reach_pair=3/3 cube=3/3 zeta=3/3(15/4,ex) r-z=0
+rsdc:11:0,1,2,3,4,5,6,7,8:1        d=8 |A|=   73 L=1 rho= 3 rho/L= 3.00 reach_pair=3/3 cube=3/3 zeta=3/3(11/3,ex) r-z=0
+rhad:11:0,1,2,3,4,5,6,7,8:1        d=8 |A|=   73 L=1 rho= 3 rho/L= 3.00 reach_pair=3/3 cube=3/3 zeta=3/3(11/3,ex) r-z=0
+rsyl:4:0,1,2,3,4,5,6,7,8:2         d=8 |A|= 1837 L=2 rho= 8 rho/L= 4.00 reach_pair=6/6 cube=7/7 zeta=7/7(15/2,ex) r-z=-1
+rsyl:4:0,1,2,4,8,15,3,5,6:2        d=8 |A|= 1841 L=2 rho= 8 rho/L= 4.00 reach_pair=6/6 cube=7/7 zeta=7/7(15/2,ex) r-z=-1
+rsdc:11:0,1,2,3,4,5,6,7,8:2        d=8 |A|= 1367 L=2 rho= 7 rho/L= 3.50 reach_pair=6/6 cube=6/6 zeta=7/7(22/3,ex) r-z=-1
+rhad:11:0,1,2,3,4,5,6,7,8:2        d=8 |A|= 2049 L=2 rho= 8 rho/L= 4.00 reach_pair=7/7 cube=7/7 zeta=7/7(22/3,ex) r-z=0
+rsyl:4:0,1,2,3,4,5,6,7,8:3         d=8 |A|= 4861 L=3 rho=11 rho/L= 3.67 reach_pair=11/11 cube=/ zeta=10/10(11,ex) r-z=1
+rsdc:11:0,1,2,3,4,5,6,7,8:3        d=8 |A|= 4457 L=3 rho=10 rho/L= 3.33 reach_pair=9/9 cube=/ zeta=10/10(1316/121,ex) r-z=-1
+rhad:11:0,1,2,3,4,5,6,7,8:3        d=8 |A|= 4997 L=3 rho=11 rho/L= 3.67 reach_pair=10/10 cube=/ zeta=11/11(11,ex) r-z=-1
+rand:9:1                           d=8 |A|=  351 L=1 rho= 6 rho/L= 6.00 reach_pair=4/4 cube=4/4 zeta=5/5(40/7,ex) r-z=-1
+rand:9:3                           d=8 |A|= 2907 L=2 rho=10 rho/L= 5.00 reach_pair=7/7 cube=7/7 zeta=10/10(10,ex) r-z=-3
+rand:9:4                           d=8 |A|= 3187 L=2 rho=10 rho/L= 5.00 reach_pair=8/8 cube=8/8 zeta=10/10(21/2,ex) r-z=-2
+rand:9:5                           d=8 |A|= 2281 L=2 rho= 9 rho/L= 4.50 reach_pair=7/7 cube=7/7 zeta=9/9(19/2,ex) r-z=-2
+rand:9:6                           d=8 |A|= 2293 L=2 rho= 9 rho/L= 4.50 reach_pair=7/7 cube=7/7 zeta=9/9(9,ex) r-z=-2
+rand:9:7                           d=8 |A|= 2851 L=2 rho=10 rho/L= 5.00 reach_pair=7/7 cube=7/7 zeta=10/10(10,ex) r-z=-3
+rand:9:8                           d=8 |A|=  363 L=1 rho= 6 rho/L= 6.00 reach_pair=4/4 cube=4/4 zeta=6/5(6,ex) r-z=-2
+rand:9:9                           d=8 |A|= 2377 L=2 rho= 9 rho/L= 4.50 reach_pair=7/7 cube=7/7 zeta=9/9(28/3,ex) r-z=-2
+rand:9:10                          d=8 |A|= 2187 L=2 rho= 8 rho/L= 4.00 reach_pair=7/7 cube=7/7 zeta=8/8(53/6,ex) r-z=-1
+rand:9:11                          d=8 |A|=  249 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(11/2,ex) r-z=-1
+rand:9:12                          d=8 |A|= 2521 L=2 rho= 9 rho/L= 4.50 reach_pair=7/7 cube=7/7 zeta=9/9(19/2,ex) r-z=-2
+rand:9:13                          d=8 |A|=  303 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(6,ex) r-z=-1
+rand:9:14                          d=8 |A|=  633 L=1 rho= 8 rho/L= 8.00 reach_pair=6/6 cube=6/6 zeta=8/8(8,ex) r-z=-2
+rand:9:15                          d=8 |A|=  365 L=1 rho= 6 rho/L= 6.00 reach_pair=4/4 cube=4/4 zeta=6/5(44/7,ex) r-z=-2
+rand:9:16                          d=8 |A|=  391 L=1 rho= 6 rho/L= 6.00 reach_pair=4/4 cube=4/4 zeta=6/6(19/3,ex) r-z=-2
+rand:9:17                          d=8 |A|=  121 L=1 rho= 4 rho/L= 4.00 reach_pair=3/3 cube=3/3 zeta=4/4(19/4,ex) r-z=-1
+rand:9:18                          d=8 |A|=  501 L=1 rho= 6 rho/L= 6.00 reach_pair=5/5 cube=5/5 zeta=6/6(20/3,ex) r-z=-1
+rand:9:19                          d=8 |A|=  261 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(17/3,ex) r-z=-1
+rand:9:20                          d=8 |A|= 2233 L=2 rho= 9 rho/L= 4.50 reach_pair=6/6 cube=6/6 zeta=8/8(9,ex) r-z=-2
+rand:9:21                          d=8 |A|= 3307 L=2 rho=10 rho/L= 5.00 reach_pair=7/7 cube=7/7 zeta=10/10(21/2,ex) r-z=-3
+rand:9:22                          d=8 |A|=  355 L=1 rho= 6 rho/L= 6.00 reach_pair=4/4 cube=4/4 zeta=6/5(6,ex) r-z=-2
+rand:9:23                          d=8 |A|=  453 L=1 rho= 7 rho/L= 7.00 reach_pair=4/4 cube=4/4 zeta=7/7(15/2,ex) r-z=-3
+rand:9:24                          d=8 |A|=  285 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(17/3,ex) r-z=-1
+rand:9:25                          d=8 |A|=  257 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(39/7,ex) r-z=-1
+rand:9:26                          d=8 |A|= 2859 L=2 rho=10 rho/L= 5.00 reach_pair=8/8 cube=8/8 zeta=10/10(10,ex) r-z=-2
+rand:9:27                          d=8 |A|=  129 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/4(26/5,ex) r-z=-1
+rand:9:28                          d=8 |A|= 3175 L=2 rho=10 rho/L= 5.00 reach_pair=8/8 cube=8/8 zeta=10/10(41/4,ex) r-z=-2
+rand:9:29                          d=8 |A|= 2651 L=2 rho=10 rho/L= 5.00 reach_pair=7/7 cube=7/7 zeta=10/10(10,ex) r-z=-3
+rand:9:30                          d=8 |A|=  173 L=1 rho= 5 rho/L= 5.00 reach_pair=3/3 cube=4/4 zeta=5/5(21/4,ex) r-z=-2
+rsyl:4:0,1,2,3,4,5,6,7,8,9:2       d=9 |A|= 3847 L=2 rho= 8 rho/L= 4.00 reach_pair=6/6 cube=7/7 zeta=7/7(15/2,ex) r-z=-1
+rsdc:11:0,1,2,3,4,5,6,7,8,9:2      d=9 |A|= 2709 L=2 rho= 7 rho/L= 3.50 reach_pair=6/6 cube=6/6 zeta=7/7(22/3,ex) r-z=-1
+rhad:11:0,1,2,3,4,5,6,7,8,9:2      d=9 |A|= 4525 L=2 rho= 8 rho/L= 4.00 reach_pair=7/7 cube=7/7 zeta=7/7(22/3,ex) r-z=0
+rsyl:4:0,1,2,3,4,5,6,7,8,9:1       d=9 |A|=   91 L=1 rho= 3 rho/L= 3.00 reach_pair=3/3 cube=3/3 zeta=3/3(15/4,ex) r-z=0
+rand:10:2                          d=9 |A|= 1255 L=1 rho= 7 rho/L= 7.00 reach_pair=5/5 cube=6/6 zeta=7/7(15/2,ex) r-z=-2
+rand:10:5                          d=9 |A|=  177 L=1 rho= 4 rho/L= 4.00 reach_pair=3/3 cube=3/3 zeta=4/4(34/7,ex) r-z=-1
+rand:10:6                          d=9 |A|=  239 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(11/2,ex) r-z=-1
+rand:10:8                          d=9 |A|=  419 L=1 rho= 6 rho/L= 6.00 reach_pair=4/4 cube=4/4 zeta=6/6(6,ex) r-z=-2
+rand:10:9                          d=9 |A|=  271 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(163/30,ex) r-z=-1
+rand:10:11                         d=9 |A|=  265 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(104/19,ex) r-z=-1
+rand:10:14                         d=9 |A|=  815 L=1 rho= 7 rho/L= 7.00 reach_pair=4/4 cube=4/4 zeta=7/7(7,ex) r-z=-3
+rand:10:15                         d=9 |A|=  329 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(11/2,ex) r-z=-1
+rand:10:16                         d=9 |A|=  325 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(11/2,ex) r-z=-1
+rand:10:17                         d=9 |A|=  377 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(17/3,ex) r-z=-1
+rand:10:19                         d=9 |A|=  291 L=1 rho= 5 rho/L= 5.00 reach_pair=3/3 cube=4/4 zeta=5/5(28/5,ex) r-z=-2
+rand:10:20                         d=9 |A|=  255 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(28/5,ex) r-z=-1
+rand:10:21                         d=9 |A|=  707 L=1 rho= 6 rho/L= 6.00 reach_pair=5/5 cube=5/5 zeta=6/6(20/3,ex) r-z=-1
+rand:10:22                         d=9 |A|=  711 L=1 rho= 6 rho/L= 6.00 reach_pair=5/5 cube=5/5 zeta=6/6(84/13,ex) r-z=-1
+rand:10:23                         d=9 |A|=  307 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(16/3,ex) r-z=-1
+rand:10:25                         d=9 |A|=  269 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/4(16/3,ex) r-z=-1
+rand:10:27                         d=9 |A|=  205 L=1 rho= 4 rho/L= 4.00 reach_pair=4/4 cube=4/4 zeta=4/4(98/19,ex) r-z=0
+rand:10:30                         d=9 |A|=  273 L=1 rho= 5 rho/L= 5.00 reach_pair=4/4 cube=4/4 zeta=5/5(37/7,ex) r-z=-1
+rand:10:31                         d=9 |A|=  833 L=1 rho= 7 rho/L= 7.00 reach_pair=5/5 cube=5/5 zeta=7/7(29/4,ex) r-z=-2
+rand:10:38                         d=9 |A|=  309 L=1 rho= 6 rho/L= 6.00 reach_pair=4/4 cube=4/4 zeta=6/6(55/9,ex) r-z=-2
+rsyl:4:0,1,2,4,8,15,3,5,6:3        d=8 |A|= 4787 L=3 rho=11 rho/L= 3.67 reach_pair=10/10 cube=10/ zeta=10/10(11,ex) r-z=0
+rand:9:2                           d=8 |A|= 3803 L=2 rho=11 rho/L= 5.50 reach_pair=8/8 cube=8/8 zeta=11/11(11,ex) r-z=-3
+rsyl:4:3,11,2,8,9,13,15,10,7:3     d=8 |A|= 4809 L=3 rho=11 rho/L= 3.67 reach_pair=10/10 cube=/ zeta=10/10(89/8,ex) r-z=0
+rsyl:4:13,3,14,2,6,12,10,15,8:3    d=8 |A|= 4809 L=3 rho=11 rho/L= 3.67 reach_pair=10/10 cube=/ zeta=10/10(89/8,ex) r-z=0
+rsyl:4:0,6,3,1,12,14,5,2,8:3       d=8 |A|= 4809 L=3 rho=11 rho/L= 3.67 reach_pair=10/10 cube=/ zeta=10/10(89/8,ex) r-z=0
+rhad:11:8,11,4,3,7,1,6,0,2:3       d=8 |A|= 4981 L=3 rho=11 rho/L= 3.67 reach_pair=10/10 cube=/ zeta=11/11(11,ex) r-z=-1
+rhad:11:10,11,4,1,9,5,0,7,3:3      d=8 |A|= 4997 L=3 rho=11 rho/L= 3.67 reach_pair=10/10 cube=/ zeta=11/11(11,ex) r-z=-1
+rsdc:11:2,3,5,1,0,10,6,11,8:3      d=8 |A|= 4465 L=3 rho=10 rho/L= 3.33 reach_pair=10/10 cube=/ zeta=10/10(1646/151,ex) r-z=0
