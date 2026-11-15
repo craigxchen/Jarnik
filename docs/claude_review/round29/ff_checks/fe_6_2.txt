@@ -1,0 +1,5 @@
+best 2 dimU 1
+best 3 dimU 2
+best 4 dimU 3
+best 5 dimU 4
+D 6 L 2 max M 5 closures examined 245105

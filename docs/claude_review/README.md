@@ -171,8 +171,14 @@ Round 28 (`round28/README.md`) ran the round-27 judge's pre-registered test of t
 independently verified slab boxes (d = 5 to 9). It reads unfavourable: the criterion beats the zonotope order only on
 M8' and one box containing its configuration, and the share does not grow. Route 5's interpolation branch is closed for
 internal work; its zero estimate stays open.
+Round 29 (`round29/README.md`) tried four unconventional lanes, each with a killer: the problem over function fields,
+an operator template modelled on Li-Liu's conditional Goldbach paper, other formulations (including a residue-class
+twin), and 18 screened ideas from distant fields. Nothing passes both filters and the growth rate is unchanged. New and
+exact: 8-point clusters over `Q(i)(t)` at `c = 0` for every degree divisible by 8 (the "cube family"), with an 8-point
+polynomial template over `Z[i]`. One lane's headline (smooth moduli escape the 2/3 bound in the twin) was false and is
+recorded as killed. The function-field problem is itself open: bounded clusters there are equivalent to bounded rank.
 
-**Growth-rate status (2026-10-29, after round 28).** No growth improvement over `log R/loglog R` is proved, either
+**Growth-rate status (2026-11-15, after round 29).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues

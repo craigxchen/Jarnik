@@ -1,0 +1,17 @@
+# kill_ff notes
+- skeleton written.
+- thmC.py: identity verified (sympy); y=(-9/4,-2/3,1/4,8/3): cluster through Q exactly 8, pairwise deg<=4, N real squarefree. CONFIRMED.
+- RECORD OVERLAP: families.md §4 Lemma P = Lemma 1.1 (Im power sums agree r<D/2 via Newton) -> linearisation NOT new (ff §2 says it is).
+- RECORD OVERLAP: round20/gauss.md Thm 4.3(ii) + round22/toric.md Prop 4.3 = free-curve/generic-smoothness bound (k-1)mu_0 <= B.C for covering families with fixed contact = Thm D's mechanism; k=4 covering family allowed (Thm 4.1/4.4, D=7 c=0 rank 3 EXACT), k=5 excluded. So Thm D = record argument transplanted to toric compactification of T_Lambda (plus +1).
+- round22 Thm 4.4: exact 4-pt function-field cluster D=7,c=0 (14 rays, contact 4) -> M(7,0)>=4 is EXACT (ff labelled numerical).
+- round22 §7: k=5 balanced (rank-4 simplex code, D=15) expected dim 0, numerically none found. Same dimension count as ff's.
+- families.md line 284 "consistent with notes' fixed-shift argument (at most 6 even)": Thm C' (if verified) shows polynomial templates reach 8 at even D=8.
+- lp_rank.py: Prop 3.3 CONFIRMED (theta=1/2: r3->6, r4->8 (size9 opt 0.4); theta=4/7: r3->4, r4->5).
+- L2closed.py (own exhaustive closed-set method, float SVD): L=1 D=4,5,6 -> 6,10,20 (Sperner ok); L=2: M(5,0)=3, M(6,0)=5 CONFIRMED. D=7 L=2 running.
+- thmB.py/thmB2.py: THEOREM B GAP: with B a basis (forced when L=k, i.e. c=D/2-k-1, incl. D=8 c=0), exists x with b.x=1 all b => w_u=-w_{u+x}; after sign normalisation columns coincide (repeated roots) -> fake invalid. Fix: L>=k+1 and B containing triple {a,b,a+b}: verified columns distinct for k=4 c=0..2, k=5. Also fibre ker W cap {0,1} contains extra points at distance 2 for basis choice.
+- template.py: C' confirmed: 8 distinct Gaussian integers one norm, chord/sqrtR -> 3.1796e9 (no gcd reduction).
+- compose16.py: Q_cube(h), h quadratic (3 choices), D=16 c=0: exactly 8 zero-sum sets, rank 4.
+- L2find.py / verify_rank1.py: EXACT M(7,1)>=8 (y=(1,2,3,4,5,-6,-7) on a vertical line), M(8,1)>=14 (y=(1,2,3,4,-5,-6,-7,8)); ff table said >=6, >=8. Mechanism: vertical line makes m=2 row proportional to m=1 (rank-1 W) -> zero-sum subsets of signed reals with distinct |y|.
+- vert.py: purely imaginary locus at c=0 (D=8 L=3, D=10 L=4, integer |y|<=18/15): only 3 points. Not an excess locus.
+- Thm D: 'some c_j>=1' unjustified but conclusion OK (F=G=O^r contradiction); needs complexification of real B.
+- Websearch: no ff Cilleruelo-Granville literature found; Odlyzko {0,1} lemma = Costello-Tao-Vu math/0505156 L3.1; Fermat-quotient p-derivation confirmed (arXiv 2212.02137), explicit G_m delta-character not found.

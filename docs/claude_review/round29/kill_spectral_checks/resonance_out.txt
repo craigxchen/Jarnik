@@ -1,0 +1,6 @@
+N=100000001 C=4 W/R=5.0 sqrtR=100.0 E(pred arc)=484 lowerbound_pred=178 E/sqrtR=4.840 sup_nontriv=510 at 17.28deg sup_all=2038
+N=100000001 C=4 W/R=1.0 sqrtR=100.0 E(pred arc)=134 lowerbound_pred=178 E/sqrtR=1.340 sup_nontriv=140 at 24.99deg sup_all=404
+N=2576450045 C=4 W/R=5.0 sqrtR=225.3 E(pred arc)=980 lowerbound_pred=402 E/sqrtR=4.350 sup_nontriv=980 at 26.06deg sup_all=4558
+N=2576450045 C=4 W/R=1.0 sqrtR=225.3 E(pred arc)=238 lowerbound_pred=402 E/sqrtR=1.056 sup_nontriv=238 at 26.06deg sup_all=1004
+N=1000000000039 C=4 W/R=5.0 sqrtR=1000.0 E(pred arc)=3904 lowerbound_pred=1788 E/sqrtR=3.904 sup_nontriv=4314 at 18.32deg sup_all=20188
+N=1000000000039 C=4 W/R=1.0 sqrtR=1000.0 E(pred arc)=560 lowerbound_pred=1788 E/sqrtR=0.560 sup_nontriv=740 at 33.57deg sup_all=4282

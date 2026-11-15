@@ -1,0 +1,8 @@
+N=100000001 sqrtR=100.0 ordered resonant pairs within Theta (C=4): 178  ratio to sqrtR: 1.780  direction 153.43 deg
+N=2576450045 sqrtR=225.3 ordered resonant pairs within Theta (C=4): 402  ratio to sqrtR: 1.784  direction 153.43 deg
+N=1000000000039 sqrtR=1000.0 ordered resonant pairs within Theta (C=4): 1788  ratio to sqrtR: 1.788  direction 153.43 deg
+N=10000000000000061 sqrtR=10000.0 ordered resonant pairs within Theta (C=4): 17888  ratio to sqrtR: 1.789  direction 153.43 deg
+delta=0.1: int |V|^2 du/u = 4.1247; delta*that = 0.41247 (predicted ||phi'||^2 = 0.40959)
+delta=0.03: int |V|^2 du/u = 13.662; delta*that = 0.40985 (predicted ||phi'||^2 = 0.40959)
+delta=0.01: int |V|^2 du/u = 40.962; delta*that = 0.40962 (predicted ||phi'||^2 = 0.40959)
+delta=0.003: int |V|^2 du/u = 136.53; delta*that = 0.40959 (predicted ||phi'||^2 = 0.40959)

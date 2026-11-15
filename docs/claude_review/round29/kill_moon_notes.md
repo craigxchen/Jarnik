@@ -1,0 +1,11 @@
+# kill_moon notes
+- nf_clusters.py: idea 17 numbers: l=3 pairs 4,4,4,4,2 (moon text: 4,4,4,3,1 = forced minimum). Moon's own output file shows (4,8) and (2,6) too -> text misreports. Forced minima 4,4,4,3,1.
+- ET: moon's argument (L<=2^n so bound <= 16 sqrt log2 >1 => vacuous) is a non sequitur. Correct: ||G||>=sqrt2 (Parseval) so bound >= C sqrt(log sqrt2 / n); useful only if n < M^2/(C^2 log sqrt2). Record: n=192..2048, M^2/88.7<1. General vacuity not proved. F1 kill stands.
+- power sums: factor 4 missing (verified numerically).
+- parallelogram identity: algebra re-derived, correct.
+- Prop 4.2, 4.3: re-derived, correct (K_q generous). Lemma 4.1 correct; (iv) needs h monic.
+- ff_check / ff_scan scope: moon restricts pi-degree <=3 resp <=4; "all squarefree split N" false. Complete scan D<=6 (ff3_complete.py, 106,149 N) gives same maxima.
+- Plotkin: over R(t) squarefree, M<=2D (D even), D+1 (D odd); Obs 4.4 is Plotkin-extremal.
+- Sperner blocks: 6-point clusters at D=8 (exact algebraic) and D=12 (numerical 1e-41). Contradicts "generic count predicts 5" (count ignored dependent differences); record integer box gave 4 at D=8.
+- Li-Liu: characters mod N vanish on every lattice point of x^2+y^2=N (z | N). Moon's GRH remark imprecise: Li-Liu uses GRH(N), conductors dividing N.
+- Round7 (L7_prev_attempt1 Cor 2) already has a function-field (C(t)) analogue: "(L_7) false over C(t)". families.md Lemma P = Lemma 4.5.

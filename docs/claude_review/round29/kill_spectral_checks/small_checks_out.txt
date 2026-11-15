@@ -1,0 +1,23 @@
+N=5525 k=1 lambda=+4.308098+0.0e+00i product(with 2,3mod4 factors)=+4.308098
+N=5525 k=2 lambda=+0.093641+0.0e+00i product(with 2,3mod4 factors)=+0.093641
+N=5525 k=3 lambda=-14.175643+0.0e+00i product(with 2,3mod4 factors)=-14.175643
+N=5525 k=7 lambda=-22.913071+0.0e+00i product(with 2,3mod4 factors)=-22.913071
+N=318565 k=1 lambda=-0.005148+0.0e+00i product(with 2,3mod4 factors)=-0.005148
+N=318565 k=2 lambda=+0.449371+0.0e+00i product(with 2,3mod4 factors)=+0.449371
+N=318565 k=3 lambda=-0.126128+0.0e+00i product(with 2,3mod4 factors)=-0.126128
+N=318565 k=7 lambda=+0.834868+0.0e+00i product(with 2,3mod4 factors)=+0.834868
+N=2600 k=1 lambda=-3.866585+0.0e+00i product(with 2,3mod4 factors)=-3.866585
+N=2600 k=2 lambda=-0.123442+0.0e+00i product(with 2,3mod4 factors)=-0.123442
+N=2600 k=3 lambda=-7.234703+0.0e+00i product(with 2,3mod4 factors)=-7.234703
+N=2600 k=7 lambda=+13.662647+0.0e+00i product(with 2,3mod4 factors)=+13.662647
+N=765 k=1 lambda=-2.495779+0.0e+00i product(with 2,3mod4 factors)=-2.495779
+N=765 k=2 lambda=+5.117129+0.0e+00i product(with 2,3mod4 factors)=+5.117129
+N=765 k=3 lambda=-11.790731+0.0e+00i product(with 2,3mod4 factors)=-11.790731
+N=765 k=7 lambda=+12.273507+0.0e+00i product(with 2,3mod4 factors)=+12.273507
+N=1170 k=1 lambda=-3.154556+0.0e+00i product(with 2,3mod4 factors)=-3.154556
+N=1170 k=2 lambda=+0.112895+0.0e+00i product(with 2,3mod4 factors)=+0.112895
+N=1170 k=3 lambda=-8.616228+0.0e+00i product(with 2,3mod4 factors)=-8.616228
+N=1170 k=7 lambda=+10.648529+0.0e+00i product(with 2,3mod4 factors)=+10.648529
+N=100000001 R>16C^2:True |J|=376 nontrivial collisions a^2=a'^2 mod N: 0
+N=30525625 R>16C^2:True |J|=206 nontrivial collisions a^2=a'^2 mod N: 0
+N=2576450045 R>16C^2:True |J|=1123 nontrivial collisions a^2=a'^2 mod N: 0

@@ -1,0 +1,24 @@
+65 inA  r= 16 twin= (4, 3) arc(C=2/lam)= 4
+1105 inA inB r= 32 twin= (8, 3) arc(C=2/lam)= 5
+32045 inA inB r= 64 twin= (8, 7) arc(C=2/lam)= 4
+390625 inA  r= 36 twin= (3, 17) arc(C=2/lam)= 2
+1185665 inA inB r= 128 twin= (7, 19) arc(C=2/lam)= 5
+6105125 inA  r= 144 twin= (6, 29) arc(C=2/lam)= 3
+17850625 inA  r= 100 twin= (4, 37) arc(C=2/lam)= 3
+35409725 inA  r= 216 twin= (6, 41) arc(C=2/lam)= 4
+48612265 inA inB r= 256 twin= (6, 43) arc(C=2/lam)= 4
+2576450045 inA inB r= 512 twin= (6, 113) arc(C=2/lam)= 4
+104552718329  inB r= 128 twin= (3, 289) arc(C=2/lam)= 2
+157163452745 inA inB r= 1024 twin= (6, 359) arc(C=2/lam)= 4
+247276820729  inB r= 192 twin= (3, 499) arc(C=2/lam)= 2
+11472932050385 inA inB r= 2048 twin= (None,) arc(C=2/lam)= 4
+25596298010860681  inB r= 288 twin= (2, 6751) arc(C=2/lam)= 1
+109331045804182453  inB r= 432 twin= (3, 10691) arc(C=2/lam)= 1
+103398664502470352665  inB r= 2048 twin= (None,) arc(C=2/lam)= 2
+43518185102797002245293  inB r= 2304 twin= (None,) arc(C=2/lam)= 1
+965954340707606643039965981  inB r= 6144 twin= (None,) arc(C=2/lam)= 1
+1641037922171263943421969713  inB r= 4608 twin= (None,) arc(C=2/lam)= 1
+14859027670557291624257884105  inB r= 4608 twin= (None,) arc(C=2/lam)= 1
+350042902399817249469933122977177  inB r= 6144 twin= (None,) arc(C=2/lam)= 1
+640423606877725809064770808106305  inB r= 6144 twin= (None,) arc(C=2/lam)= 1
+1747688292201810958338784547115725  inB r= 18432 twin= (None,) arc(C=2/lam)= 1

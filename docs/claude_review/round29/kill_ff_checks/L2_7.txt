@@ -1,0 +1,4 @@
+level done, closed sets so far 100 best 2 0.0
+level done, closed sets so far 3565 best 4 0.4
+level done, closed sets so far 55750 best 6 15.6
+level done, closed sets so far 393640 best 8 226.2

@@ -604,6 +604,23 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      Kapranov's $\mathbb P^5$ are one; correction M1).
    * What remains are dense supplies with finitely many points per curve, curves of unbounded degree, and sporadic
      points.
+10. **Round 29 (four unconventional lanes, `round29/README.md`; killer-checked).** None passes both filters.
+   * *Function-field model* (`round29/ff.md`, `kill_ff.md`). Over $\mathbb C(t)$, twisted by conjugation, the arc
+     condition is $L\approx D/2$ exact real-linear equations on exponent vectors (already `families.md` Lemma P). The
+     model has its own fakes (arbitrary columns in $\mathbb R^L$, linear growth), covering families satisfy
+     $r(L+1)+1\le 2D$ (the record's free-curve bound), and the problem stays **open** there: bounded clusters are
+     equivalent to bounded rank of the ratio lattice. New and exact: the *cube family*, 8-point clusters at $c=0$ for
+     every $D\equiv0\ (8)$ over $\mathbb Q(i)(t)$, a non-covering rational family, with an 8-point template in
+     $\mathbb Z[i][u]$ (constant $\approx3.2\cdot10^9$). The transfer to $\mathbb Z$ is negative: the $D/2$
+     independent equations come from the infinite residue field; a $p$-adic arc gives one congruence.
+   * *Operator templates in the style of Li–Liu's conditional Goldbach paper* (`round29/spectral.md`). Their
+     Hypotheses S and R are operator-norm bounds equivalent to what the conclusion needs. Characters mod $N$ vanish on
+     the circle (every lattice point divides $N$ in $\mathbb Z[i]$); Hecke-angle versions are fake-blind; the
+     neighbouring-circle pair count is exactly a sum of short-arc counts of the same problem at smaller radii, so any
+     uniform bound on it is a restatement.
+   * *Residue-class twin* (`round29/clothes.md`, `kill_clothes.md`). Points of the circle in one class mod
+     $q\ge\lambda N^{1/4}$ obey the same $2/3$ bound for every odd $q$ coprime to $N$; the lane's claim that smooth
+     $q$ escape it is **false** (killer's Lemma K). No implication between twin and arc problem is known.
 
 ## 6. Pointers
 
@@ -627,6 +644,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 26: zero estimates vs route 5's ZE; spectral LP cap; target ZE$^{\rm all}_H$ | `round26/README.md`, `round26/ze.md` (with `referee_ze.md`) |
 | round 27: dP2 calibration, uniqueness of extremal measures, split cones, multi-shift criterion | `round27/README.md` (with `kill_*.md`) |
 | round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
+| round 29: function-field model, Li–Liu template, residue-class twin, 18 screened ideas (no change) | `round29/README.md` (with `kill_*.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check

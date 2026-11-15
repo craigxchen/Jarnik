@@ -1,0 +1,13 @@
+# notes round29 moon
+- Read expert_note, r27 s0-1, r28 s0. families.md s4: polynomial templates (Lemma P) = FF over Z[i]; record caps 6 pts bounded C.
+- Record never treated FF analog (grep: no 'function field' in this sense).
+- Insight: FF over C has no small residue fields -> 2/3-theorem mechanism (small prime collisions) absent; local bound gives nothing.
+- Insight: composition t->h(t) preserves clusters in FF (char 0 too) => FF analog of A_k/Zariski density is trivial/false-ish; only M-boundedness meaningful. Frobenius is special case.
+- Ultrametric: arcs in any position = balls = agreement of top D/2-c coefficients; same leading coeff => same unit class.
+- Ideas 1-18 listed in head; develop FF (idea 6).
+- F_3 scan (deg N<=16, 1.2M N): max M c=-1: <=3; c=0: <=4; c=+1: <=8 (small D trivial).
+- cluster_invariants: 5 record clusters: odd-prime collisions in reduced chords = pigeonhole minimum at l=3 exactly (4,4,4,3,1 pairs), occasional l=5,7,31; every prime >4k divides at most one chord. No hidden identity. Evidence: actual clusters look like the fake model at the level of chord arithmetic.
+- ff_complex.py numerics: random designs infeasible; inconclusive -> do NOT claim. Report only as method failure.
+- Prop: R(t), D=4, c=0: M=6 exactly (antichain in product of chains, de Bruijn-Tengbergen-Kruyswijk). matches families.md D=4 template (6 pts, all y=1).
+- Prop 4.3 F_q(t) growth bound under (H) (N coprime to primes of degree <= log_q M -1): M <= (1/2+o(1)) D/log_q D.
+- Composition t->h(t): c -> k c. So M(c<0) constant in c (C->0 analog = c-> -inf); c=0 fixed.
