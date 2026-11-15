@@ -1,0 +1,2 @@
+seeds 2
+hc12 tested 918 extra sets; hits 0 time 1187

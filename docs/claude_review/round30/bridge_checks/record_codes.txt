@@ -1,0 +1,53 @@
+== golden member n=537606725 (a=23186,y0=127): n=537606725={5: 2, 17: 1, 61: 1, 89: 1, 233: 1}, M=8, C=5.897763
+   cut (0, 1, 0, 0, 1, 0, 0, 1)  weight log = 1.609
+   cut (0, 1, 1, 1, 1, 0, 0, 1)  weight log = 1.609
+   cut (0, 1, 0, 1, 0, 1, 0, 1)  weight log = 2.833
+   cut (0, 1, 1, 0, 1, 0, 0, 1)  weight log = 4.111
+   cut (0, 1, 0, 1, 1, 0, 1, 0)  weight log = 4.489
+   cut (0, 1, 1, 0, 0, 1, 1, 0)  weight log = 5.451
+   rank of difference lattice: 5  #layers: 6  #distinct cuts: 6
+   perfect matchings separated by every cut: [] count 0
+== golden member a=7465178,y0=2279: n=55728887765525={5: 2, 13: 1, 37: 1, 61: 1, 113: 1, 421: 1, 1597: 1}, M=8, C=5.897709
+   cut (0, 1, 0, 1, 1, 1, 0, 1)  weight log = 1.609
+   cut (0, 1, 0, 1, 0, 0, 0, 1)  weight log = 1.609
+   cut (0, 1, 1, 0, 1, 0, 0, 1)  weight log = 8.608
+   cut (0, 1, 1, 0, 0, 1, 1, 0)  weight log = 8.338
+   cut (0, 1, 0, 1, 0, 1, 0, 1)  weight log = 4.111
+   cut (0, 1, 0, 1, 1, 0, 1, 0)  weight log = 7.376
+   rank of difference lattice: 5  #layers: 8  #distinct cuts: 6
+   perfect matchings separated by every cut: [] count 0
+== record 8-point C=5.674 (a=5743586,y0=527): n=32988780417125={5: 3, 13: 2, 17: 2, 89: 1, 109: 1, 557: 1}, M=8, C=5.673925
+   cut (0, 1, 0, 0, 1, 0, 0, 1)  weight log = 1.609
+   cut (0, 1, 1, 0, 1, 0, 0, 1)  weight log = 1.609
+   cut (0, 1, 1, 1, 1, 0, 0, 1)  weight log = 1.609
+   cut (0, 1, 1, 0, 0, 1, 1, 1)  weight log = 2.565
+   cut (0, 1, 1, 0, 0, 1, 0, 0)  weight log = 2.565
+   cut (0, 0, 0, 1, 1, 0, 1, 0)  weight log = 2.833
+   cut (0, 0, 1, 0, 0, 1, 0, 1)  weight log = 2.833
+   cut (0, 1, 0, 1, 1, 0, 0, 1)  weight log = 4.489
+   cut (0, 1, 1, 0, 1, 0, 1, 0)  weight log = 4.691
+   cut (0, 1, 0, 1, 0, 1, 1, 0)  weight log = 6.323
+   rank of difference lattice: 7  #layers: 10  #distinct cuts: 10
+   perfect matchings separated by every cut: [] count 0
+== 8-point C=5.754 (a=590749322,y0=12809): n=348984761607530165={5: 1, 13: 1, 17: 1, 29: 1, 53: 1, 181: 1, 457: 1, 733: 1, 3389: 1}, M=8, C=5.754210
+   cut (0, 1, 0, 1, 0, 1, 1, 0)  weight log = 4.174
+   cut (0, 1, 1, 0, 1, 0, 1, 0)  weight log = 2.833
+   cut (0, 1, 1, 0, 0, 1, 0, 1)  weight log = 3.367
+   cut (0, 1, 0, 1, 1, 0, 0, 1)  weight log = 3.97
+   cut (0, 1, 0, 1, 0, 1, 0, 1)  weight log = 5.198
+   cut (0, 1, 0, 1, 1, 0, 1, 0)  weight log = 6.125
+   cut (0, 1, 1, 0, 1, 0, 0, 1)  weight log = 6.597
+   cut (0, 1, 1, 0, 0, 1, 1, 0)  weight log = 8.128
+   rank of difference lattice: 4  #layers: 9  #distinct cuts: 8
+   perfect matchings separated by every cut: [[(0, 1), (2, 3), (4, 5), (6, 7)]] count 1
+== 10-point C=8.2393: n=1176852625={5: 3, 13: 2, 17: 1, 29: 1, 113: 1}, M=10, C=8.239327
+   cut (0, 0, 1, 0, 0, 1, 0, 0, 1, 0)  weight log = 1.609
+   cut (0, 1, 1, 0, 1, 1, 0, 0, 1, 0)  weight log = 1.609
+   cut (0, 1, 1, 0, 1, 1, 1, 0, 1, 1)  weight log = 1.609
+   cut (0, 0, 1, 1, 1, 0, 1, 0, 0, 0)  weight log = 2.565
+   cut (0, 1, 0, 0, 0, 0, 0, 1, 1, 1)  weight log = 2.565
+   cut (0, 0, 0, 1, 0, 1, 1, 1, 0, 1)  weight log = 2.833
+   cut (0, 1, 1, 1, 0, 1, 0, 0, 0, 1)  weight log = 3.367
+   cut (0, 1, 0, 1, 1, 1, 0, 1, 0, 0)  weight log = 4.727
+   rank of difference lattice: 7  #layers: 8  #distinct cuts: 8
+   perfect matchings separated by every cut: [] count 0

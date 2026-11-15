@@ -1,0 +1,4 @@
+D 10 c 1 M 6 rank 5 L 3 expected dim 3 types tried 15 realised 10 time 122
+D 12 c 1 M 6 rank 5 L 4 expected dim 2 types tried 15 realised 7 time 168
+D 14 c 1 M 6 rank 5 L 5 expected dim 1 types tried 15 realised 0 time 259
+D 16 c 1 M 6 rank 5 L 6 expected dim 0 types tried 15 realised 0 time 351

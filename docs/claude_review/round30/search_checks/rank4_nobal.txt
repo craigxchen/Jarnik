@@ -1,0 +1,4 @@
+D 10 L 4 balance False rank 4 max |C| 6 num S (labelled) at max 36
+D 14 L 6 balance False rank 4 max |C| 6 num S (labelled) at max 36
+D 9 L 4 balance False rank 4 max |C| 5 num S (labelled) at max 940
+D 7 L 3 balance False rank 4 max |C| 5 num S (labelled) at max 940

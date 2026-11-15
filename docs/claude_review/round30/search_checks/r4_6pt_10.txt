@@ -1,0 +1,2 @@
+D 10 distinct (labelled) 6-point rank-4 codes sampled: 141
+realised 0 of 141

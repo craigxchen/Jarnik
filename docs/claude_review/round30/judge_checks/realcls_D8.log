@@ -1,0 +1,21 @@
+class 0 best nondegenerate residual (sep>0.05) inf
+/usr/local/lib/python3.13/site-packages/scipy/optimize/_lsq/trf.py:527: RuntimeWarning: overflow encountered in dot
+  cost_new = 0.5 * np.dot(f_new, f_new)
+class 1 best nondegenerate residual (sep>0.05) 0.0008214194446851677
+class 2 best nondegenerate residual (sep>0.05) inf
+class 3 best nondegenerate residual (sep>0.05) 0.0007552269906083749
+class 4 best nondegenerate residual (sep>0.05) inf
+class 5 best nondegenerate residual (sep>0.05) inf
+class 6 best nondegenerate residual (sep>0.05) inf
+class 7 best nondegenerate residual (sep>0.05) 0.00019597851449799087
+class 8 best nondegenerate residual (sep>0.05) inf
+class 9 best nondegenerate residual (sep>0.05) 6.382978378911586e-05
+class 10 best nondegenerate residual (sep>0.05) 0.000683999690727889
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/judge_checks/realcls.py:10: RuntimeWarning: overflow encountered in square
+  return np.concatenate([d@np.imag(r**j) for j in range(1,L+1)]+[[x.sum(),y.sum()-D]])
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/judge_checks/realcls.py:10: RuntimeWarning: overflow encountered in power
+  return np.concatenate([d@np.imag(r**j) for j in range(1,L+1)]+[[x.sum(),y.sum()-D]])
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/judge_checks/realcls.py:10: RuntimeWarning: invalid value encountered in matmul
+  return np.concatenate([d@np.imag(r**j) for j in range(1,L+1)]+[[x.sum(),y.sum()-D]])
+class 11 best nondegenerate residual (sep>0.05) 0.00020022777830034142
+class 12 best nondegenerate residual (sep>0.05) inf

@@ -621,6 +621,28 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
    * *Residue-class twin* (`round29/clothes.md`, `kill_clothes.md`). Points of the circle in one class mod
      $q\ge\lambda N^{1/4}$ obey the same $2/3$ bound for every odd $q$ coprime to $N$; the lane's claim that smooth
      $q$ escape it is **false** (killer's Lemma K). No implication between twin and arc problem is known.
+11. **Round 30 (the function-field model, three lanes, `round30/README.md`; killer-checked).** The line is
+   **closed for internal work**; nothing changes for the integer problem.
+   * *Rank.* No rank-5 cluster at $c=0$ was found for $D\le12$ (search evidence, not proof); rank 5 does occur at
+     $c=1$ ($D=10,12$, certified). Bounded rank (R$_4$) stays **open**. It has exactly the shape of truncated
+     function-field Vojta for the pair $(\mathrm{Bl}_eX,\pi^*\partial+E)$, $r(L+1)\le|S|-1+\varepsilon h$, which is
+     itself open, so this is calibration and not evidence.
+   * *The one new tool: the saturated balance lemma* (`round30/search.md` Lemma 1.1 = `prove.md` Lemma 1.2;
+     proved twice). Every nonzero integer vector $a$ in the real solution space of the moment equations has
+     $\|a\|_1\ge L+1$ and $\min(a^+,a^-)\ge L/2$. It kills the round-29 function-field fakes, and an exhaustive
+     search with it gives $M(7,0)\le5$, $M(8,0)=8$, $M(9,0)\le5$ (**judge's computation, unrefereed**). It does not
+     bound the rank: 21 classes of 6-point rank-5 codes survive at $D=8$, and what excludes them, if anything, is
+     non-linear. Coordinator's remark (unrefereed): the weight half is the function-field form of the monomial-gap
+     inequality of §1, which the integer fakes already satisfy; the balance half uses the real place and has no
+     integer counterpart.
+   * *Bridge to $\mathbb Z$* (`round30/bridge.md`). A primitive $\mathbb Q(i)(t)$-cluster with $D$ even, $c=0$
+     specialises to integer clusters with an explicit limiting constant (proved). The best cube-family constant is
+     $C_\infty=145877.66$, far above the golden family's $5.89771$, so no lower bound for $M_\infty(C)$ improves.
+     All 56 five-subsets of a cube cluster have $\alpha=4$: no A-points, and they avoid the round-27 quadric cones
+     and cubic threefolds (exact). Question B is unchanged.
+   * *Withdrawn in the round:* "vertical-line loci have rank $\le3$" (certified rank-4 counterexample at $D=10$);
+     "balance does not separate real clusters from fakes" (true only for pairwise balance); the "real-algebraic
+     obstruction" lead (it was linear algebra, Prop K1).
 
 ## 6. Pointers
 
@@ -645,6 +667,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 27: dP2 calibration, uniqueness of extremal measures, split cones, multi-shift criterion | `round27/README.md` (with `kill_*.md`) |
 | round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
 | round 29: function-field model, Li–Liu template, residue-class twin, 18 screened ideas (no change) | `round29/README.md` (with `kill_*.md`) |
+| round 30: function-field model decided as far as internal work goes (rank open, line closed; no change) | `round30/README.md` (with `kill_*.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check

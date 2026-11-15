@@ -1,0 +1,9 @@
+type 0 rank 4 not realised degen 3.36e-05
+SUMMARY D 7 M 5 c 0 types 1 realised 0
+type 0 rank 4 not realised degen 2.03e-09
+type 1 rank 4 not realised degen 2.99e-09
+type 2 rank 4 not realised degen 5.91e-09
+type 3 rank 4 not realised degen 1.85e-09
+type 4 rank 4 not realised degen 4.00e-09
+type 5 rank 4 not realised degen 6.12e-11
+SUMMARY D 9 M 5 c 0 types 6 realised 0

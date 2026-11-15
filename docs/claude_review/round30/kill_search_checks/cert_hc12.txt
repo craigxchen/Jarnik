@@ -1,0 +1,50 @@
+file search_checks/hc12_lam4.npy row 0 D 12 c 0 L 5
+numerical zero-sum sets: 8  next smallest residual: [0.11797704 0.11797704 0.11797704]
+rank 4
+free dims (incl. 2 affine): 4
+Newton residual 4.2905e-61 move 2.3915e-9
+KRAWCZYK PASS contraction ratio 2.106885072163721e-22
+min|Im q| 0.026087491806686704 separation of 2D roots 0.050491857269087566
+cluster through Q at certified point: 8 min nonmember residual 0.11797703962981962
+kernel vectors in {0,+-1}^D (incl 0): 33 min nonzero residual 0.09623281775035121
+max cluster over ALL points of N: 8
+file search_checks/hc12_lam4.npy row 1 D 12 c 0 L 5
+numerical zero-sum sets: 8  next smallest residual: [0.11379101 0.11379101 0.11379101]
+rank 4
+free dims (incl. 2 affine): 4
+Newton residual 6.1219e-61 move 3.1493e-9
+KRAWCZYK PASS contraction ratio 1.0842018331577566e-22
+min|Im q| 0.15686300822422958 separation of 2D roots 0.03139046554005528
+cluster through Q at certified point: 8 min nonmember residual 0.11379101161028145
+kernel vectors in {0,+-1}^D (incl 0): 33 min nonzero residual 0.10087143833957073
+max cluster over ALL points of N: 8
+file search_checks/hc12_lam4.npy row 2 D 12 c 0 L 5
+numerical zero-sum sets: 8  next smallest residual: [0.0178355 0.0178355 0.0178355]
+rank 4
+free dims (incl. 2 affine): 4
+Newton residual 1.0327e-60 move 3.8197e-9
+KRAWCZYK PASS contraction ratio 5.518362937336808e-22
+min|Im q| 0.06959761626607977 separation of 2D roots 0.010702520815013565
+cluster through Q at certified point: 8 min nonmember residual 0.01783550059680273
+kernel vectors in {0,+-1}^D (incl 0): 33 min nonzero residual 0.017835500596802657
+max cluster over ALL points of N: 8
+file search_checks/hc12_lam4.npy row 3 D 12 c 0 L 5
+numerical zero-sum sets: 8  next smallest residual: [0.01513392 0.01513392 0.01513392]
+rank 4
+free dims (incl. 2 affine): 4
+Newton residual 5.7684e-61 move 3.6439e-9
+KRAWCZYK PASS contraction ratio 4.431516683821387e-22
+min|Im q| 0.07770333630138265 separation of 2D roots 0.007419942529453043
+cluster through Q at certified point: 8 min nonmember residual 0.01513392442776892
+kernel vectors in {0,+-1}^D (incl 0): 33 min nonzero residual 0.015133924427768789
+max cluster over ALL points of N: 8
+file search_checks/hc12_lam-4.npy row 0 D 12 c 0 L 5
+numerical zero-sum sets: 8  next smallest residual: [0.09509806 0.09509806 0.09509806]
+rank 4
+free dims (incl. 2 affine): 4
+Newton residual 1.2004e-60 move 5.5103e-9
+KRAWCZYK PASS contraction ratio 2.3741000750112676e-22
+min|Im q| 0.0161720419556604 separation of 2D roots 0.0323440839113208
+cluster through Q at certified point: 8 min nonmember residual 0.09509806434642772
+kernel vectors in {0,+-1}^D (incl 0): 33 min nonzero residual 0.09509806434642758
+max cluster over ALL points of N: 8

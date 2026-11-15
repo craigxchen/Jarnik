@@ -1,0 +1,14 @@
+validation residual (point of W): 1.4325749365178209e-15
+random point residual: 0.21407051322274717
+progress 100 min so far 0.0777136491942097
+progress 200 min so far 0.07425275371199407
+progress 300 min so far 0.040279816780774434
+progress 400 min so far 0.040279816780774434
+progress 500 min so far 0.027748720086350553
+progress 600 min so far 0.007074472583475616
+progress 700 min so far 0.007074472583475616
+progress 800 min so far 0.007074472583475616
+progress 900 min so far 0.007074472583475616
+progress 1000 min so far 0.007074472583475616
+progress 1100 min so far 0.007074472583475616
+labellings tested: 1120  smallest residual over all labellings (first point that failed): 0.007074472583475616

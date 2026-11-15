@@ -1,0 +1,7 @@
+type 0 not realised in 30 starts
+type 1 not realised in 30 starts
+type 5 not realised in 30 starts
+type 6 not realised in 30 starts
+type 7 not realised in 30 starts
+type 8 not realised in 30 starts
+type 9 not realised in 30 starts

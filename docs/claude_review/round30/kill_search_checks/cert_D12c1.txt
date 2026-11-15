@@ -1,0 +1,10 @@
+file search_checks/rtq_D12_c1_M6_1.npy row 0 D 12 c 1 L 4
+numerical zero-sum sets: 6  next smallest residual: [0.02127439 0.02127439 0.02127439]
+rank 5
+free dims (incl. 2 affine): 4
+Newton residual 8.4803e-61 move 3.9597e-9
+KRAWCZYK PASS contraction ratio 2.844731264475495e-22
+min|Im q| 0.025273939611567566 separation of 2D roots 0.008723222670360601
+cluster through Q at certified point: 6 min nonmember residual 0.021274393286704545
+kernel vectors in {0,+-1}^D (incl 0): 31 min nonzero residual 0.021274393286704545
+max cluster over ALL points of N: 6

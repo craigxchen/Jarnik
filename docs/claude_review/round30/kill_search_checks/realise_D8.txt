@@ -1,0 +1,47 @@
+type 0 rank 4 free dims 2 realised(orient) False realised(any orient) False 
+type 1 rank 4 free dims 2 realised(orient) False realised(any orient) False 
+type 2 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0856
+type 3 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0693
+type 4 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0271
+type 5 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.00492
+type 6 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0838
+type 7 rank 4 free dims 2 realised(orient) False realised(any orient) False 
+type 8 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0519
+type 9 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0173
+type 10 rank 4 free dims 2 realised(orient) False realised(any orient) True sep 0.0209
+type 11 rank 4 free dims 2 realised(orient) False realised(any orient) True sep 0.0048
+type 12 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.00715
+type 13 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.00218
+type 14 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0964
+type 15 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.00751
+type 16 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.00435
+type 17 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0763
+type 18 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0241
+type 19 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0169
+type 20 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.00676
+type 21 rank 4 free dims 2 realised(orient) False realised(any orient) False 
+type 22 rank 4 free dims 2 realised(orient) False realised(any orient) False 
+type 23 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.235
+type 24 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.159
+type 25 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0627
+type 26 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.033
+type 27 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0438
+type 28 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.00704
+type 29 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0715
+type 30 rank 3 free dims 5 realised(orient) True realised(any orient) True sep 0.00336
+type 31 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0433
+type 32 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0151
+type 33 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0266
+type 34 rank 4 free dims 2 realised(orient) False realised(any orient) True sep 0.0244
+type 35 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.104
+type 36 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0132
+type 37 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0716
+type 38 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0958
+type 39 rank 4 free dims 2 realised(orient) False realised(any orient) True sep 0.189
+type 40 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.23
+type 41 rank 4 free dims 2 realised(orient) False realised(any orient) True sep 0.00348
+type 42 rank 4 free dims 2 realised(orient) False realised(any orient) False 
+type 43 rank 3 free dims 5 realised(orient) True realised(any orient) True sep 0.00362
+type 44 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.191
+type 45 rank 4 free dims 2 realised(orient) True realised(any orient) True sep 0.0215
+realised with prescribed orientation: 35 of 46 ; with any orientation: 40

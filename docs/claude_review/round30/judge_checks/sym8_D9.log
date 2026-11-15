@@ -1,0 +1,11 @@
+best 1 0.00011110305786132812
+rep weight 0 done; best 1 classes 0 nodes 1 t 0.00019598007202148438
+rep weight 1 done; best 1 classes 0 nodes 2 t 0.00024056434631347656
+best 2 0.00028634071350097656
+best 3 0.013875484466552734
+rep weight 2 done; best 3 classes 0 nodes 1012 t 6.437937498092651
+best 4 6.450109958648682
+best 5 9.893651723861694
+rep weight 3 done; best 5 classes 0 nodes 37716 t 253.73169112205505
+rep weight 4 done; best 5 classes 0 nodes 120893 t 810.8687770366669
+FINAL best 5 rank5 6-pt classes 0

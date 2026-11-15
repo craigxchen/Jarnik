@@ -1,0 +1,2 @@
+unit circle D 11 c 0 L 5 max clique 5 time 0.3
+unit circle D 12 c 0 L 5 max clique 8 time 28.6

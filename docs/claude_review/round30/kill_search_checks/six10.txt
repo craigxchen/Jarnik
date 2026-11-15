@@ -1,0 +1,17 @@
+feasible lambdas 15
+lambda (-1, -1, -1, 2) |A| 7 distance-ok 3 running balanced 3 classes 1
+lambda (-1, -1, 2, -1) |A| 7 distance-ok 3 running balanced 6 classes 1
+lambda (-1, -1, 2, 2) |A| 7 distance-ok 3 running balanced 9 classes 1
+lambda (-1, 1/2, 1/2, 1/2) |A| 7 distance-ok 3 running balanced 12 classes 1
+lambda (-1, 2, -1, -1) |A| 7 distance-ok 3 running balanced 15 classes 1
+lambda (-1, 2, -1, 2) |A| 7 distance-ok 3 running balanced 18 classes 1
+lambda (-1, 2, 2, -1) |A| 7 distance-ok 3 running balanced 21 classes 1
+lambda (1/2, -1, 1/2, 1/2) |A| 7 distance-ok 3 running balanced 24 classes 1
+lambda (1/2, 1/2, -1, 1/2) |A| 7 distance-ok 3 running balanced 27 classes 1
+lambda (1/2, 1/2, 1/2, -1) |A| 7 distance-ok 3 running balanced 30 classes 1
+lambda (1/2, 1/2, 1/2, 1/2) |A| 7 distance-ok 3 running balanced 33 classes 1
+lambda (2, -1, -1, -1) |A| 7 distance-ok 3 running balanced 36 classes 1
+lambda (2, -1, -1, 2) |A| 7 distance-ok 3 running balanced 39 classes 1
+lambda (2, -1, 2, -1) |A| 7 distance-ok 3 running balanced 42 classes 1
+lambda (2, 2, -1, -1) |A| 7 distance-ok 3 running balanced 45 classes 1
+TOTAL 6-point rank-4 balanced-feasible codes up to symmetry: 1

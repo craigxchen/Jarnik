@@ -1,0 +1,92 @@
+D 6 c 0 rank<= 3 balance True max size 4 |Lambda feasible| 0
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/kill_search_checks/rankcodes.py", line 88, in <module>
+    print("rows:", [tuple(str(x) for x in row) for row in out[1]])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+D 6 c 0 rank<= 4 balance True max size 6 |Lambda feasible| 15
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/kill_search_checks/rankcodes.py", line 88, in <module>
+    print("rows:", [tuple(str(x) for x in row) for row in out[1]])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+D 7 c 0 rank<= 3 balance True max size 4 |Lambda feasible| 0
+D 7 c 0 rank<= 4 balance True max size 5 |Lambda feasible| 0
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/kill_search_checks/rankcodes.py", line 88, in <module>
+    print("rows:", [tuple(str(x) for x in row) for row in out[1]])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+D 9 c 0 rank<= 3 balance True max size 4 |Lambda feasible| 0
+D 9 c 0 rank<= 4 balance True max size 5 |Lambda feasible| 0
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/kill_search_checks/rankcodes.py", line 88, in <module>
+    print("rows:", [tuple(str(x) for x in row) for row in out[1]])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+D 10 c 0 rank<= 3 balance True max size 4 |Lambda feasible| 0
+D 10 c 0 rank<= 4 balance True max size 6 |Lambda feasible| 15
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/kill_search_checks/rankcodes.py", line 88, in <module>
+    print("rows:", [tuple(str(x) for x in row) for row in out[1]])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+D 11 c 0 rank<= 3 balance True max size 4 |Lambda feasible| 0
+D 11 c 0 rank<= 4 balance True max size 5 |Lambda feasible| 0
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/kill_search_checks/rankcodes.py", line 88, in <module>
+    print("rows:", [tuple(str(x) for x in row) for row in out[1]])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+D 12 c 0 rank<= 3 balance True max size 6 |Lambda feasible| 12
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/kill_search_checks/rankcodes.py", line 88, in <module>
+    print("rows:", [tuple(str(x) for x in row) for row in out[1]])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+D 12 c 0 rank<= 4 balance True max size 8 |Lambda feasible| 45
+D 13 c 0 rank<= 3 balance True max size 4 |Lambda feasible| 0
+D 13 c 0 rank<= 4 balance True max size 5 |Lambda feasible| 0
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/kill_search_checks/rankcodes.py", line 88, in <module>
+    print("rows:", [tuple(str(x) for x in row) for row in out[1]])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+D 14 c 0 rank<= 3 balance True max size 4 |Lambda feasible| 0
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/kill_search_checks/rankcodes.py", line 88, in <module>
+    print("rows:", [tuple(str(x) for x in row) for row in out[1]])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+D 14 c 0 rank<= 4 balance True max size 6 |Lambda feasible| 15
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/kill_search_checks/rankcodes.py", line 88, in <module>
+    print("rows:", [tuple(str(x) for x in row) for row in out[1]])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+D 15 c 0 rank<= 3 balance True max size 4 |Lambda feasible| 0
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/kill_search_checks/rankcodes.py", line 88, in <module>
+    print("rows:", [tuple(str(x) for x in row) for row in out[1]])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+D 15 c 0 rank<= 4 balance True max size 5 |Lambda feasible| 0
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/kill_search_checks/rankcodes.py", line 88, in <module>
+    print("rows:", [tuple(str(x) for x in row) for row in out[1]])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+D 16 c 0 rank<= 3 balance True max size 6 |Lambda feasible| 12
+D 16 c 0 rank<= 4 balance True max size 8 |Lambda feasible| 45
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/kill_search_checks/rankcodes.py", line 88, in <module>
+    print("rows:", [tuple(str(x) for x in row) for row in out[1]])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+D 10 c 0 rank<= 4 balance False max size 6 |Lambda feasible| 15
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round30/kill_search_checks/rankcodes.py", line 88, in <module>
+    print("rows:", [tuple(str(x) for x in row) for row in out[1]])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+D 14 c 0 rank<= 4 balance False max size 6 |Lambda feasible| 15

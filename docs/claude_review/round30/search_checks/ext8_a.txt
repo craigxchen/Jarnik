@@ -1,0 +1,7 @@
+type 0 not realised in 30 starts
+HIT type 7 F [1 1 1 0 1 0 1 1] degen 0.00011909914643336304 [(-0.707293-0.706926j), (0.706977-0.707232j), (0.707061-0.707148j), (-0.707124-0.707094j), (0.707145+0.707063j), (-0.70704+0.707178j), (-0.706956+0.707263j), (0.70723+0.706979j)]
+type 9 not realised in 30 starts
+type 10 not realised in 30 starts
+type 11 not realised in 30 starts
+type 12 not realised in 30 starts
+D 8 c 0 types 18 realised 13 hits 1 time 156

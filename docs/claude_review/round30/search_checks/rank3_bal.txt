@@ -1,0 +1,8 @@
+D 7 L 3 balance True rank 3 max |C| 4 num S (labelled) at max 29
+D 8 L 3 balance True rank 3 max |C| 6 num S (labelled) at max 3
+D 9 L 4 balance True rank 3 max |C| 4 num S (labelled) at max 29
+D 10 L 4 balance True rank 3 max |C| 4 num S (labelled) at max 29
+D 11 L 5 balance True rank 3 max |C| 4 num S (labelled) at max 29
+D 12 L 5 balance True rank 3 max |C| 6 num S (labelled) at max 3
+D 13 L 6 balance True rank 3 max |C| 4 num S (labelled) at max 29
+D 14 L 6 balance True rank 3 max |C| 4 num S (labelled) at max 29

@@ -1,0 +1,6 @@
+D 8 M 5 L 3 h 2 types 65
+after Gordan 65
+after lattice(c<=2) 61
+D 9 M 5 L 4 h 2 types 6
+after Gordan 6
+after lattice(c<=2) 6

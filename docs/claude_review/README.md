@@ -177,8 +177,17 @@ twin), and 18 screened ideas from distant fields. Nothing passes both filters an
 exact: 8-point clusters over `Q(i)(t)` at `c = 0` for every degree divisible by 8 (the "cube family"), with an 8-point
 polynomial template over `Z[i]`. One lane's headline (smooth moduli escape the 2/3 bound in the twin) was false and is
 recorded as killed. The function-field problem is itself open: bounded clusters there are equivalent to bounded rank.
+Round 30 (`round30/README.md`) followed the round-29 judge's one lead and tried to decide the function-field problem
+(search, proof, bridge to integers; a killer per lane). Bounded rank stays open: no rank-5 cluster at `c = 0` for
+`D <= 12` (evidence), rank 5 certified at `c = 1`, and rank bounds proved only on two special loci. New: the saturated
+balance lemma (integer vectors in the solution space have weight `>= L+1` and are balanced), which kills the round-29
+function-field fakes and, in the judge's unrefereed exhaustive search, gives `M(7,0) <= 5`, `M(8,0) = 8`, `M(9,0) <= 5`;
+it does not bound the rank (21 rank-5 code classes survive at `D = 8`). Integer side: cube templates have constant
+`145877.66` against the golden `5.89771`, so no record improves, and cube 5-subsets give no A-points, so Question B is
+unchanged. The pre-registered stop rule fired in substance (not on the letter: the two proved locus bounds are
+recorded); the function-field line is closed for internal work.
 
-**Growth-rate status (2026-11-15, after round 29).** No growth improvement over `log R/loglog R` is proved, either
+**Growth-rate status (2026-11-15, after round 30).** No growth improvement over `log R/loglog R` is proved, either
 unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues
