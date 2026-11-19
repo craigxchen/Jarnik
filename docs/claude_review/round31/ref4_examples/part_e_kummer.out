@@ -1,0 +1,8 @@
+planes through >= 6 of the 16 points: 16 Counter({7: 16})
+block intersections: Counter({2: 72, 4: 48})
+distinct t-coordinates: 4  distinct y: 4
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref4_examples/part_e_kummer.py", line 64, in <module>
+    assert len(set(z[0] for z in TY)) == 16
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

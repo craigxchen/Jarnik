@@ -1,0 +1,6 @@
+p=3, q=9: m=4 marks, deg D = deg g = 0, cofactor constant on all pairs; separation [4] vs L/2=4.0 -> FAILS; degree excess over critical budget = 0 (0.000)
+p=3, q=27: m=13 marks, deg D = deg g = 2, cofactor constant on all pairs; separation [12] vs L/2=13.0 -> FAILS; degree excess over critical budget = 1/2 (0.500)
+p=3, q=81: m=40 marks, deg D = deg g = 8, cofactor constant on all pairs; separation [36] vs L/2=40.0 -> FAILS; degree excess over critical budget = 2 (2.000)
+p=5, q=25: m=6 marks, deg D = deg g = 0, cofactor constant on all pairs; separation [8] vs L/2=12.0 -> FAILS; degree excess over critical budget = 2 (2.000)
+p=5, q=125: m=31 marks, deg D = deg g = 4, cofactor constant on all pairs; separation [40] vs L/2=62.0 -> FAILS; degree excess over critical budget = 11 (11.000)
+p=7, q=49: m=8 marks, deg D = deg g = 0, cofactor constant on all pairs; separation [12] vs L/2=24.0 -> FAILS; degree excess over critical budget = 6 (6.000)

@@ -1,0 +1,5 @@
+3 (Fraction(1280000, 53333), Fraction(133, 200), Fraction(111, 200))
+7/2 (Fraction(240000, 7619), Fraction(57, 100), Fraction(129, 200))
+4 (Fraction(40, 1), Fraction(1, 2), Fraction(143, 200))
+5 (Fraction(60, 1), Fraction(2, 5), Fraction(31, 40))
+8 (Fraction(144, 1), Fraction(1, 4), Fraction(41, 50))

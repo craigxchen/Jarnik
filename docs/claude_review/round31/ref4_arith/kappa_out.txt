@@ -1,0 +1,11 @@
+baseline remainder besides S-term: 0
+large centre F(k,0,0) = a**2*k - 2*a*k + kappa + 1 ;  deduction phi(k) = (a**2*k**2*kappa - 2*a**2*k**2 - a**2*k*kappa + 4*a*k - 2*kappa - 2)/2
+per-layer bound identity holds: True
+kappa=3 a=2/3: unit=4/9, F1=8/9, F2=-4/9, chains ok=True, m-coefficient=-1/6, bound m<=24
+kappa=3 a=1: unit=1, F1=1, F2=-1, chains ok=True, m-coefficient=-1/8, bound m<=32
+kappa=4 a=1/2: unit=1/2, F1=7/4, F2=1/2, chains ok=False, m-coefficient=-1/8, bound m<=40
+kappa=4 a=1: unit=2, F1=2, F2=-1, chains ok=True, m-coefficient=0, bound m<=None
+kappa=5 a=2/5: unit=12/25, F1=66/25, F2=38/25, chains ok=False, m-coefficient=-1/10, bound m<=60
+kappa=6 a=1/3: unit=4/9, F1=32/9, F2=23/9, chains ok=False, m-coefficient=-1/12, bound m<=84
+kappa=10 a=1/5: unit=8/25, F1=184/25, F2=167/25, chains ok=False, m-coefficient=-1/20, bound m<=220
+kappa=7/2 a=4/7: unit=24/49, F1=129/98, F2=1/98, chains ok=False, m-coefficient=-1/7, bound m<=31

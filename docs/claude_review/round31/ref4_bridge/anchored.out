@@ -1,0 +1,3 @@
+[cube D=8, anchored at point 0] D=8 K=4 m=8 L=16 delta(allowed)=0 delta(actual)=0 sum E=0 layer sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] Sigma=0
+     (IV.2): LHS=-192  RHS(allowed)=0  RHS(actual)=0  holds=True
+anchored stars at all 8 anchors: P_0 = 1, E = 0, delta = 0, Sigma = 0: OK

@@ -1,0 +1,14 @@
+I appended the proofs and exact certificates to [Part IV of answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/answer.md:994).
+
+1. **PROVED.** The \(4/5\) defect exponent can be lowered at width exponent \(10/3\), on squarefree split parents of valuation index one.
+2. **PROVED.** With each pair cut marking its two endpoints, \(e(\theta)=10/3\) for **every \(\theta>1/4\)**, including \(1/2\). Here \(n_i\sim N^{2/5}\), and the cofactors are \(N^{o(1)}\).
+3. **PROVED.** These models escape every fixed proper closed set of doubled ratios. Thus a method tolerating half-power defects in this orientation cannot gain over Liouville even after fixed exceptions.
+4. **PROVED.** With the stricter normalization \(n_i\sim\sqrt N\), a second construction gives **\(o(n_i^{3/5})\)** defects, fixed cofactors, and width \(\asymp N^{-3/10}\).
+5. **COMPUTED.** One fully factored squarefree parent satisfies all ten divisibilities and \(0<(1000|\delta_i|)^5<n_i^3\) at every mark. [Exact certificate](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/iv_shell_certificate.py)
+6. **PROVED.** A further power saving on the balanced construction would follow from a polynomially small root of \(-1\bmod p\) at one distinguished prime in the same narrow prime progression.
+7. **PROVED.** For that balanced family with its prescribed minor ratios, every integral change of coordinates with subpower determinant has maximum defect at least of order \(N^{1/4}\), the half-power scale of its star norms.
+8. **PROVED.** At critical width, arbitrary private pair profiles with defect exponent below \(1/4\) in the first orientation, or \(2/5\) in the balanced orientation, have exact norms or satisfy \(\delta_i=\lambda\ell(V_i)^2\) for one rational \(\lambda\) and one integral linear form \(\ell\).
+9. **PROVED.** The quarter-power threshold is sharp for mixed-sign defects in the first orientation. The explicit example has both signs and attains \(n_i^{1/4+o(1)}\).
+10. **PROVED.** Part (c) supplies one marked line per prime. In III.11 the unmarked columns have distinct directions, and the actual quadratic-form congruence lattice has covolume \(N\).
+11. **EVIDENCE.** I have no construction for every \(\theta>0\), no balanced family at \(\theta=1/2\), and no exponent gain for genuine tuples at defect zero.
+12. **HEURISTIC.** I’d ask the referees to check the dense-shape argument in IV.2 and the denominator bound following (IV.5). The next mathematical question is whether nonzero rank-one defects can persist at subpower size.

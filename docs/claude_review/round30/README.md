@@ -1,3 +1,10 @@
+> **Added after round 31 (Part IV, `../round31/README_IV.md`).** The *uniform* bound in this model is now a theorem:
+> $M(D,0)\le24$ for every $D$ and $\sup_DM(D,c)<\infty$ for every $c$, over $\mathbb C(t)$, $\mathbb R(t)$,
+> $\mathbb Q(i)(t)$ (Langer's orbifold BMY on the section surface). Statements below that the uniform question is
+> open, or that it has the shape of open truncated function-field Vojta, apply only to the sharp statement (R$_4$)
+> ($\limsup M=8$), which stays open. The upper bound $4(D+2)$ in the small-cases table becomes $\min(4(D+2),24)$.
+> The conditional "unbounded $\mathbb Q(i)(t)$-clusters would refute $A_5(\delta)$" has a false premise.
+
 # Round 30 -- judge report: the function-field model
 
 Lanes: `search.md`/`kill_search.md`, `prove.md`/`kill_prove.md`, `bridge.md`/`kill_bridge.md`. Judge checks are in

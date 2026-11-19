@@ -1,8 +1,10 @@
-> **Round 31 has three judge reports.** This file is the judge's report on the first pass (Part I). The second
-> and third passes are judged in `README_II.md` and `README_III.md`; referee reports are `ref_*.md` (Part I),
-> `ref2_*.md` (Part II) and `ref3_*.md` (Part III). The coordinator's messages are `astra_brief.txt`,
-> `astra_*/reply*.txt` and `astra_*_reply4.txt`; the colleague's cumulative reports are `astra_free_III/answer.md`
-> and `astra_lemma_III/answer.md` (Parts I-III; earlier snapshots in `astra_free*/`, `astra_lemma*/`).
+> **Round 31 has five judge reports.** This file is the judge's report on the first pass (Part I). Later passes:
+> `README_II.md`, `README_III.md`, `README_IV.md` (open thread, Part IV: the orbifold-BMY inequality (IV.2), the
+> uniform bound in the function-field model, the characteristic-2 construction) and `README_IVL.md` (Question B
+> thread, Part IV: the norm defect). Referee reports: `ref_*.md` (I), `ref2_*.md` (II), `ref3_*.md` (III),
+> `ref4_*.md` and `ref4L_*.md` (IV). `langer_check.md` records the check of Langer's Theorem 0.1 in the original.
+> The coordinator's messages are `astra_brief.txt`, `astra_*/reply*.txt` and `astra_*_reply4.txt`; the colleague's
+> cumulative reports are `astra_free_IV/answer.md` and `astra_lemma_IV/answer.md` (Parts I-IV).
 
 # Round 31 -- judge report: an outside audit (Astra) of the record
 

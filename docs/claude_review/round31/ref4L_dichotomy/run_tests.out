@@ -1,0 +1,81 @@
+== Test 1: IV.2 family, Astra's quintuple, several P, q ==
+ P ~ 10^30, q = 30
+  label            IV.2
+  h                4
+  prim             True
+  signs            [-1, 1]
+  lhs_zero         True
+  lhs_den_ok       True
+  interp_ok        True
+  den              36150980669568000000000
+  den_divides_Ht   True
+  rank             2
+  detE_lower_ok    True
+  kappa            0.725325484979529
+  threshold_exp    -7.703905819754347
+  logP_maxdelta    1.7899793588744914
+  detE_abs_log_P   0.08145803620021706
+ P ~ 10^60, q = 30
+  label            IV.2
+  h                4
+  prim             True
+  signs            [-1, 1]
+  lhs_zero         True
+  lhs_den_ok       True
+  interp_ok        True
+  den              36150980669568000000000
+  den_divides_Ht   True
+  rank             2
+  detE_lower_ok    True
+  kappa            0.36309549397097635
+  threshold_exp    -3.3571459276517164
+  logP_maxdelta    1.3954610054071164
+  detE_abs_log_P   0.0407776184685669
+ P ~ 10^60, q = 210
+  label            IV.2
+  h                4
+  prim             True
+  signs            [-1, 1]
+  lhs_zero         True
+  lhs_den_ok       True
+  interp_ok        True
+  den              12399786369661824000000000
+  den_divides_Ht   True
+  rank             2
+  detE_lower_ok    True
+  kappa            0.4015198223522625
+  threshold_exp    -3.8182378682271505
+  logP_maxdelta    1.433593409052026
+  detE_abs_log_P   0.04040981969161911
+ P ~ 10^120, q = 4290
+  label            IV.2
+  h                4
+  prim             True
+  signs            [-1, 1]
+  lhs_zero         True
+  lhs_den_ok       True
+  interp_ok        True
+  den              105712950730815432576000000000
+  den_divides_Ht   True
+  rank             2
+  detE_lower_ok    True
+  kappa            0.2348420842266706
+  threshold_exp    -1.8181050107200472
+  logP_maxdelta    1.250999757347826
+  detE_abs_log_P   0.02035720742971462
+== Test 2: Astra's balanced numerical parent (IV.3 certificate) ==
+  label            IV.3 cert
+  h                5
+  prim             True
+  signs            [1]
+  lhs_zero         True
+  lhs_den_ok       True
+  interp_ok        True
+  den              13
+  den_divides_Ht   True
+  rank             2
+  detE_lower_ok    True
+  kappa            0.1703973454177328
+  threshold_exp    -0.04476814501279369
+  logP_maxdelta    2.8371632256976995
+  detE_abs_log_P   1.2737738979878437

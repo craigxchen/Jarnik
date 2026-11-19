@@ -1,0 +1,25 @@
+Part 1-2: integer assignments
+  q=8 trial 0 (primes > 10): d_ab depends only on a+b; translations preserve unoriented cuts and d; min separation/W = 0.5235 (> 1/2: True)
+  q=8 trial 1 (primes > 1000): d_ab depends only on a+b; translations preserve unoriented cuts and d; min separation/W = 0.5657 (> 1/2: True)
+  q=8 trial 2 (primes > 1000): d_ab depends only on a+b; translations preserve unoriented cuts and d; min separation/W = 0.5681 (> 1/2: True)
+  q=16 trial 0 (primes > 1000): d_ab depends only on a+b; translations preserve unoriented cuts and d; min separation/W = 0.5272 (> 1/2: True)
+  q=16 trial 1 (primes > 10): d_ab depends only on a+b; translations preserve unoriented cuts and d; min separation/W = 0.4883 (> 1/2: False)
+  q=16 trial 2 (primes > 10): d_ab depends only on a+b; translations preserve unoriented cuts and d; min separation/W = 0.4815 (> 1/2: False)
+  q=32 trial 0 (primes > 1000): d_ab depends only on a+b; translations preserve unoriented cuts and d; min separation/W = 0.5066 (> 1/2: True)
+  q=32 trial 1 (primes > 1000000): d_ab depends only on a+b; translations preserve unoriented cuts and d; min separation/W = 0.5161 (> 1/2: True)
+  q=32 trial 2 (primes > 1000): d_ab depends only on a+b; translations preserve unoriented cuts and d; min separation/W = 0.5058 (> 1/2: True)
+  q=64 trial 0 (primes > 10): d_ab depends only on a+b; translations preserve unoriented cuts and d; min separation/W = 0.4847 (> 1/2: False)
+  q=64 trial 1 (primes > 10): d_ab depends only on a+b; translations preserve unoriented cuts and d; min separation/W = 0.4794 (> 1/2: False)
+  q=64 trial 2 (primes > 1000000): d_ab depends only on a+b; translations preserve unoriented cuts and d; min separation/W = 0.5079 (> 1/2: True)
+  q=8: weights 3 on ker Tr(c0 .), 1 elsewhere: separation of pairs with a+b=c0 is 0.308 W < W/2, so pair separation is a genuine extra hypothesis
+  q=32: weights 3 on ker Tr(c0 .), 1 elsewhere: separation of pairs with a+b=c0 is 0.262 W < W/2, so pair separation is a genuine extra hypothesis
+Part 4: group theory
+  symbolic: M D = lam D M  solutions: [{a: 0, b: 0, c: 0, d: 0}] ; det(M D - lam D M) system forces lam^2=1 for invertible M
+   lam=1: [{b: 0, c: 0}]
+   lam=-1: [{a: 0, d: 0}]
+   diag(x,1)^2 scalar iff [-1, 1] ; antidiag [[0,y],[1,0]]^2 = y I always
+  PGL_2(F_3): (3, 24, 'max elementary abelian 2-subgroup order = 4')
+  PGL_2(F_5): (5, 120, 'max elementary abelian 2-subgroup order = 4')
+  PGL_2(F_7): (7, 336, 'max elementary abelian 2-subgroup order = 4')
+  PGL_2(F_11): (11, 1320, 'max elementary abelian 2-subgroup order = 4')
+  PGL_2(F_13): (13, 2184, 'max elementary abelian 2-subgroup order = 4')

@@ -1,0 +1,7 @@
+q=8: m=7 marks, 21 pairs: all checks pass (deg D = deg g = 1, constant cofactor, slack 1/4, separation 4 > 3.5, W = (q-1) log q, hyperbola degrees 1,2 vs size 4)
+q=16: m=15 marks, 105 pairs: all checks pass (deg D = deg g = 3, constant cofactor, slack 1/4, separation 8 > 7.5, W = (q-1) log q, hyperbola degrees 3,4 vs size 8)
+q=32: m=31 marks, 465 pairs: all checks pass (deg D = deg g = 7, constant cofactor, slack 1/4, separation 16 > 15.5, W = (q-1) log q, hyperbola degrees 7,8 vs size 16)
+q=64: m=63 marks, 1953 pairs: all checks pass (deg D = deg g = 15, constant cofactor, slack 1/4, separation 32 > 31.5, W = (q-1) log q, hyperbola degrees 15,16 vs size 32)
+q=128: m=127 marks, 8001 pairs: all checks pass (deg D = deg g = 31, constant cofactor, slack 1/4, separation 64 > 63.5, W = (q-1) log q, hyperbola degrees 31,32 vs size 64)
+q=256: m=255 marks, 32385 pairs: all checks pass (deg D = deg g = 63, constant cofactor, slack 1/4, separation 128 > 127.5, W = (q-1) log q, hyperbola degrees 63,64 vs size 128)
+q=512: m=511 marks, 130305 pairs: all checks pass (deg D = deg g = 127, constant cofactor, slack 1/4, separation 256 > 255.5, W = (q-1) log q, hyperbola degrees 127,128 vs size 256)

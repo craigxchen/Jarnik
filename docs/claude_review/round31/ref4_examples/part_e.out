@@ -1,0 +1,5 @@
+P0 = (Fraction(-20, 1), Fraction(40, 1)) ; 4-subsets on (1,1)-curves: 12 ; 4-subsets in the sum class: 12
+s_h = [6, 6, 6, 6, 6, 6, 6, 6]
+deg D_ij multiset: Counter({2: 66})
+m=12 L=8 delta=0 sumE=0 IV.2 lhs=-72 rhs=0 slack=72
+Chern side: S=24 I=132 big=[6, 6, 6, 6, 6, 6, 6, 6] chains=[] unblown=12 3e_orb-(K+B)^2=16 ledger=16 bound=16

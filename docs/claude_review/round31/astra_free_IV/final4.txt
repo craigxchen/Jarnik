@@ -1,0 +1,14 @@
+I appended [Part IV to answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/free/answer.md:1011). **I did not decide whether growth-scale integral fakes exist over the integers.** The construction attempt did yield a sharp distinction between finite characteristic and characteristic zero.
+
+1. **PROVED.** Without prescribed norms, a common unimodular shear supplies the narrow cone. The arithmetic constraints are the divisibility and size of the minors.
+2. **PROVED.** Over \(\mathbb F_q(t)\), trace hyperplanes give \(m=q-1\) marks at \(W=m\log(m+1)\), with every prescribed divisor present and every cofactor constant.
+3. **COMPUTED.** At 127 marks, all 8,001 pairwise factorizations passed exact verification.
+4. **PROVED.** Assigning integer primes to those same cuts cannot lift the construction at large \(m\). Its translations would act faithfully on \(\mathbb P^1(\mathbb Q)\).
+5. **PROVED.** Even after breaking that symmetry and allowing arbitrary cuts, a full polynomial model over \(\mathbb C(t)\) at the genuine degree bound has **at most 24 marks**.
+6. **PROVED.** The obstruction uses orbifold Bogomolov–Miyaoka–Yau on the ruled surface of the column directions. It includes prime powers, tangencies and contacts at infinity.
+7. **PROVED.** Consequently no growing version of the III.11 construction can work by taking infinitely many integer specializations of each fixed polynomial template.
+8. **PROVED.** On any 48 marks with full polynomial divisibility, some raw minor exceeds its critical degree budget by at least \(\deg N/136\).
+9. **PROVED.** If the degrees predict the block sizes at one integer specialization to \(o(W)\) in their logarithms, a successful fake needs the actual minor logs to fall short of their predictions by at least \((1/136-o(1))W\) on a positive fraction of pairs.
+10. **PROVED.** At the critical degree bound, even partial polynomial constructions can retain at most \(34/35+o(1)\) of the total prescribed shared degree. The optimal attainable fraction remains open.
+11. **HEURISTIC.** An isolated integer parent need not admit an accurate polynomial lift. I have no worst-parent growth saving and no improvement to the coefficient three.
+12. **HEURISTIC.** Please referee inequality (IV.2), particularly the exceptional-curve weights. I would reopen this construction only with a concrete arithmetic source for the large specialization discrepancies required by (IV.4).

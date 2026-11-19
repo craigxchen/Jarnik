@@ -1,0 +1,5 @@
+q=8 m=7 L=7 pairs=21 failures=0 max(deg D - crit)=-1/4 layer sizes={3}  IV.2 LHS=-175/2 (RHS=0 since delta=E=0)
+q=16 m=15 L=15 pairs=105 failures=0 max(deg D - crit)=-1/4 layer sizes={7}  IV.2 LHS=-195/2 (RHS=0 since delta=E=0)
+q=32 m=31 L=31 pairs=465 failures=0 max(deg D - crit)=-1/4 layer sizes={15}  IV.2 LHS=341/2 (RHS=0 since delta=E=0)
+q=64 m=63 L=63 pairs=1953 failures=0 max(deg D - crit)=-1/4 layer sizes={31}  IV.2 LHS=3717/2 (RHS=0 since delta=E=0)
+q=128 m=127 L=127 pairs=8001 failures=0 max(deg D - crit)=-1/4 layer sizes={63}  IV.2 LHS=19685/2 (RHS=0 since delta=E=0)

@@ -1,0 +1,26 @@
+[dual Hesse 9 lines, 12 triple points] m=9 layer sizes {3: 12}
+dual Hesse 9 lines, 12 triple points: m=S=9 I=36 infsteps=1 blowups=12 big=[3, 3, 3, 3, 3, 3, 3, 3]... chains=[] unblown=0 | (K+B)^2=12 e_orb=12 3e-(K+B)^2=24 ledger=24 bound=24 min(K+B).curve=1 || IV.2: L=12 delta=0 sumE=0 lhs=-108 rhs=0 slack=108
+[Hesse 12 lines (greedy layers)] m=12 layer sizes {4: 9, 2: 12}
+Hesse 12 lines (greedy layers): m=S=12 I=66 infsteps=1 blowups=9 big=[4, 4, 4, 4, 4, 4, 4, 4]... chains=[] unblown=12 | (K+B)^2=23 e_orb=43/3 3e-(K+B)^2=20 ledger=20 bound=20 min(K+B).curve=5/3 || IV.2: L=21 delta=5/4 sumE=0 lhs=39 rhs=225 slack=186
+[Hesse minus the 4 lines through a point (Moebius-Kantor 8_3)] m=8 layer sizes {3: 8, 2: 4}
+Hesse minus the 4 lines through a point (Moebius-Kantor 8_3): m=S=8 I=28 infsteps=1 blowups=8 big=[3, 3, 3, 3, 3, 3, 3, 3] chains=[] unblown=4 | (K+B)^2=88/9 e_orb=88/9 3e-(K+B)^2=176/9 ledger=176/9 bound=176/9 min(K+B).curve=1 || IV.2: L=12 delta=0 sumE=0 lhs=-120 rhs=0 slack=120
+[B3 arrangement (9 lines)] m=9 layer sizes {4: 3, 2: 6, 3: 4}
+B3 arrangement (9 lines): m=S=9 I=36 infsteps=1 blowups=7 big=[3, 3, 3, 3, 4, 4, 4] chains=[] unblown=6 | (K+B)^2=35/3 e_orb=29/3 3e-(K+B)^2=52/3 ledger=52/3 bound=52/3 min(K+B).curve=1 || IV.2: L=13 delta=1/4 sumE=0 lhs=-99 rhs=27 slack=126
+[A3 arrangement (6 lines)] m=6 layer sizes {3: 4, 2: 3}
+A3 arrangement (6 lines): m=S=6 I=15 infsteps=1 blowups=4 big=[3, 3, 3, 3] chains=[] unblown=3 | (K+B)^2=4 e_orb=16/3 3e-(K+B)^2=12 ledger=12 bound=12 min(K+B).curve=1 || IV.2: L=7 delta=0 sumE=0 lhs=-183/2 rhs=0 slack=183/2
+[zero-sum parabolas y = t^4 - prod_S (t-r), R = +-1..+-4] m=8 layer sizes {4: 8}
+zero-sum parabolas y = t^4 - prod_S (t-r), R = +-1..+-4: m=S=16 I=56 infsteps=2 blowups=8 big=[4, 4, 4, 4, 4, 4, 4, 4] chains=[] unblown=8 | (K+B)^2=40/3 e_orb=104/9 3e-(K+B)^2=64/3 ledger=64/3 bound=64/3 min(K+B).curve=5/3 || IV.2: L=8 delta=0 sumE=0 lhs=-96 rhs=0 slack=96
+[torsion translates y = zeta_6^i t^2 + t] m=6 layer sizes {6: 2}
+torsion translates y = zeta_6^i t^2 + t: m=S=12 I=30 infsteps=2 blowups=2 big=[6, 6] chains=[] unblown=0 | (K+B)^2=-2 e_orb=2 3e-(K+B)^2=8 ledger=8 bound=8 min(K+B).curve=0 || IV.2: L=2 delta=1/2 sumE=0 lhs=-9 rhs=27 slack=36
+[Fermat-type y = (t -+ w^i)^3] m=6 layer sizes {3: 1, 2: 18}
+Fermat-type y = (t -+ w^i)^3: m=S=12 I=30 infsteps=4 blowups=2 big=[3, 3] chains=[] unblown=24 | (K+B)^2=14 e_orb=38/3 3e-(K+B)^2=24 ledger=24 bound=24 min(K+B).curve=1 || IV.2: L=19 delta=7/4 sumE=0 lhs=-477/2 rhs=189/2 slack=333
+[graphs of the dihedral group D6 < PGL2] m=12 layer sizes {6: 1, 2: 12}
+graphs of the dihedral group D6 < PGL2: m=S=24 I=132 infsteps=0 blowups=4 big=[6, 6, 6, 6] chains=[] unblown=72 | (K+B)^2=60 e_orb=36 3e-(K+B)^2=48 ledger=48 bound=48 min(K+B).curve=3 || IV.2: L=13 delta=15/4 sumE=0 lhs=75 rhs=675 slack=600
+[graphs of the octahedral group S4 < PGL2 (24 sections)] m=24 layer sizes {4: 5, 2: 12, 3: 8}
+graphs of the octahedral group S4 < PGL2 (24 sections): m=S=48 I=552 infsteps=0 blowups=100 big=[3, 3, 3, 3, 3, 3, 3, 3]... chains=[] unblown=144 | (K+B)^2=284 e_orb=164 3e-(K+B)^2=208 ledger=208 bound=208 min(K+B).curve=1 || IV.2: L=25 delta=27/4 sumE=0 lhs=2168 rhs=4374 slack=2206
+[Lagrange: L=12, m=10, |cut|=6, f_i = interpolant on its cut] m=10 layer sizes {5: 7, 1: 1, 6: 1, 7: 2, 4: 1}
+Lagrange: L=12, m=10, |cut|=6, f_i = interpolant on its cut: m=S=50 I=225 infsteps=5 blowups=11 big=[4, 5, 5, 5, 5, 5, 5, 5]... chains=[] unblown=92 | (K+B)^2=709/9 e_orb=467/9 3e-(K+B)^2=692/9 ledger=692/9 bound=692/9 min(K+B).curve=5/3 || IV.2: L=12 delta=2 sumE=0 lhs=-100 rhs=260 slack=360
+[Lagrange: L=12, m=16, |cut|=6, f_i = interpolant on its cut] m=16 layer sizes {9: 2, 6: 3, 5: 1, 11: 1, 10: 2, 8: 3}
+Lagrange: L=12, m=16, |cut|=6, f_i = interpolant on its cut: m=S=80 I=600 infsteps=5 blowups=12 big=[5, 6, 6, 6, 8, 8, 8, 9]... chains=[] unblown=244 | (K+B)^2=1972/9 e_orb=1084/9 3e-(K+B)^2=1280/9 ledger=1280/9 bound=1280/9 min(K+B).curve=7/3 || IV.2: L=12 delta=2 sumE=0 lhs=-32 rhs=608 slack=640
+[Lagrange: L=12, m=16, |cut|=8, f_i = interpolant on its cut] m=16 layer sizes {10: 2, 11: 3, 12: 4, 9: 3}
+Lagrange: L=12, m=16, |cut|=8, f_i = interpolant on its cut: m=S=112 I=840 infsteps=7 blowups=12 big=[9, 9, 9, 10, 10, 11, 11, 11]... chains=[] unblown=213 | (K+B)^2=1724/9 e_orb=320/3 3e-(K+B)^2=1156/9 ledger=1156/9 bound=1156/9 min(K+B).curve=5 || IV.2: L=12 delta=2 sumE=0 lhs=30 rhs=608 slack=578

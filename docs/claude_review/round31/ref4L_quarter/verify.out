@@ -1,0 +1,48 @@
+== P=1642245131041 q=30
+ten primes J_e = P+q b_e, all = 1 mod 4, distinct; columns primitive; all ten minors = LB(x_i-x_j)J_ij exactly
+cofactors t_ij = l*b0*q^3*(x_i-x_j); l*b0*q^3 = 18596183472000000000  max|t| = 7531454306160000000000
+Smith form of anchored valuation matrix: [1, 1, 1, 1]
+mark 0: delta=-3.614e+34  log|delta|/log n_i = 0.7073  sign -  log n_i/log N=0.4000
+mark 1: delta=-1.102e+36  log|delta|/log n_i = 0.7376  sign -  log n_i/log N=0.4000
+mark 2: delta=-6.632e+34  log|delta|/log n_i = 0.7127  sign -  log n_i/log N=0.4000
+mark 3: delta=-3.862e+34  log|delta|/log n_i = 0.7079  sign -  log n_i/log N=0.4000
+mark 4: delta=2.327e+34  log|delta|/log n_i = 0.7033  sign +  log n_i/log N=0.4000
+exact residual = leading P q^3 term + (const) q^4 verified for all five marks
+diam of star angles = 1.70061e-15  log diam/log N = -0.120908
+diam*N^(3/10) = 7.5315059e+21  predicted l*b0*q^3*max|x_i-x_j| = 7531454306160000000000
+log(diam*N^(3/10))/log N = 0.179092
+max | sin(angle)/( |t|/sqrt(n_i n_j/g^2) ) - 1 | = 2.0
+normalized (xi_i/xi_5 -1) : ['(1.0 + 0.0j)', '(4.6271984 + 4.7214937e-15j)', '(-1.4180464 + 9.6459511e-16j)', '(-1.1941467 + 7.3707782e-16j)']  target [Fraction(1, 1), Fraction(310, 67), Fraction(-95, 67), Fraction(-80, 67)]
+actual heights of the model's torus points vs profile height n_i n_5/g^2:
+  pair (0,4): log H(xi)/log N = 0.8000; profile log(n_i n_5/g^2)/log N = 0.6000; content c ~ N^0.0000
+  pair (1,4): log H(xi)/log N = 0.8000; profile log(n_i n_5/g^2)/log N = 0.6000; content c ~ N^0.0000
+  pair (2,4): log H(xi)/log N = 0.8000; profile log(n_i n_5/g^2)/log N = 0.6000; content c ~ N^0.0000
+  pair (3,4): log H(xi)/log N = 0.8000; profile log(n_i n_5/g^2)/log N = 0.6000; content c ~ N^0.0000
+== P=112908008110501 q=30
+ten primes J_e = P+q b_e, all = 1 mod 4, distinct; columns primitive; all ten minors = LB(x_i-x_j)J_ij exactly
+cofactors t_ij = l*b0*q^3*(x_i-x_j); l*b0*q^3 = 18596183472000000000  max|t| = 7531454306160000000000
+Smith form of anchored valuation matrix: [1, 1, 1, 1]
+mark 0: delta=-2.485e+36  log|delta|/log n_i = 0.6475  sign -  log n_i/log N=0.4000
+mark 1: delta=-7.580e+37  log|delta|/log n_i = 0.6739  sign -  log n_i/log N=0.4000
+mark 2: delta=-4.560e+36  log|delta|/log n_i = 0.6522  sign -  log n_i/log N=0.4000
+mark 3: delta=-2.655e+36  log|delta|/log n_i = 0.6480  sign -  log n_i/log N=0.4000
+mark 4: delta=1.600e+36  log|delta|/log n_i = 0.6441  sign +  log n_i/log N=0.4000
+exact residual = leading P q^3 term + (const) q^4 verified for all five marks
+diam of star angles = 5.23245e-21  log diam/log N = -0.144323
+diam*N^(3/10) = 7.5314551e+21  predicted l*b0*q^3*max|x_i-x_j| = 7531454306160000000000
+log(diam*N^(3/10))/log N = 0.155677
+max | sin(angle)/( |t|/sqrt(n_i n_j/g^2) ) - 1 | = 2.0
+normalized (xi_i/xi_5 -1) : ['(1.0 + 0.0j)', '(4.6268705 + 1.4525927e-20j)', '(-1.4179124 + 2.967662e-21j)', '(-1.1940316 + 2.2676871e-21j)']  target [Fraction(1, 1), Fraction(310, 67), Fraction(-95, 67), Fraction(-80, 67)]
+actual heights of the model's torus points vs profile height n_i n_5/g^2:
+  pair (0,4): log H(xi)/log N = 0.8000; profile log(n_i n_5/g^2)/log N = 0.6000; content c ~ N^0.0000
+  pair (1,4): log H(xi)/log N = 0.8000; profile log(n_i n_5/g^2)/log N = 0.6000; content c ~ N^0.0000
+  pair (2,4): log H(xi)/log N = 0.8000; profile log(n_i n_5/g^2)/log N = 0.6000; content c ~ N^0.0000
+  pair (3,4): log H(xi)/log N = 0.8000; profile log(n_i n_5/g^2)/log N = 0.6000; content c ~ N^0.0000
+== P=1642245131041 q=30
+max | sin(angle)/( |t|/sqrt(n_i n_j/g^2) ) - 1 | = 8.0352e-14
+isotropic marked incidences: 0 of 20; pairs with J_ij | V_i.V_j: 0 of 10
+min block prime = 1642099695541  max|delta| / min J = 6.713242027988767e+23
+== P=112908008110501 q=30
+max | sin(angle)/( |t|/sqrt(n_i n_j/g^2) ) - 1 | = 2.4723e-19
+isotropic marked incidences: 0 of 20; pairs with J_ij | V_i.V_j: 0 of 10
+min block prime = 112907862675001  max|delta| / min J = 6.713273426073107e+23

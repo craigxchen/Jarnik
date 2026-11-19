@@ -1,0 +1,14 @@
+A1 u_i - t^2/u_i m=5: m=S=10 I=20 infsteps=2 blowups=0 big=[] chains=[] unblown=20 | (K+B)^2=80/9 e_orb=80/9 3e-(K+B)^2=160/9 ledger=160/9 bound=160/9 min(K+B).curve=14/3 || IV.2: L=20 delta=0 sumE=0 lhs=-280 rhs=0 slack=280
+A1 u_i - t^2/u_i m=6: m=S=12 I=30 infsteps=2 blowups=0 big=[] chains=[] unblown=30 | (K+B)^2=16 e_orb=40/3 3e-(K+B)^2=24 ledger=24 bound=24 min(K+B).curve=6 || IV.2: L=30 delta=0 sumE=0 lhs=-375 rhs=0 slack=375
+A1 u_i - t^2/u_i m=9: m=S=18 I=72 infsteps=2 blowups=0 big=[] chains=[] unblown=72 | (K+B)^2=48 e_orb=32 3e-(K+B)^2=48 ledger=48 bound=48 min(K+B).curve=10 || IV.2: L=72 delta=4 sumE=0 lhs=-360 rhs=432 slack=792
+A2 nested 7>5>3 at t=0 + chain: m=S=27 I=81 infsteps=3 blowups=8 big=[3, 3, 3, 4, 5, 7] chains=[2] unblown=33 | (K+B)^2=208/9 e_orb=64/3 3e-(K+B)^2=368/9 ledger=368/9 bound=124/3 min(K+B).curve=-2/3 || IV.2: L=32 delta=3 sumE=0 lhs=-330 rhs=210 slack=540
+A2' 9 sections, 9-fold point at 0: m=S=27 I=108 infsteps=3 blowups=17 big=[3, 3, 3, 3, 3, 3, 3, 3]... chains=[] unblown=24 | (K+B)^2=31 e_orb=83/3 3e-(K+B)^2=52 ledger=52 bound=52 min(K+B).curve=1 || IV.2: L=17 delta=17/4 sumE=0 lhs=-103 rhs=459 slack=562
+A3 prime powers (t-1)^2 (t+2)^3, tangency order 3: m=S=30 I=75 infsteps=5 blowups=10 big=[4, 4, 4, 5, 5] chains=[2, 3] unblown=32 | (K+B)^2=182/9 e_orb=62/3 3e-(K+B)^2=376/9 ledger=376/9 bound=392/9 min(K+B).curve=-2/3 || IV.2: L=40 delta=3 sumE=0 lhs=-494 rhs=162 slack=656
+A4 contact at infinity: m=S=18 I=45 infsteps=3 blowups=8 big=[3, 3, 3, 4] chains=[2, 2] unblown=26 | (K+B)^2=160/9 e_orb=152/9 3e-(K+B)^2=296/9 ledger=296/9 bound=304/9 min(K+B).curve=-2/3 || IV.2: L=27 delta=5/4 sumE=0 lhs=-679/2 rhs=135/2 slack=407
+A4' rational sections, mixed infinity: m=S=24 I=60 infsteps=0 blowups=4 big=[3] chains=[3] unblown=54 | (K+B)^2=92/3 e_orb=232/9 3e-(K+B)^2=140/3 ledger=140/3 bound=48 min(K+B).curve=-2/3 || IV.2: L=55 delta=0 sumE=0 lhs=-1375/2 rhs=0 slack=1375/2
+B (c+u_iN,1) m=6: m=S=30 I=75 infsteps=5 blowups=5 big=[6, 6, 6, 6, 6] chains=[] unblown=0 | (K+B)^2=-5 e_orb=5 3e-(K+B)^2=20 ledger=20 bound=20 min(K+B).curve=0 || IV.2: L=5 delta=5/4 sumE=0 lhs=-45/2 rhs=135/2 slack=90
+   predicted slack 18L = 90  lhs-leading m^2L/4 = 45  rhs-leading m^2 delta = 45
+B (c+u_iN,1) m=12: m=S=60 I=330 infsteps=5 blowups=5 big=[12, 12, 12, 12, 12] chains=[] unblown=0 | (K+B)^2=-5 e_orb=5 3e-(K+B)^2=20 ledger=20 bound=20 min(K+B).curve=0 || IV.2: L=5 delta=5/4 sumE=0 lhs=135 rhs=225 slack=90
+   predicted slack 18L = 90  lhs-leading m^2L/4 = 180  rhs-leading m^2 delta = 180
+B (c+u_iN,1) m=30: m=S=150 I=2175 infsteps=5 blowups=5 big=[30, 30, 30, 30, 30] chains=[] unblown=0 | (K+B)^2=-5 e_orb=5 3e-(K+B)^2=20 ledger=20 bound=20 min(K+B).curve=0 || IV.2: L=5 delta=5/4 sumE=0 lhs=2295/2 rhs=2475/2 slack=90
+   predicted slack 18L = 90  lhs-leading m^2L/4 = 1125  rhs-leading m^2 delta = 1125

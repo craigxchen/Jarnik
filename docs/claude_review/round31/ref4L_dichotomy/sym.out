@@ -1,0 +1,6 @@
+interpolation identity: OK (generic symbolic, both coordinates)
+Vandermonde det / (m01 m02 m12) = 1
+Gram identity: OK
+polarization formula: OK
+orientation |F|=0: profile formulas OK; |S_i| = [4, 4, 4, 4, 4] |S_i cap S_j| = [1] marked per edge: [2]
+orientation |F|=5: profile formulas OK; |S_i| = [5, 5, 5, 5, 5] |S_i cap S_j| = [2] marked per edge: [2, 3]

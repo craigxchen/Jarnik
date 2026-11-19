@@ -1,0 +1,7 @@
+--- cube D=8: D=8 K=4 max deg(z_i-z_j)=4 m=8 predicted delta=K-D/2=0
+cube D=8: m=S=32 I=112 infsteps=4 blowups=16 big=[4, 4, 4, 4, 4, 4, 4, 4]... chains=[] unblown=16 | (K+B)^2=80/3 e_orb=208/9 3e-(K+B)^2=128/3 ledger=128/3 bound=128/3 min(K+B).curve=5/3 || IV.2: L=16 delta=0 sumE=0 lhs=-192 rhs=0 slack=192
+--- cube D=16 (h=t^2+t): D=16 K=8 max deg(z_i-z_j)=8 m=8 predicted delta=K-D/2=0
+cube D=16 (h=t^2+t): m=S=64 I=224 infsteps=8 blowups=34 big=[4, 4, 4, 4, 4, 4, 4, 4]... chains=[2] unblown=30 | (K+B)^2=478/9 e_orb=46 3e-(K+B)^2=764/9 ledger=764/9 bound=256/3 min(K+B).curve=-2/3 || IV.2: L=32 delta=0 sumE=0 lhs=-384 rhs=0 slack=384
+best vertical-line Y at D=8, |y|<=10: (14, [1, 2, 3, 4, -5, -6, -7, 8])
+--- vertical c=1 D=8: D=8 K=5 max deg(z_i-z_j)=5 m=14 predicted delta=K-D/2=1
+vertical c=1 D=8: m=S=70 I=455 infsteps=3 blowups=18 big=[6, 7, 7, 7, 7, 7, 7, 7]... chains=[] unblown=76 | (K+B)^2=298/3 e_orb=466/9 3e-(K+B)^2=56 ledger=56 bound=56 min(K+B).curve=3 || IV.2: L=16 delta=1 sumE=0 lhs=-120 rhs=238 slack=358

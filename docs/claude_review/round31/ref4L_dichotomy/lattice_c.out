@@ -1,0 +1,4 @@
+uncompl N = 51739646410822722637 index == N in all tests: [True, True, True, True, True, True, True, True, True, True, True]
+  #directions mod p (genuine): [4, 4, 4, 4, 3, 4, 4, 4, 4, 4]
+balanced N = 51739646410822722637 index == N in all tests: [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+  #directions mod p (genuine): [3, 4, 4, 3, 3, 4, 4, 3, 4, 3]

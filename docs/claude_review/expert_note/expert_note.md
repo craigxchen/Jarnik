@@ -619,8 +619,9 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
    * *Function-field model* (`round29/ff.md`, `kill_ff.md`). Over $\mathbb C(t)$, twisted by conjugation, the arc
      condition is $L\approx D/2$ exact real-linear equations on exponent vectors (already `families.md` Lemma P). The
      model has its own fakes (arbitrary columns in $\mathbb R^L$, linear growth), covering families satisfy
-     $r(L+1)+1\le 2D$ (the record's free-curve bound), and the problem stays **open** there: bounded clusters are
-     equivalent to bounded rank of the ratio lattice. New and exact: the *cube family*, 8-point clusters at $c=0$ for
+     $r(L+1)+1\le 2D$ (the record's free-curve bound). Bounded clusters are equivalent to bounded rank of the ratio
+     lattice; the uniform question was open there until round 31, Part IV, which proves $M(D,0)\le24$ for every $D$
+     and $\sup_DM(D,c)<\infty$ for every $c$ over $\mathbb C(t)$, $\mathbb Q(i)(t)$ (item 12). New and exact: the *cube family*, 8-point clusters at $c=0$ for
      every $D\equiv0\ (8)$ over $\mathbb Q(i)(t)$, a non-covering rational family, with an 8-point template in
      $\mathbb Z[i][u]$ (constant $\approx3.2\cdot10^9$). The transfer to $\mathbb Z$ is negative: the $D/2$
      independent equations come from the infinite residue field; a $p$-adic arc gives one congruence.
@@ -637,7 +638,8 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
    * *Rank.* No rank-5 cluster at $c=0$ was found for $D\le12$ (search evidence, not proof); rank 5 does occur at
      $c=1$ ($D=10,12$, certified). Bounded rank (R$_4$) stays **open**. It has exactly the shape of truncated
      function-field Vojta for the pair $(\mathrm{Bl}_eX,\pi^*\partial+E)$, $r(L+1)\le|S|-1+\varepsilon h$, which is
-     itself open, so this is calibration and not evidence.
+     itself open, so this is calibration and not evidence. *This concerns only the sharp constant.* A uniform bound
+     is a theorem (round 31, Part IV, item 12): $8\le\sup_DM(D,0)\le24$.
    * *The one new tool: the saturated balance lemma* (`round30/search.md` Lemma 1.1 = `prove.md` Lemma 1.2;
      proved twice). Every nonzero integer vector $a$ in the real solution space of the moment equations has
      $\|a\|_1\ge L+1$ and $\min(a^+,a^-)\ge L/2$. It kills the round-29 function-field fakes, and an exhaustive
@@ -658,10 +660,11 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      "balance does not separate real clusters from fakes" (true only for pairwise balance); the "real-algebraic
      obstruction" lead (it was linear algebra, Prop K1).
 
-12. **Round 31 (three exchanges with an outside colleague, "Astra"; 23 referee blocks and three judge reports:
-   `round31/README.md`, `README_II.md`, `README_III.md`).** No referee found a false theorem or a gap in a claimed
+12. **Round 31 (four exchanges with an outside colleague, "Astra"; 34 referee blocks and five judge reports:
+   `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`).** No referee found a false theorem or a gap in a claimed
    proof. **Nothing changes for the integer problem**: the growth rate, the uniform bound, Questions A and B and
-   route 5 keep their status (judges' scores on the goal: 2/10, 2/10, 1/10). What is now in the record, all
+   route 5 keep their status (judges' scores on the goal: 2/10, 2/10, 1/10, 2/10, 1/10). The one new theorem
+   is in the function-field model (Part IV below). What is now in the record, all
    **proved** and refereed unless labelled:
    * *Question B is the index-one case.* The valuation columns of a five-tuple span a lattice of index $I$.
      If $I\ge5$ the tuple lifts to a degree-$I$ isogeny cover and McKinnon–Roth gives exponent $>10/3$; if $I\ge7$
@@ -699,6 +702,50 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      degree 12 that dominates ratio space); quartet cross-ratio consistency (automatic); template density (ten-pair
      template curves of fixed block degree sweep out dimension $\le2$ of the 4-dimensional ratio space); the
      completely multiplicative sharp sieve (§1); the near-square-divisor count $D_B(N)$ (fakes match it).
+   * ***Part IV: a uniform bound in the function-field model, and a new filter*** (`round31/README_IV.md`; seven
+     referee blocks; Langer's theorem read in the original, `round31/langer_check.md`).
+     * *Inequality (IV.2)* (**proved**; characteristic 0). Let $N,n_i\in\mathbb C[t]$, $L=\deg N>0$, $n_i\mid N$,
+       $\alpha_i=\deg n_i$, and let $P_1,\dots,P_m\in\mathbb C[t]^2$ ($m\ge3$) have coprime entries and nonzero minors
+       $D_{ij}$. Count one layer $h$ per root of $N$ and depth, with $s_h$ the number of $n_i$ vanishing to that
+       depth; put $E_{ij}=\deg\gcd(n_i,n_j)-\deg\gcd(n_i,n_j,D_{ij})$ and suppose
+       $\deg D_{ij}\le(\alpha_i+\alpha_j)/2-L/4+\delta$. Then
+       $\frac34(m-24)L+\sum_h(s_h-m/2)^2\le m(m+3)\delta+4\sum_{i<j}E_{ij}$. The proof applies Langer's orbifold
+       Bogomolov–Miyaoka–Yau inequality to the ruled surface of the column directions, blown up along the contacts,
+       with weight $2/3$ on the sections. Two referees recomputed the Chern numbers directly on about 70 surfaces.
+     * *Theorem (function-field uniform bound).* For $k=\mathbb C$, $\mathbb R$ or $\mathbb Q(i)$ and the model of
+       item 10 (distinct $z_j\in k[t]$ of degree $D$, $z_j\bar z_j=N$, $\deg(z_i-z_j)\le D/2+c$): $M(D,0)\le24$ for
+       every $D$ ($\le23$ for odd $D$); $M(D,c)\le47$ for $D>68c$ and $\le24$ for $D>1400c/3$; hence
+       $\sup_DM(D,c)\le\max(47,2^{2c+2}(\lfloor68c\rfloor+2))$. With the cube family, $8\le\sup_DM(D,0)\le24$. The
+       colleague did not state this corollary; the coordinator and three referees derived it, and the judge
+       rechecked the dictionary (stars $P_i=\gcd(z_i,U)$, $E_{ij}=0$, $\delta=\lfloor D/2+c\rfloor-D/2$). The sharp
+       statement (R$_4$), $\limsup M=8$, stays **open**. Without the norm condition the maximum at $\delta=E=0$ lies
+       in $[12,24]$ (a 12-mark example on an elliptic curve; 24 is the method's limit).
+     * *Characteristic 2* (**proved**). Over $\mathbb F_q(t)$, $q=2^d$, trace hyperplanes give $m=q-1$ columns at
+       weight $m\log(m+1)$ with every divisibility and constant cofactors; (IV.2) fails for $q\ge32$. The
+       configuration is a genuine split-form (hyperbola) cluster; no anisotropic norm fits it. Its incidence table
+       cannot be realised over $\mathbb Z$ for $d\ge15$ (rigidity).
+     * *Filter F3.* An argument that bounds integer-matrix models without the exact norm must use characteristic 0
+       or collisions in residue fields smaller than $m$; every inequality whose characteristic-$p$ analogue the
+       trace surface satisfies is excluded (Hodge index, Riemann–Roch, geometry of numbers, Bogomolov on rational
+       surfaces; the last via secondary sources).
+     * *For the integers: nothing.* One-parameter polynomial templates with bounded $C$ carry at most 24 points;
+       the unit (golden/Pell) templates that hold the records sit at $\delta=L/8$, where (IV.2) is vacuous.
+       Isolated parents are untouched. The arithmetic analogue is an arithmetic orbifold BMY inequality on
+       $\mathbb P^1_{\mathbb Z}$ with $m$ sections, of at least Szpiro strength; no proved substitute was found (any
+       constant $\kappa$ in place of 3 would give $m\le2\kappa(\kappa+1)$). Whether integer-matrix models without
+       the norm condition exist at $W=O(m\log m)$ is **open** in both directions.
+   * ***Part IV, Question B thread: the norm defect*** (`round31/README_IVL.md`). Write $\delta_i=|V_i|^2-n_i$ for an
+     integral five-mark model. With each cut marking its two endpoints ($n_i\sim N^{2/5}$) there are models with
+     all divisibilities, index one, cofactors $(\log N)^{O(1)}$, $|\delta_i|=N^{1/10+o(1)}$ (every defect exponent
+     $>1/4$) and width $N^{-3/10+o(1)}$, avoiding any prescribed proper closed set of ratios. With all
+     $n_i\sim\sqrt N$ one pencil gives $o(n_i^{3/5})$ with fixed cofactors. Below $n^{1/4-30\eta}$ (resp.
+     $n^{2/5-24\eta}$) at width $N^{-3/10+\eta}$, a model is exact or has $\delta_i=\lambda\ell(V_i)^2$; the latter is
+     a genuine cluster for an order $\mathbb Z[\sqrt k]$, $|k|\le N^{3/10}$ (analyst's normal form), neither
+     constructed nor excluded. The first family consists of exact clusters for definite forms of discriminant
+     $\asymp N^{3/10}$. So a proof of Question B must use local isotropy or the form $X^2+Y^2$ itself (or bounded
+     discriminant); archimedean norm accuracy $N^{1/10+\varepsilon}$ and exact values of some form do not suffice.
+     Nothing here bears on defect zero. The coordinator's quadratic-form lattice suggestion was wrong (one marked
+     line per prime; index $N$).
    * *Withdrawn or corrected in the round:* a sentence on "different local obstructions" for the round-24 family
      (both forms are excluded at 2 and at 3); the coordinator's "weight $D/2$ is exactly the lattice minimum" (only
      a lower bound) and "every determinant is critical" (see Lemma K1 as now worded); the headline "17 points" of
@@ -730,7 +777,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
 | round 29: function-field model, Li–Liu template, residue-class twin, 18 screened ideas (no change) | `round29/README.md` (with `kill_*.md`) |
 | round 30: function-field model decided as far as internal work goes (rank open, line closed; no change) | `round30/README.md` (with `kill_*.md`) |
-| round 31: outside colleague, three refereed passes (index-one reduction, fixed-plane exponents, integral five-mark model, rigidity, random parents; no change) | `round31/README.md`, `round31/README_II.md`, `round31/README_III.md` (with `ref_*.md`, `ref2_*.md`, `ref3_*.md`) |
+| round 31: outside colleague, four refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models and norm defect, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$**, filter F3; no change for integers) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md` (with `ref*_*.md`, `langer_check.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check

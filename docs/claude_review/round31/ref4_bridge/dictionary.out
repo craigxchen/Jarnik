@@ -1,0 +1,17 @@
+[cube D=8 c=0] D=8 K=4 m=8 L=16 delta(allowed)=0 delta(actual)=0 sum E=0 layer sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] Sigma=0
+     (IV.2): LHS=-192  RHS(allowed)=0  RHS(actual)=0  holds=True
+[cube D=8 c=0, flipped orientation] D=8 K=4 m=8 L=16 delta(allowed)=0 delta(actual)=0 sum E=0 layer sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] Sigma=0
+     (IV.2): LHS=-192  RHS(allowed)=0  RHS(actual)=0  holds=True
+[cube D=16 c=0 (z o g)] D=16 K=8 m=8 L=32 delta(allowed)=0 delta(actual)=0 sum E=0 layer sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] Sigma=0
+     (IV.2): LHS=-384  RHS(allowed)=0  RHS(actual)=0  holds=True
+vertical D=7: y=[1, 2, 3, 4, 5, -6, -7], cluster size 8
+[vertical D=7 c=1] D=7 K=4 m=8 L=14 delta(allowed)=1/2 delta(actual)=1/2 sum E=0 layer sizes=[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5] Sigma=4
+     (IV.2): LHS=-164  RHS(allowed)=44  RHS(actual)=44  holds=True
+vertical D=8: y=[1, 2, 3, 4, -5, -6, -7, 8], cluster size 14
+[vertical D=8 c=1] D=8 K=5 m=14 L=16 delta(allowed)=1 delta(actual)=1 sum E=0 layer sizes=[7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7] Sigma=0
+     (IV.2): LHS=-120  RHS(allowed)=238  RHS(actual)=238  holds=True
+[non-squarefree e=(2,1,1), all 12 points, K=3] D=4 K=3 m=12 L=8 delta(allowed)=1 delta(actual)=1 sum E=0 layer sizes=[4, 4, 6, 6, 6, 6, 8, 8] Sigma=16
+     (IV.2): LHS=-56  RHS(allowed)=180  RHS(actual)=180  holds=True
+[non-squarefree e=(3,2), all 12 points, K=4] D=5 K=4 m=12 L=10 delta(allowed)=3/2 delta(actual)=3/2 sum E=0 layer sizes=[3, 3, 4, 4, 6, 6, 8, 8, 9, 9] Sigma=52
+     (IV.2): LHS=-38  RHS(allowed)=270  RHS(actual)=270  holds=True
+all exact checks passed

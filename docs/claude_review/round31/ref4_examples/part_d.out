@@ -1,0 +1,4 @@
+q=8 m=7 deg f=[1] S=7 I=21 infsteps=1 big=[3]x7 unblown=0 | 3e_orb-(K+B)^2=140/9 (=15.556) ledger=140/9 || IV.2: L=7 delta=0 lhs=-175/2 rhs=0 slack=175/2
+q=16 m=15 deg f=[3] S=45 I=315 infsteps=3 big=[7]x15 unblown=0 | 3e_orb-(K+B)^2=20/3 (=6.667) ledger=20/3 || IV.2: L=15 delta=0 lhs=-195/2 rhs=0 slack=195/2
+q=32 m=31 deg f=[7] S=217 I=3255 infsteps=7 big=[15]x31 unblown=0 | 3e_orb-(K+B)^2=-868/9 (=-96.444) ledger=-868/9 || IV.2: L=31 delta=0 lhs=341/2 rhs=0 slack=-341/2
+q=64 m=63 deg f=[15] S=945 I=29295 infsteps=15 big=[31]x63 unblown=0 | 3e_orb-(K+B)^2=-644 (=-644.000) ledger=-644 || IV.2: L=63 delta=0 lhs=3717/2 rhs=0 slack=-3717/2

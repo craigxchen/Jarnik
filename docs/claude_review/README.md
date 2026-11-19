@@ -199,8 +199,17 @@ separation divisors for `m >= 16390`; an almost-all bound for random parents (at
 superseded headline 17; not a worst-case statement); closed routes (anchored unit equations, free-nonvanishing grid
 determinants, fixed-cofactor elimination, template density, the completely multiplicative sharp sieve); and the
 function-field `D = 8` case (rank `<= 4`, `M(8,0) = 8`, at most 12 constant-offset divisors, cube only). Six
-sentences of the expert note were corrected on the referees' recommendation. A fourth, narrower exchange (integral
-fakes at growth scale; the norm-defect/width trade-off at five marks) is in progress and is not yet recorded.
+sentences of the expert note were corrected on the referees' recommendation. 
+A fourth, narrower exchange (`round31/README_IV.md`, `round31/README_IVL.md`) asked whether integer-matrix models
+with all divisibilities but no norm condition exist at growth scale, and how small the norm defect of a five-mark
+model can be. Outcome: **the function-field model's uniform question is settled** (`M(D,0) <= 24` for every `D`, and
+`sup_D M(D,c)` finite, over `C(t)`, `Q(i)(t)`), by an inequality (IV.2) proved with Langer's orbifold
+Bogomolov-Miyaoka-Yau inequality (checked in the original, `round31/langer_check.md`); the same statement is false
+over `F_q(t)` in characteristic 2 (explicit construction with `q-1` columns), which gives a new filter F3 for any
+integer argument; one-parameter polynomial templates carry at most 24 points. For isolated integer parents nothing
+is decided: the arithmetic analogue is an arithmetic orbifold BMY inequality of at least Szpiro strength. On the
+norm defect: integral five-mark models reach every defect exponent above 1/4 at exponent `10/3`, and below the
+threshold a model is exact or is a genuine cluster for another quadratic order; nothing at defect zero.
 
 **Growth-rate status (2026-11-19, after round 31).** No growth improvement over `log R/loglog R` is proved
 unconditionally; conditionally only Vojta-type routes are known, and they give the uniform bound directly. The following are capped at `log R/loglog R` by

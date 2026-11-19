@@ -1,0 +1,142 @@
+== genuine Gaussian star, uncompl
+  label            genuine
+  h                4
+  prim             True
+  signs            [0]
+  lhs_zero         True
+  lhs_den_ok       True
+  interp_ok        True
+  den              1
+  den_divides_Ht   True
+  rank             0
+  detE_lower_ok    True
+  kappa            2.9994037634245463
+  threshold_exp    -34.99284516109456
+  logP_maxdelta    None
+  detE_abs_log_P   None
+== stretched genuine star (X, 3Y), uncompl
+  stretch d = 7
+  label            stretched
+  h                4
+  prim             True
+  signs            [1]
+  lhs_zero         True
+  lhs_den_ok       True
+  interp_ok        True
+  den              49
+  den_divides_Ht   True
+  rank             1
+  detE_lower_ok    True
+  kappa            3.140251037245266
+  threshold_exp    -36.683012446943195
+  logP_maxdelta    4.270976324929352
+  detE_abs_log_P   None
+  lambda           48/49
+  ell              [0, 1]
+  lam_ge_1/Ht      True
+== Z[sqrt-2] star, uncompl
+  label            sqrt-2
+  h                4
+  prim             True
+  signs            [-1]
+  lhs_zero         True
+  lhs_den_ok       True
+  interp_ok        True
+  den              1
+  den_divides_Ht   True
+  rank             1
+  detE_lower_ok    True
+  kappa            2.9735888293103274
+  threshold_exp    -34.68306595172393
+  logP_maxdelta    3.943371509170206
+  detE_abs_log_P   None
+  lambda           -1
+  ell              [0, -1]
+  lam_ge_1/Ht      True
+== perturbed IV-type: V_i + n_i u_i on genuine star, uncompl
+  label            perturbed
+  h                4
+  prim             False
+  signs            [1]
+  lhs_zero         False
+  lhs_den_ok       True
+  interp_ok        False
+  den              4020292220661274849828713766207968616144271911662877498736077938884044760792029926650229530841420681872218992791473008998009127
+  den_divides_Ht   True
+  rank             2
+  detE_lower_ok    True
+  kappa            7.159027809618228
+  threshold_exp    -84.90833371541873
+  logP_maxdelta    8.185615621895296
+  detE_abs_log_P   0.0
+== genuine Gaussian star, balanced
+  label            genuine
+  h                5
+  prim             True
+  signs            [0]
+  lhs_zero         True
+  lhs_den_ok       True
+  interp_ok        True
+  den              1
+  den_divides_Ht   True
+  rank             0
+  detE_lower_ok    True
+  kappa            2.999677709258532
+  threshold_exp    -33.99613251110239
+  logP_maxdelta    None
+  detE_abs_log_P   None
+== stretched genuine star (X, 3Y), balanced
+  stretch d = 3
+  label            stretched
+  h                5
+  prim             True
+  signs            [1]
+  lhs_zero         True
+  lhs_den_ok       True
+  interp_ok        True
+  den              9
+  den_divides_Ht   True
+  rank             1
+  detE_lower_ok    True
+  kappa            3.0791965636722183
+  threshold_exp    -34.95035876406662
+  logP_maxdelta    5.147548005754677
+  detE_abs_log_P   None
+  lambda           8/9
+  ell              [0, 1]
+  lam_ge_1/Ht      True
+== Z[sqrt-2] star, balanced
+  label            sqrt-2
+  h                5
+  prim             True
+  signs            [-1]
+  lhs_zero         True
+  lhs_den_ok       True
+  interp_ok        True
+  den              1
+  den_divides_Ht   True
+  rank             1
+  detE_lower_ok    True
+  kappa            2.9749074067737555
+  threshold_exp    -33.698888881285065
+  logP_maxdelta    4.94414831525796
+  detE_abs_log_P   None
+  lambda           -1
+  ell              [0, -1]
+  lam_ge_1/Ht      True
+== perturbed IV-type: V_i + n_i u_i on genuine star, balanced
+  label            perturbed
+  h                5
+  prim             False
+  signs            [1]
+  lhs_zero         False
+  lhs_den_ok       True
+  interp_ok        False
+  den              138749563176519504911962412794557814533011821615091120239682104044564826833480220684500098378873129988189222725768134445860162421162820
+  den_divides_Ht   False
+  rank             2
+  detE_lower_ok    True
+  kappa            8.18565961956885
+  threshold_exp    -96.2279154348262
+  logP_maxdelta    10.185677795712246
+  detE_abs_log_P   0.0

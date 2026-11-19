@@ -1,0 +1,11 @@
+ m   | Z(any N)  Z(split N)  F2[t]   F3[t]   F_{m+1}[t]   (entries: 8*LB/(m * m log m), i.e. coefficient c in W>=c m log m - ...)
+   16 |   0.158    1.068    0.185    0.195    0.000
+   64 |   0.500    1.555    0.485    0.512    0.000
+  256 |   0.776    1.893    0.754    0.811    0.000
+ 1024 |   0.983    2.102    0.964    1.006    0.000
+ 4096 |   1.138    2.247    1.122    1.133    0.000
+trace q=32: sum deg c_ij + Q/2 = 3.875  <=  mL/8 = 120.125: True;  pigeonhole gain = 0
+trace q=64: sum deg c_ij + Q/2 = 7.875  <=  mL/8 = 496.125: True;  pigeonhole gain = 0
+trace q=128: sum deg c_ij + Q/2 = 15.875  <=  mL/8 = 2016.125: True;  pigeonhole gain = 0
+trace q=1024: sum deg c_ij + Q/2 = 127.875  <=  mL/8 = 130816.125: True;  pigeonhole gain = 0
+trace q=1048576: sum deg c_ij + Q/2 = 131071.875  <=  mL/8 = 137438691328.125: True;  pigeonhole gain = 0
