@@ -263,6 +263,9 @@ almost all roots of the norm lie on one circle with real centre. Polynomial Pell
 five-mark tuples exactly at the covering maximum `W = 4h + 2`, half a degree below the threshold; rigid
 configurations strictly above `D/2` exist at `D = 11, 13` (numerical). The judge closes the thread as internal work:
 the unrestricted question is an open function-field Vojta instance of the same generic complexity as Question B.
+One consequence over `Q`, checked by three further sceptics (`round31/ref7L_alpha_*.md`): integer specialisations
+of the Pell families give `10/3 <= alpha_ess <= 4` for the approximation constant of Question B, i.e. `A_5(delta)` is
+false for every `delta < 0`. This is a calibration on the far side of Question B (which needs `> 15/4`).
 
 **Growth-rate status (2026-11-19, after round 31).** No growth improvement over `log R/loglog R` is proved
 unconditionally; conditionally only Vojta-type routes are known, and they give the uniform bound directly. The following are capped at `log R/loglog R` by

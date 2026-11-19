@@ -1,0 +1,6 @@
+n=1 point(s1..s4,t)=(1, 2, 3, 5, 3) rank(4x5)=4 rank(seeds 4x4)=4 det=-2.25041e-9
+n=1 point(s1..s4,t)=(1/2, 1/3, 2/7, -5/3, 7) rank(4x5)=4 rank(seeds 4x4)=4 det=-9.50734e-13
+n=1 point(s1..s4,t)=(3/4, -1/5, 7/2, 0, 10) rank(4x5)=4 rank(seeds 4x4)=4 det=-1.41360e-15
+n=2 point(s1..s4,t)=(1, 2, 3, 5, 3) rank(4x5)=4 rank(seeds 4x4)=4 det=-1.12307e-17
+n=2 point(s1..s4,t)=(1/2, 1/3, 2/7, -5/3, 7) rank(4x5)=4 rank(seeds 4x4)=4 det=-2.08370e-26
+n=2 point(s1..s4,t)=(3/4, -1/5, 7/2, 0, 10) rank(4x5)=4 rank(seeds 4x4)=4 det=-1.20742e-31

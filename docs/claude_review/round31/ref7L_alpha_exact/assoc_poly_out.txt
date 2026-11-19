@@ -1,0 +1,16 @@
+poly_n1_1_2_3_5.json no polynomial identity z_a = u z_b (a!=b) or z_a = u conj(z_b) (all a,b): True
+poly_n1_1d2_1d3_2d7_-5d3.json no polynomial identity z_a = u z_b (a!=b) or z_a = u conj(z_b) (all a,b): True
+poly_n1_2_-3_5d6_11d9.json no polynomial identity z_a = u z_b (a!=b) or z_a = u conj(z_b) (all a,b): True
+poly_n1_3d4_-1d5_7d2_0.json no polynomial identity z_a = u z_b (a!=b) or z_a = u conj(z_b) (all a,b): True
+poly_n2_1_2_3_5.json no polynomial identity z_a = u z_b (a!=b) or z_a = u conj(z_b) (all a,b): True
+poly_n2_1d2_1d3_2d7_-5d3.json no polynomial identity z_a = u z_b (a!=b) or z_a = u conj(z_b) (all a,b): True
+poly_n2_2_-3_5d6_11d9.json no polynomial identity z_a = u z_b (a!=b) or z_a = u conj(z_b) (all a,b): True
+poly_n2_3d4_-1d5_7d2_0.json no polynomial identity z_a = u z_b (a!=b) or z_a = u conj(z_b) (all a,b): True
+poly_n1_1_2_3_5.json pairs with z_a/conj(z_b) constant in Q(i)(t): []
+poly_n1_1d2_1d3_2d7_-5d3.json pairs with z_a/conj(z_b) constant in Q(i)(t): []
+poly_n1_2_-3_5d6_11d9.json pairs with z_a/conj(z_b) constant in Q(i)(t): []
+poly_n1_3d4_-1d5_7d2_0.json pairs with z_a/conj(z_b) constant in Q(i)(t): []
+poly_n2_1_2_3_5.json pairs with z_a/conj(z_b) constant in Q(i)(t): []
+poly_n2_1d2_1d3_2d7_-5d3.json pairs with z_a/conj(z_b) constant in Q(i)(t): []
+poly_n2_2_-3_5d6_11d9.json pairs with z_a/conj(z_b) constant in Q(i)(t): []
+poly_n2_3d4_-1d5_7d2_0.json pairs with z_a/conj(z_b) constant in Q(i)(t): []

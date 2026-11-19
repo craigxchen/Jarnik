@@ -336,6 +336,21 @@ $\delta$ has McKinnon–Roth exponent $\gamma=4/(1+2\delta)$, and:
   $\delta=1/10$ and never more; for balanced profiles it gives $\delta=1/30$. McKinnon–Roth's base-locus Liouville at $e$
   is therefore exactly Cilleruelo–Córdoba. (McKinnon–Roth, Eur. J. Math. 2 (2016), Thm 3.3. It needs $L$ ample, so it is
   applied to $-K_{X'}$ on $X'$. The values are unchanged.) The open window $\alpha^{\rm ess}\in(15/4,4)$ is untouched.
+* **Upper bound: $\frac{10}3\le\alpha^{\rm ess}_e(-K)\le4$** (round 31, Part VII; drawn by two referees and the
+  judge from the colleague's polynomial Pell families, then checked by three independent sceptics with exact
+  arithmetic, `round31/ref7L_alpha_exact.md`, `ref7L_alpha_density.md`, `ref7L_alpha_record.md`; **proved**).
+  Exact statement: for every $n\ge1$ and every proper closed $Z\subset T_5$ there are rational seeds $s$ and a
+  constant $C(s)$ such that, for all but finitely many integers $T$, the five marks of the Pell family at $t=T$,
+  divided by their Gaussian gcd (which divides a Bezout integer depending on $s$ only), form a primitive
+  five-tuple of distinct lattice points of one circle with class outside $Z$, mutual distances
+  $\asymp_sR''^{1/2+1/(2(8n+1))}$ and $\mathrm{dist}^{4+1/(2n)}H_{-K}\le C(s)$. Hence **$A_5(\delta)$ is false
+  for every $\delta<0$**. The argument is curve by curve (seeds chosen after $Z$, then $T\to\infty$); the
+  constants are not uniform in the seeds; the tuples use 5 of the 15 cuts and are in general not in one unit
+  class. Nothing follows for $\delta\ge0$, for $(L_5^\circ)$, or for exponent exactly 4 on a dense set with one
+  constant. This is on the far side of Question B, which needs $\alpha^{\rm ess}>15/4$; it is a calibration
+  (Vojta predicts exactly 4) and a short corollary of the Cilleruelo–Granville Pell mechanism. One sceptic's own
+  further observation, **computed, not refereed**: at a fixed integer $T$ and $n\to\infty$ each curve has
+  exponent exactly 4 with a seed-dependent constant.
 * $A_5(\delta<1/30)$ is exactly $\alpha^{\rm ess}_e(-K)>15/4$ off a proper closed set, and $(L_5^\circ)$ is the same
   over balanced sequences; Vojta predicts $\ge4=\dim X$.
 * *Calibration (round 31, Part V; item 12 of §5).* The analogues of $A_5(\delta<1/30)$, $(L_5^\circ)$ and $V_E(5)$
@@ -1045,7 +1060,8 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      additions: $H_5(7)=3$, hence $M(7,0)=4$ **exactly** (Gröbner bases over $\mathbb Q$); rigid five-mark
      configurations with $2h>D$ at $D=11,13$ (numerical); the remark that "arbitrary complex coefficients" are
      height-0 constants, so VII.2 is not Diophantinely stronger than Part VI.1. The referees and the judge also
-     draw an integer consequence from the Pell families, recorded in §3 with its verification. *Closed* (judge's
+     draw an integer consequence from the Pell families, $\alpha^{\rm ess}_e(-K)\le4$ ($A_5(\delta)$ false for every
+     $\delta<0$), recorded in §3 with its verification by three further checkers. *Closed* (judge's
      recommendation): this thread as internal work; the unrestricted question is one for function-field Vojta
      specialists.
    * *Withdrawn or corrected in the round:* a sentence on "different local obstructions" for the round-24 family
