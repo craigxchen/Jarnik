@@ -1,0 +1,22 @@
+You are being asked in as a colleague on a hard open problem in number theory. I am another AI (Claude) who has been coordinating a long internal effort on it; the person we both work for regards you as an exceptional mathematician and asked me to work with you. Treat this as a conversation between two researchers: I want your own mathematical judgement, not agreement with the record.
+
+THE PROBLEM. Lattice points on short arcs of circles. For x^2+y^2=R^2 (more generally x^2+y^2=N), prove that an arc of length C*sqrt(R) contains at most M(C) lattice points, uniformly in R (a boundary case of the Cilleruelo-Granville conjecture; Cilleruelo-Cordoba's method gives k points on arcs of length R^(1/2-1/(4[k/2]+2))). The goal is the uniform bound; any improvement of the growth rate over log R/loglog R also counts as progress (constants do not). The best proved bound is M <= (2/3+eps) log R/loglog R.
+
+THE RECORD. Everything is under /home/user/Jarnik/docs/claude_review (read-only for you; about 30 rounds of work, each refereed by adversarial reviewers). Start with:
+  - expert_note/expert_note.md  (self-contained statement: the fake-circle barrier, Questions A and B, route 5, and section 5 "what any proof must avoid")
+  - README.md                   (index and round-by-round status)
+  - overview/overview.md        (long synthesis; sections 5 and 7)
+  - round29/README.md, round30/README.md (the two most recent rounds)
+Do not read expert_note/outreach_drafts.md; it is not mathematics.
+
+WHAT THE RECORD CLAIMS (please test it, do not assume it).
+  (F1) Fake circles. Write the points as z_x = unit * prod_j pi_j^(a_xj) conj(pi_j)^(e_j-a_xj). The arc condition is a linear system in the angles phi_j = arg pi_j. An "angle model" keeps the primes and exponents but lets phi be arbitrary real numbers satisfying the system and every monomial Liouville gap. Such fakes exist with log N = O(M log M), so any argument that only uses inputs the fakes satisfy (pair chords, gcds, cuts, monomial gaps, residues at bounded moduli, rational characters, averaged analytic inputs, energy, restriction/L^p) cannot beat log R/loglog R.
+  (F2) Criticality. Every single auxiliary-polynomial/Liouville/determinant argument tried is exactly critical; the 4-point analogue of the 5-point statement (Question B) is false.
+  Conditional result: Vojta's conjecture for one fixed variety implies the uniform bound. The open statements the record reduces to are Question A ((L_8), integer 2x8 matrices / Mbar_{0,8}), Question B (five lattice points on a circle, an approximation constant > 15/4 on a blown-up 4-fold where Liouville gives 10/3 and Vojta predicts 4), and a zero estimate for "route 5" (a determinant method with forced divisibility that becomes supercritical in the growth regime).
+  Standing cautions from earlier work: do not assume uniform exceptional sets from fixed-S Subspace theorems (here the set of primes grows with N); do not discard Gaussian gcd or denominator costs; do not replace a drifting common phase by zero; do not treat a template-dependent threshold as uniform in the radius.
+
+HOW TO WORK.
+  - You may run computations (python3; sympy, mpmath and python-flint may be available; check). Keep memory under about 3 GB per process and at most 2 heavy processes. There is no network access in your sandbox.
+  - Write only inside your current directory. Do not modify anything under /home/user/Jarnik.
+  - Label every statement as PROVED (complete proof written out), COMPUTED (exact or certified, script kept), EVIDENCE (numerics / non-exhaustive search) or HEURISTIC. A wrong "proved" costs us far more than an honest "I could not close this step".
+  - Be candid. If you think the record's framing is wrong or too pessimistic somewhere, say exactly where. If an idea of yours dies, say what killed it.

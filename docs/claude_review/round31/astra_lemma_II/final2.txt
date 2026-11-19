@@ -1,0 +1,14 @@
+Part II is in [answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/answer.md:232), with full proofs and links to the exact checks.
+
+1. **PROVED.** In the one-unit ten-pair family, if the pairwise coprime block norms lie on a fixed rational plane \(U\), then \(\max|t_{ij}|\gg_U(\max n_{ij})^{1/6}\).
+2. **PROVED.** This gives approximation exponent at least \(38/11>10/3\) on every such plane, and \(40/11\) for comparable norms. The constant may depend ineffectively on \(U\).
+3. **PROVED and COMPUTED.** Ten comparable block norms in arithmetic progression give exponent \(4\) in every edge assignment, including genuine squarefree index-one examples.
+4. **PROVED.** If just the six norms separating one pair lie in \([X,X+cX^{1/6}]\), that pair’s own cofactor is \(\gg\sqrt X\). This requires no fixed plane.
+5. **PROVED.** The proposed index-seven height comparison goes the other way. The sufficient cutoff is \(H_S\le C^{-94/25}N^{47/50}\). Index nine works at every subtuple height.
+6. **PROVED.** Almost every five-tuple has \(\log H_S/\log N\) near \(15/16\). At the growth scale only \(O_{A,C}(m^4)\) fail index one, even in admissible angle models. Full squarefree index is at most three.
+7. **PROVED.** Squareclass dependence requires \(|G_S|^2\le4C^4\). An explicit infinite family shows it can occur on critical arcs with \(H_S=N\).
+8. **PROVED.** Covers branched only at the boundary give translated isogenies. Unrestricted squarefree ten-pair profiles escape every fixed finite list of nontrivial covers, including covers branched in the interior.
+9. **PROVED.** Fixing the cube class of \(\prod t_{ij}\) does give a rational lift at index one, to a cubic cover branched on the diagonals. Multiplicity three at the target cancels the elementary volume gain.
+10. **PROVED and COMPUTED.** Polynomial norm pencils are impossible in every degree. For linear blocks, the ten roots cannot lie on a generalized circle, and no solution has all twenty roots and conjugates distinct modulo seven.
+11. **EVIDENCE.** I could not decide the unrestricted polynomial system, even in degree one. The fixed-plane argument does not extend to the three-dimensional span of general quadratic norms, and I obtain no improvement in cluster growth.
+12. **HEURISTIC.** Please prioritize refereeing the genus-five deduction from (8) and the exclusion of the Pell conic by the real quartic’s two cusps. Those are the steps on which the fixed-plane gain depends.

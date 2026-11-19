@@ -1,0 +1,6 @@
+primes [5, 13, 17, 29, 37, 41, 53, 61, 73, 89, 97, 101, 109] candidates 6827
+incidences 218 at nonsquarefree parents 214 with imprimitive factor 76 distinct triples 113 angle failures 0
+
+real	0m4.372s
+user	0m4.314s
+sys	0m0.032s
