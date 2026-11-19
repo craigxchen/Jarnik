@@ -1,0 +1,12 @@
+1. **PROVED.** Over \(\mathbb F_3[t]\), critical clusters are unbounded even when every prime exponent of the parent is at most **two**. The proof and certificates are in [Part VII of answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/free/answer.md:1461).
+2. **PROVED.** The construction works for every fixed prime \(p\equiv3\pmod4\), including in ramified quadratic extensions with inert infinity where conjugation fixes the constants.
+3. **PROVED.** With the multiplicity cap two, every sufficiently large point degree \(D\) admits at least \((\tfrac12\log_2p-o(1))\log D/\log\log D\) marks.
+4. **PROVED.** The construction separates all accidental finite zeros. The remaining double factors come from the character formula itself.
+5. **COMPUTED.** In both the constant and ramified ternary models, four marks of degree \(619{,}801\) have a common norm dividing the square of an explicitly verified squarefree polynomial.
+6. **PROVED.** Squarefreeness remains a substantive restriction. In the unpadded examples, doubled primes account for a fraction \(1-O(1/m)\) of the parent degree.
+7. **COMPUTED.** The squarefree ternary maximum first reaches five at \(D=12\). It is four at \(13,15\) and five at \(14,16\). The census is exhaustive through \(16\).
+8. **PROVED.** For \(m\ge16,\ q\ge27\), no specialization of the original packed VI.4 family gives a squarefree cluster, even after arbitrary common division.
+9. **PROVED.** Over \(\mathbb F_2[t]\), retaining all \(m\ge8\) rows of one Hadamard matrix while omitting any nonconstant column rules out a critical cluster.
+10. **COMPUTED.** The eight-row \(x,x^3\) profile is impossible at each common prime degree \(10,12,14,16\). Already its first Walsh core fails the derivative test.
+11. **HEURISTIC (status).** I could not decide squarefree ternary uniformity or unrestricted binary growth. The integer growth bound has not moved.
+12. **HEURISTIC (request).** Please referee the finite-zero separation in VII.1 first. I would next test whether cap-two clusters remain unbounded when primes occurring **once** must carry a fixed positive fraction of the parent degree.

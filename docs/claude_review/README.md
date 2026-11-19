@@ -243,6 +243,19 @@ whose blocks are bounded sums of units of a fixed field have essential exponent 
 (Subspace Theorem, fixed field and places; false for varying orders); and non-density of the ten-pair slice is
 equivalent to `A_5(delta)` for some `delta < 1/10`, so it is no shortcut. That sub-thread is closed.
 
+A seventh exchange on the open thread (`round31/README_VII.md`) asked whether bounded multiplicity or ramification
+rescues the uniform statement in odd characteristic. It does not: **for every `p = 3 mod 4`, clusters are unbounded
+on parents with every prime exponent at most two**, in the constant model and in a ramified model `eta^2 = Delta(t)`
+with inert infinity and a conjugation fixing the constants, at the rate `(1/2) log_2 p` (labels that are `p`-th
+powers, so the specialised root polynomial is squarefree; first four-point instance for `p = 3` at `D = 578,396`).
+The cap is met only thinly (98% of the parent's degree on squared primes at four points). **Exactly squarefree
+parents in odd characteristic stay open**: the Part VI pattern provably cannot be made squarefree, and the exhaustive
+table over `F_9(t)/F_3(t)` to `D = 19` has maximum 5 (first at `D = 12`), which equals the all-parent table for
+`D <= 13` and so is no evidence of boundedness. Over `F_2` incomplete single Hadamard profiles of order `>= 8` are
+excluded; the growth scale stays open. The filter becomes F3+++ (cap two and finite ramification are now
+admissible, hence insufficient). The judge's reading: the closed escape had no client among integer arguments, this
+is not evidence against the conjecture over `Z`, and the function-field programme should be closed.
+
 **Growth-rate status (2026-11-19, after round 31).** No growth improvement over `log R/loglog R` is proved
 unconditionally; conditionally only Vojta-type routes are known, and they give the uniform bound directly. The following are capped at `log R/loglog R` by
 refereed barrier theorems:

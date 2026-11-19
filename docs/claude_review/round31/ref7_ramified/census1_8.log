@@ -1,0 +1,18 @@
+D=1 Delta=102  M_all=2 (classes attaining, up to sign flips: 1) witnessN=100  M_sf=1 (attaining 4) witnessN=102
+D=2 Delta=102  M_all=3 (classes attaining, up to sign flips: 2) witnessN=10000  M_sf=2 (attaining 17) witnessN=10102
+D=3 Delta=102  M_all=2 (classes attaining, up to sign flips: 90) witnessN=1000102  M_sf=2 (attaining 47) witnessN=1000102
+D=4 Delta=102  M_all=4 (classes attaining, up to sign flips: 3) witnessN=102020200  M_sf=3 (attaining 10) witnessN=220000210
+D=5 Delta=102  M_all=3 (classes attaining, up to sign flips: 12) witnessN=10200100120  M_sf=3 (attaining 4) witnessN=10200100120
+D=6 Delta=102  M_all=4 (classes attaining, up to sign flips: 41) witnessN=1000000010200  M_sf=4 (attaining 15) witnessN=1001120200210
+D=7 Delta=102  M_all=3 (classes attaining, up to sign flips: 437) witnessN=100000001020000  M_sf=3 (attaining 105) witnessN=102000211110010
+D=8 Delta=102  M_all=4 (classes attaining, up to sign flips: 461) witnessN=10000010201000101  M_sf=4 (attaining 139) witnessN=10000010201000101
+D=9 Delta=102  M_all=4 (classes attaining, up to sign flips: 3) witnessN=2000000000201000200  M_sf=3 (attaining 2455) witnessN=1002021002100101110
+
+real	0m15.623s
+user	0m15.501s
+sys	0m0.007s
+D=10 Delta=102  M_all=4 (classes attaining, up to sign flips: 4153) witnessN=100000000000101020200  M_sf=4 (attaining 1308) witnessN=100000001020111010020
+
+real	2m37.871s
+user	2m36.853s
+sys	0m0.002s

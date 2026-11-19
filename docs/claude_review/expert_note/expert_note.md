@@ -720,12 +720,12 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      "balance does not separate real clusters from fakes" (true only for pairwise balance); the "real-algebraic
      obstruction" lead (it was linear algebra, Prop K1).
 
-12. **Round 31 (six exchanges with an outside colleague, "Astra"; 54 referee blocks and nine judge reports:
+12. **Round 31 (seven exchanges with an outside colleague, "Astra"; 60 referee blocks and ten judge reports:
    `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`,
-   `README_VL.md`, `README_VI.md`, `README_VIL.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
+   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
    (Part V, unit-twisted points) was repaired by the referee. **Nothing changes for the integer problem**: the
    growth rate, the uniform bound, Questions A and B and
-   route 5 keep their status (judges' scores on the goal: 2/10, 2/10, 1/10, 2/10, 1/10, 2/10, 1/10, 2/10, 2/10).
+   route 5 keep their status (judges' scores on the goal: 2/10, 2/10, 1/10, 2/10, 1/10, 2/10, 1/10, 2/10, 2/10, 1.5/10).
    The new theorems are in the function-field model (Parts IV, V and VI below): the uniform statement is true in
    characteristic 0, false over $\mathbb F_2(t)$ (also for squarefree parents) and false over $\mathbb F_3(t)$
    with the Gaussian form $A^2+B^2$. What is now in the record, all
@@ -943,7 +943,8 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
        columns the method gives only $k\log k$. Nonconstant $B$ beats Part V by a constant factor (8 points at
        point degree 68 against 104; 16 at 472; 32 at 2607). **The growth scale over $\mathbb F_2[t]$ is open**:
        $3M\log_2M-O(M)\le W(M)\le2M^2\log_2M$.
-     * *Filter F3++* (replaces F3+). Call an argument function-field valid if every step holds verbatim, with
+     * *Filter F3++* (replaces F3+; **extended to F3+++ in Part VII below**, which removes bounded multiplicity
+       and finite ramification from the "still available" list). Call an argument function-field valid if every step holds verbatim, with
        degree for logarithm and the inert degree-one place at infinity for the archimedean place, in either
        setting: (i) $\mathbb F_2[t]$ with the norm of $\mathbb F_4(t)/\mathbb F_2(t)$, for all $N$ or for
        squarefree $N$ only; (ii) $\mathbb F_p[t]$, $p\equiv3\ (4)$, with $A^2+B^2$, for all $N$. **No
@@ -964,7 +965,8 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
        isotriviality with $\mathbb Z[i]$ and is bounded; the failing step is identified and impossible in
        characteristic 0; and the ternary clusters live at $m\asymp\log W/\log\log W$ on square-full parents with
        growing residue fields. Do not write "false in positive characteristic", "false for sums of two squares
-       over function fields" (the model $A^2+tB^2$ is untested), or "the growth rate over $\mathbb F_q$ is
+       over function fields" (ramified models with inert infinity are unbounded at cap two, Part VII; the model
+       $A^2+tB^2$ with ramified infinity is computed at $m=3$ only), or "the growth rate over $\mathbb F_q$ is
        $\log W/\log\log W$" (only a lower bound).
    * ***Part VI, Question B thread: the ten-pair slice*** (`round31/README_VIL.md`; six referee blocks; nothing
      false). Recorded in §3: $A_4(\delta)$ is false for every $\delta<1/6$; the slice $(\ast)$ is equivalent to
@@ -972,6 +974,48 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      exponent $\ge4$ on a thin class, ineffective, false for varying orders); the cube-class cover has $\kappa=0$;
      the moving affine pencil is rigid. *Closed:* the $(\ast)$ sub-thread as a route to Question B. *Open, narrow:*
      resonant templates in one fixed quadratic order (numerical test first).
+   * ***Part VII: multiplicity two and ramified models*** (`round31/README_VII.md`; six referee blocks; nothing
+     false; judge's score on the goal 1.5/10).
+     * *Theorem VII.1* (**proved**; the separation step rechecked by the judge with negative controls). Let
+       $p\equiv3\ (4)$ and $\mathcal O=\mathbb F_p[t,\eta]$ with $\eta^2=-1$, or with $\eta^2=\Delta(t)$,
+       $\deg\Delta$ even and positive with nonsquare leading coefficient (infinity inert; finite ramification;
+       conjugation fixes the constants). Critical clusters on parents with **every prime exponent at most two** are
+       unbounded: $\liminf M^{(\le2)}(D)\,\log\log D/\log D\ge\frac12\log_2p$, with an $m$-point construction for
+       every $D\ge C_{p,\Delta}2^mn^2$. *Device:* labels that are $p$-th powers,
+       $V=\{\eta^pC^p\sum x_jt^{pj}\}$, so $dv=0$; $C$ divisible by $\Delta\prod_{j<k}(t^{q^j}-t)$ kills every
+       collision; $T=1+C^pt^s$ is $1$ on the collision set; hence $R=\prod_v(T-v)$ is squarefree and the norm
+       divides $R^2$. Exact width threshold (referee): $L_{\min}=\max(b+1,\ p\deg C+2,\ \lceil b(n-h)/(g-h)\rceil)$.
+       Instances for $p=3$: 4 marks at $D=578{,}396$ (constant model), fully expanded by two referees; ramified
+       $\Delta=2t^2+1$ at $D=619{,}801$.
+     * *Caveats.* The cap is reached in a thin sense: squared primes carry $0.98$ of $\deg N$ at $m=4$ and a
+       fraction tending to 1. $N$ is coprime to the ramified primes, so ramification plays no role in the
+       mechanism. With inert infinity the order is never a PID (class number even), unlike $\mathbb Z[i]$.
+       Ramified infinity ($A^2+tB^2$) is computed at $m=3$ only. $p\equiv1\ (4)$ is open.
+     * *Exactly squarefree $N$ in odd characteristic is open.* The Part VI pattern cannot be specialised to a
+       squarefree norm (**proved** for $m\ge16$, $q\ge27$; one family only). Exhaustive tables over
+       $\mathbb F_9(t)/\mathbb F_3(t)$: $M_3^{\rm sf}(D,0)=2,4,3,4,3,4,4,4,4,4,4,5,4,5,4,5$ for $D=1,\dots,16$ and
+       $4,5,4$ for $D=17,18,19$ (referee); the first five-point cluster for any parent is at $D=12$ and is
+       squarefree. The squarefree table equals the all-parent table for $D\le13$, and all-parent clusters are
+       unbounded only beyond $D\sim10^5$, so **the tables are no evidence of boundedness**.
+     * *Binary growth scale* (**proved**, block form, sharp at $m=8$, false at $m=4$): a single Hadamard profile
+       of order $m\ge8$ with all rows and a proper subset of the nonconstant columns never gives a critical
+       cluster. The scale $3M\log_2M-O(M)\le W(M)\le2M^2\log_2M$ is unchanged. The colleague's remark that the
+       Gram step is available over $\mathbb Z$ is withdrawn (off-diagonal entries are $\le4\log C$, not $\le0$).
+     * *Filter F3+++* (replaces F3++). Add to the settings of F3++: (iii) $\mathbb F_p[t]$, $p\equiv3\ (4)$, with
+       $A^2+B^2$ or with the order $\mathbb F_p[t,\eta]$, $\eta^2=\Delta$ as above, for $N$ with every prime
+       exponent at most 2. An argument valid in (ii) or (iii) cannot prove $M\le a\log W/\log\log W$ for any
+       $a<\frac12\log_2p$. Newly admissible, hence insufficient: bounded prime multiplicity (cap two) in odd
+       characteristic; finite ramification; a conjugation that is not a coefficient Frobenius. Still available
+       to a proof over $\mathbb Z$ (none known to suffice): characteristic 0 used essentially (Newton
+       linearisation, BMY, uniqueness of composition factors); archimedean order and curvature; Baker-type and
+       transcendence input; exactly squarefree $N$ in odd characteristic (**open**); $p\equiv1\ (4)$ (**open**);
+       ramification at infinity (not filtered).
+     * *Meaning for $\mathbb Z$* (judge). The closed escape had no client: every squarefree-specific step of the
+       record already holds over $\mathbb F_2[t]$ with squarefree $N$, where clusters are unbounded. Not evidence
+       against the conjecture, for the same reason as Parts V–VI. Do not write "unbounded for squarefree parents
+       in odd characteristic", "false for $A^2+tB^2$", or "the census suggests boundedness". **Judge's
+       recommendation: close the function-field programme** and return integer effort to characteristic-0 or
+       archimedean input.
    * *Withdrawn or corrected in the round:* a sentence on "different local obstructions" for the round-24 family
      (both forms are excluded at 2 and at 3); the coordinator's "weight $D/2$ is exactly the lattice minimum" (only
      a lower bound) and "every determinant is critical" (see Lemma K1 as now worded); the headline "17 points" of
@@ -1009,7 +1053,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
 | round 29: function-field model, Li–Liu template, residue-class twin, 18 screened ideas (no change) | `round29/README.md` (with `kill_*.md`) |
 | round 30: function-field model decided as far as internal work goes (rank open, line closed; no change) | `round30/README.md` (with `kill_*.md`) |
-| round 31: outside colleague, six refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, filters F3, F3+, F3++; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; no change for integers) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md` (with `ref*_*.md`, `langer_check.md`) |
+| round 31: outside colleague, seven refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; no change for integers) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md` (with `ref*_*.md`, `langer_check.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check

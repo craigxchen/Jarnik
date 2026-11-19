@@ -1,0 +1,9 @@
+degrees [12, 12, 12, 12, 12] monic [(1, 0), (1, 0), (1, 0), (1, 0), (1, 0)]
+norms equal: True
+N == t^24+t^20+2t^18+t^16+2t^10+2t^2+2: True
+gcd(N,N')= [1]
+DDF degrees: [(2, 4), (4, 20)]
+pair gap degrees [5, 5, 5, 6, 6, 6, 6, 6, 6, 6] max 6 floor(D/2)= 6 distinct True
+unit/conjugate coincidences: 0
+p=3: s=1..24: non-squarefree R with C=t: 16/24; with non-p-th-power labels: 7/24
+p=7: s=1..24: non-squarefree R with C=t: 12/24; with non-p-th-power labels: 6/24

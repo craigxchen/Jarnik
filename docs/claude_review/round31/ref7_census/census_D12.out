@@ -1,0 +1,7 @@
+D=12 heads=59049 canonical=5037 lows=4782969
+D=12 maxAll=5 maxSF=5
+ group-size counts (canonical heads, all parents): 3:833925 4:55100 5:3
+ group-size counts (canonical heads, squarefree): 3:409819 4:39055 5:2
+ WIT g=5 sf=0 N(high->low)=1020000020200020200000201 head(low->high)=040101 lows(base9 idx)=1089208,1109136,2861103,3038241,4258496,
+ WIT g=5 sf=1 N(high->low)=1002121010020212012021002 head(low->high)=317131 lows(base9 idx)=1558031,3073873,4290740,4480019,4648426,
+ WIT g=5 sf=1 N(high->low)=1201021110200002001121202 head(low->high)=540241 lows(base9 idx)=81089,1966930,3493417,3536017,3686458,

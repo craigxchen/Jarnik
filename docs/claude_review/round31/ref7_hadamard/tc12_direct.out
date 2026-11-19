@@ -1,0 +1,9 @@
+e=12 available primes=335  derivative bound deg H' <= 5  (b=2)
+direct: tested 515421285 four-sets
+admissible four-prime sets=319
+two-dimensional subspaces (lines)=34
+three-dimensional subspaces=0
+
+real	0m0.494s
+user	0m0.407s
+sys	0m0.004s

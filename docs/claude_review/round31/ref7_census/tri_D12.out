@@ -1,0 +1,3 @@
+D=12 K=6 group size 243 (3^(K-1)=243)
+D=12 best=5 triples=11218 completers=445260  witness U=85 V=6886 T=6887 G=109
+ count-distribution: 4:13902 5:144

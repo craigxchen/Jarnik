@@ -1,0 +1,19 @@
+degrees [12, 12, 12, 12, 12] monic [(1, 0), (1, 0), (1, 0), (1, 0), (1, 0)]
+norms equal: True
+N == t^24+t^20+2t^18+t^16+2t^10+2t^2+2: True
+gcd(N,N')= [1]
+DDF degrees: [(2, 4), (4, 20)]
+pair gap degrees [5, 5, 5, 6, 6, 6, 6, 6, 6, 6] max 6 floor(D/2)= 6 distinct True
+unit/conjugate coincidences: 0
+p=3 model=const L=11 s=2 control=False: deg R=105, gcd(R,R') deg=0, gcd(R,C) deg=0, R mod C =[1]
+p=3 model=const L=12 s=3 control=False: deg R=108, gcd(R,R') deg=0, gcd(R,C) deg=0, R mod C =[1]
+p=3 model=const L=13 s=4 control=False: deg R=117, gcd(R,R') deg=0, gcd(R,C) deg=0, R mod C =[1]
+p=3 model=const L=15 s=6 control=False: deg R=135, gcd(R,R') deg=0, gcd(R,C) deg=0, R mod C =[1]
+p=3 model=ram L=17 s=2 control=False: deg R=179, gcd(R,R') deg=0, gcd(R,C) deg=0, R mod C =[1]
+p=3 model=ram L=18 s=3 control=False: deg R=180, gcd(R,R') deg=0, gcd(R,C) deg=0, R mod C =[1]
+p=3 model=ram L=22 s=7 control=False: deg R=198, gcd(R,R') deg=0, gcd(R,C) deg=0, R mod C =[1]
+p=3 model=ram L=24 s=9 control=False: deg R=216, gcd(R,R') deg=0, gcd(R,C) deg=0, R mod C =[1]
+p=3 model=const L=11 s=2 control=True: deg R=92, gcd(R,R') deg=0, gcd(R,C) deg=0, R mod C =[1, 0, 1]
+p=7 model=const L=51 s=2 control=False: deg R=2709, gcd(R,R') deg=0, gcd(R,C) deg=0, R mod C =[1]
+p=7 model=const L=57 s=8 control=False: deg R=2793, gcd(R,R') deg=0, gcd(R,C) deg=0, R mod C =[1]
+p=7 model=const L=63 s=14 control=False: deg R=3087, gcd(R,R') deg=0, gcd(R,C) deg=0, R mod C =[1]

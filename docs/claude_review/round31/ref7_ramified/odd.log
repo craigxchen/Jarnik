@@ -1,0 +1,10 @@
+Delta 2 Delta | C: True
+4 973 {'g': 92, 'n': 729, 'L': 973, 'R_in_F3[t]': True, 'degR': 709317, 'gcd(R,C)': 0, 'equal_norms': True, 'degN0': 1239602, 'N0*Norm(G)==R^2': True, 'D2': [1239602], 'distinct': True, 'lead': [(1, 619801, 608232)], 'pairdiff': [307762, 307720, 307720, 307762, 307762, 307720], 'D': 619801.0, 'critical': True, 'modf_crosscheck': True, 'N0_max_exponent_direct': None, 'time': 17.0}
+Delta 01 Delta | C: True
+3 384 {'g': 183, 'n': 729, 'L': 384, 'R_in_F3[t]': True, 'degR': 279936, 'gcd(R,C)': 0, 'equal_norms': True, 'degN0': 419328, 'N0*Norm(G)==R^2': True, 'D2': [419328], 'distinct': True, 'lead': [(1, 209664, 205783)], 'pairdiff': [104890, 104848, 104890], 'D': 209664.0, 'critical': False, 'modf_crosscheck': True, 'N0_max_exponent_direct': None, 'time': 4.7}
+Delta 01 Delta | C: True
+3 385 {'g': 183, 'n': 729, 'L': 385, 'R_in_F3[t]': True, 'degR': 280665, 'gcd(R,C)': 0, 'equal_norms': True, 'degN0': 420420, 'N0*Norm(G)==R^2': True, 'D2': [420420], 'distinct': True, 'lead': [(1, 210210, 206316)], 'pairdiff': [105085, 105043, 105085], 'D': 210210.0, 'critical': True, 'modf_crosscheck': True, 'N0_max_exponent_direct': None, 'time': 4.9}
+Delta 0201 Delta | C: True
+3 392 {'g': 183, 'n': 729, 'L': 392, 'R_in_F3[t]': True, 'degR': 285768, 'gcd(R,C)': 0, 'equal_norms': True, 'degN0': 428064, 'N0*Norm(G)==R^2': True, 'D2': [428064], 'distinct': True, 'lead': [(1, 214032, 210085)], 'pairdiff': [107503, 107461, 107503], 'D': 214032.0, 'critical': False, 'modf_crosscheck': True, 'N0_max_exponent_direct': None, 'time': 5.0}
+Delta 0201 Delta | C: True
+3 391 {'g': 183, 'n': 729, 'L': 391, 'R_in_F3[t]': True, 'degR': 285039, 'gcd(R,C)': 0, 'equal_norms': True, 'degN0': 426972, 'N0*Norm(G)==R^2': True, 'D2': [426972], 'distinct': True, 'lead': [(1, 213486, 209552)], 'pairdiff': [107308, 107266, 107308], 'D': 213486.0, 'critical': False, 'modf_crosscheck': True, 'N0_max_exponent_direct': None, 'time': 4.9}

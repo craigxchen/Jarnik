@@ -1,0 +1,22 @@
+r=2 m=4 dmax=3 cols: 1 2  rows distinguished by sign pattern: yes  #polys=70
+  CLUSTER (disjoint): D0=4 g=0 D=4  f: [a=6 b=1] [a=4 b=1]
+  CLUSTER (disjoint): D0=4 g=0 D=4  f: [a=7 b=1] [a=4 b=1]
+  CLUSTER (disjoint): D0=5 g=1 D=4  f: [a=9 b=3] [a=4 b=1]
+  CLUSTER (disjoint): D0=5 g=1 D=4  f: [a=a b=3] [a=4 b=1]
+  CLUSTER (disjoint): D0=5 g=1 D=4  f: [a=c b=2] [a=4 b=1]
+  CLUSTER (disjoint): D0=5 g=1 D=4  f: [a=e b=2] [a=4 b=1]
+  assignments=4900  critical clusters: disjoint-support=96  shared-support=24
+r=2 m=4 dmax=3 cols: 1  rows distinguished by sign pattern: no  #polys=70
+  assignments=70  critical clusters: disjoint-support=0  shared-support=0
+r=2 m=4 dmax=3 cols: 1 2 3  rows distinguished by sign pattern: yes  #polys=70
+  CLUSTER (disjoint): D0=8 g=0 D=8  f: [a=d b=3] [a=9 b=2] [a=4 b=1]
+  CLUSTER (disjoint): D0=8 g=0 D=8  f: [a=e b=3] [a=9 b=2] [a=4 b=1]
+  CLUSTER (disjoint): D0=8 g=0 D=8  f: [a=d b=3] [a=b b=2] [a=4 b=1]
+  CLUSTER (disjoint): D0=8 g=0 D=8  f: [a=e b=3] [a=b b=2] [a=4 b=1]
+  CLUSTER (disjoint): D0=8 g=0 D=8  f: [a=9 b=2] [a=d b=3] [a=4 b=1]
+  CLUSTER (disjoint): D0=8 g=0 D=8  f: [a=b b=2] [a=d b=3] [a=4 b=1]
+  assignments=343000  critical clusters: disjoint-support=144  shared-support=144
+r=3 m=8 dmax=3 cols: 1 2 4  rows distinguished by sign pattern: yes  #polys=70
+  assignments=343000  critical clusters: disjoint-support=0  shared-support=0
+r=3 m=8 dmax=3 cols: 1 2 3  rows distinguished by sign pattern: no  #polys=70
+  assignments=343000  critical clusters: disjoint-support=0  shared-support=0

@@ -1,0 +1,13 @@
+test 0 m=49 degT=1 mixed=342/343 degG=63 degN=1148 sqfree=0 normsequal=1 NinFp=1 degsqpart=854
+test 1 m=45 degT=1 mixed=342/343 degG=49 degN=1176 sqfree=0 normsequal=1 NinFp=1 degsqpart=882
+test 2 m=54 degT=0 mixed=342/343 degG=14 degN=1232 sqfree=0 normsequal=1 NinFp=1 degsqpart=896
+test 3 m=11 degT=2 mixed=342/343 degG=119 degN=1134 sqfree=0 normsequal=1 NinFp=1 degsqpart=742
+test 4 m=32 degT=1 mixed=342/343 degG=70 degN=1134 sqfree=0 normsequal=1 NinFp=1 degsqpart=840
+test 5 m=32 degT=2 mixed=342/343 degG=140 degN=1092 sqfree=0 normsequal=1 NinFp=1 degsqpart=798
+test 6 m=57 degT=1 mixed=342/343 degG=49 degN=1176 sqfree=0 normsequal=1 NinFp=1 degsqpart=882
+test 7 m=20 degT=2 mixed=342/343 degG=161 degN=1050 sqfree=0 normsequal=1 NinFp=1 degsqpart=756
+test 8 m=45 degT=0 mixed=342/343 degG=14 degN=1232 sqfree=0 normsequal=1 NinFp=1 degsqpart=896
+test 9 m=25 degT=0 mixed=342/343 degG=49 degN=1162 sqfree=0 normsequal=1 NinFp=1 degsqpart=826
+test 10 m=10 degT=1 mixed=342/343 degG=168 degN=938 sqfree=0 normsequal=1 NinFp=1 degsqpart=644
+test 11 m=3 degT=0 mixed=216/343 degG=360 degN=540 sqfree=0 normsequal=1 NinFp=1 degsqpart=276
+SUMMARY q=7 k=3 tests=12 squarefree=0

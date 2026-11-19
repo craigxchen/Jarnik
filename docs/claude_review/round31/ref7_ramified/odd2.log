@@ -1,0 +1,4 @@
+Delta 0201 Delta | C: True
+3 398 {'g': 183, 'n': 729, 'L': 398, 'R_in_F3[t]': True, 'degR': 290142, 'gcd(R,C)': 0, 'equal_norms': True, 'degN0': 434616, 'N0*Norm(G)==R^2': True, 'D2': [434616], 'distinct': True, 'lead': [(1, 217308, 213283)], 'pairdiff': [108673, 108631, 108673], 'D': 217308.0, 'critical': False, 'modf_crosscheck': True, 'N0_max_exponent_direct': None, 'time': 5.2}
+Delta 0201 Delta | C: True
+3 399 {'g': 183, 'n': 729, 'L': 399, 'R_in_F3[t]': True, 'degR': 290871, 'gcd(R,C)': 0, 'equal_norms': True, 'degN0': 435708, 'N0*Norm(G)==R^2': True, 'D2': [435708], 'distinct': True, 'lead': [(1, 217854, 213816)], 'pairdiff': [108868, 108826, 108868], 'D': 217854.0, 'critical': True, 'modf_crosscheck': True, 'N0_max_exponent_direct': None, 'time': 5.0}

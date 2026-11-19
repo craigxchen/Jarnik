@@ -1,0 +1,11 @@
+q=p=7 k=2 n=49 h=7; b=56 L=469
+each T-v squarefree: True  pairwise coprime: True
+deg R = 22981  R in F_7[t]: True
+form (1, 0) : P_V(T) == A^7 - c^6 A : True  deg A(T) = 3283
+form (0, 1) : P_V(T) == A^7 - c^6 A : True  deg A(T) = 3283
+form (1, 1) : P_V(T) == A^7 - c^6 A : True  deg A(T) = 3283
+g = 13  D = 16884  equal degrees: True  one norm: True  norm in F_7[t]: True
+parent exponent histogram on the T-v: {0: 7, 1: 12, 2: 30}
+max deg(z_i-z_j) = 8211  D/2 = 8442.0  critical: True  slack D-2md = 462
+fraction of deg N on exponent-one primes: 0.16666666666666666
+padded by nonreal common G of degree 0 : D' = 16884  max diff = 8211  critical: True  exponent-one share of deg N' = 0.16666666666666666

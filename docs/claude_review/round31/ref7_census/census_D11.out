@@ -1,0 +1,6 @@
+D=11 heads=59049 canonical=5022 lows=531441
+D=11 maxAll=4 maxSF=4
+ group-size counts (canonical heads, all parents): 3:44151 4:56
+ group-size counts (canonical heads, squarefree): 3:23837 4:26
+ squarefree parents with a 4-cluster (all heads, orbit-expanded): 144
+ all parents with a 4-cluster (orbit-expanded): 288

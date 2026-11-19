@@ -1,0 +1,3 @@
+D=9 K=5 group size 81 (3^(K-1)=81)
+D=9 best=4 triples=600 completers=2040  witness U=109 V=993 T=1087 G=15
+ count-distribution: 4:60

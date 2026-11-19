@@ -1,0 +1,9 @@
+e=16 available primes=4080  derivative bound deg H' <= 7  (b=3)
+key: eligible sets re-verified by direct derivative; failures=0
+admissible four-prime sets=40546
+two-dimensional subspaces (lines)=1453
+three-dimensional subspaces=0
+
+real	0m17.342s
+user	0m16.390s
+sys	0m0.314s

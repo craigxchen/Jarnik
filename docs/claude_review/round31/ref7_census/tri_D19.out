@@ -1,0 +1,4 @@
+D=19 K=10 group size 19683 (3^(K-1)=19683)
+D=19 best=4 triples=20825118 completers=1073559000  witness U=741 V=4921723 T=5456308 G=157
+ count-distribution: 4:555090
+time 121s
