@@ -1,0 +1,30 @@
+LIB "elim.lib";
+option(redSB);
+ring rr=32003,(t,g0_1,h0_1,g1_1,g1_2,h1_1,h1_2,g2_1,h2_1,g3_1,g3_2,h3_1,h3_2,g4_1,h4_1),dp;
+ideal I;
+poly P=(t^1+g0_1*t^0)*(t^2+g1_1*t^1+g1_2*t^0)*(t^1+g2_1*t^0)-(t^1+h0_1*t^0)*(t^2+h1_1*t^1+h1_2*t^0)*(t^1+h2_1*t^0);
+
+matrix C=coeffs(P,t); for(int m=1;m<4;m++){ if (4-m+1>=1) { I=I+C[4-m+1,1]; } } kill C; kill P; kill m;
+poly P=(t^1+g0_1*t^0)*(t^2+g3_1*t^1+g3_2*t^0)*(t^1+g4_1*t^0)-(t^1+h0_1*t^0)*(t^2+h3_1*t^1+h3_2*t^0)*(t^1+h4_1*t^0);
+
+matrix C=coeffs(P,t); for(int m=1;m<4;m++){ if (4-m+1>=1) { I=I+C[4-m+1,1]; } } kill C; kill P; kill m;
+poly P=(t^2+g1_1*t^1+g1_2*t^0)*(t^2+g3_1*t^1+g3_2*t^0)-(t^2+h1_1*t^1+h1_2*t^0)*(t^2+h3_1*t^1+h3_2*t^0);
+
+matrix C=coeffs(P,t); for(int m=1;m<4;m++){ if (4-m+1>=1) { I=I+C[4-m+1,1]; } } kill C; kill P; kill m;
+I=I+(g0_1+h0_1+g1_1+h1_1+g2_1+h2_1+g3_1+h3_1+g4_1+h4_1);
+I=I+(resultant((t^1+g0_1*t^0),(t^1+h0_1*t^0),t)-1);
+I=I+(2202*g0_1+9326*h0_1+1034*g1_1+4180*g1_2+1932*h1_1+8118*h1_2+7365*g2_1+7738*h2_1+6220*g3_1+3440*g3_2+1538*h3_1+7994*h3_2+465*g4_1+6387*h4_1+7091);
+I=I+(9953*g0_1+35*h0_1+7298*g1_1+4364*g1_2+3749*h1_1+9686*h1_2+1675*g2_1+5201*h2_1+502*g3_1+366*g3_2+417*h3_1+8871*h3_2+151*g4_1+6246*h4_1+3549);
+I=I+(6916*g0_1+476*h0_1+8645*g1_1+3633*g1_2+7175*h1_1+8124*h1_2+9059*g2_1+3819*h2_1+5664*g3_1+3783*g3_2+3585*h3_1+7531*h3_2+4748*g4_1+353*h4_1+6819);
+ring r2=32003,(g0_1,h0_1,g1_1,g1_2,h1_1,h1_2,g2_1,h2_1,g3_1,g3_2,h3_1,h3_2,g4_1,h4_1),dp;
+ideal I=imap(rr,I);
+I=std(I);
+string s0="before: dim="+string(dim(I))+" vdim="+string(vdim(I));
+setring rr;
+list F=resultant((t^2+g1_1*t^1+g1_2*t^0),(t^2+h1_1*t^1+h1_2*t^0),t),resultant((t^1+g2_1*t^0),(t^1+h2_1*t^0),t),resultant((t^2+g3_1*t^1+g3_2*t^0),(t^2+h3_1*t^1+h3_2*t^0),t),resultant((t^1+g4_1*t^0),(t^1+h4_1*t^0),t),resultant((t^1+g0_1*t^0),(t^2+g1_1*t^1+g1_2*t^0),t),resultant((t^1+h0_1*t^0),(t^2+h1_1*t^1+h1_2*t^0),t),resultant((t^1+g0_1*t^0),(t^2+h1_1*t^1+h1_2*t^0),t),resultant((t^1+h0_1*t^0),(t^2+g1_1*t^1+g1_2*t^0),t),resultant((t^1+g0_1*t^0),(t^1+g2_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+h2_1*t^0),t),resultant((t^1+g0_1*t^0),(t^1+h2_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+g2_1*t^0),t),resultant((t^1+g0_1*t^0),(t^2+g3_1*t^1+g3_2*t^0),t),resultant((t^1+h0_1*t^0),(t^2+h3_1*t^1+h3_2*t^0),t),resultant((t^1+g0_1*t^0),(t^2+h3_1*t^1+h3_2*t^0),t),resultant((t^1+h0_1*t^0),(t^2+g3_1*t^1+g3_2*t^0),t),resultant((t^1+g0_1*t^0),(t^1+g4_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+h4_1*t^0),t),resultant((t^1+g0_1*t^0),(t^1+h4_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+g4_1*t^0),t),resultant((t^2+g1_1*t^1+g1_2*t^0),(t^1+g2_1*t^0),t),resultant((t^2+h1_1*t^1+h1_2*t^0),(t^1+h2_1*t^0),t),resultant((t^2+g1_1*t^1+g1_2*t^0),(t^1+h2_1*t^0),t),resultant((t^2+h1_1*t^1+h1_2*t^0),(t^1+g2_1*t^0),t),resultant((t^2+g1_1*t^1+g1_2*t^0),(t^2+g3_1*t^1+g3_2*t^0),t),resultant((t^2+h1_1*t^1+h1_2*t^0),(t^2+h3_1*t^1+h3_2*t^0),t),resultant((t^2+g1_1*t^1+g1_2*t^0),(t^2+h3_1*t^1+h3_2*t^0),t),resultant((t^2+h1_1*t^1+h1_2*t^0),(t^2+g3_1*t^1+g3_2*t^0),t),resultant((t^2+g1_1*t^1+g1_2*t^0),(t^1+g4_1*t^0),t),resultant((t^2+h1_1*t^1+h1_2*t^0),(t^1+h4_1*t^0),t),resultant((t^2+g1_1*t^1+g1_2*t^0),(t^1+h4_1*t^0),t),resultant((t^2+h1_1*t^1+h1_2*t^0),(t^1+g4_1*t^0),t),resultant((t^1+g2_1*t^0),(t^2+g3_1*t^1+g3_2*t^0),t),resultant((t^1+h2_1*t^0),(t^2+h3_1*t^1+h3_2*t^0),t),resultant((t^1+g2_1*t^0),(t^2+h3_1*t^1+h3_2*t^0),t),resultant((t^1+h2_1*t^0),(t^2+g3_1*t^1+g3_2*t^0),t),resultant((t^1+g2_1*t^0),(t^1+g4_1*t^0),t),resultant((t^1+h2_1*t^0),(t^1+h4_1*t^0),t),resultant((t^1+g2_1*t^0),(t^1+h4_1*t^0),t),resultant((t^1+h2_1*t^0),(t^1+g4_1*t^0),t),resultant((t^2+g3_1*t^1+g3_2*t^0),(t^1+g4_1*t^0),t),resultant((t^2+h3_1*t^1+h3_2*t^0),(t^1+h4_1*t^0),t),resultant((t^2+g3_1*t^1+g3_2*t^0),(t^1+h4_1*t^0),t),resultant((t^2+h3_1*t^1+h3_2*t^0),(t^1+g4_1*t^0),t),discriminant((t^2+g1_1*t^1+g1_2*t^0)),discriminant((t^2+h1_1*t^1+h1_2*t^0)),discriminant((t^2+g3_1*t^1+g3_2*t^0)),discriminant((t^2+h3_1*t^1+h3_2*t^0));
+setring r2;
+list F=imap(rr,F);
+int j;
+for(j=1;j<=size(F);j++){ if (deg(I[1])==0) {break;} I=sat(I,F[j]); I=std(I); }
+print(s0+"  after: dim="+string(dim(I))+" vdim="+string(vdim(I))+" one="+string(deg(I[1])==0));
+quit;

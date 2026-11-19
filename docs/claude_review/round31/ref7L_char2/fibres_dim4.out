@@ -1,0 +1,7 @@
+F_16 dim4a: domain points (x2,x3,x4,Y): 0; distinct images in T^4: 0; q^3 = 4096, q^4 = 65536
+
+real	0m0.062s
+user	0m0.057s
+sys	0m0.004s
+F_32 dim4a: domain points (x2,x3,x4,Y): 322560; distinct images in T^4: 322560; q^3 = 32768, q^4 = 1048576
+F_32 dim4b: domain points (x2,x3,x4,Y): 322560; distinct images in T^4: 322560; q^3 = 32768, q^4 = 1048576

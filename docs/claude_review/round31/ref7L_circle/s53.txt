@@ -1,0 +1,1 @@
+D=5 h>=3 part 0: codes tried 7693, solutions 0; max contact found None

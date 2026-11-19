@@ -1,4 +1,4 @@
-> **Round 31 has ten judge reports.** This file is the judge's report on the first pass (Part I). Later passes:
+> **Round 31 has eleven judge reports.** This file is the judge's report on the first pass (Part I). Later passes:
 > `README_II.md`, `README_III.md`, `README_IV.md` (open thread, Part IV: the orbifold-BMY inequality (IV.2), the
 > uniform bound in the function-field model, the characteristic-2 construction), `README_IVL.md` (Question B
 > thread, Part IV: the norm defect), `README_V.md` (open thread, Part V: unbounded clusters over the fixed field
@@ -8,9 +8,11 @@
 > Part VII: unbounded clusters with every prime exponent at most two, also in a ramified model; exactly squarefree
 > parents in odd characteristic open; filter F3+++) and `README_VIL.md` (Question B
 > thread, Part VI: the Subspace theorem on fixed-field unit-sum blocks; $A_4(\delta)$ false for $\delta<1/6$; the
-> ten-pair slice is equivalent to $A_5(\delta<1/10)$). Referee reports: `ref_*.md` (I), `ref2_*.md` (II),
+> ten-pair slice is equivalent to $A_5(\delta<1/10)$); `README_VIIL.md` (Question B thread, Part VII: five marks
+> over a characteristic-0 function field; the sparse theorem; dense polynomial Pell families; the unrestricted
+> question open). Referee reports: `ref_*.md` (I), `ref2_*.md` (II),
 > `ref3_*.md` (III), `ref4_*.md` and `ref4L_*.md` (IV), `ref5_*.md` and `ref5L_*.md` (V), `ref6_*.md` and
-> `ref6L_*.md` (VI), `ref7_*.md` (VII, open thread). `langer_check.md` records the check of Langer's Theorem 0.1 in the original. The
+> `ref6L_*.md` (VI), `ref7_*.md` and `ref7L_*.md` (VII). `langer_check.md` records the check of Langer's Theorem 0.1 in the original. The
 > coordinator's messages are `astra_brief.txt`, `astra_*/reply*.txt` and `astra_*_reply4.txt`; the colleague's
 > cumulative reports are `astra_free_VI/answer.md` and `astra_lemma_VI/answer.md` (Parts I-VI).
 

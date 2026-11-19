@@ -343,6 +343,24 @@ $\delta$ has McKinnon–Roth exponent $\gamma=4/(1+2\delta)$, and:
   Zariski-densely). The same holds over $\mathbb F_9(t)/\mathbb F_3(t)$ with $A^2+B^2$ (Part VI; every
   5-subtuple of the ternary clusters is balanced, by Weil; the Schwartz–Zippel step was not rechecked in
   characteristic 3). The number-field statements are untouched, but no proof of them can be characteristic-free.
+* *Characteristic-0 function field (round 31, Part VII of the Question B thread; `round31/README_VIIL.md`).* The
+  analogue of $A_5(\delta)$ over $\mathbb C(t)$ (five distinct primitive $z_i\in\mathbb C[t]$ of degree $D$ with
+  one norm $z\bar z$, contact $h=D-\max\deg(z_i-z_j)\ge(\frac12+\delta)D$; is the ratio curve in one proper closed
+  subset of $T_5$, uniformly in $D$?) is **open**. *Proved:* (i) it holds for every $\delta>0$ on ratios that are
+  quotients of Laurent polynomials with at most $b$ monomials, with one ineffective $\mathbb Q$-closed
+  $Z_{b,\varepsilon}$ for all degrees, coefficients, exponents and cancelled common factors (threshold
+  $h\ge(\frac14+\varepsilon)W$ in the height $W=2D$; the constant $\frac14$ is optimal as $b\to\infty$); (ii)
+  $20h\le9D+18r$, where $2r$ roots of $N$ lie off a circle with real centre (false for lines; no integer analogue);
+  (iii) at $2h>D$ every four marks are linearly independent; (iv) a finite-type family dominating $T_5$ has
+  $4h+1\le\#\{\text{charged places}\}\le W$ (characteristic 0 only: false over $\mathbb F_4(t)/\mathbb F_2(t)$,
+  where $W=30$, $h=8$ dominates and the sparse statement fails with a uniform term budget). *Dense families:*
+  polynomial Pell families ($A=\begin{pmatrix}t^2+1&t\\t&1\end{pmatrix}$) give five marks with $D=8n+1$, $h=4n$,
+  i.e. $W=4h+2$, one unit short of (iv) and half a degree below the threshold; four marks with $D=6n+1$, $h=4n$;
+  three marks with $h=2D/3$. *Data (referee):* rigid real five-mark configurations with $h=(D+1)/2$ exist at
+  $D=11,13$ (numerical, 40 digits, not interval-certified), so the strict inequality is not vacuous; none at
+  $D=7$, $h=4$ (exact). Published function-field tools (Mason–Stothers, Brownawell–Masser, Corvaja–Zannier,
+  Guo–Nguyen–Sun–Wang) pay $\chi_S\asymp W$ and are vacuous here. The question is an open function-field Vojta
+  instance of the same generic complexity as Question B; it is **not** a stepping stone.
 * *The ten-pair slice $(\ast)$ is not a shortcut.* $(\ast)$: are genuine primitive 5-tuples on the ten-pair-cut
   profile at the Cilleruelo–Córdoba endpoint $\alpha=10/3$ (five lattice points on an arc of length
   $R^{2/5+o(1)}$) Zariski dense in $T_5$? **Open.** Non-density in $(\ast)$ is **equivalent** to $A_5(\delta)$ for
@@ -703,8 +721,8 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
    * *The one new tool: the saturated balance lemma* (`round30/search.md` Lemma 1.1 = `prove.md` Lemma 1.2;
      proved twice). Every nonzero integer vector $a$ in the real solution space of the moment equations has
      $\|a\|_1\ge L+1$ and $\min(a^+,a^-)\ge L/2$. It kills the round-29 function-field fakes, and an exhaustive
-     search with it gives $M(7,0)\le5$, $M(8,0)=8$, $M(9,0)\le5$ (**judge's computation**; $M(7,0)$ and $M(9,0)$
-     remain unrefereed). It does not bound the rank by itself: 21 classes of 6-point rank-5 codes survive it at
+     search with it gives $M(7,0)\le5$, $M(8,0)=8$, $M(9,0)\le5$ (**judge's computation**; $M(9,0)$ remains
+     unrefereed; $M(7,0)=4$ exactly by round 31, Part VII, `round31/ref7L_search.md`). It does not bound the rank by itself: 21 classes of 6-point rank-5 codes survive it at
      $D=8$. *Round 31 (refereed, `round31/ref_ff.md`):* all 21 classes are excluded by non-linear certificates, so
      at $D=8$ the rank is $\le4$ and $M(8,0)=8$ with a unique extremal (cube) code, for squarefree $N$ over
      $\mathbb C(t)$; there are at most 12 constant-offset divisors up to sign, attained only by the cube
@@ -720,12 +738,12 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      "balance does not separate real clusters from fakes" (true only for pairwise balance); the "real-algebraic
      obstruction" lead (it was linear algebra, Prop K1).
 
-12. **Round 31 (seven exchanges with an outside colleague, "Astra"; 60 referee blocks and ten judge reports:
+12. **Round 31 (seven exchanges with an outside colleague, "Astra"; 67 referee blocks and eleven judge reports:
    `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`,
-   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
+   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
    (Part V, unit-twisted points) was repaired by the referee. **Nothing changes for the integer problem**: the
    growth rate, the uniform bound, Questions A and B and
-   route 5 keep their status (judges' scores on the goal: 2/10, 2/10, 1/10, 2/10, 1/10, 2/10, 1/10, 2/10, 2/10, 1.5/10).
+   route 5 keep their status (judges' scores on the goal: 2/10, 2/10, 1/10, 2/10, 1/10, 2/10, 1/10, 2/10, 2/10, 1.5/10, 1.5/10).
    The new theorems are in the function-field model (Parts IV, V and VI below): the uniform statement is true in
    characteristic 0, false over $\mathbb F_2(t)$ (also for squarefree parents) and false over $\mathbb F_3(t)$
    with the Gaussian form $A^2+B^2$. What is now in the record, all
@@ -1016,6 +1034,20 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
        in odd characteristic", "false for $A^2+tB^2$", or "the census suggests boundedness". **Judge's
        recommendation: close the function-field programme** and return integer effort to characteristic-0 or
        archimedean input.
+   * ***Part VII, Question B thread: five marks over $\mathbb C(t)$*** (`round31/README_VIIL.md`; seven referee
+     blocks; nothing false; judge's score on the goal 1.5/10). Recorded in §3: the characteristic-0 function-field
+     analogue of $A_5(\delta)$ is **open**; it is a theorem on $b$-sparse presentations (the colleague's Theorem
+     VII.2: a moving-coefficient gcd estimate, Dirichlet plus a weight-homogeneous resultant, a special case of
+     Guo–Sun–Wang, then one exponent vector and the frozen-support family, which must have **exact** supports);
+     the circle bound $20h\le9D+18r$; dense polynomial Pell families at $W=4h+2$ for five marks (reproduced by the
+     judge with exact arithmetic; $h=4n$ for **every** choice of distinct seeds, a correction); failure in
+     characteristic 2 with a uniform term budget (rank corrected from "$\le1$" to 2, still $<4$). Referee
+     additions: $H_5(7)=3$, hence $M(7,0)=4$ **exactly** (Gröbner bases over $\mathbb Q$); rigid five-mark
+     configurations with $2h>D$ at $D=11,13$ (numerical); the remark that "arbitrary complex coefficients" are
+     height-0 constants, so VII.2 is not Diophantinely stronger than Part VI.1. The referees and the judge also
+     draw an integer consequence from the Pell families, recorded in §3 with its verification. *Closed* (judge's
+     recommendation): this thread as internal work; the unrestricted question is one for function-field Vojta
+     specialists.
    * *Withdrawn or corrected in the round:* a sentence on "different local obstructions" for the round-24 family
      (both forms are excluded at 2 and at 3); the coordinator's "weight $D/2$ is exactly the lattice minimum" (only
      a lower bound) and "every determinant is critical" (see Lemma K1 as now worded); the headline "17 points" of
@@ -1053,7 +1085,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
 | round 29: function-field model, Li–Liu template, residue-class twin, 18 screened ideas (no change) | `round29/README.md` (with `kill_*.md`) |
 | round 30: function-field model decided as far as internal work goes (rank open, line closed; no change) | `round30/README.md` (with `kill_*.md`) |
-| round 31: outside colleague, seven refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; no change for integers) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md` (with `ref*_*.md`, `langer_check.md`) |
+| round 31: outside colleague, seven refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; no change for integers) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md` (with `ref*_*.md`, `langer_check.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check

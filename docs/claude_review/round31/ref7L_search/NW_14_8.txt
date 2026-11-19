@@ -1,0 +1,8 @@
+14 8 0 nondeg 0 degenerate 109 nonconv 191 best sep None
+14 8 1 nondeg 0 degenerate 108 nonconv 192 best sep None
+14 8 2 nondeg 0 degenerate 97 nonconv 203 best sep None
+14 8 3 nondeg 0 degenerate 90 nonconv 210 best sep None
+14 8 4 nondeg 0 degenerate 100 nonconv 200 best sep None
+14 8 5 nondeg 0 degenerate 102 nonconv 198 best sep None
+14 8 6 nondeg 0 degenerate 112 nonconv 188 best sep None
+14 8 7 nondeg 0 degenerate 71 nonconv 229 best sep None

@@ -1,0 +1,16 @@
+VII.6 n=(1, 2, 3, 5): L=6 B=5 raw deg=90 gcd deg=12 D=78 max diff(raw)=70 h=20 h/D=0.2564 (target 8/15=0.5333); deg gcd(z,conj z)=[18, 20, 14, 14, 16]; monomials per mark=[60, 50, 58, 53, 55]
+      her bound 8L-16B = -32, referee bound 8L-8B = 8, D<=15L=90
+VII.6 n=(1, 2, 3, 5): L=20 B=5 raw deg=300 gcd deg=9 D=291 max diff(raw)=168 h=132 h/D=0.4536 (target 8/15=0.5333); deg gcd(z,conj z)=[10, 12, 10, 6, 12]; monomials per mark=[120, 125, 122, 131, 122]
+      her bound 8L-16B = 80, referee bound 8L-8B = 120, D<=15L=300
+VII.6 n=(2, 3, 5, 7): L=40 B=7 raw deg=600 gcd deg=11 D=589 max diff(raw)=321 h=279 h/D=0.4737 (target 8/15=0.5333); deg gcd(z,conj z)=[22, 14, 6, 14, 22]; monomials per mark=[178, 213, 200, 217, 165]
+      her bound 8L-16B = 208, referee bound 8L-8B = 264, D<=15L=600
+VII.6 n=(1, 4, 6, 9): L=60 B=9 raw deg=900 gcd deg=15 D=885 max diff(raw)=472 h=428 h/D=0.4836 (target 8/15=0.5333); deg gcd(z,conj z)=[18, 24, 20, 28, 24]; monomials per mark=[247, 275, 258, 263, 227]
+      her bound 8L-16B = 336, referee bound 8L-8B = 408, D<=15L=900
+dim4 n=(1, 2, 3): L=6 B=3 raw deg=42 gcd deg=4 D=38 max diff(raw)=26 h=16 h/D=0.4211 (target 4/7=0.5714); deg gcd(z,conj z)=[4, 4, 4, 4, 4]; monomials per mark=[25, 23, 23, 29, 24]
+      bound 4L-4B = 12, D<=7L=42
+dim4 n=(1, 2, 3): L=30 B=3 raw deg=210 gcd deg=4 D=206 max diff(raw)=98 h=112 h/D=0.5437 (target 4/7=0.5714); deg gcd(z,conj z)=[4, 4, 4, 4, 4]; monomials per mark=[42, 40, 43, 48, 52]
+      bound 4L-4B = 108, D<=7L=210
+dim4 n=(2, 5, 7): L=80 B=7 raw deg=560 gcd deg=1 D=559 max diff(raw)=259 h=301 h/D=0.5385 (target 4/7=0.5714); deg gcd(z,conj z)=[2, 2, 2, 0, 2]; monomials per mark=[62, 71, 72, 81, 79]
+      bound 4L-4B = 292, D<=7L=560
+dim4 n=(3, 4, 11): L=200 B=11 raw deg=1400 gcd deg=6 D=1394 max diff(raw)=626 h=774 h/D=0.5552 (target 4/7=0.5714); deg gcd(z,conj z)=[8, 2, 8, 2, 8]; monomials per mark=[65, 76, 73, 84, 97]
+      bound 4L-4B = 756, D<=7L=1400

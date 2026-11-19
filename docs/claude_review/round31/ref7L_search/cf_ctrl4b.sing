@@ -1,0 +1,30 @@
+LIB "elim.lib";
+option(redSB);
+ring rr=32003,(t,g0_1,h0_1,g1_1,h1_1,g2_1,h2_1,g3_1,h3_1,g4_1,h4_1,g5_1,h5_1,g6_1,h6_1),dp;
+ideal I;
+poly P=(t^1+g0_1*t^0)*(t^1+g3_1*t^0)*(t^1+g4_1*t^0)*(t^1+g6_1*t^0)-(t^1+h0_1*t^0)*(t^1+h3_1*t^0)*(t^1+h4_1*t^0)*(t^1+h6_1*t^0);
+
+matrix C=coeffs(P,t); for(int m=1;m<4;m++){ if (4-m+1>=1) { I=I+C[4-m+1,1]; } } kill C; kill P; kill m;
+poly P=(t^1+g1_1*t^0)*(t^1+g3_1*t^0)*(t^1+g5_1*t^0)*(t^1+g6_1*t^0)-(t^1+h1_1*t^0)*(t^1+h3_1*t^0)*(t^1+h5_1*t^0)*(t^1+h6_1*t^0);
+
+matrix C=coeffs(P,t); for(int m=1;m<4;m++){ if (4-m+1>=1) { I=I+C[4-m+1,1]; } } kill C; kill P; kill m;
+poly P=(t^1+g2_1*t^0)*(t^1+g4_1*t^0)*(t^1+g5_1*t^0)*(t^1+g6_1*t^0)-(t^1+h2_1*t^0)*(t^1+h4_1*t^0)*(t^1+h5_1*t^0)*(t^1+h6_1*t^0);
+
+matrix C=coeffs(P,t); for(int m=1;m<4;m++){ if (4-m+1>=1) { I=I+C[4-m+1,1]; } } kill C; kill P; kill m;
+I=I+(g0_1+h0_1+g1_1+h1_1+g2_1+h2_1+g3_1+h3_1+g4_1+h4_1+g5_1+h5_1+g6_1+h6_1);
+I=I+(resultant((t^1+g0_1*t^0),(t^1+h0_1*t^0),t)-1);
+I=I+(2202*g0_1+9326*h0_1+1034*g1_1+4180*h1_1+1932*g2_1+8118*h2_1+7365*g3_1+7738*h3_1+6220*g4_1+3440*h4_1+1538*g5_1+7994*h5_1+465*g6_1+6387*h6_1+7091);
+I=I+(9953*g0_1+35*h0_1+7298*g1_1+4364*h1_1+3749*g2_1+9686*h2_1+1675*g3_1+5201*h3_1+502*g4_1+366*h4_1+417*g5_1+8871*h5_1+151*g6_1+6246*h6_1+3549);
+I=I+(6916*g0_1+476*h0_1+8645*g1_1+3633*h1_1+7175*g2_1+8124*h2_1+9059*g3_1+3819*h3_1+5664*g4_1+3783*h4_1+3585*g5_1+7531*h5_1+4748*g6_1+353*h6_1+6819);
+ring r2=32003,(g0_1,h0_1,g1_1,h1_1,g2_1,h2_1,g3_1,h3_1,g4_1,h4_1,g5_1,h5_1,g6_1,h6_1),dp;
+ideal I=imap(rr,I);
+I=std(I);
+string s0="before: dim="+string(dim(I))+" vdim="+string(vdim(I));
+setring rr;
+list F=resultant((t^1+g1_1*t^0),(t^1+h1_1*t^0),t),resultant((t^1+g2_1*t^0),(t^1+h2_1*t^0),t),resultant((t^1+g3_1*t^0),(t^1+h3_1*t^0),t),resultant((t^1+g4_1*t^0),(t^1+h4_1*t^0),t),resultant((t^1+g5_1*t^0),(t^1+h5_1*t^0),t),resultant((t^1+g6_1*t^0),(t^1+h6_1*t^0),t),resultant((t^1+g0_1*t^0),(t^1+g1_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+h1_1*t^0),t),resultant((t^1+g0_1*t^0),(t^1+h1_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+g1_1*t^0),t),resultant((t^1+g0_1*t^0),(t^1+g2_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+h2_1*t^0),t),resultant((t^1+g0_1*t^0),(t^1+h2_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+g2_1*t^0),t),resultant((t^1+g0_1*t^0),(t^1+g3_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+h3_1*t^0),t),resultant((t^1+g0_1*t^0),(t^1+h3_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+g3_1*t^0),t),resultant((t^1+g0_1*t^0),(t^1+g4_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+h4_1*t^0),t),resultant((t^1+g0_1*t^0),(t^1+h4_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+g4_1*t^0),t),resultant((t^1+g0_1*t^0),(t^1+g5_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+h5_1*t^0),t),resultant((t^1+g0_1*t^0),(t^1+h5_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+g5_1*t^0),t),resultant((t^1+g0_1*t^0),(t^1+g6_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+h6_1*t^0),t),resultant((t^1+g0_1*t^0),(t^1+h6_1*t^0),t),resultant((t^1+h0_1*t^0),(t^1+g6_1*t^0),t),resultant((t^1+g1_1*t^0),(t^1+g2_1*t^0),t),resultant((t^1+h1_1*t^0),(t^1+h2_1*t^0),t),resultant((t^1+g1_1*t^0),(t^1+h2_1*t^0),t),resultant((t^1+h1_1*t^0),(t^1+g2_1*t^0),t),resultant((t^1+g1_1*t^0),(t^1+g3_1*t^0),t),resultant((t^1+h1_1*t^0),(t^1+h3_1*t^0),t),resultant((t^1+g1_1*t^0),(t^1+h3_1*t^0),t),resultant((t^1+h1_1*t^0),(t^1+g3_1*t^0),t),resultant((t^1+g1_1*t^0),(t^1+g4_1*t^0),t),resultant((t^1+h1_1*t^0),(t^1+h4_1*t^0),t),resultant((t^1+g1_1*t^0),(t^1+h4_1*t^0),t),resultant((t^1+h1_1*t^0),(t^1+g4_1*t^0),t),resultant((t^1+g1_1*t^0),(t^1+g5_1*t^0),t),resultant((t^1+h1_1*t^0),(t^1+h5_1*t^0),t),resultant((t^1+g1_1*t^0),(t^1+h5_1*t^0),t),resultant((t^1+h1_1*t^0),(t^1+g5_1*t^0),t),resultant((t^1+g1_1*t^0),(t^1+g6_1*t^0),t),resultant((t^1+h1_1*t^0),(t^1+h6_1*t^0),t),resultant((t^1+g1_1*t^0),(t^1+h6_1*t^0),t),resultant((t^1+h1_1*t^0),(t^1+g6_1*t^0),t),resultant((t^1+g2_1*t^0),(t^1+g3_1*t^0),t),resultant((t^1+h2_1*t^0),(t^1+h3_1*t^0),t),resultant((t^1+g2_1*t^0),(t^1+h3_1*t^0),t),resultant((t^1+h2_1*t^0),(t^1+g3_1*t^0),t),resultant((t^1+g2_1*t^0),(t^1+g4_1*t^0),t),resultant((t^1+h2_1*t^0),(t^1+h4_1*t^0),t),resultant((t^1+g2_1*t^0),(t^1+h4_1*t^0),t),resultant((t^1+h2_1*t^0),(t^1+g4_1*t^0),t),resultant((t^1+g2_1*t^0),(t^1+g5_1*t^0),t),resultant((t^1+h2_1*t^0),(t^1+h5_1*t^0),t),resultant((t^1+g2_1*t^0),(t^1+h5_1*t^0),t),resultant((t^1+h2_1*t^0),(t^1+g5_1*t^0),t),resultant((t^1+g2_1*t^0),(t^1+g6_1*t^0),t),resultant((t^1+h2_1*t^0),(t^1+h6_1*t^0),t),resultant((t^1+g2_1*t^0),(t^1+h6_1*t^0),t),resultant((t^1+h2_1*t^0),(t^1+g6_1*t^0),t),resultant((t^1+g3_1*t^0),(t^1+g4_1*t^0),t),resultant((t^1+h3_1*t^0),(t^1+h4_1*t^0),t),resultant((t^1+g3_1*t^0),(t^1+h4_1*t^0),t),resultant((t^1+h3_1*t^0),(t^1+g4_1*t^0),t),resultant((t^1+g3_1*t^0),(t^1+g5_1*t^0),t),resultant((t^1+h3_1*t^0),(t^1+h5_1*t^0),t),resultant((t^1+g3_1*t^0),(t^1+h5_1*t^0),t),resultant((t^1+h3_1*t^0),(t^1+g5_1*t^0),t),resultant((t^1+g3_1*t^0),(t^1+g6_1*t^0),t),resultant((t^1+h3_1*t^0),(t^1+h6_1*t^0),t),resultant((t^1+g3_1*t^0),(t^1+h6_1*t^0),t),resultant((t^1+h3_1*t^0),(t^1+g6_1*t^0),t),resultant((t^1+g4_1*t^0),(t^1+g5_1*t^0),t),resultant((t^1+h4_1*t^0),(t^1+h5_1*t^0),t),resultant((t^1+g4_1*t^0),(t^1+h5_1*t^0),t),resultant((t^1+h4_1*t^0),(t^1+g5_1*t^0),t),resultant((t^1+g4_1*t^0),(t^1+g6_1*t^0),t),resultant((t^1+h4_1*t^0),(t^1+h6_1*t^0),t),resultant((t^1+g4_1*t^0),(t^1+h6_1*t^0),t),resultant((t^1+h4_1*t^0),(t^1+g6_1*t^0),t),resultant((t^1+g5_1*t^0),(t^1+g6_1*t^0),t),resultant((t^1+h5_1*t^0),(t^1+h6_1*t^0),t),resultant((t^1+g5_1*t^0),(t^1+h6_1*t^0),t),resultant((t^1+h5_1*t^0),(t^1+g6_1*t^0),t);
+setring r2;
+list F=imap(rr,F);
+int j;
+for(j=1;j<=size(F);j++){ if (deg(I[1])==0) {break;} I=sat(I,F[j]); I=std(I); }
+print(s0+"  after: dim="+string(dim(I))+" vdim="+string(vdim(I))+" one="+string(deg(I[1])==0));
+quit;

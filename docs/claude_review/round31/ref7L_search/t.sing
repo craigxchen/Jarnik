@@ -1,0 +1,7 @@
+LIB "elim.lib";
+ring r=0,(x,y),dp;
+ideal I = x*y, x2;
+def S = sat(I, x);
+S;
+typeof(S);
+quit;

@@ -1,0 +1,20 @@
+poly n=1 (D,deg gcd,h)= (9, 0, 4) expected (9, 0, 4)
+poly n=2 (D,deg gcd,h)= (17, 0, 8) expected (17, 0, 8)
+poly n=3 (D,deg gcd,h)= (25, 0, 12) expected (25, 0, 12)
+n=1 T=10 N(gcd)=4160 log10H=15.6 logDelta/logH=-0.1905  target -h/(2D)=-0.2222
+n=1 T=100 N(gcd)=160 log10H=33.9 logDelta/logH=-0.1996  target -h/(2D)=-0.2222
+n=1 T=1000 N(gcd)=160 log10H=51.8 logDelta/logH=-0.2074  target -h/(2D)=-0.2222
+n=1 T=10000 N(gcd)=2080 log10H=68.7 logDelta/logH=-0.2147  target -h/(2D)=-0.2222
+n=2 T=10 N(gcd)=4160 log10H=31.7 logDelta/logH=-0.2207  target -h/(2D)=-0.2353
+n=2 T=100 N(gcd)=160 log10H=65.9 logDelta/logH=-0.2241  target -h/(2D)=-0.2353
+n=2 T=1000 N(gcd)=160 log10H=99.8 logDelta/logH=-0.2279  target -h/(2D)=-0.2353
+n=2 T=10000 N(gcd)=2080 log10H=132.7 logDelta/logH=-0.2317  target -h/(2D)=-0.2353
+n=3 T=10 N(gcd)=4160 log10H=47.8 logDelta/logH=-0.2305  target -h/(2D)=-0.2400
+n=3 T=100 N(gcd)=160 log10H=97.9 logDelta/logH=-0.2326  target -h/(2D)=-0.2400
+n=3 T=1000 N(gcd)=160 log10H=147.8 logDelta/logH=-0.2351  target -h/(2D)=-0.2400
+n=3 T=10000 N(gcd)=2080 log10H=196.7 logDelta/logH=-0.2377  target -h/(2D)=-0.2400
+n 1 T 3 singular values of d(args)/d(seeds): [0.01908392 0.00663822 0.00332233 0.00117656]
+n 1 T 7 singular values of d(args)/d(seeds): [0.00109524 0.00051501 0.00030344 0.00012997]
+n 2 T 3 singular values of d(args)/d(seeds): [1.60384809e-04 5.57954659e-05 2.79273959e-05 9.89121210e-06]
+n 2 T 7 singular values of d(args)/d(seeds): [4.21443798e-07 1.98188521e-07 1.16771143e-07 4.99473949e-08]
+4 marks rank check: [0.01592652 0.00608872 0.00326056]

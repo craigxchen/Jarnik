@@ -1,0 +1,10 @@
+15 8 3 REAL nondeg 0 degenerate 33 nonconv 267 best sep None
+15 8 16 REAL nondeg 0 degenerate 34 nonconv 266 best sep None
+15 8 33 REAL nondeg 0 degenerate 32 nonconv 268 best sep None
+15 8 38 REAL nondeg 0 degenerate 34 nonconv 266 best sep None
+15 8 49 REAL nondeg 0 degenerate 24 nonconv 276 best sep None
+15 8 59 REAL nondeg 0 degenerate 26 nonconv 274 best sep None
+15 8 60 REAL nondeg 0 degenerate 30 nonconv 270 best sep None
+15 8 66 REAL nondeg 0 degenerate 15 nonconv 285 best sep None
+15 8 94 REAL nondeg 0 degenerate 23 nonconv 277 best sep None
+15 8 101 REAL nondeg 0 degenerate 33 nonconv 267 best sep None

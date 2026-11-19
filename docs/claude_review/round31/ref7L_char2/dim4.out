@@ -1,0 +1,3 @@
+selection a: Y-exponents [0, 1, 3, 7]; max deg_Y(F_i-F_j) = 3 vs 7; projective Jacobian rank at random points: [2, 2, 2, 2]
+selection b: Y-exponents [0, 1, 3, 7]; max deg_Y(F_i-F_j) = 3 vs 7; projective Jacobian rank at random points: [2, 2, 2, 2]
+selection all8: Y-exponents [0, 1, 3, 7]; max deg_Y(F_i-F_j) = 3 vs 7; projective Jacobian rank at random points: [2, 2, 2, 2]

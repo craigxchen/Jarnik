@@ -1,0 +1,7 @@
+F_32 sel=a: domain 322560, distinct images 322560, ratio images/q^3 = 9.84, images/q^4 = 0.308
+F_64 sel=a: domain 9999360, distinct images 9999360, ratio images/q^3 = 38.14, images/q^4 = 0.596
+F_64 sel=b: domain 9999360, distinct images 9999360, ratio images/q^3 = 38.14, images/q^4 = 0.596
+
+real	0m25.584s
+user	0m24.096s
+sys	0m1.421s

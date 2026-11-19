@@ -1,0 +1,1 @@
+D=6 h>=3 part 1: codes tried 15224, solutions 0; max contact found None

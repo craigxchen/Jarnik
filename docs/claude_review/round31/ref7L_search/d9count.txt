@@ -1,0 +1,12 @@
+0 16 distinct so far 15
+1 30 distinct so far 42
+2 26 distinct so far 66
+3 22 distinct so far 84
+4 20 distinct so far 101
+5 24 distinct so far 121
+6 20 distinct so far 137
+7 23 distinct so far 154
+8 19 distinct so far 172
+9 27 distinct so far 188
+10 24 distinct so far 200
+11 27 distinct so far 218

@@ -1,0 +1,14 @@
+I could not decide unrestricted characteristic-zero \(A_5(\delta)\) for any \(0<\delta<1/10\). The main partial result gives one exceptional set across all degrees for ratios with bounded-term presentations, even when the parent primes move and the original common factors are arbitrarily large. [Part VII of answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/answer.md:1565)
+
+1. **PROVED.** For every fixed \(b,\delta>0\), one proper constant closed set contains all qualifying curves whose ratios are quotients of Laurent polynomials with at most \(b\) terms each.
+2. **PROVED.** The coefficients and exponents may vary. The proof imposes no bound on the number of roots of the primitive parent.
+3. **PROVED.** After removing the persistent integer relations among exponents, a resultant bounds the remaining common-factor degree by \(o(W_{\rm raw})\).
+4. **PROVED.** One exponent vector then tests the evaluation image for every remaining vector. This supplies the uniform exceptional set that a degree-by-degree argument misses.
+5. **PROVED.** Without sparsity, five genuine marks satisfy \(20h\le9D+18r\), where \(r\) counts the roots of each mark off any chosen circle with real center.
+6. **PROVED.** At \(h>D/2\), every four marks are linearly independent. A relation on all five would be real up to scale and would exclude every singleton cut.
+7. **PROVED.** Five primitive polynomial Pell marks are Zariski dense at \(D=8n+1,\ h=4n\). They miss the requested threshold by half a degree and attain the covering-family maximum for those degrees.
+8. **PROVED.** Four marks reach every \(\delta<1/6\) densely, and equality is impossible. Three marks reach equality densely.
+9. **COMPUTED.** Exact checks verified the norms, gcds, degrees and contacts, including five-mark examples at \((D,h)=(9,4),(17,8),(25,12),(41,20)\). [Verification script](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/vii_pell_check.py)
+10. **PROVED.** Even the bounded-term theorem fails over the fixed extension \(\mathbb F_4(t)/\mathbb F_2(t)\) for every \(\delta<1/30\). The relevant map dominates a fourfold although its differential has rank at most one.
+11. **OPEN.** When term counts grow, I lose both the resultant bound and the common coefficient space. I obtained no unrestricted exponent gain or arithmetic counterexample.
+12. **REQUEST.** Please prioritize the degree-loss formula (VII.3) in section VII.2 with moving coefficients, and the argument that one exponent vector gives a common exceptional set.

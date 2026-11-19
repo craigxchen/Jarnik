@@ -256,6 +256,14 @@ excluded; the growth scale stays open. The filter becomes F3+++ (cap two and fin
 admissible, hence insufficient). The judge's reading: the closed escape had no client among integer arguments, this
 is not evidence against the conjecture over `Z`, and the function-field programme should be closed.
 
+On the Question B thread the seventh exchange (`round31/README_VIIL.md`) asked for the characteristic-0
+function-field analogue of `A_5(delta)`. It is **open**. It is a theorem on ratios with a bounded number of
+monomials (one exceptional set for all degrees, coefficients and exponents; false in characteristic 2), and when
+almost all roots of the norm lie on one circle with real centre. Polynomial Pell families give Zariski-dense
+five-mark tuples exactly at the covering maximum `W = 4h + 2`, half a degree below the threshold; rigid
+configurations strictly above `D/2` exist at `D = 11, 13` (numerical). The judge closes the thread as internal work:
+the unrestricted question is an open function-field Vojta instance of the same generic complexity as Question B.
+
 **Growth-rate status (2026-11-19, after round 31).** No growth improvement over `log R/loglog R` is proved
 unconditionally; conditionally only Vojta-type routes are known, and they give the uniform bound directly. The following are capped at `log R/loglog R` by
 refereed barrier theorems:

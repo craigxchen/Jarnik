@@ -1,0 +1,6 @@
+VII.6 n=(1, 2, 3, 4): L=100 B=4 raw deg=1500 gcd deg=7 D=1493 max diff(raw)=724 h=776 h/D=0.5198 (target 8/15=0.5333); deg gcd(z,conj z)=[6, 8, 6, 8, 10]; monomials per mark=[170, 187, 209, 234, 181]
+      her bound 8L-16B = 736, referee bound 8L-8B = 768, D<=15L=1500
+VII.6 n=(1, 2, 3, 4): L=300 B=4 raw deg=4500 gcd deg=8 D=4492 max diff(raw)=2124 h=2376 h/D=0.5289 (target 8/15=0.5333); deg gcd(z,conj z)=[14, 16, 14, 8, 22]; monomials per mark=[170, 187, 209, 234, 181]
+      her bound 8L-16B = 2336, referee bound 8L-8B = 2368, D<=15L=4500
+VII.6 n=(1, 2, 3, 4): L=700 B=4 raw deg=10500 gcd deg=7 D=10493 max diff(raw)=4924 h=5576 h/D=0.5314 (target 8/15=0.5333); deg gcd(z,conj z)=[6, 8, 6, 8, 10]; monomials per mark=[170, 187, 209, 234, 181]
+      her bound 8L-16B = 5536, referee bound 8L-8B = 5568, D<=15L=10500
