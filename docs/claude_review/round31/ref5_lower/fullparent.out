@@ -1,0 +1,25 @@
+d=3 L=4: deg N = 24, D = 12; F_2 factorisation degrees/exponents: [(2, 1), (4, 1), (4, 1), (4, 2), (6, 1)]
+number of monic points on N: 48
+Astra family points found on N: 8
+max c=0 cluster on N (all points): 4 ; contains family points: 4
+max c=0 cluster among family points on N: 4
+d=3 L=5: deg N = 30, D = 15; F_2 factorisation degrees/exponents: [(2, 1), (8, 1), (10, 1), (10, 1)]
+number of monic points on N: 16
+Astra family points found on N: 8
+max c=0 cluster on N (all points): 4 ; contains family points: 4
+max c=0 cluster among family points on N: 4
+d=3 L=6: deg N = 36, D = 18; F_2 factorisation degrees/exponents: [(2, 3), (4, 2), (10, 1), (12, 1)]
+number of monic points on N: 48
+Astra family points found on N: 8
+max c=0 cluster on N (all points): 4 ; contains family points: 4
+max c=0 cluster among family points on N: 4
+d=3 L=7: deg N = 42, D = 21; F_2 factorisation degrees/exponents: [(2, 2), (6, 1), (8, 1), (10, 1), (14, 1)]
+number of monic points on N: 48
+Astra family points found on N: 8
+max c=0 cluster on N (all points): 4 ; contains family points: 4
+max c=0 cluster among family points on N: 4
+d=3 L=8: deg N = 48, D = 24; F_2 factorisation degrees/exponents: [(2, 1), (4, 1), (4, 2), (4, 2), (12, 1), (14, 1)]
+number of monic points on N: 144
+Astra family points found on N: 8
+max c=0 cluster on N (all points): 4 ; contains family points: 4
+max c=0 cluster among family points on N: 4

@@ -1,0 +1,8 @@
+d=4, T over all classes mod V with deg T <= 12 (512 classes)
+s  min_point_degree  attained_at_T(deg)  D0  req  ;  s^2*(d-3) ; Astra (V.1) D for m=s=2^(d-1): 
+ 2      10   T=0 (deg -inf)  D0=17 req=3  sides=(6, 14)
+ 3      32   T=64 (deg 6)  D0=48 req=16  sides=(6, 8, 14)
+ 4      32   T=64 (deg 6)  D0=48 req=16  sides=(2, 4, 8, 14)
+ 5      80   T=4096 (deg 12)  D0=96 req=16  sides=(2, 4, 6, 8, 14)
+ 6      80   T=4096 (deg 12)  D0=96 req=16  sides=(0, 2, 4, 6, 8, 14)
+V.1 point degree for m = 8 : 112

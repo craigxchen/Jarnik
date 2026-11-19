@@ -1,0 +1,29 @@
+{
+ "U_Ubar_equals_N": true,
+ "gcd_U_Ubar_is_1": true,
+ "z_eq_P_Ub_over_Pb": true,
+ "primitive": true,
+ "n_div_N": true,
+ "Dnonzero": true,
+ "E0": true,
+ "deg_identity": true,
+ "degree_bound_delta0": true,
+ "pairs_checked": 28,
+ "max_excess_of_deg_D_over_budget": 0.0,
+ "raw": {
+  "L": 224,
+  "Q": 48.0,
+  "delta": 0,
+  "LHS": -2640.0,
+  "RHS": 0
+ },
+ "global_gcd_degree": 1,
+ "normalised": {
+  "D": 111,
+  "L": 222,
+  "Q": 16.0,
+  "delta": -0.5,
+  "LHS": -2648.0,
+  "RHS": -44.0
+ }
+}

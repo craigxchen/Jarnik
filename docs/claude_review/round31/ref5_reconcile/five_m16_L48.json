@@ -1,0 +1,27 @@
+{
+ "m": 16,
+ "L": 48,
+ "D": 720,
+ "subsets": 4368,
+ "identity_ok": true,
+ "max_delta_S": 0.04878048780487805,
+ "min_delta_S": 0.0,
+ "frac_delta_ge_1_40": 0.38461538461538464,
+ "frac_delta_ge_1_31": 0.38461538461538464,
+ "any_delta_gt_1_30": true,
+ "best": {
+  "delta": "2/41",
+  "delta_float": 0.04878048780487805,
+  "alpha": 3.6444444444444444,
+  "ncuts": 7,
+  "minw": 0,
+  "maxw": 196,
+  "H_Sigma": 150,
+  "Dred": 656,
+  "mean_w": 87.46666666666667
+ },
+ "frac_all_15_cuts_present": 0.6158424908424909,
+ "exactly_balanced_frac": 0.0,
+ "max_balance_ratio": 95.0,
+ "max_HSigma_over_meanw": 2.3125
+}

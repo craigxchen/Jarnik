@@ -1,0 +1,8 @@
+unsimplified prime bound d=4: 4.0  Qd/4 = 16.0
+d=4 T=0: cases 6544, peak residual E=4 P=4, min slack in g<=hB+Qd/4: 12.0, hist {0: 1574, 1: 1296, 2: 3072, 3: 216, 4: 386}  (0.1s)
+d=4 T=16: cases 6544, peak residual E=4 P=4, min slack in g<=hB+Qd/4: 12.0, hist {0: 1574, 1: 1296, 2: 3072, 3: 216, 4: 386}  (0.1s)
+d=4 T=32: cases 6544, peak residual E=4 P=4, min slack in g<=hB+Qd/4: 12.0, hist {0: 1574, 1: 1296, 2: 3072, 3: 216, 4: 386}  (0.1s)
+d=4 T=48: cases 6544, peak residual E=4 P=4, min slack in g<=hB+Qd/4: 12.0, hist {0: 1574, 1: 1296, 2: 3072, 3: 216, 4: 386}  (0.1s)
+d=4 TOTAL cases 26176, max residual 4
+d=4, all 64 classes T mod V with deg T < 10: max residual 4
+Euclid = valuation on T classes 13,37,63 (x16)

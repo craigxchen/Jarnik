@@ -1,0 +1,53 @@
+== verify_V
+m=4 L=4 D=12 parent=24 maxdiff=6 D/2=6.0 ok
+m=8 L=16 D=112 parent=224 maxdiff=56 D/2=56.0 ok
+m=16 L=48 D=720 parent=1440 maxdiff=360 D/2=360.0 ok
+m=32 L=128 D=3968 parent=7936 maxdiff=1984 D/2=1984.0 ok
+== delta_V
+m=4 L=3 D=9 cluster=False min/avg/max delta=0/1.3/2 bound D/(2(m-1))=1.5  sum delta=8 <= mD/4=9.0
+m=4 L=4 D=12 cluster=True min/avg/max delta=1/1.7/2 bound D/(2(m-1))=2.0  sum delta=10 <= mD/4=12.0
+m=8 L=15 D=105 cluster=False min/avg/max delta=3/6.0/8 bound D/(2(m-1))=7.5  sum delta=168 <= mD/4=210.0
+m=8 L=16 D=112 cluster=True min/avg/max delta=3/6.4/8 bound D/(2(m-1))=8.0  sum delta=180 <= mD/4=224.0
+m=16 L=47 D=705 cluster=False min/avg/max delta=6/18.2/24 bound D/(2(m-1))=23.5  sum delta=2184 <= mD/4=2820.0
+m=16 L=48 D=720 cluster=True min/avg/max delta=6/17.7/24 bound D/(2(m-1))=24.0  sum delta=2128 <= mD/4=2880.0
+== search_trans full4
+4 (4, ('V=F2[t]<4', 'T=0b0'), '0b1100')
+8 (112, ('V=F2[t]<4', 'T=0b10000000000000000'), '0b11111110')
+== search_trans rand4 seed1 3000 (earlier run)
+3 (18, basis=[1,0b10011,0b1000,0b1011], T=0b111)  4 (4, ...T=0)  8 (112, T=t^16)
+== search5 maxdrop1 (earlier run)
+4 (294) 8 (322) 16 (720, T=t^48)
+== thm_table
+m=4 D=12  (4/s)*sum iota=8.0  closed-form bound=4.5  ratio D/(m^2 log2 m)=0.375
+m=8 D=112  (4/s)*sum iota=84.0  closed-form bound=21.0  ratio D/(m^2 log2 m)=0.583
+m=16 D=720  (4/s)*sum iota=490.0  closed-form bound=180.0  ratio D/(m^2 log2 m)=0.703
+m=32 D=3968  (4/s)*sum iota=2790.0  closed-form bound=744.0  ratio D/(m^2 log2 m)=0.775
+== otherV seed1 400
+s= 4 least D= 12 cluster True L-1 cluster? False (4/s)sum iota= 8.0 closed bound= 4.5 ['0b1', '0b101', '0b10']
+s= 8 least D= 112 cluster True L-1 cluster? False (4/s)sum iota= 84.0 closed bound= 21.0 ['0b1', '0b110', '0b1101', '0b1111']
+s= 16 least D= 720 cluster True L-1 cluster? False (4/s)sum iota= 490.0 closed bound= 180.0 ['0b1', '0b111', '0b10110', '0b11001', '0b11101']
+== check_thm seeds 1..4
+pairs checked 28975 violations of (b) 0
+pairs checked 28081 violations of (b) 0
+pairs checked 30191 violations of (b) 0
+pairs checked 29124 violations of (b) 0
+== search_trans3 full2
+3 (3, ('F3[t]<2', 'T=[1]'), '0b1101')
+4 (2, ('F3[t]<2', 'T=[1]'), '0b1100')
+== search_trans3 full3 maxdrop1 L<14 (earlier run)
+3 (20, T=t)  -- no cluster of size >=3 for T=t^L, L=3..13
+== abstract3
+p 2 n 3 pairs 4 transversals 16 coset edges 62
+max large-L coset cluster size 4
+n'= 3 pair sizes [2]
+p 2 n 4 pairs 8 transversals 256 coset edges 4708
+max large-L coset cluster size 8
+n'= 7 pair sizes [4]
+p 3 n 2 pairs 4 transversals 16 coset edges 40
+max large-L coset cluster size 2
+n'= 1 pair sizes [1]
+p 3 n 3 pairs 13 transversals 8192 coset edges 106704
+max large-L coset cluster size 2
+n'= 1 pair sizes [1]
+3 10 T=t^2 (no cluster of size >=4 found)
+== search_conj3 seed1 300: max 3 points (D=10, T=t^2); none >=4

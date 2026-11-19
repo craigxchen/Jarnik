@@ -1,0 +1,48 @@
+D=1 c=0 K=0 M=2 #classes_attaining=1 exampleN=7 At=2 Bt=0
+hist: 1:2 2:1
+time 0s
+D=2 c=0 K=1 M=3 #classes_attaining=1 exampleN=15 At=4 Bt=0
+hist: 1:3 2:5 3:1
+time 0s
+D=3 c=0 K=1 M=2 #classes_attaining=16 exampleN=49 At=8 Bt=0
+hist: 1:32 2:16
+time 0s
+D=4 c=0 K=2 M=4 #classes_attaining=1 exampleN=16f At=18 Bt=0
+hist: 1:90 2:72 3:6 4:1
+time 0s
+D=5 c=0 K=2 M=3 #classes_attaining=2 exampleN=765 At=20 Bt=10
+hist: 1:646 2:186 3:2
+time 0s
+D=6 c=0 K=3 M=4 #classes_attaining=6 exampleN=109f At=40 Bt=0
+hist: 1:2234 2:850 3:46 4:6
+time 0s
+D=7 c=0 K=3 M=3 #classes_attaining=28 exampleN=7395 At=80 Bt=40
+hist: 1:12372 2:1964 3:28
+time 0s
+D=8 c=0 K=4 M=4 #classes_attaining=32 exampleN=1061b At=100 Bt=0
+hist: 1:46242 2:9118 3:310 4:32
+time 0s
+D=9 c=0 K=4 M=3 #classes_attaining=222 exampleN=54a95 At=200 Bt=80
+hist: 1:221850 2:19814 3:222
+time 0s
+D=10 c=0 K=5 M=4 #classes_attaining=140 exampleN=100c5f At=400 Bt=0
+hist: 1:859340 2:91212 3:2084 4:140
+time 0s
+D=11 c=0 K=5 M=4 #classes_attaining=8 exampleN=4ff49d At=8c0 Bt=1c0
+hist: 1:3805598 2:192114 3:1482 4:8
+time 1s
+D=12 c=0 K=6 M=4 #classes_attaining=728 exampleN=1004139 At=1000 Bt=0
+hist: 1:14984758 2:876410 3:12242 4:728
+time 0s
+D=13 c=0 K=6 M=4 #classes_attaining=40 exampleN=4799877 At=2000 Bt=380
+hist: 1:63467698 2:1806238 3:9510 4:40
+time 3s
+D=14 c=0 K=7 M=4 #classes_attaining=2556 exampleN=1000c467 At=4000 Bt=0
+hist: 1:251898450 2:8153510 3:73254 4:2556
+time 11s
+D=15 c=0 K=7 M=4 #classes_attaining=424 exampleN=449ed07f At=8100 Bt=900
+hist: 1:1040356474 2:16608982 3:55230 4:424
+time 43s
+D=16 c=0 K=8 M=4 #classes_attaining=12502 exampleN=100044335 At=10000 Bt=0
+hist: 1:4145259636 2:74235192 3:395756 4:12502
+time 208s

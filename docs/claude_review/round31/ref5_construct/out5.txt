@@ -1,0 +1,9 @@
+m=32 d=6 L=128 D=3968 parent=7936 pairs=496 maxdiff=1984 (D/2=1984) mindiff=1969 S-distribution=[(49, 16), (57, 32), (61, 64), (63, 128), (64, 256)] conj-in-cluster=0 min deg(conj z - z')=3840
+   gcd of all points: degree 8
+   factorisation of Norm(g) over F_2: [(2, 8)]
+   after division: D'=3960 maxdiff'=1976 c'=-4.0
+   pairwise gcd degrees (first 40 pairs): min 1928 max 1952
+
+real	0m6.090s
+user	0m6.060s
+sys	0m0.004s

@@ -1,0 +1,32 @@
+{
+ "m": 4,
+ "d": 3,
+ "Q": 8,
+ "L": 4,
+ "D": 12,
+ "W": 24,
+ "n_small_primes": 2,
+ "small_valuations_nonzero": 4,
+ "norms_ok": true,
+ "distinct": true,
+ "deg_points": [
+  12
+ ],
+ "max_diff_deg": 6,
+ "D_over_2": 6.0,
+ "gcd_valuation_vs_direct_ok(6 pairs)": true,
+ "Qslack_from_gcds": 0.0,
+ "Qslack_from_layers": 0.0,
+ "nontrivial_layers(e,depth,s)": [],
+ "IV2_delta": 0.0,
+ "IV2_LHS": -360.0,
+ "IV2_RHS": 0.0,
+ "IV2_violated": false,
+ "BMY_slack_upper_bound_3eorb_minus_KB2": 80.0,
+ "sum_deg_c": 10,
+ "max_deg_c": 2,
+ "identity_lhs": 10.0,
+ "identity_rhs": 10.0,
+ "chord_budget_mD/4": 12.0,
+ "time": 0.0005447864532470703
+}

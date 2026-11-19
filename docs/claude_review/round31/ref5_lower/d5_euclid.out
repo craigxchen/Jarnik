@@ -1,0 +1,4 @@
+d=5 T=0: 400 random selections, Euclid gcd degree == valuation gcd degree; sample peak 14
+d=5 T=32: 400 random selections, Euclid gcd degree == valuation gcd degree; sample peak 16
+d=5 T=64: 400 random selections, Euclid gcd degree == valuation gcd degree; sample peak 16
+d=5 T=96: 400 random selections, Euclid gcd degree == valuation gcd degree; sample peak 16

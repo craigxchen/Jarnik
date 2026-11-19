@@ -1,0 +1,49 @@
+d=3 T=0x0: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 24 side pairs
+d=3 T=0x1: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 24 side pairs
+d=3 T=0x5: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 24 side pairs
+d=3 T=0x8: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 24 side pairs
+d=3 T=0x13: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 24 side pairs
+d=3 T=0x46: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 24 side pairs
+d=3 T=0x1: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 24 side pairs
+d=4 T=0x0: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 112 side pairs
+d=4 T=0x1: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 112 side pairs
+d=4 T=0x5: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 112 side pairs
+d=4 T=0x10: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 112 side pairs
+d=4 T=0x23: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 112 side pairs
+d=4 T=0x86: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 112 side pairs
+d=4 T=0x78: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 112 side pairs
+d=5 T=0x0: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 240 side pairs
+d=5 T=0x1: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 240 side pairs
+d=5 T=0x5: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 240 side pairs
+d=5 T=0x20: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 240 side pairs
+d=5 T=0x43: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 240 side pairs
+d=5 T=0x106: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 240 side pairs
+d=5 T=0x39: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 240 side pairs
+d=6 T=0x0: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 240 side pairs
+d=6 T=0x1: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 240 side pairs
+d=6 T=0x5: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 240 side pairs
+d=6 T=0x40: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 240 side pairs
+d=6 T=0x83: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 240 side pairs
+d=6 T=0x206: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 240 side pairs
+d=6 T=0x232: norm identity and F_i-F_j=P_J(1)P_J(Y+a) exact on 240 side pairs
+d=3: min deg P_J(1) = 1, claimed lower bound (Q/4)(d-4) = -2, exact sharper bound (Q/4)(d-4)+2 = 0; ok=True
+d=4: min deg P_J(1) = 5, claimed lower bound (Q/4)(d-4) = 0, exact sharper bound (Q/4)(d-4)+2 = 2; ok=True
+d=5: min deg P_J(1) = 17, claimed lower bound (Q/4)(d-4) = 8, exact sharper bound (Q/4)(d-4)+2 = 10; ok=True
+d=6: min deg P_J(1) = 49, claimed lower bound (Q/4)(d-4) = 32, exact sharper bound (Q/4)(d-4)+2 = 34; ok=True
+d=7: min deg P_J(1) = 129, claimed lower bound (Q/4)(d-4) = 96, exact sharper bound (Q/4)(d-4)+2 = 98; ok=True
+d=8: min deg P_J(1) = 321, claimed lower bound (Q/4)(d-4) = 256, exact sharper bound (Q/4)(d-4)+2 = 258; ok=True
+d=9: min deg P_J(1) = 769, claimed lower bound (Q/4)(d-4) = 640, exact sharper bound (Q/4)(d-4)+2 = 642; ok=True
+d=2: max_T sum_v (B-deg(Y+v)) = 6  (bound 2Q = 8; exact 2^(d+1)-2 = 6)
+d=3: max_T sum_v (B-deg(Y+v)) = 14  (bound 2Q = 16; exact 2^(d+1)-2 = 14)
+d=4: max_T sum_v (B-deg(Y+v)) = 30  (bound 2Q = 32; exact 2^(d+1)-2 = 30)
+d=5: max_T sum_v (B-deg(Y+v)) = 62  (bound 2Q = 64; exact 2^(d+1)-2 = 62)
+d=6: max_T sum_v (B-deg(Y+v)) = 126  (bound 2Q = 128; exact 2^(d+1)-2 = 126)
+d=7: max_T sum_v (B-deg(Y+v)) = 254  (bound 2Q = 256; exact 2^(d+1)-2 = 254)
+d=8: max_T sum_v (B-deg(Y+v)) = 510  (bound 2Q = 512; exact 2^(d+1)-2 = 510)
+d=9: max_T sum_v (B-deg(Y+v)) = 1022  (bound 2Q = 1024; exact 2^(d+1)-2 = 1022)
+d=10: max_T sum_v (B-deg(Y+v)) = 2046  (bound 2Q = 2048; exact 2^(d+1)-2 = 2046)
+d=4: h<=Q/(2s) violated in 0 of 3000 random selections
+d=5: h<=Q/(2s) violated in 0 of 3000 random selections
+d=6: h<=Q/(2s) violated in 0 of 3000 random selections
+d=7: h<=Q/(2s) violated in 0 of 3000 random selections
+d=8: h<=Q/(2s) violated in 0 of 3000 random selections

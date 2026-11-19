@@ -1,0 +1,10 @@
+m=4 d=3 L=4 D=12 degN=24 maxdiff=6 D/2=6.0 pairs=6 cluster=True ratios_separable=True N_sqfree=False
+m=8 d=4 L=16 D=112 degN=224 maxdiff=56 D/2=56.0 pairs=28 cluster=True ratios_separable=True N_sqfree=False
+  r=2 L=3: maxdiff-D/2 = 0.5, Smax-L/2 = 0.5, c=0 cluster: False
+  r=2 L=4: maxdiff-D/2 = 0.0, Smax-L/2 = 0.0, c=0 cluster: True
+  r=2 L=5: maxdiff-D/2 = -0.5, Smax-L/2 = -0.5, c=0 cluster: True
+  r=2 L=9: maxdiff-D/2 = -2.5, Smax-L/2 = -2.5, c=0 cluster: True
+  r=3 L=15: maxdiff-D/2 = 0.5, Smax-L/2 = 0.5, c=0 cluster: False
+  r=3 L=16: maxdiff-D/2 = 0.0, Smax-L/2 = 0.0, c=0 cluster: True
+  r=3 L=17: maxdiff-D/2 = -0.5, Smax-L/2 = -0.5, c=0 cluster: True
+  r=3 L=21: maxdiff-D/2 = -2.5, Smax-L/2 = -2.5, c=0 cluster: True

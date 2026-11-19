@@ -1,0 +1,1317 @@
+# Question B on five Gaussian lattice points
+
+**PROVED — main result.** There is a proper closed subset of the similarity torus outside which $A_5(1/31)$ holds for every primitive five-tuple whose Gaussian valuation columns generate a lattice of index at least $7$ in $\mathbb Z^4$. The primes, their number, their exponents, the index, and the lattice itself may all vary. Index at least $5$ already gives an approximation exponent strictly above $10/3$. A separate elementary argument gives exponent $4$, with no exceptional set, when the four ratios are dependent modulo squares in the rational norm-one group. On asymptotically balanced tuples that latter exponent improves to $5$.
+
+**PROVED — consequence for the open lemma.** In the one-unit-class formulation of $(L_5^\circ)$, it suffices to treat **three indices, $1,3,5$**. On the complementary family the required positive lower bound for $H_\Sigma/w$ is uniform. Index $1$ already supports simple balanced squarefree profiles. I obtain no improvement of the essential exponent for unrestricted rational points and no improvement of the growth bound for $M(C)$.
+
+**PROVED — a separate obstruction on the same fourfold.** No nondegenerate, ray-generic member of the explicit reflection-symmetric family of round 24, §5.1, descends to the twisted torus over $\mathbb Q$. Two necessary square conditions contradict each other over $\mathbb Q_2$. This strengthens ineffective finiteness to emptiness on that family.
+
+**HEURISTIC — choice of problem.** I chose B because a valuation lattice of fixed rank gives actual rational lifts of a point to finite covers. A lift changes the volume in the Roth-type theorem. A second argument controls the complexity of the cover when its degree grows. Both operations can be checked on a single five-tuple.
+
+## 1. Heights, columns and conventions
+
+**PROVED.** Let $z_1,\ldots,z_5$ be distinct, Gaussian-gcd-primitive, of norm $H=R^2$. Put $W=\log H$, $U=R^1_{\mathbb Q(i)/\mathbb Q}\mathbb G_m$, $y_j=z_j/z_5$ for $1\le j\le4$, $y_5=1$, and
+$$
+ \Delta=\max_{i,j}|y_i-y_j|=\operatorname{diam}(z)/R .
+$$
+Thus $y\in T(\mathbb Q)$ for $T=U^4$. A lower bound $\Delta\gg H^{-1/g}$ gives approximation exponent at least $g$. The arc condition of $A_5(\delta)$ gives $\Delta\le H^{-(1+2\delta)/4}$. This keeps the common phase free.
+
+**PROVED.** By unique factorization, primitivity excludes ramified and inert primes from $H$. At a split $p=\pi_p\bar\pi_p$ with $p^{e_p}\parallel H$, write $a_{ip}=v_{\pi_p}(z_i)$. The conjugate valuation is $e_p-a_{ip}$. The minimum and maximum of the five $a_{ip}$ are $0,e_p$, by primitivity at the two primes. Set
+$$
+ b_p=(a_{1p}-a_{5p},\ldots,a_{4p}-a_{5p})^t,\qquad
+ L=\sum_{p\mid H}\mathbb Z b_p,\qquad g_p=\pi_p/\bar\pi_p .
+$$
+Then $y_j=\epsilon_j\prod_p g_p^{b_{jp}}$, with $\epsilon_j\in\mu_4$. Write $I=[\mathbb Z^4:L]$ when $L$ has rank four. Changing $\pi_p$ to its conjugate negates a column, and changing the anchor acts by an integral unimodular matrix. Hence $I$ is intrinsic. For full rank it is the gcd of the absolute four-column determinants. Always $\|b_p\|_\infty\le e_p$ and $\sum e_p\log p=W$.
+
+**PROVED.** Every $s\in U(\mathbb Q)$ can be written as $\epsilon A/\bar A$, with $A,\bar A$ coprime Gaussian integers and $A$ of odd norm. Indeed $s=\epsilon\prod_p g_p^{k_p}$, and one takes $\pi_p^{k_p}$ or $\bar\pi_p^{-k_p}$ in $A$ according to sign. Put $D(s)=|A|^2=\prod p^{|k_p|}$. Then $h(s)=\tfrac12\log D(s)$ for the absolute logarithmic Weil height. The complex absolute value of $s$ is $1$, and its reduced denominator has ideal norm $D(s)$, which proves the formula. If $s\ne1$, the nonzero Gaussian integer $\epsilon A-\bar A$ proves
+$$
+ |s-1|\ge D(s)^{-1/2}. \tag{1}
+$$
+In particular $d_{ij}:=\log D(y_i/y_j)=\sum_p |a_{ip}-a_{jp}|\log p$, and $\Delta\ge e^{-d_{ij}/2}$ for every distinct pair.
+
+## 2. Uniformity over all valuation lattices of sufficiently large index
+
+**PROVED — theorem.** For any fixed integer $d_0\ge1$ set $B_{d_0}=\tfrac45(70d_0)^{1/4}$. For every $0<g<B_{d_0}$ there are a proper closed $Z\subset T$ and $H_0$ such that every primitive five-tuple with $\operatorname{rank}L=4,\ I\ge d_0,\ H\ge H_0,\ y\notin Z$ satisfies $\Delta>H^{-1/g}$. Both $Z$ and $H_0$ depend only on $d_0,g$.
+
+### 2.1 Bounded index and a ramified cover
+
+**PROVED.** Fix a full-rank sublattice $L$, choose a matrix $P$ whose columns are an integral basis, and form the isogeny $f_P:U^4\to T$ given by that matrix on cocharacters. It has degree $I=|\det P|$. If $b_p=P h_p$, with $h_p\in\mathbb Z^4$, the point with coordinates $x_j=\prod_p g_p^{h_{jp}}$ is rational and $y=\epsilon f_P(x)$. There are only $4^4$ possible $\epsilon$. This constructs the lift with all denominator primes present.
+
+**PROVED.** More generally fix an isogeny $f:T'\to T$ of degree $d$ and a translation $t\in T(\mathbb Q)$. On $t f(T'(\mathbb Q))$ the claimed bound holds for each $g<B_d$, with $Z,H_0$ allowed to depend on $t,f,g$.
+
+*Proof.* Use the projective toric model $X_0$ given by the normal fan of the $A_4$ root polytope. Its ample polarization $B$ pulls back to the anticanonical bundle on the twisted Losev–Manin space. For the height and volume there is a direct check. The polytope is the convex hull of the roots $e_i-e_j$. Its support function at a valuation vector is $\max_i a_i-\min_i a_i$. The two conjugate places each have weight $1/2$, and the complex contribution is zero. Hence its standard logarithmic toric height is $W$. Also $B^4=70$. Indeed the polytope in $\sum x_i=0$ is given by $\sum x_i^+\le1$. Count lattice points in its $n$-th dilate by their $k$ strictly positive coordinates. The coordinate hyperplanes contribute $O(n^3)$, and the count off them is
+$$
+ \sum_{k=1}^4 {5\choose k}\sum_{s=1}^n
+ {s-1\choose k-1}{s-1\choose 4-k}.
+$$
+Multiplication of the leading coefficient by $4!$ gives $\sum_{k=1}^4 {5\choose k}{3\choose k-1}=70$, the toric intersection number. The Galois involution $x\mapsto-x$ preserves the polytope and its polarization. [Round 22, Prop. 1.1](/home/user/Jarnik/docs/claude_review/round22/toric.md)
+
+Normalize $X_0$ in the function field extension induced by $\psi=t f$. This yields a finite projective morphism $\bar\psi:X_f\to X_0$ of degree $d$. Over the torus it is $\psi$, finite étale in characteristic zero. The ample bundle $B_f=\bar\psi^*B$ has $B_f^4=70d$, and $H_{B_f}(x)\asymp H_B(\psi x)$ for these fixed data. Every target $q\in\bar\psi^{-1}(e)$ is algebraic and smooth, of multiplicity one.
+
+Apply McKinnon–Roth, Corollary 4.2, in dimension four, and Theorem 5.1 at the single real place. The former gives $\beta_q(B_f)\ge (4/5)(70d)^{1/4}$. The latter gives, for $s>1/\beta_q(B_f)$, only finitely many rational solutions of $\operatorname{dist}(x,q)\le H_{B_f}(x)^{-s}$ outside a proper closed subset. These statements allow algebraic targets and apply to the ample bundle on $X_f$. [McKinnon–Roth, §§4–5](https://arxiv.org/abs/1306.2976) · [Full-text statement check, items 4–5](/home/user/Jarnik/docs/claude_review/papers_check/check.md)
+
+Choose $1/B_d<s<1/g$. There are finitely many targets. By properness any real lift of $y$ sufficiently close to $e$ lies near one of them, and by étaleness its distance to that target is $O_{t,f}(\Delta)$. Thus a sufficiently large solution below the claimed downstairs threshold would satisfy the upstairs inequality. A finite morphism sends the finite union of proper exceptional sets to a proper closed set downstairs. Finite exceptions can be absorbed in $H_0$. This proves the fixed-cover assertion. For bounded $I$ there are finitely many sublattices by Hermite normal form, and the Gaussian lift uses only the finite list of unit translations. $\square$
+
+### 2.2 Unbounded index and a logarithm estimate
+
+**PROVED.** For all full-rank tuples one has, with absolute implied constants,
+$$
+ \frac{-\log\Delta}{W}
+ \ \ll\ I^{-1/4}\log(2I)+\frac{\log(2+W)}{W}.
+ \tag{2}
+$$
+In particular a sequence with $I\to\infty$ cannot have any fixed positive exponent of power saving in $\Delta$.
+
+*Proof.* The dual lattice $L^*$ has determinant $1/I$. Minkowski's theorem applied to a cube gives $0\ne v\in L^*$ with $\|v\|_\infty\le 2I^{-1/4}$. Let $m$ be its order modulo $\mathbb Z^4$. Then $m\le I$ and $c=mv\in\mathbb Z^4$. Set
+$$
+ u=\prod_{p\mid H}g_p^{\langle v,b_p\rangle}\in U(\mathbb Q).
+$$
+The exponents are integers. At least one is nonzero since $L$ has rank four, hence $u$ is nontorsion. Moreover
+$$
+ 2h(u)=\sum_p |\langle v,b_p\rangle|\log p\le4\|v\|_\infty W .
+$$
+The unit in $y^c=\epsilon^c u^m$ disappears after taking fourth powers. Telescoping products of complex numbers of modulus one gives $|u^{4m}-1|\le4\|c\|_1\Delta$.
+
+For nontorsion $u\in\mathbb Q(i)$ on the unit circle, Baker–Wüstholz gives
+$$
+ -\log |u^n-1|\ll (1+h(u))\log(2n). \tag{3}
+$$
+Indeed take principal logarithms and choose the nearest integer $k$ to $n\arg(u)/(2\pi)$. The nonzero form $n\log u-2k\log(-1)$ has imaginary part in $[-\pi,\pi]$, where $|e^{i\theta}-1|\ge2|\theta|/\pi$. The logarithms have bounded imaginary parts, the field degree is at most two, the modified height of $-1$ is constant, and the integral coefficients are $O(n)$. This gives (3) from the linear-forms-in-logarithms theorem, with its one-logarithm case when $k=0$. The number of logarithms is independent of the number of primes. [Baker and Wüstholz, *Logarithmic forms and group varieties*](https://doi.org/10.1515/crll.1993.442.19)
+
+Now $I\le24(W/\log 5)^4$ by expanding any nonzero four-column determinant, and $\|c\|_1\le8I$. Apply (3) with $n=4m$, substitute the height bound and absorb $O(\log(2I))$ into $O(\log(2+W))$. This proves (2). $\square$
+
+**PROVED — conclusion.** Given $g$, choose a cutoff $I_*(g)$ so that the first term in (2), including its absolute constant, is $<1/(2g)$ for $I>I_*(g)$. Make $W$ large enough for the second term. All remaining indices in $[d_0,I_*]$ are covered by §2.1 with a finite union of exceptional sets. This proves the theorem with uniform quantifiers. In particular $B_5>17/5>10/3$, and $B_7>94/25>124/33=4/(1+2/31)$. The last comparisons use $4.7^4<490$ and cross multiplication. They give $A_5(1/31)$ on $I\ge7$.
+
+**PROVED — interpretation.** The volume bound on the original variety gives only $(4/5)70^{1/4}$. Its amplification upstairs applies to rational points admitting the stated lifts. The cover can ramify along the boundary. This is compatible with the absence of nontrivial geometric étale covers of the projective model. The proper closed set for an arbitrary translated coset can depend on that coset. Uniformity in the index theorem comes from the Gaussian lift, the finite list of unit translates, and (2).
+
+### 2.3 Deleting a fixed set of primes
+
+**PROVED.** Fix once and for all a finite set $S_0$ of split primes. The theorem of §2 remains valid for full-rank tuples if $I$ is computed from the columns *outside* $S_0$, assigning index infinity to rank below four there. The bounds and closed set may also depend on $S_0$. For example, deleting a fixed prime carrying column $e_1$ can leave the lattice with basis $7e_1,e_2,e_3,e_4$, even though the original index is one. These columns are realized by singleton allocations at distinct split primes.
+
+*Proof.* For finite bounded outside index, resolve the residue of $b_p$ modulo the outside lattice separately for each $p\in S_0$, taking $b_p=0$ when absent. The residues have finitely many representatives. Their $g_p$-products give only finitely many extra translates of the cover, since these primes themselves are fixed. The rest of each column lifts integrally.
+
+For finite unbounded outside index take $v,m,c$ from the outside lattice as in §2.2. For $p\in S_0$ write $\langle c,b_p\rangle=m q_p+r_p$, $|r_p|\le m/2$. Include $g_p^{q_p}$ in $u$. Then $h(u)\le 2\|v\|_\infty W+O_{S_0}(1)$, and $u$ is nontorsion by full rank of the outside columns. In place of (3), use logarithms of $u,-1$ and the fixed $g_p$ in the expression for $(y^c)^4=u^{4m}\prod_{p\in S_0}g_p^{4r_p}$. The winding number and the other logarithm coefficients are $O_{S_0}(m)$, and this power is nonidentity by full rank. Baker–Wüstholz gives exactly the bound used in (2) with constant depending on $S_0$.
+
+If the outside rank is $r<4$, choose $0\ne c\in\mathbb Z^4$ annihilating those columns with $\|c\|_\infty\ll(1+W)^r$. For $r>0$ take the signed maximal minors on $r+1$ coordinate positions containing a nonzero $r$-minor of $r$ independent columns, and extend by zeros. For $r=0$ use a coordinate vector. Now $(y^c)^4$ is a nonidentity product of only the fixed $g_p$, with coefficients $O((1+W)^4)$. The same logarithm estimate and telescoping give $-\log\Delta\ll_{S_0}\log(2+W)$. This proves the extension. The deleted set is fixed and the tuple may contain arbitrarily many new primes. $\square$
+
+## 3. Relations modulo squares
+
+**PROVED — theorem.** If $y_1,\ldots,y_4$ have linearly dependent images in $U(\mathbb Q)/U(\mathbb Q)^2$, then
+$$
+ \Delta\ge 2^{-1/2}H^{-1/4}. \tag{4}
+$$
+This holds with arbitrary Gaussian units and no exceptional set. In one unit class the hypothesis is exactly failure of the columns $b_p$ to span $\mathbb F_2^4$ modulo two.
+
+*Proof.* A nonzero parity relation on the four anchored ratios has a unique even support on the five marks, obtained by including the anchor if the original support had odd size. Its size is two or four. For any integral lift of its coefficients of sum zero the corresponding character value is a square, since two lifts differ by even coefficients. If $s=t^2\ne1$, both $t-1$ and $t+1$ are nonzero. Their larger absolute value is at least $\sqrt2$ and each is at least $D(t)^{-1/2}$ by (1). Thus
+$$
+ |s-1|\ge\sqrt2 D(s)^{-1/4}. \tag{5}
+$$
+For a two-mark relation take $s=y_i/y_j$ and use $D(s)\le H$.
+
+For four marks consider the three partitions $ij|kl$ into pairs and their words $s=y_i y_j/(y_k y_l)$. Each satisfies $|s-1|\le2\Delta$. At a prime the average of the three numbers $|a_i+a_j-a_k-a_l|$ is at most $e_p$. Indeed the sum is convex separately in each entry of $[0,e_p]^4$, so it suffices to test cube vertices. For $0,1,2,3,4$ high entries the sums in units of $e_p$ are $0,3,2,3,0$. After summing over primes, some word has $\log D(s)\le W$. If it is nonidentity, (5) settles (4).
+
+If a word equals $1$, there is an exact affine dependence on the exponent rows. Here is the bound for any such dependence. Normalize its positive and negative coefficients separately to probability vectors $P,Q$ on disjoint sets. Sample $i\sim P,j\sim Q$ independently. At each prime $X=a_{ip}/e_p,\ Y=a_{jp}/e_p$ have the same mean $\mu$. Since $|X-Y|\le X+Y-2XY$, their expected distance is at most $2\mu(1-\mu)\le1/2$. Some pair therefore has $d_{ij}\le W/2$. By (1) it gives $\Delta\ge H^{-1/4}$. Finally, in one unit class all the anchored unit factors are one. A product of the $g_p$ is a square precisely when all its exponents are even, proving the mod-two criterion. $\square$
+
+**PROVED — balanced version.** Suppose each of the fifteen cut weights lies in $[(1-\eta)w,(1+\eta)w]$, with $\eta<1/31$. Under the theorem's squareclass hypothesis,
+$$
+ \Delta\ge 2^{-1/2}e^{-3(1+\eta)w}. \tag{6}
+$$
+For one unit class this gives $H_\Sigma\ge(1-7\eta)w-O(1)$. In particular $(L_5^\circ)$ holds quantitatively on this family.
+
+*Proof.* The cut at level $t$ of $p$ partitions the marks according as $a_{ip}\ge t$ or $a_{ip}<t$, and contributes $\log p$ to its unoriented cut weight $\log n_A$. The weights sum to $W$. Each pair is separated by eight cuts, so $d_{ij}\ge8(1-\eta)w>15(1+\eta)w/2\ge W/2$. The common-mean argument excludes all affine dependences. Thus all the words in the proof above are nonidentity. For a coefficient vector $c$ of sum zero, decomposing each column into its nested threshold layers gives
+$$
+ \log D(y^c)\le\sum_A\left|\sum_{i\in A}c_i\right|\log n_A ,
+$$
+over the fifteen cuts, with either choice of side. For the coefficients $1,1,-1,-1,0$ these absolute sums total $12$. Orient away from the mark with zero coefficient. The eight odd subsets give $1$ each and the two same-sign pairs give $2$ each. For a two-mark word the total is $8$. Equation (5) now gives (6), and $W\ge15(1-\eta)w$ gives exponent $5(1-\eta)/(1+\eta)$. If $ij$ realizes $\Delta$, then $2|t_{ij}|=\Delta e^{d_{ij}/2}$. Its logarithm yields the claimed bound for $H_\Sigma$, since in one unit class the reduced ratio $y_a/y_b=A/\bar A$ gives $|t_{ab}|=|\operatorname{Im} A|\ge1$. $\square$
+
+**PROVED — reduction to three indices.** Fix $g=94/25$ and use §2 for $I\ge7$. For a balanced tuple outside its $Z$, the diameter pair gives
+$$
+ H_\Sigma\ge\left[4(1-\eta)-15(1+\eta)/g\right]w-O(1).
+$$
+The bracket is $(1-751\eta)/94$, hence at least $1/188$ for $\eta\le1/1502$. Balance excludes rank below four by the common-mean argument. Every even $I$ gives rank deficiency modulo two, hence (6) in one unit class. Taking the smaller of the two positive constants and increasing $w_0$ leaves exactly $I=1,3,5$ to treat. For arbitrary unit classes the torsion coordinate in $U(\mathbb Q)/U(\mathbb Q)^2$ must be retained in (4).
+
+**PROVED — the family includes full-rank, balanced, Zariski-dense actual points.** Orient cuts away from mark five. For each nonempty $A\subseteq[4]$, choose a different split prime $p_A$, and give it the two allocations $e_A$ on $A$ and zero off $A$, using common unit $1$. Choose $e_A\log p_A\in[w,w+\sqrt w]$, with $e_A$ odd for the three subsets $12,13,14$ and even otherwise. For all sufficiently large $w$ this is possible. Every prime has both allocations present, so the Gaussian tuple is primitive. The four singleton columns give rank four over $\mathbb Q$ and distinguish its points. The three odd columns span the even-parity hyperplane of $\mathbb F_2^4$. Its unique nonzero relation has support four, which excludes every pair ratio from the square class of one. Every cut is asymptotically balanced and every prime contributes to just one cut.
+
+Hold the nonsingleton exponents fixed at each scale and vary the four even singleton exponents independently across their intervals. The anchored ratios form a product of four sets of distinct elements, up to coordinatewise translation, since the $g_p$ are nontorsion. The cardinality in each factor tends to infinity. A nonzero Laurent polynomial with denominators cleared cannot vanish on the whole grid when each factor has more elements than its degree in that variable, by successive univariate interpolation. This proves Zariski density. The construction describes the domain of the bound and makes no assertion of rapid archimedean approximation.
+
+## 4. What happens at index one
+
+**PROVED — a squarefree subfamily.** Write $w_E=\log n_E$ for the weight of the cut with two-mark side $E$. For every such $E$,
+$$
+ \min_{i<j} d_{ij}\le (4W+2w_E)/7. \tag{7}
+$$
+Consequently $\Delta\ge H^{-2/7}$ if even one of the ten two-mark cuts is absent. In particular this gives exponent $7/2>10/3$ on all squarefree primitive norms with at most nine prime factors. With at most six prime factors the pointwise exponent is at least $4$. The primes may vary freely.
+
+*Proof.* Fix $E=\{1,2\}$. Average over the seven pairs meeting $E$. The cut $E$ crosses six of those edges and every other cut crosses at most four. To verify the last count, the incident degrees in the seven-edge graph are $4,4,2,2,2$, and for a two-mark side its crossing number is the sum of its degrees minus twice its internal edge count. Summing cut weights proves (7). Each prime of a squarefree norm supplies just one cut. For the six-cut assertion, if two disjoint two-mark cuts $E,F$ are absent, average over the four pairs between $E$ and $F$. Only $E,F$ can cross all four, and every other cut crosses at most two (this graph is a four-cycle). Otherwise the absent two-mark cuts pairwise intersect. With at most six cuts present, at least four two-mark cuts are absent. Four or more pairwise intersecting edges in $K_5$ have a common vertex, since any pairwise intersecting nonstar is contained in a triangle. Thus all four edges at one vertex are absent, and the six cuts present must be the other six edges. Each present cut crosses just two of the four edges incident to that vertex. This gives $\min d_{ij}\le W/2$ in both cases, and (1) concludes. $\square$
+
+**PROVED — the angle-model obstruction is sharp even for the unrestricted five-point exponent.** For all sufficiently large $X$, choose ten distinct primes $p_E\equiv1\bmod4$ in $[X,2X]$, indexed by pairs $E$ of marks. Such primes exist by the prime number theorem in arithmetic progressions. Give each prime the single cut with side $E$. Then $I=1$, and there are real angles satisfying **all** monomial gaps of the record with $\Delta\asymp X^{-3}\asymp H^{-3/10}$. Their similarity classes can avoid any prescribed proper closed $Z$. This is a five-point angle model with angles chosen in the model. The proof makes no assertion about the arguments of the primes in the Gaussian factorization.
+
+*Proof.* In $\mathbb Z^5/\mathbb Z{\bf1}$ the columns are $e_i+e_j$. Their differences generate the image of the sum-zero lattice, since $(e_i+e_k)-(e_j+e_k)=e_i-e_j$. The quotient by that image is $\mathbb Z/5$, in which a column has class $2$. Thus the column lattice is the whole lattice. Write $B_0$ for the resulting anchored $4\times10$ matrix. The map on angle tori $\phi\mapsto\theta=B_0\phi\bmod 2\pi$ has connected kernel, by Smith normal form. The model point ratios are $\exp(2i\theta_j)$.
+
+Put $s=X^{-3}$. Sample the four $\theta_j$ independently and uniformly from intervals of length $s$ centered at $10js$, $j=1,\ldots,4$, and put $\theta_5=0$. Conditional on $\theta$, sample $\phi$ with Haar probability on the fibre. For a nonzero integer vector $v$ on the ten primes put $w(v)=\sum_E |v_E|\log p_E$. We must avoid the intervals of radii $\arcsin(e^{-w(v)/2})$ about $\frac\pi2\mathbb Z$, and of radii $\arcsin(e^{-w(v)/2}/\sqrt2)$ about $\frac\pi4+\frac\pi2\mathbb Z$, for the angle $v\cdot\phi$.
+
+If $v$ is outside the integral row lattice, it is a nontrivial character of the connected kernel and hence uniform on the angle circle in every fibre. The conditional probability of any such forbidden event, summed over these $v$, is
+$$
+ O\left(\sum_{0\ne v\in\mathbb Z^{10}} X^{-\|v\|_1/2}\right)=O(X^{-1/2}).
+$$
+If $v$ is in the row lattice, write $v_{ij}=c_i+c_j$, with $\sum c_i=0$, $c_i\in\mathbb Z$. The angle in question is $\sum_{j=1}^4 c_j\theta_j$. Write $M(c)=\sum_{i<j}|c_i+c_j|$. For a root $c=e_i-e_j$, $M(c)=6$, and the absolute angle is between $9s$ and $41s$, so both sets of gaps hold for large $X$. Every other nonzero $c$ has $M(c)\ge8$. Indeed $2M(c)\ge3\|c\|_1$, by summing $\left|\sum_{j\ne i}(c_i+c_j)\right|=3|c_i|$. At $\|c\|_1=4$ the patterns up to signs and permutation are $(2,-2,0,0,0),(2,-1,-1,0,0),(1,1,-1,-1,0)$, giving $12,12,8$. All larger norms are at least six.
+
+For each of these remaining characters, condition on three coordinates, keeping one with nonzero coefficient random. An interval of length $|c_j|s$ meets $O(1+|c_j|s)$ periodic target intervals, giving probability $O((1+s^{-1})X^{-M(c)/2})$ for its forbidden events. The number of $c$ at a given $M(c)$ grows at most polynomially by the norm estimate. The sum is $O(X^{-1})$. Hence with positive probability all the gaps hold simultaneously. The distribution of $\theta$ has a density on an open four-box. The zero set of any nonzero Laurent polynomial in the $\exp(2i\theta_j)$ has measure zero there, by successive univariate restriction. Thus $Z$ can be avoided. The box forces $\Delta\asymp s$, and $H=\prod p_E\asymp X^{10}$. $\square$
+
+**PROVED — relevance to the two thresholds.** This example tests $10/3$ on arbitrary profiles. For the balanced index-one obstruction to the cover argument, assign instead one distinct split prime from $[X,2X]$ to each of all fifteen cuts, at exponent one. The four singleton columns generate $\mathbb Z^4$ in anchored coordinates, and the cut weights differ by at most $\log2$. The actual Gaussian points for those allocations are primitive. Their true archimedean distances are unspecified. These profiles explain why a bound on $I$ or on the support of the cuts does not by itself give the unrestricted theorem.
+
+## 5. A local obstruction to the round-24 family
+
+**PROVED — statement and scope.** Consider the explicit degree-two projection and reflection-symmetric normal form of round 24, §5.1, including its nondegenerate real family $-3<m<-1$. Assume its thirty distinct boundary places occupy the thirty labelled rays, once each. No such member of this parametrized family defines a curve over $\mathbb Q$ on the twisted torus. The assertion includes its permutations of the marks. It concerns the actual geometric family, and imposes no assumption that a numerical computation identified a whole component of the moduli space. [The normal form](/home/user/Jarnik/docs/claude_review/round24/search.md:280) · [The earlier descent and finiteness argument](/home/user/Jarnik/docs/claude_review/round24/referee_search.md:200)
+
+**PROVED — the descent supplies two square conditions.** Write
+$$
+ \begin{split}
+ c&=m^3-11m^2+39m-13,\qquad D=m^4+70m^2-48m+9,\\
+ u&=-\frac{(m+3)c}{16(m-3)^2(m-1)^2},\qquad
+ v=-\frac{(m+1)c}{4(m-3)^3(m-1)},\\
+ G(Y)&=(Y^2-Y+u)^2+vY .
+ \end{split}
+$$
+If the nondegenerate member descends, $u$ is a nonzero rational square **and** $G$ splits into distinct rational linear factors.
+
+*Proof.* The normal form uses four roots $b_r$ of $b^4+v b^2-v^2 b+uv^2=0$, with elementary symmetric functions $e_1=0,e_2=v,e_3=v^2,e_4=uv^2$. It has $a_rb_r=t\ne0,\ t^2=\prod b_r$, and four distinct $b_r^2$. The labelled boundary places project on the auxiliary $X$-line to the sixteen values $\pm a_r\pm i b_r$. The partners for opposite rays have opposite signs of $i b_r$ with the same sign of $a_r$.
+
+Here is why a common affine rescaling suffices even for a complex member that purportedly descends. Forget the lifted coordinate $u_4$ of the parametrization. The three remaining ratios on the $X$-line have fourteen nonzero primitive valuation vectors, each once, namely the signed indicators of nonempty subsets of $[3]$. This makes the map from that line to the normalization of the projected image birational. Above the image of any one such place, its primitive vector forces ramification index one, and any other preimage would have a positive multiple of the same vector. Uniqueness and the degree formula now give degree one. The three projected ratios are quotients of monic quartics. Contact four at $X=\infty$ makes the numerator minus denominator a nonzero constant, so this is the unique point above the projected identity. The projected normalization thus descends with a rational point at this infinity. Take a rational affine coordinate $x$ there, with $X=\lambda(x-x_0)$.
+
+The same primitivity and uniqueness argument identifies the normalization of the original curve with its parametrizing conic. Every boundary place is individually rational over $\mathbb Q(i)$, since Galois fixing $i$ fixes its ray. Complex conjugation pairs precisely opposite rays. The set of sixteen distinct projected values is Galois-stable, so their average $x_0$ is rational. Taking the half-sum and the difference divided by $2i$ of the conjugate pair $x_0+(a_r\pm ib_r)/\lambda$ gives $a_r/\lambda,b_r/\lambda\in\mathbb Q$. In particular $t/\lambda^2\in\mathbb Q$, and
+$$
+ e_2/\lambda^2=-\tfrac12\sum_r (b_r/\lambda)^2\ne0,\qquad
+ u=e_4/e_2^2=\left(\frac{t/\lambda^2}{e_2/\lambda^2}\right)^2 .
+$$
+The invariant $v=e_3^2/e_2^3$ is rational. It is nonzero because $e_3=0$ would make the $b$-quartic even, repeating a square. Also $Y_r=-b_r^2/e_2$ is rational. In the displayed normalization, the $b$-quartic gives $Y_r^2-Y_r+u=b_r$, so these four distinct numbers are exactly the roots of $G$.
+
+The parameter itself is rational on this chart. Direct substitution gives
+$$
+ \frac vu=\frac{4(m^2-1)}{m^2-9},\qquad
+ u(m)-u(-m)=-\frac{256m^3}{(m^2-9)^2(m^2-1)^2}.
+$$
+At regular finite parameters the first gives $m^2\in\mathbb Q$. Unless $m=0$, the second excludes conjugacy of $m,-m$ over $\mathbb Q$. The exceptional $m=-3,-1$ and the zeros of $c$ give $uv=0$, and $1,3$ are poles. At $m=\infty$, $u=-1/16$ is impossible for the twisted descent. This covers the projective parameter line whenever the asserted nondegenerate normal form is present. $\square$
+
+**PROVED — contradiction over $\mathbb Q_2$.** The quartic discriminant identity is
+$$
+ \operatorname{disc}G
+  =u\,(2D)\left[\frac{2(m+1)c}{(m-3)^5(m-1)^3}\right]^2.
+$$
+It follows by expanding the monic discriminant, an identity checked symbolically in the accompanying script. The Vandermonde formula makes the discriminant a square when all four roots are rational. Hence $A=-(m+3)c$ and $B=2D$ must both be squares. If $v_2(m)<0$, then $v_2(B)=1+4v_2(m)$ is odd. For $m\in2\mathbb Z_2$, $D$ is odd. For odd $m$, substituting $m=r+8k$ into $A,B$ gives the table.
+
+| $r\bmod 8$ | $A\bmod256$ | $B\bmod256$ |
+|---:|---:|---:|
+| 1 | 192 | 64 |
+| 3 | 64 | 128 |
+| 5 | 0 | 192 |
+| 7 | 128 | 0 |
+
+The residue $128$ has odd valuation, and $192$ has valuation six with odd part $3\bmod4$. Every row excludes simultaneous squares. This proves emptiness on the stated family. It does not require that the putative branches generate a particular real quadratic field. $\square$
+
+**PROVED — split comparison.** The same nondegenerate normal form also has no split rational member. In the split form the sixteen projected values in the rational coordinate are individually rational, giving $a_r/\lambda,ib_r/\lambda\in\mathbb Q$. Thus $it/\lambda^2$ is rational, $-u$ is a nonzero square, and the $Y_r$ are still distinct rational numbers. Consequently $-A,-B$ must be squares. The parameter recovery above applies, including $e_2/\lambda^2\ne0$ since the $ib_r/\lambda$ are real. At $m\equiv1,2\bmod3$, $-B\equiv2\bmod3$. At $m\equiv0,3\bmod9$, $-A\equiv6,3\bmod9$, respectively. At $m\equiv6\bmod9$, $-B\equiv54\bmod81$, of valuation three. For $v_3(m)<0$, or at $m=\infty$, $u\equiv v\equiv-1\bmod3$. The reduction of the monic integral $G$ is then $Y^4+Y^3+2Y^2+Y+1$, with only the root $1$ in $\mathbb F_3$, and differs from $(Y-1)^4$. A split monic integral polynomial over $\mathbb Q_3$ has integral roots, so this excludes those parameters too. The two forms have different local obstructions to descent in this family. $\square$
+
+**COMPUTED.** An independent finite check verifies the pair-cut lattice index, the cut certificates, the character costs and the numerical thresholds using exact arithmetic. It also verifies both coordinates of (8) on a genuine ten-prime tuple. [check_profiles.py](check_profiles.py)
+
+**COMPUTED.** The second script checks the discriminant and parameter identities in $\mathbb Q(m)$, all odd residues modulo $256$, and the split control at $3$. Run it with Python and SymPy. [check_component.py](check_component.py)
+
+## 6. Where the argument stops
+
+**PROVED — exact loss.** At $L=\mathbb Z^4$ the lift furnished by the valuation columns has degree one, so §2.1 has no volume amplification. Also $L^*=\mathbb Z^4$, so §2.2 gives no fractional character of small norm from the index. The ten-pair-cut example above shows that all monomial gaps and the exact value of the index together still permit exponent $10/3$ in the angle model. On fifteen balanced, simple, squarefree cuts the singleton columns also prevent the mod-two gain. The local obstruction in §5 concerns one parametrized family at $15/4$. A sequence of sporadic tuples need not lie on any member of that family.
+
+**EVIDENCE — relation to the record.** The record already has affine rigidity at small arc constant, Gaussian character gaps, and the volume bound on the degree-one model. I found no statement there that treats the unbounded index by a dual lattice logarithm estimate and bounded indices simultaneously by ramified covers, no five-mark squareclass bound of (6), and no local emptiness result for the round-24 family. These results specialize known tools. I see no conflict with the polynomial or fake-circle barriers as stated with their hypotheses. [Affine rigidity citation in round 4](/home/user/Jarnik/docs/claude_review/round4/outside.md:420) · [The original cover discussion](/home/user/Jarnik/docs/claude_review/papers_check/check.md:53) · [The previous rational-parameter search](/home/user/Jarnik/docs/claude_review/round24/referee_search.md:216)
+
+**PROVED — an additive identity for the index-one test.** On an actual one-unit-class tuple with ten simple pair cuts and no singleton cuts, orient every prime toward its two-mark side. For the pair $ij$ let $\beta_{ij}=\beta_{ji}$ be its Gaussian block, chosen in that orientation, with norm $n_{ij}$. Put $P_i=\prod_{j\ne i}\beta_{ij}$. Then $z_i$ is a common scalar times $P_i/\bar P_i$. Define signed $t_{ij}=\det(P_i,P_j)/n_{ij}$, viewing Gaussian integers as plane vectors. This is an integer because $\beta_{ij}$ divides both vectors in the Gaussian ring. Its absolute value is precisely the reduced chord cofactor: $D(y_i/y_j)=|P_i|^2|P_j|^2/n_{ij}^2$ by disjoint prime supports, and $|y_i/y_j-1|=2|\det(P_i,P_j)|/(|P_i||P_j|)$. All $t_{ij}$ are nonzero for distinct points. The exact identity is
+$$
+ \sum_{i=1}^5\frac{P_i}{\prod_{j\ne i}t_{ij}}=0. \tag{8}
+$$
+Indeed for every homogeneous cubic $F$ one has $\sum_i F(P_i)/\prod_{j\ne i}\det(P_i,P_j)=0$. In a real determinant-one coordinate frame with all second coordinates $Y_i$ nonzero, put $s_i=X_i/Y_i$. This is the coefficient of degree four in the Lagrange interpolation formula for the cubic $F(s,1)$, divided by the common $\prod Y_i$. Apply it in the original plane with cubic $F(P)=|P|^2 P$, component by component, and use $|P_i|^2=\prod_{j\ne i} n_{ij}$. This proves (8). Clearing denominators by $\prod_{a<b}|t_{ab}|$ gives a relation with integral coefficients of absolute value at most $\exp(H_\Sigma)$. The coefficients move with the tuple, and the $P_i$ can all be large. Equation (8) alone supplies no lower bound for $H_\Sigma$.
+
+**HEURISTIC — next check.** I would ask for an independent referee of §2, especially the passage from the real inverse branches to a single closed exceptional set downstairs. For the next mathematical attack I would start with $I=1$, one varying squarefree prime per two-mark cut and no singleton cuts. I would check whether (8), together with the shared Gaussian divisors of the $P_i$, forces a power-size coefficient outside a fixed proper locus. Even a uniform gain over $10/3$ for those actual Gaussian arguments would distinguish them from the explicit angle models of §4. For the balanced lemma, the corresponding first test has fifteen simple cuts. Neither test follows from controlling the number of prime factors.
+
+# Part II — The parent norm, covers at index one, and the ten pair cuts
+
+**PROVED — principal arithmetic result.** Take the one-unit-class ten-pair model of (8), with pairwise coprime block norms. If the norm vector belongs to a fixed rational subspace $U$ of dimension at most two, equation (8) and the shared Gaussian divisors give
+$$
+ \max_{ij}|t_{ij}|\gg_U (\max_{ij}n_{ij})^{1/6}.
+$$
+The constant may depend ineffectively on the subspace $U$. This gives an approximation exponent at least $38/11>10/3$ for all its genuine simple ten-pair tuples, and $40/11$ when the norms are comparable. An elementary argument already gives exponent $4$ on a generic plane with comparable norms, including an explicit family of squarefree index-one profiles. The harder planes lead to a fixed genus-five curve and a real five-star lemma. See II.6–II.7 for the proofs.
+
+**PROVED — an independent short-interval result.** In the simple ten-pair family there is a pointwise gain over $10/3$ if the six block norms separating even one pair lie in $[X,X+cX^{1/6}]$, for an absolute $c>0$. That pair's scalar cofactor has size $\gg\sqrt X$. If the other four block norms are comparable to $X$, the resulting lower bound is $\Delta\gg H^{-1/4}$, with no exceptional set. A second test below uses the residues of the ten norms modulo a large integer, without requiring a short interval. These restrictions on the norms are additional hypotheses. The general case of comparable norms with no further structure stays open.
+
+**PROVED — scope of the cover argument.** For index $7$ the height comparison in the question goes the other way. The primitive subtuple norm generally needs to be *smaller by a power* than the parent norm to apply §2. Large clusters do have this property on almost every subtuple, but at the growth scale almost every subtuple, including in the angle models, has index one. There is an interior-branched cover that lifts index-one points with bounded cofactors. Its target point upstairs is singular.
+
+**EVIDENCE — status of the polynomial test.** I do not know if the full function-field system has a nondegenerate solution, even with linear blocks. Below are an exact reconstruction from four base blocks, an obstruction valid in every degree for norm polynomials spanning a pencil, and a finite-field exclusion for linear blocks. The linear-block moment problem was already stated explicitly in the record. [Previous five-point system and numerical search](/home/user/Jarnik/docs/claude_review/growth/cotangent.md:245)
+
+## II.1. Which height enters the grid argument?
+
+**PROVED.** Use a primitive parent of norm $N$, write $W=\log N$, and let its $m$ points occupy an angular arc of width at most $C N^{-1/4}$. Angular width bounds chordal width. For any five distinct marks $S$, write $G_S$ for their Gaussian gcd and $H_S=N/|G_S|^2$. Division by $G_S$ leaves all ratios and valuation-column differences unchanged. At each split $p$ its effect is to replace $e_p$ by $\max_{S}a_{ip}-\min_{S}a_{ip}$. In particular (1) gives $H_S\ge C^{-2}N^{1/2}$. The sufficient comparison for §2 at a given $g$ is
+$$
+ H_S\le C^{-g}N^{g/4},\qquad\text{equivalently}\qquad
+ |G_S|^2\ge C^g N^{1-g/4}. \tag{II.1}
+$$
+Take $g=94/25$ at index at least $7$. This requires the exponent $47/50$ on the primitive norm, whereas a bounded-factor comparison gives exponent $1$. The §2 theorem therefore does not imply the proposed fixed-set inclusion at $H_S\asymp N$. At index at least $9$, $70\cdot9>5^4$ and one can use $4<g<B_9$. Then every $H_S\le N$ qualifies for large $N$. For squareclass dependence, (4) gives the necessary condition $|G_S|^2\le4C^4$. In particular every such tuple with larger gcd is excluded, without a closed set.
+
+**PROVED — bounded gcd really can occur with dependence.** Let $u_j=t+c_j+i$ for $c_j=0,1,3,7$ and take five of the six two-element sets $A\subset[4]$. Put $z_A=\prod_{j\in A}u_j\prod_{j\notin A}\bar u_j$ for positive integral $t$. Their norms agree. All five monic quartics have the same cubic coefficient, so their differences have degree at most two, and their common radius is asymptotic to $t^4$. Their quadratic coefficients have distinct imaginary parts, since the six sums $\sum_{j\in A}c_j$ are distinct. Thus they occupy a critical arc with an absolute fixed $C$. At least two complementary pairs survive and give $z_A z_{A^c}=z_B z_{B^c}$, an exact squareclass relation. The eight linear factors are distinct and no one divides all five polynomials. Bézout over $\mathbb Q(i)[t]$, followed by clearing denominators, bounds the Gaussian gcd at every specialization. Divide by it and take the five points as the parent. Now $H_S=N\to\infty$ and the relation persists. This example concerns squareclass dependence. Its valuation rows are affinely dependent. [Exact polynomial checks](check_part_ii.py)
+
+**PROVED — almost every gcd supplies the missing power.** For every $\epsilon>0$, all but $O_{C,\epsilon}(m^4)$ ordered five-tuples satisfy
+$$
+ \left|\frac{\log H_S}{W}-\frac{15}{16}\right|\le\epsilon . \tag{II.2}
+$$
+This also holds for the angle model with the axial monomial gap as stated in the expert note, even with differing units. Here and below we may discard bounded $N$, since the number of distinct lattice points, or distinct allocation rows with their units, is then bounded.
+
+*Proof.* Expand each prime into $e_p$ threshold layers $l=(p,k)$ of weight $w_l=\log p$. Write $\sigma_{il}=2{\bf1}_{a_{ip}\ge k}-1$ and $V_{il}=\sqrt{w_l/W}\,\sigma_{il}$. Write $d_{ij}=\sum_p|a_{ip}-a_{jp}|\log p$. Split the arc into a bounded number of arcs of width at most $\tfrac12N^{-1/4}$, and separate the four unit classes, giving a total of $L=O_C(1)$. Within a piece $d_{ij}>W/2$ for distinct rows. Indeed the half phase difference is within $\tfrac14N^{-1/4}$ of $\pi\mathbb Z$ after fixing the units, and the axial gap is at least $\arcsin(e^{-d_{ij}/2})$. For genuine points (1) suffices. A repeated allocation in a piece would give the very same point. Thus the Gram matrix $A$ of the rows in one piece has diagonal one and nonpositive off-diagonals. The symmetric entrywise nonnegative matrix $\operatorname{Id}-A$ has largest eigenvalue at most one by $A\ge0$, and its spectral radius equals its largest eigenvalue. Hence $\|A\|\le2$. Stacking the pieces gives $\|V\|^2\le2L$.
+
+Choose five row indices independently and uniformly. The fraction $\eta$ of layer weight constant on all five is
+$$
+ \eta=2^{-4}\sum_{J\subset[5],\,|J|\ {\rm even}} f_J,\qquad
+ f_J=\sum_l(w_l/W)\prod_{j\in J}\sigma_{i_jl}.
+$$
+This follows by adding the two indicators for all plus or all minus at a layer. For $|J|=2,4$, independence gives
+$$
+ \mathbb E f_J^2=\sum_{l,l'}\frac{w_lw_{l'}}{W^2}
+ \left(\frac1m\sum_i\sigma_{il}\sigma_{il'}\right)^{|J|}
+ \le \frac{\operatorname{tr}((VV^t)^2)}{m^2}\le\frac{2L}{m}.
+$$
+The trace bound uses $\operatorname{tr}(VV^t)=m$. The empty term is one, and Chebyshev on the finitely many remaining terms proves the assertion since $\log H_S/W=1-\eta$. This proof keeps pairs drawn from different pieces. $\square$
+
+**PROVED — corrected grid conclusion.** Choose $0<\epsilon<47/50-15/16=1/400$. Then (II.2) implies (II.1) at $g=94/25$ for large $N$. By §2, all the qualifying index-at-least-seven tuples lie on a single proper closed $Z$. In split coordinates clear the Laurent denominators in any nonzero equation of $Z$ and then substitute $z_i/z_5$. Clearing the resulting power of $z_5$ gives a nonzero polynomial in five variables of some fixed total degree $D$ (specialize $z_5=1$ to check nonvanishing). It has at most $D m^4$ zeros on the grid, by Schwartz–Zippel. Thus the **total** number of such indices is at most $(D+O_C(1))m^4$, including the atypical gcds. Counting just those satisfying (II.1) costs only $D m^4$. At index at least nine the latter count applies to all five-tuples. For squareclass dependence the total is $O_C(m^4)$ directly by (II.2) and the gcd bound. A fixed positive proportion in any of these counts bounds $m$ uniformly in the proportion and $C$. Having just more than $D m^4$ tuples of unspecified height at index seven is not that criterion.
+
+## II.2. The index in a growth obstruction
+
+**PROVED — arbitrary fixed arc constant, all unit classes.** Suppose $W\le A m\log m$, as on a putative obstruction to improving the known growth order. All but $O_{A,C}(m^4)$ ordered five-tuples have full rank and index **exactly one**. This holds for genuine clusters and for gap-admissible angle models. It rules out a positive proportion at index $\ge5$, or even index, in any such family including versions with prime powers. The parallel audit now also gives $O_A(m^3)$ on its normalized short one-unit arc, with no parity exceptions there. The following proof gives the conclusion on the original grid without imposing that normalization on the five chosen marks. [Parallel audit, Part II.4](../free/answer.md)
+
+*Proof.* For any $s$ rows lying in a single piece of the preceding proof, write $W_B$ for the weighted sum of their coordinate ranges. Each threshold splits at most $s^2/4$ unordered pairs, so $\binom s2 W/2< s^2 W_B/4$ if $s>1$. At any given prime at least half the rows lie in one of the two closed halves of $[0,e_p]$. Among these take the largest piece, so $s\ge m/(2L)$ and $W_B\le W-e_p\log p/2$. It follows that $e_p\log p\le4LW/m$ for $m$ large. All primes $\le\sqrt m$ together contribute at most $4LW/\sqrt m=o(W)$. At larger primes $e_p\le8LA$.
+
+Discard the $O_C(m^4)$ tuples with $W_S=\log H_S>31W/32$, by (II.2). Also discard those with any pair satisfying $|\langle V_i,V_j\rangle|>1/128$. The trace bound above makes their number $O_C(m^4)$. Each remaining pair has $d_{ij}=(1-\langle V_i,V_j\rangle)W/2$. After deleting the small primes this is still greater than $31W/64$ for large $m$. The weighted range of the retained five rows on the large primes is at most $31W/32$. These five rows are affinely independent there. Otherwise separate a real affine relation into probability distributions on disjoint supports with the same barycentre. Independent samples from the two sides in a coordinate rescaled to $[0,1]$ give $\mathbb E|X-Y|\le\mathbb E(X+Y-2XY)\le1/2$. Some cross pair then has distance at most half the weighted range, a contradiction. In particular some four-column minor is nonzero and has absolute value at most $24\lceil8LA\rceil^4=:D_0$. Every prime divisor of the index is at most $D_0$.
+
+For fixed prime $\ell$, every residue class of allocation rows modulo $\ell$ contains $O_C(\ell)$ rows. In one piece write $2\langle a_i,\phi\rangle=\theta+\delta_i+2\pi n_i$ with $\delta_i$ in an interval of length $\tfrac12 N^{-1/4}$. Two matching rows in the same winding class $n_i\bmod\ell$ give $v=(a_i-a_j)/\ell$ integral of weight $\le W/\ell$ and $\operatorname{dist}(\langle v,\phi\rangle,\pi\mathbb Z)\le N^{-1/4}/(4\ell)$. The gap excludes $v\ne0$ for every $\ell\ge2$. Equality of the rows in a piece is also excluded. There are at most $L\ell$ choices. The proof for genuine points may take their actual prime angles. In an affinely dependent ordered five-tuple modulo $\ell$, the first dependent row lies in a previous affine span of dimension at most three, hence with at most $\ell^3$ residues. Fix the other four slots to obtain $O_C(\ell^4m^4)$ tuples. Sum over the finitely many $\ell\le D_0$. This also gives the even-index bound without the growth hypothesis. $\square$
+
+**PROVED — two qualifications.** For genuine clusters without any growth hypothesis, combine the index-at-least-seven count with the fixed-prime counts for $2,3,5$ and (II.2) and the typical pair-distance argument for real rank (using all primes). The same $O_C(m^4)$ upper bound holds for all failures of index one, using §2. For a squarefree parent every anchored column can separately be signed into $\{0,1\}^4$. A binary $4\times4$ matrix embeds in a $5\times5$ sign matrix with determinant $16$ times its own, by bordering with ones and subtracting rows. Hadamard gives $|\det|\le5^{5/2}/16<4$. Thus *every* full-rank squarefree index is in $\{1,2,3\}$, without any arc assumption. For a squarefree example of even index, use anchor row zero and four binary columns with supports $12,13,14,23$ among the first four rows. Their determinant has absolute value two. Four distinct split primes realize these columns, with no critical-arc assertion. Prime powers can create large formal indices (doubling all columns of an index-one example gives index $16$). The gap excludes positive density of these in growth-scale clusters. This argument does not exclude an isolated high-index tuple with prime powers.
+
+## II.3. Which covers can lift index-one points?
+
+**PROVED — boundary branching.** Over $\mathbb C$, every connected finite étale cover of the torus is an isogeny after choosing a point above its identity. Indeed the finite-index subgroup of $\pi_1((\mathbb C^*)^4)=\mathbb Z^4$ determines a monomial isogeny, and the equivalence for finite covers identifies them algebraically. Over $\mathbb Q$, if the source has a rational point, translate its image to the identity. The pointed group law descends because the lift of multiplication taking the two chosen origins to the origin is unique, and the same holds for inverse. Consequently a geometrically connected cover of the compactification étale above $T$ gives only a translated isogeny there. On the cocharacter lattices conjugation acts by $-1$ also on the finite-index source lattice. Outside the support of the translating point, rational liftability requires each prime column to belong to the image sublattice. For the identity translate this excludes $I=1$ in every nontrivial degree. A fixed nonunit translate allows exceptions at its finitely many primes, as in §2.3. The assertion about divisibility by a ramification index applies at a good integral model and on the particular sheet met by a lifted section. A cover can have unramified sheets above a branch divisor.
+
+**PROVED — no fixed finite list of covers lifts the unrestricted ten-prime profile.** More precisely, the rational five-point ratios obtained from ten distinct split prime norms, one per pair, are not thin in the four-torus. This holds even with all ten norms in $[X^2/2,X^2]$ as $X$ varies. Thus allowing branch loci in the torus, including the specified exceptional hypersurfaces, cannot provide a universal lift from the squarefree profile alone.
+
+*Proof.* Put $K=\mathbb Q(i)$. Start with ten independent variables $B_{ij}$ in $\operatorname{Res}_{K/\mathbb Q}\mathbb G_m$, hence with an open subset of $\mathbb A^{20}$. The map to $T$ first sends each $B$ to $B/\bar B$ and then applies the ten pair columns in the anchored coordinates. The first homomorphism has geometrically connected kernel in each factor. The second has geometrically connected kernel because its column lattice is all of $\mathbb Z^4$. To see saturation intrinsically, use $\mathbb Z^5/\mathbb Z(1,1,1,1,1)$. Differences of two incident edges give all $e_i-e_j$, and an edge has sum two, generating the remaining quotient $\mathbb Z/5$. Thus the composite is geometrically surjective with geometrically connected torus fibres (over a split field the lattice map splits). Its function field extension is regular. Every fixed generically finite dominant geometrically integral cover of degree $>1$ therefore pulls back generically to an integral cover of the same degree, also geometrically integral. Removing the exceptional loci costs only proper closed subsets. The inverse image of any specified thin set is thin in this affine parameter space.
+
+The quantitative Hilbert irreducibility theorem bounds the number of integral points of any fixed thin subset of $\mathbb A^n(\mathbb Q)$ in the box of side $2X$ by $O(X^{n-1/2}\log X)$ with an implied constant that can depend on the thin set. On the other hand the prime number theorem for $1\bmod4$ supplies $\gg X^2/\log X$ distinct primes in the indicated interval. For each, choose one Gaussian generator, which lies in the box. Ten ordered distinct choices give $\gg X^{20}/(\log X)^{10}$ parameter points, exceeding the bound. They give primitive genuine tuples by taking $z_i=(\prod_e\bar B_e)P_i/\bar P_i$. The five marks are distinct since the supports distinguish them. This proves the assertion. No angle constraint on these points has been imposed. [S. D. Cohen, *The distribution of Galois groups and Hilbert's irreducibility theorem*, Proc. London Math. Soc. 43 (1981), 227–250](https://doi.org/10.1112/plms/s3-43.2.227) $\square$
+
+**PROVED — a cubic cover that does lift.** In homogeneous torus coordinates $u_i$ modulo a common multiplier, set
+$$
+ J(u)=\frac{1}{(2i)^{10}}\,
+       \frac{\prod_{i<j}(u_i-u_j)}{(\prod_i u_i)^2}.
+ \tag{II.3}
+$$
+This is defined over $\mathbb Q$ on the norm-one twist because simultaneous inversion leaves it unchanged, since there are ten sign changes and every index occurs four times. Evaluate at $u_i=P_i/\bar P_i$. Then $u_i-u_j=-2i\,t_{ij}n_{ij}/(\bar P_i\bar P_j)$. Each edge occurs twice in $\prod_i|P_i|^2$ and $H=\prod_e n_e$. Cancellation in (II.3) gives the exact identity
+$$
+ J(u)=\frac{\prod_{i<j}t_{ij}}{H^3}. \tag{II.4}
+$$
+For any fixed rational cube class $b$, the normalization in $v^3=J/b$ is a degree-three cover branched in the torus along the ten diagonals, each with simple branch divisor downstairs. If $\prod t_{ij}=b r^3$ with $r\in\mathbb Q$, the point has the rational lift $v=r/H$. A fixed bound on all $|t_{ij}|$ needs only finitely many such covers. The formula includes squarefree tuples of index one and uses arithmetic of the cofactors beyond contact at the boundary.
+
+**PROVED — why the smooth-target calculation does not repeat.** At the identity the branch equation has order ten in four local parameters. The hypersurface $v^3-J/b=0$ has multiplicity three there and is already normal near the identity by the hypersurface criterion. It is smooth off $v=0$ and off the singular locus of its reduced branch divisor within $v=0$, which has codimension at least two upstairs. There is one point above the identity and $|v|=O_b(\Delta^{10/3})$. The elementary McKinnon–Roth volume/multiplicity bound on the pullback of $B$ has the same ratio $(3\cdot70)/3=70$ as downstairs. This leaves open a finer calculation of the approximation constant at this singular point. I have no lift to a specified cover branched on the fifteen exceptional hypersurfaces for the shrinking-arc points.
+
+**PROVED — uniqueness for a limited divisibility calculation.** Over the split torus an invertible rational function away from the diagonals is, up to a constant, a character times powers of the differences. In five homogeneous coordinates write it as $\prod u_i^{a_i}\prod_{i<j}(u_i-u_j)^{v_{ij}}$, with $\sum a_i+\sum v_{ij}=0$ and integral exponents. This follows by unique factorization of Laurent polynomials in four anchored coordinates. After substitution, factor out the indicated powers of the signed cofactors and constants. The exponents of $\beta_{ij},\bar\beta_{ij}$ are then respectively $v_{ij}+a_i+a_j$ and $v_{ij}-s_i-s_j-a_i-a_j$, where $s_i=\sum_{j\ne i}v_{ij}$. To force a $k$-th power by cancellation in each block formally, both must vanish modulo $k$. Write $A=\sum a_i$. The first condition gives $v_{ij}=-a_i-a_j$ and $s_i=-3a_i-A$ modulo $k$. The second gives $a_i+a_j+2A=0$ for every pair. All $a_i=h$, and $12h=0$. Homogeneity gives $15h=0$. Thus $3h=0$ and $v_{ij}=h$. The exponent pattern is generated modulo powers by (II.3) (with $a_i=-2,v_{ij}=1$). In particular the cubic is the only primitive nontrivial possibility in this formal test. This puts no restriction on lifts forced by further additive equations or specializations.
+
+## II.4. A power-size cofactor on an integer subfamily
+
+**PROVED — six norms in a short interval.** There are absolute $c_0,c_1>0$ and $X_0$ such that if integers $x_\nu\in[X,X+c_0X^{1/6}]$, $1\le\nu\le6$, with $X\ge X_0$, satisfy
+$$
+ \prod_{\nu=1}^6 x_\nu=s^2+t^2,\qquad s,t\in\mathbb Z,\quad t\ne0 ,
+$$
+then $|t|\ge c_1\sqrt X$.
+
+*Proof.* Take $X$ to be the minimum integer and write $x_\nu=X+k_\nu$, $0\le k_\nu\le K$, one $k_\nu=0$. Replacing a real left endpoint by the minimum only relaxes the window. Use $K\ge1$, enlarging to one if needed. Put $F(Y)=\prod(Y+k_\nu)$ and let $e_j$ be the elementary symmetric functions of the six $k_\nu$. The cubic
+$$
+ Q(Y)=Y^3+\tfrac12e_1Y^2+
+    (\tfrac12e_2-\tfrac18e_1^2)Y+
+    \tfrac12e_3-\tfrac14 e_1e_2+\tfrac1{16}e_1^3
+$$
+has $16Q\in\mathbb Z[Y]$, and $F-Q^2$ has degree at most two. Its coefficients in degrees $2,1,0$ are $O(K^4),O(K^5),O(K^6)$ by homogeneity. Assume $|t|\le c_1\sqrt X$ and take $s\ge0$. Then $Q(X)\asymp X^3$, and
+$$
+ |s-Q(X)|\le\frac{|F(X)-Q(X)^2|+t^2}{s+Q(X)}
+ \ll \frac{K^4}{X}+\frac{K^5}{X^2}+\frac{K^6+t^2}{X^3}<\frac1{16}
+$$
+for large $X$. The denominator bound gives equality $s=Q(X)$. Since $X\mid F(X)$, we now have $X\mid (16Q(0))^2+(16t)^2$. This integer is positive and $\ll K^6+256t^2$. Take $c_0,c_1$ sufficiently small that it is $<X$, a contradiction. $\square$
+
+**PROVED — application to the actual five points.** Write $[A,B]=\operatorname{Im}(\bar A B)$, $m_{ij}=[P_i,P_j]=t_{ij}n_{ij}$, and $s_{ij}=\operatorname{Re}(\bar P_i P_j)/n_{ij}$. Both quotients are integers. Then
+$$
+ s_{ij}^2+t_{ij}^2=D_{ij}:=\prod_{k\ne i,j}n_{ik}n_{jk},\qquad
+ |u_i-u_j|=2|t_{ij}|/\sqrt{D_{ij}} . \tag{II.5}
+$$
+The six factors are exactly the six cuts separating the pair. On the stated window, $\sqrt{D_{ij}}\asymp X^3$, so $|u_i-u_j|\gg X^{-5/2}$. With the other four block norms comparable to $X$, $H\asymp X^{10}$. This proves the exponent $4$ on this subfamily. The short interval is additive. Equal logarithmic weights up to $o(\log X)$, or even a common dyadic interval, are much weaker.
+
+**PROVED — a congruence which does use the shared blocks.** For distinct $i,j,k$ write $l,m$ for the other two marks. The two-dimensional vector identity $m_{jk}P_i-m_{ik}P_j=-m_{ij}P_k$ gives, by taking squared norms and cancelling $n_{ij}n_{ik}n_{jk}$,
+$$
+ 2 t_{ik}t_{jk}s_{ij}
+ =t_{jk}^2n_{jk}n_{il}n_{im}
+ +t_{ik}^2n_{ik}n_{jl}n_{jm}
+ -t_{ij}^2n_{ij}n_{kl}n_{km}=:A_{ijk}(n). \tag{II.6}
+$$
+Take $b$ to be any positive divisor of $D_{ij}$. If each of the ten $n_e$ has a signed residue $r_e\bmod b$ of size at most $K$, and $T=\max|t_{ab}|$, then (II.5) and (II.6) give
+$$
+ b\mid A_{ijk}(r)^2+4(t_{ij}t_{ik}t_{jk})^2,\qquad
+ b\le9 T^4K^6+4T^6 . \tag{II.7}
+$$
+The last inequality uses positivity, since all $t_{ab}\ne0$. For example, if $K\le b^\delta$, $\delta<1/6$, it forces $T\gg b^{\min(1/6,(1-6\delta)/4)}$. This applies to separated block sizes close to arbitrary multiples of $b$ as well. A triangle suffices, so it is the plane-vector relation underlying (8) that supplies this extra congruence. Neither window nor congruence condition follows from the cut balance in the growth problem.
+
+## II.5. The polynomial equations
+
+**PROVED — normalization and specialization.** Use coefficientwise conjugation on $\mathbb C[x]$ with $x$ real. In the simple pure profile require the ten $\beta_e$ of the same positive degree $d$ and their conjugates to have pairwise disjoint root support across the twenty polynomials. Repetition within one is allowed. Require $[P_i,P_j]/n_{ij}=t_{ij}$ to be nonzero real constants. Nonconstant common support between any two of the twenty factors changes the pure simple profile or cancels some of its contact. One can assume all blocks monic. In fact the vanishing of the leading term of $[P_i,P_j]$ forces all five leading coefficients of the stars to have the same argument modulo $\pi$. Dividing each block by its leading coefficient thus scales each reduced determinant by a nonzero *real* constant. Conversely monic solutions suffice for the existence problem.
+
+For a solution over $\mathbb Q(i)[x]$, clear the denominators by a common positive integer multiplier of the blocks. Specialize $x$ to large positive integers and set $z_i=(\prod_e\bar\beta_e)P_i/\bar P_i$, which are Gaussian integers. The primitive norm is $\asymp x^{20d}$. Indeed all pairwise polynomial gcds among the twenty factors are trivial, so all pairwise gcds of distinct factors' values divide fixed nonzero Gaussian integers by Bézout. At a Gaussian prime at most one factor value can have valuation above a fixed bound supported on the finitely many resultant primes, and each factor is absent from some $z_i$. This bounds the common gcd uniformly. Likewise reduction of any pair can only reduce the absolute scalar cofactor by bounded factors, because the unreduced six-factor word already has nonzero constant imaginary part. Equation (II.5) gives $\Delta\asymp x^{-6d}$. Hence the primitive tuples attain exponent $10/3$ on this curve, up to constants. A calculation over $\mathbb C$ alone gives no such rational specialization. Also one curve outside today's known exceptional components can itself be put into a fixed exceptional set. To determine an **essential** approximation constant, one needs such approximants outside *every* fixed proper set.
+
+**PROVED — what the literal polynomial wording permits.** With no coprimality assumed, $t_{ij}\ne0$ already forbids a real root in any block, overlap between a block and its own conjugate, and any common root of two different oriented blocks. In the last case choose $i\in e\setminus f$, $j\in f\setminus e$. Then the reduced word $B_{ij}$ and its conjugate would both vanish at that root, although they differ by the nonzero constant $2it_{ij}$. The same argument excludes conjugate overlap of *incident* blocks by taking a shared vertex and a vertex outside their union. It excludes a block's self-overlap by taking any pair it separates. Opposite-conjugate overlap on **disjoint** edges need not be excluded by this argument. Such a prime belongs to two layers, outside the private, pairwise coprime norm family used for II.6–II.7. The no-pencil proof below works even for the literal equations. I have no unrestricted existence decision under either version.
+
+**PROVED — equivalent moments.** The reduced word $B_{ij}=\bar P_i P_j/n_{ij}$ is monic of degree $6d$ and $\operatorname{Im}B_{ij}=t_{ij}$. Writing $r$ for block roots counted with multiplicities, the condition that its nonconstant coefficients be real is equivalent to
+$$
+ \operatorname{Im}\sum_{j\ne i}\ \sum_{r\in\beta_{ij}} r^k
+ \quad\hbox{independent of }i,\qquad 1\le k<6d . \tag{II.8}
+$$
+Indeed Newton's triangular identities say that the first $6d-1$ coefficients below the leading term are real exactly when the corresponding power sums are real. In the reduced word the shared edge cancels from the difference of the two star sums. Nonzero $t_{ij}$ remains a separate condition. The real unknowns here are $20d$ root coordinates, and the $4(6d-1)$ scalar equations can have dependent or degenerate components. Counting them does not decide existence.
+
+**PROVED — no pencil of norm polynomials in any degree.** In a solution the ten $n_e=\beta_e\bar\beta_e$ span a real vector space of dimension at least three. In particular, for linear blocks they must span the full space of real quadratics.
+
+*Proof.* Fix one triangle. Eliminating $s_{ij}$ from (II.5) and (II.6) yields a homogeneous sextic
+$$
+ 4t_{ik}^2 t_{jk}^2\prod_{h\ne i,j}n_{ih}n_{jh}
+        - A_{ijk}(n)^2 = 4(t_{ij}t_{ik}t_{jk})^2>0 . \tag{II.9}
+$$
+It cannot specialize to this constant on a one-dimensional span of nonconstant monic polynomials. If the span has dimension two with real basis $p,q$, the left is a nonzero binary sextic in $p,q$. Over $\mathbb C$ it factors into linear forms. Every factor evaluated at $p(x),q(x)$ must be a nonzero constant, since their product is a nonzero constant in $\mathbb C[x]$. Taking real or imaginary parts shows that $1$ belongs to the real span. All $n_e$ are monic of the same degree, so $n_e=G+c_e$ for one nonconstant monic real $G$ and real constants $c_e$. Now (II.6) expresses $s_{ij}=S(G)$ with $S$ a real polynomial. Substitution in (II.5) gives the polynomial identity
+$$
+ \prod_{h\ne i,j}(Y+c_{ih})(Y+c_{jh})=S(Y)^2+t_{ij}^2 .
+$$
+At a root of a factor on the left the right is strictly positive. This contradiction proves the claim. More generally, if all $n_e=F_e(G)$ for one nonconstant real $G$ and real polynomials $F_e$, (II.5) and (II.6) show that *none* of the $F_e$ can have a real zero. $\square$
+
+**PROVED — reconstruction from four blocks with exact saturation conditions.** Choose monic $\gamma_i=\beta_{i5}$, $1\le i\le4$, degree $d$, disjoint as above. Set $U_i=\prod_{h\le4,h\ne i}\gamma_h$. There is a unique complex polynomial $D_i$ of degree $<3d$ satisfying $[U_i,D_i]=1$. In fact the real-linear map $D\mapsto[U_i,D]$ has target the real polynomials of degree $<6d$, of the same real dimension as its domain. Its kernel is zero since $\bar U_iD=U_i\bar D$ and $(U_i,\bar U_i)=1$ imply $U_i\mid D$. This also constructs $D_i$ over $\mathbb Q(i)$ for rational Gaussian input.
+
+Choose four nonzero real constants $h_i$, pairwise distinct, and set
+$$
+ C_i=U_i+h_iD_i .
+$$
+The entire problem now is to arrange that each of the six monic gcds $E_{ij}=(C_i,C_j)$ has degree $d$ and that the ten blocks $\gamma_i,E_{ij}$ and their conjugates satisfy the original disjointness condition. These conditions are necessary and sufficient. Indeed $P_5=\gamma_i U_i$, $P_i=\gamma_i C_i$ in the reconstruction. In any solution $[U_i,C_i]=t_{5i}$ and $C_i-U_i$ has degree $<3d$, proving necessity of the formula with $h_i=t_{5i}$. Conversely the disjoint gcds meeting $i$ exhaust the monic $C_i$ of degree $3d$. For real $x\to+\infty$,
+$$
+ \operatorname{Im}(C_i/U_i)=h_i/|U_i|^2,\qquad
+ \arg(P_i/P_5)=h_i x^{-6d}+O(x^{-6d-1}).
+$$
+Thus $[P_i,P_j]/n_{ij}$, a polynomial by the shared factor, tends to $h_j-h_i$. It is identically that constant. In any solution the same computation also proves $h_i\ne h_j$ since $t_{ij}\ne0$. For $d=1$ this leaves four complex base roots, four real $h_i$, and six cubic-resultant equations over $\mathbb C$, with the stated gcd, reality and noncollision tests. This is a lower-dimensional exact elimination problem. A zero resultant alone admits extraneous components. Nor does an answer at $d=1$ settle arbitrary $d$.
+
+**PROVED — a real-geometric exclusion for linear blocks.** The ten distinct nonreal roots of a degree-one solution cannot all lie on any generalized circle (a circle or a line) in the complex plane. Write $G_{ij}=B_{ij}=R_{ij}+it_{ij}$ with $R_{ij}$ real monic. Its six roots use each edge adjacent to $ij$ once, three with conjugation and three without. Let $M$ be the adjacency matrix of the line graph of $K_5$, indexed by its ten edges. It is invertible and $6M^{-1}$ is integral. In fact the latter has entries $1$ on the diagonal and on adjacent pairs and $-2$ on disjoint pairs, as direct multiplication shows.
+
+*Proof.* If a nonhorizontal line contains the roots, let $a$ be its intersection with the real axis. At $a$ the three factors of either orientation in $G_{ij}$ have cancelling arguments modulo $\pi$, so $G_{ij}(a)$ is real, impossible. For a horizontal line of nonzero height $b$ the six roots of one $G_{ij}$ have heights $b,b,b,-b,-b,-b$. Reality of power sums of degrees $2,3,4$ implies equality of the power sums of degrees $1,2,3$ of the abscissas in the two triples because in $\operatorname{Im}(x+ib)^k$ the leading term is $kb x^{k-1}$ and the lower terms have already cancelled. Newton gives equality of the abscissa multisets, contrary to disjointness among the original blocks.
+
+If a circle meets the real axis at distinct $a,b$, the numbers $w_e=(a-r_e)/(b-r_e)$, for the ten roots $r_e$, have common argument modulo $\pi$. Thus $G_{ij}(a)/G_{ij}(b)$ is real. Both evaluations have the same nonzero imaginary part, so their ratio is one. Taking logarithms of absolute values gives $M(\log|w_e|)_e=0$. All roots then lie on the perpendicular bisector of $a,b$, a line already excluded. At tangency $a$, the numbers $1/(a-r_e)$ have constant imaginary part. Hence $G'_{ij}(a)/G_{ij}(a)$ is real. Since $G'_{ij}(a)$ is real and $G_{ij}(a)$ is nonreal, it is zero. Taking real parts and inverting $M$ gives $\operatorname{Re}(1/(a-r_e))=0$ for every edge, again a line.
+
+Finally suppose the circle has centre $u+iv$ and radius $\rho<|v|$. Set $a=u+i\sqrt{v^2-\rho^2}$ and $b=\bar a$. The circle is a locus of constant $|(a-r)/(b-r)|=k>0$, as follows by squaring (neither limiting point lies on the circle). For a conjugate root the ratio is $1/\bar w_e$. Thus $|G_{ij}(a)|=|G_{ij}(b)|$ by the three factors of each orientation. With $G_{ij}=R_{ij}+it_{ij}$ this forces $\operatorname{Im}R_{ij}(a)=0$, so $G_{ij}(a)=G_{ij}(b)$. Taking arguments gives $M(\arg w_e)_e=0\bmod 2\pi$. All $w_e/k$ are sixth roots of unity because $6M^{-1}$ is integral. A Möbius transformation cannot take ten distinct roots into these six values. $\square$
+
+**COMPUTED — local obstruction for linear blocks.** There is no solution of the first five moment equations with ten roots in $\mathbb F_{49}$ whose twenty roots and conjugates are distinct. Consequently any rational Gaussian degree-one solution has bad reduction at $7$ after *every* real rational affine change of variable for which the roots are integral at $7$. This is a restriction on reduction, not a $7$-adic nonsolvability claim. Identify $\mathbb F_{49}$ with $\mathbb F_7[i]$. Enumerate a possible four-root star by choosing four of the 21 nonreal conjugate pairs and one of the two signs for each. Store its five sums of imaginary parts of powers $1,\ldots,5$. There are 95,760 stars in 16,660 classes, maximum size 14. Within each class the script tries to select five stars with intersection size one for each pair, no element in three stars, and consistent conjugate choices. That describes exactly an unlabelled copy of the required edge incidence because the ten pair intersections consume all twenty star incidences. The count is zero. The script also gives zero if conjugate collisions on disjoint edges are allowed while oriented roots remain distinct and each star avoids its conjugates. [Complete finite-field enumeration](tenpair_modular.py)
+
+**PROVED and COMPUTED — an exact slice of the linear-block moment test.** If the first two *complex* star power sums are constant across the five vertices, the ten edge roots take at most four different values. Thus this slice of (II.8) is empty with nonzero cofactors, even allowing conjugate overlaps on disjoint edges.
+
+*Proof.* Subtract the common first star sum divided by four from every root. The five star sums are now zero, and the square star sums are still equal. The first condition gives a five-dimensional complex vector space $V$. Indeed the unsigned vertex-edge incidence matrix has rank five, since a dependency would have $a_i+a_j=0$ for all pairs. The four homogeneous quadratic equalities cut out a subset of $\mathbb P(V)=\mathbb P^4$. There are six projective points obtained by putting $+1$ on a Hamilton cycle and $-1$ on its complementary cycle (12 cycles, identified in pairs). A further ten points come from isolating one vertex with its four values zero and putting $1,\omega,\omega^2$ on the three perfect matchings of the remaining $K_4$, where $\omega$ is a primitive cube root of unity. For each isolated vertex there are two assignments modulo scaling. Both constructions satisfy the equations. At a representative of each orbit a $9\times9$ Jacobian minor of the five linear and four quadratic equations, omitting a factor two from each quadratic row, is respectively $32$ and $16\omega+8\ne0$. The script specifies the columns and computes the determinants exactly. Permutation and scaling preserve rank. Thus all sixteen projective points are isolated. The sum of the degrees of *all* irreducible components of the common zero locus is at most $2^4$ by successive intersection. Intersect successively with the four quadrics, retaining contained components and applying projective Bézout to every other component. The sixteen points exhaust that bound. The affine origin is also allowed before restoring the shift, and no case gives ten distinct oriented roots. [Exact Jacobian certificates](tenpair_two_moments.py) $\square$
+
+**PROVED and COMPUTED — one determinant in the ten pole residues.** For disjoint linear blocks put $q_i=P_i/\bar P_i$, $D=\prod_e\bar\beta_e$ and $F=(D(q_i-q_5))_{i\le4}$. Every component has degree at most four, since
+$$
+ D(q_i-q_j)=-2it_{ij}\,\beta_{ij}\!\prod_{f\cap\{i,j\}=\varnothing}\bar\beta_f .
+$$
+The ten quadratic monomials of $F$ lie in the nine-dimensional space of degree-at-most-eight polynomials. Thus some nonzero homogeneous quadric vanishes on the entire image. Put $v_i$ equal to the four coordinate vectors for $i\le4$ and $v_5=-(1,1,1,1)^t$. At the root of $\bar\beta_{ij}$ just the two terms with indices $i,j$ survive in $F=\sum_i v_iDq_i$. Both are nonzero, so $F$ there represents $v_i+h_{ij}v_j$, where $h_{ij}$ is the ratio of the two residues of $q_j,q_i$. Evaluating all ten quadratic monomials at these ten vectors gives a square matrix whose determinant must vanish. With every $h_{ij}=1$ its determinant is $-3$ in lexicographic order. Consequently at least one $h_{ij}$ stays outside a fixed complex neighbourhood of one. At every nonarchimedean place of residue characteristic other than three they cannot all be integral and congruent to one. For example, if at each pole all six other factors $\beta_f/\bar\beta_f$ occurring in $q_j/q_i$ are units congruent to one, we obtain a contradiction even if the twenty roots had collisions on reduction. This test, and the good-reduction test at seven, still allow singular residue configurations. [Exact quadric determinant](tenpair_quadric.py)
+
+**PROVED — one fixed rational plane contains approximants outside every fixed closed set.** Fix ten distinct positive offsets, for example $1,\ldots,10$. Multiply all offsets by a single integer $B$ divisible by $2$ and by every prime dividing an original offset or a nonzero difference of their squares. Denote the new offsets by $c_e$. The plane of norm vectors spanned by $\mathbf1$ and $(c_e^2)_e$ is now fixed for this whole assertion. We can arrange $I=1$, all $n_e=k^2+c_e^2$ in a bounded additive window, and $u\to e$ outside any prescribed proper closed subset $Z$ of the four-torus.
+
+First, for $k\equiv1\bmod B$ the norms are pairwise coprime and odd, and $\gcd(k,c_e)=1$. Indeed a prime shared by two norms must divide a difference of squared offsets, hence divides $B$, while all the norms equal one modulo $B$. We allow an independent rational rotation of each Gaussian block $k+ic_e$. Put $\gamma_e=m_e+i$, where each positive $m_e$ is an even multiple of $B$ and of all the earlier $|\gamma_f|^2$ in some fixed ordering. Thus the $|\gamma_e|^2$ are odd and pairwise coprime, avoid the primes of $B$, and each $\gamma_e$ is coprime to its conjugate. Use the new block
+$$
+ \tilde\beta_e=(k+ic_e)\gamma_e/\bar\gamma_e .
+$$
+For every Gaussian prime $\lambda\mid\bar\gamma_e$ require $v_\lambda(k+ic_e)=v_\lambda(\bar\gamma_e)$. This is an ordinary congruence with a choice of nonzero next digit for $k$: at a split prime over $p$, the rational integers map isomorphically modulo $p^a$ to $\mathbb Z[i]/(\lambda^a)$ for all $a$. The conjugate valuation is zero since $p\nmid2c_e$. These conditions make each $\tilde\beta_e$ integral and coprime to its conjugate by transferring the entire selected prime power to the opposite orientation. All norms stay fixed as functions of $k$. Also choose one new split prime per edge, outside all preceding moduli, and impose valuation exactly one in $k^2+c_e^2$ there using a simple root modulo that prime. The Chinese remainder theorem realizes all conditions together with $k\equiv1\bmod B$. The dedicated primitive columns give $I=1$.
+
+As $k$ goes to infinity along this progression, the torus point tends to the pair-column image of $\big((\gamma_e/\bar\gamma_e)^2\big)_e$. Given any neighbourhood of the identity, take every $m_e$ sufficiently large to put this limit in that neighbourhood. The possible limits with this restriction are Zariski dense. Each admissible prefix of the $m_e$ has infinitely many possible next entries, so induction on polynomial coefficients gives Zariski density of these parameters in $\mathbb A^{10}$. The map to $T$ is dominant by the rational parametrization of the norm-one torus, squaring, and the surjectivity of the pair-column map in II.3. We may therefore choose the limit outside $Z$. Then all sufficiently large $k$ also miss $Z$. Shrinking the neighbourhoods proves the assertion with unbounded height on this *one* plane. This construction gives approaching points, without asserting sharpness of any of the lower bounds or squarefreeness of these block norms.
+
+## II.6. Finitely many bounded-cofactor tuples on each fixed rational plane of norm vectors
+
+**PROVED.** Fix a rational subspace \(U\subset\mathbb Q^{10}\) of dimension at most two and a constant \(T\). In the genuine ten-pair-cut model of Part I, equation (8), only finitely many private pairwise coprime block-norm vectors \(n=(n_{ij})\in U\) have \(0<|t_{ij}|\le T\) for all pairs. This allows the norms to grow at unrelated rates a priori. The finiteness assertion is individual to \(U,T\).
+
+### From the cofactor bounds to a conic
+
+**PROVED.** Write \(P_i=\prod_{j\ne i}\beta_{ij}\), \(n_{ij}=|\beta_{ij}|^2\), \(t_{ij}=\det(P_i,P_j)/n_{ij}\), and \(s_{ij}=\operatorname{Re}(\bar P_iP_j)/n_{ij}\). Both quotients are integral. The norm gives
+\[
+ s_{ij}^{\,2}+t_{ij}^{\,2}=\prod_{a\notin\{i,j\}}n_{ia}n_{ja}.
+ \tag{II.10}
+\]
+For distinct \(i,j,k\) and complementary indices \(l,m\), define
+\[
+ A_{ijk}=t_{jk}^{\,2}n_{jk}n_{il}n_{im}
+ +t_{ik}^{\,2}n_{ik}n_{jl}n_{jm}
+ -t_{ij}^{\,2}n_{ij}n_{kl}n_{km}.
+\]
+Put \(m_{ij}=t_{ij}n_{ij}\). Taking squared absolute values in \(m_{jk}P_i-m_{ik}P_j=-m_{ij}P_k\), using \(|P_i|^2=\prod_{a\ne i}n_{ia}\), and dividing by \(n_{ij}n_{ik}n_{jk}\) gives \(2t_{ik}t_{jk}s_{ij}=A_{ijk}\). In particular \(s_{ij}\), with a fixed choice of \(k\), is a real homogeneous cubic in the \(n\)'s once the \(t\)'s are fixed.
+
+Fix the signed \(t\)'s along a putative infinite subsequence. Dimension one gives finiteness by (II.10) and the homogeneous cubic, since their difference is a homogeneous sextic taking a nonzero constant value. In dimension two choose a lattice basis of \(U\cap\mathbb Z^{10}\). Write \(n_e=L_e(p,q)\) for rational integer linear forms and integer \(p,q\). Substituting for fixed \(i,j,k\) gives one homogeneous rational binary sextic \(F(p,q)=c\ne0\), with \(c=t_{ij}^2\) and \(F=\prod_{a\notin\{i,j\}}L_{ia}L_{ja}-s_{ij}(L)^2\). There are infinitely many projective parameter slopes since \(F\) takes a fixed nonzero value.
+
+After clearing denominators each primitive integer irreducible factor of \(F\) has a fixed nonzero integer value on an infinite subsequence, by divisibility. Any irreducible factor of degree at least three is excluded by Thue's theorem on binary forms. Two independent rational linear factors fix \(p,q\). A linear factor with fixed value confines the parameters to an affine line. On this line all equations (II.10), with their cubic substitutions, hold identically by the infinite subsequence. At least one \(L_{ab}\) is nonconstant since the map into \(U\) is injective on parameters. Evaluating (II.10) for \(i=a\) and \(j\notin\{a,b\}\) at its real root is impossible since \(t_{ij}\ne0\). Finally, two nonproportional irreducible quadratic factors with fixed nonzero values would give a nonzero homogeneous quadratic vanishing on infinitely many slopes by taking a linear combination. A definite quadratic with fixed nonzero value has finitely many integer representations. The only remaining possibility is an indefinite nonsplit rational quadratic \(Q(p,q)=d\ne0\).
+
+**PROVED.** Diagonalize the real conic as \(u v=1\) by a real linear change of the two coordinates. The point \((p,q)\) on the conic is a real linear combination of \(u\) and \(u^{-1}\). Pass to one of its two real branches and take \(u>0\). Every \(n_e\) now has the form \(a_eu+b_e/u\) with \(a_eb_e\ne0\), since the isotropic lines of a nonsplit rational quadratic have irrational slopes and \(L_e\) is rational and nonzero. All the norm identities (II.10) and cubic reconstruction identities extend over the conic by equality at infinitely many parameters. Every \(n_e\) stays positive on \(u>0\). Indeed it is positive at actual tuples, and (II.10) for a pair whose product includes \(n_e\) precludes a real zero. Hence \(a_e,b_e>0\). Distinct forms \(L_e,L_f\) are nonproportional. If they were proportional, write \(n_e/n_f=A/B\) in lowest terms. Coprimality forces \(n_e=A,n_f=B\) at all sample points, impossible for a nonconstant Laurent polynomial taking a fixed value infinitely often. Consequently the ten ratios \(b_e/a_e\) are distinct.
+
+Define \(V_{ij}=(s_{ij}+it_{ij})/(s_{ij}-it_{ij})\), a rational function of \(u\). On every sample point it equals \((P_j/\bar P_j)/(P_i/\bar P_i)\), so \(V_{ij}V_{jk}=V_{ik}\) identically. At zero and infinity, (II.10) shows that \(s_{ij}\) has a pole of order three. Thus \(V_{ij}=1+O(u^3)\) at zero and \(1+O(u^{-3})\) at infinity. The only remaining possible zeros and poles of \(V_{ij}\) are the two roots \(\pm i\sqrt{b_e/a_e}\) for any of the six edges occurring in (II.10). At each such root exactly one of \(s_{ij}\pm it_{ij}\) vanishes simply, since the six edge forms occurring in (II.10) have disjoint simple roots and \(2it_{ij}\ne0\). Real conjugation exchanges the zero and the pole. At a fixed edge root the valuations of \(V_{ij}\) form a cocycle on the five indices. The valuation vanishes for pairs \(ij\) on the same side of the cut given by that edge and is \(+1\) or \(-1\) for pairs on opposite sides. A cocycle with these properties is a signed difference of the indicators of membership in the edge. We can thus choose \(y_e=\pm\sqrt{b_e/a_e}\) independently for each edge so that
+\[
+ V_{ij}=\prod_e\left(\frac{u-iy_e}{u+iy_e}\right)^{
+                  {\bf1}_{j\in e}-{\bf1}_{i\in e}} .
+\]
+The divisor determines the right side up to its constant, which is fixed by \(V_{ij}(\infty)=1\). Comparing linear terms at infinity and logarithmic derivatives at zero shows that both \(\sum_{e\ni i}y_e\) and \(\sum_{e\ni i}1/y_e\) are independent of \(i\). The following real lemma excludes such a configuration.
+
+### A real five-star lemma
+
+**PROVED.** Suppose \(y_{ij}=y_{ji}\) for the ten edges of \(K_5\) are nonzero reals distinct up to sign. Their star sums and their reciprocal star sums cannot both be constant.
+
+*Proof.* Suppose the star sums are \(s\) and the reciprocal sums \(r\). Then the five monic quartics of the star values are
+\[
+ P_i(z)=\prod_{j\ne i}(z-y_{ij})
+       =z^4-sz^3+c_i z^2-r d_i z+d_i.
+\]
+If \(r=s=0\), each \(P_i\) is even and its roots cannot be distinct up to sign. Otherwise consider the real rational parametric plane curve
+\[
+ C(z)=[1-rz:z^4-sz^3:z^2].
+\]
+The degree of the parameterization as a linear system is four. The homogenized forms have no base point. On the open third-coordinate chart, two coordinates are \(Y=z^2-sz\) and \(X=z^{-2}-rz^{-1}\). Since \(Y\) has degree two, failure of birationality requires its involution \(z\mapsto s-z\) to fix \(X\). The only pole of \(X\) is zero, forcing \(s=0\), then \(r=0\) by invariance. Thus \(C\) is an irreducible plane quartic with normalization \(\mathbb P^1\). At the distinct points \(C(0)\) and \(C(\infty)\) the normalization has only one preimage, as the third coordinate can vanish only at these two parameters. Its differential vanishes at each because both vanishing local coordinates have order at least two. These are two distinct real unibranch singularities.
+
+The five lines \(w_1+c_iw_2+d_iw_0=0\), in coordinates \([w_0:w_1:w_2]\), are distinct. Equality would identify two star quartics with four common roots although their star-value sets intersect in exactly one element. The intersection of lines \(i,j\) is \(C(y_{ij})\). No three lines concur, since that would give a point with three distinct finite nonzero preimages while \(Y=z^2-sz\) has degree two. A nonsingular real conic is tangent to all five lines. In the dual plane the five points with no three collinear impose five independent conditions on conics (four points are covered by two lines avoiding the fifth). The resulting conic cannot be reducible since two lines cannot cover five such points, even over \(\mathbb C\). The dual conic is real with real tangencies, hence is split over \(\mathbb R\).
+
+Identify this plane with \({\rm Sym}^2\mathbb P^1\) over \(\mathbb R\) by assigning a point its unordered pair of tangents to the conic, counted with multiplicity over \(\mathbb C\). In coordinates on the dual conic this is the familiar identification with binary quadratics up to scale. The five lines become divisors of pairs containing one of five distinct real parameters \(h_1,\ldots,h_5\). Choose all \(h_i\) finite. Pull back a real equation of \(C\) to a symmetric polynomial \(D(x,y)\) of bidegree at most \((4,4)\) on the product. Since no one of the lines is contained in \(C\), writing \(f(x)=\prod_i(x-h_i)\) gives \(D(h_i,y)=k_i f(y)/(y-h_i)\) with \(k_i\in\mathbb R^\times\). Let \(g\) be the interpolation polynomial of degree at most four with \(g(h_i)=k_i\). Interpolation in the first coordinate shows
+\[
+ D(x,y)=\frac{f(x)g(y)-f(y)g(x)}{x-y}.
+\]
+Indeed both sides have degree at most four in each variable and agree at the five distinct first coordinates \(h_i\). Therefore \(C\) parametrizes unordered pairs in a common fiber of the real degree-five map \(h=f/g\), including a double point on the diagonal at every ramified preimage. The fiber of \(h\) at zero consists of five distinct real points.
+
+We now classify the possible singularities of this plane curve over \(\mathbb C\). At an unordered pair of distinct points in a fiber with local degrees \(m,n\), the map taking ordered to unordered pairs is locally an isomorphism, and the completed analytic local equation is \(X^m-Y^n=0\), after a change of local parameters. This follows by taking a local coordinate on the target and its analytic \(m\)th and \(n\)th roots at the respective sources. The only singular unibranch possibility with \(m+n\le5\) is \(\{m,n\}=\{2,3\}\), an ordinary cusp of delta invariant one. At a diagonal point of local degree \(m\), the equation is \((X^m-Y^m)/(X-Y)\) in the symmetric parameters \(v=XY,w=X+Y\). For \(m=2,3\) the equations \(w=0,w^2-v=0\) are smooth. For \(m=4\) one gets \(w(w^2-2v)=0\). For \(m=5\) one gets \(w^4-3w^2v+v^2=0\), with two branches. The simple diagonal case does not belong to \(C\). It follows that the two unibranch points each force a different ramified fiber of type \((3,2)\). Both critical points in each of these fibers are real because the unordered pair is real and the local degrees distinguish its two members.
+
+The two fibers account for six of the eight ramification units of a degree-five rational map. The genus formula for an irreducible rational plane quartic gives total delta invariant three. After the two cusps there must be another singularity. With ramification budget two, the sole choice that gives any singularity in the local equations above is one fiber of type \((2,2,1)\), giving an ordinary node. The other choices are one triple critical point or two simple critical points over distinct values, neither of which gives a singularity.
+
+Apply real Möbius changes to put the two cusp values at zero and infinity, the triple zero at \(x=0\), the double zero at \(x=\infty\), and the triple pole at \(x=1\). The double pole is \(b\in\mathbb R\setminus\{0,1\}\). The new function, up to real scaling, is
+\[
+ H(x)=\frac{x^3}{(x-1)^3(x-b)^2}.
+\]
+The two remaining critical points are distinct roots of \(q(x)=2x^2+x-3b\). Their \(H\)-values coincide. Neither is a pole. Thus the coefficient vectors of the linear remainders of \(x^3\) and \((x-1)^3(x-b)^2\) modulo \(q\) are proportional. Their constant/linear determinant is \(b^2(9b+16)(24b+1)/16\), by polynomial division (see the [exact critical-value calculation](tenpair_belyi_check.py)). The choice \(b=-1/24\) makes the two roots equal. Hence \(b=-16/9\), giving discriminant \(1+24b=-125/3<0\). The two remaining critical points are nonreal.
+
+The only real critical values contributed by *real* source points are now zero and infinity. The number of real inverse images is constant on each interval of \(\mathbb P^1(\mathbb R)\) complementary to these two, since the restriction to the real circle is proper and a local diffeomorphism there. On either side, sufficiently close to zero there is one real inverse near the triple zero and either none or two near the double zero, by their real local degrees. Thus every regular real fiber has at most three real points. This contradicts the original fiber with five distinct real points, a property invariant under both real Möbius changes. This proves the lemma and the fixed-pencil finiteness theorem. \(\square\)
+
+**PROVED — scope.** The preceding argument treats bounded cofactors on each fixed rational plane. The upgrade to growing cofactors is in II.7. The polynomial obstruction for a two-dimensional real span of norms is shorter. A homogeneous binary sextic constant on a nonconstant polynomial parameterization forces a nonzero linear combination of the two parameter polynomials to be constant, by factorization over \(\mathbb C\). With real independent input take real and imaginary parts to obtain a real such combination. On the resulting affine line at least one norm form has a real root in the line parameter. Equation (1) and cubic reconstruction give the same contradiction. This polynomial argument is independent of the real five-star lemma.
+
+## II.7. A power lower bound on each fixed rational plane of norm vectors
+
+**PROVED.** Let \(U\subset\mathbb Q^{10}\) be a fixed rational subspace of dimension at most two. For every one-unit-class ten-pair tuple with pairwise coprime block norms \(n_e\), \(n\in U\), and nonzero signed cofactors \(t_e\) as in Part I, equation (8), one has
+\[
+       T=\max_e|t_e|\ \gg_U\ \big(\max_e n_e\big)^{1/6}.
+\]
+If the ten coordinate forms restricted to $U$ are pairwise nonproportional, the cofactor exponent is $1/4$. The implied constant may be ineffective. The proof uses Faltings' theorem for a curve of genus five, Roth's theorem on approximation to a fixed algebraic number, and the real five-star lemma of II.6.
+
+**PROVED — integral parameters.** In dimension one coprimality leaves at most one positive integral vector on the fixed ray. For dimension two choose once and for all a lattice basis of \(U\cap\mathbb Z^{10}\), so \(n_e=L_e(p,q)\) with fixed integral linear forms. Put \(B=\max(|p|,|q|)\). The basis and its left inverse give \(B\asymp_U \max n_e\). Pairwise coprimality implies \(\gcd(p,q)=1\). Each form is nonzero whenever the family has a sample.
+
+If two forms are proportional, their positive values have a fixed rational ratio, and coprimality fixes both values. The integer parameters therefore lie on a fixed affine line and have the form \((p_0,q_0)+v(p_1,q_1)\) for \(v\in\mathbb Z\). The origin and direction of this parameterization can be fixed from \(U\) alone. One edge \(ab\) has nonconstant norm on the line. Fix \(i=a\), \(j\notin\{a,b\}\), and a third index \(k\ne i,j\). Use the integer polynomial
+\[
+ 4t_{ik}^2t_{jk}^2\prod_{h\notin\{i,j\}} n_{ih}n_{jh}
+ -A_{ijk}(n)^2-4t_{ik}^2t_{jk}^2t_{ij}^2
+ \tag{P1}
+\]
+from (II.6). This polynomial vanishes at the sample parameter. Its coefficients as a polynomial in \(v\) are \(O_U(T^6)\) and it is nonzero because evaluating at the real zero of \(n_{ab}\) gives a strictly negative number. Its leading nonzero coefficient has absolute value at least one. Cauchy's root bound gives \(B\ll_U 1+|v|\ll_U T^6\). Henceforth all ten forms are pairwise nonproportional.
+
+**PROVED — forcing a line in the Grassmannian.** Write \(M_{ij}(p,q)=t_{ij}L_{ij}(p,q)\), with skew-symmetric extension in the two indices. For each quartet its Plücker relation is a homogeneous quadratic binary form \(E\), with integral coefficients of absolute value \(O_U(T^2)\). At the sample parameters it vanishes since the entries are the minors of \(P_1,\ldots,P_5\). If any \(E\) is a nonzero polynomial then \(B\ll_U T^2\). To see this, remove any powers of the two coordinate variables, apply the rational-root theorem to the resulting polynomial, and use primitivity. On a coordinate axis \(B=1\). We may assume all relations vanish identically in the two parameters.
+
+The coefficient bivectors of \(p,q\) in \(M\) are independent since the forms span the dual parameter plane. Both bivectors are decomposable and their sum is too. Their wedge therefore vanishes, and their rational two-dimensional support spaces meet in a rational line. Choose a generator \(u\in\mathbb Q^5\) of this line. There are rational vectors \(v,w\) such that \(M=u\wedge(pv+qw)\). None of the five \(u_i\) vanishes, since then all the incident entries \(M_{ij}\) would be proportional binary forms. With \(A_i=(v_i/u_i,w_i/u_i)\in\mathbb Q^2\),
+\[
+       t_{ij}L_{ij}(p,q)=u_i u_j\langle A_j-A_i,(p,q)\rangle .
+\]
+Thus the ten pair directions of the five affine points are fixed by \(U\) and are all different. In particular no three of these points are collinear. The configuration is uniquely determined up to translation and nonzero homothety. After matching the first two points of any two such configurations by such a transformation, all other points agree since each is the intersection of the two specified nonparallel lines from the first two points. Fix a rational representative \(A_i^0\) of the shape from one solution, if any. With the nonzero rational antisymmetric constants \(c_{ij}\) given by \(\langle A_j^0-A_i^0,(p,q)\rangle=c_{ij}L_{ij}(p,q)\), one has
+\[
+       t_{ij}=\lambda u_i u_j c_{ij},\qquad \lambda\in\mathbb Q^\times.
+ \tag{P2}
+\]
+**PROVED — finite projective cofactor patterns.** Put \(\ell_i=\langle A_i^0,(p,q)\rangle\) and \(D_i=\prod_{j\ne i}c_{ij}\). The five columns \(W_i=(u_i,u_i\ell_i)\) have all their minors equal to \(1/\lambda\) times the minors of the \(P_i\) at the sample, so the two rank-two matrices differ by one invertible real row transformation (match two independent columns, then take minors against them). Equation (8) of Part I transfers to the \(W_i\). As \(\prod_{j\ne i}t_{ij}=\lambda^4 u_i^3D_i\prod_j u_j\), its two coordinates give
+\[
+       \sum_i\frac1{u_i^2D_i}=0,\qquad
+       \left\langle\sum_i\frac{A_i^0}{u_i^2D_i},(p,q)\right\rangle=0.
+ \tag{P3}
+\]
+For each $i$ choose a perfect matching $\{ab,cd\}$ on the other four vertices and put $m_i=(t_{ab}/c_{ab})(t_{cd}/c_{cd})$. Equation (P2) gives $m_i=\lambda^2(\prod_j u_j)/u_i$, with the *same* numerator for all five $i$. The $m_i$ have bounded denominators depending only on $U$ and size $O_U(T^2)$. The second equation of (P3) becomes $\langle\sum A_i^0m_i^2/D_i,(p,q)\rangle=0$. After clearing fixed denominators its two integral coefficients are $O_U(T^4)$. If either is nonzero then primitivity gives $B\ll_U T^4$. Otherwise both vanish.
+
+The remaining rational projective vectors \([1/u_1:\cdots:1/u_5]\) have their coordinatewise squares on the fixed projective line \(\Lambda\subset\mathbb P^4\) cut out by the three rows with columns \((1,A_i^0)/D_i\). Each triple of columns is independent by noncollinearity. The five coordinate-zero intersections of \(\Lambda\) are therefore five distinct points, each a simple zero. Two coordinates cannot vanish simultaneously, since the remaining three columns are independent. No coordinate vanishes identically, since a second coordinate would then vanish there at some projective point. Over \(\mathbb C\) the cover of the line defined by taking the four coordinate ratios' square roots is connected of degree \(16\). Indeed for \(i=1,\ldots,4\), the ratio of coordinate \(i\) to coordinate five has odd valuation at the \(i\)-th coordinate-zero point, and the other three ratios have valuation zero there. These four squareclasses are independent. The only branch points are the five coordinate zeros, each of inertia order two (units over \(\mathbb C[[z]]\) have square roots). Riemann–Hurwitz gives \(2g-2=-32+5\cdot8=8\), hence \(g=5\). All our projective points have nonzero coordinates, on the smooth étale locus, and thus lift to rational points of the smooth normalization defined over \(\mathbb Q\). Faltings' theorem gives finitely many such projective vectors. By (P2) this leaves finitely many projective cofactor vectors \([t_{ij}]\), depending only on \(U\).
+
+**PROVED — size for each fixed pattern.** Write \(t_{ij}=\lambda t_{ij}^0\) for one of these rational patterns. For a fixed ordered pair and a third index define the real cubic \(s_{ij}(n)=A_{ijk}(t^0,n)/(2t^0_{ik}t^0_{jk})\). It is independent of \(\lambda\) and at a sample gives the true scalar product divided by the common norm. Then the rational binary sextic
+\[
+   F(p,q)=\left(\prod_{h\notin\{i,j\}}L_{ih}L_{jh}
+                         -s_{ij}(L)^2\right)/(t_{ij}^0)^2
+\]
+is fixed, nonzero, and takes the value \(\lambda^2\). We claim \(|F(p,q)|\gg_F B\) at primitive parameters with \(F(p,q)\ne0\) unless \(F\) is a constant times a sixth power of a rational linear form or a cube of a nonsplit indefinite rational quadratic. Indeed away from the projective real roots, \(|F|\gg B^6\). Near a particular root of multiplicity \(m\), every other factor stays bounded away from zero on the normalized direction, so \(|F|\) is comparable to \(B^6\) times the \(m\)-th power of the projective distance to that root. For rational roots, primitivity and integrality of a rational linear form give distance \(\gg_F B^{-1}\), enough for \(m\le5\). For irrational algebraic real roots, Roth gives \(\gg_F B^{-2-1/4}\) in a fixed bounded projective chart, enough for \(m\le2\). Multiplicity three forces an irreducible quadratic with both conjugate roots of multiplicity three. Higher multiplicity is impossible for an irrational root. These cases give \(|\lambda|\gg_U B^{1/2}\), sufficient here.
+
+For the two exceptional sextic shapes, infinitely many distinct positive integral samples for a fixed projective pattern would supply infinitely many distinct parameter rays by primitivity. For each sample rescale \((p,q)\), and therefore every norm, by \(k=|\lambda|^{-1/3}>0\), and every Gaussian block by \(\sqrt{k}\). All \(P_i\) change by \(k^2\), so every cofactor changes by \(k^3\). The new *real* samples have fixed cofactors \(t^0\) up to a common sign. Retain an infinite subsequence with one sign. Their distinct rays remain distinct, and the rescaled parameters lie on \(F=1\). In the sixth-power case they lie on one fixed affine line after passage to one of at most two lines. The nonconstant-norm root argument using (P1) excludes infinitely many points there. In the indefinite quadratic-cube case the parameters lie on a fixed real hyperbola with irrational asymptote directions in the rational parameter plane. The conic proof of II.6 applies. Infinitely many samples extend the rational identities to the curve. Every norm is positive on the chosen branch, the ten forms are pairwise nonproportional, and no nonzero rational form vanishes on either isotropic direction. The five-star lemma then applies without an integrality hypothesis. The resulting star-sum contradiction excludes an infinite set. Thus for the finitely many exceptional patterns only finitely many samples need absorption into the constant. All cases give the claimed exponent. \(\square\)
+
+**PROVED — a nonempty balanced instance.** Assign the ten ranks \(r=0,\ldots,9\) in any fixed order to the edges and take \(L_r(p,q)=p+rq\). There are arbitrarily large samples with the ten block norms distinct comparable primes \(1\bmod4\). The Green–Tao–Ziegler theorem for affine-linear forms of finite complexity applies to \(4x+4ry+1\) on boxes \(X\le x\le2X,\ X/20\le y\le X/10\). No two forms have proportional linear parts, and the local factors are positive at every prime, witnessed by \(x=y=0\) modulo that prime. Each prime supplies a Gaussian block. For comparable norms on any fixed plane and large $X=\max n_e$, no two coordinate forms can be proportional, since proportionality fixes their two norms by coprimality. The largest cofactor is then $\gg_U X^{1/4}$ and its pair distance is $\gg_U X^{-11/4}$. Hence $\Delta\gg_U H^{-11/40}$ for $H\asymp X^{10}$, allowing dependence on the comparison constants.
+
+**PROVED — exponent with no comparability assumption.** First suppose the ten forms are pairwise nonproportional and let $Y=\min n_e$. All other nine norms are $\asymp_U B$, since on the compact projective circle no two normalized independent forms can be simultaneously arbitrarily small. Thus $H\asymp_U B^9Y$. The pair with maximum cofactor gives $\Delta\gg_U B^{-11/4}$ by (II.5). Choose also any pair separated by the cut of norm $Y$. Its nonzero integral cofactor gives $\Delta\gg_U B^{-5/2}Y^{-1/2}$. Raise these inequalities to powers $8/19$ and $11/19$, respectively, and multiply. The result is $\Delta\gg_U (B^9Y)^{-11/38}$.
+
+If two forms are proportional use the fixed affine line from the start of the proof. Let $h$ be the number of nonconstant norms on that line, so $1\le h\le8$. For unbounded positive samples these $h$ norms are all $\asymp_U B$ and all others are fixed, hence $H\asymp_U B^h$. Some pair is separated by at most $4h/7$ of the nonconstant cuts. To check this, the ten separation counts form $M{\bf1}_S$, where $M$ is the edge adjacency matrix of II.5 and $|S|=h$. Their average is $3h/5$. For $h=1,2,3,4,6,7,8$ rounding down gives at most $4h/7$. For $h=5$ not all counts can equal three because $M$ is invertible and $M{\bf1}=6{\bf1}$, so this would imply $\mathbf1_S=\mathbf1/2$. That pair gives $\Delta\gg_U H^{-2/7}$, which also implies the asserted bound $\Delta\gg_U H^{-11/38}$. Bounded samples and a one-dimensional $U$ are absorbed in the constant. No threshold here is uniform over rational planes.
+
+**PROVED — generic quartet, including moving small coefficients.** Only the six norms on a single quartet need have the form $L_{ij}(p,q)$, where the integral forms have coefficients bounded by $K\ge1$ and $\gcd(p,q)=1$. Suppose the three binary quadratics $L_{ij}L_{kl},L_{ik}L_{jl},L_{il}L_{jk}$ are linearly independent. Then, writing $X_4$ for the largest of these six **norms**, one has
+$$
+ \max_{ab\ {\rm in\ quartet}} |t_{ab}|\ \gg\ X_4^{1/2}K^{-3/2}
+$$
+with an absolute implied constant even when the forms vary. Indeed the Plücker quadratic in the proof above is nonzero by independence, has coefficients of size at most $6K^2 T_4^2$, and vanishes at a primitive pair. The rational-root theorem gives $\max(|p|,|q|)\le \max(1,6K^2 T_4^2)$. Since $X_4\le2K\max(|p|,|q|)$ this proves the assertion. For example assign ranks $0,1,2,3,4,5$ of $L_r=p+rq$ to edges $12,34,13,24,14,23$ in that order, with $6,\ldots,9$ assigned to the remaining edges. The coefficient triples of the three products are $(1,1,0),(1,5,6),(1,9,20)$, of determinant $32$. The progression of split primes above gives nonempty squarefree families with precisely these assignments and index one. For *all* sufficiently large such tuples with comparable norms, $T\gg X^{1/2}$ and $\Delta\gg H^{-1/4}$, including when the progression has diameter comparable to its smallest norm. Neither squarefreeness nor primality is necessary for the inequality. The use of the prime-pattern theorem is solely for the squarefree nonvacuity example. This is an arithmetic progression of **block norms**, a different condition from one on the cotangent coordinates of the five marks.
+
+**COMPUTED — an explicit squarefree test case.** The ten terms $34913+2100r$, $0\le r\le9$, are distinct primes $1\bmod4$. The script certifies primality by trial division, constructs Gaussian blocks and checks that all ten reduced cofactors are nonzero integers. [Exact integer checks](check_part_ii.py)
+
+**COMPUTED and PROVED — arithmetic progressions in every assignment.** The entire ten-term progression has the same exponent $4$ under arbitrary relabelling of its edges, assuming comparability. Indeed if all five Plücker forms vanished identically, the five affine points from (P2) would have ten distinct unoriented directions with slopes $0,1,\ldots,9$ because the coefficient vectors of the ten forms are $(1,r)$. Such a set of five real points does not exist. Translate and rescale the ends of the unique horizontal segment to $(0,0),(1,0)$. Each of the remaining points has two anchor slopes $a,b$ among $1,\ldots,9$, which determine it as $(b/(b-a),ab/(b-a))$. The script tests every triple with six distinct anchor slopes and asks whether its three internal slopes are the remaining distinct integers. There are 10,080 triples and zero solutions. Thus for every assignment some nonzero integral Plücker form has coefficients $O(T^2)$ at the sample. Pairwise coprimality of the ten norms implies $\gcd(p,q)=1$, and the rational-root theorem gives $T\gg\sqrt{\max n_e}$ with an absolute constant for these ten forms. The earlier specific assignment has an entirely symbolic certificate. [Exact direction enumeration](tenpair_progression_directions.py)
+
+**PROVED — a moving progression with gaps.** If, on the independent quartet of the generic-quartet test, $n_e=p+r_e q$ with $|r_e|\le K$, $K\ge1$, and the origin of this progression has $p\asymp X=\max n_e$, the same rational-root calculation gives $T\gg\sqrt X/K$. This covers $K=X^{o(1)}$ without a template-dependent height threshold. The independence of the three complementary products must still be checked. The existence of the long progression of primes used above follows from the finite-complexity linear forms theorem with positive local factors. [Green and Tao, *Linear equations in primes*](https://doi.org/10.4007/annals.2010.171.1753)
+
+**EVIDENCE — what remains at index one.** The growth reduction only needs a parent-dependent equation of small degree and tolerates atypical tuples. The fixed-plane result still fixes a rational subspace of the **norms**, while (II.2) controls their logarithmic sizes. I have no implication from small cofactor product to such a plane of controlled height, or to a quartet with the moving-progression condition. Generic quadratic norm polynomials of linear Gaussian blocks already span three dimensions. The real five-star lemma excludes the two-ended Pell alternative in II.6. A one-ended polynomial curve in the three-dimensional span need not yield reciprocal star sums. This is the step at which the polynomial decision and the general arithmetic bound both remain open. [Growth hypothesis and triangle compatibility](../free/answer.md)
+
+**HEURISTIC — referee request.** I would prioritize independent checks of two steps in II.7, namely the transfer of (8) to (P3), including the perfect matching on the four complementary vertices, and the exclusion of the Pell conic by the real quartic's two cusps. For the polynomial problem my next exact test would be the six saturated resultants in II.5 over the rational Gaussian coefficient field, separating genuine components from components supported on collisions. The prime-seven computation is a check on any proposed rational answer, not a proof of emptiness.
+
+### Twelve-line summary
+
+1. **PROVED.** For index seven the sufficient subtuple-height cutoff is $H_S\le C^{-94/25}N^{47/50}$, while $H_S\asymp N$ does not supply it.
+2. **PROVED.** Almost every five-tuple has $\log H_S/\log N$ near $15/16$, and at index nine the fixed-set argument works at every height.
+3. **PROVED.** At the growth scale only $O_{A,C}(m^4)$ tuples fail index one, also in admissible angle models. Full squarefree index is at most three.
+4. **PROVED.** Pure boundary covers reduce to translated isogenies. Unrestricted squarefree ten-pair profiles escape any finite list of nontrivial covers.
+5. **PROVED.** Fixing the cube class of $\prod t_{ij}$ gives a rational lift to a cubic cover branched on the diagonals. Its target has multiplicity three.
+6. **PROVED.** On every fixed rational plane of the ten pairwise coprime block norms, $T=\max|t_{ij}|\gg_U(\max n_{ij})^{1/6}$.
+7. **PROVED.** The approximation exponent is at least $38/11$ there and $40/11$ for comparable norms. The constants may depend ineffectively on the plane.
+8. **PROVED.** Six separating norms in $[X,X+cX^{1/6}]$ force their own cofactor to be $\gg\sqrt X$, without a fixed-plane hypothesis.
+9. **COMPUTED and PROVED.** Ten comparable norms in arithmetic progression give exponent four in every edge assignment, including squarefree index-one examples.
+10. **PROVED.** Polynomial norm pencils are impossible in all degrees. Linear blocks also fail on every generalized circle and on the two-complex-moment slice.
+11. **EVIDENCE.** The unrestricted polynomial system, a power gain at unrestricted index one, and any improvement in cluster growth remain open.
+12. **HEURISTIC.** Please referee the genus-five step from (8) and the real two-cusp exclusion, then test the six-resultant system with collisions removed.
+
+# Part III — Fixed cofactors, the ratio grid, and elimination for linear blocks
+
+**PROVED — main arithmetic conclusion.** In the genuine one-unit ten-pair model let $t=(t_{ij})$ be a specified signed nonzero integral cofactor vector, $T=\max |t_{ij}|$, and let the ten positive odd block norms be pairwise coprime. On *any* rational plane of norm vectors through the origin, the number of ordered ratio classes with these cofactors is $O_\epsilon((2T)^\epsilon)$. The constant is independent of the plane, including its height. This is a cardinality bound. The height bound of II.7 still has a plane-dependent constant. A separate result below bounds the number of ways to complete four fixed genuine marks with a fixed cofactor product.
+
+**PROVED — geometry and the limitation of elimination.** For each realizable signed $t$, the Zariski closure of the **continuous real** norm vectors is an irreducible fourfold of degree twelve. Four linear equations, a Plücker quadric and one sextic suffice away from zero coordinates. Its ratio image is dominant, even for a single $t$. The arithmetic norm vectors are exactly the odd positive integral points described in III.3 with the stated coprimality tests. Their Zariski closure can be empty even when the real fourfold is populated. I do not identify the arithmetic closure for every realizable integral $t$. The real elimination supplies no nonzero polynomial on the ratio grid.
+
+**PROVED and COMPUTED — status of the linear decision.** The full strict linear-block scheme modulo affine change has geometric tangent dimension at most **three**, in characteristic zero and every characteristic greater than five (III.8). The bound falls to **two** at points with full-rank second-moment matrix. For every fixed block degree, the union of template ratio curves has dimension at most two in characteristic zero (III.6). The exact computations exclude all strict twisted rational points in five specified finite fields, all geometric points above generic anchors in the listed good characteristics and characteristic zero, and several special slices. I have neither a strict rational example nor a decision on geometric existence. The exact global dimension and degree remain unknown.
+
+**PROVED — where I would resume the decision.** In III.10 the rank-four stratum reduces to eight unbarred variables. The five star quartics determine the ten candidate barred roots rationally, and ten explicitly evaluated scalars must agree. Rank-three lists have at most nine geometric completions. The last two results in III.10 also give a parent-grid equation of degree \(m^{o(1)}\) for polynomial templates with the stated order of contact of block degrees \(o(\log m)\), including the equal-degree fifteen-cut case.
+
+## III.1. Corrections to Part I
+
+**PROVED — incorporating the referees' corrections.** The normalized cover in §2.1 has the same fan in the finite-index cocharacter lattice. In the Gaussian application the downstairs translate is by units, so the points above the identity are torsion and real. The restriction of the isogeny to $(S^1)^4$ is an $I$-sheeted covering. Its local inverses give the distance comparison used in the proof. For a general fixed rational translate in §2.1 the inverse images are real algebraic, and need not be torsion. Uniformity for *all* $I\ge7$ uses (2) in §2.2. The referees checked the product-of-heights version of Baker–Wüstholz through a secondary source. In the squareclass density construction fix the singleton primes, or take $\log p=o(\sqrt w)$ so that the intervals of even exponents have unbounded cardinality. In §5 each of the fourteen projected boundary values already has two places above it on the degree-two conic map. Neither additional projected value can coincide with one of those fourteen. The two additional values are distinct by their nonzero paired imaginary parameter in the normal form. Hence the sixteen values used for the average are distinct. I withdraw the sentence distinguishing the two local obstructions. The referee's stronger calculation excludes each rational form at both $2$ and $3$. [Round 31 judgment](../../round31/README.md) · [Cover](../../round31/ref_cover.md) · [Logarithm bound](../../round31/ref_baker.md) · [Squareclasses](../../round31/ref_square.md) · [Local calculation](../../round31/ref_local.md)
+
+## III.2. The signed fourfold and its two projections
+
+**PROVED — four linear equations and one quadric.** Write $S_i=\prod_{j\ne i} n_{ij}$, $D_{ij}=S_iS_j/n_{ij}^2$, $m_{ij}=t_{ij}n_{ij}$ with antisymmetric extension, and $c_i=1/\prod_{j\ne i}t_{ij}$. Taking a determinant of (8) with each $P_j$ gives
+$$
+ M c=0,\qquad M=(m_{ij}),\qquad {\rm rank}\,M=2. \tag{III.1}
+$$
+The contraction of a bivector in five dimensions with a fixed nonzero covector has rank four. Its kernel is $\bigwedge^2(c^\perp)$, of dimension six, using the coordinate pairing. In this space the rank-two cone is the single Plücker quadric for $\operatorname{Gr}(2,4)$. Multiplying the coordinates by $t_{ij}$ is an invertible diagonal change. Thus these are four independent homogeneous linear conditions and one quadratic condition on the $n$'s.
+
+**PROVED — one sextic suffices.** Fix *one* ordered triangle $ijk$. Add (II.9), with its nonzero constant right-hand side, to (III.1). Over $\mathbb R$, among positive norm coordinates the resulting locus is **exactly** the set of continuous blocks with these signed cofactors. Here the block lengths and phases can be arbitrary reals of the stipulated lengths. Over $\mathbb C$, on the open set $\prod n_{ij}\ne0$, it gives exactly the complexified incidence after forgetting the star vectors.
+
+*Proof.* Write $m_{ij}=[V_i,V_j]$ for five columns in a two-dimensional space with its standard determinant. Every nonzero decomposable $M$ admits such a factorization over its field of definition, as one sees by choosing any nonzero minor as a coordinate frame. The $V_i$ have distinct projective directions, and $\sum_i c_i V_i=0$ since its determinants against all columns vanish. There is a unique binary quadratic form $Q$ satisfying $Q(V_i)=S_i$ for all $i$. Indeed evaluation at the five directions has rank three. Two independent relations on its image are the two coordinates of
+$$
+ \sum_i \frac{Q(V_i)V_i}{\prod_{j\ne i}[V_i,V_j]}=0 .
+$$
+This is the cubic interpolation identity proved in Part I just after (8). Independence follows because the $V_i$ span. The proposed values $S_i$ satisfy both relations, since $S_i/\prod m_{ij}=c_i$.
+
+Use the polar form of $Q$ with $Q(V,V)=Q(V)$. Squaring $m_{jk}V_i-m_{ik}V_j=-m_{ij}V_k$ with $Q$ gives $Q(V_i,V_j)/n_{ij}=s_{ij}$, where $s_{ij}=A_{ijk}(n)/(2t_{ik}t_{jk})$ as in (II.6). The two-column Gram determinant is $\det(Q)m_{ij}^2=S_iS_j-n_{ij}^2s_{ij}^2$. Hence (II.9) for this one triangle says exactly $\det Q=1$. Over the reals positivity of even one $S_i$ now forces $Q$ positive definite. A determinant-one coordinate change puts it in Euclidean form; the resulting vectors are stars $P_i$ of lengths $\sqrt{S_i}$. Any five prescribed star phases can be obtained by phases of ten edges: the unsigned incidence matrix of $K_5$ has row rank five over $\mathbb R$, so solve for five real angles before exponentiating. Taking edge lengths $\sqrt{n_{ij}}$ realizes the tuple. Over $\mathbb C$ the nondegenerate determinant-one form likewise admits a determinant-one isometry to the complexified Euclidean plane. The phase products in the split coordinates are obtained by the same surjectivity of algebraic tori, or by extracting roots. This proves both converses. $\square$
+
+**PROVED — parametrization over the ratio space.** Work over $\mathbb C$ and write complexified stars as $(p_i,a_i)$, formal conjugate coordinates, so $p_i a_i=S_i$. A common rotation acts by $(p_i,a_i)\mapsto(\lambda p_i,\lambda^{-1}a_i)$. Fix it to make $q_i=p_i/a_i$ satisfy $q_5=1$. The two choices of the common sign have no effect below. Put
+$$
+ d_{ij}=\frac{q_i-q_j}{-2i t_{ij}},\qquad K_i=\prod_{j\ne i} d_{ij},\qquad B=(\prod_i a_i)^2 .
+$$
+Then on the torus with the ten diagonals removed,
+$$
+ B^3=\frac{\prod_i q_i}{\prod_i K_i},\qquad
+ n_{ij}=\frac{d_{ij}q_iq_j}{K_iK_j B}. \tag{III.2}
+$$
+Indeed $n_{ij}=d_{ij}a_i a_j$, so $q_i a_i^2=K_i a_i^3\prod_j a_j$. Conversely take a square root $A$ of $B$ and put $a_i=q_i/(K_i A)$, $p_i=q_i a_i$. Their product $\prod a_i=A$ by the cubic equation. They supply exactly these norms and signed determinants. The right-hand side of the cubic has order $-2$ along each simple diagonal, so is not a cube in the rational function field. Thus the cover is geometrically irreducible of degree three. Over the norm locus the anchored $q_j/q_i$ are recovered by
+$$
+ q_j/q_i=(s_{ij}+it_{ij})/(s_{ij}-it_{ij}),
+$$
+using the rational cubic formula for $s_{ij}$. The denominators do not vanish on the indicated complex open since $s_{ij}^2+t_{ij}^2=D_{ij}\ne0$. Thus the norm locus there is irreducible of dimension four. Its closure has degree **exactly twelve**. In projective coordinates $[n:s]$ on the linear $\mathbb P^6$, homogenize to the Plücker quadric and $\Psi(n)=s^6$, with $\Psi$ the normalized sextic. Their intersection is pure of dimension four since $\Psi$ is nonzero on the quadric cone (there is a sample). At $s=0$ the proper section $\Psi=0$ of the projective quadric has dimension three. At $s=1$ and $n_e=0$ the hyperplane section of the affine quadric is a cone of dimension four, no homogeneous component of which can satisfy $\Psi=1$ identically. Here no coordinate vanishes identically on the original quadric, again because there is a sample. Thus no four-dimensional component is lost on these boundaries. On the open affine locus the quadric is smooth away from its vertex and the radial derivative of $\Psi$ on its level one is six. The unique component is generically reduced, so Bézout gives degree $2\cdot6$.
+
+**PROVED — real dominance.** At a real sample use the five angles of the stars modulo a common rotation. In a small neighbourhood in the four angle differences the signs of the ten sines remain fixed. For each nearby choice set $D_{ij}=t_{ij}^2/\sin^2(\theta_j-\theta_i)$. The ten equations $\log D=M_{\rm adj}\log n$ have a unique real solution because the edge adjacency matrix of $K_5$ is invertible (II.5). This gives positive $n$ and the correct signed determinants on each pair. The incidence matrix supplies the individual block phases as above. Therefore every realizable signed pattern projects onto a real open subset of the ratio torus. Such a set is Zariski dense. The resulting real norm points are dense in the irreducible complex fourfold as well, by the finite map (III.2). The phase rotations fixing all ratios have dimension six in the ten phase variables. This verifies the dimension count in the question, but also proves that eliminating all ten norm variables leaves the zero ideal in the ratio coordinates.
+
+**PROVED — what a genuinely extra norm equation would do.** Substitute (III.2) into any polynomial $G(n)$ of degree $d$. If $G$ is nonzero on the fourfold, its field norm down the cubic extension is a nonzero rational function in the four $q$'s. Clearing denominators gives a nonzero polynomial of degree $O(d)$, with absolute degree factor because (III.2) has fixed size. One can see the degree bound directly by a resultant in $B$ against its cubic, using the fixed common denominator of the ten entries. Every sample off the diagonals with $G(n)=0$ is a zero of that polynomial. The four linear equations, the quadric, and the sextic fail precisely the necessary condition that $G$ be nonzero on the fourfold. This identifies which kind of arithmetic improvement in norm space could transfer to (5).
+
+## III.3. Arithmetic on the fixed-cofactor fourfold
+
+**PROVED — exact integral-point test in the private ten-pair model.** Let $n_e>1$ be odd positive pairwise coprime integers, $t_e\ne0$ signed integers. These data arise from ten Gaussian blocks, each coprime to its own conjugate and supported at primes private to that edge, if and only if the following two tests hold:
+$$
+ n\text{ satisfies (III.1) and (II.9) for one triangle},\qquad
+ \gcd(t_{ij},D_{ij})=1\quad\text{for every pair}. \tag{III.3}
+$$
+The associated four anchored ratios are unique.
+
+*Proof.* A genuine reduced word $Z_{ij}=\bar P_iP_j/n_{ij}$ has norm $D_{ij}$, with each prime appearing in only one Gaussian orientation. A common prime factor of its imaginary part and norm would also divide its real part. This gives necessity. Conversely use the real stars supplied by III.2. Their reduced words $Z_{ij}=s_{ij}+it_{ij}$ have rational real part by (II.6), and $s_{ij}^2=D_{ij}-t_{ij}^2$ is an integer. Hence $s_{ij}\in\mathbb Z$ and the gcd test makes every word primitive. Each prime of a block norm occurs in some $D_{ij}$, so cannot be inert in these primitive odd Gaussian norms.
+
+Fix an edge $e$, a prime power $p^k\parallel n_e$, and an orientation $\pi$ of $p$. The $\pi$-valuations of $Z_{ij}/\bar Z_{ij}=q_j/q_i$ add on triangles. They vanish on pairs on either side of $e$ and have absolute value $k$ on every crossing pair. Therefore the valuations are the differences of the two constant vertex potentials on those sides, separated by $\pm k$. Choose the orientation of the factor of $\beta_e$ accordingly. Do this for every prime power, forming provisional stars $P_i^0$ from Gaussian integer blocks. The provisional reduced words and the $Z_{ij}$ have identical norms and identical prime orientations, hence differ by units of $\mathbb Z[i]$. Both systems of star vectors have the same lengths, so $P_i/P_i^0$ differ by those same units from one common unit-modulus complex scalar. Finally the integer span of the unsigned pair columns in $\mathbb Z^5$ is the lattice of even coordinate sum: differences of incident edges generate all $e_i-e_j$, and each edge has sum two. Modulo four, edge units can therefore realize the required star unit exponents whenever their sum is even. Adjusting the common rotation by $i$ changes this parity because there are five stars. This realizes the actual Gaussian blocks with exactly the signed cofactors. Recovering $q_j/q_i$ from $s_{ij}+it_{ij}$ proves uniqueness. $\square$
+
+**PROVED — a counterexample to equality of the two closures.** Set $t_{ij}=1$ for every $i<j$. Choose five increasing distinct star angles in a semicircle. All prescribed signs are feasible and the positive $n$ given by III.2 give the full-dimensional real family. For odd integral block norms the reduction of each $P_i$ modulo two has coordinates either $(1,0)$ or $(0,1)$. Thus $t_{ij}=[P_i,P_j]/n_{ij}$ is odd exactly on the edges crossing this bipartition. A triangle cannot have three odd edges, as it would for the chosen $t$. The genuine norm set here has **empty** Zariski closure. More generally at every inert prime $p$, the relation $p\mid t_{ij}$ means that the nonzero vectors $P_i,P_j$ have the same direction in $\mathbb P^1(\mathbb F_p)$, since all $n_e$ are prime to $p$. Testing these local obstructions still does not give a density theorem for the $t$ that pass them.
+
+**PROVED — the ambient real identities also hold for angle models.** For assigned block magnitudes and phases one can always form the *real* numbers $[P_i,P_j]/n_{ij}$ and obtain (III.1) and (II.9). Their coincidence with signed primitive integral cofactors is substantial: by (III.3), for odd private integral norms, integral values satisfying the crossing gcds actually yield a genuine Gaussian realization of the ratio point. This does not say the original artificial phases are Gaussian prime arguments. It separates the geometric elimination from the arithmetic input in the fixed-plane theorem.
+
+## III.4. What survives when the plane or the parent moves
+**PROVED.** Let $U\subset\mathbb Q^{10}$ be any rational linear subspace of dimension at most two. Fix ten signed nonzero integer cofactors $t_{ij}$, with $T=\max|t_{ij}|$. For each $\epsilon>0$, the number of distinct positive, pairwise coprime norm vectors of genuine pure ten-pair tuples on $U$ with those cofactors is $O_\epsilon((2T)^\epsilon)$. The constant is independent of $U$, its height, and the parent. This number also bounds the number of ordered ratio classes, up to an absolute factor (the signed Gram products determine all ratios). This is a bound for the number of points, while the height bound in II.7 can depend on $U$.
+
+*Proof.* In dimension one coprimality gives at most one positive sample. In dimension two use a basis of $U\cap\mathbb Z^{10}$ and write $n_e=L_e(p,q)$ with integer linear forms. Pairwise coprimality gives $\gcd(p,q)=1$. If two forms are proportional, their two positive coprime values are fixed. All samples lie on a single affine line. There some norm is a nonconstant linear function of a real parameter. Choose a separating pair $ij$ for that norm and any $k\ne i,j$. The equation
+$$
+ 4t_{ik}^2t_{jk}^2 D_{ij}(L)-A_{ijk}(L)^2=4(t_{ij}t_{ik}t_{jk})^2
+$$
+from II.4 is a polynomial of degree at most six on the affine line. At the real zero of the selected norm its left side is nonpositive and its right side is positive. There are at most six samples.
+
+Assume the ten forms pairwise nonproportional. With any fixed triangle $ijk$, the last display is an integer homogeneous binary sextic equation $F(p,q)=h$, where $0<h=4(t_{ij}t_{ik}t_{jk})^2\le4T^6$. The sextic cannot be zero when there is a sample. By Gauss's lemma, each primitive irreducible factor takes an integer divisor of $h$, up to sign. If it has an irreducible factor $G$ of degree $d\ge3$, the Bombieri–Schmidt uniform Thue bound gives $O_d(d^{\omega(b)})$ primitive pairs with $|G(p,q)|=b$. Sum over $b\mid h$ to obtain $O_\epsilon(T^\epsilon)$, using the elementary divisor bound and $6^{\omega(h)}=O_\epsilon(h^\epsilon)$. The bound is independent of the discriminant or coefficients of $G$. (E. Bombieri and W. M. Schmidt, *On Thue's equation*, Invent. Math. 88 (1987), 69–81.)
+
+If there are two nonproportional irreducible factors $G_1,G_2$ of degrees $d_1,d_2\le2$, fix their signed divisor values $b_1,b_2$. The nonzero homogeneous form $b_2^{d_1}G_1^{d_2}-b_1^{d_2}G_2^{d_1}$ of degree at most four cuts out at most four projective slopes. Each has at most two primitive integral representatives. The divisor bound again suffices.
+
+The remaining forms are a constant times $L^6$ or $Q^3$, with $L$ rational linear or $Q$ rational irreducible quadratic. The first case gives at most two fixed affine lines, each with at most six samples by the real-zero argument. In the second, all samples lie on the smooth conic $Q(p,q)=d\ne0$. On that conic apply the necessary four linear equations, Plücker quadric and one sextic defining the signed norm locus. If any does not hold identically, Bézout gives at most twelve samples. Otherwise at every point of the conic where all ten forms are strictly positive these equations realize real star vectors with exactly the given cofactors by the signed norm-locus construction. One sample supplies an open positive arc. On this arc all of (II.5), after reconstructing all $s_{ij}$ by (II.6), hold. They consequently extend to the conic, as do the phase cocycles of II.6. For definite $Q$ the ellipse meets the zero of each linear norm, contradicting one norm identity with positive right-hand summand $t_{ij}^2$. For indefinite $Q$ the real two-cusp proof of II.6 excludes the open arc: after diagonalization the norms are $a_eu+b_e/u$ with $a_e,b_e>0$ and ten distinct ratios, and the identities force simultaneous equality of the signed star sums and their reciprocal star sums. Thus the conic cannot be contained in the signed locus with even one sample. These cases prove uniformity. $\square$
+
+**PROVED.** At any one parent, on $K$ planes selected arbitrarily for that parent, total cofactor product at most $L$ permits $O_\epsilon(KL^{1+\epsilon})$ genuine pure-ten-pair norm vectors with multiplicity over signed cofactor patterns, by the ten-fold divisor bound. In particular the plane-height dependence can be removed for this counting use. Neither the requisite count of planes nor a sufficiently small exponent on $L$ is supplied by the fifteen-cut growth extraction.
+
+**PROVED — an independent four-to-five count, uniform even in the four marks.** In the pure ten-pair model put $\tau=\prod_{i<j}t_{ij}$. Fix four ordered Gaussian ratio marks, and let $H_4$ be their primitive norm. In any pure ten-pair completion its five-point primitive norm $H_5$ equals $H_4$. At every prime threshold, removing the fifth vertex from a $2|3$ cut leaves both sides nonempty; thus every coordinate range is unchanged. The primitive norm is the product of the prime powers given by these ranges and depends only on the four ratios. For fixed $\tau$, equation (II.4) now reads $J(q)=\tau/H_4^3$. With the four marks fixed, as a function of the fifth coordinate $x$ its left side is a nonzero constant times $\prod_{i=1}^4(x-q_i)/x^2$. Clearing $x^2$ gives a nonzero quartic. There are at most four choices for the fifth mark. The six cofactor magnitudes internal to the four marks are determined by the reduced pair ratios. Therefore a bound $L_5$ for the product of the four incident cofactor magnitudes allows at most $8\lfloor L_5\rfloor$ completions, accounting for the sign of $\tau$.
+
+In a tuple with total product at most $L$, some vertex has incident product at most $L^{2/5}$ since the five incident products multiply to $\tau^2$. On an $m$-mark parent grid, the preceding bound then gives $O(m^4 L^{2/5})$ ordered pure ten-pair tuples. For fixed $\tau$ the bound is $O(m^4)$ with an absolute constant. For an actual growing short-arc grid, pure ten-pair tuples are already exceptional: the Walsh expansion in II.1 for *any specified* five-bit pattern up to complement, obtained by inserting the five signs in the same even-degree terms, gives weight fraction $1/16+O(\epsilon)$ except for $O_{C,\epsilon}(m^4)$ tuples. A pure pair profile has zero singleton weights.
+
+**PROVED — fifteen cuts and the obstruction in (5).** Write $a_i$ for the singleton norm at mark $i$, $\sigma=\prod_i a_i$ and now $H=\sigma\prod_e n_e$. For arbitrary clean blocks, or prime threshold layers in one unit class using the reduced chord magnitudes, multiplication of the ten chord formulas gives
+$$
+ |J|=\frac{|\tau|\sigma}{H^3}. \tag{III.4}
+$$
+Each singleton contributes four times and each doubleton six times to the product of pair-distance denominators $D_{ij}$. This proves (III.4) directly without assuming that different layers use different primes. Removing mark five gives $H_5=H_4 a_5$, by exactly the same coordinate-range argument. Consequently the right side of (III.4) is $|\tau|(\prod_{i\le4}a_i)/(H_4^3 a_5^2)$. The singleton factors can move when the four marks are fixed. Even fixing the parent norm $N$ does not fix the primitive $H$ of a subtuple.
+
+There is an additional geometric loss if only the ten doubleton norms are recorded. In the continuous fifteen-block model putting $S_i=a_i\prod_{j\ne i}n_{ij}$ still gives $m_{ij}=t_{ij}n_{ij}$. For every realizable fixed sign pattern the closure of the ten doubleton norm vectors is now the rescaled rank-two skew cone in five dimensions (dimension seven, the affine cone over $\operatorname{Gr}(2,5)$). Indeed a positive open subset of this real cone is realized: factor $m_{ij}=[V_i,V_j]$, choose a positive definite determinant-one form $Q$, and put $a_i=Q(V_i)/\prod_{j\ne i}n_{ij}$. Its Euclidean star phases can be obtained with these block lengths using the singleton phases alone. The two parameters in $Q$ give dimension nine for the full signed norm locus on this open set. The complex cone is irreducible (take the exterior products of pairs of independent five-vectors), so that real open subset is dense in it. In particular the ten-pair sextic with no $a_i$ is unavailable.
+
+**PROVED — conditional ratio polynomial at a single parent.** If all but $o_B((W/\log W)^5)$ of the classes in (5) have $|\tau|\sigma/H^3$ in a list of $o_B(W/\log W)$ rational values, multiplying the numerator equations $J^2-v^2=0$ over the list supplies the required polynomial after clearing the fixed torus monomials. This uses the number of distinct *values*, not the number of ways to factor them. The hypotheses presently give neither this list bound nor a cover of the norm vectors by few rational planes. A cofactor product bounded by $W^B$ permits $O_\epsilon(W^{B(1+\epsilon)})$ ordered signed cofactor vectors by the divisor bound. This is polynomial in $W$, and the growth target must work for every fixed $B$. Further, multiplying the defining equations of the fourfolds and eliminating would give zero on the ratio torus already for one factor. No conclusion about (5) follows by pigeonhole or Schwartz–Zippel from the dimension count. [Exact growth hypothesis and quantifiers](../free/answer.md)
+
+**PROVED — uniformity in a *specified* singleton vector.** The $O_\epsilon(T^\epsilon)$ counting bound on an arbitrary moving plane of pair norms extends to prescribed positive singleton norms $(a_1,\ldots,a_5)$, with a constant independent of their sizes. Here assume private pairwise coprime pair norms and fixed signed nonzero scalar cofactors. The same linear algebra uses $S_i=a_i\prod_{j\ne i} n_{ij}$ and the null vector $(a_i c_i)_i$. Formula (II.6) now multiplies its three cubic terms respectively by $a_i,a_j,a_k$, and $D_{ij}=a_i a_j\prod_{k\ne i,j} n_{ik}n_{jk}$. Consequently the integer homogeneous sextic after clearing denominators still has right side $4(t_{ij}t_{ik}t_{jk})^2$, independent of the singleton vector. The Thue bound in the preceding proof is uniform in the sextic coefficients. The real-zero test on a line or ellipse is unchanged since $a_i a_j>0$. On the indefinite quadratic level, extension of the identities still gives the cocycle from $(s_{ij}+it_{ij})/(s_{ij}-it_{ij})$. Its simple separated zeros and poles and its orders at both ends are exactly those in II.6 because the additional factors $a_i a_j$ are nonzero constants. The same real five-star contradiction excludes containment. If the norm vectors are in a larger rational space, it suffices that its intersection with the four linear constraints for the given $a,t$ have dimension at most two. What this buys for a parent is a uniform count per *choice*, not a bound on how many choices the parent makes.
+
+**PROVED — the projective norm coordinates that can be read from the grid.** There is a direct expression for the projective vector $b_{ij}=a_i a_j n_{ij}$, allowing $a_i=1$. In the five-point primitive tuple, let $H_{klm}$ be the primitive norm of the three marks complementary to $ij$. A layer constant on these three but nonconstant on the five is precisely a singleton $i$ or $j$, or the pair $ij$. Therefore $H_5/H_{klm}=b_{ij}$, even with nested prime layers. For any three original points of parent norm $N$, their doubled triangle area has absolute value
+$$
+  |\det(z_l-z_k,z_m-z_k)|
+       =\frac{|z_k-z_l|\,|z_l-z_m|\,|z_m-z_k|}{2\sqrt N}
+       =4(N/H_{klm})\, |t_{kl}t_{lm}t_{mk}|.
+$$
+The first equality is the circumradius formula. For the second, each layer nonconstant on the three separates two of their pairs, hence $\sqrt{D_{kl}D_{lm}D_{mk}}=H_{klm}$. Thus, up to a common scale, the squared $b_{ij}$ are the squared triangle areas divided by the respective squared triple cofactor products. These are rational functions of the ratios for fixed $t$, since projectively the signed areas are the complementary minors of the three rows $(1),(q_i),(q_i^{-1})$. Clearing their common denominator gives bounded-degree polynomials. Signs can be fixed by an ordering of the marks around their short arc, or eliminated by taking all finitely many sign choices. This gives a precise route for an *additional* homogeneous restriction on the effective norms $b$ to transfer. The image of the complementary-minor map is already constrained by its kernel and Plücker identities. Substituting those identities just gives zero.
+
+**PROVED — a bridge to rational three-dimensional spaces.** Fix $t$ and a rational vector space $U$ of dimension three for the ten pair norms. Assume $U$ lies in the four linear constraints, and the projective section of the Plücker quadric in $\mathbb P(U)$ is a smooth conic $C$. If $C$ has no rational point there are no samples. Otherwise choose a rational parametrization by ten integral homogeneous binary quadratics $L_e(v,w)$ without a common geometric zero. Such forms come from the degree-two Veronese embedding followed by a fixed rational linear embedding. The primitive positive integer representatives of these directions have the form $\pm(L_e(v,w)/g)_e$ for coprime integers $v,w$, with $g$ in a *fixed finite set*. Indeed $v^2,vw,w^2$ are fixed rational linear combinations of the $L_e$. Clearing denominators shows that their common gcd divides a fixed integer when $(v,w)=1$. Norm primitivity follows from pairwise coprimality. Select one sign and $g$ along any putative infinite sequence.
+
+The sextic in III.2 restricts to a fixed binary form of degree twelve on this parametrization, taking one fixed nonzero value. If that form has at least three distinct geometric projective roots, there are only finitely many samples. For an irreducible factor of degree at least three this is Thue's theorem. Two nonproportional irreducible factors, on fixing their divisor values, cut out finitely many projective slopes by taking a homogeneous combination of their powers as in the plane proof. The same argument handles two distinct rational linear factors. A definite irreducible quadratic raised to the sixth power also gives finiteness. Thus possible infinities on a smooth conic reduce to **a single rational end, or an indefinite quadratic Pell equation**. This assertion fixes $U,t$; no bound uniform in the conic coefficients is asserted.
+
+There is a sharper conclusion for a single rational end if all ten norms tend to infinity comparably. Move the root of the binary form to $w=0$ by a rational change, or an integral unimodular change after choosing the primitive linear factor. Its nonzero fixed value fixes $w$ up to a finite choice. Hence on an infinite subsequence the $n_e$ are rational quadratic polynomials in $v$ with positive leading coefficients, and all the signed norm identities and the phase cocycles hold identically. Each norm occurs in some product $s_{ij}^2+t_{ij}^2$, so has no real zero. Two proportional quadratics would have fixed, coprime, proportional norm values and could not both grow. Thus their conjugate pairs of roots are disjoint. In fact each quadratic splits over $\mathbb Q(i)$: if it were irreducible there, it would divide one factor $s_{ij}+it_{ij}$ or $s_{ij}-it_{ij}$, and by conjugation both, which is impossible. The function-field cocycle of II.6 now orients each conjugate pair consistently on all ten edges. At infinity $q_j/q_i=(s_{ij}+it_{ij})/(s_{ij}-it_{ij})$ tends to one with order six. Taking the oriented monic linear factors as blocks therefore gives exactly the strict linear system, since each reduced determinant is a polynomial and the order-six contact makes it bounded and nonzero at infinity. This proves that an infinite balanced one-ended family on such a conic really would supply a rational Gaussian linear template. When the sole irreducible factor is an indefinite quadratic instead, the two ends do not coalesce and this deduction does not apply.
+
+## III.5. A staged elimination for linear blocks
+**PROVED.** Number the five marks \(0,1,2,3,4\). Anchor the pair \(0,4\), and use \(j=1,2,3\) for the other marks. Write \(\beta_{04}=X-a\), \(u_j=r_{0j}\), \(v_j=r_{4j}\),
+\[
+ U=\prod_{j=1}^3(X-u_j),\qquad V=\prod_{j=1}^3(X-v_j).
+\]
+Bar denotes coefficient conjugation. In the geometric complexification, barred roots are a second, independent set of variables. The strict chart has twenty distinct roots and all ten nonzero cofactors. As in Part II, monicity and the order-six common-phase contact imply \(t_{ij}=h_j-h_i\); for instance one can write \(\arg(P_j/P_0)=(h_j-h_0)X^{-6}+O(X^{-7})\). Equivalently this follows formally by expanding \(P_j/\bar P_j\) at infinity and subtracting the first unequal coefficient. Since the gauge below is on root variables it rescales all the \(t\)'s by a common nonzero factor.
+
+The real affine action normalizes \(u_1=i\) uniquely, since its imaginary part is nonzero. On the split chart this is normalization of the ordered pair \(u_1,\bar u_1\) to \(i,-i\) by one affine transformation, and works over an algebraically closed field of characteristic different from two. The freely chosen anchor parameters are the other four roots \(u_2,u_3,\bar u_2,\bar u_3\) and \(h=t_{04}\ne0\). These give a five-dimensional open base. On the base, \(V=U+hD\), \(\bar V=\bar U+h\bar D\) are determined from the identity \(\bar U V-U\bar V=2ih\) and monicity. On fixing \(h=1\), there is a unique pair of polynomials \(D,\bar D\) of degree less than three giving \(\bar U D-U\bar D=2i\). The map on the left is an isomorphism between two six-dimensional vector spaces because coprimality of \(U,\bar U\) makes its kernel zero. The second list is indeed the conjugate of the first on the real locus. Restrict further to the open where the roots of \(U,\bar U,V,\bar V\) are all distinct. There are at most \(3!^2=36\) ways to match the roots of \(V,\bar V\) separately to the three fixed \(u_j\)'s on the split chart. On the real locus only six choices occur.
+
+Define the cubic pencils
+\[
+ L_j(X)=(X-\bar v_j)\prod_{k\ne j}(X-u_k),\qquad
+ R_j(X)=(X-\bar u_j)\prod_{k\ne j}(X-v_k).
+\]
+Writing \(b=\bar a\), \(A_j=(h_4-h_j)/(h_4-h_0)\), \(C_j=\prod_{k\ne j,\,1\le k\le3}\beta_{jk}\), gives
+\[
+       (X-b)C_j(X)=A_j L_j(X)+(1-A_j)R_j(X).
+\]
+Indeed the two-vector determinant identity on columns \(P_0,P_j,P_4\) gives \(n_{04}P_j=A_jn_{j4}P_0+(1-A_j)n_{0j}P_4\), and cancelling common factors yields the formula. Strict disjointness gives \(L_j(b)R_j(b)\ne0\), and \(L_j(b)=R_j(b)\) is impossible in the displayed identity. Thus \(A_j=R_j(b)/(R_j(b)-L_j(b))\). The quadratic \(C_j\) is the monic multiple of the specialization at \(b\) of the symmetric double-variable polynomial
+\[
+ W_j(b,X)=[R_j(b)L_j(X)-L_j(b)R_j(X)]/(X-b).
+\]
+This polynomial has bidegree at most \((2,2)\), by the degree-three divided difference and symmetry. Define three homogeneous binary octics \(E_{jk}(b)=\operatorname{Res}_X(W_j,W_k)\) by homogenizing each \(W\) to bidegree \((2,2)\). The two copies of \(b\)-degree two from each quadratic give \(b\)-degree eight. A candidate \(b\) must be a common root of the three octics. There is an identical conjugate calculation for \(a\) on the split chart.
+
+**PROVED — exact converse and tests at the remaining roots.** At each such pair of finite candidates \(b,a\), enforce equality of the three weights \(A_j\) from the unbarred and barred calculations (reality on the real form), their distinctness from \(0,1\) and one another, and all raw pivot noncollisions. Form the three monic quadratics \(C_j\); require each of their pairs to have a gcd of degree one and the three gcd roots to be distinct. The same tests on the barred list, and distinctness of all twenty final roots, complete the conditions. They suffice: the corresponding blocks multiply to the prescribed \(C_j,\bar C_j\); the cubic identity above reconstructs \(P_j\) by a scalar linear combination of \(P_0,P_4\) with real (or split-conjugation-fixed) rational coefficients whose limits at infinity are \(A_j,1-A_j\). Therefore \(P_j/P_0\) differs from a conjugation-fixed rational function by the common-phase term \((1-A_j)t_{04}iX^{-6}+O(X^{-7})\), since \(\operatorname{Im}(P_4/P_0)=h/|U|^2\). Its real part tends to one. Hence all the reduced polynomial determinants are bounded at infinity with the prescribed distinct leading constants. They are constants. All these infinity arguments also make sense as formal Laurent expansions in the split variables. No search over an unspecified number of moment levels is involved.
+
+**PROVED — uniform finite pivot fibres.** In characteristic zero or greater than five, every \(E_{jk}\) is nonzero for every strict choice of the outer root data. Otherwise the map \((R_j/L_j,R_k/L_k)\) has a second preimage over its generic image point, since each cubic is separable and a generic pole-free \(b\) cannot be a root of \(W_j(b,X)\) at \(X=b\) (its derivative is nonzero); \(X=\infty\) is also impossible for generic \(b\). The degree of this joint map divides each cubic degree, so it must be three. The latter functions therefore differ by a Möbius transformation. They have a common zero \(v_l\), a common pole \(u_l\) for the remaining \(l\), and common value one at infinity. The Möbius transformation fixes zero, infinity and one, forcing equality, contrary to the different zero sets. This gives at most eight geometric choices for each pivot (even before compatibility) per matched base point.
+
+**COMPUTED and PROVED — degree zero of the generic geometric fibre.** In each of characteristics \(7,11,19\), a single strict gauge-normalized base point has \(E_{12},E_{23}\) relatively prime for *all 36 independent root matchings*, with both polynomials of exact degree eight. Thus not even an infinite projective pivot can occur throughout this fibre. The certificates use the coding \(x+iy\longleftrightarrow x+py\) in \(\mathbb F_{p^2}\). The \((u;v)\) triples are respectively \((7,12,26;8,10,24)\), \((11,21,45;12,13,44)\), and \((19,233,260;20,21,106)\). In all three cases the two triples' imaginary power sums agree in degrees one through five. Their oriented and conjugate supports are disjoint. This implies \(\bar U V-U\bar V=2ih\) for a nonzero \(h\) because the first five coefficients below the leading term of \(\bar U V\) are real and a zero constant difference would contradict the support condition.
+
+For every matching compute the binary resultant \(\operatorname{Res}_b(E_{12},E_{23})\) and take the product over all 36 matchings. By separate symmetry in the \(v\)- and barred-\(v\) roots, this is a regular function of the five anchor parameters on the coprime chart: the coefficients of \(V,\bar V\) are regular there by the above linear inverse. The norm/product rather than one arbitrary root labelling is important. The certificates show this function is nonzero over each of the three characteristics. Since the formulas descend integrally after inverting the coprimality denominator and \(2i\), the same witness proves that the function is not identically zero in characteristic zero. Consequently the normalized strict geometric solution scheme, if nonempty, has dimension at most four in each of those characteristics and in characteristic zero. This follows from the proper-hypersurface bound on the base and the finite matched-root and pivot fibres. This is an upper bound, not the dimension or degree of the special-anchor locus. [Geometric pivot certificates](p3_anchor_fibres.py)
+
+**COMPUTED — twisted rational finite-field fibres on the whole normalized chart.** The source p3_anchor_census.cpp enumerates all possible outer triples containing \(u_1=i\) up to swapping the other two, all possible last-star triples with the same five imaginary power moments, and six assignments of their roots. For each candidate uniformly it tests \(R_j(b)/(R_j(b)-L_j(b))\in\mathbb F_p\), all pivot conditions, and the three quadratic gcds. The residue \(b=\bar a\) is actually conjugate to \(a\) in these counts. There are zero strict completed points for \(p=7,11,19,23,31\). The numbers of disjoint outer-triple pairs before the pivot test are \(320,6900,147540,414600,1972360\). The numbers of pivot-and-matching records satisfying the three weight tests including distinctness from each other and from zero and one are \(18,1308,26514,68118,271824\). Thus a rational Gaussian template would have bad reduction at each of these inert primes in every integral affine chart. These point counts alone do not decide geometric emptiness or dimension. [Global finite-point census](p3_anchor_census.cpp)
+
+**PROVED — an elementary empty slice in every good characteristic.** A strict linear-block solution cannot have just one or two distinct real parts of the roots. This statement also holds on the split geometric scheme in characteristic different from $2,3$: “real part” there denotes the average of the two labelled roots of a block. Use the two-centre argument in characteristics where the first four moment equations follow from the block equations, as they do by Newton identities. Write $r_e=x_e+i y_e$, $\bar r_e=x_e-i y_e$, with $y_e\ne0$. If there are two centres, an affine change makes $x_e\in\{0,1\}$, also valid on the split chart. In (II.8) the first two moments give constant star sums of $y$ and $xy$. The third gives constant star sum of $y^3$ since $x^2=x$, and the fourth gives the same for $xy^3$ since $x^3=x$. Thus on *each* colour class of edges the sum and the sum of cubes of the incident nonzero $y_e$ are independent of the vertex. Within a colour the $y_e$ are distinct, and two incident ones cannot be opposites.
+
+A nonempty colour cannot miss a vertex. If it did, both sums would vanish at every vertex. A vertex of positive degree could have neither degree one nor degree two. Hence the support would have to be $K_4$ on the other four vertices. Three nonzero values with sum zero have sum of cubes three times their product, which is nonzero. This is impossible. Applying the argument to both colours bounds each degree by three. If a colour has a leaf with value $b$, then the two common sums are $b,b^3$. At a vertex of degree two this would give $3y_1y_2 b=0$. At degree three it would give $(y_1+y_2)(y_2+y_3)(y_3+y_1)=0$, again impossible. All five vertices would have degree one, contradicting the handshake lemma. Hence both colours have degree two everywhere and each is a five-cycle. Equal sums at consecutive vertices of an odd cycle force all five values equal, another collision. For one centre, shift it to zero. Each reduced monic word of degree six evaluated there is real because its six factors are purely imaginary (on the split chart its two evaluations agree by parity). Its imaginary part cannot be a nonzero constant. $\square$
+
+## III.6. A dimension obstruction for the union of templates
+
+**PROVED — bounded block degree excludes density, even conditional on existence.** In characteristic zero, fix any positive block degree $d$. The union of the ratio curves of **all** strict degree-$d$ templates, over the algebraic closure and with formal conjugates independent, has Zariski closure of dimension at most **two** in the four-torus. In particular even a positive-dimensional family of linear templates cannot give a Zariski-dense set for the essential constant. Over all unbounded degrees the finite-type argument below no longer applies. The restriction to two dimensions uses the missing singleton cuts; the usual covering-family inequality already excludes dimension four. [Earlier covering-family bound](/home/user/Jarnik/docs/claude_review/round20/gauss.md)
+
+*Proof.* Work on one irreducible component of the parameter space, ordering the roots on a finite cover if necessary. Write $x$ for the source parameter, $u_i=q_i/q_5$ for the four anchored ratios, and $b_e\in\mathbb Z^4$ for the pair columns as before. The vector of logarithmic derivatives in any component-parameter direction, or in the $x$ direction, is a sum of simple fractions with poles at block roots and formal conjugate roots. At each pole all their residues belong to the **same** line $\langle b_e\rangle$, since
+$$
+ u=\prod_{e}\left(\prod_{\nu=1}^d
+                  \frac{x-r_{e,\nu}}{x-\bar r_{e,\nu}}\right)^{b_e}.
+$$
+Repeated roots within a block only reduce the number of distinct pole locations. These statements are identities over the function field of the component. At infinity $u=1+O(x^{-6d})$. Thus parameter logarithmic derivatives are $O(x^{-6d})$ and the $x$ derivative is $O(x^{-6d-1})$.
+
+For *each* of the ten edges, project the logarithmic vectors modulo $\langle b_e\rangle$ into a three-dimensional space. Take the determinant of the $x$ derivative and any two parameter derivatives there. Its only finite poles are at the other eighteen sets of at most $d$ roots. Each pole is at most simple: two or more singular columns in the determinant have proportional residues. The determinant vanishes to order at least $18d+1$ at infinity, but has total pole degree at most $18d$. It is identically zero. If the evaluation map had differential rank at least three, its nonzero $x$ derivative and two parameter derivatives would span three independent vectors at the generic point. Some $b_e$ lies outside their span, since the ten pair columns span the four-space even over the function field. Projecting along that edge would preserve their independence, a contradiction. In characteristic zero the generic differential rank is the image dimension. There are finitely many parameter components for fixed $d$, since the defining equations and disjointness conditions have finite type. This proves the assertion. $\square$
+
+**PROVED — the leading cofactor shapes have dimension at most one.** Normalize the leading term of the five stars to one and use the anchored labels $h_i=t_{5i}$ and $h_5=0$. Up to a nonzero scalar the leading vector of $u-1$ at infinity is $(h_i-h_5)_{i\le4}$. For each component its projective class lies in the projectivized tangent cone at the identity of the image closure from the last proof: insert the Laurent series into the equations of that closure and take their lowest-degree initial forms. That projectivized cone has dimension at most one. Therefore the possible projective shapes $[h_1:\cdots:h_4]$ lie in a fixed closed subset of dimension at most one in $\mathbb P^3$, for each fixed $d$. This bounds the leading data, not the dimension of the space of parametrizations above a special shape. It also explains why an explicit certificate excluding one rational $h$-shape and all nearby generic shapes does not decide the final exceptional set.
+
+**PROVED with the finite-field certificates below.** Over characteristic zero or \(101,103,107\), the strict linear-block system has empty geometric fibre at the projective cofactor profile
+\[
+ (h_1,h_2,h_3,h_4,h_5)=(-5,-3,0,2,6),\qquad [t_{ij}]=[h_j-h_i].
+\]
+There is a nonempty Zariski open neighbourhood of this profile with the same conclusion. Thus all potentially soluble normalized cofactor shapes belong to a fixed proper closed subset of their three-dimensional parameter space. This is a statement over the algebraic closure, including both lists of roots independently on the split chart. The reported dimension is that of the empty fibre (conventionally \(-1\)), of degree zero. The global special-profile locus is not decided.
+
+**PROVED — reducing each fixed profile to a projective plane.** Write the two lists of block roots as \(r_{ij}=x_{ij}+iy_{ij}\) and \(\bar r_{ij}=x_{ij}-iy_{ij}\); over an algebraically closed field this is an invertible linear change of coordinates. In all arguments here \(\operatorname{Re}\) and \(\operatorname{Im}\) can equally be read as half-sum and divided half-difference of the two paired lists, irrespective of the ground field. The monic normalization gives \(t_{ij}=h_j-h_i\) by the contact expansion at infinity, with the \(h_i\) distinct. The equations below use only the cofactor ratios. Center the \(h_i\) to have sum zero, and fix an affine scale on their shape space since common rescaling of the \(h_i\)'s does not change the cubic relations. This leaves three moduli.
+
+For a triple \(i,j,k\) and complementary \(l,m\), the elementary determinant relation gives
+\[
+ \sum_{\rm cyc}(h_j-h_i)\beta_{ij}\bar\beta_{kl}\bar\beta_{km}=0 .
+\]
+Indeed in the determinant relation on \(P_i,P_j,P_k\) cancel \(\beta_{ij}\beta_{ik}\beta_{jk}\) and take conjugates. Let \(s_i=\sum_{j\ne i} x_{ij}\). The first moment makes the star sums of \(y\) constant. The coefficient in degree two in the cubic relation gives
+\[
+ \sum_{\rm cyc}(h_j-h_i)(2x_{ij}+s_k)=0.
+\]
+In expanding, the common sum \(\bar r_{ij}+\bar r_{ik}+\bar r_{jk}\) cancels. Since \(\sum_{\rm cyc}(h_j-h_i)s_k=\sum_{\rm cyc}(h_i s_j-h_j s_i)\), the skew edge labels \(2(h_j-h_i)x_{ij}+h_i s_j-h_j s_i\) sum to zero on every triangle. Therefore they are \(d_j-d_i\), with \(d_i\) unique up to a common constant.
+
+Interpolate \(s,d\) by polynomials of degree at most four on the distinct \(h_i\). Define \((Df)_i=\sum_{j\ne i}(f(h_j)-f(h_i))/(h_j-h_i)\). The edge equations and the definitions of \(s_i\) give \(Dd=hDs-2s\). For \(k=1,2,3,4\), \(D(h^k)\) has degree \(k-1\) and leading coefficient \(5-k\), as follows by summing the divided difference of a monomial. Thus \(s\) cannot have degree four: the right hand side would have nonzero quartic term. For cubic \(s\) its cubic term on the right cancels, so \(d\) also has degree at most three. Write \(s=A+Bh+Ch^2+Eh^3\). The quadratic coefficient in \(hDs-2s\) is \(C\), since \(\sum h_i=0\). Hence the cubic coefficient of \(d\) is \(C/2\). Inserting into the edge equations yields
+\[
+ x_{ij}=x_0+\alpha(h_i+h_j)+\beta(h_i^2+h_j^2-h_ih_j)+\gamma h_i h_j(h_i+h_j).
+\]
+The other coefficients of \(s,d\) need not be computed for this inclusion. Translate all roots by \(-x_0\). If all remaining \(x_{ij}\) are zero, at variable value zero each star and its barred star have equal values (four factors); every \(n_{ij}(0)\ne0\) in the strict chart. This forces \(t_{ij}=0\). Thus the nonconstant part determines a shape \([\alpha:\beta:\gamma]\in\mathbb P^2\). Denote the displayed nonconstant edge vector by \(X\) in a chart setting one coordinate to one.
+
+**PROVED — closed projective necessary incidence.** Write \(x=\lambda X\) on a chart. Let \(E\) be the \(4\times10\) differences of the first four vertex-edge incidence rows from the fifth. The first two moments require \(Ey=0,\ E\operatorname{diag}(X)y=0\). For the second equation one may divide out the nonzero \(\lambda\) at every original sample and retain the divided equation on compactification. In each cubic relation take the real parts of the coefficient of degree one and of the constant coefficient. For \(e=ij,f=kl,g=km\) the two resulting equations per triangle, signs common to each cyclic sum dropped, are
+\[
+ \begin{split}
+ 0&=\sum_{\rm cyc}(h_j-h_i)\big[\lambda^2(X_eX_f+X_eX_g+X_fX_g)+y_e y_f+y_e y_g-y_f y_g\big],\\
+ 0&=\sum_{\rm cyc}(h_j-h_i)\big[\lambda^2X_eX_fX_g+
+ X_g y_e y_f+X_f y_e y_g-X_e y_fy_g\big].
+ \end{split}
+\]
+The last has been divided by \(\lambda\) before extending. These yield twenty homogeneous quadrics in \((\lambda,y)\). Allow \([\lambda:y]\) to range projectively with \(y\in\ker E\), including \(\lambda=0\). On chart transition \(X\mapsto cX\), send \(\lambda\mapsto\lambda/c\). The equations then glue, cutting out a closed subset of a projective bundle (the projectivization of the tautological line in the three shape parameters plus the constant bundle \(\ker E\)) over \(\mathbb P^2\); its map to the affine chart of cofactor profiles is proper. The formulas are defined over the integers localized away from \(2,3,5\) with the fixed shape denominators inverted. The use of the projective bundle ensures a characteristic-zero solution cannot escape to \(y\)-infinity on specialization.
+
+**COMPUTED — the full projective necessary incidence is empty for the specified profile.** All calculations use polynomial arithmetic and univariate resultants in \(\mathbb F_p[u,v]\) on each of the three \(\mathbb P^2\) charts. They do not infer geometric emptiness from the absence of rational points. A fixed integral basis \(Z\) of the rational span of \(\ker E\) is used, with the script checking its reduction has rank six. In its coordinates the second moment matrix is \(L=E\operatorname{diag}(X)Z\) of size \(4\times6\). In all nine characteristic/chart combinations the rank-drop ideal has no geometric points: the gcd in \(\mathbb F_p[u]\) of the nonzero pairwise \(\operatorname{Res}_v(f_0,f_j)\) for its fifteen maximal minors is a nonzero constant. A geometric common zero would force a common zero of these univariate resultants.
+
+Fix four pivot columns giving a nonzero polynomial minor \(D\), and use the two free columns to obtain two Cramer kernel vectors \(Y_0,Y_1\), each scaled by \(D\) (and mapped back to ten edge coordinates with \(Z\)). On \(D\ne0\), put \(y=aY_0+bY_1\). The twenty quadratic equations are the rows of a matrix \(Q\) with four columns, acting on \((\lambda^2,a^2,ab,b^2)\). All chosen \(4\times4\) determinants must vanish. For chosen triples of rows of \(Q\), let \(c=(c_0,c_1,c_2,c_3)\) be the signed vector of \(3\times3\) minors spanning its kernel when it has rank three. Then \(c_2^2-c_1c_3=0\) is also necessary (at lower rank \(c=0\)). These conditions include \(\lambda=0\).
+
+The code divides the \(4\times4\) determinant by \(D^3\) and this last discriminant by \(D^4\), checking exact divisibility. The resulting necessary polynomial vanishes on solutions *also where the chosen \(D\) vanishes*, provided \(L\) has rank four. Here is the change-of-basis check. The exterior product of the two Cramer columns is, up to sign, \(D\) times the complementary maximal minors of \(L\) (compare on the two free coordinates, where it is \(D^2\)). A change to a chart \(D'\ne0\) therefore multiplies its determinant by \(\pm D'/D\) in the function field. For \(g\in\mathrm{GL}_2\) on this basis, the three quadratic columns transform by \(\mathrm{Sym}^2g\) of determinant \((\det g)^3\). The discriminant of the last three entries of the kernel-minor vector transforms with weight four: the vector transforms on these entries by \((\det g)^3(\mathrm{Sym}^2g)^{-1}\), and a binary quadratic discriminant scales by \((\det g)^{-2}\) under the inverse transformation. Thus the displayed normalizations are independent of chart up to sign. On the overlap they agree as rational functions, giving the asserted vanishing wherever a rank-four chart is available.
+
+For each \(p=101,103,107\) and each chart, 45 such normalized necessary forms suffice. Again the gcd of nonzero \(\operatorname{Res}_v(f_0,f_j)\) is a nonzero constant, excluding all geometric common zeros. The scripts contain the coefficient formulas, the indexed row choices and the exact resultant and rank checks. [Coefficient formulas](p3_h_plane.py) · [Three-chart certificate](p3_h_certificate.py) They use python-flint and SymPy. The resultant criterion remains valid when leading coefficients specialize to zero since the Sylvester determinant still vanishes at any common finite root.
+
+**PROVED — specialization.** The proper image of the necessary incidence is closed in the cofactor base. Its fibre at the given point is empty over each of the three residue characteristics by the computation. For the fixed rational tuple of integers, a nonempty fibre in characteristic zero would specialize to a nonempty fibre in all three characteristics by properness. Also the complement of that closed image is an open set containing the given shape over each listed field and over characteristic zero. This is why this partial calculation controls a Zariski-open set of cofactor profiles, and not just one chosen rational specialization.
+
+## III.7. Two-height and symmetry tests in the strict linear system
+**PROVED with COMPUTED polynomial identities.** No admissible linear-block solution has just one or two distinct imaginary parts among its ten roots. The two-value statement allows arbitrary unequal heights, including heights of the same sign. The first four moments already suffice.
+
+*Proof.* Write the two nonzero heights as $A,B$. The first moment forces the edges at either height to form a regular spanning graph. For a nonconstant profile on five vertices the degree must be two by parity, so the colours are complementary pentagons. The one-colour case is excluded directly: equal imaginary moments of orders $2,3,4$ make the first three power sums in the abscissas of the two residual triples of each pair equal. Newton's identities give identical triples, contradicting distinctness.
+
+Write $S$ for a cyclic shift. The vertex incidence maps in the two colours are $1+S$ and $1+S^2$, with cyclic edge labels. Since $(1+S^2)^{-1}(1+S)=1-S^2+S^4$, changing the order of the cyclic labels gives $T=1-S+S^2$. For each $i$ let $t_i$ be the first colour's abscissa and $y_i$ the other colour's abscissa. Set $Z=Tt$, $\alpha=A/B$. The second moment gives $y_i=d-\alpha Z_i$ with $d$ common. The five $t_i$ are distinct, as are the five $y_i$ and hence the $Z_i$.
+
+Put $D_i=(t_i-t_{i+1})(t_{i+2}-t_{i+1})$ and $F_i=t_{i+1}D_i$. The componentwise identities for powers are
+$$
+ T(t^2)=Z^2-2D,\qquad T(t^3)=Z^3-3DZ-3F .
+$$
+From the third moment $y^2+\alpha T(t^2)$ is constant. Consequently $D_i=u_0+u_1Z_i+u_2 Z_i^2$ with $u_1=-d$, $u_2=(1+\alpha)/2$. The fourth moment makes $y^3-B^2 y+\alpha T(t^3)-\alpha A^2 Z$ constant. Substitution of the quadratic gives
+$$
+ F_i=v_0+v_1Z_i-2u_1u_2Z_i^2+\tfrac13u_2(1-4u_2)Z_i^3 .
+$$
+
+Normalize $(t_0,t_1,t_2,t_3,t_4)=(0,1,x,y,z)$ by a real affine change. Interpolate $u$ on the first three $Z_i$ and $v$ on the first four $Z_i$ by Cramer's rule. Require the two remaining quadratic evaluations, the one remaining cubic evaluation, and the two specified upper cubic coefficients, giving five polynomials in $x,y,z$. All interpolation denominators are nonzero by distinctness. The script keeps the squarefree part of each equation and strips only linear factors dividing a known nonzero $t_i-t_j$ or $Z_i-Z_j$. Their degrees in characteristic zero are $5,5,9,9,10$.
+
+Take the four resultants eliminating $z$ from the first equation and each remaining equation. For each irreducible factor $f$ of the first resulting bivariate polynomial take the gcd of its nonzero $y$-resultants against the other three. Their product gives a necessary univariate equation $P(x)=0$ of degree 32 after the same safe deletions. Reversing the cyclic order preserves the conditions because $T$ reverses up to a cyclic shift and $t_{i+1}$ is the middle of the triple. Normalize the triple $(t_2,t_1,t_0)$ to $(0,1,x')$, where $x'=x/(x-1)$. The exact gcd of $P(x)$ and $(x-1)^{32}P(x/(x-1))$ is $x-2$. Every cyclic triple must therefore be an arithmetic progression, impossible since five equal increments around a closed cycle sum to zero. The same calculation over the algebraic closures at $p=17,23,103,107$ gives the same contradiction with projected degrees $31,32,34,32$. Thus the saturated slice is empty, of degree zero, in these characteristics too. [Exact two-height certificate](p3_two_height.py)
+
+**PROVED with COMPUTED polynomial identities.** No admissible linear-block solution has a vertical reflection compatible with the marked edges, even after relabelling. Here a vertical reflection through $\operatorname{Re}r=c$ means $r_{\sigma e}=2c-\bar r_e$.
+
+*Proof.* Translate $c$ to zero. Since the roots are distinct, $\sigma^2=1$. The normalized sixth-moment labels $h_i$ are distinct and transform by $h_{\sigma i}=-h_i$ after subtracting their common centre. Consequently at most one mark is fixed. The only possibility is $\sigma=(12)(34)$, with $h=(1,-1,k,-k,0)$ after scaling labels. In particular $k\ne0,\pm1$.
+
+For clarity here is the abscissa reduction. Let $x_{ij}=\operatorname{Re}r_{ij}$ and $s_i=\sum_{e\ni i}x_e$. The real degree-two coefficient of the triangle equation
+$$
+ \sum_{\rm cyc}(h_j-h_i)\beta_{ij}\bar\beta_{kl}\bar\beta_{km}=0
+$$
+gives a coboundary
+$$
+ 2(h_j-h_i)x_{ij}+h_i s_j-h_j s_i=d_j-d_i.
+$$
+Indeed the terms have zero sum on every triangle after substituting $x_{kl}+x_{km}=s_k-x_{ik}-x_{jk}$. Set $(Df)_i=\sum_{j\ne i}(f_j-f_i)/(h_j-h_i)$. Summing the preceding relation divided by $h_j-h_i$ over $j$ gives $Dd=hDs-2s$. A polynomial $s(h)$ of degree at most four interpolates the five $s_i$ and is odd by symmetry. Hence $s=s_1h+s_3h^3$. Here $D(h)=4$, $D(h^2)=3h$, $D(h^3)=\sum_i h_i^2+2h^2$. Thus $d$ is proportional to $h^2$ up to a constant (the kernel of $D$ consists of constants, by triangularity with leading coefficient $5-j$ on $h^j$). The coboundary formula now gives
+$$
+ x_{ij}=(h_i+h_j)(1-vh_ih_j)
+$$
+after rescaling all real and imaginary parts by the original $x_{15}\ne0$. If $x_{15}=0$, then $r_{15}=r_{25}$.
+
+Write $X=x_{13}$, $Y=x_{14}$, and $y_{ij}=\operatorname{Im}r_{ij}$. Put $y_{13}=ka$, $y_{14}=kb$ as the two free parameters. The first two moments and reflection give
+$$
+ C=y_{15}=-k(Xa+Yb),\quad D=y_{35}=-Xa+Yb,\quad
+ y_{12}=C+2D-k(a+b),\quad y_{34}=2C+D-k(a+b).
+$$
+Reflection determines all other heights. For each edge write $y_e=p_e a+q_e b$ using these formulas. Put $z=(1,a^2,ab,b^2)^t$. The real coefficients in degrees one and zero of every triangle are linear forms in $z$. Use the script's four rows of these forms, denoted by $R$, and $w$ the four signed maximal minors of its first three rows. Only factors dividing $k(k^2-1)$ are removed in row and vector normalization. Necessarily $\det R=0$ and either $w=0$ or $w$ is a nonzero multiple of $z$.
+
+The Veronese condition $w_1w_3-w_2^2=0$ follows in both cases. Additional homogeneous equations come from the imaginary moments $3,4,5$ for marks one and three relative to mark five. Multiply each by $a$ before homogenizing in $z$. For example at power three use the signed incident-edge sum of
+$$
+ (p_e z_1+q_e z_2)\,[3x_e^2 z_0-(p_e^2 z_1+2p_eq_ez_2+q_e^2z_3)] .
+$$
+All six polynomials must vanish at $w$, including when $w=0$. For each irreducible factor of $\det R$ depending on $v$, take the gcd of its nonzero $v$-resultants against the seven homogeneous substitutions. Keep all remaining factors depending on $k$ alone except the three known exclusions. This gives a necessary $P(k)=0$ of degree 42 over $\mathbb Q$. Swapping the two transposed vertex pairs gives $P(1/k)=0$. The exact reciprocal gcd is $k^4-3k^2+1$. Sign changes and that swap permit $k=(1+\sqrt5)/2$.
+
+In the quadratic field at this last value, the gcd of $\det R$ and the seven substitutions in $v$ is $v-(5-\sqrt5)/4$. There the exact $w$ is
+$$
+ (0,\ (5+\sqrt5)/16,\ -(5+\sqrt5)/16,\ (5+\sqrt5)/16).
+$$
+This is nonzero and cannot be proportional to $z$ because $z_0=1$. Thus the saturated slice is empty. The same algebraic-closure result holds in characteristics $101,109,139,149$ by the identical calculation with both sign and reciprocal symmetries. In those four fields the golden ratio already splits. These statements are geometrically empty slice results, not dimension claims about the full system. [Exact reflection certificate](p3_reflection.py)
+
+**PROVED — freeness of relabelling on the entire split nondegenerate locus in characteristic zero.** Over an algebraic closure write the two independent lists of roots as $u_e,v_e$. Any permutation of the labels fixing their class modulo simultaneous affine changes of source and an optional swap of these two lists is trivial. Hence, for instance, any isolated unlabeled solution contributes 120 distinct labelled solutions modulo source and global swap.
+
+*Proof.* Let $\sigma$ have order $d$ and $\lambda$ be the linear part of the source change. The multiplier on the distinct centred sixth labels is $\mu=\lambda^6$ without a swap and $\mu=-\lambda^6$ with one. Its order equals $d$. Without a swap, $\lambda^d=1$ because the $d$-fold change fixes every root of a list. The possible nonidentity permutation orders of five marks are $2,3,4,5,6$, so only $d=5$ remains. With a swap and odd $d$, one has $\lambda^{2d}=1$ but then $\mu^d=-1$, impossible. With a swap and even $d$, $\lambda^d=1$. The only possibility is $d=2$, $\lambda=1$ or $-1$. For $\lambda=1$ the translation is zero in characteristic zero, and some edge fixed by $\sigma$ would have $u_e=v_e$. For $\lambda=-1$ the multiplier on the five distinct centered labels is $-1$ and can fix only one of them. The involution is therefore a double transposition, the reflection slice just excluded. The preceding computations on that slice make sense over the split model with $x_e=(u_e+v_e)/2$ and $y_e=(u_e-v_e)/(2i)$.
+
+For the remaining ordinary five-cycle absorb the translation in the source and choose a primitive fifth root $\zeta$. In cyclic vertex coordinates the two edge orbits are the pentagon and its complement. Their two lists have the form $u_{i,i+j}=A_j\zeta^i$, $v_{i,i+j}=B_j\zeta^i$, $j=1,2$ (one may choose either primitive root by the author's cyclic order). At mark $i$, independence of moments for $k=1,2,3,4$ implies
+$$
+ G_k(A_1^k-B_1^k)+(A_2^k-B_2^k)=0,\qquad
+ G_k=(1+\zeta^{-k})/(1+\zeta^{-2k}).
+$$
+Let $m_j=(A_j+B_j)/2$, $\delta_j=(A_j-B_j)/2$. Normalize $\delta_1=1$, as disjointness gives $\delta_1\ne0$. Then $\delta_2=-G_1$ and $m_2=c m_1$, $c=G_2/G_1$. The third equation gives $m_1^2=(G_1^3-G_3)/(3(G_3-G_1c^2))=5-8\zeta^2-8\zeta^3$, of norm one. The fourth equation divided by $8m_1$ now has left side $G_4(m_1^2+1)-G_1c(c^2m_1^2+G_1^2)=-24\zeta^3-32\zeta^2-24\zeta$, a nonzero element of $\mathbb Q(\zeta)$. [Cyclotomic reductions](p3_fivecycle.py)
+
+## III.8. A bound on the full strict scheme in every characteristic greater than five
+
+**PROVED.** After the simultaneous affine gauge, every geometric Zariski tangent space of the full strict linear-block scheme has dimension at most **three** over a field of characteristic zero or characteristic \(p>5\). It has dimension at most **two** wherever the second-moment matrix specified below has rank four. These bounds apply to exceptional anchors and exceptional cofactor profiles as well. They give global upper bounds on dimension. They allow an empty locus, isolated solutions, and positive-dimensional components.
+
+*Proof.* Work at a geometric point over an algebraically closed field \(k\). Let \(V=k^4\), let \(b_e\) be the ten anchored pair columns, let \(B\) be their \(4\times10\) matrix, and denote the two lists of roots by \(r_e,r'_e\). Here \(n_e=(x-r_e)(x-r'_e)\) and \(D=\prod_e n_e\) has twenty simple roots. Write \(v_0=\partial_x\log u\) for the four logarithmic derivatives of the anchored ratios. For a Zariski tangent vector \(\delta\) use \(v_\delta=\delta\log u\), differentiating the roots over \(k[\varepsilon]/(\varepsilon^2)\) and keeping \(x\) fixed. The projected determinant argument of III.6 takes place in \(k(x)\) and uses only the linearized moments. For any two tangent vectors \(v_0,v_\delta,v_{\delta'}\) are linearly dependent over \(k(x)\). Indeed after projecting along any \(b_e\) their determinant has at most eighteen simple poles and has a zero of order at least nineteen at infinity. The columns \(b_e\) span \(V\).
+
+There are no common zeros of \(v_0\) away from the boundary and infinity. If \(v_0(x_0)=0\), all the derivatives of \((s_{ij}+it_{ij})/(s_{ij}-it_{ij})\) vanish at \(x_0\), so all \(s'_{ij}(x_0)=0\). The denominators are nonzero away from the boundary, and \(2it_{ij}\ne0\). From \(D_{ij}=s_{ij}^2+t_{ij}^2\) all \(D'_{ij}(x_0)=0\). Taking logarithmic derivatives in \(D_{ij}=\prod_{e\text{ crossing }ij}n_e\) and using the edge adjacency matrix, of determinant \(-192\), gives \(n'_e(x_0)=0\) for every edge. Thus all ten monic quadratics are centred at \(x_0\). At that point replacing each oriented root by its opposite changes the sign of each linear factor, and leaves every six-factor reduced word unchanged. This gives \(2it_{ij}=0\), a contradiction.
+
+Define \(W_\delta=D(v_0\wedge v_\delta)\). This is a polynomial bivector of degree at most seven: proportional residues cancel double poles, and the orders at infinity are at least seven and six before multiplication by \(D\). The \(k\)-linear map \(\delta\mapsto W_\delta\) is injective. In fact if \(v_\delta=fv_0\), the preceding paragraph precludes a finite pole of \(f\) away from the boundary. At a boundary root \(v_0\) has a genuine simple pole and \(v_\delta\) at most a simple pole, excluding a pole there as well. The order of \(v_0\) at infinity is exactly seven in at least one component, since the contact coefficient is a nonzero multiple of \(t_{5i}\) and six is invertible. Therefore \(f\) is a polynomial of degree at most one. Comparing residues gives \(f(r_e)=-\delta r_e\), and likewise for \(r'_e\). The two distinct roots fixed by the affine gauge give two zeros, so \(f=0\); the residue equations then fix every root to first order.
+
+If the tangent space is nonzero, all the \(W_\delta\) are proportional over \(k(x)\) by the projected determinants. Their span as a \(k[x]\)-module is free of rank one; choose a generator \(G\) and put \(g=\deg G\). Concretely divide a vector of rational components spanning the common line by the gcd after clearing denominators, then multiply by the gcd of the polynomial multiples arising from a tangent basis. In particular \(G\) is a polynomial linear combination of the \(W_\delta\). Injectivity gives
+\[
+ \dim_k T\ \le\ 8-g ,
+\]
+since all polynomial multipliers have degree at most \(7-g\). At either root of \(n_e\), the simple-pole residue of \(v_0\wedge v_\delta\) belongs to \(b_e\wedge V\). Thus \(G\) has the same incidence property there, including when its value is zero.
+
+Fix a volume form on \(V\) and set \(L_{ef}=\operatorname{vol}(G\wedge b_e\wedge b_f)\). For \(e\ne f\) it is divisible by \(n_e n_f\). In particular \(g\ge4\), since annihilating all pairs of spanning columns would give \(G=0\). If \(g=4\), the matrix is
+\[
+ L=\operatorname{diag}(n_e)\,K\,\operatorname{diag}(n_e)
+\]
+for a constant skew matrix \(K\). Over \(k(x)\), \(G\) is a nonzero decomposable bivector. Consequently \(L\) and \(K\) have rank two, and the row space of \(L\) lies in the row space of \(B\). Take two independent constant rows \(w^1,w^2\) spanning the rows of \(K\). Each \((w_e^j n_e(x))_e\) belongs to the row space of \(B\) over \(k(x)\). Equating coefficients against every vector in \(\ker B\) puts each of its three coefficient vectors in the row space over \(k\). Thus there are six linear forms \(\ell_{ja}\) on \(V\) such that
+\[
+ \ell_{ja}(b_e)=w_e^j[x^a]n_e,\qquad j=1,2,\quad a=0,1,2.
+\]
+The \(2\times3\) matrix of these forms has rank at most one at each \(b_e\). Its three minors are quadrics. In the anchored basis the ten \(b_{ij}\) are \(v_i+v_j\), for \(v_1,\ldots,v_4\) the standard basis and \(v_5=-\sum_{i=1}^4v_i\). The quadratic evaluation matrix in the ten degree-two monomials has determinant \(-3\) in lexicographic order. Therefore all three minors vanish identically. [Exact determinant](tenpair_quadric.py)
+
+A linear subspace of \(2\times3\) matrices of rank at most one has a fixed left factor or a fixed right factor. Indeed the sum of two rank-one tensors with independent left and right factors has rank two. Once two independent tensors share one factor, this observation forces all others to share it. A fixed left factor here makes \(w^1,w^2\) dependent, by the monic coefficient of the \(n_e\). A fixed right factor forces the monic quadratics at all columns with \((w^1_e,w^2_e)\ne0\) to coincide. At least two such columns are needed for rank two, and the quadratics have disjoint roots. This excludes \(g=4\), proving the global bound \(8-5=3\).
+
+For the refinement suppose \(g=5\). The matrix \(K(x)\) obtained by dividing \(L_{ef}\) by \(n_e n_f\) is a skew pencil of generic rank two. Its row planes have a common nonzero constant vector \(w\). To see this, take its two constant coefficient bivectors. Both are decomposable, and their mixed wedge is zero since the whole pencil is decomposable. If independent their two support planes in \(k^{10}\) meet in a line, which lies in every generic plane of the pencil. If dependent the assertion is immediate. As above, \((w_e n_e(x))\) belongs to the row space of \(B\) coefficient by coefficient. Write \(x_e=(r_e+r'_e)/2\). In particular \(w\) and \((w_e x_e)_e\) belong to that row space. For a \(10\times6\) matrix \(Z\) whose columns span \(\ker B\), this gives a nonzero left null vector of \(B\,\operatorname{diag}(x_e)Z\). Its rank is therefore less than four whenever \(g=5\). At points where it has rank four we get \(g\ge6\), proving the second bound. All arguments used constants invertible in the stated characteristics and worked with arbitrary tangent vectors, including at singular points. \(\square\)
+
+**PROVED — a real restriction independent of the eliminants.** For non-real roots with actual complex conjugation, the graph of upper-half-plane linear roots is either empty, complete, or a pentagon whose complement is another pentagon. Indeed each star ratio \(P_i/\bar P_i\) on the oriented real projective line has topological degree equal, up to the same convention of sign, to the sum of the signs of \(\operatorname{Im}r_e\) over its four edges. Each individual factor has degree \(+1\) or \(-1\) by its single upper-half-plane zero or pole. The ratio of two stars is \((s_{ij}+it_{ij})/(s_{ij}-it_{ij})\), with \(s_{ij}\) a real monic polynomial of even degree six. Its winding is zero: the real polynomial map from the real projective line has degree zero topologically, as a large negative value has no inverse images. The Cayley transform preserves this conclusion. Hence each vertex has the same upper degree. A regular simple graph on five vertices has degree \(0,2\) or \(4\), and in degree two it is a five-cycle. This restriction allows arbitrary nonzero heights in the admissible sign graphs.
+
+## III.9. Global calculation and outstanding tests
+
+**PROVED — the global saturation used for this attempt.** Work in the split variables $u_e,v_e$, in which the equations are $E(u^j-v^j)=0,\ 1\le j\le5$, with $E$ the $4\times10$ matrix of anchored star-sum differences. The strict locus requires all twenty roots distinct. In particular $u_{01}\ne v_{01}$, and there is a unique simultaneous affine change of source taking these two roots to zero and one on each orbit. This is a global slice over the algebraic closure, independently of which real affine gauge a twisted tuple would use. Write $b=u-v$. The four linear equations $Eb=0$ together with $b_{01}=-1$ have a unimodular pivot minor on the first five lexicographic edges. Solving them leaves the nine free entries of $u$ and five free entries of $b$. The remaining sixteen equations have degrees $2,3,4,5$, four of each. Saturate their ideal successively by each of the 189 nonconstant pairwise differences among the twenty roots. This is the ideal of the closure of the strict open subscheme, with its induced scheme structure. The nonzero-cofactor condition follows from strictness, since equality of a reduced monic six-factor word and its paired conjugate polynomial forces a root collision. [Complete global saturation and probes](p3_global_saturation.py)
+
+**COMPUTED — extent of the global attempt.** In characteristic zero, on the full unspecialized twenty-moment system after gauge and elimination of the linear equations, FLINT's limited Buchberger run with limits $(96,12000,2048)$ returned 92 generators, maximum 8,002 terms, and reported that it had not completed a Gröbner basis. Over $\mathbb F_{101},\mathbb F_{103},\mathbb F_{107}$, the script starts the first saturation by adjoining a Rabinowitsch inverse of the first collision factor and applying lexicographic Buchberger. With a cap of 3,000 terms it processed 67 critical pairs in each field, reached 44 generators and left 507 pairs pending. A larger $p=101$ run processed 248 pairs, reached 105 generators, crossed 20,000 terms and still had 3,815 pending pairs in that first localization. The incomplete bases give **no global dimension or degree**. The program also has two exact completion modes. One writes a Singular program performing all 189 saturations and reporting dimension and degree. The other uses SymPy elimination followed by the degree-compatible initial ideal's Hilbert numerator. Only the bounded probes and previously stated slices completed here.
+
+**PROVED — allowing the norm plane to vary separately for each tuple.** Give a rational two-plane \(U\) its covolume height \(\mathcal H(U)=\operatorname{covol}(U\cap\mathbb Z^{10})\) in its Euclidean span. There are \(O(P^{10}\log(2P))\) such planes of height at most \(P\ge1\). In a reduced basis \(v,w\) of the plane lattice one has \(|v|\le|w|\) and \(|\langle v,w\rangle|\le|v|^2/2\): take a shortest nonzero vector \(v\), which is primitive, and reduce a second basis vector modulo \(v\). Hence \(|v||w|\ll P\). Count integer pairs in dyadic length intervals \(|v|\asymp 2^i,\ |w|\asymp 2^j\) by \(O(2^{10(i+j)})\), and sum for \(0\le i\le j,\ 2^{i+j}\ll P\). This proves the claim. Rational lines of bounded covolume likewise number \(O(P^{10})\).
+
+More generally, suppose at one parent there are \(K\) candidate planes per choice of the singleton norms, \(A\) candidate singleton vectors (\(A=1\) in the pure pair model), and \(\prod |t_e|\le L\). For the private pair norms of III.4 the number of distinct ordered ratio classes is \(O_\epsilon(AK L^{1+\epsilon})\), uniformly in the heights of the singleton norms and planes. For a single specified signed \(t\) this becomes \(O_\epsilon(AK(2T)^\epsilon)\). Each ratio class accounts for at most \(m\) ordered tuples of an \(m\)-mark parent, since specifying the anchor fixes every other coordinate. Equivalently, one can produce a parent-dependent equation of degree
+\[
+ O_\epsilon\!\left(1+(AK)^{1/4}L^{(1+\epsilon)/4}\right).
+\]
+Indeed more than \(s\) monomials suffice to interpolate a nonzero polynomial vanishing on \(s\) points in four ratio variables. There are \(\binom{d+4}{4}\) monomials through degree \(d\). This argument takes place over \(\mathbb Q(i)\), the field of the actual ratios; multiplication by the conjugate polynomial is available if rational coefficients are needed. Homogenization in the anchor turns the equation into a nonzero polynomial on the five-mark grid. The same argument applies after dropping the allowed exceptions. For example, if the plane may vary for each tuple with height \(\le m^\kappa\), there are \(A\le m^\alpha\) possible singleton vectors, and \(L\le m^\ell\), this gives degree \(o(m)\) whenever \(\alpha+10\kappa+\ell<4\). A fixed list of \(K\) planes uses \(K\) itself in place of the height count. No bound on \(A\) or \(K\) of this strength comes from membership of the block norms in a common multiplicative set of atoms. The existing extraction also allows overlapping prime layers beyond the private-norm hypothesis.
+
+**COMPUTED — signed inversion check.** For ten explicitly specified Gaussian blocks of pairwise distinct odd prime norms, direct Gaussian rational arithmetic verifies all ten signed cofactors, the cubic inversion, the anchored ratios, \(Mc=0\), and the complementary-minor relations used in III.4. [Reproducible signed check](p3_signed_fibre_check.py)
+
+**HEURISTIC — degree two.** A monic real quadratic substitution into a linear template, if one exists, gives degree-two templates; choose the critical value off all twenty roots to preserve simplicity. Without a lower-degree source I would look for exceptional dependencies before expecting a primitive degree-two solution. In the split root variables the parameter count after affine gauge is \(20d-2\) against \(4(6d-1)\) moment equations. The differences are \(-2\) at degree one and \(-6\) at degree two. The incidence relations can make equations dependent, so neither count is a proof. The dimension-two bound on the ratio image holds for each of these two degrees regardless of that expectation.
+
+**PROVED — two consequences if a strict rational Gaussian linear template is found.** It gives index **exactly one** on an entire infinite progression of specializations. Label marks \(1,\ldots,5\). The pair columns for \(12,13,14,25\) in the basis of III.8 have determinant \(-1\). To arrange one primary unit class as well, make a fixed rational change of parameter and rescale the blocks: choose a positive integer \(K\) with every \(Kr_e\in4\mathbb Z[i]\), and use \(n-Kr_e\) at \(n\equiv1\bmod4\). Each block and its conjugate are then odd primary Gaussian integers. Factoring into primary generators keeps each ratio in the same unit class, and common gcd removal multiplies all marks by the same scalar. Choose four different sufficiently large split rational primes, one per listed edge, avoiding denominators, the scaling integer and all root-difference norms. At a chosen Gaussian prime above each, all twenty roots reduce separately to the prime field. An ordinary integer can be placed in the residue class of the desired unbarred root and in a lift modulo \(p^2\) giving its linear factor valuation exactly one. All other oriented factors have valuation zero there. The conjugate prime then gives the conjugate orientation. The Chinese remainder theorem imposes the four choices simultaneously. The exponent columns at these primes are the four specified pair columns up to sign, proving index one even after the five-point gcd reduction. The exponent \(10/3\) and bounded scalar cofactors on this progression follow from II.5. Bounded resultant factors at other primes need not disappear.
+
+Any such curve, in any block degree with strict support, also avoids containment in **all fifteen quadric cones and their fifteen cubic inversion images** of round 27. In the equation \((q_b-q_a)(q_c-q_a)=(q_d-q_a)(q_e-q_a)\), choose a pole of the block ratio for edge \(bc\). Before dividing by the common anchor, \(q_b,q_c\) have poles and the other three star ratios are regular nonzero there. The left side has a pole, the right side is regular. The equation is homogeneous, so this test works in projective ratios. The opposite oriented root gives the same test after inversion. Whether a hypothetical curve lies in the separate round-23 hypersurface \(W\), its inverse or their relabellings is an additional containment test. Even avoidance of every listed component would be compatible with the dimension bound in III.6. [Known split exceptional components](/home/user/Jarnik/docs/claude_review/expert_note/expert_note.md)
+
+**PROVED — strict real inequalities for the two remaining sign patterns.** Write \(w_e=\operatorname{Re}r_e+i|\operatorname{Im}r_e|\), \(\epsilon_e=\operatorname{sgn}(\operatorname{Im}r_e)\), and
+\[
+ m_{i,k}=\sum_{e\ni i}\epsilon_e\operatorname{Re}(w_e^k).
+\]
+If \(t_{ij}=h_j-h_i>0\), the symmetric \(3\times3\) matrix with entries
+\[
+ \frac{m_{i,a+b+1}-m_{j,a+b+1}}{a+b+1},\qquad 0\le a,b\le2,
+\]
+is positive definite. In particular one ordering of all five signed abscissa star sums is forced. This works both when all roots are on the same side and when the signs give complementary pentagons.
+
+*Proof.* Form \(F(z)=\prod_e(z-w_e)^{\epsilon_e({\bf1}_{j\in e}-{\bf1}_{i\in e})}=U(z)/V(z)\). The constant signed degree in III.8 makes \(U,V\) monic cubics, and both have their roots in the upper half-plane. For real \(x\), \(\bar V(x)U(x)\) is exactly the six-factor reduced word for \(ij\): moving a lower root to the opposite side of the quotient gives the required conjugate factor in this product. Thus \(\operatorname{Im}F(x)=t_{ij}/|V(x)|^2>0\). The analytic logarithm of \(F\) on the lower half-plane, normalized to zero at infinity, has boundary argument \(\theta(x)\in(0,\pi)\). Indeed the continuous principal argument on the real line tends to zero at both ends. It is \(O(|x|^{-6})\). The Schwarz integral formula on that half-plane gives
+\[
+ \log F(z)=\frac1\pi\int_{\mathbb R}\frac{\theta(x)}{z-x}\,dx .
+\]
+Equivalently verify the formula from its imaginary part, the bounded harmonic extension of \(\theta\), and the normalization at infinity. Along \(z=-iY\) the first five Laurent coefficients are the moments of orders zero through four of \(\theta(x)\,dx/\pi\). The expansion to that order follows by dominated convergence since the fourth absolute moment is finite. On the product side these coefficients have real parts \((m_{i,k}-m_{j,k})/k\). They are accordingly the moments of a strictly positive density on the whole line. Integrating the square of any nonzero real quadratic proves the matrix claim. This produces an ordered real feasibility test; neither of the two sign patterns has been excluded in full. \(\square\)
+
+**PROVED — the ratio cover needs only the cube class of one scalar.** There is a direct arithmetic counterpart to dominance over \(\mathbb C\). Write the projective ratio invariant as \(J(q)=c\,\prod_{i<j}(q_i-q_j)/\prod_i q_i^2\) with the fixed nonzero constant \(c\) of (II.4). In the pure pair model \(J(q)/\tau\) is a cube in \(\mathbb Q(i)\). For fifteen cuts use the signed version of (III.4) and replace \(\tau\) by \(\tau\sigma\), absorbing a sign in the cube. In either case denote that scalar by \(\lambda\). Since \(\prod_i q_i^{-2}\) differs from \(\prod_i q_i\) by a cube, the ratio cover with the required rational lift can also be written
+\[
+ z^3=(c/\lambda)\prod_{i=1}^5 q_i\prod_{i<j}(q_i-q_j).
+\]
+It is the cyclic cubic cover branched on the configuration hyperplanes of six labelled finite points \(0,q_1,\ldots,q_5\). Homogeneous scaling of all five marks changes the right side by a fifteenth power. This describes all fixed-product covers in one family of cubic twists; existence of a rational lift is only a necessary arithmetic condition for a genuine tuple.
+
+Fix four distinct nonzero Gaussian rational marks and a cube class for \(\lambda\). As a function of the fifth mark \(x\), the last equation is \(z^3=kx\prod_{i=1}^4(x-q_i)\), with \(k\ne0\) fixed in \(\mathbb Q(i)\). The smooth projective model has genus four: the four marks, zero and infinity all have ramification index three and there is no other branch, giving \(2g-2=-6+6\cdot2=6\). Faltings gives finitely many Gaussian rational completions for these four marks and this cube class, even allowing the singleton product and cofactor product to vary within that class. In the pure case III.4 is stronger when the product itself is fixed. Genus four alone supplies no bound uniform in the anchor marks and twists here. The cubic-lift condition is not a polynomial equation on the ratio grid over the algebraic closure.
+
+## III.10. Eliminating the entire barred list
+
+**PROVED — an exact one-list test with at most nine completions.** Work over an algebraically closed field of characteristic zero or \(p>5\). Fix ten distinct unbarred roots \(u_{ij}\). Put \(P_i(x)=\prod_{j\ne i}(x-u_{ij})=\sum_{k=0}^4 p_{ik}x^k\), \(p_{i4}=1\). If the five quartics have rank five in coefficient space, there is no strict solution over that list. At rank four there is at most **one** labelled strict barred list. At rank three there are at most **nine**, even geometrically. Ranks below three are impossible. The test below computes the entire fibre without matching any roots of cubics and without factoring a polynomial of degree greater than nine.
+
+To prove this, write \(P'_i\) for a candidate barred star quartic, with the prime denoting the other list, not differentiation. The moment conditions are exactly that \(P'_i/P_i\) have a common Laurent jet at infinity through order five. This follows by the triangular relation for the logarithm of each ratio, with \(1,\ldots,5\) invertible. Write the common jet as \(1+\lambda a(x)\), where \(a(x)=\sum_{k=1}^5 a_k x^{-k}\), \([a_1:\cdots:a_5]\) is projective and \(\lambda\ne0\) accounts for the choice of representative. The zero jet would give \(P_i'=P_i\) for all \(i\), excluded by disjointness. Let \(R_i=(aP_i)_{\ge0}\) be its polynomial part of degree at most three. The required coefficient of \(x^{-1}\) is zero for every \(aP_i\), which is exactly
+\[
+ \sum_{k=0}^4 p_{ik}a_{k+1}=0,\qquad P'_i=P_i+\lambda R_i.
+\]
+Conversely these equations give the common jet because \(aP_i-R_i=O(x^{-2})\). Rank at most two is impossible: any two of the \(P_i,P_j\) are linearly independent, and at their shared simple root they vanish whereas all three other quartics are nonzero.
+
+For each projective kernel direction compute
+\[
+ C_{ij}(x)=\frac{P_iR_j-P_jR_i}{x-u_{ij}} .
+\]
+This is a polynomial of degree at most one. Divisibility follows from the common unbarred root, and in the numerator the \(aP_iP_j\) terms cancel leaving degree at most two by the \(O(x^{-2})\) remainder. In a strict solution that numerator divided by \(x-u_{ij}\) is a nonzero multiple of \(x-v_{ij}\), by the nonzero constant reduced determinant. Thus all ten polynomials must have degree exactly one. Read off their roots \(v_{ij}\) and check that all twenty roots are distinct. At such a root \(P_i(v_{ij})P_j(v_{ij})\ne0\). Require each \(R_i(v_{ij})\ne0\) for the chosen endpoint, and require the ten scalars
+\[
+ \lambda_{ij}=-P_i(v_{ij})/R_i(v_{ij})
+\]
+to agree. Then \(C_{ij}(v_{ij})=0\) gives the same cancellation at the other endpoint. Each monic quartic \(P_i+\lambda R_i\) has exactly the prescribed four roots. Their common jet proves the five moment conditions and the nonzero leading coefficient of each \(C_{ij}\) gives nonzero cofactors. This proves both directions. At rank four the projective kernel is one point. After fixing two distinct unbarred roots to \(0,1\) by the split affine gauge, this gives equations in only **eight** remaining unbarred roots on each nonzero kernel-minor chart. The first equation, the quartic coefficient determinant, has degree at most two in each single remaining root, since that root enters only two rows and enters each linearly. This is a smaller option for the next global elimination.
+
+At rank three the projective kernel is a line. Write \(C_e=l_e x+b_e\) with \(l_e,b_e\) linear in \(a\). In homogeneous notation the numerator of \(\lambda_e\) is \(-P_i^{\rm hom}(-b_e,l_e)\) of degree four in \(a\); the denominator is \(l_e R_i^{\rm hom}(-b_e,l_e)\) of degree five since \(R_i\) is itself linear in \(a\). The equality of two such fractions is a binary form of degree nine. If there is any strict solution, at least one of these cross-products is a nonzero form, as the following argument shows.
+
+Let \(F(v)=(B(v_e^k)_e)_{1\le k\le5}\), with \(B\) as in III.8. On ten distinct inputs this map has **injective differential everywhere**. If a nonzero tangent vector \(\delta v\) in its kernel has \(s\) nonzero entries, then \(\sum_{e} b_e\,\delta v_e/(x-v_e)=O(x^{-6})\), from the five derivative moment equations. Clear just the \(s\) active poles. The resulting polynomial vector \(C\) has degree at most \(s-6\) and evaluates at every active \(v_e\) to a nonzero scalar multiple of \(b_e\). This is impossible at once for \(s\le5\). For \(6\le s\le10\), the evaluation of quadrics at these \(s\) vectors has rank \(s\) by the determinant \(-3\) in III.8. But every quadratic evaluated on \(C(x)\) has degree at most \(2s-12\), so evaluation at the \(s\) input values has rank at most \(2s-11<s\). This proves injectivity. Every strict geometric fibre of \(F\) is consequently zero-dimensional and finite by finite type. If all cross-products vanished identically on the projective kernel line, a strict point would have a whole open neighbourhood of valid directions. They would give infinitely many barred lists with \(F(v)=F(u)\), since each completed list determines its own nonconstant jet and therefore its direction. This contradiction proves the nine-point bound, including special unbarred lists.
+
+**COMPUTED.** The one-list script checks exact rank-four examples in characteristics \(101,103,107\). In each, all ten candidate linear polynomials give twenty mutually distinct roots, but the ten recovered scales disagree. In characteristic \(101\) the lexicographic list is \((35,76,91,75,13,88,93,5,3,92)\); the first two scales are \(17,100\). They are \(64,26\) in the characteristic-\(103\) example and \(106,60\) in characteristic \(107\). This tests the final compatibility equations on geometric fibres with a unique kernel direction. It does not establish their incompatibility on all eight-variable charts. [One-list tests](p3_unbarred.py)
+
+**PROVED — geometric degree bounds and a growing block-degree cutoff.** For the full normalized linear scheme the sum of the degrees of its *reduced* irreducible components is at most \(120^4=207360000\) in every stated good characteristic and characteristic zero. Start with the fourteen-dimensional affine space of III.9 and cut by the sixteen equations of degrees \(2,3,4,5\), four of each. At each step a component contained in the next hypersurface keeps its degree, and for every other component the sum of the new degrees is at most its degree times the hypersurface degree by Bézout. Passing to the strict locus and taking its closure can only remove components. This bounds the degree without computing it.
+
+There is also an effective equation on the ratio grid for **all templates up to a growing block degree**, regardless of existence. In characteristic zero let \(d_0\ge1\). The union of the ratio images of strict templates with equal block degree \(d\le d_0\) lies on a nonzero polynomial of degree \(O(6^{24d_0})\), with an absolute implied constant. Use coefficients of twenty monic degree-\(d\) polynomials in the two lists, giving \(20d\) affine variables. For each of four pairs with a fixed anchor, equality of the coefficients in positive degrees below \(6d\) of the two conjugate six-factor words gives \(6d-1\) polynomials of total coefficient degree at most **six**, independently of \(d\). Leading coefficients already agree. These equations give the order-\(6d\) contact with the anchor and hence between every pair, as in II.5. Take the strict open subset, including the nonzero cofactors. Its component-degree sum is at most \(6^{4(6d-1)}\) by the same Bézout induction. Evaluate at source zero away from the boundary. This gives *all* torus ratio evaluations at finite source, since translating any finite source to zero preserves monicity and the template identities over the split coefficient field. The four graph equations “ratio times denominator equals numerator” at zero have degree at most seven in the coefficient and ratio variables, after cancellation of the shared edge in each reduced word. The graph on the open where denominators are nonzero thus has component-degree sum at most \(7^4\,6^{4(6d-1)}\). Linear projection to ratio space does not increase this sum: for an irreducible component intersect the image with generic complementary hyperplanes and cut their inverse image further by generic hyperplanes to meet each resulting generic fibre. Its image degree is bounded by the source degree. The evaluation at infinity, the identity, is already in the closure for a nonempty family.
+
+By III.6 each image component has dimension at most two. It lies in a hypersurface of at most its degree, by generic linear projection onto a space one dimension higher than the component and pulling back its image equation. Multiplication and summation of degrees over all components and all \(d\le d_0\) give the asserted bound, since the displayed majorants form a geometric progression. A polynomial of the resulting degree can be taken over \(\mathbb Q(i)\): the union of the split loci and their closures is defined there, and the conditions for its degree-bounded ideal piece descend by linear algebra. Homogenize in the anchor for the five-mark grid. In particular \(d_0=o(\log m)\), or \(d_0\le c\log m\) for fixed \(c<1/(24\log6)\), gives degree \(o(m)\) and therefore \(o(m^5)\) tuples on an \(m\)-mark grid. This is a uniform exception for configurations that actually arise from such polynomial families. The growth extraction gives no such degree bound or polynomial representation for its arbitrary genuine tuples.
+
+**PROVED — the same degree-cutoff principle reaches fifteen cuts and polynomial cofactors.** Give each of the fifteen singleton or doubleton blocks its own degree \(d_A\ge0\), with \(D=\sum_A d_A>0\). Work with disjoint oriented supports, normalized monic blocks and conjugate partners. Suppose the four anchored ratios tend to the identity at infinity to order at least \(k=\lceil D/2\rceil\). Then all evaluations of all such templates with \(\max d_A\le d_0=o(\log m)\) contribute \(o(m^5)\) tuples on any \(m\)-mark grid, uniformly in their coefficients. This includes equal positive degree \(d\) on all fifteen cuts with all reduced cofactors of polynomial degree \(\le\lfloor d/2\rfloor\): every reduced word has degree \(8d\), and its conjugate difference has degree at most \(d/2\), so the contact is at least \(\lceil15d/2\rceil\).
+
+Indeed any fourfold logarithmic determinant using the source direction and three parameter directions has at most \(2D\) simple poles. The residue line is again fixed at each boundary place. It has a zero of order at least \(4k+1>2D\) at infinity. Thus it vanishes identically, and the characteristic-zero image has dimension at most three, since the source logarithmic derivative is nonzero for a nonconstant tuple. A constant tuple with the stated contact is just the identity. For each specified degree vector the contact is imposed by at most \(4k\) polynomial equations of coefficient degree at most eight, since each pair crosses eight of the fifteen cuts and top word coefficients must agree. The four graph equations at source zero have degree at most nine. The preceding Bézout and projection argument bounds the degree of a ratio hypersurface by \(9^4 8^{4k}\). Taking a product over at most \((d_0+1)^{15}\) degree vectors gives \(O((d_0+1)^{15}8^{30d_0+4})\), which is \(m^{o(1)}\) for the stated cutoff. This gives the small-degree equation in the actual ratio coordinates for this fifteen-cut subfamily. An isolated balanced tuple of integers has no given polynomial deformation with comparable degree and contact; small *values* of its cofactors do not impose these coefficient identities.
+
+### Twelve-line summary
+
+1. **EVIDENCE.** I have neither a strict Gaussian rational linear template nor a proof of geometric emptiness; the complete saturated dimension and degree remain open.
+2. **PROVED.** Every strict linear point modulo affine change has tangent dimension at most three in characteristic zero and every \(p>5\), and at most two on the full-rank second-moment stratum.
+3. **PROVED.** The unbarred star quartics give zero, at most one, or at most nine barred completions in ranks five, four, or three; at rank four only eight unbarred variables remain.
+4. **COMPUTED.** The strict twisted finite-field census is empty for \(p=7,11,19,23,31\); exact geometric certificates exclude generic anchors and the specified cofactor-profile fibre in the reported characteristics.
+5. **PROVED.** For every fixed block degree the ten-pair ratio curves together sweep dimension at most two, so a collection of linear templates cannot settle the essential constant by density.
+6. **PROVED.** Fifteen-cut polynomial templates of maximum block degree \(o(\log m)\) and contact at least half the total block degree satisfy a parent-grid equation of degree \(m^{o(1)}\).
+7. **PROVED.** For feasible signed \(t\) the continuous ten-pair norm closure is an irreducible degree-twelve fourfold, and its ratio image is dominant even for one fixed \(t\).
+8. **PROVED.** Odd private integral norm vectors satisfy an exact realization test; one feasible real cofactor vector has empty arithmetic closure, and density for general admissible \(t\) remains undecided.
+9. **PROVED.** A moving rational norm plane contains \(O_\epsilon((2T)^\epsilon)\) private genuine ratio classes for fixed signed \(t\), uniformly in plane height and in prescribed singleton norms.
+10. **PROVED.** For \(A\) singleton choices, \(K\) planes per choice and cofactor product at most \(L\), interpolation gives ratio degree \(O_\epsilon(1+(AK)^{1/4}L^{(1+\epsilon)/4})\).
+11. **PROVED.** Four fixed marks admit at most four pure-pair completions for each cofactor product; with fifteen cuts only a genus-four finiteness statement per fixed product cube class follows here.
+12. **HEURISTIC.** I would ask the referees to audit the tangent-space and degree-cutoff proofs, then run the eight-variable rank-four compatibility equations and the rank-three kernel pencil separately.
+
+# Part IV — The norm defect at width \(N^{-3/10}\)
+
+**PROVED — answer to (a).** The exponent \(4/5\) can be lowered. The following are two orientations of the ten pair cuts. Both constructions have squarefree split parent, valuation index one, all ten minor divisibilities, and arbitrarily large parent norm. Put \(\delta_i=|V_i|^2-n_i\).
+
+| Marked side of each cut | Star norms | Absolute defects | Width and cofactors |
+|---|---|---|---|
+| Always its two endpoints | \(n_i\sim N^{2/5}\) | \(\max|\delta_i|\le N^{1/10+o(1)}\), hence \(|\delta_i|\le n_i^\theta\) for **every \(\theta>1/4\)** | \(\Delta=N^{-3/10+o(1)}\), with \(N^{o(1)}\) cofactors. The models escape any prescribed proper closed set of doubled ratios. |
+| Reverse the five edges of a cycle, as in III.11 of the other thread | \(n_i\sim\sqrt N\) | \(\max|\delta_i|=o(N^{3/10})\), hence **\(o(n_i^{3/5})\)** even with the literal coefficient-one inequality | \(\Delta\asymp N^{-3/10}\), with **fixed** nonzero signed cofactors. |
+
+**PROVED — interpretation.** With the orientations and slowly growing cofactors allowed in the definition in the question, the first row gives \(e(\theta)=10/3\) for \(1/4<\theta\le1\), including \(1/2\), also in the essential sense explained below. If the five individual radii are required to have the referee's normalization \(n_i\sim\sqrt N\), the second row gives pointwise attainment for \(3/5\le\theta\le1\). I do not have a balanced family at \(1/2\), or a family for every positive \(\theta\). All ten *cut weights* are asymptotically equal in both rows. Which side is marked changes \(n_i\) and therefore changes an **absolute** defect bound. The distinction survives even on parents with exactly ten primes.
+
+## IV.1. Common arithmetic input
+
+**PROVED.** Write \(J_e\) for the prime on edge \(e\), \(N=\prod_eJ_e\), and \(P=N^{1/10+o(1)}\) for the scale used below. The ten \(J_e\) will actually be \(P(1+o(1))\). A mark's norm \(n_i\) is the product of its marked primes, and \(g_{ij}=\gcd(n_i,n_j)\). The ten pair columns generate the even-coordinate-sum lattice in \(\mathbb Z^5\), since edge differences generate every \(e_i-e_j\). Together with the all-ones vector they generate \(\mathbb Z^5\). Thus their images generate the full anchored lattice, and reversing a side just negates that column there. Since every block is a distinct prime to exponent one, both valuation indices are one.
+
+For each pair, \(n_i n_j/g_{ij}^2\) is the product of the six separating blocks. If \(\delta_i=o(n_i)\), the sine of the difference of star angles is \((1+o(1))|t_{ij}|/\sqrt{n_i n_j/g_{ij}^2}\), where \(t_{ij}=[V_i,V_j]/g_{ij}\). This gives the Liouville inequality for these profiles and computes the width when the doubled angles are close. Even the weaker bound \(|V_i|^2\le2n_i\) suffices for the lower bound up to constants.
+
+**PROVED — prime specialization used in both constructions.** For a fixed finite list of distinct integer shifts \(b\), any prescribed fixed divisibility on \(q\), and any positive-relative-upper-density subset of the primes, one can take \(P+qb\) simultaneously in that subset with \(P\to\infty\) and \(q=P^{o(1)}\). Include \(0\) among the shifts whenever \(P\) itself is needed prime. This is the relative narrow arithmetic progression theorem of Tao and Ziegler: apply it to a progression long enough to contain the translated required indices, spacing the indices by the fixed divisibility modulus. Translating the first term gives \(P\). Only the consequence with steps at most the first term to any prescribed fixed positive exponent is needed; diagonalization gives the displayed \(o(1)\). The ten primes are distinct, and \(q\) is eventually smaller than each of them. The ordinary positive-density set of primes \(1\bmod4\) suffices through IV.2. (T. Tao and T. Ziegler, *Narrow progressions in the primes*.)
+
+## IV.2. Reaching the quarter power, outside every fixed exception
+
+**PROVED.** Start with five distinct nonzero integers \(x_i\). Denote their elementary symmetric functions by \(s_1,\ldots,s_5\). Require \(s_4=0\), \(-s_1s_5=l^2\) for a nonzero integer \(l\), and \(b_0=3s_5/2\) integral. Set
+\[
+ b_{ij}=x_i x_j(s_1-x_i-x_j),\qquad
+ h_i=x_i^3-s_1x_i^2+s_2x_i .
+\]
+Require the ten \(b_{ij}\) distinct and nonzero. One choice is
+\[
+ (x_1,\ldots,x_5)=(-27,-270,135,120,40),\qquad
+ (s_1,s_2,s_3,s_4,s_5)=(-2,-53925,-5042250,0,4723920000).
+\]
+Here \(l=97200\). Use IV.1 to make \(P\) and \(J_{ij}=P+q b_{ij}\) split primes. Take \(q\) divisible by every prime of \(l b_0\prod x_i\). Mark exactly the two endpoints of each edge. Define
+\[
+ U_i=P+q h_i,\qquad B=b_0 q^2,\qquad L=lq,\qquad
+ V_i=(P U_i+B x_i,\ L U_i).
+\]
+Their signed determinants are **exactly**
+\[
+ [V_i,V_j]=LB(x_i-x_j)J_{ij},
+\]
+because \(x_i h_j-x_j h_i=(x_i-x_j)b_{ij}\). If a prime divides \(LB\) or some \(x_i\), it divides \(q\), and the first entry of \(V_i\) is \(P^2\bmod p\), nonzero. At every other prime the change from \((x_i,U_i)\) to \(V_i\) is invertible and \(x_i\) is a unit. Thus all five columns are primitive.
+
+The shell estimate follows by matching three coefficients of a quartic. For the four shifts at vertex \(i\),
+\[
+ \sum_{j\ne i} b_{ij}=2h_i,\qquad
+ \sum_{j<k,\ j,k\ne i} b_{ij}b_{ik}
+     =h_i^2+3s_5 x_i-s_1s_5 .
+\]
+For the first identity sum the displayed \(b_{ij}\). For the second use half the difference of the square of that sum and the sum of squares, express the power sums of the \(x_j\) by Newton's identities, and reduce by \(\prod_j(X-x_j)\) at \(X=x_i\). Before setting \(s_4=0\), the difference of \(h_i^2\) and the second elementary symmetric function is \(s_4x_i^2-(s_1s_4+3s_5)x_i+s_1s_5\). Now expand \((P U_i+B x_i)^2+L^2 U_i^2\). These two identities match the coefficients of \(P^3q,P^2q^2\) in \(n_i=\prod_{j\ne i}(P+q b_{ij})\), and the leading term is \(P^4\). In fact the residual is
+\[
+ \delta_i=Pq^3\,s_5x_i(s_2x_i-s_1s_2-s_3)+O_x(q^4).                 \tag{IV.1}
+\]
+The same Newton reduction gives the displayed coefficient. Thus \(|\delta_i|\ll_x Pq^3+q^4=P^{1+o(1)}\). All angles are close since the first coordinates are asymptotic to \(P^2\) and the second are \(O_x(qP)\). The determinant formula gives the asserted logarithmic width. The displayed numerical quintuple has both signs in the leading residuals. [Direct exact checks](iv_shell_certificate.py) · [Symbolic Newton reduction](iv_quartic_conditions.py)
+
+**PROVED — the exceptional-set quantifier.** For every fixed proper Zariski-closed subset \(Z\) of the four-dimensional ratio torus, the marks \(x_i\) can be chosen once so that all sufficiently large specializations above escape \(Z\). This is a statement about the doubled ratios of the **integral models**. It does not turn them into lattice points on a common circle.
+
+Here are the details of the shape variation. Put \(y_i=1/x_i\), so \(\sum y_i=0\) and \(-s_1s_5=-e_4(y)/(\prod y_i)^2\). Rational points with \(-e_4(y)\) a nonzero rational square are Zariski dense in \(\sum y_i=0\). Write \(y=(a,b,c,d,-s-d)\), \(s=a+b+c\), \(g=ab+ac+bc\). The square equation is
+\[
+ v^2=g d(d+s)+sabc .
+\]
+Choose \(a=bc(b+c)/(k^2-bc)\) with rational \(b,c,k\). These triples are Zariski dense in three-space: for generic \(b,c\) the rational function of \(k\) is nonconstant. They satisfy \(sabc=(ka)^2\), giving the point \(d=0,v=ka\). For generic such triples the quadratic on the right has nonzero discriminant and leading coefficient. Lines of rational slope through this point parametrize the conic, giving infinitely many distinct rational \(d\). This proves the density assertion and allows deletion of the coordinate zeros, coincidences and shift collisions, which are proper by the displayed example.
+
+The induced map to \([x_1-x_5:\cdots:x_4-x_5]\in\mathbb P^3\) is dominant. Indeed translate any generic five affine marks \(z_i\) by a common root of \(e_4(z_1+t,\ldots,z_5+t)=0\). This quartic has leading coefficient five, and none of \(t=-z_i\) is a root for distinct marks. Translation preserves the specified direction. Clear denominators of the rational \(x_i\) by common integer scaling, taking a further factor two if needed. This preserves their projective shape and the square condition, which scales by a sixth power.
+
+Write \(\xi_i=V_i/\bar V_i\) in Gaussian notation. For \(i\le4\), the leading vector of \((\xi_i/\xi_5-1)_i\) is projectively \([x_i-x_5]_i\), by the determinant formula and \(V_i/P^2\to1\). At the identity, the lowest nonzero Taylor term of any nonzero Laurent polynomial vanishing on \(Z\) gives a nonzero homogeneous polynomial in the four local coordinates. Choose the shape outside its projective zero set. The leading-term comparison then excludes \(Z\) for all large \(P\). This proves the first row also with fixed exceptions.
+
+## IV.3. Keeping all five star norms asymptotic to \(\sqrt N\)
+
+**PROVED with exact polynomial checks.** Use marks numbered \(1,\ldots,5\). In lexicographic edge order set
+\[
+ (b_e)=(145,79,-31,109,85,-47,113,19,-41,25),\qquad J_e=P+q b_e .
+\]
+Complement the edges of the cycle \(12,23,34,45,51\). Let \(\mathcal S_i\) be the resulting set of marked edges at vertex \(i\). It contains five edges and every \(\mathcal S_i\cap\mathcal S_j\) contains two. Use
+\[
+ n_i=\prod_{e\in\mathcal S_i}J_e,\qquad g_{ij}=\prod_{e\in\mathcal S_i\cap\mathcal S_j}J_e,\qquad
+ p_*=P+329q,\quad T_i=P^2+d_iqP+f_iq^2 .
+\]
+
+| \(i\) | \(R_i\) | \(d_i\) | \(f_i\) |
+|---|---:|---:|---:|
+| 1 | 4680 | −76 | 26095 |
+| 2 | 3861 | −55 | \(43223/2\) |
+| 3 | 2860 | −6 | 16715 |
+| 4 | 3168 | −34 | 16813 |
+| 5 | 2808 | −4 | 16303 |
+
+Two polynomial identities are sufficient:
+\[
+ T_iR_j-T_jR_i=(R_j-R_i) g_{ij},\qquad p_*T_i^2-n_i=O(q^3P^2)\quad(1\le q\le P).              \tag{IV.2}
+\]
+For the second, the homogeneous polynomial of degree five on the left has zero coefficients at \(P^5,P^4q,P^3q^2\). Both identities can be verified by multiplying the displayed linear and quadratic polynomials. This is why the bounded second row \(R_i\) matters: after reversal of the cycle, three leading norm coefficients agree simultaneously while the determinants retain precisely the required two blocks.
+
+**COMPUTED.** The first certificate verifies (IV.2) directly from the table over \(\mathbb Q[P,q]\). The second gives its derivation from the cubic pencil on abscissas \(1,1/2,-1/9,1/13,-1/7\). Briefly, interpolate a polynomial row vanishing on the five cycle congruences and divide its value at each mark by its two incident cycle factors. One such row gives constants; a second gives monic quadratics. Adding a common multiple of the first row to the second kills the \(P^3q^2\) defect without changing any determinant. The table incorporates that addition and clears the fixed denominators by a change of step. [Direct certificate](iv_shell_certificate.py) · [Cycle interpolation](iv_cubic_shortrow.py)
+
+**PROVED — integral placement on the shells.** Take \(q\) divisible by \(2\prod_i R_i\). Choose the ten \(J_e\), \(P\), and \(p_*\) as distinct split primes by IV.1. Thus \(T_i\) is integral and coprime to \(R_i\), because it is \(P^2\bmod\ell\) for every prime \(\ell\mid R_i\). Choose a Gaussian vector \(\alpha=(a,b)\) of squared length \(p_*\); it is primitive. Extend it to an oriented integral basis \((\alpha,\beta)\). Write \(s=\alpha\cdot\beta\), reducing it to \([-p_*/2,p_*/2]\) by \(\beta\mapsto\beta+j\alpha\). Set
+\[
+ V_i=T_i\alpha+R_i\beta .
+\]
+These are primitive columns and (IV.2) gives all signed cofactors \(R_j-R_i\), independent of \(P,q\). Their directions tend to the direction of \(\alpha\) up to \(o(1)\), since \(|\beta|=O(|\alpha|)\) and \(T_i\sim P^2\). No identification of the drifting direction with a fixed direction is used. The exact defect formula is
+\[
+ \delta_i=(p_*T_i^2-n_i)+2s T_iR_i+\frac{s^2+1}{p_*}R_i^2.                                  \tag{IV.3}
+\]
+Indeed \(p_*|\beta|^2=s^2+1\). With the centered choice of basis this alone gives \(O(P^3)\), hence every defect exponent \(>3/5\), using just the narrow progression theorem.
+
+For the literal endpoint and the little-\(o\) assertion, fix \(0<\epsilon<1/2\). The primes admitting a root of \(-1\bmod p\) with representative in \((0,\epsilon p)\) have positive relative density among the primes. This is the Duke–Friedlander–Iwaniec equidistribution theorem for the roots of \(X^2+1\) to prime moduli; all these primes except 2 are split. Apply IV.1 inside **this one subset**. In particular \(p_*\) has such a root. The centered \(s\) from any choice of \(\alpha\) has \(|s|\le\epsilon p_*\), since \(s\bmod p_*\) is one of the two opposite roots. Thus
+\[
+ \max_i |\delta_i|/P^3\ \le\ 2\epsilon\max_i |R_i|\,(1+o(1))+o(1).
+\]
+For a single sequence take \(\epsilon=1/j\) for \(j\ge3\), choose \(P\) arbitrarily large at stage \(j\), with \(q\le P^{1/j}\), and take the two error terms small at that stage. The progression length and the prime threshold need not be uniform in \(j\). This proves \(o(n_i^{3/5})\) at all marks. IV.1 now gives \(\Delta\asymp N^{-3/10}\). (W. Duke, J. Friedlander and H. Iwaniec, *Equidistribution of roots of a quadratic congruence to prime moduli*, Annals of Mathematics 141 (1995).)
+
+**COMPUTED — one actual squarefree parent.** Take \(q=924\), \(K=3999318414\), \(p_*=K^2+1\), and \(P=15994547776559171401\). Five of the ten blocks are themselves prime; all ten are squarefree, split, and pairwise coprime. The stars \((KT_i-R_i,T_i)\) are primitive, have exactly the ten stated signed cofactors, and satisfy \(0<(1000|\delta_i|)^5<n_i^3\) at every mark. The certificate supplies the full factorization; all its primality tests are below \(2^{64}\). This sample uses private composite blocks as well as primes. The infinite construction above gives ten prime blocks. [Exact specialization](iv_shell_certificate.py)
+
+**PROVED — where this balanced family stops.** A root of \(-1\bmod p_*\) of size \(O(p_*^{1-\gamma})\) in the same prime pattern, for fixed \(0<\gamma\le1/2\), would improve (IV.3) to \(O(P^{3-\gamma}+P^2q^3)\). The positive-density argument above gives no such power bound. Beyond that arithmetic issue, even allowing arbitrary integral matrices with the same signed minors up to a nonzero factor of size \(P^{o(1)}\), this particular family **cannot** have maximum defect \(o(P^{5/2})\).
+
+To see this, any such matrix has the form \(V'_i=A T_i+B R_i\) for rational columns \(A,B\): two rows with the same projective Plücker coordinates span the same rational row plane. The denominators of \(A,B\) are bounded independently of \(P\). The lattice generated by the \((T_i,R_i)\) has index the gcd of the ten minors. For each prime \(\ell\) some mutual block product \(g_{ij}\) is prime to \(\ell\), so that gcd divides \(\prod_{i<j}|R_j-R_i|\), a fixed integer. Applying the rational transformation to the index times each standard basis vector proves the bound. Write \(a=|A|^2,\ b=A\cdot B,\ c=|B|^2\), \(\nu=\det(A,B)\). If all five defects were \(o(P^{5/2})\), subtract (IV.2) to get
+\[
+ (a-p_*)T_i^2+2b T_iR_i+cR_i^2=o(P^{5/2}).
+\]
+Here \(q=P^{o(1)}\). The matrix with three rows \(((T_i/P^2)^2,2(T_i/P^2)R_i,R_i^2)\) tends to an invertible Vandermonde matrix on three distinct \(R_i\), with its middle column doubled. Hence \(a-p_*=o(P^{-3/2})\) and \(b=o(P^{1/2})\). Bounded denominators force \(a=p_*\). The Gram determinant gives \(c=(b^2+\nu^2)/p_*=o(1)\), impossible since \(B\ne0\) has bounded denominator. This is an integral obstruction at the half power for these parents **with these minor ratios**. Different parents or different minor ratios can evade it. The balanced example is also one fixed projective pencil: its four-mark cross ratios depend on \(P/q\) only. I make no essential-density assertion for this row.
+
+## IV.4. What crossing the next defect threshold would require
+
+**PROVED — a width–defect dichotomy.** Consider private pair blocks \(J_e=P^{1+o(1)}\), in either of the two orientations above. This statement does not require the \(J_e\) to be prime, or to arise from any pencil. Write \(h=4\) for the uncomplemented orientation, \(h=5\) for the balanced one, so \(n_i=P^{h+o(1)}\), \(g_{ij}=P^{h-3+o(1)}\). Suppose the signed integral cofactors are nonzero with \(\max|t_{ij}|\le P^{\kappa+o(1)}\). If for some fixed \(\varepsilon>0\)
+\[
+       \max_i|\delta_i|\le P^{\,h-3-12\kappa-\varepsilon},
+\]
+then either the norms are exact or there is one primitive integral linear form \(\ell\) and one nonzero rational \(\lambda\) such that
+\[
+                      \delta_i=\lambda\,\ell(V_i)^2\qquad(1\le i\le5).                  \tag{IV.4}
+\]
+In particular a mixed-sign defect is impossible in this range. When the norms have relative error \(o(1)\) and \(\Delta\le N^{-3/10+\eta}\), the six separating blocks in IV.1 permit \(\kappa=10\eta\). Thus a model with mixed signs must have maximum defect at least \(P^{h-3-120\eta-o(1)}\). At the critical width the uncomplemented mixed-sign example (IV.1) attains the power \(h-3=1\). On balanced stars the threshold is \(h-3=2\), or defect exponent \(2/5\). This conclusion does not require a fixed plane or a closed exceptional set.
+
+*Proof.* Put \(m_{ij}=[V_i,V_j]=t_{ij}g_{ij}\), extending \(m,t\) antisymmetrically. For a chosen set \(F\) of complemented edges let \(D=\prod_{e\in F}J_e,\ A_i=\prod_{e\in F,\ i\in e}J_e\), and \(B_i=\prod_{e\ni i}J_e\) over the original four edges. Then \(n_i=DB_i/A_i^2,\ g_{ij}=D J_{ij}/(A_iA_j)\), including \(D=A_i=1\) in the uncomplemented case. Write \(c_i=1/\prod_{j\ne i}t_{ij}\). For every binary quadratic form \(Q\), interpolation on five distinct projective directions gives
+\[
+       \sum_i \frac{Q(V_i)V_i}{\prod_{j\ne i}m_{ij}}=0 .
+\]
+For a direct verification, take an affine chart \(V_i=z_i(1,u_i)\), all \(u_i\) distinct. The common factor in each coordinate reduces the equation to \(\sum f(u_i)/\prod_{j\ne i}(u_i-u_j)=0\) for \(\deg f\le3\), the leading coefficient of Lagrange interpolation. Apply this first to the Euclidean form. Since \(\prod_{j\ne i}g_{ij}=D^2 B_i/A_i^3\), it gives \(\sum c_i A_i(1+\delta_i/n_i)V_i=0\). Taking the determinant against \(V_k\) and cancelling the common factor gives
+\[
+       \sum_{i\ne k}c_i t_{ik} J_{ik}
+          =-\sum_{i\ne k}c_i t_{ik}J_{ik}\,\delta_i/n_i.                              \tag{IV.5}
+\]
+The denominator on the left divides \(\prod_{a<b,\ a,b\ne k}|t_{ab}|\le P^{6\kappa+o(1)}\); on the right \(|c_it_{ik}|\le1\). Thus the left side vanishes exactly whenever \(\max|\delta_i|\le P^{h-1-6\kappa-\varepsilon}\). In particular at subpower cofactors a defect exponent \(<4/5\) on the balanced rows already forces the exact linear identity (8) in its norm-only form. The new examples show that recovering it is insufficient.
+
+The vanishing for all \(k\) gives \(\sum c_i A_i V_i=0\), by taking determinants against spanning columns. Consequently the five proposed values \(n_i\) satisfy the two interpolation relations. These characterize the three-dimensional image of binary quadratic evaluation: the evaluations have rank three at distinct directions, and the two relations are independent since the \(V_i\) span. There is a unique rational quadratic \(Q_*\) with \(Q_*(V_i)=n_i\).
+
+Its coefficient denominators in the monomials \(X^2,XY,Y^2\) divide \(H_t=\prod_{a<b}|t_{ab}|\). Indeed interpolation on any three columns has determinant, up to sign, the product of their three pair minors. At each prime of a private block, at least two marks are unmarked. Pick a triple containing at most one marked vertex. All three shared factors in this triple are units there. At primes outside the blocks choose any triple. Cramer's rule now bounds the local denominator by the local part of \(H_t\).
+
+Put \(E=I-Q_*\), using \(I(X,Y)=X^2+Y^2\). For a pair \(i,j\), express a third vector as \(V_k=aV_i+bV_j\). The coefficients are signed ratios of pair minors. The absolute values of \(a,b,a/b,b/a\) are at most \(P^{\kappa+o(1)}\), and \(|ab|^{-1}\le P^{2\kappa+o(1)}\). Thus
+\[
+  2E(V_i,V_j)=\frac{\delta_k-a^2\delta_i-b^2\delta_j}{ab},
+  \qquad |E(V_i,V_j)|\le P^{2\kappa+o(1)}\max_i|\delta_i|
+\]
+with the symmetric polar form convention. The Gram determinant now gives
+\[
+  |\det E|=\frac{|\delta_i\delta_j-E(V_i,V_j)^2|}{m_{ij}^2}
+       \ \le\ P^{-2(h-3)+4\kappa+o(1)}\max_i|\delta_i|^2 .
+\]
+A nonzero determinant is at least \(1/(4H_t^2)\ge P^{-20\kappa-o(1)}/4\). Under the stated hypothesis this is impossible. A nonzero rank-one rational quadratic is \(\lambda\ell^2\) with \(\ell\) primitive integral, proving (IV.4). At \(\kappa=0\) there cannot even be a single zero defect in the nonzero alternative: primitivity would make \(\ell=\pm[V_i,\,\cdot\,]\) at that mark, and \(|\lambda|\ge 1/H_t\) by evaluating at an integer vector where \(\ell=1\). The other defects would then have size at least \(P^{2(h-3)-o(1)}\). \(\square\)
+
+**PROVED — why the quadratic-form lattice in (c) does not complete the argument.** A private prime power \(p^a\Vert J_e\) supplies **one** marked projective line for the norm congruences. There is no congruence on the mutual determinants of the unmarked columns at that prime. In III.11 the blocks are coprime to all the normalized cofactors \(u_i-u_j\). Hence the unmarked columns actually have mutually distinct directions modulo \(p\), all different from the marked line. Requiring a quadratic to vanish at *all* five columns there would give at least three distinct zeros, so its reduction would be the zero polynomial. In particular III.11 has no distinguished nonzero two-root \(Q_p\) of the proposed kind and no shortest representative of that proposed class.
+
+The actual coefficient lattice \(\{Q\in\mathbb Z[X,Y]_2:Q(V_i)=0\bmod n_i\ \forall i\}\) has index \(N\) for these private profiles. Locally all marked columns generate the same primitive line modulo \(p^a\), by primitivity and the minor divisibility. Evaluation at that line imposes one surjective scalar congruence, since at least one squared coordinate is a unit; CRT multiplies the indices. The shell problem asks how well the **particular Euclidean form** takes the five prescribed integer values. The interpolation and determinant argument measures that discrepancy and shows that very small residuals must all come from one square. It gives no lower bound when \(E=0\).
+
+**EVIDENCE — verdict at the genuine endpoint.** I cannot exclude (IV.4) with nonzero small values, construct fakes for every \(\theta>0\), or improve the essential exponent at defect zero. In particular I have no \(10/3+c\) for genuine squarefree ten-pair parents. Exact norms restore the marked Gaussian orientations by the argument in the referee report. Question B's uniform reduction also allows the fifteen-cut profiles in the expert note. The quarter-power barrier concerns methods tolerating absolute errors in the indicated ten-pair orientation and is not a disproof of Question B. [Model referee](../../round31/ref3_model.md) · [Question B](/home/user/Jarnik/docs/claude_review/expert_note/expert_note.md)
+
+### Twelve-line summary
+
+1. **PROVED.** The \(4/5\) absolute-defect exponent can be lowered at five marks, with squarefree split parent and valuation index one.
+2. **PROVED.** Marking the two endpoints of every cut gives \(e(\theta)=10/3\) for every \(\theta>1/4\), including the literal \(\theta=1/2\), with \(n_i\sim N^{2/5}\).
+3. **PROVED.** A cubic identity cancels three leading shell coefficients, leaving \(P^{1+o(1)}\) error on quartic norms; the ten integral cofactors are \(P^{o(1)}\).
+4. **PROVED.** Rational variation of the five leading angular differences makes these approximate models escape every fixed proper closed set of doubled ratios.
+5. **PROVED.** With all \(n_i\sim\sqrt N\), a complemented cubic pencil gives \(o(n_i^{3/5})\) defects, fixed cofactors and width \(\asymp N^{-3/10}\).
+6. **PROVED.** In that pencil a power saving beyond \(3/5\) would follow from a polynomially small root of \(-1\) at the distinguished prime of the same narrow prime pattern.
+7. **COMPUTED.** A fully factored squarefree specialization has all ten divisibilities and satisfies \(0<(1000|\delta_i|)^5<n_i^3\) at each mark.
+8. **PROVED.** No integral chart of this balanced pencil with proportional signed minors and subpower determinant attains maximum defect \(o(n_i^{1/2})\), with the five \(n_i\) comparable.
+9. **PROVED.** On arbitrary private profiles of the two orientations, defects strictly below the quarter or two-fifths exponent respectively must all come from one rational rank-one quadratic, unless all are zero.
+10. **PROVED.** Part (c) supplies one marked line per prime; the coefficient lattice has covolume \(N\), and the proposed class of covolume \(N^2\) is undefined on III.11.
+11. **EVIDENCE.** I have no construction for every \(\theta>0\), no balanced half-power family, and no gain over \(10/3\) for genuine tuples.
+12. **HEURISTIC.** I would prioritize referee checks of the dense-shape argument in IV.2 and the denominator bound following (IV.5), then test whether nonzero rank-one defects can persist at subpower size.
+
+# Part V — Local isotropy at five marks
+
+**PROVED.** With no upper bound on individual norms, all twenty endpoint incidences can be isotropic, all ten signed cofactors can be fixed, and the width can be *arbitrarily small on each parent*. The doubled ratios can avoid any prescribed proper closed set. Thus there is no width lower bound in terms of the parent alone in (c). The two-sided requirement \(\Delta=N^{-3/10+o(1)}\) recovers additional arithmetic information. On equal-log-weight blocks that requirement recovers \(|V_i|^2/n_i=N^{o(1)}\) from below **and above**. Full isotropy then produces an actual Gaussian circle of primitive norm \(N^{1+o(1)}\). I do not know how to construct such an essential critical sequence.
+
+**PROVED.** With the original archimedean normalization \(|V_i|^2/n_i\to1\), every fixed proper closed set can be escaped with **four complete isotropic blocks**, all through one mark. A second construction has **five complete isotropic blocks**, at the same width with fixed cofactors, on one rational curve. Both use squarefree split parents with equal-weight private blocks, possibly composite. Here \(\Delta\) is the maximum chord distance among the five doubled directions. We use mark 1 as anchor, so the four coordinates of the ratio torus are \(y_i=(V_i/\bar V_i)/(V_1/\bar V_1)\) for \(2\le i\le5\).
+
+## V.1. What full isotropy and the multipliers imply
+
+**PROVED.** Write \(p\mid J_e\), \(S_p\) for the marked side, \(n_i=\prod_{p:\,i\in S_p}p\), \(g_{ij}=\gcd(n_i,n_j)\), and \([V_i,V_j]=g_{ij}t_{ij}\ne0\). At \(p\), the marked columns span one line, by primitivity and divisibility. If one marked column is isotropic then every marked column is, and all their pairwise dot products vanish modulo \(p\). For a split prime the two isotropic lines are the kernels of reduction at the two Gaussian primes above \(p\). The assertion holds prime by prime for a composite block, including propagation of divisibility by the whole \(J_e\).
+
+**PROVED.** Under full isotropy choose \(\pi_p\) dividing every marked column and set \(G_i=\prod_{p:\,i\in S_p}\pi_p\). Exactly
+\[
+                  V_i=G_iU_i,\qquad |U_i|^2=c_i.
+\]
+Primitivity gives the complete local multiplier rule. Each \(c_i\) is a product of split primes to any exponents and a factor \(2^b\), \(b=0,1\). At each split prime occurring in \(c_i\), all its factors in \(U_i\) have a single orientation, which must be \(\pi_p\) if \(i\in S_p\). Conversely these choices and Gaussian units give primitive columns with the declared norms, all isotropies and all required minor divisibilities. Distinctness, small cofactors and small width impose further conditions. Critical existence for locally admissible patterns remains open. If the normalization is literally \(|V_i|^2/n_i\to1\), integrality forces all \(c_i=1\) eventually. Bounded multipliers use comparability of the two norms.
+
+**PROVED.** There is an exact answer to the question “which circle?” Let \(s_{ip}=v_{\pi_p}(V_i)-v_{\bar\pi_p}(V_i)\) at every split prime occurring anywhere. The least norm of integral Gaussian points with the five specified doubled ratios is
+\[
+               H=\prod_{p\ {\rm split}}p^{\,\max_i s_{ip}-\min_i s_{ip}}.                  \tag{V.1}
+\]
+Indeed the valuations at \(\pi_p\) of any realizing points must differ by \(s_{ip}-s_{jp}\). Their nonnegative exponents at \(\pi_p,\bar\pi_p\) sum to the common norm exponent. This proves its lower bound. To attain it give row \(i\) those two exponents \(s_{ip}-\min_j s_{jp}\) and \(\max_j s_{jp}-s_{ip}\). Ratios now have all the required prime valuations, and units in the five rows supply the remaining unit ratios. The prime over 2 contributes only a unit to a doubled direction. These points have Gaussian gcd one. For \(C=\operatorname{lcm}_i(c_i)\), the range in (V.1) differs from the range for \(G_i\) by at most \(2v_p(C)\). The latter range is one on the parent and zero elsewhere. Hence
+\[
+                     N/C^2\le H\le NC^2.
+\]
+For an explicit possibly imprimitive circle put \(B=\prod_{p\mid N}\bar\pi_p\). The five points \(B(G_i/\bar G_i)(C/c_i)U_i^2\) are integral, have norm \(NC^2\), and realize exactly the requested doubled ratios.
+
+**PROVED.** For \(c_i=c\) the formula simplifies to \(H=N\prod_{p\in D}p^{2v_p(c)}\), where \(D\) comprises the split primes dividing \(c\) used in both orientations by the five \(U_i\). Off the parent the exponent is zero or \(2v_p(c)\). On the parent the marked sign is fixed, so the exponent is one or \(1+2v_p(c)\). In the single-orientation case a common Gaussian factor of norm \(c\) can be removed, up to the units already allowed. For \(c=2\) the correspondence is reversible on every odd parent. Multiplication of exact stars by \(1+i\) preserves primitivity, since their original norms are odd, and doubles all cofactors. Dividing a common-2 tuple by \(1+i\) gives exact stars. The stars themselves have norms \(cn_i\), and the common circle realizes their **doubled ratios**. Unequal bounded or polylogarithmic multipliers also yield \(H=N^{1+o(1)}\). For equal-log-weight blocks and \(C=N^{o(1)}\) each block retains a prime outside \(C\), since the product of the primes dividing \(C\) is at most \(C\). The genuine valuation lattice therefore still contains all ten anchored indicator columns and has index one. The applicable statement is the Gaussian \(A_5\) of Question B, with the very same ratio point and exceptional set. The narrower balanced one-unit formulation has additional hypotheses. The norm-one torus for \(\mathbb Q(i)\) here is the Gaussian form of the problem. The split equation \(xy=N\) associated with Erdős #887 requires a different torus. [Question B and the split form](/home/user/Jarnik/docs/claude_review/expert_note/expert_note.md)
+
+**PROVED.** A common multiplier satisfies the further restriction \(c^4\mid\prod_{i<j}|t_{ij}|\). At a split \(p^b\Vert c\) there are at least four pairs with the same Gaussian orientation, since a partition of five into two parts has at least four within-part pairs. Each such minor is divisible by \(p^b\). If \(p\mid g_{ij}\), the common Gaussian divisor already has exponent \(b+1\), so \(p^b\mid t_{ij}\) after division. If \(2\mid c\), all ten minors are even and the parent is odd. Multiplication over primes proves the assertion. In particular arbitrary common nonsquares do not furnish a large-multiplier escape at small cofactors.
+
+**PROVED.** For equal-log-weight blocks the literal two-sided width recovers the size comparison up to subpowers. Set \(W_i=V_i/\sqrt{n_i}\). For every pair, in any orientation,
+\[
+             |[W_i,W_j]|=\frac{|t_{ij}|}{\sqrt{n_i n_j/g_{ij}^2}}
+                          =N^{-3/10+o(1)} .
+\]
+The denominator under the square root is the product of the six separating blocks. On full isotropy \(|W_i|=\sqrt{c_i}\ge1\). Choose a pair attaining \(\Delta\). Its doubled chord is \(2|[W_i,W_j]|/(|W_i||W_j|)\). At the two-sided critical scale both lengths are \(N^{o(1)}\). Express each other \(W_k\) in this basis. Both coefficients are ratios of minors of the \(W\)'s, of size \(N^{o(1)}\). This proves \(c_k=N^{o(1)}\) for all five, without an a priori upper bound on their lengths. By (V.1), an essentially dense example at this scale already gives genuine critical approximants on Gaussian circles. This is where my answer to the bounded-multiplier existence question stops.
+
+**PROVED.** In the other direction, if \(c_i=N^{o(1)}\) is given and \(\Delta\le N^{-3/10+o(1)}\), then equal log weights are forced for ten endpoint cuts, including any reversals. Write \(W=\log N,\ w_{ij}=\log J_{ij},\ w_i=\sum_{j\ne i}w_{ij}\). The separating log weight is \(S_{ij}=w_i+w_j-2w_{ij}\). The chord formula and \(|t_{ij}|\ge1\) give \(S_{ij}\ge(3/5-o(1))W\). Each cut separates six pairs, so \(\sum_{i<j}S_{ij}=6W\) forces all ten \(S_{ij}=(3/5+o(1))W\). Summing at one vertex gives \(w_i+2W=\sum_{j\ne i}S_{ij}\), whence \(w_i=(2/5+o(1))W\) and \(w_{ij}=(1/10+o(1))W\).
+
+## V.2. Full isotropy with the archimedean restriction removed
+
+**PROVED.** For any proper closed \(Z\) and any positive function \(\epsilon(N)\), there are arbitrarily large squarefree split parents with equal-log-weight blocks, fixed nonzero cofactors, index one, all marked incidences isotropic, \(y\notin Z\), and \(0<\Delta<\epsilon(N)\). One may use either the endpoint or the balanced orientation.
+
+*Proof.* Start with the endpoint construction of V.3 outside \(Z\). Its cofactors are fixed after choosing the shape. For each \(p\mid N\), choose an element of \({\rm SL}_2(\mathbb F_p)\) taking the marked line to an isotropic line. These choices lift to a common \(A\in{\rm SL}_2(\mathbb Z)\). Indeed elementary upper and lower unipotents generate \({\rm SL}_2\) over a field by Gaussian elimination, and CRT lifts an elementary entry at one prime with zero entries at all the others. Every matrix in the coset \(\Gamma(N)A\) enforces the prescribed lines and preserves all minors and column primitivities.
+
+This coset is Zariski dense in \({\rm SL}_2\). The closure of \(\Gamma(N)\) contains each full one-parameter elementary subgroup, because it contains the points with parameter in \(N\mathbb Z\). These subgroups generate \({\rm SL}_2\). The doubled ratio map for the transformed tuple is rational in the matrix entries and defined on real invertible matrices. Its inverse image of the complement of \(Z\) contains the identity. Thus we may choose \(A'\) in the coset in that open set and with none of the transformed second coordinates zero. Apply the shear \((x,y)\mapsto(x+mNy,y)\). At \(m=0\) the ratios avoid \(Z\), so at most finitely many integer \(m\) land in \(Z\), by restriction of a defining polynomial nonzero at zero. For fixed parent and \(A'\), all resulting lengths grow linearly in \(|m|\). Their minors stay fixed, so every nonzero doubled chord is of order \(|m|^{-2}\). Take \(|m|\) sufficiently large.
+
+To obtain the balanced orientation, complement the five edges of a cycle. For each flipped block let \(\gamma_e\) be the product of the Gaussian primes dividing its marked columns. Multiply all columns by \(\bar\gamma_e\) and divide the two old endpoints by \(J_e\). This divides a marked column by \(\gamma_e\), multiplies an unmarked one by \(\bar\gamma_e\), and gives identical changes of doubled phase in all rows. At a prime of that edge an unmarked column was on a different line from the marked columns: its minor with a marked column is a different private block times a cofactor coprime to \(N\), as arranged in V.3. This ensures primitivity after the flip. At the other primes all local directions are transformed by an invertible Gaussian scalar. With \(a_i=J_e\) on old endpoints and \(a_i=1\) elsewhere, both minors and prescribed shared factors change by \(J_e/(a_i a_j)\). The squared-length ratios \(|V_i|^2/n_i\) and signed cofactors are preserved, and the new marked side is isotropic. Repetition proves the claim. The index is unchanged on reversing signs of anchored columns. \(\square\)
+
+**PROVED.** This disproves any *lower bound* for width in this size-free model, even with all dot-product congruences. The parent \(N\) can stay fixed while the genuine height \(H\) of (V.1) grows. In fact at fixed \(N\) the ratio points approach the identity through distinct tuples, and only finitely many genuine tuples have bounded \(H\). Comparing widths to the genuine height would retain an archimedean constraint.
+
+## V.3. Partial isotropy at the critical width
+
+**PROVED — the IV.2 pencil.** One whole-block incidence already fails. Reduce the column at \(i\) modulo \(J_{ij}=P+qb_{ij}\) by putting \(P=-qb_{ij}\). With IV.2's notation the squared norm becomes
+\[
+       q^4\bigl[(-b_{ij}(h_i-b_{ij})+b_0x_i)^2+\ell^2(h_i-b_{ij})^2\bigr].
+\]
+The bracket is strictly positive for every admissible real shape because \(\ell b_0 x_i\ne0\). For fixed shape and \(q=P^{o(1)}\) the positive remainder is smaller than \(J_{ij}\) for large \(P\). Thus there is no real cancellation locus to dimension-count, even for one incidence. The same argument works with integral parameters of height \(P^{o(1)}\) in the displayed formulas. Here the known unconditional IV.2 step gives polylogarithmic cofactors, as corrected by the Part IV referees. [Judge's report](../../round31/README_IVL.md)
+
+**PROVED — specialization used for both new pencils.** Use a real parameter \(T\), five monic Gaussian-rational polynomial columns \(F_i(T)\) of degree four, and ten distinct monic quadratics \(J_e(T)=(T-a_e)^2+b_e^2\), with rational \(a_e,b_e\), \(b_e\ne0\). Suppose \([F_i,F_j]=d_{ij}J_{ij}\) with rational \(d_{ij}\ne0\). Then a fixed dilation followed by infinitely many integer specializations gives integral primitive columns, ten pairwise coprime squarefree odd split blocks, all coprime to the fixed nonzero integral cofactors. Polynomial whole-block isotropy persists. If a norm is nonzero modulo its block polynomial, then it fails whole-block isotropy at all sufficiently large specializations.
+
+Here are the details of the dilation and sieve. The real and imaginary parts of \(F_i\) have no common complex zero: any such zero would annihilate the four distinct irreducible quadratics in its minors, which are pairwise coprime. First dilate by a fixed integer \(D\), replacing each degree-\(k\) polynomial \(f(T)\) by \(D^kf(T/D)\) (use degree four for a column). Clear all coordinate denominators, the \(a_e,b_e\) denominators and the new cofactors \(D^6d_{ij}\). Make a finite set of primes containing those up to 23, prime divisors of the cofactors, nonzero pairwise block resultants, the integers \(b_e\) after this dilation, and the nonzero Bézout constants for the two coordinates of each column. A second dilation by a multiple \(L\) supported on this set and the progression \(T\equiv1\bmod L\) make all blocks and all real leading coordinates equal to 1 modulo the bad primes (take \(L\) divisible by each). Elsewhere the change of variable is invertible, so the Bézout identities give primitivity and pairwise coprimality. Each block is the sum of two coprime squares, so all its prime factors split. Failure of polynomial isotropy survives as failure of divisibility by the entire growing block because the corresponding nonzero resultant bounds the integer gcd.
+
+For squarefreeness, outside the chosen primes each block has at most two roots modulo \(p^2\), by its discriminant and simple lifting. Up to any fixed \(Y\) the squarefree conditions have a positive limiting density on the progression by CRT, bounded below uniformly in \(Y\) by a positive infinite product since \(\sum_p20/p^2<\infty\). For \(1\le T\le X\), a square divisor \(p^2\) of a block has \(p\ll X\). The number of losses at \(p>Y\), even before imposing the progression, is \(O(X/Y+\pi(O(X)))\), by counting at most twenty residue classes per \(p^2\). Take \(Y\) large enough for this fixed progression and then \(X\) large. This gives positive density. In particular no simultaneous-prime conjecture enters.
+
+For the endpoint orientation \(N\sim T^{20}\), \(n_i\sim T^8\) and \(|F_i|^2\sim T^8\) after the dilations. The doubled chord formula gives \(\Delta\asymp T^{-6}\asymp N^{-3/10}\). The edge indicators generate the even-sum lattice by coordinate differences and a vector of sum two. The all-ones vector of sum five completes it to \(\mathbb Z^5\), giving anchored valuation index one. Every edge occurs at a prime to exponent one.
+
+**PROVED — four whole blocks off any prescribed closed set.** Take four nonzero rationals \(w_2,\ldots,w_5\) with elementary symmetric functions \(s_1,\ldots,s_4\) satisfying \(s_3=s_1s_2,\ s_1s_4\ne0\). Set \(w_1=u_1=1,\ u_j=w_j^2\), and take the ten \(|w_i w_j|\) distinct. Define
+\[
+  G=\prod_{j=2}^5(T-iw_j),\qquad A=-T/s_1+i,\qquad
+  F_i=G+\frac{u_i-1}{u_i}(u_i+T^2)A .
+\]
+Indeed \(\Re G=T^4-s_2T^2+s_4,\ \Im G=-s_1T^3+s_3T\), hence \([G,A]=s_4\). Subtracting the coefficients of \(A\) gives the ten identities
+\[
+              [F_i,F_j]=s_4(1/u_i-1/u_j)(T^2+u_i u_j).
+\]
+At \(T=iw_j\) both \(F_1\) and \(F_j\) vanish. The four central blocks therefore divide both endpoint norms. On an edge between two satellites, at either root \(T=\pm i w_jw_k\) the value of \(G\) is real nonzero while the correction term is purely imaginary. Neither endpoint norm vanishes at the root: both the polynomial and its coefficient conjugate are nonzero there. This proves *exactly* four whole blocks after specialization. The central star has \(|F_1|^2=n_1\) identically.
+
+For the exceptional-set assertion, the projective first direction of the four doubled ratios at the identity is \([w_j^{-2}-1]_{j=2}^5\), from the signed minors and the common real monic leading term. Division by the drifting first phase is part of that calculation. For completeness here is a rational parametrization certifying dominance of the directions. Take
+\[
+ f=(1-t^2)(t^4-3t^2+1),\quad x=(k+f/k)/2,\quad y=(f/k-k)/(2t),\qquad
+ (w_2,w_3,w_4,w_5)=\tfrac v2(1+x,1-x,-t^2+y,-t^2-y).
+\]
+Writing \(a=w_2+w_3,\ b=w_4+w_5,\ U=w_2-w_3,\ V=w_4-w_5\), the cubic condition is \(aU^2+bV^2=(a+b)(a^2+3ab+b^2)\), which follows from \(x^2-t^2y^2=f\). For \(D=(w_j^{-2}-1)_{j=2}^5\), the determinant with columns \(D,\partial_vD,\partial_tD,\partial_kD\) is \(-137438953472/706582991205\) at \((v,t,k)=(3/2,2,2)\), where all ten products are distinct in absolute value. This exact differentiation proves dominance. For a Laurent polynomial vanishing on \(Z\), choose a rational shape where its first nonzero homogeneous Taylor term at the identity does not vanish on \(D\). The doubled ratios have first term a common nonzero scalar times \(T^{-6}D\), so all sufficiently large specializations avoid \(Z\). Dilation only rescales the common coefficient. The order of quantifiers is that the shape and its fixed cofactors may depend on the prescribed closed set. With subpower cofactors one may also make a single escaping sequence by avoiding the first \(r\) hypersurfaces defined over \(\mathbb Q\) at stage \(r\) and choosing the parent large enough to absorb that stage's constants. This suffices even for geometric closed sets on the rational ratio torus: rational evaluation gives a linear system over \(\mathbb Q\) in the coefficients of any bounded-degree vanishing equation, so a nonzero geometric solution implies a nonzero rational one on the same rational subset. If orientations may vary, the Gaussian flip in V.2 may be applied to any subset of the four central edges, while retaining the same ratios and relative norms. In particular flipping two gives ten isotropic incidences on four blocks in a mixed orientation. [Exact Jacobian and minor checks](v_star4_certificate.py)
+
+**COMPUTED.** With signed satellite parameters \((-9,-7,2,4)\), dilation \(6\,350\,400\), and integer parameter \(3\,175\,200\,023\), the four-block construction has a 191-digit parent made of 27 distinct split primes. The certificate checks every factor, every signed minor, primitivity in every row, and isotropy at exactly eight of the twenty endpoint incidences. [Integer certificate](v_isotropic_star.py)
+
+**PROVED using the polynomial certificate — five whole blocks on one curve.** Placing the point at which the five directions coalesce at \(x=1\) allows a fifth block. In the following formulas \(i\) in a Gaussian coefficient is the imaginary unit. Put
+\[
+ (z_1,\ldots,z_5)=(3/2,3,1/3,-32/15,-5/54),\quad u_j=z_j^2,\quad h_{jk}=z_jz_k,\quad
+ G(x)=\prod_{j=2}^5(x+i h_{1j}).
+\]
+Take
+\[
+ B(x)=\frac{4500480x^2+1413120}{1226641}
+                   +i\left(x^2+\frac{26758x}{283071}+1\right),\qquad
+ d=-\frac{418284581}{1009043070},\qquad
+ L_j=G+dB(u_j-u_1)(u_1+x^2/u_j).
+\]
+The identity \([G,B]=(x-1)^6\) is verified by multiplication. Subtraction now gives \([L_j,L_k]=d u_1(1/u_j-1/u_k)(x-1)^6(x^2+h_{jk}^2)\). At a central edge the two relevant columns share the prescribed Gaussian root. The extra edge is \(23\), with \(h_{23}=1\): the displayed \(d\) is \(-G(i)/(B(i)(u_2-u_1)(u_1-u_3))\), a **real rational** number. Thus \(L_2(i)=L_3(i)=0\). All \(L_j(1)\) are nonzero real multiples of \(G(1)\).
+
+Now put
+\[
+ F_j(T)=\frac{T^4L_j(1+1/T)}{L_j(1)},\qquad
+ J_{jk}(T)=\frac{(T+1)^2+h_{jk}^2T^2}{1+h_{jk}^2}.
+\]
+These columns are monic. The divisors \(L_j(1)\) have common phase up to sign, so the operation multiplies each determinant by a real constant times \(T^8\). This cancels the sixth power and leaves a nonzero constant times \(J_{jk}\). Each \(J_{jk}\) is the norm of the monic linear polynomial with root \(1/(i h_{jk}-1)\). Direct polynomial remainders at both endpoints give precisely the five edges \(12,13,14,15,23\). The specialization lemma therefore supplies infinitely many squarefree split parents, ten fixed nonzero cofactors, \(|F_j|^2/n_j\to1\), and \(\Delta\asymp N^{-3/10}\). This is a ten-incidence endpoint construction. Its doubled ratios are rational functions of one parameter. [Exact five-block certificate, including the change of parameter](v_five_test.py)
+
+**PROVED — incidence counts.** In the endpoint orientation the four-star provides sets of one, two or five required incidences outside every fixed \(Z\), provided the incidences are chosen among its eight. One incidence always forces its partner. Ten incidences on five edges are attained by the second curve. These are existence statements for the displayed graphs. In particular they do not certify five prescribed cycle edges, a dense five-block endpoint family, or a balanced near-shell family with the same counts.
+
+## V.4. Where partial isotropy starts forcing genuine data
+
+**PROVED.** For a set \(E\) of *known* isotropic endpoint blocks and \(|V_i|^2/n_i\to1\), (V.1) gives the unconditional transfer
+\[
+                  H\ \le\ (1+o(1))\,N\prod_{e\notin E}J_e.                         \tag{V.2}
+\]
+Factor out of each \(V_i\) its oriented Gaussian factors at the known marked incidences. Their signed-valuation ranges cost exactly \(\prod_{e\in E}J_e\). For the residual columns \(U_i\), the range at each prime is at most the sum of the absolute signed valuations over the rows, so their contribution is at most \(\prod_i |U_i|^2\). This last product is \((1+o(1))\prod_{e\notin E}J_e^2\). Range subadditivity proves (V.2). Thus a dense **nine-block** endpoint family at the critical width would give actual Gaussian approximants of exponent at most \(11/3\), already below \(15/4\). Indeed \(H\le N^{11/10+o(1)}\) while \(\Delta=N^{-3/10+o(1)}\), on the identical ratio points. Under \(A_5\) this would limit essential attainment to at most eight whole blocks. I have no unconditional upper bound of eight.
+
+**PROVED.** At the finer accuracy of IV.2 there is an unconditional rigidity statement. In the endpoint orientation write \(J_e=P^{1+o(1)}\), \(|t_{ij}|=P^{o(1)}\), and suppose \(\max_i|\delta_i|\le P^{2-\varepsilon}\) for fixed \(\varepsilon>0\). If three isotropic edges are not all incident to the same mark, all five norms are exact. In particular **any five isotropic blocks** at this accuracy force a genuine tuple.
+
+Indeed (IV.5) and the interpolation proof following it apply up to \(P^{3-\varepsilon}\). They give a binary quadratic \(E\) with \(E(V_i)=\delta_i\) and \(D E\) integral, \(D=\prod_{i<j}|t_{ij}|=P^{o(1)}\). Among three edges there is a vertex \(a\) on two. Their coprime product divides \(\delta_a\) and exceeds its absolute bound, so \(\delta_a=0\). A nonzero \(DE\) then factors as \([V_a,X]L(X)\) with \(L\) integral linear, by primitivity of \(V_a\) and Gauss's lemma. Take an isotropic edge \(jk\) missing \(a\). Since \(J_{jk}\mid\delta_j\) and \(\gcd(J_{jk},[V_a,V_j])\mid |t_{aj}|\), an integer of size \(P^{1+o(1)}\) divides \(L(V_j)\). Yet
+\[
+                |L(V_j)|=D|\delta_j|/|[V_a,V_j]|\le P^{1-\varepsilon+o(1)}.
+\]
+Thus \(L(V_j)=0\). A nonzero \(DE\) must now be a nonzero integer times \([V_a,X][V_j,X]\), again by primitivity. At each third mark its absolute value is at least \(P^{2-o(1)}\), contradicting the defect bound after division by \(D\). This proves the assertion. Any five edges contain a nonstar triple: a graph whose triples are all stars, with at least three edges, has all its edges through the same vertex, which allows only four. This is a conditional-on-accuracy reduction to the genuine Euclidean problem. It provides no width gain when the norms already agree.
+
+**COMPUTED.** On the 191-digit parent the integer certificate also carries out the two CRT shears, compares all squared chords with \(N^{-6}\), and flips a cycle. It verifies the same signed cofactors and all dot-product and norm congruences with both the twenty endpoint and the twenty-five balanced incidences. [Full-isotropy integer test](v_isotropic_star.py)
+
+**EVIDENCE.** I have no essentially dense critical family with five whole endpoint blocks, or with full isotropy and subpower multipliers. In the five-block search the unresolved arithmetic is already visible in the coefficient matching. For \(G=x^4+A x^2+C+i(Bx^3+D x)\) and a quadratic auxiliary polynomial, write \(b_1\) for the real linear coefficient of the auxiliary. On the open set \(BCD\ne0\), its determinant with \(G\) equal to \((x-1)^6\) forces \(Bb_1=A+1/C-15\) and \(Db_1=A/C+C-15\), by comparing the coefficients of \(x^6,x^4,x^2,1\). An extra shared root at \(i h\) outside the four central factors then requires \(h^2-b_1h-1/C=0\), by taking the imaginary part there. The four signed central factors and the fifth \(h\) must arise from the same rational \(z_j\)'s. The verified curve solves these conditions at one shape. A dimension count gives neither rational density of the shapes nor exceptional-set escape.
+
+### Twelve-line summary
+
+1. **PROVED.** In the size-free model, full marked isotropy and fixed cofactors allow arbitrarily small width outside any prescribed proper closed set.
+2. **PROVED.** On equal-weight blocks, literal two-sided critical width recovers \(c_i=N^{o(1)}\) for every mark.
+3. **PROVED.** The primitive genuine circle has norm \(H=\prod_p p^{\max_i s_{ip}-\min_i s_{ip}}\), with \(N/C^2\le H\le NC^2\) for \(C=\operatorname{lcm}c_i\).
+4. **PROVED.** Bounded or polylogarithmic multipliers thus return to Gaussian Question B. A common multiplier satisfies \(c^4\mid\prod|t_{ij}|\).
+5. **PROVED.** The original IV.2 pencil fails even one isotropic incidence at all sufficiently large specializations.
+6. **PROVED.** A new critical family has asymptotically exact individual norm ratios and four complete isotropic endpoint blocks outside any prescribed closed set.
+7. **PROVED.** This gives eight endpoint incidences, or ten on the same four blocks after two Gaussian flips in a mixed orientation.
+8. **PROVED.** A second family attains five complete endpoint blocks and ten incidences on one rational curve, with fixed cofactors and squarefree split parents.
+9. **COMPUTED.** The 191-digit test parent verifies the four-block construction, both fully isotropic orientations after shearing, and width \(<N^{-3}\) after shearing.
+10. **PROVED.** At defect \(\le P^{2-\varepsilon}\), three isotropic endpoint edges not all through one mark force all five norms to be exact.
+11. **EVIDENCE.** The essential maximum is open. A dense nine-block endpoint family would already contradict \(A_5\). The genuine exponent remains open.
+12. **HEURISTIC.** Please referee the five-block change of parameter, the four-block exceptional-set quantifier, and the two-sided width argument before treating full isotropy as independent of size.

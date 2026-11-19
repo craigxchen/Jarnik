@@ -1,0 +1,12 @@
+p=11 tuples (10 distinct blocks, primitive, deg delta<=2): 28800 ; nonprimitive skipped 0 ; propagation failures 0
+exact:
+deg0 :
+deg1 :
+deg2 :  1edges:5280[g0=0,g1=5280,g2=0,g3=0]  2edges:23520[g0=0,g1=23520,g2=0,g3=0]
+violations: T1(deg0 & >=1 edge)=0  T2(deg<=1 & nonstar triple)=0  T3(deg<=2 & 3-2-1)=0
+
+real	4m43.010s
+user	4m41.589s
+sys	0m0.031s
+
+[exited with code 0]

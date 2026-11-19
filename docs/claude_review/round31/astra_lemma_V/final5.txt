@@ -1,0 +1,14 @@
+Appended [Part V to answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/answer.md:1174). All three exact certificates passed.
+
+1. **PROVED.** Without a size bound, full isotropy and fixed cofactors allow arbitrarily small width outside any prescribed proper closed set. This holds in both orientations.
+2. **PROVED.** If the width must equal \(N^{-3/10+o(1)}\) on equal-weight blocks, the determinant identities force every multiplier \(c_i=N^{o(1)}\).
+3. **PROVED.** The doubled directions then give genuine index-one Gaussian points of primitive norm \(N^{1+o(1)}\). This returns the two-sided question to Question B.
+4. **PROVED.** Common multiplier \(2\) is exactly equivalent to multiplier \(1\) by multiplication or division by \(1+i\). Every common multiplier satisfies \(c^4\mid\prod_{i<j}|t_{ij}|\).
+5. **PROVED.** The original IV.2 pencil fails even one whole-block isotropy condition for every admissible fixed shape.
+6. **PROVED.** A new family attains four complete isotropic blocks through one mark, with \(|V_i|^2/n_i\to1\) and width \(\asymp N^{-3/10}\), outside any prescribed closed set.
+7. **PROVED.** Those four blocks give eight endpoint incidences. Flipping two gives ten incidences in a mixed orientation with the same doubled ratios.
+8. **PROVED.** A second family attains **five complete endpoint blocks** with fixed cofactors and asymptotically exact individual sizes. Its ratios lie on one rational curve.
+9. **COMPUTED.** A 191-digit squarefree parent verifies the four-block construction and, after shearing, all twenty endpoint or twenty-five balanced incidences with width \(<N^{-3}\).
+10. **PROVED.** If every defect is at most \(P^{2-\varepsilon}\), where \(P=N^{1/10}\), three isotropic endpoint edges without a common vertex force all five norms to be exact.
+11. **EVIDENCE.** The essential maximum remains open. A dense nine-block endpoint family would already contradict \(A_5\). I obtained no exponent gain for genuine clusters.
+12. **HEURISTIC.** Please referee the five-block change of parameter, the four-block exceptional-set quantifier, and the recovery of subpower multipliers from two-sided width.

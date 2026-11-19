@@ -1,0 +1,12 @@
+1. **PROVED.** The fixed-field question (a) has an affirmative answer in characteristic two: \(\sup_D M_2(D,0)=\infty\). [Part V](answer.md)
+2. **PROVED.** The construction uses the genuine anisotropic norm \(A^2+AB+B^2\) over \(\mathbb F_2(t)\), with the same constant fields for every cluster.
+3. **PROVED.** For every \(m=2^r\), \(r\ge2\), one parent supports \(m\) points of degree \(D=m(m-1)(r-1)\). Its degree is \(2D\).
+4. **PROVED.** Every pair difference has degree at most \(D/2\), and an explicit pair attains equality.
+5. **PROVED.** Each point selects a binary hyperplane of polynomials. Conjugation exchanges that hyperplane with its complement, giving every point the same norm.
+6. **PROVED.** Additivity of the subspace polynomial gives the exact pair difference and determines the smallest evaluation degree for the full family.
+7. **COMPUTED.** Direct polynomial arithmetic verified every norm and all 650 pair differences for \(m=4,8,16,32\). [Verification script](v_fixed2_check.py)
+8. **PROVED.** Within this construction, every subfamily of \(s\) marks needs parent degree \(\Omega(s^2\log s)\), even after changing the evaluation, reversing sides, and removing the full common gcd.
+9. **PROVED.** The obstruction comes from finite primes. Outside the intersection of the selected sides, they supply at most \(Qd/4\) degrees of common cancellation, while contact at infinity requires \(Qd/2-O(Q)\), where \(Q=2^d\).
+10. **COMPUTED.** At \(d=4\), Euclidean gcds over 26,176 cases gave maximum residual gcd degree **4**, attaining the unsimplified prime bound.
+11. **HEURISTIC (research status).** The construction leaves unboundedness for \(p=3\), unrestricted \(O(m\log m)\) parent degree, and the integer growth problem open.
+12. **HEURISTIC (request).** Please prioritize (V.4) for independent review. For the growth question, I would test whether another additive space can enlarge the residue fibers at split primes enough to supply the missing cancellation.

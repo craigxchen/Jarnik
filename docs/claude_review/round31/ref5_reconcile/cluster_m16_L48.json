@@ -1,0 +1,113 @@
+{
+ "m": 16,
+ "d": 5,
+ "Q": 32,
+ "L": 48,
+ "D": 720,
+ "W": 1440,
+ "n_small_primes": 8,
+ "small_valuations_nonzero": 28,
+ "norms_ok": true,
+ "distinct": true,
+ "deg_points": [
+  720
+ ],
+ "max_diff_deg": 360,
+ "D_over_2": 360.0,
+ "gcd_valuation_vs_direct_ok(6 pairs)": true,
+ "Qslack_from_gcds": 1232.0,
+ "Qslack_from_layers": 1232.0,
+ "nontrivial_layers(e,depth,s)": [
+  [
+   2,
+   1,
+   15
+  ],
+  [
+   2,
+   2,
+   15
+  ],
+  [
+   2,
+   3,
+   15
+  ],
+  [
+   2,
+   4,
+   15
+  ],
+  [
+   2,
+   5,
+   12
+  ],
+  [
+   2,
+   8,
+   4
+  ],
+  [
+   2,
+   9,
+   1
+  ],
+  [
+   2,
+   10,
+   1
+  ],
+  [
+   2,
+   11,
+   1
+  ],
+  [
+   2,
+   12,
+   1
+  ],
+  [
+   4,
+   1,
+   12
+  ],
+  [
+   4,
+   3,
+   4
+  ],
+  [
+   4,
+   1,
+   12
+  ],
+  [
+   4,
+   2,
+   4
+  ],
+  [
+   4,
+   1,
+   12
+  ],
+  [
+   4,
+   2,
+   4
+  ]
+ ],
+ "IV2_delta": 0.0,
+ "IV2_LHS": -7408.0,
+ "IV2_RHS": 0.0,
+ "IV2_violated": false,
+ "BMY_slack_upper_bound_3eorb_minus_KB2": 1646.2222222222222,
+ "sum_deg_c": 2128,
+ "max_deg_c": 24,
+ "identity_lhs": 2744.0,
+ "identity_rhs": 2744.0,
+ "chord_budget_mD/4": 2880.0,
+ "time": 0.015354394912719727
+}

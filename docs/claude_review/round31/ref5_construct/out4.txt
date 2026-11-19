@@ -1,0 +1,11 @@
+m=16 d=5 L=48 D=720 parent=1440 pairs=120 maxdiff=360 (D/2=360) mindiff=353 S-distribution=[(17, 8), (21, 16), (23, 32), (24, 64)] conj-in-cluster=0 min deg(conj z - z')=672
+   gcd of all points: degree 0
+   after division: D'=720 maxdiff'=360 c'=0.0
+   pairwise gcd degrees (first 40 pairs): min 336 max 354
+   N factorisation (degree, multiplicity): count = [((2, 12), 1), ((4, 2), 2), ((4, 3), 1), ((6, 1), 2), ((8, 1), 8), ((10, 1), 2), ((12, 1), 5), ((14, 1), 2), ((14, 2), 1), ((16, 1), 2), ((20, 1), 3), ((20, 2), 1), ((22, 1), 1), ((22, 4), 1), ((24, 1), 5), ((26, 1), 2), ((28, 1), 1), ((28, 2), 2), ((36, 1), 1), ((44, 1), 1), ((48, 1), 2), ((50, 1), 1), ((58, 1), 1), ((80, 1), 1), ((84, 1), 2), ((90, 1), 1)]
+   odd-degree primes to odd power: 0;  N square? False
+   #split primes 52, total split degree with mult 1440, inert degree with mult 0
+
+real	0m0.351s
+user	0m0.345s
+sys	0m0.000s

@@ -1,0 +1,1 @@
+m=64 d=7 L=320 D=20160 parent=40320 pairs=2016 maxdiff=10080 (D/2=10080) mindiff=10049 S-distribution=[(129, 32), (145, 64), (153, 128), (157, 256), (159, 512), (160, 1024)] conj-in-cluster=0 min deg(conj z - z')=19840

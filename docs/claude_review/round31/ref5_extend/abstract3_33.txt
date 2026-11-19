@@ -1,0 +1,3 @@
+p 3 n 3 pairs 13 transversals 8192 coset edges 106704
+max large-L coset cluster size 2
+n'= 1 pair sizes [1]

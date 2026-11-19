@@ -210,6 +210,20 @@ integer argument; one-parameter polynomial templates carry at most 24 points. Fo
 is decided: the arithmetic analogue is an arithmetic orbifold BMY inequality of at least Szpiro strength. On the
 norm defect: integral five-mark models reach every defect exponent above 1/4 at exponent `10/3`, and below the
 threshold a model is exact or is a genuine cluster for another quadratic order; nothing at defect zero.
+A fifth exchange (`round31/README_V.md`, `round31/README_VL.md`) asked whether the uniform statement survives over a
+fixed finite field, and whether local isotropy of the blocks is a usable condition at five marks. Outcome: **over
+`F_2(t)` with the anisotropic norm `A^2+AB+B^2` of `F_4(t)/F_2(t)` the uniform statement is false**: for `m = 2^r`
+there are `m` points of degree `D = (m-1)L`, any `L >= m(r-1)`, on one parent with all pair differences of degree
+`<= D/2` (subspace polynomials; conjugation acts as a translation), so `sup_D M_2(D,0)` is infinite, with
+`m ~ sqrt(2D/log_2 D)`. The parent degree is `Theta(m^2 log m)`, a factor about `m` above the growth scale, so
+growth-rate arguments are untouched. This sharpens F3 to F3+: no argument valid verbatim over `F_2[t]` (unique
+factorisation, exact norms, small-prime pigeonhole, anisotropy, cut identities, Liouville with forced divisibility)
+proves the uniform bound, and the `F_2(t)` analogues of `A_5(delta < 1/30)` and `(L_5^o)` are false. It is not
+evidence against the conjecture over `Z`: the mechanism needs characteristic 2 (Lemma P, `round31/ref5_extend.md`),
+odd characteristic is open, and the characteristic-0 model is bounded. On local isotropy: without a size bound it
+gives no width bound; with the right size it is the genuine ten-pair-cut problem at exponent `10/3`, strictly weaker
+than Question B; four isotropic blocks occur densely, five on one curve. The integer-matrix-model programme is
+closed as a route to Question B.
 
 **Growth-rate status (2026-11-19, after round 31).** No growth improvement over `log R/loglog R` is proved
 unconditionally; conditionally only Vojta-type routes are known, and they give the uniform bound directly. The following are capped at `log R/loglog R` by
