@@ -1,0 +1,1 @@
+p=11 K=5 stars=5456880 classes=160930 maxclass=62 unlabelled_solutions=0

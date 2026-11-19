@@ -1,0 +1,8 @@
+drop (0, 1) max |gcd|^2 = 8  max (Delta N^{1/4})^2 for t>50: 196.0  complementary pairs: [((0, 2), (1, 3)), ((0, 3), (1, 2))]
+drop (0, 2) max |gcd|^2 = 8  max (Delta N^{1/4})^2 for t>50: 324.0  complementary pairs: [((0, 1), (2, 3)), ((0, 3), (1, 2))]
+drop (0, 3) max |gcd|^2 = 8  max (Delta N^{1/4})^2 for t>50: 324.0  complementary pairs: [((0, 1), (2, 3)), ((0, 2), (1, 3))]
+drop (1, 2) max |gcd|^2 = 8  max (Delta N^{1/4})^2 for t>50: 324.0  complementary pairs: [((0, 1), (2, 3)), ((0, 2), (1, 3))]
+drop (1, 3) max |gcd|^2 = 8  max (Delta N^{1/4})^2 for t>50: 324.0  complementary pairs: [((0, 1), (2, 3)), ((0, 3), (1, 2))]
+drop (2, 3) max |gcd|^2 = 8  max (Delta N^{1/4})^2 for t>50: 196.0  complementary pairs: [((0, 2), (1, 3)), ((0, 3), (1, 2))]
+polynomial gcd over Q(i): 1
+gcd norms seen: [2, 8] ; even primitive norms: 0

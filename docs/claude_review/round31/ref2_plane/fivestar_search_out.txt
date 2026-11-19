@@ -1,0 +1,7 @@
+REAL: starts 20000 converged 19881
+REAL: max over solutions of (min gap between |y_e|)/max|y|: 2.100e-09
+REAL: quantiles of gap: [0.00000000e+00 2.92999212e-14 2.10047529e-09]
+REAL: example solution: [-1. -1. -1. -1. -1. -1. -1. -1. -1. -1.]
+COMPLEX: converged 3991 nondegenerate 7
+COMPLEX: min over nondegenerate solutions of max|Im| / max|y| (up to y->iy): 2.249e-01
+COMPLEX example star sums [2.390457-0.j 2.390457+0.j 2.390457-0.j 2.390457+0.j 2.390457-0.j] recip [4.1833+0.j 4.1833+0.j 4.1833+0.j 4.1833+0.j 4.1833+0.j]

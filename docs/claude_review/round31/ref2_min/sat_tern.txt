@@ -1,0 +1,20 @@
+class nq 14 nmid 5 rep [0, 5, 12, 14, 16]
+  saturated by (0, 1) -> (a,b)-part [(2*a - b - 1)*(6*a + 3*b - 7), (3*b - 1)*(2*a - b - 1)]
+  saturated by (0, 2) -> (a,b)-part [2*a - b - 1]
+  unit after saturating by pair (0, 3)
+class nq 12 nmid 6 rep [2, 7, 14, 23, 27]
+  saturated by (0, 1) -> (a,b)-part [a - b - 2, (b - 1)**2*(b + 1)**2*(2*b**2 + 1)]
+  saturated by (0, 2) -> (a,b)-part [a - b - 2, (b - 1)**2*(2*b**2 + 1)]
+  saturated by (1, 2) -> (a,b)-part [a - b - 2, 2*b**2 + 1]
+  NOT unit; remaining GB: [81*z + 8, s - t, (2*t - 3)*(2*t + 3), a - b - 2, 2*b**2 + 1]
+class nq 12 nmid 5 rep [0, 5, 12, 14, 18]
+  saturated by (0, 1) -> (a,b)-part [4*a - b**2 - 4*b - 7, (b - 1)*(b + 1)**2]
+  saturated by (0, 2) -> (a,b)-part [a - 3, b - 1]
+  unit after saturating by pair (1, 2)
+class nq 11 nmid 6 rep [1, 10, 17, 24, 29]
+  saturated by (0, 1) -> (a,b)-part [a - 1]
+  unit after saturating by pair (0, 2)
+class nq 11 nmid 4 rep [0, 5, 12, 17, 30]
+  saturated by (0, 1) -> (a,b)-part [(a - 1)*(a + 1), (a - 1)*(b + 3)]
+  saturated by (0, 2) -> (a,b)-part [a + 1, b + 3]
+  unit after saturating by pair (0, 3)

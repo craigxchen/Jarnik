@@ -1,0 +1,2466 @@
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 0 5 12 14 58 60 62 65 67 106 125
+REC rank 4 n_gen 12 n4 9 nmid 3 rows 0 5 12 16 20 39 46 58 65 83 97 106
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 5 12 17 36 40 58 65 78 98 106
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 5 12 19 26 45 58 65 82 101 106
+REC rank 4 n_gen 12 n4 9 nmid 3 rows 0 5 13 16 21 39 47 59 66 84 97 106
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 5 13 18 36 41 59 66 78 99 106
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 5 13 19 27 45 59 66 82 102 106
+REC rank 4 n_gen 12 n4 9 nmid 3 rows 0 5 14 17 21 40 47 60 67 84 98 106
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 5 14 18 37 41 60 67 79 99 106
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 5 14 20 27 46 60 67 83 102 106
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 0 6 10 14 56 60 62 65 68 107 124
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 6 10 17 35 42 56 65 77 98 107
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 6 11 18 35 43 57 66 77 99 107
+REC rank 4 n_gen 12 n4 9 nmid 3 rows 0 6 14 17 23 42 49 60 68 84 98 107
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 6 14 18 37 43 60 68 79 99 107
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 6 14 22 29 48 60 68 83 104 107
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 7 11 18 35 44 57 67 77 99 108
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 7 13 18 36 44 59 68 78 99 108
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 0 9 12 16 35 55 58 77 83 97 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 0 9 12 17 36 55 58 78 92 98 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 0 9 13 16 35 55 59 77 84 97 123
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 0 9 13 18 36 55 59 78 92 99 123
+REC rank 4 n_gen 12 n4 12 nmid 0 rows 0 9 14 20 23 27 42 46 49 55 60 69
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 9 15 22 26 48 55 65 82 96 111
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 9 15 23 27 49 55 66 82 96 112
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 0 9 16 24 35 50 55 63 68 77 97
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 9 20 36 42 46 55 61 78 92 119
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 9 21 36 43 47 55 62 78 92 120
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 0 10 14 17 35 56 60 77 84 98 124
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 0 10 14 18 37 56 60 79 92 99 124
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 10 15 24 27 50 56 67 83 96 112
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 0 10 17 23 35 49 56 62 68 77 98
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 10 21 37 44 47 56 63 79 92 121
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 0 12 14 17 36 58 60 78 84 98 125
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 0 12 14 18 37 58 60 79 93 99 125
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 12 16 24 29 50 58 68 83 97 114
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 0 12 17 21 36 47 58 62 67 78 98
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 0 12 23 37 44 49 58 64 79 93 121
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 0 15 22 24 48 50 52 65 67 96 125
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 0 16 20 24 46 50 52 65 68 97 124
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 0 20 24 32 36 46 50 61 64 78 124
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 0 22 24 32 35 48 50 61 63 77 125
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 1 6 10 13 55 60 62 65 69 111 120
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 1 6 12 20 39 55 61 78 91 101 119
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 1 6 13 21 39 55 62 78 91 102 120
+REC rank 4 n_gen 12 n4 12 nmid 0 rows 1 6 14 17 23 27 42 46 52 55 63 68
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 1 6 17 39 42 46 55 58 78 91 122
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 1 6 18 39 43 47 55 59 78 91 123
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 1 7 14 21 40 56 63 79 91 102 121
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 1 7 18 40 44 47 56 60 79 91 124
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 1 9 14 16 35 45 50 63 69 71 110
+REC rank 4 n_gen 12 n4 9 nmid 3 rows 1 9 14 20 23 42 52 63 69 87 101 110
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 1 9 14 21 40 43 63 69 79 102 110
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 1 9 14 22 32 51 63 69 86 104 110
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 1 9 16 20 35 42 45 65 71 101 110
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 1 9 16 21 35 43 45 66 71 102 110
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 1 9 16 22 35 45 51 71 86 110 119
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 1 9 16 23 35 45 52 71 87 110 120
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 1 10 13 17 35 46 49 62 69 71 111
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 1 10 13 21 39 44 62 69 78 102 111
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 1 10 17 21 35 44 46 67 71 102 111
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 1 10 17 24 35 46 53 71 87 111 121
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 1 10 17 35 39 46 58 71 78 111 116
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 1 11 18 35 39 47 59 71 78 112 116
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 1 11 18 35 40 47 60 71 79 112 117
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 1 12 14 20 39 61 63 78 87 101 125
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 1 12 14 21 40 61 63 79 93 102 125
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 1 12 14 29 35 48 50 61 63 71 125
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 1 12 19 24 32 53 61 69 86 100 114
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 1 12 20 35 39 48 61 71 78 101 116
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 1 12 23 40 44 52 61 64 79 93 124
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 1 13 17 21 39 46 58 62 67 78 102
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 1 13 21 35 39 49 62 71 78 102 116
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 1 14 21 35 40 50 63 71 79 102 117
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 1 16 20 23 45 50 52 65 69 101 120
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 1 17 24 29 39 46 53 58 64 78 121
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 2 7 13 21 39 46 52 58 68 72 114
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 2 7 14 23 42 58 64 79 91 104 121
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 2 7 14 27 39 46 53 58 64 72 121
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 2 7 18 42 44 49 58 60 79 91 125
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 2 7 39 42 46 55 58 72 79 91 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 2 8 39 43 47 55 59 72 80 91 123
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 2 10 13 18 36 46 49 61 69 71 114
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 2 10 14 23 42 61 64 79 92 104 124
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 2 10 14 27 36 46 50 61 64 71 124
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 2 10 21 42 44 52 61 63 79 92 125
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 2 10 36 42 46 55 61 71 79 92 119
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 2 11 36 43 47 55 62 71 80 92 120
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 2 12 17 23 36 44 48 68 71 104 113
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 2 12 17 24 36 48 54 71 89 113 121
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 2 12 20 23 39 44 51 69 72 104 113
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 2 12 20 24 39 51 54 72 89 113 124
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 2 13 18 36 42 49 60 71 79 114 119
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 2 13 21 39 42 52 63 72 79 114 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 2 14 23 36 42 50 64 71 79 104 119
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 2 14 23 39 42 53 64 72 79 104 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 3 8 40 44 47 56 60 72 80 91 124
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 3 8 42 44 49 58 60 73 80 91 125
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 3 11 37 44 47 56 63 71 80 92 121
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 3 11 42 44 52 61 63 73 80 92 125
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 3 13 37 44 49 58 64 71 80 93 121
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 3 13 40 44 52 61 64 72 80 93 124
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 5 9 14 16 35 39 44 67 69 70 116
+REC rank 4 n_gen 12 n4 9 nmid 3 rows 5 9 14 26 29 48 52 67 69 87 101 116
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 5 9 14 27 46 49 67 69 83 102 116
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 5 9 14 28 32 51 67 69 86 104 116
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 5 9 16 26 35 39 48 61 70 101 116
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 5 9 16 27 35 39 49 62 70 102 116
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 9 16 28 35 39 51 70 86 113 116
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 9 16 29 35 39 52 70 87 114 116
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 9 16 35 39 46 58 70 83 111 116
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 9 16 35 39 47 59 70 84 112 116
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 5 10 13 17 35 40 43 66 69 70 117
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 5 10 13 27 45 50 66 69 82 102 117
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 5 10 17 27 35 40 50 63 70 102 117
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 10 17 30 35 40 53 70 87 115 117
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 10 17 35 40 47 60 70 84 112 117
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 5 12 14 23 35 42 44 65 67 70 125
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 12 14 26 45 65 67 82 87 101 125
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 12 14 27 46 65 67 83 97 102 125
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 5 12 25 30 32 53 65 69 86 100 120
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 12 26 35 42 45 65 70 82 101 110
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 5 12 29 46 50 52 65 68 83 97 124
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 12 35 42 46 55 65 70 83 97 111
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 13 27 35 43 45 66 70 82 102 110
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 13 35 43 47 55 66 70 84 97 112
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 5 14 16 27 39 46 58 62 67 83 102
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 14 27 35 44 46 67 70 83 102 111
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 14 35 44 47 56 67 70 84 98 112
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 16 22 26 39 55 61 77 91 101 119
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 16 23 27 39 55 62 77 91 102 120
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 5 16 24 29 39 46 52 58 68 83 114
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 5 16 26 29 39 44 52 61 69 101 114
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 16 39 42 46 55 58 77 83 91 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 16 39 43 47 55 59 77 84 91 123
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 17 24 27 40 56 63 77 91 102 121
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 5 17 40 44 47 56 60 77 84 91 124
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 6 10 13 18 36 40 43 65 69 70 120
+REC rank 4 n_gen 11 n4 9 nmid 2 rows 6 10 14 21 36 40 44 65 68 70 124
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 6 10 14 29 48 65 68 83 96 104 124
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 6 10 27 48 50 52 65 67 83 96 125
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 6 12 17 29 36 42 50 64 70 104 119
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 6 12 17 30 36 42 54 70 89 115 119
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 6 12 17 36 42 49 60 70 84 114 119
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 6 12 26 29 45 50 51 69 72 104 119
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 6 12 26 30 45 51 54 72 89 119 124
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 6 13 27 45 48 52 67 72 83 120 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 6 14 29 36 44 48 68 70 83 104 113
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 6 14 29 45 48 53 68 72 83 104 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 6 14 36 44 49 58 68 70 84 98 114
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 6 17 24 29 42 58 64 78 91 104 121
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 6 17 42 44 49 58 60 78 84 91 125
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 7 11 48 50 52 65 67 73 84 96 125
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 7 13 46 50 52 65 68 72 84 97 124
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 9 12 20 32 39 42 53 64 70 104 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 9 12 20 33 39 42 54 70 89 115 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 9 12 20 39 42 52 63 70 87 114 122
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 9 12 26 32 45 48 53 68 71 104 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 9 12 26 33 45 48 54 71 89 121 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 9 12 26 45 48 52 67 71 87 120 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 9 14 32 39 44 51 69 70 86 104 113
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 9 14 32 45 50 51 69 71 86 104 119
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 9 14 39 44 52 61 69 70 87 101 114
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 9 14 45 50 52 65 69 71 87 101 120
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 9 20 24 32 42 61 64 78 92 104 124
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 9 20 42 44 52 61 63 78 87 92 125
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 9 26 30 32 48 65 68 82 96 104 124
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 9 26 48 50 52 65 67 82 87 96 125
+REC rank 4 n_gen 12 n4 9 nmid 3 rows 15 19 24 26 29 58 62 67 69 87 111 116
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 15 19 24 27 56 59 67 69 83 112 116
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 15 19 24 28 32 61 67 69 86 114 116
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 15 20 23 27 55 60 66 69 82 112 117
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 15 22 24 26 55 65 67 82 87 111 125
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 15 22 24 27 56 65 67 83 107 112 125
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 15 22 25 30 32 63 65 69 86 110 120
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 15 22 29 56 60 62 65 68 83 107 124
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 16 20 24 29 58 65 68 83 106 114 124
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 16 20 27 58 60 62 65 67 83 106 125
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 16 22 26 29 55 60 61 69 77 114 119
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 16 22 26 30 55 61 64 77 89 119 124
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 16 23 27 55 58 62 67 77 83 120 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 16 24 29 55 58 63 68 77 83 114 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 17 21 58 60 62 65 67 78 84 106 125
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 17 23 56 60 62 65 68 77 84 107 124
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 19 22 26 32 55 58 63 68 76 114 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 19 22 26 33 55 58 64 76 89 121 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 19 22 26 55 58 62 67 76 87 120 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 19 24 32 55 60 61 69 76 86 114 119
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 19 24 55 60 62 65 69 76 87 111 120
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 19 26 30 32 58 65 68 82 106 114 124
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 19 26 58 60 62 65 67 82 87 106 125
+REC rank 4 n_gen 12 n4 9 nmid 3 rows 35 39 44 46 49 58 62 67 69 102 111 116
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 35 39 44 47 56 59 67 69 98 112 116
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 35 39 44 48 52 61 67 69 101 114 116
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 35 40 43 47 55 60 66 69 97 112 117
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 35 42 44 46 55 65 67 97 102 111 125
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 35 42 44 47 56 65 67 98 107 112 125
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 35 42 45 50 52 63 65 69 101 110 120
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 35 42 49 56 60 62 65 68 98 107 124
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 36 40 44 49 58 65 68 98 106 114 124
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 36 40 47 58 60 62 65 67 98 106 125
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 36 42 46 49 55 60 61 69 92 114 119
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 36 42 46 50 55 61 64 92 104 119 124
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 36 43 47 55 58 62 67 92 98 120 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 36 44 49 55 58 63 68 92 98 114 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 37 41 58 60 62 65 67 93 99 106 125
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 37 43 56 60 62 65 68 92 99 107 124
+REC rank 4 n_gen 11 n4 8 nmid 3 rows 39 42 46 52 55 58 63 68 91 114 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 39 42 46 53 55 58 64 91 104 121 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 39 42 46 55 58 62 67 91 102 120 122
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 39 44 52 55 60 61 69 91 101 114 119
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 39 44 55 60 62 65 69 91 102 111 120
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 39 46 50 52 58 65 68 97 106 114 124
+REC rank 4 n_gen 11 n4 7 nmid 4 rows 39 46 58 60 62 65 67 97 102 106 125
+REC rank 5 n_gen 19 n4 14 nmid 5 rows 0 5 12 14 16 20 27 39 46 58 60 62 65 67 83 97 102 106 125
+REC rank 5 n_gen 19 n4 14 nmid 5 rows 0 5 12 14 17 21 36 40 47 58 60 62 65 67 78 84 98 106 125
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 0 5 12 14 18 37 41 58 60 62 65 67 79 93 99 106 125
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 0 5 12 14 19 26 45 58 60 62 65 67 82 87 101 106 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 12 14 25 58 60 62 65 67 86 100 106 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 12 14 38 58 60 62 65 67 80 94 106 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 5 12 14 58 60 62 65 67 85 106 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 5 12 14 58 60 62 65 67 95 106 125
+REC rank 5 n_gen 19 n4 14 nmid 5 rows 0 5 12 16 20 24 29 39 46 50 52 58 65 68 83 97 106 114 124
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 12 16 20 33 39 46 58 65 83 97 106 115
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 12 16 20 34 39 46 58 65 83 97 105 106
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 12 16 20 39 43 46 58 65 83 97 106 123
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 12 16 20 39 46 54 58 65 83 89 97 106
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 12 16 20 39 46 58 63 65 83 87 97 106
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 12 17 27 36 40 58 63 65 78 98 102 106
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 0 5 12 17 30 32 36 40 53 58 65 78 98 106 115
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 5 12 17 33 36 40 58 65 78 98 106
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 12 17 36 40 43 58 65 69 78 98 106 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 12 17 36 40 58 65 78 87 98 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 12 17 36 40 58 65 78 90 98 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 12 17 36 40 58 65 78 98 104 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 12 17 36 40 58 65 78 98 106 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 5 12 18 41 58 63 65 94 99 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 12 18 41 58 65 68 99 106 114 124
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 0 5 12 19 23 26 44 45 49 58 65 82 101 106 123
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 12 19 26 33 45 58 64 65 82 101 106 121
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 5 12 19 26 43 45 58 65 82 101 106
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 5 12 19 26 45 58 63 65 82 101 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 12 19 26 45 58 65 82 90 101 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 12 19 26 45 58 65 82 95 101 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 12 19 26 45 58 65 82 101 104 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 12 19 26 45 58 65 82 101 106 115
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 5 12 21 37 47 58 63 65 79 84 93 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 12 21 47 58 65 68 84 106 114 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 5 12 23 25 44 49 58 65 86 100 106
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 12 23 37 44 49 58 64 65 79 93 106 121
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 5 12 24 29 50 52 58 65 85 106
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 5 12 24 29 50 52 58 65 94 106
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 12 25 30 32 53 58 65 69 86 100 106 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 12 25 34 58 65 86 100 105 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 12 25 38 58 65 80 86 100 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 12 25 54 58 65 86 89 100 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 12 25 58 64 65 86 100 106 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 12 27 37 58 65 79 93 102 106
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 5 12 30 32 37 53 58 65 79 93 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 12 34 37 58 65 79 93 105 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 12 37 54 58 65 79 89 93 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 12 37 58 65 69 79 93 106 120
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 13 16 21 39 42 47 59 66 84 97 106 122
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 5 13 16 21 39 47 59 66 84 97 106 124
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 5 13 16 21 39 47 59 66 84 97 106 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 5 13 17 40 44 59 66 98 106 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 13 18 36 41 59 66 78 86 99 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 13 18 36 41 59 66 78 99 103 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 13 18 36 41 59 66 78 99 106 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 13 18 36 41 59 66 78 99 106 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 13 18 36 41 59 66 78 99 106 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 5 13 19 27 42 45 59 66 82 102 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 13 19 27 45 59 66 82 94 102 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 13 19 27 45 59 66 82 102 103 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 13 19 27 45 59 66 82 102 106 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 13 25 37 59 66 79 87 100 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 13 26 38 59 66 80 93 101 106
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 5 14 16 26 39 60 61 67 87 97 101 106
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 0 5 14 16 28 32 39 51 60 67 97 106 113
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 5 14 16 39 43 60 67 97 106 123
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 14 17 21 40 47 60 61 67 84 93 98 106
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 5 14 17 21 40 47 60 67 84 98 106 113
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 5 14 17 21 40 47 60 67 84 98 106 123
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 5 14 18 37 41 60 61 67 79 99 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 14 18 37 41 60 67 79 85 99 106
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 0 5 14 18 37 41 60 67 79 99 106 114 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 14 18 37 41 60 67 79 99 106 123
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 0 5 14 19 23 42 45 49 60 67 82 106 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 5 14 19 31 45 60 67 82 106 113
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 5 14 19 45 60 61 67 82 86 106
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 14 20 27 36 46 60 61 67 78 83 102 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 14 20 27 46 60 67 83 93 102 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 14 20 27 46 60 67 83 102 106 113
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 0 5 14 20 27 46 60 67 83 102 106 120 122
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 5 14 22 29 48 52 60 67 85 106
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 5 14 22 29 48 52 60 67 93 106
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 5 14 23 25 42 49 60 67 100 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 14 25 31 60 67 100 106 114 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 14 25 38 60 67 80 94 100 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 14 26 36 60 67 78 87 101 106
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 5 14 26 60 67 87 101 106 114 119
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 5 14 28 32 36 51 60 67 78 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 14 36 43 60 67 78 106 120 122
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 5 14 38 60 67 80 94 106 120 122
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 0 5 16 24 26 32 39 50 61 68 97 101 106
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 5 16 24 28 39 50 51 68 89 97 106 113
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 16 26 29 39 44 52 61 69 97 101 106 114
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 16 26 33 39 61 97 101 106 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 16 26 39 43 61 97 101 106 123
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 16 26 39 61 63 97 101 106 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 16 27 39 42 62 97 102 106 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 16 28 34 39 51 97 106 113 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 16 28 39 51 54 97 106 113 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 16 29 39 42 52 63 97 106 114 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 5 17 23 40 49 61 68 93 98 106
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 5 17 27 40 61 63 93 98 102 106 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 5 17 27 40 63 98 102 106 114 122
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 5 17 29 40 44 52 61 64 93 98 106 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 17 30 40 53 61 93 98 106 115
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 5 17 30 40 53 98 104 106 115 122
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 5 19 22 30 45 48 53 68 82 104 106 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 5 19 22 32 45 48 63 82 106 114 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 19 22 34 45 48 82 106 115 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 19 22 45 48 54 82 106 121 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 19 22 45 48 62 82 87 106 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 19 23 45 49 61 82 86 106 123
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 5 19 24 32 45 50 61 69 82 86 106 114
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 5 19 30 45 53 61 68 82 86 106
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 5 20 24 32 36 46 50 61 64 78 83 106 124
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 5 20 24 46 50 83 89 106 113 124
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 0 5 20 29 36 44 46 52 61 68 78 83 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 20 33 36 46 61 78 83 106 115
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 20 36 43 46 61 78 83 106 120
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 5 20 36 46 61 63 78 83 87 106 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 21 36 42 47 62 78 84 106 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 21 37 47 61 63 79 84 106 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 5 21 37 47 63 79 84 106 114 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 24 36 42 50 64 78 104 106 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 5 25 30 31 53 69 89 100 106 119
+REC rank 5 n_gen 19 n4 14 nmid 5 rows 0 6 10 14 17 23 35 42 49 56 60 62 65 68 77 84 98 107 124
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 0 6 10 14 18 37 43 56 60 62 65 68 79 92 99 107 124
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 6 10 14 38 56 60 62 65 68 80 94 107 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 6 10 14 56 60 62 65 68 95 107 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 6 10 14 56 60 62 65 68 100 107 124
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 6 10 17 29 35 42 56 64 65 77 98 104 107
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 0 6 10 17 30 32 35 42 54 56 65 77 98 107 115
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 6 10 17 34 35 42 56 65 77 98 107
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 10 17 35 42 56 65 77 89 98 107
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 10 17 35 42 56 65 77 90 98 107
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 10 17 35 42 56 65 77 98 102 107
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 10 17 35 42 56 65 77 98 107 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 6 10 18 43 56 64 65 94 99 107
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 10 18 43 56 65 67 99 107 112 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 6 10 21 37 44 47 56 63 65 79 92 107 121
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 6 10 23 37 49 56 64 65 79 84 92 107
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 10 23 49 56 65 67 84 107 112 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 6 10 24 27 50 52 56 65 94 107
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 6 10 29 37 56 65 79 92 104 107
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 6 10 30 32 37 54 56 65 79 92 107
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 6 10 33 37 56 65 79 92 105 107
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 6 10 37 53 56 65 79 87 92 107
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 6 11 17 42 44 57 66 98 107 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 6 11 18 35 40 43 57 66 69 77 99 107 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 11 18 35 43 57 66 77 88 99 107
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 11 18 35 43 57 66 77 99 101 107
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 11 18 35 43 57 66 77 99 107 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 11 18 35 43 57 66 77 99 107 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 11 18 35 43 57 66 77 99 107 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 6 11 28 38 57 66 80 92 103 107
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 6 11 38 57 66 69 80 92 107 117
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 6 14 17 23 39 42 49 60 68 84 98 107 122
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 6 14 17 23 42 49 60 61 68 84 92 98 107
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 6 14 17 23 42 49 60 68 84 98 100 107
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 6 14 17 23 42 49 60 68 84 98 107 111
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 6 14 18 37 43 60 61 68 79 99 107
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 14 18 37 43 60 68 79 99 100 107
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 0 6 14 18 37 43 60 68 79 99 107 112 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 14 18 37 43 60 68 79 99 107 122
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 6 14 20 27 46 52 60 68 92 107
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 6 14 20 27 46 52 60 68 107 122
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 6 14 22 29 35 48 60 61 68 77 83 104 107
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 6 14 22 29 39 48 60 68 83 104 107
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 14 22 29 48 60 68 83 92 104 107
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 14 22 29 48 60 68 83 104 107 111
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 6 14 26 32 35 51 60 68 77 107
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 6 14 28 35 60 68 77 89 103 107
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 6 14 28 60 68 89 103 107 112 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 6 17 21 42 47 61 67 92 98 107
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 6 17 27 42 44 52 61 63 92 98 107 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 6 17 29 39 42 53 64 98 104 107 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 6 17 29 42 61 64 92 98 104 107 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 6 17 30 39 42 54 98 107 115 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 6 17 30 42 54 61 92 98 107 115
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 6 22 24 32 35 48 50 61 63 77 83 107 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 6 22 24 48 50 83 87 107 111 125
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 0 6 22 27 35 44 48 52 61 67 77 83 107
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 6 22 34 35 48 61 77 83 107 115
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 6 22 35 41 48 61 77 83 107 118
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 6 22 35 48 61 64 77 83 89 107 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 6 23 35 40 49 62 77 84 107 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 6 23 37 49 61 64 79 84 107 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 6 24 35 40 50 63 77 102 107 117
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 7 11 18 35 39 44 57 67 69 77 99 108 116
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 7 11 18 35 42 44 57 65 67 77 99 108 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 7 11 18 35 44 51 57 67 77 99 108
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 7 11 18 35 44 57 67 77 99 100 108
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 7 11 18 35 44 57 67 77 99 103 108
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 7 11 18 35 44 57 67 77 99 108 123
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 7 11 36 43 57 67 78 108 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 7 11 38 57 65 67 80 92 108 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 7 11 38 57 67 69 80 92 108 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 7 11 38 57 67 80 92 108 120 122
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 7 13 18 36 40 44 59 65 68 78 99 108 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 7 13 18 36 44 51 59 68 78 99 108
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 7 13 18 36 44 59 68 78 99 101 108
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 0 7 13 18 36 44 59 68 78 99 108 112 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 7 13 18 36 44 59 68 78 99 108 122
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 7 13 19 27 45 53 59 68 92 108
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 7 13 19 27 45 53 59 68 103 108
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 7 13 21 39 47 59 65 68 108 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 7 13 38 59 65 68 80 93 108 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 7 23 35 39 49 62 77 102 108 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 7 24 35 39 50 63 77 84 108 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 7 24 35 42 50 52 63 65 77 84 108
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 7 24 35 50 63 77 84 108 114 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 7 24 36 40 50 52 64 65 78 84 108
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 8 19 22 45 48 53 68 104 109 122
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 8 20 36 44 46 52 61 68 78 109
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 8 22 35 39 48 61 77 101 109 116
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 8 22 35 44 48 52 61 67 77 109
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 0 9 12 15 23 27 44 49 55 58 66 82 96 112 122
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 9 12 15 30 55 58 63 68 82 96 114 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 12 15 32 53 55 58 82 96 104 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 9 12 15 34 55 58 82 96 105 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 9 12 15 52 55 58 82 87 96 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 9 12 15 55 58 64 82 96 121 122
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 0 9 12 16 24 29 35 50 55 58 63 68 77 83 97 114 122
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 0 9 12 16 33 35 54 55 58 77 83 89 97 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 0 9 12 16 34 35 55 58 77 83 97 105 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 0 9 12 16 35 41 55 58 77 83 97 118 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 9 12 16 35 55 58 77 83 97 102 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 9 12 16 35 55 58 77 83 97 115 122
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 0 9 12 17 21 36 43 47 55 58 62 67 78 92 98 120 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 0 9 12 17 30 36 55 58 78 92 98 115 122
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 0 9 12 17 32 36 53 55 58 78 92 98 104 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 0 9 12 17 36 52 55 58 78 87 92 98 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 9 12 17 36 55 58 78 90 92 98 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 9 12 17 36 55 58 78 92 98 118 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 12 18 55 58 63 68 99 114 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 12 21 43 47 55 58 64 94 121 122
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 0 9 12 23 27 37 44 49 55 58 64 79 93 121 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 12 24 29 50 55 58 66 81 112 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 12 30 55 58 62 67 81 120 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 12 33 37 54 55 58 79 89 93 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 9 12 34 37 55 58 79 93 105 122
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 9 12 37 41 55 58 62 67 79 93 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 9 12 37 52 55 58 79 87 93 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 9 12 37 55 58 66 79 93 112 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 12 38 55 58 62 67 80 120 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 12 41 55 58 63 68 94 114 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 9 13 15 51 55 59 82 86 96 123
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 0 9 13 16 35 40 55 59 77 84 97 117 123
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 9 13 16 35 44 55 59 67 77 84 97 123
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 13 16 35 53 55 59 77 84 97 123
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 9 13 16 35 55 59 77 84 97 101 123
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 9 13 16 35 55 59 77 84 97 105 123
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 0 9 13 18 36 51 55 59 78 86 92 99 123
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 13 18 36 55 59 67 78 92 99 123
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 9 13 18 36 55 59 78 92 99 117 123
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 9 13 20 42 46 53 55 59 121 123
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 9 13 38 51 55 59 80 86 93 123
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 9 13 38 55 59 65 80 93 111 123
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 9 14 15 32 51 55 60 69 82 86 96 104
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 14 16 28 35 55 60 69 77 97 113
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 14 16 35 41 55 60 69 77 97 118
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 14 16 35 55 60 69 77 88 97
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 14 16 35 55 60 69 77 97 102
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 9 14 18 37 55 60 61 69 79 99 114 119
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 9 14 18 37 55 60 66 69 79 99 112 117
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 0 9 14 21 40 43 47 55 60 69 81
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 0 9 14 21 40 43 47 55 60 69 113
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 0 9 14 22 26 29 48 55 60 69 93
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 0 9 14 22 26 29 48 55 60 69 118
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 14 28 55 60 62 65 69 81 111 120
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 9 14 32 36 51 55 60 69 78 86 92 104
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 14 41 55 60 62 65 69 93 111 120
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 14 55 60 62 65 69 83 111 120
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 14 55 60 62 65 69 95 111 120
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 0 9 15 22 24 26 48 50 52 55 65 67 82 87 96 111 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 9 15 22 26 33 48 54 55 65 82 96 111 121
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 15 22 26 41 48 55 65 82 96 111
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 15 22 26 48 53 55 65 82 96 111
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 15 22 26 48 55 65 82 90 96 111
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 15 22 26 48 55 65 82 95 96 111
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 15 22 26 48 55 65 82 96 105 111
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 15 22 26 48 55 65 82 96 111 114
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 15 23 27 40 49 55 66 82 96 112
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 15 23 27 49 55 66 82 94 96 112
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 15 23 27 49 55 66 82 96 112 113
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 15 23 27 49 55 66 82 96 112 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 15 24 31 50 55 67 82 96 103
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 15 24 50 51 55 67 82 86 96
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 15 30 41 55 63 68 82 94 96
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 15 30 51 55 63 68 82 86 96
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 9 16 24 28 35 50 55 63 68 77 89 97 113
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 9 16 24 35 40 50 55 63 68 77 97 102 117
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 16 24 35 50 55 63 68 77 88 97
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 16 24 35 50 55 63 68 77 97 101
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 16 28 33 35 54 55 77 97 113
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 9 16 28 34 35 55 77 97 113 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 9 16 28 35 41 55 77 97 113 118
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 9 16 29 35 40 55 77 97 114 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 16 29 35 44 55 67 77 97 114
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 16 30 35 41 55 64 77 97 118
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 16 33 35 40 54 55 77 97 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 9 16 35 40 53 55 77 97 115 117
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 17 21 43 47 55 65 67 98 111 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 9 17 23 27 49 55 63 68 93 98
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 9 17 23 27 49 55 63 68 98 113
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 0 9 20 24 32 36 42 46 50 55 61 64 78 92 104 119 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 9 20 24 42 46 50 55 62 120 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 20 29 36 42 46 55 61 78 92 119
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 9 20 33 36 42 46 54 55 61 78 92 115 119
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 20 34 36 42 46 55 61 78 92 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 20 36 42 46 55 61 78 84 92 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 20 36 42 46 55 61 78 90 92 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 20 36 42 46 55 61 78 92 105 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 20 36 42 46 55 61 78 92 118 119
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 21 28 36 43 47 55 62 78 92 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 21 36 43 47 55 62 78 83 92 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 21 36 43 47 55 62 78 92 117 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 9 21 36 43 47 55 62 78 92 120 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 9 21 37 43 47 55 63 68 79 81
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 9 21 37 43 47 55 63 68 79 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 21 43 47 55 61 64 94 119 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 9 22 24 26 48 50 55 66 112 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 9 23 27 37 49 55 61 64 79 119 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 23 27 49 55 65 67 83 111 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 24 31 36 50 55 64 78 92 103
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 24 36 50 51 55 64 78 86 92
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 29 36 44 55 63 68 78 83 92
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 9 31 36 44 55 63 68 78 92 103
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 10 13 17 35 41 56 59 69 77 98 118
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 10 13 17 35 56 59 69 77 98 102
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 10 13 18 36 42 56 59 69 78 99 119
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 10 13 18 36 56 59 67 69 78 99 112 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 10 13 18 36 56 59 69 78 99 103
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 0 10 13 21 39 44 47 56 59 69 81
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 0 10 13 21 39 44 47 56 59 69 103
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 0 10 14 15 23 42 49 56 60 66 83 96 124
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 10 14 15 56 60 83 89 96 103 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 0 10 14 17 35 39 56 60 77 84 98 116 124
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 10 14 17 35 43 56 60 66 77 84 98 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 10 14 17 35 52 56 60 77 84 98 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 10 14 17 35 56 60 77 84 98 100 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 10 14 17 35 56 60 77 84 98 104 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 10 14 18 37 56 60 66 79 92 99 124
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 0 10 14 18 37 56 60 79 92 99 114 119 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 10 14 18 37 56 60 79 92 99 116 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 10 15 24 27 39 50 56 67 83 96 112
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 10 15 24 27 42 50 56 67 83 96 112
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 10 15 24 27 50 56 67 83 93 96 112
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 10 15 24 27 50 56 67 83 96 103 112
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 0 10 15 24 27 50 56 67 83 96 112 120 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 10 15 29 41 56 62 68 83 93 96
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 10 16 21 42 44 47 56 66 97 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 10 16 24 27 50 56 62 68 94 97
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 10 16 24 27 50 56 62 68 97 122
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 10 17 23 35 39 49 56 62 68 77 98 102 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 10 17 23 35 49 56 62 68 77 98 100
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 10 17 23 35 49 56 62 68 77 98 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 10 17 29 35 41 56 64 77 98 118
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 10 17 30 35 39 56 77 98 115 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 10 17 30 35 43 56 66 77 98 115
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 10 17 32 35 39 54 56 77 98 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 10 17 35 39 52 56 77 98 114 116
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 10 21 36 44 47 56 62 68 78 81
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 10 21 36 44 47 56 62 68 78 103
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 10 21 36 44 47 56 62 68 78 116
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 10 21 36 44 47 56 62 68 78 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 10 21 37 44 47 56 63 79 82 92 121
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 0 10 21 37 44 47 56 63 79 92 114 121 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 10 21 37 44 47 56 63 79 92 116 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 10 21 37 44 47 56 63 79 92 121 123
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 10 24 27 36 42 50 56 64 78 104 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 10 30 37 43 56 62 68 79 82 92
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 11 15 22 48 57 65 68 84 96 104 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 11 18 35 39 51 57 77 99 113 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 11 18 35 42 57 65 68 77 99 124
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 0 12 14 16 21 40 47 58 60 66 83 97 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 12 14 16 58 60 83 87 97 101 125
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 0 12 14 17 36 41 58 60 66 78 84 98 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 12 14 17 36 52 58 60 78 84 98 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 12 14 17 36 58 60 78 84 98 102 125
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 0 12 14 17 36 58 60 78 84 98 111 116 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 12 14 18 37 58 60 66 79 93 99 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 0 12 14 18 37 58 60 79 85 93 99 125
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 0 12 14 18 37 58 60 79 93 99 112 117 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 12 14 19 26 45 58 60 66 102 125
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 0 12 14 20 27 39 46 58 60 66 82 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 12 14 38 58 60 80 86 94 100 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 12 15 23 25 44 49 58 66 87 96 110
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 12 15 23 40 44 49 58 66 96 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 12 15 24 29 50 58 62 67 85 96
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 12 15 24 29 50 58 62 67 94 96
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 12 16 24 29 40 50 58 68 83 97 114
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 12 16 24 29 50 58 68 83 92 97 114
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 12 16 24 29 50 58 68 83 97 101 114
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 12 16 27 43 58 62 67 83 92 97
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 12 17 21 36 47 58 62 67 69 78 98 111 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 12 17 27 36 43 58 63 78 98 120
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 12 17 30 36 41 58 66 78 98 115
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 12 17 32 36 53 58 78 98 111 116
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 0 12 19 23 26 44 45 49 58 63 92 123
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 0 12 19 24 26 29 45 50 58 69 94
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 0 12 19 24 26 29 45 50 58 69 118
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 12 19 26 32 45 53 58 68 92 114
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 12 19 26 32 45 53 58 68 94 114
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 12 19 26 33 43 45 58 64 94 121
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 12 19 26 43 45 58 62 67 87 92
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 0 12 20 23 39 44 46 49 58 69 82
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 0 12 20 23 39 44 46 49 58 69 112
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 0 12 20 24 29 39 46 50 58 66 81 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 12 20 30 39 46 52 58 68 82 114
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 12 20 30 39 46 58 62 67 81 102
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 12 20 32 39 46 53 58 64 81 121
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 12 20 32 39 46 53 58 64 82 121
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 12 23 25 37 44 49 58 64 79 93 121
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 12 23 35 44 49 58 62 67 77 82
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 12 23 35 44 49 58 62 67 77 101
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 12 23 37 44 49 58 64 79 81 93 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 12 23 37 44 49 58 64 79 85 93 121
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 12 24 25 29 35 50 58 63 77 123
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 12 24 29 35 40 50 58 63 77 102 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 12 30 37 41 58 62 67 79 81 93
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 0 13 16 20 46 59 65 67 84 97 102 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 13 17 21 39 47 59 65 67 98 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 13 18 36 40 59 65 67 78 99 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 13 19 27 45 59 65 67 83 101 125
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 0 14 15 22 29 41 48 60 62 65 93 96
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 14 15 22 29 48 60 62 65 85 96
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 14 15 22 29 48 60 62 65 95 96
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 14 15 23 26 42 49 60 66 96 111
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 0 14 16 20 27 43 46 60 62 65 92 97
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 14 16 20 27 46 60 62 65 95 97
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 14 16 21 28 40 47 60 66 97 113
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 14 19 22 29 45 48 60 66 81 102 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 14 19 23 42 45 49 60 61 86 92 123
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 14 20 27 36 43 46 60 61 78 120
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 0 14 21 28 36 40 47 60 62 65 78 81
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 14 21 36 40 47 60 62 65 78 83
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 14 22 29 35 41 48 60 61 77 118
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 0 14 23 26 35 42 49 60 62 65 77 82
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 14 23 35 42 49 60 62 65 77 83
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 0 14 23 35 42 49 60 62 65 77 100
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 15 22 24 25 48 50 52 65 67 86 96 110 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 15 22 24 48 50 52 65 67 85 96 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 15 22 24 48 50 52 65 67 93 96 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 15 22 25 30 32 48 63 65 69 86 96 110 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 15 22 25 34 48 65 86 96 110 115
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 15 22 25 48 54 65 86 96 110 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 15 22 25 48 64 65 86 89 96 110
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 15 24 25 31 50 67 96 104 110 119
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 15 24 26 50 67 87 96 104 111 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 15 25 30 31 63 69 89 96 110 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 15 28 40 44 52 61 64 93 96 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 16 20 24 46 50 52 65 68 92 97 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 16 20 24 46 50 52 65 68 97 110 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 16 20 43 46 65 67 97 102 110 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 16 24 28 50 68 89 97 102 113 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 16 26 42 44 52 61 63 92 97 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 19 22 30 45 48 52 67 81 120 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 19 22 32 44 45 48 63 92 114 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 19 24 28 45 50 52 65 69 81 101 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 19 24 32 42 45 50 61 69 86 92 114
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 19 24 32 45 50 61 69 86 94 114
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 19 24 45 50 52 65 69 83 101 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 20 24 32 36 46 50 61 64 78 81 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 20 24 32 36 46 50 61 64 78 116 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 20 29 36 46 61 63 78 87 116 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 22 24 32 35 39 48 50 61 63 77 101 116 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 22 24 32 35 48 50 61 63 77 82 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 0 22 24 32 35 48 50 61 63 77 100 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 22 34 35 39 48 61 77 101 115 116
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 0 22 35 39 44 48 52 61 67 69 77 101 114 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 22 35 39 48 54 61 77 101 116 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 22 35 39 48 61 68 77 101 104 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 24 35 39 50 51 63 77 89 113 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 24 35 40 50 63 77 89 102 113 117
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 0 24 36 42 50 64 78 87 104 111 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 26 30 32 35 42 65 68 77 82 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 0 28 30 32 36 40 65 67 78 81 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 0 35 39 44 51 67 69 77 104 113 116
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 1 6 10 13 21 39 44 55 60 62 65 69 78 91 102 111 120
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 1 6 10 13 41 55 60 62 65 69 80 93 111 120
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 1 6 10 13 48 55 60 62 65 69 83 96 111 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 6 10 13 55 60 62 65 69 95 111 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 6 10 13 55 60 62 65 69 98 111 120
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 1 6 10 18 39 43 47 55 59 65 78 91 111 123
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 6 10 18 43 47 55 65 67 98 111 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 6 10 21 44 55 64 65 93 102 111
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 1 6 10 23 27 48 50 52 55 65 67 83 96 111 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 6 10 23 27 50 52 55 65 93 111
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 1 6 10 24 39 53 55 64 65 78 87 91 111
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 6 10 24 48 53 55 65 83 87 96 111
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 6 10 29 39 55 65 78 91 104 111
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 6 10 30 32 39 54 55 65 78 91 111
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 6 10 33 39 55 65 78 91 105 111
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 6 10 33 48 55 65 83 96 105 111
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 6 10 39 49 55 65 78 84 91 111
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 6 10 39 55 65 67 78 91 111 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 6 10 41 48 55 65 80 83 96 111
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 1 6 11 17 39 42 46 55 58 66 78 91 112 122
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 6 11 17 42 44 46 55 66 112 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 6 11 28 39 55 66 78 91 103 112
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 6 11 28 55 60 66 69 103 112 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 6 11 37 55 60 66 69 99 112 117
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 1 6 11 39 44 55 60 66 69 78 91 112 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 6 11 39 48 55 66 78 83 91 112
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 6 11 40 49 55 66 79 84 96 112
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 6 11 44 49 55 58 66 84 96 112 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 6 12 18 43 47 55 61 64 94 119 124
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 1 6 12 20 29 39 50 55 61 78 91 101 104 119
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 6 12 20 33 39 55 61 78 91 101 115 119
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 6 12 20 39 49 55 61 78 84 91 101 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 6 12 20 39 55 61 67 78 91 101 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 6 12 20 39 55 61 78 90 91 101 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 6 12 21 55 60 61 69 102 114 119
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 1 6 12 23 27 40 44 52 55 61 64 79 93 119 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 6 12 23 27 44 52 55 61 96 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 6 12 29 50 55 61 67 96 104 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 6 12 30 40 54 55 61 79 89 93 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 6 12 34 40 55 61 79 93 105 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 6 12 38 55 60 61 69 94 114 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 6 12 40 49 55 61 79 84 93 119
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 1 6 13 17 21 39 42 46 55 58 62 67 78 91 102 120 122
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 6 13 17 42 46 50 55 62 120 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 6 13 21 39 48 55 62 78 83 91 102 120
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 6 13 21 39 50 55 62 78 91 102 117 120
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 1 6 13 37 41 55 58 62 67 80 93 120 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 6 13 40 55 58 62 67 79 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 6 13 41 48 55 62 80 83 93 120
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 6 13 50 55 58 62 67 96 120 122
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 1 6 14 18 37 43 47 55 63 68 113
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 1 6 14 18 37 43 47 55 63 68 117
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 1 6 14 21 40 55 58 63 68 79 102 114 122
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 1 6 14 22 26 32 51 55 63 68 93
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 1 6 14 22 26 32 51 55 63 68 96
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 1 6 14 29 39 48 55 63 68 78 83 91 104
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 1 6 17 24 29 39 42 46 53 55 58 64 78 91 104 121 122
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 6 17 24 42 46 53 55 59 121 123
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 1 6 17 30 39 42 46 54 55 58 78 91 115 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 6 17 32 39 42 46 55 58 78 91 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 6 17 34 39 42 46 55 58 78 91 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 6 17 39 42 46 55 58 78 87 91 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 6 17 39 42 46 55 58 78 90 91 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 6 17 39 42 46 55 58 78 91 105 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 6 17 39 42 46 55 58 78 91 118 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 6 18 31 39 43 47 55 59 78 91 123
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 6 18 39 43 47 55 59 78 86 91 123
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 6 18 39 43 47 55 59 78 91 117 123
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 6 18 39 43 47 55 59 78 91 121 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 6 18 43 47 55 58 64 94 121 122
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 6 20 23 27 52 55 60 69 93 101
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 6 20 23 27 52 55 60 69 101 113
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 6 22 26 29 51 55 60 69 96 104
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 6 22 26 29 51 55 60 69 104 118
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 6 23 27 40 52 55 58 64 79 121 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 6 24 28 39 53 55 64 78 91 103
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 6 24 39 48 53 55 64 78 83 91
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 6 28 39 44 55 60 69 78 91 103
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 6 32 39 44 55 60 69 78 86 91
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 7 11 36 56 59 67 69 99 112 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 7 11 39 42 56 67 78 112 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 7 11 39 50 56 67 78 84 96 112
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 1 7 11 40 43 56 59 67 69 79 91 112 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 7 11 40 56 67 79 91 112 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 7 11 43 56 65 67 99 107 112 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 7 11 50 56 67 84 96 104 112 119
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 1 7 13 18 36 44 47 56 62 68 103
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 1 7 13 18 36 44 47 56 62 68 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 7 13 21 39 42 56 62 68 78 102 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 7 13 21 39 56 62 68 78 102 103
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 7 13 38 56 60 62 65 68 94 107 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 7 13 56 60 62 65 68 85 107 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 7 13 56 60 62 65 68 95 107 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 7 14 21 40 49 56 63 79 91 102 116 121
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 1 7 14 21 40 56 63 79 91 102 114 121 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 7 14 41 56 63 65 80 94 107 121
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 7 18 39 44 47 56 59 69 78 103
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 7 18 39 44 47 56 59 69 78 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 7 18 40 44 47 56 60 79 85 91 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 7 18 40 44 47 56 60 79 91 114 119 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 7 18 40 44 47 56 60 79 91 116 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 7 18 40 44 47 56 60 79 91 120 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 7 19 24 27 53 56 59 69 94 100
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 7 19 24 27 53 56 59 69 100 119
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 7 24 27 39 42 53 56 64 78 104 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 7 33 40 43 56 59 69 79 85 91
+REC rank 5 n_gen 19 n4 14 nmid 5 rows 1 9 14 16 20 23 35 42 45 50 52 63 65 69 71 87 101 110 120
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 1 9 14 16 22 32 35 45 50 51 63 69 71 86 104 110 119
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 1 9 14 16 31 35 45 50 63 69 71 89 103 110
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 9 14 16 35 45 50 63 69 71 88 110
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 9 14 16 35 45 50 63 69 71 108 110
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 9 14 17 27 46 49 63 69 91 110
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 9 14 17 27 46 49 63 69 110 119
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 9 14 18 37 47 63 65 69 110 120
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 1 9 14 20 23 36 42 52 63 69 87 101 110 119
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 1 9 14 20 23 42 52 58 63 69 87 91 101 110
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 1 9 14 20 23 42 52 63 69 87 97 101 110
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 1 9 14 20 23 42 52 63 69 87 101 108 110
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 1 9 14 21 36 40 43 63 65 69 79 102 110 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 9 14 21 40 43 58 63 69 79 102 110
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 9 14 21 40 43 63 69 79 97 102 110
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 9 14 21 40 43 63 69 79 102 110 119
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 9 14 22 32 36 51 63 69 86 104 110
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 9 14 22 32 51 63 69 82 86 96 104 110
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 9 14 22 32 51 63 69 86 91 104 110
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 9 14 22 32 51 63 69 86 104 108 110
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 9 14 41 63 65 69 80 94 110 120
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 9 14 41 63 69 80 82 94 96 110
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 1 9 16 20 30 32 35 42 45 64 65 71 101 104 110
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 1 9 16 20 33 35 42 45 54 65 71 101 110 115
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 9 16 20 34 35 42 45 65 71 101 110
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 1 9 16 20 35 42 44 45 65 67 71 101 110 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 9 16 20 35 42 45 65 71 89 101 110
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 9 16 20 35 42 45 65 71 90 101 110
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 9 16 20 35 42 45 65 71 101 109 110
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 9 16 20 35 42 45 65 71 101 110 121
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 9 16 21 35 43 45 60 66 71 102 110
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 9 16 21 35 43 45 66 71 88 102 110
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 9 16 21 35 43 45 66 71 102 108 110
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 9 16 21 35 43 45 66 71 102 110 115
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 9 16 21 35 43 45 66 71 102 110 125
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 1 9 16 22 30 35 45 51 64 71 86 89 110 119
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 9 16 22 34 35 45 51 71 86 110 115 119
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 1 9 16 22 35 44 45 51 67 71 86 110 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 9 16 22 35 45 51 71 86 105 110 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 9 16 22 35 45 51 71 86 109 110 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 9 16 23 35 45 52 60 71 87 110 120
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 9 16 23 35 45 52 71 87 108 110 120
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 9 16 23 35 45 52 71 87 110 115 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 9 16 24 31 35 45 53 68 71 103 110
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 9 16 24 35 45 53 68 71 88 110
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 9 16 24 35 45 53 68 71 109 110
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 9 16 30 31 35 45 64 71 103 110
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 9 16 31 34 35 45 71 103 110 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 9 16 31 35 44 45 67 71 103 110
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 9 17 21 43 46 59 67 91 102 110
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 9 17 21 43 46 65 67 97 102 110 125
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 1 9 20 27 42 44 49 58 60 91 101 110 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 9 20 32 36 42 50 64 101 104 110 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 9 20 32 42 58 64 91 101 104 110 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 9 20 33 36 42 54 101 110 115 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 9 20 33 42 54 58 91 101 110 115
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 9 22 24 51 53 82 86 96 110 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 9 22 24 51 53 84 86 108 110 125
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 1 9 23 26 48 50 52 65 67 82 87 96 110 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 9 23 36 40 50 52 64 65 79 87 110
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 9 23 40 52 58 64 79 87 110 121
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 9 23 40 52 64 79 82 87 96 110
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 9 26 30 32 48 65 68 82 96 104 110 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 9 26 33 48 54 65 82 96 110 121
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 10 13 16 27 45 50 62 69 91 111
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 10 13 16 27 45 50 62 69 103 111
+REC rank 5 n_gen 19 n4 14 nmid 5 rows 1 10 13 17 21 35 39 44 46 49 58 62 67 69 71 78 102 111 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 10 13 17 35 46 49 62 69 71 107 111
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 10 13 17 35 46 49 62 69 71 111 119
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 1 10 13 18 36 47 58 62 67 69 98 111 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 10 13 21 39 44 48 62 69 78 102 111
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 10 13 21 39 44 62 69 78 98 102 111
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 10 13 21 39 44 62 69 78 102 111 119
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 1 10 13 37 41 58 62 67 69 80 93 111 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 10 13 41 62 69 80 83 93 96 111
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 10 16 21 42 44 45 66 102 111 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 10 16 21 44 45 60 66 91 102 111
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 10 17 21 35 44 46 59 67 71 102 111
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 10 17 21 35 44 46 67 71 102 107 111
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 10 17 21 35 44 46 67 71 102 111 114
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 10 17 21 35 44 46 67 71 102 111 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 10 17 23 35 46 52 68 71 109 111
+REC rank 5 n_gen 17 n4 11 nmid 6 rows 1 10 17 24 29 35 39 46 53 58 64 71 78 87 111 116 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 10 17 24 35 46 53 59 71 87 111 121
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 10 17 24 35 46 53 71 87 107 111 121
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 10 17 24 35 46 53 71 87 111 114 121
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 1 10 17 32 35 39 46 54 58 71 78 111 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 10 17 33 35 39 46 58 71 78 105 111 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 10 17 34 35 39 46 58 71 78 111 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 10 17 35 39 46 58 71 78 90 111 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 10 17 35 39 46 58 71 78 104 111 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 10 21 36 44 49 58 68 98 102 111 114 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 10 21 37 44 49 58 64 93 102 111 116 121
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 10 21 42 44 49 58 60 91 102 111 116 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 10 24 29 36 53 58 87 98 111 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 10 24 29 37 53 58 87 93 111 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 10 24 29 42 53 58 87 91 111 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 10 24 39 53 64 78 83 87 96 111
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 11 16 22 45 50 51 69 104 112 119
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 11 17 39 44 46 49 58 69 78 112
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 11 18 35 39 47 59 68 71 78 108 112 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 11 18 35 39 47 59 71 78 103 112 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 11 18 35 39 47 59 71 78 112 116 121
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 11 18 35 39 47 59 71 78 112 116 125
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 11 18 35 40 47 58 60 71 79 112 117 125
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 11 18 35 40 47 60 68 71 79 107 112 117
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 11 18 35 40 47 60 71 79 112 117 120
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 11 18 35 42 47 65 69 71 112 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 11 42 44 49 58 60 91 112 117 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 12 14 17 27 36 46 61 63 106 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 12 14 17 27 36 46 61 63 116 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 1 12 14 19 29 35 48 50 61 63 71 86 100 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 12 14 19 61 63 82 86 100 106 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 12 14 19 61 63 84 86 98 100 125
+REC rank 5 n_gen 17 n4 11 nmid 6 rows 1 12 14 20 29 35 39 48 50 61 63 71 78 87 101 116 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 12 14 20 39 49 61 63 78 87 101 125
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 1 12 14 20 39 61 63 78 83 87 97 101 106 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 12 14 20 39 61 63 78 87 99 101 125
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 12 14 21 40 49 61 63 79 93 102 116 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 12 14 21 40 61 63 79 82 93 102 125
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 1 12 14 21 40 61 63 79 84 93 98 102 106 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 12 14 29 35 48 50 61 63 71 85 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 12 14 29 35 48 50 61 63 71 107 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 12 14 41 61 63 80 83 94 97 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 12 14 41 61 63 80 94 99 106 125
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 1 12 16 23 26 44 45 52 60 61 91 120
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 12 16 23 26 44 45 52 61 106 120
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 1 12 16 24 26 32 45 53 61 68 94
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 1 12 16 24 26 32 45 53 61 68 106
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 12 16 26 29 45 50 61 69 91 114
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 12 16 26 29 45 50 61 69 94 114
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 12 16 26 29 45 50 61 69 106 114
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 12 16 26 29 45 50 61 69 114 118
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 12 16 26 30 43 45 61 64 94 124
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 1 12 17 21 36 46 49 61 67 69 102 114 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 12 17 21 36 46 60 61 67 84 102 106
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 1 12 17 23 36 44 46 52 61 68 85
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 1 12 17 23 36 44 46 52 61 68 106
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 1 12 17 23 36 44 46 52 61 68 109
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 1 12 17 23 36 44 46 52 61 68 116
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 12 17 24 32 36 46 53 61 106 121
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 12 17 24 32 36 46 53 61 116 121
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 12 17 29 36 46 50 61 64 85 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 12 17 29 36 46 50 61 64 106 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 12 17 33 36 46 49 61 69 85 114
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 12 18 40 47 60 61 67 79 93 98 106
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 1 12 19 24 32 35 48 53 61 69 71 86 100 114
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 12 19 24 32 37 53 61 69 86 100 114
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 12 19 24 32 53 61 69 82 86 100 106 114
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 12 19 24 32 53 61 69 86 91 100 114
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 12 19 24 32 53 61 69 86 98 100 114
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 12 19 34 35 48 61 71 86 100 105
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 12 19 35 48 54 61 71 86 89 100 121
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 1 12 20 27 35 39 48 60 61 71 78 101 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 12 20 27 39 43 60 61 78 101 123
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 12 20 27 39 60 61 67 78 83 97 101 106
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 12 20 29 39 50 61 68 78 83 97 101 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 12 20 30 35 39 48 61 71 78 101 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 12 20 33 35 39 48 61 71 78 101 115 116
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 1 12 20 33 39 61 78 83 97 101 106 115
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 12 20 35 39 48 61 68 71 78 101 104 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 12 20 35 39 48 61 71 78 90 101 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 12 20 35 39 48 61 71 78 101 109 116
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 1 12 20 39 43 61 78 83 97 101 106 123
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 12 23 25 40 44 52 61 64 79 93 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 12 23 35 44 48 52 61 67 71 85
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 12 23 35 44 48 52 61 67 71 109
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 12 23 40 44 52 61 64 79 82 93 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 12 23 40 44 52 61 64 79 93 96 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 12 23 40 44 52 61 64 79 93 98 106 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 12 23 40 44 52 61 64 79 93 116 124
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 1 13 16 20 27 44 45 60 62 65 91 101
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 1 13 16 20 27 45 58 60 62 65 67 83 101 106 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 13 16 20 27 45 60 62 65 95 101
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 13 16 27 42 45 58 62 67 83 91
+REC rank 5 n_gen 17 n4 11 nmid 6 rows 1 13 17 21 39 46 58 60 62 65 67 78 84 97 102 106 125
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 1 13 18 36 40 47 58 60 62 65 67 79 98 106 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 13 18 36 40 47 60 62 65 79 85
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 1 13 19 26 35 44 49 58 62 67 71 87 100
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 13 19 26 42 58 62 67 87 91 100
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 1 13 19 26 58 60 62 65 67 82 87 100 106 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 13 19 35 42 49 60 62 65 71 87 100
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 13 20 35 44 49 58 62 67 71 101
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 13 21 35 39 49 62 71 78 102 108 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 13 21 35 39 49 62 71 78 102 116 121
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 13 21 35 39 49 62 71 78 102 116 125
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 1 13 21 39 42 62 78 84 97 102 106 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 13 21 39 48 50 62 78 102 117 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 13 25 58 60 62 65 67 86 106 125
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 1 13 37 41 58 60 62 65 67 80 93 99 106 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 13 38 58 60 62 65 67 94 106 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 14 16 20 45 58 63 65 83 87 101 106
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 14 16 23 42 45 52 58 63 83 91 120
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 14 17 27 39 43 46 58 63 78 123
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 14 17 27 39 46 58 63 65 78 97 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 14 20 29 36 48 63 87 101 113 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 14 20 35 50 63 71 87 101 104 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 14 21 35 40 50 58 63 71 79 102 117
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 14 21 35 40 50 63 71 79 102 107 117
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 1 14 21 35 40 50 63 71 79 102 117 120
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 14 21 36 40 58 63 65 79 84 98 102 106
+REC rank 5 n_gen 12 n4 5 nmid 7 rows 1 14 21 40 63 79 84 98 102 106 114 122
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 14 22 25 32 35 50 51 63 71 120
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 1 14 23 25 35 42 50 52 63 65 71 86
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 14 23 35 42 50 52 63 65 71 85
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 14 23 35 42 50 52 63 65 71 108
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 14 28 35 39 50 63 71 78 86 116
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 1 16 20 23 45 50 52 58 65 69 83 101 106 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 16 20 23 45 50 52 65 69 91 101 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 16 20 23 45 50 52 65 69 101 108 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 16 20 33 45 58 65 83 101 106 115
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 16 20 44 45 49 58 65 83 101 106 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 16 21 28 45 50 66 69 102 113 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 16 22 29 44 45 51 60 91 114 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 16 22 29 45 51 60 67 106 114 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 16 23 45 48 52 60 67 106 120 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 1 16 24 29 42 45 53 58 68 83 91 114
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 16 24 29 45 53 58 68 83 94 114
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 17 21 46 60 67 84 102 106 114 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 17 23 46 50 52 65 68 85 97 124
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 1 17 24 29 39 46 53 58 64 65 78 97 106 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 17 30 32 39 46 58 65 78 97 106 115
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 17 39 43 46 58 65 78 97 106 123
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 18 39 42 47 59 66 78 97 106 122
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 18 40 47 60 67 79 98 106 120 122
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 1 19 24 26 29 35 53 58 69 71 100
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 19 24 31 35 53 69 71 89 100 113
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 19 26 30 32 58 65 68 82 100 106 114 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 19 26 33 58 64 65 82 100 106 121
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 19 26 42 44 49 58 60 91 100 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 20 23 36 48 52 67 69 101 113 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 23 25 48 50 52 65 67 86 96 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 24 28 35 39 53 64 71 78 86 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 1 24 39 42 53 64 78 84 104 108 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 1 25 30 32 35 42 65 69 71 86 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 25 30 35 40 43 66 69 71 79 87 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 26 29 35 39 44 67 69 71 78 87 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 1 28 32 35 39 44 67 69 71 78 86 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 1 36 40 43 58 65 69 79 98 106 120
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 1 36 40 44 49 58 65 68 79 98 106 114 124
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 2 7 11 18 35 44 49 58 62 67 100
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 2 7 11 18 35 44 49 58 62 67 101
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 7 11 38 58 60 62 65 67 94 106 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 7 11 45 58 60 62 65 67 101 106 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 7 11 58 60 62 65 67 95 106 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 7 11 58 60 62 65 67 100 106 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 2 7 13 21 35 39 46 52 58 68 72 111 114 116
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 2 7 13 21 39 42 46 52 55 58 63 68 72 79 91 114 122
+REC rank 5 n_gen 17 n4 11 nmid 6 rows 2 7 13 21 39 46 50 52 58 65 68 72 84 97 106 114 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 7 13 27 42 45 53 58 68 79 91 114
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 2 7 13 35 50 55 58 63 68 84 97 114 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 7 13 40 55 58 63 68 102 114 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 7 13 41 55 58 63 68 94 114 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 7 13 41 58 65 68 99 106 114 124
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 2 7 13 42 58 68 79 87 91 100 114
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 2 7 13 50 58 68 84 97 102 114 117
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 7 14 21 40 52 55 58 64 121 122
+REC rank 5 n_gen 18 n4 12 nmid 6 rows 2 7 14 23 27 39 42 46 53 55 58 64 72 79 91 104 121 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 7 14 23 42 45 58 64 79 91 104 121
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 2 7 14 23 42 58 64 79 87 91 101 104 110 121
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 2 7 14 27 35 39 46 53 58 64 72 111 116 121
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 2 7 14 27 39 46 53 58 64 65 72 97 106 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 7 14 43 47 55 58 64 80 94 121 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 7 14 43 58 64 65 80 94 106 121
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 2 7 14 43 58 64 80 94 102 110 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 7 14 45 58 64 65 87 101 106 121
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 7 18 39 44 46 49 58 69 72 112
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 7 18 39 44 46 49 58 69 72 118
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 7 18 42 44 49 58 60 79 91 100 125
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 7 18 42 44 49 58 60 79 91 101 110 125
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 7 18 42 44 49 58 60 79 91 112 117 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 7 18 42 44 49 58 60 79 91 118 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 7 18 44 45 49 58 65 101 106 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 7 18 44 49 55 58 66 96 112 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 7 21 42 45 52 58 63 79 91 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 7 21 42 52 58 63 69 79 91 101 110
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 7 23 27 40 53 55 58 104 115 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 7 23 35 39 46 58 72 104 111 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 7 24 29 39 46 54 58 65 72 97 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 7 30 32 39 46 58 65 72 97 105 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 7 30 35 39 46 58 72 105 111 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 7 30 39 42 46 55 58 72 79 91 105 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 7 32 39 42 46 55 58 72 79 91 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 7 33 39 42 46 55 58 72 79 89 91 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 7 34 39 42 46 55 58 72 79 91 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 7 35 39 46 58 60 72 111 116 125
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 7 39 42 46 55 58 66 72 79 91 112 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 7 39 42 46 55 58 72 79 91 118 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 7 39 43 46 58 65 72 80 97 106 123
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 8 22 35 39 47 59 72 103 112 116
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 8 22 39 44 47 56 59 69 72 103
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 8 31 39 43 47 55 59 72 80 91 123
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 2 8 35 39 44 47 56 59 67 69 72 98 112 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 8 35 39 47 59 68 72 108 112 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 8 39 42 47 59 66 72 79 97 106 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 8 39 43 47 55 59 65 72 80 91 111 123
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 8 39 43 47 55 59 72 80 91 117 123
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 8 39 43 47 55 59 72 80 91 121 123
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 10 13 17 35 48 53 61 69 87 100 114
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 2 10 13 18 36 42 46 49 55 60 61 69 71 79 92 114 119
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 2 10 13 18 36 46 49 61 67 69 71 102 114 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 10 13 18 36 46 49 61 69 71 106 114
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 10 13 18 36 46 49 61 69 71 114 118
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 10 13 27 42 45 50 61 69 79 92 114
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 10 13 37 55 60 61 69 99 114 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 10 13 38 55 60 61 69 94 114 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 10 13 42 61 67 69 79 92 114 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 2 10 13 42 61 69 79 84 92 97 114
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 10 14 17 29 35 48 61 64 100 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 10 14 17 29 35 48 61 64 107 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 10 14 18 37 49 55 61 64 119 124
+REC rank 5 n_gen 18 n4 12 nmid 6 rows 2 10 14 23 27 36 42 46 50 55 61 64 71 79 92 104 119 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 10 14 23 42 45 61 64 79 92 104 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 10 14 23 42 61 64 79 81 92 104 124
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 2 10 14 23 42 61 64 79 84 92 98 104 107 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 10 14 23 42 61 64 79 92 104 116 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 10 14 27 36 46 50 61 64 71 106 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 10 14 27 36 46 50 61 64 71 116 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 10 14 43 47 55 61 64 80 94 119 124
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 2 10 14 43 61 64 80 83 94 96 124
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 2 10 14 43 61 64 80 94 99 107 124
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 2 10 17 21 35 44 48 52 61 67 107
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 2 10 17 21 35 44 48 52 61 67 109
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 10 17 23 35 48 60 61 68 84 104 107
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 10 17 24 32 35 48 54 61 100 121
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 10 17 24 32 35 48 54 61 107 121
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 10 17 27 35 48 50 61 63 100 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 10 17 27 35 48 50 61 63 107 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 10 18 42 45 49 60 61 79 92 123
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 10 18 42 49 60 61 68 79 92 98 107
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 10 21 36 44 46 52 61 68 71 109
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 10 21 36 44 46 52 61 68 71 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 10 21 42 44 52 61 63 79 81 92 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 10 21 42 44 52 61 63 79 92 97 125
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 10 21 42 44 52 61 63 79 92 98 107 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 10 21 42 44 52 61 63 79 92 116 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 10 23 27 37 50 55 61 104 115 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 10 29 36 42 46 55 61 71 79 92 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 10 29 36 46 53 61 71 87 116 121
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 10 30 36 42 46 55 61 71 79 89 92 119
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 10 33 36 42 46 55 61 71 79 92 105 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 10 34 36 42 46 55 61 71 79 92 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 10 36 42 46 55 61 71 79 92 118 119
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 2 11 18 35 42 49 56 60 62 65 68 79 98 107 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 11 18 35 42 49 60 62 65 79 100
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 11 22 36 44 47 56 62 68 71 103
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 11 28 36 43 47 55 62 71 80 92 120
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 11 28 55 60 62 65 69 81 111 120
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 11 36 43 47 55 62 71 80 92 117 120
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 11 36 43 47 55 62 71 80 92 120 124
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 2 11 37 43 56 60 62 65 68 80 92 99 107 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 11 38 56 60 62 65 68 94 107 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 12 17 21 36 48 52 55 67 71 92 113
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 2 12 17 21 36 48 52 67 69 71 101 113 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 12 17 21 36 48 52 67 71 109 113
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 2 12 17 23 27 36 44 48 55 63 68 71 92 104 113
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 12 17 23 36 44 48 57 68 71 104 113
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 12 17 23 36 44 48 68 71 101 104 113 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 12 17 23 36 44 48 68 71 104 106 113
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 12 17 23 36 44 48 68 71 104 112 113
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 12 17 23 36 44 48 68 71 104 113 117
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 12 17 24 36 48 54 55 71 89 92 113 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 12 17 24 36 48 54 57 71 89 113 121
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 2 12 17 24 36 48 54 71 89 101 113 116 121
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 12 17 24 36 48 54 71 89 106 113 121
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 12 17 24 36 48 54 71 89 112 113 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 12 17 27 36 48 63 71 101 113 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 12 17 32 36 48 53 55 71 92 113
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 12 17 34 36 48 55 71 92 105 113
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 12 17 36 41 48 66 69 71 113 117
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 2 12 20 23 27 39 44 51 55 60 69 72 91 104 113
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 2 12 20 23 35 39 44 51 67 69 72 104 113 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 12 20 23 39 44 51 57 69 72 104 113
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 12 20 23 39 44 51 69 72 104 109 113
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 12 20 23 39 44 51 69 72 104 113 118
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 12 20 24 35 39 51 54 72 89 113 116 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 12 20 24 39 51 54 55 72 89 91 113 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 12 20 24 39 51 54 57 72 89 113 124
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 2 12 20 24 39 51 54 72 83 89 97 106 113 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 12 20 24 39 51 54 72 89 109 113 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 12 20 27 35 39 51 60 72 113 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 12 20 27 39 51 60 67 72 83 97 106 113
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 12 20 29 39 50 51 55 72 91 113
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 12 20 29 39 50 51 68 72 83 97 106 113
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 12 20 34 35 39 51 72 105 113 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 12 20 34 39 51 55 72 91 105 113
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 2 12 20 34 39 51 72 83 97 105 106 113
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 12 20 35 39 51 57 72 99 113 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 12 29 35 50 55 63 68 83 97 113
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 13 17 21 39 48 52 55 67 72 91 114
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 13 17 21 39 48 52 67 72 111 114
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 13 17 27 44 45 48 63 92 114 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 13 18 36 42 49 56 60 71 79 114 119 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 13 18 36 42 49 60 67 71 79 106 114 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 13 18 36 42 49 60 71 79 114 118 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 13 18 36 49 56 63 71 114 121 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 13 20 27 44 45 51 60 91 114 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 13 21 35 39 52 56 72 98 114 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 13 21 39 42 52 56 63 72 79 114 121 122
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 2 13 21 39 42 52 63 72 79 84 97 106 114 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 13 21 39 50 52 55 65 72 91 111 114
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 13 21 39 52 56 60 72 114 119 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 13 37 44 47 56 63 92 114 121 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 13 40 44 47 56 60 91 114 119 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 14 17 29 39 48 53 55 64 72 91
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 14 20 32 36 50 51 55 64 71 92
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 14 21 36 40 50 52 64 65 71 108
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 2 14 21 36 40 50 52 64 65 71 110
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 14 22 26 36 50 55 64 71 89 92 103
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 14 22 26 39 53 55 64 72 89 91 103
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 14 22 35 39 53 64 72 89 103 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 2 14 22 36 50 64 71 86 89 103 110
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 2 14 22 36 50 64 71 89 102 103 117
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 2 14 22 39 53 64 72 83 89 103 107
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 14 23 35 42 45 64 65 79 87 101 104 110
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 14 23 35 42 56 64 65 79 84 98 104 107
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 14 23 36 42 50 56 64 71 79 104 119
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 2 14 23 36 42 50 64 71 79 87 101 104 110 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 14 23 36 42 50 64 71 79 104 106 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 14 23 36 42 50 64 71 79 104 118 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 2 14 23 39 42 53 56 64 72 79 104 122
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 2 14 23 39 42 53 64 72 79 84 98 104 107 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 14 35 39 53 56 64 72 84 98 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 17 21 48 50 52 55 65 67 96 111 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 17 21 48 50 52 65 67 96 110 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 17 23 27 39 48 55 63 68 72 91 104
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 17 23 39 48 60 68 72 84 104 107
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 2 17 23 48 60 68 84 104 107 112 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 17 24 48 54 55 65 87 96 111 121
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 18 39 42 49 60 68 72 79 98 107 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 20 23 27 36 51 55 60 69 71 92 104
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 2 20 23 35 45 50 51 63 69 87 104 110 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 20 23 36 51 63 69 71 87 104 110
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 21 28 45 50 52 65 69 81 101 120
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 2 21 35 42 45 50 52 63 65 69 79 101 110 120
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 21 36 42 52 63 69 71 79 101 110 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 22 26 29 36 55 60 69 71 92 103
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 22 26 29 39 44 55 60 69 72 91 103
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 2 22 26 32 36 44 55 63 68 71 92 103
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 22 26 32 39 55 63 68 72 91 103
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 2 22 32 35 45 50 63 69 86 103 110
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 35 39 44 57 67 69 72 99 108 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 35 40 43 57 66 69 80 99 107 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 35 42 44 45 65 67 79 101 110 125
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 2 35 42 44 47 56 65 67 79 98 107 112 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 2 36 40 43 63 65 69 71 80 102 110 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 2 39 44 55 60 66 69 72 91 112 117
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 3 8 35 40 43 47 55 60 66 69 72 97 112 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 8 35 40 47 58 60 72 112 117 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 8 35 40 47 60 68 72 107 112 117
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 3 8 35 42 49 56 60 62 65 68 73 98 107 124
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 3 8 36 40 47 58 60 62 65 67 72 98 106 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 3 8 36 42 46 49 55 60 61 69 73 92 114 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 8 36 42 49 56 60 73 114 119 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 8 36 42 49 60 67 73 106 114 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 8 39 42 49 60 68 73 98 107 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 3 8 39 44 51 55 60 69 80 91 104 113
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 3 8 39 44 55 60 62 65 69 80 91 102 111 120
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 3 8 39 46 58 60 62 65 67 97 102 106 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 3 8 40 44 47 56 60 72 80 91 116 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 3 8 40 44 47 56 60 72 80 91 120 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 8 40 47 60 61 67 72 93 98 106
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 3 8 40 47 60 67 72 98 106 120 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 3 8 41 55 60 62 65 69 93 111 120
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 3 8 42 44 49 58 60 73 80 91 101 110 125
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 3 8 42 44 49 58 60 73 80 91 102 111 116 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 3 8 42 44 49 58 60 73 80 91 118 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 8 42 49 60 61 68 73 92 98 107
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 3 8 45 58 60 62 65 67 101 106 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 3 8 48 55 60 62 65 69 96 111 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 3 11 18 35 39 48 50 61 63 101 116 125
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 3 11 18 35 42 45 50 52 63 65 69 73 101 110 120
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 3 11 18 35 42 50 52 63 65 73 108
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 3 11 18 35 45 50 51 63 69 104 110 119
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 3 11 18 35 50 55 58 63 68 97 114 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 11 36 42 52 63 69 73 101 110 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 3 11 36 44 48 55 63 68 80 92 104 113
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 3 11 37 44 47 56 63 65 71 80 92 107 121
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 3 11 37 44 47 56 63 71 80 92 116 121
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 3 11 37 44 47 56 63 71 80 92 121 123
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 3 11 39 42 46 52 55 58 63 68 73 91 114 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 11 39 42 52 56 63 73 114 121 122
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 3 11 39 42 52 63 73 84 96 114 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 3 11 42 44 52 61 63 73 80 81 92 125
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 3 11 42 44 52 61 63 73 80 92 98 107 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 3 11 42 44 52 61 63 73 80 92 116 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 11 42 52 58 63 69 73 91 101 110
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 3 13 18 36 40 50 52 64 65 72 108
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 3 13 18 36 40 50 52 64 65 72 110
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 3 13 21 35 39 46 53 58 64 111 116 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 3 13 25 37 44 49 58 64 71 80 93 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 3 13 25 40 44 52 61 64 72 80 93 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 13 35 40 52 55 64 72 84 97 117
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 3 13 37 44 49 55 58 64 71 80 93 121 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 3 13 37 44 49 58 64 65 71 80 93 106 121
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 3 13 37 44 49 58 64 71 80 85 93 121
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 3 13 37 44 49 58 64 71 80 93 102 111 116 121
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 3 13 40 44 52 55 61 64 72 80 93 119 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 3 13 40 44 52 61 64 72 80 82 93 124
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 3 13 40 44 52 61 64 72 80 93 98 106 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 3 13 40 44 52 61 64 72 80 93 116 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 3 14 18 37 50 52 56 65 71 92 107 115
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 3 14 18 37 50 52 58 65 71 93 106 115
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 14 18 37 50 55 58 71 93 115 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 14 18 37 50 55 61 71 104 115 119
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 3 14 18 37 50 56 71 92 104 115 119
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 3 14 18 37 50 58 71 93 102 115 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 14 21 35 40 53 55 72 97 115 117
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 3 14 21 36 40 53 58 65 72 84 98 106 115
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 14 21 40 53 55 58 72 104 115 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 14 21 40 53 55 61 72 93 115 119
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 3 14 21 40 53 56 72 91 104 115 122
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 3 14 21 40 53 61 72 84 93 98 106 115
+REC rank 5 n_gen 12 n4 5 nmid 7 rows 3 14 21 40 53 72 84 98 104 106 115 122
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 3 14 23 27 36 42 46 54 55 61 73 92 115 119
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 3 14 23 27 39 42 46 54 55 58 73 91 115 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 3 14 23 35 42 45 54 65 73 87 101 110 115
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 3 14 23 35 42 54 56 65 73 84 98 107 115
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 3 14 23 36 42 54 73 87 101 110 115 119
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 3 14 23 39 42 54 73 84 98 107 115 122
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 3 14 23 42 54 58 73 87 91 101 110 115
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 3 14 23 42 54 61 73 84 92 98 107 115
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 14 29 35 39 48 61 87 101 115 116
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 3 18 39 46 50 52 58 65 68 97 106 114 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 3 18 45 50 52 58 65 69 101 106 120
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 3 18 48 50 52 55 65 67 96 111 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 24 29 35 39 46 58 87 105 111 116
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 3 24 29 37 58 71 87 93 105 111 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 3 24 29 39 42 46 55 58 73 91 105 122
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 3 24 29 42 58 73 87 91 105 111 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 3 24 32 36 42 46 55 61 73 92 105 119
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 3 35 39 44 46 49 58 62 67 69 80 102 111 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 35 39 44 51 67 69 80 104 113 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 35 39 44 57 67 69 80 99 108 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 35 40 43 57 66 69 72 99 107 117
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 3 35 42 44 45 65 67 73 80 101 110 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 3 35 42 44 57 65 67 73 80 99 108 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 36 40 43 58 65 69 72 98 106 120
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 3 36 40 44 59 65 68 72 80 99 108 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 3 36 43 47 55 58 62 67 92 98 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 37 41 55 58 62 67 71 93 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 37 41 58 62 67 69 71 93 111 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 3 39 42 46 55 58 62 67 73 91 102 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 39 42 46 55 58 66 73 91 112 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 3 40 43 56 59 67 69 72 91 112 116
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 4 35 39 44 46 49 58 62 67 69 74 102 111 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 35 39 44 51 67 69 74 104 113 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 35 39 44 57 67 69 74 99 108 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 35 40 43 57 66 69 73 99 107 117
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 4 35 42 44 46 55 65 67 74 97 102 111 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 35 42 44 57 65 67 74 99 108 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 4 35 42 45 50 52 63 65 69 101 110 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 4 35 42 49 56 60 62 65 68 98 107 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 36 40 43 58 65 69 73 98 106 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 36 40 43 63 65 69 73 102 110 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 36 40 44 59 65 68 74 99 108 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 4 36 40 47 58 60 62 65 67 98 106 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 4 36 42 46 49 55 60 61 69 92 114 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 4 36 42 46 50 55 61 64 92 104 119 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 4 36 43 47 55 58 62 67 73 92 98 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 36 44 48 55 63 68 74 92 104 113
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 37 41 55 58 62 67 72 93 120 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 4 37 41 58 60 62 65 67 72 93 99 106 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 37 41 58 62 67 69 72 93 111 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 4 37 43 56 60 62 65 68 73 92 99 107 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 37 44 47 56 63 65 74 92 107 121
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 4 37 44 47 56 63 74 92 114 121 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 37 44 49 55 58 64 74 93 121 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 37 44 49 58 64 65 74 93 106 121
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 4 37 44 49 58 64 74 93 102 111 116 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 38 56 60 62 65 68 71 94 107 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 38 58 60 62 65 67 71 94 106 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 4 39 42 46 52 55 58 63 68 91 114 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 4 39 42 46 53 55 58 64 91 104 121 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 4 39 42 46 55 58 62 67 91 102 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 39 43 47 55 59 65 73 91 111 123
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 39 44 51 55 60 69 74 91 104 113
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 4 39 44 55 60 62 65 69 74 91 102 111 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 39 44 55 60 66 69 74 91 112 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 4 39 46 50 52 58 65 68 97 106 114 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 4 39 46 58 60 62 65 67 97 102 106 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 40 43 56 59 67 69 73 91 112 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 4 40 44 47 56 60 74 91 114 119 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 40 44 52 55 61 64 74 93 119 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 4 41 55 60 62 65 69 72 93 111 120
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 4 42 44 49 58 60 74 91 102 111 116 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 4 42 44 49 58 60 74 91 112 117 125
+REC rank 5 n_gen 19 n4 14 nmid 5 rows 5 9 14 16 26 29 35 39 44 48 52 61 67 69 70 87 101 114 116
+REC rank 5 n_gen 19 n4 14 nmid 5 rows 5 9 14 16 27 35 39 44 46 49 58 62 67 69 70 83 102 111 116
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 5 9 14 16 28 32 35 39 44 51 67 69 70 86 104 113 116
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 5 9 14 16 31 35 39 44 67 69 70 89 103 116
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 5 9 14 16 35 39 44 47 56 59 67 69 70 84 98 112 116
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 5 9 14 16 35 39 44 57 67 69 70 99 108 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 9 14 16 35 39 44 67 69 70 88 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 9 14 16 35 39 44 67 69 70 109 116
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 9 14 17 21 40 43 67 69 109 116
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 9 14 17 21 40 43 67 69 113 116
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 5 9 14 18 37 41 58 62 67 69 93 111 116
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 9 14 18 37 41 61 67 69 114 116
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 5 9 14 20 23 42 56 59 67 69 76 112 116
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 9 14 20 23 42 57 67 69 108 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 9 14 22 58 62 67 69 76 111 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 9 14 22 61 67 69 77 91 114 116
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 5 9 14 26 29 36 48 52 67 69 87 101 113 116
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 5 9 14 26 29 48 52 67 69 76 87 101 116
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 5 9 14 26 29 48 52 67 69 87 93 101 116
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 5 9 14 27 36 46 49 61 67 69 83 102 114 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 9 14 27 46 49 67 69 77 83 91 102 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 14 27 46 49 67 69 83 93 102 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 14 27 46 49 67 69 83 102 113 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 9 14 28 32 36 51 67 69 86 104 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 14 28 32 51 67 69 76 86 104 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 9 14 28 32 51 67 69 78 86 92 104 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 14 28 32 51 67 69 86 104 109 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 9 14 31 57 67 69 89 103 108 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 9 14 31 67 69 77 89 91 103 116
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 5 9 14 36 47 58 62 67 69 84 98 111 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 9 14 36 56 59 67 69 99 112 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 9 14 38 56 59 67 69 93 112 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 9 14 38 57 67 69 78 92 108 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 9 14 47 61 67 69 84 98 114 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 9 14 47 67 69 78 84 92 98 116
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 5 9 16 24 26 32 35 39 48 61 68 70 101 104 116
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 5 9 16 24 27 35 39 49 56 62 68 70 98 102 116
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 5 9 16 24 28 35 39 51 68 70 86 89 113 116
+REC rank 5 n_gen 17 n4 11 nmid 6 rows 5 9 16 24 29 35 39 46 52 58 68 70 83 87 111 114 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 9 16 24 31 35 39 68 70 103 116
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 5 9 16 24 35 39 47 59 68 70 84 108 112 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 9 16 24 35 39 57 68 70 99 116
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 5 9 16 26 33 35 39 48 54 61 70 101 116 121
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 9 16 26 34 35 39 48 61 70 101 116
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 5 9 16 26 35 39 48 50 61 63 70 101 116 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 9 16 26 35 39 48 60 61 70 101 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 16 26 35 39 48 61 70 89 101 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 16 26 35 39 48 61 70 90 101 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 16 26 35 39 48 61 70 101 109 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 16 26 35 39 48 61 70 101 115 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 16 27 35 39 49 62 70 88 102 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 16 27 35 39 49 62 70 102 108 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 16 27 35 39 49 62 70 102 116 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 16 27 35 39 49 62 70 102 116 125
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 9 16 28 34 35 39 51 70 86 113 116 121
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 5 9 16 28 35 39 50 51 63 70 86 113 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 9 16 28 35 39 51 57 70 86 99 113 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 16 28 35 39 51 60 70 86 113 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 9 16 28 35 39 51 70 86 105 113 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 9 16 28 35 39 51 70 86 109 113 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 9 16 29 35 39 52 56 70 87 98 114 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 9 16 29 35 39 52 70 87 108 114 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 9 16 29 35 39 52 70 87 114 116 121
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 9 16 30 31 35 39 53 64 70 103 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 9 16 30 35 39 53 56 64 70 98 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 9 16 30 35 39 53 64 70 88 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 9 16 30 35 39 53 64 70 108 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 9 16 31 34 35 39 70 103 116 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 9 16 31 35 39 47 59 70 84 103 112 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 9 16 31 35 39 50 63 70 103 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 9 16 31 35 39 57 70 99 103 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 9 16 32 35 39 46 58 70 83 104 111 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 9 16 32 35 39 56 70 98 104 116
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 5 9 16 33 35 39 46 54 58 70 83 111 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 9 16 33 35 39 54 56 70 98 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 16 34 35 39 46 58 70 83 111 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 9 16 35 39 46 58 60 70 83 111 116 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 9 16 35 39 46 58 70 83 89 111 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 9 16 35 39 46 58 70 83 105 111 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 9 16 35 39 47 59 70 84 88 112 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 9 16 35 39 47 59 70 84 112 116 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 9 16 35 39 56 60 70 98 116 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 9 17 23 40 56 62 68 77 91 116
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 5 9 17 24 27 40 49 56 63 77 91 102 116 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 17 27 40 49 61 63 93 102 116 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 9 17 30 40 53 56 77 91 115 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 9 17 40 44 47 56 60 77 84 91 116 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 9 20 24 32 42 61 64 78 92 104 116 124
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 5 9 20 29 42 44 52 61 63 78 87 92 116 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 20 29 42 52 56 63 76 87 116 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 9 20 33 42 54 61 78 92 115 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 9 21 37 43 56 62 68 78 92 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 9 22 24 29 52 58 60 76 87 111 116 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 9 22 27 44 49 58 76 102 111 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 9 24 29 36 52 58 87 98 111 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 9 24 29 37 52 58 87 93 111 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 9 26 32 36 44 48 68 101 104 113 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 9 26 32 48 68 77 91 101 104 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 9 26 33 36 48 54 101 113 116 121
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 9 26 33 48 54 77 91 101 116 121
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 9 27 36 44 49 58 68 98 102 111 114 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 9 27 37 44 49 58 64 93 102 111 116 121
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 9 28 30 51 53 78 86 92 116 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 9 29 36 44 46 52 61 68 83 87 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 9 29 46 52 68 78 83 87 92 116
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 10 13 16 21 39 44 66 69 103 117
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 10 13 16 21 39 44 66 69 109 117
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 5 10 13 17 35 40 43 47 55 60 66 69 70 84 97 112 117
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 5 10 13 17 35 40 43 57 66 69 70 99 107 117
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 10 13 17 35 40 43 66 69 70 109 117
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 10 13 17 35 40 43 66 69 70 113 117
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 10 13 27 42 45 50 66 69 82 102 117
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 10 13 27 45 50 58 66 69 82 102 117
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 10 13 27 45 50 66 69 77 82 91 102 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 10 13 27 45 50 66 69 82 94 102 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 10 13 27 45 50 66 69 82 102 113 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 10 13 37 55 60 66 69 99 112 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 10 13 38 55 60 66 69 94 112 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 10 13 38 57 66 69 79 92 107 117
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 10 13 47 66 69 79 84 92 97 117
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 5 10 16 23 27 39 50 55 62 77 91 102 117 120
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 10 16 24 39 55 63 68 77 91 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 10 16 27 39 48 50 62 102 117 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 10 16 29 39 52 55 77 91 114 117
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 10 16 39 43 47 55 59 77 84 91 117 123
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 5 10 17 23 27 35 40 50 55 63 68 70 97 102 117
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 5 10 17 23 35 40 47 60 68 70 84 107 112 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 10 17 23 35 40 57 68 70 99 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 10 17 27 35 40 50 63 70 102 107 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 10 17 27 35 40 50 63 70 102 113 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 10 17 27 35 40 50 63 70 102 117 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 10 17 29 35 40 52 55 64 70 97 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 10 17 29 35 40 52 64 70 107 117
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 10 17 30 35 40 53 55 70 87 97 115 117
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 10 17 30 35 40 53 70 87 107 115 117
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 10 17 30 35 40 53 70 87 115 117 120
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 10 17 32 35 40 54 55 70 97 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 10 17 33 35 40 55 70 97 105 117
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 10 17 35 40 47 60 70 84 112 113 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 10 17 35 40 55 59 70 97 117 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 10 21 36 44 55 63 68 79 92 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 10 24 29 42 52 58 63 77 91 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 10 30 45 53 58 68 82 87 114 117
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 10 30 45 53 68 79 82 87 92 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 11 16 28 39 44 51 69 104 113 118
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 11 16 28 39 51 55 77 91 113 118
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 11 16 39 42 46 55 58 77 83 91 118 122
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 11 16 39 44 46 49 58 69 83 118
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 11 16 39 44 55 60 69 77 91 118
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 11 17 40 43 56 59 69 77 91 118
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 11 18 35 41 48 61 69 70 114 118
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 11 18 35 41 55 58 70 97 118 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 11 42 44 49 58 60 77 91 118 125
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 5 12 14 16 20 39 47 59 65 67 84 98 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 14 16 20 39 57 65 67 108 125
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 5 12 14 17 21 36 40 59 65 67 99 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 14 17 21 36 40 65 67 109 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 14 17 21 36 40 65 67 110 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 14 18 37 41 55 65 67 111 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 14 18 37 41 59 65 67 78 125
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 5 12 14 19 27 46 59 65 67 83 97 102 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 5 12 14 23 25 35 42 44 65 67 70 86 100 125
+REC rank 5 n_gen 17 n4 11 nmid 6 rows 5 12 14 23 26 35 42 44 45 65 67 70 82 87 101 110 125
+REC rank 5 n_gen 18 n4 12 nmid 6 rows 5 12 14 23 27 35 42 44 46 55 65 67 70 83 97 102 111 125
+REC rank 5 n_gen 17 n4 11 nmid 6 rows 5 12 14 23 35 42 44 47 56 65 67 70 84 98 107 112 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 5 12 14 23 35 42 44 57 65 67 70 99 108 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 12 14 23 35 42 44 65 67 70 85 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 12 14 23 35 42 44 65 67 70 109 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 12 14 25 65 67 80 86 94 100 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 12 14 26 43 45 65 67 82 87 101 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 12 14 26 45 59 65 67 82 87 101 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 12 14 26 45 65 67 82 87 95 101 125
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 12 14 27 43 46 65 67 83 97 102 110 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 12 14 27 46 65 67 78 83 97 102 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 12 14 43 47 55 65 67 84 98 111 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 12 14 43 56 65 67 99 107 112 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 12 14 47 65 67 79 84 93 98 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 16 20 23 39 44 65 69 98 120
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 16 20 23 39 44 65 69 112 120
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 5 12 16 20 24 39 47 59 65 68 84 108 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 16 20 24 39 49 65 68 98 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 16 20 27 39 60 62 65 98 102
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 16 20 29 39 50 52 65 108 114
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 5 12 16 20 30 32 39 53 64 65 98
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 5 12 16 20 30 32 39 53 64 65 108
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 17 23 36 40 44 65 68 85 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 17 23 36 40 44 65 68 109 124
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 5 12 17 27 36 40 43 63 65 69 102 110 120
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 5 12 17 29 36 40 50 52 64 65 85
+REC rank 5 n_gen 11 n4 10 nmid 1 rows 5 12 17 29 36 40 50 52 64 65 110
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 17 30 32 36 40 53 65 110 115
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 17 33 36 40 43 65 69 85 120
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 17 36 40 47 60 62 65 84 85
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 12 19 23 44 47 56 65 84 107 123
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 5 12 19 24 55 60 62 65 69 76 87 111 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 12 19 29 46 50 52 65 68 83 97 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 12 19 30 32 53 55 65 76 111 114
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 12 21 35 42 46 55 65 70 83 97 111
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 12 21 55 60 62 65 69 78 111 120
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 5 12 23 26 44 45 60 62 65 77 82 91 101
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 12 23 27 37 44 55 65 102 111 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 12 24 26 35 42 45 65 70 82 101 110
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 12 24 26 45 63 65 77 82 91 101
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 12 24 27 35 42 56 65 70 98 102 107
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 12 24 35 42 46 55 65 70 83 87 97 111
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 12 24 35 42 47 65 70 84 108 112
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 5 12 25 30 32 35 42 53 65 69 70 86 100 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 12 25 30 32 37 53 65 69 86 100 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 12 25 30 32 53 65 69 76 86 100 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 12 25 30 32 53 65 69 86 94 100 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 12 25 30 32 53 65 69 86 100 108 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 12 25 34 35 42 65 70 86 100 105
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 12 25 35 42 49 60 62 65 70 86 100
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 12 25 35 42 54 65 70 86 89 100 115
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 12 26 33 35 42 45 65 70 82 101 110 121
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 12 26 33 45 65 77 82 91 101 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 12 26 35 42 45 59 65 70 82 101 110
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 12 26 35 42 45 64 65 70 82 101 104 110
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 12 26 35 42 45 65 70 82 90 101 110
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 12 26 43 45 59 65 77 82 91 101
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 12 26 45 49 65 77 82 91 101 123
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 29 35 42 50 52 63 65 70 85
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 12 29 35 42 50 52 63 65 70 108
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 12 29 37 50 52 56 65 92 107 115
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 12 29 46 50 52 65 68 78 83 97 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 12 29 46 50 52 65 68 83 92 97 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 12 29 46 50 52 65 68 83 97 110 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 12 30 32 35 42 53 56 65 70 98 107
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 12 33 35 42 46 55 65 70 83 97 111
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 12 34 35 42 46 55 65 70 83 97 105 111
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 12 35 42 46 55 59 65 70 83 97 111 123
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 12 35 42 46 55 65 70 83 97 111 114
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 5 12 35 42 49 56 60 62 65 68 70 98 107 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 12 35 42 54 56 65 70 89 98 107 115
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 12 35 42 56 64 65 70 98 104 107
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 5 12 37 43 56 60 62 65 68 92 99 107 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 12 38 56 60 62 65 68 94 107 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 13 16 21 39 46 50 58 66 83 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 13 16 21 39 46 58 60 66 83 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 13 17 40 47 58 60 66 78 84 97 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 13 18 36 41 58 60 66 79 98 125
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 5 13 20 27 35 43 45 60 66 70 82 102 110
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 13 20 27 45 48 60 66 82 102 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 13 20 27 45 58 60 66 82 102 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 13 20 35 43 47 55 66 70 84 97 112
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 13 27 35 43 45 58 66 70 82 102 110
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 13 27 35 43 45 66 70 82 102 110 115
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 13 27 35 43 45 66 70 82 102 110 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 13 27 42 44 45 66 82 102 111 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 13 27 42 45 58 66 77 82 91 102
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 13 27 45 48 66 77 82 91 102 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 13 35 43 47 55 58 66 70 84 97 112 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 13 35 43 47 55 66 70 84 97 112 113
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 13 35 43 47 55 66 70 84 97 112 125
+REC rank 5 n_gen 18 n4 12 nmid 6 rows 5 14 16 23 27 39 42 46 55 58 62 67 77 83 91 102 120 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 14 16 23 39 42 56 67 112 120 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 14 16 23 39 42 57 67 108 120 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 14 16 28 32 39 51 55 67 77 91 113
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 14 16 29 39 48 52 55 67 77 91 114
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 14 17 21 40 55 58 62 67 78 120 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 14 18 37 41 55 58 62 67 93 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 14 19 23 42 47 67 84 98 107 123
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 5 14 19 26 35 44 49 58 62 67 70 87 101
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 5 14 19 27 35 44 46 59 67 70 83 102 111
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 14 19 28 32 35 44 51 67 70 114
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 5 14 19 29 35 44 48 52 61 67 70 86
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 14 19 35 44 47 56 67 70 84 98 112
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 14 22 26 35 44 55 67 70 87 97 101
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 14 22 27 35 44 46 67 70 83 102 107 111
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 14 22 35 44 45 67 70 82 86 110
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 14 22 35 44 47 56 67 70 84 98 112
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 14 23 25 42 58 62 67 77 91 100
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 14 23 26 36 42 67 87 101 110 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 14 23 26 42 59 67 76 87 101 110
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 14 23 42 45 58 62 67 77 82 91
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 14 23 42 47 61 67 84 92 98 107
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 14 25 35 44 49 58 62 67 70 100
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 14 26 35 44 67 70 87 101 104 113
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 14 27 35 44 46 67 70 83 102 111 114
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 14 28 32 35 44 51 55 67 70 97
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 14 29 35 44 48 52 61 67 70 85
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 14 29 35 44 48 52 61 67 70 107
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 14 35 44 47 56 67 70 84 88 98 112
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 14 35 44 57 67 70 89 99 103 108
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 5 16 22 26 29 39 44 52 55 60 61 69 77 91 101 114 119
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 16 22 26 34 39 55 61 77 91 101 115 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 16 22 26 39 49 55 61 77 91 101 119
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 16 22 26 39 50 55 61 77 91 101 104 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 16 22 26 39 54 55 61 77 91 101 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 16 22 26 39 55 61 77 90 91 101 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 16 22 27 39 44 62 69 102 111 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 16 22 29 39 52 56 60 114 119 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 16 22 39 44 47 56 59 69 84 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 16 23 27 39 48 55 62 77 91 102 120
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 16 24 27 39 42 56 62 68 102 122
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 5 16 24 28 39 51 55 63 68 77 89 91 113
+REC rank 5 n_gen 17 n4 12 nmid 5 rows 5 16 24 29 39 42 46 52 55 58 63 68 77 83 91 114 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 16 24 39 42 47 59 68 84 108 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 16 24 39 48 55 63 68 77 91 104
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 16 28 34 39 51 55 77 91 113 121
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 5 16 28 39 44 51 55 60 69 77 91 104 113
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 16 28 39 51 54 55 77 91 113 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 16 29 39 42 52 56 63 114 121 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 16 31 39 43 47 55 59 77 84 91 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 16 31 39 44 55 60 69 77 89 91
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 16 32 39 42 46 55 58 77 83 91 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 16 33 39 42 46 55 58 77 83 89 91 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 16 34 39 42 46 55 58 77 83 91 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 5 16 39 42 46 54 55 58 77 83 91 115 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 5 16 39 42 46 55 58 77 83 91 105 122
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 5 17 24 27 40 56 63 77 91 102 114 121 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 17 24 29 40 52 55 58 64 78 121 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 17 24 29 40 52 58 64 78 97 121
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 17 29 40 44 52 55 61 64 93 119 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 17 29 40 44 52 61 64 85 93 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 17 30 40 53 55 58 78 104 115 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 17 30 40 53 55 61 89 93 115 119
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 17 30 40 53 56 77 89 91 115 119
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 17 30 40 53 56 77 91 104 115 122
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 5 17 40 44 47 56 60 77 84 91 114 119 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 19 22 29 46 52 60 68 83 107 122
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 5 19 24 26 29 35 52 58 69 70 101
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 19 24 27 35 56 59 69 70 98 102
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 19 24 32 35 48 61 69 70 86 114
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 19 24 32 55 60 61 69 76 86 114 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 19 24 35 46 49 62 69 70 83 87 111
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 19 29 42 44 52 61 63 86 92 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 20 23 27 35 55 60 69 70 97 102
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 20 23 35 45 50 63 69 70 82 87 110
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 22 24 29 36 52 58 60 76 98 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 22 24 29 52 58 60 76 86 110 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 22 24 32 45 61 63 77 82 91 125
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 5 22 24 35 46 70 83 87 107 111 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 22 25 30 53 61 69 77 91 100 114
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 22 26 29 35 52 55 60 69 70 97 101
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 5 22 26 32 35 50 55 63 68 70 97 101
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 22 29 35 46 52 60 68 70 83 107 111
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 22 30 35 45 53 68 70 82 86 110
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 22 32 35 45 50 63 69 70 82 86 110
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 22 35 46 49 62 69 70 83 107 111
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 25 30 31 35 53 69 70 89 100 119
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 25 30 31 53 69 77 89 91 100 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 25 42 44 49 58 60 77 91 100 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 5 26 29 36 42 52 63 69 101 110 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 29 42 44 52 61 63 92 98 107 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 30 42 45 53 58 68 77 82 91 114
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 5 30 45 48 53 68 77 82 91 104 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 5 35 50 55 58 63 68 70 97 114 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 5 36 44 49 55 58 63 68 92 98 114 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 6 10 13 17 35 42 53 65 69 87 100 120
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 6 10 13 18 36 40 43 58 65 69 70 98 106 120
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 6 10 13 18 36 40 43 63 65 69 70 102 110 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 6 10 13 18 36 40 43 65 69 70 108 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 6 10 13 18 36 40 43 65 69 70 112 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 6 10 13 21 39 44 48 65 69 83 96 120
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 6 10 13 21 39 44 57 65 69 76 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 10 13 37 58 65 69 80 93 106 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 10 13 48 63 65 69 83 96 110 120
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 6 10 13 48 65 69 80 83 93 96 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 10 13 53 58 65 69 87 100 106 120
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 6 10 13 53 65 69 78 87 91 100 120
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 6 10 14 17 23 35 42 57 65 68 99 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 6 10 14 17 23 35 42 65 68 100 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 6 10 14 17 23 35 42 65 68 109 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 6 10 14 18 37 43 57 65 68 77 124
+REC rank 5 n_gen 17 n4 11 nmid 6 rows 6 10 14 21 36 40 44 49 58 65 68 70 84 98 106 114 124
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 6 10 14 21 36 40 44 59 65 68 70 99 108 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 6 10 14 21 36 40 44 65 68 70 109 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 6 10 14 21 36 40 44 65 68 70 110 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 10 14 29 39 48 65 68 83 96 104 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 6 10 14 29 48 65 68 77 83 96 104 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 6 10 14 29 48 65 68 83 96 104 110 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 10 14 41 58 65 68 99 106 114 124
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 6 10 14 49 65 68 79 84 92 98 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 6 10 17 21 35 42 44 65 67 100 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 6 10 17 21 35 42 44 65 67 109 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 6 10 17 30 32 35 42 54 65 100 115
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 6 10 17 35 42 49 60 62 65 84 100
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 10 23 36 40 53 65 70 87 110 115
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 10 24 29 36 40 58 65 70 98 104 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 10 24 36 40 49 65 70 84 108 114
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 6 10 27 36 40 50 52 64 65 70 108
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 6 10 27 36 40 50 52 64 65 70 110
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 10 27 37 50 52 58 65 93 106 115
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 10 27 48 50 52 65 67 77 83 96 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 10 27 48 50 52 65 67 83 93 96 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 10 27 48 50 52 65 67 83 96 110 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 6 10 30 32 36 40 54 58 65 70 98 106
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 6 10 36 40 47 58 60 62 65 67 70 98 106 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 6 10 36 40 53 58 65 70 87 98 106 115
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 10 36 40 58 63 65 70 98 102 106
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 6 10 37 41 58 60 62 65 67 93 99 106 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 10 38 58 60 62 65 67 94 106 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 11 17 39 42 49 60 66 84 96 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 11 17 42 49 56 60 66 77 84 96 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 11 18 35 43 56 60 66 79 98 124
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 6 12 17 21 36 42 49 60 67 70 84 106 114 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 12 17 21 36 42 59 67 70 99 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 12 17 21 36 42 67 70 101 110 119
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 6 12 17 27 36 42 52 63 69 70 101 110 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 12 17 27 36 42 52 63 70 106 119
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 6 12 17 29 36 42 50 64 70 101 104 110 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 12 17 29 36 42 50 64 70 104 106 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 12 17 29 36 42 50 64 70 104 111 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 12 17 29 36 42 50 64 70 104 118 119
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 6 12 17 30 36 42 54 70 89 101 110 115 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 6 12 17 30 36 42 54 70 89 106 115 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 6 12 17 30 36 42 54 70 89 115 118 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 12 17 36 42 47 62 69 70 111 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 6 12 17 36 42 49 60 70 84 111 114 119
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 6 12 17 36 42 59 70 99 101 110 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 12 18 40 43 56 59 69 78 91 119
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 6 12 20 23 39 44 47 56 59 69 76 119
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 6 12 20 24 27 39 52 56 60 76 114 119 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 12 23 26 44 45 51 59 72 76 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 12 24 26 45 51 60 72 76 114 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 12 24 26 45 51 64 72 78 91 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 12 24 27 40 52 56 64 78 91 119
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 6 12 26 29 35 45 50 51 63 69 72 104 110 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 12 26 29 45 50 51 69 72 76 104 119
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 6 12 26 29 45 50 51 69 72 78 91 104 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 12 26 29 45 50 51 69 72 104 106 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 12 26 29 45 50 51 69 72 104 112 119
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 6 12 26 30 35 45 51 54 72 89 110 119 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 6 12 26 30 45 51 54 72 76 89 119 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 6 12 26 30 45 51 54 72 89 106 119 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 12 26 34 35 45 51 72 105 110 119
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 6 12 26 34 45 51 72 78 91 105 119
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 13 17 21 39 42 50 67 96 120 122
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 6 13 17 27 42 45 52 58 63 72 78 91 120
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 13 17 27 42 45 52 63 72 106 120
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 13 17 27 42 45 52 63 72 117 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 13 18 36 43 56 67 70 112 120 122
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 6 13 18 36 43 58 70 98 102 110 120
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 13 20 27 35 45 52 60 72 110 120
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 6 13 20 27 44 45 52 60 61 72 78 91 120
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 6 13 20 27 45 48 52 60 67 72 83 106 120 122
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 6 13 27 45 48 52 67 72 78 83 91 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 13 35 44 47 56 67 98 112 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 13 40 44 47 56 60 78 91 120 124
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 6 14 17 23 39 42 56 62 68 77 102 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 6 14 20 29 36 44 48 68 70 83 104 106 113
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 6 14 20 29 45 48 53 68 72 83 104 106 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 14 20 36 44 49 58 68 70 84 98 114
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 14 21 40 49 61 68 84 93 98 106
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 6 14 22 27 39 46 52 58 68 76 114
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 6 14 27 35 39 46 52 58 68 111 114 116
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 6 14 27 36 44 46 52 61 68 70 106
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 6 14 27 36 44 46 52 61 68 70 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 14 28 35 45 53 68 72 89 103 110
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 6 14 28 36 44 68 70 86 89 103 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 6 14 28 36 44 68 70 89 102 103 111
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 6 14 29 35 39 48 61 68 83 87 101 104 116
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 6 14 29 36 44 48 68 70 83 87 101 104 113 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 6 14 29 36 44 48 68 70 83 104 112 113
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 6 14 29 45 48 53 68 72 78 83 91 104 122
+REC rank 5 n_gen 12 n4 5 nmid 7 rows 6 14 29 48 68 78 83 87 91 101 104 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 14 35 39 49 56 62 68 84 98 102 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 6 14 36 44 49 58 68 70 84 86 98 114
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 6 14 36 44 49 58 68 70 84 98 102 111 114 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 6 14 36 44 59 68 70 87 99 101 108
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 6 14 36 44 59 68 70 99 108 112 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 17 21 42 45 49 60 67 72 84 106 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 17 21 42 45 58 62 67 72 78 91
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 17 21 42 58 62 67 69 78 91 111 116
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 6 17 24 27 39 42 52 56 63 77 114 121 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 17 24 27 42 52 56 63 77 96 121
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 17 24 27 42 52 56 63 77 116 121
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 6 17 24 29 42 45 58 64 72 78 91 104 121
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 6 17 24 29 42 58 64 78 87 91 104 111 116 121
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 17 27 42 44 52 61 63 92 116 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 17 29 39 42 53 56 64 77 104 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 17 30 42 45 54 58 72 78 91 115
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 6 17 30 42 54 58 78 87 91 115 117
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 6 17 42 44 49 58 60 78 84 91 100 125
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 6 17 42 44 49 58 60 78 84 91 102 111 116 125
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 6 17 42 44 49 58 60 78 84 91 112 117 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 18 40 43 56 59 67 69 78 91 112 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 20 24 27 35 52 56 60 76 98 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 20 24 32 45 61 64 72 78 91 124
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 6 20 24 36 48 70 83 89 106 113 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 6 20 27 36 48 52 60 67 70 83 106 113
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 6 20 33 45 48 72 83 89 106 115 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 21 36 46 49 61 69 70 84 106 114
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 22 27 39 44 52 61 69 77 101 114
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 24 29 35 39 46 58 87 104 111 116
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 6 24 29 36 58 70 87 98 104 111 116
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 6 26 29 35 39 44 51 67 69 87 104 113 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 26 29 36 51 67 69 70 87 104 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 6 26 29 51 67 69 78 87 91 104 116
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 6 27 35 39 44 48 52 61 67 69 83 101 114 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 6 27 36 48 52 67 69 70 83 101 113 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 27 40 44 52 61 64 93 98 106 124
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 6 27 48 52 67 69 78 83 91 101 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 6 28 32 35 39 44 67 69 86 103 116
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 6 35 39 44 46 49 58 62 67 69 84 102 111 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 6 35 39 44 47 56 59 67 69 98 112 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 35 39 48 50 61 63 83 101 116 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 6 36 46 49 61 67 69 70 84 102 114 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 6 36 47 58 62 67 69 70 98 111 116
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 7 11 18 35 39 44 48 52 61 67 69 73 101 114 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 7 11 18 35 39 44 51 67 69 104 113 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 7 11 18 35 42 44 45 65 67 101 110 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 7 11 18 35 44 48 52 61 67 73 107
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 7 11 18 35 44 55 59 67 78 97 123
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 11 36 48 52 55 67 73 80 92 113
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 11 36 48 52 67 69 73 101 113 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 7 11 37 41 60 67 70 99 106 114 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 11 39 48 52 55 67 73 79 91 114
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 11 45 48 52 60 67 73 106 120 122
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 7 11 45 48 52 67 73 79 91 120 122
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 7 11 45 48 52 67 73 80 92 120 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 7 11 48 50 52 55 65 67 73 84 96 111 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 7 11 48 50 52 65 67 73 77 84 96 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 7 11 48 50 52 65 67 73 84 96 110 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 7 11 48 52 67 69 73 79 91 101 116
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 7 13 18 36 44 46 52 61 68 72 106
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 7 13 18 36 44 46 52 61 68 72 116
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 7 13 19 42 46 52 55 63 68 72 76
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 7 13 19 46 50 52 65 68 72 84 97 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 13 21 39 42 50 68 84 97 106 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 13 21 39 50 51 68 84 97 106 113
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 13 21 39 50 61 68 84 97 101 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 7 13 35 40 50 55 63 68 84 97 102 117
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 7 13 37 43 60 68 70 87 99 100 107
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 7 13 37 43 60 68 70 99 107 112 117
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 7 13 46 50 52 65 68 72 78 84 97 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 7 13 46 50 52 65 68 72 84 97 110 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 14 18 37 44 55 65 70 102 111 121
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 7 14 19 23 27 42 46 53 55 59 72 76 121 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 7 14 19 27 35 46 53 59 72 111 121
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 7 14 19 27 46 53 59 65 72 97 121
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 7 14 23 27 35 42 46 53 55 65 72 97 111 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 14 23 35 42 45 65 87 101 110 121
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 7 14 29 35 39 48 54 61 73 87 101 116 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 14 29 36 48 54 55 73 92 113 121
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 7 14 29 36 48 54 73 87 101 113 116 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 14 29 39 48 54 55 73 79 91 121
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 7 14 29 45 48 54 73 79 91 121 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 14 29 48 54 55 65 73 96 111 121
+REC rank 5 n_gen 12 n4 5 nmid 7 rows 7 14 29 48 54 73 79 87 91 101 116 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 14 39 43 47 55 59 79 91 121 123
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 7 18 39 44 52 55 60 61 69 79 91 101 114 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 18 39 44 52 61 69 97 101 106 114
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 7 18 39 44 55 60 66 69 79 91 112 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 7 18 40 44 52 55 61 64 93 119 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 7 19 23 27 35 53 55 59 76 97 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 7 19 23 27 53 55 59 65 76 111 123
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 7 19 24 42 46 49 55 60 69 72 76
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 7 19 24 55 60 62 65 69 76 87 111 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 21 36 46 50 61 64 72 84 106 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 7 23 27 39 48 53 55 64 73 79 91
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 23 35 48 50 61 63 73 84 107 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 7 30 32 35 42 46 55 65 72 97 105 111
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 7 35 39 48 50 61 63 73 84 101 116 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 7 35 40 43 47 55 60 66 69 97 112 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 35 42 46 55 59 65 72 97 111 123
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 35 45 50 51 63 69 84 104 110 119
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 7 39 50 55 61 79 84 91 101 104 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 7 48 55 60 62 65 69 73 96 111 120
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 8 35 39 44 46 49 58 62 67 69 73 102 111 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 8 35 39 44 48 52 61 67 69 101 114 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 8 35 39 49 56 62 68 73 98 102 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 8 35 40 50 55 63 68 74 97 102 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 8 35 42 44 46 55 65 67 97 102 111 125
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 8 35 42 44 47 56 65 67 72 98 107 112 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 8 35 43 47 55 58 66 72 97 112 122
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 8 35 44 47 56 67 72 98 112 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 8 35 45 50 51 63 69 74 104 110 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 8 35 50 55 58 63 68 74 97 114 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 8 36 40 44 49 58 65 68 73 98 106 114 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 8 36 42 46 50 55 61 64 74 92 104 119 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 8 36 44 49 55 58 63 68 73 92 98 114 122
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 8 36 44 49 58 68 73 98 102 111 114 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 8 36 46 49 61 67 69 73 102 114 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 8 36 47 58 62 67 69 72 98 111 116
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 8 39 42 46 53 55 58 64 80 91 104 121 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 8 39 42 46 55 58 62 67 80 91 102 120 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 8 39 46 50 52 58 65 68 74 97 106 114 124
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 8 39 50 55 62 74 80 91 102 117 120
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 8 40 49 56 63 73 80 91 102 116 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 8 48 50 52 55 65 67 74 96 111 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 12 15 23 44 47 56 66 83 97 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 12 15 29 50 56 62 68 83 97 122
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 9 12 16 23 35 44 47 56 67 98 112 120 122
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 9 12 16 24 27 35 49 56 62 68 98 122
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 9 12 17 23 36 44 47 56 62 68 77 122
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 9 12 17 24 27 36 49 56 63 77 114 121 122
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 9 12 20 27 39 42 49 60 66 70 82 96 122
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 9 12 20 27 39 42 49 60 68 70 98 107 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 12 20 29 39 42 50 66 70 81 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 9 12 20 29 39 42 50 68 70 83 97 106 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 9 12 20 30 39 42 67 70 81 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 9 12 20 30 39 42 68 70 82 96 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 9 12 20 32 39 42 53 64 70 81 104 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 9 12 20 32 39 42 53 64 70 82 96 104 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 9 12 20 32 39 42 53 64 70 98 104 107 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 9 12 20 32 39 42 53 64 70 104 108 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 9 12 20 33 39 42 54 70 81 89 115 122
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 9 12 20 33 39 42 54 70 83 89 97 106 115 122
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 9 12 20 33 39 42 54 70 89 98 107 115 122
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 9 12 20 34 39 42 70 82 96 105 122
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 9 12 20 34 39 42 70 83 97 105 106 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 9 12 20 39 42 47 59 66 70 83 97 106 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 12 20 39 42 47 59 68 70 108 122
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 9 12 20 39 42 52 63 70 82 87 96 114 122
+REC rank 5 n_gen 14 n4 7 nmid 7 rows 9 12 20 39 42 52 63 70 83 87 97 106 114 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 9 12 20 39 42 52 63 70 87 108 114 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 9 12 20 39 42 57 66 70 98 107 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 9 12 20 39 42 57 67 70 108 120 122
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 9 12 20 39 42 62 70 83 97 102 106 122
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 9 12 20 39 42 62 70 98 102 107 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 12 21 37 43 56 62 68 78 92 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 12 23 26 44 45 48 62 71 77 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 9 12 24 26 45 48 63 71 77 114 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 9 12 24 26 45 48 64 71 78 92 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 12 24 27 37 49 56 64 78 92 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 9 12 26 32 45 48 53 68 71 77 104 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 9 12 26 32 45 48 53 68 71 78 92 104 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 9 12 26 32 45 48 53 68 71 104 106 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 9 12 26 32 45 48 53 68 71 104 109 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 9 12 26 33 45 48 54 71 77 89 121 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 9 12 26 33 45 48 54 71 89 106 121 122
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 9 12 26 34 45 48 71 78 92 105 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 9 12 26 45 48 52 60 67 71 87 106 120 122
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 9 12 26 45 48 52 67 71 78 87 92 120 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 9 13 17 21 39 43 60 67 70 84 97 106 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 13 17 21 39 43 61 67 70 101 123
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 9 13 17 21 39 43 67 70 99 107 123
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 9 13 17 27 44 45 49 58 63 71 78 92 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 13 17 27 45 49 63 65 71 101 123
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 9 13 20 27 42 45 49 60 61 71 78 92 123
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 9 13 21 39 43 46 58 65 70 84 97 106 123
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 9 13 21 39 43 56 65 70 99 107 123
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 9 13 21 39 43 61 70 84 97 101 106 123
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 9 13 21 39 43 61 70 99 101 107 123
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 9 13 27 44 45 49 58 65 71 101 106 123
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 9 13 37 44 47 56 63 78 92 121 123
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 9 14 15 20 23 42 45 50 66 69 71 102 117
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 14 15 20 23 42 47 66 69 97 117
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 9 14 15 21 40 43 56 59 69 83 91 118
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 9 14 15 22 45 50 52 65 69 71 87 101 120
+REC rank 5 n_gen 13 n4 10 nmid 3 rows 9 14 15 26 29 39 44 48 62 69 70 102 111
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 14 15 26 29 41 48 62 69 93 111
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 9 14 15 27 39 44 46 49 58 69 70 112
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 9 14 15 28 39 44 52 61 69 70 87 101 114
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 9 14 15 32 39 44 51 69 70 86 104 113
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 9 14 15 32 45 50 51 69 71 86 104 119
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 14 15 39 44 47 56 59 69 70 83
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 9 14 16 20 23 35 42 47 65 69 112 120
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 14 16 20 23 35 42 65 69 102 120
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 14 16 20 23 35 42 65 69 108 120
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 9 14 16 21 28 35 40 43 66 69 113 117
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 14 16 21 35 40 43 66 69 88 117
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 14 16 21 35 40 43 66 69 109 117
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 9 14 16 22 27 35 46 49 62 69 111 119
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 9 14 16 26 29 35 41 48 61 69 114 118
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 14 16 26 29 35 48 61 69 102 114
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 14 16 27 35 46 49 62 69 88 111
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 9 14 17 39 44 52 61 69 70 87 101 114
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 9 14 17 45 50 52 65 69 71 87 101 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 9 14 20 23 36 42 56 59 69 76 99 119
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 14 21 28 36 40 43 65 69 81 120
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 14 22 27 36 46 49 61 69 77 114
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 9 14 31 39 44 69 70 89 99 103 108
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 9 14 32 39 44 51 69 70 82 86 96 104 113
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 9 14 32 39 44 51 69 70 86 104 109 113
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 9 14 32 45 50 51 69 71 78 86 92 104 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 9 14 32 45 50 51 69 71 86 104 106 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 9 14 39 44 52 61 69 70 83 87 101 114
+REC rank 5 n_gen 13 n4 7 nmid 6 rows 9 14 39 44 52 61 69 70 87 97 101 106 114
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 9 14 39 44 62 69 70 84 98 102 111
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 9 14 45 50 52 58 65 69 71 87 101 106 120
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 9 14 45 50 52 65 69 71 79 87 101 120
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 9 14 45 50 52 65 69 71 87 101 108 120
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 9 14 45 50 66 69 71 80 94 102 117
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 9 15 20 27 42 44 49 58 60 91 112 117 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 9 15 20 30 42 45 52 63 71 87 117 120
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 15 20 30 42 52 58 63 87 91 117
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 9 15 22 24 27 49 56 65 67 83 107 112 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 9 15 22 29 56 60 62 65 68 83 107 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 15 22 30 32 45 63 65 71 101 104
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 9 15 24 26 39 48 52 67 70 87 111 114
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 15 24 27 39 49 56 67 70 83 112
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 15 24 27 40 49 56 67 83 91 112
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 15 24 28 32 39 61 67 70 101 104
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 15 24 29 39 46 58 62 67 70 102
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 9 16 20 24 35 42 59 65 68 84 108 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 16 20 30 32 35 42 64 65 104 108
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 9 16 20 35 42 44 57 65 67 99 108 125
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 16 20 35 42 50 52 63 65 87 108
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 16 24 26 32 35 48 61 68 104 109
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 16 24 27 35 49 56 62 68 88 98
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 16 26 35 44 48 52 61 67 87 109
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 9 16 27 35 44 49 58 62 67 83 101
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 17 21 43 45 58 62 67 71 78 92
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 9 17 23 56 60 62 65 68 77 84 107 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 17 24 27 49 56 63 65 77 107 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 9 17 24 29 45 58 64 71 78 92 121
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 9 20 24 27 36 42 49 56 60 76 114 119 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 9 20 24 32 42 45 61 64 71 78 92 104 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 9 20 24 32 42 61 64 78 81 92 104 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 20 32 36 42 50 56 64 76 104 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 9 20 33 42 45 54 61 71 78 92 115
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 9 20 42 44 52 61 63 78 87 92 97 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 22 27 36 44 49 58 68 76 98 114
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 9 26 30 32 39 48 65 68 70 82 96 104 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 9 26 30 32 48 65 68 77 82 96 104 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 9 26 33 39 48 54 65 70 82 96 121
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 9 26 48 50 52 65 67 82 87 93 96 125
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 9 27 36 40 44 49 58 65 68 98 106 114 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 9 27 37 44 49 58 64 65 93 106 121
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 9 36 40 47 58 60 62 65 67 98 106 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 9 37 41 58 60 62 65 67 93 99 106 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 9 39 46 53 58 64 65 70 97 106 121
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 9 39 46 58 60 62 65 67 70 97 102 106 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 9 45 58 60 62 65 67 71 101 106 125
+REC rank 5 n_gen 12 n4 10 nmid 2 rows 10 13 15 21 39 44 46 49 58 69 71 118
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 10 13 15 21 39 44 55 60 69 82 91 118
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 10 13 15 40 43 47 55 60 69 70 82
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 10 13 16 42 46 49 55 60 69 71 77
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 10 13 17 21 35 39 44 67 69 103 116
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 10 13 17 21 35 39 44 67 69 109 116
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 10 13 17 27 35 45 50 63 69 103 110
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 10 13 40 43 63 69 70 84 97 102 110
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 10 13 46 49 67 69 71 80 93 102 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 10 14 15 23 42 57 66 84 98 107 124
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 10 14 16 21 40 44 49 58 66 70 83 96 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 10 14 16 21 40 44 59 66 70 84 98 106 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 10 14 16 21 40 44 66 70 99 108 124
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 10 14 16 23 27 42 46 50 55 62 71 77 120 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 10 14 17 32 35 39 51 54 73 113 116 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 10 14 17 32 35 45 51 54 73 110 119 124
+REC rank 5 n_gen 12 n4 5 nmid 7 rows 10 14 21 40 44 70 84 98 104 106 113 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 10 14 32 36 51 54 55 73 79 92 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 10 14 32 39 51 54 55 73 91 113 124
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 10 14 32 39 51 54 73 83 96 113 124
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 10 14 32 45 51 54 73 79 92 119 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 10 14 36 43 47 55 62 79 92 120 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 10 15 21 42 44 49 58 60 91 118 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 10 15 23 27 39 50 55 66 82 91 112
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 10 15 23 27 40 50 55 66 70 82 112
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 10 15 23 27 48 50 55 66 82 112 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 10 15 23 27 50 55 58 66 82 112 122
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 10 15 24 29 39 46 58 62 67 71 102
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 10 16 23 27 50 55 58 62 67 77 83 96 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 10 16 24 29 40 58 68 70 83 96 114
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 10 16 24 29 55 58 63 68 77 83 96 114 122
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 10 16 24 42 46 52 55 63 68 71 77
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 10 16 27 40 50 58 62 67 70 83 96
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 10 16 33 55 58 77 83 89 96 105 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 10 17 21 35 44 45 51 67 73 110 119
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 10 17 21 35 44 49 58 62 67 78 100
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 10 17 23 27 35 50 55 63 68 97 113
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 10 17 24 29 35 55 58 64 78 97 121 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 10 17 27 35 39 50 51 63 73 113 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 10 17 35 43 47 55 58 66 78 97 112 122
+REC rank 5 n_gen 14 n4 9 nmid 5 rows 10 21 36 44 49 55 58 63 68 79 92 98 114 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 10 21 37 44 49 55 58 64 93 121 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 10 23 27 36 50 51 55 64 73 79 92
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 10 36 43 47 55 58 62 67 79 92 98 120 122
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 10 36 53 55 58 79 87 92 98 104 122
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 11 15 22 45 50 52 65 69 73 101 120
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 11 15 28 39 44 52 61 69 73 101 114
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 11 18 35 39 46 52 58 68 73 111 114 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 11 18 35 39 46 53 58 64 74 111 116 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 11 18 35 42 46 53 55 65 74 97 111 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 11 18 35 42 46 55 59 65 78 97 111 123
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 11 36 40 44 49 58 65 68 98 106 114 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 11 36 42 46 50 55 61 64 80 92 104 119 124
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 11 39 42 46 53 55 58 64 74 91 104 121 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 11 39 44 52 55 60 61 69 73 91 101 114 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 11 39 46 53 58 64 65 74 97 106 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 11 45 50 52 58 65 69 73 101 106 120
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 12 14 15 19 29 48 50 62 71 87 101 116 125
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 12 14 15 20 29 39 48 50 62 71 102 117 125
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 12 14 15 23 25 42 44 66 70 87 101 110 125
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 12 14 15 23 26 42 44 45 66 70 102 111 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 12 14 15 23 27 42 44 46 55 66 70 82 112 125
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 12 14 15 23 42 44 47 56 66 70 83 97 125
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 12 14 15 23 42 44 57 66 70 84 98 107 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 12 14 15 23 42 44 66 70 86 100 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 12 14 15 23 42 44 66 70 99 108 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 12 14 15 29 48 50 62 71 86 100 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 12 14 16 21 40 59 66 84 98 106 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 12 14 20 39 47 59 66 83 97 106 125
+REC rank 5 n_gen 12 n4 5 nmid 7 rows 12 14 23 42 44 70 83 87 97 101 110 125
+REC rank 5 n_gen 12 n4 5 nmid 7 rows 12 14 23 42 44 70 84 86 98 100 107 125
+REC rank 5 n_gen 12 n4 5 nmid 7 rows 12 14 23 42 44 70 84 98 102 107 111 125
+REC rank 5 n_gen 12 n4 5 nmid 7 rows 12 14 23 42 44 70 87 99 101 108 110 125
+REC rank 5 n_gen 12 n4 5 nmid 7 rows 12 14 29 48 50 71 79 87 93 101 116 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 12 14 32 35 51 53 55 72 83 97 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 12 14 35 43 47 55 66 83 97 112 125
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 12 15 19 24 48 52 67 69 71 101 116
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 12 15 20 23 27 39 44 55 60 66 69 82 91 112 117
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 12 15 20 23 39 44 48 66 69 71 117
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 12 15 20 23 39 44 57 66 69 84 107 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 12 15 20 30 39 55 63 68 82 87 91 117
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 12 15 20 32 39 53 55 64 82 91 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 12 15 20 39 43 47 55 59 82 91 117 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 12 15 23 26 44 45 60 66 91 102 111
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 12 15 24 27 42 56 67 70 83 97 112
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 12 15 25 30 42 52 63 69 70 101 110
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 12 15 26 29 42 45 50 62 69 70 111
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 12 15 29 42 50 56 62 68 70 83 97
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 12 15 30 42 46 52 55 63 68 70 82
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 12 16 23 27 40 44 55 62 77 120 124
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 12 16 23 27 44 48 55 62 71 77 120
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 12 16 23 40 44 47 56 60 91 120 124
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 12 17 23 27 36 44 55 63 68 92 117
+REC rank 5 n_gen 11 n4 9 nmid 2 rows 12 17 23 36 44 47 56 62 68 77 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 12 19 23 27 37 44 55 59 76 121 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 12 19 23 27 44 51 55 59 72 76 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 12 19 23 37 44 47 56 63 92 121 123
+REC rank 5 n_gen 15 n4 11 nmid 4 rows 12 20 23 35 39 44 47 56 59 67 69 76 98 112 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 12 20 23 35 39 44 57 67 69 99 108 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 12 20 24 27 35 39 56 60 76 98 116 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 12 20 24 39 47 59 66 83 97 106 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 12 20 27 39 43 60 67 83 97 106 123
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 12 20 32 35 39 53 56 64 76 98 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 12 20 35 39 49 56 62 68 76 98 102 116
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 12 23 26 35 44 45 59 67 76 87 110
+REC rank 5 n_gen 11 n4 8 nmid 3 rows 12 23 27 35 44 51 55 67 72 83 97
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 13 15 19 26 44 49 58 71 102 111 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 13 15 21 39 42 46 55 58 82 91 118 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 13 17 21 39 51 60 67 84 97 106 113
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 13 17 21 39 60 61 67 84 97 101 106
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 13 18 36 42 46 54 55 61 74 92 115 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 13 20 35 48 50 61 63 78 87 100 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 13 21 35 39 48 50 61 63 79 101 116 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 13 21 39 42 46 54 55 58 74 91 115 122
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 13 21 39 42 54 74 84 97 106 115 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 13 21 39 46 54 58 65 74 84 97 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 13 21 39 46 58 63 65 79 84 97 106
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 13 21 39 51 54 74 84 97 106 113 124
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 13 21 39 61 63 79 84 97 101 106 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 13 26 35 42 44 65 67 82 87 100 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 13 27 35 42 44 45 65 67 83 101 110 125
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 13 35 42 44 46 55 65 67 84 97 102 111 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 13 35 42 44 47 56 65 67 98 107 112 125
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 13 40 49 61 63 71 80 93 102 116 125
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 13 43 46 65 67 70 84 97 102 110 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 14 15 19 26 44 49 58 70 102 111 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 14 15 19 29 44 48 62 70 87 101 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 14 15 22 26 44 55 65 70 82 102 111
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 14 15 23 25 42 50 66 71 87 101 110
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 14 15 23 25 42 58 66 87 91 101 110
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 14 15 23 27 39 42 46 55 58 66 82 91 112 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 14 15 23 39 42 57 66 84 98 107 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 14 16 22 26 50 55 61 71 77 104 119
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 14 16 23 42 58 83 87 91 101 110 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 14 19 22 26 53 55 58 72 76 104 122
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 14 19 23 27 35 42 46 55 59 65 76 97 111 123
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 14 19 23 35 42 56 65 84 98 107 123
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 14 19 23 42 61 84 86 92 98 107 123
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 14 21 36 40 54 58 65 73 84 98 106
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 14 23 35 42 45 59 65 76 87 101 110
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 14 23 35 42 53 56 65 72 84 98 107
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 14 23 36 42 59 76 87 99 101 110 119
+REC rank 5 n_gen 11 n4 5 nmid 6 rows 14 23 39 42 62 77 84 98 102 107 122
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 15 19 24 26 29 42 58 62 67 69 87 91 111 116
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 15 19 24 26 29 58 62 67 69 70 87 111 116
+REC rank 5 n_gen 13 n4 9 nmid 4 rows 15 19 24 26 29 58 62 67 69 71 87 111 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 15 19 24 27 42 56 59 67 69 83 112 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 19 24 27 56 59 67 69 70 83 112 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 19 24 27 56 59 67 69 83 94 112 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 19 24 27 56 59 67 69 83 103 112 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 19 24 28 32 61 67 69 70 86 114 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 19 24 28 32 61 67 69 71 86 114 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 19 24 28 32 61 67 69 86 91 114 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 19 24 28 32 61 67 69 86 94 114 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 19 24 28 32 61 67 69 86 99 114 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 15 19 24 31 47 67 69 89 98 113 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 15 19 24 51 57 67 69 84 104 108 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 15 19 26 32 42 58 68 91 111 114 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 15 19 26 33 42 58 64 91 104 111 116 121
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 15 19 26 42 44 49 58 60 91 102 111 116 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 15 20 23 27 48 55 60 66 69 82 112 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 20 23 27 55 60 66 69 70 82 112 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 20 23 27 55 60 66 69 82 93 112 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 20 23 27 55 60 66 69 82 103 112 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 15 20 30 48 55 63 68 82 87 104 117
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 15 22 24 26 39 55 65 67 82 87 91 111 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 22 24 26 49 55 65 67 82 87 111 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 15 22 24 26 55 65 67 70 82 87 111 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 15 22 24 26 55 65 67 82 87 93 111 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 22 24 27 39 56 65 67 83 107 112 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 15 22 24 27 56 65 67 70 83 107 112 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 15 22 24 27 56 65 67 73 83 107 112 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 22 25 30 32 63 65 69 70 86 110 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 22 25 30 32 63 65 69 71 86 110 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 22 25 30 32 63 65 69 86 91 110 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 22 25 30 32 63 65 69 86 95 110 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 22 25 30 32 63 65 69 86 98 110 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 15 22 26 33 39 55 65 82 91 111 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 22 26 39 50 52 55 65 82 91 111 114
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 22 29 56 60 62 65 68 70 83 107 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 22 29 56 60 62 65 68 73 83 107 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 22 29 56 60 62 65 68 83 95 107 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 15 22 29 56 60 62 65 68 83 100 107 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 15 24 27 39 42 56 67 83 112 120 122
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 15 24 27 40 56 67 83 91 112 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 15 25 30 31 41 63 69 89 94 110 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 15 25 42 44 49 58 60 91 101 110 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 15 30 39 42 46 52 55 58 63 68 82 91 114 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 15 30 40 55 58 63 68 82 102 114 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 15 30 41 55 58 63 68 82 94 114 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 15 39 42 46 53 55 58 64 82 91 104 121 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 15 39 42 46 54 55 58 82 91 115 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 15 39 44 51 55 60 69 82 91 104 113
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 16 20 23 48 63 65 69 87 96 110 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 16 20 23 53 58 65 69 83 100 106 120
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 16 20 24 29 58 65 68 70 83 106 114 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 16 20 24 29 58 65 68 72 83 106 114 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 16 20 24 29 58 65 68 83 100 106 114 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 16 20 27 58 60 62 65 67 70 83 106 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 16 20 27 58 60 62 65 67 72 83 106 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 16 20 27 58 60 62 65 67 83 95 106 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 16 20 27 58 60 62 65 67 83 100 106 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 16 22 26 29 41 55 60 61 69 77 114 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 16 22 26 29 55 60 61 69 71 77 114 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 16 22 26 29 55 60 61 69 77 96 114 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 16 22 26 29 55 60 61 69 77 102 114 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 16 22 26 30 41 55 61 64 77 89 119 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 16 22 26 30 55 61 64 71 77 89 119 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 16 22 26 30 55 61 64 77 89 96 119 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 16 23 27 40 55 58 62 67 77 83 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 16 24 28 40 55 63 68 77 89 102 113
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 16 24 29 40 55 58 63 68 77 83 102 114 122
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 16 24 29 42 58 68 83 87 91 111 114 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 16 26 29 42 61 67 69 87 92 114 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 16 27 42 58 62 67 69 83 91 111 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 16 40 43 56 59 67 69 84 91 112 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 16 42 44 49 58 60 83 91 101 110 125
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 16 42 44 49 58 60 83 91 102 111 116 125
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 17 21 45 58 60 62 65 67 78 84 101 106 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 17 21 50 55 58 62 67 78 96 120 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 17 21 58 60 62 65 67 72 78 84 106 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 17 21 58 60 62 65 67 78 84 100 106 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 17 23 56 60 62 65 68 73 77 84 107 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 17 23 56 60 62 65 68 77 84 100 107 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 17 24 29 45 58 64 65 78 101 106 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 17 39 44 51 55 60 69 84 91 104 113
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 17 39 44 52 55 60 61 69 84 91 101 114 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 17 39 44 55 60 66 69 84 91 112 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 17 45 50 52 58 65 69 78 101 106 120
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 18 39 42 46 52 55 58 63 68 91 114 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 18 39 42 46 53 55 58 64 91 104 121 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 18 39 42 46 55 58 62 67 91 102 120 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 18 39 46 58 60 62 65 67 79 97 102 106 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 18 45 58 60 62 65 67 79 101 106 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 19 22 26 32 35 50 55 58 63 68 76 97 114 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 19 22 26 32 38 55 58 63 68 76 114 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 19 22 26 32 55 58 63 68 72 76 114 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 19 22 26 32 55 58 63 68 76 96 114 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 19 22 26 32 55 58 63 68 76 99 114 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 19 22 26 33 35 55 58 64 76 89 97 121 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 19 22 26 33 38 55 58 64 76 89 121 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 19 22 26 33 55 58 64 72 76 89 121 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 19 22 26 33 55 58 64 76 89 96 121 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 19 22 26 34 35 55 58 76 97 115 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 19 22 26 38 55 58 62 67 76 87 120 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 19 22 26 44 49 55 58 66 76 96 112 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 19 22 26 50 55 58 62 67 76 87 96 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 19 22 35 44 47 56 67 98 112 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 19 24 31 35 55 60 69 76 89 97 113
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 19 24 31 37 55 60 69 76 89 99 113
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 19 24 32 37 55 60 61 69 76 86 99 114 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 19 24 32 55 60 61 69 76 86 96 114 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 19 24 37 55 60 66 69 76 99 112 117
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 19 24 48 55 60 62 65 69 76 87 96 111 120
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 19 24 55 60 62 65 69 74 76 87 111 120
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 19 24 55 60 62 65 69 76 87 98 111 120
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 19 26 30 32 58 65 68 70 82 106 114 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 19 26 30 32 58 65 68 72 82 106 114 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 19 26 30 32 58 65 68 82 94 106 114 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 19 26 33 43 58 64 65 82 94 106 121
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 19 26 38 58 60 62 65 67 82 87 94 106 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 19 26 58 60 62 65 67 70 82 87 106 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 19 26 58 60 62 65 67 82 87 95 106 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 19 30 32 35 42 46 55 65 76 97 111 114
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 19 35 42 44 46 55 65 67 76 97 102 111 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 19 35 42 44 47 56 65 67 98 107 112 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 19 35 42 46 53 55 65 76 97 111 121
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 19 42 44 52 61 63 86 92 98 107 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 19 48 50 52 55 65 67 76 96 111 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 20 23 36 56 59 67 69 76 99 112 116
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 20 35 44 47 56 67 76 98 112 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 20 35 50 55 58 63 68 87 97 114 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 20 36 43 47 55 58 62 67 92 98 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 20 36 44 48 55 63 68 87 92 104 113
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 20 36 44 49 55 58 63 68 87 92 98 114 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 21 35 45 50 51 63 69 79 104 110 119
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 21 35 50 55 58 63 68 79 97 114 122
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 21 36 42 46 49 55 60 61 69 92 114 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 21 36 42 46 50 55 61 64 92 104 119 124
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 21 48 55 60 62 65 69 78 96 111 120
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 22 24 29 35 39 46 58 60 76 87 111 116 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 22 24 29 35 45 58 60 76 86 110 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 22 24 29 36 58 60 76 86 98 110 125
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 22 24 29 36 58 60 76 87 98 111 116 125
+REC rank 5 n_gen 11 n4 6 nmid 5 rows 22 24 32 39 61 63 77 83 101 107 125
+REC rank 5 n_gen 14 n4 10 nmid 4 rows 22 35 39 44 46 49 58 62 67 69 76 102 111 116
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 22 35 39 44 47 56 59 67 69 98 112 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 22 35 39 46 52 58 68 76 111 114 116
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 22 35 39 46 53 58 64 76 89 111 116 121
+REC rank 5 n_gen 12 n4 6 nmid 6 rows 22 36 44 49 58 68 76 98 102 111 114 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 22 36 46 49 61 67 69 77 102 114 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 22 36 47 58 62 67 69 76 98 111 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 23 39 46 53 58 64 65 79 97 106 121
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 24 29 39 42 46 55 58 66 81 91 112 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 25 30 32 37 58 65 69 86 93 106 120
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 25 37 41 58 60 62 65 67 86 93 99 106 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 25 37 44 49 58 64 65 86 93 106 121
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 25 38 58 60 62 65 67 86 94 106 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 27 35 39 44 51 67 69 83 104 113 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 28 30 32 39 55 65 67 81 91 111 125
+REC rank 5 n_gen 12 n4 9 nmid 3 rows 28 35 40 43 47 55 60 66 69 97 112 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 28 35 40 50 55 63 68 89 97 102 117
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 28 36 40 43 63 65 69 81 102 110 120
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 28 39 44 55 60 62 65 69 81 91 102 111 120
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 28 41 55 60 62 65 69 81 93 111 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 29 35 42 44 46 55 65 67 97 102 111 125
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 30 37 41 55 58 62 67 81 93 120 122
+REC rank 5 n_gen 13 n4 8 nmid 5 rows 30 39 42 46 55 58 62 67 81 91 102 120 122
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 31 35 39 44 57 67 69 89 99 108 116
+REC rank 5 n_gen 11 n4 7 nmid 4 rows 33 36 40 43 58 65 69 85 98 106 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 39 44 47 56 59 67 69 73 98 112 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 39 44 47 56 59 67 69 75 98 112 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 39 44 47 56 59 67 69 79 98 112 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 39 44 47 56 59 67 69 88 98 112 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 39 44 48 52 61 67 69 75 101 114 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 39 44 48 52 61 67 69 76 101 114 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 39 44 48 52 61 67 69 79 101 114 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 39 44 48 52 61 67 69 84 101 114 116
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 40 43 47 55 60 66 69 74 97 112 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 40 43 47 55 60 66 69 75 97 112 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 40 43 47 55 60 66 69 78 97 112 117
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 40 43 47 55 60 66 69 88 97 112 117
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 35 42 44 46 55 65 67 78 97 102 111 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 35 42 44 47 56 65 67 75 98 107 112 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 42 45 50 52 63 65 69 75 101 110 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 42 45 50 52 63 65 69 76 101 110 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 42 45 50 52 63 65 69 80 101 110 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 42 45 50 52 63 65 69 83 101 110 120
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 42 49 56 60 62 65 68 72 98 107 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 42 49 56 60 62 65 68 75 98 107 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 42 49 56 60 62 65 68 80 98 107 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 35 42 49 56 60 62 65 68 85 98 107 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 36 40 44 49 58 65 68 75 98 106 114 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 36 40 44 49 58 65 68 85 98 106 114 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 36 40 47 58 60 62 65 67 73 98 106 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 36 40 47 58 60 62 65 67 75 98 106 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 36 40 47 58 60 62 65 67 80 98 106 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 36 40 47 58 60 62 65 67 85 98 106 125
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 36 42 46 49 55 60 61 69 74 92 114 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 36 42 46 49 55 60 61 69 75 92 114 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 36 42 46 49 55 60 61 69 81 92 114 119
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 36 42 46 49 55 60 61 69 87 92 114 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 36 42 46 50 55 61 64 81 92 104 119 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 36 43 47 55 58 62 67 75 92 98 120 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 36 44 49 55 58 63 68 75 92 98 114 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 37 41 58 60 62 65 67 74 93 99 106 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 37 41 58 60 62 65 67 85 93 99 106 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 37 43 56 60 62 65 68 74 92 99 107 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 37 43 56 60 62 65 68 85 92 99 107 124
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 39 42 46 52 55 58 63 68 74 91 114 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 39 42 46 52 55 58 63 68 75 91 114 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 39 42 46 52 55 58 63 68 81 91 114 122
+REC rank 5 n_gen 12 n4 8 nmid 4 rows 39 42 46 52 55 58 63 68 84 91 114 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 39 42 46 53 55 58 64 81 91 104 121 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 39 42 46 55 58 62 67 74 91 102 120 122
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 39 44 52 55 60 61 69 75 91 101 114 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 39 44 52 55 60 61 69 81 91 101 114 119
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 39 44 55 60 62 65 69 73 91 102 111 120
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 39 44 55 60 62 65 69 83 91 102 111 120
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 39 46 50 52 58 65 68 75 97 106 114 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 39 46 50 52 58 65 68 79 97 106 114 124
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 39 46 58 60 62 65 67 74 97 102 106 125
+REC rank 5 n_gen 12 n4 7 nmid 5 rows 39 46 58 60 62 65 67 80 97 102 106 125

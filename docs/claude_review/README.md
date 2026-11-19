@@ -187,8 +187,23 @@ it does not bound the rank (21 rank-5 code classes survive at `D = 8`). Integer 
 unchanged. The pre-registered stop rule fired in substance (not on the letter: the two proved locus bounds are
 recorded); the function-field line is closed for internal work.
 
-**Growth-rate status (2026-11-15, after round 30).** No growth improvement over `log R/loglog R` is proved, either
-unconditionally or from a standard conjecture. The following are capped at `log R/loglog R` by
+Round 31 (`round31/README.md`, `round31/README_II.md`, `round31/README_III.md`) was an exchange with an outside
+colleague ("Astra") over three passes on two threads (open-ended, and Question B), each pass checked by independent
+referees and a judge (23 referee blocks). No false theorem and no gap in a claimed proof was found; nothing changes
+for the growth rate, the uniform bound, Questions A and B or route 5. Recorded: Question B for clusters is exactly the
+index-one case of `(L_5^o)` (all but `O(m^3)` five-tuples have index one; the high-index cover theorem is irrelevant
+to clusters); exponents `38/11`, `40/11`, `4` on the ten-pair-cut profile for norm vectors on a fixed rational plane,
+which gap-admissible fakes fail but which the growth problem never supplies; an integer five-mark model with all
+divisibilities at exponent `10/3`, so that exact norms are the only missing property; projective rigidity from the
+separation divisors for `m >= 16390`; an almost-all bound for random parents (at most 1 or 2 points for `D > 8/3`,
+superseded headline 17; not a worst-case statement); closed routes (anchored unit equations, free-nonvanishing grid
+determinants, fixed-cofactor elimination, template density, the completely multiplicative sharp sieve); and the
+function-field `D = 8` case (rank `<= 4`, `M(8,0) = 8`, at most 12 constant-offset divisors, cube only). Six
+sentences of the expert note were corrected on the referees' recommendation. A fourth, narrower exchange (integral
+fakes at growth scale; the norm-defect/width trade-off at five marks) is in progress and is not yet recorded.
+
+**Growth-rate status (2026-11-19, after round 31).** No growth improvement over `log R/loglog R` is proved
+unconditionally; conditionally only Vojta-type routes are known, and they give the uniform bound directly. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
 * every local input: pair chords, gcds, cut, residues at the point level, and prime-level residues
   used through characters. These residue caps hold for residue moduli up to `M^A` with `A` fixed in

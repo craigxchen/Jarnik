@@ -1,0 +1,14 @@
+I appended [Part III to answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/free/answer.md:654) and verified that Parts I and II are byte-for-byte intact.
+
+1. **PROVED.** Multiplicity gives projective rigidity. In every sufficiently large normalized cluster, the parent and the exact pair separation divisors determine **all** rational star directions up to one projective transformation.
+2. **PROVED.** Reconstruction survives deletion of a tenth of the pair constraints at each mark. Overlapping triples of anchors recover the directions missed by the first triple.
+3. **PROVED.** On balanced five-tuples, independently passing quartet tests already give compatible cross ratios. Three congruences telescope, cancelling the full height of their shared prime products.
+4. **PROVED.** The remaining arithmetic condition is simultaneous factorization of the minors, with one rational scale per mark. Choosing the six old edge cofactors afresh for each fifth mark loses this condition.
+5. **COMPUTED.** At a deliberately constructed fourteen-prime parent, exactly one of 560,560 candidate three-product partitions passes. Its coefficients factor into bounded even cofactors, yet no five marks pass under any prime assignment.
+6. **PROVED.** For \(r\) split primes drawn from \([r^D,2r^D]\), \(D\ge4\), all but an \(\exp(-\Omega_D(r\log r))\) fraction of parents have **at most 17 points** on any arc of length \(C\sqrt R\), for fixed \(C\).
+7. **PROVED.** The suggested unit-equation grouping has a linear rank cost. A rank-\(s\) multiplicative coset contains the divisor splits of at most \(8s+4\) third vertices at a fixed base edge.
+8. **PROVED.** Five marks admit a full primitive integer countermodel at the ten-pair exponent \(10/3\), with index one, every prescribed minor divisibility, asymptotically exact star radii, and angular width \(\asymp N^{-3/10}\).
+9. **PROVED.** Exact individual norms would turn that model into genuine circle points. At growing sizes I can retain half the prescribed log divisibility on **every** pair while bringing every normalized minor within \(m^{-L}\) of an integer.
+10. **PROVED.** Genuine balanced four-mark clusters can have cofactor two on every edge of a four-cycle. For the monochromatic route, the unresolved question concerns many cycles sharing vertices.
+11. **EVIDENCE.** The exceptional parent still decides the growth problem. I obtained neither a worst-case rate improvement nor an unbounded integral countermodel with full divisibility.
+12. **HEURISTIC.** I would referee the five-mark cancellation, the density bound, and the balanced integer countermodel first. Then I would test whether one fixed choice of base-edge cofactors extends repeatedly on a larger exceptional profile.

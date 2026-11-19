@@ -1,0 +1,9 @@
+AP enumeration: distinct triples 10080 solutions 0
+full assignment search (slope 0 on edge 12): 362880 assignments, configs found: 0
+primes: [34913, 37013, 39113, 41213, 43313, 45413, 47513, 49613, 51713, 53813] True [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+AP tuple trial 0 all t nonzero: True T = 85831948796153 sqrt(max n)=232.0
+AP tuple trial 1 all t nonzero: True T = 99940025130603 sqrt(max n)=232.0
+AP tuple trial 2 all t nonzero: True T = 84244742615522 sqrt(max n)=232.0
+AP tuple trial 3 all t nonzero: True T = 86125452762978 sqrt(max n)=232.0
+AP tuple trial 4 all t nonzero: True T = 82359435341070 sqrt(max n)=232.0
+identities (II.10),(II.6),(8),Pluecker verified on 200 random genuine ten-pair tuples

@@ -1,0 +1,7 @@
+p=23 K=5 istars=10541544 classes=2997148 pairs=127512
+p=23 K=5 istars=10542456 classes=2997254 pairs=127512
+p=23 K=5 ordered(star0,star1) pairs=68270800 solutions_containing_i(unlabelled)=0 (raw 0 /2)
+
+real	1m51.757s
+user	1m47.985s
+sys	0m0.261s

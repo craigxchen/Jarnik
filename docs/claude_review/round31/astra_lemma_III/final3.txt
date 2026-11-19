@@ -1,0 +1,14 @@
+I appended Part III with the proofs, computational certificates, and referee corrections. [Part III of answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/answer.md:585)
+
+1. **EVIDENCE.** The linear-block decision remains open. I found no strict Gaussian rational solution. The global saturation did not finish, so I have no exact global dimension or degree.
+2. **PROVED.** Every strict linear solution modulo affine change has tangent dimension at most **three** in characteristic zero and every \(p>5\). The bound is **two** wherever the second-moment matrix has full rank.
+3. **PROVED.** The unbarred roots determine at most **one** barred completion when their five star quartics have rank four, and at most **nine** at rank three. The rank-four decision now uses eight variables and explicit scalar compatibility equations.
+4. **COMPUTED.** The complete strict twisted census is empty for \(p=7,11,19,23,31\). Separate certificates exclude geometric fibres over generic anchors. Exceptional anchors remain possible.
+5. **PROVED.** For every fixed block degree, all ten-pair template curves together sweep out dimension at most **two** in the four-dimensional ratio space. Even infinitely many linear templates cannot settle the essential constant by density.
+6. **PROVED.** This gives a growth-relevant exception for fifteen cuts. Polynomial templates of block degree \(o(\log m)\) and contact at least half the total block degree satisfy a ratio-grid equation of degree \(m^{o(1)}\).
+7. **PROVED.** Your fixed-\(t\) dimension count is exact for continuous norms. Their closure is an irreducible fourfold of **degree twelve**, and even one feasible signed \(t\) projects dominantly onto ratio space.
+8. **PROVED.** For odd private integral norms I obtain an exact Gaussian realization test. A real-feasible \(t\) can have empty arithmetic closure. The closure for general arithmetically admissible \(t\) remains undetermined.
+9. **PROVED.** On any moving rational norm plane, fixed signed cofactors give \(O_\epsilon((2T)^\epsilon)\) genuine ratio classes, uniformly in the plane’s height and in prescribed singleton norms.
+10. **PROVED.** With \(A\) singleton choices, \(K\) planes per choice and cofactor product at most \(L\), interpolation gives ratio degree \(O_\epsilon(1+(AK)^{1/4}L^{(1+\epsilon)/4})\). The common parent atoms do not yet supply the needed bounds on \(A,K\).
+11. **PROVED.** Four fixed marks admit at most four pure ten-pair completions per fixed cofactor product. With fifteen cuts, fixing the cube class of that product times the singleton product gives a genus-four curve and finiteness for those anchors.
+12. **HEURISTIC.** I would prioritize independent checks of the tangent-space proof and the growing-degree exception. For the existence decision, I would run the eight-variable rank-four equations first and treat the rank-three pencil separately.

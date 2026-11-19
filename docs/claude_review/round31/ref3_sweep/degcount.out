@@ -1,0 +1,11 @@
+1 D 15 k=ceil(D/2) 8 8d-floor(d/2) 8 ok True 4k+1>2D True 4k<=30d+2 True
+2 D 30 k=ceil(D/2) 15 8d-floor(d/2) 15 ok True 4k+1>2D True 4k<=30d+2 True
+3 D 45 k=ceil(D/2) 23 8d-floor(d/2) 23 ok True 4k+1>2D True 4k<=30d+2 True
+4 D 60 k=ceil(D/2) 30 8d-floor(d/2) 30 ok True 4k+1>2D True 4k<=30d+2 True
+5 D 75 k=ceil(D/2) 38 8d-floor(d/2) 38 ok True 4k+1>2D True 4k<=30d+2 True
+6 D 90 k=ceil(D/2) 45 8d-floor(d/2) 45 ok True 4k+1>2D True 4k<=30d+2 True
+tenpair d 1 poles 18 order 19
+tenpair d 2 poles 36 order 37
+tenpair d 3 poles 54 order 55
+tenpair d 4 poles 72 order 73
+ten-pair cutoff c<1/(24 log 6)= 0.0232546094396353  fifteen-cut: degree m^{c*30*log 8}, o(m) iff c< 0.01602994489876626

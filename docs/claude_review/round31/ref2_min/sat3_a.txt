@@ -1,0 +1,3 @@
+class 51 nq 9 nmid 3 rep [0, 9, 14, 16, 28]
+  TIMEOUT
+class 48 nq 8 nmid 4 rep [0, 9, 13, 16, 35]

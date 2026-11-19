@@ -1,0 +1,5 @@
+rank 1 distinct closures 70 admissible 70 max n4 1 max n4+nmid 1
+rank 2 distinct closures 2079 admissible 1799 max n4 3 max n4+nmid 3
+rank 3 distinct closures 29826 admissible 20640 max n4 6 max n4+nmid 7
+rank 4 distinct closures 197120 admissible 94190 max n4 12 max n4+nmid 12
+rank 5 distinct closures 517701 admissible 70168 max n4 14 max n4+nmid 19

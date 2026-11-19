@@ -1,0 +1,3 @@
+unordered solutions (sets of 5 stars): 0 loose
+p 7 quartets 95760 signatures 16660 largest class 14 allow disjoint conjugate collisions False unordered systems 0
+p 7 quartets 95760 signatures 16660 largest class 14 allow disjoint conjugate collisions True unordered systems 0

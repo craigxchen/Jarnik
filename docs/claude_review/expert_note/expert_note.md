@@ -38,8 +38,8 @@ chords) and $S_{p\tau}=\#\{i:a_{ip}<\tau\}$ for $1\le\tau\le e_p$. The link is a
 $\prod_{i<j}|z_i-z_j|^8=N^{M(M-2)}\prod_{p\mid N}p^{\sum_\tau(2S_{p\tau}-M)^2}\prod_{i<j}|c_{ij}|^8$.
 The arithmetic side comes from pigeonhole collisions at primes $q\lesssim M$, together with a chain lemma on
 exponent levels. The factor $\log M$ is the mass $\sum_{q\le M}\log q/q$. No bound $o(\log R/\log\log R)$ is
-known for every $R$, either unconditionally or from any standard conjecture. The only standard-conjecture routes
-give the uniform bound directly. They use Vojta's Main Conjecture for **one fixed** variety:
+known unconditionally. Conditionally, the only known routes go through Vojta's Main Conjecture and give the
+uniform bound directly; no intermediate growth bound is known from a weaker standard conjecture. They use Vojta's Main Conjecture for **one fixed** variety:
 * $D=0$ on a resolution of $\mathrm{Bl}_YX_7$, where $X_7$ is the equal-norm variety and $Y$ its diagonal line
   (`growth/conditional.md` Thm 5.1);
 * $D=0$ on $\overline M_{0,8}$ (§2 below);
@@ -66,7 +66,9 @@ $M=o(\log R/\log\log R)$. The record builds such fakes for several classes:
 * Grafts cap robust averaged analytic inputs (`round10/analytic.md` Thm B; `round20/composite.md`).
 
 Actual clusters satisfy $W\ge3M\log M-O(M)$. Not everything is capped. P3-all$^*$, the sharp-constant large
-sieves and the low-height window $P_+(N')\le M^{2-\delta}$ remain uncapped; here $N'$ is the normalised norm and
+sieves (prime-only and non-multiplicative forms; the completely multiplicative, all-ideal, all-height sharp sieve
+of round 20 collapses: it forces genuine angles mod $\pi/4$, with $B_0=4$ attained by an irrational graft,
+ineffectively in the height; `round31/README.md` §1, sieve) and the low-height window $P_+(N')\le M^{2-\delta}$ remain uncapped; here $N'$ is the normalised norm and
 $P_+(N')$ its largest prime factor (`round21/README.md`, status **open**),
 and the residue caps are not uniform in $A$; see `overview/overview.md` §5.5. The record's synthesis is a judge's assessment, **unrefereed**
 (`round17/README.md` §7.1; `overview/overview.md` §7.6). It says a new mechanism must be global, multi-place and
@@ -271,8 +273,9 @@ to the "subcritical" exponent $\frac12-\frac1{2^k-2}$ in the reduced radius (`ga
   closed set. Here an A-point is the class of a primitive tuple with diameter $\le R''^{1/2-\delta}$. (Thm 4.3(i) was
   narrowed by the killer, `kill_gauss.md` §1.2 item 4.) The density mechanism is excluded at $k=5$ only
   **heuristically** (count $e^{-w}$ per scale).
-* **Lemma K1: every recorded method is exactly critical** (`kill_gauss.md` §6.1; **proved by the killer**, not
-  independently checked). Let
+* **Lemma K1: every recorded method that yields an inequality at the actual point is exactly critical**
+  (`kill_gauss.md` §6.1; **proved by the killer**, not independently checked; route 5's forced vanishing is
+  supercritical but yields no inequality without its open zero estimate). Let
   $F$ be bihomogeneous of bidegree $(a,b)$.
   * Then $F(z)=g^a\bar g^bF(\zeta)$, and the forced divisor scales in the same way.
   * The angular width is unchanged, and so are the pair data and the residues.
@@ -370,7 +373,9 @@ $\delta$ has McKinnon–Roth exponent $\gamma=4/(1+2\delta)$, and:
 > explicit one-parameter real family $M$ (two conjugate branches of contact 4, each ray hit once; Jacobian rank 28,
 > so a component). Only finitely many curves of its complex component are defined over $\mathbb Q$ (geometric
 > monodromy $S_4$ of the place configuration, Faltings; ineffective; none of height $\le300$). The same finiteness
-> holds for the split form, so this is not an anisotropy effect. Whether the class has other components is open.
+> holds for the split form, so this is not an anisotropy effect. *Sharpened in round 31 (refereed,
+> `round31/ref_local.md`): no nondegenerate ray-generic member of the known component is defined over $\mathbb Q$,
+> in either form; each form is excluded at 2 and at 3.* Whether the class has other components (Q24.1) is open.
 > Blind numerical solvers all missed $M$, so failed searches in this class are not evidence of emptiness. Consequently
 > a proof of Question B for $T_5$ that is not also a proof for the split form (hence of Erdős #887) must use a global
 > twist-sensitive input; the only one known is the parity lemma.
@@ -406,8 +411,8 @@ $\delta$ has McKinnon–Roth exponent $\gamma=4/(1+2\delta)$, and:
 > curve parameter has image of dimension $\le3$ and refutes nothing. By the killer's dimension count, one-variable
 > polynomial-block families cannot be dense at $k=5$ (**heuristic**), and bounded-degree covering families are
 > excluded (Thm 4.3(ii)) (`kill_gauss.md` §§4, 6.3).
-> The two-branch twisted Pell ansatz ($B\cdot C=30$, contact 4, round 24) yields real curves at exactly $15/4$ but only
-> finitely many over $\mathbb Q$ on the known component; it can only enlarge $Z$.
+> The two-branch twisted Pell ansatz ($B\cdot C=30$, contact 4, round 24) yields real curves at exactly $15/4$ but
+> none over $\mathbb Q$ on the known component (round 31; other components open); it can only enlarge $Z$.
 
 **Round 27 additions to Question B** (`round27/README.md`; all **proved** or **exact** unless labelled).
 * *Split exceptional set.* Every admissible split exceptional set contains, besides $W$ and its image under the
@@ -529,7 +534,10 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      reach exponent $\frac12$ (`threshold/upper.md`, **proved**).
    * On $\overline M_{0,k}$ for any $k$: $\beta$ lies in the interior of the movable cone (`threshold/L8.md` Thm A,
      **proved** as a formal barrier).
-   * On the Gaussian model: the forms are exactly critical (Lemma K1 with `threshold/construct.md` Cor C3 and Thm B).
+   * On the Gaussian model: the forms that yield an inequality at the actual point are exactly critical (Lemma K1
+     with `threshold/construct.md` Cor C3 and Thm B). Grid determinants with free nonvanishing are all subcritical;
+     a supercritical design needs an irreducible factor of degree $\ge2$, whose nonvanishing is route 5's open zero
+     estimate (`round31/README_II.md` §1.3).
    * Roth- and Schmidt-type bounds (McKinnon–Roth) give $\alpha^{\rm ess}\ge\beta<\tau$ at a rational target: weaker
      than Liouville.
    * Multi-point (Thue/Siegel/Dyson) arguments on the 5-subtuples of one cluster are one-point toric Liouville on
@@ -581,7 +589,10 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
 4. **Single linear forms in logarithms** (Baker–Matveev, single-form Lang–Waldschmidt). Fakes satisfy them
    (`round8/lw.md` Thms A, B; `round8/stability.md` Prop 6.1; **proved**).
 5. **$S$-unit and Subspace arguments with thresholds depending on $S$ only through $|S|$.** These give at best
-   $M\le\omega(N')$ (lit18 Props A, B; **unrefereed**). Fixed-$S$ theorems such as `round18/theory.md` Thm 2.5 have
+   $M\le\omega(N')$ (lit18 Props A, B; **unrefereed**). Uniform unit-equation counts with fixed anchors are closed:
+   a rank-$r_0$ multiplicative coset contains the divisor splits of at most $8r_0+4$ third vertices of a fixed edge,
+   so the rank needed at a growth failure is $\gg M$; the obstruction holds in angle fakes
+   (`round31/ref3_rank.md`; **proved**). Fixed-$S$ theorems such as `round18/theory.md` Thm 2.5 have
    $S$-dependent constants, and $S$ is the unbounded set of primes of $N$.
 6. **abc on single relations.** abc through relations among products of chords (pair, triangle, Ptolemy or
    $n$-term) is vacuous on squarefree profiles (`round8/weakest.md` Prop 4.2), which contain every recorded fake
@@ -630,9 +641,12 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
    * *The one new tool: the saturated balance lemma* (`round30/search.md` Lemma 1.1 = `prove.md` Lemma 1.2;
      proved twice). Every nonzero integer vector $a$ in the real solution space of the moment equations has
      $\|a\|_1\ge L+1$ and $\min(a^+,a^-)\ge L/2$. It kills the round-29 function-field fakes, and an exhaustive
-     search with it gives $M(7,0)\le5$, $M(8,0)=8$, $M(9,0)\le5$ (**judge's computation, unrefereed**). It does not
-     bound the rank: 21 classes of 6-point rank-5 codes survive at $D=8$, and what excludes them, if anything, is
-     non-linear. Coordinator's remark (unrefereed): the weight half is the function-field form of the monomial-gap
+     search with it gives $M(7,0)\le5$, $M(8,0)=8$, $M(9,0)\le5$ (**judge's computation**; $M(7,0)$ and $M(9,0)$
+     remain unrefereed). It does not bound the rank by itself: 21 classes of 6-point rank-5 codes survive it at
+     $D=8$. *Round 31 (refereed, `round31/ref_ff.md`):* all 21 classes are excluded by non-linear certificates, so
+     at $D=8$ the rank is $\le4$ and $M(8,0)=8$ with a unique extremal (cube) code, for squarefree $N$ over
+     $\mathbb C(t)$; there are at most 12 constant-offset divisors up to sign, attained only by the cube
+     (`round31/ref2_min.md`), and the lattice minimum can exceed $D/2$. Coordinator's remark (unrefereed): the weight half is the function-field form of the monomial-gap
      inequality of §1, which the integer fakes already satisfy; the balance half uses the real place and has no
      integer counterpart.
    * *Bridge to $\mathbb Z$* (`round30/bridge.md`). A primitive $\mathbb Q(i)(t)$-cluster with $D$ even, $c=0$
@@ -643,6 +657,54 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
    * *Withdrawn in the round:* "vertical-line loci have rank $\le3$" (certified rank-4 counterexample at $D=10$);
      "balance does not separate real clusters from fakes" (true only for pairwise balance); the "real-algebraic
      obstruction" lead (it was linear algebra, Prop K1).
+
+12. **Round 31 (three exchanges with an outside colleague, "Astra"; 23 referee blocks and three judge reports:
+   `round31/README.md`, `README_II.md`, `README_III.md`).** No referee found a false theorem or a gap in a claimed
+   proof. **Nothing changes for the integer problem**: the growth rate, the uniform bound, Questions A and B and
+   route 5 keep their status (judges' scores on the goal: 2/10, 2/10, 1/10). What is now in the record, all
+   **proved** and refereed unless labelled:
+   * *Question B is the index-one case.* The valuation columns of a five-tuple span a lattice of index $I$.
+     If $I\ge5$ the tuple lifts to a degree-$I$ isogeny cover and McKinnon–Roth gives exponent $>10/3$; if $I\ge7$
+     it gives $A_5(1/31)$ off one proper closed set, for heights $H_S\le C^{-94/25}N^{47/50}$. This is irrelevant
+     to clusters: in a shortened genuine one-unit cluster all but $O(m^3)$ ordered five-tuples have index one
+     (absolute constant, via Baker–Wüstholz, confirmed through secondary sources only), and a subcluster of
+     $\ge m/145-O(1)$ points has every five-tuple of index one. Hence **$(L_5^\circ)$ restricted to index-one
+     tuples suffices for the uniform bound**. It is formally weaker and no easier: every hard model has index one.
+     Covers étale above the torus cannot lift index-one points, and the one cover that does (cubic) gains nothing.
+   * *First exponent bounds that genuine tuples satisfy and gap-admissible fakes fail, on a thin family* (judge's
+     reading of the fake side, unrefereed). On the ten-pair-cut profile, where the gap-only angle model attains
+     exactly $10/3$: tuples whose ten block norms lie on a fixed rational plane $U$ have exponent $\ge38/11$
+     ($40/11$ for comparable norms, $4$ on arithmetic progressions), with constants depending on $U$, ineffective
+     in one stratum (Faltings on a genus-five curve); six norms in $[X,X+cX^{1/6}]$ give exponent $4$. Neither
+     hypothesis is supplied by the growth problem, and $40/11<15/4$.
+   * *Integrality with all divisibilities is not enough at five marks.* There are arbitrarily large parents with
+     a primitive integer $2\times5$ star matrix, index one, all ten divisibilities with bounded cofactors, norms to
+     relative error $O(N^{-1/10})$, and width $\asymp N^{-3/10}$ (exponent $10/3$). Exact individual norms together
+     with the divisibilities force a genuine cluster. So the gap between an integral model and a circle is exactly
+     the norm condition. No integral model with full divisibility is known at growing $m$ (half the log
+     divisibility is the trivial CRT ceiling); **open**.
+   * *Rigidity.* Under pair separation and for $m\ge16390$, the parent and the labelled separation divisors
+     determine all rational star directions up to one element of $\mathrm{PGL}_2(\mathbb Q)$ (robust to deleting a
+     tenth of the constraints for $m\gtrsim4\cdot10^4$). Scalar and five-vertex reconstruction prove a round-8
+     converse. No count follows.
+   * *Random parents (almost-all; not a worst-case statement).* Let $N$ be the product of $r$ distinct split
+     primes drawn uniformly, in random order, from $[r^D,2r^D]$, and fix $C$. Outside a set of parents of relative
+     size $\exp(-c(D,C)\,r\log r)$, clusters of normalised norm $N$ have at most $M_D$ points on any arc of length
+     $C\sqrt R$: $M_D=1$ for $D>4$, $\le2$ for $8/3<D\le4$, $O(1)$ for $D>2$ (elementary pair first-moment count,
+     the referee's), and $M_D\le37$ at $D=3/2$, finite for every $D>1$ (quartet exposure). This averages over a
+     density-zero family. It says nothing about any individual $N$, about the narrow-bin parents on which fakes
+     are built (they lie inside the exceptional set), or about the growth rate.
+   * *Closed routes.* Unit-equation counting with fixed anchors (item 5); grid determinants with free
+     nonvanishing (item 3); fixed-cofactor elimination (the fixed-$t$ norm vectors form an irreducible fourfold of
+     degree 12 that dominates ratio space); quartet cross-ratio consistency (automatic); template density (ten-pair
+     template curves of fixed block degree sweep out dimension $\le2$ of the 4-dimensional ratio space); the
+     completely multiplicative sharp sieve (§1); the near-square-divisor count $D_B(N)$ (fakes match it).
+   * *Withdrawn or corrected in the round:* a sentence on "different local obstructions" for the round-24 family
+     (both forms are excluded at 2 and at 3); the coordinator's "weight $D/2$ is exactly the lattice minimum" (only
+     a lower bound) and "every determinant is critical" (see Lemma K1 as now worded); the headline "17 points" of
+     the random-parent theorem (superseded by 2 and 1); "asymptotically exact radii" (relative error
+     $O(N^{-1/10})$). Unreproduced: two eliminations for the strict linear-block system, whose decision is still
+     open and peripheral either way.
 
 ## 6. Pointers
 
@@ -668,6 +730,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
 | round 29: function-field model, Li–Liu template, residue-class twin, 18 screened ideas (no change) | `round29/README.md` (with `kill_*.md`) |
 | round 30: function-field model decided as far as internal work goes (rank open, line closed; no change) | `round30/README.md` (with `kill_*.md`) |
+| round 31: outside colleague, three refereed passes (index-one reduction, fixed-plane exponents, integral five-mark model, rigidity, random parents; no change) | `round31/README.md`, `round31/README_II.md`, `round31/README_III.md` (with `ref_*.md`, `ref2_*.md`, `ref3_*.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check

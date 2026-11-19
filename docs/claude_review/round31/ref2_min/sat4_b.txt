@@ -1,0 +1,1 @@
+class 51 nq 9 nmid 3 rep [0, 9, 14, 16, 28]

@@ -1,0 +1,18 @@
+P-Pbar for x= 1 : -2*I*X**2*(X - 1)*(X**2 + m**2)*(m**2 + 1)*(X*m**2 - X - 2*m**2)/(m*(X + m**2)**3)
+P-Pbar for x= 2 : 2*I*X*m*(X - 1)*(X**2 + m**2)*(m**2 + 1)*(-X**2 + 2*X + m**2)/(X + m**2)**3
+P-Pbar for x= 3 : -2*I*X*m*(X - 1)**2*(X + 1)*(X**2 + m**2)*(m**2 + 1)/(X + m**2)**3
+3x3 det: deg num 1 deg den 14  order at inf 13
+proj (1, 2, 3) param 1 : deg num 3 deg den 12 order 9
+proj (1, 2, 3) param 2 : deg num 3 deg den 12 order 9
+proj (1, 2) param 1 : deg num 3 deg den 12 order 9
+proj (1, 2) param 2 : deg num 3 deg den 12 order 9
+proj (1, 3) param 1 : deg num 3 deg den 12 order 9
+proj (1, 3) param 2 : deg num 3 deg den 12 order 9
+proj (2, 3) param 1 : deg num 3 deg den 12 order 9
+proj (2, 3) param 2 : deg num 3 deg den 12 order 9
+proj (1,) param 1 : deg num 3 deg den 12 order 9
+proj (1,) param 2 : deg num 3 deg den 12 order 9
+proj (2,) param 1 : deg num 3 deg den 12 order 9
+proj (2,) param 2 : deg num 3 deg den 12 order 9
+proj (3,) param 1 : deg num 3 deg den 12 order 9
+proj (3,) param 2 : deg num 3 deg den 12 order 9

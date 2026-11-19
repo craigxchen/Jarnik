@@ -1,0 +1,11 @@
+8-pt record C=5.674: m=8, reduced N=32988780417125={5: 3, 13: 2, 17: 2, 89: 1, 109: 1, 557: 1}, W=31.13, arc C=5.6739, angular width/(e^(-W/4)/2)=11.35
+   unit classes [(-1, 0), (0, -1), (0, 1)], min pair sep/(W/2)=0.830, #pairs with sep<=W/2: 12/28
+   affine rank of rows = 4 (m-1=7); 5-subset index distribution {0: 24, 1: 32}
+7-pt record C=5.27: m=7, reduced N=235370525={5: 2, 13: 2, 17: 1, 29: 1, 113: 1}, W=19.28, arc C=5.2699, angular width/(e^(-W/4)/2)=10.54
+   unit classes [(-1, 0), (0, -1), (0, 1), (1, 0)], min pair sep/(W/2)=0.727, #pairs with sep<=W/2: 8/21
+   affine rank of rows = 5 (m-1=6); 5-subset index distribution {0: 3, 1: 7, 3: 5, 4: 6}
+golden n=4: m=8, reduced N=537606725={5: 2, 17: 1, 61: 1, 89: 1, 233: 1}, W=20.10, arc C=5.8978, angular width/(e^(-W/4)/2)=11.80
+   unit classes [(-1, 0), (0, 1), (1, 0)], min pair sep/(W/2)=0.728, #pairs with sep<=W/2: 12/28
+   affine rank of rows = 4 (m-1=7); 5-subset index distribution {0: 24, 1: 32}
+3-pt C= 0.499631369682487
+4-pt C= 0.8809810418964151

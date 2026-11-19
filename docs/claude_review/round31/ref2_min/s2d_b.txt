@@ -1,0 +1,2 @@
+class 18 nq 10 nmid 3 rep [0, 5, 14, 16, 28]
+   residual common factor (curve component): 2592*(2*a - b - 1)

@@ -1,0 +1,93 @@
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+  if j!=i: J[i]-= np.prod([n[eid(i,k)] for k in range(5) if k not in (i,j)])*dn[eid(i,j)]
+  if j!=i: J[i]-= np.prod([n[eid(i,k)] for k in range(5) if k not in (i,j)])*dn[eid(i,j)]
+loop 1 sols 2 time 0
+loop 2 sols 2 time 1
+loop 3 sols 3 time 2
+  if j!=i: J[i]-= np.prod([n[eid(i,k)] for k in range(5) if k not in (i,j)])*dn[eid(i,j)]
+  if j!=i: J[i]-= np.prod([n[eid(i,k)] for k in range(5) if k not in (i,j)])*dn[eid(i,j)]
+loop 4 sols 3 time 3
+loop 5 sols 5 time 4
+loop 6 sols 7 time 5
+loop 7 sols 10 time 7
+  return np.array([(x[i]*y[j]-x[j]*y[i])/t[a] for a,(i,j) in enumerate(E)])
+  if i<4: dn[a,5+i]+= -x[j]/t[a]
+  J[i,i]+=2*x[i]
+  return np.concatenate([x**2+y**2-S, Lam@n-c])
+loop 8 sols 15 time 12
+loop 9 sols 20 time 15
+loop 10 sols 27 time 22
+  return np.array([(x[i]*y[j]-x[j]*y[i])/t[a] for a,(i,j) in enumerate(E)])
+  if j<4: dn[a,5+j]+= x[i]/t[a]
+loop 11 sols 30 time 31
+loop 12 sols 30 time 43
+loop 13 sols 33 time 50
+loop 14 sols 34 time 57
+loop 15 sols 34 time 69
+loop 16 sols 35 time 79
+loop 17 sols 35 time 88
+loop 18 sols 36 time 96
+loop 19 sols 36 time 104
+loop 20 sols 36 time 115
+loop 21 sols 36 time 126
+loop 22 sols 36 time 136
+loop 23 sols 38 time 145
+loop 24 sols 38 time 153
+loop 25 sols 38 time 160
+loop 26 sols 38 time 170
+loop 27 sols 38 time 177
+loop 28 sols 40 time 188
+loop 29 sols 42 time 199
+loop 30 sols 42 time 209
+loop 31 sols 46 time 220
+loop 32 sols 48 time 235
+loop 33 sols 48 time 243
+loop 34 sols 48 time 255
+loop 35 sols 50 time 265
+loop 36 sols 50 time 275
+loop 37 sols 50 time 287
+loop 38 sols 50 time 294
+loop 39 sols 50 time 305
+loop 40 sols 52 time 316
+loop 41 sols 52 time 326
+loop 42 sols 54 time 341
+loop 43 sols 56 time 353
+loop 44 sols 56 time 368
+loop 45 sols 58 time 386
+loop 46 sols 60 time 401
+loop 47 sols 60 time 418
+loop 48 sols 60 time 431
+loop 49 sols 60 time 441
+loop 50 sols 60 time 452
+loop 51 sols 62 time 461
+loop 52 sols 62 time 475
+loop 53 sols 62 time 488
+loop 54 sols 62 time 506
+loop 55 sols 62 time 516
+loop 56 sols 62 time 529
+loop 57 sols 66 time 543
+loop 58 sols 66 time 559
+loop 59 sols 66 time 572
+loop 60 sols 66 time 584
+loop 61 sols 71 time 594
+loop 62 sols 76 time 602
+loop 63 sols 79 time 613
+loop 64 sols 80 time 622
+loop 65 sols 80 time 630
+loop 66 sols 80 time 639
+loop 67 sols 82 time 651
+loop 68 sols 83 time 668
+loop 69 sols 85 time 681
+loop 70 sols 92 time 696
+loop 71 sols 94 time 708
+loop 72 sols 98 time 721
+loop 73 sols 100 time 735
+loop 74 sols 102 time 747
+loop 75 sols 102 time 768
+loop 76 sols 102 time 780
+loop 77 sols 104 time 795
+loop 78 sols 108 time 813
+loop 79 sols 110 time 829
+loop 80 sols 110 time 1095
+seed 1 t [ 5 -3  2 -5  2 -3  4 -3  1  1] loops 80 #star solutions 110 #distinct n 55

@@ -1,3 +1,9 @@
+> **Round 31 has three judge reports.** This file is the judge's report on the first pass (Part I). The second
+> and third passes are judged in `README_II.md` and `README_III.md`; referee reports are `ref_*.md` (Part I),
+> `ref2_*.md` (Part II) and `ref3_*.md` (Part III). The coordinator's messages are `astra_brief.txt`,
+> `astra_*/reply*.txt` and `astra_*_reply4.txt`; the colleague's cumulative reports are `astra_free_III/answer.md`
+> and `astra_lemma_III/answer.md` (Parts I-III; earlier snapshots in `astra_free*/`, `astra_lemma*/`).
+
 # Round 31 -- judge report: an outside audit (Astra) of the record
 
 Sources: `astra_free/answer.md` (open-ended audit, §§1-7) and `astra_lemma/answer.md` (attack on Question B, §§1-6),

@@ -1,0 +1,4 @@
+binary 4x4 det distribution: [(-3, 60), (-2, 1200), (-1, 10020), (0, 42976), (1, 10020), (2, 1200), (3, 60)]
+bordering |det5|=16|det4| failures: 0
+index distribution over all 2^15 squarefree column sets (0 = rank<4): [(0, 1306), (1, 31227), (2, 230), (3, 5)]
+Astra even-index example det: 2

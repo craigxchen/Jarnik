@@ -1,0 +1,41 @@
+class 18 nq 10 nmid 3 rep [0, 5, 14, 16, 28]
+  TIMEOUT
+class 19 nq 8 nmid 5 rep [0, 5, 14, 18, 37]
+  saturated by (0, 1) -> (a,b)-part [(640*a - 147*b**3 - 483*b**2 - 577*b - 713)/640, (b - 1)*(b + 3)*(7*b + 1)**2/49]
+  saturated by (0, 2) -> (a,b)-part [a - b - 2, (b - 1)*(b + 3)]
+  saturated by (0, 3) -> (a,b)-part [a - 3, b - 1]
+  unit after saturating by pair (1, 2)
+class 20 nq 9 nmid 4 rep [0, 5, 17, 29, 40]
+  saturated by (0, 1) -> (a,b)-part [1152*a + 5*b**4 - 298*b**2 - 1152*b - 2011, (b - 1)**2*(b + 1)**2*(b + 7)]
+  saturated by (0, 2) -> (a,b)-part [32*a - 3*b**2 - 42*b - 51, (b - 1)**2*(b + 7)]
+  saturated by (0, 3) -> (a,b)-part [2*a - 3*b - 3, (b - 1)**2]
+  unit after saturating by pair (1, 2)
+class 21 nq 8 nmid 5 rep [0, 9, 12, 16, 34]
+  saturated by (0, 1) -> (a,b)-part [125*a - 9*b**3 - 36*b**2 - 98*b - 88, (b + 3)**2*(3*b - 1)**2]
+  saturated by (0, 2) -> (a,b)-part [a - b - 2, (b + 3)**2]
+  unit after saturating by pair (0, 3)
+class 22 nq 8 nmid 5 rep [0, 9, 12, 16, 35]
+  TIMEOUT
+class 23 nq 9 nmid 4 rep [0, 9, 13, 16, 35]
+  saturated by (0, 1) -> (a,b)-part [6*a - 3*b - 5, (3*b - 1)**2]
+  unit after saturating by pair (0, 2)
+class 24 nq 7 nmid 6 rep [0, 10, 14, 18, 37]
+  saturated by (0, 1) -> (a,b)-part [(96*a - b**3 - 14*b**2 - 65*b - 208)/96, (b - 1)**2*(b + 7)**2]
+  saturated by (0, 2) -> (a,b)-part [a - b - 2, (b - 1)**2]
+  unit after saturating by pair (1, 2)
+class 25 nq 8 nmid 5 rep [1, 6, 13, 21, 39]
+  saturated by (0, 1) -> (a,b)-part [56*a - 27*b**2 - 66*b - 75, (b - 1)*(3*b + 1)**2]
+  saturated by (0, 2) -> (a,b)-part [a - 3, b - 1]
+  unit after saturating by pair (1, 2)
+class 26 nq 8 nmid 5 rep [1, 9, 26, 30, 32]
+  TIMEOUT
+class 27 nq 8 nmid 5 rep [1, 10, 17, 33, 35]
+  saturated by (0, 1) -> (a,b)-part [a - 1, 3*b - 1]
+  unit after saturating by pair (0, 2)
+class 28 nq 8 nmid 5 rep [1, 10, 21, 36, 44]
+  saturated by (0, 1) -> (a,b)-part [(2*a - b - 1)*(2*a + b - 7)/4, (b - 1)*(2*a - b - 1)/2]
+  saturated by (0, 4) -> (a,b)-part [a - 3, b - 1]
+  unit after saturating by pair (1, 2)
+class 29 nq 8 nmid 5 rep [1, 10, 21, 37, 44]
+  saturated by (0, 1) -> (a,b)-part [2*a - 3*b - 3, (b - 1)**2]
+  unit after saturating by pair (1, 2)

@@ -1,0 +1,39 @@
+class 51 nq 9 nmid 3 H [(1, 0, 0), (0, 1, 0), (0, 0, 1), (-1, 1, 1), (-1, 0, 2), (-2, 1, 2), (-4, 2, 3), (-5, 3, 3)]
+ R (0, 1, 2) dR= -216*b*(a - b - 1)**2*(7*a - 3*b - 6)
+   resultant identically zero?
+ R (0, 1, 3) dR= -216*b*(2*a - 3)*(a - b - 1)**2*(2*a - b - 2)
+   resultant identically zero?
+ R (0, 1, 4) dR= -216*b*(a - 2)*(a - b - 1)*(2*a - b - 2)*(7*a - 3*b - 6)
+   resultant identically zero?
+ R (0, 2, 3) dR= -432*a*(a - b - 1)**2*(4*a - 2*b - 3)*(5*a - 3*b - 3)
+   resultant identically zero?
+ R (0, 2, 4) dR= -216*(a - b)*(a - b - 1)*(4*a - 2*b - 3)*(5*a - 3*b - 3)*(7*a - 3*b - 6)
+   resultant identically zero?
+ R (0, 3, 4) dR= 216*(a - b - 1)*(2*a - b - 2)*(4*a - 2*b - 3)*(5*a - 3*b - 3)*(2*a*b - a - 3*b)
+   finite part: b-candidates (real): 18
+    real common zero a=-1.41421356237 b=-4.82842712475 minY=-4.8284271 X=[None, None, None]
+    real common zero a=-1.57953297536 b=-3.63255495894 minY=-3.632555 X=[None, None, None]
+    real common zero a=-1.0 b=-3.0 minY=-3.0 X=[-12.000000, -24.000000, -48.000000]
+    real common zero a=-0.380507157792 b=-2.26101431558 minY=-2.2610143 X=[None, None, None]
+    real common zero a=0.656647094473 b=-0.389307424074 minY=-1.4511577 X=[None, None, None]
+    b0 0 cq0 independent of a; manual
+    real common zero a=1.0 b=0.333333333333 minY=-1.0 X=[4.1333269e-59, 3.4469227e-59, -0.016460905]
+    real common zero a=6.43093733848 b=0.652100898575 minY=-27.198384 X=[None, None, None]
+    real common zero a=1.11888653032 b=0.737773060637 minY=-0.38111347 X=[None, None, None]
+    real common zero a=1.41421356237 b=0.828427124746 minY=-1.5857864 X=[None, None, None]
+    real common zero a=1.1079029263 b=0.846504877173 minY=1.423e-57 X=[None, None, None]
+    real common zero a=1.0 b=1.0 minY=1.0 X=[0, 0, 0]
+    real common zero a=1.0 b=1.0 minY=1.0 X=[0, 0, 0]
+    real common zero a=1.0 b=1.0 minY=1.0 X=[0, 0, 0]
+    real common zero a=3.0 b=1.0 minY=-9.0 X=[None, None, None]
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref2_min/resolve.py", line 67, in <module>
+    for n in map(int,sys.argv[1].split(',')): analyse(n); sys.stdout.flush()
+                                              ~~~~~~~^^^
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref2_min/resolve.py", line 57, in analyse
+    for an in mp.polyroots([mp.mpf(str(c)) if c.is_real else mp.mpc(str(sp.re(c)),str(sp.im(c))) for c in pa.all_coeffs()],maxsteps=400,extraprec=400):
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/mpmath/calculus/polynomials.py", line 196, in polyroots
+    raise ctx.NoConvergence("Didn't converge in maxsteps=%d steps." \
+            % maxsteps)
+mpmath.libmp.libhyper.NoConvergence: Didn't converge in maxsteps=400 steps.

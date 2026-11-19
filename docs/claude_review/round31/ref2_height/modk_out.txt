@@ -1,0 +1,25 @@
+Smith invariants: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3] rank 15
+J exponents mapped: [-3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, 0]
+2 1 expected 1
+3 3 expected 3
+4 1 expected 1
+5 1 expected 1
+6 3 expected 3
+7 1 expected 1
+8 1 expected 1
+9 3 expected 3
+10 1 expected 1
+11 1 expected 1
+12 3 expected 3
+13 1 expected 1
+14 1 expected 1
+15 3 expected 3
+16 1 expected 1
+17 1 expected 1
+18 3 expected 3
+19 1 expected 1
+20 1 expected 1
+21 3 expected 3
+22 1 expected 1
+23 1 expected 1
+24 3 expected 3

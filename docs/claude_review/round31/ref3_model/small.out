@@ -1,0 +1,40 @@
+kernel dim 1
+my primitive kernel vector: [3566328745136157, -212247537740, -232553177, -68417652775626, -13737560909, 189877]
+Astra's (f,h) proportional to mine: True ratio 1
+resultant(f,h) = 26592776159133826813070583746628287171788800 factored {2: 17, 3: 4, 5: 2, 7: 2, 11: 2, 19: 2, 23: 4, 47: 1, 73: 1, 139: 1, 167: 1, 191: 1, 223: 1, 227: 1, 229: 1, 257: 1, 3691: 1}
+
+MODE small  K = 84259905319712200  (digits 17)
+all ten blocks fully factored; all primes = 1 mod 4; each block has a prime to exponent one
+squarefree blocks: 10 /10
+Smith form of anchored 4x10 valuation matrix (distinguished primes only): [1, 1, 1, 1]
+lattice content of (f(K^2),h(K^2)): 1   plain gcd: 1
+log_K |v| = 4.4943, log_K |v_2| = 4.3119, log_K |w| = 5.5057
+ j=j0-1: norms equal to n_i? [False, False, False, False, False] ; second entry of row1 / K^7 = 1.000000
+ j=j0+0: norms equal to n_i? [False, False, False, False, False] ; second entry of row1 / K^7 = 1.000000
+ j=j0+1: norms equal to n_i? [False, False, False, False, False] ; second entry of row1 / K^7 = 1.000000
+ j=j0+2: norms equal to n_i? [False, False, False, False, False] ; second entry of row1 / K^7 = 1.000000
+
+Using j = j0-1
+columns primitive: True
+all ten g_ij | det(V_i,V_j); cofactors: {(0, 1): -40, (0, 2): -112, (0, 3): -352, (0, 4): -520, (1, 2): -72, (1, 3): -312, (1, 4): -480, (2, 3): -240, (2, 4): -408, (3, 4): -168}
+cofactor == +-(u_j-u_i) for all pairs: True
+ i=0 |V|^2/n_i - 1 = -3.288e-29   K^2*(|V|^2/n_i-1) = -233437.3747   |V|^4/N - 1 = -4.715e-29  n_i | |V|^2 ? False
+ i=1 |V|^2/n_i - 1 = -2.543e-29   K^2*(|V|^2/n_i-1) = -180536.8181   |V|^4/N - 1 = -2.152e-29  n_i | |V|^2 ? False
+ i=2 |V|^2/n_i - 1 = -1.315e-29   K^2*(|V|^2/n_i-1) = -93379.8161   |V|^4/N - 1 = -3.093e-30  n_i | |V|^2 ? False
+ i=3 |V|^2/n_i - 1 = 1.722e-29   K^2*(|V|^2/n_i-1) = 122263.5240   |V|^4/N - 1 = -6.912e-30  n_i | |V|^2 ? False
+ i=4 |V|^2/n_i - 1 = 2.883e-29   K^2*(|V|^2/n_i-1) = 204669.8620   |V|^4/N - 1 = 4.670e-29  n_i | |V|^2 ? False
+diam of doubled args = 2.9060798e-99
+diam * N^(3/10) = 1040.0 ;  diam * N^(1/4) = 1.2342763e-14  (shortened convention needs <= 1/2)
+min pair doubled-angle sep * N^(3/10) = 80.0
+V_0 = (-4247220748370812758531233577150888031187878217553167462733011520903134471258819604621, -1348075745460232332861588816895004977493)
+isotropic reductions at distinguished primes: 0 of 25 marked (column,prime) incidences
+projective invariance: cross-ratios of V equal those of U: True
+
+(L_5) chart: x_j (j=1..4) integers; content 9
+  t_12 = 208494
+  t_13 = 287469
+  t_14 = 299376
+  t_23 = 78975
+  t_24 = 90882
+  t_34 = 11907
+  (with P_0=(1,0), P_j=(x_j,1): Y_j = 1; cofactors above; chain condition trivial: blocks pairwise coprime)

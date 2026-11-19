@@ -1,0 +1,14 @@
+I appended [Part II to answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/free/answer.md:383) and verified that Part I is byte-for-byte unchanged.
+
+1. **PROVED.** The degree-eight maximum is **12 weight-four vectors up to sign**, attained exactly by configurations supporting the eight-point cube code.
+2. **COMPUTED.** Of the cube’s 28 edges, four have weight eight. Each of the twelve minimum directions occurs twice.
+3. **COMPUTED.** A rational configuration has nine primitive directions. Its largest common-moment cluster has five points, but only three can have every edge of minimum weight.
+4. **PROVED.** Seven of those directions give distinct primitive near-square divisors simultaneously on infinitely many integer parents. No four-clique uses only those seven ratios.
+5. **PROVED.** Fakes also have quadratically many distinct divisor labels with near-Liouville angles. The literal integer offset equation remains essential.
+6. **PROVED.** A cyclic six-mark grid determinant is automatically nonzero and has no pair factors. Its forced criticality constant on three-three cuts is **zero**.
+7. **PROVED.** On independent fair cuts, every total-degree grid minor has mean forced constant at most \(1/2\), even after symbolic cancellations.
+8. **PROVED.** Only \(O_b(m^3)\) five-tuples have index greater than one on a normalized growth-scale profile. Every proper restriction of the Paley double core has index one.
+9. **PROVED using Baker–Wüstholz.** Every genuine shortened one-unit cluster contains at least \(m/145-O(1)\) points for which **every five-tuple has index one**, without a growth assumption.
+10. **PROVED.** The index-one case of \((L_5^\circ)\) alone suffices for the uniform arc bound. Its index-one counting analogue suffices for a growth saving.
+11. **PROVED.** Completing a compatible divisor triangle reduces exactly to testing small binary quadratic-form values against the complementary parent. Vieta descent can lose that divisibility.
+12. **HEURISTIC.** I’d like an independent check of the index-selection proof, then a test of equation (II.1) on growing parents. I have neither an asymptotic counterexample to the divisor count nor an improved arc bound.

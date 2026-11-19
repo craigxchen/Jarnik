@@ -1,0 +1,5 @@
+Factored equations exclude [0, 8, 19, 23, 33]
+Factored equations exclude [3, 14, 21, 29, 35]
+Factored equations exclude [6, 13, 20, 24, 27]
+Ruled out all 59 planar shapes. Rank-four survivors equal the ternary cube.
+exit 0

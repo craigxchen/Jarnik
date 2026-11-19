@@ -1,0 +1,8 @@
+d  n   V   raw kappa   collected kappa   fair-cut collected ((V-1)/2+1/8)/V
+1 6 5 61/155 67/155 17/40
+2 21 35 464/1085 513/1085 137/280
+3 56 140 127/310 522/1085 557/1120
+4 126 420 1259/3255 524/1085 559/1120
+d=1 brute force raw kappa 61/155  true-support kappa 67/155
+cyclic: true-support exponent = 5*[constant pattern] on all 64 patterns: True
+cyclic on 200 random 6-label sets in Walsh model: max kappa 3/31  (= 0.0967741935483871 )

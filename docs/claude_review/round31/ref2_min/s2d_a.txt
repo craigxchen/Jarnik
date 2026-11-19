@@ -1,0 +1,25 @@
+class 2 nq 14 nmid 5 rep [0, 5, 12, 14, 16]
+  R (0, 1, 2) unit
+  R (0, 1, 3) unit
+  R (0, 1, 4) unit
+  R (0, 2, 3) unit
+  R (0, 2, 4) unit
+  R (0, 3, 4) unit
+  R (1, 2, 3) unit
+  R (1, 2, 4) unit
+  R (1, 3, 4) unit
+  rank<=2 locus empty (Y!=0)
+  ALL UNIT
+class 3 nq 12 nmid 6 rep [2, 7, 14, 23, 27]
+  R (0, 1, 3) NOT unit: [4*b + 19683*z - 8, a - b - 2, 2*b**2 + 1]
+  R (0, 1, 4) NOT unit: [2187*z + 2, a - b - 2, 2*b**2 + 1]
+  R (0, 2, 3) NOT unit: [-4*b + 19683*z - 1, a - b - 2, 2*b**2 + 1]
+  R (0, 2, 4) NOT unit: [b + 2187*z, a - b - 2, 2*b**2 + 1]
+  R (0, 3, 4) NOT unit: [4*b + 15309*z, a - b - 2, 2*b**2 + 1]
+  R (1, 2, 3) NOT unit: [-28*b + 177147*z - 16, a - b - 2, 2*b**2 + 1]
+  R (1, 2, 4) NOT unit: [8*b + 19683*z + 2, a - b - 2, 2*b**2 + 1]
+  R (1, 3, 4) NOT unit: [4*b + 19683*z + 1, a - b - 2, 2*b**2 + 1]
+  R (2, 3, 4) NOT unit: [4*b + 19683*z - 8, a - b - 2, 2*b**2 + 1]
+  rank<=2 locus empty (Y!=0)
+  needs manual look
+class 51 nq 9 nmid 3 rep [0, 9, 14, 16, 28]

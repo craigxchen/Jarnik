@@ -1,0 +1,21 @@
+p=31 K=5 istars=8269942 classes=1721424 pairs=431520
+p=31 K=5 istars=8269154 classes=1721376 pairs=431520
+p=31 K=5 istars=8270434 classes=1721534 pairs=431520
+p=31 K=5 istars=8272527 classes=1720969 pairs=431520
+p=31 K=5 istars=8271435 classes=1721278 pairs=431520
+p=31 K=5 istars=8270451 classes=1721187 pairs=431520
+p=31 K=5 istars=8271414 classes=1721299 pairs=431520
+p=31 K=5 istars=8272650 classes=1721146 pairs=431520
+p=31 K=5 istars=8270138 classes=1721358 pairs=431520
+p=31 K=5 istars=8270961 classes=1721145 pairs=431520
+p=31 K=5 istars=8272671 classes=1721487 pairs=431520
+p=31 K=5 istars=8272144 classes=1721027 pairs=431520
+p=31 K=5 istars=8271046 classes=1721285 pairs=431520
+p=31 K=5 istars=8269391 classes=1721100 pairs=431520
+p=31 K=5 istars=8272040 classes=1721207 pairs=431520
+p=31 K=5 istars=8270114 classes=1721270 pairs=431520
+p=31 K=5 ordered(star0,star1) pairs=603542160 solutions_containing_i(unlabelled)=0 (raw 0 /2)
+
+real	19m20.177s
+user	19m6.565s
+sys	0m0.371s

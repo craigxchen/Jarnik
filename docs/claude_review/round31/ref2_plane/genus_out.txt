@@ -1,0 +1,5 @@
+all 3x3 minors nonzero: True
+Jacobian criterion: y_i^12 in ideal for all i -> True
+p=11  #C(F_p)=0  p+1=12  |dev|=12  10*sqrt(p)=33.2
+p=19  #C(F_p)=16  p+1=20  |dev|=4  10*sqrt(p)=43.6
+Riemann-Hurwitz: degree 16 cover of P^1, 5 branch points each with 8 ramification points of index 2: 2g-2 = 8 => g = 5

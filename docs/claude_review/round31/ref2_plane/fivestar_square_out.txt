@@ -1,0 +1,6 @@
+pin (np.int64(1), np.int64(9)) cumulative converged 3042 best gap so far 7.671e-15
+pin (np.int64(4), np.int64(6)) cumulative converged 6605 best gap so far 7.671e-15
+pin (np.int64(0), np.int64(8)) cumulative converged 9656 best gap so far 7.671e-15
+pin (np.int64(5), np.int64(0)) cumulative converged 13244 best gap so far 7.671e-15
+REAL square system: total converged 13244 max normalised min-gap 7.671e-15
+best solution [-1.   1.  -1.1  1.1 -1.1  1.1  1.   1.1 -1.  -1.1] (np.int64(1), np.int64(9), np.float64(-1.0999999999999999))

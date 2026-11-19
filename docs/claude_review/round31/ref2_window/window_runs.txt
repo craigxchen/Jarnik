@@ -1,0 +1,14 @@
+deg_Y(F-Q^2) = 2
+ coeff Y^0 total degree in k: 6
+ coeff Y^1 total degree in k: 5
+ coeff Y^2 total degree in k: 4
+ 16Q in Z[k][Y]: True
+X in [1000,3000) K=1.0 X^0.167 : min |t|/sqrt X = inf at None
+X in [100000,100300) K=1.0 X^0.167 : min |t|/sqrt X = inf at None
+X in [1000000,1000040) K=1.0 X^0.167 : min |t|/sqrt X = 2e+06 at (1000000, (0, 0, 0, 1, 1, 4), 2000000000)
+X in [1000,1300) K=1.0 X^0.250 : min |t|/sqrt X = 356.9 at (1009, (0, 0, 0, 2, 4, 5), 11337)
+X in [10000,10060) K=1.0 X^0.250 : min |t|/sqrt X = 2e+04 at (10000, (0, 0, 0, 1, 1, 4), 2000000)
+X in [1000,1100) K=1.0 X^0.333 : min |t|/sqrt X = 136.3 at (1038, (0, 0, 2, 4, 9, 9), 4392)
+X in [200,500) K=1.0 X^0.500 : min |t|/sqrt X = 5.97 at (275, (0, 2, 2, 2, 6, 11), 99)
+
+[exited with code 0]

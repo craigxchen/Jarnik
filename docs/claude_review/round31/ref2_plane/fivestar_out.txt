@@ -1,0 +1,6 @@
+dlogH numerator: 3*b - 2*x**2 - x
+determinant: -b**2*(9*b + 16)*(24*b + 1)/16
+b=-16/9 critical pts: [-1/4 - 5*sqrt(15)*I/12, -1/4 + 5*sqrt(15)*I/12]  H values equal: True
+disc 1+24b at -16/9: -125/3
+numerator of H' at b=-16/9 factors: -243*x**2*(6*x**2 + 3*x + 16)
+real search: converged real solutions: 0

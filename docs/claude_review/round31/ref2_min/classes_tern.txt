@@ -1,0 +1,7 @@
+8745 records 6 classes
+rank 4 nq 12 nmid 0 records 207 ordered-consistent records 2 rep [0, 9, 14, 20, 23, 27, 42, 46, 49, 55, 60, 69]
+rank 5 nq 14 nmid 5 records 2324 ordered-consistent records 8 rep [0, 5, 12, 14, 16, 20, 27, 39, 46, 58, 60, 62, 65, 67]
+rank 5 nq 12 nmid 6 records 772 ordered-consistent records 4 rep [2, 7, 14, 23, 27, 39, 42, 46, 53, 55, 58, 64]
+rank 5 nq 12 nmid 5 records 2614 ordered-consistent records 18 rep [0, 5, 12, 14, 18, 37, 41, 58, 60, 62, 65, 67]
+rank 5 nq 11 nmid 6 records 974 ordered-consistent records 8 rep [1, 10, 17, 24, 29, 35, 39, 46, 53, 58, 64]
+rank 5 nq 11 nmid 4 records 1854 ordered-consistent records 20 rep [0, 5, 12, 17, 30, 32, 36, 40, 53, 58, 65]

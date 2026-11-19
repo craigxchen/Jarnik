@@ -1,0 +1,8 @@
+pfaffian ratios constant: True
+deg resultant in u: 12  squarefree: True
+common root at infinity: False
+points: 12  max rel residual of all 30 triangle identities: 1.2860245198098928e-37  min |n_e|: 0.010696456505448955
+pfaffian ratios constant: True
+deg resultant in u: 12  squarefree: True
+common root at infinity: False
+points: 12  max rel residual of all 30 triangle identities: 1.611928422255759e-34  min |n_e|: 0.000506782804224285

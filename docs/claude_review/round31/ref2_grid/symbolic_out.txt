@@ -1,0 +1,20 @@
+(1) det - prod == 0: False ; det + prod == 0: True
+(5) coefficients of z_j^5: [1, -1, 1, -1, 1, -1]
+    number of monomials in det: 198
+(2) LHS-RHS reduced mod h^6-1: 0
+(3) d=1 block det - claim = 0  (+claim: False )
+(3) d=2 block det - claim = 0  (+claim: False )
+(3) d=3 block det - claim = 0  (+claim: False )
+(3) d=4 block det - claim = 0  (+claim: False )
+(3) d=5 block det - claim = 0  (+claim: False )
+(4) d=1 symbolic factorization: (s2_0 - s2_1)*(s3_0 - s3_1)*(s4_0 - s4_1)*(u - v)*(-s0_0 - s1_0 + u + v)
+    equals +-predicted: True  V= 5 pair+1 factors= 5
+(4) d=1 trial 0: n=6 V=5  det/pred = -1  linear factors=5
+(4) d=1 trial 1: n=6 V=5  det/pred = -1  linear factors=5
+(4) d=1 trial 2: n=6 V=5  det/pred = -1  linear factors=5
+(4) d=2 trial 0: n=21 V=35  det/pred = -1  linear factors=35
+(4) d=2 trial 1: n=21 V=35  det/pred = -1  linear factors=35
+(4) d=2 trial 2: n=21 V=35  det/pred = -1  linear factors=35
+(4) d=3 trial 0: n=56 V=140  det/pred = -1  linear factors=140
+(4) d=3 trial 1: n=56 V=140  det/pred = -1  linear factors=140
+(4) d=3 trial 2: n=56 V=140  det/pred = -1  linear factors=140

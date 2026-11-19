@@ -1,0 +1,1 @@
+random ordered sextuples with width<pi/3: min |factor| / width > 0 : True 1.367109696196641

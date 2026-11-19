@@ -1,0 +1,5 @@
+random dense: tested 286 max avg/deg = 1/2
+sums of products of affine forms: max avg/deg = 1/2
+hill climbing m=3, deg<=4: best avg/deg = 7/32
+cyclic det (V=5): E(m_S+m_Sc) = 5/32  avg mult = 15/16
+d=1 modified design (V=5): E(m_S+m_Sc) = 17/8  avg mult = 19/8
