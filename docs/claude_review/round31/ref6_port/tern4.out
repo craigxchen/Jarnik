@@ -1,0 +1,40 @@
+max common formal degree g = 92 flips (1, 1, 1, 1) h = 27
+orbits: 249 Counter({3: 240, 1: 9})
+t-valuations after formal division: [26, 26, 26, 26]
+degrees: [6981, 6981, 6981, 6981] monic: [(1, 0), (1, 0), (1, 0), (1, 0)]
+formal G degree in t: g*L = 1012 + extra t^26 -> total gcd 1038
+common norm degree: 13962 in F_3[t]: yes
+gcd of reduced points: degree 0
+D = 6981  D/2 = 3490.5
+ pair (0, 1) deg diff 3471 deg gcd 2990 deg reduced chord 481
+ pair (0, 2) deg diff 3457 deg gcd 2990 deg reduced chord 467
+ pair (0, 3) deg diff 3457 deg gcd 2990 deg reduced chord 467
+ pair (1, 2) deg diff 3471 deg gcd 2977 deg reduced chord 494
+ pair (1, 3) deg diff 3471 deg gcd 3003 deg reduced chord 468
+ pair (2, 3) deg diff 3457 deg gcd 3003 deg reduced chord 454
+cut identity: 8*sum deg diff = 166272  M(M-2)W + sum_p deg p sum_tau(2S-M)^2 + 8 sum deg c = 166272
+pair gcd degrees by formula: {(0, 1): 2990, (0, 2): 2990, (0, 3): 2990, (1, 2): 2977, (1, 3): 3003, (2, 3): 3003} (halved: each pair of blocks counted twice)
+profile row types (a_j, e_p) with total pi-degree:
+   ((0, 0, 0, 2), 2) 429
+   ((0, 0, 2, 0), 2) 429
+   ((0, 0, 2, 1), 2) 143
+   ((0, 0, 2, 2), 2) 429
+   ((0, 1, 0, 0), 1) 143
+   ((0, 2, 0, 0), 2) 429
+   ((0, 2, 0, 2), 2) 429
+   ((0, 2, 1, 2), 2) 143
+   ((0, 2, 2, 0), 2) 429
+   ((0, 2, 2, 2), 2) 429
+   ((1, 0, 0, 2), 2) 130
+   ((1, 0, 1, 1), 1) 143
+   ((1, 2, 2, 0), 2) 130
+   ((2, 0, 0, 0), 2) 429
+   ((2, 0, 0, 2), 2) 429
+   ((2, 0, 1, 0), 2) 143
+   ((2, 0, 2, 0), 2) 429
+   ((2, 0, 2, 2), 2) 429
+   ((2, 2, 0, 0), 2) 429
+   ((2, 2, 0, 1), 2) 143
+   ((2, 2, 0, 2), 2) 429
+   ((2, 2, 2, 0), 2) 429
+time 1.1s

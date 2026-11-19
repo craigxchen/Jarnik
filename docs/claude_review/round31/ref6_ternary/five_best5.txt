@@ -1,0 +1,4 @@
+best5 L=59 D=(n-g)L=1079936 parent=2159872  max reduced diff=539747  D/2=539968.0  cluster(with formal gcd only): True  [6s]
+   reduced diff degrees [539747, 539747, 539747, 539747, 539396, 539396, 539396, 539396, 539396, 539382]
+best5 L=58 D=(n-g)L=1061632 parent=2123264  max reduced diff=530920  D/2=530816.0  cluster(with formal gcd only): False  [6s]
+   reduced diff degrees [530920, 530920, 530920, 530920, 530569, 530569, 530569, 530569, 530569, 530555]

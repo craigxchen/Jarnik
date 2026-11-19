@@ -1,0 +1,8 @@
+{"inst": 114688, "crit": 54640, "I1_fail": 0, "I2_fail": 0, "ident_fail": 0, "inert_fail": 0, "margin_fail": 0, "I1_tight": 0.6666666666666666, "margin_ratio": 0.8333333333333334}
+min critical D' for (basis,B) ((1, 2, 4), 1) -> 4 T= 0b0 gcd deg 1
+min critical D' for (basis,B) ((1, 2, 4), 2) -> 10 T= 0b10000 gcd deg 6
+min critical D' for (basis,B) ((1, 2, 4), 3) -> 10 T= 0b10000 gcd deg 6
+min critical D' for (basis,B) ((1, 2, 4), 4) -> 12 T= 0b100000 gcd deg 8
+min critical D' for (basis,B) ((1, 2, 4), 5) -> 12 T= 0b100000 gcd deg 8
+min critical D' for (basis,B) ((1, 2, 4), 6) -> 8 T= 0b10000 gcd deg 8
+min critical D' for (basis,B) ((1, 2, 4), 7) -> 16 T= 0b1000000 gcd deg 8

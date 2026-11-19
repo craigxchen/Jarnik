@@ -1,0 +1,8 @@
+form (1, 0) deg_t coeff X^q: 702  deg_t coeff X: 702
+form (0, 1) deg_t coeff X^q: 702  deg_t coeff X: 702
+form (1, 1) deg_t coeff X^q: 702  deg_t coeff X: 702
+form (1, 2) deg_t coeff X^q: 702  deg_t coeff X: 702
+char 3: the four decompositions give the same P_V: True
+P_V vanishes on 30 random elements of V: True
+char 0, s=3, g real: norm = a**2*(a**6 + g**2)**2
+norm(g0*zeta) - norm(g0) = I*a**2*g0*(-a**3*zeta + a**3*conjugate(zeta) - I*g0*zeta*conjugate(zeta) + I*g0)*(2*a**6 - I*a**3*g0*zeta + I*a**3*g0*conjugate(zeta) + g0**2*zeta*conjugate(zeta) + g0**2)

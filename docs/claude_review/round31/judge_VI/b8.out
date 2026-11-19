@@ -1,0 +1,3 @@
+best 8-point c=0 cluster: D=68 sides=(0, 1, 0, 1, 1, 0, 1, 0) gcd deg=20 maxdiff=34
+reduced: distinct True monic True norms equal True norm in F_2[t] True deg N 136
+pair diffs [29, 29, 30, 32, 32, 32, 32, 32, 33, 33, 33, 33, 33, 33, 33, 33, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34]

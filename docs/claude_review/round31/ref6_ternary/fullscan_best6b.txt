@@ -1,0 +1,1 @@
+best6 L=191 formal gL=159103 extra=18266 full gcd=177369  D=3582084 parent=7164168  max diff=1790931  floor(D/2)=1791042  cluster=True [25s]

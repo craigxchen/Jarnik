@@ -1,0 +1,9 @@
+m=4 d=3 L=4 D=12 W=24 K=6: #split base primes=5 (degrees [2, 4, 4, 4, 6]...), #inert=0, max deg(z_i-z_j)=6
+   distinct nonzero anchored patterns n=2, binary rank=2, min weighted weight=8, K+1=7, W/4=6.0; min over words of [deg H - deg H' - (K+1)] = 1
+   total pattern weight=16 (<= W=24);  rank/n=1.000
+m=8 d=4 L=16 D=112 W=224 K=56: #split base primes=16 (degrees [2, 4, 4, 4, 8, 8]...), #inert=0, max deg(z_i-z_j)=56
+   distinct nonzero anchored patterns n=6, binary rank=3, min weighted weight=92, K+1=57, W/4=56.0; min over words of [deg H - deg H' - (K+1)] = 1
+   total pattern weight=186 (<= W=224);  rank/n=0.500
+m=16 d=5 L=48 D=720 W=1440 K=360: #split base primes=52 (degrees [2, 4, 4, 4, 6, 6]...), #inert=0, max deg(z_i-z_j)=360
+   distinct nonzero anchored patterns n=13, binary rank=4, min weighted weight=556, K+1=361, W/4=360.0; min over words of [deg H - deg H' - (K+1)] = 1
+   total pattern weight=1134 (<= W=1440);  rank/n=0.308

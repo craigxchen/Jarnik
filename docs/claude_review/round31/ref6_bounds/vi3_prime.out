@@ -1,0 +1,2 @@
+primes checked 29557, with nonzero required range 28464, failures 0, tight (range == need) 488, instances with >1 fixed pair 0
+depth amplification failures: 0

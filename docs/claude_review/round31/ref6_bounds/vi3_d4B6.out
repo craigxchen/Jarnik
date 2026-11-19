@@ -1,0 +1,2 @@
+{"inst": 229376, "crit": 5120, "I1_fail": 0, "I2_fail": 0, "ident_fail": 0, "inert_fail": 0, "margin_fail": 0, "I1_tight": 0.5185185185185185, "margin_ratio": 0.7619047619047619}
+min critical D' for (basis,B) ((1, 2, 4, 8), 6) -> 68 T= 0b100000000000 gcd deg 20

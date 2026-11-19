@@ -192,7 +192,8 @@ give the uniform theorem; that needs the chain cases, that is, $(L_8)$ itself.
 
 *Calibration (round 31, Part V).* The analogue of $(L_8)$ over $\mathbb F_2(t)$ with an anisotropic norm fails
 asymptotically (plausible, not a theorem: the dictionary of `growth/ptolemy.md` Thm B was not re-derived in
-characteristic 2), so a proof of $(L_8)$ cannot be characteristic-free.
+characteristic 2), so a proof of $(L_8)$ cannot be characteristic-free. The same holds over
+$\mathbb F_9(t)/\mathbb F_3(t)$ with the form $A^2+B^2$ (round 31, Part VI; same caveat).
 
 > **Question A.** Prove $(L_8)$, or at least its lattice form $(L_8^{pc})$, which every proof must cover. A proof of
 > $(L_8)$ would be an unconditional case of $D=0$ Vojta on the rational 5-fold $\overline M_{0,8}$, for a structured
@@ -256,6 +257,14 @@ to the "subcritical" exponent $\frac12-\frac1{2^k-2}$ in the reduced radius (`ga
   * Take Gaussian linear blocks $H_T(s)=q_T(s-r_T)$, with roots $r_T$ on an explicit rational 2-parameter family.
     These give balanced 4-tuples with bounded residues at exponent $3/7=\frac12-\frac1{14}$, dense in $T_4$.
   * Hence $A_4(\delta)$ is false for every $\delta<1/14$, and $(L_4^\circ)$ is false for every $c,\eta_0,Z$.
+  * In fact **$A_4(\delta)$ is false for every $\delta<1/6$**, the full non-vacuous range (round 31, Part VI.4 of the
+    Question B thread; refereed and reproduced with exact arithmetic, `round31/README_VIL.md` §1). Pell families
+    $G_j=A^{r_jn}v_j$ with $A=\begin{pmatrix}5&2\\2&1\end{pmatrix}$ give four points
+    $\overline{G_1G_2G_3}\cdot\{1,-ig_1g_2,-ig_1g_3,-ig_2g_3\}$, Zariski dense in $T_4$, on arcs of length
+    $O(R^{1/3})$ at rates $(1,1,1)$ and $R^{2/5}$ at rates $(6,7,7)$. The families are Cilleruelo–Granville's; the
+    statement that they leave every closed set is new. They are consistent with the three-point theorem (smallest
+    limiting constant found $4.60154>4.34737$). The $1/14$ statement remains the best for the balanced
+    $(L_4^\circ)$.
   * Likewise $A_3(\delta<1/6)$ and $(L_3^\circ)$ are false (the killer's own projection corollary,
     `kill_gauss.md` §3, `k3_projection.py`; not independently checked).
   * So $k=5$ is the first case where the reduction can work.
@@ -331,10 +340,42 @@ $\delta$ has McKinnon–Roth exponent $\gamma=4/(1+2\delta)$, and:
   over balanced sequences; Vojta predicts $\ge4=\dim X$.
 * *Calibration (round 31, Part V; item 12 of §5).* The analogues of $A_5(\delta<1/30)$, $(L_5^\circ)$ and $V_E(5)$
   over $\mathbb F_2(t)$ with the norm of $\mathbb F_4(t)/\mathbb F_2(t)$ are **false** ($15/4$ is attained
-  Zariski-densely). The number-field statements are untouched, but no proof of them can be characteristic-free.
-* *A weaker slice, open.* Whether genuine primitive 5-tuples on the ten-pair-cut profile at the
-  Cilleruelo–Córdoba endpoint $\alpha=10/3$ are Zariski dense in $T_5$ is open. Non-density follows from
-  $A_5(\delta)$ for any $\delta<1/10$ and is strictly weaker than Question B (`round31/README_VL.md` §3).
+  Zariski-densely). The same holds over $\mathbb F_9(t)/\mathbb F_3(t)$ with $A^2+B^2$ (Part VI; every
+  5-subtuple of the ternary clusters is balanced, by Weil; the Schwartz–Zippel step was not rechecked in
+  characteristic 3). The number-field statements are untouched, but no proof of them can be characteristic-free.
+* *The ten-pair slice $(\ast)$ is not a shortcut.* $(\ast)$: are genuine primitive 5-tuples on the ten-pair-cut
+  profile at the Cilleruelo–Córdoba endpoint $\alpha=10/3$ (five lattice points on an arc of length
+  $R^{2/5+o(1)}$) Zariski dense in $T_5$? **Open.** Non-density in $(\ast)$ is **equivalent** to $A_5(\delta)$ for
+  some $\delta\in(0,1/10)$ (round 31, Part VI.6, **proved**; `round31/README_VIL.md`). It is logically weaker than
+  Question B, but no separation is known: it asks to beat the Liouville/Cilleruelo–Córdoba exponent at five points
+  at all. The profile needs $H\ge(5\cdot13\cdot17\cdot29\cdot37)^2\approx1.4\cdot10^{12}$; a non-exhaustive
+  search to $H\approx4.6\cdot10^{15}$ found at most 8 distinct pair cuts and best width exponent $0.2299$ against
+  $0.3$. The heuristic count predicts finitely many such tuples.
+* **Unconditional on a thin class** (round 31, Part VI.1 of the Question B thread; **proved**, refereed, the judge
+  rechecked the Jacobian step). Fix a number field $K\supset\mathbb Q(i)$, a finite set $S$ of places containing the
+  infinite ones, $b\ge1$ and $\varepsilon>0$. There are an **ineffective** proper closed $Z(K,S,b,\varepsilon)\subset
+  T_5$, $\rho>0$ and $H_0$ such that every primitive 5-tuple of norm $H\ge H_0$ lies in $Z$ if: its anchored ratios
+  are $q_i=\eta_i\prod_e(G_e/\overline G_e)^{b_{ie}}$ with at most one Gaussian block per cut,
+  $\prod_e|G_e|^2\le H$, $h(\eta_i)\le\rho\log H$; each $G_e$ is a sum of at most $b$ terms $a\cdot u$ with
+  $u\in\mathcal O_{K,S}^\times$ and $h(a)\le\rho\log H$; and $\Delta\le H^{-1/4-\varepsilon}$. So on this class the
+  essential exponent is $\ge4$, the value Question B needs.
+  * The proof is an Evertse/Corvaja–Zannier-type cancellation estimate from the Subspace Theorem with $K$ and $S$
+    **fixed by hypothesis** (not tied to the parent, so the standing caution on fixed-$S$ theorems is respected),
+    a formal Laurent model and a logarithmic Jacobian.
+  * Scope. It covers fixed-order Pell, trace and golden templates with honest blocks (a bounded number of template
+    blocks, pairwise coprime up to $H^{o(1)}$). A large raw Gaussian gcd is covered only if the reduced blocks are
+    still bounded $S$-unit sums. The golden 8-point family sits at exactly exponent 4 on a curve
+    ($\Delta H^{1/4}=3.70245917364$), consistent with the theorem.
+  * It is **false or meaningless** for varying fields or orders ($v_n=(n+\sqrt{n^2-4})/2$ satisfies
+    $v_{n+1}+v_{n+1}^{-1}-v_n-v_n^{-1}-1=0$ with no vanishing subsum), for unboundedly many summands and for $S$
+    growing with $H$; a degree-uniform version would cover every Gaussian integer. Generic Gaussian blocks, which
+    are all but an $X^{o(1)}$ proportion, are untouched.
+  * Open, narrow: resonant templates (unbounded products of $a\lambda^r+b\lambda'^r$ in one fixed quadratic order).
+* *Closed (round 31, Part VI.3).* General-type arguments on the cofactor cube-class cover
+  $w^3=\prod_{a<b}(y_a-y_b)$: it is the triple cover of $\overline M_{0,7}$ branched on $B_2\in|-3K|$, with
+  $\kappa=0$; it is not uniruled, and rational carriers of bounded degree lie in a closed set depending on the
+  degree. A moving affine pencil of blocks $G_e=a_eB+c_e$ is rigid (tuples with $\Delta\le P^{-6+\nu}$, $\nu<1$,
+  $P=H^{1/20}$, lie in a fixed closed set of dimension $\le2$; effective; a codimension-18 toy class).
 
 > **Question B, literature form.** Is the identity $e$ **essentially bounded** on the smooth weak Fano 4-fold
 > $X=\overline L{}^{\rm tw}_5$ (so that $X(\mathbb Q)=T_5(\mathbb Q)$ for the anisotropic norm-one torus $T_5$), in the sense
@@ -603,10 +644,16 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
    a rank-$r_0$ multiplicative coset contains the divisor splits of at most $8r_0+4$ third vertices of a fixed edge,
    so the rank needed at a growth failure is $\gg M$; the obstruction holds in angle fakes
    (`round31/ref3_rank.md`; **proved**). Fixed-$S$ theorems such as `round18/theory.md` Thm 2.5 have
-   $S$-dependent constants, and $S$ is the unbounded set of primes of $N$.
+   $S$-dependent constants, and $S$ is the unbounded set of primes of $N$. The same holds for the fixed-field
+   unit-sum theorem of round 31, Part VI.1 (§3): its degree-uniform or growing-$S$ version is false.
 6. **abc on single relations.** abc through relations among products of chords (pair, triangle, Ptolemy or
    $n$-term) is vacuous on squarefree profiles (`round8/weakest.md` Prop 4.2), which contain every recorded fake
    (Cor 4.3), so it cannot prove growth (**proved**). abc on unit pencils is closed as well (Theorem 3.3).
+   abc on character relations (products of points, not of chords) is equivalent to the Lang–Waldschmidt support
+   test (round 31, Part VI, `round31/ref6_code.md`): it excludes the fully flipped families with $b\ge4$ and not
+   the skew double core. The stronger parity condition that holds over $\mathbb F_2[t]$ (item 12, Part VI) has no
+   integer analogue: $z=\gamma^2(2+i)$ with $\gamma=x+iy$, $(x+2y)^2-5y^2=\pm1$, has $|z-\bar z|=2$ and parity
+   support $\{5\}$ while $\log N\to\infty$.
 7. **gcd normalisation.** It is invisible to forced-divisibility, auxiliary-form, Liouville, pair, cut, character
    and single-form inequalities (Lemma K1, proved by the killer). Vojta's $D=E$ term and the heuristic count do
    see it.
@@ -635,8 +682,9 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      every $D\equiv0\ (8)$ over $\mathbb Q(i)(t)$, a non-covering rational family, with an 8-point template in
      $\mathbb Z[i][u]$ (constant $\approx3.2\cdot10^9$). The transfer to $\mathbb Z$ is negative: the $D/2$
      independent equations come from the infinite residue field; a $p$-adic arc gives one congruence. Over the fixed
-     finite field $\mathbb F_2$ the model is nevertheless unbounded (round 31, Part V, item 12), by an additive
-     mechanism with no integer counterpart.
+     finite fields $\mathbb F_2$ (round 31, Part V) and $\mathbb F_3$ with the form $A^2+B^2$ (Part VI) the model is
+     nevertheless unbounded (item 12), by additive (linearised-polynomial) mechanisms with no integer
+     counterpart.
    * *Operator templates in the style of Li–Liu's conditional Goldbach paper* (`round29/spectral.md`). Their
      Hypotheses S and R are operator-norm bounds equivalent to what the conclusion needs. Characters mod $N$ vanish on
      the circle (every lattice point divides $N$ in $\mathbb Z[i]$); Hecke-angle versions are fake-blind; the
@@ -672,14 +720,15 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      "balance does not separate real clusters from fakes" (true only for pairwise balance); the "real-algebraic
      obstruction" lead (it was linear algebra, Prop K1).
 
-12. **Round 31 (five exchanges with an outside colleague, "Astra"; 42 referee blocks and seven judge reports:
+12. **Round 31 (six exchanges with an outside colleague, "Astra"; 54 referee blocks and nine judge reports:
    `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`,
-   `README_VL.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
+   `README_VL.md`, `README_VI.md`, `README_VIL.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
    (Part V, unit-twisted points) was repaired by the referee. **Nothing changes for the integer problem**: the
    growth rate, the uniform bound, Questions A and B and
-   route 5 keep their status (judges' scores on the goal: 2/10, 2/10, 1/10, 2/10, 1/10, 2/10, 1/10). The new
-   theorems are in the function-field model (Parts IV and V below): the uniform statement is true in
-   characteristic 0 and false over $\mathbb F_2(t)$. What is now in the record, all
+   route 5 keep their status (judges' scores on the goal: 2/10, 2/10, 1/10, 2/10, 1/10, 2/10, 1/10, 2/10, 2/10).
+   The new theorems are in the function-field model (Parts IV, V and VI below): the uniform statement is true in
+   characteristic 0, false over $\mathbb F_2(t)$ (also for squarefree parents) and false over $\mathbb F_3(t)$
+   with the Gaussian form $A^2+B^2$. What is now in the record, all
    **proved** and refereed unless labelled:
    * *Question B is the index-one case.* The valuation columns of a five-tuple span a lattice of index $I$.
      If $I\ge5$ the tuple lifts to a degree-$I$ isogeny cover and McKinnon–Roth gives exponent $>10/3$; if $I\ge7$
@@ -735,7 +784,8 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
        rechecked the dictionary (stars $P_i=\gcd(z_i,U)$, $E_{ij}=0$, $\delta=\lfloor D/2+c\rfloor-D/2$). The sharp
        statement (R$_4$), $\limsup M=8$, stays **open**. Without the norm condition the maximum at $\delta=E=0$ lies
        in $[12,24]$ (a 12-mark example on an elliptic curve; 24 is the method's limit). Characteristic 0 is
-       essential: the statement is false over $\mathbb F_2(t)$ with an anisotropic norm (Part V below), where
+       essential: the statement is false over $\mathbb F_p(t)$, $p\equiv3\ (4)$, with $A^2+B^2$ (Part VI below) and
+       over $\mathbb F_2(t)$ with an anisotropic norm (Part V below), where
        (IV.2) fails for a separable configuration on a rational surface over $\overline{\mathbb F}_2$.
      * *Characteristic 2* (**proved**). Over $\mathbb F_q(t)$, $q=2^d$, trace hyperplanes give $m=q-1$ columns at
        weight $m\log(m+1)$ with every divisibility and constant cofactors; (IV.2) fails for $q\ge32$. The
@@ -779,7 +829,8 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
        $D\ge2^r(2^r-1)(r-1)$, and $\sup_DM_2(D,0)=\infty$. The proof is the identity
        $z_H-z_{H'}=P_J(1)P_J(Y)/Y$ for the subspace polynomial $P_J$ of $J=H\cap H'$; conjugation acts on $Y$ as
        translation by 1. No gcd cost is discarded (the common gcd has degree $\le30$ for $m\le64$ and dividing by it
-       tightens the cluster). $N$ is not squarefree; the squarefree variant is **open**. The mechanism (subspace
+       tightens the cluster). $N$ is not squarefree here; squarefree parents carrying $m=2^r$ points exist (Part VI.5 below,
+       **proved**). The mechanism (subspace
        polynomials agreeing in their top coefficients) is Ben-Sasson–Kopparty–Radhakrishnan (IEEE Trans. Inf.
        Theory 2010); the equal-norm specialisation is the colleague's. The worst-case fixed-field short-arc problem
        was not found in the literature (search snippets only).
@@ -790,7 +841,8 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
        any $T$ in $Y=T+\theta$, hyperplane sides, a common divisor, unit twists) the parent degree is
        $\Omega(s^2\log s)$ for $s$ points (analyst's Theorem E, **proved**, which supersedes the colleague's V.2;
        the loss sits at small inert primes). This is not a bound for $M_2(D,0)$. Exact values: $M_2(D,0)=4$ for
-       $11\le D\le17$; $M_3(D,0)\le4$ for $D\le11$ (form $A^2+B^2$ over $\mathbb F_9(t)/\mathbb F_3(t)$).
+       $11\le D\le17$; $M_3(D,0)\le4$ for $D\le11$ (form $A^2+B^2$ over $\mathbb F_9(t)/\mathbb F_3(t)$); nevertheless
+       $\sup_DM_3(D,0)=\infty$ (Part VI; first 5-point instance found at $D=568{,}386$).
      * *Consequences inside the model* (**proved** unless labelled). (IV.2) fails with $\delta=E=0$ (left side
        62016 at $m=32$). The $\mathbb F_2(t)$ analogues of $A_5(\delta)$ for every $\delta<1/30$, of $(L_5^\circ)$ and
        of $V_E(5)$ are false: the exponent $15/4$ is attained Zariski-densely. The analogue of $(L_8)$ fails
@@ -805,21 +857,24 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
        nor any bound $M\le f(W)$ with $f(W)=o(\sqrt{W/\log W})$.** In particular F3's alternative "collisions in
        small residue fields" does not suffice for a uniform statement, and no characteristic-free proof of
        $A_5(\delta<1/30)$ or $(L_5^\circ)$ exists. Not affected: growth-rate arguments (fixed-field growth scale is
-       **open**); number-field Vojta and the implications $A_5\Rightarrow$ uniform, $(L_8)\Rightarrow$ uniform;
-       arguments needing odd characteristic, a reflection-type conjugation, or squarefree $N$ in an essential way.
+       **open**); number-field Vojta and the implications $A_5\Rightarrow$ uniform, $(L_8)\Rightarrow$ uniform.
+       (As first recorded, F3+ also exempted arguments needing odd characteristic, a reflection-type conjugation
+       or squarefree $N$. Part VI removes these: see F3++ below.)
      * *Not evidence against the conjecture over $\mathbb Z$.* The mechanism needs many pairwise cofactor
        differences that are constant, on sets of even size. In characteristic $\ne2$ with a reflection-type
        conjugation a constant difference forces odd size and three points cannot be pairwise of this type
-       (analyst's Lemma P, **proved**; it applies to $\mathbb F_3(t)$ and to $\mathbb Z[i]$). Odd characteristic is
-       **open**: nothing was constructed and nothing excluded. Do not write "the conjecture fails in positive
-       characteristic".
+       (analyst's Lemma P, **proved**; it applies to $\mathbb F_3(t)$ and to $\mathbb Z[i]$). Lemma P explains
+       only why the characteristic-2 mechanism does not port; it is not a barrier, because over $\mathbb F_p(t)$,
+       $p\equiv3\ (4)$, a different mechanism gives unbounded clusters (Part VI below). Do not write "the
+       conjecture fails in positive characteristic" ($p\equiv1\ (4)$ and ramified quadratic models are untested).
    * ***Part V, Question B thread: local isotropy*** (`round31/README_VL.md`; three referee blocks). Call a block
      $J_e$ isotropic when $J_e\mid|V_i|^2$ at its marked columns (this propagates along the marked line). Count
      isotropic blocks, not incidences. (i) Without a size bound, full isotropy with fixed cofactors and index one
      allows arbitrarily small width off any closed set ($\Gamma(N)$ shear); the genuine height decouples from $N$.
      (ii) Full isotropy with two-sided width $N^{-3/10\pm o(1)}$ forces subpower multipliers and is the genuine
      problem on the ten-pair-cut profile at the Cilleruelo–Córdoba endpoint $\alpha=10/3$; excluding it off a closed
-     set follows from $A_5(\delta)$ for any $\delta<1/10$ and is strictly weaker than Question B. (iii) In the
+     set follows from $A_5(\delta)$ for any $\delta<1/10$; by Part VI below it is in fact equivalent to $A_5(\delta)$
+     for some $\delta<1/10$ (logically weaker than Question B; no separation known). (iii) In the
      endpoint orientation with $|V|^2/n\to1$ (defect $n^{7/8}$), four isotropic blocks forming a star occur
      densely, and five occur on one curve; six to nine are **open**. (iv) At defect $\le P^{2-\varepsilon}$
      ($P=N^{1/10}$) a nonstar triple of isotropic blocks forces exact norms, and at $\le P^{3-\varepsilon}$ so do
@@ -829,13 +884,105 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      subpower multipliers as a reformulation (it is the Gaussian factorisation); and, on the judge's
      recommendation, the integer-matrix-model programme as a whole (four passes located where models stop being
      fake, and each stopping point is "the tuple is genuine").
+   * ***Part VI: unbounded over $\mathbb F_3(t)$ with $A^2+B^2$; squarefree over $\mathbb F_2(t)$***
+     (`round31/README_VI.md`; six referee blocks; no referee found an error in a claim of the colleague; the judge
+     reproduced the four-mark ternary instance, the squarefree instance at $m=4$ and two referee computations with
+     own code).
+     * *Theorem (VI.4;* **proved***).* Let $p\equiv3\ (4)$, $\mathbb F_{p^2}=\mathbb F_p(i)$, conjugation
+       $i\mapsto-i$ on coefficients: the norm form of the constant extension $\mathbb F_{p^2}(t)/\mathbb F_p(t)$ is
+       $A^2+B^2$, anisotropic, with the infinite place inert. Let $M_p(D,c)$ be the largest number of distinct
+       $z_j\in\mathbb F_{p^2}[t]$ of degree $D$ with one norm $N\in\mathbb F_p[t]$ (any multiplicities) and
+       $\deg(z_i-z_j)\le D/2+c$. For every $m\ge2$ there is $D_1(m)=\exp(O(m\log m))$ with $M_p(D,0)\ge m$ for
+       every $D\ge D_1(m)$. Hence $\sup_DM_p(D,0)=\infty$ and
+       $\liminf_DM_p(D,0)/(\log D/\log\log D)\ge\frac12\log_2p$. In the model's units ($W=\deg N$ for $\log R$)
+       this is $m\asymp\log W/\log\log W$, far below the growth scale.
+     * *Construction.* $q=p^r>2^{m-1}$ with $r$ odd, $k=\lceil\log_p(2m+1)\rceil$,
+       $V=\{i\sum_{b<k}x_bt^b:x_b\in\mathbb F_q\}$, $n=q^k$, $h=n/q$; $m$ pairwise nonproportional
+       $\mathbb F_p$-linear forms $\lambda_j$, signs $\varepsilon_j$, $\chi$ the quadratic character of
+       $\mathbb F_q$; $F_j(X)=\prod_{v\in V}(X-v)^{1+\chi(\varepsilon_j\lambda_j(v))}$. The coefficient Frobenius
+       fixes $F_j$, so $F_j\in\mathbb F_{p^2}[t,X]$. Conjugation is the $q$-power map on $\mathbb F_{p^2}$, sends
+       $v\mapsto-v$, and $\chi(-1)=-1$, so $F_j\overline F_j=P_V(X)^2$. With $A=P_{\ker\lambda_j}$
+       ($\mathbb F_q$-linearised), $F_j=A(A^{(q-1)/2}-c^{(q-1)/2})^2=P_V+2c^{q-1}A-2c^{(q-1)/2}A^{(q+1)/2}$, so
+       pairwise differences have $X$-degree $\le(n+h)/2$. Signs can be chosen so that the common factor has degree
+       $g\ge2^{1-m}n>h$; divide by it and put $X=t^L$, $L=2(k-1)n+1$. No gcd cost is discarded (the full gcd is
+       larger and dividing only tightens). First instances for $p=3$: 4 points at $D=6981$ (reproduced by two
+       referees and the judge), 5 at $D=568{,}386$, 6 at $D=3{,}582{,}084$ (via a full-gcd formula; certified
+       without it at $6{,}880{,}250$).
+     * *Caveats, mandatory when citing.* (1) $N$ is far from squarefree; most primes are squared, and for
+       $k\ge3$ multiplicities at $\mathbb F_{q^2}$-rational places are about $q^{k-2}$, unbounded in $m$.
+       Squarefree or bounded-multiplicity $N$ in odd characteristic is **open**, and this mechanism cannot reach
+       it. (2) Only the constant field is fixed: the bulk of $\deg N$ sits on primes whose residue fields contain
+       $\mathbb F_{q^2}$ and grow with $m$. (3) Only $p\equiv3\ (4)$ and the constant extension: for
+       $p\equiv1\ (4)$ the mechanism fails formally (every half-system $S\subset\mathbb F_q^\times$ has
+       $\delta_S\ge(q-1)/4$; referee, **proved**), and ramified quadratic models are untested. (4) The constant
+       $\log_2p$ in place of $\frac12\log_2p$ is plausible only.
+     * *Why it does not port* (analyst; **proved** at the level of mechanism). The one step without a
+       characteristic-0 counterpart is a single parent with many same-degree right composition factors
+       ($P_V=A_j^q-c_j^{q-1}A_j$ for every kernel). If $\operatorname{char}k\nmid\deg f$ and $f(A)=f'(A')$ with
+       $\deg A=\deg A'$, then $A'=\alpha A+\beta$ (Ritt/Engstrom-type; the $d$-th root of $P$ as a Laurent series
+       exists when the characteristic does not divide $d$). Descent, common division, specialisation and character
+       exponents all have integer analogues and do not help. The integer counterpart class (polynomial templates
+       in $\mathbb Z[i][u]$) is bounded by 24 (Part IV); computed integer analogues have width exponents
+       $0.94$–$1.00$ against the $1/2$ needed. This is an obstruction to porting the mechanism, not a theorem about
+       integer clusters.
+     * *Theorem (VI.5;* **proved***).* For $d\ge3$, $m=2^{d-1}$ and every integer $L\ge4m(d-2)$ there is a
+       **squarefree** $N\in\mathbb F_2[t]$ of degree $2(m-1)L$ carrying $m$ distinct points of $\mathbb F_4[t]$ at
+       $c=0$; least supplied parent degree $8m(m-1)(\log_2m-1)$. ($V=\{a+(f^2+f)^2\}$, a space of squares with
+       trace zero at even-degree primes, and $T$ chosen by CRT with a trace condition; threshold exact for this
+       $V$; verified to $m=64$.) So squarefreeness alone does not rescue the uniform statement in characteristic 2.
+     * *Parity-code condition (VI.1;* **proved***, binary model only).* On every genuine parent over
+       $\mathbb F_2[t]$, every nonzero word of the anchored binary span of the split-prime parity rows has weighted
+       degree $>W/4$ (logarithmic derivative; $d/dt$ kills squares), so the rank is $<0.457n$. This excludes from
+       the binary model the record's squarefree skew (Paley) double core, all fully flipped Hadamard cores and
+       their residue designs. It does not exclude low-rank (Walsh) profiles, the shape of every genuine binary
+       cluster; two Walsh cores on $x,x^3$ still allow $W=O(m\log m)$. **No integer analogue** (barrier 6).
+       Do not write "the fakes exist because $\mathbb Z$ has no derivation".
+     * *Class bounds over $\mathbb F_2[t]$* (**proved**). Complete Hadamard prime profiles force $m$ a power of 2
+       and $D\ge m(m-1)(\log_2(m-1)-3)/6$ (so $\Theta(m^2\log m)$ with VI.5); full hyperplane designs with any
+       translation $B$ cost $\Omega(s^2)$ (asymptotic, no threshold). Neither bounds $M_2(D,0)$: with $k\le m/2$
+       columns the method gives only $k\log k$. Nonconstant $B$ beats Part V by a constant factor (8 points at
+       point degree 68 against 104; 16 at 472; 32 at 2607). **The growth scale over $\mathbb F_2[t]$ is open**:
+       $3M\log_2M-O(M)\le W(M)\le2M^2\log_2M$.
+     * *Filter F3++* (replaces F3+). Call an argument function-field valid if every step holds verbatim, with
+       degree for logarithm and the inert degree-one place at infinity for the archimedean place, in either
+       setting: (i) $\mathbb F_2[t]$ with the norm of $\mathbb F_4(t)/\mathbb F_2(t)$, for all $N$ or for
+       squarefree $N$ only; (ii) $\mathbb F_p[t]$, $p\equiv3\ (4)$, with $A^2+B^2$, for all $N$. **No
+       function-field-valid argument proves the uniform bound.** One valid in (i) cannot prove $M\le f(W)$ with
+       $f=o(\sqrt{W/\log W})$, even for squarefree $N$; one valid in (ii) cannot prove $M\le f(W)$ with
+       $f=o(\log W/\log\log W)$ (it could still prove $M\ll W^\varepsilon$). Admissible, hence insufficient:
+       unique factorisation, exact norms, anisotropy and inertness at infinity, a reflection-type conjugation and
+       a fixed odd characteristic (ii), squarefreeness (i), residue counts and pigeonhole at small primes,
+       cut/chord/Plücker identities, the chain lemma, Liouville with toric forced divisibility, Schwartz–Zippel,
+       Lemma P. Still available to a proof over $\mathbb Z$ (none known to suffice): characteristic 0 used
+       essentially (Newton linearisation, BMY, uniqueness of composition factors); archimedean order and
+       curvature; Baker-type input; squarefree or bounded-multiplicity $N$ in odd characteristic (**open**);
+       ramification ($\mathbb Q(i)/\mathbb Q$ ramifies at 2, constant extensions nowhere); absence of a
+       coefficient Frobenius. Growth-rate arguments are not filtered at the integer growth scale: the record's
+       $W\ge3M\log M-O(M)$ transfers to both settings and no function-field family reaches it.
+     * *Not evidence against the conjecture over $\mathbb Z$* (judge's ruling). Both mechanisms rest on additive
+       polynomials; the characteristic-0 function-field model shares the reflection, anisotropy, exact norms and
+       isotriviality with $\mathbb Z[i]$ and is bounded; the failing step is identified and impossible in
+       characteristic 0; and the ternary clusters live at $m\asymp\log W/\log\log W$ on square-full parents with
+       growing residue fields. Do not write "false in positive characteristic", "false for sums of two squares
+       over function fields" (the model $A^2+tB^2$ is untested), or "the growth rate over $\mathbb F_q$ is
+       $\log W/\log\log W$" (only a lower bound).
+   * ***Part VI, Question B thread: the ten-pair slice*** (`round31/README_VIL.md`; six referee blocks; nothing
+     false). Recorded in §3: $A_4(\delta)$ is false for every $\delta<1/6$; the slice $(\ast)$ is equivalent to
+     $A_5(\delta)$ for some $\delta<1/10$ and is still undecided; the fixed-field unit-sum theorem (essential
+     exponent $\ge4$ on a thin class, ineffective, false for varying orders); the cube-class cover has $\kappa=0$;
+     the moving affine pencil is rigid. *Closed:* the $(\ast)$ sub-thread as a route to Question B. *Open, narrow:*
+     resonant templates in one fixed quadratic order (numerical test first).
    * *Withdrawn or corrected in the round:* a sentence on "different local obstructions" for the round-24 family
      (both forms are excluded at 2 and at 3); the coordinator's "weight $D/2$ is exactly the lattice minimum" (only
      a lower bound) and "every determinant is critical" (see Lemma K1 as now worded); the headline "17 points" of
      the random-parent theorem (superseded by 2 and 1); "asymptotically exact radii" (relative error
      $O(N^{-1/10})$); in Part V, the colleague's lower bound V.2 omitted unit-twisted points (repaired, loss $\le4$)
      and is empty below $|V|=2^{48}$ (superseded by Theorem E), and her construction is not optimal in its own
-     family (8 points at degree 104 against 112). Unreproduced: two eliminations for the strict linear-block system, whose decision is still
+     family (8 points at degree 104 against 112); in Part VI, nothing of the colleague's is withdrawn, but her
+     five-mark ternary certificate ($D=1{,}231{,}594$) is far from minimal, her rate constant is $\frac12\log_2p$
+     as proved, her attribution of the non-transfer to Frobenius descent is corrected (descent ports; the
+     composition-factor step does not), "strictly weaker than Question B" is replaced by "logically weaker, no
+     separation known", and the coordinator's F3+ exemption list is superseded by F3++. Unreproduced: two eliminations for the strict linear-block system, whose decision is still
      open and peripheral either way.
 
 ## 6. Pointers
@@ -862,7 +1009,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
 | round 29: function-field model, Li–Liu template, residue-class twin, 18 screened ideas (no change) | `round29/README.md` (with `kill_*.md`) |
 | round 30: function-field model decided as far as internal work goes (rank open, line closed; no change) | `round30/README.md` (with `kill_*.md`) |
-| round 31: outside colleague, five refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$**, filters F3 and F3+; no change for integers) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md` (with `ref*_*.md`, `langer_check.md`) |
+| round 31: outside colleague, six refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, filters F3, F3+, F3++; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; no change for integers) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md` (with `ref*_*.md`, `langer_check.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check

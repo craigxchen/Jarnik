@@ -1,0 +1,58 @@
+E1: chi mod 7, multipliers 1..6 give 2 distinct patterns
+   Z_- == conj(Z_+): True
+==============================================================================
+E2: odd real characters (conductors 3,7,11,19,15)[:2], T=[-15,15]
+ m=2 points, X-degree n=31, formal common degree g=14
+ template regime: pair difference X-degrees in [30, 30]; after formal division: point degree 17, max diff 16, needed <= 8.5; template width exponent 0.941
+ X=10: log|R'|=26.1, log|gcd|=53.16 (formal 34.89), width exponents min 0.9863 max 0.9863
+ X=1000: log|R'|=102.2, log|gcd|=111.93 (formal 96.71), width exponents min 0.9567 max 0.9567
+ X=1000000: log|R'|=217.5, log|gcd|=210.78 (formal 193.42), width exponents min 0.9479 max 0.9479
+ best X in [1,200000] (formal gcd): max-pair width exponent 0.9532 at X=200000 (needed ~0.5); median 0.9539
+==============================================================================
+E2: odd real characters (conductors 3,7,11,19,15)[:3], T=[-15,15]
+ m=3 points, X-degree n=31, formal common degree g=8
+ template regime: pair difference X-degrees in [30, 30]; after formal division: point degree 23, max diff 22, needed <= 11.5; template width exponent 0.957
+ X=10: log|R'|=36.5, log|gcd|=42.85 (formal 19.62), width exponents min 0.9902 max 1.0185
+ X=1000: log|R'|=134.1, log|gcd|=80.04 (formal 55.26), width exponents min 0.9670 max 0.9767
+ X=1000000: log|R'|=296.5, log|gcd|=131.77 (formal 110.52), width exponents min 0.9618 max 0.9662
+ best X in [1,200000] (formal gcd): max-pair width exponent 0.9700 at X=200000 (needed ~0.5); median 0.9708
+==============================================================================
+E2: odd real characters (conductors 3,7,11,19,15)[:4], T=[-15,15]
+ m=4 points, X-degree n=31, formal common degree g=6
+ template regime: pair difference X-degrees in [30, 30]; after formal division: point degree 25, max diff 24, needed <= 12.5; template width exponent 0.960
+ X=10: log|R'|=40.3, log|gcd|=39.00 (formal 14.27), width exponents min 0.9530 max 1.0170
+ X=1000: log|R'|=148.5, log|gcd|=65.69 (formal 41.45), width exponents min 0.9702 max 0.9846
+ X=1000000: log|R'|=320.4, log|gcd|=107.86 (formal 82.89), width exponents min 0.9646 max 0.9713
+ best X in [1,200000] (formal gcd): max-pair width exponent 0.9752 at X=200000 (needed ~0.5); median 0.9761
+==============================================================================
+E2: odd real characters (conductors 3,7,11,19,15)[:5], T=[-15,15]
+ m=5 points, X-degree n=31, formal common degree g=6
+ template regime: pair difference X-degrees in [30, 30]; after formal division: point degree 25, max diff 24, needed <= 12.5; template width exponent 0.960
+ X=10: log|R'|=41.6, log|gcd|=37.72 (formal 14.27), width exponents min 0.9472 max 1.0166
+ X=1000: log|R'|=148.5, log|gcd|=65.69 (formal 41.45), width exponents min 0.9675 max 0.9846
+ X=1000000: log|R'|=321.8, log|gcd|=106.44 (formal 82.89), width exponents min 0.9635 max 0.9714
+ best X in [1,200000] (formal gcd): max-pair width exponent 0.9752 at X=200000 (needed ~0.5); median 0.9761
+==============================================================================
+E3: digit-vector port, ell=3, k=3 digits, 4 forms, flips (1, 1, 1, 1), |T|=27
+ m=4 points, X-degree n=27, formal common degree g=6
+ template regime: pair difference X-degrees in [26, 26]; after formal division: point degree 21, max diff 20, needed <= 10.5; template width exponent 0.952
+ X=10: log|R'|=34.1, log|gcd|=33.71 (formal 14.95), width exponents min 0.9633 max 1.0199
+ X=1000: log|R'|=125.1, log|gcd|=61.45 (formal 41.45), width exponents min 0.9679 max 0.9854
+ X=1000000: log|R'|=272.2, log|gcd|=100.79 (formal 82.89), width exponents min 0.9599 max 0.9679
+ best X in [1,200000] (formal gcd): max-pair width exponent 0.9722 at X=200000 (needed ~0.5); median 0.9734
+==============================================================================
+E3: digit-vector port, ell=7, k=2 digits, 4 forms, flips (1, 1, 1, 1), |T|=49
+ m=4 points, X-degree n=49, formal common degree g=7
+ template regime: pair difference X-degrees in [46, 46]; after formal division: point degree 42, max diff 39, needed <= 21.0; template width exponent 0.929
+ X=10: log|R'|=76.7, log|gcd|=58.48 (formal 18.02), width exponents min 0.9789 max 1.0017
+ X=1000: log|R'|=242.3, log|gcd|=96.18 (formal 48.35), width exponents min 0.9448 max 0.9568
+ X=1000000: log|R'|=538.1, log|gcd|=138.87 (formal 96.71), width exponents min 0.9366 max 0.9421
+ best X in [1,200000] (formal gcd): max-pair width exponent 0.9486 at X=200000 (needed ~0.5); median 0.9498
+==============================================================================
+E3: digit-vector port, ell=11, k=2 digits, 5 forms, flips (1, -1, -1, 1, 1), |T|=121
+ m=5 points, X-degree n=121, formal common degree g=16
+ template regime: pair difference X-degrees in [118, 120]; after formal division: point degree 105, max diff 104, needed <= 52.5; template width exponent 0.990
+ X=10: log|R'|=218.7, log|gcd|=186.52 (formal 54.05), width exponents min 0.9972 max 1.0032
+ X=1000: log|R'|=580.6, log|gcd|=255.29 (formal 110.53), width exponents min 0.9839 max 1.0012
+ X=1000000: log|R'|=1297.9, log|gcd|=373.82 (formal 221.05), width exponents min 0.9768 max 0.9955
+ best X in [1,200000] (formal gcd): max-pair width exponent 0.9967 at X=200000 (needed ~0.5); median 0.9971

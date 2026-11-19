@@ -221,9 +221,27 @@ factorisation, exact norms, small-prime pigeonhole, anisotropy, cut identities, 
 proves the uniform bound, and the `F_2(t)` analogues of `A_5(delta < 1/30)` and `(L_5^o)` are false. It is not
 evidence against the conjecture over `Z`: the mechanism needs characteristic 2 (Lemma P, `round31/ref5_extend.md`),
 odd characteristic is open, and the characteristic-0 model is bounded. On local isotropy: without a size bound it
-gives no width bound; with the right size it is the genuine ten-pair-cut problem at exponent `10/3`, strictly weaker
-than Question B; four isotropic blocks occur densely, five on one curve. The integer-matrix-model programme is
+gives no width bound; with the right size it is the genuine ten-pair-cut problem at exponent `10/3`, logically weaker
+than Question B (no separation known); four isotropic blocks occur densely, five on one curve. The integer-matrix-model programme is
 closed as a route to Question B.
+
+A sixth exchange (`round31/README_VI.md`, `round31/README_VIL.md`) asked for the growth scale over `F_2`, for odd
+characteristic with a reflection-type conjugation, for squarefree parents, and whether genuine five-tuples at the
+Cilleruelo-Cordoba endpoint are dense. Outcome: **over `F_p(t)`, `p = 3 mod 4`, with the Gaussian form `A^2+B^2` of
+`F_{p^2}(t)/F_p(t)` the uniform statement is false** (quadratic-character multiplicities on the roots of a
+linearised subspace polynomial; `M_p(D,0) >= (1/2 log_2 p - o(1)) log D/loglog D`; first instances for `p = 3`:
+4 points at `D = 6981`, 5 at `D = 568,386`). The parent is square-full with multiplicities growing in `m`, and most
+of it sits on primes with large residue fields. Over `F_2(t)` the statement is false even for **squarefree** parents
+(degree `8m(m-1)(log_2 m - 1)` for `m = 2^r` points). The filter becomes F3++: nothing that holds verbatim in
+either model proves the uniform bound, which now includes a fixed odd characteristic, a reflection conjugation, the
+Gaussian form and (in characteristic 2) squarefreeness. The mechanism does not port: its one step without a
+characteristic-0 counterpart is a parent with many same-degree right composition factors, and the integer
+counterpart class is bounded by Part IV. The judge rules that this is not evidence against the conjecture over `Z`.
+The growth scale over `F_2` stays open; a parity-code condition valid on binary parents excludes the record's fake
+profiles there but has no integer analogue. On Question B: `A_4(delta)` is false for every `delta < 1/6`; five-tuples
+whose blocks are bounded sums of units of a fixed field have essential exponent `>= 4` off an ineffective closed set
+(Subspace Theorem, fixed field and places; false for varying orders); and non-density of the ten-pair slice is
+equivalent to `A_5(delta)` for some `delta < 1/10`, so it is no shortcut. That sub-thread is closed.
 
 **Growth-rate status (2026-11-19, after round 31).** No growth improvement over `log R/loglog R` is proved
 unconditionally; conditionally only Vojta-type routes are known, and they give the uniform bound directly. The following are capped at `log R/loglog R` by

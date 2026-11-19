@@ -1,0 +1,34 @@
+REFEREE RESULTS ON PART V, AND A SIXTH QUESTION
+
+Five referees and a judge went through Part V. Nothing you claimed is withdrawn. What they found, so you can build on it:
+
+1. V.1 is confirmed (six independent reproductions, m up to 64). Strengthened form: for every integer L >= d the m points z_H have max deg(z_H - z_H') = D/2 + S_max - L/2 with S_max = (d-2)2^{d-2}, so they form a c=0 cluster iff L >= m(r-1), and M_2(D,0) >= 2^r for every D in (2^r-1)Z with D >= 2^r(2^r-1)(r-1). N is not squarefree (deg gcd(N,N') = 8 at m=4, 36 at m=8). Common gcd of the points has degree 0,1,0,8,30 for m=4..64. Prior art for the mechanism: Ben-Sasson, Kopparty, Radhakrishnan, "Subspace polynomials and limits to list decoding of Reed-Solomon codes".
+
+2. V.2: correct, but (i) it missed unit-twisted points when deg T < d (monic normalisation of raw marks with leading coefficient theta or theta^2); the referee repaired it with the identity F_i/theta - F_j/theta^2 = A*O, O = sum of the odd-index coefficients of the linearised polynomial P_J, deg O = deg P_J(1) - a_1, a_1 in {1,2}; loss <= 4 in (V.3). (ii) Its thresholds d >= 48, s >= 6 make it empty in every computable range. (iii) V.1 is not optimal in its own family: at d=4, Y = t^15 + theta, sides (0,0,1,1,0,0,1,1), gcd degree 16, there are 8 points of reduced degree 104 < 112.
+
+3. An analyst proved a threshold-free replacement ("Theorem E"): let V be ANY finite F_2-subspace of F_2[t] containing 1, T arbitrary, Y = T + theta, distinct forms l_i with l_i(1)=1, sides S_i, F_i = prod_{v in S_i}(Y+v), any common divisor g, unit twists allowed. If the reduced points form a c=0 cluster of degree D', and s'' is the size of a subfamily with one side per form and a common leading unit (s'' >= ceil(s/4)), then
+     D' >= (4/s'') sum_{i<j} iota(P_{J_ij}(1)) >= (3/8) s''(s''-1) floor(floor(log_2 s'')/2),
+   where iota(x) is the degree of the odd-degree (inert) part of x. Proof: F_i = P_J(Y+a)X, F_j = P_J(Y+a)(X+P_J(1)), so delta_ij = deg P_J(1) - deg gcd(X, P_J(1)) is invariant under common division; an odd-degree prime stays prime in F_4[t] and never divides (T+w)+theta; then the margin identity sum_{i<j} delta_ij <= s''D'/4. So inside "hyperplane designs with translation element 1" the parent degree is Theta(s^2 log s), and the loss sits entirely at small inert primes dividing P_J(1).
+
+4. The record's growth argument transfers to F_2[t] with this norm (odd-degree primes inert with fibre 2^e+1, even-degree split with fibre 2^e-1, no ramified prime): W = deg N >= 3M log_2 M - O(M), exact minima W_min = 223, 674, 1611, 4210 at M = 32, 64, 128, 256. Your family has W = 2m(m-1)(log_2 m - 1), a factor about (2/3)m above this.
+
+5. Through the star dictionary your cluster satisfies every hypothesis of (IV.2) with delta = E = 0 and violates it (LHS 62016 at m=32). All ratios z_a/z_b have nonzero derivative, so the failure is separable; it is not a Frobenius phenomenon and not isotriviality. The F_2(t) analogues of the record's five-point statements A_5(delta<1/30) and (L_5°) are false on your family.
+
+6. Exhaustive values: M_2(D,0) = 2,3,2,4,3,4,3,4,3,4 for D=1..10 and = 4 for D = 11..17. For the form A^2+B^2 over F_9(t)/F_3(t): M_3(D,0) = 2,4,3,4,3,4,4,4,4,4,4 for D = 1..11.
+
+7. Why the mechanism needs characteristic 2 ("Lemma P"): in characteristic != 2, if A is finite, A and -A disjoint, and prod_{a in A}(X+a) - prod_{a in A}(X-a) is constant, then |A| is odd; hence three transversals of a symmetric set cannot be pairwise constant-difference. So with a reflection-type conjugation (F_9(t)/F_3(t), or Z[i]) the V.1 mechanism gives at most 2 points.
+
+The judge's reading: a theorem in the model, and a filter. No argument valid verbatim over F_2[t] with this norm can prove the uniform bound, or any bound M <= f(W) with f = o(sqrt(W/log W)). Growth-rate arguments are untouched, because your family is far above the growth scale.
+
+THE SIXTH QUESTION. For the integers, what I care about most is the growth rate: the best bound is M <= (2/3+eps) log R/loglog R, i.e. W >= 3M log M, and any improvement of that ORDER would be real progress. The uniform bound is the ideal. Your F_2 model is now the cleanest laboratory for both, so:
+
+(a) GROWTH SCALE OVER A FIXED FIELD. Over F_2[t] with the norm of F_4(t)/F_2(t), let W(M) be the least deg N carrying a c=0 cluster of M points. We know 3M log_2 M - O(M) <= W(M) <= 2M^2 log_2 M. Which is the truth, or what is in between?
+   - Either construct clusters with W = M^{1+o(1)} (ideally O(M log M)). By Theorem E this cannot be a hyperplane design with translation element 1: cofactor differences must avoid small inert primes, and their traces must have average degree O(log M). Candidates nobody has tried: conj(Y) = Y + B with B non-constant; non-linear transversals (there are 2^{Q/2} points of norm P_V(Y)); independent choices at each split prime; unions of several designs on one parent; prime powers used deliberately.
+   - Or prove W(M) >= omega(M log M), and say exactly which steps are not available over Z. A proof whose steps are all available over Z is an improvement of the integer growth rate. That is the outcome I would value most; please treat it as the main target, and be explicit about every step that uses characteristic 2, the ultrametric at infinity, or the function field.
+   Over Z the obstruction to improving 3M log M is a family of "fakes" (angle models: integer data satisfying all pair and cut divisibilities and gap inequalities at W ~ 3M log M, but not coming from lattice points on a circle). If the F_2 model has genuine clusters at growth scale, tell me what structure they have, since that is what an integer construction or an integer fake would have to imitate.
+
+(b) ODD CHARACTERISTIC WITH A REFLECTION. For A^2+B^2 over F_9(t)/F_3(t) (conjugation i -> -i, the model closest to Z[i]): is sup_D M_3(D,0) finite? Lemma P kills the subspace mechanism. Either find another mechanism (the only escape from Lemma P inside "constant cofactor differences" is even-size sets that are not symmetric cosets; or drop constancy altogether), or find the reason it is bounded. A boundedness proof using only small residue fields and the reflection would be the first argument that survives every filter in the record and could port to Z[i]; a construction would extend the filter to everything algebraic about Z[i] that holds in F_9[t].
+
+(c) Smaller: is sup_D M_2(D,0) still infinite for squarefree N?
+
+Take (a) and (b) in whichever order looks more promising to you, and say plainly what you could not do. As before: full proofs or exact reproducible computations, statements labelled proved / computed / heuristic, and append the result as Part VI to answer.md.

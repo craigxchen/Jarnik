@@ -1,0 +1,32 @@
+DCo(19)      M=  19 cols=   38 unanch.rank=  19 distinct anchored patterns n=  38 anchored rank=  18 rank/n=0.474  certificate j=None
+DCo(23)      M=  23 cols=   46 unanch.rank=  23 distinct anchored patterns n=  46 anchored rank=  22 rank/n=0.478  certificate j=None
+DCo(43)      M=  43 cols=   86 unanch.rank=  43 distinct anchored patterns n=  86 anchored rank=  42 rank/n=0.488  certificate j=None
+  first certificate: DCo(151)     M= 151 cols=  302 unanch.rank= 151 distinct anchored patterns n= 302 anchored rank= 150 rank/n=0.497  certificate j=37
+
+DC(7)        M=   8 cols=   14 unanch.rank=   7 distinct anchored patterns n=  14 anchored rank=   6 rank/n=0.429  certificate j=None
+DC(11)       M=  12 cols=   22 unanch.rank=  11 distinct anchored patterns n=  22 anchored rank=  10 rank/n=0.455  certificate j=None
+DC(19)       M=  20 cols=   38 unanch.rank=  19 distinct anchored patterns n=  38 anchored rank=  18 rank/n=0.474  certificate j=None
+DC(23)       M=  24 cols=   46 unanch.rank=  23 distinct anchored patterns n=  46 anchored rank=  22 rank/n=0.478  certificate j=None
+DC(43)       M=  44 cols=   86 unanch.rank=  43 distinct anchored patterns n=  86 anchored rank=  42 rank/n=0.488  certificate j=None
+  first certificate: DC(151)      M= 152 cols=  302 unanch.rank= 151 distinct anchored patterns n= 302 anchored rank= 150 rank/n=0.497  certificate j=37
+
+FF3(7)       M=   8 cols=   29 unanch.rank=   8 distinct anchored patterns n=  15 anchored rank=   7 rank/n=0.467  certificate j=None
+FF3(11)      M=  12 cols=   45 unanch.rank=  12 distinct anchored patterns n=  23 anchored rank=  11 rank/n=0.478  certificate j=None
+FF3(19)      M=  20 cols=   77 unanch.rank=  20 distinct anchored patterns n=  39 anchored rank=  19 rank/n=0.487  certificate j=None
+FF3(23)      M=  24 cols=   93 unanch.rank=  24 distinct anchored patterns n=  47 anchored rank=  23 rank/n=0.489  certificate j=None
+FF3(43)      M=  44 cols=  173 unanch.rank=  44 distinct anchored patterns n=  87 anchored rank=  43 rank/n=0.494  certificate j=None
+  first certificate: FF3(139)     M= 140 cols=  557 unanch.rank= 140 distinct anchored patterns n= 279 anchored rank= 139 rank/n=0.498  certificate j=34
+
+P1(7)        M=   8 cols=    7 unanch.rank=   4 distinct anchored patterns n=   7 anchored rank=   3 rank/n=0.429  certificate j=None
+P1(11)       M=  12 cols=   11 unanch.rank=  11 distinct anchored patterns n=  11 anchored rank=  10 rank/n=0.909  certificate j=1
+P1(19)       M=  20 cols=   19 unanch.rank=  19 distinct anchored patterns n=  19 anchored rank=  18 rank/n=0.947  certificate j=1
+P1(23)       M=  24 cols=   23 unanch.rank=  12 distinct anchored patterns n=  23 anchored rank=  11 rank/n=0.478  certificate j=None
+P1(43)       M=  44 cols=   43 unanch.rank=  43 distinct anchored patterns n=  43 anchored rank=  42 rank/n=0.977  certificate j=1
+  first certificate: P1(11)       M=  12 cols=   11 unanch.rank=  11 distinct anchored patterns n=  11 anchored rank=  10 rank/n=0.909  certificate j=1
+
+SYL(3)       M=   8 cols=    7 unanch.rank=   4 distinct anchored patterns n=   7 anchored rank=   3 rank/n=0.429  certificate j=None
+SYL(4)       M=  16 cols=   15 unanch.rank=   5 distinct anchored patterns n=  15 anchored rank=   4 rank/n=0.267  certificate j=None
+SYL(5)       M=  32 cols=   31 unanch.rank=   6 distinct anchored patterns n=  31 anchored rank=   5 rank/n=0.161  certificate j=None
+SYL(6)       M=  64 cols=   63 unanch.rank=   7 distinct anchored patterns n=  63 anchored rank=   6 rank/n=0.095  certificate j=None
+SYL(7)       M= 128 cols=  127 unanch.rank=   8 distinct anchored patterns n= 127 anchored rank=   7 rank/n=0.055  certificate j=None
+SYL(8)       M= 256 cols=  255 unanch.rank=   9 distinct anchored patterns n= 255 anchored rank=   8 rank/n=0.031  certificate j=None

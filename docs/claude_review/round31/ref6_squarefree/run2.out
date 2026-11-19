@@ -1,0 +1,35 @@
+{'d': 3, 'm': 4, 'L': 16, 'degR': 6, 'nprimes': 2, 'bound': 8, 'degN': 96, 'sqfree': True, 'D': 48, 'maxgap': 24, 'pairs': 6, 'maxPJ1': 8}
+{'d': 3, 'm': 4, 'L': 16, 'degR': 6, 'nprimes': 2, 'bound': 8, 'degN': 96, 'sqfree': True, 'D': 48, 'maxgap': 24, 'pairs': 6, 'maxPJ1': 8}
+{'d': 3, 'm': 4, 'L': 17, 'degR': 6, 'nprimes': 2, 'bound': 8, 'degN': 102, 'sqfree': True, 'D': 51, 'maxgap': 25, 'pairs': 6, 'maxPJ1': 8}
+{'d': 3, 'm': 4, 'L': 17, 'degR': 6, 'nprimes': 2, 'bound': 8, 'degN': 102, 'sqfree': True, 'D': 51, 'maxgap': 25, 'pairs': 6, 'maxPJ1': 8}
+{'d': 3, 'm': 4, 'L': 18, 'degR': 6, 'nprimes': 2, 'bound': 8, 'degN': 108, 'sqfree': True, 'D': 54, 'maxgap': 26, 'pairs': 6, 'maxPJ1': 8}
+{'d': 3, 'm': 4, 'L': 18, 'degR': 6, 'nprimes': 2, 'bound': 8, 'degN': 108, 'sqfree': True, 'D': 54, 'maxgap': 26, 'pairs': 6, 'maxPJ1': 8}
+{'d': 3, 'm': 4, 'L': 23, 'degR': 6, 'nprimes': 2, 'bound': 8, 'degN': 138, 'sqfree': True, 'D': 69, 'maxgap': 31, 'pairs': 6, 'maxPJ1': 8}
+{'d': 3, 'm': 4, 'L': 23, 'degR': 6, 'nprimes': 2, 'bound': 8, 'degN': 138, 'sqfree': True, 'D': 69, 'maxgap': 31, 'pairs': 6, 'maxPJ1': 8}
+{'d': 4, 'm': 8, 'L': 64, 'degR': 26, 'nprimes': 6, 'bound': 32, 'degN': 896, 'sqfree': True, 'D': 448, 'maxgap': 224, 'pairs': 28, 'maxPJ1': 32}
+{'d': 4, 'm': 8, 'L': 64, 'degR': 26, 'nprimes': 6, 'bound': 32, 'degN': 896, 'sqfree': True, 'D': 448, 'maxgap': 224, 'pairs': 28, 'maxPJ1': 32}
+{'d': 4, 'm': 8, 'L': 65, 'degR': 26, 'nprimes': 6, 'bound': 32, 'degN': 910, 'sqfree': True, 'D': 455, 'maxgap': 227, 'pairs': 28, 'maxPJ1': 32}
+{'d': 4, 'm': 8, 'L': 65, 'degR': 26, 'nprimes': 6, 'bound': 32, 'degN': 910, 'sqfree': True, 'D': 455, 'maxgap': 227, 'pairs': 28, 'maxPJ1': 32}
+{'d': 4, 'm': 8, 'L': 66, 'degR': 26, 'nprimes': 6, 'bound': 32, 'degN': 924, 'sqfree': True, 'D': 462, 'maxgap': 230, 'pairs': 28, 'maxPJ1': 32}
+{'d': 4, 'm': 8, 'L': 66, 'degR': 26, 'nprimes': 6, 'bound': 32, 'degN': 924, 'sqfree': True, 'D': 462, 'maxgap': 230, 'pairs': 28, 'maxPJ1': 32}
+{'d': 4, 'm': 8, 'L': 71, 'degR': 26, 'nprimes': 6, 'bound': 32, 'degN': 994, 'sqfree': True, 'D': 497, 'maxgap': 245, 'pairs': 28, 'maxPJ1': 32}
+{'d': 4, 'm': 8, 'L': 71, 'degR': 26, 'nprimes': 6, 'bound': 32, 'degN': 994, 'sqfree': True, 'D': 497, 'maxgap': 245, 'pairs': 28, 'maxPJ1': 32}
+{'d': 5, 'm': 16, 'L': 192, 'degR': 60, 'nprimes': 11, 'bound': 96, 'degN': 5760, 'sqfree': True, 'D': 2880, 'maxgap': 1440, 'pairs': 120, 'maxPJ1': 96}
+{'d': 5, 'm': 16, 'L': 192, 'degR': 60, 'nprimes': 11, 'bound': 96, 'degN': 5760, 'sqfree': True, 'D': 2880, 'maxgap': 1440, 'pairs': 120, 'maxPJ1': 96}
+{'d': 5, 'm': 16, 'L': 193, 'degR': 60, 'nprimes': 11, 'bound': 96, 'degN': 5790, 'sqfree': True, 'D': 2895, 'maxgap': 1447, 'pairs': 120, 'maxPJ1': 96}
+{'d': 5, 'm': 16, 'L': 193, 'degR': 60, 'nprimes': 11, 'bound': 96, 'degN': 5790, 'sqfree': True, 'D': 2895, 'maxgap': 1447, 'pairs': 120, 'maxPJ1': 96}
+{'d': 5, 'm': 16, 'L': 194, 'degR': 60, 'nprimes': 11, 'bound': 96, 'degN': 5820, 'sqfree': True, 'D': 2910, 'maxgap': 1454, 'pairs': 120, 'maxPJ1': 96}
+{'d': 5, 'm': 16, 'L': 194, 'degR': 60, 'nprimes': 11, 'bound': 96, 'degN': 5820, 'sqfree': True, 'D': 2910, 'maxgap': 1454, 'pairs': 120, 'maxPJ1': 96}
+{'d': 5, 'm': 16, 'L': 199, 'degR': 60, 'nprimes': 11, 'bound': 96, 'degN': 5970, 'sqfree': True, 'D': 2985, 'maxgap': 1489, 'pairs': 120, 'maxPJ1': 96}
+{'d': 5, 'm': 16, 'L': 199, 'degR': 60, 'nprimes': 11, 'bound': 96, 'degN': 5970, 'sqfree': True, 'D': 2985, 'maxgap': 1489, 'pairs': 120, 'maxPJ1': 96}
+{'d': 6, 'm': 32, 'L': 512, 'degR': 176, 'nprimes': 25, 'bound': 256, 'degN': 31744, 'sqfree': True, 'D': 15872, 'maxgap': 7936, 'pairs': 496, 'maxPJ1': 256}
+{'d': 6, 'm': 32, 'L': 512, 'degR': 176, 'nprimes': 25, 'bound': 256, 'degN': 31744, 'sqfree': True, 'D': 15872, 'maxgap': 7936, 'pairs': 496, 'maxPJ1': 256}
+{'d': 6, 'm': 32, 'L': 513, 'degR': 176, 'nprimes': 25, 'bound': 256, 'degN': 31806, 'sqfree': True, 'D': 15903, 'maxgap': 7951, 'pairs': 496, 'maxPJ1': 256}
+{'d': 6, 'm': 32, 'L': 513, 'degR': 176, 'nprimes': 25, 'bound': 256, 'degN': 31806, 'sqfree': True, 'D': 15903, 'maxgap': 7951, 'pairs': 496, 'maxPJ1': 256}
+{'d': 6, 'm': 32, 'L': 514, 'degR': 176, 'nprimes': 25, 'bound': 256, 'degN': 31868, 'sqfree': True, 'D': 15934, 'maxgap': 7966, 'pairs': 496, 'maxPJ1': 256}
+{'d': 6, 'm': 32, 'L': 514, 'degR': 176, 'nprimes': 25, 'bound': 256, 'degN': 31868, 'sqfree': True, 'D': 15934, 'maxgap': 7966, 'pairs': 496, 'maxPJ1': 256}
+{'d': 6, 'm': 32, 'L': 519, 'degR': 176, 'nprimes': 25, 'bound': 256, 'degN': 32178, 'sqfree': True, 'D': 16089, 'maxgap': 8041, 'pairs': 496, 'maxPJ1': 256}
+{'d': 6, 'm': 32, 'L': 519, 'degR': 176, 'nprimes': 25, 'bound': 256, 'degN': 32178, 'sqfree': True, 'D': 16089, 'maxgap': 8041, 'pairs': 496, 'maxPJ1': 256}
+control d 3 random S squarefree fraction 81 /200
+control d 4 random S squarefree fraction 23 /200
+control d 5 random S squarefree fraction 5 /200

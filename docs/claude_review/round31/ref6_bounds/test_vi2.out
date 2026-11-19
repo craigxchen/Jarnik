@@ -1,0 +1,54 @@
+== Part V r=2: m=4 L=4 D=12 deg N=24 norms_equal=True maxdiff=6 (D/2=6.0) critical=True squarefree=False deg gcd(points)=0
+   all-plus rows: [0]
+   f_v coprime to conj: True; disjoint supports of distinct labels: True
+   prod z^chi_v = r_v^(m/2): True;  prod z^((chi_v-chi_w)/2) = (r_v/r_w)^(m/4): True
+   depth(r_v) >= D/m all: True; deg B_v <= s_v all: True; min depth=4 vs D/m=3.00; deg B_v set=[0]; s_v range=(1.00,1.00) sum s_v=3.00 = D/m=3.00
+   depth(r_v/r_w) >= 2D/m all: True; tightest pair slack s_v+s_w-deg(A_vB_w+A_wB_v) = 0.00
+   depth(r_v^(m/2)) = 8 = (m/2)*depth(r_v) = 8; K = 6
+   s = 2D/(m(m-1)) = 2.00; (m-1)/2 = 1.5 <= 2^(3s+2) = 2^8.0: True; (VI.2) bound -2.8 <= D = 12: True; ratio D/(m^2 log2 m) = 0.375
+   labels with s_v <= s: 3 >= (m-1)/2 = 1.5
+== Part V r=3: m=8 L=16 D=112 deg N=224 norms_equal=True maxdiff=56 (D/2=56.0) critical=True squarefree=False deg gcd(points)=1
+   all-plus rows: [0]
+   f_v coprime to conj: True; disjoint supports of distinct labels: False
+   prod z^chi_v = r_v^(m/2): True;  prod z^((chi_v-chi_w)/2) = (r_v/r_w)^(m/4): True
+   depth(r_v) >= D/m all: True; deg B_v <= s_v all: True; min depth=16 vs D/m=14.00; deg B_v set=[0]; s_v range=(2.00,2.00) sum s_v=14.00 = D/m=14.00
+   depth(r_v/r_w) >= 2D/m all: True; tightest pair slack s_v+s_w-deg(A_vB_w+A_wB_v) = 1.00
+   depth(r_v^(m/2)) = 64 = (m/2)*depth(r_v) = 64; K = 56
+   s = 2D/(m(m-1)) = 4.00; (m-1)/2 = 3.5 <= 2^(3s+2) = 2^14.0: True; (VI.2) bound -1.8 <= D = 112: True; ratio D/(m^2 log2 m) = 0.583
+   labels with s_v <= s: 7 >= (m-1)/2 = 3.5
+== Part V r=4: m=16 L=48 D=720 deg N=1440 norms_equal=True maxdiff=360 (D/2=360.0) critical=True squarefree=False deg gcd(points)=0
+   all-plus rows: [0]
+   f_v coprime to conj: True; disjoint supports of distinct labels: False
+   prod z^chi_v = r_v^(m/2): True;  prod z^((chi_v-chi_w)/2) = (r_v/r_w)^(m/4): True
+   depth(r_v) >= D/m all: True; deg B_v <= s_v all: True; min depth=48 vs D/m=45.00; deg B_v set=[0]; s_v range=(3.00,3.00) sum s_v=45.00 = D/m=45.00
+   depth(r_v/r_w) >= 2D/m all: True; tightest pair slack s_v+s_w-deg(A_vB_w+A_wB_v) = 2.00
+   depth(r_v^(m/2)) = 384 = (m/2)*depth(r_v) = 384; K = 360
+   s = 2D/(m(m-1)) = 6.00; (m-1)/2 = 7.5 <= 2^(3s+2) = 2^20.0: True; (VI.2) bound 36.3 <= D = 720: True; ratio D/(m^2 log2 m) = 0.703
+   labels with s_v <= s: 15 >= (m-1)/2 = 7.5
+== VI.5 d=3: m=4 L=16 D=48 deg N=96 norms_equal=True maxdiff=24 (D/2=24.0) critical=True squarefree=True deg gcd(points)=0 deg R=6
+   all-plus rows: [0]
+   f_v coprime to conj: True; disjoint supports of distinct labels: True
+   prod z^chi_v = r_v^(m/2): True;  prod z^((chi_v-chi_w)/2) = (r_v/r_w)^(m/4): True
+   depth(r_v) >= D/m all: True; deg B_v <= s_v all: True; min depth=16 vs D/m=12.00; deg B_v set=[0]; s_v range=(4.00,4.00) sum s_v=12.00 = D/m=12.00
+   depth(r_v/r_w) >= 2D/m all: True; tightest pair slack s_v+s_w-deg(A_vB_w+A_wB_v) = 0.00
+   depth(r_v^(m/2)) = 32 = (m/2)*depth(r_v) = 32; K = 24
+   s = 2D/(m(m-1)) = 8.00; (m-1)/2 = 1.5 <= 2^(3s+2) = 2^26.0: True; (VI.2) bound -2.8 <= D = 48: True; ratio D/(m^2 log2 m) = 1.500
+   labels with s_v <= s: 3 >= (m-1)/2 = 1.5
+== VI.5 d=4: m=8 L=64 D=448 deg N=896 norms_equal=True maxdiff=224 (D/2=224.0) critical=True squarefree=True deg gcd(points)=0 deg R=26
+   all-plus rows: [0]
+   f_v coprime to conj: True; disjoint supports of distinct labels: True
+   prod z^chi_v = r_v^(m/2): True;  prod z^((chi_v-chi_w)/2) = (r_v/r_w)^(m/4): True
+   depth(r_v) >= D/m all: True; deg B_v <= s_v all: True; min depth=64 vs D/m=56.00; deg B_v set=[0]; s_v range=(8.00,8.00) sum s_v=56.00 = D/m=56.00
+   depth(r_v/r_w) >= 2D/m all: True; tightest pair slack s_v+s_w-deg(A_vB_w+A_wB_v) = 4.00
+   depth(r_v^(m/2)) = 256 = (m/2)*depth(r_v) = 256; K = 224
+   s = 2D/(m(m-1)) = 16.00; (m-1)/2 = 3.5 <= 2^(3s+2) = 2^50.0: True; (VI.2) bound -1.8 <= D = 448: True; ratio D/(m^2 log2 m) = 2.333
+   labels with s_v <= s: 7 >= (m-1)/2 = 3.5
+== VI.5 d=5: m=16 L=192 D=2880 deg N=5760 norms_equal=True maxdiff=1440 (D/2=1440.0) critical=True squarefree=True deg gcd(points)=0 deg R=60
+   all-plus rows: [0]
+   f_v coprime to conj: True; disjoint supports of distinct labels: True
+   prod z^chi_v = r_v^(m/2): True;  prod z^((chi_v-chi_w)/2) = (r_v/r_w)^(m/4): True
+   depth(r_v) >= D/m all: True; deg B_v <= s_v all: True; min depth=192 vs D/m=180.00; deg B_v set=[0]; s_v range=(12.00,12.00) sum s_v=180.00 = D/m=180.00
+   depth(r_v/r_w) >= 2D/m all: True; tightest pair slack s_v+s_w-deg(A_vB_w+A_wB_v) = 8.00
+   depth(r_v^(m/2)) = 1536 = (m/2)*depth(r_v) = 1536; K = 1440
+   s = 2D/(m(m-1)) = 24.00; (m-1)/2 = 7.5 <= 2^(3s+2) = 2^74.0: True; (VI.2) bound 36.3 <= D = 2880: True; ratio D/(m^2 log2 m) = 2.812
+   labels with s_v <= s: 15 >= (m-1)/2 = 7.5

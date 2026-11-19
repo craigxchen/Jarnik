@@ -1,0 +1,5 @@
+best5 L=26 formal gL=35854 extra=17312 full gcd=53166  D=458592 parent=917184  max diff=231144  floor(D/2)=229296  cluster=False [3s]
+best5 L=27 formal gL=37233 extra=17708 full gcd=54941  D=476500 parent=953000  max diff=239575  floor(D/2)=238250  cluster=False [4s]
+best5 L=28 formal gL=38612 extra=17342 full gcd=55954  D=495170 parent=990340  max diff=248768  floor(D/2)=247585  cluster=False [4s]
+best5 L=29 formal gL=39991 extra=17671 full gcd=57662  D=513145 parent=1026290  max diff=257266  floor(D/2)=256572  cluster=False [4s]
+best5 L=30 formal gL=41370 extra=17312 full gcd=58682  D=531808 parent=1063616  max diff=266452  floor(D/2)=265904  cluster=False [4s]

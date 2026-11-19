@@ -1,0 +1,3 @@
+q=243 k=3 n=14348907 h=59049 m=8 formal g(all)=112773  slack (g-h)/2=26862.0
+  5-subtuples: 56; Liouville balanced value 1/(2^5-2) = 0.03333, alpha_lim = 3.7500
+  delta_S in [0.03100,0.03158]  alpha in [3.7624,3.7665]  balance max/min in [1.000,1.025]  H/wbar in [0.328,0.328]  nonzero cuts 15..15 of 15

@@ -1,0 +1,28 @@
+REFEREE RESULTS ON PART V, AND A SIXTH QUESTION
+
+Three referees and a judge went through Part V. Everything you claimed is correct. Their additions and rulings:
+
+1. V.2 (size-free full isotropy): confirmed; ruling: isotropy without the archimedean size |V_i|^2/n_i is worthless as a lever (Gamma(N) shear; multipliers c_i ~ 10^382 to 10^768 on the referee's instance; against the genuine height H the width is only about H^{-1/5}).
+
+2. Full isotropy with two-sided width N^{-3/10 +- o(1)}: forces c_i = N^{o(1)}, and by (V.1) is, up to N^{o(1)}, exactly the question
+     (*) do Zariski-dense genuine primitive Gaussian 5-tuples exist on the ten-pair-cut profile (weight W/10 on each of the ten pair cuts, o(W) elsewhere) with width H^{-3/10+o(1)}, i.e. at the Liouville / Cilleruelo-Cordoba endpoint alpha = 10/3?
+   You were right and my summary was wrong: (*) is not Question B. Non-existence off a closed set follows from A_5(delta) for any delta < 1/10, far weaker than Question B (delta < 1/30). Existence would refute A_5(delta) for every delta < 1/10, hence the A_5 route.
+
+3. V.3: the four-star (dense, 4 isotropic blocks) and the five-block curve are confirmed, with the scope correction that they reach width N^{-3/10} only with defects of size n^{7/8} (exact degree 7 against deg n_i = 8). Count isotropic blocks, not incidences.
+
+4. V.4 rigidity confirmed and extended by the referee to a peeling hierarchy: defect below P^{1-eps} with one isotropic incidence, below P^{2-eps} with a nonstar triple, below P^{3-eps} with a 3-2-1 set (>= 8 blocks, or 125/210 of the 6-sets and 110/120 of the 7-sets) each force exact norms. The rank-one branch of Part IV is closed whenever two isotropic edges meet at defect <= P^{2-eps}. Transfer: k isotropic blocks give genuine tuples at alpha <= (20-k)/3; nine dense blocks would refute A_5.
+
+5. The judge's ruling on the programme: Parts III-V have classified the fakes. They fail exactly at "exact norms" or "isotropy with accurate size", and both collapse to genuineness. None of the levers gives an inequality for genuine tuples. I am closing the integer-matrix-model programme as a route to Question B.
+
+For your information, from the other thread: over F_2(t) with the anisotropic norm of F_4(t)/F_2(t) there are genuine clusters of m = 2^r points of degree D on one parent with all pair differences of degree <= D/2 (subspace polynomials; conjugation acts on Y = t^L + theta as translation by 1), so the uniform statement is false there, and the F_2(t) analogues of A_5(delta<1/30) and (L_5°) are false. Over C(t) the uniform statement is a theorem (orbifold BMY). So a proof of Question B over Q cannot be characteristic-free; it must use something that fails for Artin-Schreier circles in characteristic 2.
+
+THE SIXTH QUESTION: (*) itself, for genuine tuples. This is the one statement in this thread where "beating Liouville on a dense set" has a weaker, concrete form, and it is a classical-looking question: five lattice points of Z[i] on a circle of radius R within an arc of length R^{2/5+o(1)} (Cilleruelo-Cordoba: an arc of length R^{2/5} holds at most four), with the extremal factorisation pattern (ten pair gcds of equal size N^{1/10}, everything else subpower).
+
+(a) Decide, or make real progress on, whether such 5-tuples are Zariski dense in the ratio torus T_5 (the 4-dimensional anisotropic torus of ratios z_i/z_1 on the unit circle).
+   - What the record has: ten-pair template curves of fixed block degree sweep out dimension <= 2 of the 4-dimensional ratio space (your Part III); every lever in Parts III-V turns a model into such a tuple, so the question is not reducible further by integer models.
+   - Constructive side: exact norms mean ten Gaussian integers G_e (e a pair {i,j}) of norm about N^{1/10} with z_k = unit * prod_e (conj(G_e) if k in e, else G_e), and the arc condition is ten small determinants / four small angles. Can you parametrise solutions beyond polynomial templates: e.g. by units of a fixed order, by a lattice-point count in a region of the 20-dimensional space of the G_ij (how many solutions with |G_ij| ~ P does the measure heuristic predict, and with what exponent does the count meet 1?), by descent on the determinant identities, or by a correspondence with points on a surface of general type or a K3 where density is decidable?
+   - Obstructive side: is there an unconditional reason for non-density on this one profile? At alpha = 10/3 one is exactly at Liouville, so a single extra saving of N^{eps} off a closed set suffices; the profile is rigid (all ten cuts critical), which is where a Thue-type or determinant-method argument with the exact norm equations has the best chance. Say precisely what such an argument would need.
+(b) The same for four points at the Cilleruelo-Cordoba endpoint if that helps as a warm-up (arcs of length R^{2/5} with four points, or the three-point case R^{1/3}, where sharpness is known): which of the known sharpness constructions extend, and where exactly do they stop at five?
+(c) If (*) has dense solutions, A_5(delta) fails for all delta < 1/10; say what that would and would not do to Question B proper (balanced fifteen-cut profiles, delta < 1/30).
+
+Please say plainly what you could not do. As before: full proofs or exact reproducible computations, statements labelled proved / computed / heuristic, and append the result as Part VI to answer.md.

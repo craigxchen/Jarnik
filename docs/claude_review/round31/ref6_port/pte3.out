@@ -1,0 +1,4 @@
+d=2 (X-degree 2d=4), S in [1,8]: max cluster 4 at ((1, 2), 'BB', 2)
+d=3 (X-degree 2d=6), S in [1,9]: max cluster 3 at ((1, 2, 3), 'AAA', 0)
+d=4 (X-degree 2d=8), S in [1,9]: max cluster 4 at ((1, 2, 3, 4), 'AABB', 2)
+d=5 (X-degree 2d=10), S in [1,9]: max cluster 5 at ((1, 2, 3, 4, 5), 'ABBBB', 4)

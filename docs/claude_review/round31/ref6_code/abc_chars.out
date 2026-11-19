@@ -1,0 +1,9 @@
+FF(q=43,b=3) label col H(.,a): |c|_1=44  w0/W=0.272  w1/W=0.751   (abc needs w0/W >= 1/4 - (delta/2) w1/W - o(1))
+FF(q=43,b=3) label col H(.,a): |c|_1=44  w0/W=0.272  w1/W=0.751   (abc needs w0/W >= 1/4 - (delta/2) w1/W - o(1))
+FF(q=43,b=4) label col H(.,a): |c|_1=44  w0/W=0.222  w1/W=0.704   (abc needs w0/W >= 1/4 - (delta/2) w1/W - o(1))
+FF(q=43,b=4) label col H(.,a): |c|_1=44  w0/W=0.222  w1/W=0.704   (abc needs w0/W >= 1/4 - (delta/2) w1/W - o(1))
+FF(q=43,b=6) label col H(.,a): |c|_1=44  w0/W=0.166  w1/W=0.649   (abc needs w0/W >= 1/4 - (delta/2) w1/W - o(1))
+FF(q=43,b=6) label col H(.,a): |c|_1=44  w0/W=0.166  w1/W=0.649   (abc needs w0/W >= 1/4 - (delta/2) w1/W - o(1))
+FF(q=43,b=10) label col H(.,a): |c|_1=44  w0/W=0.114  w1/W=0.599   (abc needs w0/W >= 1/4 - (delta/2) w1/W - o(1))
+FF(q=43,b=10) label col H(.,a): |c|_1=44  w0/W=0.114  w1/W=0.599   (abc needs w0/W >= 1/4 - (delta/2) w1/W - o(1))
+DC(q=43) pair e_x-e_y: |c|_1=2 w0/W=0.512 w1/W=0.512

@@ -1,0 +1,27 @@
+== L=16
+V = ['0b0', '0b1', '0b10100', '0b10101', '0b100000100', '0b100000101', '0b100010000', '0b100010001']
+even-degree primes in R: ['0b111', '0b10011']  deg R = 6
+number of S (deg<degR) meeting all trace conditions: 16 of 64
+S= 0b1000 deg T= 16  D= 48  deg N= 96  norms equal & in F_2[t]: True  N squarefree: True  distinct: True  pair diffs: [20, 24, 24, 24, 24, 20]  max<=D/2: True
+S= 0b1001 deg T= 16  D= 48  deg N= 96  norms equal & in F_2[t]: True  N squarefree: True  distinct: True  pair diffs: [20, 24, 24, 24, 24, 20]  max<=D/2: True
+S= 0b1110 deg T= 16  D= 48  deg N= 96  norms equal & in F_2[t]: True  N squarefree: True  distinct: True  pair diffs: [20, 24, 24, 24, 24, 20]  max<=D/2: True
+control: S violating some trace condition -> squarefree in 12 of 48
+all good S squarefree & cluster: True
+== L=17
+V = ['0b0', '0b1', '0b10100', '0b10101', '0b100000100', '0b100000101', '0b100010000', '0b100010001']
+even-degree primes in R: ['0b111', '0b10011']  deg R = 6
+number of S (deg<degR) meeting all trace conditions: 16 of 64
+S= 0b1010 deg T= 17  D= 51  deg N= 102  norms equal & in F_2[t]: True  N squarefree: True  distinct: True  pair diffs: [21, 25, 25, 25, 25, 21]  max<=D/2: True
+S= 0b1011 deg T= 17  D= 51  deg N= 102  norms equal & in F_2[t]: True  N squarefree: True  distinct: True  pair diffs: [21, 25, 25, 25, 25, 21]  max<=D/2: True
+S= 0b1100 deg T= 17  D= 51  deg N= 102  norms equal & in F_2[t]: True  N squarefree: True  distinct: True  pair diffs: [21, 25, 25, 25, 25, 21]  max<=D/2: True
+control: S violating some trace condition -> squarefree in 12 of 48
+all good S squarefree & cluster: True
+== L=15
+V = ['0b0', '0b1', '0b10100', '0b10101', '0b100000100', '0b100000101', '0b100010000', '0b100010001']
+even-degree primes in R: ['0b111', '0b10011']  deg R = 6
+number of S (deg<degR) meeting all trace conditions: 16 of 64
+S= 0b1000 deg T= 15  D= 45  deg N= 90  norms equal & in F_2[t]: True  N squarefree: True  distinct: True  pair diffs: [19, 23, 23, 23, 23, 19]  max<=D/2: False
+S= 0b1001 deg T= 15  D= 45  deg N= 90  norms equal & in F_2[t]: True  N squarefree: True  distinct: True  pair diffs: [19, 23, 23, 23, 23, 19]  max<=D/2: False
+S= 0b1110 deg T= 15  D= 45  deg N= 90  norms equal & in F_2[t]: True  N squarefree: True  distinct: True  pair diffs: [19, 23, 23, 23, 23, 19]  max<=D/2: False
+control: S violating some trace condition -> squarefree in 12 of 48
+all good S squarefree & cluster: False

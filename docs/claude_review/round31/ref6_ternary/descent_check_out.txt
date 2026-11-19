@@ -1,0 +1,7 @@
+raw points computed in F_729[t]; all coefficients lie in F_9. deg [8019, 8019, 8019, 8019] 0.3965005874633789
+closed form (VI.5) agrees with the direct product for all four marks
+raw norms equal and in F_3[t], deg 16038
+full gcd degree 1038  formal g*L = 1012
+reduced D 6981 parent deg 13962 diff degs [3471, 3457, 3457, 3471, 3471, 3457] D/2 3490.5
+lead coeffs [(1, 0), (1, 0), (1, 0), (1, 0)] G lead (1, 0)
+no point is the conjugate of another; gcd of reduced points: 0

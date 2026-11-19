@@ -1,0 +1,16 @@
+== four-mark (q=27,k=2): x,y,x+y,x-y, eps=+
+q=27 k=2 n=729 h=27 m=4 formal g(all)=92  slack (g-h)/2=32.5
+  4-subtuples: 1; Liouville balanced value 1/(2^4-2) = 0.07143, alpha_lim = 3.5000
+  delta_S in [0.05102,0.05102]  alpha in [3.6296,3.6296]  balance max/min in [1.000,1.000]  H/wbar in [0.857,0.857]  nonzero cuts 7..7 of 7
+== Astra five-mark (q=27,k=3): x,y,z,x+y,x+z, eps=+
+q=27 k=3 n=19683 h=729 m=5 formal g(all)=1301  slack (g-h)/2=286.0
+  5-subtuples: 1; Liouville balanced value 1/(2^5-2) = 0.03333, alpha_lim = 3.7500
+  delta_S in [0.01556,0.01556]  alpha in [3.8793,3.8793]  balance max/min in [1.077,1.077]  H/wbar in [2.864,2.864]  nonzero cuts 15..15 of 15
+== referee best five (q=27,k=3): x2,x1,x1+x2,x0,x0+x1-x2 ; eps (+,+,-,+,+)
+q=27 k=3 n=19683 h=729 m=5 formal g(all)=1379  slack (g-h)/2=325.0
+  5-subtuples: 1; Liouville balanced value 1/(2^5-2) = 0.03333, alpha_lim = 3.7500
+  delta_S in [0.01776,0.01776]  alpha in [3.8628,3.8628]  balance max/min in [1.262,1.262]  H/wbar in [2.876,2.876]  nonzero cuts 15..15 of 15
+== referee six (q=27,k=3), 5-subtuples
+q=27 k=3 n=19683 h=729 m=6 formal g(all)=833  slack (g-h)/2=52.0
+  5-subtuples: 6; Liouville balanced value 1/(2^5-2) = 0.03333, alpha_lim = 3.7500
+  delta_S in [0.01776,0.01776]  alpha in [3.8628,3.8628]  balance max/min in [1.262,1.262]  H/wbar in [2.876,2.876]  nonzero cuts 15..15 of 15

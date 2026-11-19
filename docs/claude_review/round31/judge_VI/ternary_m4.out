@@ -1,0 +1,13 @@
+n=729 h=27 m=4 formal g=92  sum exps=[729, 729, 729, 729]
+D=7007 (=(n-g)L=7007), monic, coefficients in F_9: True
+norms equal: True  deg N = 14014  in F_3[t] by construction (A^2+B^2)
+pair 0 1 deg diff (formal G only) = 3497  <= D/2 = 3503.5 True
+pair 0 2 deg diff (formal G only) = 3483  <= D/2 = 3503.5 True
+pair 0 3 deg diff (formal G only) = 3483  <= D/2 = 3503.5 True
+pair 1 2 deg diff (formal G only) = 3497  <= D/2 = 3503.5 True
+pair 1 3 deg diff (formal G only) = 3497  <= D/2 = 3503.5 True
+pair 2 3 deg diff (formal G only) = 3483  <= D/2 = 3503.5 True
+distinct: True
+no conj coincidences: True
+residual gcd degree of reduced points: 26
+full gcd of raw marks = formal g*L + residual = 1038 ; actual D = 6981

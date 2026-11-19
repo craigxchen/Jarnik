@@ -1,0 +1,2 @@
+best5 L=32 actual gcd degree 61470 (fullgcd3 predicted 61470) 18s
+D 568386 diffs [284076, 284076, 284076, 284076, 283725, 283725, 283725, 283725, 283725, 283711] floor(D/2) 284193 norms equal True norm in F_3 True

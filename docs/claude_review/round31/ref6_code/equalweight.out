@@ -1,0 +1,5 @@
+DCo(7): columns=14, min Hamming weight=4, needed > 3.5: PASS
+DCo(11): columns=22, min Hamming weight=8, needed > 5.5: PASS
+DCo(19): columns=38, min Hamming weight=8, needed > 9.5: EXCLUDED (equal weights)
+DCo(23): columns=46, min Hamming weight=8, needed > 11.5: EXCLUDED (equal weights)
+single Paley q=7 mod 8, first certificate: P1(311)      M= 312 cols=  311 unanch.rank= 156 distinct anchored patterns n= 311 anchored rank= 155 rank/n=0.498  certificate j=38

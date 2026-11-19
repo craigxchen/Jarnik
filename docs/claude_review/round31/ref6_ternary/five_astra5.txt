@@ -1,0 +1,4 @@
+astra5 L=67 D=(n-g)L=1231594 parent=2463188  max reduced diff=615589  D/2=615797.0  cluster(with formal gcd only): True  [8s]
+   reduced diff degrees [615238, 615589, 615224, 615197, 615589, 615238, 615238, 615589, 615589, 615224]
+astra5 L=66 D=(n-g)L=1213212 parent=2426424  max reduced diff=606684  D/2=606606.0  cluster(with formal gcd only): False  [7s]
+   reduced diff degrees [606333, 606684, 606319, 606292, 606684, 606333, 606333, 606684, 606684, 606319]

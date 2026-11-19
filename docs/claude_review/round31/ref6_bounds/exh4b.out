@@ -1,0 +1,8 @@
+d=4 B=0b1000 all T<2^17: least critical D'= (104, '0b10000000000000000', (0, 1, 0, 1, 0, 1, 0, 1))
+d=4 B=0b1001 all T<2^17: least critical D'= (104, '0b10000000000000000', (0, 0, 0, 0, 0, 0, 0, 0))
+d=4 B=0b1010 all T<2^17: least critical D'= (80, '0b10000000000000', (0, 1, 0, 1, 1, 0, 1, 0))
+d=4 B=0b1011 all T<2^17: least critical D'= None
+d=4 B=0b1100 all T<2^17: least critical D'= (80, '0b10000000000000', (0, 1, 1, 0, 0, 1, 1, 0))
+d=4 B=0b1101 all T<2^17: least critical D'= None
+d=4 B=0b1110 all T<2^17: least critical D'= (104, '0b10000000000000000', (0, 1, 0, 1, 0, 1, 0, 1))
+d=4 B=0b1111 all T<2^17: least critical D'= (104, '0b10000000000000000', (0, 0, 0, 0, 0, 0, 0, 0))

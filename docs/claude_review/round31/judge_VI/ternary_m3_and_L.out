@@ -1,0 +1,42 @@
+n=729 h=27 m=3 formal g=183  sum exps=[729, 729, 729]
+D=6006 (=(n-g)L=6006), monic, coefficients in F_9: True
+norms equal: True  deg N = 12012  in F_3[t] by construction (A^2+B^2)
+pair 0 1 deg diff (formal G only) = 2496  <= D/2 = 3003.0 True
+pair 0 2 deg diff (formal G only) = 2482  <= D/2 = 3003.0 True
+pair 1 2 deg diff (formal G only) = 2496  <= D/2 = 3003.0 True
+distinct: True
+no conj coincidences: True
+residual gcd degree of reduced points: 13
+full gcd of raw marks = formal g*L + residual = 2026 ; actual D = 5993
+n=729 h=27 m=4 formal g=92  sum exps=[729, 729, 729, 729]
+D=5733 (=(n-g)L=5733), monic, coefficients in F_9: True
+norms equal: True  deg N = 11466  in F_3[t] by construction (A^2+B^2)
+distinct: True
+no conj coincidences: True
+residual gcd degree of reduced points: 26
+full gcd of raw marks = formal g*L + residual = 854 ; actual D = 5707
+n=729 h=27 m=4 formal g=92  sum exps=[729, 729, 729, 729]
+D=6370 (=(n-g)L=6370), monic, coefficients in F_9: True
+norms equal: True  deg N = 12740  in F_3[t] by construction (A^2+B^2)
+distinct: True
+no conj coincidences: True
+residual gcd degree of reduced points: 26
+full gcd of raw marks = formal g*L + residual = 946 ; actual D = 6344
+L=9
+pair 0 1 deg diff (formal G only) = 2925  <= D/2 = 2866.5 False
+pair 0 2 deg diff (formal G only) = 2911  <= D/2 = 2866.5 False
+pair 0 3 deg diff (formal G only) = 2911  <= D/2 = 2866.5 False
+pair 1 2 deg diff (formal G only) = 2925  <= D/2 = 2866.5 False
+pair 1 3 deg diff (formal G only) = 2925  <= D/2 = 2866.5 False
+pair 2 3 deg diff (formal G only) = 2911  <= D/2 = 2866.5 False
+residual gcd degree of reduced points: 26
+full gcd of raw marks = formal g*L + residual = 854 ; actual D = 5707
+L=10
+pair 0 1 deg diff (formal G only) = 3211  <= D/2 = 3185.0 False
+pair 0 2 deg diff (formal G only) = 3197  <= D/2 = 3185.0 False
+pair 0 3 deg diff (formal G only) = 3197  <= D/2 = 3185.0 False
+pair 1 2 deg diff (formal G only) = 3211  <= D/2 = 3185.0 False
+pair 1 3 deg diff (formal G only) = 3211  <= D/2 = 3185.0 False
+pair 2 3 deg diff (formal G only) = 3197  <= D/2 = 3185.0 False
+residual gcd degree of reduced points: 26
+full gcd of raw marks = formal g*L + residual = 946 ; actual D = 6344

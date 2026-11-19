@@ -1,0 +1,8 @@
+best6 L=190 formal gL=158270 extra=17645 full gcd=175915  D=3563855 parent=7127710  max diff=1782179  floor(D/2)=1781927  cluster=False [24s]
+best6 L=192 formal gL=159936 extra=17861 full gcd=177797  D=3601339 parent=7202678  max diff=1800709  floor(D/2)=1800669  cluster=False [27s]
+best6 L=193 formal gL=160769 extra=18187 full gcd=178956  D=3619863 parent=7239726  max diff=1809756  floor(D/2)=1809931  cluster=True [27s]
+best6 L=194 formal gL=161602 extra=17858 full gcd=179460  D=3639042 parent=7278084  max diff=1819458  floor(D/2)=1819521  cluster=True [25s]
+best6 L=195 formal gL=162435 extra=18245 full gcd=180680  D=3657505 parent=7315010  max diff=1828444  floor(D/2)=1828752  cluster=True [26s]
+best6 L=196 formal gL=163268 extra=17885 full gcd=181153  D=3676715 parent=7353430  max diff=1838177  floor(D/2)=1838357  cluster=True [22s]
+best6 L=198 formal gL=164934 extra=17858 full gcd=182792  D=3714442 parent=7428884  max diff=1856950  floor(D/2)=1857221  cluster=True [26s]
+best6 L=200 formal gL=166600 extra=17885 full gcd=184485  D=3752115 parent=7504230  max diff=1875669  floor(D/2)=1876057  cluster=True [25s]

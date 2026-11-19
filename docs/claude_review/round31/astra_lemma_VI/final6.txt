@@ -1,0 +1,14 @@
+Appended [Part VI to answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/answer.md:1319). **The unrestricted density question remains open.** I obtained two exponent gains for genuine five-tuples and an obstruction covering all fixed curves of bounded degree.
+
+1. **PROVED.** The essential exponent is at least **4** if each Gaussian block is a bounded sum of \(S\)-units in a fixed number field, with coefficients of subpower height. The parent primes may vary freely.
+2. **PROVED.** This rules out dense endpoint constructions from independent powers and traces in finitely many fixed orders. An explicit relation among quadratic units shows where the proof fails if the orders vary.
+3. **PROVED.** The exponent is also at least **4** when \(G_e=a_eB+c_e\) for one arbitrary Gaussian integer \(B\) and subpower-height coefficients. This result places no restriction on prime support.
+4. **PROVED.** In that affine family, polynomial division confines \(B\) to a rational line or conic. The triangle determinant identity excludes the nonsplit conic. The surviving endpoint templates together sweep dimension at most two.
+5. **PROVED.** The fixed-cofactor cubic cover has Kodaira dimension zero. For each degree bound, all fixed algebraic curves carrying an infinite endpoint sequence lie in one proper closed set.
+6. **PROVED.** Without restrictions on the construction, one reduced Gaussian chord determines the five ratios up to \(H^{o(1)}\) choices. This gives at most \(H^{3/10+o(1)}\) ratio classes per dyadic height interval.
+7. **HEURISTIC.** For \(|G_e|\asymp P\), the volume prediction reaches one tuple at width \(P^{-5}\) and falls to \(P^{-4+o(1)}\) tuples at the endpoint width \(P^{-6+o(1)}\). The arithmetic count does not reach that prediction.
+8. **PROVED.** Four-point Pell families escape every prescribed closed set at arc length \(O_Z(R^{1/3})\). Other Pell families attain the literal \(R^{2/5}\) exponent.
+9. **COMPUTED.** Exact Gaussian gcd and chord checks passed at six indices for each four-point construction. [Certificate](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/vi_pell_four.py)
+10. **PROVED.** A five-point endpoint sequence would have to realize three-point sharpness on **all ten primitive triples simultaneously**. Its primitive quartets have a different cut profile from the sharp four-point Pell construction.
+11. **PROVED.** Dense solutions to \((*)\) would refute \(A_5(\delta)\) for every \(\delta<1/10\). They would leave the balanced fifteen-cut statement \((L_5^\circ)\) and the uniform arc bound open.
+12. **HEURISTIC.** I would referee VI.1’s fixed-place estimate and logarithmic determinant first, then VI.5’s passage from a numerical cofactor bound to an identity on the conic. The unresolved case is a sequence of genuine tuples with unrestricted, moving arithmetic data.
