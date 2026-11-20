@@ -60,6 +60,27 @@ $K_C$ is lossy: on all circles $N\le10^6$ no affine dependence of the exponent r
 $M-1-\omega(N')\le6$ for arc constant $\le9$, against $K_C=1150$ at $C'=8.24$. Novelty relative to the literature was checked only by
 snippet-level searches.
 
+> **Theorem 1.3** (**proved**; round 31, Part IX.2, the outside colleague's projection theorem, two referees and a
+> judge, 0 failures in 1.68 million exact tests; `round31/README_IX.md` §§1.2, 1.9(a), 3(a)). Let $M\ge3$ distinct
+> lattice points lie on $|z|=R$, $N=R^2$. For $0\ne b\in\mathbb Z[i]$ the integers $\mathrm{Re}(\bar bz_i)$ have
+> diameter $X_b$ with $2+X_b\gg M^{3/2}$ (absolute constant; $\gg M^2$ if no prime $p\equiv1\ (4)$, $p\le M$, divides
+> $N|b|^2$). Hence an arc of length $\le C\sqrt R$ whose midpoint direction $\theta$ satisfies
+> $|\sin(\theta-\arg b)|\le\kappa R^{-1/2}$ holds $\ll(|b|(C\kappa+C^2))^{2/3}+1$ points.
+
+Theorem 1.3 is Gallagher's larger sieve applied to the projected points, which lie on the conic $x^2+y^2=N|b|^2$
+and so occupy about half the residues modulo each prime. It is **position-dependent**: it gives
+$M=o(\log R/\log\log R)$ only when $|b|(1+\kappa)=o((\log R/\log\log R)^{3/2})$ (the classical projection count,
+`round4/hardness.md` Lemma 4.2(b), needs $o(\log R/\log\log R)$), and nothing for generic arcs, whose best Gaussian
+direction has height about $R^{1/4}$. In row language: for integers $c_i$ with $\sum c_i=2$ and
+$T(c)=\prod_pp^{|\sum_ic_ia_{ip}-e_p|}$ one has $(1+\|c\|_1)\sqrt{T(c)}\gg_CM^{3/2}$, so a combination with
+$(1+\|c\|_1)^2T(c)=o(\omega(N')^3)$ gives $M=o(\omega(N'))$; two rows with $\sum_p|a_{ip}+a_{jp}-e_p|\le2$ (two marks
+that are reflections of each other in a line of small height) force $P_+(N')\gg_CM^{3/2}$. The hypothesis is
+exceptional: generic clusters have $T\approx N'^{0.2\text{–}0.3}$, the extremal data of Theorem 1.1 admit no small
+certificate, and the record's large clusters are exactly symmetric, where the classical count already gives
+$O_C(1)$. Angle models satisfying every point-residue axiom violate the bound in a rational-direction window
+(Part IX.6), so it uses the integrality of the projected coordinates. The sieve step is probably folklore; no
+source was found.
+
 The proof compares an archimedean upper bound with an arithmetic lower bound for the product of the reduced chords.
 After dividing by $\gcd(z_1,\dots,z_M)$ (the *normalised* cluster: $N$ odd, all $p\mid N$ split,
 $z_j=\varepsilon_j\prod_p\pi_p^{a_{jp}}\bar\pi_p^{e_p-a_{jp}}$), put $c_{ij}=(z_i-z_j)/\gcd(z_i,z_j)$ (the reduced
@@ -97,23 +118,37 @@ $M=o(\log R/\log\log R)$. The record builds such fakes for several classes:
   (VIII.10); **proved**, four referee blocks and a judge's recheck of the mod-four support bound,
   `round31/README_VIII.md` §§1.3–1.5, 1.8). They have positive, not majority, Haar measure on the realisation
   component, and they are not checked against Lang–Waldschmidt. All margins are asymptotic ($q>10^{180}$ roughly).
+  The same profiles, with primes below $M^{11/6+o(1)}$ and weight $W\le(22/3+o(1))M\log M$, carry prime-residue
+  witnesses in $\mathbb Q(i)^*$ of the genuine norms that satisfy the character-tested factored residue axiom
+  (P3-char, `round5/round6_sharp/sharp.md` Def. 1.1 with the same-level clause) **at every modulus at once**
+  (round 31, Part IX.3–4; **proved**, `round31/README_IX.md` §§1.3–1.5). A separate family at larger prime height
+  also satisfies the single-label max-scale cross-gap at constant one (Part IX.5; **proved** modulo one Fourier-decay
+  citation not read in full; an elementary twelve-copy variant covers the finite test).
 * Residue designs extend this to point-level residues at moduli $\le M^A$ with $A$ fixed in advance
-  (`round5/construct.md`, `round5/lower.md`). Referee scope limits: all primes of $N$ must exceed the modulus bound
+  (`round5/construct.md`, `round5/lower.md`). Referee scope limits (removed for zero-sum characters by round 31, Part IX.3): all primes of $N$ must exceed the modulus bound
   $X$, and the twisted extension at $X=M^A$, $A>1$, is open (`round5/README.md`; `overview/overview.md` §5.2 item 2).
 * Grafts cap robust averaged analytic inputs (`round10/analytic.md` Thm B; `round20/composite.md`).
 
 Actual clusters satisfy $W\ge3M\log M-O(M)$. Not everything is capped. P3-all$^*$ and the sharp-constant large
 sieves (prime-only and non-multiplicative forms; the completely multiplicative, all-ideal, all-height sharp sieve
 of round 20 collapses: it forces genuine angles mod $\pi/4$, with $B_0=4$ attained by an irrational graft,
-ineffectively in the height; `round31/README.md` §1, sieve) remain uncapped,
-and the residue caps are not uniform in $A$; see `overview/overview.md` §5.5. The low-height window
-$P_+(N')\le M^{2-\delta}$ ($N'$ the normalised norm, $P_+(N')$ its largest prime factor) was the one regime with
-no known fake (`round21/README.md`). It is now **capped for $0<\delta<1/12$** for pair, cut, monomial-gap,
-rational-character and point-residue inputs at moduli $\le2M$ (round 31, Part VIII.3, the bullet above;
-`round31/README_VIII.md` §3(d)). It stays **open** for $\delta\ge1/12$, and in every window for prime-level
-residues, point residues at moduli $M^A$ with $A>1$, the union large sieve at the genuine constant and
-square-root-quality prime sums and box counts (`round31/README_VIII.md` §3(e)). Actual clusters have
-$P_+(N')\ge(2-o(1))M\log M$ (Theorem 1.2). The record's synthesis is a judge's assessment, **unrefereed**
+ineffectively in the height; `round31/README.md` §1, sieve) remain uncapped; see `overview/overview.md` §5.5.
+Residue caps uniform in the modulus are now proved for one class: residues that factor through prime residues of
+the genuine norms and are tested through zero-sum characters (P3-char) are capped at every modulus at once
+(round 31, Part IX.3, the bullet above), hence so are point residues at moduli $M^A$ with $A$ chosen after the
+cluster, for zero-sum characters at odd prime powers. Not capped: P3-all$^*$ (prime-level residues tested on every
+monomial at moduli $3M^A$), twisted point collisions ($\sum c\ne0$) at moduli $M^A$, the 2-adic clause, the
+operator-form union large sieve and the composite cross-gaps, every cross-gap inside the low-height window,
+square-root-quality prime sums and box counts, Lang–Waldschmidt, and the Gaussian-integer cocycle of the reduced
+chords. At the other end, with one rational lift per prime and all moduli at once, the all-monomial residue test at
+the single unit $-1$ on powers of single primes holds only on actual clusters (round 31, Part IX.7; **proved**);
+since such lifts exist at every finite modulus, this is the problem itself and says nothing about P3-all$^*$. So the
+residue column is settled at both ends and open in the middle (`round31/README_IX.md` §3(c)–(d)). The low-height
+window $P_+(N')\le M^{2-\delta}$ ($N'$ the normalised norm, $P_+(N')$ its largest prime factor) was the one regime
+with no known fake (`round21/README.md`). It is now **capped for $0<\delta<1/6$** for pair, cut, monomial-gap,
+rational-character, point-residue and character-tested prime-residue inputs (round 31, Parts VIII.3 and IX.4;
+`round31/README_VIII.md` §3(d), `round31/README_IX.md` §3(b)). It stays **open** for $\delta\ge1/6$ and for the
+uncapped inputs just listed. Actual clusters have $P_+(N')\ge(2-o(1))M\log M$ (Theorem 1.2). The record's synthesis is a judge's assessment, **unrefereed**
 (`round17/README.md` §7.1; `overview/overview.md` §7.6). It says a new mechanism must be global, multi-place and
 tied to the actual arithmetic of $N$. The only statements of that type in the record are Vojta-type, and their
 sharpest arithmetic forms are Questions A and B below.
@@ -696,12 +731,14 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
 1. **Local inputs.** These are pairs, gcds, cuts, monomial (Liouville) gaps, rational characters, and point-level
    residues at moduli $\le M^A$ with $A$ fixed in advance. Fakes at $W=O(M\log M)$ satisfy all of them (**proved**,
    with the scope limits of `overview/overview.md` §5.2 item 2).
-   Caveat: caps uniform in $A$ are not proved, and P3-all$^*$ is uncapped.
+   Caveat: caps uniform in $A$ are proved for zero-sum characters and for factored prime residues tested through
+   characters (round 31, Part IX.3), not for twisted collisions or the 2-adic clause; P3-all$^*$ is uncapped.
 2. **Averaged or robust analytic inputs.** This covers large sieves with non-sharp constants, prime sums or box
    counts with power-saving error, and "almost all" statements. Grafted fakes satisfy them (`round10/analytic.md`
    Thm B, **proved**; composite-supported version `round20/composite.md`, killer-checked). Inside the low-height window the
-   earlier exceptions (`round21/README.md`) stand only for $\delta\ge1/12$ or for the inputs listed as uncapped in
-   `round31/README_VIII.md` §3(e).
+   earlier exceptions (`round21/README.md`) stand only for $\delta\ge1/6$ or for the inputs listed as uncapped in
+   `round31/README_IX.md` §3(d). The single-label max-scale cross-gap at constant one is capped outside the window
+   (round 31, Part IX.5).
 3. **Auxiliary polynomials and single-place Diophantine approximation.**
    * On $X_M$: $\tau^*(M)=2-1/\lceil M/2\rceil<2$, so Liouville at $\infty$, and Ru–Vojta with $S=\{\infty\}$, never
      reach exponent $\frac12$ (`threshold/upper.md`, **proved**).
@@ -857,14 +894,15 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      "balance does not separate real clusters from fakes" (true only for pairwise balance); the "real-algebraic
      obstruction" lead (it was linear algebra, Prop K1).
 
-12. **Round 31 (eight exchanges with an outside colleague, "Astra"; 81 referee blocks and thirteen judge reports:
+12. **Round 31 (nine exchanges with an outside colleague, "Astra"; 89 referee blocks and fourteen judge reports:
    `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`,
-   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
+   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
    (Part V, unit-twisted points) was repaired by the referee. **The growth rate for general $R$, the uniform bound,
    Questions A and B and route 5 keep their status** (judges' scores on the goal: 2/10, 2/10, 1/10, 2/10, 1/10, 2/10,
-   1/10, 2/10, 2/10, 1.5/10, 1.5/10, 3/10, 2/10). Part VIII is the one pass about integer circles: it adds Theorem 1.2 (§1)
-   and caps the low-height window for $\delta<1/12$; on the Question B thread it shows that Question A contains
-   Rudin's conjecture (§2).
+   1/10, 2/10, 2/10, 1.5/10, 1.5/10, 3/10, 2/10, 2.5/10). Parts VIII and IX are about integer circles: Part VIII adds Theorem 1.2 (§1)
+   and the first fakes in the low-height window, and on the Question B thread shows that Question A contains
+   Rudin's conjecture (§2); Part IX adds Theorem 1.3 (§1), caps character-tested prime residues at every modulus
+   and extends the window cap to $\delta<1/6$.
    The other new theorems are in the function-field model (Parts IV, V and VI below): the uniform statement is true in
    characteristic 0, false over $\mathbb F_2(t)$ (also for squarefree parents) and false over $\mathbb F_3(t)$
    with the Gaussian form $A^2+B^2$. What is now in the record, all
@@ -1213,6 +1251,44 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
        for every $R$), then interpolation between Theorems 1.1 and 1.2 for $2<\kappa<3$ (2%). Do not write "the
        low-height window is uncapped", "Theorem 1.2 improves $\frac23$", "fakes violate the rank bound" or
        "coefficient $\frac12$ for integer radii" (only squarefull radii).
+   * ***Part IX: projections, and residue witnesses at all heights*** (`round31/README_IX.md`; eight referee
+     blocks; no error found; judge's score on the goal 2.5/10, quality as mathematics about 8/10). The colleague
+     was asked to beat the rank bound of Theorem 1.2 by an unbounded factor ($M=o(\omega(N'))$ would improve the
+     rate), or to prove the strongest obstruction.
+     * *Theorem IX.2* is Theorem 1.3 of §1, with its row certificate. Restricted and position-dependent; see the
+       scope paragraph there. Function-field check: proved for constant quadratic extensions only.
+     * *All-height factored fakes (IX.3)* (**proved**; the judge rechecked the same-level deletion at parent primes,
+       0 failures in 22,992 identities). The anchored exponent matrix $D$ of the Legendre profile has an integral
+       right inverse $U$; with $V=U(H-D)/2$ and $F=I+2V$ one has $DF=H$, and the witnesses
+       $r_j=i^{u_j}\pi_j\prod_l(\pi_l/\bar\pi_l)^{V_{jl}}$ have norm $p_j$ and make every mark ratio equal to
+       $\gamma_i/\gamma_{i'}$ at every odd prime power; at a parent prime the singular factor is deleted. The global
+       collision cost of a character is bounded once for all moduli because the colliding powers divide one nonzero
+       Gaussian integer. Corrections: $m/\omega(N')\to\frac12$ only along a diagonal; the witness heights depend on
+       $U$ and are enormous; "these witnesses fail the all-monomial test" is proved for these and for $S$-unit
+       witnesses only, at an astronomical modulus (computed for one $V$: failure already at modulus $3m$ for most
+       labels at $q=11,19$).
+     * *Window to $\delta<1/6$ (IX.4)* (**proved**): a Halász-type atom bound
+       $\sup_b\Pr(\sum w_iX_i=b)\le q^{o(1)}(A\sqrt{qh})^{-1}$ removes the condition that closed the parameter system
+       at $1/12$; it now closes at $1/6$, where the square-root support bound and the lift sup norm $q^{3/2}$ bind
+       together.
+     * *Cross-gap fakes (IX.5)* (**proved** modulo the Bourgain–Dyatlov Fourier-decay theorem, cited, hypotheses
+       checked, full text not read): each Legendre column replicated $g$ times, angles drawn from a measure on a
+       continued-fraction limit set conditioned on prescribed sums. Outside the window (prime height $m^d$, $d$
+       large and unspecified). Referee addition: these fakes satisfy round 21's union large sieve at the genuine
+       constant. As written the test includes the owner's own direction, where genuine angles fail it; the record
+       forms exclude it.
+     * *A fake in a rational-direction window (IX.6)* (**proved**): the integrality of projections is not implied by
+       the point-residue axioms. The remark that the Gram identity with real cofactor magnitudes permits the fakes
+       is correct and near-tautological; integrality of the cofactors and their cocycle relation stay outside.
+     * *Rigidity (IX.7)* (**proved**; judge rechecked line by line): §1. Referee addition: at every finite modulus
+       every factored datum is the reduction of some $r_j=\pi_j\gamma/\bar\gamma$ (Hilbert 90 and the Chinese
+       remainder theorem), so the rational-lift hypothesis has content only in the limit over all moduli.
+     * *Judge's reading*: the thread has capped every local and character-tested input at every height; the residue
+       route to the rate reduces to P3-all$^*$ (open since round 6) or to the problem itself. Recommended: one more
+       pass on P3-all$^*$, and to stop the residue route if it returns another fake. Do not write "P3-all is
+       capped", "every residue-type input is capped or is the problem itself", "point residues at moduli $M^A$ are
+       capped uniformly in $A$" (zero-sum characters only), "Part IX proves growth in the window", or "the max-scale
+       cross-gap is capped" without "single-label, outside the window".
    * ***Part VIII, Question B thread: hardness of Question A*** (`round31/README_VIIIL.md`; seven referee blocks;
      nothing false, one citation corrected; judge's score on the goal 2/10). The colleague was asked for the weakest
      hypothesis that gives the conjecture, or for a hardness statement, and took the second. Recorded in §2
@@ -1264,7 +1340,8 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 18: census, sandwich, lattice form, lifts, Prop 2.6 | `round18/README.md`, `round18/theory.md`, `round18/census.md`, `round18/lift.md` (with `referee_*.md`) |
 | round 19: Thm 2.4, Thm 3.3, non-unit residue | `round19/README.md`, `round19/theory.md`, `round19/search.md` (with `referee_*.md`) |
 | round 20: $(L_5^\circ)$, $V_E(5)$, Thm 4.1, Lemma K1 | `round20/README.md`, `round20/gauss.md`, `round20/kill_gauss.md` |
-| round 21 and round 31 Part VIII: low-height window (capped for $\delta<1/12$ for inputs up to point residues at $2M$; open otherwise) | `round21/README.md`, `round31/README_VIII.md` |
+| round 21 and round 31 Parts VIII–IX: low-height window (capped for $\delta<1/6$ for inputs up to character-tested prime residues; open otherwise) | `round21/README.md`, `round31/README_VIII.md`, `round31/README_IX.md` |
+| Theorem 1.3, orientation (projection) theorem | `round31/README_IX.md` §§1.2, 1.9(a), 3(a); `round31/ref9_proj.md` |
 | Theorem 1.2, $M\le1+\omega(N')+K_C$ | `round31/README_VIII.md` §§1.1, 1.8; `round31/ref8_rank.md`, `ref8_extend.md` |
 | fake circles and capped classes | `round4/outside.md`, `round5/construct.md`, `round8/lw.md`, `round10/analytic.md` |
 | mean-width Thm B, Cor C3 (auxiliary forms capped) | `threshold/construct.md` |
@@ -1273,7 +1350,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
 | round 29: function-field model, Li–Liu template, residue-class twin, 18 screened ideas (no change) | `round29/README.md` (with `kill_*.md`) |
 | round 30: function-field model decided as far as internal work goes (rank open, line closed; no change) | `round30/README.md` (with `kill_*.md`) |
-| round 31: outside colleague, eight refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; **on integer circles $M\le1+\omega(N')+K_C$ and fakes inside the low-height window**; **$(L_8)$ implies Rudin's conjecture**; no change to the growth rate for general $R$) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md` (with `ref*_*.md`, `langer_check.md`) |
+| round 31: outside colleague, nine refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; **on integer circles $M\le1+\omega(N')+K_C$ and fakes inside the low-height window**; **$(L_8)$ implies Rudin's conjecture**; no change to the growth rate for general $R$) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md` (with `ref*_*.md`, `langer_check.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check

@@ -1,4 +1,4 @@
-> **Round 31 has thirteen judge reports.** This file is the judge's report on the first pass (Part I). Later passes:
+> **Round 31 has fourteen judge reports.** This file is the judge's report on the first pass (Part I). Later passes:
 > `README_II.md`, `README_III.md`, `README_IV.md` (open thread, Part IV: the orbifold-BMY inequality (IV.2), the
 > uniform bound in the function-field model, the characteristic-2 construction), `README_IVL.md` (Question B
 > thread, Part IV: the norm defect), `README_V.md` (open thread, Part V: unbounded clusters over the fixed field
@@ -13,10 +13,12 @@
 > question open); `README_VIII.md` (open thread, Part VIII, back on integer circles: the rank theorem
 > $M\le1+\omega(N')+K_C$, a height-order inequality, angle-model fakes inside the low-height window); `README_VIIIL.md` (Question B
 > thread, Part VIII: $(L_8)$ implies Rudin's conjecture and a divisor bound below Lenstra's exponent $1/4$; round
-> 8's fixed-threshold Subspace hypothesis is false; conditional growth from relative-height counts). Referee reports: `ref_*.md` (I), `ref2_*.md` (II),
+> 8's fixed-threshold Subspace hypothesis is false; conditional growth from relative-height counts); `README_IX.md` (open thread, Part IX: a projection theorem for
+> arcs near rational directions; fakes with prime-residue witnesses at every modulus and in a deeper window;
+> cross-gap fakes; rigidity for rational witnesses). Referee reports: `ref_*.md` (I), `ref2_*.md` (II),
 > `ref3_*.md` (III), `ref4_*.md` and `ref4L_*.md` (IV), `ref5_*.md` and `ref5L_*.md` (V), `ref6_*.md` and
 > `ref6L_*.md` (VI), `ref7_*.md` and `ref7L_*.md` (VII; `ref7L_alpha_*.md` are three further checks of the bound
-> $\alpha^{\rm ess}_e(-K)\le4$), `ref8_*.md` and `ref8L_*.md` (VIII). `lit8L_*.md` are a later check of the Part VIII literature claims against full
+> $\alpha^{\rm ess}_e(-K)\le4$), `ref8_*.md` and `ref8L_*.md` (VIII), `ref9_*.md` (IX). `lit8L_*.md` are a later check of the Part VIII literature claims against full
 > texts (three readers and an adversarial verifier; `lit8L_verify.md` is the consolidated statement). `langer_check.md` records the check of Langer's Theorem 0.1 in the original. The
 > coordinator's messages are `astra_brief.txt`, `astra_*/reply*.txt` and `astra_*_reply4.txt`; the colleague's
 > cumulative reports are `astra_free_VI/answer.md` and `astra_lemma_VI/answer.md` (Parts I-VI).

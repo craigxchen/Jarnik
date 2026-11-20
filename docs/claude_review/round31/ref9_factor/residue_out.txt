@@ -1,0 +1,9 @@
+q=11 rho=1.0 seed=0 m=5 windings=even: exterior pair identities=360, exterior random characters=7200, same-level identities=90, failures=0; owner unique=True; different-level pairs with the same ratio=88/150
+q=19 rho=1.0 seed=0 m=9 windings=even: exterior pair identities=1296, exterior random characters=7200, same-level identities=756, failures=0; owner unique=True; different-level pairs with the same ratio=396/972
+q=19 rho=0.8 seed=1 m=8 windings=even: exterior pair identities=1008, exterior random characters=7200, same-level identities=588, failures=0; owner unique=True; different-level pairs with the same ratio=429/756
+q=23 rho=0.9 seed=2 m=9 windings=even: exterior pair identities=864, exterior random characters=4800, same-level identities=648, failures=0; owner unique=True; different-level pairs with the same ratio=456/792
+q=31 rho=0.9 seed=0 m=14 windings=even: exterior pair identities=2184, exterior random characters=4800, same-level identities=2366, failures=0; owner unique=True; different-level pairs with the same ratio=750/2730
+q=19 rho=1.0 seed=0 m=9 windings=odd: exterior pair identities=1296, exterior random characters=720, same-level identities=756, failures=1656; owner unique=True; different-level pairs with the same ratio=168/972
+negative control (an odd winding difference) failures: 1656
+global collision test q=19: 12384 (pair, unit, Q) equivalences collision <=> Q | A - u0 conj A; max odd|Im|/(L0|dbeta|) = 0.8416
+TOTAL failures in positive tests: 0

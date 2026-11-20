@@ -1,0 +1,19 @@
+{'q': 11, 'm': 5, 'ext_pair': 960, 'ext_char': 960, 'lev': 180, 'lev_exp': 30, 'fail': 0, 'maxU': 18}
+{'q': 11, 'm': 4, 'ext_pair': 576, 'ext_char': 960, 'lev': 108, 'lev_exp': 18, 'fail': 0, 'maxU': 3}
+{'q': 11, 'm': 5, 'ext_pair': 960, 'ext_char': 960, 'lev': 180, 'lev_exp': 30, 'fail': 0, 'maxU': 18}
+{'q': 11, 'm': 5, 'ext_pair': 960, 'ext_char': 960, 'lev': 180, 'lev_exp': 30, 'fail': 0, 'maxU': 18}
+{'q': 11, 'm': 5, 'ext_pair': 960, 'ext_char': 960, 'lev': 180, 'lev_exp': 30, 'fail': 0, 'maxU': 18}
+None
+{'q': 19, 'm': 9, 'ext_pair': 3456, 'ext_char': 960, 'lev': 1512, 'lev_exp': 252, 'fail': 0, 'maxU': 46675980}
+{'q': 19, 'm': 8, 'ext_pair': 2688, 'ext_char': 960, 'lev': 1176, 'lev_exp': 196, 'fail': 0, 'maxU': 7680108}
+{'q': 19, 'm': 9, 'ext_pair': 3456, 'ext_char': 960, 'lev': 1512, 'lev_exp': 252, 'fail': 0, 'maxU': 46675980}
+{'q': 19, 'm': 9, 'ext_pair': 3456, 'ext_char': 960, 'lev': 1512, 'lev_exp': 252, 'fail': 0, 'maxU': 46675980}
+{'q': 19, 'm': 9, 'ext_pair': 3456, 'ext_char': 960, 'lev': 1512, 'lev_exp': 252, 'fail': 0, 'maxU': 46675980}
+{'q': 19, 'm': 6, 'ext_pair': 1440, 'ext_char': 960, 'lev': 630, 'lev_exp': 105, 'fail': 0, 'maxU': 627}
+{'q': 23, 'm': 11, 'ext_pair': 5280, 'ext_char': 960, 'lev': 2970, 'lev_exp': 495, 'fail': 0, 'maxU': 281630518}
+{'q': 23, 'm': 8, 'ext_pair': 2688, 'ext_char': 960, 'lev': 1512, 'lev_exp': 252, 'fail': 0, 'maxU': 1486}
+{'q': 23, 'm': 11, 'ext_pair': 5280, 'ext_char': 960, 'lev': 2970, 'lev_exp': 495, 'fail': 0, 'maxU': 281630518}
+{'q': 23, 'm': 9, 'ext_pair': 3456, 'ext_char': 960, 'lev': 1944, 'lev_exp': 324, 'fail': 0, 'maxU': 3180306}
+{'q': 23, 'm': 11, 'ext_pair': 5280, 'ext_char': 960, 'lev': 2970, 'lev_exp': 495, 'fail': 0, 'maxU': 281630518}
+{'q': 23, 'm': 9, 'ext_pair': 3456, 'ext_char': 960, 'lev': 1944, 'lev_exp': 324, 'fail': 0, 'maxU': 3997266}
+odd control {'q': 19, 'm': 9, 'ext_pair': 3456, 'ext_char': 960, 'lev': 0, 'lev_exp': 0, 'fail': 1532, 'maxU': 46675980}

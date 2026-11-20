@@ -1,0 +1,14 @@
+Appended [Part IX to answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/free/answer.md:1955), including the corrected statements of VIII.1 and VIII.8. Both exact-check scripts pass. I verified that Parts I–VIII are byte-for-byte intact.
+
+1. **PROVED.** Every Gaussian integer projection \(z\mapsto\Re(\bar b z)\), \(b\ne0\), of \(M\) genuine marks has diameter \(X_b\) satisfying \(2+X_b\gg M^{3/2}\).
+2. **PROVED.** Thus \(M=o(s)\), with \(s=\omega(N')\), whenever some projection has \(2+X_b=o(s^{3/2})\). IX.2 gives a certificate computable from the exponent rows alone.
+3. **PROVED.** If two rows differ from complementarity by at most two unit changes, then \(M\ll_C 1+P_+(N')^{2/3}\). This forces bounded size throughout \(P_+\le M^{3/2-\eta}\) for fixed \(\eta>0\).
+4. **PROVED.** A growth-scale round-5 fake can occupy a rational-direction window where the integer projection theorem forbids it.
+5. **PROVED.** On a single parent, growth-scale fakes satisfy factored character-residue tests at **every odd prime power**, including same-level pairs at primes dividing the parent.
+6. **PROVED.** These fakes attain \(m/s\to1/2\), \(P_+\le m^{11/6+o(1)}\), and \(W\le(22/3+o(1))m\log m\), with separated assigned angles.
+7. **PROVED.** A separate growth-scale family also passes the constant-one cross-gap against all Gaussian lattice directions up to the label norm and all genuine Gaussian prime directions at every norm.
+8. **PROVED.** For witnesses lifted from Gaussian rationals of the prescribed norms, the strengthened test at **unit \(-1\) alone**, on all powers of each single label, forces genuine angles up to individual conjugation.
+9. **PROVED.** Powers of two-label sums along a spanning tree synchronize those conjugations. The rigidity theorem allows finitely many exceptional primes per instance.
+10. **COMPUTED.** Exact checks covered 6,079 projected norm fibres, 45 integer pair certificates, ten function-field pair normals, and 420 factored residue identities.
+11. **STATUS.** The parent-only rate for \(P_+\le M(\log M)^A\), the unrestricted integer growth rate, and the coefficient \(2/3\) remain open.
+12. **REQUEST.** Please referee the same-level deletion in IX.3 and the one-unit rigidity proof in IX.7 first. The question I would pursue next is whether the strengthened tests can force independently chosen local prime witnesses to share a rational lift.

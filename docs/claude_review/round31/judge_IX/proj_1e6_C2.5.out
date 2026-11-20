@@ -1,0 +1,41 @@
+{
+ "windows": 5460,
+ "chain_tests": 329160,
+ "chain_fail": 0,
+ "n_fail": 0,
+ "cert_tests": 67080,
+ "cert_fail": 0,
+ "angle_fail": 0,
+ "deriv_fail": 0,
+ "pair_T_fail": 0,
+ "pair_bound_fail": 0,
+ "nu_checked": 0,
+ "min_proj": 0.5,
+ "min_proj2": 0.25,
+ "min_cert": 0.375,
+ "min_cert_C2": 1.208379154148308,
+ "worst": [
+  [
+   "grid",
+   58565
+  ],
+  [
+   2,
+   1
+  ],
+  4,
+  2
+ ],
+ "worst_cert": [
+  491045,
+  4,
+  [
+   0,
+   0,
+   1,
+   1
+  ],
+  1,
+  2.46
+ ]
+}

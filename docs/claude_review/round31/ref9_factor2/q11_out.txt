@@ -1,0 +1,25 @@
+q=11 marks [2, 6, 7, 8, 10] U shape 10 x 4 max|U| = 9 max|V| = 13 max|F| = 26
+exact Q(i) identity rho_x/rho_y = gamma_x/gamma_y holds for all 10 pairs
+exterior pair identities: 330  same-level identities: 90
+rows with J_j > p_j: 7 of 10 ; log10(J_j/p_j) = [171, 256, 252, 1, 166, 86, 26, 22, 1, 1]
+first singleton e-all failures (ell, p_j, s): [(13, 101, 0), (13, 157, 0), (17, 101, 0), (23, 173, 3), (31, 109, 1), (37, 157, 2)]
+contains (23,173,3): True
+  row 0 p_j 101 first n=0 mod 4 (<=40) with exterior part of Im(alpha^n) > p_j^(n/2): 4
+  row 1 p_j 109 first n=0 mod 4 (<=40) with exterior part of Im(alpha^n) > p_j^(n/2): 4
+  row 2 p_j 113 first n=0 mod 4 (<=40) with exterior part of Im(alpha^n) > p_j^(n/2): 4
+  row 3 p_j 137 first n=0 mod 4 (<=40) with exterior part of Im(alpha^n) > p_j^(n/2): None
+  row 8 p_j 193 first n=0 mod 4 (<=40) with exterior part of Im(alpha^n) > p_j^(n/2): None
+  row 9 p_j 197 first n=0 mod 4 (<=40) with exterior part of Im(alpha^n) > p_j^(n/2): None
+
+q=11 marks [2, 6, 7, 8, 10] U shape 10 x 4 max|U| = 18 max|V| = 24 max|F| = 48
+exact Q(i) identity rho_x/rho_y = gamma_x/gamma_y holds for all 10 pairs
+exterior pair identities: 330  same-level identities: 90
+rows with J_j > p_j: 5 of 10 ; log10(J_j/p_j) = [1, 57, 1, 1, 170, 262, 457, 523, 1, 1]
+first singleton e-all failures (ell, p_j, s): [(17, 157, 0), (19, 109, 3), (29, 149, 0), (29, 181, 0), (31, 109, 1), (43, 109, 2)]
+contains (23,173,3): False
+  row 0 p_j 101 first n=0 mod 4 (<=40) with exterior part of Im(alpha^n) > p_j^(n/2): None
+  row 1 p_j 109 first n=0 mod 4 (<=40) with exterior part of Im(alpha^n) > p_j^(n/2): 4
+  row 2 p_j 113 first n=0 mod 4 (<=40) with exterior part of Im(alpha^n) > p_j^(n/2): None
+  row 3 p_j 137 first n=0 mod 4 (<=40) with exterior part of Im(alpha^n) > p_j^(n/2): None
+  row 8 p_j 193 first n=0 mod 4 (<=40) with exterior part of Im(alpha^n) > p_j^(n/2): None
+  row 9 p_j 197 first n=0 mod 4 (<=40) with exterior part of Im(alpha^n) > p_j^(n/2): None

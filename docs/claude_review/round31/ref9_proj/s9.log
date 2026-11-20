@@ -1,0 +1,3 @@
+windows 6413 time 7.124345064163208
+time 34.64644169807434
+{"windows": 6413, "sieve_fail": 0, "angle_fail": 0, "deriv_fail": 0, "ident_fail": 0, "min_ratio_proj": 0.2651650429449553, "min_ratio_proj_arg": [5, 8, [1, 0], 4], "min_ratio_proj_sharp": 0.1111111111111111, "min_ratio_cert": 0.1111111111111111, "min_ratio_cert_arg": [65, 9, ["pair", [1, 0, 0, 1, 0, 0, 0, 0, 0], 1]]}

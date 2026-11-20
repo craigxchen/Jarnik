@@ -1,0 +1,8 @@
+windows 108320
+k 1 threshold C' < 1.41421 cost 0 tested 7944 failures 0
+k 2 threshold C' < 1.68179 cost 1 tested 17936 failures 0
+k 3 threshold C' < 1.83401 cost 3 tested 26984 failures 0
+k 4 threshold C' < 2.0 cost 3 tested 35464 failures 0
+k 5 threshold C' < 2.08855 cost 7 tested 39808 failures 0
+k 6 threshold C' < 2.18102 cost 7 tested 43560 failures 0
+bare-row dependences at C'<2: 0

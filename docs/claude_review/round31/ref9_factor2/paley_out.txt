@@ -1,0 +1,16 @@
+S = A (rho = 1) q 43 m 21 characters tested 25445 violations of the three VIII.3 bounds: 0
+   min (h - n)/q by range: {'n<=q/10': (1.302, 4, 60), 'q/10<n<=m': (1.535, 6, 72), 'n>m': (4.279, 22, 206)}
+   real correction: 2K_S t = eps - (2/q)sum(eps) and v.t = c.eps/2 verified exactly; max|t| <= max eps/2
+   spread: (Kb)_x - (Kb)_x0 integral for all marks => windings 2Kb have EVEN differences; T = [25, 32, 16] ; sample diffs [0, 3, 5, 0, -1, 0]
+S random, density 0.9 q 43 m 17 characters tested 12680 violations of the three VIII.3 bounds: 0
+   min (h - n)/q by range: {'n<=q/10': (1.302, 4, 60), 'q/10<n<=m': (1.535, 6, 72), 'n>m': (3.721, 18, 178)}
+   real correction: 2K_S t = eps - (2/q)sum(eps) and v.t = c.eps/2 verified exactly; max|t| <= max eps/2
+   spread: (Kb)_x - (Kb)_x0 integral for all marks => windings 2Kb have EVEN differences; T = [4, 28, 33] ; sample diffs [0, -1, -1, -1, -3, 0]
+S = A (rho = 1) q 67 m 33 characters tested 142628 violations of the three VIII.3 bounds: 0
+   min (h - n)/q by range: {'n<=q/10': (1.343, 4, 94), 'q/10<n<=m': (1.881, 8, 134), 'n>m': (5.731, 36, 420)}
+   real correction: 2K_S t = eps - (2/q)sum(eps) and v.t = c.eps/2 verified exactly; max|t| <= max eps/2
+   spread: (Kb)_x - (Kb)_x0 integral for all marks => windings 2Kb have EVEN differences; T = [21, 59, 28] ; sample diffs [0, -7, -10, -7, -8, -8]
+S random, density 0.9 q 67 m 29 characters tested 85715 violations of the three VIII.3 bounds: 0
+   min (h - n)/q by range: {'n<=q/10': (1.343, 4, 94), 'q/10<n<=m': (1.97, 8, 140), 'n>m': (4.806, 30, 352)}
+   real correction: 2K_S t = eps - (2/q)sum(eps) and v.t = c.eps/2 verified exactly; max|t| <= max eps/2
+   spread: (Kb)_x - (Kb)_x0 integral for all marks => windings 2Kb have EVEN differences; T = [7, 47, 13] ; sample diffs [0, -1, -1, -4, -3, -5]

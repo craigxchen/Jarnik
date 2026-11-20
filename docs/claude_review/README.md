@@ -290,6 +290,17 @@ bound itself is not known to imply Rudin. Round 8's Subspace hypothesis QS with 
 false in every dimension; two conditional growth statements from relative-height counting hypotheses are correct
 but their hypotheses are non-standard. The growth rate, the uniform bound and Question B are unchanged.
 
+The ninth exchange on the open thread (`round31/README_IX.md`) asked for `M = o(omega(N'))`, which would improve
+the rate. No error was found. One new unconditional theorem (expert note, Theorem 1.3): the projections of `M`
+lattice points of a circle onto any Gaussian-integer direction `b` spread over an interval of length `>> M^(3/2)`,
+so an arc within angle `kappa R^(-1/2)` of the direction of `b` holds `<< (|b|(C kappa + C^2))^(2/3) + 1` points.
+It is position-dependent and says nothing for generic arcs. The rest is on the barrier side: fake circles now
+satisfy prime-level residue tests through characters at every modulus at once, the low-height window is capped for
+`delta < 1/6`, a separate family passes the single-label cross-gap test at constant one, and a rigidity theorem
+shows that the all-monomial residue test with rational witnesses at all moduli holds only on actual clusters. The
+residue route to the rate is thereby reduced to one class open since round 6 (P3-all*) or to the problem itself.
+**The growth rate for general `R` is unchanged.**
+
 **Growth-rate status (2026-11-19, after round 31).** No growth improvement over `log R/loglog R` is proved
 unconditionally; conditionally only Vojta-type routes are known, and they give the uniform bound directly. The following are capped at `log R/loglog R` by
 refereed barrier theorems:

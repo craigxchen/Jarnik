@@ -1,0 +1,12 @@
+control: (2+i)^6 = (-117, 44) ; exterior unit -1 collision part 9*13 = 117; 3/5 < 117/125: e-all FAILS at X>=13
+clean real part OK for alpha = (-2, 29) E = (2, 3, 5, 7, 13) L = 48
+clean real part OK for alpha = (-2, 29) E = (2, 5, 13, 17, 29, 3, 11) L = 1680
+fake lift r=(2+i)(3+2i)/(3-2i), phi=arg r: first e-all(unit -1) failure at n, m, Re: (1, 1, -2)
+same lift with phi = arg(2+i): first failure at n, m = (2, 837)
+genuine 2+i with phi=beta passes rays n<=119 (trivially m <= |Re|)
+cutoff 40, seed 0 : data lifted by r = (2+i)*gamma/conj(gamma), norm(gamma) has 26 digits
+cutoff 40, seed 1 : data lifted by r = (2+i)*gamma/conj(gamma), norm(gamma) has 25 digits
+cutoff 40, seed 2 : data lifted by r = (2+i)*gamma/conj(gamma), norm(gamma) has 26 digits
+cutoff 40, seed 3 : data lifted by r = (2+i)*gamma/conj(gamma), norm(gamma) has 26 digits
+cutoff 40, seed 4 : data lifted by r = (2+i)*gamma/conj(gamma), norm(gamma) has 25 digits
+ALL CHECKS DONE

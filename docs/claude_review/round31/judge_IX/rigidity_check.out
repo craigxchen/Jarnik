@@ -1,0 +1,6 @@
+A fake lift, genuine angle: (2, 323, 19, 0.38461538461538464, 24.846153846153847)
+A' fake lift (gamma=4+i): (1, 29, 29, 0.8320502943378437, 8.043152845265823)
+B genuine lift, wrong angle: (4, 119, 17, 0.26285827487652447, 0.7041420118343196)
+B2 genuine lift, angle +arg pi + pi/5: (1, 3, 3, 0.347098233509062, 0.8320502943378437)
+C genuine: None
+C2 genuine conj angle: None

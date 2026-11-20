@@ -997,9 +997,9 @@ $p_j\le M^{h_0}$, $X=3M^A$ and $A$ is chosen after $c_0$ (`round9/README.md` §0
   primes in very short intervals.
 * **The low-height window** $P_+(N')\le M^{2-\delta}$: **uncapped, and no restricted growth theorem is known there**.
   This is the round-21 status (`round21/README.md` §§2–3; referee-corrected). No fakes were known there.
-  **Round 31, Part VIII (`round31/README_VIII.md`): capped for $0<\delta<1/12$** for pair, monomial-gap,
-  rational-character and point-residue inputs at moduli $\le2M$, at $W\le(23/3+o(1))M\log M$; open for
-  $\delta\ge1/12$ and for the inputs listed there in §3(e). Actual clusters have $P_+(N')\ge(2-o(1))M\log M$
+  **Round 31, Parts VIII–IX (`round31/README_VIII.md`, `round31/README_IX.md`): capped for $0<\delta<1/6$** for
+  pair, monomial-gap, rational-character, point-residue and character-tested prime-residue inputs, at
+  $W\le(22/3+o(1))M\log M$; open for $\delta\ge1/6$ and for the inputs listed in `round31/README_IX.md` §3(d). Actual clusters have $P_+(N')\ge(2-o(1))M\log M$
   (expert note, Theorem 1.2).
   * *Why the record's fakes need $P\gtrsim r^2$.* An equal-weight window $[a,ae^{1/(4r)}]$ holding $r$ split primes needs
     $a\ge16r(r-1)e^{-1/(4r)}$ (judge J1; **unrefereed**, exact check). Haar/union-bound completion succeeds on a
