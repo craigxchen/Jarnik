@@ -1,0 +1,2 @@
+QMAX 12000 CAP 1.3 {'moduli': 7292, 'admissible': 4521, 'nondeg': 2, 'fail_div': 0, 'fail_mod4': 0, 'fail_cap': 0}
+smallest max^2/(qg) over nondegenerate triples with g<q: (Fraction(119, 95), 11305, 1, (95, 109, 119))

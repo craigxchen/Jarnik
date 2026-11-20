@@ -1,0 +1,2 @@
+QMAX 2500 CAP 3 {'moduli': 1522, 'admissible': 10307, 'nondeg': 374, 'fail_div': 0, 'fail_mod4': 0, 'fail_cap': 0}
+smallest max^2/(qg) over nondegenerate triples with g<q: (Fraction(55, 39), 2145, 1, (39, 49, 55))

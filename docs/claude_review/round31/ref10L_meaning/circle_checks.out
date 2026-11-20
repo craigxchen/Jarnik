@@ -1,0 +1,4 @@
+m 11 a=S_v-S_w: sum a=0 and a.b_h = +-(m+1)/2 on h=v,w, 0 elsewhere: True  ||a||_1 max 12
+m 19 a=S_v-S_w: sum a=0 and a.b_h = +-(m+1)/2 on h=v,w, 0 elsewhere: True  ||a||_1 max 20
+m 43 a=S_v-S_w: sum a=0 and a.b_h = +-(m+1)/2 on h=v,w, 0 elsewhere: True  ||a||_1 max 44
+Gram entries z_i conj z_j = h*unit*X_ij^2 failures: 0 of 900 ; q^3 det(Re-Gram)=0 on all 300 genuine triples

@@ -926,12 +926,12 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      "balance does not separate real clusters from fakes" (true only for pairwise balance); the "real-algebraic
      obstruction" lead (it was linear algebra, Prop K1).
 
-12. **Round 31 (nine exchanges with an outside colleague, "Astra"; 97 referee blocks and fifteen judge reports:
+12. **Round 31 (ten exchanges with an outside colleague, "Astra"; 102 referee blocks and sixteen judge reports:
    `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`,
-   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`, `README_IXL.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
+   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`, `README_IXL.md`, `README_XL.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
    (Part V, unit-twisted points) was repaired by the referee. **The growth rate for general $R$, the uniform bound,
    Questions A and B and route 5 keep their status** (judges' scores on the goal: 2/10, 2/10, 1/10, 2/10, 1/10, 2/10,
-   1/10, 2/10, 2/10, 1.5/10, 1.5/10, 3/10, 2/10, 2.5/10, 2.5/10). Parts VIII and IX are about integer circles: Part VIII adds Theorem 1.2 (§1)
+   1/10, 2/10, 2/10, 1.5/10, 1.5/10, 3/10, 2/10, 2.5/10, 2.5/10, 2/10). Parts VIII and IX are about integer circles: Part VIII adds Theorem 1.2 (§1)
    and the first fakes in the low-height window, and on the Question B thread shows that Question A contains
    Rudin's conjecture (§2); Part IX adds Theorem 1.3 (§1), caps character-tested prime residues at every modulus
    and extends the window cap to $\delta<1/6$; on the Question B thread it gives a rate for random parents at the
@@ -1393,7 +1393,38 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      relaxation isolates the triangle identity" (without "equivalently, the signed pair residues modulo $q$"),
      "fakes fail the same-norm test", "$(L_8^{pc})$ is open" (printed form), "$(L_8^{pc})$ is Rudin-hard" (either
      form), or "the twin rate implies the circle rate" or its converse.
-   * *Withdrawn or corrected in the round:* the claim that the lattice form $(L_8^{pc})$ is open (as first printed
+   * ***Part X of the Question B thread: signed residues on one fixed modulus*** (`round31/README_XL.md`; five
+     referee blocks; nothing false; judge's score 2/10). In the critical two-class problem ($q$ squarefree, interval
+     $C\sqrt q$, classes at each $p\mid q$ differing by $\delta_p$), a *sign-free table* prescribes for each pair of
+     marks an integer $d_{ij}$ with $0<|d_{ij}|\le C\sqrt q$, $\gcd(d_{ij},q)=h_{ij}$ and
+     $d_{ij}\equiv\pm\delta_p\pmod p$ at every separating $p$, the sign free per pair and per prime. **Proved:** on
+     every triple $q^2g^2$ divides the Heron product $(a+b+c)(-a+b+c)(a-b+c)(a+b-c)$ of the three magnitudes ($g$ the
+     product of the primes constant on the triple), so a nondegenerate triple has a side $\ge\sqrt{qg}$ (sharp, also
+     at $g=1$). With Menger's line-embedding theorem (1928) this gives
+     $B_{\rm int}\le B_{\rm free}\le2\max(4,B_{\rm int})$ whenever $q$ has a prime $p>C^2$ (no loss at $C=1$), and on
+     parents with all primes in $[P,2P]$ every sign-free table of $B$ rows becomes a genuine configuration on the same
+     modulus and interval after deleting $O_C(1+s/B)$ rows. So the pair-level square congruences already force
+     genuineness: among the relaxations studied in the record nothing lies strictly between the valuation data of
+     Part IX (which reach the larger-sieve constant $\frac12$) and the genuine problem. No sign-free table exists on
+     the Paley cut pattern of Part IX for any modulus and prime assignment: on the full core at length $C\sqrt q$ and,
+     with equal numbers of primes per column, at $q^{5/8-\epsilon}$; and at critical length on every set of at least
+     $(3/5+\epsilon)m$ rows (two primes per column) or $(2/3+\epsilon)m$ rows (one prime). For genuine configurations
+     only the row-subset statement is new. **Open:** a worst-case $o(\omega(q))$ bound; a genuine example of order
+     $\omega(q)$; the half-row Paley pattern, which is the row class of the circle fakes (excluded computationally at
+     $m=19,23$ for large primes). **The mechanism does not transfer to circles**: separated squared chords modulo a
+     split prime are not constant (norm 65: chords of squared length 52 and 4 at the prime 5), circle triangles never
+     degenerate, and the only Heron identity there is $\mathrm{area}=2g|t_{12}t_{23}t_{13}|$. Linear
+     (column-orthogonality) certificates succeed on a cut pattern exactly when its lattice has no nonconstant short
+     vector, a problem of the same type as the twin itself. **The growth rate for general $R$, the uniform bound and
+     Questions A and B are unchanged**; on the judge's advice the two-class thread is closed. Do not write "Part X
+     proves Conjecture 9 for Paley moduli", "the sign-free relaxation is a new barrier", "there is no relaxation
+     between valuation data and the genuine problem" (say "none among those studied"), "Paley profiles are
+     impossible in the twin" (without "full core, or at least $3/5$ of the rows"), "the circle fakes are impossible
+     in the twin", "column orthogonality is closed as a route" or "gives a rate beyond the sieve constant", or "the
+     twin result implies that pair-level circle data force genuineness".
+   * *Withdrawn or corrected in the round:* in Part X of the Question B thread, the line lemma is Menger's theorem
+     (citation added), and a referee's claim that column orthogonality is closed as a route was overturned by the
+     judge (it was shown only for patterns carrying $O(C)$ genuine marks); the claim that the lattice form $(L_8^{pc})$ is open (as first printed
      it has empty input; corrected to $(L_8^{pc})'$, §2); the classification of the cocycle of reduced chords as
      capped (narrowed to its local consequences, triangle areas and abc, §5 item 6); a sentence on "different local obstructions" for the round-24 family
      (both forms are excluded at 2 and at 3); the coordinator's "weight $D/2$ is exactly the lattice minimum" (only
@@ -1434,7 +1465,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
 | round 29: function-field model, Li–Liu template, residue-class twin, 18 screened ideas (no change) | `round29/README.md` (with `kill_*.md`) |
 | round 30: function-field model decided as far as internal work goes (rank open, line closed; no change) | `round30/README.md` (with `kill_*.md`) |
-| round 31: outside colleague, nine refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; **on integer circles $M\le1+\omega(N')+K_C$ and fakes inside the low-height window**; **$(L_8)$ implies Rudin's conjecture**; random-parent rate at the smooth scale, same-norm separation of fakes, $(L_8^{pc})$ correction; no change to the growth rate for general $R$) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`, `README_IXL.md` (with `ref*_*.md`, `langer_check.md`) |
+| round 31: outside colleague, ten refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; **on integer circles $M\le1+\omega(N')+K_C$ and fakes inside the low-height window**; **$(L_8)$ implies Rudin's conjecture**; random-parent rate at the smooth scale, same-norm separation of fakes, $(L_8^{pc})$ correction; sign-free residue tables collapse onto the genuine two-class problem; no change to the growth rate for general $R$) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`, `README_IXL.md`, `README_XL.md` (with `ref*_*.md`, `langer_check.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check

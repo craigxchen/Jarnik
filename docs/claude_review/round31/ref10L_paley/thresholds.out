@@ -1,0 +1,39 @@
+t=1 C=1: full-core column+triangle condition holds from m=7 (checked to m+200)
+t=1 C=10: full-core column+triangle condition holds from m=23 (checked to m+200)
+t=1 C=1000: full-core column+triangle condition holds from m=None (checked to m+200)
+t=2 C=1: full-core column+triangle condition holds from m=7 (checked to m+200)
+t=2 C=10: full-core column+triangle condition holds from m=7 (checked to m+200)
+t=2 C=1000: full-core column+triangle condition holds from m=71 (checked to m+200)
+t=1 m=43 P=261: max deletions (her ineq, C=1) k=14, k/m=0.326; retained fraction 0.674; asymptotic k/m = 0.333; margin logg/logq=0.2213
+t=1 m=103 P=736: max deletions (her ineq, C=1) k=37, k/m=0.359; retained fraction 0.641; asymptotic k/m = 0.333; margin logg/logq=0.2332
+t=1 m=503 P=4462: max deletions (her ineq, C=1) k=187, k/m=0.372; retained fraction 0.628; asymptotic k/m = 0.333; margin logg/logq=0.2409
+t=1 m=1999 P=20676: max deletions (her ineq, C=1) k=742, k/m=0.371; retained fraction 0.629; asymptotic k/m = 0.333; margin logg/logq=0.2431
+t=1 m=4999 P=56860: max deletions (her ineq, C=1) k=1848, k/m=0.370; retained fraction 0.630; asymptotic k/m = 0.333; margin logg/logq=0.2439
+t=1 m=10007 P=121099: max deletions (her ineq, C=1) k=3684, k/m=0.368; retained fraction 0.632; asymptotic k/m = 0.333; margin logg/logq=0.2443
+t=1 m=19963 P=256585: max deletions (her ineq, C=1) k=7320, k/m=0.367; retained fraction 0.633; asymptotic k/m = 0.333; margin logg/logq=0.2447
+t=2 m=43 P=562: max deletions (her ineq, C=1) k=16, k/m=0.372; retained fraction 0.628; asymptotic k/m = 0.400; margin logg/logq=0.2225
+t=2 m=103 P=1654: max deletions (her ineq, C=1) k=42, k/m=0.408; retained fraction 0.592; asymptotic k/m = 0.400; margin logg/logq=0.2343
+t=2 m=503 P=9724: max deletions (her ineq, C=1) k=214, k/m=0.425; retained fraction 0.575; asymptotic k/m = 0.400; margin logg/logq=0.2415
+t=2 m=1999 P=44526: max deletions (her ineq, C=1) k=852, k/m=0.426; retained fraction 0.574; asymptotic k/m = 0.400; margin logg/logq=0.2436
+t=2 m=4999 P=120966: max deletions (her ineq, C=1) k=2125, k/m=0.425; retained fraction 0.575; asymptotic k/m = 0.400; margin logg/logq=0.2443
+t=2 m=10007 P=257157: max deletions (her ineq, C=1) k=4246, k/m=0.424; retained fraction 0.576; asymptotic k/m = 0.400; margin logg/logq=0.2447
+t=2 m=19963 P=543375: max deletions (her ineq, C=1) k=8452, k/m=0.423; retained fraction 0.577; asymptotic k/m = 0.400; margin logg/logq=0.2450
+t=3 m=43 P=937: max deletions (her ineq, C=1) k=17, k/m=0.395; retained fraction 0.605; asymptotic k/m = 0.429; margin logg/logq=0.2235
+t=3 m=103 P=2551: max deletions (her ineq, C=1) k=44, k/m=0.427; retained fraction 0.573; asymptotic k/m = 0.429; margin logg/logq=0.2346
+t=3 m=503 P=15171: max deletions (her ineq, C=1) k=224, k/m=0.445; retained fraction 0.555; asymptotic k/m = 0.429; margin logg/logq=0.2418
+t=3 m=1999 P=69099: max deletions (her ineq, C=1) k=894, k/m=0.447; retained fraction 0.553; asymptotic k/m = 0.429; margin logg/logq=0.2438
+t=3 m=4999 P=188077: max deletions (her ineq, C=1) k=2234, k/m=0.447; retained fraction 0.553; asymptotic k/m = 0.429; margin logg/logq=0.2445
+t=3 m=10007 P=398845: max deletions (her ineq, C=1) k=4466, k/m=0.446; retained fraction 0.554; asymptotic k/m = 0.429; margin logg/logq=0.2448
+t=3 m=19963 P=840381: max deletions (her ineq, C=1) k=8898, k/m=0.446; retained fraction 0.554; asymptotic k/m = 0.429; margin logg/logq=0.2451
+1 1 fails at m in [] ... last failure None
+1 10 fails at m in [7] ... last failure 7
+1 1000 fails at m in [7, 11] ... last failure 11
+1 1000000 fails at m in [7, 11, 19] ... last failure 23
+2 1 fails at m in [] ... last failure None
+2 10 fails at m in [] ... last failure None
+2 1000 fails at m in [7] ... last failure 7
+2 1000000 fails at m in [7, 11] ... last failure 11
+3 1 fails at m in [] ... last failure None
+3 10 fails at m in [] ... last failure None
+3 1000 fails at m in [] ... last failure None
+3 1000000 fails at m in [7] ... last failure 7

@@ -1,0 +1,7 @@
+five-mark: H(1,4,5)/q^2 = -1152, embeds=False, embeds without mark1=True, without mark4=True
+q=23295029 C^2=36: patterns=7, multi-magnitude patterns={'1111': [73, 23645]}, B_free=8 clique=['0000', '0011', '0101', '0110', '1001', '1010', '1100', '1111'], B_int=5; random tables embeddable 0/400, after complementary deletion 0/400
+q=23295029 C^2=49: patterns=7, multi-magnitude patterns={'1111': [73, 23645, 33439]}, B_free=8 clique=['0000', '0011', '0101', '0110', '1001', '1010', '1100', '1111'], B_int=6; random tables embeddable 0/400, after complementary deletion 0/400
+q=23295029 C^2=58: patterns=7, multi-magnitude patterns={'1111': [73, 23645, 33439]}, B_free=8 clique=['0000', '0011', '0101', '0110', '1001', '1010', '1100', '1111'], B_int=6; random tables embeddable 0/400, after complementary deletion 0/400
+random moduli: 180 cases; statement-1 violations 0; uniqueness violations (h>1, two magnitudes) 0
+largest B_free - B_int: [(1, 2, [5, 17, 37, 59], 4, 3), (1, 1, [5, 13, 17, 29, 43], 4, 3), (1, 1, [5, 7, 29, 41, 47], 4, 3), (0, 3, [43, 53, 61, 67], 2, 2), (0, 3, [41, 53, 67, 79], 2, 2)]
+cliques with B_free>=5: tables not embeddable after complementary deletion: 0/0

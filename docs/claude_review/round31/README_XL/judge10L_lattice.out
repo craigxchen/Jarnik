@@ -1,0 +1,7 @@
+random S, s=14, B=5 (B < s/2): ranks of certificate sets over 6 trials [4, 4, 4, 4, 4, 4] (B-1=4)
+random S, s=14, B=6 (B < s/2): ranks of certificate sets over 6 trials [5, 5, 5, 5, 5, 5] (B-1=5)
+random S, s=16, B=7 (B < s/2): ranks of certificate sets over 6 trials [6, 6, 6, 6, 6, 6] (B-1=6)
+random S, s=20, B=9 (B < s/2): ranks of certificate sets over 6 trials [8, 8, 8, 8, 8, 8] (B-1=8)
+shadow S, s=14, B=6: ranks [4, 4, 4, 4, 4, 4] (<= B-2=4 expected)
+shadow S, s=16, B=8: ranks [6, 6, 6, 6, 6, 6] (<= B-2=6 expected)
+five-mark genuine example, C=6: certificate rank 3 (B-2 = 3 expected if k = 1)

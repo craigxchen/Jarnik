@@ -1,0 +1,10 @@
+m=23 retained=11 T=13x23 dim ker=10: support<=2 vectors found=0, span=0
+m=23 retained=11 T=13x23 dim ker=10: support<=3 vectors found=0, span=0
+m=23 retained=11 T=13x23 dim ker=10: support<=4 vectors found=0, span=0
+m=23 retained=11 T=13x23 dim ker=10: support<=5 vectors found=0, span=0
+m=23 retained=11 T=13x23 dim ker=10: support<=6 vectors found=0, span=0
+m=23 retained=11 T=13x23 dim ker=10: support<=7 vectors found=0, span=0
+m=23 retained=11 T=13x23 dim ker=10: support<=8 vectors found=0, span=0
+m=23 retained=11 T=13x23 dim ker=10: support<=9 vectors found=0, span=0
+m=23 retained=11 T=13x23 dim ker=10: support<=10 vectors found=0, span=0
+m=23 retained=11 T=13x23 dim ker=10: support<=11 vectors found=341, span=10

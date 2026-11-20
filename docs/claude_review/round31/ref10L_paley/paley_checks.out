@@ -1,0 +1,8 @@
+m=7: pair separations {4} (want 4); triples 35, constant-column counts {1} (want 1); supp(S_v-S_w) {4}; det S = -512 vs (m+1)^((m-1)/2) = 512
+m=11: pair separations {6} (want 6); triples 165, constant-column counts {2} (want 2); supp(S_v-S_w) {6}; det S = -248832 vs (m+1)^((m-1)/2) = 248832
+m=19: pair separations {10} (want 10); triples 969, constant-column counts {4} (want 4); supp(S_v-S_w) {10}; det S = -512000000000 vs (m+1)^((m-1)/2) = 512000000000
+m=23: pair separations {12} (want 12); triples 1771, constant-column counts {5} (want 5); supp(S_v-S_w) {12}; det S = -1521681143169024 vs (m+1)^((m-1)/2) = 1521681143169024
+m=43: pair separations {22} (want 22); triples 12341, constant-column counts {10} (want 10); supp(S_v-S_w) {22}; det S = -32546643448642171510613294075346944 vs (m+1)^((m-1)/2) = 32546643448642171510613294075346944
+m=11 deletion, k<=2: 67 row sets, 549 annihilators, max sup by rank {1: 1, 2: 2, 3: 4}
+m=19 deletion, k<=2: 191 row sets, 3077 annihilators, max sup by rank {1: 1, 2: 2, 3: 4}
+m=11 deletion, k<=4: 562 row sets, 3684 annihilators, max sup by rank {1: 1, 2: 2, 3: 4, 4: 16, 5: 48}

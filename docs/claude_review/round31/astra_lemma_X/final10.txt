@@ -1,0 +1,14 @@
+Appended [Part X to answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/answer.md:2151) and saved the [exact verification script](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/x_checks.py).
+
+1. **PROVED.** I obtained **(iv)**. No critical-length sign-free table exists for the full Paley cuts of IX.4, for any assignment of the primes.
+2. **PROVED.** On a triple with edge magnitudes \(a,b,c\), let \(g\) be the product of the primes whose cut is constant. The separated-square congruences imply \(q^2g^2\mid(a+b+c)(-a+b+c)(a-b+c)(a+b-c)\).
+3. **PROVED.** A nondegenerate triple therefore needs a side of length at least \(\sqrt{qg}\). At \(C=1\), every sign-free table on at least five marks admits a simultaneous signing as genuine integer differences.
+4. **PROVED.** Every Paley triple has exactly \((m-3)/4\) constant columns. This forces line distances, and Paley column orthogonality then forces all coordinates to coincide.
+5. **PROVED.** On the full Paley core the exclusion holds even at length \(q^{5/8-\epsilon}\). At critical length, with two primes per column, it survives arbitrary deletion of up to \((2/5-\epsilon)m\) rows.
+6. **PROVED.** On an arbitrary dyadic squarefree parent, deleting \(O_C(1+s/B)\) marks suffices to sign **every surviving edge** on the original modulus and at the original interval length.
+7. **PROVED.** Consequently, for every Sidon cut pattern, a construction under **(iii)** with \(B\ge cs\) would already give **(ii)** with \(B-O_{c,C}(1)\) genuine marks.
+8. **COMPUTED.** All 12,341 triangles of the old 43-row relaxation fail the new divisibility test. The weighted Prouhet–Tarry–Escott checks passed, including all 54,740 triples of the 70-mark family.
+9. **COMPUTED.** Changing one edge of a genuine five-mark example preserves every local square and produces a nondegenerate triangle at \(C=6\). Some loss of marks can therefore be necessary.
+10. **PROVED.** The argument does not transfer directly to circles. On the norm-65 circle two chords separated at five have squared lengths \(52\) and \(4\), which disagree modulo five.
+11. **OPEN.** I obtained neither an unrestricted \(o(s)\) bound nor a genuine example of order \(s\). Smaller positive-density restrictions of the Paley rows also remain open.
+12. **REQUEST.** Please referee the reconstruction in [X.4](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/answer.md:2203), especially the alignment on common anchors and the final recovery of complementary pairs.

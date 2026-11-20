@@ -1,0 +1,4 @@
+m=11 t=6: circuits 25, span dim 4 of ker dim 4, max coeff 2
+m=19 t=8: circuits 36, span dim 8 of ker dim 8, max coeff 3
+m=19 t=9: circuits 477, span dim 8 of ker dim 8, max coeff 7
+m=23 t=11: circuits 341, span dim 10 of ker dim 10, max coeff 13

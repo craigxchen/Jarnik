@@ -313,6 +313,13 @@ a density-zero family; worst-case parents and the growth rate for general `R` ar
 record: the lattice fallback of Question A, as first printed, had no valid inputs (a parity obstruction at 2 and
 3); the expert note now states a corrected form.
 
+The tenth exchange on the Question B thread (`round31/README_XL.md`) asked for a rate on one fixed modulus using the
+signed residues of single differences. Nothing was found false. Result: the pair-level data already force a genuine
+configuration (a relaxed table with free signs is genuine after deleting `O(1 + s/B)` marks), and the Paley cut
+pattern of the fakes is impossible in the two-class problem on its full core and on at least 3/5 of its rows. No
+worst-case rate and no large genuine example; the mechanism does not transfer to circles. On the judge's advice the
+two-class thread is closed.
+
 **Growth-rate status (2026-11-19, after round 31).** No growth improvement over `log R/loglog R` is proved
 unconditionally; conditionally only Vojta-type routes are known, and they give the uniform bound directly. The following are capped at `log R/loglog R` by
 refereed barrier theorems:

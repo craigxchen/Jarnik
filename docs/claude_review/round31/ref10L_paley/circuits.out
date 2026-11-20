@@ -1,0 +1,10 @@
+m=11 k=0: 1 row sets; 0 vanishing 1x1 column minors in total; 0 row sets admit a kernel vector of support <= 1
+m=11 k=1: 11 row sets; 275 vanishing 2x2 column minors in total; 11 row sets admit a kernel vector of support <= 2
+m=11 k=2: 55 row sets; 4620 vanishing 3x3 column minors in total; 55 row sets admit a kernel vector of support <= 3
+m=11 k=3: 165 row sets; 24420 vanishing 4x4 column minors in total; 165 row sets admit a kernel vector of support <= 4
+m=11 k=4: 330 row sets; 50050 vanishing 5x5 column minors in total; 330 row sets admit a kernel vector of support <= 5
+m=11 k=5: 462 row sets; 37620 vanishing 6x6 column minors in total; 462 row sets admit a kernel vector of support <= 6
+m=19 k=0: 1 row sets; 0 vanishing 1x1 column minors in total; 0 row sets admit a kernel vector of support <= 1
+m=19 k=1: 19 row sets; 1539 vanishing 2x2 column minors in total; 19 row sets admit a kernel vector of support <= 2
+m=19 k=2: 171 row sets; 93024 vanishing 3x3 column minors in total; 171 row sets admit a kernel vector of support <= 3
+m=19 k=3: 969 row sets; 2065110 vanishing 4x4 column minors in total; 969 row sets admit a kernel vector of support <= 4

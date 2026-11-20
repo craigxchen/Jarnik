@@ -1,0 +1,4 @@
+m=7: retained rows 3 (density 0.429), T is (5, 7), rank 5, spark(T)=4, need < m/2=3.5
+m=11: retained rows 5 (density 0.455), T is (7, 11), rank 7, spark(T)=6, need < m/2=5.5
+m=19: retained rows 9 (density 0.474), T is (11, 19), rank 11, spark(T)=8, need < m/2=9.5
+m=23: retained rows 11 (density 0.478), T is (13, 23), rank 13, spark(T)=11, need < m/2=11.5

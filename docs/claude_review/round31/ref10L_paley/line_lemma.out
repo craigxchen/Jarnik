@@ -1,0 +1,4 @@
+b=4, D=6: 285 all-degenerate tables, 45 not embeddable in Z; examples [{(0, 1): 1, (0, 2): 1, (0, 3): 2, (1, 2): 2, (1, 3): 1, (2, 3): 1}]
+b=5, D=10: 12600 all-degenerate tables, 0 not embeddable in Z; examples []
+b=6, D=8: 20160 all-degenerate tables, 0 not embeddable in Z; examples []
+b=7, D=6: 2520 all-degenerate tables, 0 not embeddable in Z; examples []
