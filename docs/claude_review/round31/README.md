@@ -16,7 +16,8 @@
 > 8's fixed-threshold Subspace hypothesis is false; conditional growth from relative-height counts). Referee reports: `ref_*.md` (I), `ref2_*.md` (II),
 > `ref3_*.md` (III), `ref4_*.md` and `ref4L_*.md` (IV), `ref5_*.md` and `ref5L_*.md` (V), `ref6_*.md` and
 > `ref6L_*.md` (VI), `ref7_*.md` and `ref7L_*.md` (VII; `ref7L_alpha_*.md` are three further checks of the bound
-> $\alpha^{\rm ess}_e(-K)\le4$), `ref8_*.md` and `ref8L_*.md` (VIII). `langer_check.md` records the check of Langer's Theorem 0.1 in the original. The
+> $\alpha^{\rm ess}_e(-K)\le4$), `ref8_*.md` and `ref8L_*.md` (VIII). `lit8L_*.md` are a later check of the Part VIII literature claims against full
+> texts (three readers and an adversarial verifier; `lit8L_verify.md` is the consolidated statement). `langer_check.md` records the check of Langer's Theorem 0.1 in the original. The
 > coordinator's messages are `astra_brief.txt`, `astra_*/reply*.txt` and `astra_*_reply4.txt`; the colleague's
 > cumulative reports are `astra_free_VI/answer.md` and `astra_lemma_VI/answer.md` (Parts I-VI).
 

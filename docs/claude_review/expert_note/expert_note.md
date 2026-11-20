@@ -246,7 +246,9 @@ block per prime, with arbitrary nonzero cofactors; it does not use $(L_8^f)$ wit
 $(L_8^c)^{\rm cat}$ or the lattice form $(L_8^{pc})$. It passes through three statements.
 * (i) If at most two residues are prescribed modulo each exact prime power $p^e\parallel q$, any interval of length
   $q^{1/2+\epsilon}$ contains $O(1)$ integers in the prescribed classes, for one absolute $\epsilon>0$. This is the
-  case $d=2$ of Cilleruelo–Granville's Conjecture 10 at a fixed exponent above their critical $1/2$. The step from
+  case $d=2$ of Cilleruelo–Granville's Conjecture 10, which they state at every exponent $1-\varepsilon$ (for initial
+  segments $[0,b^{1-\varepsilon})$; they prove exponent $(1-\varepsilon_d(k))/d$ and "strongly believe" exponent
+  $1/d$), taken at one fixed exponent above $1/2$. The step from
   $(L_8)$ is the colleague's: columns $P_i=(Q/d_i,(y_i-y_0)/d_i)^T$ with $d_i=\gcd(Q,y_i-y_0)$ give an exact
   $(L_8)$ datum, and a random 8-tuple of the integers is balanced on all 128 patterns and lies off $Z$ (a one-sided
   Gram bound, a Walsh expansion, Markov, and Schwartz–Zippel on the grid; every constant is fixed before $q$).
@@ -259,14 +261,24 @@ Full $(L_8)$ also implies that an invertible residue class modulo $q\ge n^{1/4-\
 $n$, for one absolute $\kappa>0$: past the exponent $1/4$ of Lenstra and Coppersmith–Howgrave-Graham–Nagaraj (a
 cardinality bound, no algorithm). Under Vojta's conjecture on $\overline M_{0,8}$ one may take
 $\epsilon=10^{-16}$, $\kappa=10^{-17}$, so **Vojta's conjecture for the single variety $\overline M_{0,8}$ implies
-Rudin's conjecture**; we found no earlier derivation (Bombieri–Lang gives $\sigma(k)\ll k^{5/7}$, by
-Cilleruelo–Granville; the best unconditional exponent is $3/5$, Bombieri–Zannier). None of these consequences is
+Rudin's conjecture**; we found no earlier derivation of Rudin's conjecture from Vojta's conjecture, Bombieri–Lang,
+the uniformity conjecture or abc (literature check of full texts, `round31/lit8L_verify.md`: Bombieri–Lang gives
+$\sigma(k)\ll k^{5/7}$, Cilleruelo–Granville §3; the Caporaso–Harris–Mazur uniformity conjecture gives exponent $2/3$,
+Shkredov–Solymosi; both are weaker than the unconditional exponent $3/5$ of Bombieri–Zannier; not opened:
+Bombieri–Granville–Pintz, Bombieri–Zannier, Caporaso–Harris–Mazur). None of these consequences is
 known to fail, and a referee who tried to refute $(L_8)$ through them found nothing: the best integer two-class
-families reach exponent $2$ only for at most six points, and the best divisor family gives $16$ divisors near
-exponent $1/4$. They measure the strength of $(L_8)$, not its plausibility. The uniform bound itself is not known
+families reach exponent $2$ only for at most six points, and the elementary family $\prod_{i\le4}(1+iq)$ gives $16$
+divisors at exponents just below $1/4$ (our computation; families of this type give at most
+$2^{\lfloor1/\alpha\rfloor}$ at a fixed exponent $\alpha$, and the published examples we read have $6$ divisors, at
+$\alpha>1/3$). They measure the strength of $(L_8)$, not its plausibility. The uniform bound itself is not known
 to imply Rudin's conjecture, and Cilleruelo–Granville do not derive Rudin from any arc conjecture (their routes are
-two congruence conjectures). Literature caveat: only the arXiv version of Cilleruelo–Granville was read in full;
-the status of the divisor bound at exponents $\le1/4$ rests on search snippets.
+two congruence conjectures). Literature status of the divisor bound (`round31/lit8L_verify.md`): Hales (arXiv:2410.05030, read in
+full) restates Lenstra's and Coppersmith–Howgrave-Graham–Nagaraj's bounds for exponents $>1/4$ and calls $1/4$ "the
+threshold of both the Lenstra and Coppersmith et al. methods"; we found no result in either direction for invertible
+classes at exponents $\le1/4$. Lenstra's unboundedness remark concerns a non-invertible class. Lenstra 1984 and
+Coppersmith–Howgrave-Graham–Nagaraj 2008 themselves were seen only through snippets and Hales's restatement (their
+hosts were unreachable); the published version of Cilleruelo–Granville was not read, only arXiv v1, which is the
+only arXiv version. Cilleruelo–Granville's Theorem 10 should be cited for $k\ge3$ (it fails as printed for $k=2$).
 
 > **Question A.** Prove $(L_8)$, or at least its lattice form $(L_8^{pc})$, which every proof must cover. Any proof
 > of $(L_8)$, even restricted to pairwise coprime square blocks, proves Rudin's conjecture, and full $(L_8)$ also
