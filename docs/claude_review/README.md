@@ -328,6 +328,15 @@ closes the residue route for internal work. One new piece of data about actual c
 norms `q_P` (the product of all primes `1 mod 4` in `[P, 2P]`) no two lattice points lie within `8 q_P^(1/4)` for
 `200 <= P <= 450`. The growth rate for general `R` is unchanged.
 
+The eleventh and final exchange (`round31/README_XI.md`) asked for a rate, or a fake with integer chord cofactors,
+on those explicit norms. No error was found. On `q_P` a critical arc holds at most `(1/4 + o(1)) omega(q_P)` points
+(already in the record for norms with no small prime factor). Configurations satisfying the exact additive chord
+relations with integer cofactors are translates of rational dilations of genuine lattice points, so that input is
+the problem itself up to a dilation, not a weaker hypothesis. **Both threads with the outside colleague are now
+closed.** The judge's closing assessment (section 5 of that report): every relaxation studied either admits fakes
+or collapses to the problem itself; two theorems about integer circles were gained (expert note, Theorems 1.2 and
+1.3), plus a rate for random smooth norms; the growth rate for general `R` and the uniform bound did not move.
+
 **Growth-rate status (2026-11-19, after round 31).** No growth improvement over `log R/loglog R` is proved
 unconditionally; conditionally only Vojta-type routes are known, and they give the uniform bound directly. The following are capped at `log R/loglog R` by
 refereed barrier theorems:

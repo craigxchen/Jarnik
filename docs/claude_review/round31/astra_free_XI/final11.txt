@@ -1,0 +1,11 @@
+**PROVED.** On both explicit dyadic families, for every fixed \(C>0\),
+\[
+M_{\max}(q_P,C)\le \bigl(\tfrac14+o_C(1)\bigr)s.
+\]
+This settles A1 with any fixed \(c<1/12\), including \(c=1/24\). The genuine-circle bound was already implicit in the record. Every prime up to the eventual cluster size is coprime to \(q_P\), so the full collision estimate gives \(\log q_P\ge4M\log M-O_C(M)\). Meanwhile \(\log q_P\sim s\log s\). [Part XI and proof](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/free/answer.md:2500)
+
+**PROVED.** The same \(s/4\) bound survives arbitrary norm defects in the proposed one-unit cofactor model. The exact Gaussian chord directions force all marks to be a common translate of a single rational dilation of the canonical marks. The collision estimate survives the denominator. If even one separated pair at each active prime retains its *canonical numerical squared-chord residue*, the dilation is \(\pm1\), so every chord has its genuine length. The distinction between canonical residue values and freely chosen local vertex values matters here. [Cocycle proof](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/free/answer.md:2558)
+
+**COMPUTED.** Independent exact enumeration confirms \(M_{\max}(q_P,8)=1\) at \(P=200\) and \(250\). The minimum chords, divided by \(q_P^{1/4}\), lie respectively in \([468,469)\) and \([4556,4557)\). [Reproducible script](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/free/xi_circle_check.py)
+
+I did not obtain \(M=o(s)\) on these parents or construct an unbounded integral-cofactor fake.

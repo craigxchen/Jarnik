@@ -133,7 +133,12 @@ $M=o(\log R/\log\log R)$. The record builds such fakes for several classes:
   $X$, and the twisted extension at $X=M^A$, $A>1$, is open (`round5/README.md`; `overview/overview.md` §5.2 item 2).
 * Grafts cap robust averaged analytic inputs (`round10/analytic.md` Thm B; `round20/composite.md`).
 
-Actual clusters satisfy $W\ge3M\log M-O(M)$. Not everything is capped. P3-all$^*$ and the sharp-constant large
+Actual clusters satisfy $W\ge3M\log M-O(M)$. If no prime $\le M$ divides $N'$, then $W\ge4M\log M-O_C(M)$
+(`growth/auxiliary.md` §1; `round31/ref8_extend.md` Prop 3.1). In particular, on the explicit dense norms
+$q_P=\prod_{p\equiv1\,(4),\,P\le p\le2P}p$ (or the primes $\equiv5\ (8)$ there), with $s=\omega(q_P)$, every critical
+arc holds at most $(\frac14+o(1))s$ points for $P\ge P_0(C)$ (round 31, Part XI.1; **proved**). The computed truth
+is one point: no two lattice points of $|z|^2=q_P$ lie within $8q_P^{1/4}$ for $200\le P\le450$
+(`round31/ref10_meaning.md` §3.1; exact enumeration, rechecked twice). Not everything is capped. P3-all$^*$ and the sharp-constant large
 sieves (prime-only and non-multiplicative forms; the completely multiplicative, all-ideal, all-height sharp sieve
 of round 20 collapses: it forces genuine angles mod $\pi/4$, with $B_0=4$ attained by an irrational graft,
 ineffectively in the height; `round31/README.md` §1, sieve) remain uncapped; see `overview/overview.md` §5.5.
@@ -147,8 +152,14 @@ coefficient sum is nonzero on one of $b\to\infty$ label classes chosen by the co
 **proved**, `round31/README_X.md` §1.2). Not capped: the balanced words inside a class of P3-all$^*$, in particular
 label differences $e_j-e_k$ chosen from the data, twisted point collisions ($\sum c\ne0$) at moduli $M^A$, the 2-adic clause, the
 operator-form union large sieve and the composite cross-gaps, every cross-gap inside the low-height window,
-square-root-quality prime sums and box counts, Lang–Waldschmidt, and the Gaussian-integer cocycle of the reduced
-chords. At the other end, with one rational lift per prime and all moduli at once, the all-monomial residue test at
+square-root-quality prime sums and box counts, and Lang–Waldschmidt. The Gaussian-integer cocycle of the reduced
+chords is not a separate input: with the genuine common factors $H_{ij}$, any $M\ge3$ Gaussian integers with
+$z_j-z_i=2i\eta H_{ij}t_{ij}$, $t_{ij}\in\mathbb Z\setminus\{0\}$, satisfy $z_i=w+\lambda A_i$ with
+$\lambda\in\mathbb Q^\times$ and $A_i$ genuine lattice points of the circle (round 31, Part XI.2; **proved**,
+`round31/README_XI.md` §1.4). So the cocycle is the genuine problem on arcs $v$ times longer with a congruence
+modulo $v$. It admits slightly more than the circle (three points on $q_{200}$ at $C\ge3.574$, where genuine
+clusters have one; **exact**), it obeys the same $(\frac14+o(1))s$ bound, and it is exactly the genuine problem when
+canonical squared-chord residues are kept. At the other end, with one rational lift per prime and all moduli at once, the all-monomial residue test at
 the single unit $-1$ on powers of single primes holds only on actual clusters (round 31, Part IX.7; **proved**);
 since such lifts exist at every finite modulus, this is the problem itself and says nothing about P3-all$^*$.
 Effectively (Part X.1; **proved**): if all primes of $N$ are $\equiv5\pmod8$ and lie in $[P,2P]$, a witness that is
@@ -943,12 +954,12 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      "balance does not separate real clusters from fakes" (true only for pairwise balance); the "real-algebraic
      obstruction" lead (it was linear algebra, Prop K1).
 
-12. **Round 31 (ten exchanges with an outside colleague, "Astra"; 108 referee blocks and seventeen judge reports:
+12. **Round 31 (eleven exchanges with an outside colleague, "Astra"; 110 referee blocks and eighteen judge reports:
    `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`,
-   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`, `README_IXL.md`, `README_X.md`, `README_XL.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
+   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`, `README_IXL.md`, `README_X.md`, `README_XL.md`, `README_XI.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
    (Part V, unit-twisted points) was repaired by the referee. **The growth rate for general $R$, the uniform bound,
    Questions A and B and route 5 keep their status** (judges' scores on the goal: 2/10, 2/10, 1/10, 2/10, 1/10, 2/10,
-   1/10, 2/10, 2/10, 1.5/10, 1.5/10, 3/10, 2/10, 2.5/10, 2.5/10, 2/10, 2/10). Parts VIII and IX are about integer circles: Part VIII adds Theorem 1.2 (§1)
+   1/10, 2/10, 2/10, 1.5/10, 1.5/10, 3/10, 2/10, 2.5/10, 2.5/10, 2/10, 2/10, 1.5/10). **Both threads are closed**; the last judge's closing assessment is `round31/README_XI.md` §5. Parts VIII and IX are about integer circles: Part VIII adds Theorem 1.2 (§1)
    and the first fakes in the low-height window, and on the Question B thread shows that Question A contains
    Rudin's conjecture (§2); Part IX adds Theorem 1.3 (§1), caps character-tested prime residues at every modulus
    and extends the window cap to $\delta<1/6$; on the Question B thread it gives a rate for random parents at the
@@ -1374,11 +1385,29 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      lifts with parent-prime denominators; the coordinator's phrase "the twist must be $\pm1$" was wrong (units and
      conjugation are allowed on genuine circles). **Computed (referee, spot-checked by the judge):** on
      $q_P=\prod_{p\equiv1\,(4),\,P\le p\le2P}p$ no two lattice points lie within $8q_P^{1/4}$ of each other for
-     $200\le P\le450$ (the closest pair is between $468$ and $8\cdot10^7$ times $q_P^{1/4}$ away), against a proved
-     bound of order $s/3$ points. *Judge's reading*: the residue route has been mapped to its end and carries no
+     $200\le P\le450$ (the closest pair is between $468$ and $8\cdot10^7$ times $q_P^{1/4}$ away), against the record's
+     bound $(\frac14+o(1))s$ (§1; Part XI.1). *Judge's reading*: the residue route has been mapped to its end and carries no
      rate; the one live item left on this thread is the cocycle on a fixed parent. Do not write "P3-all$^*$ is
      capped", "Part X gives a finite-cutoff lower bound", "X.4 proves a growth rate", "the omitted difference must
      fail", or "$M_{\max}(q_P,C)=1$ is proved".
+   * ***Part XI: the cocycle on one fixed parent (final)*** (`round31/README_XI.md`; two referee blocks; nothing
+     false; judge's score on the goal 1.5/10). Asked for a rate, or an integral-cofactor fake, on the explicit norms
+     $q_P$. *Rate:* only the constant $\frac14$ (§1), which for circles is the record's rough-parent coefficient $4$
+     together with $M<P$; new is its uniformity under a rational dilation. *Fake:* rigidity (§1): integral-cofactor
+     configurations with the genuine $H_{ij}$ are $w+\frac1vS$ with $S$ genuine, pairwise congruent modulo $v$, on a
+     $v$-fold arc. So none has $M\ge(\frac14+\varepsilon)s$; small ones exist ($M=3$ on $q_{200}$, $M=4$ on $q_{30}$
+     and $q_{50}$; **exact**); whether they are bounded is **open** (heuristically at most 3). Canonical
+     squared-chord residues at primes of product $\ge\min Q_{ij}$ force $v=1$. *Judge's reading*: the exact additive
+     relations separate fakes from circles only because they contain the genuine Gaussian factors; they are the
+     problem itself up to a dilation, and a rate from them on $q_P$ is no easier than a rate for circles. The gap
+     between $s/4$ and the computed truth on $q_P$ is a question about signed subset sums of about $s/2$ arguments
+     of Gaussian primes near multiples of $\pi/2$ at the Liouville threshold. *Closing assessment*
+     (`round31/README_XI.md` §5): every relaxation studied either admits fakes at $W=O(M\log M)$ or collapses to
+     the problem itself; further internal rounds of this kind are not worth running; the one direction to offer an
+     outside expert is $M_{\max}(q_P,C)=o(\omega(q_P))$ (estimated 3% for a serious effort). Do not write "Part XI
+     improves the rate", "the $s/4$ bound on $q_P$ is new", "integer cofactors force a genuine cluster" (without
+     "with canonical residues" or "up to dilation"), "no integral-cofactor fake exists", or "integral-cofactor
+     fakes are bounded".
    * ***Part VIII, Question B thread: hardness of Question A*** (`round31/README_VIIIL.md`; seven referee blocks;
      nothing false, one citation corrected; judge's score on the goal 2/10). The colleague was asked for the weakest
      hypothesis that gives the conjecture, or for a hardness statement, and took the second. Recorded in §2
@@ -1503,7 +1532,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
 | round 29: function-field model, Li–Liu template, residue-class twin, 18 screened ideas (no change) | `round29/README.md` (with `kill_*.md`) |
 | round 30: function-field model decided as far as internal work goes (rank open, line closed; no change) | `round30/README.md` (with `kill_*.md`) |
-| round 31: outside colleague, ten refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; **on integer circles $M\le1+\omega(N')+K_C$ and fakes inside the low-height window**; **$(L_8)$ implies Rudin's conjecture**; random-parent rate at the smooth scale, same-norm separation of fakes, $(L_8^{pc})$ correction; sign-free residue tables collapse onto the genuine two-class problem; finite rigidity and a partial P3-all$^*$ fake, residue route closed; no change to the growth rate for general $R$) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`, `README_IXL.md`, `README_X.md`, `README_XL.md` (with `ref*_*.md`, `langer_check.md`) |
+| round 31: outside colleague, eleven refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; **on integer circles $M\le1+\omega(N')+K_C$ and fakes inside the low-height window**; **$(L_8)$ implies Rudin's conjecture**; random-parent rate at the smooth scale, same-norm separation of fakes, $(L_8^{pc})$ correction; sign-free residue tables collapse onto the genuine two-class problem; finite rigidity and a partial P3-all$^*$ fake, residue route closed; the chord cocycle is the problem itself up to a dilation; both threads closed; no change to the growth rate for general $R$) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`, `README_IXL.md`, `README_X.md`, `README_XL.md`, `README_XI.md` (with `ref*_*.md`, `langer_check.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check

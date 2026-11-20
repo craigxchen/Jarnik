@@ -1,0 +1,2 @@
+P=200 family=1mod4 s=16 dmin^2=15219819238844501369583650 floor(dmin/q^1/4)=468 M_max(q,8)=1 certified:True
+P=200 family=5mod8 s=9 dmin^2=117088209047764 floor(dmin/q^1/4)=25 M_max(q,8)=1 certified:True

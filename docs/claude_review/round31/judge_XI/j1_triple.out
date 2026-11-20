@@ -1,0 +1,9 @@
+s= 16 q= 4810942114471671677256758751310693840381
+canonical triples A_i = A + G z_i on the circle: 1
+units: [(1, 0), (1, 0), (1, 0)]
+pair 01: #D=9 T=-105396610800 t=-24 ratio=3.5732 pass C=4:True C=3:False kept-canonical-residue primes:[]
+pair 02: #D=13 T=-7724047712308850 t=-1758853 ratio=2.8632 pass C=4:True C=3:True kept-canonical-residue primes:[]
+pair 12: #D=8 T=-4391525450 t=-1 ratio=1.3832 pass C=4:True C=3:True kept-canonical-residue primes:[]
+minimal C = 3.5732
+gcd(G^2-1, q) = 1
+class counts: l-(-1/l) at a=0, exactly l lifts at a=1,2: OK for l=3..13
