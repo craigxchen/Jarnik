@@ -188,7 +188,7 @@ Lemma 2.2). Let $\mathrm{Bal}(\eta)$ be the set of $\Phi$ with $|\log d_T-w|\le\
 strongest natural form, $(L_8^c)^{\rm all}$, which implies $(L_8)$, says that **a rational point of $M_{0,8}$ off a
 fixed $Z$ cannot have all 119 boundary contacts of the same size $e^{w}$, $w\to\infty$**; $(L_8)$ itself gives this
 only at caterpillar points. Round 18 proved a sandwich, and no arrow is known to reverse:
-$$(L_8^c)^{\rm all}\Rightarrow(L_8)\Rightarrow(L_8^f)\Rightarrow(L_8^c)^{\rm cat}\Rightarrow(L_8^{pc}).$$
+$$(L_8^c)^{\rm all}\Rightarrow(L_8)\Rightarrow(L_8^f)\Rightarrow(L_8^c)^{\rm cat}\Rightarrow(L_8^{pc})'.$$
 * $(L_8^c)^{\rm all}(\eta_1)$: $\mathrm{Bal}(\eta_1)\cap\{w\ge w_1\}\subset Z$. It implies $(L_8)$ with
   $\eta_0=\eta_1/2$, $c=\eta_1/4$. Conversely $(L_8)$ implies $(L_8^c)(\eta_0,Z)$ only for $\Phi$ admissible from
   anchor 0 (any anchor, with symmetrised $Z$); this is not an equivalence (`round18/README.md` §2.1 item 1;
@@ -198,13 +198,18 @@ $$(L_8^c)^{\rm all}\Rightarrow(L_8)\Rightarrow(L_8^f)\Rightarrow(L_8^c)^{\rm cat
   internal edges of its tree lie on one path. The chain condition is exactly the caterpillar condition on the block
   system at each prime (`round18/theory.md` Lemma 1.1; exact on all 39208 trees with 8 leaves). Caveat (referee
   item H): the block system equals the $p$-adic tree of $\Phi$ only at primes dividing no residue.
-* "pc" restricts it to pairwise coprime $d_T$.
+* "pc" restricts it to pairwise coprime $d_T$. **As first printed this set is empty**: at $p=2$ exactly five of
+  the 119 contact integers of every point are even, and at $p=3$ at least two are divisible by $3$ (round 31, Part
+  IX.2 of the Question B thread; **proved**, refereed, `round31/README_IXL.md` §1.5). The corrected restriction
+  $(L_8^{pc})'$ asks for $d_T$ pairwise coprime outside $\{2,3\}$, with the $\{2,3\}$-part of
+  $\prod_{i<j}(x_i-x_j)$ at most a constant $B_0$.
 * $(L_8^f)$ replaces $cw$ by any $f(w)\to\infty$ with $f\le cw$. Every proof of $(L_8^f)$ must prove
   $(L_8^c)^{\rm cat}$, the $H_\Sigma=0$ content of $(L_8)$, so a slowly growing $f$ is no shortcut; but $(L_8^f)$ is
   not known to be equivalent to $(L_8)$ (`round18/referee_theory.md` §2.3, item A).
 
-**Lattice form** (`round18/theory.md` Lemma 2.2, §5(2), as corrected by `round18/referee_theory.md` item G;
-**open**; a consequence of $(L_8)$, not known to be equivalent to it).
+**Lattice form** (`round18/theory.md` Lemma 2.2, §5(2), as corrected by `round18/referee_theory.md` item G and
+by round 31, Part IX.2; **as first printed, vacuous; the corrected form below is open**; a consequence of $(L_8)$,
+not known to be equivalent to it).
 * In Kapranov's model $\overline M_{0,8}\to\mathbb P^5$: $H\cdot\beta=31$, $E_T\cdot\beta=1$,
   $K=-6H+\sum_{3\le|T|\le6}(|T|-2)E_T$ and $K\cdot\beta=10$. Here $\beta$ is the balanced class, defined by
   $D_T\cdot\beta=1$ for all $T$.
@@ -213,14 +218,26 @@ $$(L_8^c)^{\rm all}\Rightarrow(L_8)\Rightarrow(L_8^f)\Rightarrow(L_8^c)^{\rm cat
 * A balanced point has $|x|\approx e^{31w}$. The Minkowski scale of its own lattice is $e^{49w}$, and the trivial
   (Liouville) bound is $e^{30w}$.
 
-> **$(L_8^{pc})$, lattice form.** There are $\eta_1>0$, $w_1$ and a proper closed $Z$ with the following property.
-> Let $e_T\in[e^{(1-\eta_1)w},e^{(1+\eta_1)w}]$, for $T\subseteq[7]$ with $3\le|T|\le6$, be pairwise coprime
-> integers, and let $w\ge w_1$. Then the lattice
-> $\Lambda_e=\{y\in\mathbb Z^7:e_T\mid y_i-y_j\ \text{for } i,j\in T\}$ has no primitive vector
-> $y\notin\mathbb Z\mathbf 1$ such that all of the following hold:
+> **$(L_8^{pc})'$, lattice form (corrected).** There are $\eta_1>0$ and a proper closed $Z$, and for every
+> $B_0\ge1$ a $w_1=w_1(B_0)$, with the following property. Let $e_T\in[e^{(1-\eta_1)w},e^{(1+\eta_1)w}]$, for
+> $T\subseteq[7]$ with $3\le|T|\le6$, be integers that are pairwise coprime outside the primes $2$ and $3$, and let
+> $w\ge w_1$. Then the lattice $\Lambda_e=\{y\in\mathbb Z^7:e_T\mid y_i-y_j\ \text{for } i,j\in T\}$ has no primitive
+> vector $y$ with distinct entries such that all of the following hold:
 > * $[y]\in M_{0,8}\setminus Z$;
 > * $|y|\le e^{31w(1+\eta_1)}$;
-> * the pair cofactors $(y_i-y_j)/\prod_{T\supseteq\{i,j\}}e_T$ are pairwise coprime of size $e^{w(1\pm\eta_1)}$.
+> * the pair cofactors $(y_i-y_j)/\prod_{T\supseteq\{i,j\}}e_T$ are integers, pairwise coprime outside $2$ and $3$,
+>   of size $e^{w(1\pm\eta_1)}$;
+> * the $\{2,3\}$-part of $\prod_{i<j}(y_i-y_j)$ is at most $B_0$.
+
+*Correction (round 31, Part IX.2 of the Question B thread; refereed, `round31/README_IXL.md` §1.5).* The lattice
+form first printed here asked for all $e_T$ and all pair cofactors to be pairwise coprime, with no prime exempt.
+That statement has **empty input**: seven integers have at least nine pairs of equal parity; at most one $e_T$ is
+even, and in every case at least five pair cofactors are even (exhaustive check), and at $p=3$ at least two are
+divisible by $3$. So it was vacuously true, and $\mathrm{Bal}^{pc}$ as first defined is empty. The corrected form
+follows from $(L_8)$ with $\eta_1=\eta_0/2$ (blocks are the $\{2,3\}$-free parts, the $\{2,3\}$-parts go into the
+residues, $H_\Sigma\le\log B_0$), and its coprimality pattern is realised by integers, for example
+$y=(0,5,10,107,267,69,-229)$ with $e_{\{1,2,3\}}=5$ and all other $e_T=1$. Below, $(L_8^{pc})$ means the corrected
+form $(L_8^{pc})'$.
 
 In words, structured lattices have no primitive vector $e^{18w}$ below their Minkowski scale. Nothing between the
 trivial bound and Minkowski is known for these lattices. The heuristic count gives $98-108=-10=-K\cdot\beta$ per
@@ -263,9 +280,11 @@ give the uniform theorem; that needs the chain cases, that is, $(L_8)$ itself.
    * Restricted theorems are known only on special loci with locus-dependent constants, or for a fixed prime set
      (Ridout: $H_\Sigma\ge8(1-\eta)(1-\varepsilon)w-C(S_0,\eta,\varepsilon)$ when all blocks are $S_0$-units;
      theory Thm 2.5). The constant $C$ depends on $S_0$, so this is useless here.
-3. **Chains carry no information on pairwise-coprime profiles** (theory Prop 2.1). On $\mathrm{Bal}^{pc}$ each prime
-   divides one block, and the $p$-adic tree is a single edge. So the chain condition, the anchoring and the residues
-   are vacuous, and **every proof of $(L_8)$ must prove $(L_8^{pc})$**. The gloss "nothing but
+3. **Chains carry little information on profiles pairwise coprime outside $\{2,3\}$** (theory Prop 2.1, corrected
+   in round 31, Part IX.2: $\mathrm{Bal}^{pc}$ as first defined is empty, because a single-edge tree is impossible at
+   $p=2,3$). On the corrected class each prime $p\ge5$ divides at most one block and the $p$-adic tree is a single
+   edge, so the chain condition is vacuous at $p\ge5$; at $2$ and $3$ the structure is carried by residues of total
+   size $\le\log B_0$. **Every proof of $(L_8)$ must prove $(L_8^{pc})'$**. The gloss "nothing but
    $K\cdot\beta=10$ survives" is not a theorem (item G).
 
 *Calibration (round 31, Part V).* The analogue of $(L_8)$ over $\mathbb F_2(t)$ with an anisotropic norm fails
@@ -315,10 +334,12 @@ Coppersmith–Howgrave-Graham–Nagaraj 2008 themselves were seen only through s
 hosts were unreachable); the published version of Cilleruelo–Granville was not read, only arXiv v1, which is the
 only arXiv version. Cilleruelo–Granville's Theorem 10 should be cited for $k\ge3$ (it fails as printed for $k=2$).
 
-> **Question A.** Prove $(L_8)$, or at least its lattice form $(L_8^{pc})$, which every proof must cover. Any proof
+> **Question A.** Prove $(L_8)$, or at least the corrected lattice form $(L_8^{pc})'$ (coprimality outside the
+> primes $2$ and $3$, bounded $\{2,3\}$-part), which every proof must cover; the lattice form as first printed had
+> empty input. Any proof
 > of $(L_8)$, even restricted to pairwise coprime square blocks, proves Rudin's conjecture, and full $(L_8)$ also
 > proves a divisor bound below Lenstra's exponent $1/4$ (see "Strength of $(L_8)$" above); the lattice form
-> $(L_8^{pc})$ is not known to imply either. A proof of
+> $(L_8^{pc})'$ is not known to imply either. A proof of
 > $(L_8)$ would be an unconditional case of $D=0$ Vojta on the rational 5-fold $\overline M_{0,8}$, for a structured
 > but unbounded family of points. Alternatively, find, for every $\eta>0$ and every $w_1$, a Zariski-dense set of
 > $\eta$-balanced points with $w\ge w_1$ that are caterpillar up to $o(w)$ of residue. That would refute both $(L_8)$
@@ -652,7 +673,9 @@ When the base locus lies in codimension-2 boundary strata, this equals $10-K^{\l
 **The abc criterion** (`round18/theory.md` Prop 2.6; **conditional** on abc; implication **proved**).
 * A *unit pencil* is $f=\lambda A/C$ with $\lambda\in\mathbb Q^*$, where $A,C$ are coprime products of differences
   $x_i-x_j$ in Kapranov's chart. Put $B=C-\lambda A$.
-* Claim: if $\mathrm{gain}(f)>0$, then $(L_8^{pc})$ holds with $Z=\{B=0\}$.
+* Claim: if $\mathrm{gain}(f)>0$, then $(L_8^{pc})$ holds with $Z=\{B=0\}$. As first printed this conclusion is
+  vacuous ($\mathrm{Bal}^{pc}=\emptyset$, round 31, Part IX.2); whether the criterion gives the corrected
+  $(L_8^{pc})'$, where the gcd identity should hold up to a factor $B_0^{O(1)}$, is **unchecked**.
 * Mechanism: on $\mathrm{Bal}^{pc}$ we have $\gcd(A(x),C(x))=\prod d_T^{\mu_T}$, so
   $h(f(\Phi))=(L\cdot\beta)w+O(\eta w)$. Divide $(\lambda A(x),B(x),C(x))$ by its gcd to get a coprime abc triple.
   The log of the radical of that triple is $\le(F_{\rm red}\cdot\beta)w+O(\eta w)$.
@@ -712,7 +735,7 @@ Two things are needed, and both are open.
   **No example is known**, and Theorem 2.4 alone allows gain $\le31$. Campana-type statements see only gcd
   multiplicities, so they do not decide the question.
 
-Even with both (i) and (ii), the result would be only an abc-conditional $(L_8^{pc})$. Reaching $(L_8)$ also
+Even with both (i) and (ii), the result would be only an abc-conditional $(L_8^{pc})$ (for the corrected form $(L_8^{pc})'$ this is unchecked; see the claim above). Reaching $(L_8)$ also
 needs a nested-chain extension. There, for the chain $\{1,2\}\subset\{1,2,3\}$, the gcd exceeds Prop 2.6's value
 by a full block (`round18/README.md` §3.3, J2; **unrefereed**). The judge adds that the radical also counts $p$
 once, which might compensate, and that this is not analysed; so J2 shows a gcd excess, not that the extension fails.
@@ -828,6 +851,15 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
    the skew double core. The stronger parity condition that holds over $\mathbb F_2[t]$ (item 12, Part VI) has no
    integer analogue: $z=\gamma^2(2+i)$ with $\gamma=x+iy$, $(x+2y)^2-5y^2=\pm1$, has $|z-\bar z|=2$ and parity
    support $\{5\}$ while $\log N\to\infty$.
+   *What is not capped* (round 31, Part IX of the Question B thread; `round31/README_IXL.md` §1.8). abc on the
+   integer triangle $t_{12}A_{12}+t_{23}A_{23}=t_{13}A_{13}$ (three marks in one unit class: $z_j-z_i=2i\eta
+   H_{ij}t_{ij}$ with $t_{ij}\in\mathbb Z\setminus\{0\}$ and $H_{ij}$ the common Gaussian part; the $A_{ij}$ are
+   products of the parent's primes) is vacuous for the same reason. But the exact identity itself, with small
+   integer cofactors, is **not capped**: it is the input the fakes lack, and it gives a rate for random parents
+   (item 12, Part IX). For a fixed parent it is a squarefree three-term $S$-unit equation with $|S|=s$ and small
+   coefficients, whose content is open; known counts are $\exp(O(s))$. Its local consequences at primes not dividing
+   $N$, triangle areas and abc remain capped, and the earlier classification of the cocycle as capped
+   (`round10/additive.md` §6; `overview/overview.md` §5.4 rows 15–16) holds only for those consequences.
 7. **gcd normalisation.** It is invisible to forced-divisibility, auxiliary-form, Liouville, pair, cut, character
    and single-form inequalities (Lemma K1, proved by the killer). Vojta's $D=E$ term and the heuristic count do
    see it.
@@ -894,15 +926,16 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      "balance does not separate real clusters from fakes" (true only for pairwise balance); the "real-algebraic
      obstruction" lead (it was linear algebra, Prop K1).
 
-12. **Round 31 (nine exchanges with an outside colleague, "Astra"; 89 referee blocks and fourteen judge reports:
+12. **Round 31 (nine exchanges with an outside colleague, "Astra"; 97 referee blocks and fifteen judge reports:
    `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`,
-   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
+   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`, `README_IXL.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
    (Part V, unit-twisted points) was repaired by the referee. **The growth rate for general $R$, the uniform bound,
    Questions A and B and route 5 keep their status** (judges' scores on the goal: 2/10, 2/10, 1/10, 2/10, 1/10, 2/10,
-   1/10, 2/10, 2/10, 1.5/10, 1.5/10, 3/10, 2/10, 2.5/10). Parts VIII and IX are about integer circles: Part VIII adds Theorem 1.2 (§1)
+   1/10, 2/10, 2/10, 1.5/10, 1.5/10, 3/10, 2/10, 2.5/10, 2.5/10). Parts VIII and IX are about integer circles: Part VIII adds Theorem 1.2 (§1)
    and the first fakes in the low-height window, and on the Question B thread shows that Question A contains
    Rudin's conjecture (§2); Part IX adds Theorem 1.3 (§1), caps character-tested prime residues at every modulus
-   and extends the window cap to $\delta<1/6$.
+   and extends the window cap to $\delta<1/6$; on the Question B thread it gives a rate for random parents at the
+   smooth critical height and corrects the lattice fallback of Question A (§2).
    The other new theorems are in the function-field model (Parts IV, V and VI below): the uniform statement is true in
    characteristic 0, false over $\mathbb F_2(t)$ (also for squarefree parents) and false over $\mathbb F_3(t)$
    with the Gaussian form $A^2+B^2$. What is now in the record, all
@@ -937,7 +970,26 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      $C\sqrt R$: $M_D=1$ for $D>4$, $\le2$ for $8/3<D\le4$, $O(1)$ for $D>2$ (elementary pair first-moment count,
      the referee's), and $M_D\le37$ at $D=3/2$, finite for every $D>1$ (quartet exposure). This averages over a
      density-zero family. It says nothing about any individual $N$, about the narrow-bin parents on which fakes
-     are built (they lie inside the exceptional set), or about the growth rate.
+     are built (they lie inside this exceptional set), or about the growth rate.
+     *Extension (round 31, Part IX of the Question B thread; refereed, `round31/README_IXL.md` §§1.1–1.3;
+     almost-all over a prime pool, not a worst-case statement).* Let $S$ be a uniformly random $s$-subset of any
+     set of $K\ge e^{40}s$ primes in $[P,2P]$, $q=\prod_{p\in S}p$, $J=\log(K/s)$ and
+     $b-1=\max(2,\lceil100\log(2P)/J\rceil)$. For $s\ge s_0(C)$, outside a fraction $\exp(-sJ/20)$ of parents, every
+     arc of length $Cq^{1/4}$ of $x^2+y^2=q$ (pool of split primes) carries at most $4(b-1)$ points, and every
+     interval of length $C\sqrt q$ contains at most $b-1$ integers lying in one of two prescribed classes modulo
+     each $p\in S$, uniformly in the arc, the interval and the classes. At $P=As\log s$ ($A\ge2e^{40}$) this is
+     $O(\log s)$ at height $\log q\sim s\log s$, the endpoint $D=1$ at which $M_D$ above is unbounded and where the
+     worst-case bound is of order $s$; at $P=s^{1+\epsilon}$ it is $O_\epsilon(1)$. Exponents $1\le e_p\le E$ chosen
+     after the sample are allowed, with constants polynomial in $E$. The proof uses three marks: some triple has
+     small integer cofactors, its triangle identity determines a block of at least $s/5$ of the primes from the
+     rest, and a union bound over $7^s$ labellings beats the pool entropy. The exceptional fraction is $R^{-o(1)}$
+     at the smooth scale, the exceptional set may contain $(\#\text{parents})^{0.95}$ parents, and the dense
+     profile extremal for Theorem 1.1 ($K=s$) is not covered. A first-moment heuristic predicts $O(1)$ already at
+     $P=As\log s$. *Same norms for fakes and genuine arcs:* on typical $s$-subsets $S$ of a bin of split primes of
+     log-width $l^{-3/4}$ in $[l^{1.99},2l^{1.99}]$ ($s=l-1$), the Legendre fakes of Part VIII exist on
+     $N=\prod_{p\in S}p^2$ with $\asymp s/2$ marks while every genuine arc of length $C\sqrt R$ carries $O_C(1)$
+     points (asymptotic only). So the inputs the fakes satisfy cannot certify $M=o(s)$ even where the truth is
+     bounded; the separation is by the truth, not by a test the fakes fail.
    * *Closed routes.* Unit-equation counting with fixed anchors (item 5); grid determinants with free
      nonvanishing (item 3); fixed-cofactor elimination (the fixed-$t$ norm vectors form an irreducible fourfold of
      degree 12 that dominates ratio space); quartet cross-ratio consistency (automatic); template density (ten-pair
@@ -1311,7 +1363,39 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      progress; Question B is untouched. Do not write "the uniform bound implies Rudin", "Question A is equivalent
      to Rudin", "$(L_8^{pc})$ implies Rudin", or "Vojta's conjecture is known to imply Rudin" (say "we found no
      earlier derivation").
-   * *Withdrawn or corrected in the round:* a sentence on "different local obstructions" for the round-24 family
+   * ***Part IX of the Question B thread: the critical two-class problem*** (`round31/README_IXL.md`; eight referee
+     blocks; nothing false; judge's score 2.5/10). The twin of the arc problem (at most two classes modulo each
+     $p^f\parallel q$, intervals of length $C\sqrt q$) is equivalent to Cilleruelo–Granville's Conjecture 9 at the
+     uniform scale and at the little-oh scales $\log q/\log\log q$ and $\omega(q)$ (**proved**); so its rate
+     question is a named open problem: do intervals of length $\sqrt q$ contain $o(\omega(q))$ roots of
+     $x^2\equiv a\ (q)$? No transfer of statements between the twin and circles is known in either direction;
+     methods transfer both ways. **Proved:** the random-parent rate for the twin and for circles (Part III bullet
+     above), including bounded exponents and the smooth scale; the same-norm comparison of fakes and genuine arcs;
+     a squarefree relaxation (an edge table with all pair magnitudes, gcds, valuation patterns at every prime,
+     integral cofactors and Sidon signatures) that reaches the larger-sieve constant
+     $\frac12\log q/\log\log q$ and has no integer realisation up to length $q^{1-O(1/m)}$: a barrier for
+     valuation-based arguments, not for arguments using signed residues of single differences; no affine 3-flat of
+     twin signatures at length below $q^{2/3}/4$ (sharp; characteristic 0 is used, which is why the
+     Sylvester–Hadamard families of characteristic 2 have no integer counterpart); at most $(1+C^2)(1+2C^2)$ pairs
+     per signature difference in the twin; $M,B\ll n^{1-2^{1-2d}}$ ($n^{7/8}$ at $d=2$) for profiles whose bits are
+     Boolean functions of $d$ affine forms on $n$ labels, in both problems and in angle models (binary rank
+     $O((\log n)^d)$, so no recorded fake is in the class). Not new: $M\ll_C\sqrt{|A+A|}$ on circles (the
+     distinct-label lemma of Part II) and the one-large-prime-power criterion (round 8). The printed lattice form
+     $(L_8^{pc})$ had empty input (§2). **The growth rate for general $R$, the uniform bound and Questions A and B
+     are unchanged**; worst-case parents, even squarefree with comparable primes, are open in both problems.
+     *Judge's reading*: at the smooth critical height the truth on typical pool parents is $O(\log s)$, very
+     probably $O(1)$, so the order-$s$ barrier is a worst-case phenomenon and not a height phenomenon; the input
+     that separates genuine from fake, the exact additive identity with integer cofactors, is identified but has
+     been used only through the entropy of the parent. Removing the exceptional parents by counting over exponent
+     patterns and cofactor tables is closed as a method for $P\le s^2$. Do not write "the uniform bound holds for
+     almost all smooth parents", "Part IX gives the rate $O(\log\log R)$" (without "on random parents of a pool"),
+     "the exceptional parents are polynomially rare", "Part IX covers the extremal profile of Theorem 1.1", "the
+     relaxation isolates the triangle identity" (without "equivalently, the signed pair residues modulo $q$"),
+     "fakes fail the same-norm test", "$(L_8^{pc})$ is open" (printed form), "$(L_8^{pc})$ is Rudin-hard" (either
+     form), or "the twin rate implies the circle rate" or its converse.
+   * *Withdrawn or corrected in the round:* the claim that the lattice form $(L_8^{pc})$ is open (as first printed
+     it has empty input; corrected to $(L_8^{pc})'$, §2); the classification of the cocycle of reduced chords as
+     capped (narrowed to its local consequences, triangle areas and abc, §5 item 6); a sentence on "different local obstructions" for the round-24 family
      (both forms are excluded at 2 and at 3); the coordinator's "weight $D/2$ is exactly the lattice minimum" (only
      a lower bound) and "every determinant is critical" (see Lemma K1 as now worded); the headline "17 points" of
      the random-parent theorem (superseded by 2 and 1); "asymptotically exact radii" (relative error
@@ -1350,7 +1434,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
 | round 29: function-field model, Li–Liu template, residue-class twin, 18 screened ideas (no change) | `round29/README.md` (with `kill_*.md`) |
 | round 30: function-field model decided as far as internal work goes (rank open, line closed; no change) | `round30/README.md` (with `kill_*.md`) |
-| round 31: outside colleague, nine refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; **on integer circles $M\le1+\omega(N')+K_C$ and fakes inside the low-height window**; **$(L_8)$ implies Rudin's conjecture**; no change to the growth rate for general $R$) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md` (with `ref*_*.md`, `langer_check.md`) |
+| round 31: outside colleague, nine refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; **on integer circles $M\le1+\omega(N')+K_C$ and fakes inside the low-height window**; **$(L_8)$ implies Rudin's conjecture**; random-parent rate at the smooth scale, same-norm separation of fakes, $(L_8^{pc})$ correction; no change to the growth rate for general $R$) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`, `README_IXL.md` (with `ref*_*.md`, `langer_check.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check

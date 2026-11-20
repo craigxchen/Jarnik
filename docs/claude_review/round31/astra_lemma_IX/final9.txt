@@ -1,0 +1,14 @@
+Appended [Part IX to answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/answer.md:1931) and saved the [exact verification script](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/ix_checks.py).
+
+1. **PROVED.** I chose the split twin because three genuine integer differences satisfy a signed triangle equation that the larger sieve does not use.
+2. **PROVED.** Sample \(s\) primes from \([A s\log s,2A s\log s]\), with \(A\) sufficiently large and fixed. Except for an \(e^{-\Omega(s)}\) fraction of the resulting squarefree moduli, \(B\ll_C\log s\), uniformly over every interval and every choice of residues.
+3. **PROVED.** These moduli have \(\log q\sim s\log s\), precisely the scale where the larger-sieve bound is of order \(s\). Sampling instead at \(P=s^{1+\epsilon}\) gives \(B=O_{C,\epsilon}(1)\).
+4. **PROVED.** On a suitable triple, the signed equation determines the product of at least \(s/5\) sampled primes from the other primes and three small integer cofactors.
+5. **PROVED.** The triangle argument transfers to Gaussian circles and allows uniformly bounded prime exponents. The parallel report previously obtained the Gaussian random-parent rate using four marks.
+6. **PROVED.** On the **same** arbitrarily large norms, all with prime exponents two, P2 admits \(\asymp s\) model marks while every genuine critical arc contains \(O_C(1)\) marks.
+7. **PROVED.** A deterministic restriction also gives a rate. If each local choice depends on two affine binary tests on a space of \(O(s)\) labels, both the twin and circle counts are \(O_C(s^{7/8})\).
+8. **PROVED.** A squarefree relaxation attains \(m\sim\frac12\log q/\log\log q\) while realizing every local edge valuation. Its signed edges fail the triangle identities required for global integer marks.
+9. **COMPUTED.** The 43-mark relaxation fails 12,341 triangle identities. The Gaussian factorization checks passed on all 2,925 triples of a cap-two example.
+10. **PROVED.** The critical twin and Cilleruelo–Granville’s square-root problem are equivalent at both the uniform and little-oh scales. Separately, the literal pairwise-coprime lattice fallback has no inputs, already at the prime two.
+11. **OPEN.** I could not remove the exceptional parents, even for squarefree moduli with comparable prime factors. The unrestricted circle rate remains open.
+12. **REQUEST.** Please referee the extraction of primes occurring in just one Gaussian triangle term at bounded exponents, and the widened prime bin in the same-norm P2 comparison.

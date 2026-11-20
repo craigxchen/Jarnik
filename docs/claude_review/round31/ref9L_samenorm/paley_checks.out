@@ -1,0 +1,37 @@
+q=43: |A|=21, min #(+1) per column on A=10, min #(-1)=10, (q-1)/4=10.50; m=21, deleted rows=0; both exponents 0,2 in every column after selection: True; parity=owner indicator: True; parity=sum of threshold bits: True; Sidon (distinct unary signature sums over 210 pairs): True
+q=67: |A|=33, min #(+1) per column on A=16, min #(-1)=16, (q-1)/4=16.50; m=33, deleted rows=0; both exponents 0,2 in every column after selection: True; parity=owner indicator: True; parity=sum of threshold bits: True; Sidon (distinct unary signature sums over 528 pairs): True
+q=131: |A|=65, min #(+1) per column on A=32, min #(-1)=32, (q-1)/4=32.50; m=65, deleted rows=0; both exponents 0,2 in every column after selection: True; parity=owner indicator: True; parity=sum of threshold bits: True; Sidon (distinct unary signature sums over 2080 pairs): True
+q=227: |A|=113, min #(+1) per column on A=56, min #(-1)=56, (q-1)/4=56.50; m=112, deleted rows=1; both exponents 0,2 in every column after selection: True; parity=owner indicator: True; parity=sum of threshold bits: True; Sidon (distinct unary signature sums over 6216 pairs): True
+q=383: |A|=191, min #(+1) per column on A=95, min #(-1)=95, (q-1)/4=95.50; m=190, deleted rows=1; both exponents 0,2 in every column after selection: True; parity=owner indicator: True; parity=sum of threshold bits: True; Sidon (distinct unary signature sums over 17955 pairs): True
+RM: d=1, s~1000, r=11, dim RM(d,r)=12, m~s/2=500, dim<m: True
+RM: d=1, s~10000, r=15, dim RM(d,r)=16, m~s/2=5000, dim<m: True
+RM: d=1, s~1000000, r=21, dim RM(d,r)=22, m~s/2=500000, dim<m: True
+RM: d=1, s~1000000000, r=31, dim RM(d,r)=32, m~s/2=500000000, dim<m: True
+RM: d=2, s~1000, r=11, dim RM(d,r)=67, m~s/2=500, dim<m: True
+RM: d=2, s~10000, r=15, dim RM(d,r)=121, m~s/2=5000, dim<m: True
+RM: d=2, s~1000000, r=21, dim RM(d,r)=232, m~s/2=500000, dim<m: True
+RM: d=2, s~1000000000, r=31, dim RM(d,r)=497, m~s/2=500000000, dim<m: True
+RM: d=3, s~1000, r=11, dim RM(d,r)=232, m~s/2=500, dim<m: True
+RM: d=3, s~10000, r=15, dim RM(d,r)=576, m~s/2=5000, dim<m: True
+RM: d=3, s~1000000, r=21, dim RM(d,r)=1562, m~s/2=500000, dim<m: True
+RM: d=3, s~1000000000, r=31, dim RM(d,r)=4992, m~s/2=500000000, dim<m: True
+RM: d=4, s~1000, r=11, dim RM(d,r)=562, m~s/2=500, dim<m: False
+RM: d=4, s~10000, r=15, dim RM(d,r)=1941, m~s/2=5000, dim<m: True
+RM: d=4, s~1000000, r=21, dim RM(d,r)=7547, m~s/2=500000, dim<m: True
+RM: d=4, s~1000000000, r=31, dim RM(d,r)=36457, m~s/2=500000000, dim<m: True
+  q=227 [uniform] sigma=1: min dev=-21.715, max dev=16.063, max|dev|=21.715, sqrt(n log n)=35.0, ratio=0.620; with sigma=q^-3/4: max|dev|=0.3713
+  q=227 [uniform] sigma=1: min dev=-15.525, max dev=16.378, max|dev|=16.378, sqrt(n log n)=35.0, ratio=0.468; with sigma=q^-3/4: max|dev|=0.2801
+  q=227 [uniform] sigma=1: min dev=-16.016, max dev=14.931, max|dev|=16.016, sqrt(n log n)=35.0, ratio=0.458; with sigma=q^-3/4: max|dev|=0.2739
+  q=227 [twopoint] sigma=1: min dev=-28.000, max dev=26.000, max|dev|=28.000, sqrt(n log n)=35.0, ratio=0.800; with sigma=q^-3/4: max|dev|=0.4788
+  q=1019 [uniform] sigma=1: min dev=-40.368, max dev=36.224, max|dev|=40.368, sqrt(n log n)=84.0, ratio=0.481; with sigma=q^-3/4: max|dev|=0.2238
+  q=1019 [uniform] sigma=1: min dev=-42.058, max dev=38.996, max|dev|=42.058, sqrt(n log n)=84.0, ratio=0.501; with sigma=q^-3/4: max|dev|=0.2332
+  q=1019 [uniform] sigma=1: min dev=-37.407, max dev=41.851, max|dev|=41.851, sqrt(n log n)=84.0, ratio=0.498; with sigma=q^-3/4: max|dev|=0.2320
+  q=1019 [twopoint] sigma=1: min dev=-65.000, max dev=69.000, max|dev|=69.000, sqrt(n log n)=84.0, ratio=0.822; with sigma=q^-3/4: max|dev|=0.3826
+  q=2003 [uniform] sigma=1: min dev=-57.125, max dev=59.674, max|dev|=59.674, sqrt(n log n)=123.4, ratio=0.484; with sigma=q^-3/4: max|dev|=0.1993
+  q=2003 [uniform] sigma=1: min dev=-62.801, max dev=62.085, max|dev|=62.801, sqrt(n log n)=123.4, ratio=0.509; with sigma=q^-3/4: max|dev|=0.2098
+  q=2003 [uniform] sigma=1: min dev=-54.595, max dev=65.607, max|dev|=65.607, sqrt(n log n)=123.4, ratio=0.532; with sigma=q^-3/4: max|dev|=0.2191
+  q=2003 [twopoint] sigma=1: min dev=-95.000, max dev=107.000, max|dev|=107.000, sqrt(n log n)=123.4, ratio=0.867; with sigma=q^-3/4: max|dev|=0.3574
+  q=4003 [uniform] sigma=1: min dev=-90.597, max dev=88.379, max|dev|=90.597, sqrt(n log n)=182.2, ratio=0.497; with sigma=q^-3/4: max|dev|=0.1800
+  q=4003 [uniform] sigma=1: min dev=-94.990, max dev=100.555, max|dev|=100.555, sqrt(n log n)=182.2, ratio=0.552; with sigma=q^-3/4: max|dev|=0.1998
+  q=4003 [uniform] sigma=1: min dev=-91.673, max dev=86.740, max|dev|=91.673, sqrt(n log n)=182.2, ratio=0.503; with sigma=q^-3/4: max|dev|=0.1822
+  q=4003 [twopoint] sigma=1: min dev=-164.000, max dev=147.000, max|dev|=164.000, sqrt(n log n)=182.2, ratio=0.900; with sigma=q^-3/4: max|dev|=0.3259

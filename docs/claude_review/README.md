@@ -301,6 +301,18 @@ shows that the all-monomial residue test with rational witnesses at all moduli h
 residue route to the rate is thereby reduced to one class open since round 6 (P3-all*) or to the problem itself.
 **The growth rate for general `R` is unchanged.**
 
+On the Question B thread the ninth exchange (`round31/README_IXL.md`) studied the split twin of the arc problem
+(integers in an interval of length `C sqrt q` lying in one of two classes modulo each prime power of `q`), which is
+equivalent to Cilleruelo-Granville's Conjecture 9. Nothing was found false. Proved: for a random `s`-subset of a
+pool of at least `e^40 s` primes in `[P, 2P]`, outside an exponentially small fraction of parents, every critical
+interval (twin) and every critical arc (circles) carries `O(1 + log P / log(K/s))` points, uniformly in the
+interval, the arc and the classes: `O(log s)` at the smooth height `log q ~ s log s`, where the worst-case bound is
+of order `s`. The proof uses the exact additive relation among three genuine points, which fake circles lack. On
+the same norms the refereed fakes have about `s/2` points while genuine arcs have `O(1)`. **This is an average over
+a density-zero family; worst-case parents and the growth rate for general `R` are unchanged.** A correction to the
+record: the lattice fallback of Question A, as first printed, had no valid inputs (a parity obstruction at 2 and
+3); the expert note now states a corrected form.
+
 **Growth-rate status (2026-11-19, after round 31).** No growth improvement over `log R/loglog R` is proved
 unconditionally; conditionally only Vojta-type routes are known, and they give the uniform bound directly. The following are capped at `log R/loglog R` by
 refereed barrier theorems:

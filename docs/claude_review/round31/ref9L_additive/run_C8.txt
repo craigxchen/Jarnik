@@ -1,0 +1,3 @@
+q=30030 L=1386 s=6 C=8/1 thr=8 {'conf': 1266} maxB=8 maxmult=4 max B/sqrtD=2.138 bound=8385.0
+   example S= (2, 28, 182, 457, 728, 1003, 1157, 1183) D= 14
+q=510510 L=5715 s=7 C=8/1 thr=8 {} maxB=0 maxmult=0 max B/sqrtD=0.000 bound=8385.0

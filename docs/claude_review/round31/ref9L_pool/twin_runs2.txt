@@ -1,0 +1,2 @@
+s=6 P=100 K=21 C=8.0 trials=30 dist={4: 30} worst=(4, [131, 173, 181, 191, 193, 199], [0, 4102003, 7335737, 11437740]) larger-sieve scale logq/loglogq=8.83
+s=8 P=300 K=47 C=8.0 trials=10 dist={4: 10} worst=(4, [359, 409, 439, 449, 487, 503, 571, 587], [0, 28942005241, 82105293097, 111047298338]) larger-sieve scale logq/loglogq=12.57

@@ -1,0 +1,20 @@
+circle s=6 P=100 K=10 C=1.0 trials=50 dist={1: 42, 2: 8} worst=(2, [113, 137, 149, 181, 193, 197]) same-unit pairs checked=2 logq/loglogq=8.83
+circle s=6 P=100 K=10 C=4.0 trials=50 dist={1: 19, 2: 31} worst=(2, [113, 137, 149, 181, 193, 197]) same-unit pairs checked=7 logq/loglogq=8.83
+circle s=8 P=100 K=10 C=4.0 trials=50 dist={1: 21, 2: 28, 3: 1} worst=(3, [109, 113, 137, 157, 173, 181, 193, 197]) same-unit pairs checked=1 logq/loglogq=10.86
+circle s=10 P=100 K=10 C=4.0 trials=20 dist={2: 20} worst=(2, [101, 109, 113, 137, 149, 157, 173, 181, 193, 197]) same-unit pairs checked=20 logq/loglogq=12.80
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref9L_pool/circle_sim.py", line 84, in <module>
+    primes = sorted(rng.sample(pool, s))
+                    ~~~~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/random.py", line 434, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+circle s=12 P=1000 K=67 C=4.0 trials=10 dist={1: 10} worst=(1, [1009, 1049, 1213, 1429, 1553, 1597, 1609, 1697, 1777, 1901, 1993, 1997]) same-unit pairs checked=0 logq/loglogq=19.61
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref9L_pool/circle_sim.py", line 84, in <module>
+    primes = sorted(rng.sample(pool, s))
+                    ~~~~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/random.py", line 434, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+circle s=14 P=200 K=16 C=8.0 trials=5 dist={1: 5} worst=(1, [229, 233, 241, 257, 277, 281, 293, 313, 317, 337, 353, 373, 389, 397]) same-unit pairs checked=0 logq/loglogq=18.23

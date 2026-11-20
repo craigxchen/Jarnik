@@ -1,0 +1,50 @@
+  C=1 N={5: 1, 13: 1, 17: 1} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 1, 13: 1, 17: 1, 29: 1} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 1, 13: 1, 17: 1, 29: 1, 37: 1} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 1, 13: 1, 17: 1, 29: 1, 37: 1, 41: 1} maxM=3 (M,D) at maxM=(3, 4) max M/sqrtD=1.500 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 1, 13: 1, 17: 1, 29: 1, 37: 1, 41: 1, 53: 1} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 1, 13: 1, 17: 1, 29: 1, 37: 1, 41: 1, 53: 1, 61: 1} maxM=3 (M,D) at maxM=(3, 4) max M/sqrtD=1.500 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 1, 13: 1, 17: 1, 29: 1, 37: 1, 41: 1, 53: 1, 61: 1, 73: 1} maxM=3 (M,D) at maxM=(3, 4) max M/sqrtD=1.500 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 1, 13: 1, 17: 1, 29: 1, 37: 1, 41: 1, 53: 1, 61: 1, 73: 1, 89: 1} maxM=3 (M,D) at maxM=(3, 4) max M/sqrtD=1.500 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 2, 13: 2} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 2, 13: 2, 17: 2} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 2, 13: 2, 17: 2, 29: 2} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 2, 13: 2, 17: 2, 29: 2, 37: 2} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 2, 13: 2, 17: 2, 29: 2, 37: 2, 41: 2} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 3, 13: 3} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 3, 13: 3, 17: 3} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 3, 13: 3, 17: 3, 29: 3} maxM=0 (M,D) at maxM=None max M/sqrtD=0.000 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 6, 13: 3, 17: 2, 29: 1, 37: 1} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={5: 4, 13: 4, 17: 2, 29: 2} maxM=0 (M,D) at maxM=None max M/sqrtD=0.000 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=1 N={97: 1, 101: 1, 109: 1, 113: 1, 137: 1, 149: 1, 157: 1, 173: 1, 181: 1} maxM=0 (M,D) at maxM=None max M/sqrtD=0.000 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+C=1 {'viol_c=1.99': 0, 'viol_c=2.5': 0, 'viol_c=4': 0, 'viol_c=8': 0, 'gapviol': 0, 'windows': 1256} max M/sqrt(D)=1.500 at {5: 1, 13: 1, 17: 1, 29: 1, 37: 1, 41: 1} max M=3 at {5: 1, 13: 1, 17: 1, 29: 1, 37: 1, 41: 1}
+   (M,D) histogram top: [((3, 4), 32), ((2, 2), 1224)]
+  C=4 N={5: 1, 13: 1, 17: 1} maxM=5 (M,D) at maxM=(5, 8) max M/sqrtD=1.768 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 1, 13: 1, 17: 1, 29: 1} maxM=4 (M,D) at maxM=(4, 4) max M/sqrtD=2.000 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 1, 13: 1, 17: 1, 29: 1, 37: 1} maxM=5 (M,D) at maxM=(5, 11) max M/sqrtD=1.512 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 1, 13: 1, 17: 1, 29: 1, 37: 1, 41: 1} maxM=4 (M,D) at maxM=(4, 7) max M/sqrtD=2.000 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 1, 13: 1, 17: 1, 29: 1, 37: 1, 41: 1, 53: 1} maxM=4 (M,D) at maxM=(4, 7) max M/sqrtD=1.512 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 1, 13: 1, 17: 1, 29: 1, 37: 1, 41: 1, 53: 1, 61: 1} maxM=4 (M,D) at maxM=(4, 7) max M/sqrtD=1.512 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 1, 13: 1, 17: 1, 29: 1, 37: 1, 41: 1, 53: 1, 61: 1, 73: 1} maxM=4 (M,D) at maxM=(4, 7) max M/sqrtD=1.512 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 1, 13: 1, 17: 1, 29: 1, 37: 1, 41: 1, 53: 1, 61: 1, 73: 1, 89: 1} maxM=4 (M,D) at maxM=(4, 7) max M/sqrtD=1.512 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 2, 13: 2} maxM=4 (M,D) at maxM=(4, 7) max M/sqrtD=1.512 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 2, 13: 2, 17: 2} maxM=4 (M,D) at maxM=(4, 7) max M/sqrtD=1.512 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 2, 13: 2, 17: 2, 29: 2} maxM=3 (M,D) at maxM=(3, 4) max M/sqrtD=1.500 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 2, 13: 2, 17: 2, 29: 2, 37: 2} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 2, 13: 2, 17: 2, 29: 2, 37: 2, 41: 2} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 3, 13: 3} maxM=3 (M,D) at maxM=(3, 4) max M/sqrtD=1.500 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 3, 13: 3, 17: 3} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 3, 13: 3, 17: 3, 29: 3} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 6, 13: 3, 17: 2, 29: 1, 37: 1} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={5: 4, 13: 4, 17: 2, 29: 2} maxM=2 (M,D) at maxM=(2, 2) max M/sqrtD=1.414 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+  C=4 N={97: 1, 101: 1, 109: 1, 113: 1, 137: 1, 149: 1, 157: 1, 173: 1, 181: 1} maxM=0 (M,D) at maxM=None max M/sqrtD=0.000 viol={1.99: 0, 2.5: 0, 4.0: 0, 8.0: 0} gap=0
+C=4 {'viol_c=1.99': 0, 'viol_c=2.5': 0, 'viol_c=4': 0, 'viol_c=8': 0, 'gapviol': 0, 'windows': 5132} max M/sqrt(D)=2.000 at {5: 1, 13: 1, 17: 1, 29: 1} max M=5 at {5: 1, 13: 1, 17: 1}
+   (M,D) histogram top: [((5, 8), 16), ((5, 11), 16), ((4, 4), 20), ((4, 7), 196), ((3, 4), 948), ((2, 2), 3936)]
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref9L_additive/circle.py", line 134, in <module>
+    N, o = analyse(fac, C)
+           ~~~~~~~^^^^^^^^
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref9L_additive/circle.py", line 82, in analyse
+    assert len(set(A)) == M
+           ^^^^^^^^^^^^^^^^
+AssertionError

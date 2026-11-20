@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref9L_additive/twin.py", line 125, in <module>
+    st = analyse(q, (Cnum, Cden), maxch)
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref9L_additive/twin.py", line 82, in analyse
+    assert len(set(A)) == len(A), "signature not injective"
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError: signature not injective
+
+real	0m0.344s
+user	0m0.298s
+sys	0m0.040s

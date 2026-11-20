@@ -1,0 +1,21 @@
+(a) twin J=13: exponent per sJ = -0.0484  (need <= -0.05: False)
+(a) twin J=18.6: exponent per sJ = -0.0805  (need <= -0.05: True)
+(a) twin J=20: exponent per sJ = -0.0857  (need <= -0.05: True)
+(a) twin J=40: exponent per sJ = -0.1203  (need <= -0.05: True)
+(a) twin J=60: exponent per sJ = -0.1319  (need <= -0.05: True)
+(a) gauss J=13: exponent per sJ = -0.0053  (need <= -0.05: False)
+(a) gauss J=18.6: exponent per sJ = -0.0504  (need <= -0.05: True)
+(a) gauss J=20: exponent per sJ = -0.0577  (need <= -0.05: True)
+(a) gauss J=40: exponent per sJ = -0.1064  (need <= -0.05: True)
+(a) gauss J=60: exponent per sJ = -0.1226  (need <= -0.05: True)
+(a) twin powers E=1, J=55.5: exponent per sJ = -0.1300 = -0.1300/E
+(a) twin powers E=2, J=155.7: exponent per sJ = -0.0650 = -0.1300/E
+(a) twin powers E=3, J=276.3: exponent per sJ = -0.0433 = -0.1300/E
+(a) twin powers E=5, J=554.5: exponent per sJ = -0.0260 = -0.1300/E
+(b) K=7 s=3 k=2: max P(hidden set = given set | exposed) = 1/15, 1/binom = 1/15, (s/K)^k = 9/49; ok=True
+(b) K=8 s=4 k=2: max P(hidden set = given set | exposed) = 1/15, 1/binom = 1/15, (s/K)^k = 1/4; ok=True
+(b) K=8 s=4 k=3: max P(hidden set = given set | exposed) = 1/35, 1/binom = 1/35, (s/K)^k = 1/8; ok=True
+(b) K=9 s=3 k=1: max P(hidden set = given set | exposed) = 1/7, 1/binom = 1/7, (s/K)^k = 1/3; ok=True
+(b) grid K<120: violations of 1/binom(K-s+k,k) <= (s/K)^k: 0
+(c) twin: 4846 admissible triples checked, failures (identity, coprime factorisation, heavy-block count) = 0
+(d) gaussian squarefree: 245 triples, failures = 0

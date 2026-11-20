@@ -1,0 +1,4 @@
+m=11: Gram identity True; distinct pair sums 55 of 55; gcd(d,q)=h True; failed triangles 165 of 165; max|d|/sqrt q = 0.237
+  d_ij^2 mod p over separated pairs: (#distinct values, #pairs) range (28, 30) .. (30, 30); a genuine configuration has 1 value at every p
+m=19: Gram identity True; distinct pair sums 171 of 171; gcd(d,q)=h True; failed triangles 969 of 969; max|d|/sqrt q = 0.252
+  d_ij^2 mod p over separated pairs: (#distinct values, #pairs) range (86, 90) .. (90, 90); a genuine configuration has 1 value at every p

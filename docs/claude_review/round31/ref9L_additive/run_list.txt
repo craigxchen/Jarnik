@@ -1,0 +1,16 @@
+{'q': 30030, 'L': 346, 's': 6, 'exhaustive': False, 'nconf': 2667, 'maxB': 4, 'maxmult': 2, 'viol_mult': 0, 'viol_sharp': 0, 'viol_sum': 0, 'affine3': 0, 'affine3_large': 0, 'maxratio': 2.0}
+{'q': 9240, 'L': 192, 's': 5, 'exhaustive': False, 'nconf': 2040, 'maxB': 4, 'maxmult': 1, 'viol_mult': 0, 'viol_sharp': 0, 'viol_sum': 0, 'affine3': 0, 'affine3_large': 0, 'maxratio': 1.5118578920369088}
+{'q': 27720, 'L': 332, 's': 5, 'exhaustive': False, 'nconf': 760, 'maxB': 3, 'maxmult': 1, 'viol_mult': 0, 'viol_sharp': 0, 'viol_sum': 0, 'affine3': 0, 'affine3_large': 0, 'maxratio': 1.5}
+{'q': 60060, 'L': 490, 's': 6, 'exhaustive': False, 'nconf': 1522, 'maxB': 4, 'maxmult': 1, 'viol_mult': 0, 'viol_sharp': 0, 'viol_sum': 0, 'affine3': 0, 'affine3_large': 0, 'maxratio': 1.5118578920369088}
+{'q': 4620, 'L': 135, 's': 5, 'exhaustive': False, 'nconf': 2988, 'maxB': 4, 'maxmult': 1, 'viol_mult': 0, 'viol_sharp': 0, 'viol_sum': 0, 'affine3': 0, 'affine3_large': 0, 'maxratio': 1.5118578920369088}
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref9L_additive/twin_list.py", line 5, in <module>
+    st=analyse(q,(Cn,Cd),maxch)
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref9L_additive/twin.py", line 51, in analyse
+    pairs_per = [list(itertools.combinations(range(m), 2)) for m in pps]
+                 ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+
+real	0m15.412s
+user	0m13.634s
+sys	0m1.642s

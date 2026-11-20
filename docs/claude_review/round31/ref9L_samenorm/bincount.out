@@ -1,0 +1,6 @@
+l=10007: P=9.133e+07, bin length=91325, K(first bin)=2430, PNT avg-bin=3516, l^1.24/(2*1.99*log2*log l)=3592, s=10006, K/s=0.243, J=-1.415, log(2P)/J=nan
+l=100003: P=8.913e+09, bin length=1585093, K(first bin)=34640, PNT avg-bin=49078, l^1.24/(2*1.99*log2*log l)=49902, s=100002, K/s=0.346, J=-1.060, log(2P)/J=nan
+l=1000003: P=8.710e+11, bin length=27542824, K(first bin)=500825, PNT avg-bin=712646, l^1.24/(2*1.99*log2*log l)=722647, s=1000002, K/s=0.501, J=-0.692, log(2P)/J=nan
+l=10000019: P=8.511e+13, bin length=478632565, K(first bin)=7461769, PNT avg-bin=10636348, l^1.24/(2*1.99*log2*log l)=10764124, s=10000018, K/s=0.746, J=-0.293, log(2P)/J=nan
+J>=40 (squarefree IX.0): needs log l >= about 193
+J>=400E^2 log(E(E+1)^3), E=2 (ref9L_powers Thm G): needs log l >= about 26640

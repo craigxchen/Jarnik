@@ -566,6 +566,12 @@ Outputs: `abc_gain_D3.out`, `abc_gain_D3_v2.out` (independent `nu_T` method), `a
 
 ## 5. Precise residual
 
+*(Correction, round 31, Part IX.2 of the Question B thread, `round31/README_IXL.md` §1.5: the lattice form (2) below,
+as printed, has empty input. With all `e_T` and all pair cofactors pairwise coprime and no prime exempt, at least five
+pair cofactors are even and at least two are divisible by 3, so no data exist; likewise `Bal^pc` of §§1.3 and 2.1 is
+empty. The corrected form asks for coprimality outside the primes 2 and 3 and a bounded `{2,3}`-part; it follows from
+`(L_8)` and is open. See the expert note, section 2.)*
+
 1. **Which lane got further.** Neither decides `(L_8)`. The refutation lane ends in a clean
    statement: a refutation of `(L_8)` is a refutation of Vojta's `D = 0` inequality at balanced
    points of `Mbar_{0,8}` (with `eps = 1/43`), and must come from infinitely many rigid curves of

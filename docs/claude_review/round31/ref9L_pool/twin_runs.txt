@@ -1,0 +1,14 @@
+s=6 P=30 K=7 C=2.0 trials=50 dist={3: 50} worst=(3, [31, 37, 41, 43, 47, 59], [0, 93, 82954]) larger-sieve scale logq/loglogq=7.30
+s=6 P=100 K=21 C=4.0 trials=50 dist={4: 50} worst=(4, [103, 107, 109, 113, 151, 163], [0, 1201289, 2781269, 3982558]) larger-sieve scale logq/loglogq=8.83
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref9L_pool/twin_sim.py", line 159, in <module>
+    primes = sorted(rng.sample(pool, s))
+                    ~~~~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/random.py", line 434, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+s=8 P=100 K=21 C=2.0 trials=30 dist={3: 30} worst=(3, [103, 107, 109, 113, 127, 149, 151, 163], [0, 46652, 348589389]) larger-sieve scale logq/loglogq=10.86
+s=8 P=100 K=21 C=4.0 trials=30 dist={4: 30} worst=(4, [103, 107, 109, 113, 127, 149, 151, 163], [0, 135745657, 465751799, 601497456]) larger-sieve scale logq/loglogq=10.86
+s=10 P=100 K=21 C=2.0 trials=10 dist={3: 10} worst=(3, [101, 103, 107, 109, 113, 127, 139, 149, 151, 163], [0, 455729, 35208550106]) larger-sieve scale logq/loglogq=12.80
+s=10 P=1000 K=135 C=2.0 trials=10 dist={3: 10} worst=(3, [1087, 1093, 1117, 1171, 1279, 1409, 1597, 1667, 1733, 1973], [0, 14347869544, 5133217445479789]) larger-sieve scale logq/loglogq=17.04
+s=6 P=1000 K=135 C=4.0 trials=30 dist={4: 30} worst=(4, [1087, 1117, 1171, 1279, 1597, 1733], [0, 1421803609, 3539761679, 4961565288]) larger-sieve scale logq/loglogq=11.60

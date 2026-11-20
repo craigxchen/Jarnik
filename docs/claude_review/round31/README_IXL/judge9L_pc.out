@@ -1,0 +1,21 @@
+p=2, no block divisible by p: min #cofactors divisible by p = 9
+p=2, one block |T|=3 with v_p(e_T)=1: min #cofactors divisible by p = 7
+p=2, one block |T|=3 with v_p(e_T)=2: min #cofactors divisible by p = 7
+p=2, one block |T|=3 with v_p(e_T)=3: min #cofactors divisible by p = 7
+p=2, one block |T|=4 with v_p(e_T)=1: min #cofactors divisible by p = 5
+p=2, one block |T|=4 with v_p(e_T)=2: min #cofactors divisible by p = 5
+p=2, one block |T|=4 with v_p(e_T)=3: min #cofactors divisible by p = 5
+p=2, one block |T|=5 with v_p(e_T)=1: min #cofactors divisible by p = 5
+p=2, one block |T|=5 with v_p(e_T)=2: min #cofactors divisible by p = 5
+p=2, one block |T|=5 with v_p(e_T)=3: min #cofactors divisible by p = 5
+p=2, one block |T|=6 with v_p(e_T)=1: min #cofactors divisible by p = 6
+p=2, one block |T|=6 with v_p(e_T)=2: min #cofactors divisible by p = 6
+p=2, one block |T|=6 with v_p(e_T)=3: min #cofactors divisible by p = 6
+p=3, no block divisible by p: min #cofactors divisible by p = 5
+p=3, one block |T|=3 with v_p(e_T)=1: min #cofactors divisible by p = 2
+p=3, one block |T|=4 with v_p(e_T)=1: min #cofactors divisible by p = 2
+p=3, one block |T|=5 with v_p(e_T)=1: min #cofactors divisible by p = 2
+p=3, one block |T|=6 with v_p(e_T)=1: min #cofactors divisible by p = 3
+Bal^pc: #visible T active at 2 over 20000 primitive 7-tuples: {5: 20000} ; tuples with <2 active sets of size>=3: 0
+Bal^pc: #visible T active at 3: {2: 311, 3: 7122, 4: 11552, 5: 1015}
+corrected form example y=(0,5,10,107,267,69,-229), e_{123}=5: divisibility True ; cofactors pairwise coprime outside {2,3}: True

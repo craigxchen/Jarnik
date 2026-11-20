@@ -1,0 +1,43 @@
+== IX.0 numbers: pool of K primes, s drawn, J=log(K/s)
+s=1e+03 J=40: P~1.10e+22 (P/(s log s)=1.60e+18); log#parents=4.100e+04, log#exc<=3.900e+04 (0.951 of it); b-1=129, log s=6.9; exc fraction = R^-0.079; logR/loglogR=2.502e+03
+s=1e+03 J=60: P~7.64e+30 (P/(s log s)=1.11e+27); log#parents=6.100e+04, log#exc<=5.800e+04 (0.951 of it); b-1=120, log s=6.9; exc fraction = R^-0.084; logR/loglogR=3.393e+03
+s=1e+04 J=40: P~1.16e+23 (P/(s log s)=1.26e+18); log#parents=4.100e+05, log#exc<=3.900e+05 (0.951 of it); b-1=135, log s=9.2; exc fraction = R^-0.075; logR/loglogR=2.126e+04
+s=1e+04 J=60: P~7.90e+31 (P/(s log s)=8.58e+26); log#parents=6.100e+05, log#exc<=5.800e+05 (0.951 of it); b-1=124, log s=9.2; exc fraction = R^-0.082; logR/loglogR=2.866e+04
+s=1e+06 J=40: P~1.27e+25 (P/(s log s)=9.17e+17); log#parents=4.100e+07, log#exc<=3.900e+07 (0.951 of it); b-1=147, log s=13.8; exc fraction = R^-0.069; logR/loglogR=1.682e+06
+s=1e+06 J=60: P~8.43e+33 (P/(s log s)=6.10e+26); log#parents=6.100e+07, log#exc<=5.800e+07 (0.951 of it); b-1=132, log s=13.8; exc fraction = R^-0.077; logR/loglogR=2.234e+06
+s=1e+09 J=40: P~1.43e+28 (P/(s log s)=6.90e+17); log#parents=4.100e+10, log#exc<=3.900e+10 (0.951 of it); b-1=164, log s=20.7; exc fraction = R^-0.062; logR/loglogR=1.339e+09
+s=1e+09 J=60: P~9.22e+36 (P/(s log s)=4.45e+26); log#parents=6.100e+10, log#exc<=5.800e+10 (0.951 of it); b-1=144, log s=20.7; exc fraction = R^-0.070; logR/loglogR=1.739e+09
+== union-bound exponent per slot (twin, 4 labels; circle 7 labels), with b-1=100 log2P/J
+18 4 exponent/s = -1.404  need <= -J/20 = -0.9
+18 7 exponent/s = -0.844  need <= -J/20 = -0.9
+18.5 4 exponent/s = -1.481  need <= -J/20 = -0.925
+18.5 7 exponent/s = -0.922  need <= -J/20 = -0.925
+20 4 exponent/s = -1.714  need <= -J/20 = -1.0
+20 7 exponent/s = -1.154  need <= -J/20 = -1.0
+40 4 exponent/s = -4.814  need <= -J/20 = -2.0
+40 7 exponent/s = -4.254  need <= -J/20 = -2.0
+== fixed parent, many marks: pattern entropy vs total parent entropy
+s=1e+03 J=0 m=3: log#parents=0.00e+00, log#patterns=2.08e+03, log#column-multisets=2.45e+01
+s=1e+03 J=0 m=10: log#parents=0.00e+00, log#patterns=6.93e+03, log#column-multisets=9.64e+02
+s=1e+03 J=0 m=6: log#parents=0.00e+00, log#patterns=4.16e+03, log#column-multisets=1.40e+02
+s=1e+03 J=0 m=31: log#parents=0.00e+00, log#patterns=2.15e+04, log#column-multisets=1.49e+04
+s=1e+03 J=1 m=3: log#parents=2.00e+03, log#patterns=2.08e+03, log#column-multisets=2.45e+01
+s=1e+03 J=1 m=10: log#parents=2.00e+03, log#patterns=6.93e+03, log#column-multisets=9.64e+02
+s=1e+03 J=1 m=6: log#parents=2.00e+03, log#patterns=4.16e+03, log#column-multisets=1.40e+02
+s=1e+03 J=1 m=31: log#parents=2.00e+03, log#patterns=2.15e+04, log#column-multisets=1.49e+04
+s=1e+03 J=40 m=3: log#parents=4.10e+04, log#patterns=2.08e+03, log#column-multisets=2.45e+01
+s=1e+03 J=40 m=10: log#parents=4.10e+04, log#patterns=6.93e+03, log#column-multisets=9.64e+02
+s=1e+03 J=40 m=6: log#parents=4.10e+04, log#patterns=4.16e+03, log#column-multisets=1.40e+02
+s=1e+03 J=40 m=31: log#parents=4.10e+04, log#patterns=2.15e+04, log#column-multisets=1.49e+04
+s=1e+06 J=0 m=3: log#parents=0.00e+00, log#patterns=2.08e+06, log#column-multisets=5.21e+01
+s=1e+06 J=0 m=10: log#parents=0.00e+00, log#patterns=6.93e+06, log#column-multisets=4.39e+03
+s=1e+06 J=0 m=13: log#parents=0.00e+00, log#patterns=9.01e+06, log#column-multisets=2.66e+04
+s=1e+06 J=0 m=1000: log#parents=0.00e+00, log#patterns=6.93e+08, log#column-multisets=inf
+s=1e+06 J=1 m=3: log#parents=2.00e+06, log#patterns=2.08e+06, log#column-multisets=5.21e+01
+s=1e+06 J=1 m=10: log#parents=2.00e+06, log#patterns=6.93e+06, log#column-multisets=4.39e+03
+s=1e+06 J=1 m=13: log#parents=2.00e+06, log#patterns=9.01e+06, log#column-multisets=2.66e+04
+s=1e+06 J=1 m=1000: log#parents=2.00e+06, log#patterns=6.93e+08, log#column-multisets=inf
+s=1e+06 J=40 m=3: log#parents=4.10e+07, log#patterns=2.08e+06, log#column-multisets=5.21e+01
+s=1e+06 J=40 m=10: log#parents=4.10e+07, log#patterns=6.93e+06, log#column-multisets=4.39e+03
+s=1e+06 J=40 m=13: log#parents=4.10e+07, log#patterns=9.01e+06, log#column-multisets=2.66e+04
+s=1e+06 J=40 m=1000: log#parents=4.10e+07, log#patterns=6.93e+08, log#column-multisets=inf

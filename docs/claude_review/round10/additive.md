@@ -605,7 +605,7 @@ Columns:
 
 | additive input | actual | fakes | strength | where |
 |---|---|---|---|---|
-| sums, midpoints, Sidon, chord lengths, `sigma_xy` cocycle, triangle areas, 4-point relations | yes | yes (profile/pair identities) | capped (`A_0`) | §5.1-5.3, `L1L2.md` §5, `outside.md` C.1 |
+| sums, midpoints, Sidon, chord lengths, `sigma_xy` cocycle, triangle areas, 4-point relations *(narrowed in round 31, Part IX of the Question B thread, `round31/README_IXL.md` §1.8: capped only for the consequences analysed here; the exact triangle identity with integer cofactors is not capped and gives a rate for random parents)* | yes | yes (profile/pair identities) | capped (`A_0`) | §5.1-5.3, `L1L2.md` §5, `outside.md` C.1 |
 | index `I` of the difference lattice; reductions mod `q`; `F_q` polynomial method | yes | as residue data | class `A_X` (capped at each fixed `A`) | Prop 2.7, §5.4 |
 | `q`-adic and global determinant methods, Bombieri-Pila | yes | n/a | dominated by pair data / `tau* < 2` | §5.5, `auxiliary.md`, `threshold/` |
 | pair gcds `>= N^(1/4)` off one matching | yes | **yes** (monomial gaps) | capped (`A_0`) | Prop 3.1 |

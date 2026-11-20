@@ -1,0 +1,12 @@
+q=30030 L=693 s=6 C=4/1 thr=6 {'conf': 110} maxB=6 maxmult=3 max B/sqrtD=2.121 bound=561.0
+   example S= (0, 105, 182, 495, 572, 677) D= 8
+q=60060 L=980 s=6 C=4/1 thr=6 {'conf': 318} maxB=6 maxmult=3 max B/sqrtD=2.121 bound=561.0
+   example S= (55, 146, 286, 575, 715, 806) D= 8
+q=510510 L=2857 s=7 C=4/1 thr=6 {'conf': 1042} maxB=6 maxmult=3 max B/sqrtD=2.121 bound=561.0
+   example S= (0, 273, 715, 1428, 1870, 2143) D= 8
+q=360360 L=2401 s=6 C=4/1 thr=6 {} maxB=0 maxmult=0 max B/sqrtD=0.000 bound=561.0
+q=720720 L=3395 s=6 C=4/1 thr=6 {} maxB=0 maxmult=0 max B/sqrtD=0.000 bound=561.0
+
+real	0m16.021s
+user	0m15.830s
+sys	0m0.042s
