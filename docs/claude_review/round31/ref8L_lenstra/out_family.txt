@@ -1,0 +1,11 @@
+theta 0.2 (16, (1494, [3, 2, 39, 5], 5833054690907059, 1, 0.20134285978626065))
+theta 0.22 (0, None)
+theta 0.23 (0, None)
+theta 0.24 (0, None)
+theta 0.245 (0, None)
+theta 0.25 (0, None)
+(b) q=1 interval family
+x=1e3: 6 divisors, (B-A)/sqrt(AB) * n^(1/4) = 4.0000
+x=1e6: 6 divisors, (B-A)/sqrt(AB) * n^(1/4) = 4.0000
+x=1e12: 6 divisors, (B-A)/sqrt(AB) * n^(1/4) = 4.0000
+x=1e24: 6 divisors, (B-A)/sqrt(AB) * n^(1/4) = 4.0000

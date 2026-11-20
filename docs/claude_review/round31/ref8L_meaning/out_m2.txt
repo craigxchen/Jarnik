@@ -1,0 +1,1 @@
+q <= 3000 max roots in sqrt(q)-interval: all a (3, (105, 46)) ; unit a (3, (105, 46))

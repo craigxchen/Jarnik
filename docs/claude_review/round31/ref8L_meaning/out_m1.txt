@@ -1,0 +1,2 @@
+(1) square-block identity: pair checks 79632 failures 0
+(2) CC exponent == CG Thm10 exponent for k=1..59: True

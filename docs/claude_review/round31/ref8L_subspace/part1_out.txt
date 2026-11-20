@@ -1,0 +1,19 @@
+[rational] X=1000 s=67 j=2 k=3 delta=1/2 b=1/4 T=4000000: C(s,j)=2211, #bins(fixed partition)=63, C(s,j)/#bins=35.1, largest window |E|=78
+   all-tuple sufficient condition (exact) holds: True
+   checked 456456 ordered distinct tuples place by place: all solve (5.1): True; closed form exact: True; min delta_eff=0.5240; H in [1.143e+06,4.562e+12], H>=T^(2b): True, H<=T^2: True
+   subspace lower bound (|E|)_k/|E|^(k-1) = 75.03  (s = 67)
+[rational] X=1000 s=67 j=2 k=5 delta=1/1 b=1/4 T=4000000: C(s,j)=2211, #bins(fixed partition)=63, C(s,j)/#bins=35.1, largest window |E|=78
+   all-tuple sufficient condition (exact) holds: True
+   checked 20000 ordered distinct tuples place by place: all solve (5.1): True; closed form exact: True; min delta_eff=1.0698; H in [4.382e+12,4.562e+12], H>=T^(2b): True, H<=T^2: True
+   subspace lower bound (|E|)_k/|E|^(k-1) = 68.44  (s = 67)
+[rational] X=1000 s=67 j=3 k=3 delta=1/2 b=1/4 T=8000000000: C(s,j)=47905, #bins(fixed partition)=623, C(s,j)/#bins=76.9, largest window |E|=197
+   all-tuple sufficient condition (exact) holds: True
+   checked 20000 ordered distinct tuples place by place: all solve (5.1): True; closed form exact: True; min delta_eff=0.5205; H in [2.941e+12,1.175e+19], H>=T^(2b): True, H<=T^2: True
+   subspace lower bound (|E|)_k/|E|^(k-1) = 194.01  (s = 67)
+[rational] X=1000 s=67 j=3 k=5 delta=3/2 b=3/8 T=8000000000: C(s,j)=47905, #bins(fixed partition)=10756, C(s,j)/#bins=4.5, largest window |E|=25
+   all-tuple sufficient condition (exact) holds: True
+   checked 20000 ordered distinct tuples place by place: all solve (5.1): True; closed form exact: True; min delta_eff=1.5855; H in [7.928e+18,7.930e+18], H>=T^(2b): True, H<=T^2: True
+   subspace lower bound (|E|)_k/|E|^(k-1) = 16.32  (s = 67)
+[equal-norm pair5] X=1000 s=67 j=3 k=5 delta=1/2 b=3/10 T=8000000000: C(s,j)=47905, angular window 1.069e-03 holds |E|=45
+
+[killed]

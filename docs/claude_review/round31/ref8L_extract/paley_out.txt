@@ -1,0 +1,3 @@
+10007 mean sum|m_A|=0.8302  *sqrt(p)/127=0.654  mean maxdev=0.2847  p*E m_A^2 by |A|: {2: np.float64(1.191), 4: np.float64(1.001), 6: np.float64(1.013), 8: np.float64(0.886)}
+100003 mean sum|m_A|=0.2598  *sqrt(p)/127=0.647  mean maxdev=0.0894  p*E m_A^2 by |A|: {2: np.float64(0.0), 4: np.float64(1.001), 6: np.float64(0.989), 8: np.float64(0.984)}
+1000003 mean sum|m_A|=0.0827  *sqrt(p)/127=0.651  mean maxdev=0.0285  p*E m_A^2 by |A|: {2: np.float64(0.0), 4: np.float64(1.0), 6: np.float64(1.027), 8: np.float64(0.992)}

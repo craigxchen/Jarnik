@@ -687,6 +687,10 @@ Finally `|g| <= |z_1 - z_2| <= C sqrt R` gives `N_x >= R/C^2`. QED
 The excess `(m-1)/2` over the Subspace exponent `m` is large. But `S_P` depends on `N`, and the classical
 theorem only gives finitely many subspaces for each fixed `S`.
 
+*(Superseded, round 31, Part VIII.4, `round31/README_VIIIL.md`: with an absolute `H_0` this hypothesis is **false**
+for every `m >= 2` and `0 < delta < m-1`; covering needs at least `exp(s^(1-delta/(m-1)-o(1)))` subspaces. Theorem 5.2
+below remains a correct implication from a false hypothesis. The relative-threshold variant QS^prod is untouched.)*
+
 **Hypothesis `QS(m, delta, f, H_0)`.** For every finite set `P` of split primes, with `s = |P|`, the
 solutions of (5.1) with `H(x) >= H_0` lie in the union of at most `f(s)` proper linear subspaces of `K^m`.
 

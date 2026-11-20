@@ -69,7 +69,7 @@ $\prod_{i<j}|z_i-z_j|^8=N^{M(M-2)}\prod_{p\mid N}p^{\sum_\tau(2S_{p\tau}-M)^2}\p
 The arithmetic side comes from pigeonhole collisions at primes $q\lesssim M$, together with a chain lemma on
 exponent levels. The factor $\log M$ is the mass $\sum_{q\le M}\log q/q$. No bound $o(\log R/\log\log R)$ is
 known unconditionally. Conditionally, the only known routes go through Vojta's Main Conjecture and give the
-uniform bound directly; no intermediate growth bound is known from a weaker standard conjecture. They use Vojta's Main Conjecture for **one fixed** variety:
+uniform bound directly; no intermediate growth bound is known from a weaker standard conjecture. In the other direction, the sharpest Vojta-type form of the problem, $(L_8)$, implies Rudin's conjecture on squares in arithmetic progressions (§2, "Strength of $(L_8)$"); the uniform bound itself is not known to imply any recognised open problem. They use Vojta's Main Conjecture for **one fixed** variety:
 * $D=0$ on a resolution of $\mathrm{Bl}_YX_7$, where $X_7$ is the equal-norm variety and $Y$ its diagonal line
   (`growth/conditional.md` Thm 5.1);
 * $D=0$ on $\overline M_{0,8}$ (§2 below);
@@ -238,7 +238,40 @@ asymptotically (plausible, not a theorem: the dictionary of `growth/ptolemy.md` 
 characteristic 2), so a proof of $(L_8)$ cannot be characteristic-free. The same holds over
 $\mathbb F_9(t)/\mathbb F_3(t)$ with the form $A^2+B^2$ (round 31, Part VI; same caveat).
 
-> **Question A.** Prove $(L_8)$, or at least its lattice form $(L_8^{pc})$, which every proof must cover. A proof of
+**Strength of $(L_8)$** (round 31, Part VIII of the Question B thread; **proved** conditional implications, seven
+referee blocks and a judge, `round31/README_VIIIL.md`). $(L_8)$ implies Rudin's conjecture: every nonconstant
+$k$-term integer arithmetic progression contains $O(\sqrt k)$ squares. The proof uses $(L_8)$, with its linear
+bound $c\,w$, anchor $0$ and unsymmetrised $Z$, only on data whose blocks are pairwise coprime perfect squares, one
+block per prime, with arbitrary nonzero cofactors; it does not use $(L_8^f)$ with sublinear $f$,
+$(L_8^c)^{\rm cat}$ or the lattice form $(L_8^{pc})$. It passes through three statements.
+* (i) If at most two residues are prescribed modulo each exact prime power $p^e\parallel q$, any interval of length
+  $q^{1/2+\epsilon}$ contains $O(1)$ integers in the prescribed classes, for one absolute $\epsilon>0$. This is the
+  case $d=2$ of Cilleruelo–Granville's Conjecture 10 at a fixed exponent above their critical $1/2$. The step from
+  $(L_8)$ is the colleague's: columns $P_i=(Q/d_i,(y_i-y_0)/d_i)^T$ with $d_i=\gcd(Q,y_i-y_0)$ give an exact
+  $(L_8)$ datum, and a random 8-tuple of the integers is balanced on all 128 patterns and lies off $Z$ (a one-sided
+  Gram bound, a Walsh expansion, Markov, and Schwartz–Zippel on the grid; every constant is fixed before $q$).
+* (ii) Hence any interval of length $\sqrt q$ contains $O(1)$ roots of $x^2\equiv a\pmod q$, for every $a$ (their
+  Conjecture 9).
+* (iii) Hence Rudin's conjecture (their implication "Conjecture 9 $\Rightarrow$ Conjecture 1"; Theorem 11 in
+  arXiv math/0608109v1).
+
+Full $(L_8)$ also implies that an invertible residue class modulo $q\ge n^{1/4-\kappa}$ contains $O(1)$ divisors of
+$n$, for one absolute $\kappa>0$: past the exponent $1/4$ of Lenstra and Coppersmith–Howgrave-Graham–Nagaraj (a
+cardinality bound, no algorithm). Under Vojta's conjecture on $\overline M_{0,8}$ one may take
+$\epsilon=10^{-16}$, $\kappa=10^{-17}$, so **Vojta's conjecture for the single variety $\overline M_{0,8}$ implies
+Rudin's conjecture**; we found no earlier derivation (Bombieri–Lang gives $\sigma(k)\ll k^{5/7}$, by
+Cilleruelo–Granville; the best unconditional exponent is $3/5$, Bombieri–Zannier). None of these consequences is
+known to fail, and a referee who tried to refute $(L_8)$ through them found nothing: the best integer two-class
+families reach exponent $2$ only for at most six points, and the best divisor family gives $16$ divisors near
+exponent $1/4$. They measure the strength of $(L_8)$, not its plausibility. The uniform bound itself is not known
+to imply Rudin's conjecture, and Cilleruelo–Granville do not derive Rudin from any arc conjecture (their routes are
+two congruence conjectures). Literature caveat: only the arXiv version of Cilleruelo–Granville was read in full;
+the status of the divisor bound at exponents $\le1/4$ rests on search snippets.
+
+> **Question A.** Prove $(L_8)$, or at least its lattice form $(L_8^{pc})$, which every proof must cover. Any proof
+> of $(L_8)$, even restricted to pairwise coprime square blocks, proves Rudin's conjecture, and full $(L_8)$ also
+> proves a divisor bound below Lenstra's exponent $1/4$ (see "Strength of $(L_8)$" above); the lattice form
+> $(L_8^{pc})$ is not known to imply either. A proof of
 > $(L_8)$ would be an unconditional case of $D=0$ Vojta on the rational 5-fold $\overline M_{0,8}$, for a structured
 > but unbounded family of points. Alternatively, find, for every $\eta>0$ and every $w_1$, a Zariski-dense set of
 > $\eta$-balanced points with $w\ge w_1$ that are caterpillar up to $o(w)$ of residue. That would refute both $(L_8)$
@@ -719,8 +752,18 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
    $(1+w(v))\log(2D_L(v))\ge c_*W$ for coordinates $v$ of finite order $D_L(v)$ modulo the exponent row lattice
    holds on actual clusters and fails in the binary function-field family (round 31, Part VIII.2; **proved**, low
    novelty, cf. `growth/auxiliary.md` Prop B2). It gives no growth bound and has not been tested against fakes.
-5. **$S$-unit and Subspace arguments with thresholds depending on $S$ only through $|S|$.** These give at best
-   $M\le\omega(N')$ (lit18 Props A, B; **unrefereed**). Uniform unit-equation counts with fixed anchors are closed:
+5. **$S$-unit and Subspace arguments with thresholds depending on $S$ only through $|S|$.** With an absolute height
+   threshold, polynomial or even sub-exponential exceptional-subspace counts are false in every dimension: covering
+   needs $\ge\exp(s^{1-\delta/(m-1)-o(1)})$ subspaces, also on exactly equal norms in dimensions $2\le k\le6$
+   (round 31, Part VIII.4 of the Question B thread; **proved**, refereed; earlier lit18 Prop A,
+   $\exp(s^{1/2-o(1)})$, unrefereed). So round 8's hypothesis QS at a fixed threshold is **false**. With thresholds
+   depending on $|S|$ only, lit18 Prop B (**unrefereed**) still caps these methods at $M\le\omega(N')$. A threshold
+   relative to $\prod_{p\in P}p$ (QS$^{\rm prod}$) is open and non-standard. On one critical arc it would suffice
+   with $f(s)=o(s^2)$ subspaces, because a hyperplane contains at most $\max(2,1+C^2)M^{k-2}$ ordered $k$-tuples of
+   the arc (Part VIII.5; **proved**). A polynomial count, with exponent independent of $\delta$, of norm-one
+   $P$-units $u$ with $|u-1|^2\le H(u)^{-\delta}$ above the relative threshold would give $M\ll(\log R)^\tau$ for
+   every $\tau>0$ (Part VIII.6; **proved** implication); with exponent $0$ that count already implies the uniform
+   bound, and no standard conjecture is known to imply it. Uniform unit-equation counts with fixed anchors are closed:
    a rank-$r_0$ multiplicative coset contains the divisor splits of at most $8r_0+4$ third vertices of a fixed edge,
    so the rank needed at a growth failure is $\gg M$; the obstruction holds in angle fakes
    (`round31/ref3_rank.md`; **proved**). Fixed-$S$ theorems such as `round18/theory.md` Thm 2.5 have
@@ -802,13 +845,14 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      "balance does not separate real clusters from fakes" (true only for pairwise balance); the "real-algebraic
      obstruction" lead (it was linear algebra, Prop K1).
 
-12. **Round 31 (eight exchanges with an outside colleague, "Astra"; 74 referee blocks and twelve judge reports:
+12. **Round 31 (eight exchanges with an outside colleague, "Astra"; 81 referee blocks and thirteen judge reports:
    `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`,
-   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
+   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
    (Part V, unit-twisted points) was repaired by the referee. **The growth rate for general $R$, the uniform bound,
    Questions A and B and route 5 keep their status** (judges' scores on the goal: 2/10, 2/10, 1/10, 2/10, 1/10, 2/10,
-   1/10, 2/10, 2/10, 1.5/10, 1.5/10, 3/10). Part VIII is the one pass about integer circles: it adds Theorem 1.2 (§1)
-   and caps the low-height window for $\delta<1/12$.
+   1/10, 2/10, 2/10, 1.5/10, 1.5/10, 3/10, 2/10). Part VIII is the one pass about integer circles: it adds Theorem 1.2 (§1)
+   and caps the low-height window for $\delta<1/12$; on the Question B thread it shows that Question A contains
+   Rudin's conjecture (§2).
    The other new theorems are in the function-field model (Parts IV, V and VI below): the uniform statement is true in
    characteristic 0, false over $\mathbb F_2(t)$ (also for squarefree parents) and false over $\mathbb F_3(t)$
    with the Gaussian form $A^2+B^2$. What is now in the record, all
@@ -1157,6 +1201,28 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
        for every $R$), then interpolation between Theorems 1.1 and 1.2 for $2<\kappa<3$ (2%). Do not write "the
        low-height window is uncapped", "Theorem 1.2 improves $\frac23$", "fakes violate the rank bound" or
        "coefficient $\frac12$ for integer radii" (only squarefull radii).
+   * ***Part VIII, Question B thread: hardness of Question A*** (`round31/README_VIIIL.md`; seven referee blocks;
+     nothing false, one citation corrected; judge's score on the goal 2/10). The colleague was asked for the weakest
+     hypothesis that gives the conjecture, or for a hardness statement, and took the second. Recorded in §2
+     ("Strength of $(L_8)$"): $(L_8)$ restricted to pairwise coprime square blocks implies the two-residue
+     statement at length $q^{1/2+\epsilon}$, Cilleruelo–Granville's Conjecture 9 for all $a$, and Rudin's
+     conjecture; full $(L_8)$ implies $O(1)$ divisors of $n$ in an invertible class modulo $q\ge n^{1/4-\kappa}$.
+     The judge rechecked the two steps the colleague asked to have prioritised (the square-block identity and the
+     escape from the fixed exceptional set) and that the data are admissible for the $(L_8)$ that Theorem D derives
+     from Vojta's conjecture (blocks need not be contact integers: they differ in about 2% of 2.3 million checked
+     instances, within the record's bound (3.2)). **No referee refuted or weakened $(L_8)$.** Recorded in §5 item 5:
+     round 8's QS at an absolute height threshold is false in every dimension; the conditional growth statements
+     from relative-height counts are correct implications from non-standard, untestable hypotheses, so the sentence
+     "no intermediate growth bound is known from a weaker standard conjecture" stands. Referee additions: a
+     weighted Prouhet–Tarry–Escott dictionary for two-class families, with exponent-2 families of five and six
+     points; a characteristic-2 Hadamard family with unboundedly many points at exponent exactly 2; the coincidence
+     of the Liouville exponents of the two-residue problem and the arc problem for every $k$; the correction of
+     three sentences of the record that had Cilleruelo–Granville deriving Rudin from arc conjectures. The
+     colleague could not derive growth from abc or Bombieri–Lang, nor Rudin from the uniform bound. *Judge's
+     reading*: Question A is not a realistic standalone target; this is information about difficulty, not
+     progress; Question B is untouched. Do not write "the uniform bound implies Rudin", "Question A is equivalent
+     to Rudin", "$(L_8^{pc})$ implies Rudin", or "Vojta's conjecture is known to imply Rudin" (say "we found no
+     earlier derivation").
    * *Withdrawn or corrected in the round:* a sentence on "different local obstructions" for the round-24 family
      (both forms are excluded at 2 and at 3); the coordinator's "weight $D/2$ is exactly the lattice minimum" (only
      a lower bound) and "every determinant is critical" (see Lemma K1 as now worded); the headline "17 points" of
@@ -1195,7 +1261,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
 | round 29: function-field model, Li–Liu template, residue-class twin, 18 screened ideas (no change) | `round29/README.md` (with `kill_*.md`) |
 | round 30: function-field model decided as far as internal work goes (rank open, line closed; no change) | `round30/README.md` (with `kill_*.md`) |
-| round 31: outside colleague, eight refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; **on integer circles $M\le1+\omega(N')+K_C$ and fakes inside the low-height window**; no change to the growth rate for general $R$) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md` (with `ref*_*.md`, `langer_check.md`) |
+| round 31: outside colleague, eight refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; **on integer circles $M\le1+\omega(N')+K_C$ and fakes inside the low-height window**; **$(L_8)$ implies Rudin's conjecture**; no change to the growth rate for general $R$) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md` (with `ref*_*.md`, `langer_check.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check

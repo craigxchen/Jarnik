@@ -1,0 +1,25 @@
+== (1) k primes = 1 mod q ==
+k=3 q~1e3 alpha=0.239010 1/k-alpha=9.43e-02 count(class 1)=8
+k=3 q~1e6 alpha=0.258400 1/k-alpha=7.49e-02 count(class 1)=8
+k=3 q~1e12 alpha=0.300133 1/k-alpha=3.32e-02 count(class 1)=8
+k=3 q~1e30 alpha=0.311279 1/k-alpha=2.21e-02 count(class 1)=8
+k=4 q~1e3 alpha=0.174909 1/k-alpha=7.51e-02 count(class 1)=16
+k=4 q~1e6 alpha=0.192653 1/k-alpha=5.73e-02 count(class 1)=16
+k=4 q~1e12 alpha=0.222740 1/k-alpha=2.73e-02 count(class 1)=16
+k=4 q~1e30 alpha=0.232978 1/k-alpha=1.70e-02 count(class 1)=16
+k=5 q~1e3 alpha=0.137786 1/k-alpha=6.22e-02 count(class 1)=32
+k=5 q~1e6 alpha=0.152593 1/k-alpha=4.74e-02 count(class 1)=32
+k=5 q~1e12 alpha=0.176867 1/k-alpha=2.31e-02 count(class 1)=32
+k=5 q~1e30 alpha=0.186077 1/k-alpha=1.39e-02 count(class 1)=32
+k=6 q~1e3 alpha=0.112880 1/k-alpha=5.38e-02 count(class 1)=64
+k=6 q~1e6 alpha=0.126154 1/k-alpha=4.05e-02 count(class 1)=64
+k=6 q~1e12 alpha=0.146526 1/k-alpha=2.01e-02 count(class 1)=64
+k=6 q~1e30 alpha=0.154758 1/k-alpha=1.19e-02 count(class 1)=64
+== (2) local search, squarefree n from primes <= q^1.5 ==
+theta=0.2: count=14 q=57 n=546879970 primes=[2, 5, 7, 13, 17, 23, 29, 53] alpha=0.2009 class r=5
+theta=0.22: count=12 q=50 n=36309399 primes=[3, 7, 17, 19, 53, 101] alpha=0.2247 class r=7
+theta=0.24: count=9 q=50 n=10425471 primes=[3, 7, 17, 19, 29, 53] alpha=0.2421 class r=3
+theta=0.25: count=9 q=64 n=12921285 primes=[3, 5, 13, 23, 43, 67] alpha=0.2540 class r=1
+theta=0.26: count=8 q=50 n=1932951 primes=[3, 17, 151, 251] alpha=0.2703 class r=1
+theta=0.28: count=8 q=64 n=2521545 primes=[3, 5, 13, 67, 193] alpha=0.2821 class r=3
+theta=0.3: count=6 q=50 n=273003 primes=[3, 17, 53, 101] alpha=0.3125 class r=1

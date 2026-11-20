@@ -1,0 +1,12 @@
+theta=0.2000 best=20 n=1244880 q=17 r=2 alpha=0.2019
+theta=0.2100 best=18 n=720720 q=17 r=1 alpha=0.2101
+theta=0.2200 best=16 n=2882880 q=31 r=2 alpha=0.2309
+theta=0.2300 best=16 n=2882880 q=31 r=2 alpha=0.2309
+theta=0.2400 best=13 n=1441440 q=31 r=1 alpha=0.2422
+theta=0.2450 best=12 n=1166880 q=31 r=3 alpha=0.2458
+theta=0.2500 best=11 n=120120 q=19 r=1 alpha=0.2517
+theta=0.2600 best=11 n=1441440 q=41 r=1 alpha=0.2619
+theta=0.2800 best=9 n=617760 q=43 r=1 alpha=0.2821
+theta=0.3000 best=8 n=1767304 q=75 r=2 alpha=0.3001
+theta=0.3333 best=6 n=245784 q=65 r=1 alpha=0.3363
+theta=0.3500 best=5 n=2520 q=17 r=1 alpha=0.3617

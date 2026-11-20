@@ -279,6 +279,17 @@ monomial-gap, rational-character and point-residue inputs at moduli `<= 2M`. The
 `delta >= 1/12` and for prime-level residues, residues at moduli `M^A` with `A > 1`, the genuine-constant union
 large sieve and square-root-quality inputs.
 
+On the Question B thread the eighth exchange (`round31/README_VIIIL.md`) asked how hard the open statements are.
+Nothing was found false. **Question A is at least as hard as Rudin's conjecture**: `(L_8)`, even restricted to
+pairwise coprime square blocks, implies that a `k`-term arithmetic progression contains `O(sqrt k)` squares (via
+Cilleruelo-Granville's two-residue and square-root conjectures), and full `(L_8)` implies `O(1)` divisors of `n` in
+an invertible class modulo `q >= n^(1/4 - kappa)`, past Lenstra's exponent `1/4`. With the record's Theorem D,
+Vojta's conjecture on `Mbar_{0,8}` implies Rudin's conjecture; no earlier derivation was found. None of the
+consequences is known to fail and a referee's attempt to refute `(L_8)` through them found nothing. The uniform
+bound itself is not known to imply Rudin. Round 8's Subspace hypothesis QS with an absolute height threshold is
+false in every dimension; two conditional growth statements from relative-height counting hypotheses are correct
+but their hypotheses are non-standard. The growth rate, the uniform bound and Question B are unchanged.
+
 **Growth-rate status (2026-11-19, after round 31).** No growth improvement over `log R/loglog R` is proved
 unconditionally; conditionally only Vojta-type routes are known, and they give the uniform bound directly. The following are capped at `log R/loglog R` by
 refereed barrier theorems:

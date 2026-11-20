@@ -389,7 +389,8 @@ general circles.
    * (N): a character-level union bound for the double core, weighted by coefficient size (`referee_lw.md` §4.2).
 
    *Heuristic:* the full conjecture gives no growth either.
-2. **New simultaneous hypotheses.** `SLW_w(k >= 6, g < 1/4)` and `QS(m >= 4, delta in (1, (m-1)/2), o(s))`. Both
+2. **New simultaneous hypotheses.** `SLW_w(k >= 6, g < 1/4)` and `QS(m >= 4, delta in (1, (m-1)/2), o(s))`
+   *(QS at a fixed threshold is false for every `m`: round 31, Part VIII.4, `round31/README_VIIIL.md`)*. Both
    would give growth or more; both are non-standard and unsupported. A single rank-6 circle family on arcs `C sqrt R`
    would refute `SLW_w(6)` at the boundary.
 3. **P3-all at polynomial moduli** (`sharp.md` Def 1.1 with (e-all); question (P3-all\*) of `sharp.md` §6.7). Is

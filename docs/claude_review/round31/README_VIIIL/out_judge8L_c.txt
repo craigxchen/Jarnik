@@ -1,0 +1,1 @@
+Prop 2.3 checked on 297639 four-point sets; max log q2/log L = 1.877

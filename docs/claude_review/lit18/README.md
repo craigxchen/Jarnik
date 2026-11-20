@@ -133,6 +133,9 @@ a named statement:
    * *Consequence.* Through `weakest.md` Thm 5.2, the whole `QS` route can give at best `M <= omega(N')`. That can be
      `(2+o(1)) log R/loglog R`, worse than what is proved.
    * *What would escape.* An `S`-integer input must use equality of norms, or a threshold tied to `prod_(p in P) p`.
+     *(Round 31, Part VIII.4, `round31/README_VIIIL.md`: equal norms alone do not escape at a fixed threshold; full
+     support or a threshold tied to `prod p` is needed. Prop A's fixed-threshold refutation is now refereed, with
+     the sharper bound `exp(s^(1-delta/(m-1)-o(1)))`.)*
 3. **Composite-supported analytic inputs** (all-ideal large sieve, Type I/II sums) remain **unclassified** (§1.3 row 2).
    The sweep found nothing in this class that bears on a single `N`.
 

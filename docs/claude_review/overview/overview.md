@@ -177,7 +177,7 @@ They were not re-derived in this program.
    Taking $k\approx\frac12\log R$ and cutting an arc of length $C\sqrt R$ into $O(C)$ pieces gives
    $\ll_C\log R$ at the critical scale.
 5. **Cilleruelo–Granville (2007, 2009).** The conjectures above, the link to squares in arithmetic
-   progressions (arcs $\Rightarrow$ Rudin-type statements, not the reverse), the sharp constant for
+   progressions (*corrected in round 31, Part VIII:* two congruence conjectures, their Conjectures 9 and 12, imply Rudin's conjecture, Theorems 11 and 12 of arXiv v1; their arc conjectures are linked only to an $L^4$ conjecture for squares; no arc statement is shown to imply Rudin, `round31/ref8L_meaning.md`), the sharp constant for
    three points at scale $R^{1/3}$, and infinite families of four points at that scale (one built
    from Fibonacci numbers) [CG07, CG09]. According to the project notes
    (`endpoint_continuation_status.md`, branch), their open question at the next step concerns **five**
@@ -1733,7 +1733,7 @@ theorem, and item 7 is a judge's assessment.
 4. **No single linear form in logarithms** (Baker/Matveev, single-form Lang–Waldschmidt).
 5. **No $S$-integer argument whose threshold depends on the prime set only through $|S|$** (lit18 Props A, B;
    **unrefereed**: proved in `lit18/check_tools.md` §2.2 and re-derived by the lit18 judge, `lit18/README.md`
-   §2.2). It must use equality of norms, or a threshold tied to $\prod_{p\in S}p$.
+   §2.2). It must use equality of norms, or a threshold tied to $\prod_{p\in S}p$. *(Round 31, Part VIII.4, `round31/README_VIIIL.md`: equal norms alone do not escape at a fixed threshold; what escapes is full support or a threshold tied to $\prod p$.)*
 6. **Route 5's determinant method at $T=1$** reduces, after Step 0, to a box statement that fakes may test;
    its decisive test is undecided with no method in either direction.
 7. In addition (local smoothing assessment, `local_smoothing/README.md`): no $L^p$, energy, decoupling or

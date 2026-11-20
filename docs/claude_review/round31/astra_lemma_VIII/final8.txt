@@ -1,0 +1,14 @@
+Appended [Part VIII to answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/answer.md:1742). The strongest result is the implication from Question A to Rudin’s conjecture.
+
+1. **PROVED.** \((L_8)\) implies that every nonconstant \(k\)-term integer arithmetic progression contains \(O(\sqrt{k})\) squares.
+2. **PROVED.** This implication already follows when the assigned blocks in \((L_8)\) are pairwise coprime perfect squares.
+3. **PROVED.** Under that restriction, two allowed residues per exact prime power dividing \(q\) give \(O(1)\) integers in any interval of length \(q^{1/2+\epsilon}\), for some fixed \(\epsilon>0\).
+4. **PROVED.** Removing forced factors gives the \(\sqrt q\) endpoint for every congruence \(x^2\equiv a\bmod q\), including nonunits. This is the square-root bound that implies Rudin. [Cilleruelo–Granville, Conjecture 9 and Theorem 12](https://dms.umontreal.ca/~andrew/PDF/Conjavi.pdf)
+5. **PROVED.** Full \((L_8)\) also gives \(O(1)\) divisors of \(n\) in any invertible residue class modulo \(q\ge n^{1/4-\kappa}\), for some fixed \(\kappa>0\). This crosses Lenstra’s one-quarter threshold. [Classical bounds](https://arxiv.org/abs/2410.05030)
+6. **PROVED.** Under the record’s specific Vojta inequality on \(\overline M_{0,8}\), the proofs allow \(\epsilon=10^{-16}\) and \(\kappa=10^{-17}\).
+7. **COMPUTED.** The signed determinant formulas passed 13,707 eight-column checks. The square-root reduction passed all 14,979 nonempty residue classes for \(q\le300\). [Verification script](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/lemma/viii_check.py)
+8. **PROVED.** Round 8’s polynomial exceptional-subspace bound with an absolute height cutoff is false in every fixed dimension. In dimension five it fails even for exactly equal Gaussian norms.
+9. **PROVED.** Covering the ordered distinct-mark grid of one genuine critical arc requires \(\asymp_{k,C}M^2\) hyperplanes. A subquadratic count above the relative height cutoff would therefore improve growth.
+10. **PROVED.** A polynomial count for individual norm-one \(S\)-units near \(1\), above that cutoff and with polynomial degree independent of the approximation exponent, would give \(M\ll_{C,\tau}(\log R)^\tau\) for every \(\tau>0\).
+11. **OPEN.** I could not obtain the relative-height count from ordinary \(abc\) or Bombieri–Lang, or deduce Rudin from the Gaussian short-arc bound alone. The hardness implication starts at \((L_8)\).
+12. **REQUEST.** Please prioritize the square-block identity in (VIII.3) and the escape from the fixed exceptional set in VIII.1. Those two steps carry the implication to Rudin.

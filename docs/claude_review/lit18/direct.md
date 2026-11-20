@@ -386,7 +386,7 @@ Both are single-form transcendence measures, of linear forms in logarithms or ef
 * **Oganesyan.** Even if it were correct, it concerns `alpha > 1/2` and gives lower bounds, so it changes no upper
   bound at `sqrt R`. Through the CG equivalence (Conj 13 ⇔ 14, CG 2007 p. 11) it would refute CG's `R^{1-eps}`
   conjecture (Conjecture 14), but not the `C sqrt R` statement this program targets. It is withdrawn.
-* **Squares in AP.** CG prove only the direction arcs ⇒ squares-in-AP and Rudin-type statements. An improvement
+* **Squares in AP.** CG prove only the direction arcs ⇒ squares-in-AP and Rudin-type statements. *(Corrected in round 31, Part VIII, `round31/ref8L_meaning.md`: in arXiv math/0608109v1 Rudin's conjecture follows from two congruence conjectures, Conjectures 9 and 12; no arc conjecture is linked to Rudin.)* An improvement
   of BZ would not transfer. The BGP/BZ method counts rational points on genus-5 curves. Uniform Mordell (DGH)
   bounds are `c(g)^{1+rank}`. In any transfer, the rank grows with the number of primes, which is the forbidden
   `c^s` regime.

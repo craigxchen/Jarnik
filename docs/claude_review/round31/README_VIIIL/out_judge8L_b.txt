@@ -1,0 +1,10 @@
+(a) Walsh/moment identities: pattern checks 102400 all exact, no failure
+(b) grid size 30 P(F=0)=0.0061 bound d/M=0.0667
+(b) grid size 30 P(F=0)=0.0044 bound d/M=0.0667
+(b) grid size 30 P(F=0)=0.0061 bound d/M=0.0667
+(c) margins ok; 28(a/4+lam)=1.4000e-04 c/256=3.3967e-04; M_* must exceed 2.667e+15
+(d) B=5 family alpha=1.0e+06 ratio log q2/log L = 1.9075
+(d) B=5 family alpha=1.0e+12 ratio log q2/log L = 1.9535
+(d) B=5 family alpha=1.0e+20 ratio log q2/log L = 1.9721
+(e) q=24000: 16 divisors = 1 mod q, alpha=0.23174
+(e) q=2400000000: 16 divisors = 1 mod q, alpha=0.24113

@@ -1,0 +1,2 @@
+square-block tuples 684 {'tuples': 684, 'pairs': 19152, 'cr': 684, 'lT': 797181, 'lTdiff': 13870}
+divisor tuples 912 {'tuples': 1596, 'pairs': 44688, 'cr': 1596, 'lT': 1944936, 'lTdiff': 32778}
