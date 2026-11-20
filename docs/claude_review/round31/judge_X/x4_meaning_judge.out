@@ -1,0 +1,13 @@
+P=100 s=10: (x, D(x), F2-rank of Legendre vectors) for first inert x: [(3, 4, 1), (7, 10, 2), (11, 10, 3), (19, 10, 4), (23, 10, 5), (31, 10, 6), (43, 10, 7), (47, 10, 8)]
+   first x with D(x)=s: 7; equal-tuple pairs checked 10, divisibility violations 0
+P=1000 s=67: (x, D(x), F2-rank of Legendre vectors) for first inert x: [(3, 4, 1), (7, 29, 2), (11, 63, 3), (19, 67, 4), (23, 67, 5), (31, 67, 6), (43, 67, 7), (47, 67, 8)]
+   first x with D(x)=s: 19; equal-tuple pairs checked 602, divisibility violations 0
+bounded-rank genuine parent: 12 primes a^2+(231 b)^2, smallest 213613, distinct tuples at l=3,7,11: 1 -> {((1, 0), (1, 0), (1, 0))}
+P=100 s=10 points 4096 log10 q=21.7: min gap * q^(1/4) = 3.125
+   C=1: M_max = 1
+   C=4: M_max = 2
+   C=8: M_max = 2
+P=200 s=16 points 262144 log10 q=39.7: min gap * q^(1/4) = 468.4
+   C=1: M_max = 1
+   C=4: M_max = 1
+   C=8: M_max = 1

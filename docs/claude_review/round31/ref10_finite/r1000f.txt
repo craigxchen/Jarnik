@@ -1,0 +1,6 @@
+P 1000 five True labels 36 nonintegral local-unit lifts up to sym: 2556 s(2s-1)= 2556
+denominators b: True
+T = 2
+L(X) > L(X-1): True
+at X = 5783 kill exponent distribution: [(1, 2545), (2, 9), (3, 2)]
+at X-1 = 5782 survivors with phi = arg(2+-i) etc: 1 [(1621, 1493, (-49085, -34698), (2, 1), 1903)]

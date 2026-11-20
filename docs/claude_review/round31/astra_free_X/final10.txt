@@ -1,0 +1,14 @@
+I chose **B** and appended [Part X to answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/free/answer.md:2317). The main result is a fixed-parent obstruction: even testing all powers of a fraction tending to one of the bounded-length signed words can miss a two-label difference that fails at a polynomial cutoff. I did not settle full P3-all* or improve the unrestricted integer growth rate.
+
+1. **PROVED.** On a fixed parent, two unit tests at one explicit dyadic exponent force a bounded rational witness to be a genuine Gaussian prime factor, up to units and conjugation.
+2. **PROVED.** When all parent primes are \(5\bmod 8\), exponent two suffices. For twist norm at most \(H\), the cutoff \(X\ge\sqrt2\,pH^2\) works at label \(p\).
+3. **COMPUTED.** For twist norm at most \(2P\), the exact least cutoffs on the four tested parents were 439, 3,881, 8,681 and 5,783. At each preceding cutoff an explicit nonintegral lift passes every exponent.
+4. **PROVED.** One growth-scale fake retains the factored character tests and passes every power of every individual label, at every unit and every cutoff simultaneously.
+5. **PROVED.** For fixed \(H\), its labels can be divided into a growing number of classes. Every word of length at most \(H\) with nonzero coefficient sum in some class passes, together with all its powers.
+6. **PROVED.** This covers a \(1-o(1)\) fraction of all signed words at each such length. The weight constant depends on \(H\) and is independent of the cutoff.
+7. **PROVED.** On that same fake, an omitted difference \(e_j-e_k\) can be forced to fail at one exterior prime below \(8P\), for physical labels in \([P,2P]\).
+8. **PROVED.** On the \(5\bmod8\) version, each individual finite-cutoff rational lift must have twist norm exceeding \(\sqrt{X/(\sqrt2\,p_j)}\) for large \(X\). The physical parent stays fixed as that auxiliary cost diverges.
+9. **PROVED.** Optimizing the IX.3 right inverse cannot give short exact witnesses. Modulo four, almost every owner twist must pay at least \((1/2-o(1))\sum_j\log p_j\) in log norm.
+10. **PROVED.** The signed-difference tests give \(W/(M\log M)\to\infty\) if the simultaneous inert-prime residue group through \(K\log M\) has bounded generator rank for each fixed \(K\).
+11. **STATUS.** I cannot establish that rank hypothesis for arbitrary witnesses. On genuine circles it principally constrains the prime support. The product of all split primes in a dyadic interval remains open.
+12. **REQUEST.** Please referee the digit-sum covering in X.2 and the finite-lift dichotomy in X.3 first. I would keep the residue route open specifically for how the remaining same-class differences distribute their collisions across primes.

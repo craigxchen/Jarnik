@@ -1,0 +1,16 @@
+  q=31 column 2: parity bound NOT attained with entries in {0,+-1}
+  q=31 column 5: parity bound NOT attained with entries in {0,+-1}
+  q=31 column 10: parity bound NOT attained with entries in {0,+-1}
+  q=31 column 11: parity bound NOT attained with entries in {0,+-1}
+  q=31 column 12: parity bound NOT attained with entries in {0,+-1}
+  q=31 column 14: parity bound NOT attained with entries in {0,+-1}
+  q=31 column 16: parity bound NOT attained with entries in {0,+-1}
+  q=31 column 20: parity bound NOT attained with entries in {0,+-1}
+  q=31 column 21: parity bound NOT attained with entries in {0,+-1}
+  q=31 column 22: parity bound NOT attained with entries in {0,+-1}
+  q=31 column 23: parity bound NOT attained with entries in {0,+-1}
+  q=31 column 25: parity bound NOT attained with entries in {0,+-1}
+  q=31 column 26: parity bound NOT attained with entries in {0,+-1}
+  q=31 column 28: parity bound NOT attained with entries in {0,+-1}
+  q=31 column 29: parity bound NOT attained with entries in {0,+-1}
+q=31 m=15: parity lower bound 210 (= m(q-3)/2 = 210); explicit integral V with owner weight 105; Astra CS bound 158.4

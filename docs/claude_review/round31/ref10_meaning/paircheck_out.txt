@@ -1,0 +1,1 @@
+pairs*units 360 mismatches 0 max log m / log sqrt(pj pk) 1.068

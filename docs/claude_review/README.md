@@ -320,6 +320,14 @@ pattern of the fakes is impossible in the two-class problem on its full core and
 worst-case rate and no large genuine example; the mechanism does not transfer to circles. On the judge's advice the
 two-class thread is closed.
 
+The tenth exchange on the open thread (`round31/README_X.md`) took up the one residue class still open (P3-all*).
+No error was found. It is **not settled in either direction**: a fake passes every such test except those on
+balanced words inside label classes, and an effective rigidity theorem shows that witnesses of polynomial height
+passing two tests at a polynomial modulus are genuine, but passing data need not have such witnesses. The judge
+closes the residue route for internal work. One new piece of data about actual circles: on the explicit dense
+norms `q_P` (the product of all primes `1 mod 4` in `[P, 2P]`) no two lattice points lie within `8 q_P^(1/4)` for
+`200 <= P <= 450`. The growth rate for general `R` is unchanged.
+
 **Growth-rate status (2026-11-19, after round 31).** No growth improvement over `log R/loglog R` is proved
 unconditionally; conditionally only Vojta-type routes are known, and they give the uniform bound directly. The following are capped at `log R/loglog R` by
 refereed barrier theorems:

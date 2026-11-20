@@ -1,0 +1,6 @@
+{'q': 11, 'pairs': 10, 'exact_identities': 10, 'owner_logH_over_T': [0.399, 0.399, 0.4, 0.4, 0.401]}
+{'q': 11, 'case1_twisted_label': 2, 'worst_pair': (6, 8, 7, 2.71, 428.06)}
+{'q': 19, 'pairs': 36, 'exact_identities': 36, 'owner_logH_over_T': [0.555, 0.555, 0.555, 0.556, 0.556, 0.556, 0.556, 0.556, 0.556]}
+{'q': 19, 'case1_twisted_label': 2, 'worst_pair': (3, 10, 7, 2.71, 1685.77)}
+{'q': 23, 'pairs': 55, 'exact_identities': 55, 'owner_logH_over_T': [0.454, 0.454, 0.454, 0.455, 0.455, 0.455, 0.455, 0.455, 0.455, 0.455, 0.455]}
+{'q': 23, 'case1_twisted_label': 5, 'worst_pair': (7, 10, 7, 2.71, 2638.61)}

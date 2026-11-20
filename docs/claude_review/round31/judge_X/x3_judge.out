@@ -1,0 +1,3 @@
+q=11 m=5: parity lower bound 20 (= m(q-3)/2 = 20); explicit integral V with owner weight 20; Astra CS bound 10.8
+q=19 m=9: parity lower bound 72 (= m(q-3)/2 = 72); explicit integral V with owner weight 72; Astra CS bound 48.8
+q=23 m=11: parity lower bound 110 (= m(q-3)/2 = 110); explicit integral V with owner weight 110; Astra CS bound 78.2

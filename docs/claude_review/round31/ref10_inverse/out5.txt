@@ -1,0 +1,10 @@
+ col 0 parity 7 val 7 status 0
+ col 1 parity 7 val 8 status 0
+col 2 no solution found Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)
+ col 3 parity 7 val 7 status 0
+col 4 no solution found Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)
+col 5 no solution found Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)
+col 6 no solution found Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)
+ col 7 parity 7 val 7 status 0
+ col 8 parity 7 val 7 status 0
+ col 9 parity 7 val 7 status 0

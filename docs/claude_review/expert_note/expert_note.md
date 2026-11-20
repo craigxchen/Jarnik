@@ -123,7 +123,11 @@ $M=o(\log R/\log\log R)$. The record builds such fakes for several classes:
   (P3-char, `round5/round6_sharp/sharp.md` Def. 1.1 with the same-level clause) **at every modulus at once**
   (round 31, Part IX.3–4; **proved**, `round31/README_IX.md` §§1.3–1.5). A separate family at larger prime height
   also satisfies the single-label max-scale cross-gap at constant one (Part IX.5; **proved** modulo one Fourier-decay
-  citation not read in full; an elementary twelve-copy variant covers the finite test).
+  citation not read in full; an elementary twelve-copy variant covers the finite test). A $128H^2$-fold replicated
+  version also passes all single-label rays and all words of length $\le H$ with nonzero class sum of the
+  all-monomial test, at $W\le(1536H^2/\rho+o(1))M\log M$ (Part X.2; **proved**). For the IX.3 witness design no
+  right inverse gives short witnesses: almost every owner twist has log norm
+  $\ge(\frac12-o(1))\log\mathrm{rad}\,N$ (Part X.3; **proved**).
 * Residue designs extend this to point-level residues at moduli $\le M^A$ with $A$ fixed in advance
   (`round5/construct.md`, `round5/lower.md`). Referee scope limits (removed for zero-sum characters by round 31, Part IX.3): all primes of $N$ must exceed the modulus bound
   $X$, and the twisted extension at $X=M^A$, $A>1$, is open (`round5/README.md`; `overview/overview.md` §5.2 item 2).
@@ -136,13 +140,24 @@ ineffectively in the height; `round31/README.md` §1, sieve) remain uncapped; se
 Residue caps uniform in the modulus are now proved for one class: residues that factor through prime residues of
 the genuine norms and are tested through zero-sum characters (P3-char) are capped at every modulus at once
 (round 31, Part IX.3, the bullet above), hence so are point residues at moduli $M^A$ with $A$ chosen after the
-cluster, for zero-sum characters at odd prime powers. Not capped: P3-all$^*$ (prime-level residues tested on every
-monomial at moduli $3M^A$), twisted point collisions ($\sum c\ne0$) at moduli $M^A$, the 2-adic clause, the
+cluster, for zero-sum characters at odd prime powers. Within P3-all$^*$ (prime-level residues tested on every
+monomial at moduli $3M^A$), one parent sequence at $W=O_H(M\log M)$ passes, at every modulus at once and together
+with P3-char, every power of every single-label ray, every pair sum and every signed word of length $\le H$ whose
+coefficient sum is nonzero on one of $b\to\infty$ label classes chosen by the construction (round 31, Part X.2;
+**proved**, `round31/README_X.md` §1.2). Not capped: the balanced words inside a class of P3-all$^*$, in particular
+label differences $e_j-e_k$ chosen from the data, twisted point collisions ($\sum c\ne0$) at moduli $M^A$, the 2-adic clause, the
 operator-form union large sieve and the composite cross-gaps, every cross-gap inside the low-height window,
 square-root-quality prime sums and box counts, Lang–Waldschmidt, and the Gaussian-integer cocycle of the reduced
 chords. At the other end, with one rational lift per prime and all moduli at once, the all-monomial residue test at
 the single unit $-1$ on powers of single primes holds only on actual clusters (round 31, Part IX.7; **proved**);
-since such lifts exist at every finite modulus, this is the problem itself and says nothing about P3-all$^*$. So the
+since such lifts exist at every finite modulus, this is the problem itself and says nothing about P3-all$^*$.
+Effectively (Part X.1; **proved**): if all primes of $N$ are $\equiv5\pmod8$ and lie in $[P,2P]$, a witness that is
+the reduction of $\pi_j\gamma/\bar\gamma$ with $\mathrm{Norm}\,\gamma\le P^h$ and passes the two diagonal tests on
+$2e_j$ at a modulus $\ge2\sqrt2P^{1+2h}$ is a genuine prime factor, and with genuine factors the model is an actual
+cluster (round 14, Prop. P). Passing data need not have such lifts: on one fixed fake every lift at label $p_j$ has
+$\mathrm{Norm}\,\gamma>(X/(\sqrt2p_j))^{1/2}$ at modulus $X$ (Part X.2), so bounded-height rigidity yields no lower
+bound for P3-all$^*$. Genuine witnesses pass every residue test on every parent, so residue tests can serve a growth
+proof only through rigidity; **the residue route is closed for internal work** (`round31/README_X.md` §3(b)). So the
 residue column is settled at both ends and open in the middle (`round31/README_IX.md` §3(c)–(d)). The low-height
 window $P_+(N')\le M^{2-\delta}$ ($N'$ the normalised norm, $P_+(N')$ its largest prime factor) was the one regime
 with no known fake (`round21/README.md`). It is now **capped for $0<\delta<1/6$** for pair, cut, monomial-gap,
@@ -755,7 +770,9 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
    residues at moduli $\le M^A$ with $A$ fixed in advance. Fakes at $W=O(M\log M)$ satisfy all of them (**proved**,
    with the scope limits of `overview/overview.md` §5.2 item 2).
    Caveat: caps uniform in $A$ are proved for zero-sum characters and for factored prime residues tested through
-   characters (round 31, Part IX.3), not for twisted collisions or the 2-adic clause; P3-all$^*$ is uncapped.
+   characters (round 31, Part IX.3), not for twisted collisions or the 2-adic clause; P3-all$^*$ is uncapped only on the balanced words inside
+   label classes, in particular data-chosen label differences (round 31, Part X.2), and the residue route is closed
+   for internal work (`round31/README_X.md` §3(b)).
 2. **Averaged or robust analytic inputs.** This covers large sieves with non-sharp constants, prime sums or box
    counts with power-saving error, and "almost all" statements. Grafted fakes satisfy them (`round10/analytic.md`
    Thm B, **proved**; composite-supported version `round20/composite.md`, killer-checked). Inside the low-height window the
@@ -926,12 +943,12 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      "balance does not separate real clusters from fakes" (true only for pairwise balance); the "real-algebraic
      obstruction" lead (it was linear algebra, Prop K1).
 
-12. **Round 31 (ten exchanges with an outside colleague, "Astra"; 102 referee blocks and sixteen judge reports:
+12. **Round 31 (ten exchanges with an outside colleague, "Astra"; 108 referee blocks and seventeen judge reports:
    `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`,
-   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`, `README_IXL.md`, `README_XL.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
+   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`, `README_IXL.md`, `README_X.md`, `README_XL.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
    (Part V, unit-twisted points) was repaired by the referee. **The growth rate for general $R$, the uniform bound,
    Questions A and B and route 5 keep their status** (judges' scores on the goal: 2/10, 2/10, 1/10, 2/10, 1/10, 2/10,
-   1/10, 2/10, 2/10, 1.5/10, 1.5/10, 3/10, 2/10, 2.5/10, 2.5/10, 2/10). Parts VIII and IX are about integer circles: Part VIII adds Theorem 1.2 (§1)
+   1/10, 2/10, 2/10, 1.5/10, 1.5/10, 3/10, 2/10, 2.5/10, 2.5/10, 2/10, 2/10). Parts VIII and IX are about integer circles: Part VIII adds Theorem 1.2 (§1)
    and the first fakes in the low-height window, and on the Question B thread shows that Question A contains
    Rudin's conjecture (§2); Part IX adds Theorem 1.3 (§1), caps character-tested prime residues at every modulus
    and extends the window cap to $\delta<1/6$; on the Question B thread it gives a rate for random parents at the
@@ -1341,6 +1358,27 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
        capped", "every residue-type input is capped or is the problem itself", "point residues at moduli $M^A$ are
        capped uniformly in $A$" (zero-sum characters only), "Part IX proves growth in the window", or "the max-scale
        cross-gap is capped" without "single-label, outside the window".
+   * ***Part X: finite cutoff and coordinate rays*** (`round31/README_X.md`; six referee blocks; no error found, one
+     sentence overstated; judge's score on the goal 2/10). Offered the cocycle on one fixed parent or the residue
+     class P3-all$^*$, the colleague took the second. **P3-all$^*$ is not settled in either direction.** Proved:
+     effective finite rigidity for bounded-height rational lifts (§1; polynomial modulus on the dyadic parent of all
+     primes $\equiv5\ (8)$; in general the test exponent is $2^{T-1}$, $T=\max v_2(\ell-1)$); a partial
+     P3-all$^*$ fake (all single-label rays and all short words with nonzero class sum, every power, unit and
+     modulus, together with P3-char), on which the least lift heights diverge with the modulus; no short exact
+     witnesses on the IX.3 design (a mod-four bound; exact minima 20, 72, 110 at $q=11,19,23$, judge). The
+     conditional weight bound X.4 (if the residue tuples of the labels at inert primes up to $K\log m$ generate a
+     group of bounded rank, then $W/(m\log m)\to\infty$) is a reformulation: its hypothesis fails on every genuine
+     parent with polynomially bounded primes. Corrections: the sentence that the fake covers "a fraction tending to
+     one of the tests" concerns data-independent, class-separable word sets only, and the uncovered words are
+     exactly the ones a pigeonhole argument would pick; the table of least cutoffs (439, 3881, 8681, 5783) is for
+     lifts with parent-prime denominators; the coordinator's phrase "the twist must be $\pm1$" was wrong (units and
+     conjugation are allowed on genuine circles). **Computed (referee, spot-checked by the judge):** on
+     $q_P=\prod_{p\equiv1\,(4),\,P\le p\le2P}p$ no two lattice points lie within $8q_P^{1/4}$ of each other for
+     $200\le P\le450$ (the closest pair is between $468$ and $8\cdot10^7$ times $q_P^{1/4}$ away), against a proved
+     bound of order $s/3$ points. *Judge's reading*: the residue route has been mapped to its end and carries no
+     rate; the one live item left on this thread is the cocycle on a fixed parent. Do not write "P3-all$^*$ is
+     capped", "Part X gives a finite-cutoff lower bound", "X.4 proves a growth rate", "the omitted difference must
+     fail", or "$M_{\max}(q_P,C)=1$ is proved".
    * ***Part VIII, Question B thread: hardness of Question A*** (`round31/README_VIIIL.md`; seven referee blocks;
      nothing false, one citation corrected; judge's score on the goal 2/10). The colleague was asked for the weakest
      hypothesis that gives the conjecture, or for a hardness statement, and took the second. Recorded in §2
@@ -1465,7 +1503,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
 | round 29: function-field model, Li–Liu template, residue-class twin, 18 screened ideas (no change) | `round29/README.md` (with `kill_*.md`) |
 | round 30: function-field model decided as far as internal work goes (rank open, line closed; no change) | `round30/README.md` (with `kill_*.md`) |
-| round 31: outside colleague, ten refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; **on integer circles $M\le1+\omega(N')+K_C$ and fakes inside the low-height window**; **$(L_8)$ implies Rudin's conjecture**; random-parent rate at the smooth scale, same-norm separation of fakes, $(L_8^{pc})$ correction; sign-free residue tables collapse onto the genuine two-class problem; no change to the growth rate for general $R$) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`, `README_IXL.md`, `README_XL.md` (with `ref*_*.md`, `langer_check.md`) |
+| round 31: outside colleague, ten refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; **on integer circles $M\le1+\omega(N')+K_C$ and fakes inside the low-height window**; **$(L_8)$ implies Rudin's conjecture**; random-parent rate at the smooth scale, same-norm separation of fakes, $(L_8^{pc})$ correction; sign-free residue tables collapse onto the genuine two-class problem; finite rigidity and a partial P3-all$^*$ fake, residue route closed; no change to the growth rate for general $R$) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`, `README_IXL.md`, `README_X.md`, `README_XL.md` (with `ref*_*.md`, `langer_check.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref10_inverse/minV.py", line 84, in <module>
+    R=run(q)
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref10_inverse/minV.py", line 60, in run
+    V[:,t]=solve_col(D,Bm[:,t],I,S,wts,owner_only)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref10_inverse/minV.py", line 48, in solve_col
+    assert r.x is not None, r.message
+           ^^^^^^^^^^^^^^^
+AssertionError: Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)

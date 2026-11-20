@@ -1,0 +1,6 @@
+/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/round31/ref10_meaning/mitm.py:48: RuntimeWarning: overflow encountered in scalar subtract
+  ia = int(order[i1[kk]]) if int(np.minimum(d1[kk],np.uint64(0)-d1[kk]))==dk else int(order[i0[kk]])
+{'P': 200, 's': 9, 'period': 'pi/4', 'min_dist': 3.0310436842078854e-05, 'arc_over_q14': 25.611757813461267, '|D|': 8, 't_candidates_exact': [1.0, 1.0, 1.0], 'gauss': (357527, -11795507988)}
+{'P': 400, 's': 15, 'period': 'pi/4', 'min_dist': 1.1975440926320392e-08, 'arc_over_q14': 738.9265155842968, '|D|': 10, 't_candidates_exact': [1.0, 1.0, 1.0], 'gauss': (-52883773673185, 52883772406572)}
+{'P': 500, 's': 19, 'period': 'pi/4', 'min_dist': 1.7267987385021112e-10, 'arc_over_q14': 13345.611533035975, '|D|': 14, 't_candidates_exact': [1.0, 1.0, 1.0], 'gauss': (-70867152694366512145, 70867152718841174124)}
+{'P': 600, 's': 24, 'period': 'pi/4', 'min_dist': 1.0587474701746787e-12, 'arc_over_q14': 860483.1002092337, '|D|': 15, 't_candidates_exact': [1.0, 1.0, 1.0], 'gauss': (-4523643829538260511749, -4523643829547839304670)}

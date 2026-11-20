@@ -1,0 +1,9 @@
+order lemma: tests 840 failures 0
+mechanism: |S|=10 T=6 n=32 H=400 nonintegral lifts 2635 failures 0
+mechanism: |S|=36 T=2 n=2 H=4000 nonintegral lifts 2894 failures 0
+P=100 labels 10 cases 190
+X=437: cases not killed by any single n<=40: 1 [(181, 113, (985, -1158))]
+X=438: cases not killed by any single n<=40: 1 [(181, 113, (985, -1158))]
+X=439: cases not killed by any single n<=40: 0 []
+  survivor check 181 113 (985, -1158) phi=arg(2+i) passes all n: True checked to n = 211
+  survivor check 181 113 (985, 1158) phi=arg(2+i) passes all n: True checked to n = 211
