@@ -1506,6 +1506,34 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      separation known", and the coordinator's F3+ exemption list is superseded by F3++. Unreproduced: two eliminations for the strict linear-block system, whose decision is still
      open and peripheral either way.
 
+13. **Round 32 (mining a posted Lean development for transferable methods; `round32/README.md`; six analysts and a
+   judge).** On 20 November 2026 a four-page remark and a Lean 4 tree of about 175,000 files appeared, claiming the
+   Riemann Hypothesis and GRH for Dirichlet $L$-functions. **We did not compile or verify it**; a text scan found no
+   `sorry`, axiom or `native_decide`, which certifies nothing. Read only as a source of ideas, its engine is the same
+   scheme as Theorem 1.1, a product-formula inequality (divisibility at inert primes against archimedean size),
+   amplified along a chain of about $\sqrt x$ theta lifts and averaged over a family of characters. **Nothing in it
+   transfers to the arc problem** (judge: below 1% for a rate). Barrier entries, so that these are not retried:
+   * *One-dimensional multiplicity is the cut identity.* On the norm-one torus (or $\mathbb P^1$, or the conic) an
+     interpolation determinant with multiplicity $a$ at the $M$ points is the Vandermonde to the power $a^2$ times
+     factorials, so its product-formula inequality is a power of the cut identity. The development's source of
+     multiplicity is a height-2 formal group (supersingular reduction at inert primes); the norm-one torus has
+     height 1, so there is no counterpart (**proved**, standard).
+   * *The Bombieri–Pila conic determinant is the parity part of the cut identity*:
+     $\det[z_j^a,\bar z_j^b]=\pm N^{d(d+1)/2}V(z)/\prod z_j^d$ (**exact**, 54 of 54 cases).
+   * *Collisions at all inert prime powers add only $O(M)$ to $W$*: the count modulo $\ell^k$, all $k\ge1$, adds
+     $\sum_{\ell\equiv3\,(4)}\log\ell/(\ell^2-1)=0.2287$ per pair beyond the first level, and the constant $3$ stays
+     $3$ (**exact** check; this is `two_thirds/proof.md` Lemma 3.3(I)). The development's inert exponent
+     $\ell/(\ell^2-1)=1/\ell+1/\ell^3+\dots$ is this count.
+   * *Powers and products of a cluster are not critical* (length $kCR^{k-1/2}$ against $R^{k/2}$); *sign-definite
+     moments over Hecke characters* are capped by the cube energy (at best $M\le2^{s/2}$); *averaging over twists*
+     is profile-only or character-tested, hence satisfied by fakes.
+   * *GRH itself, if granted, gives nothing for the explicit norms $q_P$*: the residual problem concerns signed
+     subset sums of fixed Gaussian-prime arguments at precision about $q_P^{-1/4}$, far below the $P^{-1/2}$
+     equidistribution scale.
+   The one conceptual lesson: that development never proves a zero estimate; it makes nonvanishing free (positivity,
+   exact norm identities) and puts all arithmetic into divisibility. For arcs, free nonvanishing is subcritical
+   (item 3), and the supercritical version is route 5's open zero estimate.
+
 ## 6. Pointers
 
 Repository `craigxchen/Jarnik`, branch `claude/upbeat-einstein-p0peju`, directory `docs/claude_review/`. Each
@@ -1532,6 +1560,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
 | round 29: function-field model, Li–Liu template, residue-class twin, 18 screened ideas (no change) | `round29/README.md` (with `kill_*.md`) |
 | round 30: function-field model decided as far as internal work goes (rank open, line closed; no change) | `round30/README.md` (with `kill_*.md`) |
+| round 32: a posted Lean development claiming RH/GRH, mined for methods (unverified; nothing transfers; three barrier entries) | `round32/README.md`, `round32/mine_*.md` |
 | round 31: outside colleague, eleven refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; **on integer circles $M\le1+\omega(N')+K_C$ and fakes inside the low-height window**; **$(L_8)$ implies Rudin's conjecture**; random-parent rate at the smooth scale, same-norm separation of fakes, $(L_8^{pc})$ correction; sign-free residue tables collapse onto the genuine two-class problem; finite rigidity and a partial P3-all$^*$ fake, residue route closed; the chord cocycle is the problem itself up to a dilation; both threads closed; no change to the growth rate for general $R$) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`, `README_VIIIL.md`, `README_IX.md`, `README_IXL.md`, `README_X.md`, `README_XL.md`, `README_XI.md` (with `ref*_*.md`, `langer_check.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 

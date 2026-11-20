@@ -337,6 +337,14 @@ closed.** The judge's closing assessment (section 5 of that report): every relax
 or collapses to the problem itself; two theorems about integer circles were gained (expert note, Theorems 1.2 and
 1.3), plus a rate for random smooth norms; the growth rate for general `R` and the uniform bound did not move.
 
+Round 32 (`round32/README.md`) read a Lean development posted on 2026-11-20 that claims the Riemann Hypothesis and
+GRH, to see whether its methods transfer. We did not compile or verify it. Six analysts extracted the statements
+behind each idea (multiplicity from theta lifts, slope inequalities, CM theta jets at inert primes, positivity by
+determinants) and a judge tested each against the record's barriers. **Nothing transfers**: on one circle its
+multiplicity device is a power of the cut identity, its inert-prime exponent is the all-level collision count
+(worth `O(M)`), and its averaging devices are satisfied by fake circles. Three barrier entries were added to the
+expert note (section 5, item 13).
+
 **Growth-rate status (2026-11-19, after round 31).** No growth improvement over `log R/loglog R` is proved
 unconditionally; conditionally only Vojta-type routes are known, and they give the uniform bound directly. The following are capped at `log R/loglog R` by
 refereed barrier theorems:
