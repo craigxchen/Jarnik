@@ -1,0 +1,4 @@
+q=127 primitive balanced length-4 words: min support of Kv mod m: {2: 2, 3: 73, 4: 56, 5: 74, 7: 74}
+q=127 length-2 word e0-e1: support of Kv mod 2 = 2; isqrt(q-1)+1-h = 10, sqrt(q)-h-1 = 8.27
+F_11, t=3: ordered disjoint pairs with first k moments equal, k=0..3: [40370, 3520, 440, 0]
+C=8.23932686587: initial segment of primes 3 mod 4 up to 283 (32 primes) gives sum 2.1193 > log C = 2.1089; K_C = 4168

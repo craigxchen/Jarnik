@@ -30,6 +30,36 @@ Arcs that touch an axis point are trivial, so the whole difficulty is uniformity
 > $C,\varepsilon>0$ there is an explicit $R_0(C,\varepsilon)$ such that $M\le(\frac23+\varepsilon)\log R/\log\log R$
 > for all $R\ge R_0$.
 
+> **Theorem 1.2** (**proved**; round 31, Part VIII.1, a theorem of the outside colleague, checked by seven
+> referees and a judge, 0 failures in 1.27 million exact window tests; `round31/README_VIII.md` §§1.1, 1.8).
+> Divide a cluster of $M\ge2$ distinct points by its Gaussian gcd; let $N'$ be the normalised norm and $C'\le C$
+> the chord constant $\max_{i,j}|z_i'-z_j'|/N'^{1/4}$. Let $S$ be a finite set of primes $\ell\equiv3\ (4)$ with
+> $\frac12\log2+\sum_{\ell\in S}\frac{\log\ell}{\ell+1}>\log C'$. Then the exponent rows $(a_{ip})_{p\mid N'}$, each
+> enlarged by the indicator of the class of $z_i'$ mod $\ell$ for every $\ell\in S$, are affinely independent.
+> Hence $M\le1+\omega(N')+K_C$ with $K_C=\sum_{\ell\in S}\ell$ (one can take $K_C=\Theta(C^4/\log C)$), and
+> $M\le1+\omega(N')$ when $C'<\sqrt2$.
+
+The proof of Theorem 1.2 is short. An affine dependence splits into two probability measures on disjoint sets of
+marks with equal barycentres. For independent marks $i,j$ drawn from them, $|x-y|\le x+y-2xy$ on $[0,1]^2$ gives
+$\mathbb E\,d_{ij}\le W/2$ for the weighted exponent distance $d_{ij}=\sum_p|a_{ip}-a_{jp}|\log p$, while collisions
+modulo the inert $\ell\in S$ (norm fibres of size $\ell+1$) and the factor $1+i$ give
+$\mathbb E\log|b_{ij}|>\log C'$ for the cofactor $b_{ij}=(z_i'-z_j')/\gcd(z_i',z_j')$. This contradicts the pair
+inequality $d_{ij}\ge W/2+2\log|b_{ij}|-2\log C'$. Consequences (**proved**, same source):
+* $P_+(N')\ge(2-o_C(1))M\log M$ for the largest prime $P_+(N')$ of $N'$, so $M\le M_0(C,\eta)$ on clusters with
+  $P_+(N')\le(2-\eta)M\log M$;
+* $M\le1+K_C+\omega_1(\mathrm{rad}\,N)$, where $\omega_1$ counts primes $\equiv1\ (4)$; hence
+  $M\le(\frac2\kappa+o(1))\log R/\log\log R$ with $\kappa=\log N/\log\mathrm{rad}\,N$. This beats $\frac23$ exactly when
+  $\kappa>3$; for squarefull $R$ the coefficient is $\frac12$.
+
+Scope: **for general $R$ nothing improves.** Together with the inputs of Theorem 1.1 the constant $3$ stays exactly
+$3$ (`round31/ref8_extend.md` Prop 3.2). Theorem 1.2 replaces the record's $\omega(N')>M/4$ (`round8/stability.md`
+Thm 3.3) and turns the conditional ceiling $M\le\omega(N')+O_C(1)$ of §5 items 5 and 8 into a theorem. It holds
+verbatim over $\mathbb F_2[t]$ and $\mathbb F_3[t]$ and in every arc-admissible point-residue angle model with
+residues up to $\max S$, so every fake of the record satisfies it and it cannot by itself give the uniform bound.
+$K_C$ is lossy: on all circles $N\le10^6$ no affine dependence of the exponent rows occurs for $C'<2$, and
+$M-1-\omega(N')\le6$ for arc constant $\le9$, against $K_C=1150$ at $C'=8.24$. Novelty relative to the literature was checked only by
+snippet-level searches.
+
 The proof compares an archimedean upper bound with an arithmetic lower bound for the product of the reduced chords.
 After dividing by $\gcd(z_1,\dots,z_M)$ (the *normalised* cluster: $N$ odd, all $p\mid N$ split,
 $z_j=\varepsilon_j\prod_p\pi_p^{a_{jp}}\bar\pi_p^{e_p-a_{jp}}$), put $c_{ij}=(z_i-z_j)/\gcd(z_i,z_j)$ (the reduced
@@ -60,17 +90,30 @@ $M\approx(2/c)\log R/\log\log R$, an input class that admits fakes with $W=O(M\l
 $M=o(\log R/\log\log R)$. The record builds such fakes for several classes:
 * Skew-Hadamard (Paley) profiles give fakes at $W\le(8+o(1))M\log M+8M\log(1/C)$. These satisfy every pair, cut,
   monomial-gap and rational-character inequality (`round8/lw.md` Thm 6.1; **proved**).
+* Legendre (Paley) profiles with exponent cap two and randomly assigned primes in $[P,2P]$, $P=M^{2-\xi}$,
+  $\xi<1/12$, give fakes **inside the low-height window** at $W\le(23/3+o(1))M\log M$ (along a diagonal sequence).
+  They satisfy every monomial gap, every rational character and point residues (axiom (R) of `round5/construct.md`)
+  at all odd prime powers $\le2M$, on a positive-measure set of non-arithmetic angles (round 31, Part VIII.3,
+  (VIII.10); **proved**, four referee blocks and a judge's recheck of the mod-four support bound,
+  `round31/README_VIII.md` §§1.3–1.5, 1.8). They have positive, not majority, Haar measure on the realisation
+  component, and they are not checked against Lang–Waldschmidt. All margins are asymptotic ($q>10^{180}$ roughly).
 * Residue designs extend this to point-level residues at moduli $\le M^A$ with $A$ fixed in advance
   (`round5/construct.md`, `round5/lower.md`). Referee scope limits: all primes of $N$ must exceed the modulus bound
   $X$, and the twisted extension at $X=M^A$, $A>1$, is open (`round5/README.md`; `overview/overview.md` §5.2 item 2).
 * Grafts cap robust averaged analytic inputs (`round10/analytic.md` Thm B; `round20/composite.md`).
 
-Actual clusters satisfy $W\ge3M\log M-O(M)$. Not everything is capped. P3-all$^*$, the sharp-constant large
+Actual clusters satisfy $W\ge3M\log M-O(M)$. Not everything is capped. P3-all$^*$ and the sharp-constant large
 sieves (prime-only and non-multiplicative forms; the completely multiplicative, all-ideal, all-height sharp sieve
 of round 20 collapses: it forces genuine angles mod $\pi/4$, with $B_0=4$ attained by an irrational graft,
-ineffectively in the height; `round31/README.md` §1, sieve) and the low-height window $P_+(N')\le M^{2-\delta}$ remain uncapped; here $N'$ is the normalised norm and
-$P_+(N')$ its largest prime factor (`round21/README.md`, status **open**),
-and the residue caps are not uniform in $A$; see `overview/overview.md` §5.5. The record's synthesis is a judge's assessment, **unrefereed**
+ineffectively in the height; `round31/README.md` §1, sieve) remain uncapped,
+and the residue caps are not uniform in $A$; see `overview/overview.md` §5.5. The low-height window
+$P_+(N')\le M^{2-\delta}$ ($N'$ the normalised norm, $P_+(N')$ its largest prime factor) was the one regime with
+no known fake (`round21/README.md`). It is now **capped for $0<\delta<1/12$** for pair, cut, monomial-gap,
+rational-character and point-residue inputs at moduli $\le2M$ (round 31, Part VIII.3, the bullet above;
+`round31/README_VIII.md` §3(d)). It stays **open** for $\delta\ge1/12$, and in every window for prime-level
+residues, point residues at moduli $M^A$ with $A>1$, the union large sieve at the genuine constant and
+square-root-quality prime sums and box counts (`round31/README_VIII.md` §3(e)). Actual clusters have
+$P_+(N')\ge(2-o(1))M\log M$ (Theorem 1.2). The record's synthesis is a judge's assessment, **unrefereed**
 (`round17/README.md` §7.1; `overview/overview.md` §7.6). It says a new mechanism must be global, multi-place and
 tied to the actual arithmetic of $N$. The only statements of that type in the record are Vojta-type, and their
 sharpest arithmetic forms are Questions A and B below.
@@ -611,8 +654,9 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
    Caveat: caps uniform in $A$ are not proved, and P3-all$^*$ is uncapped.
 2. **Averaged or robust analytic inputs.** This covers large sieves with non-sharp constants, prime sums or box
    counts with power-saving error, and "almost all" statements. Grafted fakes satisfy them (`round10/analytic.md`
-   Thm B, **proved**; composite-supported version `round20/composite.md`, killer-checked). Exceptions inside the
-   low-height window are listed in `round21/README.md`.
+   Thm B, **proved**; composite-supported version `round20/composite.md`, killer-checked). Inside the low-height window the
+   earlier exceptions (`round21/README.md`) stand only for $\delta\ge1/12$ or for the inputs listed as uncapped in
+   `round31/README_VIII.md` §3(e).
 3. **Auxiliary polynomials and single-place Diophantine approximation.**
    * On $X_M$: $\tau^*(M)=2-1/\lceil M/2\rceil<2$, so Liouville at $\infty$, and Ru–Vojta with $S=\{\infty\}$, never
      reach exponent $\frac12$ (`threshold/upper.md`, **proved**).
@@ -671,7 +715,10 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      wherever the section cap holds. A genuine fixed-$S$ Subspace argument on $LM_5\setminus\bigcup\Delta_{ab}$ is not
      covered.
 4. **Single linear forms in logarithms** (Baker–Matveev, single-form Lang–Waldschmidt). Fakes satisfy them
-   (`round8/lw.md` Thms A, B; `round8/stability.md` Prop 6.1; **proved**).
+   (`round8/lw.md` Thms A, B; `round8/stability.md` Prop 6.1; **proved**). A uniform two-logarithm inequality
+   $(1+w(v))\log(2D_L(v))\ge c_*W$ for coordinates $v$ of finite order $D_L(v)$ modulo the exponent row lattice
+   holds on actual clusters and fails in the binary function-field family (round 31, Part VIII.2; **proved**, low
+   novelty, cf. `growth/auxiliary.md` Prop B2). It gives no growth bound and has not been tested against fakes.
 5. **$S$-unit and Subspace arguments with thresholds depending on $S$ only through $|S|$.** These give at best
    $M\le\omega(N')$ (lit18 Props A, B; **unrefereed**). Uniform unit-equation counts with fixed anchors are closed:
    a rank-$r_0$ multiplicative coset contains the divisor splits of at most $8r_0+4$ third vertices of a fixed edge,
@@ -679,6 +726,8 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
    (`round31/ref3_rank.md`; **proved**). Fixed-$S$ theorems such as `round18/theory.md` Thm 2.5 have
    $S$-dependent constants, and $S$ is the unbounded set of primes of $N$. The same holds for the fixed-field
    unit-sum theorem of round 31, Part VI.1 (§3): its degree-uniform or growing-$S$ version is false.
+   Since $M\le1+\omega(N')+K_C$ is now proved unconditionally (Theorem 1.2), these methods add nothing unless they
+   beat $\omega(N')$.
 6. **abc on single relations.** abc through relations among products of chords (pair, triangle, Ptolemy or
    $n$-term) is vacuous on squarefree profiles (`round8/weakest.md` Prop 4.2), which contain every recorded fake
    (Cor 4.3), so it cannot prove growth (**proved**). abc on unit pencils is closed as well (Theorem 3.3).
@@ -692,7 +741,7 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
    see it.
 8. **Genus-0 Arakelov theory and unlikely intersections in tori.** The first reduces to items 1 and 3 (overview
    §5.4 rows 2 and 8) and to the limitation "Lim" of known tools (Mordell–Weil packing gives $e^{O(\mathrm{rank})}$; bounded rank is equivalent
-   to the uniform theorem). The second is vacuous, or capped at $M\le\omega(N')+O_C(1)$; the Rémond-cone case of
+   to the uniform theorem). The second is vacuous, or capped at $M\le\omega(N')+O_C(1)$ (a bound now proved unconditionally, Theorem 1.2); the Rémond-cone case of
    that ceiling is only **heuristic** (`round20/arakelov.md`, `round20/wild.md`; killer-checked;
    `overview/overview.md` §5.4 rows 18–19).
 9. **For refutations.**
@@ -753,13 +802,14 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      "balance does not separate real clusters from fakes" (true only for pairwise balance); the "real-algebraic
      obstruction" lead (it was linear algebra, Prop K1).
 
-12. **Round 31 (seven exchanges with an outside colleague, "Astra"; 67 referee blocks and eleven judge reports:
+12. **Round 31 (eight exchanges with an outside colleague, "Astra"; 74 referee blocks and twelve judge reports:
    `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`,
-   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
-   (Part V, unit-twisted points) was repaired by the referee. **Nothing changes for the integer problem**: the
-   growth rate, the uniform bound, Questions A and B and
-   route 5 keep their status (judges' scores on the goal: 2/10, 2/10, 1/10, 2/10, 1/10, 2/10, 1/10, 2/10, 2/10, 1.5/10, 1.5/10).
-   The new theorems are in the function-field model (Parts IV, V and VI below): the uniform statement is true in
+   `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md`).** No referee found a false theorem in the colleague's reports; one case missing from a proof
+   (Part V, unit-twisted points) was repaired by the referee. **The growth rate for general $R$, the uniform bound,
+   Questions A and B and route 5 keep their status** (judges' scores on the goal: 2/10, 2/10, 1/10, 2/10, 1/10, 2/10,
+   1/10, 2/10, 2/10, 1.5/10, 1.5/10, 3/10). Part VIII is the one pass about integer circles: it adds Theorem 1.2 (§1)
+   and caps the low-height window for $\delta<1/12$.
+   The other new theorems are in the function-field model (Parts IV, V and VI below): the uniform statement is true in
    characteristic 0, false over $\mathbb F_2(t)$ (also for squarefree parents) and false over $\mathbb F_3(t)$
    with the Gaussian form $A^2+B^2$. What is now in the record, all
    **proved** and refereed unless labelled:
@@ -1064,6 +1114,49 @@ Each item below is a barrier result in the record (`overview/overview.md` §§5.
      $\delta<0$), recorded in §3 with its verification by three further checkers. *Closed* (judge's
      recommendation): this thread as internal work; the unrestricted question is one for function-field Vojta
      specialists.
+   * ***Part VIII: low-height primes on integer circles*** (`round31/README_VIII.md`; seven referee blocks; no
+     error found; judge's score on the goal 3/10, quality as mathematics about 8/10). After the function-field
+     programme was closed the colleague was asked to return to the integers and chose the low-height window.
+     * *Theorem VIII.1* is Theorem 1.2 of §1, with its consequences $P_+(N')\ge(2-o(1))M\log M$ and the
+       coefficient $2/\kappa$. Referee sharpenings: the term $\frac12\log2$ (since $1+i$ divides every cofactor),
+       hence $M\le1+\omega(N')$ for $C'<\sqrt2$ where the colleague stated $C<1$; a block mod $2$ gives
+       $M\le\omega(N')+2$ for $C'<2^{3/4}$; $K_C=\Theta(C^4/\log C)$. Data (rank referee and judge, exact):
+       rank deficiencies $1,\dots,5$ first occur at arc constant $2.83,4.00,5.18,6.64,8.75$ on circles
+       $N\ge10^4$; none below chord constant $2$. The 10-point cluster $N=1176852625$ has affine rank $5$, raised
+       to $6$ by the mod-3 block and to $9$ by the mod-7 block.
+     * *No growth from it for general $R$* (analyst referee, `round31/ref8_extend.md`). Inserting Theorem 1.2 into
+       Theorem 1.1 leaves the constant $3$ (Prop 3.2); every inequality derived from pair instances of axiom (R) at
+       moduli $\le Q_0$ holds in the point-residue fakes $A_1(Q_0)$ (Prop 5.1), so a separating input must use
+       genuine prime arguments or prime-level residues, the archimedean order, or primes of $N'$ above $2M$. The
+       only obstruction between $3$ and $4$ in Theorem 1.1 is small split primes dividing $N'$ with balanced
+       levels.
+     * *Height-order inequality (VIII.6)* (**proved**; low novelty): §5 item 4. It bites only on coordinates of
+       finite order modulo the row lattice; in a pinned cluster every coordinate at a prime $\le M^A$ has order
+       $\ge\exp(cM)$. Corrections: no window hypothesis and no $\delta$-dependence are needed; the 10-point
+       illustration lies outside the lemma's range. The Baker–Wüstholz input was checked only through
+       `round31/ref_baker.md`.
+     * *Window fakes (VIII.3, (VIII.10))* (**proved**): the bullet in §1. Devices: random assignment of primes in a
+       wide interval with martingale control of the Paley margins (bypassing judge J1 of round 21); a square-root
+       support bound for $Kv$ mod $4$ and mod odd $\ell$ (the minimum-distance bound for extended
+       quadratic-residue codes; corrected to $\sqrt q+1-h$; mod $2$ alone fails), used as an erasure estimate;
+       integral moment lifts with base-$B$ digits and a Newton-identity count of words with vanishing initial
+       moments; residue witnesses ordered by auxiliary Gaussian prime directions. Wording corrections: at fixed
+       $\rho$ the coefficients are $7.96/\rho$ and $23/(3\rho)$, and $23/3$ holds along a diagonal sequence (one
+       referee's "false as stated" was overruled by the judge); inside the window only for $\delta<1/12$. It
+       answers round 21's question (Q) in that range and contradicts no round-21 theorem; what falls is the
+       round-21 heuristic that window fakes admit no positive-probability recipe. Brackets: $[3,23/3]$ for inputs
+       up to point residues at $2M$.
+     * *Area test and spread fakes (VIII.4)* (**proved**; the test has minimal novelty):
+       $M\le1+K_C+O((1+\sqrt P\sigma)(1+\sqrt P\eta))$ when the primes lie in $[P,Pe^\sigma]$ and the chosen
+       Gaussian arguments in an interval of length $\eta$. It detects the first window fake; the spread version of
+       the fake (prime angles separated by $\ge1/(6q)$ up to conjugation) evades it. Referee addition: the spread
+       fakes are $L$-spread in the sense of `round21/prove.md` Def 5.1, which discharges the fake side of round 21
+       Cor 5.4; the genuine side (Caveat 3) is **open**.
+     * *Judge's ranking of what could still move the integer rate*: whether the per-pair point-residue
+       inequalities force $W\ge(3+\eta)M\log M$ (estimated 4%; the only item whose success would improve $\frac23$
+       for every $R$), then interpolation between Theorems 1.1 and 1.2 for $2<\kappa<3$ (2%). Do not write "the
+       low-height window is uncapped", "Theorem 1.2 improves $\frac23$", "fakes violate the rank bound" or
+       "coefficient $\frac12$ for integer radii" (only squarefull radii).
    * *Withdrawn or corrected in the round:* a sentence on "different local obstructions" for the round-24 family
      (both forms are excluded at 2 and at 3); the coordinator's "weight $D/2$ is exactly the lattice minimum" (only
      a lower bound) and "every determinant is critical" (see Lemma K1 as now worded); the headline "17 points" of
@@ -1093,7 +1186,8 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 18: census, sandwich, lattice form, lifts, Prop 2.6 | `round18/README.md`, `round18/theory.md`, `round18/census.md`, `round18/lift.md` (with `referee_*.md`) |
 | round 19: Thm 2.4, Thm 3.3, non-unit residue | `round19/README.md`, `round19/theory.md`, `round19/search.md` (with `referee_*.md`) |
 | round 20: $(L_5^\circ)$, $V_E(5)$, Thm 4.1, Lemma K1 | `round20/README.md`, `round20/gauss.md`, `round20/kill_gauss.md` |
-| round 21: low-height window (open) | `round21/README.md` |
+| round 21 and round 31 Part VIII: low-height window (capped for $\delta<1/12$ for inputs up to point residues at $2M$; open otherwise) | `round21/README.md`, `round31/README_VIII.md` |
+| Theorem 1.2, $M\le1+\omega(N')+K_C$ | `round31/README_VIII.md` §§1.1, 1.8; `round31/ref8_rank.md`, `ref8_extend.md` |
 | fake circles and capped classes | `round4/outside.md`, `round5/construct.md`, `round8/lw.md`, `round10/analytic.md` |
 | mean-width Thm B, Cor C3 (auxiliary forms capped) | `threshold/construct.md` |
 | round 26: zero estimates vs route 5's ZE; spectral LP cap; target ZE$^{\rm all}_H$ | `round26/README.md`, `round26/ze.md` (with `referee_ze.md`) |
@@ -1101,7 +1195,7 @@ exact checks are in `X_checks/`. The round READMEs give the referee-corrected st
 | round 28: pre-registered test of the multi-shift criterion (unfavourable) | `round28/README.md` (with `verify.md`) |
 | round 29: function-field model, Li–Liu template, residue-class twin, 18 screened ideas (no change) | `round29/README.md` (with `kill_*.md`) |
 | round 30: function-field model decided as far as internal work goes (rank open, line closed; no change) | `round30/README.md` (with `kill_*.md`) |
-| round 31: outside colleague, seven refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; no change for integers) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md` (with `ref*_*.md`, `langer_check.md`) |
+| round 31: outside colleague, eight refereed passes (index-one reduction, fixed-plane exponents, integral five-mark models, norm defect and local isotropy, rigidity, random parents; **function-field uniform bound $M(D,0)\le24$ in characteristic 0; unbounded over $\mathbb F_2(t)$ (also squarefree) and over $\mathbb F_3(t)$ with $A^2+B^2$**, **unbounded at prime-exponent cap two, constant and finitely ramified models**; filters F3, F3+, F3++, F3+++; **characteristic-0 function-field $A_5$ open, true on sparse presentations**; $A_4(\delta)$ false for $\delta<1/6$; fixed-field unit-sum theorem; **on integer circles $M\le1+\omega(N')+K_C$ and fakes inside the low-height window**; no change to the growth rate for general $R$) | `round31/README.md`, `README_II.md`, `README_III.md`, `README_IV.md`, `README_IVL.md`, `README_V.md`, `README_VL.md`, `README_VI.md`, `README_VIL.md`, `README_VII.md`, `README_VIIL.md`, `README_VIII.md` (with `ref*_*.md`, `langer_check.md`) |
 | papers check: seven full texts on approximation constants | `papers_check/README.md` |
 
 ## Appendix: notes on the check

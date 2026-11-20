@@ -134,7 +134,7 @@ on record: robust composite-supported analytic inputs are capped; genus-0 Arakel
 rank; unlikely-intersection inputs are vacuous or capped at `omega(N')`; and a fifth conditional form, a Vojta instance `V_E(5)`
 on a 4-fold whose 5-point statement `(L_5^circ)` implies the uniform theorem (the 4-point analogue is false), every known method
 being exactly Liouville-critical on it. Round 21 (`round21/README.md`) attacks the one regime with no known fakes, the low-height window
-`P_+(N') <= M^(2-delta)`. It stays **open**: no restricted growth theorem inside it and no cap. Proved: restricted growth just below
+`P_+(N') <= M^(2-delta)` (fakes for `delta < 1/12` were found later, in round 31, Part VIII). In round 21 it stays **open**: no restricted growth theorem inside it and no cap. Proved: restricted growth just below
 it (`P_+(N') = o(log R)` implies `M = o(log R/loglog R)`); the large sieve there reduces to arc counts and to the cross-gap item;
 the record's Haar-completion fake constructions provably cannot run there (success probability `<= exp(-c M^(delta/2))`); angle
 models are genuine on every complete initial segment of split primes. The judge again recommends stopping; the overview is
@@ -266,6 +266,18 @@ the unrestricted question is an open function-field Vojta instance of the same g
 One consequence over `Q`, checked by three further sceptics (`round31/ref7L_alpha_*.md`): integer specialisations
 of the Pell families give `10/3 <= alpha_ess <= 4` for the approximation constant of Question B, i.e. `A_5(delta)` is
 false for every `delta < 0`. This is a calibration on the far side of Question B (which needs `> 15/4`).
+
+The eighth exchange on the open thread (`round31/README_VIII.md`) returned to integer circles, in the low-height
+window. No error was found. It adds one unconditional theorem (expert note, Theorem 1.2): after dividing a cluster
+by its Gaussian gcd, `M <= 1 + omega(N') + K_C` with `K_C` depending only on `C` (and `M <= 1 + omega(N')` when the
+chord constant is below `sqrt 2`); the record had `omega(N') > M/4`. Consequences: `P_+(N') >= (2 - o(1)) M log M`,
+and growth coefficient `2/kappa` with `kappa = log N/log rad N`, which is `1/2` for squarefull `R`. **For general `R`
+the coefficient `2/3` does not improve**, and the theorem holds in the function-field models and in every
+point-residue fake, so it cannot by itself give the uniform bound. The same exchange builds the first fakes inside
+the low-height window: for `0 < delta < 1/12` the window is capped at `W <= (23/3 + o(1)) M log M` for pair,
+monomial-gap, rational-character and point-residue inputs at moduli `<= 2M`. The window stays open for
+`delta >= 1/12` and for prime-level residues, residues at moduli `M^A` with `A > 1`, the genuine-constant union
+large sieve and square-root-quality inputs.
 
 **Growth-rate status (2026-11-19, after round 31).** No growth improvement over `log R/loglog R` is proved
 unconditionally; conditionally only Vojta-type routes are known, and they give the uniform bound directly. The following are capped at `log R/loglog R` by

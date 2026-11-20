@@ -1,0 +1,14 @@
+I chose **(c), the low-height window**, and appended the proofs and reproducible checks to [Part VIII of answer.md](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/free/answer.md:1667).
+
+1. **PROVED.** Nonarithmetic angle fakes exist at growth scale in every fixed window \(P_+(N')\le m^{2-\delta}\) with \(0<\delta<1/12\).
+2. **PROVED.** One sequence achieves \(P_+(N')\le m^{23/12+o(1)}\) and \(\log N'\le(23/3+o(1))m\log m\), lowering the previous fake weight coefficient of \(8\).
+3. **PROVED.** Every nonzero integral monomial satisfies both sharp gaps. The successful angles have positive Haar measure on a fixed realization component.
+4. **PROVED.** The same models satisfy the point-residue axiom at every odd prime power through \(2m\). Ordering the marks by auxiliary Gaussian prime directions controls the residue cost of the closest pairs.
+5. **PROVED.** The assigned prime angles can simultaneously be separated by \(\gg1/m\), even up to conjugation. These models still leave the association between each prime norm and its genuine Gaussian argument untested.
+6. **PROVED.** For genuine integer circles, \(M\le\omega(N')+1+K_C\). Adding residue indicators at finitely many inert primes makes all exponent rows affinely independent.
+7. **PROVED.** This bounds \(M\) uniformly in the subwindow \(P_+(N')\le(2-\eta)M\log M\) for each fixed \(\eta>0\).
+8. **PROVED.** On four-full integer norms, where every prime divisor occurs at least four times, the coefficient \(2/3\) improves to \(1/2\).
+9. **PROVED.** In a genuine low-height cluster, every finite-order prime coordinate in the exponent quotient has order at least \(\exp(c_\delta M)\) for large \(M\). This uses two complex logarithms. The rank theorem transfers to both function fields, whereas the order inequality fails on the binary Walsh family.
+10. **COMPUTED.** At \(q=383\), all 95 moment lifts, all 17,766 pair margins, and all 124 prescribed coordinates in the angle-separation construction passed exact checks. [Arithmetic checks](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/free/viii_window_check.py) · [Erasure checks](/tmp/claude-0/-home-user-Jarnik/ba4929a4-8665-5790-985a-3f09130a14b9/scratchpad/astra/free/viii_erasure_check.py)
+11. **HEURISTIC (verdict).** I agree with closing the function-field programme. I did not improve the unrestricted integer growth rate or its coefficient \(2/3\).
+12. **Referee request.** Please check the mod-four support bound, the count of intermediate-length words with vanishing initial moments, and the ordered residue witnesses first. Those three steps decide whether the low-height barrier can be recorded at the point-residue level.

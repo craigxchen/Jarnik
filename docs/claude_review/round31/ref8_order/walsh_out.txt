@@ -1,0 +1,4 @@
+M= 4 rank 3 index 16 orders of block indicators {4}
+M= 8 rank 7 index 4096 orders of block indicators {8}
+M= 16 rank 15 index 4294967296 orders of block indicators {16}
+M= 32 rank 31 index 1208925819614629174706176 orders of block indicators {32}

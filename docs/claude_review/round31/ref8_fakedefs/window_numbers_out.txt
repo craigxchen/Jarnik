@@ -1,0 +1,20 @@
+Part 1: shortest window of q-1 split primes inside [P, 2P], P = q^d
+ q=103 d=1.9900 P=10129 split primes in [P,2P]=525 sigma=9.915e-02 1/(4r)=2.451e-03 sigma*4r=40.5  J1 threshold 16r(r-1)e^(-1/4r)=1.644e+05 vs p_min=18229 (J1 window possible: False); sigma*sqrt(q log q)=2.166
+ q=383 d=1.9900 P=138218 split primes in [P,2P]=5649 sigma=3.377e-02 1/(4r)=6.545e-04 sigma*4r=51.6  J1 threshold 16r(r-1)e^(-1/4r)=2.327e+06 vs p_min=265861 (J1 window possible: False); sigma*sqrt(q log q)=1.612
+ q=1019 d=1.9900 P=968872 split primes in [P,2P]=34205 sigma=1.504e-02 1/(4r)=2.456e-04 sigma*4r=61.2  J1 threshold 16r(r-1)e^(-1/4r)=1.656e+07 vs p_min=1888753 (J1 window possible: False); sigma*sqrt(q log q)=1.263
+ q=383 d=1.9167 P=89357 split primes in [P,2P]=3778 sigma=5.116e-02 1/(4r)=6.545e-04 sigma*4r=78.2  J1 threshold 16r(r-1)e^(-1/4r)=2.327e+06 vs p_min=169633 (J1 window possible: False); sigma*sqrt(q log q)=2.442
+ q=1019 d=1.9167 P=582998 split primes in [P,2P]=21325 sigma=2.410e-02 1/(4r)=2.456e-04 sigma*4r=98.1  J1 threshold 16r(r-1)e^(-1/4r)=1.656e+07 vs p_min=1137673 (J1 window possible: False); sigma*sqrt(q log q)=2.024
+Part 1b: q=383, |S|=|A|=191, sigma=3.377e-02: min pair margin over 5 random permutations [np.float64(24.314), np.float64(24.278), np.float64(24.305), np.float64(24.298), np.float64(24.305)] vs 2 log p_min = 24.981; equal-weight worst case 2 log p_min - (q-1) sigma = 12.081
+Part 2: asymptotic bookkeeping (m = rho q/2, r = q-1, P_+ <= 2 q^d, W = 2 (q-1) log P(1+o(1)))
+ d=1.9900 rho=0.995 q=1e3: log P_+/log m=2.3254 W/(m log m)=8.891 (limit 4d/rho=8.000) Lambda>=0.366 ThmA: Haar prop <= exp(-0.799) m_free/m=1.010
+ d=1.9900 rho=0.995 q=1e6: log P_+/log m=2.1488 W/(m log m)=8.426 (limit 4d/rho=8.000) Lambda>=0.379 ThmA: Haar prop <= exp(-0.828) m_free/m=1.010
+ d=1.9900 rho=0.995 q=1e12: log P_+/log m=2.0673 W/(m log m)=8.207 (limit 4d/rho=8.000) Lambda>=0.406 ThmA: Haar prop <= exp(-0.887) m_free/m=1.010
+ d=1.9900 rho=0.995 q=1e30: log P_+/log m=2.0205 W/(m log m)=8.082 (limit 4d/rho=8.000) Lambda>=0.499 ThmA: Haar prop <= exp(-1.09) m_free/m=1.010
+ d=1.9900 rho=0.995 q=1e100: log P_+/log m=1.9991 W/(m log m)=8.024 (limit 4d/rho=8.000) Lambda>=1.12 ThmA: Haar prop <= exp(-2.44) m_free/m=1.010
+ d=1.9900 rho=0.995 q=1e200: log P_+/log m=1.9945 W/(m log m)=8.012 (limit 4d/rho=8.000) Lambda>=3.54 ThmA: Haar prop <= exp(-7.72) m_free/m=1.010
+ d=1.9167 rho=0.999 q=1e3: log P_+/log m=2.2423 W/(m log m)=8.523 (limit 4d/rho=7.674) Lambda>=0.472 ThmA: Haar prop <= exp(-1.03) m_free/m=1.002
+ d=1.9167 rho=0.999 q=1e6: log P_+/log m=2.0709 W/(m log m)=8.080 (limit 4d/rho=7.674) Lambda>=0.629 ThmA: Haar prop <= exp(-1.37) m_free/m=1.002
+ d=1.9167 rho=0.999 q=1e12: log P_+/log m=1.9918 W/(m log m)=7.872 (limit 4d/rho=7.674) Lambda>=1.12 ThmA: Haar prop <= exp(-2.43) m_free/m=1.002
+ d=1.9167 rho=0.999 q=1e30: log P_+/log m=1.9463 W/(m log m)=7.752 (limit 4d/rho=7.674) Lambda>=6.29 ThmA: Haar prop <= exp(-13.7) m_free/m=1.002
+ d=1.9167 rho=0.999 q=1e100: log P_+/log m=1.9255 W/(m log m)=7.698 (limit 4d/rho=7.674) Lambda>=5.19e+03 ThmA: Haar prop <= exp(-1.13e+04) m_free/m=1.002
+ d=1.9167 rho=0.999 q=1e200: log P_+/log m=1.9211 W/(m log m)=7.686 (limit 4d/rho=7.674) Lambda>=7.62e+07 ThmA: Haar prop <= exp(-1.66e+08) m_free/m=1.002

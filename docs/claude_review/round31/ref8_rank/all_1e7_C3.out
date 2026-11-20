@@ -1,0 +1,6 @@
+number of N: 814182
+== all split N <= 1e+07, C <= 3
+ M  windows  max(M-1-omega)  max(M-1-rank)  minC(rank-def) ex  minC(omega-def) ex  negctrl-dep  minC ex
+2 507521 0 0 - None - None 0 None
+3 26809 1 1 2.0 (25, 3, 1, 1, 2.0) 2.0 (25, 3, 1, 1, 2.0) 0 None
+4 972 1 1 2.49033 (1625, 4, 2, 2, 2.490329) 2.49033 (1625, 4, 2, 2, 2.490329) 0 None

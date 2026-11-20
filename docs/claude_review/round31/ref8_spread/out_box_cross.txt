@@ -1,0 +1,10 @@
+P=138218, primes 138241..147137, sigma=0.0624, sqrt(P)*sigma=23.2
+lattice classes in the annulus: 7005
+(i) genuine                max (#model angles)/(#lattice classes) over boxes = 1.00  at (k primes, r angles, lattice)=(1, 1, np.int64(1))
+(i) concentrated(VIII.3)   max (#model angles)/(#lattice classes) over boxes = 64.00  at (k primes, r angles, lattice)=(32, 32, np.int64(0))
+(i) spread(VIII.4)         max (#model angles)/(#lattice classes) over boxes = 6.00  at (k primes, r angles, lattice)=(4, 3, np.int64(0))
+(i) Haar                   max (#model angles)/(#lattice classes) over boxes = 6.00  at (k primes, r angles, lattice)=(8, 3, np.int64(0))
+(ii) genuine                primes failing |sin(phi-arg w)| >= c/p for some N w <= p:  c=1: 0,  c=0.1: 0  (of 382)
+(ii) concentrated(VIII.3)   primes failing |sin(phi-arg w)| >= c/p for some N w <= p:  c=1: 213,  c=0.1: 25  (of 382)
+(ii) spread(VIII.4)         primes failing |sin(phi-arg w)| >= c/p for some N w <= p:  c=1: 226,  c=0.1: 25  (of 382)
+(ii) Haar                   primes failing |sin(phi-arg w)| >= c/p for some N w <= p:  c=1: 198,  c=0.1: 14  (of 382)

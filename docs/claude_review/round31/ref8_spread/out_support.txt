@@ -1,0 +1,10 @@
+q=11 eigenvalue g=1 mod 3: eigenspace dim 6, min weight 6, sqrt(q)=3.32
+q=11 eigenvalue g=2 mod 3: eigenspace dim 6, min weight 6, sqrt(q)=3.32
+q=23 eigenvalue g=1 mod 3: eigenspace dim 12, min weight 9, sqrt(q)=4.80
+q=23 eigenvalue g=2 mod 3: eigenspace dim 12, min weight 9, sqrt(q)=4.80
+q=127 |supp v|=1: min |supp(Kv mod 3)| = 126; bound sqrt(q)-k-1 = 9.27
+q=127 |supp v|=2: min |supp(Kv mod 3)| = 64; bound sqrt(q)-k-1 = 8.27
+q=127 |supp v|=3: min |supp(Kv mod 3)| = 92; bound sqrt(q)-k-1 = 7.27
+q=383 |supp v|=1: min |supp(Kv mod 3)| = 382; bound sqrt(q)-k-1 = 17.57
+q=383 |supp v|=2: min |supp(Kv mod 3)| = 192; bound sqrt(q)-k-1 = 16.57
+q=383 |supp v|=3: min |supp(Kv mod 3)| = 284; bound sqrt(q)-k-1 = 15.57

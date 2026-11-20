@@ -1,0 +1,1 @@
+deterministic interpolation lifts s=1..95 OK; max |coefficient| = 7558

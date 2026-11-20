@@ -1,0 +1,14 @@
+n=2 depth k=0: classes=81, nonempty sectors=1, max per sector=81, area 9^n/3^k=81.00
+n=2 depth k=1: classes=81, nonempty sectors=3, max per sector=27, area 9^n/3^k=27.00
+n=2 depth k=2: classes=81, nonempty sectors=9, max per sector=9, area 9^n/3^k=9.00
+n=2 depth k=3: classes=81, nonempty sectors=25, max per sector=9, area 9^n/3^k=3.00
+n=2 depth k=4: classes=81, nonempty sectors=61, max per sector=9, area 9^n/3^k=1.00
+n=2 depth k=5: classes=81, nonempty sectors=61, max per sector=9, area 9^n/3^k=0.33
+n=3 depth k=0: classes=729, nonempty sectors=1, max per sector=729, area 9^n/3^k=729.00
+n=3 depth k=1: classes=729, nonempty sectors=3, max per sector=243, area 9^n/3^k=243.00
+n=3 depth k=2: classes=729, nonempty sectors=9, max per sector=81, area 9^n/3^k=81.00
+n=3 depth k=3: classes=729, nonempty sectors=27, max per sector=27, area 9^n/3^k=27.00
+n=3 depth k=4: classes=729, nonempty sectors=79, max per sector=27, area 9^n/3^k=9.00
+n=3 depth k=5: classes=729, nonempty sectors=223, max per sector=27, area 9^n/3^k=3.00
+n=3 depth k=6: classes=729, nonempty sectors=547, max per sector=27, area 9^n/3^k=1.00
+n=3 depth k=7: classes=729, nonempty sectors=547, max per sector=27, area 9^n/3^k=0.33

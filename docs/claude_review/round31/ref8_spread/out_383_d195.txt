@@ -1,0 +1,13 @@
+q=383: positive rows of column 0: 191 (=(q-1)/2: True)
+  pairs in A: 18145; set of l1 distances on I: [384]
+  mode=random: |S|=188, |S^c|=195, pairs in S: 17578
+  moment lifts s=1..95: congruences and constant K_S-evaluations (with and without column 0) OK; max|tau|=32 (sqrt(q log q)=47.7); max sup of lift=9619 (q^1.5 sqrt(log q)=18280)
+  spread: |T|=140 (sqrt q=19.6); 0 in T: False; rank_F3 K_(S^c,T) = 140
+  integral row windings on S (with and without column 0): OK; winding range [-30,38]
+  separation: min |b_j-b_k| = 1/1149 (1/(3q)=1/1149), min |b_j+b_k| = 1/2298 (1/(6q)=1/2298)
+  min dist(b_j, Z/2) over I = 3.068e-02; 10 P^(-1/2) = 3.030e-02
+  length-4 balanced words (distinct labels <60) at a centre: 11056; with nonvanishing first power sum: 0
+
+real	0m7.217s
+user	0m7.288s
+sys	0m0.036s

@@ -14,7 +14,7 @@
 > *Round 20* tested four further lenses; all were killed and neither growth nor uniformity moved. It capped robust composite-supported analytic inputs (proved, killer-checked), reduced genus-0 Arakelov theory to pairs, $\tau^*$ and rank, showed unlikely intersections in tori vacuous or capped at $\omega(N')$, and proved that gcd-normalising a tuple changes nothing any recorded method sees (killer Lemma K1; §5.4 rows 17–20).
 > It added a second self-contained Diophantine formulation next to $(L_8)$: the 5-point statement $(L_5^\circ)$, which gives the uniform theorem (proved) and is predicted by a Vojta instance $V_E(5)$ on a 4-fold (conditional); $(L_5^\circ)$ is open and Liouville-tight for every recorded method, and its 4-point analogue is false (proved). All of this is killer-checked only (§4.3, §7.1A).
 > §7 states the smallest open problems; every statement carries a status label and a file pointer, and §8.2 lists the referee corrections.
-> *Round 21* examined the low-height window $P_+(N')\le M^{2-\delta}$, the one regime with no known fake. **Its status is unchanged: open.** No restricted growth theorem was proved inside it, and it is not capped. The rate is unchanged everywhere (`round21/README.md` §§0, 2).
+> *Round 21* examined the low-height window $P_+(N')\le M^{2-\delta}$, the one regime with no known fake. **Its status is unchanged: open.** No restricted growth theorem was proved inside it, and it is not capped. *(Superseded in part by round 31, Part VIII, `round31/README_VIII.md`: fakes exist in the window for $\delta<1/12$, for inputs up to point residues at moduli $\le2M$.)* The rate is unchanged everywhere (`round21/README.md` §§0, 2).
 > Proved, refereed: below the window, $P_+(N')=o(\log R)$ gives $M=o(\log R/\log\log R)$. This is a restricted result and a corollary of `round8/stability.md` Thm 3.3, and near-extremal clusters have $P_+(N')\ge c_\varepsilon M\log M$ (`round21/prove.md` Thm 2.1, Cors 2.2–2.3).
 > Proved, refereed: in the window, union-bound/Haar completion of fakes succeeds with probability at most $e^{-c M^{\delta/2}}$ when the free dimension is $m\ge cM$, which is not a non-existence proof. Angle models are genuine on complete initial segments of split primes, and arithmetic models are actual clusters. Every model satisfies the cluster-only large sieve at the genuine constant and the union large sieve at twice it (`round21/fakes.md` Thms A, C, LS, Lemma T).
 > Still uncapped in the window: the union large sieve at the genuine constant, GRH-quality prime sums and box counts, and pinned profiles ($m=0$). The fake side reduces to an existence question (Q), and neither answer gives growth (judge J2, **unrefereed**; §5.5). The judge recommends stopping.
@@ -990,12 +990,17 @@ $p_j\le M^{h_0}$, $X=3M^A$ and $A$ is chosen after $c_0$ (`round9/README.md` §0
   models. Used in full they are the problem itself: the additive gap is violated by almost every fake,
   but its universal form is strictly stronger than growth (`round10/additive.md`).
 * **ZE and its algebraic-point form** (the zero estimate of route 5; §6.2 items 1–2): open, unclassified.
-* **Prime-weight concentration**: every known fake puts its primes in one window $[P,Pe^{1/(4r)}]$.
+* **Prime-weight concentration**: every fake known before round 31 puts its primes in one window $[P,Pe^{1/(4r)}]$
+  (the window fakes of round 31, Part VIII, use primes spread over $[P,2P]$; `round31/README_VIII.md` §1.5).
   Whether near-extremal actual clusters must do so is open (`round8/README.md` §2.5 item 6;
   `round8/stability.md` §9.3). If they had to, the problem would become one about angles of Gaussian
   primes in very short intervals.
 * **The low-height window** $P_+(N')\le M^{2-\delta}$: **uncapped, and no restricted growth theorem is known there**.
-  This is the round-21 status (`round21/README.md` §§2–3; referee-corrected). No fakes are known there.
+  This is the round-21 status (`round21/README.md` §§2–3; referee-corrected). No fakes were known there.
+  **Round 31, Part VIII (`round31/README_VIII.md`): capped for $0<\delta<1/12$** for pair, monomial-gap,
+  rational-character and point-residue inputs at moduli $\le2M$, at $W\le(23/3+o(1))M\log M$; open for
+  $\delta\ge1/12$ and for the inputs listed there in §3(e). Actual clusters have $P_+(N')\ge(2-o(1))M\log M$
+  (expert note, Theorem 1.2).
   * *Why the record's fakes need $P\gtrsim r^2$.* An equal-weight window $[a,ae^{1/(4r)}]$ holding $r$ split primes needs
     $a\ge16r(r-1)e^{-1/(4r)}$ (judge J1; **unrefereed**, exact check). Haar/union-bound completion succeeds on a
     realisation coset with probability $\le\exp(-2.17\sum_{j\in J}p_j^{-1/2})$, where $|J|=m$ is the free dimension.
@@ -1705,7 +1710,8 @@ answer is new: (T$'$) would be the first local growth mechanism; C1 would cap th
   equivalent to the uniform theorem.
 * **$\beta_M>2$?** Closed negatively: $\beta_M\le\tau^*(M)<2$ (§5.4 row 8).
 * **QS$^{\rm prod}$** (§6.7): refute it for $m=2$, $\delta,c\to1/2$ (cheap; decisive in one direction).
-* **The low-height window** $P_+(N')\le M^{2-\delta}$: no fakes are known; is there one? Round 21 reduced the
+* **The low-height window** $P_+(N')\le M^{2-\delta}$: no fakes were known; is there one? (Answered for
+  $\delta<1/12$ in round 31, Part VIII: yes, `round31/README_VIII.md`.) Round 21 reduced the
   $A_0$ part to question (Q) of §5.5, and showed that neither answer gives growth. The most tractable decisive item
   is to extend `round21/fakes.md` Prop A′ (positivity on the full torus up to $\Lambda\sim\frac14\log P$) to
   realisation cosets. That would cap the window for $A_0$, which is map value only (`round21/README.md` §7).
